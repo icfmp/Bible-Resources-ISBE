@@ -97,6 +97,11 @@ def main():
     for case in result["cases"]:
         highlights=", ".join(m["matched_text"] for m in case["matches"])
         print(f"  {case['article_key']!r} [{case['unit_xml_id']}]: {highlights}")
+        first = case["matches"][0]
+        start = max(0, first["start"] - 110)
+        stop = min(len(case["text"]), first["end"] + 110)
+        excerpt = " ".join(case["text"][start:stop].split())
+        print(f"    CONTEXT: {excerpt}")
 
 
 if __name__=="__main__":
