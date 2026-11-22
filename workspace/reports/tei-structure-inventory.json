@@ -119,5 +119,79 @@
     ]
   },
   "unqualified_element_examples": [],
-  "structural_anomaly_examples": {}
+  "structural_anomaly_examples": {},
+  "profile_status": "migration_required",
+  "profile_rule_findings": {
+    "untyped_reference": {
+      "count": 99068,
+      "example_entries": [
+        "A",
+        "A",
+        "AALAR",
+        "AARON",
+        "AARON",
+        "AARON",
+        "AARON",
+        "AARON"
+      ]
+    },
+    "legacy_crosswire_osisRef_attribute": {
+      "count": 93162,
+      "example_entries": [
+        "AARON",
+        "AARON",
+        "AARON",
+        "AARON",
+        "AARON",
+        "AARON",
+        "AARON",
+        "AARON"
+      ]
+    },
+    "index_head_not_typed": {
+      "count": 9380,
+      "example_entries": [
+        "A",
+        "AALAR",
+        "AARON",
+        "AARON'S ROD",
+        "AARONITES",
+        "AB (1)",
+        "AB (2)",
+        "ABACUC"
+      ]
+    },
+    "head_after_body_content_requires_section_division": {
+      "count": 27,
+      "example_entries": [
+        "ECCLESIASTES, THE PREACHER",
+        "EDEN",
+        "EGYPT",
+        "ELAM; ELAMITES",
+        "ELDER IN THE OLD TESTAMENT",
+        "ELISHA",
+        "ELLASAR",
+        "ENGLISH VERSIONS"
+      ]
+    },
+    "document_language_missing_or_incorrect": {
+      "count": 1,
+      "example_entries": [
+        "(document)"
+      ]
+    },
+    "revision_history_missing": {
+      "count": 1,
+      "example_entries": [
+        "(header)"
+      ]
+    },
+    "canonical_scripture_reference_declaration_missing": {
+      "count": 1,
+      "example_entries": [
+        "(header)"
+      ]
+    }
+  },
+  "profile_check_only": "ISBE subset, NOT official TEI P5 schema validation"
 }
