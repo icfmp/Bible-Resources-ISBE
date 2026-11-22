@@ -79,7 +79,8 @@ def inverted_definite_article_index(keys):
     return result
 
 
-def resolve_key(raw_key, ids, normalized, separators=None, aliases=None, inversions=None):
+def resolve_key(raw_key, ids, normalized, separators=None, aliases=None,
+                inversions=None, reviewed=None):
     """Resolve only unique case, spacing or terminal-dot variations."""
     if raw_key in ids:
         return raw_key, "exact"
@@ -113,6 +114,8 @@ def resolve_key(raw_key, ids, normalized, separators=None, aliases=None, inversi
             return candidates[0], "inverted_definite_article"
         if len(candidates) > 1:
             return None, "ambiguous"
+    if reviewed is not None and raw_key in reviewed:
+        return reviewed[raw_key], "reviewed_title_alias"
     return None, "not_found"
 
 
@@ -206,7 +209,8 @@ def unique_numbered_paragraph(article, marker):
     return matches[0] if len(matches) == 1 and matches[0] else None
 
 
-def build(imp):
+def build(imp, reviewed=None):
+    reviewed = reviewed or {}
     records = list(entries_from_imp(imp))
     ids = {}
     for key, _ in records:
@@ -216,6 +220,12 @@ def build(imp):
         if aid in ids.values():
             raise ValueError(f"Article ID collision: {key}")
         ids[key] = aid
+
+    for original, destination in reviewed.items():
+        if destination not in ids:
+            raise ValueError(f"Unknown reviewed alias destination: {original} -> {destination}")
+        if original in ids:
+            raise ValueError(f"Reviewed alias overrides an existing index key: {original}")
 
     normalized = {}
     for key in ids:
@@ -302,7 +312,7 @@ def build(imp):
             target = element.attrib.get("target", "")
             if target.startswith("ISBE:"):
                 link_key = target[5:]
-                resolved_key, reason = resolve_key(link_key, ids, normalized, separators, aliases, inversions)
+                resolved_key, reason = resolve_key(link_key, ids, normalized, separators, aliases, inversions, reviewed)
                 if resolved_key is not None:
                     element.set("n", target)
                     element.set("target", "#" + ids[resolved_key])
@@ -516,13 +526,29 @@ def build(imp):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--input", type=Path, required=True)
+    p.add_argument("--accepted-aliases", type=Path,
+                   help="Reviewed source-key to destination-key mappings with rationales")
     p.add_argument("--output", type=Path, required=True)
     p.add_argument("--index", type=Path, required=True)
     p.add_argument("--report", type=Path, required=True)
     p.add_argument("--expected-entries", type=int, default=9380)
     args = p.parse_args()
     raw = args.input.read_bytes().decode("utf-8", errors="strict")
-    root, index, report = build(raw)
+    reviewed = {}
+    if args.accepted_aliases:
+        choices = json.loads(args.accepted_aliases.read_text(encoding="utf-8"))
+        if choices.get("schema_version") != 1:
+            raise ValueError("Unsupported accepted-title-aliases schema")
+        for row in choices.get("mappings", []):
+            source_key = row["source_target"]
+            destination = row["destination_article"]
+            basis = row["basis"]
+            if not isinstance(basis, str) or len(basis.strip()) < 20:
+                raise ValueError(f"Missing editorial basis for {source_key}")
+            if source_key in reviewed:
+                raise ValueError(f"Duplicate reviewed source target {source_key}")
+            reviewed[source_key] = destination
+    root, index, report = build(raw, reviewed=reviewed)
     if report["source_entries"] != args.expected_entries:
         raise ValueError(f"Entry count differs from expected: {report['source_entries']}")
     for path in (args.output, args.index, args.report):
@@ -566,6 +592,11 @@ def main():
         raise ValueError("Serialized TEI unresolved link total differs from report")
     report["resolved_internal_links_validated"] = resolved_seen
     report["xml_id_uniqueness"] = "validated"
+    report["reviewed_title_alias_count"] = len(reviewed)
+    report["reviewed_title_aliases_used"] = sorted(
+        row["original"] for row in report["resolved_variant_links"]
+        if row["rule"] == "reviewed_title_alias"
+    )
 
     args.index.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
