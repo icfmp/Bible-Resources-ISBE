@@ -76,6 +76,7 @@ def build(imp):
 
     unsupported = Counter()
     missing_refs = Counter()
+    title_variants = []
     text_chars = 0
     nodes = 0
     manifest = []
@@ -88,7 +89,7 @@ def build(imp):
         if root_tag != "entryFree":
             unsupported[root_tag] += 1
         if source.attrib.get("n") not in (None, key):
-            raise ValueError(f"Title mismatch in article {key!r}: {source.attrib.get('n')!r}")
+            title_variants.append({"key": key, "source_title": source.attrib["n"]})
 
         original_text = "".join(source.itertext())
         text_chars += len(original_text)
@@ -139,6 +140,7 @@ def build(imp):
     report = {"source_entries": len(records), "tei_entries": len(body),
               "indexed_content_nodes": nodes, "source_text_characters": text_chars,
               "other_root_tags": dict(unsupported),
+              "source_title_variants": title_variants,
               "unresolved_isbe_links": dict(missing_refs),
               "unresolved_link_occurrences": sum(missing_refs.values()),
               "text_integrity": "validated for every entry"}
