@@ -18,6 +18,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_research_1915_print_pages.py'
 
   research-volumes:
+    # Large external PDF retrieval is explicit research, not a routine PR gate.
+    if: github.event_name == 'workflow_dispatch'
     needs: offline-tests
     strategy:
       fail-fast: false
