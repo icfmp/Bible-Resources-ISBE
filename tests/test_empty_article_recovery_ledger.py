@@ -47,7 +47,7 @@ class EmptyArticleRecoveryLedgerTests(unittest.TestCase):
         ))
         self.assertEqual(
             sum(row["genre_hypothesis"] == "historical_cross_reference"
-                for row in ledger["cases"]), 10
+                for row in ledger["cases"]), 11
         )
         self.assertFalse(any(row["source_recovery_approved"] for row in ledger["cases"]))
 
