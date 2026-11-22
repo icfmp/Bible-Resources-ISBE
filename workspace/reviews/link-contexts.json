@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 609,
+  "total_unresolved_occurrences": 607,
   "category_counts": {
-    "ambiguous_semicolon_alias": 14,
+    "ambiguous_semicolon_alias": 12,
     "requires_review": 595
   },
   "exclusive_scripture_numbered_candidates": [],
@@ -48,24 +48,6 @@
         "WINEFAT; WINE PRESS; WINEVAT"
       ],
       "context": "No clearer picture to correspond with present-day practice in vine culture (see VINE) in Palestine could be given than that mentioned in Isa 5:1,6. Grapes probably served"
-    },
-    {
-      "article_key": "ATHANASIAN; CREED",
-      "original_target": "CREED",
-      "candidates": [
-        "ATHANASIAN; CREED",
-        "CREED; CREEDS"
-      ],
-      "context": "ath-a-na'-zhan. See CREED."
-    },
-    {
-      "article_key": "CHIEF FRIENDS; GOOD MEN",
-      "original_target": "CHIEF FRIENDS",
-      "candidates": [
-        "CHIEF FRIENDS; GOOD MEN",
-        "FRIENDS; CHIEF FRIENDS"
-      ],
-      "context": "See CHIEF FRIENDS; GOOD, CHIEF; CHIEF."
     },
     {
       "article_key": "CRAFTS",
@@ -1103,21 +1085,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "erets, \"the earth,\" is in general the surface of the earth, the dry land inhabited by man and beast. Hence \"the pillars\" of the earth (Job 9:6) are the rocks that bear up that surface, for as has been shown, it was quite clear to the author of the Book of Job, and to the primitive astronomers, that our world was unsupported in space. For \"Vault of the Earth\" see EARTH, VAULT OF."
-    },
-    {
-      "article_key": "ATHANASIAN; CREED",
-      "ref_id": "isbe-50a0fd000fb72bf2b70a-n000004",
-      "original_target": "CREED",
-      "displayed_text": "CREED",
-      "candidate_key": null,
-      "alias_candidates": [
-        "ATHANASIAN; CREED",
-        "CREED; CREEDS"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "ambiguous_semicolon_alias",
-      "context": "ath-a-na'-zhan. See CREED."
     },
     {
       "article_key": "ATHEISM",
@@ -2178,21 +2145,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See CHESTNUT."
-    },
-    {
-      "article_key": "CHIEF FRIENDS; GOOD MEN",
-      "ref_id": "isbe-985c8c89102202c7423d-n000004",
-      "original_target": "CHIEF FRIENDS",
-      "displayed_text": "CHIEF FRIENDS",
-      "candidate_key": null,
-      "alias_candidates": [
-        "CHIEF FRIENDS; GOOD MEN",
-        "FRIENDS; CHIEF FRIENDS"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "ambiguous_semicolon_alias",
-      "context": "See CHIEF FRIENDS; GOOD, CHIEF; CHIEF."
     },
     {
       "article_key": "CHILDREN OF THE BRIDECHAMBER",

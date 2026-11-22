@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 609,
-  "unresolved_distinct_targets": 341,
+  "unresolved_occurrences": 607,
+  "unresolved_distinct_targets": 339,
   "categories_by_occurrence": {
     "article_section_label": 56,
     "multiple_numbered_entries": 148,
     "single_numbered_entry_candidate": 3,
-    "unmatched_heading_or_alias": 402
+    "unmatched_heading_or_alias": 400
   },
   "review_queue": [
     {
@@ -566,13 +566,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "CHIEF FRIENDS",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "CHRIST",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -644,13 +637,6 @@
     },
     {
       "source_target": "CREATION; GOD",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "CREED",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],

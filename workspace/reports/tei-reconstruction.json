@@ -2680,6 +2680,21 @@
     }
   ],
   "resolved_scripture_disambiguation_occurrences": 25,
+  "resolved_redirect_alias_links": [
+    {
+      "article_key": "ATHANASIAN; CREED",
+      "original": "CREED",
+      "destination_article": "CREED; CREEDS",
+      "occurrences": 1
+    },
+    {
+      "article_key": "CHIEF FRIENDS; GOOD MEN",
+      "original": "CHIEF FRIENDS",
+      "destination_article": "FRIENDS; CHIEF FRIENDS",
+      "occurrences": 1
+    }
+  ],
+  "resolved_redirect_alias_occurrences": 2,
   "unresolved_link_diagnostics": [
     {
       "original": "14. LITERATURE.",
@@ -3047,11 +3062,6 @@
       "occurrences": 1
     },
     {
-      "original": "CHIEF FRIENDS",
-      "reason": "ambiguous",
-      "occurrences": 1
-    },
-    {
       "original": "CHRIST",
       "reason": "not_found",
       "occurrences": 1
@@ -3104,11 +3114,6 @@
     {
       "original": "CREATION; GOD",
       "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "CREED",
-      "reason": "ambiguous",
       "occurrences": 1
     },
     {
@@ -4450,7 +4455,6 @@
     "SHERGHAT": 1,
     "GOLDEN": 1,
     "EARTH, VAULT OF": 1,
-    "CREED": 1,
     "CREATION; GOD": 1,
     "EXODUS": 7,
     "ON": 2,
@@ -4517,7 +4521,6 @@
     "TEMPLE, II, 4": 1,
     "ERI-AKU, 4": 1,
     "CHESTNUT": 1,
-    "CHIEF FRIENDS": 1,
     "BRIDE-CHAMBER, SONS": 1,
     "EXALTATION OF CHRIST": 1,
     "PAUL": 4,
@@ -4730,8 +4733,8 @@
     "PERSIAN RELIGION": 2,
     "ZIPH": 1
   },
-  "unresolved_link_occurrences": 609,
+  "unresolved_link_occurrences": 607,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5470,
+  "resolved_internal_links_validated": 5472,
   "xml_id_uniqueness": "validated"
 }
