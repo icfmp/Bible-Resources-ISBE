@@ -793,6 +793,12 @@
       "occurrences": 1
     },
     {
+      "original": "DAY OF THE LORD",
+      "resolved_to": "DAY OF THE LORD (YAHWEH)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 6
+    },
+    {
       "original": "DEACON",
       "resolved_to": "DEACON; DEACONESS",
       "rule": "explicit_semicolon_title_alias",
@@ -961,6 +967,12 @@
       "occurrences": 1
     },
     {
+      "original": "ECCLESIASTES",
+      "resolved_to": "ECCLESIASTES, THE PREACHER",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "EDOM",
       "resolved_to": "EDOM; EDOMITES",
       "rule": "explicit_semicolon_title_alias",
@@ -1063,6 +1075,12 @@
       "occurrences": 2
     },
     {
+      "original": "FAN",
+      "resolved_to": "FAN, FANNER",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "FELIX",
       "resolved_to": "FELIX; ANTONIUS",
       "rule": "explicit_semicolon_title_alias",
@@ -1129,6 +1147,12 @@
       "occurrences": 1
     },
     {
+      "original": "GERIZIM",
+      "resolved_to": "GERIZIM, MOUNT",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "GERSHON",
       "resolved_to": "GERSHON; GERSHONITES",
       "rule": "explicit_semicolon_title_alias",
@@ -1177,10 +1201,28 @@
       "occurrences": 3
     },
     {
+      "original": "HACHILAH",
+      "resolved_to": "HACHILAH, HILL OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "HAGARENES",
       "resolved_to": "HAGARENES; HAGARITES",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 1
+    },
+    {
+      "original": "HAMMEAH",
+      "resolved_to": "HAMMEAH, THE TOWER OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 4
+    },
+    {
+      "original": "HANANEL",
+      "resolved_to": "HANANEL, THE TOWER OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 3
     },
     {
       "original": "HANDS, IMPOSITION, LAYING ON OF",
@@ -1198,6 +1240,12 @@
       "original": "HATE",
       "resolved_to": "HATE; HATRED",
       "rule": "explicit_semicolon_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "HEAVENS, NEW",
+      "resolved_to": "HEAVENS, NEW (AND EARTH, NEW)",
+      "rule": "reviewed_title_alias",
       "occurrences": 1
     },
     {
@@ -1255,6 +1303,12 @@
       "occurrences": 1
     },
     {
+      "original": "ISHUAI",
+      "resolved_to": "ISHUAI, ISHUI",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "ISLE",
       "resolved_to": "ISLAND; ISLE",
       "rule": "explicit_semicolon_title_alias",
@@ -1277,6 +1331,12 @@
       "resolved_to": "JABNEEL; JABNEH",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 1
+    },
+    {
+      "original": "JASHAR",
+      "resolved_to": "JASHAR, BOOK OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
     },
     {
       "original": "JAW",
@@ -1303,6 +1363,12 @@
       "occurrences": 2
     },
     {
+      "original": "JEW",
+      "resolved_to": "JEW, JEWESS, JEWISH",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "JOHN, GOSPEL OF.",
       "resolved_to": "JOHN, GOSPEL OF",
       "rule": "terminal_period",
@@ -1321,6 +1387,12 @@
       "occurrences": 2
     },
     {
+      "original": "KINGDOM OF GOD",
+      "resolved_to": "KINGDOM OF GOD (OF HEAVEN), THE",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "KINSMAN",
       "resolved_to": "KINSMAN; KINSWOMAN",
       "rule": "explicit_semicolon_title_alias",
@@ -1331,6 +1403,12 @@
       "resolved_to": "KORAHITES; SONS OF KORAH",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 1
+    },
+    {
+      "original": "LAMENTATIONS",
+      "resolved_to": "LAMENTATIONS, BOOK OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
     },
     {
       "original": "LAMP",
@@ -1477,6 +1555,24 @@
       "occurrences": 1
     },
     {
+      "original": "MEMMIUS",
+      "resolved_to": "MEMMIUS, QUINTUS",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "MENE",
+      "resolved_to": "MENE, MENE, TEKEL, UPHARSIN",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "MEONENIM",
+      "resolved_to": "MEONENIM, OAK OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "MERCY",
       "resolved_to": "MERCY; MERCIFUL",
       "rule": "explicit_semicolon_title_alias",
@@ -1555,6 +1651,12 @@
       "occurrences": 1
     },
     {
+      "original": "NEAR",
+      "resolved_to": "NEAR, NIGH",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "NEPHISIM",
       "resolved_to": "NEPHISH; NEPHISIM; NEPHISHESIM; NEPHUSIM",
       "rule": "explicit_semicolon_title_alias",
@@ -1603,6 +1705,18 @@
       "occurrences": 1
     },
     {
+      "original": "PALAESTRA",
+      "resolved_to": "PALAESTRA, PALESTRA",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "PALLU",
+      "resolved_to": "PALLU, PALLUITES",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "PALSY",
       "resolved_to": "PALSY; PARALYSIS",
       "rule": "explicit_semicolon_title_alias",
@@ -1645,9 +1759,21 @@
       "occurrences": 1
     },
     {
+      "original": "PERSIAN RELIGION",
+      "resolved_to": "PERSIAN RELIGION (ANCIENT)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "PETER (SIMON)",
       "resolved_to": "PETER, SIMON",
       "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "PHILIPPIANS",
+      "resolved_to": "PHILIPPIANS, THE EPISTLE TO THE",
+      "rule": "reviewed_title_alias",
       "occurrences": 1
     },
     {
@@ -1735,6 +1861,12 @@
       "occurrences": 1
     },
     {
+      "original": "PSALMS",
+      "resolved_to": "PSALMS, BOOK OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 22
+    },
+    {
       "original": "PUAH",
       "resolved_to": "PUAH; PUVAH",
       "rule": "explicit_semicolon_title_alias",
@@ -1799,6 +1931,12 @@
       "resolved_to": "REVENGE; REVENGER",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 1
+    },
+    {
+      "original": "ROLL",
+      "resolved_to": "ROLL (SCROLL)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 4
     },
     {
       "original": "ROMAN",
@@ -1879,8 +2017,20 @@
       "occurrences": 1
     },
     {
+      "original": "SHEPHUPHAM",
+      "resolved_to": "SHEPHUPHAM, SHEPHUPHAN",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "SHERGHAT",
       "resolved_to": "SHERGHAT, ASSHUR, ASSUR",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "SHEW",
+      "resolved_to": "SHEW, SHOW",
       "rule": "reviewed_title_alias",
       "occurrences": 1
     },
@@ -1921,6 +2071,12 @@
       "occurrences": 1
     },
     {
+      "original": "SIDDIM",
+      "resolved_to": "SIDDIM, VALE OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "SIFT",
       "resolved_to": "SIEVE; SIFT",
       "rule": "explicit_semicolon_title_alias",
@@ -1943,6 +2099,12 @@
       "resolved_to": "SIMON THE CANAANITE; SIMON THE CANANAEAN; SIMON THE ZEALOT",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 1
+    },
+    {
+      "original": "SIRACH",
+      "resolved_to": "SIRACH, BOOK OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 3
     },
     {
       "original": "SLAVE",
@@ -2047,6 +2209,12 @@
       "occurrences": 1
     },
     {
+      "original": "SYCOMORE",
+      "resolved_to": "SYCOMORE, TREE",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "SYRIAN",
       "resolved_to": "SYRIAN; LANGUAGE",
       "rule": "explicit_semicolon_title_alias",
@@ -2125,6 +2293,12 @@
       "occurrences": 1
     },
     {
+      "original": "TOB",
+      "resolved_to": "TOB, THE LAND OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "TREASURY",
       "resolved_to": "TREASURE; TREASURER; TREASURY",
       "rule": "explicit_semicolon_title_alias",
@@ -2167,10 +2341,22 @@
       "occurrences": 3
     },
     {
+      "original": "VILE",
+      "resolved_to": "VILE, VILLANY",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "WAR",
       "resolved_to": "WAR; WARFARE",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 13
+    },
+    {
+      "original": "WEALTH",
+      "resolved_to": "WEALTH, WEALTHY",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
     },
     {
       "original": "WINE",
@@ -2182,6 +2368,12 @@
       "original": "WISDOM OF SOLOMON",
       "resolved_to": "WISDOM OF SOLOMON, THE",
       "rule": "inverted_definite_article",
+      "occurrences": 1
+    },
+    {
+      "original": "WIST",
+      "resolved_to": "WIST, WITTY, WOT",
+      "rule": "reviewed_title_alias",
       "occurrences": 1
     },
     {
@@ -2221,7 +2413,7 @@
       "occurrences": 1
     }
   ],
-  "resolved_variant_occurrences": 743,
+  "resolved_variant_occurrences": 820,
   "resolved_local_section_links": [
     {
       "article_key": "ACCOMMODATION",
@@ -3345,11 +3537,6 @@
       "occurrences": 1
     },
     {
-      "original": "DAY OF THE LORD",
-      "reason": "not_found",
-      "occurrences": 6
-    },
-    {
       "original": "DB",
       "reason": "not_found",
       "occurrences": 1
@@ -3393,11 +3580,6 @@
       "original": "EAST",
       "reason": "not_found",
       "occurrences": 2
-    },
-    {
-      "original": "ECCLESIASTES",
-      "reason": "not_found",
-      "occurrences": 1
     },
     {
       "original": "EDER",
@@ -3500,11 +3682,6 @@
       "occurrences": 1
     },
     {
-      "original": "FAN",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "FAST.",
       "reason": "not_found",
       "occurrences": 1
@@ -3540,11 +3717,6 @@
       "occurrences": 1
     },
     {
-      "original": "GERIZIM",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "GIHON",
       "reason": "not_found",
       "occurrences": 6
@@ -3565,11 +3737,6 @@
       "occurrences": 1
     },
     {
-      "original": "HACHILAH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "HAIL",
       "reason": "not_found",
       "occurrences": 1
@@ -3580,27 +3747,12 @@
       "occurrences": 3
     },
     {
-      "original": "HAMMEAH",
-      "reason": "not_found",
-      "occurrences": 4
-    },
-    {
-      "original": "HANANEL",
-      "reason": "not_found",
-      "occurrences": 3
-    },
-    {
       "original": "HAROD",
       "reason": "not_found",
       "occurrences": 1
     },
     {
       "original": "HDB",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "HEAVENS, NEW",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -3665,11 +3817,6 @@
       "occurrences": 1
     },
     {
-      "original": "ISHUAI",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "IV. COGNATE AND ILLUSTRATIVE BIBLICAL LANGUANGE",
       "reason": "not_found",
       "occurrences": 1
@@ -3690,22 +3837,12 @@
       "occurrences": 2
     },
     {
-      "original": "JASHAR",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "JEARIM",
       "reason": "not_found",
       "occurrences": 1
     },
     {
       "original": "JEHOSHAPHAT",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "JEW",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -3763,16 +3900,6 @@
       "original": "JUDICIAL",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "KINGDOM OF GOD",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "LAMENTATIONS",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "LAST",
@@ -3835,21 +3962,6 @@
       "occurrences": 1
     },
     {
-      "original": "MEMMIUS",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "MENE",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "MEONENIM",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "MICAH",
       "reason": "not_found",
       "occurrences": 3
@@ -3896,11 +4008,6 @@
     },
     {
       "original": "NATHANAEL",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "NEAR",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -3965,16 +4072,6 @@
       "occurrences": 1
     },
     {
-      "original": "PALAESTRA",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "PALLU",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "PARTITION",
       "reason": "not_found",
       "occurrences": 1
@@ -4000,11 +4097,6 @@
       "occurrences": 1
     },
     {
-      "original": "PERSIAN RELIGION",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "PERSON",
       "reason": "not_found",
       "occurrences": 1
@@ -4016,11 +4108,6 @@
     },
     {
       "original": "PHILIP",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "PHILIPPIANS",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -4053,11 +4140,6 @@
       "original": "PROPHET",
       "reason": "not_found",
       "occurrences": 3
-    },
-    {
-      "original": "PSALMS",
-      "reason": "not_found",
-      "occurrences": 22
     },
     {
       "original": "PUNISHMENT",
@@ -4093,11 +4175,6 @@
       "original": "ROAD",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "ROLL",
-      "reason": "not_found",
-      "occurrences": 4
     },
     {
       "original": "SALEM",
@@ -4160,24 +4237,9 @@
       "occurrences": 1
     },
     {
-      "original": "SHEPHUPHAM",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
-      "original": "SHEW",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "SHIMRON",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "SIDDIM",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "SIMEON",
@@ -4193,11 +4255,6 @@
       "original": "SIN",
       "reason": "not_found",
       "occurrences": 7
-    },
-    {
-      "original": "SIRACH",
-      "reason": "not_found",
-      "occurrences": 3
     },
     {
       "original": "SLAVONIC",
@@ -4216,11 +4273,6 @@
     },
     {
       "original": "SUCCOTH",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
-      "original": "SYCOMORE",
       "reason": "not_found",
       "occurrences": 2
     },
@@ -4288,11 +4340,6 @@
       "original": "TO",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "TOB",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "TONGUES",
@@ -4370,17 +4417,7 @@
       "occurrences": 1
     },
     {
-      "original": "VILE",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "VIRGIN",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "WEALTH",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -4388,11 +4425,6 @@
       "original": "WINE PRESS",
       "reason": "ambiguous",
       "occurrences": 4
-    },
-    {
-      "original": "WIST",
-      "reason": "not_found",
-      "occurrences": 1
     },
     {
       "original": "WORLD",
@@ -4447,7 +4479,6 @@
     "WINE PRESS": 4,
     "JEHOSHAPHAT": 1,
     "OHOLIAH": 1,
-    "PSALMS": 22,
     "JAIRUS": 1,
     "HDB": 1,
     "COVENANT": 2,
@@ -4525,7 +4556,6 @@
     "ADULTERY (2)": 2,
     "BOIL": 2,
     "BAR": 1,
-    "ROLL": 4,
     "JUDGMENT": 3,
     "LAST": 1,
     "FEASTS AND FASTS, I, 2": 1,
@@ -4558,7 +4588,6 @@
     "STIGMATA, MARK": 1,
     "ANTIOCH": 1,
     "ARMS, III": 1,
-    "DAY OF THE LORD": 6,
     "OF THE OLD TESTAMENT AND NEW TESTAMENT": 1,
     "JORDAN, VALLEY OF": 1,
     "DECEASE": 2,
@@ -4574,10 +4603,8 @@
     "AMULET; ORNAMENT": 1,
     "ANTHROPOLOGY; ASTRONOMY; EVOLUTION; WORLD": 1,
     "ESCHATOLOGY OF THE NEW TESTAMENT, IX": 1,
-    "HEAVENS, NEW": 1,
     "ABDON": 1,
     "LITERATURE.": 28,
-    "SIRACH": 3,
     "AVEN; BETH-EDEN; CHILDREN OF EDEN": 1,
     "V. LITERATURE": 2,
     "SCHOOL; SCHOOLMASTER": 1,
@@ -4622,17 +4649,12 @@
     "FIERCENESS": 1,
     "NUMBERS": 5,
     "GILEAD": 3,
-    "GERIZIM": 2,
     "MOREH": 1,
-    "HACHILAH": 1,
     "RIMMON": 3,
     "HEBREWS": 1,
     "HOARY": 1,
     "DRY": 1,
-    "PALAESTRA": 1,
     "JAPHETH": 2,
-    "HANANEL": 3,
-    "HAMMEAH": 4,
     "HERETH": 1,
     "ESDRAELON": 1,
     "HAROD": 1,
@@ -4644,21 +4666,17 @@
     "UZ": 1,
     "CHRIST": 1,
     "URIAS": 1,
-    "ISHUAI": 1,
     "ISHMAEL": 1,
     "JACOB": 1,
     "HAM": 3,
     "ICC": 1,
     "RAMOTH": 3,
-    "JASHAR": 2,
-    "LAMENTATIONS": 2,
     "OLIVES": 1,
     "MORIAH": 1,
     "POOL": 7,
     "SALEM": 1,
     "ZEDEK": 1,
     "AKRA": 1,
-    "JEW": 1,
     "JONAS": 1,
     "ZECHARIAH": 2,
     "JUDAH": 3,
@@ -4668,7 +4686,6 @@
     "HEBRON": 2,
     "SEPHER": 1,
     "DEBIR": 2,
-    "ECCLESIASTES": 1,
     "DAN": 1,
     "PUNISHMENT": 1,
     "DEBAR": 1,
@@ -4676,35 +4693,25 @@
     "VIRGIN": 1,
     "MEJARGON": 1,
     "MAKE": 1,
-    "MEMMIUS": 1,
     "TO": 1,
     "SAQQAREH": 1,
     "MICAH": 3,
     "PARTITION": 1,
-    "MEONENIM": 1,
     "PASSION": 1,
-    "SYCOMORE": 2,
     "NAARAH": 1,
     "NAMES": 1,
-    "NEAR": 1,
     "NOAH": 1,
     "NUN": 1,
-    "KINGDOM OF GOD": 1,
-    "PALLU": 2,
     "LOT": 3,
     "TONGUES": 1,
     "PERAZIM": 1,
-    "MENE": 1,
     "PERSON": 1,
-    "PHILIPPIANS": 1,
     "PHILIP": 1,
     "NEBO": 1,
-    "WEALTH": 1,
     "POETRY": 1,
     "SCORPIONS": 1,
     "JOEL": 1,
     "CUSTOM": 1,
-    "SIDDIM": 2,
     "SAMARIA": 1,
     "BOSHETH": 1,
     "SHAALIM": 1,
@@ -4712,8 +4719,6 @@
     "SEMITES": 1,
     "SHIMRON": 1,
     "CHALDEES": 1,
-    "SHEW": 1,
-    "SHEPHUPHAM": 2,
     "NORTHEAST": 1,
     "ALTAR OF INCENSE": 1,
     "TAMAR": 1,
@@ -4723,38 +4728,65 @@
     "ALTAR OF BURNT OFFERING": 1,
     "MORROW": 1,
     "REBELLION": 1,
-    "TOB": 2,
     "VEIL": 1,
-    "VILE": 1,
     "ESHCOL": 1,
-    "FAN": 1,
     "ADAM": 1,
     "TEMPLE KEEPERS": 1,
-    "WIST": 1,
-    "PERSIAN RELIGION": 2,
     "ZIPH": 1
   },
-  "unresolved_link_occurrences": 507,
+  "unresolved_link_occurrences": 430,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5572,
+  "resolved_internal_links_validated": 5649,
   "xml_id_uniqueness": "validated",
-  "reviewed_title_alias_count": 16,
+  "reviewed_title_alias_count": 48,
   "reviewed_title_aliases_used": [
     "BACK",
     "BILL",
     "CHESTNUT",
     "CHRIST AS KING",
     "COLOSSIANS",
+    "DAY OF THE LORD",
     "DEUTERO-CANONICAL",
+    "ECCLESIASTES",
+    "FAN",
+    "GERIZIM",
+    "HACHILAH",
+    "HAMMEAH",
+    "HANANEL",
+    "HEAVENS, NEW",
+    "ISHUAI",
+    "JASHAR",
+    "JEW",
+    "KINGDOM OF GOD",
+    "LAMENTATIONS",
     "LAST TIME",
     "MEALS",
+    "MEMMIUS",
+    "MENE",
+    "MEONENIM",
+    "NEAR",
+    "PALAESTRA",
+    "PALLU",
     "PARAN",
+    "PERSIAN RELIGION",
+    "PHILIPPIANS",
     "PROVERBS",
+    "PSALMS",
+    "ROLL",
+    "SHEPHUPHAM",
     "SHERGHAT",
+    "SHEW",
+    "SIDDIM",
+    "SIRACH",
     "SUSANNA",
     "SYCAMINE",
+    "SYCOMORE",
     "THORNS",
+    "TOB",
     "VALE",
+    "VILE",
+    "WEALTH",
+    "WIST",
     "WRATH"
   ]
 }
