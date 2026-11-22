@@ -33,6 +33,23 @@ class EmptyArticleRecoveryLedgerTests(unittest.TestCase):
             (row["print_volume"] is not None and row["printed_page"] is not None)
             for row in ledger["cases"]
         ))
+        # Every empty source entry must now have a provisional genre, while
+        # none may masquerade as an approved print-based transcription.
+        valid_genres = {"historical_article", "historical_cross_reference"}
+        self.assertTrue(all(
+            row.get("genre_hypothesis") in valid_genres
+            for row in ledger["cases"]
+        ))
+        self.assertTrue(all(
+            row.get("genre_evidence_url", "").startswith("https://")
+            and row.get("genre_reason", "").strip()
+            for row in ledger["cases"]
+        ))
+        self.assertEqual(
+            sum(row["genre_hypothesis"] == "historical_cross_reference"
+                for row in ledger["cases"]), 10
+        )
+        self.assertFalse(any(row["source_recovery_approved"] for row in ledger["cases"]))
 
 
 if __name__ == "__main__":
