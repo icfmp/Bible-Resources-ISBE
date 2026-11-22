@@ -48,7 +48,7 @@ def original_indexed_text(article):
     if not children or children[0].tag != Q("head"):
         raise ValueError("Article does not start with a head")
     return (children[0].tail or "") + "".join(
-        "".join(child.itertext()) for child in children[1:]
+        "".join(child.itertext()) + (child.tail or "") for child in children[1:]
     )
 
 
@@ -79,15 +79,14 @@ def survey(root):
             if node.tag == Q("head") and node.get("type") == "bibliography":
                 result["bibliography_heads"] += 1
     result["existing_xml_ids"] = len(ids)
-    result["source_links"] = (
-        result["internal_refs"] + result["unlinked_refs"] + result["bibliography_heads"] + 2
-    )
-    # Two source references were reclassified as bibliography leads, in addition
-    # to the 27 full-head replacements; they are <hi rend=bibliography-heading>.
-    # Count those rather than encoding that source detail as an unexplained constant.
+    # Bibliography-head hi elements are already included in the head count.
+    # Only standalone lead paragraphs count as additional source references.
     result["bibliography_leads"] = sum(
         node.tag == Q("hi") and node.get("rend") == "bibliography-heading"
-        for article in articles for node in article.iter()
+        and parent.tag != Q("head")
+        for article in articles
+        for parent in article.iter()
+        for node in parent
     )
     result["source_links"] = (
         result["internal_refs"] + result["unlinked_refs"] +
