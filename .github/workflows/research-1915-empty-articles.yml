@@ -1,7 +1,11 @@
-name: Compare empty ISBE entries with 1915 archive OCR
+name: Validate 1915 OCR research matcher
 
 on:
-  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/research_1915_empty_articles.py'
+      - 'tests/test_research_1915_empty_articles.py'
+      - '.github/workflows/research-1915-empty-articles.yml'
   pull_request:
     paths:
       - 'scripts/research_1915_empty_articles.py'
@@ -9,21 +13,9 @@ on:
       - '.github/workflows/research-1915-empty-articles.yml'
 
 jobs:
-  historical-ocr-triage:
+  test:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Unit tests
+      - name: Test offline witness matching
         run: python -m unittest discover -s tests -p 'test_research_1915_empty_articles.py'
-      - name: Compare all 31 empty entries against five archive text witnesses
-        run: |
-          python scripts/research_1915_empty_articles.py \
-            --ledger workspace/reviews/empty-article-recovery-ledger.json \
-            --report workspace/tmp/1915-empty-article-ocr-triage.json
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: isbe-1915-ocr-triage
-          path: workspace/tmp/1915-empty-article-ocr-triage.json
-          if-no-files-found: warn
