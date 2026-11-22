@@ -1,0 +1,56 @@
+name: Review primary 1915 prose page images
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/review-1915-prose-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  page-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {volume: "2", page: "499", key: "FROWARDNESS"}
+          - {volume: "5", page: "169", key: "THOMEI"}
+          - {volume: "2", page: "699", key: "HASRAH"}
+          - {volume: "4", page: "642", key: "SEPHARVITES"}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF image renderer
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Download exact original and verify provenance
+        shell: bash
+        env:
+          VOLUME: ${{ matrix.volume }}
+          PAGE: ${{ matrix.page }}
+          KEY: ${{ matrix.key }}
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 --retry-all-errors --connect-timeout 20 --max-time 360 "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${VOLUME}.pdf" -o /tmp/original.pdf
+          python - <<'PY'
+          import os, json, hashlib
+          from pathlib import Path
+          data=json.loads(Path('sources/print/1915-volume-witnesses.json').read_text())
+          v=next(x for x in data['volumes'] if x['volume']==os.environ['VOLUME'])
+          digest=hashlib.sha256(Path('/tmp/original.pdf').read_bytes()).hexdigest()
+          assert digest==v['pdf_sha256'], 'Wrong original PDF'
+          print('Original 1915 volume sha256 verified:', digest)
+          PY
+          pdftoppm -f "${PAGE}" -l "${PAGE}" -singlefile -jpeg -r 160 -jpegopt quality=80,optimize=y /tmp/original.pdf /tmp/source-page >/dev/null 2>&1
+          python - <<'PY'
+          import os,base64
+          from pathlib import Path
+          img=Path('/tmp/source-page.jpg').read_bytes()
+          b64=base64.b64encode(img).decode('ascii')
+          print('BEGIN_IMAGE:'+os.environ['KEY']+':'+str(len(img)))
+          for i in range(0,len(b64),2000):
+              print('IMG_CHUNK:'+b64[i:i+2000])
+          print('END_IMAGE:'+os.environ['KEY'])
+          PY
