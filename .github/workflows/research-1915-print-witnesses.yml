@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/research_1915_print_pages.py'
       - 'tests/test_research_1915_print_pages.py'
+      - 'sources/print/1915-volume-witnesses.json'
       - '.github/workflows/research-1915-print-witnesses.yml'
   workflow_dispatch:
 
@@ -46,6 +47,7 @@ jobs:
           python scripts/research_1915_print_pages.py \
             --pdf workspace/tmp/1915-research/volume-${{ matrix.volume }}.pdf \
             --volume "${{ matrix.volume }}" \
+            --witness-manifest sources/print/1915-volume-witnesses.json \
             --report workspace/tmp/1915-research/volume-${{ matrix.volume }}-headings.json
       - uses: actions/upload-artifact@v4
         if: always()
