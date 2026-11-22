@@ -1,20 +1,25 @@
-# Article interchange format (working specification)
+# Canonical TEI interchange format
 
-Canonical source: one UTF-8 JSON article per path `<article-id>.json` in each language directory. The example below **is illustrative only, not actual ISBE content**:
+The editorial master is **TEI XML**, one document per language edition. `cleaned/en/ISBE.xml` contains the complete digital-source transcription. Subsequent editions use the same article identifiers and (where structure is unchanged) the same text-unit identifiers.
 
-```json
-{
-  "id": "example-article",
-  "language": "en",
-  "title": "Example title",
-  "segments": [
-    { "id": "p001", "type": "paragraph", "text": "Example content." }
-  ]
-}
-```
+The document contains:
 
-Stable `id` refers to the ISBE article regardless of language or displayed title. Stable `segments[].id` refers to the same editorial unit across revisions and translations. Source formatting / annotations may require additional typed fields decided after inspection of the actual source; **do not flatten or discard** footnotes, references, poetry, headings or markup to conform to this example.
+- `<TEI>`, `<teiHeader>`, `<text>`, `<body>`.
+- One `<div type="entry" xml:id="isbe-…" n="ORIGINAL SWORD KEY">` per dictionary entry.
+- One `<head xml:id="…">` for its heading.
+- Source text units (`p`, `list`, `item`, etc.) and inline TEI elements (`ref`, `hi`, etc.) retained as found in the CrossWire source; each indexed content element receives an `xml:id`.
+- Cross-article targets are rewritten to `#isbe-…` when the original key exists, and the original `ISBE:KEY` is retained in `n`. References not resolvable to a source key remain unchanged and are reported. Biblical `osisRef` values remain untouched.
 
-Translated segments also include `source_hash`, computed as SHA-256 over UTF-8 bytes of the modern-English segment's `text` field. A mismatch signals translation staleness. If a segment is substantially split or merged, retain a mapping in an editorial decision record rather than recycling identifiers.
+## Stable IDs
 
-Avoid identifiers based solely on translated names; do not assume all dictionary headings represent independent articles. Determine alias and cross-reference behavior from the actual corpus before ingestion.
+Article IDs are `isbe-` plus the first 20 hexadecimal digits of SHA-256 over the **exact original SWORD key**. This avoids dependence on alphabetical ordering or translations. Content-element IDs incorporate the article ID and ordinal at initial ingestion. These IDs are fixed in the cleaned reference. Future modern-English editorial splits or merges require an explicit mapping rather than renumbering existing IDs.
+
+`article-index.json` lists each article's order, source key, ID, text length and SHA-256 of its extracted text. The JSON is **an index and audit artifact only**, not a competing editorial source.
+
+## Content integrity
+
+The extractor compares the complete Unicode text of each source entry with its reconstructed TEI, then parses the serialized output and checks each article's text SHA-256. No editorial substitutions or source corrections are permitted at this stage.
+
+The XML preserves inline TEI and source Bible references where present. It does not attempt to reproduce original printed layouts.
+
+The unresolved links and name variants in the reconstruction report require separate editorial review; do not automatically equate similar entries without evidence.
