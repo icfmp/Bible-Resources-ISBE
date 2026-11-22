@@ -50,6 +50,30 @@ class LocalHeadingTests(unittest.TestCase):
         self.assertEqual(ref.get("target"), "#" + heading.get(XMLID))
         self.assertEqual(report["resolved_local_section_occurrences"], 1)
 
+    def test_numbered_subentry_link_uses_unique_paragraph_id(self):
+        imp = """$$BETHABARA
+<entryFree n="BETHABARA"><p>See <ref target="ISBE:BETHANY (2)">BETHANY (2)</ref>.</p></entryFree>
+$$BETHANY
+<entryFree n="BETHANY"><p>(1) The Jerusalem village.</p><p>(2) Beyond Jordan.</p></entryFree>"""
+        root, _, report = build(imp)
+        source = next(a for a in root.iter() if a.tag == "{http://www.tei-c.org/ns/1.0}div" and a.get("n") == "BETHABARA")
+        target = next(a for a in root.iter() if a.tag == "{http://www.tei-c.org/ns/1.0}div" and a.get("n") == "BETHANY")
+        ref = next(el for el in source.iter() if el.tag == "ref")
+        destination = next(el for el in target.iter() if el.tag == "p" and el.text.startswith("(2)"))
+        self.assertEqual(ref.get("target"), "#" + destination.get(XMLID))
+        self.assertEqual(ref.get("n"), "ISBE:BETHANY (2)")
+        self.assertEqual(report["unresolved_link_occurrences"], 0)
+        self.assertEqual(report["resolved_numbered_section_occurrences"], 1)
+
+    def test_numbered_subentry_requires_matching_paragraph(self):
+        imp = """$$BELAITES
+<entryFree n="BELAITES"><p>See <ref target="ISBE:BELA (2)">BELA (2)</ref>.</p></entryFree>
+$$BELA
+<entryFree n="BELA"><p>See ZOAR.</p></entryFree>"""
+        _, _, report = build(imp)
+        self.assertEqual(report["unresolved_link_occurrences"], 1)
+        self.assertEqual(report["resolved_numbered_section_occurrences"], 0)
+
     def test_no_guess_for_repeated_plain_section_title(self):
         imp = """$$$ARTICLE
 <entryFree n="ARTICLE"><p><ref target="ISBE:LITERATURE">Literature</ref></p><p>Literature</p><p>Literature</p></entryFree>"""
