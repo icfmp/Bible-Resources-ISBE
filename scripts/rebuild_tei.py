@@ -272,6 +272,7 @@ def build(imp, reviewed=None, occurrence_mappings=None):
     resolved_numbered = Counter()
     resolved_scripture = Counter()
     resolved_redirect = Counter()
+    resolved_primary_alias = Counter()
     resolved_editorial_occurrences = []
     articles_by_key = {}
     title_variants = []
@@ -496,6 +497,38 @@ def build(imp, reviewed=None, occurrence_mappings=None):
                 del unresolved_details[reason_key]
             resolved_redirect[(source_key, source_target, destination_key)] += 1
 
+    # Some semicolon-combined entries have a primary headword equal to the
+    # unresolved link, while other articles mention that term only secondarily.
+    # Prefer the *unique first heading component*, except when that would
+    # produce a self-link. All original reference values are preserved.
+    for source_key, source_article in articles_by_key.items():
+        for element in source_article.iter():
+            target = element.get("target", "")
+            if not target.startswith("ISBE:"):
+                continue
+            source_target = target[5:]
+            owners = aliases.get(source_target.strip().casefold(), ())
+            if len(owners) < 2:
+                continue
+            primary = [key for key in owners
+                       if key.split(";", 1)[0].strip().casefold()
+                       == source_target.strip().casefold()]
+            if len(primary) != 1 or primary[0] == source_key:
+                continue
+            destination_key = primary[0]
+            element.set("n", target)
+            element.set("target", "#" + ids[destination_key])
+            missing_refs[source_target] -= 1
+            if missing_refs[source_target] == 0:
+                del missing_refs[source_target]
+            reason_key = (source_target, "ambiguous")
+            if unresolved_details.get(reason_key, 0) <= 0:
+                raise ValueError(f"Missing ambiguous alias accounting: {source_target}")
+            unresolved_details[reason_key] -= 1
+            if unresolved_details[reason_key] == 0:
+                del unresolved_details[reason_key]
+            resolved_primary_alias[(source_key, source_target, destination_key)] += 1
+
     # Explicit, evidence-based per-occurrence routing is used only where
     # an unqualified term has more than one possible encyclopedia entry.
     # The recorded source key, original target, reference ID and destination
@@ -582,6 +615,13 @@ def build(imp, reviewed=None, occurrence_mappings=None):
                   for (source, original, chosen), count in sorted(resolved_redirect.items())
               ],
               "resolved_redirect_alias_occurrences": sum(resolved_redirect.values()),
+              "resolved_primary_alias_links": [
+                  {"source_article": source, "original": original,
+                   "destination_article": destination, "occurrences": count}
+                  for (source, original, destination), count
+                  in sorted(resolved_primary_alias.items())
+              ],
+              "resolved_primary_alias_occurrences": sum(resolved_primary_alias.values()),
               "resolved_reviewed_occurrences": resolved_editorial_occurrences,
               "resolved_reviewed_occurrence_count": len(resolved_editorial_occurrences),
               "unresolved_link_diagnostics": [
