@@ -100,6 +100,8 @@ def main():
     print(f"Documented {report['count']} untouched source-derived empty paragraphs")
     for case in report["cases"]:
         print(f"  {case['article_key']!r}: {case['paragraph_xml_id']}")
+        print(f"    BEFORE: {case['previous_text_excerpt']!r}")
+        print(f"    AFTER:  {case['next_text_excerpt']!r}")
 
 
 if __name__ == "__main__":
