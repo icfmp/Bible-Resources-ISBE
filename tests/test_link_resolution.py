@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from rebuild_tei import resolve_key, separator_key, semicolon_alias_index
+from rebuild_tei import resolve_key, separator_key, semicolon_alias_index, inverted_definite_article_index
 
 
 class LinkResolutionTests(unittest.TestCase):
@@ -84,6 +84,20 @@ $$$CREED; CREEDS
         _, _, report = build(imp)
         self.assertEqual(report["resolved_redirect_alias_occurrences"], 0)
         self.assertEqual(report["unresolved_link_occurrences"], 1)
+
+    def test_unique_inverted_definite_article(self):
+        ids = {"DEAD SEA, THE": "entry"}
+        normalized = {k.casefold(): [k] for k in ids}
+        inversions = inverted_definite_article_index(ids)
+        self.assertEqual(resolve_key("DEAD SEA", ids, normalized, inversions=inversions),
+                         ("DEAD SEA, THE", "inverted_definite_article"))
+
+    def test_other_comma_qualified_topics_are_not_inverted(self):
+        ids = {"EVE, GOSPEL OF": "entry"}
+        normalized = {k.casefold(): [k] for k in ids}
+        inversions = inverted_definite_article_index(ids)
+        self.assertEqual(resolve_key("EVE", ids, normalized, inversions=inversions),
+                         (None, "not_found"))
 
     def test_missing_stays_missing(self):
         self.assertEqual(resolve_key("LITERATURE", self.ids, self.lookup), (None, "not_found"))
