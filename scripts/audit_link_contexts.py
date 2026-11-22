@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit unresolved ISBE links in their containing articles.
+"""Audit unlinked original ISBE references in their containing articles.
 
 The result is a contextual diagnostic, never a source-text correction.
 """
@@ -137,8 +137,16 @@ def scan(path):
     for article in entries:
         article_key = article.get("n")
         parents = {c: p for p in article.iter() for c in p}
-        for ref in article.iter(REF):
-            destination = ref.get("target", "")
+        for ref in article.iter():
+            # Reconstructed TEI renders unresolved source links as non-clickable
+            # segments. Keep reviewing their preserved original ISBE targets.
+            if ref.tag == REF:
+                destination = ref.get("target", "")
+            elif (ref.tag == f"{{{TEI}}}seg"
+                  and ref.get("type") == "unlinked-source-reference"):
+                destination = ref.get("n", "")
+            else:
+                continue
             if not destination.startswith("ISBE:"):
                 continue
             target = destination[5:]
@@ -253,6 +261,7 @@ def scan(path):
     return {"schema_version": 1,
             "status": "review_diagnostics_not_approved_mappings",
             "total_unresolved_occurrences": len(records),
+            "navigation_status": "unlinked_not_clickable",
             "category_counts": dict(sorted(summary.items())),
             "unresolved_numbered_homonyms": [
                 {"source_article": x["article_key"], "original_target": x["original_target"],
