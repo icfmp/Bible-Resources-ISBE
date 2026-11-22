@@ -81,6 +81,13 @@ class OfficialGateTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "did not reject"):
             self.execute()
 
+    def test_reject_drift_from_pinned_validated_candidate(self):
+        metadata = json.loads(self.manifest.read_text(encoding="utf-8"))
+        metadata["expected_candidate_sha256"] = "0" * 64
+        self.manifest.write_text(json.dumps(metadata), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "pinned validated candidate"):
+            self.execute()
+
     def test_candidate_mismatch_fails_closed(self):
         self.candidate.write_text("<TEI>changed</TEI>", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "differs from fidelity"):
