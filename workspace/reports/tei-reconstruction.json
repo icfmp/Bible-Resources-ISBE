@@ -2368,6 +2368,51 @@
     }
   ],
   "resolved_local_section_occurrences": 61,
+  "resolved_numbered_section_links": [
+    {
+      "article_key": "ATAROTH-ADDAR",
+      "original": "ATAROTH (2)",
+      "target_article": "ATAROTH",
+      "paragraph_id": "isbe-24765cd277cd8f2e5695-n000007",
+      "occurrences": 1
+    },
+    {
+      "article_key": "BAANAH",
+      "original": "BAANA (4)",
+      "target_article": "BAANA",
+      "paragraph_id": "isbe-7bd85f244246692eae0c-n000009",
+      "occurrences": 1
+    },
+    {
+      "article_key": "BEER-ELIM",
+      "original": "BEER (1)",
+      "target_article": "BEER",
+      "paragraph_id": "isbe-95ed584e85dcbf25bceb-n000004",
+      "occurrences": 1
+    },
+    {
+      "article_key": "BETHABARA",
+      "original": "BETHANY (2)",
+      "target_article": "BETHANY",
+      "paragraph_id": "isbe-4d4ab3b84bd264ca1202-n000019",
+      "occurrences": 1
+    },
+    {
+      "article_key": "CHEZIB",
+      "original": "ACHZIB (1)",
+      "target_article": "ACHZIB",
+      "paragraph_id": "isbe-0475fe63260fc6769cf1-n000004",
+      "occurrences": 1
+    },
+    {
+      "article_key": "ELIEL",
+      "original": "ELIAB (4)",
+      "target_article": "ELIAB",
+      "paragraph_id": "isbe-8a94729afa0d913c90ab-n000021",
+      "occurrences": 1
+    }
+  ],
+  "resolved_numbered_section_occurrences": 6,
   "unresolved_link_diagnostics": [
     {
       "original": "14. LITERATURE.",
@@ -2398,11 +2443,6 @@
       "original": "ABSALOM",
       "reason": "not_found",
       "occurrences": 3
-    },
-    {
-      "original": "ACHZIB (1)",
-      "reason": "not_found",
-      "occurrences": 1
     },
     {
       "original": "ADAM",
@@ -2540,11 +2580,6 @@
       "occurrences": 1
     },
     {
-      "original": "ATAROTH (2)",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "AUGURY, IV",
       "reason": "not_found",
       "occurrences": 1
@@ -2583,11 +2618,6 @@
       "original": "BAAL",
       "reason": "not_found",
       "occurrences": 4
-    },
-    {
-      "original": "BAANA (4)",
-      "reason": "not_found",
-      "occurrences": 1
     },
     {
       "original": "BABEL",
@@ -2650,11 +2680,6 @@
       "occurrences": 1
     },
     {
-      "original": "BEER (1)",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "BELA (2)",
       "reason": "not_found",
       "occurrences": 1
@@ -2671,11 +2696,6 @@
     },
     {
       "original": "BETH-SHEMESH 1",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "BETHANY (2)",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -2966,11 +2986,6 @@
     },
     {
       "original": "ELAH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "ELIAB (4)",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -4218,14 +4233,12 @@
     "SHERGHAT": 1,
     "GOLDEN": 1,
     "EARTH, VAULT OF": 1,
-    "ATAROTH (2)": 1,
     "CREED": 1,
     "CREATION; GOD": 1,
     "EXODUS": 7,
     "ON": 4,
     "AVEN; ON": 1,
     "BAAL": 4,
-    "BAANA (4)": 1,
     "ELAH": 1,
     "ZIMRI": 1,
     "CHARMER": 1,
@@ -4252,7 +4265,6 @@
     "BETH": 1,
     "GOLD (BEATEN)": 1,
     "BERED": 1,
-    "BEER (1)": 1,
     "JUBILEE": 2,
     "SUSANNA": 1,
     "BELA (2)": 1,
@@ -4262,7 +4274,6 @@
     "AZMAVETH": 2,
     "ELON": 3,
     "BETH-SHEMESH 1": 1,
-    "BETHANY (2)": 1,
     "BETHUEL; CHESIL": 1,
     "BURIAL, IV": 1,
     "RIVER, THE": 1,
@@ -4294,7 +4305,6 @@
     "HARAN": 1,
     "ERI-AKU, 4": 1,
     "CHESTNUT": 1,
-    "ACHZIB (1)": 1,
     "CHIEF FRIENDS": 1,
     "BRIDE-CHAMBER, SONS": 1,
     "EXALTATION OF CHRIST": 1,
@@ -4357,7 +4367,6 @@
     "PARAN": 1,
     "IV. COGNATE AND ILLUSTRATIVE BIBLICAL LANGUANGE": 1,
     "BUYING, IV": 1,
-    "ELIAB (4)": 1,
     "VI. LITERATURE": 1,
     "ZACHARIAS": 2,
     "III. GENERAL ESTIMATE LITERATURE": 1,
@@ -4514,6 +4523,6 @@
     "ZIPH": 1,
     "GOSHEN": 1
   },
-  "unresolved_link_occurrences": 640,
+  "unresolved_link_occurrences": 634,
   "text_integrity": "validated for every entry"
 }

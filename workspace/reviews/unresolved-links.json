@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 640,
-  "unresolved_distinct_targets": 357,
+  "unresolved_occurrences": 634,
+  "unresolved_distinct_targets": 351,
   "categories_by_occurrence": {
     "article_section_label": 56,
     "multiple_numbered_entries": 173,
-    "single_numbered_entry_candidate": 9,
+    "single_numbered_entry_candidate": 3,
     "unmatched_heading_or_alias": 402
   },
   "review_queue": [
@@ -61,15 +61,6 @@
       "review_candidates": [
         "ABSALOM (1)",
         "ABSALOM (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ACHZIB (1)",
-      "occurrences": 1,
-      "category": "single_numbered_entry_candidate",
-      "review_candidates": [
-        "ACHZIB"
       ],
       "status": "needs_review"
     },
@@ -271,15 +262,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "ATAROTH (2)",
-      "occurrences": 1,
-      "category": "single_numbered_entry_candidate",
-      "review_candidates": [
-        "ATAROTH"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "AUGURY, IV",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -339,15 +321,6 @@
         "BAAL (1)",
         "BAAL (2)",
         "BAAL (3)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "BAANA (4)",
-      "occurrences": 1,
-      "category": "single_numbered_entry_candidate",
-      "review_candidates": [
-        "BAANA"
       ],
       "status": "needs_review"
     },
@@ -445,15 +418,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "BEER (1)",
-      "occurrences": 1,
-      "category": "single_numbered_entry_candidate",
-      "review_candidates": [
-        "BEER"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "BELA (2)",
       "occurrences": 1,
       "category": "single_numbered_entry_candidate",
@@ -487,15 +451,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "BETHANY (2)",
-      "occurrences": 1,
-      "category": "single_numbered_entry_candidate",
-      "review_candidates": [
-        "BETHANY"
-      ],
       "status": "needs_review"
     },
     {
@@ -928,15 +883,6 @@
       "review_candidates": [
         "ELAH (1)",
         "ELAH (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ELIAB (4)",
-      "occurrences": 1,
-      "category": "single_numbered_entry_candidate",
-      "review_candidates": [
-        "ELIAB"
       ],
       "status": "needs_review"
     },
