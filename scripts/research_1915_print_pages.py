@@ -58,14 +58,27 @@ def find_headings(pages, source_keys, max_hits=8):
         for index, page in enumerate(pages):
             lines = page.splitlines()
             for i, line in enumerate(lines):
-                score = candidate_heading(line, key)
-                if not score:
+                # This historical scan has two printed columns. pdftotext's
+                # layout mode often concatenates both onto ONE OCR line with
+                # many spaces. Check each column-shaped span independently.
+                segments = [line] + [
+                    segment for segment in re.split(r"\\s{4,}", line)
+                    if segment and segment != line
+                ]
+                matches = []
+                for segment in segments:
+                    score = candidate_heading(segment, key)
+                    if score:
+                        matches.append((score, segment))
+                if not matches:
                     continue
+                score, segment = max(matches, key=lambda item: item[0])
                 hits.append({
                     "pdf_page_1_based": index + 1,
                     "ocr_line_1_based": i + 1,
                     "score": score,
-                    "source_line": line.strip()[:190],
+                    "source_line": segment.strip()[:190],
+                    "whole_ocr_line": line.strip()[:250],
                     "previous_line": lines[i-1].strip()[:130] if i else "",
                     "following_lines": " ".join(
                         l.strip() for l in lines[i+1:i+3]
