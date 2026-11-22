@@ -705,6 +705,14 @@
       "basis": "BAASHA describes the succession of northern Israelite kings; ZIMRI (2) explicitly identifies the short-reigning king of Israel."
     },
     {
+      "source_article": "BELAITES",
+      "ref_id": "isbe-4b2e961913c8c17df9d1-n000005",
+      "original_target": "BELA (2)",
+      "destination_article": "BELA",
+      "destination_precision": "article_fallback",
+      "basis": "The source identifies the descendants of Bela in Numbers 26:38, placing the discussion within the indexed BELA article. The requested subentry (2) is not unambiguously indexed, so link only to the relevant whole article with this limitation recorded."
+    },
+    {
       "source_article": "COSMOGONY",
       "ref_id": "isbe-4b54c0f9ab589e4dcbb5-n000009",
       "original_target": "WORLD",
@@ -717,6 +725,14 @@
       "original_target": "EVE",
       "destination_article": "EVE IN THE OLD TESTAMENT",
       "basis": "HAVVAH is the Hebrew personal name of Eve in Genesis."
+    },
+    {
+      "source_article": "BETH-SHEMITE",
+      "ref_id": "isbe-50e911fcc54728065c6c-n000006",
+      "original_target": "BETH-SHEMESH 1",
+      "destination_article": "BETH-SHEMESH",
+      "destination_precision": "article_fallback",
+      "basis": "The source explicitly describes an inhabitant of Beth-shemesh in Judah. The numbered subentry 1 is not independently anchored; use the exact indexed city article as an article-level fallback without discarding '1'."
     },
     {
       "source_article": "LYDIAN",
@@ -745,6 +761,22 @@
       "original_target": "ABI",
       "destination_article": "ABI (2)",
       "basis": "AHI/AH explicitly compares Hebrew name components brother and father; ABI (2) concerns the morphology of personal names."
+    },
+    {
+      "source_article": "BICHRI",
+      "ref_id": "isbe-584b99ce924bcd48a86a-n000005",
+      "original_target": "BECHER 1",
+      "destination_article": "BECHER",
+      "destination_precision": "article_fallback",
+      "basis": "BICHRI cites Becher section 1. The precise section has not been identified; the indexed BECHER article is the subject-correct article-level fallback, with the original '1' retained."
+    },
+    {
+      "source_article": "BITTER WATER",
+      "ref_id": "isbe-5b804307c2d92d4ac9a8-n000004",
+      "original_target": "ADULTERY (2)",
+      "destination_article": "ADULTERY",
+      "destination_precision": "article_fallback",
+      "basis": "The ordeal of bitter water is a ritual addressing suspected adultery. The numbered subdivision (2) cannot be verified, so the matching ADULTERY article is an explicitly imprecise article-level fallback."
     },
     {
       "source_article": "REMMON",
@@ -936,6 +968,14 @@
       "basis": "SAUL explicitly redirects to Saul of Tarsus, later Paul the Apostle."
     },
     {
+      "source_article": "BITTERNESS, WATER OF",
+      "ref_id": "isbe-9010c595a125d59edff0-n000004",
+      "original_target": "ADULTERY (2)",
+      "destination_article": "ADULTERY",
+      "destination_precision": "article_fallback",
+      "basis": "The source redirect BITTERNESS, WATER OF names the ordeal for suspected adultery. The specific numbered subdivision is not indexed; the ADULTERY article is a documented article-level fallback."
+    },
+    {
       "source_article": "ZARAIAS",
       "ref_id": "isbe-9746d70920935414ca85-n000007",
       "original_target": "ZACHARIAS",
@@ -1053,6 +1093,14 @@
       "original_target": "NATHANAEL",
       "destination_article": "NATHANAEL (2)",
       "basis": "BARTHOLOMEW points to Nathanael the Galilean disciple, whose entry is NATHANAEL (2)."
+    },
+    {
+      "source_article": "CURIOUS",
+      "ref_id": "isbe-b39a376be11e6e96ddd4-n000017",
+      "original_target": "ASTROLOGY 14",
+      "destination_article": "ASTROLOGY",
+      "destination_precision": "article_fallback",
+      "basis": "The original reference specifies numbered topic 14 within ASTROLOGY, but its section anchor has not been verified. Navigate to the existing ASTROLOGY article only as an explicitly recorded article-level fallback, preserving the original numbered target."
     },
     {
       "source_article": "ZACHARIAH",
