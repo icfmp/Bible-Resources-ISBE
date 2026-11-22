@@ -26,8 +26,8 @@ def preview(source,manifest_path,destination,report_path):
     if lock!=spec["canonical_sha256"]:
         raise ValueError("Canonical SHA-256 differs from explicitly locked witness")
     records=spec["records"]
-    if len(records)!=10 or len({r["article_key"] for r in records})!=10:
-        raise ValueError("Expected exactly ten unique review records")
+    if not records or len(records)!=len({r["article_key"] for r in records}):
+        raise ValueError("Expected nonempty, unique review records")
     if any(r["approved"] or r["source_image_verified"] for r in records):
         raise ValueError("This tool is for UNAPPROVED review specimens only")
     tree=ET.ElementTree(ET.fromstring(raw))
