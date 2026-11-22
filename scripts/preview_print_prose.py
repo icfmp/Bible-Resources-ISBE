@@ -23,13 +23,13 @@ def digest(path):
 # of the historical encyclopaedia. Target distinctive composed expressions,
 # never generic scholarly words such as "editor", "note", or "copyright".
 DIGITAL_PARATEXT = re.compile(
-    r"(?i)(?:\\bCopyright Statement\\b|\\bBibliography Information\\b|"
-    r"\\bPopular Articles\\b|\\bFeatured Verse Topics\\b|"
-    r"\\bShare Tweet Save\\b|\\bJoin PLUS\\b|\\bSign In\\b|"
-    r"\\bBible Study Tools\\b|\\bProud member of\\b|"
-    r"\\bNext Article\\b|\\bPrevious Article\\b|"
-    r"\\bBack to Top\\b|\\bRead More Articles\\b|"
-    r"<(?:/)?(?:script|nav|footer|aside|a)(?:\\s|>))"
+    r"(?i)(?:\bCopyright Statement\b|\bBibliography Information\b|"
+    r"\bPopular Articles\b|\bFeatured Verse Topics\b|"
+    r"\bShare Tweet Save\b|\bJoin PLUS\b|\bSign In\b|"
+    r"\bBible Study Tools\b|\bProud member of\b|"
+    r"\bNext Article\b|\bPrevious Article\b|"
+    r"\bBack to Top\b|\bRead More Articles\b|"
+    r"<(?:/)?(?:script|nav|footer|aside|a)(?:\s|>))"
 )
 
 def reject_digital_paratext(text, article_key):
