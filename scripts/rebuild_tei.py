@@ -69,7 +69,17 @@ def semicolon_alias_index(keys):
     return result
 
 
-def resolve_key(raw_key, ids, normalized, separators=None, aliases=None):
+def inverted_definite_article_index(keys):
+    """Index the English headword inversion 'TOPIC, THE' as 'TOPIC'."""
+    result = {}
+    for key in keys:
+        prefix, comma, suffix = key.rpartition(",")
+        if comma and suffix.strip().casefold() == "the":
+            result.setdefault(prefix.strip().casefold(), []).append(key)
+    return result
+
+
+def resolve_key(raw_key, ids, normalized, separators=None, aliases=None, inversions=None):
     """Resolve only unique case, spacing or terminal-dot variations."""
     if raw_key in ids:
         return raw_key, "exact"
@@ -95,6 +105,12 @@ def resolve_key(raw_key, ids, normalized, separators=None, aliases=None):
         candidates = aliases.get(raw_key.strip().casefold(), ())
         if len(candidates) == 1:
             return candidates[0], "explicit_semicolon_title_alias"
+        if len(candidates) > 1:
+            return None, "ambiguous"
+    if inversions is not None:
+        candidates = inversions.get(raw_key.strip().casefold(), ())
+        if len(candidates) == 1:
+            return candidates[0], "inverted_definite_article"
         if len(candidates) > 1:
             return None, "ambiguous"
     return None, "not_found"
@@ -210,6 +226,7 @@ def build(imp):
         separators.setdefault(separator_key(key), []).append(key)
 
     aliases = semicolon_alias_index(ids)
+    inversions = inverted_definite_article_index(ids)
 
     root = ET.Element(f"{{{TEI}}}TEI")
     header = ET.SubElement(root, f"{{{TEI}}}teiHeader")
@@ -285,7 +302,7 @@ def build(imp):
             target = element.attrib.get("target", "")
             if target.startswith("ISBE:"):
                 link_key = target[5:]
-                resolved_key, reason = resolve_key(link_key, ids, normalized, separators, aliases)
+                resolved_key, reason = resolve_key(link_key, ids, normalized, separators, aliases, inversions)
                 if resolved_key is not None:
                     element.set("n", target)
                     element.set("target", "#" + ids[resolved_key])
