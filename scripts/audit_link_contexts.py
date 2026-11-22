@@ -105,6 +105,16 @@ def scan(path):
         if len(prefix) >= 3:
             comma_headings.setdefault(normalized(prefix), set()).add(key)
     article_by_key = {a.get("n"): a for a in entries}
+    source_keys = list(article_by_key)
+    # Candidate discovery is explicitly review-only. A shared word in a
+    # longer title does not imply that both entries are equivalent.
+    candidate_titles = {}
+    for key in source_keys:
+        for delimiter in (",", ";", " (", " "):
+            if delimiter in key:
+                term = key.split(delimiter, 1)[0].strip().casefold()
+                if len(term) >= 3:
+                    candidate_titles.setdefault(term, set()).add(key)
     numbered_candidates = {}
     for key in (a.get("n") for a in entries):
         stem = re.sub(r"\s+\(\d+\)$", "", key).strip().casefold()
@@ -120,6 +130,7 @@ def scan(path):
     }
     records = []
     scripture_candidates = []
+    local_section_candidates = []
     summary = Counter()
     for article in entries:
         article_key = article.get("n")
@@ -129,6 +140,33 @@ def scan(path):
             if not destination.startswith("ISBE:"):
                 continue
             target = destination[5:]
+            normalized_target = normalized(target)
+            if "literature" in normalized_target or re.match(r"^(?:[IVXLCDM]+|[0-9]+)\\.\\s", target, re.I):
+                label = re.sub(r"[:.\\s]+$", "", normalized_target)
+                evidence = []
+                for paragraph in article.iter():
+                    if paragraph.tag.split("}")[-1] != "p":
+                        continue
+                    lead_text = (paragraph.text or "").strip()
+                    if not lead_text and len(paragraph):
+                        child = list(paragraph)[0]
+                        if child.tag.split("}")[-1] == "hi":
+                            lead_text = "".join(child.itertext()).strip()
+                    phrase = " ".join(lead_text.split()).casefold()
+                    if phrase.startswith(label) and (
+                        len(phrase) == len(label) or phrase[len(label)] in " .:-"
+                    ):
+                        evidence.append({
+                            "paragraph_id": paragraph.get(XMLID),
+                            "leading_text": lead_text[:160],
+                            "paragraph_preview": " ".join("".join(paragraph.itertext()).split())[:230],
+                            "child_tags": [x.tag.split("}")[-1] for x in list(paragraph)[:5]]
+                        })
+                local_section_candidates.append({
+                    "article": article_key, "target": target,
+                    "ref_id": ref.get(XMLID), "candidate_paragraphs": evidence[:12],
+                    "candidates_total": len(evidence)
+                })
             visible = "".join(ref.itertext()).strip()
             candidate = classify_candidate(target, visible, known)
             parent = parents.get(ref)
@@ -197,6 +235,16 @@ def scan(path):
             "total_unresolved_occurrences": len(records),
             "category_counts": dict(sorted(summary.items())),
             "exclusive_scripture_numbered_candidates": scripture_candidates,
+            "local_section_review": local_section_candidates,
+            "article_heading_candidates": [
+                {
+                    "target": target,
+                    "occurrences": sum(1 for item in records if item["original_target"] == target),
+                    "title_candidates": sorted(candidate_titles.get(normalized(target), []))[:25]
+                }
+                for target in sorted(set(x["original_target"] for x in records))
+                if candidate_titles.get(normalized(target))
+            ],
             "inverted_definite_article_review": [
                 {"article_key": x["article_key"], "original_target": x["original_target"],
                  "candidate": x["comma_prefix_candidates"][0],
