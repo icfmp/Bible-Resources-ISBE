@@ -46,7 +46,7 @@ def candidate_heading(line, key):
     # line, rather than an incidental mention in prose or running headers.
     if normalize(raw) == target:
         return 4
-    stem = re.sub(r"[^A-Za-z]+", "", raw[:len(key)+8])
+    stem = re.sub(r"[^A-Za-z]+", "", raw[:len(key)])
     uppercase = stem and stem.upper() == stem
     return 3 if uppercase else 2
 
