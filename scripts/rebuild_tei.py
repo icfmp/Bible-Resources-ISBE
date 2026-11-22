@@ -113,6 +113,23 @@ def resolve_local_heading(article, reference):
             candidates.append(el.get(XMLID))
     if len(candidates) == 1 and candidates[0]:
         return candidates[0]
+    if len(candidates) > 1:
+        return None
+
+    # Some older entries use bare paragraphs for section headings. Match only
+    # a unique, short, standalone paragraph whose *entire* content is the title.
+    # Table-of-contents entries contain a ref child, so cannot match here.
+    plain = []
+    for el in article.iter():
+        if el.tag.split("}")[-1] != "p" or len(el):
+            continue
+        label = (el.text or "").strip()
+        if not label or len(label) > 180:
+            continue
+        if normalize_section_label(label) == target:
+            plain.append(el.get(XMLID))
+    if len(plain) == 1 and plain[0]:
+        return plain[0]
     return None
 
 
