@@ -280,10 +280,10 @@
       "print_image_reviewed": false,
       "source_recovery_approved": false,
       "editorial_action": "preserve_pending_verification",
-      "genre_hypothesis": "historical_article",
-      "genre_evidence_url": "https://bible-history.com/isbe/j/josibiah/",
+      "genre_hypothesis": "historical_cross_reference",
+      "genre_evidence_url": "https://www.biblestudytools.com/encyclopedias/isbe/josibiah.html",
       "genre_evidence_level": "secondary_transcription",
-      "genre_reason": "Independent ISBE reproduction has a named article; exact wording pending review."
+      "genre_reason": "Full secondary ISBE-1915-attributed text states 'jos-i-bi'-a. See JOSHIBIAH.' The prior classification as a substantive article was incorrect."
     },
     {
       "ordinal": 16,
@@ -583,5 +583,5 @@
       "genre_evidence_url": "https://bible-history.com/isbe/t/thomei/"
     }
   ],
-  "research_checkpoint": "2026-11-22: All 31/31 empty digital-source records have provisional evidence-backed genre hypotheses (article versus cross-reference), varying witness quality. Exact print scans and text remain unverified, and no content change is approved."
+  "research_checkpoint": "Refined genre classification from full independent headword text: 20 probable substantive articles, 11 probable historical cross-references (JOSIBIAH now correctly identified as a short 'See JOSHIBIAH' redirect). All remain unapproved pending print image collations."
 }

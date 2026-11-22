@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "canonical_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "scope": "A separately generated noncanonical editorial preview only",
   "validation_status": "unapproved, printed source not fully verified",
@@ -133,6 +133,22 @@
       "source_image_verified": false,
       "approved": false,
       "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image."
+    },
+    {
+      "article_key": "JOSIBIAH",
+      "original_empty_paragraph_id": "isbe-b06e5906f6227e5b9bed-n000003",
+      "proposed_targets": [
+        "JOSHIBIAH"
+      ],
+      "proposed_display_labels": {
+        "JOSHIBIAH": "JOSHIBIAH"
+      },
+      "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/josibiah.html",
+      "source_level": "secondary_transcription",
+      "source_image_verified": false,
+      "approved": false,
+      "editorial_note": "Secondary witness attests pronunciation jos-i-bi'-a followed by See JOSHIBIAH; the synthetic preview omits pronunciation, so remains unapproved and not a historical transcription."
     }
-  ]
+  ],
+  "research_checkpoint": "11 redirect candidates; JOSIBIAH corrected to historical redirect (not encyclopedic prose). Printed page-image comparison still required."
 }

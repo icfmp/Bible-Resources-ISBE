@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "document_base_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "authority": "1915 Orr / Howard-Severance volume I, independently indexed searchable copy; not yet image-collated",
   "prohibited_canonical_promotion": true,
@@ -51,6 +51,97 @@
       "editorial_notes": "Searchable PDF line 6926. Biblical book abbreviations and superscript should be page-image proofread.",
       "print_image_reviewed": false,
       "approved": false
+    },
+    {
+      "source_key": "BEERA",
+      "source_paragraph_id": "isbe-7b2802f1161a54c7298e-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/beera.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "blocks": [
+        "be-e'-ra, be'-er-a (be'era', \"expounder\"): A descendant of Asher (1 Chronicles 7:37)."
+      ],
+      "editorial_notes": "Article prose only; removed HTML navigation, site notices, copyright/footer, bibliographic furniture. Source claims to reproduce Orr 1915 but historical printed page not independently collated.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "ITHLAH",
+      "source_paragraph_id": "isbe-2df419f44751d30fb782-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/ithlah.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "blocks": [
+        "ith'-la (yithlah; the King James Version Jetblah): An unidentified town in the territory of Dan, named with Aijalon and Elon (Joshua 19:42)."
+      ],
+      "editorial_notes": "Article prose only; removed HTML navigation, site notices, copyright/footer, bibliographic furniture. Source claims to reproduce Orr 1915 but historical printed page not independently collated.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "MANASSITES",
+      "source_paragraph_id": "isbe-036b79f716e946c74b6d-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/manassites.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "blocks": [
+        "ma-nas'-its (menashshi; ho Manasse): Members of the tribe of Manasseh (Deuteronomy 4:43; Judges 12:4 the King James Version; 2 Kings 10:33)."
+      ],
+      "editorial_notes": "Article prose only; removed HTML navigation, site notices, copyright/footer, bibliographic furniture. Source claims to reproduce Orr 1915 but historical printed page not independently collated.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "SAVIAS",
+      "source_paragraph_id": "isbe-c0d21e6f8317b00c0198-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/savias.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "blocks": [
+        "sa-vi'-as (Saouia): In 1 Esdras 8:2, for Uzzi, an ancestor of Ezra, in Ezra 7:4."
+      ],
+      "editorial_notes": "Article prose only; removed HTML navigation, site notices, copyright/footer, bibliographic furniture. Source claims to reproduce Orr 1915 but historical printed page not independently collated.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "SESIS",
+      "source_paragraph_id": "isbe-670aaf6f5bdb88843872-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/sesis.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "blocks": [
+        "se'-sis (Codex Vaticanus Seseis; Codex Alexandrinus Sesseis): One who put away his foreign wife (1 Esdras 9:34) = \"Shashai\" in Ezra 10:40."
+      ],
+      "editorial_notes": "Article prose only; removed HTML navigation, site notices, copyright/footer, bibliographic furniture. Source claims to reproduce Orr 1915 but historical printed page not independently collated.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "HASRAH",
+      "source_paragraph_id": "isbe-3ab6d344b65809300342-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/hasrah.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "blocks": [
+        "haz'-ra, has'-ra (chacrah): Grandfather of Shallum, who was the husband of Huldah the prophetess (2 Chronicles 34:22). In 2 Kings 22:14, HARHAS (which see)."
+      ],
+      "editorial_notes": "Article prose only; removed HTML navigation, site notices, copyright/footer, bibliographic furniture. Source claims to reproduce Orr 1915 but historical printed page not independently collated.",
+      "print_image_reviewed": false,
+      "approved": false
     }
-  ]
+  ],
+  "research_checkpoint": "Nine provisional historical prose entries (three searchable 1915 volume-I witnesses plus six secondary 1915-attributed text transcriptions); original print image comparison pending. No canonical adoption."
 }
