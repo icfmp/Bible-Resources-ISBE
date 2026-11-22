@@ -66,6 +66,7 @@ class ShortRedirectPrintedTextCollationTests(unittest.TestCase):
         self.assertEqual(rows["PAUL, VOYAGE AND SHIPWRECK OF"],
                          "See PAUL THE APOSTLE, V, 9; PHOENIX.")
         self.assertEqual(rows["COMING OF CHRIST"], "See ADVENT; PAROUSIA.")
+        self.assertEqual(rows["JOSIBIAH"], "jos-i-bi\'a. See JOSHIBIAH.")
 
 
 if __name__ == "__main__":
