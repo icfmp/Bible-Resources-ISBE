@@ -1,0 +1,35 @@
+name: Compare 1915 prose candidates with original printed PDF OCR
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/compare_1915_prose_ocr.py'
+      - 'scripts/audit_1915_prose_evidence.py'
+      - 'tests/test_1915_prose_ocr.py'
+      - '.github/workflows/compare-1915-prose-ocr.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-ocr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        volume: ["1", "2", "3", "4", "5"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF text reader
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Download original scanned 1915 volume for transient local processing
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 --retry-all-errors --connect-timeout 20 --max-time 360             "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf"             -o "/tmp/isbe-original-volume-${{ matrix.volume }}.pdf"
+      - name: Compare all articles in this volume to PDF OCR without certifying typography
+        shell: bash
+        run: |
+          python -m scripts.compare_1915_prose_ocr             --pdf "/tmp/isbe-original-volume-${{ matrix.volume }}.pdf"             --volume "${{ matrix.volume }}"
