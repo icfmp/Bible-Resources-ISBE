@@ -5,6 +5,7 @@ on:
       - scripts/normalize_tei_p5.py
       - scripts/check_tei_p5_svrl.py
       - tests/test_normalize_tei_p5.py
+      - tests/test_check_tei_p5_svrl.py
       - workspace/changes/tei-p5-candidate-v1.json
       - .github/workflows/tei-p5-candidate.yml
       - cleaned/en/ISBE.xml
@@ -121,7 +122,7 @@ jobs:
             --negative-svrl /tmp/schiso/negative.svrl \
             --source-report workspace/candidates/en/tei-p5-candidate-report.json \
             --output workspace/candidates/en/tei-p5-official-validation.json
-          dpkg-query -W -f='%p %v\n' jing libjing-java libsaxonhe-java
+          dpkg-query -W -f='${binary:Package} ${Version}\n' jing libjing-java libsaxonhe-java
       - name: Publish validated candidate and separate verification reports
         uses: actions/upload-artifact@v4
         with:
