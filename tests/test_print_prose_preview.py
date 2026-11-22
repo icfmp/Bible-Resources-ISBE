@@ -45,11 +45,15 @@ class PrintProsePreviewTests(unittest.TestCase):
             self.assertIn("whose origin is from the days of the olden time", "".join(records["ANTIQUITY"].itertext()))
             self.assertEqual(len([p for p in records["AMNON"] if p.tag==q("p")]),3)
             self.assertIn("descendant of Asher", "".join(records["BEERA"].itertext()))
-            self.assertIn("In 1 Esdras 8:2", "".join(records["SAVIAS"].itertext()))
+            self.assertIn("In 1 Esd 8 2", "".join(records["SAVIAS"].itertext()))
             self.assertIn("AV Jethlah", "".join(records["ITHLAH"].itertext()))
             self.assertIn("ἀποστρέφω", "".join(records["DEHORT"].itertext()))
             self.assertIn("ἡ Τεφώ", "".join(records["TEPHON"].itertext()))
             self.assertIn("Grandfather of Shallum", "".join(records["HASRAH"].itertext()))
+            self.assertIn("ὁ Μανασσῆ", "".join(records["MANASSITES"].itertext()))
+            self.assertIn("Σαουΐα", "".join(records["SAVIAS"].itertext()))
+            self.assertIn("Σεσεΐς", "".join(records["SESIS"].itertext()))
+            self.assertIn("not in LXX", "".join(records["SHALLUN"].itertext()))
             self.assertIn("jos-i-bi'a. See JOSHIBIAH.", "".join(records["JOSIBIAH"].itertext()))
             for key in ("CHORBE", "DEHORT", "FROWARDNESS", "HEMDAN",
                         "MANKIND", "SEPHARVITES", "SHALLUN", "SYCHEM",

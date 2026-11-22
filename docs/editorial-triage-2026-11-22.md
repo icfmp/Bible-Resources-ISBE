@@ -145,3 +145,14 @@ Material findings retained in the **separate unapproved candidate**:
 - `COMING OF CHRIST` and `MARKET, SHEEP` already had the correct proposed redirect meanings, confirmed by print images.
 
 All changes preserve prior readings and source identifiers in manifests; the immutable 1915 facsimiles, the original CrossWire ZIP/IMP and `cleaned/en/ISBE.xml` are untouched. Technical TEI P5 validity is necessary but not sufficient to approve printed-text fidelity, language variants or redistribution rights.
+
+
+## All 31 source headwords inspected on original printed pages
+
+The final nine remaining primary printed-page scans were visually inspected from [the authenticated five-volume source run](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45079034324): `ANTIQUITY` (I, p. 160), `BEERA` (I, p. 424), `HASRAH` (II, p. 1342), `HEMDAN` (II, p. 1374), `MANASSITES` (III, p. 1980), `MANKIND` (III, p. 1982), `SAVIAS` (IV, p. 2700), `SESIS` (IV, p. 2743) and `SHALLUN` (IV, p. 2747). `THOMEI` appears on the **same original volume-V image as THOCANUS**, printed folio 2973, already inspected in [the first image run](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982).
+
+**Result: 31/31 original source-gap headwords viewed on genuine 1915 printed images; 30 distinct printed pages.** Their source PDF SHA, individual rendered image SHA, volume, PDF index, printed folio, original paragraph XML ID and individual observation are now in `workspace/reviews/1915-visual-page-collation-v1.json`.
+
+The newest textual review exposed additional historical-script and abbreviation drift, especially in `BEERA`, `HEMDAN`, `MANASSITES`, `SAVIAS`, `SESIS` and `SHALLUN`. Seven short candidate prose passages were amended with recorded prior readings. **Not every proposed Hebrew/Greek vowel mark, accent, word or paragraph boundary has yet been exhaustively proofread**. Consequently `all_text_punctuation_and_foreign_script_certified=false`, `source_recovery_approved=false`, and publication remains prohibited. The 9,380-record canonical `cleaned/en/ISBE.xml` is unchanged and reconstructible from the preserved CrossWire source.
+
+The remaining editorial task is not locating articles anymore: it is **full character-for-character collation and formal approval** of the source-rich draft, checking the exact cross-reference destinations/section anchors, and settling legal redistribution (#1) prior to adoption.
