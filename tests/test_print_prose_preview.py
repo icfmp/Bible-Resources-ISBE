@@ -47,13 +47,16 @@ class PrintProsePreviewTests(unittest.TestCase):
             self.assertIn("descendant of Asher", "".join(records["BEERA"].itertext()))
             self.assertIn("In 1 Esdras 8:2", "".join(records["SAVIAS"].itertext()))
             self.assertIn("Grandfather of Shallum", "".join(records["HASRAH"].itertext()))
-            self.assertIn("jos-i-bi\'-a. See JOSHIBIAH.", "".join(records["JOSIBIAH"].itertext()))
+            self.assertIn("jos-i-bi'a. See JOSHIBIAH.", "".join(records["JOSIBIAH"].itertext()))
             for key in ("CHORBE", "DEHORT", "FROWARDNESS", "HEMDAN",
                         "MANKIND", "SEPHARVITES", "SHALLUN", "SYCHEM",
                         "TEPHON", "THOCANUS", "THOMEI"):
                 with self.subTest(entry=key):
                     self.assertTrue("".join(records[key].itertext()).strip())
-            self.assertIn("se-far'-vits>", "".join(records["SEPHARVITES"].itertext()))
+            self.assertNotIn("se-far'-vits>", "".join(records["SEPHARVITES"].itertext()))
+            self.assertIn("Χορβέ", "".join(records["CHORBE"].itertext()))
+            self.assertIn("AV is a transcription", "".join(records["SYCHEM"].itertext()))
+            self.assertIn("Θόκανος", "".join(records["THOCANUS"].itertext()))
             self.assertIn('margin "is."', "".join(records["FROWARDNESS"].itertext()))
 
     def test_boilerplate_is_rejected_without_modifying_canonical_source(self):
