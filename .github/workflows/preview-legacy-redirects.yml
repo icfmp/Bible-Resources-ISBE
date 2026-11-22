@@ -1,0 +1,52 @@
+name: Build noncanonical ISBE redirect review candidate
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/preview_legacy_redirects.py'
+      - 'tests/test_redirect_preview.py'
+      - 'workspace/reviews/redirect-candidate-v1.json'
+      - '.github/workflows/preview-legacy-redirects.yml'
+  workflow_dispatch:
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Full corpus positive and negative integrity tests
+        run: python -m unittest discover -s tests -p 'test_redirect_preview.py'
+      - name: Reconstruct noncanonical review candidate
+        run: |
+          python scripts/preview_legacy_redirects.py \
+            --output workspace/tmp/isbe-redirect-preview.xml \
+            --report workspace/tmp/isbe-redirect-preview-report.json
+      - name: Verify strict serialized profile and produce independent validator input
+        run: |
+          python scripts/validate_redirect_preview_profile.py \
+            --source cleaned/en/ISBE.xml \
+            --candidate workspace/tmp/isbe-redirect-preview.xml \
+            --change-report workspace/tmp/isbe-redirect-preview-report.json \
+            --original-manifest workspace/changes/tei-p5-candidate-v1.json \
+            --manifest-out workspace/tmp/redirect-official-manifest.json \
+            --report-out workspace/tmp/redirect-preview-fidelity.json
+      - name: Install official TEI validator
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jing
+      - name: Independently validate preview against pinned official P5 RELAX NG and Schematron
+        run: |
+          python scripts/validate_official_tei_p5.py \
+            --candidate workspace/tmp/isbe-redirect-preview.xml \
+            --source-report workspace/tmp/redirect-preview-fidelity.json \
+            --manifest workspace/tmp/redirect-official-manifest.json \
+            --output workspace/tmp/redirect-official-validation.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: noncanonical-isbe-redirect-review
+          path: |
+            workspace/tmp/isbe-redirect-preview.xml
+            workspace/tmp/isbe-redirect-preview-report.json
+            workspace/tmp/redirect-preview-fidelity.json
+            workspace/tmp/redirect-official-validation.json
+          if-no-files-found: error
