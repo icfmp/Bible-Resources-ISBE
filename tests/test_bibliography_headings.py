@@ -36,7 +36,7 @@ class BibliographyHeadingTests(unittest.TestCase):
                '<p><ref target="ISBE:LITERATURE.">LITERATURE.</ref> Smith, Journal, 1900.</p>'
                '<p>Author.</p></entryFree>')
         root, _, report = build(imp)
-        paragraph = next(x for x in root.iter() if x.tag == f"{{{TEI}}}p" and x.get("type") == "bibliography-lead")
+        paragraph = next(x for x in root.iter() if x.tag.split("}")[-1] == "p" and x.get("type") == "bibliography-lead")
         original = next(x for x in paragraph.iter() if x.get("n") == "ISBE:LITERATURE.")
         self.assertIsNone(original.get("target"))
         self.assertEqual(report["reclassified_bibliography_occurrences"], 1)
