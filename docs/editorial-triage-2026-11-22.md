@@ -96,3 +96,35 @@ The complete recorded outcome is in `workspace/reviews/1915-printed-headword-ocr
 - **0/31** has yet been certified as an exact, visually collated 1915 print-page transcription. The 31 proposed repairs still remain only in the separate noncanonical review candidate.
 
 Next editorial gate: review the **actual printed page images** for all 31, prioritizing the six unmatched headwords, the three known suspicious web-transcription anomalies (SEPHARVITES, FROWARDNESS, SYCHEM), and Hebrew/Greek accents. Record the original printed page number and image index, collate each source block, then stage explicitly approved and reversible source-SHA-bound changes. Do not mistake successful XML schema validation or a heading OCR match for textual verification or rights clearance.
+
+## Original printed-page visual review — first nine entries
+
+A real visual comparison against image renders of the **original 1915 printed pages** is now recorded in `workspace/reviews/1915-visual-page-collation-v1.json`, with separate original PDF and rendered JPEG SHA-256 proofs and **both** the printed folio and the 1-based PDF image index. The evidence was reviewed from https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982.
+
+Nine source-gap entries have been visually inspected:
+- Volume I: `ASTARTE; ASTORETH` (printed p. 295; PDF p. 329), `CHORBE` (p. 614; PDF p. 654).
+- Volume II: `FROWARDNESS` (p. 1147; PDF p. 499).
+- Volume III: `JOSIBIAH` (p. 1753; PDF p. 393).
+- Volume IV: `PATRIARCHS, TESTAMENTS OF THE TWELVE` (p. 2264; PDF p. 176), `REGENERATION, BAPTISMAL` (p. 2550; PDF p. 466), `SEPHARVITES` (p. 2723; PDF p. 642).
+- Volume V: `SYCHEM` (p. 2877; PDF p. 67), `THOCANUS` (p. 2973; PDF p. 169).
+
+**Material source-fidelity findings:** The 1915 `ASTARTE` headword includes the alternate form `ASTORETH` in the printed entry, absent from our earlier redirect body. `JOSIBIAH` has a different pronunciation from the derivative transcript. The `PATRIARCHS` cross-reference names `APOCALYPTIC LITERATURE, IV, 1` without the later insertion `sec.`. `REGENERATION, BAPTISMAL` is a real short printed redirect despite previous strict OCR failure. `CHORBE`, `THOCANUS` and `SYCHEM` need their original Greek/1915 terminology and abbreviations retained rather than expanded paraphrases. The source-website's spurious `>` after the second `SEPHARVITES` pronunciation is **not printed**. Conversely the unusual ending `in "is."` in `FROWARDNESS` **is printed**: it is genuine source text, not a truncated digitization error.
+
+Only confidently source-backed portions have been changed in the **noncanonical, still unapproved** editorial preview. Each amended record retains its earlier reading, provenance and print-page evidence. These nine page observations are **not** claims that every mark, Hebrew/Greek character, paragraph or bibliography in the full articles has been exhaustively collated. Original 1915 typography and scientific transliteration require further precision review. The other **22 records** still await visual checking. The canonical TEI remains deliberately unchanged pending source-wide validation and editorial approval.
+
+## Closure of all six strict-OCR misses by direct print-image inspection
+
+All **six** previously unlocated entries have now been identified in their proper original 1915 printed volumes, not inferred from the back-of-book index:
+
+| Historical source key | Original vol. | PDF page (1-based) | Printed folio |
+| --- | ---: | ---: | ---: |
+| ASTARTE; ASTORETH | I | 329 | 295 |
+| CHORBE | I | 654 | 614 |
+| JOSIBIAH | III | 393 | 1753 |
+| PATRIARCHS, TESTAMENTS OF THE TWELVE | IV | 176 | 2264 |
+| REGENERATION, BAPTISMAL | IV | 466 | 2550 |
+| THOCANUS | V | 169 | 2973 |
+
+The source-located evidence is now **31/31**: 25 strict primary-print OCR matches plus six additionally checked printed-page image matches. **Do not equate this to 31/31 complete article transcription validations**: only nine individual pages have been visually checked, and none of the entire source articles or Greek/Hebrew punctuation has yet received fully certified text-level collation.
+
+This correction supersedes the earlier six-unresolved *OCR* checkpoint without rewriting the audit history. In the historical OCR ledger, the six original strict-OCR fields remain absent, with their separate confirmed page-image locations preserved. The original CrossWire and canonical TEI remain immutable.

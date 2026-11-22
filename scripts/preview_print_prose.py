@@ -47,8 +47,13 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
         raise ValueError("Unapproved source SHA256")
     if not spec["prohibited_canonical_promotion"]:
         raise ValueError("Source status cannot be promoted")
-    if any(r["print_image_reviewed"] or r["approved"] for r in spec["records"]):
+    if any(r["approved"] for r in spec["records"]):
         raise ValueError("This generator only handles unapproved specimens")
+    for r in spec["records"]:
+        if r["print_image_reviewed"] and not r.get("visual_print_witness_review"):
+            raise ValueError("A checked historical print page must have a linked review")
+        if r.get("print_text_fully_certified"):
+            raise ValueError("A partial print check does not certify the whole article")
     if len(spec["records"])!=len({r["source_key"] for r in spec["records"]}) or not spec["records"]:
         raise ValueError("Unexpected source-text revision count")
     redirect=json.loads(Path(redirect_manifest).read_text(encoding="utf-8"))
@@ -88,7 +93,7 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
             link=ET.SubElement(p,q("ref"),{"type":"article","target":"#"+target.get(XMLID)})
             link.text=r.get("proposed_display_labels",{}).get(target_key,target_key)
             link.tail="." if i==len(r["proposed_targets"])-1 else "; "
-        observed=r["observed_secondary_witness_text"]
+        observed=r.get("proposed_print_collated_text", r["observed_secondary_witness_text"])
         actual="".join(p.itertext())
         if actual!=observed:
             raise ValueError(f"Redirect preview differs from witnessed text for {key}")

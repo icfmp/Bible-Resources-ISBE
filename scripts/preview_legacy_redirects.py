@@ -28,8 +28,13 @@ def preview(source,manifest_path,destination,report_path):
     records=spec["records"]
     if not records or len(records)!=len({r["article_key"] for r in records}):
         raise ValueError("Expected nonempty, unique review records")
-    if any(r["approved"] or r["source_image_verified"] for r in records):
+    if any(r["approved"] for r in records):
         raise ValueError("This tool is for UNAPPROVED review specimens only")
+    for r in records:
+        if r["source_image_verified"] and not r.get("visual_reference"):
+            raise ValueError("Visually reviewed primary print witness needs traceable evidence")
+        if r.get("print_text_fully_certified"):
+            raise ValueError("This review candidate cannot claim complete print transcription")
     tree=ET.ElementTree(ET.fromstring(raw))
     body=tree.find("./"+Q("text")+"/"+Q("body"))
     if body is None:
@@ -71,7 +76,7 @@ def preview(source,manifest_path,destination,report_path):
             item.text=record.get("proposed_display_labels", {}).get(target_key, target_key)
             item.tail=("." if pos==len(record["proposed_targets"])-1 else "; ")
             resolved.append({"target_key":target_key,"resolved":target is not None})
-        observed=record["observed_secondary_witness_text"]
+        observed=record.get("proposed_print_collated_text", record["observed_secondary_witness_text"])
         actual="".join(p.itertext())
         if actual!=observed:
             raise ValueError(f"Redirect preview differs from witnessed text for {key}")

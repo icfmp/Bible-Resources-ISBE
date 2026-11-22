@@ -51,7 +51,12 @@
       "ocr_heading_score": null,
       "evidence_status": "not_located_in_original_volume_by_strict_ocr",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visual_heading_page_1_based": 329,
+      "visual_print_folio_page": 295,
+      "visually_verified_heading": true,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "BEERA",
@@ -84,7 +89,12 @@
       "ocr_heading_score": null,
       "evidence_status": "not_located_in_original_volume_by_strict_ocr",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visual_heading_page_1_based": 654,
+      "visual_print_folio_page": 614,
+      "visually_verified_heading": true,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "COMING OF CHRIST",
@@ -128,7 +138,12 @@
       "ocr_heading_score": 5,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visual_heading_page_1_based": 499,
+      "visual_print_folio_page": 1147,
+      "visually_verified_heading": true,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "HASRAH",
@@ -172,7 +187,12 @@
       "ocr_heading_score": null,
       "evidence_status": "not_located_in_original_volume_by_strict_ocr",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visual_heading_page_1_based": 393,
+      "visual_print_folio_page": 1753,
+      "visually_verified_heading": true,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "MANASSITES",
@@ -216,7 +236,12 @@
       "ocr_heading_score": null,
       "evidence_status": "not_located_in_original_volume_by_strict_ocr",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visual_heading_page_1_based": 176,
+      "visual_print_folio_page": 2264,
+      "visually_verified_heading": true,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "PAUL, VOYAGE AND SHIPWRECK OF",
@@ -249,7 +274,12 @@
       "ocr_heading_score": null,
       "evidence_status": "not_located_in_original_volume_by_strict_ocr",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visual_heading_page_1_based": 466,
+      "visual_print_folio_page": 2550,
+      "visually_verified_heading": true,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "SAVIAS",
@@ -271,7 +301,12 @@
       "ocr_heading_score": 4,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visual_heading_page_1_based": 642,
+      "visual_print_folio_page": 2723,
+      "visually_verified_heading": true,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "SESIS",
@@ -315,7 +350,12 @@
       "ocr_heading_score": 4,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visual_heading_page_1_based": 67,
+      "visual_print_folio_page": 2877,
+      "visually_verified_heading": true,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "TEPHON",
@@ -337,7 +377,12 @@
       "ocr_heading_score": null,
       "evidence_status": "not_located_in_original_volume_by_strict_ocr",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visual_heading_page_1_based": 169,
+      "visual_print_folio_page": 2973,
+      "visually_verified_heading": true,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "THOMEI",
@@ -350,5 +395,9 @@
       "page_image_visually_reviewed": false,
       "original_1915_wording_approved": false
     }
-  ]
+  ],
+  "primary_print_page_visual_checks": 9,
+  "ocr_unlocated_keys_resolved_by_original_print_visual_inspection": 6,
+  "located_heading_evidence_total": 31,
+  "explanation": "25 strict OCR heading candidates plus 6 separately visually located original printed entries. The OCR-only page fields remain null for the 6 OCR misses, but each now has a separate visually reviewed page/folio location. Remaining 22 have not been visually checked; no full transcriptions are certified."
 }
