@@ -6,7 +6,7 @@ import tempfile
 import unittest
 import xml.etree.ElementTree as ET
 
-from scripts.preview_print_prose import apply, q
+from scripts.preview_print_prose import apply, q, reject_digital_paratext
 
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/"cleaned/en/ISBE.xml"
@@ -37,6 +37,27 @@ class PrintProsePreviewTests(unittest.TestCase):
             self.assertIn("In 1 Esdras 8:2", "".join(records["SAVIAS"].itertext()))
             self.assertIn("Grandfather of Shallum", "".join(records["HASRAH"].itertext()))
             self.assertIn("JOSHIBIAH", "".join(records["JOSIBIAH"].itertext()))
+
+    def test_boilerplate_is_rejected_without_modifying_canonical_source(self):
+        original=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
+        with tempfile.TemporaryDirectory() as folder:
+            data=json.loads(PROSE.read_text(encoding="utf-8"))
+            data["records"][-1]["blocks"][0] += " Copyright Statement These files are public domain."
+            injected=Path(folder)/"injected.json"
+            injected.write_text(json.dumps(data),encoding="utf-8")
+            out=Path(folder)/"out.xml"
+            with self.assertRaisesRegex(ValueError,"Non-content digital paratext"):
+                apply(SOURCE,REDIRECTS,injected,out,Path(folder)/"report.json")
+            self.assertFalse(out.exists())
+            self.assertEqual(hashlib.sha256(SOURCE.read_bytes()).hexdigest(),original)
+
+    def test_scholarly_uses_of_generic_words_are_not_flagged(self):
+        reject_digital_paratext("The editor compared ancient manuscript notes and copyright law.", "TEST")
+        for notice in ("Bibliography Information", "Popular Articles",
+                       "Share Tweet Save", "<footer>", "Proud member of"):
+            with self.subTest(notice=notice):
+                with self.assertRaisesRegex(ValueError,"Non-content digital paratext"):
+                    reject_digital_paratext("Text " + notice, "TEST")
 
     def test_rejects_changed_source_lock(self):
         with tempfile.TemporaryDirectory() as folder:
