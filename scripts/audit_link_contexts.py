@@ -47,6 +47,13 @@ def scan(path):
     for a in entries:
         key = a.get("n")
         lexical_index.setdefault(folded_letters(key), []).append(key)
+    aliases = {}
+    for a in entries:
+        key = a.get("n")
+        for component in key.split(";"):
+            component = component.strip()
+            if component:
+                aliases.setdefault(normalized(component), set()).add(key)
     records = []
     summary = Counter()
     for article in entries:
@@ -64,8 +71,13 @@ def scan(path):
                 parent = parents.get(parent)
             container_text = "".join(parent.itertext()) if parent is not None else ""
             snippet = " ".join(container_text.split())[:450]
+            alias_matches = sorted(aliases.get(normalized(target), ()))
             target_matches = lexical_index.get(folded_letters(target), [])
-            if candidate:
+            if len(alias_matches) == 1:
+                kind = "unique_semicolon_alias_candidate"
+            elif len(alias_matches) > 1:
+                kind = "ambiguous_semicolon_alias"
+            elif candidate:
                 kind = "visible_exact_index_candidate"
             elif len(target_matches) == 1:
                 kind = "unique_separator_variant_candidate"
@@ -80,6 +92,7 @@ def scan(path):
                 "original_target": target,
                 "displayed_text": visible,
                 "candidate_key": candidate,
+                "alias_candidates": alias_matches,
                 "lexical_candidates": target_matches[:20],
                 "kind": kind,
                 "context": snippet,
@@ -88,6 +101,12 @@ def scan(path):
             "status": "review_diagnostics_not_approved_mappings",
             "total_unresolved_occurrences": len(records),
             "category_counts": dict(sorted(summary.items())),
+            "unique_semicolon_alias_candidates": [
+                {"article_key": x["article_key"], "original_target": x["original_target"],
+                 "candidate": x["alias_candidates"][0],
+                 "context": x["context"][:180]}
+                for x in records if x["kind"] == "unique_semicolon_alias_candidate"
+            ],
             "unique_separator_candidates": [
                 {"article_key": x["article_key"], "original_target": x["original_target"],
                  "candidate": x["lexical_candidates"][0], "context": x["context"][:170]}
