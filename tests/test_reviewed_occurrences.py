@@ -17,7 +17,7 @@ $$$NUMBER, LINGUISTICS
 def original_ref():
     root, _, _ = build(CORPUS)
     source = next(x for x in root.iter() if x.tag.endswith("div") and x.get("n") == "GEMATRIA")
-    return next(x.get(XMLID) for x in source.iter() if x.get("target") == "ISBE:NUMBERS")
+    return next(x.get(XMLID) for x in source.iter() if x.get("n") == "ISBE:NUMBERS")
 
 
 class ReviewedOccurrenceTests(unittest.TestCase):
