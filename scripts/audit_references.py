@@ -47,11 +47,17 @@ def audit(index, report):
         status, suggestions = classify(target, stems)
         records.append({"source_target": target, "occurrences": count,
                         "category": status, "review_candidates": suggestions,
-                        "status": "needs_review"})
+                        "status": "needs_review",
+                        "navigation_status": "unlinked_not_clickable"})
         totals[status] += count
+    if ("unlinked_source_reference_occurrences" in report
+            and report["unlinked_source_reference_occurrences"]
+            != report["unresolved_link_occurrences"]):
+        raise ValueError("Unlinked source reference count differs from unresolved count")
     if sum(totals.values()) != report["unresolved_link_occurrences"]:
         raise ValueError("Cross-reference occurrence totals mismatch")
     return {"schema_version": 1, "purpose": "editorial_review_only",
+            "navigation_status": "unlinked_not_clickable",
             "unresolved_occurrences": sum(totals.values()),
             "unresolved_distinct_targets": len(records),
             "categories_by_occurrence": dict(sorted(totals.items())),
