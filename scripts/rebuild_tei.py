@@ -613,7 +613,9 @@ def build(imp, reviewed=None, occurrence_mappings=None):
             original_target = first.get("target", "")
             if not original_target.startswith("ISBE:"):
                 continue
-            label = " ".join("".join(first.itertext()).split())
+            # The ref tail may contain the bibliography itself: inspect only
+            # the visible heading text, never the following sibling text.
+            label = " ".join((first.text or "").split())
             if not is_final_literature_heading(label):
                 continue
             if not is_final_literature_heading(original_target[5:]):
