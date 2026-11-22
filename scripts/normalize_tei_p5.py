@@ -145,14 +145,25 @@ def normalize(root, counts):
                          target.get("type") == "entry" else "section")
             else:
                 raise ValueError("Unknown reference kind")
-        # Preserve each original node and every text/tail byte; only add
-        # structurally neutral wrappers at the 27 already-attested heads.
+        # The digital reconstruction has two paragraph-level bibliography
+        # leads. TEI P5 does not permit @type on <p>; retain the paragraph,
+        # moving only its source classification to a bibliography <div>.
+        # Never convert the leading inline <hi> into a fabricated <head>.
         new_children = []
         bibliography = None
         for child in children:
+            new_section = False
             if child is not children[0] and child.tag == Q("head"):
                 if child.get("type") != "bibliography":
                     raise ValueError("Unexpected source heading after headword")
+                new_section = True
+            elif child.tag == Q("p") and child.get("type") == "bibliography-lead":
+                if not len(child) or child[0].tag != Q("hi") \
+                        or child[0].get("rend") != "bibliography-heading":
+                    raise ValueError("Bibliography lead lacks original marked label")
+                child.attrib.pop("type")
+                new_section = True
+            if new_section:
                 bibliography = ET.Element(Q("div"), {"type": "bibliography"})
                 new_children.append(bibliography)
                 wrappers += 1
@@ -161,7 +172,7 @@ def normalize(root, counts):
             else:
                 bibliography.append(child)
         article[:] = new_children
-    if wrappers != counts["bibliography_heads"]:
+    if wrappers != counts["bibliography_heads"] + counts["bibliography_leads"]:
         raise ValueError("Bibliography wrapper coverage changed")
     return wrappers
 
@@ -209,6 +220,11 @@ def prove_parity(original, candidate, index):
                     attrs["type"] = "article" if target.tag == Q("div") \
                             and target.get("type") == "entry" else "section"
                     counted["internal_refs"] += 1
+            if previous.tag == Q("p") and attrs.get("type") == "bibliography-lead":
+                # Exact exception: structural type moves from the original
+                # paragraph onto the new containing TEI bibliography division.
+                attrs.pop("type")
+                counted["bibliography_leads"] += 1
             if attrs != current.attrib:
                 raise ValueError("Non-allowlisted attribute change: " + previous.get(XMLID))
             old_parent = old_parents.get(previous)
@@ -217,7 +233,8 @@ def prove_parity(original, candidate, index):
                 if new_parent is not None:
                     raise ValueError("Article nesting changed")
             elif old_parent is old:
-                if previous.tag == Q("head") and previous.get("type") == "bibliography":
+                if ((previous.tag == Q("head") and previous.get("type") == "bibliography")
+                        or (previous.tag == Q("p") and previous.get("type") == "bibliography-lead")):
                     old_after_bib = True
                 if old_after_bib and previous is not list(old)[0]:
                     if new_parent.tag != Q("div") or new_parent.get("type") != "bibliography" \
@@ -229,13 +246,20 @@ def prove_parity(original, candidate, index):
                 raise ValueError("Unexpected original parent change")
         wrappers = [node for node in new.iter() if node.tag == Q("div") and
                     node.get("type") == "bibliography"]
-        count_source_heads = sum(child.tag == Q("head") and
-                                 child.get("type") == "bibliography" for child in old)
-        if len(wrappers) != count_source_heads:
-            raise ValueError("Bibliography wrappers do not match authored headings")
+        count_source_sections = sum(
+            (child.tag == Q("head") and child.get("type") == "bibliography") or
+            (child.tag == Q("p") and child.get("type") == "bibliography-lead")
+            for child in old
+        )
+        if len(wrappers) != count_source_sections:
+            raise ValueError("Bibliography wrappers do not match source labels")
         for wrapper in wrappers:
-            if wrapper.get(XMLID) is not None or list(wrapper)[0].tag != Q("head") \
-                    or list(wrapper)[0].get("type") != "bibliography":
+            first = list(wrapper)[0] if len(wrapper) else None
+            if wrapper.get(XMLID) is not None or first is None or not (
+                (first.tag == Q("head") and first.get("type") == "bibliography") or
+                (first.tag == Q("p") and len(first) and first[0].tag == Q("hi") and
+                 first[0].get("rend") == "bibliography-heading")
+            ):
                 raise ValueError("Invented bibliography ID or invalid content")
         counted["bibliography_wrappers"] += len(wrappers)
         counted["articles"] += 1
