@@ -44,11 +44,13 @@ def candidate_heading(line, key):
     raw = line.strip()
     # Strongest evidence is a short uppercase prefix at beginning of an OCR
     # line, rather than an incidental mention in prose or running headers.
-    if normalize(raw) == target:
-        return 4
     stem = re.sub(r"[^A-Za-z]+", "", raw[:len(key)])
-    uppercase = stem and stem.upper() == stem
-    return 3 if uppercase else 2
+    uppercase = bool(stem) and stem.upper() == stem
+    if normalize(raw) == target:
+        return 5 if uppercase else 1
+    # Historical headwords are usually printed uppercase. Lowercase words
+    # and TitleCase alphabetical-index labels remain low-confidence mentions.
+    return 4 if uppercase else 1
 
 
 def find_headings(pages, source_keys, max_hits=8):
@@ -133,7 +135,12 @@ def analyze_pdf(pdf_path, source_ledger_path, volume):
         "claims_exact_print_verification": False,
         "total_checked_keys": len(case_results),
         "keys_with_heading_candidates": sum(
-            bool(row["candidates"]) for row in case_results),
+            any(hit["score"] >= 4 for hit in row["candidates"])
+            for row in case_results),
+        "keys_with_weak_mentions_only": sum(
+            bool(row["candidates"]) and not any(
+                hit["score"] >= 4 for hit in row["candidates"])
+            for row in case_results),
         "cases": case_results,
     }
 
@@ -156,12 +163,12 @@ def main():
     print("PDF SHA256:", report["pdf_sha256"], flush=True)
     print("Pages:", report["pdf_total_pages"], flush=True)
     for case in report["cases"]:
-        if case["candidates"]:
+        if case["candidates"] and case["candidates"][0]["score"] >= 4:
             best = case["candidates"][0]
             print("CANDIDATE:", repr(case["source_key"]), "pdf-page",
                   best["pdf_page_1_based"], "score", best["score"],
                   repr(best["source_line"]), flush=True)
-    print("OCR heading candidates:",
+    print("Strong OCR heading candidates:",
           report["keys_with_heading_candidates"], "/",
           report["total_checked_keys"], flush=True)
 
