@@ -13,6 +13,11 @@
       "basis": "The heading explicitly names a bill, and the referring article concerns bonds."
     },
     {
+      "source_target": "CANAAN, CANAANITE",
+      "destination_article": "CANAAN; CANAANITES",
+      "basis": "The CHANAAN/CHANAANITE source redirects to the same Canaan/Canaanite lexical subject, with plural form and delimiter variants in the index."
+    },
+    {
       "source_target": "CHESTNUT",
       "destination_article": "CHESTNUT, TREE",
       "basis": "The article is about the tree; the referring CHESNUT entry is an alternate spelling."
@@ -28,6 +33,11 @@
       "basis": "The original reference occurs in an epistle discussion and names the same New Testament epistle."
     },
     {
+      "source_target": "COURTS",
+      "destination_article": "COURTS, JUDICIAL",
+      "basis": "The DEFENCE article explicitly says 'See COURTS, JUDICIAL', naming the exact indexed heading rather than another kind of court."
+    },
+    {
       "source_target": "DAY OF THE LORD",
       "destination_article": "DAY OF THE LORD (YAHWEH)",
       "basis": "The full source heading supplies YAHWEH as a parenthetical equivalent of LORD; six source cross-references all name the same theological day."
@@ -41,6 +51,11 @@
       "source_target": "DEUTERO-CANONICAL",
       "destination_article": "DEUTERO-CANONICAL, BOOKS",
       "basis": "The heading expands the named subject to its books; confirmed by the Antilegomena reference."
+    },
+    {
+      "source_target": "EARTH, VAULT OF",
+      "destination_article": "EARTH, VAULT, OF THE",
+      "basis": "Both strings comprise precisely the same words in a different heading inversion/punctuation pattern; the source passage concerns the earth's vault."
     },
     {
       "source_target": "ECCLESIASTES",
@@ -128,6 +143,11 @@
       "basis": "The source redirect JEWS refers to the general entry covering Jews, Jewesses and the adjective Jewish."
     },
     {
+      "source_target": "JORDAN, VALLEY OF",
+      "destination_article": "JORDAN VALLEY",
+      "basis": "The Jordan Valley is the geographic subject of the source reference from the DEAD SEA article, with only heading punctuation/word-order differing."
+    },
+    {
       "source_target": "JOSEPH",
       "destination_article": "JOSEPH (2)",
       "basis": "Both EGYPT and ZAPHENATH-PANEAH discuss Joseph son of Jacob and his Egyptian career, whose biography is JOSEPH (2), not the collective-name list JOSEPH (1)."
@@ -148,9 +168,19 @@
       "basis": "The heading explicitly includes singular and plural forms of the same temporal topic."
     },
     {
+      "source_target": "LUNATIC",
+      "destination_article": "LUNATIC(K)",
+      "basis": "Both EPILEPSY and MAD/MADNESS cite LUNATIC; the unique indexed original heading uses the historical spelling LUNATIC(K)."
+    },
+    {
       "source_target": "MEALS",
       "destination_article": "MEALS, MEAL-TIME",
       "basis": "Both heading components denote the meals discussed by the referring articles."
+    },
+    {
+      "source_target": "MEJARGON",
+      "destination_article": "ME-JARKON",
+      "basis": "The source toponym Mejargon corresponds to the uniquely indexed place-name Me-Jarkon; the source's 1 Kings 4 geographical context confirms the location."
     },
     {
       "source_target": "MEMMIUS",
@@ -266,6 +296,11 @@
       "source_target": "SYRIA",
       "destination_article": "SYRIA (1)",
       "basis": "All nine remaining source cross-references describe Syria geographically or politically (Aram, Damascus, Mesopotamia); SYRIA (2) concerns the Syriac word/language, not the country."
+    },
+    {
+      "source_target": "THE TWIN BROTHERS",
+      "destination_article": "TWIN BROTHERS",
+      "basis": "The DIOSCURI entry explicitly identifies Castor and Pollux as THE TWIN BROTHERS, matching the unique indexed title TWIN BROTHERS."
     },
     {
       "source_target": "THORNS",
