@@ -28,7 +28,17 @@ All 31 cases are **entire article records with an empty sole paragraph**, not is
 
 **Limit:** textual presence was corroborated in the scan's searchable text. A page-image inspection was attempted but the PDF screenshot service rejected this ~50 MB file; **the printed pages and exact lineation were not visually certified**. This is therefore not permission to copy either online transcription into the master. Exact printed page and PDF image index remain open.
 
-Remaining 29 entries must be checked individually. An entry may be a real article, a source-key-only alias, a combined entry elsewhere, or a missing section; these possibilities cannot be decided from CrossWire alone.
+## Complete provisional classification of the 31 missing records
+
+A batch comparison against the **1915 volume-I searchable witness** and independent ISBE text reproductions has now produced a source-linked classification for **all 31 entries** in `workspace/reviews/empty-article-recovery-ledger.json`:
+
+- **21 likely substantive article records** (including ABISSEI and AMNON, independently attested in the 1915 scan text).
+- **10 likely historical cross-reference records**, which can be restored as valid editorial navigation rather than invented encyclopedic prose. Evidenced examples include ASTARTE; ASTORETH → ASHTAROTH; COMING OF CHRIST → ADVENT / PAROUSIA; PROSTRATION → ATTITUDES; REGENERATION, BAPTISMAL → BAPTISMAL REGENERATION; and PAUL, VOYAGE AND SHIPWRECK OF → PAUL, THE APOSTLE / PHOENIX.
+
+These are **provisional genre hypotheses**, not corrections already committed to canonical TEI. Online reproductions may themselves descend from earlier digital versions and do not establish text-accurate correspondence with the printed 1915 volumes. All 31 records have exact source keys and preserved stable IDs; each classification links its supporting witness and states uncertainty. Printed page-image checking, detailed punctuation/structure transcription, target verification, and rights clearance remain outstanding.
+
+A GitHub Actions attempt to fetch the five Internet Archive OCR datasets failed with an external TLS error. The one-off network downloader and workflow were discarded rather than leaving a permanently failing research pipeline; the source-backed editorial classification itself is retained and tested.
+
 
 ## Non-content notice audit
 
