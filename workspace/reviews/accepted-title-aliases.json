@@ -13,6 +13,11 @@
       "basis": "The heading explicitly names a bill, and the referring article concerns bonds."
     },
     {
+      "source_target": "BROTHERLY KINDNESS (LOVE)",
+      "destination_article": "BROTHERLY KINDNESS; BROTHERLY LOVE",
+      "basis": "The original combined heading explicitly gives BROTHERLY KINDNESS and BROTHERLY LOVE as equivalent forms of the target."
+    },
+    {
       "source_target": "CANAAN, CANAANITE",
       "destination_article": "CANAAN; CANAANITES",
       "basis": "The CHANAAN/CHANAANITE source redirects to the same Canaan/Canaanite lexical subject, with plural form and delimiter variants in the index."
@@ -81,6 +86,11 @@
       "source_target": "FAN",
       "destination_article": "FAN, FANNER",
       "basis": "WINNOWING references the threshing fan and fanner, the subject of the original combined heading."
+    },
+    {
+      "source_target": "FEASTS",
+      "destination_article": "FEASTS AND FASTS",
+      "basis": "The three original references concern solemn assemblies and religious festivals, which fall under the source's combined FEASTS AND FASTS headword, not an unrelated term."
     },
     {
       "source_target": "GERIZIM",
@@ -208,9 +218,29 @@
       "basis": "The source reference from MOREH, OAK OF names the same oak-place toponym described in the indexed heading."
     },
     {
+      "source_target": "MORIAH",
+      "destination_article": "MORIAH, LAND OF",
+      "basis": "The Jerusalem article discusses the Temple and the Mount Moriah site, linked to the biblical land of Moriah in the original indexed headword."
+    },
+    {
+      "source_target": "MORROW",
+      "destination_article": "MORROW, TOMORROW",
+      "basis": "The TOMORROW entry explicitly redirects to MORROW, and the combined source heading presents them as lexical equivalents."
+    },
+    {
       "source_target": "NEAR",
       "destination_article": "NEAR, NIGH",
       "basis": "The redirect NIGH points to the paired English equivalents NEAR and NIGH in the original source heading."
+    },
+    {
+      "source_target": "NORTHEAST",
+      "destination_article": "NORTHEAST, SOUTHEAST",
+      "basis": "The source is SOUTHEAST and points to NORTHEAST; the only related combined heading explicitly indexes both directional terms."
+    },
+    {
+      "source_target": "OLIVES",
+      "destination_article": "OLIVES, MOUNT OF",
+      "basis": "The Jerusalem reference concerns the geographical Mount of Olives neighboring Jerusalem; the sole indexed OLIVES title explicitly names this site."
     },
     {
       "source_target": "ON",
@@ -256,6 +286,11 @@
       "source_target": "ROLL",
       "destination_article": "ROLL (SCROLL)",
       "basis": "The CrossWire headword explicitly identifies the roll with the scroll; the references occur in discussions of manuscripts and books."
+    },
+    {
+      "source_target": "SEMITES",
+      "destination_article": "SEMITES, SEMITIC RELIGION",
+      "basis": "The redirect SHEMITES names the Semitic peoples; the source's indexed combined heading begins exactly with SEMITES."
     },
     {
       "source_target": "SHEPHUPHAM",
@@ -328,9 +363,19 @@
       "basis": "The two heading components are equivalent geographical terms."
     },
     {
+      "source_target": "VALE OF SIDDIM",
+      "destination_article": "SIDDIM, VALE OF",
+      "basis": "The ADMAH entry explicitly directs to the Vale of Siddim, which appears with the same geographic words in inverted title order."
+    },
+    {
       "source_target": "VILE",
       "destination_article": "VILE, VILLANY",
       "basis": "The source redirect from VILLANY names the first member of the original combined heading."
+    },
+    {
+      "source_target": "VIRGIN",
+      "destination_article": "VIRGIN, VIRGINITY",
+      "basis": "The MAID; MAIDEN article describes the Hebrew term bethulah meaning virgin; the original grouped headword explicitly includes VIRGIN."
     },
     {
       "source_target": "WEALTH",
