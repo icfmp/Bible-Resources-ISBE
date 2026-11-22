@@ -54,6 +54,21 @@ class ReviewedOccurrenceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "not in designated article"):
             build(CORPUS, occurrence_mappings=[row])
 
+    def test_article_level_fallback_is_explicitly_reported(self):
+        row = self.decision()
+        row["destination_precision"] = "article_fallback"
+        _, _, report = build(CORPUS, occurrence_mappings=[row])
+        self.assertEqual(report["imprecise_article_fallback_count"], 1)
+        self.assertEqual(report["resolved_reviewed_occurrences"][0]["destination_precision"],
+                         "article_fallback")
+
+    def test_fallback_rejects_false_claim_of_precise_anchor(self):
+        row = self.decision()
+        row["destination_precision"] = "article_fallback"
+        row["destination_element_id"] = "pretend-subsection"
+        with self.assertRaisesRegex(ValueError, "fallback cannot include"):
+            build(CORPUS, occurrence_mappings=[row])
+
     def test_source_target_change_fails_loudly(self):
         row = self.decision()
         row["original_target"] = "CHANGED"
