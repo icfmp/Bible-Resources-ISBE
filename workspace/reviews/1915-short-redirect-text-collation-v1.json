@@ -3,13 +3,11 @@
   "bibliographic_witness": "Orr (ed.), International Standard Bible Encyclopaedia (Howard-Severance, 1915), original printed volumes",
   "canonical_source_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "scope": "Exact printed-reading comparison of whole short redirect paragraphs, excluding synthetic TEI heading markup, layout line breaks and small-caps styling; not independent peer certification or publication approval",
-  "compared_short_redirect_paragraphs": 6,
+  "compared_short_redirect_paragraphs": 8,
   "remaining_redirects_pending_exact_body_proofreading": [
     "ASTARTE; ASTORETH",
-    "DUALISM",
-    "PROSTRATION",
-    "STANDING",
-    "JOSIBIAH"
+    "JOSIBIAH",
+    "PROSTRATION"
   ],
   "records": [
     {
@@ -119,6 +117,47 @@
       "collation_observation": "BAPTISMAL wraps across two printed lines; no word-internal hyphen.",
       "editorial_approval": false,
       "canonical_change": false
+    },
+    {
+      "source_key": "DUALISM",
+      "original_paragraph_xml_id": "isbe-c50d86a525e392b466e7-n000003",
+      "printed_entry_reading_with_heading": "DUALISM, dū'al-iz'm. See PHILOSOPHY.",
+      "exact_candidate_paragraph_reading": "dū'al-iz'm. See PHILOSOPHY.",
+      "comparison_result": "matches_printed_reading_after_line_wrap_and_small_caps_normalization",
+      "comparison_scope": "entire_short_redirect_paragraph_only",
+      "source_pdf_volume": "2",
+      "source_pdf_page_1_based": 227,
+      "printed_page": 881,
+      "original_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "rendered_page_jpeg_sha256": "e4ca2f41318ef5b3bd4434692cfff58037b16db13a14a4790739d7dbab0b9c23",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "inspected_at_2000px": true,
+      "collation_observation": "Long u and apostrophe in historical pronunciation retained from image; printed reference PHILOSOPHY.",
+      "editorial_approval": false,
+      "canonical_change": false
+    },
+    {
+      "source_key": "STANDING",
+      "original_paragraph_xml_id": "isbe-3e1f0d65ca79928769ac-n000003",
+      "printed_entry_reading_with_heading": "STANDING, stand'ing. See ATTITUDES.",
+      "exact_candidate_paragraph_reading": "stand'ing. See ATTITUDES.",
+      "comparison_result": "matches_printed_reading_after_line_wrap_and_small_caps_normalization",
+      "comparison_scope": "entire_short_redirect_paragraph_only",
+      "source_pdf_volume": "5",
+      "source_pdf_page_1_based": 38,
+      "printed_page": 2848,
+      "original_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "rendered_page_jpeg_sha256": "ee83449e8d3bfcb8c7d2c00a14c0eda409cdf6fb3cbdcd3aa42df96270b83e4f",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "inspected_at_2000px": true,
+      "collation_observation": "Printed pronunciation and punctuation visible on one line.",
+      "editorial_approval": false,
+      "canonical_change": false
     }
-  ]
+  ],
+  "unresolved_print_readings_notes": {
+    "ASTARTE; ASTORETH": "Original pronunciation includes diacritics not reliably represented in current candidate; enlarge and compare letter-by-letter before matching.",
+    "JOSIBIAH": "Hyphen positions and pronunciation glyphs require magnified recheck against full printed article.",
+    "PROSTRATION": "Pronunciation vowel quantity mark shown in print is not clearly represented in ASCII-based candidate; preserve unresolved status."
+  }
 }
