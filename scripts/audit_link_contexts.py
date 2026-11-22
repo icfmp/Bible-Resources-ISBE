@@ -49,9 +49,21 @@ def scan(path):
         lexical_index.setdefault(folded_letters(key), []).append(key)
     records = []
     sections = []
+    structure_examples = []
     summary = Counter()
     for article in entries:
         article_key = article.get("n")
+        if article_key in ("EDUCATION", "EGYPT", "EBIONISM; EBIONITES", "ANTHROPOMORPHISM"):
+            paragraphs = [p for p in article.iter() if p.tag.split("}")[-1] == "p"]
+            structure_examples.append({
+                "article": article_key,
+                "paragraphs": len(paragraphs),
+                "paragraph_previews": [
+                    {"text": " ".join("".join(p.itertext()).split())[:180],
+                     "children": [x.tag.split("}")[-1] for x in list(p)[:7]]}
+                    for p in paragraphs[:18]
+                ],
+            })
         parents = {c: p for p in article.iter() for c in p}
         marked_headings = []
         for candidate in article.iter():
@@ -111,6 +123,7 @@ def scan(path):
             "status": "review_diagnostics_not_approved_mappings",
             "total_unresolved_occurrences": len(records),
             "category_counts": dict(sorted(summary.items())),
+            "article_structure_examples": structure_examples,
             "section_review_samples": sections[:120],
             "section_occurrences_in_review": len(sections),
             "unique_separator_candidates": [
