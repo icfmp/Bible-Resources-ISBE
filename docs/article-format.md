@@ -1,6 +1,6 @@
 # Canonical TEI interchange format
 
-The **target encoding standard** is [ISBE TEI P5 structure profile](tei-structure-profile.md). This document describes the present reconstructed data and its stable IDs. The current XML is a working reconstruction, not an officially schema-validated TEI P5 publication.
+The **target encoding standard** is [ISBE TEI P5 structure profile](tei-structure-profile.md). This document describes the source-faithful **canonical TEI P5 working edition**, its stable IDs and its verified migration. Official RELAX NG and Schematron checks pass, but format validity is not historical print review or permission to publish.
 
 The editorial master is **TEI XML**, one document per language edition. `cleaned/en/ISBE.xml` contains the complete digital-source transcription. Subsequent editions use the same article identifiers and (where structure is unchanged) the same text-unit identifiers.
 
@@ -8,9 +8,9 @@ The document contains:
 
 - `<TEI>`, `<teiHeader>`, `<text>`, `<body>`.
 - One `<div type="entry" xml:id="isbe-…" n="ORIGINAL SWORD KEY">` per dictionary entry.
-- One `<head xml:id="…">` for its heading.
+- One leading `<head type="index" xml:id="…">` for its source-key-derived synthetic heading. Other source-authored headings remain distinct.
 - Source text units (`p`, `list`, `item`, etc.) and inline TEI elements (`ref`, `hi`, etc.) retained as found in the CrossWire source; each indexed content element receives an `xml:id`.
-- Cross-article targets are rewritten to `#isbe-…` when the original key exists, and the original `ISBE:KEY` is retained in `n`. References that cannot be linked with sufficient evidence are emitted as non-clickable `<seg type="unlinked-source-reference" n="ISBE:…">` rather than as broken `<ref>` hyperlinks. The original visible text, `xml:id` and original target remain intact for auditing and possible future repair. Biblical `osisRef` values remain untouched **for fidelity in the working legacy reconstruction**. The target profile requires a separate, tested transfer to TEI `cRef` with a declared canonical-reference scheme before claiming P5 conformance.
+- Cross-article targets are rewritten to `#isbe-…` when the original key exists, and the original `ISBE:KEY` is retained in `n`. References that cannot be linked with sufficient evidence are emitted as non-clickable `<seg type="unlinked-source-reference" n="ISBE:…">` rather than as broken `<ref>` hyperlinks. The original visible text, `xml:id` and original target remain intact for auditing and possible future repair. Original biblical `osisRef` values are retained in the **preserved source/intermediate** and copied exactly into canonical TEI P5 `ref/@cRef` with `type="scripture"`; their source-reference convention is declared in the TEI header. Internal references are typed by their verified destinations without changing their original CrossWire `n` or active `target`.
 
 ## Stable IDs
 
@@ -20,7 +20,7 @@ Article IDs are `isbe-` plus the first 20 hexadecimal digits of SHA-256 over the
 
 ## Content integrity
 
-The extractor compares the complete Unicode text of each source entry with its reconstructed TEI, then parses the serialized output and checks each article's text SHA-256. No editorial substitutions or source corrections are permitted at this stage.
+The extractor compares the complete Unicode text of each source entry with its reconstructed TEI, then parses the serialized output and checks each article's text SHA-256. The official canonical migration additionally compares every source node's text, tail, attributes (except explicitly authorized mechanical transformations), order, IDs and source metadata to the original reconstructed witness. No editorial substitutions or source corrections are permitted at this stage.
 
 The XML preserves inline TEI and source Bible references where present. It does not attempt to reproduce original printed layouts.
 
@@ -36,3 +36,7 @@ For rare references to a verified article with a numbered subdivision that canno
 
 The full regeneration verifies the Unicode article-text hash against the export, checks all `xml:id` values for uniqueness, checks every resolved fragment target, and confirms that all original encyclopedia references are accounted for as a valid resolved link, an inert source-reference segment, or a reclassified bibliographic heading. CrossWire sometimes encoded a final `LITERATURE.` heading as a reference to a nonexistent article: in demonstrable cases, it is reconstructed as a TEI bibliography heading, with identical visible text, stable source identifier and original `ISBE:...` value in `n`. A corresponding table-of-contents reference may then target the actual section. A remaining unresolved source reference is **not** a clickable link: its text and original destination remain visible in the XML and are recorded in `workspace/reports/tei-reconstruction.json` as `unlinked_source_references`. The report separately counts `active_broken_isbe_links` (required to be zero), and the contextual review files still list the unlinked occurrences. The original CrossWire ZIP and intermediate IMP export remain unchanged.
 
+
+## Schema validation
+
+The schema-pinned, source-locked canonical candidate is checked against official TEI P5 4.12.0 RELAX NG and ISO Schematron on the serialized XML, with explicit negative controls and independent source parity. See [TEI P5 migration evidence](tei-p5-candidate-migration.md) and [profile](tei-structure-profile.md). The canonical master is the validated candidate; the original XML reconstruction is always reproducible separately from the preserved IMP.
