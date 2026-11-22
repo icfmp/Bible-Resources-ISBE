@@ -595,6 +595,12 @@
       "occurrences": 1
     },
     {
+      "original": "BAPTISM; FIRE",
+      "resolved_to": "BAPTISM OF FIRE",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "BARSABBAS",
       "resolved_to": "BARSABAS; BARSABBAS",
       "rule": "explicit_semicolon_title_alias",
@@ -1561,6 +1567,12 @@
       "occurrences": 2
     },
     {
+      "original": "HAROD",
+      "resolved_to": "HAROD, WELL OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "HATE",
       "resolved_to": "HATE; HATRED",
       "rule": "explicit_semicolon_title_alias",
@@ -2177,6 +2189,12 @@
       "resolved_to": "PERSIAN RELIGION (ANCIENT)",
       "rule": "reviewed_title_alias",
       "occurrences": 2
+    },
+    {
+      "original": "PERSON",
+      "resolved_to": "PERSON, PERSONALITY",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
     },
     {
       "original": "PETER (SIMON)",
@@ -2875,7 +2893,7 @@
       "occurrences": 1
     }
   ],
-  "resolved_variant_occurrences": 891,
+  "resolved_variant_occurrences": 894,
   "resolved_local_section_links": [
     {
       "article_key": "ACCOMMODATION",
@@ -3884,6 +3902,15 @@
       "basis": "BICHRI cites Becher section 1. The precise section has not been identified; the indexed BECHER article is the subject-correct article-level fallback, with the original '1' retained."
     },
     {
+      "source_article": "BIND; BOUND",
+      "ref_id": "isbe-51f559cc2a958dd2cca5-n000022",
+      "original": "PETER",
+      "destination_article": "PETER, SIMON",
+      "destination_id": "isbe-a86a5ad306c58f1f2fe7",
+      "destination_precision": "reviewed",
+      "basis": "The binding-and-loosing reference directs to the apostle Simon Peter, named in the indexed headword PETER, SIMON."
+    },
+    {
       "source_article": "BITTER WATER",
       "ref_id": "isbe-5b804307c2d92d4ac9a8-n000004",
       "original": "ADULTERY (2)",
@@ -4008,6 +4035,15 @@
       "destination_id": "isbe-83041d34248702e0c238",
       "destination_precision": "reviewed",
       "basis": "The citizenship source refers to the Roman citizenship of Paul the Apostle."
+    },
+    {
+      "source_article": "CITY",
+      "ref_id": "isbe-31a5fbc075a79de045a6-n000106",
+      "original": "JUDGES",
+      "destination_article": "JUDGE",
+      "destination_id": "isbe-be5aa6e7e0036550d40a",
+      "destination_precision": "reviewed",
+      "basis": "The source discusses urban government and courts with ELDER and SANHEDRIN; the indexed headword JUDGE covers the office, not the biblical Book or Period of Judges."
     },
     {
       "source_article": "COSMOGONY",
@@ -4154,6 +4190,24 @@
       "basis": "ELO-BETH-HANAN is a variant of the town Elon-beth-Hanan, described in ELON (2), not one of the people named Elon."
     },
     {
+      "source_article": "ENOCH, BOOK OF",
+      "ref_id": "isbe-4d0a9896d24ba8d95400-n000005",
+      "original": "ETHIOPIC",
+      "destination_article": "ENOCH, ETHIOPIC, BOOK OF",
+      "destination_id": "isbe-1385e0b34e05d278ddf7",
+      "destination_precision": "reviewed",
+      "basis": "The source explicitly says 'see ENOCH, ETHIOPIC, BOOK OF'; the original link selected only the middle word ETHIOPIC."
+    },
+    {
+      "source_article": "ENOCH, BOOK OF",
+      "ref_id": "isbe-4d0a9896d24ba8d95400-n000007",
+      "original": "SLAVONIC",
+      "destination_article": "ENOCH, SLAVONIC, BOOK OF",
+      "destination_id": "isbe-0823c6667db8dd01797a",
+      "destination_precision": "reviewed",
+      "basis": "The source explicitly says 'see ENOCH, SLAVONIC, BOOK OF'; the original link selected only the middle word SLAVONIC."
+    },
+    {
       "source_article": "FOREST OF EPHRAIM",
       "ref_id": "isbe-3c08ecc816c7b98ac91f-n000004",
       "original": "EPHRAIM",
@@ -4188,6 +4242,15 @@
       "destination_id": "isbe-aa129a30edcc782f9006",
       "destination_precision": "reviewed",
       "basis": "The source names Baal alongside Ashtaroth, identifying the Canaanite deity in BAAL (1)."
+    },
+    {
+      "source_article": "GOD",
+      "ref_id": "isbe-1f8c16044419c4833371-n000325",
+      "original": "COVENANT",
+      "destination_article": "COVENANT, IN THE OLD TESTAMENT",
+      "destination_id": "isbe-aa8d688c810106927dce",
+      "destination_precision": "reviewed",
+      "basis": "The source cites God's covenant with Israel at Genesis 15 and Exodus 6, the Old Testament covenant discussed under this indexed heading."
     },
     {
       "source_article": "GODS",
@@ -5045,7 +5108,7 @@
       "basis": "ZIPHITES are inhabitants of the town of Ziph in Judah, described in ZIPH (1); ZIPH (2) lists persons bearing that name."
     }
   ],
-  "resolved_reviewed_occurrence_count": 163,
+  "resolved_reviewed_occurrence_count": 168,
   "imprecise_article_fallback_count": 6,
   "unresolved_link_diagnostics": [
     {
@@ -5219,11 +5282,6 @@
       "occurrences": 1
     },
     {
-      "original": "BAPTISM; FIRE",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "BETHUEL; CHESIL",
       "reason": "not_found",
       "occurrences": 1
@@ -5281,7 +5339,7 @@
     {
       "original": "COVENANT",
       "reason": "not_found",
-      "occurrences": 2
+      "occurrences": 1
     },
     {
       "original": "CRAFTS, II",
@@ -5384,11 +5442,6 @@
       "occurrences": 1
     },
     {
-      "original": "ETHIOPIC",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "EUEDORACHOS",
       "reason": "not_found",
       "occurrences": 1
@@ -5434,11 +5487,6 @@
       "occurrences": 1
     },
     {
-      "original": "HAROD",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "HDB",
       "reason": "not_found",
       "occurrences": 1
@@ -5475,11 +5523,6 @@
     },
     {
       "original": "JONAS",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "JUDGES",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5564,16 +5607,6 @@
       "occurrences": 1
     },
     {
-      "original": "PERSON",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "PETER",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "PHILIP",
       "reason": "not_found",
       "occurrences": 1
@@ -5630,11 +5663,6 @@
     },
     {
       "original": "SHEMESH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "SLAVONIC",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5744,7 +5772,7 @@
     "MILLENNIUM": 1,
     "OHOLIAH": 1,
     "HDB": 1,
-    "COVENANT": 2,
+    "COVENANT": 1,
     "PITHEIS": 1,
     "PEITHE": 1,
     "HEROD'S": 1,
@@ -5778,7 +5806,6 @@
     "ENSIGN, STANDARDS": 1,
     "SYMPOSIUM": 1,
     "MEALS; TRICLINIUM": 1,
-    "BAPTISM; FIRE": 1,
     "BAPTISM": 3,
     "BAPTISM (I)": 1,
     "ORDEAL OF JEALOUSY": 1,
@@ -5791,13 +5818,11 @@
     "BETHUEL; CHESIL": 1,
     "BURIAL, IV": 1,
     "AVEN; BETH-EDEN": 1,
-    "PETER": 1,
     "FEASTS AND FASTS, I, 2": 1,
     "DB": 1,
     "EAST": 2,
     "TEMPLE, II, 4": 1,
     "ERI-AKU, 4": 1,
-    "JUDGES": 1,
     "CLOUD, II, 2": 1,
     "PILLAR OF CLOUD": 1,
     "ARMOR, III, 1": 1,
@@ -5831,8 +5856,6 @@
     "III. GENERAL ESTIMATE LITERATURE": 1,
     "SHEMESH": 1,
     "ESCHATOLOGY; WORLD, END OF THE": 1,
-    "ETHIOPIC": 1,
-    "SLAVONIC": 1,
     "QUIRINIUS; TAX": 1,
     "V. THE PURPOSE": 1,
     "ESEREBIAS; SHEREBIAH": 1,
@@ -5851,7 +5874,6 @@
     "MOREH": 1,
     "HEBREWS": 1,
     "DRY": 1,
-    "HAROD": 1,
     "GEDI": 1,
     "UZ": 1,
     "CHRIST": 1,
@@ -5864,7 +5886,6 @@
     "NAMES": 1,
     "LOT": 1,
     "PERAZIM": 1,
-    "PERSON": 1,
     "PHILIP": 1,
     "ARBEL": 1,
     "CHALDEES": 1,
@@ -5873,13 +5894,1031 @@
     "ALTAR OF BURNT OFFERING": 1,
     "REBELLION": 1
   },
-  "unresolved_link_occurrences": 152,
+  "unlinked_source_references": [
+    {
+      "source_article": "ABSTINENCE",
+      "ref_id": "isbe-751a31f49dc324794057-n000015",
+      "original_target": "ISBE:FAST.",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "FAST."
+    },
+    {
+      "source_article": "ACCARON",
+      "ref_id": "isbe-0de438be76533c6bfcbc-n000004",
+      "original_target": "ISBE:EKRON.",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "EKRON."
+    },
+    {
+      "source_article": "ADAM IN THE OLD TESTAMENT AND THE APOCRYPHA",
+      "ref_id": "isbe-5533a167f62b1cd0d3d4-n000031",
+      "original_target": "ISBE:ADAM IN THE NEW TESTAMENT; FALL, THE",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "ADAM IN THE NEW TESTAMENT; FALL, THE"
+    },
+    {
+      "source_article": "ADAM, BOOKS OF",
+      "ref_id": "isbe-7dd07e71cbbea876d9ba-n000004",
+      "original_target": "ISBE:APOCALYPTIC LITERATURE; APOCRYPHA",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "APOCALYPTIC LITERATURE; APOCRYPHA"
+    },
+    {
+      "source_article": "ADONAI",
+      "ref_id": "isbe-ab128cb6a98b6e08e259-n000004",
+      "original_target": "ISBE:YHWH",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "YHWH"
+    },
+    {
+      "source_article": "ADULTERY",
+      "ref_id": "isbe-ff2460f7aa7c3e061b8e-n000046",
+      "original_target": "ISBE:CRIMES; DIVORCE IN THE NEW TESTAMENT",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "CRIMES; DIVORCE IN THE NEW TESTAMENT"
+    },
+    {
+      "source_article": "ADVENT",
+      "ref_id": "isbe-f8695bc9d4376f267164-n000005",
+      "original_target": "ISBE:MILLENNIUM",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "MILLENNIUM"
+    },
+    {
+      "source_article": "AHOLIAH",
+      "ref_id": "isbe-b52a9f5715adf507b04f-n000004",
+      "original_target": "ISBE:OHOLIAH",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "OHOLIAH"
+    },
+    {
+      "source_article": "ALLAR",
+      "ref_id": "isbe-2c55eba8de37f2f22ec1-n000004",
+      "original_target": "ISBE:HDB",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "HDB"
+    },
+    {
+      "source_article": "ALLIANCE",
+      "ref_id": "isbe-54e3d0fb8588cbf155a3-n000064",
+      "original_target": "ISBE:COVENANT",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "COVENANT"
+    },
+    {
+      "source_article": "ALMOST",
+      "ref_id": "isbe-b3ab1a23d4e099dc1263-n000011",
+      "original_target": "ISBE:PITHEIS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "PITHEIS"
+    },
+    {
+      "source_article": "ALMOST",
+      "ref_id": "isbe-b3ab1a23d4e099dc1263-n000017",
+      "original_target": "ISBE:PEITHE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "PEITHE"
+    },
+    {
+      "source_article": "ALTAR",
+      "ref_id": "isbe-3756c2558316897ae44a-n000253",
+      "original_target": "ISBE:HEROD'S",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "HEROD'S"
+    },
+    {
+      "source_article": "AMULET",
+      "ref_id": "isbe-c0732784bf0946c6e90a-n000012",
+      "original_target": "ISBE:TALISMAN",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "TALISMAN"
+    },
+    {
+      "source_article": "ANTEDILUVIAN PATRIARCHS",
+      "ref_id": "isbe-70d8343a370a46f89359-n000053",
+      "original_target": "ISBE:ALOROS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ALOROS"
+    },
+    {
+      "source_article": "ANTEDILUVIAN PATRIARCHS",
+      "ref_id": "isbe-70d8343a370a46f89359-n000055",
+      "original_target": "ISBE:ALAPAROS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ALAPAROS"
+    },
+    {
+      "source_article": "ANTEDILUVIAN PATRIARCHS",
+      "ref_id": "isbe-70d8343a370a46f89359-n000057",
+      "original_target": "ISBE:AMELON",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "AMELON"
+    },
+    {
+      "source_article": "ANTEDILUVIAN PATRIARCHS",
+      "ref_id": "isbe-70d8343a370a46f89359-n000059",
+      "original_target": "ISBE:AMMENON",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "AMMENON"
+    },
+    {
+      "source_article": "ANTEDILUVIAN PATRIARCHS",
+      "ref_id": "isbe-70d8343a370a46f89359-n000061",
+      "original_target": "ISBE:MEGALAROS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "MEGALAROS"
+    },
+    {
+      "source_article": "ANTEDILUVIAN PATRIARCHS",
+      "ref_id": "isbe-70d8343a370a46f89359-n000063",
+      "original_target": "ISBE:DAONOS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "DAONOS"
+    },
+    {
+      "source_article": "ANTEDILUVIAN PATRIARCHS",
+      "ref_id": "isbe-70d8343a370a46f89359-n000065",
+      "original_target": "ISBE:EUEDORACHOS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "EUEDORACHOS"
+    },
+    {
+      "source_article": "ANTEDILUVIAN PATRIARCHS",
+      "ref_id": "isbe-70d8343a370a46f89359-n000067",
+      "original_target": "ISBE:AMEMPSINOS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "AMEMPSINOS"
+    },
+    {
+      "source_article": "ANTEDILUVIAN PATRIARCHS",
+      "ref_id": "isbe-70d8343a370a46f89359-n000069",
+      "original_target": "ISBE:OTIARTES",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "OTIARTES"
+    },
+    {
+      "source_article": "ANTHROPOMORPHISM",
+      "ref_id": "isbe-462b8f1c54973f39926d-n000048",
+      "original_target": "ISBE:LITERATURE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "LITERATURE"
+    },
+    {
+      "source_article": "APOCRYPHAL EPISTLES",
+      "ref_id": "isbe-75931cc9c8b280b2fe43-n000019",
+      "original_target": "ISBE:CORINTHIANS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "CORINTHIANS"
+    },
+    {
+      "source_article": "APPLE; APPLE-TREE",
+      "ref_id": "isbe-e8d3e544cf35ec6b0e86-n000017",
+      "original_target": "ISBE:TAPPUAH",
+      "disposition": "ambiguous_numbered_headword",
+      "displayed_text": "TAPPUAH"
+    },
+    {
+      "source_article": "AREOPOLIS",
+      "ref_id": "isbe-e01750efdc3ea4eb842a-n000004",
+      "original_target": "ISBE:AR",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "AR"
+    },
+    {
+      "source_article": "ARIEL",
+      "ref_id": "isbe-6d14ccde102c3a206937-n000006",
+      "original_target": "ISBE:ALTAR HEARTH",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ALTAR HEARTH"
+    },
+    {
+      "source_article": "ASCENSION",
+      "ref_id": "isbe-120c5deb282f28aae2cd-n000156",
+      "original_target": "ISBE:PROPHET",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "PROPHET"
+    },
+    {
+      "source_article": "ASIARCH",
+      "ref_id": "isbe-7b9328b45bf061c13cf8-n000004",
+      "original_target": "ISBE:BITHYNIARCH",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "BITHYNIARCH"
+    },
+    {
+      "source_article": "ASIARCH",
+      "ref_id": "isbe-7b9328b45bf061c13cf8-n000005",
+      "original_target": "ISBE:CARIARCH",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "CARIARCH"
+    },
+    {
+      "source_article": "ASIARCH",
+      "ref_id": "isbe-7b9328b45bf061c13cf8-n000006",
+      "original_target": "ISBE:SYRIARCH",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "SYRIARCH"
+    },
+    {
+      "source_article": "ATHEISM",
+      "ref_id": "isbe-5e32a288c0b6606df1cd-n000031",
+      "original_target": "ISBE:CREATION; GOD",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "CREATION; GOD"
+    },
+    {
+      "source_article": "BAALBEK",
+      "ref_id": "isbe-f479bdcf56cfe4cd11d9-n000004",
+      "original_target": "ISBE:AVEN; ON",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "AVEN; ON"
+    },
+    {
+      "source_article": "BABBLER",
+      "ref_id": "isbe-87ccb424c24c4b59a8b0-n000005",
+      "original_target": "ISBE:CHARMER",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "CHARMER"
+    },
+    {
+      "source_article": "BABYLON IN THE OLD TESTAMENT",
+      "ref_id": "isbe-bdf95a1c7b0e4335ff2a-n000004",
+      "original_target": "ISBE:BABEL",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "BABEL"
+    },
+    {
+      "source_article": "BABYLON IN THE OLD TESTAMENT",
+      "ref_id": "isbe-bdf95a1c7b0e4335ff2a-n000005",
+      "original_target": "ISBE:BABYLON",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "BABYLON"
+    },
+    {
+      "source_article": "BANIAS (2)",
+      "ref_id": "isbe-effab2236a5557fb8f1e-n000004",
+      "original_target": "ISBE:CAESAREA, PHILIPPI",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "CAESAREA, PHILIPPI"
+    },
+    {
+      "source_article": "BANNER",
+      "ref_id": "isbe-1447c7da3a9b5ce204cf-n000004",
+      "original_target": "ISBE:ENSIGN, STANDARDS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ENSIGN, STANDARDS"
+    },
+    {
+      "source_article": "BANQUET",
+      "ref_id": "isbe-f424d16957ee202930cb-n000016",
+      "original_target": "ISBE:SYMPOSIUM",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "SYMPOSIUM"
+    },
+    {
+      "source_article": "BANQUET",
+      "ref_id": "isbe-f424d16957ee202930cb-n000026",
+      "original_target": "ISBE:MEALS; TRICLINIUM",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "MEALS; TRICLINIUM"
+    },
+    {
+      "source_article": "BAPTISM, INFANT",
+      "ref_id": "isbe-6ae358d01d440574ba88-n000004",
+      "original_target": "ISBE:BAPTISM",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "BAPTISM"
+    },
+    {
+      "source_article": "BAPTISMAL REGENERATION",
+      "ref_id": "isbe-15da37c7e071118c66f0-n000040",
+      "original_target": "ISBE:BAPTISM (I)",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "BAPTISM (I)"
+    },
+    {
+      "source_article": "BARLEY",
+      "ref_id": "isbe-8bdbfc0995b0a6c157d7-n000018",
+      "original_target": "ISBE:ORDEAL OF JEALOUSY",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ORDEAL OF JEALOUSY"
+    },
+    {
+      "source_article": "BARN",
+      "ref_id": "isbe-3c57b89154b167230c10-n000015",
+      "original_target": "ISBE:AGRICULTURE; GARNER",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "AGRICULTURE; GARNER"
+    },
+    {
+      "source_article": "BATTLE-AXE",
+      "ref_id": "isbe-e6f9a2d330eabd12e4d8-n000007",
+      "original_target": "ISBE:AX",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "AX"
+    },
+    {
+      "source_article": "BEATEN GOLD",
+      "ref_id": "isbe-66a65cdf2f8c19032be3-n000004",
+      "original_target": "ISBE:GOLD (BEATEN)",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "GOLD (BEATEN)"
+    },
+    {
+      "source_article": "BELIAL",
+      "ref_id": "isbe-6f3e11b5679592185c49-n000013",
+      "original_target": "ISBE:ANTICHRIST; MAN OF SIN",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "ANTICHRIST; MAN OF SIN"
+    },
+    {
+      "source_article": "BELLOWS",
+      "ref_id": "isbe-67f6efb675a7ea745198-n000006",
+      "original_target": "ISBE:CRAFTS, II",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "CRAFTS, II"
+    },
+    {
+      "source_article": "BELOMANCY",
+      "ref_id": "isbe-c21a31099ecb071ab1dd-n000005",
+      "original_target": "ISBE:AUGURY, IV",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "AUGURY, IV"
+    },
+    {
+      "source_article": "BETHUL",
+      "ref_id": "isbe-3e5101d2c1aba61224b8-n000005",
+      "original_target": "ISBE:BETHUEL; CHESIL",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "BETHUEL; CHESIL"
+    },
+    {
+      "source_article": "BEWAIL",
+      "ref_id": "isbe-746818c776f865597bf3-n000009",
+      "original_target": "ISBE:BURIAL, IV",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "BURIAL, IV"
+    },
+    {
+      "source_article": "BIKATH-AVEN",
+      "ref_id": "isbe-5353b466b71c4cdd5796-n000006",
+      "original_target": "ISBE:AVEN; BETH-EDEN",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "AVEN; BETH-EDEN"
+    },
+    {
+      "source_article": "BOOTHS, FEAST OF",
+      "ref_id": "isbe-6a7be72f0a03ef891863-n000004",
+      "original_target": "ISBE:FEASTS AND FASTS, I, 2",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "FEASTS AND FASTS, I, 2"
+    },
+    {
+      "source_article": "BRACELET",
+      "ref_id": "isbe-87f4785064ef46286405-n000015",
+      "original_target": "ISBE:DB",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "DB"
+    },
+    {
+      "source_article": "CAMEL",
+      "ref_id": "isbe-f39f803c2d6402fccfb1-n000017",
+      "original_target": "ISBE:EAST",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "EAST"
+    },
+    {
+      "source_article": "CHAPITER",
+      "ref_id": "isbe-afaa26c9802379910b18-n000007",
+      "original_target": "ISBE:TEMPLE, II, 4",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "TEMPLE, II, 4"
+    },
+    {
+      "source_article": "CHEDORLAOMER",
+      "ref_id": "isbe-caacae0916506a8a4e57-n000015",
+      "original_target": "ISBE:ERI-AKU, 4",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ERI-AKU, 4"
+    },
+    {
+      "source_article": "CLOUD, PILLAR OF",
+      "ref_id": "isbe-9eec4169d1ec2068c7fb-n000004",
+      "original_target": "ISBE:CLOUD, II, 2",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "CLOUD, II, 2"
+    },
+    {
+      "source_article": "CLOUD, PILLAR OF",
+      "ref_id": "isbe-9eec4169d1ec2068c7fb-n000005",
+      "original_target": "ISBE:PILLAR OF CLOUD",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "PILLAR OF CLOUD"
+    },
+    {
+      "source_article": "CLUB",
+      "ref_id": "isbe-57befefefd22cb67f781-n000005",
+      "original_target": "ISBE:ARMOR, III, 1",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ARMOR, III, 1"
+    },
+    {
+      "source_article": "CLUSTER",
+      "ref_id": "isbe-033278922ccddea3f379-n000005",
+      "original_target": "ISBE:VALE OF ESHCOL",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "VALE OF ESHCOL"
+    },
+    {
+      "source_article": "COMMENTARIES",
+      "ref_id": "isbe-925fc7b31d5062b6313b-n000053",
+      "original_target": "ISBE:TEXTUAL CRITICISM",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "TEXTUAL CRITICISM"
+    },
+    {
+      "source_article": "COMMENTARIES",
+      "ref_id": "isbe-925fc7b31d5062b6313b-n000088",
+      "original_target": "ISBE:TEXTUAL CRITICISM",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "TEXTUAL CRITICISM"
+    },
+    {
+      "source_article": "COMMUNION WITH DEMONS; DEVILS",
+      "ref_id": "isbe-048b6ec03d64cbde5aae-n000028",
+      "original_target": "ISBE:DEMON, DEMONOLOGY",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "DEMON, DEMONOLOGY"
+    },
+    {
+      "source_article": "CORNER-STONE",
+      "ref_id": "isbe-8decaf5f18c9c3680f94-n000005",
+      "original_target": "ISBE:FORTIFICATION, II, 1",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "FORTIFICATION, II, 1"
+    },
+    {
+      "source_article": "COVENANT, BOOK OF THE",
+      "ref_id": "isbe-61621371c2643b0f6e91-n000059",
+      "original_target": "ISBE:CRITICISM (GRAF-WELLHAUSEN HYPOTHESIS)",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "CRITICISM (GRAF-WELLHAUSEN HYPOTHESIS)"
+    },
+    {
+      "source_article": "CUTTINGS IN THE FLESH",
+      "ref_id": "isbe-ebdd939ceb54ac5c79e4-n000025",
+      "original_target": "ISBE:STIGMATA, MARK",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "STIGMATA, MARK"
+    },
+    {
+      "source_article": "DART",
+      "ref_id": "isbe-857e0706163163049a12-n000007",
+      "original_target": "ISBE:ARMS, III",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ARMS, III"
+    },
+    {
+      "source_article": "DAY OF THE LORD (YAHWEH)",
+      "ref_id": "isbe-7105a034fb850a5783a8-n000028",
+      "original_target": "ISBE:OF THE OLD TESTAMENT AND NEW TESTAMENT",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "OF THE OLD TESTAMENT AND NEW TESTAMENT"
+    },
+    {
+      "source_article": "DEATH",
+      "ref_id": "isbe-6981ec83774d7915876a-n000118",
+      "original_target": "ISBE:DECEASE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "DECEASE"
+    },
+    {
+      "source_article": "DEATH",
+      "ref_id": "isbe-6981ec83774d7915876a-n000244",
+      "original_target": "ISBE:DECEASE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "DECEASE"
+    },
+    {
+      "source_article": "DECISION",
+      "ref_id": "isbe-e2a660a7de93d2c572c9-n000023",
+      "original_target": "ISBE:AUGURY, IV, 3",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "AUGURY, IV, 3"
+    },
+    {
+      "source_article": "DELUGE OF NOAH",
+      "ref_id": "isbe-c02650fee90976c583db-n000056",
+      "original_target": "ISBE:BABYLONIA AND ASSYRIA",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "BABYLONIA AND ASSYRIA"
+    },
+    {
+      "source_article": "DIP",
+      "ref_id": "isbe-a2742d313982a54ff43a-n000007",
+      "original_target": "ISBE:ASHER",
+      "disposition": "ambiguous_numbered_headword",
+      "displayed_text": "ASHER"
+    },
+    {
+      "source_article": "DRESS",
+      "ref_id": "isbe-13936ff20d15dc0305d8-n000095",
+      "original_target": "ISBE:TUNIC",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "TUNIC"
+    },
+    {
+      "source_article": "EARRING",
+      "ref_id": "isbe-40a3dfe86f9bb3fef0e4-n000011",
+      "original_target": "ISBE:AMULET; ORNAMENT",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "AMULET; ORNAMENT"
+    },
+    {
+      "source_article": "EARTH",
+      "ref_id": "isbe-bcfee25a8baf6808fce5-n000021",
+      "original_target": "ISBE:ANTHROPOLOGY; ASTRONOMY; EVOLUTION; WORLD",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "ANTHROPOLOGY; ASTRONOMY; EVOLUTION; WORLD"
+    },
+    {
+      "source_article": "EARTH, THE NEW",
+      "ref_id": "isbe-ce047d88d476b5a1f8d8-n000004",
+      "original_target": "ISBE:ESCHATOLOGY OF THE NEW TESTAMENT, IX",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ESCHATOLOGY OF THE NEW TESTAMENT, IX"
+    },
+    {
+      "source_article": "EDEN, HOUSE OF",
+      "ref_id": "isbe-7234fe667956d97ef08e-n000004",
+      "original_target": "ISBE:AVEN; BETH-EDEN; CHILDREN OF EDEN",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "AVEN; BETH-EDEN; CHILDREN OF EDEN"
+    },
+    {
+      "source_article": "EDUCATION",
+      "ref_id": "isbe-25c3308bcdc49ca36826-n000018",
+      "original_target": "ISBE:V. LITERATURE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "V. LITERATURE"
+    },
+    {
+      "source_article": "EDUCATION",
+      "ref_id": "isbe-25c3308bcdc49ca36826-n000116",
+      "original_target": "ISBE:SCHOOL; SCHOOLMASTER",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "SCHOOL; SCHOOLMASTER"
+    },
+    {
+      "source_article": "EDUCATION",
+      "ref_id": "isbe-25c3308bcdc49ca36826-n000149",
+      "original_target": "ISBE:SCHOOL; TEACHER; TUTOR",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "SCHOOL; TEACHER; TUTOR"
+    },
+    {
+      "source_article": "EGYPT",
+      "ref_id": "isbe-53ec5f597cfe84a6fc32-n000195",
+      "original_target": "ISBE:CUSHIM",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "CUSHIM"
+    },
+    {
+      "source_article": "EGYPT",
+      "ref_id": "isbe-53ec5f597cfe84a6fc32-n000267",
+      "original_target": "ISBE:EGYPTIAN KINGS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "EGYPTIAN KINGS"
+    },
+    {
+      "source_article": "EGYPTIAN KINGS (LATER)",
+      "ref_id": "isbe-152ef87e28b5ef8017b1-n000008",
+      "original_target": "ISBE:EGYPT, III",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "EGYPT, III"
+    },
+    {
+      "source_article": "ELECTION",
+      "ref_id": "isbe-a26be2fc5f0f398b4213-n000013",
+      "original_target": "ISBE:IV. COGNATE AND ILLUSTRATIVE BIBLICAL LANGUANGE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "IV. COGNATE AND ILLUSTRATIVE BIBLICAL LANGUANGE"
+    },
+    {
+      "source_article": "ELECTRUM",
+      "ref_id": "isbe-cdc9f69f1b456a7e0897-n000010",
+      "original_target": "ISBE:BUYING, IV",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "BUYING, IV"
+    },
+    {
+      "source_article": "ELIJAH",
+      "ref_id": "isbe-a8ea57cdd87ee9b6cbb3-n000018",
+      "original_target": "ISBE:VI. LITERATURE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "VI. LITERATURE"
+    },
+    {
+      "source_article": "ELISHA",
+      "ref_id": "isbe-f5a9a6ce859157cb5a3f-n000016",
+      "original_target": "ISBE:III. GENERAL ESTIMATE LITERATURE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "III. GENERAL ESTIMATE LITERATURE"
+    },
+    {
+      "source_article": "EN-",
+      "ref_id": "isbe-b507bb8ae817aa1c3f0b-n000009",
+      "original_target": "ISBE:SHEMESH",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "SHEMESH"
+    },
+    {
+      "source_article": "END OF THE WORLD",
+      "ref_id": "isbe-60a5b51ffdcc67e4575b-n000004",
+      "original_target": "ISBE:ESCHATOLOGY; WORLD, END OF THE",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "ESCHATOLOGY; WORLD, END OF THE"
+    },
+    {
+      "source_article": "ENROLMENT",
+      "ref_id": "isbe-b84d37f2a6d19f62ad45-n000005",
+      "original_target": "ISBE:QUIRINIUS; TAX",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "QUIRINIUS; TAX"
+    },
+    {
+      "source_article": "EPHESIANS, EPISTLE TO THE",
+      "ref_id": "isbe-13a4d8b9dab5736d82d7-n000017",
+      "original_target": "ISBE:V. THE PURPOSE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "V. THE PURPOSE"
+    },
+    {
+      "source_article": "EPHOD (1)",
+      "ref_id": "isbe-16a5c0f31b53a65c45ee-n000021",
+      "original_target": "ISBE:LITERATURE.",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "LITERATURE."
+    },
+    {
+      "source_article": "ESCHATOLOGY OF THE OLD TESTAMENT",
+      "ref_id": "isbe-597435f14b3ed29a6a72-n000021",
+      "original_target": "ISBE:LITERATURE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "LITERATURE"
+    },
+    {
+      "source_article": "ESCHATOLOGY OF THE OLD TESTAMENT",
+      "ref_id": "isbe-597435f14b3ed29a6a72-n000333",
+      "original_target": "ISBE:LITERATURE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "LITERATURE"
+    },
+    {
+      "source_article": "ESEBRIAS",
+      "ref_id": "isbe-d3d420ab77ef15f36c21-n000005",
+      "original_target": "ISBE:ESEREBIAS; SHEREBIAH",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "ESEREBIAS; SHEREBIAH"
+    },
+    {
+      "source_article": "ESSENES",
+      "ref_id": "isbe-ea4f00e635248cfb7da1-n000009",
+      "original_target": "ISBE:II. AUTHORITIES FOR THE TENETS OF THE ESSENES",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "II. AUTHORITIES FOR THE TENETS OF THE ESSENES"
+    },
+    {
+      "source_article": "ESSENES",
+      "ref_id": "isbe-ea4f00e635248cfb7da1-n000020",
+      "original_target": "ISBE:V. RELATION TO APOCALYPTIC BOOKS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "V. RELATION TO APOCALYPTIC BOOKS"
+    },
+    {
+      "source_article": "ESSENES",
+      "ref_id": "isbe-ea4f00e635248cfb7da1-n000023",
+      "original_target": "ISBE:VI. THE ESSENES AND CHRISTIANITY",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "VI. THE ESSENES AND CHRISTIANITY"
+    },
+    {
+      "source_article": "ETHIOPIC LANGUAGE",
+      "ref_id": "isbe-06356179aaf9496639ab-n000020",
+      "original_target": "ISBE:LITERATURE.",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "LITERATURE."
+    },
+    {
+      "source_article": "EXODUS, THE",
+      "ref_id": "isbe-39e7921f12ddde679885-n000030",
+      "original_target": "ISBE:MIGDOL, 2",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "MIGDOL, 2"
+    },
+    {
+      "source_article": "EYEPAINT",
+      "ref_id": "isbe-738d3e09a93d9202662d-n000005",
+      "original_target": "ISBE:ANTIMONY; EYELID",
+      "disposition": "compound_target_not_unique",
+      "displayed_text": "ANTIMONY; EYELID"
+    },
+    {
+      "source_article": "EZEKIEL",
+      "ref_id": "isbe-eed11679bb52e44852b8-n000105",
+      "original_target": "ISBE:EXODUS, IV, 1, 2",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "EXODUS, IV, 1, 2"
+    },
+    {
+      "source_article": "EZEKIEL",
+      "ref_id": "isbe-eed11679bb52e44852b8-n000387",
+      "original_target": "ISBE:DAY OF ATONEMENT, I, 1",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "DAY OF ATONEMENT, I, 1"
+    },
+    {
+      "source_article": "EZEKIEL",
+      "ref_id": "isbe-eed11679bb52e44852b8-n000421",
+      "original_target": "ISBE:EXODUS, II, 2",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "EXODUS, II, 2"
+    },
+    {
+      "source_article": "FAITH",
+      "ref_id": "isbe-958ddcd131bba696016c-n000032",
+      "original_target": "ISBE:UNION WITH CHRIST",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "UNION WITH CHRIST"
+    },
+    {
+      "source_article": "FOREIGNER",
+      "ref_id": "isbe-63fa7d92f056eeddb580-n000020",
+      "original_target": "ISBE:STRANGER AND SOJOURNER",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "STRANGER AND SOJOURNER"
+    },
+    {
+      "source_article": "FURY",
+      "ref_id": "isbe-019925fc5cfcf6219b15-n000007",
+      "original_target": "ISBE:FIERCENESS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "FIERCENESS"
+    },
+    {
+      "source_article": "GAD, VALLEY OF",
+      "ref_id": "isbe-2f95e8f2b32b2e0c731c-n000009",
+      "original_target": "ISBE:AR",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "AR"
+    },
+    {
+      "source_article": "GEMATRIA",
+      "ref_id": "isbe-06fa72c90571ff0410d0-n000005",
+      "original_target": "ISBE:NUMBERS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "NUMBERS"
+    },
+    {
+      "source_article": "GIBEATH (1)",
+      "ref_id": "isbe-40f78bbb00f52833ccc3-n000011",
+      "original_target": "ISBE:MOREH",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "MOREH"
+    },
+    {
+      "source_article": "GOSPELS, THE SYNOPTIC",
+      "ref_id": "isbe-4b1c4af35808491ffb24-n000040",
+      "original_target": "ISBE:HEBREWS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "HEBREWS"
+    },
+    {
+      "source_article": "GROUND; GROUNDED",
+      "ref_id": "isbe-b900a6e288982c17041f-n000014",
+      "original_target": "ISBE:DRY",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "DRY"
+    },
+    {
+      "source_article": "HATCHET",
+      "ref_id": "isbe-e4550a0536c50fb99e61-n000006",
+      "original_target": "ISBE:AX",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "AX"
+    },
+    {
+      "source_article": "HAZAZON-TAMAR",
+      "ref_id": "isbe-b025b5e931bb605693e5-n000006",
+      "original_target": "ISBE:GEDI",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "GEDI"
+    },
+    {
+      "source_article": "HUZ",
+      "ref_id": "isbe-451c1ccacc3ab6a8aed3-n000006",
+      "original_target": "ISBE:UZ",
+      "disposition": "ambiguous_numbered_headword",
+      "displayed_text": "UZ"
+    },
+    {
+      "source_article": "INFANT, BAPTISM",
+      "ref_id": "isbe-d26b38fb55800943911b-n000005",
+      "original_target": "ISBE:BAPTISM",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "BAPTISM"
+    },
+    {
+      "source_article": "INTERCESSION OF CHRIST",
+      "ref_id": "isbe-18604c2d817260483a86-n000032",
+      "original_target": "ISBE:CHRIST",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "CHRIST"
+    },
+    {
+      "source_article": "JAREB",
+      "ref_id": "isbe-834f669fe3cdf2f37367-n000016",
+      "original_target": "ISBE:ICC",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ICC"
+    },
+    {
+      "source_article": "JERUSALEM",
+      "ref_id": "isbe-ee3b669c99fe2e08d2e2-n000723",
+      "original_target": "ISBE:AKRA",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "AKRA"
+    },
+    {
+      "source_article": "JONA",
+      "ref_id": "isbe-0bcc9ab8ec83cbf70ae1-n000006",
+      "original_target": "ISBE:JONAS",
+      "disposition": "ambiguous_numbered_headword",
+      "displayed_text": "JONAS"
+    },
+    {
+      "source_article": "LAW IN THE NEW TESTAMENT",
+      "ref_id": "isbe-e037836378f607db448d-n000103",
+      "original_target": "ISBE:PUNISHMENT",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "PUNISHMENT"
+    },
+    {
+      "source_article": "MARK, JOHN",
+      "ref_id": "isbe-080d71b9f44392c479a3-n000033",
+      "original_target": "ISBE:TO",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "TO"
+    },
+    {
+      "source_article": "MEMPHIS",
+      "ref_id": "isbe-87d13382a6e93ef72a1b-n000015",
+      "original_target": "ISBE:SAQQAREH",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "SAQQAREH"
+    },
+    {
+      "source_article": "MEPHIBOSHETH",
+      "ref_id": "isbe-a82a8c52213a6b019e5e-n000004",
+      "original_target": "ISBE:BAAL",
+      "disposition": "ambiguous_numbered_headword",
+      "displayed_text": "BAAL"
+    },
+    {
+      "source_article": "NAME",
+      "ref_id": "isbe-eaa589322731009980d9-n000011",
+      "original_target": "ISBE:NAMES",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "NAMES"
+    },
+    {
+      "source_article": "NATURAL FEATURES",
+      "ref_id": "isbe-e690e43de12619b2f6d0-n000027",
+      "original_target": "ISBE:EAST",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "EAST"
+    },
+    {
+      "source_article": "PENSION",
+      "ref_id": "isbe-b53f419753359403072d-n000005",
+      "original_target": "ISBE:LOT",
+      "disposition": "ambiguous_numbered_headword",
+      "displayed_text": "LOT"
+    },
+    {
+      "source_article": "PERAZIM, MOUNT",
+      "ref_id": "isbe-295ffd2cfd7733c3ade8-n000005",
+      "original_target": "ISBE:PERAZIM",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "PERAZIM"
+    },
+    {
+      "source_article": "PHILIP, THE GOSPEL OF",
+      "ref_id": "isbe-79433fca86b049ddf9c1-n000005",
+      "original_target": "ISBE:PHILIP",
+      "disposition": "ambiguous_numbered_headword",
+      "displayed_text": "PHILIP"
+    },
+    {
+      "source_article": "PROPHETESS",
+      "ref_id": "isbe-76e3abb84fc207653ab0-n000012",
+      "original_target": "ISBE:PROPHET",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "PROPHET"
+    },
+    {
+      "source_article": "RELATIONSHIPS, FAMILY",
+      "ref_id": "isbe-98d7454913d9913b49f1-n000356",
+      "original_target": "ISBE:STRANGER AND SOJOURNER",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "STRANGER AND SOJOURNER"
+    },
+    {
+      "source_article": "SEER",
+      "ref_id": "isbe-63d1f45fa6675d9e8dbd-n000026",
+      "original_target": "ISBE:PROPHET",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "PROPHET"
+    },
+    {
+      "source_article": "SHALMAN",
+      "ref_id": "isbe-be20b70125c181f13dd9-n000005",
+      "original_target": "ISBE:ARBEL",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ARBEL"
+    },
+    {
+      "source_article": "SHAREZER",
+      "ref_id": "isbe-19f149a01bca6a5d2067-n000006",
+      "original_target": "ISBE:ADRAMMELECH",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ADRAMMELECH"
+    },
+    {
+      "source_article": "SHINAR",
+      "ref_id": "isbe-bd6699368085bf6215e9-n000088",
+      "original_target": "ISBE:CHALDEES",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "CHALDEES"
+    },
+    {
+      "source_article": "SOJOURNER",
+      "ref_id": "isbe-83126243d84344676713-n000005",
+      "original_target": "ISBE:STRANGER AND SOJOURNER",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "STRANGER AND SOJOURNER"
+    },
+    {
+      "source_article": "TABERNACLE",
+      "ref_id": "isbe-83fb3e6453435e8b7d2e-n000144",
+      "original_target": "ISBE:ALTAR OF INCENSE",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ALTAR OF INCENSE"
+    },
+    {
+      "source_article": "TARTAN",
+      "ref_id": "isbe-829a5df2788490121303-n000006",
+      "original_target": "ISBE:SARIS",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "SARIS"
+    },
+    {
+      "source_article": "TEMPLE",
+      "ref_id": "isbe-9de05beff439add983f2-n000389",
+      "original_target": "ISBE:ALTAR OF BURNT OFFERING",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "ALTAR OF BURNT OFFERING"
+    },
+    {
+      "source_article": "TRANSGRESSION",
+      "ref_id": "isbe-276f4e9c0e4ff3b3d465-n000004",
+      "original_target": "ISBE:REBELLION",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "REBELLION"
+    },
+    {
+      "source_article": "WASH; WASHING",
+      "ref_id": "isbe-2395602f8f67ad3466ba-n000032",
+      "original_target": "ISBE:BAPTISM",
+      "disposition": "target_not_found_in_index",
+      "displayed_text": "BAPTISM"
+    }
+  ],
+  "unlinked_source_reference_occurrences": 144,
+  "unlinked_source_reference_reasons": {
+    "ambiguous_numbered_headword": 7,
+    "compound_target_not_unique": 19,
+    "target_not_found_in_index": 118
+  },
+  "unresolved_link_occurrences": 144,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5898,
+  "resolved_internal_links_validated": 5906,
+  "active_broken_isbe_links": 0,
   "xml_id_uniqueness": "validated",
-  "reviewed_title_alias_count": 85,
+  "reviewed_title_alias_count": 88,
   "reviewed_title_aliases_used": [
     "BACK",
+    "BAPTISM; FIRE",
     "BILL",
     "BRIDE-CHAMBER, SONS",
     "BROTHERLY KINDNESS (LOVE)",
@@ -5906,6 +6945,7 @@
     "HAM",
     "HAMMEAH",
     "HANANEL",
+    "HAROD",
     "HEAVENS, NEW",
     "HEBRON",
     "HERETH",
@@ -5937,6 +6977,7 @@
     "PARAN",
     "PARTITION",
     "PERSIAN RELIGION",
+    "PERSON",
     "PHILIPPIANS",
     "PROVERBS",
     "PSALMS",

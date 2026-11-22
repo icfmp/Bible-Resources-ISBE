@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 152,
-  "unresolved_distinct_targets": 137,
+  "unresolved_occurrences": 144,
+  "unresolved_distinct_targets": 130,
   "categories_by_occurrence": {
     "article_section_label": 13,
     "multiple_numbered_entries": 7,
-    "unmatched_heading_or_alias": 132
+    "unmatched_heading_or_alias": 124
   },
   "review_queue": [
     {
@@ -255,13 +255,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "BAPTISM; FIRE",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "BETHUEL; CHESIL",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -340,7 +333,7 @@
     },
     {
       "source_target": "COVENANT",
-      "occurrences": 2,
+      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -486,13 +479,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "ETHIOPIC",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "EUEDORACHOS",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -556,13 +542,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "HAROD",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "HDB",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -619,13 +598,6 @@
         "JONAS (1)",
         "JONAS (2)"
       ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "JUDGES",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
       "status": "needs_review"
     },
     {
@@ -744,20 +716,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "PERSON",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "PETER",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "PHILIP",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
@@ -840,13 +798,6 @@
     },
     {
       "source_target": "SHEMESH",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SLAVONIC",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
