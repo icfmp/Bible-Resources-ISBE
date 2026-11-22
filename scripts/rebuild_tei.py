@@ -209,8 +209,9 @@ def unique_numbered_paragraph(article, marker):
     return matches[0] if len(matches) == 1 and matches[0] else None
 
 
-def build(imp, reviewed=None):
+def build(imp, reviewed=None, occurrence_mappings=None):
     reviewed = reviewed or {}
+    occurrence_mappings = occurrence_mappings or []
     records = list(entries_from_imp(imp))
     ids = {}
     for key, _ in records:
@@ -226,6 +227,19 @@ def build(imp, reviewed=None):
             raise ValueError(f"Unknown reviewed alias destination: {original} -> {destination}")
         if original in ids:
             raise ValueError(f"Reviewed alias overrides an existing index key: {original}")
+
+    occurrence_by_id = {}
+    for row in occurrence_mappings:
+        source = row["source_article"]
+        ref_id = row["ref_id"]
+        destination = row["destination_article"]
+        if source not in ids or destination not in ids:
+            raise ValueError(f"Unknown article in reviewed occurrence {ref_id}")
+        if not ref_id.startswith(ids[source] + "-n"):
+            raise ValueError(f"Reviewed occurrence belongs to a different source article: {ref_id}")
+        if ref_id in occurrence_by_id:
+            raise ValueError(f"Duplicate reviewed occurrence ID: {ref_id}")
+        occurrence_by_id[ref_id] = row
 
     normalized = {}
     for key in ids:
@@ -258,6 +272,7 @@ def build(imp, reviewed=None):
     resolved_numbered = Counter()
     resolved_scripture = Counter()
     resolved_redirect = Counter()
+    resolved_editorial_occurrences = []
     articles_by_key = {}
     title_variants = []
     text_chars = 0
@@ -481,6 +496,54 @@ def build(imp, reviewed=None):
                 del unresolved_details[reason_key]
             resolved_redirect[(source_key, source_target, destination_key)] += 1
 
+    # Explicit, evidence-based per-occurrence routing is used only where
+    # an unqualified term has more than one possible encyclopedia entry.
+    # The recorded source key, original target, reference ID and destination
+    # must all still agree with the immutable source-derived TEI.
+    used_occurrences = set()
+    for source_key, source_article in articles_by_key.items():
+        for element in source_article.iter():
+            ref_id = element.get(XMLID)
+            row = occurrence_by_id.get(ref_id)
+            if row is None:
+                continue
+            expected = "ISBE:" + row["original_target"]
+            if element.get("target") != expected:
+                raise ValueError(f"Reviewed occurrence source target changed: {ref_id}")
+            if row["source_article"] != source_key:
+                raise ValueError(f"Reviewed occurrence source article changed: {ref_id}")
+            target_article = articles_by_key[row["destination_article"]]
+            dest_id = row.get("destination_element_id") or target_article.get(XMLID)
+            if dest_id not in {x.get(XMLID) for x in target_article.iter()}:
+                raise ValueError(f"Reviewed destination ID not in designated article: {dest_id}")
+            element.set("n", expected)
+            element.set("target", "#" + dest_id)
+            target_key = row["original_target"]
+            missing_refs[target_key] -= 1
+            if missing_refs[target_key] == 0:
+                del missing_refs[target_key]
+            for reason in ("not_found", "ambiguous"):
+                reason_key = (target_key, reason)
+                if unresolved_details.get(reason_key, 0):
+                    unresolved_details[reason_key] -= 1
+                    if unresolved_details[reason_key] == 0:
+                        del unresolved_details[reason_key]
+                    break
+            else:
+                raise ValueError(f"Unresolved count not found for reviewed occurrence {ref_id}")
+            used_occurrences.add(ref_id)
+            resolved_editorial_occurrences.append({
+                "source_article": source_key,
+                "ref_id": ref_id,
+                "original": target_key,
+                "destination_article": row["destination_article"],
+                "destination_id": dest_id,
+                "basis": row["basis"],
+            })
+    if used_occurrences != set(occurrence_by_id):
+        raise ValueError("Unmatched reviewed occurrence IDs: "
+                         + ", ".join(sorted(set(occurrence_by_id) - used_occurrences)))
+
     report = {"source_entries": len(records), "tei_entries": len(body),
               "original_isbe_link_occurrences": original_isbe_links,
               "indexed_content_nodes": nodes, "source_text_characters": text_chars,
@@ -519,6 +582,8 @@ def build(imp, reviewed=None):
                   for (source, original, chosen), count in sorted(resolved_redirect.items())
               ],
               "resolved_redirect_alias_occurrences": sum(resolved_redirect.values()),
+              "resolved_reviewed_occurrences": resolved_editorial_occurrences,
+              "resolved_reviewed_occurrence_count": len(resolved_editorial_occurrences),
               "unresolved_link_diagnostics": [
                   {"original": key, "reason": reason, "occurrences": n}
                   for (key, reason), n in sorted(unresolved_details.items())
@@ -541,6 +606,7 @@ def main():
     args = p.parse_args()
     raw = args.input.read_bytes().decode("utf-8", errors="strict")
     reviewed = {}
+    occurrence_mappings = []
     if args.accepted_aliases:
         choices = json.loads(args.accepted_aliases.read_text(encoding="utf-8"))
         if choices.get("schema_version") != 1:
@@ -554,7 +620,13 @@ def main():
             if source_key in reviewed:
                 raise ValueError(f"Duplicate reviewed source target {source_key}")
             reviewed[source_key] = destination
-    root, index, report = build(raw, reviewed=reviewed)
+        for row in choices.get("occurrence_mappings", []):
+            basis = row.get("basis")
+            if not isinstance(basis, str) or len(basis.strip()) < 20:
+                raise ValueError(f"Missing evidence for occurrence {row.get('ref_id')}")
+            occurrence_mappings.append(row)
+    root, index, report = build(raw, reviewed=reviewed,
+                                occurrence_mappings=occurrence_mappings)
     if report["source_entries"] != args.expected_entries:
         raise ValueError(f"Entry count differs from expected: {report['source_entries']}")
     for path in (args.output, args.index, args.report):
