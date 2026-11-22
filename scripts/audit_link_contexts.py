@@ -8,6 +8,7 @@ from collections import Counter
 import json
 import unicodedata
 import re
+from difflib import get_close_matches, SequenceMatcher
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -248,6 +249,23 @@ def scan(path):
             ],
             "exclusive_scripture_numbered_candidates": scripture_candidates,
             "local_section_review": local_section_candidates,
+            "fuzzy_heading_review": [
+                {
+                    "target": target,
+                    "occurrences": sum(1 for item in records if item["original_target"] == target),
+                    "candidates": [
+                        {"title": candidate,
+                         "ratio": round(SequenceMatcher(
+                             None, normalized(target), normalized(candidate)
+                         ).ratio(), 3)}
+                        for candidate in get_close_matches(
+                            target, source_keys, n=4, cutoff=0.72
+                        )
+                    ],
+                }
+                for target in sorted(set(x["original_target"] for x in records))
+                if get_close_matches(target, source_keys, n=1, cutoff=0.72)
+            ],
             "article_heading_candidates": [
                 {
                     "target": target,
