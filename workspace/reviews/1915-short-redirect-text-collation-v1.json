@@ -3,10 +3,9 @@
   "bibliographic_witness": "Orr (ed.), International Standard Bible Encyclopaedia (Howard-Severance, 1915), original printed volumes",
   "canonical_source_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "scope": "Exact printed-reading comparison of whole short redirect paragraphs, excluding synthetic TEI heading markup, layout line breaks and small-caps styling; not independent peer certification or publication approval",
-  "compared_short_redirect_paragraphs": 8,
+  "compared_short_redirect_paragraphs": 9,
   "remaining_redirects_pending_exact_body_proofreading": [
     "ASTARTE; ASTORETH",
-    "JOSIBIAH",
     "PROSTRATION"
   ],
   "records": [
@@ -151,6 +150,24 @@
       "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
       "inspected_at_2000px": true,
       "collation_observation": "Printed pronunciation and punctuation visible on one line.",
+      "editorial_approval": false,
+      "canonical_change": false
+    },
+    {
+      "source_key": "JOSIBIAH",
+      "original_paragraph_xml_id": "isbe-b06e5906f6227e5b9bed-n000003",
+      "printed_entry_reading_with_heading": "JOSIBIAH, jos-i-bi'a. See JOSHIBIAH.",
+      "exact_candidate_paragraph_reading": "jos-i-bi'a. See JOSHIBIAH.",
+      "comparison_result": "matches_previously_documented_1915_visual_reading_glyph_style_not_certified",
+      "comparison_scope": "entire_short_redirect_paragraph_only",
+      "source_pdf_volume": "3",
+      "source_pdf_page_1_based": 393,
+      "printed_page": 1753,
+      "original_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "rendered_page_jpeg_sha256": "d64fd875ee009b87b1f94c32bd9622d4cd30bbb8436fa6e06cb4e731b271315c",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "inspected_at_2000px": true,
+      "collation_observation": "Reconciles pre-existing original-print visual reading (vol III p. 1753) with the exact candidate. Secondary transcription inserted an additional hyphen. Original apostrophe glyph style and independent character-level editorial certification remain pending; no new visual inspection claimed.",
       "editorial_approval": false,
       "canonical_change": false
     }
