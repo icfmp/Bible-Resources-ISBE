@@ -699,7 +699,7 @@ def build(imp, reviewed=None, occurrence_mappings=None):
             missing_key = raw_target[5:]
             if len(numbered_stems.get(missing_key.casefold().strip(), ())) > 1:
                 reason = "ambiguous_numbered_headword"
-            elif re.match(r"^(?:(?:[IVXLCDM]+|[0-9]+)\\.\\s+)", missing_key, re.I):
+            elif re.match(r"^(?:(?:[IVXLCDM]+|[0-9]+)\.\s+)", missing_key, re.I):
                 reason = "section_anchor_not_verified"
             elif ";" in missing_key:
                 reason = "compound_target_not_unique"
