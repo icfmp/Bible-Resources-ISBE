@@ -48,6 +48,9 @@ def check(*, manifest_path, candidate_path, rng_path, schematron_path,
     if digest(schematron_path) != specs["schematron"]["sha256"]:
         raise ValueError("Official Schematron bytes differ from pinned SHA-256")
     candidate_sha = digest(candidate_path)
+    expected_candidate = manifest.get("expected_candidate_sha256")
+    if expected_candidate and candidate_sha != expected_candidate:
+        raise ValueError("Candidate bytes differ from pinned validated candidate")
     fidelity = json.loads(Path(source_report_path).read_text(encoding="utf-8"))
     if fidelity.get("candidate_sha256") != candidate_sha:
         raise ValueError("Official validation input differs from fidelity candidate")
