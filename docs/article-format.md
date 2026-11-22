@@ -1,5 +1,7 @@
 # Canonical TEI interchange format
 
+The **target encoding standard** is [ISBE TEI P5 structure profile](tei-structure-profile.md). This document describes the present reconstructed data and its stable IDs. The current XML is a working reconstruction, not an officially schema-validated TEI P5 publication.
+
 The editorial master is **TEI XML**, one document per language edition. `cleaned/en/ISBE.xml` contains the complete digital-source transcription. Subsequent editions use the same article identifiers and (where structure is unchanged) the same text-unit identifiers.
 
 The document contains:
@@ -8,7 +10,7 @@ The document contains:
 - One `<div type="entry" xml:id="isbe-…" n="ORIGINAL SWORD KEY">` per dictionary entry.
 - One `<head xml:id="…">` for its heading.
 - Source text units (`p`, `list`, `item`, etc.) and inline TEI elements (`ref`, `hi`, etc.) retained as found in the CrossWire source; each indexed content element receives an `xml:id`.
-- Cross-article targets are rewritten to `#isbe-…` when the original key exists, and the original `ISBE:KEY` is retained in `n`. References that cannot be linked with sufficient evidence are emitted as non-clickable `<seg type="unlinked-source-reference" n="ISBE:…">` rather than as broken `<ref>` hyperlinks. The original visible text, `xml:id` and original target remain intact for auditing and possible future repair. Biblical `osisRef` values remain untouched.
+- Cross-article targets are rewritten to `#isbe-…` when the original key exists, and the original `ISBE:KEY` is retained in `n`. References that cannot be linked with sufficient evidence are emitted as non-clickable `<seg type="unlinked-source-reference" n="ISBE:…">` rather than as broken `<ref>` hyperlinks. The original visible text, `xml:id` and original target remain intact for auditing and possible future repair. Biblical `osisRef` values remain untouched **for fidelity in the working legacy reconstruction**. The target profile requires a separate, tested transfer to TEI `cRef` with a declared canonical-reference scheme before claiming P5 conformance.
 
 ## Stable IDs
 
