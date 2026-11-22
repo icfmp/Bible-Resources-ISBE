@@ -391,7 +391,7 @@ def build(imp):
             # second numbered paragraph within the candidate, not necessarily
             # a second dictionary entry. Do not discard that distinction.
             tail = (element.tail or "")[:90]
-            marker = re.search(r"\\bsee\\s*\\((\\d+)\\)", tail, flags=re.I)
+            marker = re.search(r"\bsee\s*\((\d+)\)", tail, flags=re.I)
             selected_id = destination.get(XMLID)
             if marker:
                 paragraph_id = unique_numbered_paragraph(destination, marker.group(1))
