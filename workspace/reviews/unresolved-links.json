@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 423,
-  "unresolved_distinct_targets": 269,
+  "unresolved_occurrences": 384,
+  "unresolved_distinct_targets": 257,
   "categories_by_occurrence": {
     "article_section_label": 56,
-    "multiple_numbered_entries": 148,
+    "multiple_numbered_entries": 109,
     "single_numbered_entry_candidate": 3,
     "unmatched_heading_or_alias": 216
   },
@@ -673,16 +673,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "DEBIR",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "DEBIR (1)",
-        "DEBIR (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "DECEASE",
       "occurrences": 2,
       "category": "unmatched_heading_or_alias",
@@ -725,16 +715,6 @@
       "occurrences": 2,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "EDER",
-      "occurrences": 3,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "EDER (1)",
-        "EDER (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -792,16 +772,6 @@
       "review_candidates": [
         "EPHRAIM (1)",
         "EPHRAIM (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "EPHRON",
-      "occurrences": 3,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "EPHRON (1)",
-        "EPHRON (2)"
       ],
       "status": "needs_review"
     },
@@ -940,26 +910,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "GIHON",
-      "occurrences": 6,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "GIHON (1)",
-        "GIHON (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "GILEAD",
-      "occurrences": 3,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "GILEAD (1)",
-        "GILEAD (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "GOLD (BEATEN)",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -984,16 +934,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "HAM",
-      "occurrences": 3,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "HAM (1)",
-        "HAM (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "HAROD",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1012,16 +952,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "HEBRON",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "HEBRON (1)",
-        "HEBRON (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1131,16 +1061,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "JAPHETH",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "JAPHETH (1)",
-        "JAPHETH (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "JEARIM",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1192,16 +1112,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "JOSEPH",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "JOSEPH (1)",
-        "JOSEPH (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1502,16 +1412,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ON",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ON (1)",
-        "ON (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1834,30 +1734,10 @@
       "status": "needs_review"
     },
     {
-      "source_target": "SUCCOTH",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "SUCCOTH (1)",
-        "SUCCOTH (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "SYMPOSIUM",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SYRIA",
-      "occurrences": 9,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "SYRIA (1)",
-        "SYRIA (2)"
-      ],
       "status": "needs_review"
     },
     {

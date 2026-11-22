@@ -817,6 +817,12 @@
       "occurrences": 18
     },
     {
+      "original": "DEBIR",
+      "resolved_to": "DEBIR (2)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "DEBT",
       "resolved_to": "DEBT; DEBTOR",
       "rule": "explicit_semicolon_title_alias",
@@ -973,6 +979,12 @@
       "occurrences": 1
     },
     {
+      "original": "EDER",
+      "resolved_to": "EDER (1)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 4
+    },
+    {
       "original": "EDOM",
       "resolved_to": "EDOM; EDOMITES",
       "rule": "explicit_semicolon_title_alias",
@@ -1037,6 +1049,12 @@
       "resolved_to": "EPHRATH; EPHRATHAH",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 1
+    },
+    {
+      "original": "EPHRON",
+      "resolved_to": "EPHRON (2)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 3
     },
     {
       "original": "ESSENES.",
@@ -1159,6 +1177,18 @@
       "occurrences": 1
     },
     {
+      "original": "GIHON",
+      "resolved_to": "GIHON (2)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 6
+    },
+    {
+      "original": "GILEAD",
+      "resolved_to": "GILEAD (1)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 4
+    },
+    {
       "original": "GOLAN",
       "resolved_to": "GOLAN; GAULONITIS",
       "rule": "explicit_semicolon_title_alias",
@@ -1213,6 +1243,12 @@
       "occurrences": 1
     },
     {
+      "original": "HAM",
+      "resolved_to": "HAM (1)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 3
+    },
+    {
       "original": "HAMMEAH",
       "resolved_to": "HAMMEAH, THE TOWER OF",
       "rule": "reviewed_title_alias",
@@ -1247,6 +1283,12 @@
       "resolved_to": "HEAVENS, NEW (AND EARTH, NEW)",
       "rule": "reviewed_title_alias",
       "occurrences": 1
+    },
+    {
+      "original": "HEBRON",
+      "resolved_to": "HEBRON (1)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
     },
     {
       "original": "HILL",
@@ -1333,6 +1375,12 @@
       "occurrences": 1
     },
     {
+      "original": "JAPHETH",
+      "resolved_to": "JAPHETH (1)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "JASHAR",
       "resolved_to": "JASHAR, BOOK OF",
       "rule": "reviewed_title_alias",
@@ -1373,6 +1421,12 @@
       "resolved_to": "JOHN, GOSPEL OF",
       "rule": "terminal_period",
       "occurrences": 1
+    },
+    {
+      "original": "JOSEPH",
+      "resolved_to": "JOSEPH (2)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
     },
     {
       "original": "JUTTAH",
@@ -1697,6 +1751,12 @@
       "resolved_to": "OIL, BEATEN",
       "rule": "unique_separator_variant",
       "occurrences": 1
+    },
+    {
+      "original": "ON",
+      "resolved_to": "ON (1)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 4
     },
     {
       "original": "PAINTING.",
@@ -2185,6 +2245,12 @@
       "occurrences": 1
     },
     {
+      "original": "SUCCOTH",
+      "resolved_to": "SUCCOTH (2)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "SUPERSTITION",
       "resolved_to": "SUPERSTITION; SUPERSTITIOUS",
       "rule": "explicit_semicolon_title_alias",
@@ -2213,6 +2279,12 @@
       "resolved_to": "SYCOMORE, TREE",
       "rule": "reviewed_title_alias",
       "occurrences": 2
+    },
+    {
+      "original": "SYRIA",
+      "resolved_to": "SYRIA (1)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 9
     },
     {
       "original": "SYRIAN",
@@ -2413,7 +2485,7 @@
       "occurrences": 1
     }
   ],
-  "resolved_variant_occurrences": 820,
+  "resolved_variant_occurrences": 863,
   "resolved_local_section_links": [
     {
       "article_key": "ACCOMMODATION",
@@ -2840,16 +2912,6 @@
       "occurrences": 1
     },
     {
-      "source_article": "ADER",
-      "original": "EDER",
-      "destination_article": "EDER (2)",
-      "destination_id": "isbe-ba1dcb05a4541764705c",
-      "exclusive_osis_references": [
-        "Bible:1Chr.8.15"
-      ],
-      "occurrences": 1
-    },
-    {
       "source_article": "AHAZIAH",
       "original": "JEHOSHAPHAT",
       "destination_article": "JEHOSHAPHAT (2)",
@@ -2857,16 +2919,6 @@
       "exclusive_osis_references": [
         "Bible:1Kgs.22.48",
         "Bible:2Chr.20.35-2Chr.20.37"
-      ],
-      "occurrences": 1
-    },
-    {
-      "source_article": "AVEN",
-      "original": "ON",
-      "destination_article": "ON (1)",
-      "destination_id": "isbe-ebc7a84c589717a7e6d9",
-      "exclusive_osis_references": [
-        "Bible:Ezek.30.17"
       ],
       "occurrences": 1
     },
@@ -2919,17 +2971,6 @@
       "exclusive_osis_references": [
         "Bible:Acts.7.2",
         "Bible:Acts.7.4"
-      ],
-      "occurrences": 1
-    },
-    {
-      "source_article": "CITY OF DESTRUCTION",
-      "original": "ON",
-      "destination_article": "ON (1)",
-      "destination_id": "isbe-ebc7a84c589717a7e6d9",
-      "exclusive_osis_references": [
-        "Bible:Gen.41.45",
-        "Bible:Isa.19.18"
       ],
       "occurrences": 1
     },
@@ -3009,16 +3050,6 @@
       "occurrences": 1
     },
     {
-      "source_article": "GAD (1)",
-      "original": "GILEAD",
-      "destination_article": "GILEAD (1)",
-      "destination_id": "isbe-b7060ea45128695a1aef",
-      "exclusive_osis_references": [
-        "Bible:Judg.5.17"
-      ],
-      "occurrences": 1
-    },
-    {
       "source_article": "IMAGES",
       "original": "EPHOD",
       "destination_article": "EPHOD (1)",
@@ -3094,7 +3125,7 @@
       "occurrences": 1
     }
   ],
-  "resolved_scripture_disambiguation_occurrences": 25,
+  "resolved_scripture_disambiguation_occurrences": 21,
   "resolved_redirect_alias_links": [
     {
       "article_key": "ATHANASIAN; CREED",
@@ -3594,11 +3625,6 @@
       "occurrences": 1
     },
     {
-      "original": "DEBIR",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "DECEASE",
       "reason": "not_found",
       "occurrences": 2
@@ -3627,11 +3653,6 @@
       "original": "EAST",
       "reason": "not_found",
       "occurrences": 2
-    },
-    {
-      "original": "EDER",
-      "reason": "not_found",
-      "occurrences": 3
     },
     {
       "original": "EGYPT, III",
@@ -3667,11 +3688,6 @@
       "original": "EPHRAIM",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "EPHRON",
-      "reason": "not_found",
-      "occurrences": 3
     },
     {
       "original": "ERI-AKU, 4",
@@ -3764,16 +3780,6 @@
       "occurrences": 1
     },
     {
-      "original": "GIHON",
-      "reason": "not_found",
-      "occurrences": 6
-    },
-    {
-      "original": "GILEAD",
-      "reason": "not_found",
-      "occurrences": 3
-    },
-    {
       "original": "GOLD (BEATEN)",
       "reason": "not_found",
       "occurrences": 1
@@ -3789,11 +3795,6 @@
       "occurrences": 1
     },
     {
-      "original": "HAM",
-      "reason": "not_found",
-      "occurrences": 3
-    },
-    {
       "original": "HAROD",
       "reason": "not_found",
       "occurrences": 1
@@ -3807,11 +3808,6 @@
       "original": "HEBREWS",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "HEBRON",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "HERETH",
@@ -3879,11 +3875,6 @@
       "occurrences": 1
     },
     {
-      "original": "JAPHETH",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "JEARIM",
       "reason": "not_found",
       "occurrences": 1
@@ -3912,11 +3903,6 @@
       "original": "JORDAN, VALLEY OF",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "JOSEPH",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "JOSHUA",
@@ -4102,11 +4088,6 @@
       "original": "OLIVES",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "ON",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "ORDEAL OF JEALOUSY",
@@ -4314,19 +4295,9 @@
       "occurrences": 4
     },
     {
-      "original": "SUCCOTH",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "SYMPOSIUM",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "SYRIA",
-      "reason": "not_found",
-      "occurrences": 9
     },
     {
       "original": "SYRIARCH",
@@ -4512,7 +4483,6 @@
     "EVE": 2,
     "ADAM IN THE NEW TESTAMENT; FALL, THE": 1,
     "APOCALYPTIC LITERATURE; APOCRYPHA": 1,
-    "EDER": 3,
     "VALE OF SIDDIM": 1,
     "YHWH": 1,
     "CRIMES; DIVORCE IN THE NEW TESTAMENT": 1,
@@ -4544,7 +4514,6 @@
     "CORINTHIANS": 1,
     "TAPPUAH": 1,
     "SHEBA": 3,
-    "SYRIA": 9,
     "AR": 2,
     "ARGOB": 3,
     "ALTAR HEARTH": 1,
@@ -4556,7 +4525,6 @@
     "GOLDEN": 1,
     "EARTH, VAULT OF": 1,
     "CREATION; GOD": 1,
-    "ON": 2,
     "AVEN; ON": 1,
     "BAAL": 4,
     "ELAH": 1,
@@ -4651,11 +4619,9 @@
     "V. LITERATURE": 2,
     "SCHOOL; SCHOOLMASTER": 1,
     "SCHOOL; TEACHER; TUTOR": 1,
-    "JOSEPH": 2,
     "CUSHIM": 1,
     "COSHEN": 1,
     "SIN": 7,
-    "SUCCOTH": 2,
     "EGYPTIAN KINGS": 1,
     "EGYPT, III": 1,
     "IV. COGNATE AND ILLUSTRATIVE BIBLICAL LANGUANGE": 1,
@@ -4664,7 +4630,6 @@
     "ZACHARIAS": 2,
     "III. GENERAL ESTIMATE LITERATURE": 1,
     "SHEMESH": 1,
-    "GIHON": 6,
     "ESCHATOLOGY; WORLD, END OF THE": 1,
     "23.  LITERATURE.": 1,
     "ETHIOPIC": 1,
@@ -4673,7 +4638,6 @@
     "V. THE PURPOSE": 1,
     "VIII. LITERATURE": 1,
     "VIII. LITERATURE.": 1,
-    "EPHRON": 3,
     "14. LITERATURE.": 1,
     "LUNATIC": 2,
     "ESEREBIAS; SHEREBIAH": 1,
@@ -4690,13 +4654,11 @@
     "EPHRAIM": 1,
     "FIERCENESS": 1,
     "NUMBERS": 5,
-    "GILEAD": 3,
     "MOREH": 1,
     "RIMMON": 3,
     "HEBREWS": 1,
     "HOARY": 1,
     "DRY": 1,
-    "JAPHETH": 2,
     "HERETH": 1,
     "ESDRAELON": 1,
     "HAROD": 1,
@@ -4710,7 +4672,6 @@
     "URIAS": 1,
     "ISHMAEL": 1,
     "JACOB": 1,
-    "HAM": 3,
     "ICC": 1,
     "RAMOTH": 3,
     "OLIVES": 1,
@@ -4724,9 +4685,7 @@
     "BARNEA": 1,
     "HEZRON": 1,
     "JEARIM": 1,
-    "HEBRON": 2,
     "SEPHER": 1,
-    "DEBIR": 2,
     "DAN": 1,
     "PUNISHMENT": 1,
     "DEBAR": 1,
@@ -4775,11 +4734,11 @@
     "TEMPLE KEEPERS": 1,
     "ZIPH": 1
   },
-  "unresolved_link_occurrences": 423,
+  "unresolved_link_occurrences": 384,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5656,
+  "resolved_internal_links_validated": 5695,
   "xml_id_uniqueness": "validated",
-  "reviewed_title_alias_count": 48,
+  "reviewed_title_alias_count": 60,
   "reviewed_title_aliases_used": [
     "BACK",
     "BILL",
@@ -4787,17 +4746,26 @@
     "CHRIST AS KING",
     "COLOSSIANS",
     "DAY OF THE LORD",
+    "DEBIR",
     "DEUTERO-CANONICAL",
     "ECCLESIASTES",
+    "EDER",
+    "EPHRON",
     "FAN",
     "GERIZIM",
+    "GIHON",
+    "GILEAD",
     "HACHILAH",
+    "HAM",
     "HAMMEAH",
     "HANANEL",
     "HEAVENS, NEW",
+    "HEBRON",
     "ISHUAI",
+    "JAPHETH",
     "JASHAR",
     "JEW",
+    "JOSEPH",
     "KINGDOM OF GOD",
     "LAMENTATIONS",
     "LAST TIME",
@@ -4806,6 +4774,7 @@
     "MENE",
     "MEONENIM",
     "NEAR",
+    "ON",
     "PALAESTRA",
     "PALLU",
     "PARAN",
@@ -4819,9 +4788,11 @@
     "SHEW",
     "SIDDIM",
     "SIRACH",
+    "SUCCOTH",
     "SUSANNA",
     "SYCAMINE",
     "SYCOMORE",
+    "SYRIA",
     "THORNS",
     "TOB",
     "VALE",
