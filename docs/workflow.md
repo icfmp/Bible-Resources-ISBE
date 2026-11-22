@@ -3,19 +3,24 @@
 ## 1. Preserve the original
 Keep `sources/crosswire/isbe-2.2/ISBE.zip` byte-for-byte, accompanied by its retrieval metadata and SHA-256 in `MANIFEST.json`. No re-downloading or rewriting as part of normal editorial work.
 
-## 2. Rebuild the faithful reference
-Use SWORD `mod2imp` to export `workspace/exports/isbe-2.2.imp` and retain that export. Run `scripts/rebuild_tei.py` to create `cleaned/en/ISBE.xml`, `cleaned/en/article-index.json`, and `workspace/reports/tei-reconstruction.json`. The program aborts on missing entries, duplicate IDs, malformed XML or text integrity failure. Cross-references that fail to resolve are downgraded to non-clickable source-reference segments, preserving their exact original targets and visible wording. They are recorded for review, never guessed.
+## 2. Rebuild the faithful source witness as an intermediate
 
-## 3. Apply the reviewed TEI structure profile before modernizing
+Keep the preserved IMP and original CrossWire ZIP unchanged. Run `scripts/rebuild_tei.py` only into `workspace/tmp/isbe-legacy/`, preserving the reconstructed source's exact byte-level SHA-256. Its `osisRef` attributes and old bibliography leads are **source-intermediate markup**, not the released TEI encoding. The original stable article index and reconstruction/links reports are regenerated from the same intermediate. No source text edits are allowed.
 
-Use [the ISBE TEI P5 structure profile](tei-structure-profile.md) as the target and `workspace/reports/tei-structure-inventory.json` as the initial whole-corpus inventory. First validate a separate structural candidate with pinned official TEI P5 RELAX NG and Schematron, and prove complete source/structure parity. Current legacy `osisRef` references and bibliography heading placement require audited source-preserving transformations under [issue #3](https://github.com/icfmp/Bible-Resources-ISBE/issues/3). The read-only project-profile inventory does **not** replace the official schema or editorial review. Do not start bulk modernization from an unvalidated structural candidate.
+## 3. Validate and adopt the source-locked canonical TEI P5
+
+The canonical working XML at `cleaned/en/ISBE.xml` is the exact verified TEI P5 candidate derived from that source. `scripts/normalize_tei_p5.py` makes only documented mechanical changes, in a **separate candidate**, and compares every article's source text, paragraph/node text and tails, original attributes outside the declared exceptions, IDs, keys and links to the intermediate and source index.
+
+Before replacing the master, `.github/workflows/rebuild-tei.yml` enforces the pinned candidate SHA-256, strict project profile, and both official TEI P5 4.12.0 RELAX NG and Schematron. The shared validator is `scripts/validate_official_tei_p5.py`, with two deliberately invalid controls. The canonical master is overwritten **only after all tests pass**, and the report and source digest are committed together with the master.
+
+Source-lock and schema proofs: `workspace/changes/tei-p5-candidate-v1.json`, `docs/tei-p5-candidate-migration.md` and [issue #3](https://github.com/icfmp/Bible-Resources-ISBE/issues/3). The exact original remains recoverable from the source ZIP, IMP, and repository history. New editorial changes require a reviewed revision and fresh provenance; never loosen a checksum just to make CI green.
 
 ## 4. Review the corpus
 Audit unresolved references, headings, unusual article structures and representative content against the official source and, for textual issues, the historic printed edition. Keep factual/OCR/editorial questions distinct. The 2.2 module itself reports historic OCR and layout corrections, so it is not automatically a facsimile of 1915.
 
 ## Navigation-only corrections
 
-Treat cross-reference navigation as a separate layer from source text. Run the canonical TEI rebuild action on changes to `scripts/rebuild_tei.py` or `workspace/reviews/accepted-title-aliases.json`. The action regenerates `workspace/reports/tei-reconstruction.json` and the remaining-link diagnostics under `workspace/reviews/`.
+Treat cross-reference navigation as a separate layer from source text. Use the source-first, schema-gated canonical TEI rebuild action on changes to `scripts/rebuild_tei.py` or `workspace/reviews/accepted-title-aliases.json`. The action regenerates `workspace/reports/tei-reconstruction.json` and the remaining-link diagnostics under `workspace/reviews/`.
 
 Resolve mechanical title variants and explicitly identifiable article/section destinations through generic rules. Where the original headings are insufficient, record a source-backed decision with a concise rationale in `accepted-title-aliases.json`. Use a global `mapping` only if its title equivalence holds in every context; for homonyms and exceptional references use `occurrence_mappings` with the stable source reference ID and original target. Never add guessed links merely to decrease the unresolved count. All original CrossWire encyclopedia reference destinations must remain recoverable in `n` on rewritten links.
 
