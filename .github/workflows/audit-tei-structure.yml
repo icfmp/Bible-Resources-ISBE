@@ -4,6 +4,8 @@ on:
     paths:
       - .github/workflows/audit-tei-structure.yml
       - scripts/audit_tei_structure.py
+      - tests/test_audit_tei_structure.py
+      - cleaned/en/ISBE.xml
 permissions:
   contents: write
 concurrency:
