@@ -7,6 +7,7 @@ publication-ready, never overwrites the canonical TEI and retains provenance.
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -17,6 +18,27 @@ ET.register_namespace("","http://www.tei-c.org/ns/1.0")
 
 def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+# UI/navigation/website boilerplate from electronic reproductions is not part
+# of the historical encyclopaedia. Target distinctive composed expressions,
+# never generic scholarly words such as "editor", "note", or "copyright".
+DIGITAL_PARATEXT = re.compile(
+    r"(?i)(?:\bCopyright Statement\b|\bBibliography Information\b|"
+    r"\bPopular Articles\b|\bFeatured Verse Topics\b|"
+    r"\bShare Tweet Save\b|\bJoin PLUS\b|\bSign In\b|"
+    r"\bBible Study Tools\b|\bProud member of\b|"
+    r"\bNext Article\b|\bPrevious Article\b|"
+    r"\bBack to Top\b|\bRead More Articles\b|"
+    r"<(?:/)?(?:script|nav|footer|aside|a)(?:\s|>))"
+)
+
+def reject_digital_paratext(text, article_key):
+    match = DIGITAL_PARATEXT.search(text)
+    if match:
+        raise ValueError(
+            f"Non-content digital paratext in {article_key}: {match.group(0)}"
+        )
+
 
 def apply(source,redirect_manifest,prose_manifest,output,report_path):
     source,output=Path(source),Path(output)
@@ -75,6 +97,10 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
             raise ValueError("Original blank entry unexpectedly contains content")
         if not r["blocks"] or any(not t.strip() for t in r["blocks"]):
             raise ValueError("Blank historical source candidate block")
+        if not r.get("witness") or not r["witness"].startswith("https://"):
+            raise ValueError(f"Historical source URL missing for {key}")
+        for block in r["blocks"]:
+            reject_digital_paratext(block, key)
         ps[0].text=r["blocks"][0]
         for i,text in enumerate(r["blocks"][1:],start=1):
             new=ET.SubElement(article,q("p"))
@@ -113,6 +139,8 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
         "original_ids_preserved":len(original_ids),
         "new_xml_ids":len(set(actual_ids)-original_ids),
         "evidence":"1915 volume I searchable text and separately attributed 1915 transcriptions; all require independent page-image comparison",
+        "digital_paratext_policy":"distinctive electronic publication notices rejected before candidate serialization",
+        "candidate_article_text_blocks_scanned":sum(len(r["blocks"]) for r in spec["records"]),
         "affected_keys":sorted(affected),
     }
     Path(report_path).parent.mkdir(parents=True,exist_ok=True)

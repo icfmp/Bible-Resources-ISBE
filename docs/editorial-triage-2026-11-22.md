@@ -61,3 +61,9 @@ The canonical structure inventory currently has **no `note` elements** in its ar
 Six more CrossWire-empty entries have now been transcribed into the **noncanonical** review specimen: `BEERA`, `ITHLAH`, `MANASSITES`, `SAVIAS`, `SESIS`, and `HASRAH`. Each is restricted to the actual article passage from its own 1915-attributed reproduction; HTML menus, website terms, recommendations and copyright/bibliographic boilerplate are **excluded**. The exact secondary witness is recorded per entry in `workspace/reviews/print-prose-candidate-v1.json`.
 
 Combined preview target: **11 provisional redirects plus 9 prose entries**, with 9,360 other article texts and all original identifiers preserved. This is an editorial research specimen, **not** the canonical text or an approved printed transcription. No invented expansion or silent editorial modernization is permissible. Final page-image collation and rights checks remain required.
+
+## Guard against electronic-edition paratext at ingestion
+
+The provisional print-text recovery builder now **rejects** distinctive website boilerplate before serializing recovered prose (e.g. `Copyright Statement`, `Bibliography Information`, `Popular Articles`, `Share Tweet Save`, `Bible Study Tools`, HTML `footer` or `nav` elements). It fails rather than silently sanitizing text. This prevents modern website additions from entering a historical encyclopedia article and documents exactly where the provenance boundary lies.
+
+The check intentionally does **not** reject generic historical terms such as `editor`, `note`, or `copyright`: those can be substantive encyclopedia prose. This is a candidate-import QA gate, **not** proof that all content of the original CrossWire source has been reviewed for unrelated historical/editorial annotations. Every deletion from the original canonical witness still requires its own source-backed, reversible editorial delta.
