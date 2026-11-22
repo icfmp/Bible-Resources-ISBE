@@ -12,11 +12,11 @@
       "proposed_targets": [
         "ASHTAROTH"
       ],
-      "secondary_witness_url": "https://archive.hundewadt.dk/dvd-the-bibles-fight-to-live/003%20Text/005%20Bible%20Reference%20Works/International%20Standard%20Bible%20Encyclopedia%20%20%28James%20Orr%29.pdf",
+      "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/astarte-astoreth.html",
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image."
+      "editorial_note": "Independent reproduction includes a pronunciation before the redirect. Preview omits pronunciation; not approved as historical transcription."
     },
     {
       "article_key": "BURNT OFFERING",
@@ -73,11 +73,14 @@
       "proposed_targets": [
         "APOCALYPTIC LITERATURE"
       ],
-      "secondary_witness_url": "https://classic.net.bible.org/dictionary.php?word=Patriarchs%2C+Testaments+Of+The+Twelve",
+      "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/patriarchs-testaments-of-the-twelve.html",
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image."
+      "editorial_note": "Independent reproduction gives section IV, 1; proposed TEI link is article-level only pending a verified exact subsection anchor.",
+      "proposed_display_labels": {
+        "APOCALYPTIC LITERATURE": "APOCALYPTIC LITERATURE, sec. IV, 1"
+      }
     },
     {
       "article_key": "PAUL, VOYAGE AND SHIPWRECK OF",
@@ -86,11 +89,14 @@
         "PAUL, THE APOSTLE",
         "PHOENIX"
       ],
-      "secondary_witness_url": "https://classic.net.bible.org/dictionary.php?word=Paul%2C+Voyage+And+Shipwreck+Of",
+      "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/paul-voyage-and-shipwreck-of.html",
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image."
+      "editorial_note": "The independent reproduction includes a precise subsection V, 9 for PAUL, THE APOSTLE. Candidate link is article-level only, and must not claim to target that subsection.",
+      "proposed_display_labels": {
+        "PAUL, THE APOSTLE": "PAUL, THE APOSTLE, V, 9"
+      }
     },
     {
       "article_key": "PROSTRATION",
