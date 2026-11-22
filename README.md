@@ -29,10 +29,9 @@ docs/                           Repository-wide working rules
 
 ## Rebuild
 
-Reconstruction uses the versioned script `scripts/rebuild_tei.py`, and the `Reconstruct ISBE TEI corpus` GitHub Action. To reproduce locally, install SWORD's `mod2imp` utility, unpack the original ZIP into a private directory and run:
+Reconstruction uses the versioned script `scripts/rebuild_tei.py`, and the `Reconstruct ISBE TEI corpus` GitHub Action. The reproducible raw SWORD IMP export is already preserved. A routine rebuild requires only Python:
 
 ```bash
-SWORD_PATH=/path/to/unpacked/sword mod2imp ISBE > workspace/exports/isbe-2.2.imp
 python3 scripts/rebuild_tei.py \
   --input workspace/exports/isbe-2.2.imp \
   --output cleaned/en/ISBE.xml \
@@ -46,6 +45,6 @@ The process fails if XML cannot be parsed, article keys are duplicated, the entr
 
 The cleaned TEI is a **transcription of the CrossWire digital source**, not a critically verified edition of the printed volumes. It is never modernized in place. All language modernization happens separately under `modern/en/`; translations are derived from a pinned modern-English revision. Preserve semantic IDs across revisions so only altered text units need translation review.
 
-The current report lists **1,328 unresolved internal-link occurrences** (729 distinct target strings) after **16 uniquely grounded punctuation-only link repairs**, plus four original title variants. Keep these as open review findings rather than inventing targets or silently correcting historical content.
+The latest audit records **91 traceable internal-link repairs** (30 unique index-key variants, 61 uniquely matched local section headings). **1,253 unresolved occurrences** across **658 distinct targets** remain for grounded editorial review; four original heading variants are also recorded. Detailed diagnostics are in `workspace/reviews/unresolved-links.json` and `workspace/reviews/link-contexts.json`. Keep these as open review findings rather than inventing targets or silently correcting historical content.
 
 See [TEI conventions](docs/article-format.md), [workflow](docs/workflow.md), and [source policy](docs/source-policy.md).
