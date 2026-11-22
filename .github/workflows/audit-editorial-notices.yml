@@ -1,0 +1,26 @@
+name: Audit ISBE non-content notices
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/audit_editorial_notices.py'
+      - 'tests/test_audit_editorial_notices.py'
+      - '.github/workflows/audit-editorial-notices.yml'
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p 'test_audit_editorial_notices.py'
+      - name: Scan canonical source without modifying it
+        run: |
+          python scripts/audit_editorial_notices.py cleaned/en/ISBE.xml \
+            --report workspace/tmp/editorial-notices.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isbe-editorial-notices
+          path: workspace/tmp/editorial-notices.json
+          if-no-files-found: error
