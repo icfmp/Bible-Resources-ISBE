@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "source_path": "cleaned/en/ISBE.xml",
+  "source_sha256": "98b07b64019601a8ad1eb13feff5b336c870fd80adfecd670bd9b7e3be7b8575",
+  "source_index_path": "cleaned/en/article-index.json",
+  "expected": {
+    "articles": 9380,
+    "existing_xml_ids": 185657,
+    "scripture_refs": 93162,
+    "internal_refs": 5906,
+    "unlinked_refs": 144,
+    "bibliography_heads": 27,
+    "source_links": 6079
+  },
+  "policy": "Attribute-only changes to original elements; insert one bibliography wrapper per source bibliography head, without changing any original node, text, tail or identifier. TEI header additions are recorded. No source or master file is overwritten."
+}
