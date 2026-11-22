@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 430,
+  "total_unresolved_occurrences": 423,
   "category_counts": {
-    "ambiguous_semicolon_alias": 12,
+    "ambiguous_semicolon_alias": 5,
     "requires_review": 418
   },
   "exclusive_scripture_numbered_candidates": [],
@@ -1265,13 +1265,6 @@
       ]
     },
     {
-      "target": "POOL",
-      "occurrences": 7,
-      "title_candidates": [
-        "POOL; POND; RESERVOIR"
-      ]
-    },
-    {
       "target": "PROPHET",
       "occurrences": 3,
       "title_candidates": [
@@ -2047,15 +2040,6 @@
       "context": "See COLORS; HOARY."
     },
     {
-      "article_key": "JERUSALEM",
-      "original_target": "POOL",
-      "candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "context": "Near by was the KING'S POOL (which see), probably the pool--now deeply buried--which is today represented by the Birket el Kamra. Here Nehemiah apparently thought of turn"
-    },
-    {
       "article_key": "OIL PRESS",
       "original_target": "WINE PRESS",
       "candidates": [
@@ -2065,42 +2049,6 @@
       "context": "See OIL; WINE PRESS."
     },
     {
-      "article_key": "POND",
-      "original_target": "POOL",
-      "candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "context": "See CISTERN; POOL."
-    },
-    {
-      "article_key": "POOLS OF SOLOMON",
-      "original_target": "POOL",
-      "candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "context": "See CISTERN; POOL."
-    },
-    {
-      "article_key": "REED",
-      "original_target": "POOL",
-      "candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "context": "(3) 'aghammim, translated \"reeds,\" margin \"marshes,\" Hebrew \"pools\" (Jer 51:32); elsewhere \"pools\" (Ex 7:19; 8:5; Isa 14:23, etc.). See POOL."
-    },
-    {
-      "article_key": "RESERVOIR",
-      "original_target": "POOL",
-      "candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "context": "See DITCH; CISTERN; POOL."
-    },
-    {
       "article_key": "TREAD",
       "original_target": "WINE PRESS",
       "candidates": [
@@ -2108,24 +2056,6 @@
         "WINEFAT; WINE PRESS; WINEVAT"
       ],
       "context": "See WINE PRESS."
-    },
-    {
-      "article_key": "WATER",
-      "original_target": "POOL",
-      "candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "context": "See also FOUNTAIN; PIT; POOL; SPRING; WELL."
-    },
-    {
-      "article_key": "WELL",
-      "original_target": "POOL",
-      "candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "context": "See CISTERN; FOUNTAIN; PIT; POOL."
     }
   ],
   "unique_semicolon_alias_candidates": [],
@@ -6452,22 +6382,6 @@
     },
     {
       "article_key": "JERUSALEM",
-      "ref_id": "isbe-ee3b669c99fe2e08d2e2-n000366",
-      "original_target": "POOL",
-      "displayed_text": "POOL",
-      "candidate_key": null,
-      "alias_candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "ambiguous_semicolon_alias",
-      "context": "Near by was the KING'S POOL (which see), probably the pool--now deeply buried--which is today represented by the Birket el Kamra. Here Nehemiah apparently thought of turning into the city, \"but there was no place for the beast that was under me to pass\" (2:14), so he went up by the Nachal (Kidron), viewed the walls from there, and then retraced his steps to the Valley Gate. There is another possibility, and that is that the King's Pool was the po"
-    },
-    {
-      "article_key": "JERUSALEM",
       "ref_id": "isbe-ee3b669c99fe2e08d2e2-n000531",
       "original_target": "ZEDEK",
       "displayed_text": "ZEDEK",
@@ -7351,38 +7265,6 @@
       "context": "See RIMMON."
     },
     {
-      "article_key": "POND",
-      "ref_id": "isbe-67740477aa34278423ac-n000005",
-      "original_target": "POOL",
-      "displayed_text": "POOL",
-      "candidate_key": null,
-      "alias_candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "ambiguous_semicolon_alias",
-      "context": "See CISTERN; POOL."
-    },
-    {
-      "article_key": "POOLS OF SOLOMON",
-      "ref_id": "isbe-428b11108f515e6dba82-n000006",
-      "original_target": "POOL",
-      "displayed_text": "POOL",
-      "candidate_key": null,
-      "alias_candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "ambiguous_semicolon_alias",
-      "context": "See CISTERN; POOL."
-    },
-    {
       "article_key": "PROPERTY",
       "ref_id": "isbe-638d02e663b5f7b9c329-n000006",
       "original_target": "JUBILEE",
@@ -7489,22 +7371,6 @@
       "context": "See CUSTOM."
     },
     {
-      "article_key": "REED",
-      "ref_id": "isbe-50c462086f9a9857fddf-n000017",
-      "original_target": "POOL",
-      "displayed_text": "POOL",
-      "candidate_key": null,
-      "alias_candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "ambiguous_semicolon_alias",
-      "context": "(3) 'aghammim, translated \"reeds,\" margin \"marshes,\" Hebrew \"pools\" (Jer 51:32); elsewhere \"pools\" (Ex 7:19; 8:5; Isa 14:23, etc.). See POOL."
-    },
-    {
       "article_key": "RELATIONSHIPS, FAMILY",
       "ref_id": "isbe-98d7454913d9913b49f1-n000356",
       "original_target": "STRANGER AND SOJOURNER",
@@ -7551,22 +7417,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See RIMMON."
-    },
-    {
-      "article_key": "RESERVOIR",
-      "ref_id": "isbe-cbf35b8a873a1e34dcb3-n000008",
-      "original_target": "POOL",
-      "displayed_text": "POOL",
-      "candidate_key": null,
-      "alias_candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "ambiguous_semicolon_alias",
-      "context": "See DITCH; CISTERN; POOL."
     },
     {
       "article_key": "REUBEN",
@@ -8378,38 +8228,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "wosh, wosh'-ing: The two usual Hebrew words for \"wash\" are rachats, and kabhac, the former being normally used of persons or of sacrificial animals (Ge 18:4, etc., often translated \"bathe\"; Le 15:5, etc.), and the latter of things (Ge 49:11, etc.), the exceptions to this distinction being few (for rachats, 1Ki 22:38 margin; for kabhac, Ps 51:2,7; Jer 2:22; 4:14). Much less common are duach (2Ch 4:6; Isa 4:4; Eze 40:38) and shataph (1Ki 22:38; Job"
-    },
-    {
-      "article_key": "WATER",
-      "ref_id": "isbe-556728f7f45600acafc8-n000042",
-      "original_target": "POOL",
-      "displayed_text": "POOL",
-      "candidate_key": null,
-      "alias_candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "ambiguous_semicolon_alias",
-      "context": "See also FOUNTAIN; PIT; POOL; SPRING; WELL."
-    },
-    {
-      "article_key": "WELL",
-      "ref_id": "isbe-ae80518fd8a7562f93a3-n000065",
-      "original_target": "POOL",
-      "displayed_text": "POOL",
-      "candidate_key": null,
-      "alias_candidates": [
-        "CISTERN; WELL; POOL; AQUEDUCT",
-        "POOL; POND; RESERVOIR"
-      ],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "ambiguous_semicolon_alias",
-      "context": "See CISTERN; FOUNTAIN; PIT; POOL."
     },
     {
       "article_key": "WICKEDNESS",

@@ -3110,6 +3110,51 @@
     }
   ],
   "resolved_redirect_alias_occurrences": 2,
+  "resolved_primary_alias_links": [
+    {
+      "source_article": "JERUSALEM",
+      "original": "POOL",
+      "destination_article": "POOL; POND; RESERVOIR",
+      "occurrences": 1
+    },
+    {
+      "source_article": "POND",
+      "original": "POOL",
+      "destination_article": "POOL; POND; RESERVOIR",
+      "occurrences": 1
+    },
+    {
+      "source_article": "POOLS OF SOLOMON",
+      "original": "POOL",
+      "destination_article": "POOL; POND; RESERVOIR",
+      "occurrences": 1
+    },
+    {
+      "source_article": "REED",
+      "original": "POOL",
+      "destination_article": "POOL; POND; RESERVOIR",
+      "occurrences": 1
+    },
+    {
+      "source_article": "RESERVOIR",
+      "original": "POOL",
+      "destination_article": "POOL; POND; RESERVOIR",
+      "occurrences": 1
+    },
+    {
+      "source_article": "WATER",
+      "original": "POOL",
+      "destination_article": "POOL; POND; RESERVOIR",
+      "occurrences": 1
+    },
+    {
+      "source_article": "WELL",
+      "original": "POOL",
+      "destination_article": "POOL; POND; RESERVOIR",
+      "occurrences": 1
+    }
+  ],
+  "resolved_primary_alias_occurrences": 7,
   "resolved_reviewed_occurrences": [],
   "resolved_reviewed_occurrence_count": 0,
   "unresolved_link_diagnostics": [
@@ -4134,11 +4179,6 @@
       "occurrences": 1
     },
     {
-      "original": "POOL",
-      "reason": "ambiguous",
-      "occurrences": 7
-    },
-    {
       "original": "PROPHET",
       "reason": "not_found",
       "occurrences": 3
@@ -4675,7 +4715,6 @@
     "RAMOTH": 3,
     "OLIVES": 1,
     "MORIAH": 1,
-    "POOL": 7,
     "SALEM": 1,
     "ZEDEK": 1,
     "AKRA": 1,
@@ -4736,9 +4775,9 @@
     "TEMPLE KEEPERS": 1,
     "ZIPH": 1
   },
-  "unresolved_link_occurrences": 430,
+  "unresolved_link_occurrences": 423,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5649,
+  "resolved_internal_links_validated": 5656,
   "xml_id_uniqueness": "validated",
   "reviewed_title_alias_count": 48,
   "reviewed_title_aliases_used": [
