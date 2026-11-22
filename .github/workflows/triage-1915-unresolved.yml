@@ -18,7 +18,7 @@ jobs:
   original-volume-ocr:
     # One-time primary-source research on this pull request; return to
     # manual dispatch before merge to avoid future automatic large downloads.
-    if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch'
     needs: offline
     runs-on: ubuntu-latest
     strategy:
