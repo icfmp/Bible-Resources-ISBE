@@ -60,6 +60,31 @@ class LinkResolutionTests(unittest.TestCase):
         self.assertEqual(resolve_key("CLOPAS", ids, normalized, aliases=aliases),
                          ("CLOPAS", "exact"))
 
+    def test_self_ambiguous_alias_redirects_to_only_other_article(self):
+        from rebuild_tei import build
+        imp = """$$ATHANASIAN; CREED
+<entryFree n="ATHANASIAN; CREED"><p>See <ref target="ISBE:CREED">CREED</ref>.</p></entryFree>
+$$CREED; CREEDS
+<entryFree n="CREED; CREEDS"><p>A general creed entry.</p></entryFree>"""
+        root, _, report = build(imp)
+        source = next(el for el in root.iter() if el.tag.endswith("div") and el.get("n") == "ATHANASIAN; CREED")
+        dest = next(el for el in root.iter() if el.tag.endswith("div") and el.get("n") == "CREED; CREEDS")
+        ref = next(el for el in source.iter() if el.get("n") == "ISBE:CREED")
+        self.assertEqual(ref.get("target"), "#" + dest.get("{http://www.w3.org/XML/1998/namespace}id"))
+        self.assertEqual(report["resolved_redirect_alias_occurrences"], 1)
+
+    def test_ambiguous_alias_from_other_article_stays_unresolved(self):
+        from rebuild_tei import build
+        imp = """$$OTHER
+<entryFree n="OTHER"><p>See <ref target="ISBE:CREED">CREED</ref>.</p></entryFree>
+$$ATHANASIAN; CREED
+<entryFree n="ATHANASIAN; CREED"><p>One subject.</p></entryFree>
+$$CREED; CREEDS
+<entryFree n="CREED; CREEDS"><p>Another subject.</p></entryFree>"""
+        _, _, report = build(imp)
+        self.assertEqual(report["resolved_redirect_alias_occurrences"], 0)
+        self.assertEqual(report["unresolved_link_occurrences"], 1)
+
     def test_missing_stays_missing(self):
         self.assertEqual(resolve_key("LITERATURE", self.ids, self.lookup), (None, "not_found"))
 
