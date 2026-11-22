@@ -11,18 +11,19 @@ on:
 jobs:
   page-images:
     # Archive PDFs are expensive to fetch; keep repeat inspection explicit.
-    if: github.event_name == 'workflow_dispatch'
+    # Temporary one-time visual evidence run on this PR; return to manual before merge.
+    if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     strategy:
       fail-fast: false
       matrix:
         include:
-          - {volume: "1", pages: "329,654"}
-          - {volume: "2", pages: "499"}
-          - {volume: "3", pages: "393"}
-          - {volume: "4", pages: "176,466,642"}
-          - {volume: "5", pages: "67,169"}
+          - {volume: "1", pages: "37,148,568"}
+          - {volume: "2", pages: "21,165,227"}
+          - {volume: "3", pages: "177,640"}
+          - {volume: "4", pages: "201,385"}
+          - {volume: "5", pages: "38,142"}
     steps:
       - uses: actions/checkout@v4
       - name: Install source-page rendering tool
