@@ -739,6 +739,12 @@
       "occurrences": 1
     },
     {
+      "original": "CANAAN, CANAANITE",
+      "resolved_to": "CANAAN; CANAANITES",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "CANANAEAN",
       "resolved_to": "CANANAEAN; CANAANITE",
       "rule": "explicit_semicolon_title_alias",
@@ -973,6 +979,12 @@
       "occurrences": 1
     },
     {
+      "original": "COURTS",
+      "resolved_to": "COURTS, JUDICIAL",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "COW",
       "resolved_to": "COW; KINE",
       "rule": "explicit_semicolon_title_alias",
@@ -1199,6 +1211,12 @@
       "resolved_to": "DYE; DYEING",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 2
+    },
+    {
+      "original": "EARTH, VAULT OF",
+      "resolved_to": "EARTH, VAULT, OF THE",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
     },
     {
       "original": "EBIONISM",
@@ -1663,6 +1681,12 @@
       "occurrences": 1
     },
     {
+      "original": "JORDAN, VALLEY OF",
+      "resolved_to": "JORDAN VALLEY",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "JOSEPH",
       "resolved_to": "JOSEPH (2)",
       "rule": "reviewed_title_alias",
@@ -1777,6 +1801,12 @@
       "occurrences": 1
     },
     {
+      "original": "LUNATIC",
+      "resolved_to": "LUNATIC(K)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "MACCABAEUS",
       "resolved_to": "MACCABAEUS; MACCABEES",
       "rule": "explicit_semicolon_title_alias",
@@ -1840,6 +1870,12 @@
       "original": "MEASURE",
       "resolved_to": "MEASURE; MEASURES",
       "rule": "explicit_semicolon_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "MEJARGON",
+      "resolved_to": "ME-JARKON",
+      "rule": "reviewed_title_alias",
       "occurrences": 1
     },
     {
@@ -2587,6 +2623,12 @@
       "occurrences": 1
     },
     {
+      "original": "THE TWIN BROTHERS",
+      "resolved_to": "TWIN BROTHERS",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "THORNS",
       "resolved_to": "THORNS, THISTLES, ETC.",
       "rule": "reviewed_title_alias",
@@ -2725,7 +2767,7 @@
       "occurrences": 1
     }
   ],
-  "resolved_variant_occurrences": 863,
+  "resolved_variant_occurrences": 871,
   "resolved_local_section_links": [
     {
       "article_key": "ACCOMMODATION",
@@ -4086,11 +4128,6 @@
       "occurrences": 1
     },
     {
-      "original": "CANAAN, CANAANITE",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "CARIARCH",
       "reason": "not_found",
       "occurrences": 1
@@ -4132,11 +4169,6 @@
     },
     {
       "original": "COSHEN",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "COURTS",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -4222,11 +4254,6 @@
     },
     {
       "original": "DRY",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "EARTH, VAULT OF",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -4476,11 +4503,6 @@
       "occurrences": 1
     },
     {
-      "original": "JORDAN, VALLEY OF",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "JOSHUA",
       "reason": "not_found",
       "occurrences": 1
@@ -4531,11 +4553,6 @@
       "occurrences": 1
     },
     {
-      "original": "LUNATIC",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "MAKE",
       "reason": "not_found",
       "occurrences": 1
@@ -4557,11 +4574,6 @@
     },
     {
       "original": "MEGALAROS",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "MEJARGON",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -4906,11 +4918,6 @@
       "occurrences": 2
     },
     {
-      "original": "THE TWIN BROTHERS",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "TO",
       "reason": "not_found",
       "occurrences": 1
@@ -5071,7 +5078,6 @@
     "SYRIARCH": 1,
     "FEASTS": 3,
     "GOLDEN": 1,
-    "EARTH, VAULT OF": 1,
     "CREATION; GOD": 1,
     "AVEN; ON": 1,
     "BAAL": 1,
@@ -5123,7 +5129,6 @@
     "EAST": 2,
     "SIMON": 1,
     "MAN (THE NATURAL)": 1,
-    "CANAAN, CANAANITE": 1,
     "GAD": 1,
     "TEMPLE, II, 4": 1,
     "ERI-AKU, 4": 1,
@@ -5146,14 +5151,11 @@
     "ANTIOCH": 1,
     "ARMS, III": 1,
     "OF THE OLD TESTAMENT AND NEW TESTAMENT": 1,
-    "JORDAN, VALLEY OF": 1,
     "DECEASE": 2,
     "AUGURY, IV, 3": 1,
-    "COURTS": 1,
     "JUDICIAL": 1,
     "BABYLONIA AND ASSYRIA": 1,
     "DEMETRIUS": 1,
-    "THE TWIN BROTHERS": 1,
     "ASHER": 1,
     "TUNIC": 1,
     "AMULET; ORNAMENT": 1,
@@ -5180,7 +5182,6 @@
     "SLAVONIC": 1,
     "QUIRINIUS; TAX": 1,
     "V. THE PURPOSE": 1,
-    "LUNATIC": 2,
     "ESEREBIAS; SHEREBIAH": 1,
     "II. AUTHORITIES FOR THE TENETS OF THE ESSENES": 1,
     "V. RELATION TO APOCALYPTIC BOOKS": 1,
@@ -5232,7 +5233,6 @@
     "DEBAR": 1,
     "HAIL": 1,
     "VIRGIN": 1,
-    "MEJARGON": 1,
     "MAKE": 1,
     "TO": 1,
     "SAQQAREH": 1,
@@ -5275,20 +5275,23 @@
     "TEMPLE KEEPERS": 1,
     "ZIPH": 1
   },
-  "unresolved_link_occurrences": 298,
+  "unresolved_link_occurrences": 290,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5752,
+  "resolved_internal_links_validated": 5760,
   "xml_id_uniqueness": "validated",
-  "reviewed_title_alias_count": 60,
+  "reviewed_title_alias_count": 67,
   "reviewed_title_aliases_used": [
     "BACK",
     "BILL",
+    "CANAAN, CANAANITE",
     "CHESTNUT",
     "CHRIST AS KING",
     "COLOSSIANS",
+    "COURTS",
     "DAY OF THE LORD",
     "DEBIR",
     "DEUTERO-CANONICAL",
+    "EARTH, VAULT OF",
     "ECCLESIASTES",
     "EDER",
     "EPHRON",
@@ -5306,11 +5309,14 @@
     "JAPHETH",
     "JASHAR",
     "JEW",
+    "JORDAN, VALLEY OF",
     "JOSEPH",
     "KINGDOM OF GOD",
     "LAMENTATIONS",
     "LAST TIME",
+    "LUNATIC",
     "MEALS",
+    "MEJARGON",
     "MEMMIUS",
     "MENE",
     "MEONENIM",
@@ -5334,6 +5340,7 @@
     "SYCAMINE",
     "SYCOMORE",
     "SYRIA",
+    "THE TWIN BROTHERS",
     "THORNS",
     "TOB",
     "VALE",

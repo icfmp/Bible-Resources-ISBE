@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 298,
+  "total_unresolved_occurrences": 290,
   "category_counts": {
     "ambiguous_semicolon_alias": 5,
-    "requires_review": 293
+    "requires_review": 285
   },
   "unresolved_numbered_homonyms": [
     {
@@ -3455,24 +3455,6 @@
       ]
     },
     {
-      "target": "CANAAN, CANAANITE",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "CANAAN; CANAANITES",
-          "ratio": 0.914
-        },
-        {
-          "title": "CHANAAN; CHANAANITE",
-          "ratio": 0.889
-        },
-        {
-          "title": "CANANAEAN; CANAANITE",
-          "ratio": 0.865
-        }
-      ]
-    },
-    {
       "target": "CARIARCH",
       "occurrences": 1,
       "candidates": [
@@ -3624,28 +3606,6 @@
         },
         {
           "title": "OSHEA",
-          "ratio": 0.727
-        }
-      ]
-    },
-    {
-      "target": "COURTS",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "COURT",
-          "ratio": 0.909
-        },
-        {
-          "title": "COURSE",
-          "ratio": 0.833
-        },
-        {
-          "title": "CURSE",
-          "ratio": 0.727
-        },
-        {
-          "title": "COUNT",
           "ratio": 0.727
         }
       ]
@@ -3901,20 +3861,6 @@
         {
           "title": "DOWRY",
           "ratio": 0.75
-        }
-      ]
-    },
-    {
-      "target": "EARTH, VAULT OF",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "EARTH, VAULT, OF THE",
-          "ratio": 0.857
-        },
-        {
-          "title": "ELAH, VALE OF",
-          "ratio": 0.786
         }
       ]
     },
@@ -4565,28 +4511,6 @@
       ]
     },
     {
-      "target": "JORDAN, VALLEY OF",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "JORDAN VALLEY",
-          "ratio": 0.867
-        },
-        {
-          "title": "SOREK, VALLEY OF",
-          "ratio": 0.788
-        },
-        {
-          "title": "GAD, VALLEY OF",
-          "ratio": 0.774
-        },
-        {
-          "title": "SALT, VALLEY OF",
-          "ratio": 0.75
-        }
-      ]
-    },
-    {
       "target": "JOSHUA",
       "occurrences": 1,
       "candidates": [
@@ -4753,16 +4677,6 @@
       ]
     },
     {
-      "target": "LUNATIC",
-      "occurrences": 2,
-      "candidates": [
-        {
-          "title": "LUNATIC(K)",
-          "ratio": 0.824
-        }
-      ]
-    },
-    {
       "target": "MAKE",
       "occurrences": 1,
       "candidates": [
@@ -4823,16 +4737,6 @@
         {
           "title": "TRICLINIUM",
           "ratio": 0.741
-        }
-      ]
-    },
-    {
-      "target": "MEJARGON",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "ME-JARKON",
-          "ratio": 0.824
         }
       ]
     },
@@ -5865,16 +5769,6 @@
       ]
     },
     {
-      "target": "THE TWIN BROTHERS",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "TWIN BROTHERS",
-          "ratio": 0.867
-        }
-      ]
-    },
-    {
       "target": "TO",
       "occurrences": 1,
       "candidates": [
@@ -6317,13 +6211,6 @@
       "title_candidates": [
         "CORINTHIANS, FIRST EPISTLE TO THE",
         "CORINTHIANS, SECOND EPISTLE TO THE"
-      ]
-    },
-    {
-      "target": "COURTS",
-      "occurrences": 1,
-      "title_candidates": [
-        "COURTS, JUDICIAL"
       ]
     },
     {
@@ -7181,12 +7068,6 @@
       "original_target": "FEASTS",
       "candidate": "FEASTS, SEASONS FOR",
       "context": "For atsereth, rendered by the Revised Version (British and American) \"solemn assembly\", see FEASTS. On miqra', see CONVOCATION."
-    },
-    {
-      "article_key": "DEFENCE",
-      "original_target": "COURTS",
-      "candidate": "COURTS, JUDICIAL",
-      "context": "de-fens'. See COURTS, JUDICIAL."
     },
     {
       "article_key": "DELUGE OF NOAH",
@@ -8104,19 +7985,6 @@
       "context": "See CALF, GOLDEN."
     },
     {
-      "article_key": "ASTRONOMY",
-      "ref_id": "isbe-35ac1588087957ad18a9-n000412",
-      "original_target": "EARTH, VAULT OF",
-      "displayed_text": "EARTH, VAULT OF",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "erets, \"the earth,\" is in general the surface of the earth, the dry land inhabited by man and beast. Hence \"the pillars\" of the earth (Job 9:6) are the rocks that bear up that surface, for as has been shown, it was quite clear to the author of the Book of Job, and to the primitive astronomers, that our world was unsupported in space. For \"Vault of the Earth\" see EARTH, VAULT OF."
-    },
-    {
       "article_key": "ATHEISM",
       "ref_id": "isbe-5e32a288c0b6606df1cd-n000031",
       "original_target": "CREATION; GOD",
@@ -8896,19 +8764,6 @@
       "context": "See MAN (THE NATURAL)."
     },
     {
-      "article_key": "CHANAAN; CHANAANITE",
-      "ref_id": "isbe-39233e1332853ed16eb4-n000006",
-      "original_target": "CANAAN, CANAANITE",
-      "displayed_text": "CANAAN, CANAANITE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "ka'-nan, ka'-na-an, ka'-nan-it (Chanaan), the King James Version in the Apocrypha (Judith 5:3,16) and New Testament (Ac 7:11; 13:19) for the Revised Version (British and American) CANAAN, CANAANITE (which see)."
-    },
-    {
       "article_key": "CHANCE",
       "ref_id": "isbe-836f8b413d2a7dd02fdb-n000032",
       "original_target": "GAD",
@@ -9325,19 +9180,6 @@
       "context": "Sometimes it is called \"that day\" (Mt 7:22; 1Th 5:4; 2Ti 4:8), and again it is called \"the day\" without any qualification whatever, as if it were the only day worth counting in all the history of the world and of the race (1Co 3:13). To the unbeliever, the New Testament depicts it as a day of terror; to the believer, as a day of joy. For on that day Christ will raise the dead, especially His own dead, the bodies of those that believed in Him--\"th"
     },
     {
-      "article_key": "DEAD SEA, THE",
-      "ref_id": "isbe-a01e93e6543bbf22c45d-n000051",
-      "original_target": "JORDAN, VALLEY OF",
-      "displayed_text": "JORDAN, VALLEY OF",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "It is easy to make an approximate calculation of the extent to which these encroachments have tended to narrow the limits of the original lake. The sediment deposited by the Jordan, at the north end of the Dead Sea, is practically all derived from the portion of the drainage basin between it and the Sea of Galilee--the latter serving as a catch-basin to retain the sediment brought down from the upper part of the valley. The Zor, or narrow channel"
-    },
-    {
       "article_key": "DEATH",
       "ref_id": "isbe-6981ec83774d7915876a-n000118",
       "original_target": "DECEASE",
@@ -9384,21 +9226,6 @@
     },
     {
       "article_key": "DEFENCE",
-      "ref_id": "isbe-9f3bed01ba593455014c-n000004",
-      "original_target": "COURTS",
-      "displayed_text": "COURTS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "COURTS, JUDICIAL"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "de-fens'. See COURTS, JUDICIAL."
-    },
-    {
-      "article_key": "DEFENCE",
       "ref_id": "isbe-9f3bed01ba593455014c-n000005",
       "original_target": "JUDICIAL",
       "displayed_text": "JUDICIAL",
@@ -9424,19 +9251,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "It is worthy of notice that the cuneiform tablet exhibits as much variety of style as does the Biblical account. Plain narrative and rhetorical prose are intermingled in both accounts, a fact which effectually disposes of the critical theory which regards the Biblical account as a clumsy combination made in later times by piecing together two or more independent traditions. Evidently the piecing together, if there was any, had been accomplished e"
-    },
-    {
-      "article_key": "DIOSCURI",
-      "ref_id": "isbe-445a3fffe6d7f5b06f61-n000005",
-      "original_target": "THE TWIN BROTHERS",
-      "displayed_text": "THE TWIN BROTHERS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "di-os'-ku-ri (Dioscouroi; in Ac 28:11, the King James Version Castor and Pollux, the Revised Version (British and American) THE TWIN BROTHERS; in margin, \"Dioscuri\"): The sign of the ship on which Paul sailed from Melita to Syracuse and Rhegium. The Dioscuri (i.e. sons of Zeus), Castor and Pollux, are the two chief stars in the constellation of the Twins. Some 4,000 years BC they served as pointers to mark the beginning of the new year by setting"
     },
     {
       "article_key": "DIP",
@@ -9817,19 +9631,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "(3) The ephod mentioned in Jud 17:5; 18:14 f; Ho 3:4 is associated with teraphim and other idolatrous images. We may frankly confess that we do not know the shape, size and use of the ephod in these cases, though even here also the ephod may well have been a priestly garment. The same remark holds good of the ephod made by Gideon, and which became an object of idolatrous worship in Israel (Jud 8:27). It has been argued that a vestment would not c"
-    },
-    {
-      "article_key": "EPILEPSY",
-      "ref_id": "isbe-769f867c4fcedbed104a-n000005",
-      "original_target": "LUNATIC",
-      "displayed_text": "LUNATIC",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See LUNATIC."
     },
     {
       "article_key": "ESCHATOLOGY OF THE OLD TESTAMENT",
@@ -10753,19 +10554,6 @@
       "context": "See HAIL."
     },
     {
-      "article_key": "MAD; MADNESS",
-      "ref_id": "isbe-e520eb04301a8838f692-n000035",
-      "original_target": "LUNATIC",
-      "displayed_text": "LUNATIC",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See also LUNATIC."
-    },
-    {
       "article_key": "MAID; MAIDEN",
       "ref_id": "isbe-ec1e7f1cf0a46495585e-n000044",
       "original_target": "VIRGIN",
@@ -10779,19 +10567,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "(3) The word bethulah, a common Hebrew word for \"virgin,\" a chaste woman Septuagint parthenos), is frequently rendered \"maid\" and \"maiden\" (Ex 22:16; Jud 19:24; 2Ch 36:17; Ps 78:63; 148:12; Jer 51:22; La 5:11; Eze 9:6; 44:22; Zec 9:17; compare De 22:14,17, having \"the marks (tokens) of virginity\"); bethulim, rendered \"maid.\" See VIRGIN."
-    },
-    {
-      "article_key": "MAKAZ",
-      "ref_id": "isbe-71c97108d94d1f6846a2-n000007",
-      "original_target": "MEJARGON",
-      "displayed_text": "MEJARGON",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "ma'-kaz (maqats): One of the cities of the 2nd of the 12 districts or prefectures which supplied victuals for Solomon (1Ki 4:9). It is associated with Shaalbim, Beth-shemesh and Elon-beth-hanan, all three probably identical with cities mentioned (Jos 19:41,42) as on the border of Dan. Cheyne (EB, II, col. 2906) suggests that Makaz may bc identical with MEJARGON (which see) in the latter list."
     },
     {
       "article_key": "MAKER",
