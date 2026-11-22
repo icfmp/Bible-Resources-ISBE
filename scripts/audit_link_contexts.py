@@ -39,10 +39,10 @@ def classify_candidate(target, visible, known_keys):
 
 def numbered_markers(article, reference):
     """Show candidate subsection markers for a reference such as NAME (2)."""
-    match = re.search(r"\\((\\d+)\\)$", reference.strip())
-    if not match:
+    base, separator, suffix = reference.strip().rpartition(" (")
+    if not separator or not suffix.endswith(")") or not suffix[:-1].isdigit():
         return []
-    needle = "(" + match.group(1) + ")"
+    needle = "(" + suffix[:-1] + ")"
     evidence = []
     for node in article.iter():
         if node.tag.split("}")[-1] != "p":
