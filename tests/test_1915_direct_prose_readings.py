@@ -15,9 +15,9 @@ class FirstOriginalPrintReadingTests(unittest.TestCase):
             (REVIEWS / "print-prose-candidate-v1.json").read_text(encoding="utf-8"))["records"]}
         pages = {r["source_key"]: r for r in json.loads(
             (REVIEWS / "1915-visual-page-collation-v1.json").read_text(encoding="utf-8"))["records"]}
-        self.assertEqual(data["print_collated_articles"], 2)
-        self.assertEqual(data["remaining_prose_articles_pending_initial_exact_print_collation"], 18)
-        self.assertEqual({r["source_key"] for r in data["records"]}, {"ABISSEI","MANKIND"})
+        self.assertEqual(data["print_collated_articles"], 5)
+        self.assertEqual(data["remaining_prose_articles_pending_initial_exact_print_collation"], 15)
+        self.assertEqual({r["source_key"] for r in data["records"]}, {"ABISSEI","MANKIND","BEERA","CHORBE","ITHLAH"})
         for row in data["records"]:
             key = row["source_key"]
             with self.subTest(key=key):
@@ -30,7 +30,7 @@ class FirstOriginalPrintReadingTests(unittest.TestCase):
                 self.assertEqual(row["printed_folio"], p["printed_page_number"])
                 self.assertEqual(row["source_pdf_page_1_based"], p["pdf_page_1_based"])
                 self.assertTrue(row["whole_body_visual_comparison"])
-                self.assertFalse(row["foreign_script_present"])
+                self.assertEqual(row["foreign_script_present"], key in {"BEERA","CHORBE","ITHLAH"})
                 self.assertFalse(row["editorial_approval"])
                 self.assertFalse(row["canonical_tei_changed"])
                 self.assertFalse(row["full_bibliographic_text_certified_by_independent_reviewer"])
