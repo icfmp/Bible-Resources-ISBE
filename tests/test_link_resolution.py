@@ -117,6 +117,31 @@ $$$BILL, BOND, ETC.
             build('$$$SOURCE\\n<entryFree n="SOURCE"><p>Text.</p></entryFree>',
                   reviewed={"MISSING": "NOT AN ARTICLE"})
 
+    def test_unique_primary_headword_wins_over_secondary_alias(self):
+        from rebuild_tei import build
+        imp = """$$$JERUSALEM
+<entryFree n="JERUSALEM"><p>See <ref target="ISBE:POOL">POOL</ref>.</p></entryFree>
+$$$POOL; POND; RESERVOIR
+<entryFree n="POOL; POND; RESERVOIR"><p>A reservoir.</p></entryFree>
+$$$CISTERN; WELL; POOL; AQUEDUCT
+<entryFree n="CISTERN; WELL; POOL; AQUEDUCT"><p>Infrastructure.</p></entryFree>"""
+        root, _, report = build(imp)
+        source = next(x for x in root.iter() if x.tag.endswith("div") and x.get("n") == "JERUSALEM")
+        target = next(x for x in root.iter() if x.tag.endswith("div") and x.get("n") == "POOL; POND; RESERVOIR")
+        ref = next(x for x in source.iter() if x.get("n") == "ISBE:POOL")
+        self.assertEqual(ref.get("target"), "#" + target.get("{http://www.w3.org/XML/1998/namespace}id"))
+        self.assertEqual(report["resolved_primary_alias_occurrences"], 1)
+
+    def test_primary_headword_never_self_links(self):
+        from rebuild_tei import build
+        imp = """$$$POOL; POND; RESERVOIR
+<entryFree n="POOL; POND; RESERVOIR"><p><ref target="ISBE:POOL">POOL</ref>.</p></entryFree>
+$$$CISTERN; WELL; POOL; AQUEDUCT
+<entryFree n="CISTERN; WELL; POOL; AQUEDUCT"><p>A term.</p></entryFree>"""
+        _, _, report = build(imp)
+        self.assertEqual(report["resolved_primary_alias_occurrences"], 0)
+        self.assertEqual(report["unresolved_link_occurrences"], 1)
+
     def test_missing_stays_missing(self):
         self.assertEqual(resolve_key("LITERATURE", self.ids, self.lookup), (None, "not_found"))
 
