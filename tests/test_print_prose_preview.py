@@ -14,15 +14,15 @@ REDIRECTS=ROOT/"workspace/reviews/redirect-candidate-v1.json"
 PROSE=ROOT/"workspace/reviews/print-prose-candidate-v1.json"
 
 class PrintProsePreviewTests(unittest.TestCase):
-    def test_three_real_historical_articles_and_ten_redirects(self):
+    def test_nine_historical_article_candidates_and_eleven_redirects(self):
         source_hash=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
         with tempfile.TemporaryDirectory() as folder:
             dest=Path(folder)/"candidate.xml"
             report=Path(folder)/"report.json"
             result=apply(SOURCE,REDIRECTS,PROSE,dest,report)
-            self.assertEqual(result["unchanged_articles_verified"],9367)
-            self.assertEqual(result["proposed_historical_text_entries"],3)
-            self.assertEqual(result["proposed_redirects"],10)
+            self.assertEqual(result["unchanged_articles_verified"],9360)
+            self.assertEqual(result["proposed_historical_text_entries"],9)
+            self.assertEqual(result["proposed_redirects"],11)
             self.assertEqual(result["new_xml_ids"],2)
             self.assertFalse(result["publication_permitted"])
             self.assertTrue(result["noncanonical"])
@@ -33,6 +33,10 @@ class PrintProsePreviewTests(unittest.TestCase):
             self.assertIn("(2) A name in the genealogy of Judah", "".join(records["AMNON"].itertext()))
             self.assertIn("whose origin is from the days of the olden time", "".join(records["ANTIQUITY"].itertext()))
             self.assertEqual(len([p for p in records["AMNON"] if p.tag==q("p")]),3)
+            self.assertIn("descendant of Asher", "".join(records["BEERA"].itertext()))
+            self.assertIn("In 1 Esdras 8:2", "".join(records["SAVIAS"].itertext()))
+            self.assertIn("Grandfather of Shallum", "".join(records["HASRAH"].itertext()))
+            self.assertIn("JOSHIBIAH", "".join(records["JOSIBIAH"].itertext()))
 
     def test_rejects_changed_source_lock(self):
         with tempfile.TemporaryDirectory() as folder:
