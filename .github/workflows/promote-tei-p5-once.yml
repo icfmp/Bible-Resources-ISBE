@@ -1,0 +1,110 @@
+name: One-time source-verified TEI P5 adoption into PR branch
+on:
+  push:
+    branches: [feat/adopt-tei-p5-canonical-master]
+    paths:
+      - .github/workflows/promote-tei-p5-once.yml
+permissions:
+  contents: write
+concurrency:
+  group: isbe-verified-rebuild-main
+  cancel-in-progress: false
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild intermediate legacy TEI from preserved IMP, never directly to canonical master
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s workspace/exports/isbe-2.2.imp
+          mkdir -p workspace/tmp/isbe-legacy workspace/candidates/en
+          python3 scripts/rebuild_tei.py \
+            --accepted-aliases workspace/reviews/accepted-title-aliases.json \
+            --input workspace/exports/isbe-2.2.imp \
+            --output workspace/tmp/isbe-legacy/ISBE.xml \
+            --index workspace/tmp/isbe-legacy/article-index.json \
+            --report workspace/tmp/isbe-legacy/tei-reconstruction.json
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          lock = json.loads(Path("workspace/changes/tei-p5-candidate-v1.json").read_text(encoding="utf-8"))
+          path = Path("workspace/tmp/isbe-legacy/ISBE.xml")
+          digest = hashlib.sha256(path.read_bytes()).hexdigest()
+          if digest != lock["source_sha256"]:
+              raise SystemExit("Legacy IMP reconstruction differs from pinned source: " + digest)
+          print("Verified exact faithful source SHA-256:", digest)
+          PY
+      - name: Normalize separately with complete serialized source parity proof
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/normalize_tei_p5.py \
+            --input workspace/tmp/isbe-legacy/ISBE.xml \
+            --index workspace/tmp/isbe-legacy/article-index.json \
+            --manifest workspace/changes/tei-p5-candidate-v1.json \
+            --output workspace/candidates/en/ISBE.xml \
+            --report workspace/reports/tei-p5-candidate-report.json
+          python3 scripts/audit_tei_structure.py workspace/candidates/en/ISBE.xml \
+            --report workspace/reports/tei-structure-inventory.json \
+            --expected-entries 9380 \
+            --strict-profile \
+            --reject-active-broken-links \
+            --reject-non-tei-namespace
+      - name: Enforce official pinned TEI P5 schemas, negative controls, and candidate byte identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jing
+          python3 scripts/validate_official_tei_p5.py \
+            --candidate workspace/candidates/en/ISBE.xml \
+            --manifest workspace/changes/tei-p5-candidate-v1.json \
+            --source-report workspace/reports/tei-p5-candidate-report.json \
+            --output workspace/reports/tei-p5-official-validation.json
+      - name: Recreate source-linked review diagnostics from preserved legacy witness
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/audit_references.py \
+            --index workspace/tmp/isbe-legacy/article-index.json \
+            --report workspace/tmp/isbe-legacy/tei-reconstruction.json \
+            --output workspace/reviews/unresolved-links.json
+          python3 scripts/audit_link_contexts.py \
+            --input workspace/tmp/isbe-legacy/ISBE.xml \
+            --output workspace/reviews/link-contexts.json
+      - name: Promote only the completely validated TEI P5 bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp workspace/candidates/en/ISBE.xml cleaned/en/ISBE.xml
+          cp workspace/tmp/isbe-legacy/article-index.json cleaned/en/article-index.json
+          cp workspace/tmp/isbe-legacy/tei-reconstruction.json workspace/reports/tei-reconstruction.json
+          cmp workspace/candidates/en/ISBE.xml cleaned/en/ISBE.xml
+          python3 scripts/audit_tei_structure.py cleaned/en/ISBE.xml \
+            --report /tmp/isbe-canonical-inventory.json \
+            --expected-entries 9380 \
+            --strict-profile \
+            --reject-active-broken-links \
+            --reject-non-tei-namespace
+          cmp /tmp/isbe-canonical-inventory.json workspace/reports/tei-structure-inventory.json
+      - name: Commit verified master and source-traceable reports only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add cleaned/en/ISBE.xml cleaned/en/article-index.json \
+            workspace/reports/tei-reconstruction.json \
+            workspace/reports/tei-structure-inventory.json \
+            workspace/reports/tei-p5-candidate-report.json \
+            workspace/reports/tei-p5-official-validation.json \
+            workspace/reviews/unresolved-links.json \
+            workspace/reviews/link-contexts.json
+          if git diff --cached --quiet; then
+            echo "Canonical TEI P5 and reports are already in sync"
+            exit 0
+          fi
+          git commit -m 'Rebuild schema-validated canonical ISBE TEI P5'
+          git push origin HEAD:feat/adopt-tei-p5-canonical-master
