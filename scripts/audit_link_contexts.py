@@ -132,6 +132,7 @@ def scan(path):
     records = []
     scripture_candidates = []
     local_section_candidates = []
+    literature_markup = []
     summary = Counter()
     for article in entries:
         article_key = article.get("n")
@@ -173,6 +174,24 @@ def scan(path):
             parent = parents.get(ref)
             while parent is not None and parent.tag.split("}")[-1] not in ("p", "item", "ab"):
                 parent = parents.get(parent)
+            if "literature" in normalized(target):
+                grandparent = parents.get(parent) if parent is not None else None
+                siblings = list(grandparent) if grandparent is not None else []
+                position = next((i for i, x in enumerate(siblings) if x is parent), -1)
+                previous = siblings[position - 1] if position > 0 else None
+                following = siblings[position + 1] if position >= 0 and position + 1 < len(siblings) else None
+                literature_markup.append({
+                    "article": article_key, "original_target": target,
+                    "ref_id": ref.get(XMLID),
+                    "ref_text": "".join(ref.itertext())[:100],
+                    "paragraph_tag": parent.tag.split("}")[-1] if parent is not None else None,
+                    "paragraph_text": " ".join("".join(parent.itertext()).split())[:220] if parent is not None else "",
+                    "paragraph_text_before_ref": (parent.text or "")[:100] if parent is not None else "",
+                    "paragraph_child_tags": [x.tag.split("}")[-1] for x in list(parent)[:8]] if parent is not None else [],
+                    "previous": " ".join("".join(previous.itertext()).split())[:190] if previous is not None else None,
+                    "following": " ".join("".join(following.itertext()).split())[:230] if following is not None else None,
+                    "position": position, "siblings": len(siblings)
+                })
             container_text = "".join(parent.itertext()) if parent is not None else ""
             snippet = " ".join(container_text.split())[:450]
             ambiguous_homonyms = numbered_groups.get(normalized(target), ())
@@ -249,6 +268,7 @@ def scan(path):
             ],
             "exclusive_scripture_numbered_candidates": scripture_candidates,
             "local_section_review": local_section_candidates,
+            "literature_reference_structure": literature_markup,
             "fuzzy_heading_review": [
                 {
                     "target": target,
