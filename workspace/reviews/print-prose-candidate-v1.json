@@ -12,7 +12,7 @@
       "scan_volume": "I",
       "printed_page": null,
       "scan_page": null,
-      "source_status": "searchable_1915_pdf_text_not_image_proofread",
+      "source_status": "1915_print_pdf_searchable_text_provisional",
       "blocks": [
         "a-bis'e-i (AV Abisei): An ancestor of Ezra (2 Esd 1 2) = Abisue (1 Esd 8 2) and Abishua (1 Ch 6 4 ff; Ezr 7 5)."
       ],
@@ -23,7 +23,10 @@
         "a-bis'ē-i (AV Abisei): An ancestor of Ezra (2 Esd 1 2) = Abisue (1 Esd 8 2) and Abishua (1 Ch 6 4 ff; Ezr 7 5)."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "searchable_1915_pdf_text_not_image_proofread",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "AMNON",
@@ -32,7 +35,7 @@
       "scan_volume": "I",
       "printed_page": null,
       "scan_page": null,
-      "source_status": "searchable_1915_pdf_text_not_image_proofread",
+      "source_status": "1915_print_pdf_searchable_text_provisional",
       "blocks": [
         "am′non (אַמְנוֹן, ʾamnōn, “faithful”; cf אַמִינוֹן, ʾāmīnōn, 2 S 13 20, which is probably a diminutive. Wellhausen [IJG, II, 24, n.2] resolves אַמִינוֹן into אֲמִי, ʾimmī, and נוּן, nūn, “my mother is the serpent”; cf NUN):",
         "(1) The eldest son of David and Ahinoam, the Jezreelites (cf 2 S 3 2). As the crown prince and heir presumptive to the throne, he was intensely hated by Absalom, who was, therefore, doubly eager to revenge the outrage committed by Amnon upon his sister Tamar (2 S 3 2; 13 1 ff; 1 Ch 3 1).",
@@ -42,7 +45,10 @@
       "print_image_reviewed": true,
       "approved": false,
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "searchable_1915_pdf_text_not_image_proofread",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "ANTIQUITY",
@@ -51,7 +57,7 @@
       "scan_volume": "I",
       "printed_page": null,
       "scan_page": null,
-      "source_status": "searchable_1915_pdf_text_not_image_proofread",
+      "source_status": "1915_print_pdf_searchable_text_provisional",
       "blocks": [
         "an-tik’wi-ti (קַדְמָה, kadmāh, from קדם, kādham, “to precede in time,” “to be old”): In Ezk 16 55; 36 11, rendered “former”; in Ps 129 6, “before.” Trᵈ “antiquity” only in Isa 23 7 to indicate the primeval age of Tyre, which Strabo terms, “after Sidon,” the oldest Phoen city. Delitzsch renders it “whose origin is from the days of the olden time.”"
       ],
@@ -59,7 +65,10 @@
       "print_image_reviewed": true,
       "approved": false,
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "searchable_1915_pdf_text_not_image_proofread",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "BEERA",
@@ -68,7 +77,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "source_status": "1915_attributed_secondary_transcription_provisional",
       "blocks": [
         "bē-ē'ra, bē'er-a (בְּאֵרָא, be'ērā', \"expounder\"): A descendant of Asher (1 Ch 7 37)."
       ],
@@ -79,7 +88,10 @@
         "be-e'-ra, be'-er-a (be'era', \"expounder\"): A descendant of Asher (1 Chronicles 7:37)."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "ITHLAH",
@@ -88,7 +100,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "source_status": "1915_attributed_secondary_transcription_provisional",
       "blocks": [
         "ith'la (יִתְלָה, yithlāh; AV Jethlah): An unidentified town in the territory of Dan, named with Aijalon and Elon (Josh 19 42)."
       ],
@@ -99,7 +111,10 @@
         "ith'-la (yithlah; the King James Version Jetblah): An unidentified town in the territory of Dan, named with Aijalon and Elon (Joshua 19:42)."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "MANASSITES",
@@ -108,7 +123,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "source_status": "1915_attributed_secondary_transcription_provisional",
       "blocks": [
         "ma-nas'its (מְנַשִּׁי, menashshi; ὁ Μανασσῆ, ho Manassē): Members of the tribe of Manasseh (Dt 4 43; Jgs 12 4 AV; 2 K 10 33)."
       ],
@@ -119,7 +134,10 @@
         "ma-nas'-its (menashshi; ho Manasse): Members of the tribe of Manasseh (Deuteronomy 4:43; Judges 12:4 the King James Version; 2 Kings 10:33)."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "SAVIAS",
@@ -128,7 +146,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "source_status": "1915_attributed_secondary_transcription_provisional",
       "blocks": [
         "sa-vi'as (Σαουΐα, Saouïa): In 1 Esd 8 2, for Uzzi, an ancestor of Ezra, in Ezr 7 4."
       ],
@@ -139,7 +157,10 @@
         "sa-vi'-as (Saouia): In 1 Esdras 8:2, for Uzzi, an ancestor of Ezra, in Ezra 7:4."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "SESIS",
@@ -148,7 +169,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "source_status": "1915_attributed_secondary_transcription_provisional",
       "blocks": [
         "se'sis (B, Σεσεΐς, Seseis, A, Σεσσεΐς, Sesseis): One who put away his foreign wife (1 Esd 9 34) = \"Shashai\" in Ezr 10 40."
       ],
@@ -159,7 +180,10 @@
         "se'-sis (Codex Vaticanus Seseis; Codex Alexandrinus Sesseis): One who put away his foreign wife (1 Esdras 9:34) = \"Shashai\" in Ezra 10:40."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "HASRAH",
@@ -168,7 +192,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "source_status": "1915_attributed_secondary_transcription_provisional",
       "blocks": [
         "haz'-ra, has'-ra (chacrah): Grandfather of Shallum, who was the husband of Huldah the prophetess (2 Chronicles 34:22). In 2 Kings 22:14, HARHAS (which see)."
       ],
@@ -176,7 +200,10 @@
       "print_image_reviewed": true,
       "approved": false,
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "CHORBE",
@@ -185,7 +212,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
         "kôr'bē (Χορβέ, Chorbē; AV Corbe): Head of a family which returned with Zerubbabel (1 Esd 5 12). The name apparently corresponds to Zaccai in Ezr 2 9 and Neh 7 14."
       ],
@@ -196,7 +223,10 @@
         "kor'-be (Chorbe; the King James Version Corbe): Head of a family which returned with Zerubbabel (1 Esdras 5:12). The name apparently corresponds to Zaccai in Ezra 2:9 and Nehemiah 7:14."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "DEHORT",
@@ -205,7 +235,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
         "dē-hôrt' (ἀποστρέφω, apostrépho; RV DISSUADE): Not found in the Eng. Bible; once only in Apoc (1 Macc 9 9). An obsolete Eng. word; the opposite of \"exhort.\" It means \"to dissuade,\" \"to forbid,\" \"to restrain from.\""
       ],
@@ -216,7 +246,10 @@
         "de-hort' (apostrepho; the Revised Version (British and American) DISSUADE): Not found in the English Bible; once only in Apocrypha (1 Macc 9:9). An obsolete English word; the opposite of \"exhort.\" It means \"to dissuade,\" \"to forbid,\" \"to restrain from.\""
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "FROWARDNESS",
@@ -225,7 +258,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
         "fro'-werd-nes: The translation of tahpukhoth the plural of tahpukhah, \"perversity,\" \"foolishness\" (from haphakh, \"to turn about\") in Proverbs 2:14, \"delight in the frowardness of the wicked,\" the American Standard Revised Version \"the perverseness of evil,\" margin \"the evil man\" (compare 2:12; some render \"deceit\"); 6:14 the American Standard Revised Version, \"perverseness\"; 10:32, \"the mouth of the wicked speaketh frowardness,\" the American Standard Revised Version \"speaketh perverseness,\" margin \"is.\""
       ],
@@ -233,7 +266,10 @@
       "print_image_reviewed": true,
       "approved": false,
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "HEMDAN",
@@ -242,7 +278,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
         "hem'dan (חֶמְדָּן, hemdān, \"pleasant\"): A descendant of Seir, the Horite (Gen 36 26). Wrongly trd \"Amram\" by AV in 1 Ch 1 41 (RV \"Hamran\"), where the transcribers made an error in one vowel and one consonant, writing hamrān instead of hemdān."
       ],
@@ -253,7 +289,10 @@
         "hem'-dan (chemdan, \"pleasant\"): A descendant of Seir, the Horite (Genesis 36:26). Wrongly translated \"Amram\" by the King James Version in 1 Chronicles 1:41 (the Revised Version (British and American) \"Hamran\"), where the transcribers made an error in one vowel and one consonant, writing (chamran), instead of (chemdan)."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "MANKIND",
@@ -262,7 +301,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
         "man-kīnd': In Lev 18 22; 20 13, the term is applied to men, as distinguished from women; in Job 12 10, to the human race; in Jas 3 7, to the human nature."
       ],
@@ -273,7 +312,10 @@
         "man-kind': In Leviticus 18:22; 20:13, the term is applied to men, as distinguished from women; in Job 12:10, to the human race; in James 3:7, to the human nature."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "SEPHARVITES",
@@ -282,7 +324,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
         "se'-far-vits, se-far'-vits (cepharwim): In 2 Kings 17:31, the inhabitants of SEPHARVAIM (which see), planted by the king of Assyria in Samaria. They continued there to burn their children to their native gods."
       ],
@@ -293,7 +335,10 @@
         "se'-far-vits, se-far'-vits> (cepharwim): In 2 Kings 17:31, the inhabitants of SEPHARVAIM (which see), planted by the king of Assyria in Samaria. They continued there to burn their children to their native gods."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "SHALLUN",
@@ -302,7 +347,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
         "shal'un (שַׁלּוּן, shallūn, not in LXX): Another form of Shallum, the son of Col-hozeh. He was the ruler of the district of Mizpah. He assisted Nehemiah in building the wall of Jerus and in repairing the gate by the Pool of Siloah at the King's Gardens (Neh 3 15)."
       ],
@@ -313,7 +358,10 @@
         "shal'-un (shallun, not in the Septuagint): Another form of Shallum, the son of Col-hozeh. He was the ruler of the district of Mizpah. He assisted Nehemiah in building the wall of Jerusalem and in repairing the gate by the Pool of Siloah at the King's Gardens (Nehemiah 3:15)."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "SYCHEM",
@@ -322,7 +370,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
         "si'kem (Συχέμ, Suchém): In this form the name of Shechem appears in Acts 7 16 AV, in the report of Stephen's speech. AV is a transcription from the Gr; RV in accordance with its practice, to give uniformity in the Eng., follows the Heb form of the name given in the OT."
       ],
@@ -333,7 +381,10 @@
         "si'-kem (Suchem): In this form the name of Shechem appears in Acts 7:16 the King James Version, in the report of Stephen's speech. the King James Version is a transcription from the Greek; the Revised Version (British and American) in accordance with its practice, to give uniformity in the English, follows the Hebrew form of the name given in the Old Testament."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "TEPHON",
@@ -342,7 +393,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
         "tē'fon (ἡ Τεφώ, hē Tephō): In 1 Macc 9 50, a city of Judaea fortified by Bacchides, probably the \"Beth-tappuah\" of Josh 15 53, near Hebron. Jos (Ant, XII, i, 3) calls it \"Tochoa.\""
       ],
@@ -353,7 +404,10 @@
         "te'-fon (he Tepho): In 1 Macc 9:50, a city of Judea fortified by Bacchides, probably the \"Beth-tappuah\" of Joshua 15:53, near Hebron. Josephus (Ant., XII, i, 3) calls it \"Tochoa.\""
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "THOCANUS",
@@ -362,7 +416,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
         "thô-kă'nus (Θόκανος, Thókanos, Θώκανος, Thōkanos; AV Theocanus): The father of Ezekias, who with Jonathan \"took the matter upon them\" in the proceedings under Ezra against foreign wives (1 Esd 9 14) = \"Tikvah\" in Ezr 10 15."
       ],
@@ -373,7 +427,10 @@
         "tho-ka'-nus (Thokanos, Thokanos; the King James Version Theocanus): The father of Ezekias, who with Jonathan \"took the matter upon them\" in the proceedings under Ezra against foreign wives (1 Esdras 9:14) = \"Tikvah\" in Ezra 10:15."
       ],
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     },
     {
       "source_key": "THOMEI",
@@ -382,7 +439,7 @@
       "scan_volume": null,
       "printed_page": null,
       "scan_page": null,
-      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
         "thom'-e-i (Codex Alexandrinus Thomei; Fritzsche Thomoi; Codex Vaticanus and Swete Thomthei; the King James Version, Thomoi): A family name of temple-servants who returned with Zerubbabel (1 Esdras 5:32) = \"Temah\" in Ezra 2:53; Nehemiah 7:55."
       ],
@@ -390,7 +447,10 @@
       "print_image_reviewed": true,
       "approved": false,
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
+      "full_transcription_review": "pending_character_level_1915_fidelity_review"
     }
   ],
   "research_checkpoint": "Original 1915 print page images inspected for all 20 substantive article source gaps and all 11 redirects. Seven newly re-collated provisional paragraph texts with original historical abbreviations and foreign scripts, still subject to technical specialist proofing. No canonical adoption."
