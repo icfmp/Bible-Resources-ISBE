@@ -21,7 +21,7 @@ class LocalHeadingTests(unittest.TestCase):
         self.assertEqual(report["unresolved_link_occurrences"], 0)
 
     def test_standalone_marked_paragraph_heading(self):
-        imp = """$$EDUCATION
+        imp = """$$$EDUCATION
 <entryFree n="EDUCATION"><p><ref target="ISBE:I. EDUCATION DEFINED">I. EDUCATION DEFINED</ref></p><p><hi rend="bold">I. Education Defined.</hi></p><p>Teaching follows.</p></entryFree>"""
         root, _, report = build(imp)
         article = root.find(".//{http://www.tei-c.org/ns/1.0}div[@type='entry']")
@@ -31,7 +31,7 @@ class LocalHeadingTests(unittest.TestCase):
         self.assertEqual(report["resolved_local_section_occurrences"], 1)
 
     def test_plain_standalone_section_title(self):
-        imp = """$$ANTHROPOMORPHISM
+        imp = """$$$ANTHROPOMORPHISM
 <entryFree n="ANTHROPOMORPHISM"><p><ref target="ISBE:1. DEFINITION OF THE TERM">1. DEFINITION OF THE TERM</ref></p><p>1. Definition of the Term</p><p>Discussion follows.</p></entryFree>"""
         root, _, report = build(imp)
         article = root.find(".//{http://www.tei-c.org/ns/1.0}div[@type='entry']")
@@ -41,7 +41,7 @@ class LocalHeadingTests(unittest.TestCase):
         self.assertEqual(report["resolved_local_section_occurrences"], 1)
 
     def test_no_guess_for_repeated_plain_section_title(self):
-        imp = """$$ARTICLE
+        imp = """$$$ARTICLE
 <entryFree n="ARTICLE"><p><ref target="ISBE:LITERATURE">Literature</ref></p><p>Literature</p><p>Literature</p></entryFree>"""
         _, _, report = build(imp)
         self.assertEqual(report["unresolved_link_occurrences"], 1)
