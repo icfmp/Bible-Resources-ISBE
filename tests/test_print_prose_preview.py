@@ -14,14 +14,14 @@ REDIRECTS=ROOT/"workspace/reviews/redirect-candidate-v1.json"
 PROSE=ROOT/"workspace/reviews/print-prose-candidate-v1.json"
 
 class PrintProsePreviewTests(unittest.TestCase):
-    def test_nine_historical_article_candidates_and_eleven_redirects(self):
+    def test_all_twenty_historical_article_candidates_and_eleven_redirects(self):
         source_hash=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
         with tempfile.TemporaryDirectory() as folder:
             dest=Path(folder)/"candidate.xml"
             report=Path(folder)/"report.json"
             result=apply(SOURCE,REDIRECTS,PROSE,dest,report)
-            self.assertEqual(result["unchanged_articles_verified"],9360)
-            self.assertEqual(result["proposed_historical_text_entries"],9)
+            self.assertEqual(result["unchanged_articles_verified"],9349)
+            self.assertEqual(result["proposed_historical_text_entries"],20)
             self.assertEqual(result["proposed_redirects"],11)
             self.assertEqual(result["new_xml_ids"],2)
             self.assertFalse(result["publication_permitted"])
@@ -37,6 +37,13 @@ class PrintProsePreviewTests(unittest.TestCase):
             self.assertIn("In 1 Esdras 8:2", "".join(records["SAVIAS"].itertext()))
             self.assertIn("Grandfather of Shallum", "".join(records["HASRAH"].itertext()))
             self.assertIn("jos-i-bi\'-a. See JOSHIBIAH.", "".join(records["JOSIBIAH"].itertext()))
+            for key in ("CHORBE", "DEHORT", "FROWARDNESS", "HEMDAN",
+                        "MANKIND", "SEPHARVITES", "SHALLUN", "SYCHEM",
+                        "TEPHON", "THOCANUS", "THOMEI"):
+                with self.subTest(entry=key):
+                    self.assertTrue("".join(records[key].itertext()).strip())
+            self.assertIn("se-far'-vits>", "".join(records["SEPHARVITES"].itertext()))
+            self.assertIn('margin "is."', "".join(records["FROWARDNESS"].itertext()))
 
     def test_boilerplate_is_rejected_without_modifying_canonical_source(self):
         original=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
