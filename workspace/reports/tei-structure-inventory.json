@@ -1,0 +1,123 @@
+{
+  "source_xml_sha256": "98b07b64019601a8ad1eb13feff5b336c870fd80adfecd670bd9b7e3be7b8575",
+  "schema_validation": "NOT_PERFORMED",
+  "entry_count": 9380,
+  "unique_xml_ids": 185657,
+  "duplicate_xml_ids": [],
+  "elements_by_local_name": {
+    "ref": 99068,
+    "p": 66450,
+    "head": 9407,
+    "div": 9380,
+    "hi": 1205,
+    "seg": 144,
+    "lb": 3
+  },
+  "elements_by_namespace": {
+    "http://www.tei-c.org/ns/1.0": 185657
+  },
+  "attributes_by_element": {
+    "div": {
+      "type": 9380,
+      "n": 9380
+    },
+    "head": {
+      "type": 27
+    },
+    "hi": {
+      "rend": 1205,
+      "n": 29
+    },
+    "lb": {},
+    "p": {
+      "type": 2
+    },
+    "ref": {
+      "osisRef": 93162,
+      "target": 5906,
+      "n": 5906
+    },
+    "seg": {
+      "type": 144,
+      "subtype": 144,
+      "n": 144
+    }
+  },
+  "inline_rendering_values": {
+    "bold": 450,
+    "underline": 370,
+    "italic": 356,
+    "bibliography-heading": 29
+  },
+  "parent_child_pairs": {
+    "p > ref": 99068,
+    "div > p": 66450,
+    "div > head": 9407,
+    "p > hi": 1178,
+    "p > seg": 144,
+    "head > hi": 27,
+    "p > lb": 3
+  },
+  "paragraph_direct_children": {
+    "ref": 99068,
+    "hi": 1178,
+    "seg": 144,
+    "lb": 3
+  },
+  "link_classes": {
+    "source_osisRef": 93162,
+    "internal_target": 5906,
+    "inert_original_isbe_reference": 144
+  },
+  "notes_and_bibliography_tags": {},
+  "empty_paragraph_count": 31,
+  "dual_target_reference_count": 0,
+  "article_structure_summary": {
+    "first=head": 9380
+  },
+  "example_article_keys_by_element": {
+    "div": [],
+    "head": [
+      "ECCLESIASTES, THE PREACHER",
+      "EDEN",
+      "EGYPT",
+      "ELAM; ELAMITES",
+      "ELDER IN THE OLD TESTAMENT"
+    ],
+    "p": [
+      "A",
+      "AALAR",
+      "AARON",
+      "AARON",
+      "AARON"
+    ],
+    "ref": [
+      "A",
+      "A",
+      "AALAR",
+      "AARON",
+      "AARON"
+    ],
+    "hi": [
+      "AARON",
+      "AARON",
+      "AARON",
+      "AARON",
+      "AARON"
+    ],
+    "seg": [
+      "ABSTINENCE",
+      "ACCARON",
+      "ADAM IN THE OLD TESTAMENT AND THE APOCRYPHA",
+      "ADAM, BOOKS OF",
+      "ADONAI"
+    ],
+    "lb": [
+      "APOCRYPHAL ACTS",
+      "BIBLE, THE",
+      "BIBLE, THE"
+    ]
+  },
+  "unqualified_element_examples": [],
+  "structural_anomaly_examples": {}
+}
