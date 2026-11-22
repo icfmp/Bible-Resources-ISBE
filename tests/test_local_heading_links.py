@@ -20,6 +20,16 @@ class LocalHeadingTests(unittest.TestCase):
         self.assertEqual(report["resolved_local_section_occurrences"], 1)
         self.assertEqual(report["unresolved_link_occurrences"], 0)
 
+    def test_standalone_marked_paragraph_heading(self):
+        imp = """$$EDUCATION
+<entryFree n="EDUCATION"><p><ref target="ISBE:I. EDUCATION DEFINED">I. EDUCATION DEFINED</ref></p><p><hi rend="bold">I. Education Defined.</hi></p><p>Teaching follows.</p></entryFree>"""
+        root, _, report = build(imp)
+        article = root.find(".//{http://www.tei-c.org/ns/1.0}div[@type='entry']")
+        title = next(x for x in article.iter() if x.tag == "hi")
+        ref = next(x for x in article.iter() if x.tag == "ref")
+        self.assertEqual(ref.get("target"), "#" + title.get(XMLID))
+        self.assertEqual(report["resolved_local_section_occurrences"], 1)
+
     def test_ambiguous_repeated_local_heading_remains_unresolved(self):
         imp = """$$$ARTICLE
 <entryFree n="ARTICLE"><p><hi rend="underline">Literature:</hi> A</p><p><hi rend="underline">Literature:</hi> B</p><p><ref target="ISBE:LITERATURE">Here</ref></p></entryFree>"""
