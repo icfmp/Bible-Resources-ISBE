@@ -6,6 +6,7 @@ The result is a contextual diagnostic, never a source-text correction.
 import argparse
 from collections import Counter
 import json
+import unicodedata
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -17,6 +18,12 @@ REF = f"{{{TEI}}}ref"
 
 def normalized(s):
     return " ".join(s.split()).strip().casefold()
+
+
+def folded_letters(text):
+    """Search candidate keys ignoring ONLY separators; never auto-approve."""
+    text = unicodedata.normalize("NFKC", text).casefold()
+    return "".join(c for c in text if c.isalnum())
 
 
 def classify_candidate(target, visible, known_keys):
@@ -36,6 +43,10 @@ def scan(path):
     for a in entries:
         k = a.get("n")
         known.setdefault(normalized(k), []).append(k)
+    lexical_index = {}
+    for a in entries:
+        key = a.get("n")
+        lexical_index.setdefault(folded_letters(key), []).append(key)
     records = []
     summary = Counter()
     for article in entries:
@@ -53,7 +64,15 @@ def scan(path):
                 parent = parents.get(parent)
             container_text = "".join(parent.itertext()) if parent is not None else ""
             snippet = " ".join(container_text.split())[:450]
-            kind = "visible_exact_index_candidate" if candidate else "requires_review"
+            target_matches = lexical_index.get(folded_letters(target), [])
+            if candidate:
+                kind = "visible_exact_index_candidate"
+            elif len(target_matches) == 1:
+                kind = "unique_separator_variant_candidate"
+            elif len(target_matches) > 1:
+                kind = "ambiguous_separator_variant"
+            else:
+                kind = "requires_review"
             summary[kind] += 1
             records.append({
                 "article_key": article_key,
@@ -61,6 +80,7 @@ def scan(path):
                 "original_target": target,
                 "displayed_text": visible,
                 "candidate_key": candidate,
+                "lexical_candidates": target_matches[:20],
                 "kind": kind,
                 "context": snippet,
             })
