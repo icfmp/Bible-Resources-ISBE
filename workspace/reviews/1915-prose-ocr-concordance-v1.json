@@ -416,5 +416,9 @@
       "original_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
       "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540751"
     }
-  ]
+  ],
+  "canonical_source_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "candidate_file_git_blob_sha1": "ed1e35bc3450168e9d052e27d0bd33ed0c1fc918",
+  "visual_page_evidence_git_blob_sha1": "d8770215fb1e7728313a5f546aa8161ac1a5ab38",
+  "reproducibility_note": "The candidate and primary-page evidence blob IDs bind this OCR comparison to exact reviewed inputs. Regenerate against all five SHA-pinned original PDFs whenever either blob changes."
 }
