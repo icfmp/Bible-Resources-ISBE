@@ -45,7 +45,7 @@ class PrintProsePreviewTests(unittest.TestCase):
             self.assertIn("whose origin is from the days of the olden time", "".join(records["ANTIQUITY"].itertext()))
             self.assertEqual(len([p for p in records["AMNON"] if p.tag==q("p")]),3)
             self.assertIn("descendant of Asher", "".join(records["BEERA"].itertext()))
-            self.assertIn("In 1 Esdras 8:2", "".join(records["SAVIAS"].itertext()))
+            self.assertIn("In 1 Esd 8 2", "".join(records["SAVIAS"].itertext()))
             self.assertIn("AV Jethlah", "".join(records["ITHLAH"].itertext()))
             self.assertIn("ἀποστρέφω", "".join(records["DEHORT"].itertext()))
             self.assertIn("ἡ Τεφώ", "".join(records["TEPHON"].itertext()))
