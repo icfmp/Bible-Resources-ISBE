@@ -1,0 +1,52 @@
+import sys
+import unittest
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+from rebuild_tei import build, XMLID
+
+
+CORPUS = """$$$GEMATRIA
+<entryFree n="GEMATRIA"><p>See <ref target="ISBE:NUMBERS">NUMBERS</ref> for numeric symbolism.</p></entryFree>
+$$$NUMBERS, BOOK OF
+<entryFree n="NUMBERS, BOOK OF"><p>Israel's wanderings.</p></entryFree>
+$$$NUMBER, LINGUISTICS
+<entryFree n="NUMBER, LINGUISTICS"><p>A different topic.</p></entryFree>"""
+
+
+def original_ref():
+    root, _, _ = build(CORPUS)
+    source = next(x for x in root.iter() if x.tag.endswith("div") and x.get("n") == "GEMATRIA")
+    return next(x.get(XMLID) for x in source.iter() if x.get("target") == "ISBE:NUMBERS")
+
+
+class ReviewedOccurrenceTests(unittest.TestCase):
+    def decision(self):
+        return {"source_article": "GEMATRIA", "ref_id": original_ref(),
+                "original_target": "NUMBERS", "destination_article": "NUMBERS, BOOK OF",
+                "basis": "Explicitly reviewed contextual evidence from the source article and index."}
+
+    def test_occurrence_override_preserves_original_reference(self):
+        root, _, report = build(CORPUS, occurrence_mappings=[self.decision()])
+        source = next(x for x in root.iter() if x.tag.endswith("div") and x.get("n") == "GEMATRIA")
+        target = next(x for x in root.iter() if x.tag.endswith("div") and x.get("n") == "NUMBERS, BOOK OF")
+        ref = next(x for x in source.iter() if x.get("n") == "ISBE:NUMBERS")
+        self.assertEqual(ref.get("target"), "#" + target.get(XMLID))
+        self.assertEqual(report["resolved_reviewed_occurrence_count"], 1)
+        self.assertEqual(report["unresolved_link_occurrences"], 0)
+
+    def test_source_target_change_fails_loudly(self):
+        row = self.decision()
+        row["original_target"] = "CHANGED"
+        with self.assertRaisesRegex(ValueError, "source target changed"):
+            build(CORPUS, occurrence_mappings=[row])
+
+    def test_destination_must_exist(self):
+        row = self.decision()
+        row["destination_article"] = "NOT-IN-INDEX"
+        with self.assertRaisesRegex(ValueError, "Unknown article"):
+            build(CORPUS, occurrence_mappings=[row])
+
+
+if __name__ == "__main__":
+    unittest.main()
