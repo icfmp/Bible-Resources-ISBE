@@ -158,13 +158,22 @@ def main():
         raise ValueError(f"Entry count differs from expected: {report['source_entries']}")
     for path in (args.output, args.index, args.report):
         path.parent.mkdir(parents=True, exist_ok=True)
-    ET.indent(root, space="  ")
     ET.ElementTree(root).write(args.output, encoding="utf-8", xml_declaration=True)
     # Validate serialized output too, not just in-memory XML.
     round_trip = ET.parse(args.output)
-    entry_count = len(round_trip.findall(f".//{{{TEI}}}div[@type='entry']"))
-    if entry_count != len(index):
+    articles = round_trip.findall(f".//{{{TEI}}}div[@type='entry']")
+    if len(articles) != len(index):
         raise ValueError("Serialized TEI article count differs from input")
+    for article, item in zip(articles, index):
+        children = list(article)
+        if not children or children[0].tag != f"{{{TEI}}}head":
+            raise ValueError("Serialized TEI article missing heading")
+        # Content includes the heading tail but not the synthetic heading text.
+        source_text = (children[0].tail or "") + "".join(
+            "".join(ch.itertext()) for ch in children[1:])
+        actual_hash = hashlib.sha256(source_text.encode("utf-8")).hexdigest()
+        if actual_hash != item["text_sha256"]:
+            raise ValueError(f"Serialized TEI changed article text: {item['key']}")
     args.index.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(report, ensure_ascii=False, indent=2))
