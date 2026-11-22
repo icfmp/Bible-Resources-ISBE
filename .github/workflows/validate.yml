@@ -11,3 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run unit tests
         run: python3 -m unittest discover -s tests -v
+      - name: Check corpus coverage, TEI namespace and internal links
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/audit_tei_structure.py cleaned/en/ISBE.xml \
+            --report /tmp/isbe-tei-structure.json \
+            --expected-entries 9380 \
+            --reject-active-broken-links \
+            --reject-non-tei-namespace
+          # Migration findings are a tracked target-profile backlog and not
+          # proof of an official TEI P5 schema validation.
