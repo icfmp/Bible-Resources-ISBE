@@ -4316,6 +4316,15 @@
       "basis": "ISRAEL redirects to the patriarch Jacob; JACOB (1) is the primary biographical article, while JACOB (2) is the collective name list."
     },
     {
+      "source_article": "ISRAEL, RELIGION OF",
+      "ref_id": "isbe-3b145575b85a01a7ca9c-n000215",
+      "original": "LITERATURE",
+      "destination_article": "APOCALYPTIC LITERATURE",
+      "destination_id": "isbe-f0b38afc0d791bd97559",
+      "destination_precision": "reviewed",
+      "basis": "The original paragraph explicitly names APOCALYPTIC LITERATURE (which see); the CrossWire link selected only the trailing word LITERATURE. It is not an internal bibliography heading."
+    },
+    {
       "source_article": "ISSACHAR",
       "ref_id": "isbe-ecd1e176619bcdbf2e73-n000015",
       "original": "NUMBERS",
@@ -4595,6 +4604,15 @@
       "basis": "OSHEA/Hoshea is the personal name of Joshua son of Nun, the subject of JOSHUA (2)."
     },
     {
+      "source_article": "PENTECOST",
+      "ref_id": "isbe-467f206b8e2413deae8a-n000043",
+      "original": "TONGUES",
+      "destination_article": "TONGUES, GIFT OF",
+      "destination_id": "isbe-69b25470dc0ee11e5242",
+      "destination_precision": "reviewed",
+      "basis": "PENTECOST discusses the spiritual phenomenon of speaking in tongues after the resurrection and directs to its separate article; the indexed gift-of-tongues article is the specific subject."
+    },
+    {
       "source_article": "PILLAR OF SALT",
       "ref_id": "isbe-cd049c63cd9f6b1379eb-n000005",
       "original": "LOT",
@@ -4847,6 +4865,15 @@
       "basis": "SINNER explicitly concerns human moral transgression, matching SIN (1)."
     },
     {
+      "source_article": "SIRACH, BOOK OF",
+      "ref_id": "isbe-0d2a424d93e75e31fb63-n000043",
+      "original": "LITERATURE",
+      "destination_article": "WISDOM LITERATURE",
+      "destination_id": "isbe-25109d3db0728ab6feb8",
+      "destination_precision": "reviewed",
+      "basis": "The paragraph relates Sirach to Wisdom literature and explicitly says see WISDOM LITERATURE; the original CrossWire link selected only the word LITERATURE, not the article's bibliography."
+    },
+    {
       "source_article": "SOUTH RAMOTH",
       "ref_id": "isbe-dfccd1dce51b0a8ba231-n000004",
       "original": "RAMOTH",
@@ -5018,7 +5045,7 @@
       "basis": "ZIPHITES are inhabitants of the town of Ziph in Judah, described in ZIPH (1); ZIPH (2) lists persons bearing that name."
     }
   ],
-  "resolved_reviewed_occurrence_count": 160,
+  "resolved_reviewed_occurrence_count": 163,
   "imprecise_article_fallback_count": 6,
   "unresolved_link_diagnostics": [
     {
@@ -5459,7 +5486,7 @@
     {
       "original": "LITERATURE",
       "reason": "not_found",
-      "occurrences": 5
+      "occurrences": 3
     },
     {
       "original": "LITERATURE.",
@@ -5657,11 +5684,6 @@
       "occurrences": 1
     },
     {
-      "original": "TONGUES",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "TUNIC",
       "reason": "not_found",
       "occurrences": 1
@@ -5737,7 +5759,7 @@
     "EUEDORACHOS": 1,
     "AMEMPSINOS": 1,
     "OTIARTES": 1,
-    "LITERATURE": 5,
+    "LITERATURE": 3,
     "CORINTHIANS": 1,
     "TAPPUAH": 1,
     "AR": 2,
@@ -5841,7 +5863,6 @@
     "SAQQAREH": 1,
     "NAMES": 1,
     "LOT": 1,
-    "TONGUES": 1,
     "PERAZIM": 1,
     "PERSON": 1,
     "PHILIP": 1,
@@ -5852,9 +5873,9 @@
     "ALTAR OF BURNT OFFERING": 1,
     "REBELLION": 1
   },
-  "unresolved_link_occurrences": 155,
+  "unresolved_link_occurrences": 152,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5895,
+  "resolved_internal_links_validated": 5898,
   "xml_id_uniqueness": "validated",
   "reviewed_title_alias_count": 85,
   "reviewed_title_aliases_used": [

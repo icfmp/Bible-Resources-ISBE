@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 155,
-  "unresolved_distinct_targets": 138,
+  "unresolved_occurrences": 152,
+  "unresolved_distinct_targets": 137,
   "categories_by_occurrence": {
-    "article_section_label": 15,
+    "article_section_label": 13,
     "multiple_numbered_entries": 7,
-    "unmatched_heading_or_alias": 133
+    "unmatched_heading_or_alias": 132
   },
   "review_queue": [
     {
@@ -630,7 +630,7 @@
     },
     {
       "source_target": "LITERATURE",
-      "occurrences": 5,
+      "occurrences": 3,
       "category": "article_section_label",
       "review_candidates": [],
       "status": "needs_review"
@@ -913,13 +913,6 @@
     },
     {
       "source_target": "TO",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "TONGUES",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],

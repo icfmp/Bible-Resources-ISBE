@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 155,
+  "total_unresolved_occurrences": 152,
   "category_counts": {
-    "requires_review": 155
+    "requires_review": 152
   },
   "unresolved_numbered_homonyms": [
     {
@@ -304,46 +304,6 @@
       "ref_id": "isbe-06356179aaf9496639ab-n000020",
       "candidate_paragraphs": [],
       "candidates_total": 0
-    },
-    {
-      "article": "ISRAEL, RELIGION OF",
-      "target": "LITERATURE",
-      "ref_id": "isbe-3b145575b85a01a7ca9c-n000215",
-      "candidate_paragraphs": [
-        {
-          "paragraph_id": "isbe-3b145575b85a01a7ca9c-n000048",
-          "leading_text": "LITERATURE",
-          "paragraph_preview": "LITERATURE",
-          "child_tags": []
-        },
-        {
-          "paragraph_id": "isbe-3b145575b85a01a7ca9c-n000222",
-          "leading_text": "LITERATURE.",
-          "paragraph_preview": "LITERATURE.",
-          "child_tags": []
-        }
-      ],
-      "candidates_total": 2
-    },
-    {
-      "article": "SIRACH, BOOK OF",
-      "target": "LITERATURE",
-      "ref_id": "isbe-0d2a424d93e75e31fb63-n000043",
-      "candidate_paragraphs": [
-        {
-          "paragraph_id": "isbe-0d2a424d93e75e31fb63-n000028",
-          "leading_text": "LITERATURE",
-          "paragraph_preview": "LITERATURE",
-          "child_tags": []
-        },
-        {
-          "paragraph_id": "isbe-0d2a424d93e75e31fb63-n000161",
-          "leading_text": "LITERATURE.",
-          "paragraph_preview": "LITERATURE.",
-          "child_tags": []
-        }
-      ],
-      "candidates_total": 2
     }
   ],
   "literature_reference_structure": [
@@ -496,38 +456,6 @@
       "following": "Ludolf, Historia Aethiopica, 1681; id, Commentarius ad suam historiam Aethiopicam, 1691; Dillmann, Grammatik der athiopischen Sprache (translated into English by Crichton) 1907, Intro; Littmann, Geschichte der athiopischen Littera",
       "position": 16,
       "siblings": 19
-    },
-    {
-      "article": "ISRAEL, RELIGION OF",
-      "original_target": "LITERATURE",
-      "ref_id": "isbe-3b145575b85a01a7ca9c-n000215",
-      "ref_text": "LITERATURE",
-      "paragraph_tag": "p",
-      "paragraph_text": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finally, the APOCALYPTIC LITERATURE (which see). Since the days of the Maccabees we find the custom in certain Jewish circles,",
-      "paragraph_text_before_ref": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finall",
-      "paragraph_child_tags": [
-        "ref"
-      ],
-      "previous": "(6) Apocalyptic Literature.",
-      "following": "III. Conclusion: Characteristic Features of the Religion of Israel.",
-      "position": 137,
-      "siblings": 147
-    },
-    {
-      "article": "SIRACH, BOOK OF",
-      "original_target": "LITERATURE",
-      "ref_id": "isbe-0d2a424d93e75e31fb63-n000043",
-      "ref_text": "LITERATURE",
-      "paragraph_tag": "p",
-      "paragraph_text": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom school of Palestinian Judaism about 200 BC, though there is not a word in the book about a Messianic hope or the settin",
-      "paragraph_text_before_ref": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom",
-      "paragraph_child_tags": [
-        "ref"
-      ],
-      "previous": "IV. Teaching.",
-      "following": "1. Religion:",
-      "position": 37,
-      "siblings": 150
     }
   ],
   "fuzzy_heading_review": [
@@ -1433,7 +1361,7 @@
     },
     {
       "target": "LITERATURE",
-      "occurrences": 5,
+      "occurrences": 3,
       "candidates": [
         {
           "title": "WISDOM LITERATURE",
@@ -1868,24 +1796,6 @@
       ]
     },
     {
-      "target": "TONGUES",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "TONGUE",
-          "ratio": 0.923
-        },
-        {
-          "title": "TONGS",
-          "ratio": 0.833
-        },
-        {
-          "title": "ONUS",
-          "ratio": 0.727
-        }
-      ]
-    },
-    {
       "target": "TUNIC",
       "occurrences": 1,
       "candidates": [
@@ -2094,7 +2004,7 @@
     },
     {
       "target": "LITERATURE",
-      "occurrences": 5,
+      "occurrences": 3,
       "title_candidates": [
         "LITERATURE, SUB-APOSTOLIC"
       ]
@@ -2205,16 +2115,6 @@
         "TAPPUAH (1)",
         "TAPPUAH (2)"
       ]
-    },
-    {
-      "target": "TONGUES",
-      "occurrences": 1,
-      "title_candidates": [
-        "TONGUES OF FIRE",
-        "TONGUES, CONFUSION OF",
-        "TONGUES, GIFT OF",
-        "TONGUES, INTERPRETATION, OF"
-      ]
     }
   ],
   "inverted_definite_article_review": [],
@@ -2280,12 +2180,6 @@
       "context": "See BAPTISM."
     },
     {
-      "article_key": "ISRAEL, RELIGION OF",
-      "original_target": "LITERATURE",
-      "candidate": "LITERATURE, SUB-APOSTOLIC",
-      "context": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finally, the APOCALYPTIC LITERATURE (which see). Since the days of the Maccabees we find the custom in cer"
-    },
-    {
       "article_key": "LAW IN THE NEW TESTAMENT",
       "original_target": "PUNISHMENT",
       "candidate": "PUNISHMENT, EVERLASTING",
@@ -2326,12 +2220,6 @@
       "original_target": "PROPHET",
       "candidate": "PROPHET, THE OLD",
       "context": "See PROPHET; PROPHECY."
-    },
-    {
-      "article_key": "SIRACH, BOOK OF",
-      "original_target": "LITERATURE",
-      "candidate": "LITERATURE, SUB-APOSTOLIC",
-      "context": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom school of Palestinian Judaism about 200 BC, though there is not a word in the book about a Messiani"
     },
     {
       "article_key": "WASH; WASHING",
@@ -4079,21 +3967,6 @@
       "context": "In PRAYERS OF CHRIST (which see), the intercessory character of many of our Lord's prayers, and especially that of Joh 17, is considered. And it has been impossible for Christian thought to divest itself of the idea that the heavenly intercession of Christ is of the order of prayer. It is impossible for us to know; and even if Christ now prays to the Father, it can be in no way analogous to earthly prayers. The thought of some portion of Christen"
     },
     {
-      "article_key": "ISRAEL, RELIGION OF",
-      "ref_id": "isbe-3b145575b85a01a7ca9c-n000215",
-      "original_target": "LITERATURE",
-      "displayed_text": "LITERATURE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "LITERATURE, SUB-APOSTOLIC"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finally, the APOCALYPTIC LITERATURE (which see). Since the days of the Maccabees we find the custom in certain Jewish circles, by using the old prophecies and adapting them to the events of the times, of drawing up a systematic picture of the future. The authorship of these writings was usually ascribed to one of the ancient saints, e.g. to Enoch, or Abr"
-    },
-    {
       "article_key": "JAREB",
       "ref_id": "isbe-834f669fe3cdf2f37367-n000016",
       "original_target": "ICC",
@@ -4240,23 +4113,6 @@
       "context": "See LOT."
     },
     {
-      "article_key": "PENTECOST",
-      "ref_id": "isbe-467f206b8e2413deae8a-n000043",
-      "original_target": "TONGUES",
-      "displayed_text": "TONGUES",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "TONGUES, CONFUSION OF",
-        "TONGUES, GIFT OF",
-        "TONGUES, INTERPRETATION, OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "The occurrences of the first pentecostal day after the resurrection of Christ set it apart as a Christian festival and invested it, together with the commemoration of the resurrection, with a new meaning. We will not enter here upon a discussion of the significance of the events of the pentecostal day described in Ac 2. That is discussed in the article under TONGUES (which see). The Lutherans, in their endeavor to prove the inherent power of the "
-    },
-    {
       "article_key": "PERAZIM, MOUNT",
       "ref_id": "isbe-295ffd2cfd7733c3ade8-n000005",
       "original_target": "PERAZIM",
@@ -4387,21 +4243,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "To the Southeast of Warka and Senqara lies the site of the ancient UR OF THE CHALDEES (which see) now Mugheir. It was renowned for its temple to the moon, and for the kings known as the dynasty of Ur: Sur-Engur, Dungi, Bur-Sin, Gimil-Sin, and Ibi-Sin."
-    },
-    {
-      "article_key": "SIRACH, BOOK OF",
-      "ref_id": "isbe-0d2a424d93e75e31fb63-n000043",
-      "original_target": "LITERATURE",
-      "displayed_text": "LITERATURE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "LITERATURE, SUB-APOSTOLIC"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom school of Palestinian Judaism about 200 BC, though there is not a word in the book about a Messianic hope or the setting up of a Messianic kingdom. None of the views characteristic of Alexandrian Judaism and absent from the teaching of Palestinian Judaism are to be found in this book, though some of them at least are represented in Wisdom (see WIS"
     },
     {
       "article_key": "SOJOURNER",
