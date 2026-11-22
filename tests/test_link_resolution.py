@@ -99,6 +99,24 @@ $$$CREED; CREEDS
         self.assertEqual(resolve_key("EVE", ids, normalized, inversions=inversions),
                          (None, "not_found"))
 
+    def test_explicit_approved_title_alias(self):
+        from rebuild_tei import build
+        imp = """$$$BOND
+<entryFree n="BOND"><p>See <ref target="ISBE:BILL">BILL</ref>.</p></entryFree>
+$$$BILL, BOND, ETC.
+<entryFree n="BILL, BOND, ETC."><p>A written bond.</p></entryFree>"""
+        root, _, report = build(imp, reviewed={"BILL": "BILL, BOND, ETC."})
+        bond = next(x for x in root.iter() if x.tag.endswith("div") and x.get("n") == "BOND")
+        ref = next(x for x in bond.iter() if x.get("n") == "ISBE:BILL")
+        self.assertTrue(ref.get("target").startswith("#isbe-"))
+        self.assertEqual(report["resolved_variant_occurrences"], 1)
+
+    def test_reviewed_title_alias_cannot_invent_missing_entry(self):
+        from rebuild_tei import build
+        with self.assertRaisesRegex(ValueError, "Unknown reviewed alias destination"):
+            build('$$$SOURCE\\n<entryFree n="SOURCE"><p>Text.</p></entryFree>',
+                  reviewed={"MISSING": "NOT AN ARTICLE"})
+
     def test_missing_stays_missing(self):
         self.assertEqual(resolve_key("LITERATURE", self.ids, self.lookup), (None, "not_found"))
 
