@@ -47,23 +47,47 @@ def analyze(path):
     notes_by_tag = Counter()
     unqualified_examples = []
     suspicious = defaultdict(list)
+    profile_counts = Counter()
+    profile_examples = defaultdict(list)
+    def flag(code, key):
+        profile_counts[code] += 1
+        if len(profile_examples[code]) < 8:
+            profile_examples[code].append(key)
+    if root.get("{http://www.w3.org/XML/1998/namespace}lang") != "en":
+        flag("document_language_missing_or_incorrect", "(document)")
+    if root.find(f"./{{{TEI}}}teiHeader/{{{TEI}}}revisionDesc") is None:
+        flag("revision_history_missing", "(header)")
+    if root.find(f"./{{{TEI}}}teiHeader/{{{TEI}}}encodingDesc/{{{TEI}}}refsDecl") is None:
+        flag("canonical_scripture_reference_declaration_missing", "(header)")
     articles = list(body)
+    seen_source_keys = set()
     for article in articles:
         if article.tag != f"{{{TEI}}}div" or article.get("type") != "entry":
             raise ValueError("Unexpected top-level article structure")
         key = article.get("n")
         if not key:
             raise ValueError("Article without source SWORD key")
+        if key in seen_source_keys:
+            raise ValueError(f"Duplicate source SWORD key {key!r}")
+        seen_source_keys.add(key)
         immediate = tuple(expanded_name(c.tag) for c in article)
         article_structures["first=" + (immediate[0] if immediate else "(none)")] += 1
         article_structures["direct_children=" + str(len(immediate))] += 1
         if not immediate or immediate[0] != "head":
             suspicious["missing_synthetic_head"].append(key)
+            flag("index_head_missing", key)
+        elif article[0].get("type") != "index":
+            flag("index_head_not_typed", key)
+        for position, child in enumerate(article):
+            if position and expanded_name(child.tag) == "head":
+                flag("head_after_body_content_requires_section_division", key)
         for node in article.iter():
             tag = expanded_name(node.tag)
             ns = namespace(node.tag)
             source_tag[tag] += 1
             source_namespace[ns or "(none)"] += 1
+            if ns != TEI:
+                flag("body_element_outside_tei_namespace", key)
             attrs[tag].update(expanded_name(a) for a in node.attrib if a != XMLID)
             if len(samples[tag]) < 5 and node is not article and node is not article[0]:
                 samples[tag].append(key)
@@ -83,6 +107,12 @@ def analyze(path):
                 if not (node.text or "").strip() and not len(node):
                     counts["empty_paragraphs"] += 1
             if tag == "ref":
+                if node.get("osisRef") is not None:
+                    flag("legacy_crosswire_osisRef_attribute", key)
+                if not node.get("type"):
+                    flag("untyped_reference", key)
+                if node.get("target") and node.get("cRef"):
+                    flag("reference_has_both_target_and_cRef", key)
                 target = node.get("target", "")
                 if node.get("osisRef") is not None:
                     link_classes["source_osisRef"] += 1
@@ -133,16 +163,22 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("tei", type=Path)
     p.add_argument("--report", type=Path, required=True)
+    p.add_argument("--strict-profile", action="store_true",
+                   help="Fail if any ISBE target-profile conformance finding remains")
     args = p.parse_args()
     report = analyze(args.tei)
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps({
+        "profile_status": report["profile_status"],
+        "profile_rule_findings": report["profile_rule_findings"],
         "entry_count": report["entry_count"],
         "elements_by_local_name": report["elements_by_local_name"],
         "elements_by_namespace": report["elements_by_namespace"],
         "link_classes": report["link_classes"],
     }, indent=2))
+    if args.strict_profile and report["profile_rule_findings"]:
+        raise SystemExit(2)
 
 
 if __name__ == "__main__":
