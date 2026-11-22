@@ -3786,6 +3786,14 @@
       "basis": "The source discusses provisions for the poor in Mosaic law, including the Jubilee year of Leviticus, rather than calendar cycles."
     },
     {
+      "source_article": "BELAITES",
+      "ref_id": "isbe-4b2e961913c8c17df9d1-n000005",
+      "original": "BELA (2)",
+      "destination_article": "BELA",
+      "destination_id": "isbe-d0e1d07f190cc5a03836",
+      "basis": "The source identifies the descendants of Bela in Numbers 26:38, placing the discussion within the indexed BELA article. The requested subentry (2) is not unambiguously indexed, so link only to the relevant whole article with this limitation recorded."
+    },
+    {
       "source_article": "BELUS, TEMPLE OF",
       "ref_id": "isbe-d0fd349f8f8a471dff9d-n000005",
       "original": "BABEL",
@@ -3810,12 +3818,44 @@
       "basis": "The combined place-name Elon-beth-Hanan refers to the town in Solomon's administrative districts, described in ELON (2)."
     },
     {
+      "source_article": "BETH-SHEMITE",
+      "ref_id": "isbe-50e911fcc54728065c6c-n000006",
+      "original": "BETH-SHEMESH 1",
+      "destination_article": "BETH-SHEMESH",
+      "destination_id": "isbe-095a7a8e18574226c857",
+      "basis": "The source explicitly describes an inhabitant of Beth-shemesh in Judah. The numbered subentry 1 is not independently anchored; use the exact indexed city article as an article-level fallback without discarding '1'."
+    },
+    {
       "source_article": "BETHASMOTH",
       "ref_id": "isbe-0ec50d48486b979b167a-n000006",
       "original": "AZMAVETH",
       "destination_article": "AZMAVETH (2)",
       "destination_id": "isbe-1bcd6feaf3aa60294ff2",
       "basis": "BETHASMOTH is an alternate spelling of the village Azmaveth, indexed under AZMAVETH (2)."
+    },
+    {
+      "source_article": "BICHRI",
+      "ref_id": "isbe-584b99ce924bcd48a86a-n000005",
+      "original": "BECHER 1",
+      "destination_article": "BECHER",
+      "destination_id": "isbe-6bbca4d87f54f02e9759",
+      "basis": "BICHRI cites Becher section 1. The precise section has not been identified; the indexed BECHER article is the subject-correct article-level fallback, with the original '1' retained."
+    },
+    {
+      "source_article": "BITTER WATER",
+      "ref_id": "isbe-5b804307c2d92d4ac9a8-n000004",
+      "original": "ADULTERY (2)",
+      "destination_article": "ADULTERY",
+      "destination_id": "isbe-ff2460f7aa7c3e061b8e",
+      "basis": "The ordeal of bitter water is a ritual addressing suspected adultery. The numbered subdivision (2) cannot be verified, so the matching ADULTERY article is an explicitly imprecise article-level fallback."
+    },
+    {
+      "source_article": "BITTERNESS, WATER OF",
+      "ref_id": "isbe-9010c595a125d59edff0-n000004",
+      "original": "ADULTERY (2)",
+      "destination_article": "ADULTERY",
+      "destination_id": "isbe-ff2460f7aa7c3e061b8e",
+      "basis": "The source redirect BITTERNESS, WATER OF names the ordeal for suspected adultery. The specific numbered subdivision is not indexed; the ADULTERY article is a documented article-level fallback."
     },
     {
       "source_article": "BLAINS",
@@ -3944,6 +3984,14 @@
       "destination_article": "WORLD, COSMOLOGICAL",
       "destination_id": "isbe-6a858871333e0c0c8a54",
       "basis": "The CREATION article references the world in the setting of its physical origin, matching WORLD, COSMOLOGICAL."
+    },
+    {
+      "source_article": "CURIOUS",
+      "ref_id": "isbe-b39a376be11e6e96ddd4-n000017",
+      "original": "ASTROLOGY 14",
+      "destination_article": "ASTROLOGY",
+      "destination_id": "isbe-cb90e8487204688dd11f",
+      "basis": "The original reference specifies numbered topic 14 within ASTROLOGY, but its section anchor has not been verified. Navigate to the existing ASTROLOGY article only as an explicitly recorded article-level fallback, preserving the original numbered target."
     },
     {
       "source_article": "DAMN; DAMNATION; DAMNABLE",
@@ -4730,7 +4778,7 @@
       "basis": "ZIPHITES are inhabitants of the town of Ziph in Judah, described in ZIPH (1); ZIPH (2) lists persons bearing that name."
     }
   ],
-  "resolved_reviewed_occurrence_count": 144,
+  "resolved_reviewed_occurrence_count": 150,
   "unresolved_link_diagnostics": [
     {
       "original": "ADAM IN THE NEW TESTAMENT; FALL, THE",
@@ -4741,11 +4789,6 @@
       "original": "ADRAMMELECH",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "ADULTERY (2)",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "AGRICULTURE; GARNER",
@@ -4848,11 +4891,6 @@
       "occurrences": 1
     },
     {
-      "original": "ASTROLOGY 14",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "AUGURY, IV",
       "reason": "not_found",
       "occurrences": 1
@@ -4919,21 +4957,6 @@
     },
     {
       "original": "BARNEA",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "BECHER 1",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "BELA (2)",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "BETH-SHEMESH 1",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5560,18 +5583,14 @@
     "AGRICULTURE; GARNER": 1,
     "AX": 2,
     "GOLD (BEATEN)": 1,
-    "BELA (2)": 1,
     "ANTICHRIST; MAN OF SIN": 1,
     "CRAFTS, II": 1,
     "AUGURY, IV": 1,
-    "BETH-SHEMESH 1": 1,
     "BETHUEL; CHESIL": 1,
     "BURIAL, IV": 1,
     "RIVER, THE": 1,
-    "BECHER 1": 1,
     "AVEN; BETH-EDEN": 1,
     "PETER": 1,
-    "ADULTERY (2)": 2,
     "LAST": 1,
     "FEASTS AND FASTS, I, 2": 1,
     "DB": 1,
@@ -5587,7 +5606,6 @@
     "DEMON, DEMONOLOGY": 1,
     "FORTIFICATION, II, 1": 1,
     "CRITICISM (GRAF-WELLHAUSEN HYPOTHESIS)": 1,
-    "ASTROLOGY 14": 1,
     "STIGMATA, MARK": 1,
     "ARMS, III": 1,
     "OF THE OLD TESTAMENT AND NEW TESTAMENT": 1,
@@ -5665,9 +5683,9 @@
     "ALTAR OF BURNT OFFERING": 1,
     "REBELLION": 1
   },
-  "unresolved_link_occurrences": 171,
+  "unresolved_link_occurrences": 165,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5879,
+  "resolved_internal_links_validated": 5885,
   "xml_id_uniqueness": "validated",
   "reviewed_title_alias_count": 85,
   "reviewed_title_aliases_used": [

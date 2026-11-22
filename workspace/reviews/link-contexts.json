@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 171,
+  "total_unresolved_occurrences": 165,
   "category_counts": {
-    "requires_review": 171
+    "requires_review": 165
   },
   "unresolved_numbered_homonyms": [
     {
@@ -533,16 +533,6 @@
       ]
     },
     {
-      "target": "ADULTERY (2)",
-      "occurrences": 2,
-      "candidates": [
-        {
-          "title": "ADULTERY",
-          "ratio": 0.8
-        }
-      ]
-    },
-    {
       "target": "AGRICULTURE; GARNER",
       "occurrences": 1,
       "candidates": [
@@ -715,16 +705,6 @@
       ]
     },
     {
-      "target": "ASTROLOGY 14",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "ASTROLOGY",
-          "ratio": 0.857
-        }
-      ]
-    },
-    {
       "target": "AUGURY, IV",
       "occurrences": 1,
       "candidates": [
@@ -875,56 +855,6 @@
         {
           "title": "TAREA",
           "ratio": 0.727
-        }
-      ]
-    },
-    {
-      "target": "BECHER 1",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "BECHER",
-          "ratio": 0.857
-        }
-      ]
-    },
-    {
-      "target": "BELA (2)",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "ELAH (2)",
-          "ratio": 0.875
-        },
-        {
-          "title": "ABEL (2)",
-          "ratio": 0.875
-        },
-        {
-          "title": "BAY (2)",
-          "ratio": 0.8
-        },
-        {
-          "title": "BAR (2)",
-          "ratio": 0.8
-        }
-      ]
-    },
-    {
-      "target": "BETH-SHEMESH 1",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "BETH-SHEMESH",
-          "ratio": 0.923
-        },
-        {
-          "title": "BETH-SHEMITE",
-          "ratio": 0.769
-        },
-        {
-          "title": "EN-SHEMESH",
-          "ratio": 0.75
         }
       ]
     },
@@ -2649,38 +2579,7 @@
       "context": "wosh, wosh'-ing: The two usual Hebrew words for \"wash\" are rachats, and kabhac, the former being normally used of persons or of sacrificial animals (Ge 18:4, etc., often translated \"bathe\"; Le 15:5, e"
     }
   ],
-  "numbered_link_review": [
-    {
-      "article_key": "BELAITES",
-      "original_target": "BELA (2)",
-      "candidates": [
-        "BELA"
-      ],
-      "context": "be'-la-its (bal`i, \"belonging to Bela\"): The descendants of Bela (Nu 26:38). Compare BELA (2).",
-      "numbered_markers": [],
-      "candidate_article_excerpt": "BELA be'-la.See ZOAR."
-    },
-    {
-      "article_key": "BITTER WATER",
-      "original_target": "ADULTERY (2)",
-      "candidates": [
-        "ADULTERY"
-      ],
-      "context": "See ADULTERY (2); MARAH.",
-      "numbered_markers": [],
-      "candidate_article_excerpt": "ADULTERY a-dul'-ter-i: In Scripture designates sexual intercourse of a man, whether married or unmarried, with a married woman.1. Its Punishment:It is categorically prohibited in the Decalogue (seventh commandment, Ex 20:14; De 5:18): \"Thou shalt not commit adultery.\" In more specific language we read: \"And thou shalt not he carnally with thy neighbor's wife, to defile thyself with her\" (Le 18:20). The penalty is death for both guilty parties: \"And the man that committeth adultery with another man's wife, even he that committeth adultery with his neighbor's wife, the adulterer and the adulteress shall surely be put to death\" (Le 20:10). The manner of death is not particularized; according to the rabbis (Siphra' at the place; Sanhedhrin 52b) it is strangulation. It would seem that in the days of Jesus the manner of death was interpreted to mean stoning (\"Now in the law Moses commanded us to stone such,\" Joh 8:5, said of the woman taken in adultery). Nevertheless, it may be said that in the case in question the woman may have been a virgin betrothed unto a husband, the law (in De 22:23"
-    },
-    {
-      "article_key": "BITTERNESS, WATER OF",
-      "original_target": "ADULTERY (2)",
-      "candidates": [
-        "ADULTERY"
-      ],
-      "context": "See ADULTERY (2).",
-      "numbered_markers": [],
-      "candidate_article_excerpt": "ADULTERY a-dul'-ter-i: In Scripture designates sexual intercourse of a man, whether married or unmarried, with a married woman.1. Its Punishment:It is categorically prohibited in the Decalogue (seventh commandment, Ex 20:14; De 5:18): \"Thou shalt not commit adultery.\" In more specific language we read: \"And thou shalt not he carnally with thy neighbor's wife, to defile thyself with her\" (Le 18:20). The penalty is death for both guilty parties: \"And the man that committeth adultery with another man's wife, even he that committeth adultery with his neighbor's wife, the adulterer and the adulteress shall surely be put to death\" (Le 20:10). The manner of death is not particularized; according to the rabbis (Siphra' at the place; Sanhedhrin 52b) it is strangulation. It would seem that in the days of Jesus the manner of death was interpreted to mean stoning (\"Now in the law Moses commanded us to stone such,\" Joh 8:5, said of the woman taken in adultery). Nevertheless, it may be said that in the case in question the woman may have been a virgin betrothed unto a husband, the law (in De 22:23"
-    }
-  ],
+  "numbered_link_review": [],
   "ambiguous_alias_review": [],
   "unique_semicolon_alias_candidates": [],
   "unique_separator_candidates": [],
@@ -3335,21 +3234,6 @@
       "context": "See GOLD (BEATEN)."
     },
     {
-      "article_key": "BELAITES",
-      "ref_id": "isbe-4b2e961913c8c17df9d1-n000005",
-      "original_target": "BELA (2)",
-      "displayed_text": "BELA (2)",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [
-        "BELA"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "be'-la-its (bal`i, \"belonging to Bela\"): The descendants of Bela (Nu 26:38). Compare BELA (2)."
-    },
-    {
       "article_key": "BELIAL",
       "ref_id": "isbe-6f3e11b5679592185c49-n000013",
       "original_target": "ANTICHRIST; MAN OF SIN",
@@ -3387,19 +3271,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See AUGURY, IV, 2."
-    },
-    {
-      "article_key": "BETH-SHEMITE",
-      "ref_id": "isbe-50e911fcc54728065c6c-n000006",
-      "original_target": "BETH-SHEMESH 1",
-      "displayed_text": "BETH-SHEMESH 1",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "beth-she'-mit beth-shimshi (1Sa 6:14,20): An inhabitant of Beth-shemesh in Judah (compare BETH-SHEMESH 1)."
     },
     {
       "article_key": "BETHUL",
@@ -3441,19 +3312,6 @@
       "context": "be-yond': Found in the Hebrew only in its application to space and time, and for these ideas three words are employed: hale'ah (Ge 35:21) = \"to the distance\"; `abhar = \"to go beyond\" \"to cross\" derivative `ebher (Chald. `abhar) = \"across,\" \"beyond\" (De 30:13; Jos 18:7; Jud 3:26; 1Sa 20:36; 2Ch 20:2; Ezr 4:17,20; Jer 25:22); and `al (Le 15:25) = \"beyond the time.\" In the New Testament peran, is used to express \"beyond\" in the spatial sense (Mt 4:1"
     },
     {
-      "article_key": "BICHRI",
-      "ref_id": "isbe-584b99ce924bcd48a86a-n000005",
-      "original_target": "BECHER 1",
-      "displayed_text": "BECHER 1",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "bik'-ri (bikhri, \"first born\"; compare HPN, 88, 102): Father of Sheba who rebelled against David. Bichri is of the house of Benjamin and the word probably means a \"descendant of Becher\" (2Sa 20:1 ff). Compare BECHER 1."
-    },
-    {
       "article_key": "BIKATH-AVEN",
       "ref_id": "isbe-5353b466b71c4cdd5796-n000006",
       "original_target": "AVEN; BETH-EDEN",
@@ -3485,36 +3343,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See AUTHORITY; FORGIVENESS; PETER."
-    },
-    {
-      "article_key": "BITTER WATER",
-      "ref_id": "isbe-5b804307c2d92d4ac9a8-n000004",
-      "original_target": "ADULTERY (2)",
-      "displayed_text": "ADULTERY (2)",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [
-        "ADULTERY"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See ADULTERY (2); MARAH."
-    },
-    {
-      "article_key": "BITTERNESS, WATER OF",
-      "ref_id": "isbe-9010c595a125d59edff0-n000004",
-      "original_target": "ADULTERY (2)",
-      "displayed_text": "ADULTERY (2)",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [
-        "ADULTERY"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See ADULTERY (2)."
     },
     {
       "article_key": "BOOK OF LIFE",
@@ -3728,19 +3556,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See CRITICISM (GRAF-WELLHAUSEN HYPOTHESIS)."
-    },
-    {
-      "article_key": "CURIOUS",
-      "ref_id": "isbe-b39a376be11e6e96ddd4-n000017",
-      "original_target": "ASTROLOGY 14",
-      "displayed_text": "ASTROLOGY 14",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See ASTROLOGY 14."
     },
     {
       "article_key": "CUTTINGS IN THE FLESH",
