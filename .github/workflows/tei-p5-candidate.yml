@@ -1,0 +1,38 @@
+name: Build and verify lossless ISBE TEI candidate
+on:
+  pull_request:
+    paths:
+      - scripts/normalize_tei_p5.py
+      - tests/test_normalize_tei_p5.py
+      - workspace/changes/tei-p5-candidate-v1.json
+      - .github/workflows/tei-p5-candidate.yml
+      - cleaned/en/ISBE.xml
+      - cleaned/en/article-index.json
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-fidelity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test all existing and new source-fidelity fixtures
+        run: python3 -m unittest discover -s tests -v
+      - name: Produce separate serialized candidate and all-article parity report
+        run: |
+          mkdir -p workspace/candidates/en
+          python3 scripts/normalize_tei_p5.py \
+            --input cleaned/en/ISBE.xml \
+            --index cleaned/en/article-index.json \
+            --manifest workspace/changes/tei-p5-candidate-v1.json \
+            --output workspace/candidates/en/ISBE.xml \
+            --report workspace/candidates/en/tei-p5-candidate-report.json
+      - name: Publish candidate for independent official schema review
+        uses: actions/upload-artifact@v4
+        with:
+          name: isbe-tei-p5-unvalidated-candidate
+          path: |
+            workspace/candidates/en/ISBE.xml
+            workspace/candidates/en/tei-p5-candidate-report.json
+          if-no-files-found: error
+          retention-days: 30
