@@ -1,0 +1,59 @@
+name: Research original 1915 ISBE print witnesses
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/research_1915_print_pages.py'
+      - 'tests/test_research_1915_print_pages.py'
+      - 'sources/print/1915-volume-witnesses.json'
+      - '.github/workflows/research-1915-print-witnesses.yml'
+  workflow_dispatch:
+
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify safe and source-locked historical locator
+        run: python -m unittest discover -s tests -p 'test_research_1915_print_pages.py'
+
+  research-volumes:
+    # Large external PDF retrieval is explicit research, not a routine PR gate.
+    if: github.event_name == 'workflow_dispatch'
+    needs: offline-tests
+    strategy:
+      fail-fast: false
+      matrix:
+        volume: ["1", "2", "3", "4", "5"]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pdf text extraction
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+      - name: Fetch identified original 1915 print scan temporarily
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p workspace/tmp/1915-research
+          curl --fail --location --silent --show-error \
+            --retry 3 --retry-all-errors --connect-timeout 20 --max-time 360 \
+            "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
+            --output "workspace/tmp/1915-research/volume-${{ matrix.volume }}.pdf"
+          file "workspace/tmp/1915-research/volume-${{ matrix.volume }}.pdf"
+          pdfinfo "workspace/tmp/1915-research/volume-${{ matrix.volume }}.pdf" | head -n 18
+      - name: Locate each original source-empty entry in OCR from print scan
+        run: |
+          python scripts/research_1915_print_pages.py \
+            --pdf workspace/tmp/1915-research/volume-${{ matrix.volume }}.pdf \
+            --volume "${{ matrix.volume }}" \
+            --witness-manifest sources/print/1915-volume-witnesses.json \
+            --report workspace/tmp/1915-research/volume-${{ matrix.volume }}-headings.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: historical-print-1915-volume-${{ matrix.volume }}-heading-candidates
+          path: workspace/tmp/1915-research/volume-${{ matrix.volume }}-headings.json
+          if-no-files-found: warn

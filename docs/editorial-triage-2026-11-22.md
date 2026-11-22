@@ -81,3 +81,18 @@ All **31 original CrossWire-empty article records** now have independently cited
 Each added prose passage is recorded verbatim in `workspace/reviews/print-prose-candidate-v1.json` with its individual independent **1915-attributed** transcription URL, source-entry key and stable existing XML paragraph ID. The full original corpus remains a separate preserved baseline. In total, **9,349 unaffected article records** must maintain identical text, all **185,657** original XML IDs must remain present, and two genuinely added paragraph IDs in AMNON must remain distinct.
 
 The cross-check exposed possible secondary transcription defects which are retained **as flagged evidence rather than silently corrected**: the additional `>` in the SEPHARVITES pronunciation, the abrupt final wording of FROWARDNESS, and the capitalization at the start of the second sentence of SYCHEM. All require verification against the real page images of the 1915 five-volume edition. Complete initial reconstruction **does not mean** source-image proofreading, historical editorial acceptance, redistribution rights, or publication. The canonical `cleaned/en/ISBE.xml` intentionally remains unchanged pending that separate gate.
+
+
+## Original 1915 facsimile collation — five physical volumes
+
+The five original **Howard-Severance 1915 printed-volume PDF facsimiles** have been downloaded independently in GitHub Actions. Their source URLs, SHA-256 hashes, exact page counts and bibliographic identity are pinned in `sources/print/1915-volume-witnesses.json`. Unlike online HTML transcriptions, these are primary print witnesses, but their embedded OCR layer still requires correction against the actual page image.
+
+The source-locked batch locator in `scripts/research_1915_print_pages.py` distinguishes both physical OCR columns and filters out ordinary lower-case prose mentions and especially the **back-of-book alphabetic index of volume V**, which otherwise generates false source claims for earlier volumes.
+
+The complete recorded outcome is in `workspace/reviews/1915-printed-headword-ocr-locations.json`, based on the successful five-volume research run at https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45076272496 :
+
+- **25/31** missing CrossWire headwords now have a strong **original printed-volume OCR heading page candidate**, identified by a 1-based PDF image index, not yet visually verified.
+- **6/31** remain unresolved by strict heading OCR: `ASTARTE; ASTORETH`, `CHORBE`, `JOSIBIAH`, `PATRIARCHS, TESTAMENTS OF THE TWELVE`, `REGENERATION, BAPTISMAL` and `THOCANUS`. None of these is silently declared absent from the original; OCR can misread a heading, split it across columns, or conflate a short redirect with a running head.
+- **0/31** has yet been certified as an exact, visually collated 1915 print-page transcription. The 31 proposed repairs still remain only in the separate noncanonical review candidate.
+
+Next editorial gate: review the **actual printed page images** for all 31, prioritizing the six unmatched headwords, the three known suspicious web-transcription anomalies (SEPHARVITES, FROWARDNESS, SYCHEM), and Hebrew/Greek accents. Record the original printed page number and image index, collate each source block, then stage explicitly approved and reversible source-SHA-bound changes. Do not mistake successful XML schema validation or a heading OCR match for textual verification or rights clearance.
