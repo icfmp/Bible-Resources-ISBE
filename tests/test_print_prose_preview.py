@@ -29,6 +29,17 @@ class PrintProsePreviewTests(unittest.TestCase):
             self.assertEqual(hashlib.sha256(SOURCE.read_bytes()).hexdigest(),source_hash)
             body=ET.parse(dest).getroot().find("./"+q("text")+"/"+q("body"))
             records={a.get("n"):a for a in body}
+            # The entire historical source gap must now have usable candidate
+            # content, rather than just a correct article count.
+            gaps=json.loads((ROOT/"workspace/reviews/empty-article-recovery-ledger.json").read_text(encoding="utf-8"))["cases"]
+            self.assertEqual(len(gaps),31)
+            for case in gaps:
+                with self.subTest(recovered_key=case["source_key"]):
+                    article=records[case["source_key"]]
+                    old_p=[p for p in article.iter() if p.attrib.get("{http://www.w3.org/XML/1998/namespace}id")==case["paragraph_xml_id"]]
+                    self.assertEqual(len(old_p),1)
+                    self.assertTrue("".join(old_p[0].itertext()).strip())
+
             self.assertIn("An ancestor of Ezra", "".join(records["ABISSEI"].itertext()))
             self.assertIn("(2) A name in the genealogy of Judah", "".join(records["AMNON"].itertext()))
             self.assertIn("whose origin is from the days of the olden time", "".join(records["ANTIQUITY"].itertext()))
