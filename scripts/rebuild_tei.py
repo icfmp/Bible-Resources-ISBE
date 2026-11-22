@@ -230,6 +230,7 @@ def build(imp):
     resolved_local = Counter()
     resolved_numbered = Counter()
     resolved_scripture = Counter()
+    resolved_redirect = Counter()
     articles_by_key = {}
     title_variants = []
     text_chars = 0
@@ -412,6 +413,42 @@ def build(imp):
             resolved_scripture[(source_key, source_target, selected, selected_id,
                                 tuple(sorted(references)))] += 1
 
+    # When a redirect-style source article has its own title as an alias of
+    # two entries, an explicit "See" link cannot mean "open this same article".
+    # Select the only other source-attested alias target, never an arbitrary
+    # one of several competing destinations.
+    for source_key, source_article in articles_by_key.items():
+        parents = {c: p for p in source_article.iter() for c in p}
+        for element in source_article.iter():
+            target = element.get("target", "")
+            if not target.startswith("ISBE:"):
+                continue
+            source_target = target[5:]
+            possible = aliases.get(source_target.strip().casefold(), ())
+            if len(possible) != 2 or source_key not in possible:
+                continue
+            destination_key = next(key for key in possible if key != source_key)
+            parent = parents.get(element)
+            while parent is not None and parent.tag.split("}")[-1] not in ("p", "item", "ab"):
+                parent = parents.get(parent)
+            if parent is None:
+                continue
+            paragraph_text = " ".join("".join(parent.itertext()).split())
+            if not re.search(r"\\bsee\\b", paragraph_text, re.I):
+                continue
+            element.set("n", target)
+            element.set("target", "#" + ids[destination_key])
+            missing_refs[source_target] -= 1
+            if not missing_refs[source_target]:
+                del missing_refs[source_target]
+            reason_key = (source_target, "ambiguous")
+            if unresolved_details[reason_key] <= 0:
+                raise ValueError(f"Unexpected ambiguous-alias state for {source_target}")
+            unresolved_details[reason_key] -= 1
+            if not unresolved_details[reason_key]:
+                del unresolved_details[reason_key]
+            resolved_redirect[(source_key, source_target, destination_key)] += 1
+
     report = {"source_entries": len(records), "tei_entries": len(body),
               "indexed_content_nodes": nodes, "source_text_characters": text_chars,
               "other_root_tags": dict(unsupported),
@@ -443,6 +480,12 @@ def build(imp):
                   in sorted(resolved_scripture.items())
               ],
               "resolved_scripture_disambiguation_occurrences": sum(resolved_scripture.values()),
+              "resolved_redirect_alias_links": [
+                  {"article_key": source, "original": original,
+                   "destination_article": chosen, "occurrences": count}
+                  for (source, original, chosen), count in sorted(resolved_redirect.items())
+              ],
+              "resolved_redirect_alias_occurrences": sum(resolved_redirect.values()),
               "unresolved_link_diagnostics": [
                   {"original": key, "reason": reason, "occurrences": n}
                   for (key, reason), n in sorted(unresolved_details.items())
