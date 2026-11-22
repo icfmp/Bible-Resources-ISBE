@@ -30,6 +30,22 @@ class LocalHeadingTests(unittest.TestCase):
         self.assertEqual(ref.get("target"), "#" + title.get(XMLID))
         self.assertEqual(report["resolved_local_section_occurrences"], 1)
 
+    def test_plain_standalone_section_title(self):
+        imp = """$$ANTHROPOMORPHISM
+<entryFree n="ANTHROPOMORPHISM"><p><ref target="ISBE:1. DEFINITION OF THE TERM">1. DEFINITION OF THE TERM</ref></p><p>1. Definition of the Term</p><p>Discussion follows.</p></entryFree>"""
+        root, _, report = build(imp)
+        article = root.find(".//{http://www.tei-c.org/ns/1.0}div[@type='entry']")
+        paragraphs = [el for el in article.iter() if el.tag == "p"]
+        ref = next(x for x in article.iter() if x.tag == "ref")
+        self.assertEqual(ref.get("target"), "#" + paragraphs[1].get(XMLID))
+        self.assertEqual(report["resolved_local_section_occurrences"], 1)
+
+    def test_no_guess_for_repeated_plain_section_title(self):
+        imp = """$$ARTICLE
+<entryFree n="ARTICLE"><p><ref target="ISBE:LITERATURE">Literature</ref></p><p>Literature</p><p>Literature</p></entryFree>"""
+        _, _, report = build(imp)
+        self.assertEqual(report["unresolved_link_occurrences"], 1)
+
     def test_ambiguous_repeated_local_heading_remains_unresolved(self):
         imp = """$$$ARTICLE
 <entryFree n="ARTICLE"><p><hi rend="underline">Literature:</hi> A</p><p><hi rend="underline">Literature:</hi> B</p><p><ref target="ISBE:LITERATURE">Here</ref></p></entryFree>"""
