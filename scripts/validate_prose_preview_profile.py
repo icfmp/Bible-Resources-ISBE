@@ -19,8 +19,8 @@ def validate(source,candidate,report_path,manifest_path,out_manifest,out_fidelit
         raise ValueError("Unapproved edition must not be marked releasable")
     for key,expected in [
         ("original_entries",9380),("proposed_redirects",11),
-        ("proposed_historical_text_entries",9),
-        ("unchanged_articles_verified",9360),
+        ("proposed_historical_text_entries",20),
+        ("unchanged_articles_verified",9349),
         ("original_ids_preserved",185657),("new_xml_ids",2)
     ]:
         if report[key]!=expected:
@@ -42,7 +42,7 @@ def validate(source,candidate,report_path,manifest_path,out_manifest,out_fidelit
         "noncanonical":True,
         "publication_permitted":False,
         "historical_print_page_images":"NOT_REVIEWED",
-        "unchanged_articles_verified":9360,
+        "unchanged_articles_verified":9349,
         "approved_text_modifications":0,
     }
     for path,data in [(out_manifest,original),(out_fidelity,fidelity)]:
