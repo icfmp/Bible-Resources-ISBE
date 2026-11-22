@@ -1,24 +1,63 @@
-name: Validate workspace
+name: Validate canonical ISBE TEI P5
 
 on:
   push:
   pull_request:
 
+permissions:
+  contents: read
 jobs:
   unit-tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run unit tests
+      - name: Run all reconstruction, schema-control and source-fidelity tests
         run: python3 -m unittest discover -s tests -v
-      - name: Check corpus coverage, TEI namespace and internal links
+      - name: Require canonical project profile and complete corpus coverage
         shell: bash
         run: |
           set -euo pipefail
           python3 scripts/audit_tei_structure.py cleaned/en/ISBE.xml \
             --report /tmp/isbe-tei-structure.json \
             --expected-entries 9380 \
+            --strict-profile \
             --reject-active-broken-links \
             --reject-non-tei-namespace
-          # Migration findings are a tracked target-profile backlog and not
-          # proof of an official TEI P5 schema validation.
+          cmp /tmp/isbe-tei-structure.json workspace/reports/tei-structure-inventory.json
+      - name: Validate exact canonical candidate bytes against approved SHA-256
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          lock = json.loads(Path("workspace/changes/tei-p5-candidate-v1.json").read_text(encoding="utf-8"))
+          source = Path("cleaned/en/ISBE.xml")
+          digest = hashlib.sha256(source.read_bytes()).hexdigest()
+          if digest != lock["expected_candidate_sha256"]:
+              raise SystemExit("Canonical TEI P5 differs from source-validated pinned candidate: " + digest)
+          report = json.loads(Path("workspace/reports/tei-p5-candidate-report.json").read_text(encoding="utf-8"))
+          if report["candidate_sha256"] != digest or report["article_parity"] != "PASS":
+              raise SystemExit("Canonical source-fidelity report mismatch")
+          print("Canonical ISBE TEI P5 SHA-256:", digest)
+          PY
+  official-schemas:
+    needs: unit-tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install official TEI P5 validators
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jing
+      - name: Independently validate canonical serialized XML against pinned RELAX NG and Schematron
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/validate_official_tei_p5.py \
+            --candidate cleaned/en/ISBE.xml \
+            --source-report workspace/reports/tei-p5-candidate-report.json \
+            --manifest workspace/changes/tei-p5-candidate-v1.json \
+            --output /tmp/isbe-tei-p5-official-validation.json
+          cmp /tmp/isbe-tei-p5-official-validation.json workspace/reports/tei-p5-official-validation.json
