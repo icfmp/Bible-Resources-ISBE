@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 235,
-  "unresolved_distinct_targets": 213,
+  "unresolved_occurrences": 224,
+  "unresolved_distinct_targets": 204,
   "categories_by_occurrence": {
     "article_section_label": 15,
     "multiple_numbered_entries": 46,
     "single_numbered_entry_candidate": 3,
-    "unmatched_heading_or_alias": 171
+    "unmatched_heading_or_alias": 160
   },
   "review_queue": [
     {
@@ -384,13 +384,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "BROTHERLY KINDNESS (LOVE)",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "BURIAL, IV",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -715,13 +708,6 @@
     {
       "source_target": "FAST.",
       "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "FEASTS",
-      "occurrences": 3,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -1056,20 +1042,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "MORIAH",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "MORROW",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "NAARAH",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
@@ -1127,13 +1099,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "NORTHEAST",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "NUMBERS",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1159,13 +1124,6 @@
     },
     {
       "source_target": "OHOLIAH",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "OLIVES",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -1351,13 +1309,6 @@
     },
     {
       "source_target": "SCHOOL; TEACHER; TUTOR",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SEMITES",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -1564,13 +1515,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "VALE OF SIDDIM",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "VEIL",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
@@ -1591,13 +1535,6 @@
       "source_target": "VI. THE ESSENES AND CHRISTIANITY",
       "occurrences": 1,
       "category": "article_section_label",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "VIRGIN",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
     },

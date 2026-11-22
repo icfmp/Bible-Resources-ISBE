@@ -697,6 +697,12 @@
       "occurrences": 2
     },
     {
+      "original": "BROTHERLY KINDNESS (LOVE)",
+      "resolved_to": "BROTHERLY KINDNESS; BROTHERLY LOVE",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "BROTHERLY LOVE",
       "resolved_to": "BROTHERLY KINDNESS; BROTHERLY LOVE",
       "rule": "explicit_semicolon_title_alias",
@@ -1363,6 +1369,12 @@
       "occurrences": 1
     },
     {
+      "original": "FEASTS",
+      "resolved_to": "FEASTS AND FASTS",
+      "rule": "reviewed_title_alias",
+      "occurrences": 3
+    },
+    {
       "original": "FELIX",
       "resolved_to": "FELIX; ANTONIUS",
       "rule": "explicit_semicolon_title_alias",
@@ -1987,6 +1999,18 @@
       "occurrences": 5
     },
     {
+      "original": "MORIAH",
+      "resolved_to": "MORIAH, LAND OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "MORROW",
+      "resolved_to": "MORROW, TOMORROW",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "MOUSE",
       "resolved_to": "MOUSE; MICE",
       "rule": "explicit_semicolon_title_alias",
@@ -2029,6 +2053,12 @@
       "occurrences": 1
     },
     {
+      "original": "NORTHEAST",
+      "resolved_to": "NORTHEAST, SOUTHEAST",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "OFFENCE",
       "resolved_to": "OFFENCE; OFFEND",
       "rule": "explicit_semicolon_title_alias",
@@ -2038,6 +2068,12 @@
       "original": "OIL (BEATEN)",
       "resolved_to": "OIL, BEATEN",
       "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "OLIVES",
+      "resolved_to": "OLIVES, MOUNT OF",
+      "rule": "reviewed_title_alias",
       "occurrences": 1
     },
     {
@@ -2326,6 +2362,12 @@
       "original": "SECURITY",
       "resolved_to": "SECURE; SECURITY",
       "rule": "explicit_semicolon_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "SEMITES",
+      "resolved_to": "SEMITES, SEMITIC RELIGION",
+      "rule": "reviewed_title_alias",
       "occurrences": 1
     },
     {
@@ -2707,8 +2749,20 @@
       "occurrences": 3
     },
     {
+      "original": "VALE OF SIDDIM",
+      "resolved_to": "SIDDIM, VALE OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "VILE",
       "resolved_to": "VILE, VILLANY",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "VIRGIN",
+      "resolved_to": "VIRGIN, VIRGINITY",
       "rule": "reviewed_title_alias",
       "occurrences": 1
     },
@@ -2779,7 +2833,7 @@
       "occurrences": 1
     }
   ],
-  "resolved_variant_occurrences": 873,
+  "resolved_variant_occurrences": 884,
   "resolved_local_section_links": [
     {
       "article_key": "ACCOMMODATION",
@@ -4519,11 +4573,6 @@
       "occurrences": 1
     },
     {
-      "original": "BROTHERLY KINDNESS (LOVE)",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "BURIAL, IV",
       "reason": "not_found",
       "occurrences": 1
@@ -4744,11 +4793,6 @@
       "occurrences": 1
     },
     {
-      "original": "FEASTS",
-      "reason": "not_found",
-      "occurrences": 3
-    },
-    {
       "original": "FEASTS AND FASTS, I, 2",
       "reason": "not_found",
       "occurrences": 1
@@ -4954,16 +4998,6 @@
       "occurrences": 1
     },
     {
-      "original": "MORIAH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "MORROW",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "NAARAH",
       "reason": "not_found",
       "occurrences": 1
@@ -4994,11 +5028,6 @@
       "occurrences": 1
     },
     {
-      "original": "NORTHEAST",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "NUMBERS",
       "reason": "not_found",
       "occurrences": 1
@@ -5015,11 +5044,6 @@
     },
     {
       "original": "OHOLIAH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "OLIVES",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5145,11 +5169,6 @@
     },
     {
       "original": "SCHOOL; TEACHER; TUTOR",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "SEMITES",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5284,11 +5303,6 @@
       "occurrences": 1
     },
     {
-      "original": "VALE OF SIDDIM",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "VEIL",
       "reason": "not_found",
       "occurrences": 1
@@ -5300,11 +5314,6 @@
     },
     {
       "original": "VI. THE ESSENES AND CHRISTIANITY",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "VIRGIN",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5339,7 +5348,6 @@
     "EKRON.": 1,
     "ADAM IN THE NEW TESTAMENT; FALL, THE": 1,
     "APOCALYPTIC LITERATURE; APOCRYPHA": 1,
-    "VALE OF SIDDIM": 1,
     "YHWH": 1,
     "CRIMES; DIVORCE IN THE NEW TESTAMENT": 1,
     "MILLENNIUM": 1,
@@ -5374,7 +5382,6 @@
     "BITHYNIARCH": 1,
     "CARIARCH": 1,
     "SYRIARCH": 1,
-    "FEASTS": 3,
     "GOLDEN": 1,
     "CREATION; GOD": 1,
     "AVEN; ON": 1,
@@ -5416,7 +5423,6 @@
     "LAST": 1,
     "FEASTS AND FASTS, I, 2": 1,
     "DB": 1,
-    "BROTHERLY KINDNESS (LOVE)": 1,
     "EAST": 2,
     "GAD": 1,
     "TEMPLE, II, 4": 1,
@@ -5497,8 +5503,6 @@
     "ISHMAEL": 1,
     "JACOB": 1,
     "ICC": 1,
-    "OLIVES": 1,
-    "MORIAH": 1,
     "SALEM": 1,
     "ZEDEK": 1,
     "AKRA": 1,
@@ -5511,7 +5515,6 @@
     "PUNISHMENT": 1,
     "DEBAR": 1,
     "HAIL": 1,
-    "VIRGIN": 1,
     "MAKE": 1,
     "TO": 1,
     "SAQQAREH": 1,
@@ -5534,29 +5537,27 @@
     "BOSHETH": 1,
     "SHAALIM": 1,
     "ARBEL": 1,
-    "SEMITES": 1,
     "CHALDEES": 1,
-    "NORTHEAST": 1,
     "ALTAR OF INCENSE": 1,
     "TERAH": 1,
     "SARIS": 1,
     "TELEM": 1,
     "ALTAR OF BURNT OFFERING": 1,
-    "MORROW": 1,
     "REBELLION": 1,
     "VEIL": 1,
     "ESHCOL": 1,
     "TEMPLE KEEPERS": 1,
     "ZIPH": 1
   },
-  "unresolved_link_occurrences": 235,
+  "unresolved_link_occurrences": 224,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5815,
+  "resolved_internal_links_validated": 5826,
   "xml_id_uniqueness": "validated",
-  "reviewed_title_alias_count": 69,
+  "reviewed_title_alias_count": 78,
   "reviewed_title_aliases_used": [
     "BACK",
     "BILL",
+    "BROTHERLY KINDNESS (LOVE)",
     "CANAAN, CANAANITE",
     "CHESTNUT",
     "CHRIST AS KING",
@@ -5571,6 +5572,7 @@
     "EPHRON",
     "ESDRAELON",
     "FAN",
+    "FEASTS",
     "GERIZIM",
     "GIHON",
     "GILEAD",
@@ -5596,7 +5598,11 @@
     "MEMMIUS",
     "MENE",
     "MEONENIM",
+    "MORIAH",
+    "MORROW",
     "NEAR",
+    "NORTHEAST",
+    "OLIVES",
     "ON",
     "PALAESTRA",
     "PALLU",
@@ -5606,6 +5612,7 @@
     "PROVERBS",
     "PSALMS",
     "ROLL",
+    "SEMITES",
     "SHEPHUPHAM",
     "SHERGHAT",
     "SHEW",
@@ -5620,7 +5627,9 @@
     "THORNS",
     "TOB",
     "VALE",
+    "VALE OF SIDDIM",
     "VILE",
+    "VIRGIN",
     "WEALTH",
     "WIST",
     "WRATH"
