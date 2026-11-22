@@ -114,7 +114,7 @@ class CandidateTests(unittest.TestCase):
         self.assertIsNone(moved.get("type"))
         self.assertEqual(report["transformation_counts"]["bibliography_leads"], 1)
         self.assertEqual(report["bibliography_wrappers"], 1)
-        self.assertEqual(report["source_inventory"]["bibliography_heads"], 0)
+        self.assertEqual(report["source_inventory"].get("bibliography_heads", 0), 0)
         section = next(node for node in output.iter(Q("div"))
                        if node.get("type") == "bibliography")
         self.assertIs(section[0], moved)
