@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - scripts/normalize_tei_p5.py
+      - scripts/check_tei_p5_svrl.py
       - tests/test_normalize_tei_p5.py
       - workspace/changes/tei-p5-candidate-v1.json
       - .github/workflows/tei-p5-candidate.yml
@@ -55,8 +56,7 @@ jobs:
             exit 1
           fi
           echo "Verified: malformed TEI structural control rejected"
-      - name: Probe pinned official TEI Schematron with ISO Saxon implementation
-        continue-on-error: true
+      - name: Verify pinned official TEI Schematron with ISO Saxon implementation
         shell: bash
         run: |
           set -euo pipefail
@@ -91,12 +91,44 @@ jobs:
           if failures or reports:
               raise SystemExit('Official Schematron diagnostics require review')
           PY
-      - name: Publish candidate for independent official schema review
+      - name: Verify official Schematron detects an illegal dual-target reference
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > /tmp/invalid-dual-target.xml <<'XML'
+          <?xml version="1.0" encoding="utf-8"?>
+          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+            <teiHeader><fileDesc><titleStmt><title>Invalid reference control</title></titleStmt>
+            <publicationStmt><p>Test</p></publicationStmt><sourceDesc><p>Test</p></sourceDesc>
+            </fileDesc></teiHeader>
+            <text><body><div type="entry" xml:id="isbe-control" n="CONTROL">
+              <head type="index">CONTROL</head>
+              <p><ref target="#isbe-control" cRef="Bible:Gen.1.1">Gen 1:1</ref></p>
+            </div></body></text>
+          </TEI>
+          XML
+          java -cp /usr/share/java/Saxon-HE.jar net.sf.saxon.Transform -s:/tmp/invalid-dual-target.xml -xsl:/tmp/schiso/validator.xsl -o:/tmp/schiso/negative.svrl
+      - name: Record official TEI P5 validated result and tool versions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/check_tei_p5_svrl.py \
+            --manifest workspace/changes/tei-p5-candidate-v1.json \
+            --candidate workspace/candidates/en/ISBE.xml \
+            --rng /tmp/tei_all-4.12.0.rng \
+            --schematron /tmp/tei_all-4.12.0.isosch \
+            --svrl /tmp/schiso/result.svrl \
+            --negative-svrl /tmp/schiso/negative.svrl \
+            --source-report workspace/candidates/en/tei-p5-candidate-report.json \
+            --output workspace/candidates/en/tei-p5-official-validation.json
+          dpkg-query -W -f='%p %v\n' jing libjing-java libsaxonhe-java
+      - name: Publish validated candidate and separate verification reports
         uses: actions/upload-artifact@v4
         with:
-          name: isbe-tei-p5-unvalidated-candidate
+          name: isbe-tei-p5-validated-candidate
           path: |
             workspace/candidates/en/ISBE.xml
             workspace/candidates/en/tei-p5-candidate-report.json
+            workspace/candidates/en/tei-p5-official-validation.json
           if-no-files-found: error
           retention-days: 30
