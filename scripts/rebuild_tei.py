@@ -559,6 +559,11 @@ def build(imp, reviewed=None, occurrence_mappings=None):
             if row["source_article"] != source_key:
                 raise ValueError(f"Reviewed occurrence source article changed: {ref_id}")
             target_article = articles_by_key[row["destination_article"]]
+            precision = row.get("destination_precision", "reviewed")
+            if precision not in ("reviewed", "article_fallback"):
+                raise ValueError(f"Unsupported editorial destination precision: {precision}")
+            if precision == "article_fallback" and row.get("destination_element_id"):
+                raise ValueError("Article-level fallback cannot include an exact element anchor")
             dest_id = row.get("destination_element_id") or target_article.get(XMLID)
             if dest_id not in {x.get(XMLID) for x in target_article.iter()}:
                 raise ValueError(f"Reviewed destination ID not in designated article: {dest_id}")
@@ -584,6 +589,7 @@ def build(imp, reviewed=None, occurrence_mappings=None):
                 "original": target_key,
                 "destination_article": row["destination_article"],
                 "destination_id": dest_id,
+                "destination_precision": precision,
                 "basis": row["basis"],
             })
     if used_occurrences != set(occurrence_by_id):
@@ -726,6 +732,10 @@ def build(imp, reviewed=None, occurrence_mappings=None):
               "resolved_primary_alias_occurrences": sum(resolved_primary_alias.values()),
               "resolved_reviewed_occurrences": resolved_editorial_occurrences,
               "resolved_reviewed_occurrence_count": len(resolved_editorial_occurrences),
+              "imprecise_article_fallback_count": sum(
+                  1 for item in resolved_editorial_occurrences
+                  if item["destination_precision"] == "article_fallback"
+              ),
               "unresolved_link_diagnostics": [
                   {"original": key, "reason": reason, "occurrences": n}
                   for (key, reason), n in sorted(unresolved_details.items())
