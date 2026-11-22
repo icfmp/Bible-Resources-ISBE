@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "canonical_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "scope": "A separately generated noncanonical editorial preview only",
   "validation_status": "unapproved, printed source not fully verified",
@@ -14,11 +14,15 @@
       ],
       "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/astarte-astoreth.html",
       "source_level": "secondary_transcription",
-      "source_image_verified": false,
+      "source_image_verified": true,
       "approved": false,
       "editorial_note": "Independent reproduction includes a pronunciation before the redirect. Preview omits pronunciation; not approved as historical transcription. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
-      "proposed_lead": "as-tar'-te. See ",
-      "observed_secondary_witness_text": "as-tar'-te. See ASHTAROTH."
+      "proposed_lead": "as-tar'-te, ASTORETH. See ",
+      "observed_secondary_witness_text": "as-tar'-te. See ASHTAROTH.",
+      "proposed_print_collated_text": "as-tar'-te, ASTORETH. See ASHTAROTH.",
+      "print_source_observation": "Printed p. 295 visibly places ASTORETH after the pronunciation, before 'See Ashtaroth'; exact macrons/breves still pending high-magnification collation.",
+      "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "article_key": "BURNT OFFERING",
@@ -85,14 +89,18 @@
       ],
       "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/patriarchs-testaments-of-the-twelve.html",
       "source_level": "secondary_transcription",
-      "source_image_verified": false,
+      "source_image_verified": true,
       "approved": false,
       "editorial_note": "Independent reproduction gives section IV, 1; proposed TEI link is article-level only pending a verified exact subsection anchor. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
       "proposed_display_labels": {
-        "APOCALYPTIC LITERATURE": "APOCALYPTIC LITERATURE, sec. IV, 1"
+        "APOCALYPTIC LITERATURE": "APOCALYPTIC LITERATURE, IV, 1"
       },
       "proposed_lead": "See ",
-      "observed_secondary_witness_text": "See APOCALYPTIC LITERATURE, sec. IV, 1."
+      "observed_secondary_witness_text": "See APOCALYPTIC LITERATURE, sec. IV, 1.",
+      "proposed_print_collated_text": "See APOCALYPTIC LITERATURE, IV, 1.",
+      "print_source_observation": "Printed p. 2264 omits the invented word 'sec.'; section locator IV, 1 is original.",
+      "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "article_key": "PAUL, VOYAGE AND SHIPWRECK OF",
@@ -165,12 +173,16 @@
       },
       "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/josibiah.html",
       "source_level": "secondary_transcription",
-      "source_image_verified": false,
+      "source_image_verified": true,
       "approved": false,
       "editorial_note": "Secondary witness attests pronunciation jos-i-bi'-a followed by See JOSHIBIAH; the synthetic preview omits pronunciation, so remains unapproved and not a historical transcription. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
-      "proposed_lead": "jos-i-bi'-a. See ",
-      "observed_secondary_witness_text": "jos-i-bi'-a. See JOSHIBIAH."
+      "proposed_lead": "jos-i-bi'a. See ",
+      "observed_secondary_witness_text": "jos-i-bi'-a. See JOSHIBIAH.",
+      "proposed_print_collated_text": "jos-i-bi'a. See JOSHIBIAH.",
+      "print_source_observation": "Printed p. 1753 uses jos-i-bi'a, not the secondary site's jos-i-bi'-a; punctuation checked visually.",
+      "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     }
   ],
-  "research_checkpoint": "11/11 short redirect text units reproduced as explicitly noncanonical secondary witness specimens, preserving five headword pronunciations and two original section-level labels. No approval to promote without independent printed-page inspection."
+  "research_checkpoint": "Three of eleven secondary redirect previews corrected from primary 1915 printed facsimile page evidence. All 11 still unapproved as canonical publication text; some diacritics unresolved."
 }
