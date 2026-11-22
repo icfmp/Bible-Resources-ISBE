@@ -336,6 +336,12 @@
       "occurrences": 1
     },
     {
+      "original": "BACK",
+      "resolved_to": "BACK, BACK PARTS",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "BAHARUMITE",
       "resolved_to": "BAHARUMITE; BARHUMITE",
       "rule": "explicit_semicolon_title_alias",
@@ -388,6 +394,12 @@
       "resolved_to": "BIBLE, THE",
       "rule": "inverted_definite_article",
       "occurrences": 8
+    },
+    {
+      "original": "BILL",
+      "resolved_to": "BILL, BOND, ETC.",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
     },
     {
       "original": "BIND",
@@ -570,6 +582,12 @@
       "occurrences": 1
     },
     {
+      "original": "CHESTNUT",
+      "resolved_to": "CHESTNUT, TREE",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "CHEW",
       "resolved_to": "CHEW; CUD",
       "rule": "explicit_semicolon_title_alias",
@@ -598,6 +616,12 @@
       "resolved_to": "CHOOSE; CHOSEN",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 3
+    },
+    {
+      "original": "CHRIST AS KING",
+      "resolved_to": "CHRIST AS KING, PRIEST, PROPHET",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
     },
     {
       "original": "CISTERN",
@@ -640,6 +664,12 @@
       "resolved_to": "COLOR; COLORS",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 14
+    },
+    {
+      "original": "COLOSSIANS",
+      "resolved_to": "COLOSSIANS, EPISTLE TO THE",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
     },
     {
       "original": "COLT",
@@ -820,6 +850,12 @@
       "resolved_to": "DEMON; DEMONIAC; DEMONOLOGY",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 1
+    },
+    {
+      "original": "DEUTERO-CANONICAL",
+      "resolved_to": "DEUTERO-CANONICAL, BOOKS",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
     },
     {
       "original": "DIANA",
@@ -1308,6 +1344,12 @@
       "occurrences": 1
     },
     {
+      "original": "LAST TIME",
+      "resolved_to": "LAST TIME, TIMES",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
+    },
+    {
       "original": "LAW",
       "resolved_to": "LEVIRATE; LAW",
       "rule": "explicit_semicolon_title_alias",
@@ -1414,6 +1456,12 @@
       "resolved_to": "MARKET; MARKETPLACE; MART",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 1
+    },
+    {
+      "original": "MEALS",
+      "resolved_to": "MEALS, MEAL-TIME",
+      "rule": "reviewed_title_alias",
+      "occurrences": 4
     },
     {
       "original": "MEASURE",
@@ -1560,6 +1608,12 @@
       "occurrences": 1
     },
     {
+      "original": "PARAN",
+      "resolved_to": "PARAN, EL-PARAN",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "PASTURE",
       "resolved_to": "PASTURAGE; PASTURE",
       "rule": "explicit_semicolon_title_alias",
@@ -1666,6 +1720,12 @@
       "resolved_to": "PROPHECY; PROPHETS",
       "rule": "explicit_semicolon_title_alias",
       "occurrences": 1
+    },
+    {
+      "original": "PROVERBS",
+      "resolved_to": "PROVERBS, THE BOOK OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 2
     },
     {
       "original": "PRUDENCE",
@@ -1815,6 +1875,12 @@
       "original": "SHEEPCOTE",
       "resolved_to": "SHEEPCOTE; SHEEPFOLD",
       "rule": "explicit_semicolon_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "SHERGHAT",
+      "resolved_to": "SHERGHAT, ASSHUR, ASSUR",
+      "rule": "reviewed_title_alias",
       "occurrences": 1
     },
     {
@@ -1968,6 +2034,18 @@
       "occurrences": 1
     },
     {
+      "original": "SUSANNA",
+      "resolved_to": "SUSANNA, THE HISTORY OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "SYCAMINE",
+      "resolved_to": "SYCAMINE, TREE",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "SYRIAN",
       "resolved_to": "SYRIAN; LANGUAGE",
       "rule": "explicit_semicolon_title_alias",
@@ -2028,6 +2106,12 @@
       "occurrences": 1
     },
     {
+      "original": "THORNS",
+      "resolved_to": "THORNS, THISTLES, ETC.",
+      "rule": "reviewed_title_alias",
+      "occurrences": 4
+    },
+    {
       "original": "THRESHING-FLOOR.",
       "resolved_to": "THRESHING-FLOOR",
       "rule": "terminal_period",
@@ -2076,6 +2160,12 @@
       "occurrences": 2
     },
     {
+      "original": "VALE",
+      "resolved_to": "VALE, VALLEY",
+      "rule": "reviewed_title_alias",
+      "occurrences": 3
+    },
+    {
       "original": "WAR",
       "resolved_to": "WAR; WARFARE",
       "rule": "explicit_semicolon_title_alias",
@@ -2112,6 +2202,12 @@
       "occurrences": 1
     },
     {
+      "original": "WRATH",
+      "resolved_to": "WRATH, (ANGER)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 4
+    },
+    {
       "original": "ZAANANNIM",
       "resolved_to": "ZAANANNIM; PLAIN OR OAK OF",
       "rule": "explicit_semicolon_title_alias",
@@ -2124,7 +2220,7 @@
       "occurrences": 1
     }
   ],
-  "resolved_variant_occurrences": 713,
+  "resolved_variant_occurrences": 743,
   "resolved_local_section_links": [
     {
       "article_key": "ACCOMMODATION",
@@ -3043,11 +3139,6 @@
       "occurrences": 1
     },
     {
-      "original": "BACK",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "BANIAS",
       "reason": "not_found",
       "occurrences": 1
@@ -3099,11 +3190,6 @@
     },
     {
       "original": "BETHUEL; CHESIL",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "BILL",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -3173,27 +3259,12 @@
       "occurrences": 1
     },
     {
-      "original": "CHESTNUT",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "CHRIST",
       "reason": "not_found",
       "occurrences": 1
     },
     {
-      "original": "CHRIST AS KING",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "CLOUD, II, 2",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "COLOSSIANS",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -3306,11 +3377,6 @@
       "original": "DEMON, DEMONOLOGY",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "DEUTERO-CANONICAL",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "DRY",
@@ -3713,11 +3779,6 @@
       "occurrences": 1
     },
     {
-      "original": "LAST TIME",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "LITERATURE",
       "reason": "not_found",
       "occurrences": 15
@@ -3756,11 +3817,6 @@
       "original": "MANASSEH",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "MEALS",
-      "reason": "not_found",
-      "occurrences": 4
     },
     {
       "original": "MEALS; TRICLINIUM",
@@ -3918,11 +3974,6 @@
       "occurrences": 2
     },
     {
-      "original": "PARAN",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "PARTITION",
       "reason": "not_found",
       "occurrences": 1
@@ -4001,11 +4052,6 @@
       "original": "PROPHET",
       "reason": "not_found",
       "occurrences": 3
-    },
-    {
-      "original": "PROVERBS",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "PSALMS",
@@ -4118,11 +4164,6 @@
       "occurrences": 2
     },
     {
-      "original": "SHERGHAT",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "SHEW",
       "reason": "not_found",
       "occurrences": 1
@@ -4176,16 +4217,6 @@
       "original": "SUCCOTH",
       "reason": "not_found",
       "occurrences": 2
-    },
-    {
-      "original": "SUSANNA",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "SYCAMINE",
-      "reason": "not_found",
-      "occurrences": 1
     },
     {
       "original": "SYCOMORE",
@@ -4253,11 +4284,6 @@
       "occurrences": 1
     },
     {
-      "original": "THORNS",
-      "reason": "not_found",
-      "occurrences": 4
-    },
-    {
       "original": "TO",
       "reason": "not_found",
       "occurrences": 1
@@ -4306,11 +4332,6 @@
       "original": "V. THE PURPOSE",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "VALE",
-      "reason": "not_found",
-      "occurrences": 3
     },
     {
       "original": "VALE OF ESHCOL",
@@ -4378,11 +4399,6 @@
       "occurrences": 5
     },
     {
-      "original": "WRATH",
-      "reason": "not_found",
-      "occurrences": 4
-    },
-    {
       "original": "YHWH",
       "reason": "not_found",
       "occurrences": 1
@@ -4440,7 +4456,6 @@
     "MANASSEH": 1,
     "TALISMAN": 1,
     "ADRAMMELECH": 2,
-    "WRATH": 4,
     "SIMEON": 3,
     "ALOROS": 1,
     "ALAPAROS": 1,
@@ -4452,8 +4467,6 @@
     "AMEMPSINOS": 1,
     "OTIARTES": 1,
     "LITERATURE": 15,
-    "DEUTERO-CANONICAL": 2,
-    "COLOSSIANS": 1,
     "CORINTHIANS": 1,
     "TAPPUAH": 1,
     "SHEBA": 3,
@@ -4461,13 +4474,11 @@
     "AR": 2,
     "ARGOB": 3,
     "ALTAR HEARTH": 1,
-    "CHRIST AS KING": 1,
     "PROPHET": 3,
     "BITHYNIARCH": 1,
     "CARIARCH": 1,
     "SYRIARCH": 1,
     "FEASTS": 3,
-    "SHERGHAT": 1,
     "GOLDEN": 1,
     "EARTH, VAULT OF": 1,
     "CREATION; GOD": 1,
@@ -4481,11 +4492,9 @@
     "BABYLON": 3,
     "JONATHAN": 5,
     "NICANOR": 1,
-    "BACK": 1,
     "CAESAREA, PHILIPPI": 1,
     "BANIAS": 1,
     "ENSIGN, STANDARDS": 1,
-    "MEALS": 4,
     "SYMPOSIUM": 1,
     "MEALS; TRICLINIUM": 1,
     "BAPTISM; FIRE": 1,
@@ -4499,7 +4508,6 @@
     "BETH": 1,
     "GOLD (BEATEN)": 1,
     "JUBILEE": 2,
-    "SUSANNA": 1,
     "BELA (2)": 1,
     "ANTICHRIST; MAN OF SIN": 1,
     "CRAFTS, II": 1,
@@ -4510,20 +4518,16 @@
     "BETHUEL; CHESIL": 1,
     "BURIAL, IV": 1,
     "RIVER, THE": 1,
-    "PROVERBS": 2,
     "BECHER 1": 1,
     "AVEN; BETH-EDEN": 1,
     "PETER": 1,
     "ADULTERY (2)": 2,
     "BOIL": 2,
     "BAR": 1,
-    "BILL": 1,
     "ROLL": 4,
     "JUDGMENT": 3,
     "LAST": 1,
     "FEASTS AND FASTS, I, 2": 1,
-    "SYCAMINE": 1,
-    "THORNS": 4,
     "DB": 1,
     "BROTHERLY KINDNESS (LOVE)": 1,
     "BABEL, BABYLON": 2,
@@ -4534,7 +4538,6 @@
     "GAD": 1,
     "TEMPLE, II, 4": 1,
     "ERI-AKU, 4": 1,
-    "CHESTNUT": 1,
     "BRIDE-CHAMBER, SONS": 1,
     "PAUL": 4,
     "JUDGES": 2,
@@ -4552,12 +4555,10 @@
     "CHERUBIM": 1,
     "ASTROLOGY 14": 1,
     "STIGMATA, MARK": 1,
-    "VALE": 3,
     "ANTIOCH": 1,
     "ARMS, III": 1,
     "DAY OF THE LORD": 6,
     "OF THE OLD TESTAMENT AND NEW TESTAMENT": 1,
-    "LAST TIME": 2,
     "JORDAN, VALLEY OF": 1,
     "DECEASE": 2,
     "AUGURY, IV, 3": 1,
@@ -4587,7 +4588,6 @@
     "SUCCOTH": 2,
     "EGYPTIAN KINGS": 1,
     "EGYPT, III": 1,
-    "PARAN": 1,
     "IV. COGNATE AND ILLUSTRATIVE BIBLICAL LANGUANGE": 1,
     "BUYING, IV": 1,
     "VI. LITERATURE": 1,
@@ -4733,8 +4733,27 @@
     "PERSIAN RELIGION": 2,
     "ZIPH": 1
   },
-  "unresolved_link_occurrences": 537,
+  "unresolved_link_occurrences": 507,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5542,
-  "xml_id_uniqueness": "validated"
+  "resolved_internal_links_validated": 5572,
+  "xml_id_uniqueness": "validated",
+  "reviewed_title_alias_count": 16,
+  "reviewed_title_aliases_used": [
+    "BACK",
+    "BILL",
+    "CHESTNUT",
+    "CHRIST AS KING",
+    "COLOSSIANS",
+    "DEUTERO-CANONICAL",
+    "LAST TIME",
+    "MEALS",
+    "PARAN",
+    "PROVERBS",
+    "SHERGHAT",
+    "SUSANNA",
+    "SYCAMINE",
+    "THORNS",
+    "VALE",
+    "WRATH"
+  ]
 }
