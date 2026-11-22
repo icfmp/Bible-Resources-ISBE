@@ -37,7 +37,7 @@ def preview(source,manifest_path,destination,report_path):
     articles={a.get("n"):a for a in body}
     if len(articles)!=9380:
         raise ValueError("Unexpected article coverage")
-    originals={key:(article_text(article),[n.get(XMLID) for n in article.iter()])
+    originals={key:(article_text(article),[n.get(XMLID) for n in article.iter() if n.get(XMLID)])
                for key,article in articles.items()}
     ids={n.get(XMLID) for a in articles.values() for n in a.iter()}
     # The canonical P5 has source-backed bibliography wrapper divisions with no ID.
