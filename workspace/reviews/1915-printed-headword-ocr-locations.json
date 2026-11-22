@@ -50,7 +50,12 @@
       "ocr_heading_score": 4,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visually_verified_heading": true,
+      "visual_heading_page_1_based": 192,
+      "visual_print_folio_page": 160,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "ASTARTE; ASTORETH",
@@ -77,7 +82,12 @@
       "ocr_heading_score": 5,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visually_verified_heading": true,
+      "visual_heading_page_1_based": 458,
+      "visual_print_folio_page": 424,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "BURNT OFFERING",
@@ -184,7 +194,12 @@
       "ocr_heading_score": 4,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visually_verified_heading": true,
+      "visual_heading_page_1_based": 699,
+      "visual_print_folio_page": 1342,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "HEMDAN",
@@ -195,7 +210,12 @@
       "ocr_heading_score": 4,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visually_verified_heading": true,
+      "visual_heading_page_1_based": 731,
+      "visual_print_folio_page": 1374,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "ITHLAH",
@@ -238,7 +258,12 @@
       "ocr_heading_score": 4,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visually_verified_heading": true,
+      "visual_heading_page_1_based": 624,
+      "visual_print_folio_page": 1980,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "MANKIND",
@@ -249,7 +274,12 @@
       "ocr_heading_score": 4,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visually_verified_heading": true,
+      "visual_heading_page_1_based": 626,
+      "visual_print_folio_page": 1982,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "MARKET, SHEEP",
@@ -340,7 +370,12 @@
       "ocr_heading_score": 4,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visually_verified_heading": true,
+      "visual_heading_page_1_based": 618,
+      "visual_print_folio_page": 2700,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "SEPHARVITES",
@@ -367,7 +402,12 @@
       "ocr_heading_score": 5,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visually_verified_heading": true,
+      "visual_heading_page_1_based": 663,
+      "visual_print_folio_page": 2743,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "SHALLUN",
@@ -378,7 +418,12 @@
       "ocr_heading_score": 4,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visually_verified_heading": true,
+      "visual_heading_page_1_based": 667,
+      "visual_print_folio_page": 2747,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     },
     {
       "source_key": "STANDING",
@@ -453,11 +498,16 @@
       "ocr_heading_score": 4,
       "evidence_status": "strong_ocr_heading_candidate",
       "page_image_visually_reviewed": false,
-      "original_1915_wording_approved": false
+      "original_1915_wording_approved": false,
+      "visually_verified_heading": true,
+      "visual_heading_page_1_based": 169,
+      "visual_print_folio_page": 2973,
+      "visual_evidence_ledger": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_witness_excerpt_certified": false
     }
   ],
-  "primary_print_page_visual_checks": 21,
+  "primary_print_page_visual_checks": 31,
   "ocr_unlocated_keys_resolved_by_original_print_visual_inspection": 6,
   "located_heading_evidence_total": 31,
-  "explanation": "25 strict OCR heading candidates plus six direct visual-only matches: all 31 original titles geographically located; 21/31 have visible source-page review, 10 pending."
+  "explanation": "All 31 original source-empty entries have actual printed page image visual observation; 25 strict OCR candidates plus six visually found titles, 30 distinct original printed pages. No article fully certified as exact scholarly text."
 }
