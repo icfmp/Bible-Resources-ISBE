@@ -3,44 +3,9 @@
   "description": "Reviewed navigation aliases grounded in the original CrossWire article headings. Never change source wording.",
   "mappings": [
     {
-      "source_target": "WRATH",
-      "destination_article": "WRATH, (ANGER)",
-      "basis": "The article heading explicitly identifies wrath with anger."
-    },
-    {
-      "source_target": "DEUTERO-CANONICAL",
-      "destination_article": "DEUTERO-CANONICAL, BOOKS",
-      "basis": "The heading expands the named subject to its books; confirmed by the Antilegomena reference."
-    },
-    {
-      "source_target": "COLOSSIANS",
-      "destination_article": "COLOSSIANS, EPISTLE TO THE",
-      "basis": "The original reference occurs in an epistle discussion and names the same New Testament epistle."
-    },
-    {
-      "source_target": "CHRIST AS KING",
-      "destination_article": "CHRIST AS KING, PRIEST, PROPHET",
-      "basis": "The full article heading explicitly includes Christ's kingship."
-    },
-    {
       "source_target": "BACK",
       "destination_article": "BACK, BACK PARTS",
       "basis": "The subject BACK appears verbatim as the first heading component; the redirect is from BACKSIDE."
-    },
-    {
-      "source_target": "MEALS",
-      "destination_article": "MEALS, MEAL-TIME",
-      "basis": "Both heading components denote the meals discussed by the referring articles."
-    },
-    {
-      "source_target": "SUSANNA",
-      "destination_article": "SUSANNA, THE HISTORY OF",
-      "basis": "The reference is to the Apocryphal addition to Daniel, the subject of the named article."
-    },
-    {
-      "source_target": "PROVERBS",
-      "destination_article": "PROVERBS, THE BOOK OF",
-      "basis": "The cited subject is the biblical Book of Proverbs."
     },
     {
       "source_target": "BILL",
@@ -48,29 +13,89 @@
       "basis": "The heading explicitly names a bill, and the referring article concerns bonds."
     },
     {
-      "source_target": "SYCAMINE",
-      "destination_article": "SYCAMINE, TREE",
-      "basis": "The headword is a tree name; the original BOTANY reference concerns that plant."
-    },
-    {
-      "source_target": "THORNS",
-      "destination_article": "THORNS, THISTLES, ETC.",
-      "basis": "THORNS is the verbatim first heading and thistles are a related category."
-    },
-    {
       "source_target": "CHESTNUT",
       "destination_article": "CHESTNUT, TREE",
       "basis": "The article is about the tree; the referring CHESNUT entry is an alternate spelling."
     },
     {
-      "source_target": "PARAN",
-      "destination_article": "PARAN, EL-PARAN",
-      "basis": "The heading explicitly includes the same place-name and its EL-PARAN form."
+      "source_target": "CHRIST AS KING",
+      "destination_article": "CHRIST AS KING, PRIEST, PROPHET",
+      "basis": "The full article heading explicitly includes Christ's kingship."
     },
     {
-      "source_target": "VALE",
-      "destination_article": "VALE, VALLEY",
-      "basis": "The two heading components are equivalent geographical terms."
+      "source_target": "COLOSSIANS",
+      "destination_article": "COLOSSIANS, EPISTLE TO THE",
+      "basis": "The original reference occurs in an epistle discussion and names the same New Testament epistle."
+    },
+    {
+      "source_target": "DAY OF THE LORD",
+      "destination_article": "DAY OF THE LORD (YAHWEH)",
+      "basis": "The full source heading supplies YAHWEH as a parenthetical equivalent of LORD; six source cross-references all name the same theological day."
+    },
+    {
+      "source_target": "DEUTERO-CANONICAL",
+      "destination_article": "DEUTERO-CANONICAL, BOOKS",
+      "basis": "The heading expands the named subject to its books; confirmed by the Antilegomena reference."
+    },
+    {
+      "source_target": "ECCLESIASTES",
+      "destination_article": "ECCLESIASTES, THE PREACHER",
+      "basis": "KOHELETH points to the biblical book Ecclesiastes, identified as the Preacher in the indexed heading."
+    },
+    {
+      "source_target": "FAN",
+      "destination_article": "FAN, FANNER",
+      "basis": "WINNOWING references the threshing fan and fanner, the subject of the original combined heading."
+    },
+    {
+      "source_target": "GERIZIM",
+      "destination_article": "GERIZIM, MOUNT",
+      "basis": "The source cross-references concern Mount Gerizim, the unique relevant indexed heading."
+    },
+    {
+      "source_target": "HACHILAH",
+      "destination_article": "HACHILAH, HILL OF",
+      "basis": "The source reference from GIBEATH explicitly identifies Gibeath ha-Hachilah, a hill, matching the original indexed heading."
+    },
+    {
+      "source_target": "HAMMEAH",
+      "destination_article": "HAMMEAH, THE TOWER OF",
+      "basis": "References from MEAH and HANANEL and Jerusalem's wall designate the named Tower of Hammeah in Nehemiah."
+    },
+    {
+      "source_target": "HANANEL",
+      "destination_article": "HANANEL, THE TOWER OF",
+      "basis": "The referenced Hananel is the named tower beside the Tower of Hammeah, also present in Nehemiah."
+    },
+    {
+      "source_target": "HEAVENS, NEW",
+      "destination_article": "HEAVENS, NEW (AND EARTH, NEW)",
+      "basis": "The source reference under EARTH, THE NEW names the corresponding eschatological topic in the indexed combined heading."
+    },
+    {
+      "source_target": "ISHUAI",
+      "destination_article": "ISHUAI, ISHUI",
+      "basis": "The original cross-reference names the personal-name form Ishuai, explicitly paired with Ishui in the indexed heading."
+    },
+    {
+      "source_target": "JASHAR",
+      "destination_article": "JASHAR, BOOK OF",
+      "basis": "The source cross-references are to the biblical Book of Jashar, explicitly named in the existing heading."
+    },
+    {
+      "source_target": "JEW",
+      "destination_article": "JEW, JEWESS, JEWISH",
+      "basis": "The source redirect JEWS refers to the general entry covering Jews, Jewesses and the adjective Jewish."
+    },
+    {
+      "source_target": "KINGDOM OF GOD",
+      "destination_article": "KINGDOM OF GOD (OF HEAVEN), THE",
+      "basis": "The source heading explicitly equates Kingdom of God and Kingdom of Heaven; the reference names that same subject."
+    },
+    {
+      "source_target": "LAMENTATIONS",
+      "destination_article": "LAMENTATIONS, BOOK OF",
+      "basis": "The cross-references discuss the biblical Lamentations, for which the indexed work is LAMENTATIONS, BOOK OF."
     },
     {
       "source_target": "LAST TIME",
@@ -78,9 +103,144 @@
       "basis": "The heading explicitly includes singular and plural forms of the same temporal topic."
     },
     {
+      "source_target": "MEALS",
+      "destination_article": "MEALS, MEAL-TIME",
+      "basis": "Both heading components denote the meals discussed by the referring articles."
+    },
+    {
+      "source_target": "MEMMIUS",
+      "destination_article": "MEMMIUS, QUINTUS",
+      "basis": "The source reference identifies the same named person whose forename is supplied in the full heading."
+    },
+    {
+      "source_target": "MENE",
+      "destination_article": "MENE, MENE, TEKEL, UPHARSIN",
+      "basis": "The source reference names the first word of the inscription whose full wording forms the existing headword."
+    },
+    {
+      "source_target": "MEONENIM",
+      "destination_article": "MEONENIM, OAK OF",
+      "basis": "The source reference from MOREH, OAK OF names the same oak-place toponym described in the indexed heading."
+    },
+    {
+      "source_target": "NEAR",
+      "destination_article": "NEAR, NIGH",
+      "basis": "The redirect NIGH points to the paired English equivalents NEAR and NIGH in the original source heading."
+    },
+    {
+      "source_target": "PALAESTRA",
+      "destination_article": "PALAESTRA, PALESTRA",
+      "basis": "The original indexed heading pairs alternative spellings of the same Greek exercise-ground term."
+    },
+    {
+      "source_target": "PALLU",
+      "destination_article": "PALLU, PALLUITES",
+      "basis": "The heading expressly includes PALLU and the derived PALLUITES; source passages name the person and descendants."
+    },
+    {
+      "source_target": "PARAN",
+      "destination_article": "PARAN, EL-PARAN",
+      "basis": "The heading explicitly includes the same place-name and its EL-PARAN form."
+    },
+    {
+      "source_target": "PERSIAN RELIGION",
+      "destination_article": "PERSIAN RELIGION (ANCIENT)",
+      "basis": "ZEND-AVESTA and ZOROASTRIANISM explicitly refer to the ancient Persian religion covered by the only matching indexed article."
+    },
+    {
+      "source_target": "PHILIPPIANS",
+      "destination_article": "PHILIPPIANS, THE EPISTLE TO THE",
+      "basis": "The source reference in PHILEMON concerns Paul's epistle to the Philippians, exactly the existing full heading."
+    },
+    {
+      "source_target": "PROVERBS",
+      "destination_article": "PROVERBS, THE BOOK OF",
+      "basis": "The cited subject is the biblical Book of Proverbs."
+    },
+    {
+      "source_target": "PSALMS",
+      "destination_article": "PSALMS, BOOK OF",
+      "basis": "The source contexts refer to the biblical Book of Psalms, its headings and authorship, not the narrower separate heading PSALMS, IMPRECATORY."
+    },
+    {
+      "source_target": "ROLL",
+      "destination_article": "ROLL (SCROLL)",
+      "basis": "The CrossWire headword explicitly identifies the roll with the scroll; the references occur in discussions of manuscripts and books."
+    },
+    {
+      "source_target": "SHEPHUPHAM",
+      "destination_article": "SHEPHUPHAM, SHEPHUPHAN",
+      "basis": "The source heading expressly identifies both Hebrew personal-name spellings as one topic."
+    },
+    {
       "source_target": "SHERGHAT",
       "destination_article": "SHERGHAT, ASSHUR, ASSUR",
       "basis": "The article heading identifies alternative names of the same archaeological site."
+    },
+    {
+      "source_target": "SHEW",
+      "destination_article": "SHEW, SHOW",
+      "basis": "The original title explicitly presents two spellings of the same English word."
+    },
+    {
+      "source_target": "SIDDIM",
+      "destination_article": "SIDDIM, VALE OF",
+      "basis": "The original references concern the vale of Siddim, and the full heading explicitly describes the location."
+    },
+    {
+      "source_target": "SIRACH",
+      "destination_article": "SIRACH, BOOK OF",
+      "basis": "ECCLESIASTICUS, WISDOM OF JESUS and JESUS point to the source encyclopedia article on the book of Sirach, rather than its separate alphabet topic."
+    },
+    {
+      "source_target": "SUSANNA",
+      "destination_article": "SUSANNA, THE HISTORY OF",
+      "basis": "The reference is to the Apocryphal addition to Daniel, the subject of the named article."
+    },
+    {
+      "source_target": "SYCAMINE",
+      "destination_article": "SYCAMINE, TREE",
+      "basis": "The headword is a tree name; the original BOTANY reference concerns that plant."
+    },
+    {
+      "source_target": "SYCOMORE",
+      "destination_article": "SYCOMORE, TREE",
+      "basis": "The references concern the sycomore tree and its alternate spelling sycamore, exactly the subject of the indexed heading."
+    },
+    {
+      "source_target": "THORNS",
+      "destination_article": "THORNS, THISTLES, ETC.",
+      "basis": "THORNS is the verbatim first heading and thistles are a related category."
+    },
+    {
+      "source_target": "TOB",
+      "destination_article": "TOB, THE LAND OF",
+      "basis": "The source cross-references from TUBIAS and TUBIENI identify the land of Tob."
+    },
+    {
+      "source_target": "VALE",
+      "destination_article": "VALE, VALLEY",
+      "basis": "The two heading components are equivalent geographical terms."
+    },
+    {
+      "source_target": "VILE",
+      "destination_article": "VILE, VILLANY",
+      "basis": "The source redirect from VILLANY names the first member of the original combined heading."
+    },
+    {
+      "source_target": "WEALTH",
+      "destination_article": "WEALTH, WEALTHY",
+      "basis": "The source article PROPERTY references general wealth; the indexed heading explicitly includes WEALTH."
+    },
+    {
+      "source_target": "WIST",
+      "destination_article": "WIST, WITTY, WOT",
+      "basis": "The source redirect WOT points to this grouped English word-form entry, which explicitly includes WIST."
+    },
+    {
+      "source_target": "WRATH",
+      "destination_article": "WRATH, (ANGER)",
+      "basis": "The article heading explicitly identifies wrath with anger."
     }
   ]
 }
