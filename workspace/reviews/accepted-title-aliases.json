@@ -8,6 +8,11 @@
       "basis": "The subject BACK appears verbatim as the first heading component; the redirect is from BACKSIDE."
     },
     {
+      "source_target": "BAPTISM; FIRE",
+      "destination_article": "BAPTISM OF FIRE",
+      "basis": "The source article 'BAPTISM OF FIRE' directs to the same subject under the combined wording 'BAPTISM; FIRE'; its indexed heading is an exact rearrangement of the subject."
+    },
+    {
       "source_target": "BILL",
       "destination_article": "BILL, BOND, ETC.",
       "basis": "The heading explicitly names a bill, and the referring article concerns bonds."
@@ -136,6 +141,11 @@
       "source_target": "HANANEL",
       "destination_article": "HANANEL, THE TOWER OF",
       "basis": "The referenced Hananel is the named tower beside the Tower of Hammeah, also present in Nehemiah."
+    },
+    {
+      "source_target": "HAROD",
+      "destination_article": "HAROD, WELL OF",
+      "basis": "The HARODITE article explicitly mentions the well of Harod; the original indexed heading is HAROD, WELL OF."
     },
     {
       "source_target": "HEAVENS, NEW",
@@ -293,6 +303,11 @@
       "basis": "ZEND-AVESTA and ZOROASTRIANISM explicitly refer to the ancient Persian religion covered by the only matching indexed article."
     },
     {
+      "source_target": "PERSON",
+      "destination_article": "PERSON, PERSONALITY",
+      "basis": "The source entry PERSONALITY consists of the explicit cross-reference 'See PERSON'; the combined headword PERSON, PERSONALITY names precisely that lexical subject."
+    },
+    {
       "source_target": "PHILIPPIANS",
       "destination_article": "PHILIPPIANS, THE EPISTLE TO THE",
       "basis": "The source reference in PHILEMON concerns Paul's epistle to the Philippians, exactly the existing full heading."
@@ -306,6 +321,11 @@
       "source_target": "PSALMS",
       "destination_article": "PSALMS, BOOK OF",
       "basis": "The source contexts refer to the biblical Book of Psalms, its headings and authorship, not the narrower separate heading PSALMS, IMPRECATORY."
+    },
+    {
+      "source_target": "RIVER, THE",
+      "destination_article": "RIVER, THE (GREAT)",
+      "basis": "The BEYOND article describes 'beyond the River' as the biblical river Euphrates, known as the Great River; the indexed headword makes this expansion explicit."
     },
     {
       "source_target": "ROLL",
@@ -507,6 +527,13 @@
       "basis": "MOTION discusses the King James 'motions of sin' (Romans 7:5), meaning passions; the indexed PASSION, PASSIONS heading treats that sense."
     },
     {
+      "source_article": "GOD",
+      "ref_id": "isbe-1f8c16044419c4833371-n000325",
+      "original_target": "COVENANT",
+      "destination_article": "COVENANT, IN THE OLD TESTAMENT",
+      "basis": "The source cites God's covenant with Israel at Genesis 15 and Exodus 6, the Old Testament covenant discussed under this indexed heading."
+    },
+    {
       "source_article": "GAD (1)",
       "ref_id": "isbe-21016d06ae9356b03cfe-n000021",
       "original_target": "NUMBERS",
@@ -561,6 +588,13 @@
       "original_target": "MANASSEH",
       "destination_article": "MANASSEH (3)",
       "basis": "AMON is the king of Judah succeeding his father Manasseh, the king described in MANASSEH (3), not Joseph's son."
+    },
+    {
+      "source_article": "CITY",
+      "ref_id": "isbe-31a5fbc075a79de045a6-n000106",
+      "original_target": "JUDGES",
+      "destination_article": "JUDGE",
+      "basis": "The source discusses urban government and courts with ELDER and SANHEDRIN; the indexed headword JUDGE covers the office, not the biblical Book or Period of Judges."
     },
     {
       "source_article": "CANAAN; CANAANITES",
@@ -739,6 +773,20 @@
       "basis": "COSMOGONY discusses the origin and structure of the physical world, corresponding to the encyclopedic cosmological-world entry."
     },
     {
+      "source_article": "ENOCH, BOOK OF",
+      "ref_id": "isbe-4d0a9896d24ba8d95400-n000005",
+      "original_target": "ETHIOPIC",
+      "destination_article": "ENOCH, ETHIOPIC, BOOK OF",
+      "basis": "The source explicitly says 'see ENOCH, ETHIOPIC, BOOK OF'; the original link selected only the middle word ETHIOPIC."
+    },
+    {
+      "source_article": "ENOCH, BOOK OF",
+      "ref_id": "isbe-4d0a9896d24ba8d95400-n000007",
+      "original_target": "SLAVONIC",
+      "destination_article": "ENOCH, SLAVONIC, BOOK OF",
+      "basis": "The source explicitly says 'see ENOCH, SLAVONIC, BOOK OF'; the original link selected only the middle word SLAVONIC."
+    },
+    {
       "source_article": "HAVVAH",
       "ref_id": "isbe-4f85fdac752eeac4cfa6-n000006",
       "original_target": "EVE",
@@ -752,6 +800,13 @@
       "destination_article": "BETH-SHEMESH",
       "destination_precision": "article_fallback",
       "basis": "The source explicitly describes an inhabitant of Beth-shemesh in Judah. The numbered subentry 1 is not independently anchored; use the exact indexed city article as an article-level fallback without discarding '1'."
+    },
+    {
+      "source_article": "BIND; BOUND",
+      "ref_id": "isbe-51f559cc2a958dd2cca5-n000022",
+      "original_target": "PETER",
+      "destination_article": "PETER, SIMON",
+      "basis": "The binding-and-loosing reference directs to the apostle Simon Peter, named in the indexed headword PETER, SIMON."
     },
     {
       "source_article": "LYDIAN",
