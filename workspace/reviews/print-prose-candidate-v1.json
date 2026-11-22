@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "document_base_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "authority": "1915 Orr / Howard-Severance volume I, independently indexed searchable copy; not yet image-collated",
   "prohibited_canonical_promotion": true,
@@ -141,7 +141,172 @@
       "editorial_notes": "Article prose only; removed HTML navigation, site notices, copyright/footer, bibliographic furniture. Source claims to reproduce Orr 1915 but historical printed page not independently collated.",
       "print_image_reviewed": false,
       "approved": false
+    },
+    {
+      "source_key": "CHORBE",
+      "source_paragraph_id": "isbe-5adc37c1c33ed6b144e4-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/chorbe.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "blocks": [
+        "kor'-be (Chorbe; the King James Version Corbe): Head of a family which returned with Zerubbabel (1 Esdras 5:12). The name apparently corresponds to Zaccai in Ezra 2:9 and Nehemiah 7:14."
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "DEHORT",
+      "source_paragraph_id": "isbe-1d7d2f8f41d3e2f526ed-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/dehort.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "blocks": [
+        "de-hort' (apostrepho; the Revised Version (British and American) DISSUADE): Not found in the English Bible; once only in Apocrypha (1 Macc 9:9). An obsolete English word; the opposite of \"exhort.\" It means \"to dissuade,\" \"to forbid,\" \"to restrain from.\""
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "FROWARDNESS",
+      "source_paragraph_id": "isbe-bb51e96346fee9590908-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/frowardness.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "blocks": [
+        "fro'-werd-nes: The translation of tahpukhoth the plural of tahpukhah, \"perversity,\" \"foolishness\" (from haphakh, \"to turn about\") in Proverbs 2:14, \"delight in the frowardness of the wicked,\" the American Standard Revised Version \"the perverseness of evil,\" margin \"the evil man\" (compare 2:12; some render \"deceit\"); 6:14 the American Standard Revised Version, \"perverseness\"; 10:32, \"the mouth of the wicked speaketh frowardness,\" the American Standard Revised Version \"speaketh perverseness,\" margin \"is.\""
+      ],
+      "editorial_notes": "The web transcript's final sentence ends with the word 'is.'; retained without emendation and flagged for scan validation.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "HEMDAN",
+      "source_paragraph_id": "isbe-37d611bf975263633981-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/hemdan.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "blocks": [
+        "hem'-dan (chemdan, \"pleasant\"): A descendant of Seir, the Horite (Genesis 36:26). Wrongly translated \"Amram\" by the King James Version in 1 Chronicles 1:41 (the Revised Version (British and American) \"Hamran\"), where the transcribers made an error in one vowel and one consonant, writing (chamran), instead of (chemdan)."
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "MANKIND",
+      "source_paragraph_id": "isbe-3da82bda0cddd078bd9b-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/mankind.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "blocks": [
+        "man-kind': In Leviticus 18:22; 20:13, the term is applied to men, as distinguished from women; in Job 12:10, to the human race; in James 3:7, to the human nature."
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "SEPHARVITES",
+      "source_paragraph_id": "isbe-298ae627bc3b471727f1-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/sepharvites.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "blocks": [
+        "se'-far-vits, se-far'-vits> (cepharwim): In 2 Kings 17:31, the inhabitants of SEPHARVAIM (which see), planted by the king of Assyria in Samaria. They continued there to burn their children to their native gods."
+      ],
+      "editorial_notes": "Independent web source has an unexplained '>' after the second pronunciation: preserved verbatim; needs print image confirmation.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "SHALLUN",
+      "source_paragraph_id": "isbe-1b106c8f94e68a2a4df8-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/shallun.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "blocks": [
+        "shal'-un (shallun, not in the Septuagint): Another form of Shallum, the son of Col-hozeh. He was the ruler of the district of Mizpah. He assisted Nehemiah in building the wall of Jerusalem and in repairing the gate by the Pool of Siloah at the King's Gardens (Nehemiah 3:15)."
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "SYCHEM",
+      "source_paragraph_id": "isbe-0916cc3026c11f71caf8-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/sychem.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "blocks": [
+        "si'-kem (Suchem): In this form the name of Shechem appears in Acts 7:16 the King James Version, in the report of Stephen's speech. the King James Version is a transcription from the Greek; the Revised Version (British and American) in accordance with its practice, to give uniformity in the English, follows the Hebrew form of the name given in the Old Testament."
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "TEPHON",
+      "source_paragraph_id": "isbe-f5a022af77e03584a5cc-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/tephon.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "blocks": [
+        "te'-fon (he Tepho): In 1 Macc 9:50, a city of Judea fortified by Bacchides, probably the \"Beth-tappuah\" of Joshua 15:53, near Hebron. Josephus (Ant., XII, i, 3) calls it \"Tochoa.\""
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "THOCANUS",
+      "source_paragraph_id": "isbe-85699a1ae3f034e512e0-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/thocanus.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "blocks": [
+        "tho-ka'-nus (Thokanos, Thokanos; the King James Version Theocanus): The father of Ezekias, who with Jonathan \"took the matter upon them\" in the proceedings under Ezra against foreign wives (1 Esdras 9:14) = \"Tikvah\" in Ezra 10:15."
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
+      "print_image_reviewed": false,
+      "approved": false
+    },
+    {
+      "source_key": "THOMEI",
+      "source_paragraph_id": "isbe-b7e3dc6b67d5e025b90d-n000003",
+      "witness": "https://www.biblestudytools.com/encyclopedias/isbe/thomei.html",
+      "scan_volume": null,
+      "printed_page": null,
+      "scan_page": null,
+      "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
+      "blocks": [
+        "thom'-e-i (Codex Alexandrinus Thomei; Fritzsche Thomoi; Codex Vaticanus and Swete Thomthei; the King James Version, Thomoi): A family name of temple-servants who returned with Zerubbabel (1 Esdras 5:32) = \"Temah\" in Ezra 2:53; Nehemiah 7:55."
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
+      "print_image_reviewed": false,
+      "approved": false
     }
   ],
-  "research_checkpoint": "Nine provisional historical prose entries (three searchable 1915 volume-I witnesses plus six secondary 1915-attributed text transcriptions); original print image comparison pending. No canonical adoption."
+  "research_checkpoint": "All 20 provisional article-text candidates recovered from identified 1915 print text or independent 1915-attributed transcriptions. All 11 historical redirects separately sourced. No original printed page-image verification or editorial approval."
 }
