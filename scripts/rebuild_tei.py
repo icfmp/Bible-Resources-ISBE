@@ -194,6 +194,8 @@ def build(imp):
     resolved_variants = Counter()
     unresolved_details = Counter()
     resolved_local = Counter()
+    resolved_numbered = Counter()
+    articles_by_key = {}
     title_variants = []
     text_chars = 0
     nodes = 0
@@ -213,6 +215,7 @@ def build(imp):
         text_chars += len(original_text)
         aid = ids[key]
         article = ET.SubElement(body, f"{{{TEI}}}div", {"type": "entry", XMLID: aid, "n": key})
+        articles_by_key[key] = article
         heading = ET.SubElement(article, f"{{{TEI}}}head", {XMLID: aid + "-head"})
         heading.text = key
         heading.tail = source.text
@@ -280,6 +283,47 @@ def build(imp):
                          "text_chars": len(original_text),
                          "text_sha256": hashlib.sha256(original_text.encode("utf-8")).hexdigest()})
 
+    # The original ISBE sometimes links to a numbered subsection under an
+    # unnumbered article key, e.g. BETHANY (2) -> BETHANY, paragraph "(2)".
+    # Anchor only a unique, explicitly numbered paragraph in that exact entry.
+    for source_key, source_article in articles_by_key.items():
+        for element in source_article.iter():
+            target = element.get("target", "")
+            if not target.startswith("ISBE:"):
+                continue
+            source_target = target[5:]
+            base, marker_separator, suffix = source_target.rpartition(" (")
+            if not marker_separator or not suffix.endswith(")") or not suffix[:-1].isdigit():
+                continue
+            destination_article = articles_by_key.get(base)
+            if destination_article is None:
+                continue
+            marker = "(" + suffix[:-1] + ")"
+            matches = []
+            for candidate in destination_article.iter():
+                if candidate.tag.split("}")[-1] != "p":
+                    continue
+                # Require the numbered marker at the *start* of the section.
+                label = "".join(candidate.itertext()).lstrip()
+                if label.startswith(marker) and (
+                    len(label) == len(marker) or not label[len(marker)].isalnum()
+                ):
+                    matches.append(candidate.get(XMLID))
+            if len(matches) != 1 or not matches[0]:
+                continue
+            element.set("n", target)
+            element.set("target", "#" + matches[0])
+            missing_refs[source_target] -= 1
+            if not missing_refs[source_target]:
+                del missing_refs[source_target]
+            reason_key = (source_target, "not_found")
+            if unresolved_details[reason_key] <= 0:
+                raise ValueError(f"Unexpected unresolved reason for {source_target}")
+            unresolved_details[reason_key] -= 1
+            if not unresolved_details[reason_key]:
+                del unresolved_details[reason_key]
+            resolved_numbered[(source_key, source_target, base, matches[0])] += 1
+
     report = {"source_entries": len(records), "tei_entries": len(body),
               "indexed_content_nodes": nodes, "source_text_characters": text_chars,
               "other_root_tags": dict(unsupported),
@@ -295,6 +339,14 @@ def build(imp):
                   for (article_key, original, heading_id), count in sorted(resolved_local.items())
               ],
               "resolved_local_section_occurrences": sum(resolved_local.values()),
+              "resolved_numbered_section_links": [
+                  {"article_key": source_key, "original": original,
+                   "target_article": target_article, "paragraph_id": paragraph_id,
+                   "occurrences": count}
+                  for (source_key, original, target_article, paragraph_id), count
+                  in sorted(resolved_numbered.items())
+              ],
+              "resolved_numbered_section_occurrences": sum(resolved_numbered.values()),
               "unresolved_link_diagnostics": [
                   {"original": key, "reason": reason, "occurrences": n}
                   for (key, reason), n in sorted(unresolved_details.items())
