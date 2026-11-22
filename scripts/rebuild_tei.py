@@ -434,7 +434,7 @@ def build(imp):
             if parent is None:
                 continue
             paragraph_text = " ".join("".join(parent.itertext()).split())
-            if not re.search(r"\\bsee\\b", paragraph_text, re.I):
+            if not re.search(r"\bsee\b", paragraph_text, re.I):
                 continue
             element.set("n", target)
             element.set("target", "#" + ids[destination_key])
