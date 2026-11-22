@@ -1,0 +1,27 @@
+{
+  "source_fidelity": "PASS",
+  "candidate_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "official_tei_p5_version": "4.12.0",
+  "official_rng_url": "https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/custom/schema/relaxng/tei_all.rng",
+  "official_rng_sha256": "b0f115095ead2ccc6933aa3365c6f4a82cba3b2ec7eee7f76bb616d7a63b7e48",
+  "official_rng": "PASS (jing run before this check)",
+  "official_schematron_url": "https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/Exemplars/tei_all.isosch",
+  "official_schematron_sha256": "500f231ac32d12827bdbdd4168e88743848656bc46cc83286d39bd1f396113d5",
+  "official_schematron_patterns": 120,
+  "official_schematron": "PASS",
+  "official_schematron_svrl": {
+    "active_patterns": 120,
+    "fired_rules": 175075,
+    "failed_assertions": 0,
+    "successful_reports": 0
+  },
+  "official_schematron_negative_control": {
+    "active_patterns": 120,
+    "fired_rules": 5,
+    "failed_assertions": 0,
+    "successful_reports": 1
+  },
+  "negative_control": "PASS",
+  "historical_witness_and_redistribution": "NOT_VERIFIED",
+  "relax_ng_negative_control": "PASS"
+}

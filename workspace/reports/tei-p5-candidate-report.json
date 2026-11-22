@@ -1,0 +1,29 @@
+{
+  "transformation_version": 1,
+  "source_sha256": "98b07b64019601a8ad1eb13feff5b336c870fd80adfecd670bd9b7e3be7b8575",
+  "candidate_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "article_parity": "PASS",
+  "all_original_nodes_text_attributes_ids_and_order": "PASS",
+  "original_fileDesc_metadata": "PASS",
+  "source_index_text_sha256_all_articles": "PASS",
+  "serialized_profile_check": "PASS",
+  "official_tei_schema_validation": "NOT_PERFORMED",
+  "source_inventory": {
+    "articles": 9380,
+    "internal_refs": 5906,
+    "scripture_refs": 93162,
+    "unlinked_refs": 144,
+    "bibliography_heads": 27,
+    "existing_xml_ids": 185657,
+    "bibliography_leads": 2,
+    "source_links": 6079
+  },
+  "transformation_counts": {
+    "internal_refs": 5906,
+    "bibliography_wrappers": 29,
+    "articles": 9380,
+    "scripture_refs": 93162,
+    "bibliography_leads": 2
+  },
+  "bibliography_wrappers": 29
+}
