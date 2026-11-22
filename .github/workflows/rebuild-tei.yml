@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - .github/workflows/rebuild-tei.yml
+      - scripts/rebuild_tei.py
 permissions:
   contents: write
 jobs:
