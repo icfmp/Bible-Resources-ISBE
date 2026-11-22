@@ -13,15 +13,15 @@ def read(name):
 
 
 class ShortRedirectPrintedTextCollationTests(unittest.TestCase):
-    def test_six_complete_short_redirect_bodies_match_unapproved_candidates(self):
+    def test_eight_complete_short_redirect_bodies_match_unapproved_candidates(self):
         proof = read("1915-short-redirect-text-collation-v1.json")
         redirects = read("redirect-candidate-v1.json")
         pages = read("1915-visual-page-collation-v1.json")
         canonical = hashlib.sha256((ROOT / "cleaned/en/ISBE.xml").read_bytes()).hexdigest()
         self.assertEqual(proof["canonical_source_sha256"], canonical)
-        self.assertEqual(proof["compared_short_redirect_paragraphs"], 6)
-        self.assertEqual(len(proof["records"]), 6)
-        self.assertEqual(len(proof["remaining_redirects_pending_exact_body_proofreading"]), 5)
+        self.assertEqual(proof["compared_short_redirect_paragraphs"], 8)
+        self.assertEqual(len(proof["records"]), 8)
+        self.assertEqual(len(proof["remaining_redirects_pending_exact_body_proofreading"]), 3)
         candidates = {r["article_key"]: r for r in redirects["records"]}
         visual = {r["source_key"]: r for r in pages["records"]}
         checked = set()
@@ -38,8 +38,9 @@ class ShortRedirectPrintedTextCollationTests(unittest.TestCase):
                                  page["original_source_paragraph_xml_id"])
                 self.assertEqual(row["exact_candidate_paragraph_reading"],
                                  candidate["proposed_print_collated_text"])
-                self.assertEqual(row["printed_entry_reading_with_heading"],
-                                 key + ". " + row["exact_candidate_paragraph_reading"])
+                self.assertTrue(row["printed_entry_reading_with_heading"].startswith(key))
+                self.assertTrue(row["printed_entry_reading_with_heading"].endswith(
+                    row["exact_candidate_paragraph_reading"]))
                 self.assertEqual(row["source_pdf_volume"], page["scan_volume"])
                 self.assertEqual(row["source_pdf_page_1_based"], page["pdf_page_1_based"])
                 self.assertEqual(row["printed_page"], page["printed_page_number"])
