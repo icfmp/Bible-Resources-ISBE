@@ -107,6 +107,7 @@ def build(imp):
         probe = ET.Element("probe")
         probe.text = heading.tail
         for child in list(article)[1:]:
+            article.remove(child)
             probe.append(child)
         if "".join(probe.itertext()) != original_text:
             raise ValueError(f"Text mismatch after normalization: {key}")
