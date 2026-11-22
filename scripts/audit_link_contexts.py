@@ -143,6 +143,9 @@ def scan(path):
                         "ref_id": ref.get(XMLID),
                         "original_target": target,
                         "candidate": positive[0]["article_key"],
+                        "candidate_article_excerpt": " ".join(
+                            "".join(article_by_key[positive[0]["article_key"]].itertext()).split()
+                        )[:900],
                         "exclusive_common_refs": positive[0]["shared_osis_refs"],
                         "all_candidate_scores": [
                             {"article": item["article_key"], "common": len(item["shared_osis_refs"])}
