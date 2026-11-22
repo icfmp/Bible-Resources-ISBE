@@ -43,6 +43,30 @@ class PrintedPageCollationTests(unittest.TestCase):
                 self.assertEqual(len(row["rendered_jpeg_sha256"]),64)
                 self.assertTrue(row["observed_print_fact"].strip())
 
+    def test_six_ocr_misses_now_have_source_image_verified_print_locations(self):
+        mapping=json.loads((ROOT/"workspace/reviews/1915-printed-headword-ocr-locations.json").read_text(encoding="utf-8"))
+        by_key={row["source_key"]:row for row in mapping["cases"]}
+        expected={
+            "ASTARTE; ASTORETH":(1,329,295),
+            "CHORBE":(1,654,614),
+            "JOSIBIAH":(3,393,1753),
+            "PATRIARCHS, TESTAMENTS OF THE TWELVE":(4,176,2264),
+            "REGENERATION, BAPTISMAL":(4,466,2550),
+            "THOCANUS":(5,169,2973),
+        }
+        self.assertEqual(mapping["located_heading_evidence_total"],31)
+        self.assertEqual(mapping["ocr_unlocated_keys_resolved_by_original_print_visual_inspection"],6)
+        self.assertEqual(mapping["strict_ocr_locations_found"],25)
+        for key,(volume,pdf_page,folio) in expected.items():
+            with self.subTest(key=key):
+                row=by_key[key]
+                self.assertIsNone(row["pdf_page_1_based"])
+                self.assertTrue(row["visually_verified_heading"])
+                self.assertEqual(row["expected_print_volume"],str(volume))
+                self.assertEqual(row["visual_heading_page_1_based"],pdf_page)
+                self.assertEqual(row["visual_print_folio_page"],folio)
+                self.assertFalse(row["print_witness_excerpt_certified"])
+
     def test_recovered_candidates_apply_only_reversible_print_observations(self):
         redirects=json.loads((ROOT/"workspace/reviews/redirect-candidate-v1.json").read_text(encoding="utf-8"))
         prose=json.loads((ROOT/"workspace/reviews/print-prose-candidate-v1.json").read_text(encoding="utf-8"))
