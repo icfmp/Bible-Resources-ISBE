@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 1323,
-  "unresolved_distinct_targets": 725,
+  "unresolved_occurrences": 1231,
+  "unresolved_distinct_targets": 675,
   "categories_by_occurrence": {
     "article_section_label": 112,
-    "multiple_numbered_entries": 173,
+    "multiple_numbered_entries": 156,
     "single_numbered_entry_candidate": 9,
-    "unmatched_heading_or_alias": 1029
+    "unmatched_heading_or_alias": 954
   },
   "review_queue": [
     {
@@ -56,16 +56,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ABI",
-      "occurrences": 3,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ABI (1)",
-        "ABI (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -131,13 +121,6 @@
     },
     {
       "source_target": "ADAM IN THE NEW TESTAMENT; FALL, THE",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ADINU",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -443,13 +426,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "ARMOR, ARMS",
-      "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "ARMOR, III, 1",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -457,22 +433,8 @@
       "status": "needs_review"
     },
     {
-      "source_target": "ARMS",
-      "occurrences": 4,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "ARMS, III",
       "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ARMY (ROMAN)",
-      "occurrences": 2,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -503,16 +465,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ASHER",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ASHER (1)",
-        "ASHER (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -658,13 +610,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "BAAL. (1)",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "BAANA (4)",
       "occurrences": 1,
       "category": "single_numbered_entry_candidate",
@@ -729,13 +674,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "BANK, BANKING",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "BAPTISM",
       "occurrences": 3,
       "category": "unmatched_heading_or_alias",
@@ -768,13 +706,6 @@
     },
     {
       "source_target": "BARNEA",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "BARSABBAS",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -1006,13 +937,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "BUILD, BUILDING",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "BUILDING",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1055,21 +979,7 @@
       "status": "needs_review"
     },
     {
-      "source_target": "CALF (GOLDEN)",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "CANAAN",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "CANAAN, CANAANITE",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -1247,13 +1157,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "CHRIST",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "CHRIST AS KING",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1415,13 +1318,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "COURTS",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "COVENANT",
       "occurrences": 2,
       "category": "unmatched_heading_or_alias",
@@ -1527,13 +1423,6 @@
     },
     {
       "source_target": "CUTH",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "CUTH, CUTHAH",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -1822,13 +1711,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "EAST",
-      "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "EBIONISM",
       "occurrences": 2,
       "category": "unmatched_heading_or_alias",
@@ -1888,23 +1770,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "ELAH",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ELAH (1)",
-        "ELAH (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ELAH, 2",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "ELAMITES",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1939,13 +1804,6 @@
       "review_candidates": [
         "ELIAB"
       ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ELIADA",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
       "status": "needs_review"
     },
     {
@@ -2126,13 +1984,6 @@
     },
     {
       "source_target": "FAN",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "FAST.",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -2328,13 +2179,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "GOSPELS",
-      "occurrences": 5,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "GRATING",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -2436,13 +2280,6 @@
     },
     {
       "source_target": "HAROD",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "HATE",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -3075,29 +2912,12 @@
       "status": "needs_review"
     },
     {
-      "source_target": "JEW",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "JOEL",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "JOEL (1)",
         "JOEL (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "JONAS",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "JONAS (1)",
-        "JONAS (2)"
       ],
       "status": "needs_review"
     },
@@ -3157,13 +2977,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "JUDGES",
-      "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "JUDGMENT",
       "occurrences": 3,
       "category": "unmatched_heading_or_alias",
@@ -3218,13 +3031,6 @@
     {
       "source_target": "KORAHITES",
       "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "LAMENTATIONS",
-      "occurrences": 2,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -3335,16 +3141,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "LOT",
-      "occurrences": 3,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "LOT (1)",
-        "LOT (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "LUCIUS",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
@@ -3446,22 +3242,8 @@
       "status": "needs_review"
     },
     {
-      "source_target": "MAON",
-      "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "MARKET",
       "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "MEALS",
-      "occurrences": 4,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -3669,13 +3451,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "NAMES",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "NATHAN",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
@@ -3775,13 +3550,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "NUMBERS",
-      "occurrences": 5,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "NUN",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
@@ -3807,20 +3575,6 @@
     },
     {
       "source_target": "OHOLIAH",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "OIL (BEATEN)",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "OLIVES",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -3964,13 +3718,6 @@
     },
     {
       "source_target": "PETER",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "PETER (SIMON)",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -4124,13 +3871,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "PROVERBS",
-      "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "PRUDENCE",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -4147,13 +3887,6 @@
     {
       "source_target": "PUAH",
       "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "PUNISHMENT",
-      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -4319,20 +4052,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "SALMON",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SAMARIA",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "SANABASSAR",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -4375,13 +4094,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "SCORPIONS",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "SEA, THE MOLTEN",
       "occurrences": 2,
       "category": "unmatched_heading_or_alias",
@@ -4404,13 +4116,6 @@
     },
     {
       "source_target": "SENATE",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SEPHER",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -4624,16 +4329,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "SIN",
-      "occurrences": 8,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "SIN (1)",
-        "SIN (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "SIRACH",
       "occurrences": 3,
       "category": "unmatched_heading_or_alias",
@@ -4662,13 +4357,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "SLIME",
-      "occurrences": 5,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "SOCOH",
       "occurrences": 2,
       "category": "unmatched_heading_or_alias",
@@ -4678,13 +4366,6 @@
     {
       "source_target": "SON",
       "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SON OF GOD",
-      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -4719,13 +4400,6 @@
     },
     {
       "source_target": "SPICES",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SPIT",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -4815,22 +4489,8 @@
       "status": "needs_review"
     },
     {
-      "source_target": "SYRIAN",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "SYRIARCH",
       "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "TABLETS",
-      "occurrences": 2,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -4895,13 +4555,6 @@
     },
     {
       "source_target": "TEMPERATE",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "TEMPLE (HEROD'S)",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -4995,22 +4648,8 @@
       "status": "needs_review"
     },
     {
-      "source_target": "TONGUES",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "TREASURY",
       "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "TREES",
-      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -5237,13 +4876,6 @@
     {
       "source_target": "WEALTH",
       "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "WINE",
-      "occurrences": 6,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"

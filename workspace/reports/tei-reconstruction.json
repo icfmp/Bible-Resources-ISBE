@@ -24,9 +24,21 @@
   ],
   "resolved_variant_links": [
     {
+      "original": "ABI",
+      "resolved_to": "SABI",
+      "rule": "unique_separator_variant",
+      "occurrences": 3
+    },
+    {
       "original": "ABOMINATION OF DESOLATION.",
       "resolved_to": "ABOMINATION OF DESOLATION",
       "rule": "terminal_period",
+      "occurrences": 1
+    },
+    {
+      "original": "ADINU",
+      "resolved_to": "ADINUS",
+      "rule": "unique_separator_variant",
       "occurrences": 1
     },
     {
@@ -48,9 +60,39 @@
       "occurrences": 1
     },
     {
+      "original": "ARMOR, ARMS",
+      "resolved_to": "ARMOR; ARMS",
+      "rule": "unique_separator_variant",
+      "occurrences": 2
+    },
+    {
+      "original": "ARMS",
+      "resolved_to": "ARM",
+      "rule": "unique_separator_variant",
+      "occurrences": 4
+    },
+    {
+      "original": "ARMY (ROMAN)",
+      "resolved_to": "ARMY, ROMAN",
+      "rule": "unique_separator_variant",
+      "occurrences": 2
+    },
+    {
+      "original": "ASHER",
+      "resolved_to": "AHER",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
       "original": "ASMONEANS.",
       "resolved_to": "ASMONEANS",
       "rule": "terminal_period",
+      "occurrences": 1
+    },
+    {
+      "original": "BAAL. (1)",
+      "resolved_to": "BAAL (1)",
+      "rule": "unique_separator_variant",
       "occurrences": 1
     },
     {
@@ -60,9 +102,51 @@
       "occurrences": 1
     },
     {
+      "original": "BANK, BANKING",
+      "resolved_to": "BANK; BANKING",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "BARSABBAS",
+      "resolved_to": "BARABBAS",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "BUILD, BUILDING",
+      "resolved_to": "BUILD; BUILDING",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "CALF (GOLDEN)",
+      "resolved_to": "CALF, GOLDEN",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "CANAAN, CANAANITE",
+      "resolved_to": "CANAAN; CANAANITES",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
       "original": "CHALPHI.",
       "resolved_to": "CHALPHI",
       "rule": "terminal_period",
+      "occurrences": 1
+    },
+    {
+      "original": "CHRIST",
+      "resolved_to": "CHRISTS",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "COURTS",
+      "resolved_to": "COURT",
+      "rule": "unique_separator_variant",
       "occurrences": 1
     },
     {
@@ -72,9 +156,39 @@
       "occurrences": 1
     },
     {
+      "original": "CUTH, CUTHAH",
+      "resolved_to": "CUTH; CUTHAH",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
       "original": "DIBLAH.",
       "resolved_to": "DIBLAH",
       "rule": "terminal_period",
+      "occurrences": 1
+    },
+    {
+      "original": "EAST",
+      "resolved_to": "SEAT",
+      "rule": "unique_separator_variant",
+      "occurrences": 2
+    },
+    {
+      "original": "ELAH",
+      "resolved_to": "SELAH",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "ELAH, 2",
+      "resolved_to": "ELAH (2)",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "ELIADA",
+      "resolved_to": "ELIADAS",
+      "rule": "unique_separator_variant",
       "occurrences": 1
     },
     {
@@ -96,9 +210,33 @@
       "occurrences": 1
     },
     {
+      "original": "FAST.",
+      "resolved_to": "FAT",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
       "original": "GOLGOTHA.",
       "resolved_to": "GOLGOTHA",
       "rule": "terminal_period",
+      "occurrences": 1
+    },
+    {
+      "original": "GOSPELS",
+      "resolved_to": "GOSPEL",
+      "rule": "unique_separator_variant",
+      "occurrences": 5
+    },
+    {
+      "original": "HATE",
+      "resolved_to": "HASTE",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "JEW",
+      "resolved_to": "JEWS",
+      "rule": "unique_separator_variant",
       "occurrences": 1
     },
     {
@@ -108,9 +246,153 @@
       "occurrences": 1
     },
     {
+      "original": "JONAS",
+      "resolved_to": "JONA",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "JUDGES",
+      "resolved_to": "JUDGE",
+      "rule": "unique_separator_variant",
+      "occurrences": 2
+    },
+    {
+      "original": "LAMENTATIONS",
+      "resolved_to": "LAMENTATION",
+      "rule": "unique_separator_variant",
+      "occurrences": 2
+    },
+    {
+      "original": "LOT",
+      "resolved_to": "LOTS",
+      "rule": "unique_separator_variant",
+      "occurrences": 3
+    },
+    {
+      "original": "MAON",
+      "resolved_to": "MASON",
+      "rule": "unique_separator_variant",
+      "occurrences": 2
+    },
+    {
+      "original": "MEALS",
+      "resolved_to": "MEAL",
+      "rule": "unique_separator_variant",
+      "occurrences": 4
+    },
+    {
+      "original": "NAMES",
+      "resolved_to": "NAME",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "NUMBERS",
+      "resolved_to": "NUMBER",
+      "rule": "unique_separator_variant",
+      "occurrences": 5
+    },
+    {
+      "original": "OIL (BEATEN)",
+      "resolved_to": "OIL, BEATEN",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "OLIVES",
+      "resolved_to": "OLIVE",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
       "original": "PAINTING.",
       "resolved_to": "PAINTING",
       "rule": "terminal_period",
+      "occurrences": 1
+    },
+    {
+      "original": "PETER (SIMON)",
+      "resolved_to": "PETER, SIMON",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "PROVERBS",
+      "resolved_to": "PROVERB",
+      "rule": "unique_separator_variant",
+      "occurrences": 2
+    },
+    {
+      "original": "PUNISHMENT",
+      "resolved_to": "PUNISHMENTS",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "SALMON",
+      "resolved_to": "ALMON",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "SAMARIA",
+      "resolved_to": "AMARIAS",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "SCORPIONS",
+      "resolved_to": "SCORPION",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "SEPHER",
+      "resolved_to": "EPHER",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "SIN",
+      "resolved_to": "IN",
+      "rule": "unique_separator_variant",
+      "occurrences": 8
+    },
+    {
+      "original": "SLIME",
+      "resolved_to": "LIME",
+      "rule": "unique_separator_variant",
+      "occurrences": 5
+    },
+    {
+      "original": "SON OF GOD",
+      "resolved_to": "SONS OF GOD",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "SPIT",
+      "resolved_to": "PIT",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "SYRIAN",
+      "resolved_to": "SYRIANS",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "TABLETS",
+      "resolved_to": "TABLET",
+      "rule": "unique_separator_variant",
+      "occurrences": 2
+    },
+    {
+      "original": "TEMPLE (HEROD'S)",
+      "resolved_to": "TEMPLE, HEROD'S",
+      "rule": "unique_separator_variant",
       "occurrences": 1
     },
     {
@@ -118,9 +400,27 @@
       "resolved_to": "THRESHING-FLOOR",
       "rule": "terminal_period",
       "occurrences": 1
+    },
+    {
+      "original": "TONGUES",
+      "resolved_to": "TONGUE",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "TREES",
+      "resolved_to": "TREE",
+      "rule": "unique_separator_variant",
+      "occurrences": 1
+    },
+    {
+      "original": "WINE",
+      "resolved_to": "SWINE",
+      "rule": "unique_separator_variant",
+      "occurrences": 6
     }
   ],
-  "resolved_variant_occurrences": 16,
+  "resolved_variant_occurrences": 108,
   "resolved_local_section_links": [
     {
       "article_key": "ACCOMMODATION",
@@ -186,11 +486,6 @@
       "occurrences": 1
     },
     {
-      "original": "ABI",
-      "reason": "not_found",
-      "occurrences": 3
-    },
-    {
       "original": "ABIGAIL",
       "reason": "not_found",
       "occurrences": 3
@@ -232,11 +527,6 @@
     },
     {
       "original": "ADAM IN THE NEW TESTAMENT; FALL, THE",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "ADINU",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -451,29 +741,14 @@
       "occurrences": 16
     },
     {
-      "original": "ARMOR, ARMS",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "ARMOR, III, 1",
       "reason": "not_found",
       "occurrences": 1
     },
     {
-      "original": "ARMS",
-      "reason": "not_found",
-      "occurrences": 4
-    },
-    {
       "original": "ARMS, III",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "ARMY (ROMAN)",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "ARUBBOTH",
@@ -492,11 +767,6 @@
     },
     {
       "original": "ASHARELAH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "ASHER",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -596,11 +866,6 @@
       "occurrences": 4
     },
     {
-      "original": "BAAL. (1)",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "BAANA (4)",
       "reason": "not_found",
       "occurrences": 1
@@ -641,11 +906,6 @@
       "occurrences": 1
     },
     {
-      "original": "BANK, BANKING",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "BAPTISM",
       "reason": "not_found",
       "occurrences": 3
@@ -667,11 +927,6 @@
     },
     {
       "original": "BARNEA",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "BARSABBAS",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -826,11 +1081,6 @@
       "occurrences": 3
     },
     {
-      "original": "BUILD, BUILDING",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "BUILDING",
       "reason": "not_found",
       "occurrences": 1
@@ -861,17 +1111,7 @@
       "occurrences": 1
     },
     {
-      "original": "CALF (GOLDEN)",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "CANAAN",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "CANAAN, CANAANITE",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -996,11 +1236,6 @@
       "occurrences": 3
     },
     {
-      "original": "CHRIST",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "CHRIST AS KING",
       "reason": "not_found",
       "occurrences": 1
@@ -1116,11 +1351,6 @@
       "occurrences": 1
     },
     {
-      "original": "COURTS",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "COVENANT",
       "reason": "not_found",
       "occurrences": 2
@@ -1192,11 +1422,6 @@
     },
     {
       "original": "CUTH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "CUTH, CUTHAH",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -1396,11 +1621,6 @@
       "occurrences": 1
     },
     {
-      "original": "EAST",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "EBIONISM",
       "reason": "not_found",
       "occurrences": 2
@@ -1441,16 +1661,6 @@
       "occurrences": 1
     },
     {
-      "original": "ELAH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "ELAH, 2",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "ELAMITES",
       "reason": "not_found",
       "occurrences": 1
@@ -1472,11 +1682,6 @@
     },
     {
       "original": "ELIAB (4)",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "ELIADA",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -1597,11 +1802,6 @@
     },
     {
       "original": "FAN",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "FAST.",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -1731,11 +1931,6 @@
       "occurrences": 1
     },
     {
-      "original": "GOSPELS",
-      "reason": "not_found",
-      "occurrences": 5
-    },
-    {
       "original": "GRATING",
       "reason": "not_found",
       "occurrences": 1
@@ -1802,11 +1997,6 @@
     },
     {
       "original": "HAROD",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "HATE",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -2241,17 +2431,7 @@
       "occurrences": 2
     },
     {
-      "original": "JEW",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "JOEL",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "JONAS",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -2284,11 +2464,6 @@
       "original": "JUDAH",
       "reason": "not_found",
       "occurrences": 3
-    },
-    {
-      "original": "JUDGES",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "JUDGMENT",
@@ -2329,11 +2504,6 @@
       "original": "KORAHITES",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "LAMENTATIONS",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "LAMP",
@@ -2411,11 +2581,6 @@
       "occurrences": 1
     },
     {
-      "original": "LOT",
-      "reason": "not_found",
-      "occurrences": 3
-    },
-    {
       "original": "LUCIUS",
       "reason": "not_found",
       "occurrences": 1
@@ -2481,19 +2646,9 @@
       "occurrences": 2
     },
     {
-      "original": "MAON",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "MARKET",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "MEALS",
-      "reason": "not_found",
-      "occurrences": 4
     },
     {
       "original": "MEALS; TRICLINIUM",
@@ -2636,11 +2791,6 @@
       "occurrences": 1
     },
     {
-      "original": "NAMES",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "NATHAN",
       "reason": "not_found",
       "occurrences": 1
@@ -2701,11 +2851,6 @@
       "occurrences": 1
     },
     {
-      "original": "NUMBERS",
-      "reason": "not_found",
-      "occurrences": 5
-    },
-    {
       "original": "NUN",
       "reason": "not_found",
       "occurrences": 1
@@ -2722,16 +2867,6 @@
     },
     {
       "original": "OHOLIAH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "OIL (BEATEN)",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "OLIVES",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -2836,11 +2971,6 @@
       "occurrences": 1
     },
     {
-      "original": "PETER (SIMON)",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "PHILIP",
       "reason": "not_found",
       "occurrences": 1
@@ -2941,11 +3071,6 @@
       "occurrences": 1
     },
     {
-      "original": "PROVERBS",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "PRUDENCE",
       "reason": "not_found",
       "occurrences": 1
@@ -2959,11 +3084,6 @@
       "original": "PUAH",
       "reason": "not_found",
       "occurrences": 2
-    },
-    {
-      "original": "PUNISHMENT",
-      "reason": "not_found",
-      "occurrences": 1
     },
     {
       "original": "PURIM",
@@ -3071,16 +3191,6 @@
       "occurrences": 2
     },
     {
-      "original": "SALMON",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "SAMARIA",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "SANABASSAR",
       "reason": "not_found",
       "occurrences": 1
@@ -3111,11 +3221,6 @@
       "occurrences": 1
     },
     {
-      "original": "SCORPIONS",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "SEA, THE MOLTEN",
       "reason": "not_found",
       "occurrences": 2
@@ -3132,11 +3237,6 @@
     },
     {
       "original": "SENATE",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "SEPHER",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -3276,11 +3376,6 @@
       "occurrences": 1
     },
     {
-      "original": "SIN",
-      "reason": "not_found",
-      "occurrences": 8
-    },
-    {
       "original": "SIRACH",
       "reason": "not_found",
       "occurrences": 3
@@ -3301,11 +3396,6 @@
       "occurrences": 1
     },
     {
-      "original": "SLIME",
-      "reason": "not_found",
-      "occurrences": 5
-    },
-    {
       "original": "SOCOH",
       "reason": "not_found",
       "occurrences": 2
@@ -3314,11 +3404,6 @@
       "original": "SON",
       "reason": "not_found",
       "occurrences": 2
-    },
-    {
-      "original": "SON OF GOD",
-      "reason": "not_found",
-      "occurrences": 1
     },
     {
       "original": "SON OF MAN",
@@ -3342,11 +3427,6 @@
     },
     {
       "original": "SPICES",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "SPIT",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -3406,19 +3486,9 @@
       "occurrences": 9
     },
     {
-      "original": "SYRIAN",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "SYRIARCH",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "TABLETS",
-      "reason": "not_found",
-      "occurrences": 2
     },
     {
       "original": "TALISMAN",
@@ -3457,11 +3527,6 @@
     },
     {
       "original": "TEMPERATE",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "TEMPLE (HEROD'S)",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -3526,19 +3591,9 @@
       "occurrences": 2
     },
     {
-      "original": "TONGUES",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "TREASURY",
       "reason": "not_found",
       "occurrences": 2
-    },
-    {
-      "original": "TREES",
-      "reason": "not_found",
-      "occurrences": 1
     },
     {
       "original": "TUNIC",
@@ -3696,11 +3751,6 @@
       "occurrences": 1
     },
     {
-      "original": "WINE",
-      "reason": "not_found",
-      "occurrences": 6
-    },
-    {
       "original": "WINE PRESS",
       "reason": "not_found",
       "occurrences": 4
@@ -3782,13 +3832,11 @@
     }
   ],
   "unresolved_isbe_links": {
-    "ABI": 3,
     "ABGARUS": 1,
     "ABSALOM": 3,
     "ABIGAIL": 3,
     "DISPERSION": 6,
     "TEMPERANCE": 2,
-    "FAST.": 1,
     "ABOUND": 1,
     "EKRON.": 1,
     "DEMON": 3,
@@ -3796,7 +3844,6 @@
     "ADAM IN THE NEW TESTAMENT; FALL, THE": 1,
     "APOCALYPTIC LITERATURE; APOCRYPHA": 1,
     "EDER": 4,
-    "ADINU": 1,
     "VALE OF SIDDIM": 1,
     "YHWH": 1,
     "BITTER": 2,
@@ -3864,14 +3911,12 @@
     "ARVAD": 2,
     "ARAMEANS": 1,
     "SYRIA": 9,
-    "SYRIAN": 1,
     "BUILDING": 1,
     "FORTIFICATION": 11,
     "AR": 2,
     "ARGOB": 3,
     "ALTAR HEARTH": 1,
     "MACCABEES": 8,
-    "ARMS": 4,
     "ARMOR": 16,
     "DIANA": 1,
     "ASHARELAH": 1,
@@ -3880,7 +3925,6 @@
     "BITHYNIARCH": 1,
     "CARIARCH": 1,
     "SYRIARCH": 1,
-    "SLIME": 5,
     "CRIMES": 33,
     "ASUPPIM": 1,
     "FEASTS": 3,
@@ -3901,11 +3945,9 @@
     "AVVIM": 3,
     "SEA, THE MOLTEN": 2,
     "UZZIAH": 2,
-    "BAAL. (1)": 1,
     "AVEN; ON": 1,
     "BAAL": 4,
     "BAANA (4)": 1,
-    "ELAH": 1,
     "ZIMRI": 1,
     "CHARMER": 1,
     "BABEL": 4,
@@ -3914,13 +3956,10 @@
     "NICANOR": 1,
     "BACK": 1,
     "APOSTASY": 2,
-    "MAON": 2,
-    "ARMY (ROMAN)": 2,
     "RUDDER": 1,
     "CAESAREA, PHILIPPI": 1,
     "BANIAS": 1,
     "ENSIGN, STANDARDS": 1,
-    "MEALS": 4,
     "SYMPOSIUM": 1,
     "MEALS; TRICLINIUM": 1,
     "BAPTISM; FIRE": 1,
@@ -3941,10 +3980,8 @@
     "COLORS": 14,
     "BETH": 1,
     "GOLD (BEATEN)": 1,
-    "OIL (BEATEN)": 1,
     "BERED": 1,
     "BED": 3,
-    "ELIADA": 1,
     "BEER (1)": 1,
     "JUBILEE": 2,
     "SUSANNA": 1,
@@ -3968,9 +4005,7 @@
     "RIVER, THE": 1,
     "ZAANANNIM": 2,
     "ARAMAIC": 4,
-    "PROVERBS": 2,
     "PROPHECY": 8,
-    "GOSPELS": 5,
     "BECHER 1": 1,
     "AVEN; BETH-EDEN": 1,
     "AUTHORITY": 2,
@@ -4004,13 +4039,10 @@
     "POTTERY": 3,
     "BRAIDED": 1,
     "BROTHERLY KINDNESS (LOVE)": 1,
-    "BUILD, BUILDING": 1,
-    "CALF (GOLDEN)": 1,
     "PASTURE": 1,
     "ABEL": 2,
     "KAIN": 1,
     "BABEL, BABYLON": 2,
-    "EAST": 2,
     "ARVADITES": 1,
     "JEBUSITE": 2,
     "SHUA": 1,
@@ -4022,11 +4054,9 @@
     "CARE": 1,
     "MAN (THE NATURAL)": 1,
     "TEACHER": 1,
-    "PETER (SIMON)": 1,
     "STRAW": 1,
     "CALCOL": 1,
     "LAND CROCODILE": 1,
-    "CANAAN, CANAANITE": 1,
     "GAD": 1,
     "TEMPLE, II, 4": 1,
     "CHARAX": 1,
@@ -4050,7 +4080,6 @@
     "CEILING": 1,
     "CHINNERETH": 1,
     "PAUL": 4,
-    "JUDGES": 2,
     "CHEW": 3,
     "DEFILEMENT": 2,
     "CLEFT": 1,
@@ -4060,7 +4089,6 @@
     "VALE OF ESHCOL": 1,
     "ISLE": 1,
     "CLOAK": 1,
-    "ARMOR, ARMS": 2,
     "ROMAN": 1,
     "DYE": 6,
     "BROTHERLY LOVE": 3,
@@ -4082,7 +4110,6 @@
     "WORLD": 5,
     "SHEEPCOTE": 1,
     "KINSMAN": 3,
-    "TEMPLE (HEROD'S)": 1,
     "TREASURY": 2,
     "CRITICISM (GRAF-WELLHAUSEN HYPOTHESIS)": 1,
     "MINING": 1,
@@ -4096,7 +4123,6 @@
     "ARCHAEOLOGY AND CRITICISM": 1,
     "ASTROLOGY 14": 1,
     "CUSHITE WOMAN": 3,
-    "CUTH, CUTHAH": 1,
     "CUTH": 1,
     "STIGMATA, MARK": 1,
     "CYRENIAN": 2,
@@ -4113,7 +4139,6 @@
     "TEN COMMANDMENTS": 1,
     "AUGURY, IV, 3": 1,
     "CONSECRATION": 1,
-    "COURTS": 1,
     "JUDICIAL": 1,
     "BABYLONIA AND ASSYRIA": 1,
     "DEMETRIUS": 2,
@@ -4123,7 +4148,6 @@
     "ANISE": 1,
     "DIBON": 1,
     "THE TWIN BROTHERS": 1,
-    "ASHER": 1,
     "ANNUL": 1,
     "WITCHCRAFT": 1,
     "DREAM": 3,
@@ -4166,13 +4190,11 @@
     "CUSHIM": 1,
     "COSHEN": 1,
     "RAAMSES": 5,
-    "SIN": 8,
     "SUCCOTH": 2,
     "EGYPTIAN KINGS": 1,
     "BROOK OF EGYPT": 2,
     "EGYPT, III": 1,
     "PARAN": 1,
-    "ELAH, 2": 1,
     "ELEADAH": 1,
     "I. THE WORD IN SCRIPTURE": 1,
     "II. THE MYSTERIOUS ELEMENT": 1,
@@ -4199,7 +4221,6 @@
     "ESCHATOLOGY; WORLD, END OF THE": 1,
     "INFLAME": 1,
     "23.  LITERATURE.": 1,
-    "HATE": 1,
     "ETHIOPIC": 1,
     "SLAVONIC": 1,
     "QUIRINIUS; TAX": 1,
@@ -4238,7 +4259,6 @@
     "TEMPTATION": 1,
     "DEMONIAC": 1,
     "RAILING": 1,
-    "BANK, BANKING": 1,
     "I. THE ROUTE": 1,
     "II. THE DATE": 1,
     "III. THE THEORY OF LEPSIUS": 1,
@@ -4254,7 +4274,6 @@
     "EXODUS, IV, 1, 2": 1,
     "DAY OF ATONEMENT, I, 1": 1,
     "EXODUS, II, 2": 1,
-    "SPIT": 1,
     "UNION WITH CHRIST": 1,
     "UNCHANGEABLENESS": 1,
     "REFINER": 4,
@@ -4265,7 +4284,6 @@
     "BONE": 1,
     "LEPROSY": 3,
     "FIERCENESS": 1,
-    "NUMBERS": 5,
     "GILEAD": 4,
     "GERASA": 1,
     "GERIZIM": 2,
@@ -4307,7 +4325,6 @@
     "EPHOD": 1,
     "FAITHFULNESS": 2,
     "UNCHANGEABLE": 1,
-    "CHRIST": 1,
     "URIAS": 1,
     "ISHUAI": 1,
     "ISHMAEL": 1,
@@ -4318,8 +4335,6 @@
     "ICC": 1,
     "RAMOTH": 3,
     "JASHAR": 2,
-    "LAMENTATIONS": 2,
-    "OLIVES": 1,
     "MORIAH": 1,
     "POOL": 7,
     "MAKTESH": 2,
@@ -4327,13 +4342,10 @@
     "ZEDEK": 1,
     "AKRA": 1,
     "GENEALOGY OF JESUS CHRIST": 1,
-    "JEW": 1,
     "IZLIAH": 1,
-    "JONAS": 1,
     "ZECHARIAH": 2,
     "JUDAH": 3,
     "JUTTAH": 1,
-    "BARSABBAS": 1,
     "BARNEA": 1,
     "KENAZ": 2,
     "HEZRON": 1,
@@ -4342,15 +4354,12 @@
     "JEARIM": 1,
     "HEBRON": 2,
     "MOAB": 4,
-    "SEPHER": 1,
     "DEBIR": 2,
     "FOREKNOWLEDGE": 1,
     "ECCLESIASTES": 1,
     "KORAHITES": 1,
     "WORK": 1,
     "DAN": 2,
-    "PUNISHMENT": 1,
-    "WINE": 6,
     "NIMRAH": 1,
     "DEBAR": 1,
     "HAIL": 1,
@@ -4386,7 +4395,6 @@
     "PASSION": 1,
     "SYCOMORE": 2,
     "NAARAH": 1,
-    "NAMES": 1,
     "DOR": 2,
     "HILL": 1,
     "RECHABITES": 1,
@@ -4399,13 +4407,10 @@
     "DISOBEDIENCE": 1,
     "KINGDOM OF GOD": 1,
     "CHILDREN": 2,
-    "SON OF GOD": 1,
     "PALSY": 1,
     "PORTION": 2,
     "AFFECTION": 1,
     "PALLU": 2,
-    "LOT": 3,
-    "TONGUES": 1,
     "PERAZIM": 1,
     "MENE": 1,
     "UZZA": 1,
@@ -4425,7 +4430,6 @@
     "WEALTH": 1,
     "TEMPT": 1,
     "POETRY": 1,
-    "SCORPIONS": 1,
     "MIZPAH": 1,
     "JAWBONE": 1,
     "RAGES": 1,
@@ -4433,9 +4437,7 @@
     "CUSTOM": 1,
     "ACCEPT": 1,
     "ALMS": 1,
-    "SALMON": 1,
     "SIDDIM": 2,
-    "SAMARIA": 1,
     "SENATE": 1,
     "BOSHETH": 1,
     "DYEING": 2,
@@ -4495,10 +4497,8 @@
     "PRUDENCE": 1,
     "ADAM": 1,
     "DEACONESS": 1,
-    "TREES": 1,
     "TEMPLE KEEPERS": 1,
     "WIST": 1,
-    "TABLETS": 2,
     "PRINTING": 1,
     "AHASUERUS": 1,
     "JAW": 1,
@@ -4508,6 +4508,6 @@
     "ZIPH": 1,
     "GOSHEN": 1
   },
-  "unresolved_link_occurrences": 1323,
+  "unresolved_link_occurrences": 1231,
   "text_integrity": "validated for every entry"
 }
