@@ -65,7 +65,7 @@ def preview(source,manifest_path,destination,report_path):
                 item=ET.SubElement(p,Q("seg"),{"type":"unresolved-editorial-preview"})
             else:
                 item=ET.SubElement(p,Q("ref"),{"type":"article","target":"#"+target.get(XMLID)})
-            item.text=target_key
+            item.text=record.get("proposed_display_labels", {}).get(target_key, target_key)
             item.tail=("." if pos==len(record["proposed_targets"])-1 else "; ")
             resolved.append({"target_key":target_key,"resolved":target is not None})
         report.append({"article_key":key,
