@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "original_edition": "Orr, International Standard Bible Encyclopaedia (Howard-Severance, 1915)",
+  "purpose": "First-pass complete original printed page image collation of selected short prose entries, without independent editorial approval",
+  "print_collated_articles": 2,
+  "remaining_prose_articles_pending_initial_exact_print_collation": 18,
+  "records": [
+    {
+      "source_key": "ABISSEI",
+      "original_paragraph_xml_id": "isbe-413cc0807cda26de4368-n000003",
+      "exact_print_body_reading": "a-bis'ē-i (AV Abisei): An ancestor of Ezra (2 Esd 1 2) = Abisue (1 Esd 8 2) and Abishua (1 Ch 6 4 ff; Ezr 7 5).",
+      "source_pdf_volume": "1",
+      "source_pdf_page_1_based": 37,
+      "printed_folio": 13,
+      "source_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "rendered_page_sha256": "f48554163c132d966d035005236a9b7b4070a4b5de4aeb6774a62a699e0b14f2",
+      "original_render_workflow": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "image_evidence_review_job": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085773640/job/137404422530",
+      "whole_body_visual_comparison": true,
+      "original_spelling_and_punctuation_preserved": true,
+      "foreign_script_present": false,
+      "full_bibliographic_text_certified_by_independent_reviewer": false,
+      "source_image_editorial_checkpoint": "first_complete_original_print_image_reading",
+      "canonical_tei_changed": false,
+      "editorial_approval": false
+    },
+    {
+      "source_key": "MANKIND",
+      "original_paragraph_xml_id": "isbe-3da82bda0cddd078bd9b-n000003",
+      "exact_print_body_reading": "man-kīnd': In Lev 18 22; 20 13, the term is applied to men, as distinguished from women; in Job 12 10, to the human race; in Jas 3 7, to the human nature.",
+      "source_pdf_volume": "3",
+      "source_pdf_page_1_based": 626,
+      "printed_folio": 1982,
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "rendered_page_sha256": "93701f77361a05e6ee943b77dba7795fc37c8746cfc4e509e8ed0d1812369f43",
+      "original_render_workflow": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45079034324",
+      "image_evidence_review_job": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085773640/job/137404422518",
+      "whole_body_visual_comparison": true,
+      "original_spelling_and_punctuation_preserved": true,
+      "foreign_script_present": false,
+      "full_bibliographic_text_certified_by_independent_reviewer": false,
+      "source_image_editorial_checkpoint": "first_complete_original_print_image_reading",
+      "canonical_tei_changed": false,
+      "editorial_approval": false
+    }
+  ]
+}
