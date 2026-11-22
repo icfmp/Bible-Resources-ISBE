@@ -156,6 +156,40 @@ def resolve_local_heading(article, reference):
     return None
 
 
+def numbered_root(key):
+    root, separator, suffix = key.rpartition(" (")
+    if separator and suffix.endswith(")") and suffix[:-1].isdigit():
+        return root.strip().casefold()
+    return None
+
+
+def scripture_refs(node):
+    """Extract explicit original OSIS reference tokens; do not infer ranges."""
+    if node is None:
+        return set()
+    result = set()
+    for child in node.iter():
+        value = child.get("osisRef")
+        if value:
+            result.update(value.split())
+    return result
+
+
+def unique_numbered_paragraph(article, marker):
+    """Return a source-paragraph ID only for one matching section marker."""
+    prefix = "(" + str(marker) + ")"
+    matches = []
+    for node in article.iter():
+        if node.tag.split("}")[-1] != "p":
+            continue
+        label = "".join(node.itertext()).lstrip()
+        if label.startswith(prefix) and (
+            len(label) == len(prefix) or not label[len(prefix)].isalnum()
+        ):
+            matches.append(node.get(XMLID))
+    return matches[0] if len(matches) == 1 and matches[0] else None
+
+
 def build(imp):
     records = list(entries_from_imp(imp))
     ids = {}
@@ -195,6 +229,7 @@ def build(imp):
     unresolved_details = Counter()
     resolved_local = Counter()
     resolved_numbered = Counter()
+    resolved_scripture = Counter()
     articles_by_key = {}
     title_variants = []
     text_chars = 0
@@ -298,21 +333,11 @@ def build(imp):
             destination_article = articles_by_key.get(base)
             if destination_article is None:
                 continue
-            marker = "(" + suffix[:-1] + ")"
-            matches = []
-            for candidate in destination_article.iter():
-                if candidate.tag.split("}")[-1] != "p":
-                    continue
-                # Require the numbered marker at the *start* of the section.
-                label = "".join(candidate.itertext()).lstrip()
-                if label.startswith(marker) and (
-                    len(label) == len(marker) or not label[len(marker)].isalnum()
-                ):
-                    matches.append(candidate.get(XMLID))
-            if len(matches) != 1 or not matches[0]:
+            paragraph_id = unique_numbered_paragraph(destination_article, suffix[:-1])
+            if paragraph_id is None:
                 continue
             element.set("n", target)
-            element.set("target", "#" + matches[0])
+            element.set("target", "#" + paragraph_id)
             missing_refs[source_target] -= 1
             if not missing_refs[source_target]:
                 del missing_refs[source_target]
@@ -322,7 +347,70 @@ def build(imp):
             unresolved_details[reason_key] -= 1
             if not unresolved_details[reason_key]:
                 del unresolved_details[reason_key]
-            resolved_numbered[(source_key, source_target, base, matches[0])] += 1
+            resolved_numbered[(source_key, source_target, base, paragraph_id)] += 1
+
+    # Distinct dictionary entries can share one headword (e.g. ABI (1/2)).
+    # Resolve only when the referring paragraph and exactly one numbered
+    # candidate share explicit, identical OSIS citations. Broad paragraphs
+    # (over 20 unique citations) require at least two exclusive matches.
+    numbered_groups = {}
+    for key in ids:
+        base = numbered_root(key)
+        if base is not None:
+            numbered_groups.setdefault(base, []).append(key)
+    candidate_citations = {
+        key: scripture_refs(articles_by_key[key])
+        for names in numbered_groups.values() for key in names
+    }
+    for source_key, source_article in articles_by_key.items():
+        parents = {c: p for p in source_article.iter() for c in p}
+        for element in source_article.iter():
+            target = element.get("target", "")
+            if not target.startswith("ISBE:"):
+                continue
+            source_target = target[5:]
+            possible = numbered_groups.get(source_target.strip().casefold(), ())
+            if len(possible) < 2:
+                continue
+            context = parents.get(element)
+            while context is not None and context.tag.split("}")[-1] not in ("p", "item", "ab"):
+                context = parents.get(context)
+            cited = scripture_refs(context)
+            if not cited:
+                continue
+            common = {candidate: (cited & candidate_citations[candidate]) for candidate in possible}
+            confirmed = [candidate for candidate in possible if common[candidate]]
+            if len(confirmed) != 1:
+                continue
+            selected = confirmed[0]
+            references = common[selected]
+            if len(cited) > 20 and len(references) < 2:
+                continue
+            destination = articles_by_key[selected]
+            # A parenthetical "which see (2)" explicitly refers to the
+            # second numbered paragraph within the candidate, not necessarily
+            # a second dictionary entry. Do not discard that distinction.
+            tail = (element.tail or "")[:90]
+            marker = re.search(r"\\bsee\\s*\\((\\d+)\\)", tail, flags=re.I)
+            selected_id = destination.get(XMLID)
+            if marker:
+                paragraph_id = unique_numbered_paragraph(destination, marker.group(1))
+                if paragraph_id is None:
+                    continue
+                selected_id = paragraph_id
+            element.set("n", target)
+            element.set("target", "#" + selected_id)
+            missing_refs[source_target] -= 1
+            if not missing_refs[source_target]:
+                del missing_refs[source_target]
+            reason_key = (source_target, "not_found")
+            if unresolved_details[reason_key] <= 0:
+                raise ValueError(f"Unexpected source reference state for {source_target}")
+            unresolved_details[reason_key] -= 1
+            if not unresolved_details[reason_key]:
+                del unresolved_details[reason_key]
+            resolved_scripture[(source_key, source_target, selected, selected_id,
+                                tuple(sorted(references)))] += 1
 
     report = {"source_entries": len(records), "tei_entries": len(body),
               "indexed_content_nodes": nodes, "source_text_characters": text_chars,
@@ -347,6 +435,14 @@ def build(imp):
                   in sorted(resolved_numbered.items())
               ],
               "resolved_numbered_section_occurrences": sum(resolved_numbered.values()),
+              "resolved_scripture_disambiguation_links": [
+                  {"source_article": source, "original": original,
+                   "destination_article": chosen, "destination_id": destination_id,
+                   "exclusive_osis_references": list(references), "occurrences": count}
+                  for (source, original, chosen, destination_id, references), count
+                  in sorted(resolved_scripture.items())
+              ],
+              "resolved_scripture_disambiguation_occurrences": sum(resolved_scripture.values()),
               "unresolved_link_diagnostics": [
                   {"original": key, "reason": reason, "occurrences": n}
                   for (key, reason), n in sorted(unresolved_details.items())
