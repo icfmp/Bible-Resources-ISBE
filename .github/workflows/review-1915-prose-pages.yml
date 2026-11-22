@@ -1,4 +1,4 @@
-name: Review primary 1915 prose page images
+name: Inspect 20 original 1915 prose article pages
 
 on:
   pull_request:
@@ -17,40 +17,44 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - {volume: "2", page: "499", key: "FROWARDNESS"}
-          - {volume: "5", page: "169", key: "THOMEI"}
-          - {volume: "2", page: "699", key: "HASRAH"}
-          - {volume: "4", page: "642", key: "SEPHARVITES"}
+          - {volume: "1", pages: "37:ABISSEI,148:AMNON,192:ANTIQUITY,458:BEERA,654:CHORBE"}
+          - {volume: "2", pages: "165:DEHORT,499:FROWARDNESS,699:HASRAH,731:HEMDAN"}
+          - {volume: "3", pages: "177:ITHLAH,624:MANASSITES,626:MANKIND"}
+          - {volume: "4", pages: "618:SAVIAS,642:SEPHARVITES,663:SESIS,667:SHALLUN"}
+          - {volume: "5", pages: "67:SYCHEM,142:TEPHON,169:THOCANUS_THOMEI"}
     steps:
       - uses: actions/checkout@v4
-      - name: Install PDF image renderer
+      - name: Install PDF renderer
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
-      - name: Download exact original and verify provenance
+      - name: Obtain SHA-pinned 1915 print images
         shell: bash
         env:
           VOLUME: ${{ matrix.volume }}
-          PAGE: ${{ matrix.page }}
-          KEY: ${{ matrix.key }}
+          PAGES: ${{ matrix.pages }}
         run: |
           set -euo pipefail
           curl --fail --location --silent --show-error --retry 3 --retry-all-errors --connect-timeout 20 --max-time 360 "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${VOLUME}.pdf" -o /tmp/original.pdf
           python - <<'PY'
-          import os, json, hashlib
+          import os,json,hashlib
           from pathlib import Path
-          data=json.loads(Path('sources/print/1915-volume-witnesses.json').read_text())
-          v=next(x for x in data['volumes'] if x['volume']==os.environ['VOLUME'])
+          v=next(x for x in json.loads(Path('sources/print/1915-volume-witnesses.json').read_text())['volumes'] if x['volume']==os.environ['VOLUME'])
           digest=hashlib.sha256(Path('/tmp/original.pdf').read_bytes()).hexdigest()
-          assert digest==v['pdf_sha256'], 'Wrong original PDF'
-          print('Original 1915 volume sha256 verified:', digest)
+          assert digest==v['pdf_sha256'], 'Original scan SHA drift'
+          print('Original 1915 volume verified:', digest)
           PY
-          pdftoppm -f "${PAGE}" -l "${PAGE}" -singlefile -jpeg -r 160 -jpegopt quality=80,optimize=y /tmp/original.pdf /tmp/source-page >/dev/null 2>&1
-          python - <<'PY'
+          IFS=',' read -ra ENTRY <<< "$PAGES"
+          for unit in "${ENTRY[@]}"; do
+            page="${unit%%:*}"
+            key="${unit#*:}"
+            pdftoppm -f "$page" -l "$page" -singlefile -jpeg -r 160 -jpegopt quality=80,optimize=y /tmp/original.pdf /tmp/source-page >/dev/null 2>&1
+            KEY="$key" python - <<'PY'
           import os,base64
           from pathlib import Path
-          img=Path('/tmp/source-page.jpg').read_bytes()
-          b64=base64.b64encode(img).decode('ascii')
-          print('BEGIN_IMAGE:'+os.environ['KEY']+':'+str(len(img)))
+          data=Path('/tmp/source-page.jpg').read_bytes()
+          b64=base64.b64encode(data).decode('ascii')
+          print('BEGIN_IMAGE:'+os.environ['KEY']+':'+str(len(data)))
           for i in range(0,len(b64),2000):
               print('IMG_CHUNK:'+b64[i:i+2000])
           print('END_IMAGE:'+os.environ['KEY'])
           PY
+          done
