@@ -155,6 +155,13 @@ def analyze(path):
         "example_article_keys_by_element": dict(samples),
         "unqualified_element_examples": unqualified_examples,
         "structural_anomaly_examples": dict(suspicious),
+        "profile_status": ("candidate_subset_conformant" if not profile_counts
+                           else "migration_required"),
+        "profile_rule_findings": {
+            k: {"count": v, "example_entries": profile_examples[k]}
+            for k, v in profile_counts.most_common()
+        },
+        "profile_check_only": "ISBE subset, NOT official TEI P5 schema validation",
     }
     return stats
 
