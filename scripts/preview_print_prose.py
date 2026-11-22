@@ -27,12 +27,12 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
         raise ValueError("Source status cannot be promoted")
     if any(r["print_image_reviewed"] or r["approved"] for r in spec["records"]):
         raise ValueError("This generator only handles unapproved specimens")
-    if len(spec["records"])!=3:
+    if len(spec["records"])!=len({r["source_key"] for r in spec["records"]}) or not spec["records"]:
         raise ValueError("Unexpected source-text revision count")
     redirect=json.loads(Path(redirect_manifest).read_text(encoding="utf-8"))
     if redirect["canonical_sha256"]!=spec["document_base_sha256"]:
         raise ValueError("Redirect/source revision mismatch")
-    if len(redirect["records"])!=10:
+    if len(redirect["records"])!=len({r["article_key"] for r in redirect["records"]}) or not redirect["records"]:
         raise ValueError("Expected ten scoped redirect candidates")
     root=ET.parse(source).getroot()
     body=root.find("./"+q("text")+"/"+q("body"))
@@ -44,8 +44,8 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
     original_text={key:"".join(article.itertext()) for key,article in articles.items()}
     affected=set()
     all_candidates={r["article_key"] for r in redirect["records"]}|{r["source_key"] for r in spec["records"]}
-    if len(all_candidates)!=13: raise ValueError("Overlapping editorial candidates")
-    # Apply the already-reviewed 10 navigation specimens, retaining article IDs.
+    if len(all_candidates)!=len(redirect["records"])+len(spec["records"]): raise ValueError("Overlapping editorial candidates")
+    # Apply the separately documented navigation specimens, retaining article IDs.
     for r in redirect["records"]:
         key=r["article_key"]
         article=articles[key]
@@ -64,7 +64,7 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
             link.text=r.get("proposed_display_labels",{}).get(target_key,target_key)
             link.tail="." if i==len(r["proposed_targets"])-1 else "; "
         affected.add(key)
-    # Three content-bearing source-text restorations from 1915 PDF text.
+    # Proposed content-bearing restorations from individually documented historical witnesses.
     for r in spec["records"]:
         key=r["source_key"]
         article=articles[key]
@@ -83,7 +83,7 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
             new.set(XMLID,candidate_id)
             new.text=text
         affected.add(key)
-    # Strict text / stable-ID parity outside the 13 edited records.
+    # Strict text / stable-ID parity outside the declared edited records.
     for key,article in articles.items():
         if key not in affected and original_text[key]!="".join(article.itertext()):
             raise ValueError(f"Unexpected unrelated text change: {key}")
@@ -107,12 +107,12 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
         "noncanonical":True,
         "publication_permitted":False,
         "original_entries":9380,
-        "proposed_redirects":10,
-        "proposed_historical_text_entries":3,
-        "unchanged_articles_verified":9370-3,
+        "proposed_redirects":len(redirect["records"]),
+        "proposed_historical_text_entries":len(spec["records"]),
+        "unchanged_articles_verified":len(articles)-len(affected),
         "original_ids_preserved":len(original_ids),
         "new_xml_ids":len(set(actual_ids)-original_ids),
-        "evidence":"1915 volume I searchable text; requires page-image comparison",
+        "evidence":"1915 volume I searchable text and separately attributed 1915 transcriptions; all require independent page-image comparison",
         "affected_keys":sorted(affected),
     }
     Path(report_path).parent.mkdir(parents=True,exist_ok=True)
