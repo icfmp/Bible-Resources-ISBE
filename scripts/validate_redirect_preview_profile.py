@@ -22,11 +22,11 @@ def prepare(source, candidate, change_report, original_manifest, manifest_out, r
         raise ValueError("Incorrect source lock or publication status")
     if report["candidate_sha256"]!=hashlib.sha256(candidate.read_bytes()).hexdigest():
         raise ValueError("Serialized preview differs from proof")
-    if report["changed_articles"]!=10 or report["untouched_articles_verified"]!=9370:
+    if report["changed_articles"]!=11 or report["untouched_articles_verified"]!=9369:
         raise ValueError("Article-level parity incomplete")
     if report["proposed_links_unresolved"] or report["original_ids_preserved"] is not True:
         raise ValueError("Missing targets or source XML IDs")
-    if len(report["records"])!=10:
+    if len(report["records"])!=11:
         raise ValueError("Unexpected editorial delta record count")
     structural=analyze(candidate)
     if structural["entry_count"]!=9380 or structural["duplicate_xml_ids"]:
@@ -45,8 +45,8 @@ def prepare(source, candidate, change_report, original_manifest, manifest_out, r
         "article_parity":"PASS",
         "serialized_profile_check":"PASS",
         "review_preview_only":True,
-        "unaltered_articles_verified":9370,
-        "declared_editorial_candidates":10,
+        "unaltered_articles_verified":9369,
+        "declared_editorial_candidates":11,
         "full_corpus_ids_preserved":185657,
         "historical_print_witness_review":"NOT_VERIFIED",
         "publication":"PROHIBITED",
