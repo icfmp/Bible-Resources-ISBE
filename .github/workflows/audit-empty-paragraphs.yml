@@ -1,0 +1,27 @@
+name: Editorial empty-paragraph audit
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/audit_empty_paragraphs.py'
+      - 'tests/test_audit_empty_paragraphs.py'
+      - '.github/workflows/audit-empty-paragraphs.yml'
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test inventory code
+        run: python -m unittest discover -s tests -p 'test_audit_empty_paragraphs.py'
+      - name: Inventory canonical TEI without modification
+        run: |
+          python scripts/audit_empty_paragraphs.py cleaned/en/ISBE.xml \
+            --report workspace/tmp/empty-paragraph-audit.json \
+            --expected-count 31
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isbe-empty-paragraph-audit
+          path: workspace/tmp/empty-paragraph-audit.json
+          if-no-files-found: error
