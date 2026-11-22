@@ -7,7 +7,7 @@ import unittest
 from unittest.mock import patch
 
 from scripts.research_1915_print_pages import (
-    analyze_pdf, candidate_heading, find_headings, normalize,
+    analyze_pdf, candidate_heading, expected_volume, find_headings, normalize,
 )
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +21,23 @@ class PrintHeadingResearchTests(unittest.TestCase):
         self.assertEqual(candidate_heading("AMNON", "AMNON"), 5)
         self.assertEqual(candidate_heading("Amnon", "AMNON"), 1)
         self.assertEqual(candidate_heading("antiquity", "ANTIQUITY"), 1)
+
+    def test_original_five_volume_boundaries_exclude_back_of_book_index(self):
+        examples = {
+            "ABISSEI": "1",
+            "BURNT OFFERING": "1",
+            "COMING OF CHRIST": "2",
+            "HEMDAN": "2",
+            "ITHLAH": "3",
+            "MANASSITES": "3",
+            "PAUL, VOYAGE AND SHIPWRECK OF": "4",
+            "SEPHARVITES": "4",
+            "STANDING": "5",
+            "THOMEI": "5",
+        }
+        for key, volume in examples.items():
+            with self.subTest(headword=key):
+                self.assertEqual(expected_volume(key), volume)
 
     def test_two_column_ocr_line_finds_right_column_headword(self):
         pages = [
