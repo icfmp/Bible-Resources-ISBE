@@ -10,7 +10,8 @@
     "internal_refs": 5906,
     "unlinked_refs": 144,
     "bibliography_heads": 27,
-    "source_links": 6079
+    "source_links": 6079,
+    "bibliography_leads": 2
   },
-  "policy": "Attribute-only changes to original elements; insert one bibliography wrapper per source bibliography head, without changing any original node, text, tail or identifier. TEI header additions are recorded. No source or master file is overwritten."
+  "policy": "Attribute-only changes to original nodes except migrating two unsupported p/@type=bibliography-lead classifications to two valid bibliography section wrappers. Insert a bibliography wrapper per existing bibliography head, without changing original text, tail or identifier; retain provenance and original file."
 }
