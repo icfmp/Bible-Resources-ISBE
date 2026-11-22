@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from rebuild_tei import resolve_key, separator_key
+from rebuild_tei import resolve_key, separator_key, semicolon_alias_index
 
 
 class LinkResolutionTests(unittest.TestCase):
@@ -37,6 +37,28 @@ class LinkResolutionTests(unittest.TestCase):
     def test_separator_normalization_keeps_letters(self):
         self.assertEqual(separator_key("BUILD; BUILDING"), separator_key("BUILD, BUILDING"))
         self.assertNotEqual(separator_key("GOD'S"), separator_key("GODS"))
+
+    def test_explicit_semicolon_alias_unique(self):
+        ids = {"ABGAR; ABGARUS; ABAGARUS": "entry"}
+        normalized = {k.casefold(): [k] for k in ids}
+        aliases = semicolon_alias_index(ids)
+        actual = resolve_key("ABGARUS", ids, normalized, aliases=aliases)
+        self.assertEqual(actual, ("ABGAR; ABGARUS; ABAGARUS",
+                                  "explicit_semicolon_title_alias"))
+
+    def test_ambiguous_semicolon_alias_is_not_resolved(self):
+        ids = {"A; B": "one", "B; C": "two"}
+        normalized = {k.casefold(): [k] for k in ids}
+        aliases = semicolon_alias_index(ids)
+        self.assertEqual(resolve_key("B", ids, normalized, aliases=aliases),
+                         (None, "ambiguous"))
+
+    def test_indexed_complete_article_wins_over_alias(self):
+        ids = {"CLOPAS": "separate", "CLOPAS; CLEOPHAS": "compound"}
+        normalized = {k.casefold(): [k] for k in ids}
+        aliases = semicolon_alias_index(ids)
+        self.assertEqual(resolve_key("CLOPAS", ids, normalized, aliases=aliases),
+                         ("CLOPAS", "exact"))
 
     def test_missing_stays_missing(self):
         self.assertEqual(resolve_key("LITERATURE", self.ids, self.lookup), (None, "not_found"))
