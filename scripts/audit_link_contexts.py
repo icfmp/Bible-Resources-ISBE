@@ -88,6 +88,11 @@ def scan(path):
             "status": "review_diagnostics_not_approved_mappings",
             "total_unresolved_occurrences": len(records),
             "category_counts": dict(sorted(summary.items())),
+            "unique_separator_candidates": [
+                {"article_key": x["article_key"], "original_target": x["original_target"],
+                 "candidate": x["lexical_candidates"][0], "context": x["context"][:170]}
+                for x in records if x["kind"] == "unique_separator_variant_candidate"
+            ],
             "occurrences": records}
 
 
