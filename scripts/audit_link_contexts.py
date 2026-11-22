@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+"""Audit unresolved ISBE links in their containing articles.
+
+The result is a contextual diagnostic, never a source-text correction.
+"""
+import argparse
+from collections import Counter
+import json
+from pathlib import Path
+import xml.etree.ElementTree as ET
+
+TEI = "http://www.tei-c.org/ns/1.0"
+XMLID = "{http://www.w3.org/XML/1998/namespace}id"
+ENTRY = f"{{{TEI}}}div"
+REF = f"{{{TEI}}}ref"
+
+
+def normalized(s):
+    return " ".join(s.split()).strip().casefold()
+
+
+def classify_candidate(target, visible, known_keys):
+    visible_key = normalized(visible)
+    matches = known_keys.get(visible_key, [])
+    if len(matches) != 1:
+        return None
+    if normalized(target) == visible_key:
+        return None
+    return matches[0]
+
+
+def scan(path):
+    root = ET.parse(path).getroot()
+    entries = root.findall(f".//{ENTRY}[@type='entry']")
+    known = {}
+    for a in entries:
+        k = a.get("n")
+        known.setdefault(normalized(k), []).append(k)
+    records = []
+    summary = Counter()
+    for article in entries:
+        article_key = article.get("n")
+        parents = {c: p for p in article.iter() for c in p}
+        for ref in article.iter(REF):
+            destination = ref.get("target", "")
+            if not destination.startswith("ISBE:"):
+                continue
+            target = destination[5:]
+            visible = "".join(ref.itertext()).strip()
+            candidate = classify_candidate(target, visible, known)
+            parent = parents.get(ref)
+            while parent is not None and parent.tag.split("}")[-1] not in ("p", "item", "ab"):
+                parent = parents.get(parent)
+            container_text = "".join(parent.itertext()) if parent is not None else ""
+            snippet = " ".join(container_text.split())[:450]
+            kind = "visible_exact_index_candidate" if candidate else "requires_review"
+            summary[kind] += 1
+            records.append({
+                "article_key": article_key,
+                "ref_id": ref.get(XMLID),
+                "original_target": target,
+                "displayed_text": visible,
+                "candidate_key": candidate,
+                "kind": kind,
+                "context": snippet,
+            })
+    return {"schema_version": 1,
+            "status": "review_diagnostics_not_approved_mappings",
+            "total_unresolved_occurrences": len(records),
+            "category_counts": dict(sorted(summary.items())),
+            "occurrences": records}
+
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("--input", type=Path, required=True)
+    p.add_argument("--output", type=Path, required=True)
+    args = p.parse_args()
+    report = scan(args.input)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps({k: v for k, v in report.items() if k != "occurrences"}, indent=2))
+
+
+if __name__ == "__main__":
+    main()
