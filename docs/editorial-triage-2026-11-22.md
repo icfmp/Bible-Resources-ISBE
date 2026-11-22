@@ -67,3 +67,9 @@ Combined preview target: **11 provisional redirects plus 9 prose entries**, with
 The provisional print-text recovery builder now **rejects** distinctive website boilerplate before serializing recovered prose (e.g. `Copyright Statement`, `Bibliography Information`, `Popular Articles`, `Share Tweet Save`, `Bible Study Tools`, HTML `footer` or `nav` elements). It fails rather than silently sanitizing text. This prevents modern website additions from entering a historical encyclopedia article and documents exactly where the provenance boundary lies.
 
 The check intentionally does **not** reject generic historical terms such as `editor`, `note`, or `copyright`: those can be substantive encyclopedia prose. This is a candidate-import QA gate, **not** proof that all content of the original CrossWire source has been reviewed for unrelated historical/editorial annotations. Every deletion from the original canonical witness still requires its own source-backed, reversible editorial delta.
+
+## Redirect transcription fidelity: preserve visible text
+
+The 11 previously missing digital redirect records have now been compared with their own individual 1915-attributed independent entry reproductions. The review manifest records each **complete short visible secondary-witness text** and the source URL, not just its inferred target. Five source entries include historical pronunciation preceding the redirect (ASTARTE; ASTORETH, DUALISM, PROSTRATION, STANDING, JOSIBIAH). Both review builders are required to reproduce the recorded short text **exactly** while linking to an actual existing article and retaining original paragraph IDs. Existing article-level link precision remains intentionally limited where the printed source mentions a specific subsection.
+
+This is still a **secondary-transcription comparison**, not image-verified historical print approval. Site furniture is excluded and no original article is modified in the canonical CrossWire-derived witness.
