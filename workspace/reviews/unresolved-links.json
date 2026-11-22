@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 290,
-  "unresolved_distinct_targets": 240,
+  "unresolved_occurrences": 253,
+  "unresolved_distinct_targets": 229,
   "categories_by_occurrence": {
     "article_section_label": 15,
-    "multiple_numbered_entries": 75,
+    "multiple_numbered_entries": 57,
     "single_numbered_entry_candidate": 3,
-    "unmatched_heading_or_alias": 197
+    "unmatched_heading_or_alias": 178
   },
   "review_queue": [
     {
@@ -21,23 +21,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "ABI",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ABI (1)",
-        "ABI (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ADAM",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "ADAM IN THE NEW TESTAMENT; FALL, THE",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -46,7 +29,7 @@
     },
     {
       "source_target": "ADRAMMELECH",
-      "occurrences": 2,
+      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -260,16 +243,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "AZMAVETH",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "AZMAVETH (1)",
-        "AZMAVETH (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "BAAL",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
@@ -282,7 +255,7 @@
     },
     {
       "source_target": "BABEL",
-      "occurrences": 4,
+      "occurrences": 2,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -299,7 +272,7 @@
     },
     {
       "source_target": "BABYLON",
-      "occurrences": 3,
+      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -404,16 +377,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "BOIL",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "BOIL (1)",
-        "BOIL (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -690,16 +653,6 @@
       "review_candidates": [
         "ELAH (1)",
         "ELAH (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ELON",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ELON (1)",
-        "ELON (2)"
       ],
       "status": "needs_review"
     },
@@ -1057,23 +1010,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "JUBILEE",
-      "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "JUDAH",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "JUDAH (1)",
-        "JUDAH (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "JUDGES",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1082,7 +1018,7 @@
     },
     {
       "source_target": "JUDGMENT",
-      "occurrences": 3,
+      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -1404,7 +1340,7 @@
     },
     {
       "source_target": "PLASTER",
-      "occurrences": 2,
+      "occurrences": 1,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "PLASTER (1)",
@@ -1441,31 +1377,10 @@
       "status": "needs_review"
     },
     {
-      "source_target": "RAMOTH",
-      "occurrences": 3,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "RAMOTH (1)",
-        "RAMOTH (2)",
-        "RAMOTH (3)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "REBELLION",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "RIMMON",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "RIMMON (1)",
-        "RIMMON (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1618,7 +1533,7 @@
     },
     {
       "source_target": "STRANGER AND SOJOURNER",
-      "occurrences": 4,
+      "occurrences": 3,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -1820,15 +1735,8 @@
       "status": "needs_review"
     },
     {
-      "source_target": "WINE PRESS",
-      "occurrences": 4,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "WORLD",
-      "occurrences": 5,
+      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -1841,18 +1749,8 @@
       "status": "needs_review"
     },
     {
-      "source_target": "ZACHARIAS",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ZACHARIAS (1)",
-        "ZACHARIAS (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "ZECHARIAH",
-      "occurrences": 2,
+      "occurrences": 1,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "ZECHARIAH (1)",
