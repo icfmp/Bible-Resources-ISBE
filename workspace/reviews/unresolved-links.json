@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 165,
+  "unresolved_occurrences": 167,
   "unresolved_distinct_targets": 150,
   "categories_by_occurrence": {
-    "article_section_label": 13,
+    "article_section_label": 15,
     "multiple_numbered_entries": 8,
     "unmatched_heading_or_alias": 144
   },
@@ -672,7 +672,7 @@
     },
     {
       "source_target": "LITERATURE",
-      "occurrences": 3,
+      "occurrences": 5,
       "category": "article_section_label",
       "review_candidates": [],
       "status": "needs_review"

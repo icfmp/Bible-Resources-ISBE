@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 165,
+  "total_unresolved_occurrences": 167,
   "category_counts": {
-    "requires_review": 165
+    "requires_review": 167
   },
   "unresolved_numbered_homonyms": [
     {
@@ -337,6 +337,46 @@
       "ref_id": "isbe-06356179aaf9496639ab-n000020",
       "candidate_paragraphs": [],
       "candidates_total": 0
+    },
+    {
+      "article": "ISRAEL, RELIGION OF",
+      "target": "LITERATURE",
+      "ref_id": "isbe-3b145575b85a01a7ca9c-n000215",
+      "candidate_paragraphs": [
+        {
+          "paragraph_id": "isbe-3b145575b85a01a7ca9c-n000048",
+          "leading_text": "LITERATURE",
+          "paragraph_preview": "LITERATURE",
+          "child_tags": []
+        },
+        {
+          "paragraph_id": "isbe-3b145575b85a01a7ca9c-n000222",
+          "leading_text": "LITERATURE.",
+          "paragraph_preview": "LITERATURE.",
+          "child_tags": []
+        }
+      ],
+      "candidates_total": 2
+    },
+    {
+      "article": "SIRACH, BOOK OF",
+      "target": "LITERATURE",
+      "ref_id": "isbe-0d2a424d93e75e31fb63-n000043",
+      "candidate_paragraphs": [
+        {
+          "paragraph_id": "isbe-0d2a424d93e75e31fb63-n000028",
+          "leading_text": "LITERATURE",
+          "paragraph_preview": "LITERATURE",
+          "child_tags": []
+        },
+        {
+          "paragraph_id": "isbe-0d2a424d93e75e31fb63-n000161",
+          "leading_text": "LITERATURE.",
+          "paragraph_preview": "LITERATURE.",
+          "child_tags": []
+        }
+      ],
+      "candidates_total": 2
     }
   ],
   "literature_reference_structure": [
@@ -489,6 +529,38 @@
       "following": "Ludolf, Historia Aethiopica, 1681; id, Commentarius ad suam historiam Aethiopicam, 1691; Dillmann, Grammatik der athiopischen Sprache (translated into English by Crichton) 1907, Intro; Littmann, Geschichte der athiopischen Littera",
       "position": 16,
       "siblings": 19
+    },
+    {
+      "article": "ISRAEL, RELIGION OF",
+      "original_target": "LITERATURE",
+      "ref_id": "isbe-3b145575b85a01a7ca9c-n000215",
+      "ref_text": "LITERATURE",
+      "paragraph_tag": "p",
+      "paragraph_text": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finally, the APOCALYPTIC LITERATURE (which see). Since the days of the Maccabees we find the custom in certain Jewish circles,",
+      "paragraph_text_before_ref": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finall",
+      "paragraph_child_tags": [
+        "ref"
+      ],
+      "previous": "(6) Apocalyptic Literature.",
+      "following": "III. Conclusion: Characteristic Features of the Religion of Israel.",
+      "position": 137,
+      "siblings": 147
+    },
+    {
+      "article": "SIRACH, BOOK OF",
+      "original_target": "LITERATURE",
+      "ref_id": "isbe-0d2a424d93e75e31fb63-n000043",
+      "ref_text": "LITERATURE",
+      "paragraph_tag": "p",
+      "paragraph_text": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom school of Palestinian Judaism about 200 BC, though there is not a word in the book about a Messianic hope or the settin",
+      "paragraph_text_before_ref": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom",
+      "paragraph_child_tags": [
+        "ref"
+      ],
+      "previous": "IV. Teaching.",
+      "following": "1. Religion:",
+      "position": 37,
+      "siblings": 150
     }
   ],
   "fuzzy_heading_review": [
@@ -1526,7 +1598,7 @@
     },
     {
       "target": "LITERATURE",
-      "occurrences": 3,
+      "occurrences": 5,
       "candidates": [
         {
           "title": "WISDOM LITERATURE",
@@ -2301,7 +2373,7 @@
     },
     {
       "target": "LITERATURE",
-      "occurrences": 3,
+      "occurrences": 5,
       "title_candidates": [
         "LITERATURE, SUB-APOSTOLIC"
       ]
@@ -2519,6 +2591,12 @@
       "context": "See BAPTISM."
     },
     {
+      "article_key": "ISRAEL, RELIGION OF",
+      "original_target": "LITERATURE",
+      "candidate": "LITERATURE, SUB-APOSTOLIC",
+      "context": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finally, the APOCALYPTIC LITERATURE (which see). Since the days of the Maccabees we find the custom in cer"
+    },
+    {
       "article_key": "KIRIATH",
       "original_target": "JEARIM",
       "candidate": "JEARIM, MOUNT",
@@ -2565,6 +2643,12 @@
       "original_target": "PROPHET",
       "candidate": "PROPHET, THE OLD",
       "context": "See PROPHET; PROPHECY."
+    },
+    {
+      "article_key": "SIRACH, BOOK OF",
+      "original_target": "LITERATURE",
+      "candidate": "LITERATURE, SUB-APOSTOLIC",
+      "context": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom school of Palestinian Judaism about 200 BC, though there is not a word in the book about a Messiani"
     },
     {
       "article_key": "URIAH; URUAH",
@@ -4370,6 +4454,21 @@
       "context": "In PRAYERS OF CHRIST (which see), the intercessory character of many of our Lord's prayers, and especially that of Joh 17, is considered. And it has been impossible for Christian thought to divest itself of the idea that the heavenly intercession of Christ is of the order of prayer. It is impossible for us to know; and even if Christ now prays to the Father, it can be in no way analogous to earthly prayers. The thought of some portion of Christen"
     },
     {
+      "article_key": "ISRAEL, RELIGION OF",
+      "ref_id": "isbe-3b145575b85a01a7ca9c-n000215",
+      "original_target": "LITERATURE",
+      "displayed_text": "LITERATURE",
+      "candidate_key": null,
+      "alias_candidates": [],
+      "comma_prefix_candidates": [
+        "LITERATURE, SUB-APOSTOLIC"
+      ],
+      "numbered_candidates": [],
+      "lexical_candidates": [],
+      "kind": "requires_review",
+      "context": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finally, the APOCALYPTIC LITERATURE (which see). Since the days of the Maccabees we find the custom in certain Jewish circles, by using the old prophecies and adapting them to the events of the times, of drawing up a systematic picture of the future. The authorship of these writings was usually ascribed to one of the ancient saints, e.g. to Enoch, or Abr"
+    },
+    {
       "article_key": "JAREB",
       "ref_id": "isbe-834f669fe3cdf2f37367-n000016",
       "original_target": "ICC",
@@ -4759,6 +4858,21 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "To the Southeast of Warka and Senqara lies the site of the ancient UR OF THE CHALDEES (which see) now Mugheir. It was renowned for its temple to the moon, and for the kings known as the dynasty of Ur: Sur-Engur, Dungi, Bur-Sin, Gimil-Sin, and Ibi-Sin."
+    },
+    {
+      "article_key": "SIRACH, BOOK OF",
+      "ref_id": "isbe-0d2a424d93e75e31fb63-n000043",
+      "original_target": "LITERATURE",
+      "displayed_text": "LITERATURE",
+      "candidate_key": null,
+      "alias_candidates": [],
+      "comma_prefix_candidates": [
+        "LITERATURE, SUB-APOSTOLIC"
+      ],
+      "numbered_candidates": [],
+      "lexical_candidates": [],
+      "kind": "requires_review",
+      "context": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom school of Palestinian Judaism about 200 BC, though there is not a word in the book about a Messianic hope or the setting up of a Messianic kingdom. None of the views characteristic of Alexandrian Judaism and absent from the teaching of Palestinian Judaism are to be found in this book, though some of them at least are represented in Wisdom (see WIS"
     },
     {
       "article_key": "SOJOURNER",
