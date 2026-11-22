@@ -1,0 +1,49 @@
+name: Triage six unresolved headwords in 1915 print scans
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/triage_1915_unresolved.py'
+      - 'tests/test_triage_1915_unresolved.py'
+      - '.github/workflows/triage-1915-unresolved.yml'
+  workflow_dispatch:
+
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m unittest discover -s tests -p test_triage_1915_unresolved.py
+
+  original-volume-ocr:
+    if: github.event_name == 'workflow_dispatch'
+    needs: offline
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        volume: ["1","3","4","5"]
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install original print PDF tools
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Download historical source and locate remaining heads
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p workspace/tmp/1915-unresolved
+          curl --fail --location --silent --show-error --retry 3 --retry-all-errors \
+            --connect-timeout 20 --max-time 360 \
+            "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
+            --output "workspace/tmp/1915-unresolved/volume-${{ matrix.volume }}.pdf"
+          python scripts/triage_1915_unresolved.py \
+            --volume "${{ matrix.volume }}" \
+            --pdf "workspace/tmp/1915-unresolved/volume-${{ matrix.volume }}.pdf" \
+            --output "workspace/tmp/1915-unresolved/volume-${{ matrix.volume }}.json"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: historical-1915-unresolved-ocr-volume-${{ matrix.volume }}
+          path: workspace/tmp/1915-unresolved/volume-${{ matrix.volume }}.json
+          if-no-files-found: warn
