@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 1328,
-  "unresolved_distinct_targets": 729,
+  "unresolved_occurrences": 1323,
+  "unresolved_distinct_targets": 725,
   "categories_by_occurrence": {
-    "article_section_label": 117,
+    "article_section_label": 112,
     "multiple_numbered_entries": 173,
     "single_numbered_entry_candidate": 9,
     "unmatched_heading_or_alias": 1029
@@ -2598,13 +2598,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "I. INTRODUCTORY",
-      "occurrences": 1,
-      "category": "article_section_label",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "I. NATURE AND FUNCTION OF ETHICS",
       "occurrences": 1,
       "category": "article_section_label",
@@ -2664,13 +2657,6 @@
       "source_target": "ICC",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "II. ACCOMMODATED APPLICATION OF SCRIPTURE PASSAGES",
-      "occurrences": 1,
-      "category": "article_section_label",
       "review_candidates": [],
       "status": "needs_review"
     },
@@ -2781,13 +2767,6 @@
     },
     {
       "source_target": "III. DESTINATION",
-      "occurrences": 1,
-      "category": "article_section_label",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "III. DOUBLE REFERENCE IN SCRIPTURE",
       "occurrences": 1,
       "category": "article_section_label",
       "review_candidates": [],
@@ -2919,13 +2898,6 @@
       "source_target": "ISLE",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "IV. ACCOMMODATION IN REVELATION",
-      "occurrences": 1,
-      "category": "article_section_label",
       "review_candidates": [],
       "status": "needs_review"
     },
@@ -3322,7 +3294,7 @@
     },
     {
       "source_target": "LITERATURE",
-      "occurrences": 16,
+      "occurrences": 15,
       "category": "article_section_label",
       "review_candidates": [],
       "status": "needs_review"

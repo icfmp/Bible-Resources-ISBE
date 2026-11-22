@@ -121,6 +121,39 @@
     }
   ],
   "resolved_variant_occurrences": 16,
+  "resolved_local_section_links": [
+    {
+      "article_key": "ACCOMMODATION",
+      "original": "I. INTRODUCTORY",
+      "local_heading_id": "isbe-5787c293764e38235da0-n000028",
+      "occurrences": 1
+    },
+    {
+      "article_key": "ACCOMMODATION",
+      "original": "II. ACCOMMODATED APPLICATION OF SCRIPTURE PASSAGES",
+      "local_heading_id": "isbe-5787c293764e38235da0-n000037",
+      "occurrences": 1
+    },
+    {
+      "article_key": "ACCOMMODATION",
+      "original": "III. DOUBLE REFERENCE IN SCRIPTURE",
+      "local_heading_id": "isbe-5787c293764e38235da0-n000048",
+      "occurrences": 1
+    },
+    {
+      "article_key": "ACCOMMODATION",
+      "original": "IV. ACCOMMODATION IN REVELATION",
+      "local_heading_id": "isbe-5787c293764e38235da0-n000116",
+      "occurrences": 1
+    },
+    {
+      "article_key": "ACCOMMODATION",
+      "original": "LITERATURE",
+      "local_heading_id": "isbe-5787c293764e38235da0-n000158",
+      "occurrences": 1
+    }
+  ],
+  "resolved_local_section_occurrences": 5,
   "unresolved_link_diagnostics": [
     {
       "original": "14. LITERATURE.",
@@ -1878,11 +1911,6 @@
       "occurrences": 1
     },
     {
-      "original": "I. INTRODUCTORY",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "I. NATURE AND FUNCTION OF ETHICS",
       "reason": "not_found",
       "occurrences": 1
@@ -1924,11 +1952,6 @@
     },
     {
       "original": "ICC",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "II. ACCOMMODATED APPLICATION OF SCRIPTURE PASSAGES",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -2009,11 +2032,6 @@
     },
     {
       "original": "III. DESTINATION",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "III. DOUBLE REFERENCE IN SCRIPTURE",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -2104,11 +2122,6 @@
     },
     {
       "original": "ISLE",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "IV. ACCOMMODATION IN REVELATION",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -2370,7 +2383,7 @@
     {
       "original": "LITERATURE",
       "reason": "not_found",
-      "occurrences": 16
+      "occurrences": 15
     },
     {
       "original": "LITERATURE.",
@@ -3778,11 +3791,6 @@
     "FAST.": 1,
     "ABOUND": 1,
     "EKRON.": 1,
-    "I. INTRODUCTORY": 1,
-    "II. ACCOMMODATED APPLICATION OF SCRIPTURE PASSAGES": 1,
-    "III. DOUBLE REFERENCE IN SCRIPTURE": 1,
-    "IV. ACCOMMODATION IN REVELATION": 1,
-    "LITERATURE": 16,
     "DEMON": 3,
     "EVE": 2,
     "ADAM IN THE NEW TESTAMENT; FALL, THE": 1,
@@ -3834,6 +3842,7 @@
     "EUEDORACHOS": 1,
     "AMEMPSINOS": 1,
     "OTIARTES": 1,
+    "LITERATURE": 15,
     "BIBLE": 8,
     "DEUTERO-CANONICAL": 2,
     "COLOR": 6,
@@ -4499,6 +4508,6 @@
     "ZIPH": 1,
     "GOSHEN": 1
   },
-  "unresolved_link_occurrences": 1328,
+  "unresolved_link_occurrences": 1323,
   "text_integrity": "validated for every entry"
 }
