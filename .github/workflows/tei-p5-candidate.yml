@@ -55,17 +55,42 @@ jobs:
             exit 1
           fi
           echo "Verified: malformed TEI structural control rejected"
-      - name: Inventory official TEI P5 4.12.0 Schematron (digest discovery)
+      - name: Probe pinned official TEI Schematron with ISO Saxon implementation
         continue-on-error: true
         shell: bash
         run: |
           set -euo pipefail
-          url="https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/Exemplars/tei_all.isosch"
-          echo "Official versioned Schematron source: $url"
-          curl --fail --location --silent --show-error --retry 2 "$url" -o /tmp/tei_all-4.12.0.isosch
-          file /tmp/tei_all-4.12.0.isosch
-          wc -c /tmp/tei_all-4.12.0.isosch
-          sha256sum /tmp/tei_all-4.12.0.isosch
+          sch="https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/Exemplars/tei_all.isosch"
+          curl --fail --location --silent --show-error --retry 2 "$sch" -o /tmp/tei_all-4.12.0.isosch
+          echo "500f231ac32d12827bdbdd4168e88743848656bc46cc83286d39bd1f396113d5  /tmp/tei_all-4.12.0.isosch" | sha256sum --check --strict
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          root = ET.parse('/tmp/tei_all-4.12.0.isosch').getroot()
+          print('Official Schematron root:', root.tag, root.attrib)
+          print('Patterns:', len(root.findall('{http://purl.oclc.org/dsdl/schematron}pattern')))
+          PY
+          mkdir -p /tmp/schiso
+          source="https://raw.githubusercontent.com/Schematron/schematron/77dcd36c53d12ed786c144ece3b2af7694abdc56/trunk/schematron/code"
+          for name in iso_dsdl_include.xsl iso_abstract_expand.xsl iso_svrl_for_xslt2.xsl iso_schematron_skeleton_for_saxon.xsl; do
+            curl --fail --location --silent --show-error --retry 2 "$source/$name" -o "/tmp/schiso/$name"
+          done
+          java -cp /usr/share/java/Saxon-HE.jar net.sf.saxon.Transform -s:/tmp/tei_all-4.12.0.isosch -xsl:/tmp/schiso/iso_dsdl_include.xsl -o:/tmp/schiso/included.sch
+          java -cp /usr/share/java/Saxon-HE.jar net.sf.saxon.Transform -s:/tmp/schiso/included.sch -xsl:/tmp/schiso/iso_abstract_expand.xsl -o:/tmp/schiso/expanded.sch
+          java -cp /usr/share/java/Saxon-HE.jar net.sf.saxon.Transform -s:/tmp/schiso/expanded.sch -xsl:/tmp/schiso/iso_svrl_for_xslt2.xsl -o:/tmp/schiso/validator.xsl
+          java -cp /usr/share/java/Saxon-HE.jar net.sf.saxon.Transform -s:workspace/candidates/en/ISBE.xml -xsl:/tmp/schiso/validator.xsl -o:/tmp/schiso/result.svrl
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          namespace = '{http://purl.oclc.org/dsdl/svrl}'
+          root = ET.parse('/tmp/schiso/result.svrl').getroot()
+          failures = root.findall('.//' + namespace + 'failed-assert')
+          reports = root.findall('.//' + namespace + 'successful-report')
+          print('Schematron SVRL:', len(failures), 'failed assertions and',
+                len(reports), 'successful reports')
+          for el in (failures + reports)[:12]:
+              print(el.get('location'), ''.join(el.itertext())[:500])
+          if failures or reports:
+              raise SystemExit('Official Schematron diagnostics require review')
+          PY
       - name: Publish candidate for independent official schema review
         uses: actions/upload-artifact@v4
         with:
