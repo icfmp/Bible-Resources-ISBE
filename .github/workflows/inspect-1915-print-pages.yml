@@ -1,0 +1,42 @@
+name: Inspect original 1915 ISBE printed pages
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/render_1915_print_evidence.py'
+      - 'tests/test_render_1915_print_evidence.py'
+      - '.github/workflows/inspect-1915-print-pages.yml'
+  workflow_dispatch:
+
+jobs:
+  page-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {volume: "1", pages: "329,654"}
+          - {volume: "2", pages: "499"}
+          - {volume: "3", pages: "393"}
+          - {volume: "4", pages: "176,466,642"}
+          - {volume: "5", pages: "67,169"}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install source-page rendering tool
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Fetch exact 1915 original printed volume
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p workspace/tmp/print-evidence
+          curl --fail --location --silent --show-error --retry 3 --retry-all-errors \
+            --connect-timeout 20 --max-time 360 \
+            "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
+            --output "workspace/tmp/print-evidence/vol-${{ matrix.volume }}.pdf"
+      - name: Render SHA-locked page images to temporary evidence log
+        run: |
+          python scripts/render_1915_print_evidence.py \
+            --pdf "workspace/tmp/print-evidence/vol-${{ matrix.volume }}.pdf" \
+            --volume "${{ matrix.volume }}" \
+            --pages "${{ matrix.pages }}"
