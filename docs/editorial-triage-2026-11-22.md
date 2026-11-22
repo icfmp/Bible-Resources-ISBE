@@ -128,3 +128,20 @@ All **six** previously unlocated entries have now been identified in their prope
 The source-located evidence is now **31/31**: 25 strict primary-print OCR matches plus six additionally checked printed-page image matches. **Do not equate this to 31/31 complete article transcription validations**: only nine individual pages have been visually checked, and none of the entire source articles or Greek/Hebrew punctuation has yet received fully certified text-level collation.
 
 This correction supersedes the earlier six-unresolved *OCR* checkpoint without rewriting the audit history. In the historical OCR ledger, the six original strict-OCR fields remain absent, with their separate confirmed page-image locations preserved. The original CrossWire and canonical TEI remain immutable.
+
+
+## Second original 1915 printed-page image review — twelve entries
+
+Another twelve original printed facsimile pages have been visually examined in the source-locked [GitHub Actions image run](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694), with JPEG digests, full original-volume SHA-256 and printed folios recorded in `workspace/reviews/1915-visual-page-collation-v1.json`. The total is now **21 of the 31** source-gap entries with page-image observations; the other **10** remain unchecked, and **zero** complete scholarly transcriptions have been editorially certified or published.
+
+The new historical print evidence covers: `ABISSEI`, `AMNON`, `BURNT OFFERING` (volume I); `COMING OF CHRIST`, `DEHORT`, `DUALISM` (II); `ITHLAH`, `MARKET, SHEEP` (III); `PAUL, VOYAGE AND SHIPWRECK OF`, `PROSTRATION` (IV); `STANDING`, `TEPHON` (V).
+
+Material findings retained in the **separate unapproved candidate**:
+- The original `BURNT OFFERING` cross-reference reads `SACRIFICE IN THE OT AND NT`, not merely `SACRIFICE`. The printed label is preserved in the preview, with the existing broad article link clearly marked as needing an exact historical destination check.
+- `PAUL, VOYAGE AND SHIPWRECK OF` points visibly to `PAUL THE APOSTLE, V, 9` (not the derivative punctuation `PAUL, THE APOSTLE`); article-level navigation remains separate from display wording.
+- `DUALISM`, `PROSTRATION` and `STANDING` had extra hyphens or altered pronunciation in the web transcriptions; the print readings replace them.
+- `DEHORT`, `ITHLAH`, and `TEPHON` had substantial secondary-source drift including omitted Greek/Hebrew wording, expanded AV/RV and scriptural book abbreviations, and **`Jetblah` for the correctly printed `Jethlah`**. Their candidate entries were revised, without claiming all accent marks are settled.
+- `ABISSEI` has been re-checked against original print. `AMNON` retains two separate numbered senses while Hebrew characters still need rigorous verification.
+- `COMING OF CHRIST` and `MARKET, SHEEP` already had the correct proposed redirect meanings, confirmed by print images.
+
+All changes preserve prior readings and source identifiers in manifests; the immutable 1915 facsimiles, the original CrossWire ZIP/IMP and `cleaned/en/ISBE.xml` are untouched. Technical TEI P5 validity is necessary but not sufficient to approve printed-text fidelity, language variants or redistribution rights.

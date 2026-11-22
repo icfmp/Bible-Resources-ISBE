@@ -24,11 +24,11 @@ class RedirectPreviewTests(unittest.TestCase):
             self.assertEqual(next(r["proposed_visible_text"] for r in result["records"] if r["article_key"]=="JOSIBIAH"), "jos-i-bi'a. See JOSHIBIAH.")
             proposed={r["article_key"]:r["proposed_visible_text"] for r in result["records"]}
             self.assertEqual(proposed["ASTARTE; ASTORETH"], "as-tar'-te, ASTORETH. See ASHTAROTH.")
-            self.assertEqual(proposed["DUALISM"], "du\'-al-iz\'-m. See PHILOSOPHY.")
-            self.assertEqual(proposed["PROSTRATION"], "pros-tra\'-shun. See ATTITUDES.")
-            self.assertEqual(proposed["STANDING"], "stand\'-ing. See ATTITUDES.")
+            self.assertEqual(proposed["DUALISM"], "dū\'al-iz\'m. See PHILOSOPHY.")
+            self.assertEqual(proposed["PROSTRATION"], "pros-tra\'shun. See ATTITUDES.")
+            self.assertEqual(proposed["STANDING"], "stand\'ing. See ATTITUDES.")
             self.assertEqual(proposed["PAUL, VOYAGE AND SHIPWRECK OF"],
-                             "See PAUL, THE APOSTLE, V, 9; PHOENIX.")
+                             "See PAUL THE APOSTLE, V, 9; PHOENIX.")
             self.assertEqual(proposed["PATRIARCHS, TESTAMENTS OF THE TWELVE"],
                              "See APOCALYPTIC LITERATURE, IV, 1.")
             self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(),before)

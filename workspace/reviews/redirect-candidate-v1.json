@@ -1,5 +1,5 @@
 {
-  "schema": 4,
+  "schema": 5,
   "canonical_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "scope": "A separately generated noncanonical editorial preview only",
   "validation_status": "unapproved, printed source not fully verified",
@@ -32,11 +32,18 @@
       ],
       "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/burnt-offering.html",
       "source_level": "secondary_transcription",
-      "source_image_verified": false,
+      "source_image_verified": true,
       "approved": false,
       "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
       "proposed_lead": "See ",
-      "observed_secondary_witness_text": "See SACRIFICE."
+      "observed_secondary_witness_text": "See SACRIFICE.",
+      "proposed_display_labels": {
+        "SACRIFICE": "SACRIFICE IN THE OT AND NT"
+      },
+      "proposed_print_collated_text": "See SACRIFICE IN THE OT AND NT.",
+      "print_source_observation": "Original vol I p. 532 prints full target title rather than SACRIFICE alone. Existing link remains article-level until canonical article destination key verified.",
+      "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "article_key": "COMING OF CHRIST",
@@ -61,11 +68,15 @@
       ],
       "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/dualism.html",
       "source_level": "secondary_transcription",
-      "source_image_verified": false,
+      "source_image_verified": true,
       "approved": false,
       "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
-      "proposed_lead": "du'-al-iz'-m. See ",
-      "observed_secondary_witness_text": "du'-al-iz'-m. See PHILOSOPHY."
+      "proposed_lead": "dū'al-iz'm. See ",
+      "observed_secondary_witness_text": "du'-al-iz'-m. See PHILOSOPHY.",
+      "proposed_print_collated_text": "dū'al-iz'm. See PHILOSOPHY.",
+      "print_source_observation": "Original vol II p. 881 lacks the derivative's extra hyphen. Macron is read from printed facsimile and requires precision sign-off.",
+      "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "article_key": "MARKET, SHEEP",
@@ -111,14 +122,18 @@
       ],
       "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/paul-voyage-and-shipwreck-of.html",
       "source_level": "secondary_transcription",
-      "source_image_verified": false,
+      "source_image_verified": true,
       "approved": false,
       "editorial_note": "The independent reproduction includes a precise subsection V, 9 for PAUL, THE APOSTLE. Candidate link is article-level only, and must not claim to target that subsection. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
       "proposed_display_labels": {
-        "PAUL, THE APOSTLE": "PAUL, THE APOSTLE, V, 9"
+        "PAUL, THE APOSTLE": "PAUL THE APOSTLE, V, 9"
       },
       "proposed_lead": "See ",
-      "observed_secondary_witness_text": "See PAUL, THE APOSTLE, V, 9; PHOENIX."
+      "observed_secondary_witness_text": "See PAUL, THE APOSTLE, V, 9; PHOENIX.",
+      "proposed_print_collated_text": "See PAUL THE APOSTLE, V, 9; PHOENIX.",
+      "print_source_observation": "Original vol IV p. 2289 has no comma between PAUL and THE in the target label.",
+      "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "article_key": "PROSTRATION",
@@ -128,11 +143,15 @@
       ],
       "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/prostration.html",
       "source_level": "secondary_transcription",
-      "source_image_verified": false,
+      "source_image_verified": true,
       "approved": false,
       "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
-      "proposed_lead": "pros-tra'-shun. See ",
-      "observed_secondary_witness_text": "pros-tra'-shun. See ATTITUDES."
+      "proposed_lead": "pros-tra'shun. See ",
+      "observed_secondary_witness_text": "pros-tra'-shun. See ATTITUDES.",
+      "proposed_print_collated_text": "pros-tra'shun. See ATTITUDES.",
+      "print_source_observation": "Original vol IV p. 2469: pros-tra'shun, not pros-tra'-shun.",
+      "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "article_key": "REGENERATION, BAPTISMAL",
@@ -156,11 +175,15 @@
       ],
       "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/standing.html",
       "source_level": "secondary_transcription",
-      "source_image_verified": false,
+      "source_image_verified": true,
       "approved": false,
       "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
-      "proposed_lead": "stand'-ing. See ",
-      "observed_secondary_witness_text": "stand'-ing. See ATTITUDES."
+      "proposed_lead": "stand'ing. See ",
+      "observed_secondary_witness_text": "stand'-ing. See ATTITUDES.",
+      "proposed_print_collated_text": "stand'ing. See ATTITUDES.",
+      "print_source_observation": "Original vol V p. 2848: stand'ing, not stand'-ing.",
+      "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "article_key": "JOSIBIAH",
@@ -184,5 +207,5 @@
       "print_text_fully_certified": false
     }
   ],
-  "research_checkpoint": "Three of eleven secondary redirect previews corrected from primary 1915 printed facsimile page evidence. All 11 still unapproved as canonical publication text; some diacritics unresolved."
+  "research_checkpoint": "Eight historical cross-reference records corrected from visually inspected original print facsimiles, all unapproved as canonical publication edition."
 }

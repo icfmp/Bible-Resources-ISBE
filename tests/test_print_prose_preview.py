@@ -46,6 +46,9 @@ class PrintProsePreviewTests(unittest.TestCase):
             self.assertEqual(len([p for p in records["AMNON"] if p.tag==q("p")]),3)
             self.assertIn("descendant of Asher", "".join(records["BEERA"].itertext()))
             self.assertIn("In 1 Esdras 8:2", "".join(records["SAVIAS"].itertext()))
+            self.assertIn("AV Jethlah", "".join(records["ITHLAH"].itertext()))
+            self.assertIn("ἀποστρέφω", "".join(records["DEHORT"].itertext()))
+            self.assertIn("ἡ Τεφώ", "".join(records["TEPHON"].itertext()))
             self.assertIn("Grandfather of Shallum", "".join(records["HASRAH"].itertext()))
             self.assertIn("jos-i-bi'a. See JOSHIBIAH.", "".join(records["JOSIBIAH"].itertext()))
             for key in ("CHORBE", "DEHORT", "FROWARDNESS", "HEMDAN",
