@@ -618,7 +618,9 @@ def build(imp, reviewed=None, occurrence_mappings=None):
             label = " ".join((first.text or "").split())
             if not is_final_literature_heading(label):
                 continue
-            if not is_final_literature_heading(original_target[5:]):
+            # Some CrossWire targets omit the final stop even when the
+            # printed bibliography heading includes it.
+            if not is_literature_label(original_target[5:]):
                 continue
             if pos == len(children) - 1:
                 continue
