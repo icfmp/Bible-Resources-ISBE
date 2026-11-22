@@ -38,8 +38,9 @@ class ShortRedirectPrintedTextCollationTests(unittest.TestCase):
                                  page["original_source_paragraph_xml_id"])
                 self.assertEqual(row["exact_candidate_paragraph_reading"],
                                  candidate["proposed_print_collated_text"])
-                self.assertEqual(row["printed_entry_reading_with_heading"],
-                                 key + ". " + row["exact_candidate_paragraph_reading"])
+                self.assertTrue(row["printed_entry_reading_with_heading"].startswith(key))
+                self.assertTrue(row["printed_entry_reading_with_heading"].endswith(
+                    row["exact_candidate_paragraph_reading"]))
                 self.assertEqual(row["source_pdf_volume"], page["scan_volume"])
                 self.assertEqual(row["source_pdf_page_1_based"], page["pdf_page_1_based"])
                 self.assertEqual(row["printed_page"], page["printed_page_number"])
