@@ -1,5 +1,5 @@
 {
-  "schema": 2,
+  "schema": 3,
   "canonical_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "scope": "A separately generated noncanonical editorial preview only",
   "validation_status": "unapproved, printed source not fully verified",
@@ -16,7 +16,9 @@
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Independent reproduction includes a pronunciation before the redirect. Preview omits pronunciation; not approved as historical transcription."
+      "editorial_note": "Independent reproduction includes a pronunciation before the redirect. Preview omits pronunciation; not approved as historical transcription. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "proposed_lead": "as-tar'-te. See ",
+      "observed_secondary_witness_text": "as-tar'-te. See ASHTAROTH."
     },
     {
       "article_key": "BURNT OFFERING",
@@ -24,11 +26,13 @@
       "proposed_targets": [
         "SACRIFICE"
       ],
-      "secondary_witness_url": "https://m.egwwritings.org/en/book/14702.509936",
+      "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/burnt-offering.html",
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image."
+      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "proposed_lead": "See ",
+      "observed_secondary_witness_text": "See SACRIFICE."
     },
     {
       "article_key": "COMING OF CHRIST",
@@ -37,11 +41,13 @@
         "ADVENT",
         "PAROUSIA"
       ],
-      "secondary_witness_url": "https://archive.hundewadt.dk/dvd-the-bibles-fight-to-live/003%20Text/005%20Bible%20Reference%20Works/International%20Standard%20Bible%20Encyclopedia%20%20%28James%20Orr%29.pdf",
+      "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/coming-of-christ.html",
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image."
+      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "proposed_lead": "See ",
+      "observed_secondary_witness_text": "See ADVENT; PAROUSIA."
     },
     {
       "article_key": "DUALISM",
@@ -49,11 +55,13 @@
       "proposed_targets": [
         "PHILOSOPHY"
       ],
-      "secondary_witness_url": "https://www.bible-history.com/isbe/d/dualism/",
+      "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/dualism.html",
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image."
+      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "proposed_lead": "du'-al-iz'-m. See ",
+      "observed_secondary_witness_text": "du'-al-iz'-m. See PHILOSOPHY."
     },
     {
       "article_key": "MARKET, SHEEP",
@@ -61,11 +69,13 @@
       "proposed_targets": [
         "SHEEP MARKET"
       ],
-      "secondary_witness_url": "https://archive.hundewadt.dk/dvd-the-bibles-fight-to-live/003%20Text/005%20Bible%20Reference%20Works/International%20Standard%20Bible%20Encyclopedia%20%20%28James%20Orr%29.pdf",
+      "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/market-sheep.html",
       "source_level": "secondary_index",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image."
+      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "proposed_lead": "See ",
+      "observed_secondary_witness_text": "See SHEEP MARKET."
     },
     {
       "article_key": "PATRIARCHS, TESTAMENTS OF THE TWELVE",
@@ -77,10 +87,12 @@
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Independent reproduction gives section IV, 1; proposed TEI link is article-level only pending a verified exact subsection anchor.",
+      "editorial_note": "Independent reproduction gives section IV, 1; proposed TEI link is article-level only pending a verified exact subsection anchor. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
       "proposed_display_labels": {
         "APOCALYPTIC LITERATURE": "APOCALYPTIC LITERATURE, sec. IV, 1"
-      }
+      },
+      "proposed_lead": "See ",
+      "observed_secondary_witness_text": "See APOCALYPTIC LITERATURE, sec. IV, 1."
     },
     {
       "article_key": "PAUL, VOYAGE AND SHIPWRECK OF",
@@ -93,10 +105,12 @@
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "The independent reproduction includes a precise subsection V, 9 for PAUL, THE APOSTLE. Candidate link is article-level only, and must not claim to target that subsection.",
+      "editorial_note": "The independent reproduction includes a precise subsection V, 9 for PAUL, THE APOSTLE. Candidate link is article-level only, and must not claim to target that subsection. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
       "proposed_display_labels": {
         "PAUL, THE APOSTLE": "PAUL, THE APOSTLE, V, 9"
-      }
+      },
+      "proposed_lead": "See ",
+      "observed_secondary_witness_text": "See PAUL, THE APOSTLE, V, 9; PHOENIX."
     },
     {
       "article_key": "PROSTRATION",
@@ -104,11 +118,13 @@
       "proposed_targets": [
         "ATTITUDES"
       ],
-      "secondary_witness_url": "https://bible-history.com/isbe/p/prostration",
+      "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/prostration.html",
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image."
+      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "proposed_lead": "pros-tra'-shun. See ",
+      "observed_secondary_witness_text": "pros-tra'-shun. See ATTITUDES."
     },
     {
       "article_key": "REGENERATION, BAPTISMAL",
@@ -116,11 +132,13 @@
       "proposed_targets": [
         "BAPTISMAL REGENERATION"
       ],
-      "secondary_witness_url": "https://classic.net.bible.org/dictionary.php?word=Regeneration%2C+Baptismal",
+      "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/regeneration-baptismal.html",
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image."
+      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "proposed_lead": "See ",
+      "observed_secondary_witness_text": "See BAPTISMAL REGENERATION."
     },
     {
       "article_key": "STANDING",
@@ -128,11 +146,13 @@
       "proposed_targets": [
         "ATTITUDES"
       ],
-      "secondary_witness_url": "https://www.bible-history.com/isbe/s/standing/",
+      "secondary_witness_url": "https://www.biblestudytools.com/encyclopedias/isbe/standing.html",
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image."
+      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "proposed_lead": "stand'-ing. See ",
+      "observed_secondary_witness_text": "stand'-ing. See ATTITUDES."
     },
     {
       "article_key": "JOSIBIAH",
@@ -147,8 +167,10 @@
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Secondary witness attests pronunciation jos-i-bi'-a followed by See JOSHIBIAH; the synthetic preview omits pronunciation, so remains unapproved and not a historical transcription."
+      "editorial_note": "Secondary witness attests pronunciation jos-i-bi'-a followed by See JOSHIBIAH; the synthetic preview omits pronunciation, so remains unapproved and not a historical transcription. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "proposed_lead": "jos-i-bi'-a. See ",
+      "observed_secondary_witness_text": "jos-i-bi'-a. See JOSHIBIAH."
     }
   ],
-  "research_checkpoint": "11 redirect candidates; JOSIBIAH corrected to historical redirect (not encyclopedic prose). Printed page-image comparison still required."
+  "research_checkpoint": "11/11 short redirect text units reproduced as explicitly noncanonical secondary witness specimens, preserving five headword pronunciations and two original section-level labels. No approval to promote without independent printed-page inspection."
 }
