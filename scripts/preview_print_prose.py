@@ -88,7 +88,7 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
             link=ET.SubElement(p,q("ref"),{"type":"article","target":"#"+target.get(XMLID)})
             link.text=r.get("proposed_display_labels",{}).get(target_key,target_key)
             link.tail="." if i==len(r["proposed_targets"])-1 else "; "
-        observed=r["observed_secondary_witness_text"]
+        observed=r.get("proposed_print_collated_text", r["observed_secondary_witness_text"])
         actual="".join(p.itertext())
         if actual!=observed:
             raise ValueError(f"Redirect preview differs from witnessed text for {key}")
