@@ -172,6 +172,12 @@ def main():
     p.add_argument("--report", type=Path, required=True)
     p.add_argument("--strict-profile", action="store_true",
                    help="Fail if any ISBE target-profile conformance finding remains")
+    p.add_argument("--expected-entries", type=int,
+                   help="Require the exact number of source-derived articles")
+    p.add_argument("--reject-active-broken-links", action="store_true",
+                   help="Refuse raw unresolved ISBE navigation targets")
+    p.add_argument("--reject-non-tei-namespace", action="store_true",
+                   help="Require every article descendant to be in the official TEI namespace")
     args = p.parse_args()
     report = analyze(args.tei)
     args.report.parent.mkdir(parents=True, exist_ok=True)
@@ -184,6 +190,16 @@ def main():
         "elements_by_namespace": report["elements_by_namespace"],
         "link_classes": report["link_classes"],
     }, indent=2))
+    if report["duplicate_xml_ids"]:
+        raise SystemExit("Duplicate XML identifiers in TEI corpus")
+    if args.expected_entries is not None and report["entry_count"] != args.expected_entries:
+        raise SystemExit("Article coverage differs from expected entry count")
+    if (args.reject_active_broken_links
+            and report["link_classes"].get("active_original_isbe_target", 0)):
+        raise SystemExit("Active source ISBE links without verified destinations")
+    if (args.reject_non_tei_namespace
+            and any(ns != TEI for ns in report["elements_by_namespace"])):
+        raise SystemExit("Article descendants outside the TEI namespace")
     if args.strict_profile and report["profile_rule_findings"]:
         raise SystemExit(2)
 
