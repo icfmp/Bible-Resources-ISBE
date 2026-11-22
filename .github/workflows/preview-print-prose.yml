@@ -1,0 +1,54 @@
+name: Build isolated historical prose recovery specimen
+
+on:
+  pull_request:
+    paths:
+      - 'workspace/reviews/print-prose-candidate-v1.json'
+      - 'scripts/preview_print_prose.py'
+      - 'scripts/validate_prose_preview_profile.py'
+      - 'tests/test_print_prose_preview.py'
+      - '.github/workflows/preview-print-prose.yml'
+  workflow_dispatch:
+
+jobs:
+  build-review-specimen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test complete historical source specimen and negative controls
+        run: python -m unittest discover -s tests -p 'test_print_prose_preview.py'
+      - name: Build source-locked 13-record independent review specimen
+        run: |
+          python scripts/preview_print_prose.py \
+            --output workspace/tmp/ISBE-print-prose-preview.xml \
+            --report workspace/tmp/ISBE-print-prose-report.json
+      - name: Check strict profile and source-fidelity report for official validation
+        run: |
+          python scripts/validate_prose_preview_profile.py \
+            --source cleaned/en/ISBE.xml \
+            --candidate workspace/tmp/ISBE-print-prose-preview.xml \
+            --report workspace/tmp/ISBE-print-prose-report.json \
+            --manifest workspace/changes/tei-p5-candidate-v1.json \
+            --out-manifest workspace/tmp/print-prose-manifest.json \
+            --out-fidelity workspace/tmp/print-prose-fidelity.json
+      - name: Install official TEI P5 RELAX NG validator
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jing
+      - name: Run pinned official P5 4.12.0 RELAX NG and Schematron validation
+        run: |
+          python scripts/validate_official_tei_p5.py \
+            --candidate workspace/tmp/ISBE-print-prose-preview.xml \
+            --source-report workspace/tmp/print-prose-fidelity.json \
+            --manifest workspace/tmp/print-prose-manifest.json \
+            --output workspace/tmp/print-prose-official-validation.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: noncanonical-1915-prose-specimen
+          path: |
+            workspace/tmp/ISBE-print-prose-preview.xml
+            workspace/tmp/ISBE-print-prose-report.json
+            workspace/tmp/print-prose-fidelity.json
+            workspace/tmp/print-prose-official-validation.json
+          if-no-files-found: warn
