@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 607,
-  "unresolved_distinct_targets": 339,
+  "unresolved_occurrences": 537,
+  "unresolved_distinct_targets": 318,
   "categories_by_occurrence": {
     "article_section_label": 56,
     "multiple_numbered_entries": 148,
     "single_numbered_entry_candidate": 3,
-    "unmatched_heading_or_alias": 400
+    "unmatched_heading_or_alias": 330
   },
   "review_queue": [
     {
@@ -441,13 +441,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "BIBLE",
-      "occurrences": 8,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "BILL",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -481,13 +474,6 @@
     {
       "source_target": "BRIDE-CHAMBER, SONS",
       "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "BROOK OF EGYPT",
-      "occurrences": 2,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -722,13 +708,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "DEAD SEA",
-      "occurrences": 18,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "DEBAR",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -772,13 +751,6 @@
     {
       "source_target": "DEUTERO-CANONICAL",
       "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "DISPERSION",
-      "occurrences": 6,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -956,20 +928,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "EXALTATION OF CHRIST",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "EXODUS",
-      "occurrences": 7,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "EXODUS, II, 2",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1039,13 +997,6 @@
     },
     {
       "source_target": "GEDI",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "GENEALOGY OF JESUS CHRIST",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -1206,13 +1157,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "HIND OF THE MORNING",
-      "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "HOARY",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1244,20 +1188,6 @@
       "source_target": "III. GENERAL ESTIMATE LITERATURE",
       "occurrences": 1,
       "category": "article_section_label",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ILLUSTRIOUS",
-      "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "IMMACULATE CONCEPTION",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
     },
@@ -1485,20 +1415,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "LOGIA",
-      "occurrences": 5,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "LORD'S PRAYER",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "LOT",
       "occurrences": 3,
       "category": "multiple_numbered_entries",
@@ -1526,22 +1442,8 @@
       "status": "needs_review"
     },
     {
-      "source_target": "MAGI",
-      "occurrences": 4,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "MAKE",
       "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "MAKTESH",
-      "occurrences": 2,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -1608,13 +1510,6 @@
     },
     {
       "source_target": "MEONENIM",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "MERCY-SEAT",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -2092,13 +1987,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "SERMON ON THE PLAIN",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "SHAALIM",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -2139,13 +2027,6 @@
     {
       "source_target": "SHEW",
       "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SHEWBREAD",
-      "occurrences": 2,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -2207,20 +2088,6 @@
     {
       "source_target": "SLAVONIC",
       "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SON OF GOD",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SON OF MAN",
-      "occurrences": 3,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -2340,13 +2207,6 @@
     },
     {
       "source_target": "TEMPLE, II, 4",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "TEN COMMANDMENTS",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -2542,13 +2402,6 @@
     {
       "source_target": "WINE PRESS",
       "occurrences": 4,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "WISDOM OF SOLOMON",
-      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"

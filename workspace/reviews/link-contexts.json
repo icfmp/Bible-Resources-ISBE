@@ -1,386 +1,19 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 607,
+  "total_unresolved_occurrences": 537,
   "category_counts": {
     "ambiguous_semicolon_alias": 12,
-    "requires_review": 595
+    "requires_review": 525
   },
   "exclusive_scripture_numbered_candidates": [],
-  "inverted_definite_article_review": [
-    {
-      "article_key": "ABROAD, SCATTERED",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "See DISPERSION."
-    },
-    {
-      "article_key": "AGRAPHA",
-      "original_target": "LOGIA",
-      "candidate": "LOGIA, THE",
-      "context": "When all the sayings belonging to these five classes, and a few others of liturgical origin, have been deducted there remain about thirty-five which are worthy of mention"
-    },
-    {
-      "article_key": "AGRAPHA",
-      "original_target": "LOGIA",
-      "candidate": "LOGIA, THE",
-      "context": "See LOGIA."
-    },
-    {
-      "article_key": "ALTAR",
-      "original_target": "MERCY-SEAT",
-      "candidate": "MERCY-SEAT, THE",
-      "context": "This was a diminutive table of acacia overlaid with gold, the upper surface of which was a square of one cubit, and its height two cubits, with an elevated cornice or cro"
-    },
-    {
-      "article_key": "ANTILOGEMENA",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "an-ti-le-gom'-e-na. See BIBLE; CANON OF THE NEW TESTAMENT; DEUTERO-CANONICAL."
-    },
-    {
-      "article_key": "APAME",
-      "original_target": "ILLUSTRIOUS",
-      "candidate": "ILLUSTRIOUS, THE",
-      "context": "See BARTACUS; ILLUSTRIOUS."
-    },
-    {
-      "article_key": "APOCRYPHAL GOSPELS",
-      "original_target": "LOGIA",
-      "candidate": "LOGIA, THE",
-      "context": "These are given in detail in an additional volume of the Ante-Nicene Library: Recently Discovered manuscripts, etc., Edinburgh, 1897. But Dr. Swete (Gospel of Peter, xv, "
-    },
-    {
-      "article_key": "ARABAH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "South of the Dead Sea a muddy plain, known as the Sebkah, extends 6 miles, filling about one-half of the width of the Ghor. During most of the year the mud over this area"
-    },
-    {
-      "article_key": "ARABAH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "The Arabah in its whole extent occupies a portion of the great geological fault or crevasse in the earth's crust which extends from Antioch near the mouth of the Orontes "
-    },
-    {
-      "article_key": "BARTACUS",
-      "original_target": "ILLUSTRIOUS",
-      "candidate": "ILLUSTRIOUS, THE",
-      "context": "bar'-ta-kus (Bartakos; Josephus Rhabezdkes; Vulgate (Jerome's Latin Bible, 390-405 A. D.) Bezazes (1 Esdras 4:29)): The father of Apame. He is called \"the illustrious,\" p"
-    },
-    {
-      "article_key": "BETH-HOGLAH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "CAPTIVITY",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "See DISPERSION."
-    },
-    {
-      "article_key": "CHRIST, OFFICES OF",
-      "original_target": "EXALTATION OF CHRIST",
-      "candidate": "EXALTATION OF CHRIST, THE",
-      "context": "See also EXALTATION OF CHRIST; INTERCESSION OF CHRIST."
-    },
-    {
-      "article_key": "CHRISTIANITY",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "A more formidable conflict was that with Gnosticism--the distinctive heresy of the 2nd century, though its beginnings are already within the apostolic age (compare Lightf"
-    },
-    {
-      "article_key": "CITIES OF THE PLAIN; CICCAR",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "(3) In Ge 14 the four kings coming up from Kadesh attacked the Amorites \"that dwelt in Hazezon-tamar\" before reaching Sodom, and Hazezon-tamar is to be identified with En"
-    },
-    {
-      "article_key": "COMMENTARIES",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "Rabbinical interpretations and paraphrases of the Old Testament may here be left out of account (see next article; also TARGUM; TALMUD; F. W. Farrar's History of Interpre"
-    },
-    {
-      "article_key": "CONCEPTION, IMMACULATE",
-      "original_target": "IMMACULATE CONCEPTION",
-      "candidate": "IMMACULATE CONCEPTION, THE",
-      "context": "See IMMACULATE CONCEPTION."
-    },
-    {
-      "article_key": "CONCORDANCE",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "See BIBLE."
-    },
-    {
-      "article_key": "DECALOGUE",
-      "original_target": "TEN COMMANDMENTS",
-      "candidate": "TEN COMMANDMENTS, THE",
-      "context": "See TEN COMMANDMENTS."
-    },
-    {
-      "article_key": "DIASPORA",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "di-as'-po-ra. See DISPERSION."
-    },
-    {
-      "article_key": "DISPERSION OF NATIONS",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "See BABEL; DISPERSION; TABLE OF NATIONS."
-    },
-    {
-      "article_key": "DOXOLOGY",
-      "original_target": "LORD'S PRAYER",
-      "candidate": "LORD'S PRAYER, THE",
-      "context": "The term is applied in particular to the concluding paragraph of the Lord's Prayer (Mt 6:13 margin, \"For thine is the kingdom,\" etc.; compare 1Ch 29:11, and see LORD'S PR"
-    },
-    {
-      "article_key": "EAST (EASTERN), SEA",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "EGYPT, BROOK (RIVER, STREAM) OF",
-      "original_target": "BROOK OF EGYPT",
-      "candidate": "BROOK OF EGYPT, THE",
-      "context": "See BROOK OF EGYPT."
-    },
-    {
-      "article_key": "EN-GEDI",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "In the time of Eusebius it was still a place of importance, but since the Middle Ages it has been almost deserted, being occupied now only by a few Arabs. The oasis occup"
-    },
-    {
-      "article_key": "ENGLISH VERSIONS",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "On REVISED VERSION see also BIBLE."
-    },
-    {
-      "article_key": "EVE, GOSPEL OF",
-      "original_target": "LOGIA",
-      "candidate": "LOGIA, THE",
-      "context": "See LOGIA; and compare Ropes, Die Spruche Jesu, 56."
-    },
-    {
-      "article_key": "GOMORRAH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "go-mor'-a (`amorah; Septuagint and New Testament Gomorra, or Gomorra; Arabic Ghamara, \"to overwhelm with water\"): One of the CITIES OF THE PLAIN (which see) destroyed by "
-    },
-    {
-      "article_key": "HAGIOGRAPHA",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "See BIBLE; CANON OF THE OLD TESTAMENT."
-    },
-    {
-      "article_key": "JERUSALEM",
-      "original_target": "MAKTESH",
-      "candidate": "MAKTESH, THE",
-      "context": "It is generally considered that the FISH GATE (which see) (Ne 3:3; 12:39; Ze 1:10; 2Ch 33:14) stood across the Tyropeon in much the same way as the modern Damascus Gate d"
-    },
-    {
-      "article_key": "JESUS, GENEALOGY OF",
-      "original_target": "GENEALOGY OF JESUS CHRIST",
-      "candidate": "GENEALOGY OF JESUS CHRIST, THE",
-      "context": "See GENEALOGY OF JESUS CHRIST."
-    },
-    {
-      "article_key": "MAN, SON OF",
-      "original_target": "SON OF MAN",
-      "candidate": "SON OF MAN, THE",
-      "context": "See SON OF MAN."
-    },
-    {
-      "article_key": "MESSIAH",
-      "original_target": "SON OF MAN",
-      "candidate": "SON OF MAN, THE",
-      "context": "See SON OF MAN."
-    },
-    {
-      "article_key": "MISHNEH",
-      "original_target": "MAKTESH",
-      "candidate": "MAKTESH, THE",
-      "context": "mish'-ne (ha-mishneh; 2Ki 22:14; 2Ch 34:22, the King James Version \"college,\" the Revised Version (British and American) \"second quarter,\" margin \"Hebrew Mishneh\"; Ze 1:1"
-    },
-    {
-      "article_key": "MORNING",
-      "original_target": "HIND OF THE MORNING",
-      "candidate": "HIND OF THE MORNING, THE",
-      "context": "mor'-ning: There are several Hebrew and Greek words which are rendered \"morning,\" the most common in Hebrew being boqer, which occurs 180 times. It properly means \"the br"
-    },
-    {
-      "article_key": "NEW TESTAMENT",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "See BIBLE; CANON OF THE NEW TESTAMENT; CRITICISM."
-    },
-    {
-      "article_key": "ONLY BEGOTTEN",
-      "original_target": "SON OF GOD",
-      "candidate": "SON OF GOD, THE",
-      "context": "See also BEGOTTEN; PERSON OF CHRIST; SON OF GOD."
-    },
-    {
-      "article_key": "PALESTINE EXPLORATION",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "RIVER OF EGYPT",
-      "original_target": "BROOK OF EGYPT",
-      "candidate": "BROOK OF EGYPT, THE",
-      "context": "See BROOK OF EGYPT."
-    },
-    {
-      "article_key": "ROMAN EMPIRE AND CHRISTIANITY",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "See DISPERSION."
-    },
-    {
-      "article_key": "SALT SEA",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SAYINGS OF JESUS",
-      "original_target": "LOGIA",
-      "candidate": "LOGIA, THE",
-      "context": "See LOGIA."
-    },
-    {
-      "article_key": "SCATTERED ABROAD",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "See DISPERSION."
-    },
-    {
-      "article_key": "SCRIPTURE",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "skrip'-tur (he graphe, plural hai graphai): The word means \"writing.\" In the Old Testament it occurs in the King James Version only once, \"the scripture of truth,\" in Da "
-    },
-    {
-      "article_key": "SEA OF LOT",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA; LAKE."
-    },
-    {
-      "article_key": "SEA OF SODOM (SODOMITISH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA OF THE ARABAH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA OF THE PLAIN (ARABAH)",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA, DEAD; EASTERN",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA, FORMER",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA; FORMER."
-    },
-    {
-      "article_key": "SEA, SALT",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SERMON ON THE MOUNT",
-      "original_target": "SERMON ON THE PLAIN",
-      "candidate": "SERMON ON THE PLAIN, THE",
-      "context": "See SERMON ON THE PLAIN."
-    },
-    {
-      "article_key": "SODOM",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See ARABAH; CITIES OF THE PLAIN; DEAD SEA."
-    },
-    {
-      "article_key": "SODOMITISH; SEA",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SOLOMON, WISDOM OF",
-      "original_target": "WISDOM OF SOLOMON",
-      "candidate": "WISDOM OF SOLOMON, THE",
-      "context": "See WISDOM OF SOLOMON."
-    },
-    {
-      "article_key": "SONG",
-      "original_target": "HIND OF THE MORNING",
-      "candidate": "HIND OF THE MORNING, THE",
-      "context": "(1) Aijeleth Shahar the King James Version, the Revised Version (British and American) Aijeleth hash-shahar, 'ayyeleth ha-shachar. The title means (Revised Version, margi"
-    },
-    {
-      "article_key": "ZOROASTRIANISM",
-      "original_target": "SON OF MAN",
-      "candidate": "SON OF MAN, THE",
-      "context": "See MESSIAH; SON OF MAN."
-    }
-  ],
+  "inverted_definite_article_review": [],
   "unique_comma_prefix_review": [
-    {
-      "article_key": "ABROAD, SCATTERED",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "See DISPERSION."
-    },
     {
       "article_key": "ADAM IN THE OLD TESTAMENT",
       "original_target": "EVE",
       "candidate": "EVE, GOSPEL OF",
       "context": "\"The serpent,\" the writer premises, \"was more subtle than any beast of the field which Yahweh God had made.\" It points to a trait which he puts on the border-line between the species and the individua"
-    },
-    {
-      "article_key": "AGRAPHA",
-      "original_target": "LOGIA",
-      "candidate": "LOGIA, THE",
-      "context": "When all the sayings belonging to these five classes, and a few others of liturgical origin, have been deducted there remain about thirty-five which are worthy of mention and in some cases of careful "
-    },
-    {
-      "article_key": "AGRAPHA",
-      "original_target": "LOGIA",
-      "candidate": "LOGIA, THE",
-      "context": "See LOGIA."
-    },
-    {
-      "article_key": "ALTAR",
-      "original_target": "MERCY-SEAT",
-      "candidate": "MERCY-SEAT, THE",
-      "context": "This was a diminutive table of acacia overlaid with gold, the upper surface of which was a square of one cubit, and its height two cubits, with an elevated cornice or crown around its top (Ex 30:2 ff)"
     },
     {
       "article_key": "ANGER",
@@ -396,45 +29,15 @@
     },
     {
       "article_key": "ANTILOGEMENA",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "an-ti-le-gom'-e-na. See BIBLE; CANON OF THE NEW TESTAMENT; DEUTERO-CANONICAL."
-    },
-    {
-      "article_key": "ANTILOGEMENA",
       "original_target": "DEUTERO-CANONICAL",
       "candidate": "DEUTERO-CANONICAL, BOOKS",
       "context": "an-ti-le-gom'-e-na. See BIBLE; CANON OF THE NEW TESTAMENT; DEUTERO-CANONICAL."
-    },
-    {
-      "article_key": "APAME",
-      "original_target": "ILLUSTRIOUS",
-      "candidate": "ILLUSTRIOUS, THE",
-      "context": "See BARTACUS; ILLUSTRIOUS."
     },
     {
       "article_key": "APOCRYPHAL EPISTLES",
       "original_target": "COLOSSIANS",
       "candidate": "COLOSSIANS, EPISTLE TO THE",
       "context": "The mention of such an epistle in Col 4:16 evidently tempted someone to forge a letter. It is written in Latin, and consists of 20 vs; it is a mere cento of Pauline phrases strung together. It is ment"
-    },
-    {
-      "article_key": "APOCRYPHAL GOSPELS",
-      "original_target": "LOGIA",
-      "candidate": "LOGIA, THE",
-      "context": "These are given in detail in an additional volume of the Ante-Nicene Library: Recently Discovered manuscripts, etc., Edinburgh, 1897. But Dr. Swete (Gospel of Peter, xv, London, 1893) shows that \"even"
-    },
-    {
-      "article_key": "ARABAH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "South of the Dead Sea a muddy plain, known as the Sebkah, extends 6 miles, filling about one-half of the width of the Ghor. During most of the year the mud over this area is so thin and deep that it i"
-    },
-    {
-      "article_key": "ARABAH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "The Arabah in its whole extent occupies a portion of the great geological fault or crevasse in the earth's crust which extends from Antioch near the mouth of the Orontes southward between the Lebanon "
     },
     {
       "article_key": "ARABIA",
@@ -491,12 +94,6 @@
       "context": "See BAPTISM (I), II; (II), III, 3, v; (III), III, 3."
     },
     {
-      "article_key": "BARTACUS",
-      "original_target": "ILLUSTRIOUS",
-      "candidate": "ILLUSTRIOUS, THE",
-      "context": "bar'-ta-kus (Bartakos; Josephus Rhabezdkes; Vulgate (Jerome's Latin Bible, 390-405 A. D.) Bezazes (1 Esdras 4:29)): The father of Apame. He is called \"the illustrious,\" probably because of rank and me"
-    },
-    {
       "article_key": "BEG; BEGGAR; BEGGING",
       "original_target": "JUBILEE",
       "candidate": "JUBILEE, CYCLE OF THE",
@@ -507,12 +104,6 @@
       "original_target": "SUSANNA",
       "candidate": "SUSANNA, THE HISTORY OF",
       "context": "Bel and the Dragon is the third of the three Apocryphal additions to Daniel, The SONG OF THE THREE CHILDREN and SUSANNA (which see) being the other two. In the Greek and Latin versions (see below, \"IV"
-    },
-    {
-      "article_key": "BETH-HOGLAH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
     },
     {
       "article_key": "BIBLE, THE",
@@ -563,12 +154,6 @@
       "context": "Contemporaneous with Jerome in Bethlehem lived Augustine in North Africa (353-430 AD). He was the bishop of Hippo; renowned as thinker, theologian and saint. In the three great Councils of Hippo (393)"
     },
     {
-      "article_key": "CAPTIVITY",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "See DISPERSION."
-    },
-    {
       "article_key": "CHANCE",
       "original_target": "GAD",
       "candidate": "GAD, VALLEY OF",
@@ -579,42 +164,6 @@
       "original_target": "CHESTNUT",
       "candidate": "CHESTNUT, TREE",
       "context": "See CHESTNUT."
-    },
-    {
-      "article_key": "CHRIST, OFFICES OF",
-      "original_target": "EXALTATION OF CHRIST",
-      "candidate": "EXALTATION OF CHRIST, THE",
-      "context": "See also EXALTATION OF CHRIST; INTERCESSION OF CHRIST."
-    },
-    {
-      "article_key": "CHRISTIANITY",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "A more formidable conflict was that with Gnosticism--the distinctive heresy of the 2nd century, though its beginnings are already within the apostolic age (compare Lightfoot, Colossians). This strange"
-    },
-    {
-      "article_key": "CITIES OF THE PLAIN; CICCAR",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "(3) In Ge 14 the four kings coming up from Kadesh attacked the Amorites \"that dwelt in Hazezon-tamar\" before reaching Sodom, and Hazezon-tamar is to be identified with Engedi. On the other hand, it is"
-    },
-    {
-      "article_key": "COMMENTARIES",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "Rabbinical interpretations and paraphrases of the Old Testament may here be left out of account (see next article; also TARGUM; TALMUD; F. W. Farrar's History of Interpretation, Lect II). Commentaries"
-    },
-    {
-      "article_key": "CONCEPTION, IMMACULATE",
-      "original_target": "IMMACULATE CONCEPTION",
-      "candidate": "IMMACULATE CONCEPTION, THE",
-      "context": "See IMMACULATE CONCEPTION."
-    },
-    {
-      "article_key": "CONCORDANCE",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "See BIBLE."
     },
     {
       "article_key": "CONGREGATION",
@@ -635,12 +184,6 @@
       "context": "See LATTER DAYS; LAST DAYS; LAST TIME."
     },
     {
-      "article_key": "DECALOGUE",
-      "original_target": "TEN COMMANDMENTS",
-      "candidate": "TEN COMMANDMENTS, THE",
-      "context": "See TEN COMMANDMENTS."
-    },
-    {
       "article_key": "DEFENCE",
       "original_target": "COURTS",
       "candidate": "COURTS, JUDICIAL",
@@ -653,40 +196,10 @@
       "context": "It is worthy of notice that the cuneiform tablet exhibits as much variety of style as does the Biblical account. Plain narrative and rhetorical prose are intermingled in both accounts, a fact which ef"
     },
     {
-      "article_key": "DIASPORA",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "di-as'-po-ra. See DISPERSION."
-    },
-    {
       "article_key": "DINNER",
       "original_target": "MEALS",
       "candidate": "MEALS, MEAL-TIME",
       "context": "din'-er (ariston; Mt 22:4; Lu 11:38 (the Revised Version, margin \"breakfast\"); Lu 14:12; compare Ru 2:14; Joh 21:13): In oriental as in classical lands it was customary, in ancient times, as now, to h"
-    },
-    {
-      "article_key": "DISPERSION OF NATIONS",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "See BABEL; DISPERSION; TABLE OF NATIONS."
-    },
-    {
-      "article_key": "DOXOLOGY",
-      "original_target": "LORD'S PRAYER",
-      "candidate": "LORD'S PRAYER, THE",
-      "context": "The term is applied in particular to the concluding paragraph of the Lord's Prayer (Mt 6:13 margin, \"For thine is the kingdom,\" etc.; compare 1Ch 29:11, and see LORD'S PRAYER)."
-    },
-    {
-      "article_key": "EAST (EASTERN), SEA",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "EGYPT, BROOK (RIVER, STREAM) OF",
-      "original_target": "BROOK OF EGYPT",
-      "candidate": "BROOK OF EGYPT, THE",
-      "context": "See BROOK OF EGYPT."
     },
     {
       "article_key": "EL-PARAN",
@@ -699,18 +212,6 @@
       "original_target": "LITERATURE",
       "candidate": "LITERATURE, SUB-APOSTOLIC",
       "context": "LITERATURE"
-    },
-    {
-      "article_key": "EN-GEDI",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "In the time of Eusebius it was still a place of importance, but since the Middle Ages it has been almost deserted, being occupied now only by a few Arabs. The oasis occupies a small area a few hundred"
-    },
-    {
-      "article_key": "ENGLISH VERSIONS",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "On REVISED VERSION see also BIBLE."
     },
     {
       "article_key": "ESCHATOLOGY OF THE OLD TESTAMENT",
@@ -767,12 +268,6 @@
       "context": "1. Eternal Life 2. Its Source in God 3. Through the Son 4. Need of New Birth 5. Nature of Faith 6. Fruits of Union with Christ LITERATURE"
     },
     {
-      "article_key": "EVE, GOSPEL OF",
-      "original_target": "LOGIA",
-      "candidate": "LOGIA, THE",
-      "context": "See LOGIA; and compare Ropes, Die Spruche Jesu, 56."
-    },
-    {
       "article_key": "EXODUS, THE BOOK OF",
       "original_target": "LITERATURE",
       "candidate": "LITERATURE, SUB-APOSTOLIC",
@@ -827,22 +322,10 @@
       "context": "See RIMMON."
     },
     {
-      "article_key": "GOMORRAH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "go-mor'-a (`amorah; Septuagint and New Testament Gomorra, or Gomorra; Arabic Ghamara, \"to overwhelm with water\"): One of the CITIES OF THE PLAIN (which see) destroyed by fire from heaven in the time o"
-    },
-    {
       "article_key": "GYMNASIUM",
       "original_target": "PALAESTRA",
       "candidate": "PALAESTRA, PALESTRA",
       "context": "See GAMES; PALAESTRA."
-    },
-    {
-      "article_key": "HAGIOGRAPHA",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "See BIBLE; CANON OF THE OLD TESTAMENT."
     },
     {
       "article_key": "HAMMEAH, THE TOWER OF",
@@ -965,22 +448,10 @@
       "context": "The details of the gates and buildings in the north wall as described by Nehemiah, are difficult, and certainty is impossible; this side must always necessarily have been the weak side for defense bec"
     },
     {
-      "article_key": "JERUSALEM",
-      "original_target": "MAKTESH",
-      "candidate": "MAKTESH, THE",
-      "context": "It is generally considered that the FISH GATE (which see) (Ne 3:3; 12:39; Ze 1:10; 2Ch 33:14) stood across the Tyropeon in much the same way as the modern Damascus Gate does now, only considerably far"
-    },
-    {
       "article_key": "JESHURUN",
       "original_target": "JASHAR",
       "candidate": "JASHAR, BOOK OF",
       "context": "See JASHAR."
-    },
-    {
-      "article_key": "JESUS, GENEALOGY OF",
-      "original_target": "GENEALOGY OF JESUS CHRIST",
-      "candidate": "GENEALOGY OF JESUS CHRIST, THE",
-      "context": "See GENEALOGY OF JESUS CHRIST."
     },
     {
       "article_key": "JEWS",
@@ -1043,12 +514,6 @@
       "context": "See MAKE."
     },
     {
-      "article_key": "MAN, SON OF",
-      "original_target": "SON OF MAN",
-      "candidate": "SON OF MAN, THE",
-      "context": "See SON OF MAN."
-    },
-    {
       "article_key": "MANIUS; TITUS",
       "original_target": "MEMMIUS",
       "candidate": "MEMMIUS, QUINTUS",
@@ -1061,22 +526,10 @@
       "context": "See HAMMEAH."
     },
     {
-      "article_key": "MESSIAH",
-      "original_target": "SON OF MAN",
-      "candidate": "SON OF MAN, THE",
-      "context": "See SON OF MAN."
-    },
-    {
       "article_key": "MIDDLE WALL",
       "original_target": "PARTITION",
       "candidate": "PARTITION, THE MIDDLE WALL OF",
       "context": "See PARTITION."
-    },
-    {
-      "article_key": "MISHNEH",
-      "original_target": "MAKTESH",
-      "candidate": "MAKTESH, THE",
-      "context": "mish'-ne (ha-mishneh; 2Ki 22:14; 2Ch 34:22, the King James Version \"college,\" the Revised Version (British and American) \"second quarter,\" margin \"Hebrew Mishneh\"; Ze 1:10, the King James Version \"the"
     },
     {
       "article_key": "MOREH, OAK OF",
@@ -1089,12 +542,6 @@
       "original_target": "GERIZIM",
       "candidate": "GERIZIM, MOUNT",
       "context": "Abraham journeyed from the land of the Philistines, and on the 3rd day he saw the place afar off (Ge 22:4). This naturally suggests some prominent mountain farther North than Jerusalem. The descriptio"
-    },
-    {
-      "article_key": "MORNING",
-      "original_target": "HIND OF THE MORNING",
-      "candidate": "HIND OF THE MORNING, THE",
-      "context": "mor'-ning: There are several Hebrew and Greek words which are rendered \"morning,\" the most common in Hebrew being boqer, which occurs 180 times. It properly means \"the breaking forth of the light,\" \"t"
     },
     {
       "article_key": "MULBERRY; TREES",
@@ -1121,12 +568,6 @@
       "context": "See CHAMPAIGN; COUNTRY; DESERT; EAST; HILL; LOWLAND; SOUTH."
     },
     {
-      "article_key": "NEW TESTAMENT",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "See BIBLE; CANON OF THE NEW TESTAMENT; CRITICISM."
-    },
-    {
       "article_key": "NIGH",
       "original_target": "NEAR",
       "candidate": "NEAR, NIGH",
@@ -1139,22 +580,10 @@
       "context": "no'-e (Noe): the King James Version of Mt 24:37,38; Lu 3:36; 17:26,27; Tobit 4:12. Greek form of NOAH (which see) (thus the Revised Version (British and American))."
     },
     {
-      "article_key": "ONLY BEGOTTEN",
-      "original_target": "SON OF GOD",
-      "candidate": "SON OF GOD, THE",
-      "context": "See also BEGOTTEN; PERSON OF CHRIST; SON OF GOD."
-    },
-    {
       "article_key": "OSHEA",
       "original_target": "JOSHUA",
       "candidate": "JOSHUA, BOOK OF",
       "context": "See JOSHUA."
-    },
-    {
-      "article_key": "PALESTINE EXPLORATION",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
     },
     {
       "article_key": "PELETH",
@@ -1247,28 +676,10 @@
       "context": "At the first census in the wilderness Reuben numbered 46,500 men of war (Nu 1:21); at the second they had fallen to 43,730; see NUMBERS. The standard of the camp of Reuben was on the south side of the"
     },
     {
-      "article_key": "RIVER OF EGYPT",
-      "original_target": "BROOK OF EGYPT",
-      "candidate": "BROOK OF EGYPT, THE",
-      "context": "See BROOK OF EGYPT."
-    },
-    {
-      "article_key": "ROMAN EMPIRE AND CHRISTIANITY",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "See DISPERSION."
-    },
-    {
       "article_key": "SABAEANS",
       "original_target": "SHEBA",
       "candidate": "SHEBA, QUEEN OF",
       "context": "See SEBA; SHEBA; TABLE OF NATIONS."
-    },
-    {
-      "article_key": "SALT SEA",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
     },
     {
       "article_key": "SALT, PILLAR OF",
@@ -1277,76 +688,10 @@
       "context": "See LOT; SALT; SIDDIM; SLIME."
     },
     {
-      "article_key": "SAYINGS OF JESUS",
-      "original_target": "LOGIA",
-      "candidate": "LOGIA, THE",
-      "context": "See LOGIA."
-    },
-    {
-      "article_key": "SCATTERED ABROAD",
-      "original_target": "DISPERSION",
-      "candidate": "DISPERSION, THE",
-      "context": "See DISPERSION."
-    },
-    {
-      "article_key": "SCRIPTURE",
-      "original_target": "BIBLE",
-      "candidate": "BIBLE, THE",
-      "context": "skrip'-tur (he graphe, plural hai graphai): The word means \"writing.\" In the Old Testament it occurs in the King James Version only once, \"the scripture of truth,\" in Da 10:21, where it is more correc"
-    },
-    {
-      "article_key": "SEA OF LOT",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA; LAKE."
-    },
-    {
-      "article_key": "SEA OF SODOM (SODOMITISH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA OF THE ARABAH",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA OF THE PLAIN (ARABAH)",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA, DEAD; EASTERN",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA, FORMER",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA; FORMER."
-    },
-    {
-      "article_key": "SEA, SALT",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
       "article_key": "SEER",
       "original_target": "PROPHET",
       "candidate": "PROPHET, THE OLD",
       "context": "See PROPHET; PROPHECY."
-    },
-    {
-      "article_key": "SERMON ON THE MOUNT",
-      "original_target": "SERMON ON THE PLAIN",
-      "candidate": "SERMON ON THE PLAIN, THE",
-      "context": "See SERMON ON THE PLAIN."
     },
     {
       "article_key": "SHALIM",
@@ -1391,34 +736,10 @@
       "context": "See SIDDIM; CITIES OF THE PLAIN."
     },
     {
-      "article_key": "SODOM",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See ARABAH; CITIES OF THE PLAIN; DEAD SEA."
-    },
-    {
-      "article_key": "SODOMITISH; SEA",
-      "original_target": "DEAD SEA",
-      "candidate": "DEAD SEA, THE",
-      "context": "See DEAD SEA."
-    },
-    {
       "article_key": "SOLEMN, SOLEMNITY",
       "original_target": "FEASTS",
       "candidate": "FEASTS, SEASONS FOR",
       "context": "See FEASTS."
-    },
-    {
-      "article_key": "SOLOMON, WISDOM OF",
-      "original_target": "WISDOM OF SOLOMON",
-      "candidate": "WISDOM OF SOLOMON, THE",
-      "context": "See WISDOM OF SOLOMON."
-    },
-    {
-      "article_key": "SONG",
-      "original_target": "HIND OF THE MORNING",
-      "candidate": "HIND OF THE MORNING, THE",
-      "context": "(1) Aijeleth Shahar the King James Version, the Revised Version (British and American) Aijeleth hash-shahar, 'ayyeleth ha-shachar. The title means (Revised Version, margin) \"The hind of the morning,\" "
     },
     {
       "article_key": "SOUTHEAST",
@@ -1533,12 +854,6 @@
       "original_target": "ZECHARIAH",
       "candidate": "ZECHARIAH, BOOK OF",
       "context": "(2) See ZECHARIAH."
-    },
-    {
-      "article_key": "ZOROASTRIANISM",
-      "original_target": "SON OF MAN",
-      "candidate": "SON OF MAN, THE",
-      "context": "See MESSIAH; SON OF MAN."
     }
   ],
   "numbered_link_review": [
@@ -1719,21 +1034,6 @@
       "context": "a-bish'-a-lom: Variant of ABSALOM, which see."
     },
     {
-      "article_key": "ABROAD, SCATTERED",
-      "ref_id": "isbe-e5fa0531e707d3eed02d-n000004",
-      "original_target": "DISPERSION",
-      "displayed_text": "DISPERSION",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DISPERSION, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DISPERSION."
-    },
-    {
       "article_key": "ABSALON",
       "ref_id": "isbe-3e7291583b4cfd8d7e6d-n000004",
       "original_target": "ABSALOM",
@@ -1886,36 +1186,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See also CUSH; ETHIOPIA; MIZRAIM."
-    },
-    {
-      "article_key": "AGRAPHA",
-      "ref_id": "isbe-70d67f13a8866b37a8ae-n000030",
-      "original_target": "LOGIA",
-      "displayed_text": "LOGIA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "LOGIA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "When all the sayings belonging to these five classes, and a few others of liturgical origin, have been deducted there remain about thirty-five which are worthy of mention and in some cases of careful consideration. Some are dealt with in the article LOGIA (which see). The others, which are given here, are numbered consecutively to facilitate reference. The best authenticated are of course those found in the New Testament outside of the Gospels. T"
-    },
-    {
-      "article_key": "AGRAPHA",
-      "ref_id": "isbe-70d67f13a8866b37a8ae-n000083",
-      "original_target": "LOGIA",
-      "displayed_text": "LOGIA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "LOGIA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See LOGIA."
     },
     {
       "article_key": "AGRICULTURE",
@@ -2080,21 +1350,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "In Herod's temple a difficulty is found in harmonizing the accounts of the Mishna and Josephus as to the size of the altar. The latter gives it as a square of fifty cubits (BJ, V, v, 6). The key to the solution probably lies in distinguishing between the structure of the altar proper (thirty-two cubits square), and a platform of larger area (fifty cubits square = 75 ft.) on which it stood. When it is remembered that the Cakhra stone is 56 ft in l"
-    },
-    {
-      "article_key": "ALTAR",
-      "ref_id": "isbe-3756c2558316897ae44a-n000268",
-      "original_target": "MERCY-SEAT",
-      "displayed_text": "MERCY-SEAT",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "MERCY-SEAT, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "This was a diminutive table of acacia overlaid with gold, the upper surface of which was a square of one cubit, and its height two cubits, with an elevated cornice or crown around its top (Ex 30:2 ff). Like the great altar of burnt offering, it was in the category of \"most holy\" things (Ex 30:10); a distinction which gave it a right to a place in the inner room of the cella or holy of holies. Hence, in 1Ki 6:22, it is said to \"belong to the oracl"
     },
     {
       "article_key": "AMON",
@@ -2304,21 +1559,6 @@
     },
     {
       "article_key": "ANTILOGEMENA",
-      "ref_id": "isbe-db24ff0125eef4f0bec0-n000004",
-      "original_target": "BIBLE",
-      "displayed_text": "BIBLE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "BIBLE, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "an-ti-le-gom'-e-na. See BIBLE; CANON OF THE NEW TESTAMENT; DEUTERO-CANONICAL."
-    },
-    {
-      "article_key": "ANTILOGEMENA",
       "ref_id": "isbe-db24ff0125eef4f0bec0-n000006",
       "original_target": "DEUTERO-CANONICAL",
       "displayed_text": "DEUTERO-CANONICAL",
@@ -2331,21 +1571,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "an-ti-le-gom'-e-na. See BIBLE; CANON OF THE NEW TESTAMENT; DEUTERO-CANONICAL."
-    },
-    {
-      "article_key": "APAME",
-      "ref_id": "isbe-a814f454132e518dc1da-n000006",
-      "original_target": "ILLUSTRIOUS",
-      "displayed_text": "ILLUSTRIOUS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "ILLUSTRIOUS, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See BARTACUS; ILLUSTRIOUS."
     },
     {
       "article_key": "APOCRYPHAL EPISTLES",
@@ -2379,21 +1604,6 @@
       "context": "In 1Co 5:9 a letter to the Corinthians is mentioned which appears to have been lost. In a 5th century Armenian version of the Scriptures there is inserted after 2 Corinthians a short letter from the Corinthians to Paul, and one from Paul to the Corinthians. These are also found in Syriac, and were evidently accepted in many quarters as genuine at the end of the 4th century. They formed a part of the Apocryphal Ac of Paul, and date from about 200 "
     },
     {
-      "article_key": "APOCRYPHAL GOSPELS",
-      "ref_id": "isbe-b1a72dff729f690f524b-n000072",
-      "original_target": "LOGIA",
-      "displayed_text": "LOGIA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "LOGIA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "These are given in detail in an additional volume of the Ante-Nicene Library: Recently Discovered manuscripts, etc., Edinburgh, 1897. But Dr. Swete (Gospel of Peter, xv, London, 1893) shows that \"even details which seem to be entirely new or which directly contradict the canonical narrative, may have been suggested by it\"; and he concludes that notwithstanding the large amount of new matter which it contains, \"there is nothing in this portion of "
-    },
-    {
       "article_key": "APPLE; APPLE-TREE",
       "ref_id": "isbe-e8d3e544cf35ec6b0e86-n000017",
       "original_target": "TAPPUAH",
@@ -2408,36 +1618,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "On the whole there does not appear to be any sufficient reason for rejecting the translation of the King James Version and the Revised Version (British and American); the Biblical references suit it; the identity of the Hebrew and Arabic words favor it and there is no insuperable objection on scientific grounds. The word tappuach appears in two place names, BETH-TAPPUAH and TAPPUAH (which see)."
-    },
-    {
-      "article_key": "ARABAH",
-      "ref_id": "isbe-5325866cb2fd537a7543-n000028",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "South of the Dead Sea a muddy plain, known as the Sebkah, extends 6 miles, filling about one-half of the width of the Ghor. During most of the year the mud over this area is so thin and deep that it is impossible to cross it near its northern end. This whole area between the \"ascent of Akrabbim\" and the Dead Sea has evidently been greatly transformed by the sedimentary deposits which have been brought in by the numerous tributary wadies during th"
-    },
-    {
-      "article_key": "ARABAH",
-      "ref_id": "isbe-5325866cb2fd537a7543-n000032",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "The Arabah in its whole extent occupies a portion of the great geological fault or crevasse in the earth's crust which extends from Antioch near the mouth of the Orontes southward between the Lebanon and the Anti-Lebanon Mountains to the valley of the Jordan and the Dead Sea, and onward to the Gulf of Akabah, whence it can be traced with considerable probability through the Red Sea and the interior lakes of Africa. The most remarkable portion of "
     },
     {
       "article_key": "ARABIA",
@@ -2766,38 +1946,6 @@
       "context": "(4) It fails to account for the existence of man and the world in general. Here is the universe: how did it come to be? Here is man: how is he to be accounted for? To these and like questions, atheism and atheistic philosophy have no adequate answer to give. See also COSMOLOGY; CREATION; GOD."
     },
     {
-      "article_key": "ATONEMENT, DAY OF",
-      "ref_id": "isbe-929fbcf7fb7c7e171fcb-n000188",
-      "original_target": "EXODUS",
-      "displayed_text": "EXODUS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "EXODUS, THE",
-        "EXODUS, THE BOOK OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "Since Le 16 constitutes only one part of the Levitical legislation, the question as to the original and historical character of the day cannot be fully discussed at this place (see LEVITICUS). At so late a period, naturally all the data that would lead to an explanation of the origin of such a fundamental institution as the Day of Atonement are lacking. It is all the more impossible to separate Le 16 from the other priestly ordinances, because th"
-    },
-    {
-      "article_key": "BAAL-ZEPHON",
-      "ref_id": "isbe-56ef1165dd84ac441b6e-n000007",
-      "original_target": "EXODUS",
-      "displayed_text": "EXODUS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "EXODUS, THE",
-        "EXODUS, THE BOOK OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "ba-al-ze'-fon ba`al tsephon; Beelsepphon; (Ex 14:2,9; Nu 33:7): The name means \"Lord of the North,\" and the place was opposite the Hebrew camp, which was between Migdol and the sea. It may have been the shrine of a Semitic deity, but the position is unknown (see EXODUS). Goodwin (see Brugsch, Hist. Egt., II, 363) found the name Baali-Zapuna as that of a god mentioned in an Egyptian papyrus in the British Museum."
-    },
-    {
       "article_key": "BAALBEK",
       "ref_id": "isbe-f479bdcf56cfe4cd11d9-n000004",
       "original_target": "AVEN; ON",
@@ -3115,21 +2263,6 @@
       "context": "See AGRICULTURE; GARNER."
     },
     {
-      "article_key": "BARTACUS",
-      "ref_id": "isbe-e5d35ac84195f7b2a4e9-n000005",
-      "original_target": "ILLUSTRIOUS",
-      "displayed_text": "ILLUSTRIOUS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "ILLUSTRIOUS, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "bar'-ta-kus (Bartakos; Josephus Rhabezdkes; Vulgate (Jerome's Latin Bible, 390-405 A. D.) Bezazes (1 Esdras 4:29)): The father of Apame. He is called \"the illustrious,\" probably because of rank and merits. The family seems to be of Persian origin since the name Bartacus (Syriac,) in the form of Artachaeas is mentioned by Herodotus (vii.22.117) as a person of rank in the Persian army of Xerxes and the name of his daughter Apame is identical with t"
-    },
-    {
       "article_key": "BARTHOLOMEW",
       "ref_id": "isbe-b2a599d6dc602ad6fbe7-n000010",
       "original_target": "NATHANAEL",
@@ -3351,21 +2484,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See ELON."
-    },
-    {
-      "article_key": "BETH-HOGLAH",
-      "ref_id": "isbe-c10500fb2f52bf3b5def-n000009",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA."
     },
     {
       "article_key": "BETH-SHEMESH",
@@ -3842,21 +2960,6 @@
       "context": "Contemporaneous with Jerome in Bethlehem lived Augustine in North Africa (353-430 AD). He was the bishop of Hippo; renowned as thinker, theologian and saint. In the three great Councils of Hippo (393) and Carthage (397 and 419 AD), of which he was the leading spirit, he closed, as it were, the great debate of the previous generations on the subject of how large shall be the Bible. In his essay on Christian Doctrine, he catalogues the books of Scr"
     },
     {
-      "article_key": "CAPTIVITY",
-      "ref_id": "isbe-e032e3ee0dd4a8f8045c-n000178",
-      "original_target": "DISPERSION",
-      "displayed_text": "DISPERSION",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DISPERSION, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DISPERSION."
-    },
-    {
       "article_key": "CARNAL",
       "ref_id": "isbe-e1a89516d6d221ee4806-n000023",
       "original_target": "MAN (THE NATURAL)",
@@ -3973,21 +3076,6 @@
       "context": "See BRIDE-CHAMBER, SONS."
     },
     {
-      "article_key": "CHRIST, OFFICES OF",
-      "ref_id": "isbe-8f29c81b50410d8cc0dc-n000366",
-      "original_target": "EXALTATION OF CHRIST",
-      "displayed_text": "EXALTATION OF CHRIST",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "EXALTATION OF CHRIST, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See also EXALTATION OF CHRIST; INTERCESSION OF CHRIST."
-    },
-    {
       "article_key": "CHRIST, THE EXALTATION OF",
       "ref_id": "isbe-032005288513e538030a-n000164",
       "original_target": "JUDGMENT",
@@ -4002,36 +3090,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See also ASCENSION; JUDGMENT; PAROUSIA; RESURRECTION."
-    },
-    {
-      "article_key": "CHRISTIANITY",
-      "ref_id": "isbe-3bb33967094eb657a6b7-n000147",
-      "original_target": "BIBLE",
-      "displayed_text": "BIBLE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "BIBLE, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "A more formidable conflict was that with Gnosticism--the distinctive heresy of the 2nd century, though its beginnings are already within the apostolic age (compare Lightfoot, Colossians). This strange compound of oriental theosophy and ideas borrowed from Christianity (see GNOSTICISM) would have dissolved Christ's religion into a tissue of fantasies, and all the strength and learning of the Church were needed to combat its influence. Its oppositi"
-    },
-    {
-      "article_key": "CITIES OF THE PLAIN; CICCAR",
-      "ref_id": "isbe-119cc40bbc87e4240b0f-n000024",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "(3) In Ge 14 the four kings coming up from Kadesh attacked the Amorites \"that dwelt in Hazezon-tamar\" before reaching Sodom, and Hazezon-tamar is to be identified with Engedi. On the other hand, it is possible that it is to be identified with the Tamar of Eze 47:19; 48:28, and that this place lay Southwest of the Dead Sea. Or, if that explanation is not accepted, it is proper to note that the course of this expedition led at first a considerable "
     },
     {
       "article_key": "CITIZENSHIP",
@@ -4145,21 +3203,6 @@
     },
     {
       "article_key": "COMMENTARIES",
-      "ref_id": "isbe-925fc7b31d5062b6313b-n000058",
-      "original_target": "BIBLE",
-      "displayed_text": "BIBLE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "BIBLE, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "Rabbinical interpretations and paraphrases of the Old Testament may here be left out of account (see next article; also TARGUM; TALMUD; F. W. Farrar's History of Interpretation, Lect II). Commentaries on the New Testament could not begin till the New Testament books themselves were written, and had acquired some degree of authority as sacred writings (see BIBLE). The earliest commentaries we hear of are from the heretical circles of the Gnostics."
-    },
-    {
-      "article_key": "COMMENTARIES",
       "ref_id": "isbe-925fc7b31d5062b6313b-n000088",
       "original_target": "TEXTUAL CRITICISM",
       "displayed_text": "TEXTUAL CRITICISM",
@@ -4183,36 +3226,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "(1) We may first deal with the New Testament. In the Gospels the demoniacs are consistently looked upon and treated as unconscious and helpless victims (see DEMON, DEMONOLOGY). The frequent use of this term \"demonized\" (daimonizomenoi) together with all that is told us of the methods of treating these eases adopted by our Lord and His apostles (see EXORCISM) indicates the belief of the New Testament writers that the control of demons over men is "
-    },
-    {
-      "article_key": "CONCEPTION, IMMACULATE",
-      "ref_id": "isbe-168ea8d2af551df6208b-n000004",
-      "original_target": "IMMACULATE CONCEPTION",
-      "displayed_text": "IMMACULATE CONCEPTION",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "IMMACULATE CONCEPTION, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See IMMACULATE CONCEPTION."
-    },
-    {
-      "article_key": "CONCORDANCE",
-      "ref_id": "isbe-ebf6d5a86ade761932c3-n000023",
-      "original_target": "BIBLE",
-      "displayed_text": "BIBLE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "BIBLE, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See BIBLE."
     },
     {
       "article_key": "CONGREGATION",
@@ -4550,21 +3563,6 @@
       "context": "The endeavors to bring death into connection with certain activities of the organism and to explain it by increasing weight, by growth or by fertility, have all led to shipwreck. When Weismann took refuge in the immortality of the \"einzellige Protozoen,\" he raised a hypothesis which not only found many opponents, but which also left mortality of the \"Korperplasma\" an insoluble mystery (Beth, \"Ueber Ursache und Zweck des Todes, Glauben und Wissen\""
     },
     {
-      "article_key": "DECALOGUE",
-      "ref_id": "isbe-59b1f88c6d88f9067291-n000005",
-      "original_target": "TEN COMMANDMENTS",
-      "displayed_text": "TEN COMMANDMENTS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "TEN COMMANDMENTS, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See TEN COMMANDMENTS."
-    },
-    {
       "article_key": "DECISION",
       "ref_id": "isbe-e2a660a7de93d2c572c9-n000023",
       "original_target": "AUGURY, IV, 3",
@@ -4637,21 +3635,6 @@
       "context": "It is worthy of notice that the cuneiform tablet exhibits as much variety of style as does the Biblical account. Plain narrative and rhetorical prose are intermingled in both accounts, a fact which effectually disposes of the critical theory which regards the Biblical account as a clumsy combination made in later times by piecing together two or more independent traditions. Evidently the piecing together, if there was any, had been accomplished e"
     },
     {
-      "article_key": "DIASPORA",
-      "ref_id": "isbe-5ba1648aa55a5bb63483-n000004",
-      "original_target": "DISPERSION",
-      "displayed_text": "DISPERSION",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DISPERSION, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "di-as'-po-ra. See DISPERSION."
-    },
-    {
       "article_key": "DINNER",
       "ref_id": "isbe-c744bb6d7f322065e41f-n000018",
       "original_target": "MEALS",
@@ -4711,36 +3694,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See BABEL; DISPERSION; TABLE OF NATIONS."
-    },
-    {
-      "article_key": "DISPERSION OF NATIONS",
-      "ref_id": "isbe-b97f9c2ffbab6d2bcaaf-n000005",
-      "original_target": "DISPERSION",
-      "displayed_text": "DISPERSION",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DISPERSION, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See BABEL; DISPERSION; TABLE OF NATIONS."
-    },
-    {
-      "article_key": "DOXOLOGY",
-      "ref_id": "isbe-8013fda00698954bbc9b-n000009",
-      "original_target": "LORD'S PRAYER",
-      "displayed_text": "LORD'S PRAYER",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "LORD'S PRAYER, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "The term is applied in particular to the concluding paragraph of the Lord's Prayer (Mt 6:13 margin, \"For thine is the kingdom,\" etc.; compare 1Ch 29:11, and see LORD'S PRAYER)."
     },
     {
       "article_key": "DRESS",
@@ -4822,21 +3775,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See ESCHATOLOGY OF THE NEW TESTAMENT, IX; HEAVENS, NEW;"
-    },
-    {
-      "article_key": "EAST (EASTERN), SEA",
-      "ref_id": "isbe-3acd3d86c587c659b67d-n000006",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA."
     },
     {
       "article_key": "EBRON",
@@ -5076,22 +4014,6 @@
     },
     {
       "article_key": "EGYPT",
-      "ref_id": "isbe-53ec5f597cfe84a6fc32-n000263",
-      "original_target": "EXODUS",
-      "displayed_text": "EXODUS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "EXODUS, THE",
-        "EXODUS, THE BOOK OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "(For differing views on chronology and sites, see articles EXODUS; WANDERINGS OF ISRAEL; PITHOM; RAAMSES, etc., and on individual kings, etc., articles under their names, and EGYPTIAN KINGS.)"
-    },
-    {
-      "article_key": "EGYPT",
       "ref_id": "isbe-53ec5f597cfe84a6fc32-n000267",
       "original_target": "EGYPTIAN KINGS",
       "displayed_text": "EGYPTIAN KINGS",
@@ -5115,21 +4037,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "LITERATURE."
-    },
-    {
-      "article_key": "EGYPT, BROOK (RIVER, STREAM) OF",
-      "ref_id": "isbe-6ac3987736415296e1b0-n000004",
-      "original_target": "BROOK OF EGYPT",
-      "displayed_text": "BROOK OF EGYPT",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "BROOK OF EGYPT, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See BROOK OF EGYPT."
     },
     {
       "article_key": "EGYPTIAN KINGS (LATER)",
@@ -5240,22 +4147,6 @@
       "context": "VI. LITERATURE"
     },
     {
-      "article_key": "ELIM",
-      "ref_id": "isbe-6ee2ea1f7d8cfac45e4f-n000009",
-      "original_target": "EXODUS",
-      "displayed_text": "EXODUS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "EXODUS, THE",
-        "EXODUS, THE BOOK OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See EXODUS; WANDERINGS OF ISRAEL."
-    },
-    {
       "article_key": "ELISABETH",
       "ref_id": "isbe-02fa56cb9c2bad94bb3d-n000010",
       "original_target": "ZACHARIAS",
@@ -5353,21 +4244,6 @@
       "context": "The Hebrew word for \"spring\" or \"fountain\" (Ge 16:7; Nu 33:9; Ne 2:14; Pr 8:28 (feminine plural)). It occurs in numerous compound words, as EN-GEDI, EN-HADDAH, EN-HAKKORE, EN-HAZOR, EN-RIMMON, EN-ROGEL, EN-SHEMESH (which see). In the same way the word `Ain is a very common component of Arabic names of places throughout Palestine and Syria at the present day. Places with names compounded with \"En-\" were almost certainly located near a spring."
     },
     {
-      "article_key": "EN-GEDI",
-      "ref_id": "isbe-00bcd0ae9dca1280d876-n000011",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "In the time of Eusebius it was still a place of importance, but since the Middle Ages it has been almost deserted, being occupied now only by a few Arabs. The oasis occupies a small area a few hundred feet above the Dead Sea marked by the 650 ft. sedimentary terrace heretofore described (see DEAD SEA). The limestone borders rise so abruptly to a height of 2,000 ft. immediately on the West, that the place can be approached only by a rock-cut path."
-    },
-    {
       "article_key": "EN-ROGEL",
       "ref_id": "isbe-213cc877c1309ccf30ca-n000014",
       "original_target": "GIHON",
@@ -5411,21 +4287,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See ESCHATOLOGY; WORLD, END OF THE."
-    },
-    {
-      "article_key": "ENGLISH VERSIONS",
-      "ref_id": "isbe-dc8de847f0d7958a4b28-n000082",
-      "original_target": "BIBLE",
-      "displayed_text": "BIBLE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "BIBLE, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "On REVISED VERSION see also BIBLE."
     },
     {
       "article_key": "ENGLISH VERSIONS",
@@ -5851,22 +4712,6 @@
       "context": "LITERATURE."
     },
     {
-      "article_key": "ETHAM",
-      "ref_id": "isbe-9117371c1c040f7f5567-n000011",
-      "original_target": "EXODUS",
-      "displayed_text": "EXODUS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "EXODUS, THE",
-        "EXODUS, THE BOOK OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "The name used to be explained as the Coptic Atium, \"border of the Sea\" (Gesenius, Lexicon, under the word) which would agree with the Hebrew (Nu 33:8) where the \"wilderness of Etham\" is noticed instead of that of Shur (Ex 15:22) East of the Red Sea (see SHUR). At Etham (Ex 13:20), the Hebrews camped in the \"edge,\" or at \"the end,\" of the desert West of the sea that they were to cross (see EXODUS). This camp was probably near the North end of the "
-    },
-    {
       "article_key": "ETHICS",
       "ref_id": "isbe-4db1d4243ee3e0933124-n000014",
       "original_target": "LITERATURE",
@@ -5960,21 +4805,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "LITERATURE."
-    },
-    {
-      "article_key": "EVE, GOSPEL OF",
-      "ref_id": "isbe-fcf60bca755b2f397c19-n000005",
-      "original_target": "LOGIA",
-      "displayed_text": "LOGIA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "LOGIA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See LOGIA; and compare Ropes, Die Spruche Jesu, 56."
     },
     {
       "article_key": "EVIL EYE",
@@ -6466,21 +5296,6 @@
       "context": "See RIMMON."
     },
     {
-      "article_key": "GOMORRAH",
-      "ref_id": "isbe-851e5dd965c934fa890d-n000008",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "go-mor'-a (`amorah; Septuagint and New Testament Gomorra, or Gomorra; Arabic Ghamara, \"to overwhelm with water\"): One of the CITIES OF THE PLAIN (which see) destroyed by fire from heaven in the time of Abraham and Lot (Ge 19:23-29). It was located probably in the plain South of the Dead Sea, now covered with water. See ARABAH; CITIES OF THE PLAIN; DEAD SEA. De Saulcy, however, with others who place the Cities of the Plain at the North end of the "
-    },
-    {
       "article_key": "GOSPELS, THE SYNOPTIC",
       "ref_id": "isbe-4b1c4af35808491ffb24-n000040",
       "original_target": "HEBREWS",
@@ -6559,21 +5374,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See GAMES; PALAESTRA."
-    },
-    {
-      "article_key": "HAGIOGRAPHA",
-      "ref_id": "isbe-45ff75efa5b750bfaee0-n000005",
-      "original_target": "BIBLE",
-      "displayed_text": "BIBLE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "BIBLE, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See BIBLE; CANON OF THE OLD TESTAMENT."
     },
     {
       "article_key": "HAM (1)",
@@ -7259,21 +6059,6 @@
     },
     {
       "article_key": "JERUSALEM",
-      "ref_id": "isbe-ee3b669c99fe2e08d2e2-n000402",
-      "original_target": "MAKTESH",
-      "displayed_text": "MAKTESH",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "MAKTESH, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "It is generally considered that the FISH GATE (which see) (Ne 3:3; 12:39; Ze 1:10; 2Ch 33:14) stood across the Tyropeon in much the same way as the modern Damascus Gate does now, only considerably farther South. It was probably so called because here the men of Tyre sold their fish (Ne 13:16). It is very probably identical with the \"Middle Gate\" of Jer 39:3. With this region are associated the MISHNEH (which see) or \"second quarter\" (Ze 1:10 marg"
-    },
-    {
-      "article_key": "JERUSALEM",
       "ref_id": "isbe-ee3b669c99fe2e08d2e2-n000531",
       "original_target": "ZEDEK",
       "displayed_text": "ZEDEK",
@@ -7328,21 +6113,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See SIRACH."
-    },
-    {
-      "article_key": "JESUS, GENEALOGY OF",
-      "ref_id": "isbe-9a22a72d2e2382beca10-n000004",
-      "original_target": "GENEALOGY OF JESUS CHRIST",
-      "displayed_text": "GENEALOGY OF JESUS CHRIST",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "GENEALOGY OF JESUS CHRIST, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See GENEALOGY OF JESUS CHRIST."
     },
     {
       "article_key": "JEWS",
@@ -7750,22 +6520,6 @@
       "context": "See also LUNATIC."
     },
     {
-      "article_key": "MAGUS, SIMON",
-      "ref_id": "isbe-dc11819e1239ace79469-n000006",
-      "original_target": "MAGI",
-      "displayed_text": "MAGI",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "MAGI, STAR OF",
-        "MAGI, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See SIMON MAGUS; MAGI; MAGIC."
-    },
-    {
       "article_key": "MAHALATH",
       "ref_id": "isbe-239bebe8e1c149f35440-n000013",
       "original_target": "PSALMS",
@@ -7823,21 +6577,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See MAKE."
-    },
-    {
-      "article_key": "MAN, SON OF",
-      "ref_id": "isbe-d65aa649943818c15de1-n000004",
-      "original_target": "SON OF MAN",
-      "displayed_text": "SON OF MAN",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "SON OF MAN, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See SON OF MAN."
     },
     {
       "article_key": "MANIUS; TITUS",
@@ -7959,21 +6698,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See SYRIA."
-    },
-    {
-      "article_key": "MESSIAH",
-      "ref_id": "isbe-3cb8a6ea8d29a909935d-n000169",
-      "original_target": "SON OF MAN",
-      "displayed_text": "SON OF MAN",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "SON OF MAN, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See SON OF MAN."
     },
     {
       "article_key": "MICAH (1)",
@@ -8103,21 +6827,6 @@
       "context": "See EDER."
     },
     {
-      "article_key": "MISHNEH",
-      "ref_id": "isbe-b8426e04b1d70b31e6e1-n000007",
-      "original_target": "MAKTESH",
-      "displayed_text": "MAKTESH",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "MAKTESH, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "mish'-ne (ha-mishneh; 2Ki 22:14; 2Ch 34:22, the King James Version \"college,\" the Revised Version (British and American) \"second quarter,\" margin \"Hebrew Mishneh\"; Ze 1:10, the King James Version \"the second,\" the Revised Version (British and American) \"second quarter,\" margin \"Hebrew: Mishneh\"): A part of Jerusalem, apparently not far from the FISH GATE (which see) and the MAKTESH (which see). The translation \"college\" is due to Targum of Jonath"
-    },
-    {
       "article_key": "MIZRAIM",
       "ref_id": "isbe-bb97e151e1934ec151a9-n000024",
       "original_target": "HAM",
@@ -8162,37 +6871,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "Abraham journeyed from the land of the Philistines, and on the 3rd day he saw the place afar off (Ge 22:4). This naturally suggests some prominent mountain farther North than Jerusalem. The description could hardly apply to Jerusalem in any case, as it could not be seen \"afar off\" by one approaching either from the South or the West. The Samaritans lay the scene of sacrifice on Mt. GERIZIM (which see)."
-    },
-    {
-      "article_key": "MORNING",
-      "ref_id": "isbe-e4325c561cf6750d8ed8-n000012",
-      "original_target": "HIND OF THE MORNING",
-      "displayed_text": "HIND OF THE MORNING",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "HIND OF THE MORNING, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "mor'-ning: There are several Hebrew and Greek words which are rendered \"morning,\" the most common in Hebrew being boqer, which occurs 180 times. It properly means \"the breaking forth of the light,\" \"the dawn,\" as in Ge 19:27; Jud 19:8,25,27. Another word with the same meaning is shachar (Ge 19:15; Ne 4:21; Isa 58:8). mishchar (\"womb of the morning,\" Ps 110:3) is a poetical term derived from. the same root. See HIND OF THE MORNING. noghah, naghha'"
-    },
-    {
-      "article_key": "MOSES",
-      "ref_id": "isbe-c4f256bb09274cca359f-n000207",
-      "original_target": "EXODUS",
-      "displayed_text": "EXODUS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "EXODUS, THE",
-        "EXODUS, THE BOOK OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "At Sinai Moses reached the pinnacle of his career, though perhaps not the pinnacle of his faith. (For a discussion of the location of Sinai, see SINAI; EXODUS.) It is useless to speculate about the nature of the flames in theophany by fire at Sinai. Some say there was a thunderstorm (HDB); others think a volcanic eruption. The time, the stages of the journey, the description of the way, the topography of this place, especially its admirable adapt"
     },
     {
       "article_key": "MOTION",
@@ -8351,21 +7029,6 @@
       "context": "See MUSIC; PSALMS."
     },
     {
-      "article_key": "NEW TESTAMENT",
-      "ref_id": "isbe-7248ed16eb5cf710065c-n000004",
-      "original_target": "BIBLE",
-      "displayed_text": "BIBLE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "BIBLE, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See BIBLE; CANON OF THE NEW TESTAMENT; CRITICISM."
-    },
-    {
       "article_key": "NIGH",
       "ref_id": "isbe-f979fb9a5bcc2f1f25dc-n000005",
       "original_target": "NEAR",
@@ -8460,21 +7123,6 @@
       "context": "See OIL; WINE PRESS."
     },
     {
-      "article_key": "ONLY BEGOTTEN",
-      "ref_id": "isbe-a23bdadeed6e0949279f-n000023",
-      "original_target": "SON OF GOD",
-      "displayed_text": "SON OF GOD",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "SON OF GOD, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See also BEGOTTEN; PERSON OF CHRIST; SON OF GOD."
-    },
-    {
       "article_key": "OSHEA",
       "ref_id": "isbe-be54a8a9a9ec78ba49ee-n000008",
       "original_target": "JOSHUA",
@@ -8492,21 +7140,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See JOSHUA."
-    },
-    {
-      "article_key": "PALESTINE EXPLORATION",
-      "ref_id": "isbe-dd5cab38f42ebd5f088c-n000048",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA."
     },
     {
       "article_key": "PAROUSIA",
@@ -8697,22 +7330,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "Pisgah is identified with Nebo in De 34:1; compare 3:27. \"The top of Pisgah, which looketh down upon the desert\" marks a stage in the march of the host of Israel (Nu 21:20). Hither Balak brought Balaam to the field of Zophim (Nu 23:14). Here Moses obtained his view of the Promised Land, and died. See NEBO. Many scholars (e.g. Buhl, GAP, 122; Gray, \"Numbers,\" ICC, 291) take Pisgah as the name applying to the mountain range in which the Moab platea"
-    },
-    {
-      "article_key": "PITHOM",
-      "ref_id": "isbe-aae0453ae72e38e2aebd-n000015",
-      "original_target": "EXODUS",
-      "displayed_text": "EXODUS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "EXODUS, THE",
-        "EXODUS, THE BOOK OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "These places seem to have been on the eastern border of Egypt, but may have been close to the Bitter Lakes or farther North (see SUCCOTH), whereas Tell el MachuTah is about 12 miles West of Ism'ailieh, and of Lake Timsah. The definition of the Pithom thus noticed as being that of Minepthah suggests that there was more than one place so called, and the Patoumos of Herodotus seems to have been about 30 miles farther West (near Zagazig and Bubastis)"
     },
     {
       "article_key": "PLAISTER",
@@ -9012,36 +7629,6 @@
       "context": "At the first census in the wilderness Reuben numbered 46,500 men of war (Nu 1:21); at the second they had fallen to 43,730; see NUMBERS. The standard of the camp of Reuben was on the south side of the tabernacle; and with him were Simeon and Gad; the total number of fighting men in this division being 151,450. Targum Pseudo-Jonathan says that the standard was a deer, with the legend \"Hear O Israel, the Lord thy God is one Lord.\" On the march this"
     },
     {
-      "article_key": "RIVER OF EGYPT",
-      "ref_id": "isbe-c894f4324ec7580d6002-n000004",
-      "original_target": "BROOK OF EGYPT",
-      "displayed_text": "BROOK OF EGYPT",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "BROOK OF EGYPT, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See BROOK OF EGYPT."
-    },
-    {
-      "article_key": "ROMAN EMPIRE AND CHRISTIANITY",
-      "ref_id": "isbe-86ef9312d81f1be9c77f-n000105",
-      "original_target": "DISPERSION",
-      "displayed_text": "DISPERSION",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DISPERSION, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DISPERSION."
-    },
-    {
       "article_key": "SABAEANS",
       "ref_id": "isbe-6c34bfcd4a754e0f0bfe-n000028",
       "original_target": "SHEBA",
@@ -9058,21 +7645,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See SEBA; SHEBA; TABLE OF NATIONS."
-    },
-    {
-      "article_key": "SALT SEA",
-      "ref_id": "isbe-35c109d31e86d812e800-n000004",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA."
     },
     {
       "article_key": "SALT, PILLAR OF",
@@ -9202,51 +7774,6 @@
       "context": "See PAUL."
     },
     {
-      "article_key": "SAYINGS OF JESUS",
-      "ref_id": "isbe-32339f34a0d050da904f-n000004",
-      "original_target": "LOGIA",
-      "displayed_text": "LOGIA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "LOGIA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See LOGIA."
-    },
-    {
-      "article_key": "SCATTERED ABROAD",
-      "ref_id": "isbe-39534cd260c8250dc83f-n000005",
-      "original_target": "DISPERSION",
-      "displayed_text": "DISPERSION",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DISPERSION, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DISPERSION."
-    },
-    {
-      "article_key": "SCRIPTURE",
-      "ref_id": "isbe-2265795cd762b9b33c35-n000022",
-      "original_target": "BIBLE",
-      "displayed_text": "BIBLE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "BIBLE, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "skrip'-tur (he graphe, plural hai graphai): The word means \"writing.\" In the Old Testament it occurs in the King James Version only once, \"the scripture of truth,\" in Da 10:21, where it is more correctly rendered in the Revised Version (British and American), \"the writing of truth.\" The reference is not to Holy Scripture, but to the book in which are inscribed God's purposes. In the New Testament, \"scripture\" and \"scriptures\" stand regularly for "
-    },
-    {
       "article_key": "SCROLL",
       "ref_id": "isbe-8fdbadc3bcfa716f8e86-n000005",
       "original_target": "ROLL",
@@ -9258,111 +7785,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See ROLL."
-    },
-    {
-      "article_key": "SEA OF LOT",
-      "ref_id": "isbe-e3f6562a5ec1a962bc99-n000004",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA; LAKE."
-    },
-    {
-      "article_key": "SEA OF SODOM (SODOMITISH",
-      "ref_id": "isbe-08b837897a43b75de2e1-n000005",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA OF THE ARABAH",
-      "ref_id": "isbe-66ae24e149c0e177d3fe-n000004",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA OF THE PLAIN (ARABAH)",
-      "ref_id": "isbe-dcc6141773a8f50ab619-n000005",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA, DEAD; EASTERN",
-      "ref_id": "isbe-67d7f1e39687e9f7b21a-n000005",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA."
-    },
-    {
-      "article_key": "SEA, FORMER",
-      "ref_id": "isbe-1fe5bd5774dbb4bf95a0-n000005",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA; FORMER."
-    },
-    {
-      "article_key": "SEA, SALT",
-      "ref_id": "isbe-086fefb30a16f5a33e77-n000004",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA."
     },
     {
       "article_key": "SEA, THE GREAT",
@@ -9410,21 +7832,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See TRADE; LYDIA."
-    },
-    {
-      "article_key": "SERMON ON THE MOUNT",
-      "ref_id": "isbe-173462a784b0006ab036-n000029",
-      "original_target": "SERMON ON THE PLAIN",
-      "displayed_text": "SERMON ON THE PLAIN",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "SERMON ON THE PLAIN, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See SERMON ON THE PLAIN."
     },
     {
       "article_key": "SHALIM",
@@ -9531,22 +7938,6 @@
       "context": "See SEMITES."
     },
     {
-      "article_key": "SHEWBREAD, TABLE OF",
-      "ref_id": "isbe-bdec3a7cf1e04a6ec44a-n000018",
-      "original_target": "SHEWBREAD",
-      "displayed_text": "SHEWBREAD",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "SHEWBREAD, TABLE OF",
-        "SHEWBREAD, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See SHEWBREAD."
-    },
-    {
       "article_key": "SHIMRON-MERON",
       "ref_id": "isbe-375d7e855334833ecc07-n000005",
       "original_target": "SHIMRON",
@@ -9635,22 +8026,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See SHEW."
-    },
-    {
-      "article_key": "SHOWBREAD",
-      "ref_id": "isbe-83137e77cb1fb9e975e2-n000005",
-      "original_target": "SHEWBREAD",
-      "displayed_text": "SHEWBREAD",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "SHEWBREAD, TABLE OF",
-        "SHEWBREAD, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See SHEWBREAD."
     },
     {
       "article_key": "SHUPHAM; SHUPHAMITES",
@@ -9796,36 +8171,6 @@
       "context": "See SIDDIM; CITIES OF THE PLAIN."
     },
     {
-      "article_key": "SODOM",
-      "ref_id": "isbe-e311dbd956ca23beb7c9-n000015",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See ARABAH; CITIES OF THE PLAIN; DEAD SEA."
-    },
-    {
-      "article_key": "SODOMITISH; SEA",
-      "ref_id": "isbe-9eedbadbbd1ee7b1d3ef-n000005",
-      "original_target": "DEAD SEA",
-      "displayed_text": "DEAD SEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "DEAD SEA, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See DEAD SEA."
-    },
-    {
       "article_key": "SOJOURNER",
       "ref_id": "isbe-83126243d84344676713-n000005",
       "original_target": "STRANGER AND SOJOURNER",
@@ -9852,36 +8197,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See FEASTS."
-    },
-    {
-      "article_key": "SOLOMON, WISDOM OF",
-      "ref_id": "isbe-d6e29f927cce55ca8ab3-n000004",
-      "original_target": "WISDOM OF SOLOMON",
-      "displayed_text": "WISDOM OF SOLOMON",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "WISDOM OF SOLOMON, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See WISDOM OF SOLOMON."
-    },
-    {
-      "article_key": "SONG",
-      "ref_id": "isbe-cfc48a68a8f88ffc417a-n000007",
-      "original_target": "HIND OF THE MORNING",
-      "displayed_text": "HIND OF THE MORNING",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "HIND OF THE MORNING, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "(1) Aijeleth Shahar the King James Version, the Revised Version (British and American) Aijeleth hash-shahar, 'ayyeleth ha-shachar. The title means (Revised Version, margin) \"The hind of the morning,\" but whether the original song so named was a hunting song or a morning serenade it is useless to conjecture. See HIND OF THE MORNING."
     },
     {
       "article_key": "SOUTH RAMOTH",
@@ -9914,38 +8229,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See NORTHEAST."
-    },
-    {
-      "article_key": "STAR IN THE EAST",
-      "ref_id": "isbe-4c499234a93f10ebd09c-n000005",
-      "original_target": "MAGI",
-      "displayed_text": "MAGI",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "MAGI, STAR OF",
-        "MAGI, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See STAR OF THE MAGI; MAGI."
-    },
-    {
-      "article_key": "STAR OF THE MAGI",
-      "ref_id": "isbe-37338c9d940c63b719d3-n000018",
-      "original_target": "MAGI",
-      "displayed_text": "MAGI",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "MAGI, STAR OF",
-        "MAGI, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See MAGI."
     },
     {
       "article_key": "STREAM",
@@ -10579,22 +8862,6 @@
       "context": "See SIRACH."
     },
     {
-      "article_key": "WISE MEN",
-      "ref_id": "isbe-27eb9b9c6a0db7c5d342-n000012",
-      "original_target": "MAGI",
-      "displayed_text": "MAGI",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "MAGI, STAR OF",
-        "MAGI, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "wiz'-men: In addition to the uses of \"wise\" specified in the article WISDOM, the adjective is employed occasionally as the technical description of men who are adepts in magic, divination, etc. (e.g. in Ge 41:8; Ex 7:11; Es 1:13; Da 2:27; 5:15). Naturally, however, in the ancient world the boundary between genuine knowledge and astrology, etc., was exceedingly vague, and it was never denied that real knowledge could be gained along lines that we "
-    },
-    {
       "article_key": "WOMAN",
       "ref_id": "isbe-be281932cd80aef1e9b6-n000033",
       "original_target": "ADAM",
@@ -10749,21 +9016,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "For a general account of Zoroastrianism, see PERSIAN RELIGION."
-    },
-    {
-      "article_key": "ZOROASTRIANISM",
-      "ref_id": "isbe-3bac778054199b2f64d6-n000058",
-      "original_target": "SON OF MAN",
-      "displayed_text": "SON OF MAN",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "SON OF MAN, THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See MESSIAH; SON OF MAN."
     }
   ]
 }
