@@ -56,7 +56,7 @@ class ProseEvidenceAuditTests(unittest.TestCase):
                 audit(ROOT)
 
         tampered_pages = copy.deepcopy(pages)
-        tampered_pages["records"][0]["original_pdf_sha256"] = "0" * 64
+        next(row for row in tampered_pages["records"] if row["source_key"] == "ABISSEI")["original_pdf_sha256"] = "0" * 64
 
         def fake_pages(path):
             if path.name == "1915-visual-page-collation-v1.json":
