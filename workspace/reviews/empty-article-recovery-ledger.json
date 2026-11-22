@@ -11,7 +11,7 @@
       "source_key": "ABISSEI",
       "paragraph_xml_id": "isbe-413cc0807cda26de4368-n000003",
       "source_status": "empty_article",
-      "witness_status": "secondary_witness_lead",
+      "witness_status": "1915_scan_text_attested",
       "secondary_witness": {
         "link": "https://m.egwwritings.org/en/book/14702.1",
         "claim": "Textual entry separately attested in an ISBE transcription"
@@ -21,14 +21,18 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/The_International_Standard_Bible_Encyclopedia_Volume_1.pdf",
+      "genre_evidence_level": "scan_text",
+      "genre_reason": "Searchable 1915 volume I text identifies this as a substantive short definition; image-page proofreading still required."
     },
     {
       "ordinal": 2,
       "source_key": "AMNON",
       "paragraph_xml_id": "isbe-5e778465f86cbebb18c2-n000003",
       "source_status": "empty_article",
-      "witness_status": "secondary_witness_lead",
+      "witness_status": "1915_scan_text_attested",
       "secondary_witness": {
         "link": "https://www.internationalstandardbible.com/A/index.html",
         "claim": "Headword attested in a later online ISBE index; separate text attested by previous review"
@@ -38,7 +42,11 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/The_International_Standard_Bible_Encyclopedia_Volume_1.pdf",
+      "genre_evidence_level": "scan_text",
+      "genre_reason": "Searchable 1915 volume I contains two numbered senses; image-page proofreading still required."
     },
     {
       "ordinal": 3,
@@ -52,7 +60,10 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 4,
@@ -69,21 +80,29 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_cross_reference",
+      "genre_evidence_url": "https://archive.hundewadt.dk/dvd-the-bibles-fight-to-live/003%20Text/005%20Bible%20Reference%20Works/International%20Standard%20Bible%20Encyclopedia%20%20%28James%20Orr%29.pdf",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Secondary transcription contains a See ASHTAROTH redirect; must check 1915 print."
     },
     {
       "ordinal": 5,
       "source_key": "BEERA",
       "paragraph_xml_id": "isbe-7b2802f1161a54c7298e-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://archive.hundewadt.dk/dvd-the-bibles-fight-to-live/003%20Text/005%20Bible%20Reference%20Works/International%20Standard%20Bible%20Encyclopedia%20%20%28James%20Orr%29.pdf",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Secondary transcription contains a substantive genealogical definition."
     },
     {
       "ordinal": 6,
@@ -97,49 +116,64 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 7,
       "source_key": "CHORBE",
       "paragraph_xml_id": "isbe-5adc37c1c33ed6b144e4-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://bible-history.com/isbe/c/chorbe/",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Independent ISBE reproduction contains a definition, not merely a redirect."
     },
     {
       "ordinal": 8,
       "source_key": "COMING OF CHRIST",
       "paragraph_xml_id": "isbe-42f53cd0ba3af1a8da25-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_cross_reference",
+      "genre_evidence_url": "https://archive.hundewadt.dk/dvd-the-bibles-fight-to-live/003%20Text/005%20Bible%20Reference%20Works/International%20Standard%20Bible%20Encyclopedia%20%20%28James%20Orr%29.pdf",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Secondary transcription redirects to ADVENT and PAROUSIA."
     },
     {
       "ordinal": 9,
       "source_key": "DEHORT",
       "paragraph_xml_id": "isbe-1d7d2f8f41d3e2f526ed-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://bible-history.com/isbe/d/dehort/",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Independent reproduction contains an explanation of the obsolete word."
     },
     {
       "ordinal": 10,
@@ -153,119 +187,154 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 11,
       "source_key": "FROWARDNESS",
       "paragraph_xml_id": "isbe-bb51e96346fee9590908-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://archive.hundewadt.dk/dvd-the-bibles-fight-to-live/003%20Text/005%20Bible%20Reference%20Works/International%20Standard%20Bible%20Encyclopedia%20%20%28James%20Orr%29.pdf",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Secondary transcription contains a substantive lexical definition."
     },
     {
       "ordinal": 12,
       "source_key": "HASRAH",
       "paragraph_xml_id": "isbe-3ab6d344b65809300342-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://www.bible-history.com/isbe/h/hasrah/",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Independent ISBE reproduction contains a biblical genealogical identification."
     },
     {
       "ordinal": 13,
       "source_key": "HEMDAN",
       "paragraph_xml_id": "isbe-37d611bf975263633981-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://bible-history.com/isbe/h/hemdan/",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Independent ISBE reproduction has a named article; exact wording pending review."
     },
     {
       "ordinal": 14,
       "source_key": "ITHLAH",
       "paragraph_xml_id": "isbe-2df419f44751d30fb782-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://www.bible-history.com/isbe/i/ithlah/",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Independent ISBE reproduction has a named article; exact wording pending review."
     },
     {
       "ordinal": 15,
       "source_key": "JOSIBIAH",
       "paragraph_xml_id": "isbe-b06e5906f6227e5b9bed-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://bible-history.com/isbe/j/josibiah/",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Independent ISBE reproduction has a named article; exact wording pending review."
     },
     {
       "ordinal": 16,
       "source_key": "MANASSITES",
       "paragraph_xml_id": "isbe-036b79f716e946c74b6d-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://www.bible-history.com/isbe/m/manassites/",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Independent ISBE reproduction has a named article; exact wording pending review."
     },
     {
       "ordinal": 17,
       "source_key": "MANKIND",
       "paragraph_xml_id": "isbe-3da82bda0cddd078bd9b-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_article",
+      "genre_evidence_url": "https://www.bible-history.com/isbe/m/mankind/",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Independent ISBE reproduction contains a substantive lexical definition."
     },
     {
       "ordinal": 18,
       "source_key": "MARKET, SHEEP",
       "paragraph_xml_id": "isbe-13ab6607020862d9694e-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_cross_reference",
+      "genre_evidence_url": "https://archive.hundewadt.dk/dvd-the-bibles-fight-to-live/003%20Text/005%20Bible%20Reference%20Works/International%20Standard%20Bible%20Encyclopedia%20%20%28James%20Orr%29.pdf",
+      "genre_evidence_level": "secondary_index",
+      "genre_reason": "Secondary index redirects to SHEEP MARKET; 1915 printed reference still needs verification."
     },
     {
       "ordinal": 19,
@@ -279,7 +348,10 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 20,
@@ -293,21 +365,28 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 21,
       "source_key": "PROSTRATION",
       "paragraph_xml_id": "isbe-4b3b422628f4bc724af7-n000003",
       "source_status": "empty_article",
-      "witness_status": "unverified",
+      "witness_status": "secondary_witness_lead",
       "secondary_witness": null,
       "print_volume": null,
       "printed_page": null,
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": "historical_cross_reference",
+      "genre_evidence_url": "https://bible-history.com/isbe/p/prostration",
+      "genre_evidence_level": "secondary_transcription",
+      "genre_reason": "Independent ISBE reproduction redirects to ATTITUDES."
     },
     {
       "ordinal": 22,
@@ -321,7 +400,10 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 23,
@@ -335,7 +417,10 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 24,
@@ -349,7 +434,10 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 25,
@@ -363,7 +451,10 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 26,
@@ -377,7 +468,10 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 27,
@@ -391,7 +485,10 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 28,
@@ -405,7 +502,10 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 29,
@@ -422,7 +522,10 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 30,
@@ -439,7 +542,10 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     },
     {
       "ordinal": 31,
@@ -456,7 +562,11 @@
       "scan_page": null,
       "print_image_reviewed": false,
       "source_recovery_approved": false,
-      "editorial_action": "preserve_pending_verification"
+      "editorial_action": "preserve_pending_verification",
+      "genre_hypothesis": null,
+      "genre_evidence_level": "unverified",
+      "genre_reason": "Not yet classified from an independent witness"
     }
-  ]
+  ],
+  "research_checkpoint": "2026-11-22: 16/31 entries classified by scan text or independent reproduction; no material adopted into canonical TEI; source image verification pending"
 }
