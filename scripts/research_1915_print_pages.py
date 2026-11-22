@@ -62,7 +62,7 @@ def find_headings(pages, source_keys, max_hits=8):
                 # layout mode often concatenates both onto ONE OCR line with
                 # many spaces. Check each column-shaped span independently.
                 segments = [line] + [
-                    segment for segment in re.split(r"\\s{4,}", line)
+                    segment for segment in re.split(r"\s{4,}", line)
                     if segment and segment != line
                 ]
                 matches = []
