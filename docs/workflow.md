@@ -4,7 +4,7 @@
 Keep `sources/crosswire/isbe-2.2/ISBE.zip` byte-for-byte, accompanied by its retrieval metadata and SHA-256 in `MANIFEST.json`. No re-downloading or rewriting as part of normal editorial work.
 
 ## 2. Rebuild the faithful reference
-Use SWORD `mod2imp` to export `workspace/exports/isbe-2.2.imp` and retain that export. Run `scripts/rebuild_tei.py` to create `cleaned/en/ISBE.xml`, `cleaned/en/article-index.json`, and `workspace/reports/tei-reconstruction.json`. The program aborts on missing entries, duplicate IDs, malformed XML or text integrity failure. Cross-references that fail to resolve and original label differences are reported, not guessed.
+Use SWORD `mod2imp` to export `workspace/exports/isbe-2.2.imp` and retain that export. Run `scripts/rebuild_tei.py` to create `cleaned/en/ISBE.xml`, `cleaned/en/article-index.json`, and `workspace/reports/tei-reconstruction.json`. The program aborts on missing entries, duplicate IDs, malformed XML or text integrity failure. Cross-references that fail to resolve are downgraded to non-clickable source-reference segments, preserving their exact original targets and visible wording. They are recorded for review, never guessed.
 
 ## 3. Review the corpus
 Audit unresolved references, headings, unusual article structures and representative content against the official source and, for textual issues, the historic printed edition. Keep factual/OCR/editorial questions distinct. The 2.2 module itself reports historic OCR and layout corrections, so it is not automatically a facsimile of 1915.
@@ -15,7 +15,7 @@ Treat cross-reference navigation as a separate layer from source text. Run the c
 
 Resolve mechanical title variants and explicitly identifiable article/section destinations through generic rules. Where the original headings are insufficient, record a source-backed decision with a concise rationale in `accepted-title-aliases.json`. Use a global `mapping` only if its title equivalence holds in every context; for homonyms and exceptional references use `occurrence_mappings` with the stable source reference ID and original target. Never add guessed links merely to decrease the unresolved count. All original CrossWire encyclopedia reference destinations must remain recoverable in `n` on rewritten links.
 
-Checks must confirm entry/character counts, per-article text hashes, unique XML IDs, valid rewritten targets, and that every original SWORD encyclopedia link occurrence is resolved, remains explicitly unresolved, or has been identified as a bibliographic heading with preserved provenance.
+Checks must confirm entry/character counts, per-article text hashes, unique XML IDs, valid rewritten targets, and that every original SWORD encyclopedia link occurrence is a valid destination, an explicitly unlinked source-reference segment, or a bibliographic heading with preserved provenance. The count of active `ISBE:` targets with no verified destination must be **zero**.
 
 ## 4. Modernize without overwriting
 Copy the validated cleaned master to `modern/en/ISBE.xml`; preserve existing `xml:id` values. Modernize language in reviewable batches with recorded editorial rationale. Distinguish linguistic updates from corrections of historic assertions.
