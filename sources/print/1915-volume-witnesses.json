@@ -1,0 +1,54 @@
+{
+  "manifest_version": 1,
+  "bibliographic_citation": "James Orr, general editor, The International Standard Bible Encyclopaedia, Chicago: Howard-Severance, 1915, volumes I–V",
+  "source_status": "original_print_facsimiles_OCR_layer_accepted_for_research_only",
+  "editorial_warning": "The facsimile scans are independent primary printed witnesses. Machine-readable OCR is not equivalent to a page-image collation, and the PDFs' index entries do not prove article bodies. Copyright and redistribution require separate jurisdictional review.",
+  "canonical_tei_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "volumes": [
+    {
+      "volume": "1",
+      "scan_uri": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_1.pdf",
+      "catalogue_uri": "https://commons.wikimedia.org/wiki/File:The_International_Standard_Bible_Encyclopedia_Volume_1.pdf",
+      "pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "pages": 714,
+      "source_of_digest": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45075369437",
+      "print_page_images_reviewed": false
+    },
+    {
+      "volume": "2",
+      "scan_uri": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_2.pdf",
+      "catalogue_uri": "https://commons.wikimedia.org/wiki/File:The_International_Standard_Bible_Encyclopedia_Volume_2.pdf",
+      "pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "pages": 739,
+      "source_of_digest": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45075369437",
+      "print_page_images_reviewed": false
+    },
+    {
+      "volume": "3",
+      "scan_uri": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_3.pdf",
+      "catalogue_uri": "https://commons.wikimedia.org/wiki/File:The_International_Standard_Bible_Encyclopedia_Volume_3.pdf",
+      "pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "pages": 756,
+      "source_of_digest": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45075369437",
+      "print_page_images_reviewed": false
+    },
+    {
+      "volume": "4",
+      "scan_uri": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_4.pdf",
+      "catalogue_uri": "https://commons.wikimedia.org/wiki/File:The_International_Standard_Bible_Encyclopedia_Volume_4.pdf",
+      "pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "pages": 746,
+      "source_of_digest": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45075369437",
+      "print_page_images_reviewed": false
+    },
+    {
+      "volume": "5",
+      "scan_uri": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_5.pdf",
+      "catalogue_uri": "https://commons.wikimedia.org/wiki/File:The_International_Standard_Bible_Encyclopedia_Volume_5.pdf",
+      "pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "pages": 760,
+      "source_of_digest": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45075369437",
+      "print_page_images_reviewed": false
+    }
+  ]
+}
