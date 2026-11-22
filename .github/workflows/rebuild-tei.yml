@@ -5,6 +5,9 @@ on:
       - .github/workflows/rebuild-tei.yml
       - scripts/rebuild_tei.py
       - scripts/audit_references.py
+concurrency:
+  group: isbe-rebuild-main
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
@@ -12,24 +15,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install SWORD exporter
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq libsword-utils
-      - name: Extract original source and rebuild structured TEI
+      - name: Rebuild canonical TEI from preserved SWORD IMP export
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p /tmp/isbe-sword workspace/exports cleaned/en workspace/reports
-          unzip -q sources/crosswire/isbe-2.2/ISBE.zip -d /tmp/isbe-sword
-          SWORD_PATH=/tmp/isbe-sword mod2imp ISBE > workspace/exports/isbe-2.2.imp
+          test -s workspace/exports/isbe-2.2.imp
           python3 scripts/rebuild_tei.py --input workspace/exports/isbe-2.2.imp --output cleaned/en/ISBE.xml --index cleaned/en/article-index.json --report workspace/reports/tei-reconstruction.json
           python3 scripts/audit_references.py --index cleaned/en/article-index.json --report workspace/reports/tei-reconstruction.json --output workspace/reviews/unresolved-links.json
       - name: Commit verified data artifacts
         shell: bash
         run: |
           set -euo pipefail
-          git add workspace/exports/isbe-2.2.imp cleaned/en/ISBE.xml cleaned/en/article-index.json workspace/reports/tei-reconstruction.json workspace/reviews/unresolved-links.json
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Import 9,380 ISBE entries as integrity-checked TEI master'
+          git add cleaned/en/ISBE.xml cleaned/en/article-index.json workspace/reports/tei-reconstruction.json workspace/reviews/unresolved-links.json
+          if git diff --cached --quiet; then
+            echo "The TEI master is already up to date"
+            exit 0
+          fi
+          git commit -m 'Update integrity-checked ISBE TEI and link review'
           git pull --rebase origin main
           git push origin HEAD:main
