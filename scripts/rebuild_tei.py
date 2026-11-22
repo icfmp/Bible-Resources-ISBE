@@ -261,6 +261,7 @@ def build(imp, reviewed=None):
     articles_by_key = {}
     title_variants = []
     text_chars = 0
+    original_isbe_links = 0
     nodes = 0
     manifest = []
     for number, (key, fragment) in enumerate(records, 1):
@@ -274,6 +275,10 @@ def build(imp, reviewed=None):
         if source.attrib.get("n") not in (None, key):
             title_variants.append({"key": key, "source_title": source.attrib["n"]})
 
+        original_isbe_links += sum(
+            1 for node in source.iter()
+            if node.get("target", "").startswith("ISBE:")
+        )
         original_text = "".join(source.itertext())
         text_chars += len(original_text)
         aid = ids[key]
@@ -477,6 +482,7 @@ def build(imp, reviewed=None):
             resolved_redirect[(source_key, source_target, destination_key)] += 1
 
     report = {"source_entries": len(records), "tei_entries": len(body),
+              "original_isbe_link_occurrences": original_isbe_links,
               "indexed_content_nodes": nodes, "source_text_characters": text_chars,
               "other_root_tags": dict(unsupported),
               "source_title_variants": title_variants,
@@ -588,6 +594,8 @@ def main():
             resolved_seen += 1
             if target[1:] not in all_ids:
                 raise ValueError(f"Broken resolved ISBE link: {original} -> {target}")
+    if unresolved_seen + resolved_seen != report["original_isbe_link_occurrences"]:
+        raise ValueError("A source ISBE cross-reference was lost or duplicated")
     if unresolved_seen != report["unresolved_link_occurrences"]:
         raise ValueError("Serialized TEI unresolved link total differs from report")
     report["resolved_internal_links_validated"] = resolved_seen
