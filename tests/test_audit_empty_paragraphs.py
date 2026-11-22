@@ -28,7 +28,7 @@ class EmptyParagraphAuditTest(unittest.TestCase):
                 ["test-2", "test-3"],
             )
             self.assertEqual(result["cases"][0]["previous_text_excerpt"], "Before.")
-            self.assertEqual(result["cases"][1]["next_text_excerpt"], "After.")
+            self.assertEqual(result["cases"][1]["next_text_excerpt"], "A citation")
             self.assertEqual(path.read_bytes(), before)
 
     def test_rejects_missing_article_identity(self):
