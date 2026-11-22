@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "document_base_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "authority": "1915 Orr / Howard-Severance volume I, independently indexed searchable copy; not yet image-collated",
   "prohibited_canonical_promotion": true,
@@ -14,11 +14,16 @@
       "scan_page": null,
       "source_status": "searchable_1915_pdf_text_not_image_proofread",
       "blocks": [
+        "a-bis'e-i (AV Abisei): An ancestor of Ezra (2 Esd 1 2) = Abisue (1 Esd 8 2) and Abishua (1 Ch 6 4 ff; Ezr 7 5)."
+      ],
+      "editorial_notes": "Searchable PDF lines 1142–1144. The displayed entry key ABISSEI is already retained in a synthetic index head; proposed paragraph starts after that key. Primary 1915 printed page evidence is recorded; abbreviations and ancient script retain further full-fidelity collation requirements.",
+      "print_image_reviewed": true,
+      "approved": false,
+      "pre_print_image_text": [
         "a-bis'ē-i (AV Abisei): An ancestor of Ezra (2 Esd 1 2) = Abisue (1 Esd 8 2) and Abishua (1 Ch 6 4 ff; Ezr 7 5)."
       ],
-      "editorial_notes": "Searchable PDF lines 1142–1144. The displayed entry key ABISSEI is already retained in a synthetic index head; proposed paragraph starts after that key.",
-      "print_image_reviewed": false,
-      "approved": false
+      "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "source_key": "AMNON",
@@ -33,9 +38,11 @@
         "(1) The eldest son of David and Ahinoam, the Jezreelites (cf 2 S 3 2). As the crown prince and heir presumptive to the throne, he was intensely hated by Absalom, who was, therefore, doubly eager to revenge the outrage committed by Amnon upon his sister Tamar (2 S 3 2; 13 1 ff; 1 Ch 3 1).",
         "(2) A name in the genealogy of Judah (1 Ch 4 20)."
       ],
-      "editorial_notes": "Searchable PDF lines 5384–5387. Preserve the two numbered senses. Unicode shapes are from extracted PDF, still need print-image checking.",
-      "print_image_reviewed": false,
-      "approved": false
+      "editorial_notes": "Searchable PDF lines 5384–5387. Preserve the two numbered senses. Unicode shapes are from extracted PDF, still need print-image checking. Primary 1915 printed page evidence is recorded; abbreviations and ancient script retain further full-fidelity collation requirements. Two numbered senses confirmed from original vol I p. 118, but Hebrew variants and grammatical details remain uncertain.",
+      "print_image_reviewed": true,
+      "approved": false,
+      "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "source_key": "ANTIQUITY",
@@ -76,11 +83,16 @@
       "scan_page": null,
       "source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
       "blocks": [
+        "ith'la (יִתְלָה, yithlāh; AV Jethlah): An unidentified town in the territory of Dan, named with Aijalon and Elon (Josh 19 42)."
+      ],
+      "editorial_notes": "Article prose only; removed HTML navigation, site notices, copyright/footer, bibliographic furniture. Source claims to reproduce Orr 1915 but historical printed page not independently collated. Primary 1915 printed page evidence is recorded; abbreviations and ancient script retain further full-fidelity collation requirements.",
+      "print_image_reviewed": true,
+      "approved": false,
+      "pre_print_image_text": [
         "ith'-la (yithlah; the King James Version Jetblah): An unidentified town in the territory of Dan, named with Aijalon and Elon (Joshua 19:42)."
       ],
-      "editorial_notes": "Article prose only; removed HTML navigation, site notices, copyright/footer, bibliographic furniture. Source claims to reproduce Orr 1915 but historical printed page not independently collated.",
-      "print_image_reviewed": false,
-      "approved": false
+      "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "source_key": "MANASSITES",
@@ -171,11 +183,16 @@
       "scan_page": null,
       "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
       "blocks": [
+        "dē-hôrt' (ἀποστρέφω, apostrépho; RV DISSUADE): Not found in the Eng. Bible; once only in Apoc (1 Macc 9 9). An obsolete Eng. word; the opposite of \"exhort.\" It means \"to dissuade,\" \"to forbid,\" \"to restrain from.\""
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation. Primary 1915 printed page evidence is recorded; abbreviations and ancient script retain further full-fidelity collation requirements.",
+      "print_image_reviewed": true,
+      "approved": false,
+      "pre_print_image_text": [
         "de-hort' (apostrepho; the Revised Version (British and American) DISSUADE): Not found in the English Bible; once only in Apocrypha (1 Macc 9:9). An obsolete English word; the opposite of \"exhort.\" It means \"to dissuade,\" \"to forbid,\" \"to restrain from.\""
       ],
-      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
-      "print_image_reviewed": false,
-      "approved": false
+      "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "source_key": "FROWARDNESS",
@@ -288,11 +305,16 @@
       "scan_page": null,
       "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
       "blocks": [
+        "tē'fon (ἡ Τεφώ, hē Tephō): In 1 Macc 9 50, a city of Judaea fortified by Bacchides, probably the \"Beth-tappuah\" of Josh 15 53, near Hebron. Jos (Ant, XII, i, 3) calls it \"Tochoa.\""
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation. Primary 1915 printed page evidence is recorded; abbreviations and ancient script retain further full-fidelity collation requirements.",
+      "print_image_reviewed": true,
+      "approved": false,
+      "pre_print_image_text": [
         "te'-fon (he Tepho): In 1 Macc 9:50, a city of Judea fortified by Bacchides, probably the \"Beth-tappuah\" of Joshua 15:53, near Hebron. Josephus (Ant., XII, i, 3) calls it \"Tochoa.\""
       ],
-      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
-      "print_image_reviewed": false,
-      "approved": false
+      "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "source_key": "THOCANUS",
@@ -330,5 +352,5 @@
       "approved": false
     }
   ],
-  "research_checkpoint": "Visual primary-print collation of nine headwords and source-backed amendments to CHORBE, SYCHEM, THOCANUS and SEPHARVITES; unusual FROWARDNESS ending confirmed authentic. All publication/source-text changes remain unapproved."
+  "research_checkpoint": "21/31 print pages visual review, changes on four original source prose candidates ABISSEI/DEHORT/ITHLAH/TEPHON, plus AMNON visual confirmation. All noncanonical/unapproved."
 }
