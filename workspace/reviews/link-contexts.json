@@ -1,97 +1,11 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 1323,
+  "total_unresolved_occurrences": 1309,
   "category_counts": {
-    "requires_review": 1309,
-    "unique_separator_variant_candidate": 14
+    "requires_review": 1309
   },
-  "unique_separator_candidates": [
-    {
-      "article_key": "BAAL-PEOR",
-      "original_target": "BAAL. (1)",
-      "candidate": "BAAL (1)",
-      "context": "ba-al-pe'-or. See BAAL. (1)."
-    },
-    {
-      "article_key": "BAND",
-      "original_target": "ARMY (ROMAN)",
-      "candidate": "ARMY, ROMAN",
-      "context": "See ARMY (ROMAN)."
-    },
-    {
-      "article_key": "BAND",
-      "original_target": "ARMY (ROMAN)",
-      "candidate": "ARMY, ROMAN",
-      "context": "See ARMY (ROMAN)."
-    },
-    {
-      "article_key": "BEATEN OIL",
-      "original_target": "OIL (BEATEN)",
-      "candidate": "OIL, BEATEN",
-      "context": "See OIL (BEATEN)."
-    },
-    {
-      "article_key": "BUILDER",
-      "original_target": "BUILD, BUILDING",
-      "candidate": "BUILD; BUILDING",
-      "context": "bild'-er (banah; oikodomeo, technites): \"To build,\" \"builder,\" ete, are in the Old Testament commonly the translation of banah, \"to build,\" occurring very frequently; see"
-    },
-    {
-      "article_key": "BULLS, JEROBOAM'S",
-      "original_target": "CALF (GOLDEN)",
-      "candidate": "CALF, GOLDEN",
-      "context": "See CALF (GOLDEN)."
-    },
-    {
-      "article_key": "CEPHAS",
-      "original_target": "PETER (SIMON)",
-      "candidate": "PETER, SIMON",
-      "context": "See PETER (SIMON)."
-    },
-    {
-      "article_key": "CHAMELEON",
-      "original_target": "LAND CROCODILE",
-      "candidate": "LAND-CROCODILE",
-      "context": "ka-me'-le-un (koach, the Revised Version (British and American) LAND CROCODILE (Le 11:30); tinshemeth, the King James Version mole, the Revised Version (British and Ameri"
-    },
-    {
-      "article_key": "COAT OF MAIL",
-      "original_target": "ARMOR, ARMS",
-      "candidate": "ARMOR; ARMS",
-      "context": "See ARMOR, ARMS; BRIGANDINE."
-    },
-    {
-      "article_key": "COURT OF THE GENTILES",
-      "original_target": "TEMPLE (HEROD'S)",
-      "candidate": "TEMPLE, HEROD'S",
-      "context": "See TEMPLE (HEROD'S)."
-    },
-    {
-      "article_key": "CUTHAH",
-      "original_target": "CUTH, CUTHAH",
-      "candidate": "CUTH; CUTHAH",
-      "context": "See CUTH, CUTHAH."
-    },
-    {
-      "article_key": "DAGGER",
-      "original_target": "ARMOR, ARMS",
-      "candidate": "ARMOR; ARMS",
-      "context": "See ARMOR, ARMS."
-    },
-    {
-      "article_key": "ELA",
-      "original_target": "ELAH, 2",
-      "candidate": "ELAH (2)",
-      "context": "See ELAH, 2."
-    },
-    {
-      "article_key": "EXCHANGE; EXCHANGER",
-      "original_target": "BANK, BANKING",
-      "candidate": "BANK; BANKING",
-      "context": "See BANK, BANKING."
-    }
-  ],
+  "unique_separator_candidates": [],
   "occurrences": [
     {
       "article_key": "AB (1)",
@@ -1494,18 +1408,6 @@
       "context": "(1) King of Judah. See UZZIAH."
     },
     {
-      "article_key": "BAAL-PEOR",
-      "ref_id": "isbe-8e976a533ceface7e82e-n000004",
-      "original_target": "BAAL. (1)",
-      "displayed_text": "BAAL. (1)",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "BAAL (1)"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "ba-al-pe'-or. See BAAL. (1)."
-    },
-    {
       "article_key": "BAAL-ZEPHON",
       "ref_id": "isbe-56ef1165dd84ac441b6e-n000007",
       "original_target": "EXODUS",
@@ -1664,30 +1566,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "be'-an huioi Baian; the King James Version Bean; 1 Macc 5:4: A tribe mentioned only because of its malignant hatred of the Jews. Its aggressive hostility against their religion and the rebuilding of their sanctuary duplicated the conspiracy of Sanballat and his confederates against the restoration of Jerusalem and the temple in the days of Nehemiah (compare Ne 4:7,8). Utterly exterminated by Judas Maccabeus who burned alive, in towers, many of th"
-    },
-    {
-      "article_key": "BAND",
-      "ref_id": "isbe-52f1b54ce34b64a02f99-n000095",
-      "original_target": "ARMY (ROMAN)",
-      "displayed_text": "ARMY (ROMAN)",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "ARMY, ROMAN"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "See ARMY (ROMAN)."
-    },
-    {
-      "article_key": "BAND",
-      "ref_id": "isbe-52f1b54ce34b64a02f99-n000100",
-      "original_target": "ARMY (ROMAN)",
-      "displayed_text": "ARMY (ROMAN)",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "ARMY, ROMAN"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "See ARMY (ROMAN)."
     },
     {
       "article_key": "BANDS OF RUDDER",
@@ -2018,18 +1896,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See GOLD (BEATEN)."
-    },
-    {
-      "article_key": "BEATEN OIL",
-      "ref_id": "isbe-d0c8a88f48ba6dae1c03-n000004",
-      "original_target": "OIL (BEATEN)",
-      "displayed_text": "OIL (BEATEN)",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "OIL, BEATEN"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "See OIL (BEATEN)."
     },
     {
       "article_key": "BECHER",
@@ -2992,30 +2858,6 @@
       "context": "See ARCHITECTURE; HOUSE; FORTIFICATION."
     },
     {
-      "article_key": "BUILDER",
-      "ref_id": "isbe-6c3beaa7177c6b239162-n000004",
-      "original_target": "BUILD, BUILDING",
-      "displayed_text": "BUILD, BUILDING",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "BUILD; BUILDING"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "bild'-er (banah; oikodomeo, technites): \"To build,\" \"builder,\" ete, are in the Old Testament commonly the translation of banah, \"to build,\" occurring very frequently; see BUILD, BUILDING. The literal significance leads also to several figurative applications, especially to God as Divine Builder:"
-    },
-    {
-      "article_key": "BULLS, JEROBOAM'S",
-      "ref_id": "isbe-7019034b77459d571517-n000004",
-      "original_target": "CALF (GOLDEN)",
-      "displayed_text": "CALF (GOLDEN)",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "CALF, GOLDEN"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "See CALF (GOLDEN)."
-    },
-    {
       "article_key": "BULWARK",
       "ref_id": "isbe-08625fdc778e67d45eb5-n000010",
       "original_target": "FORTIFICATION",
@@ -3286,18 +3128,6 @@
       "context": "See AUGUSTAN BAND."
     },
     {
-      "article_key": "CEPHAS",
-      "ref_id": "isbe-fc19f98231abac9ffceb-n000005",
-      "original_target": "PETER (SIMON)",
-      "displayed_text": "PETER (SIMON)",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "PETER, SIMON"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "See PETER (SIMON)."
-    },
-    {
       "article_key": "CHAFF",
       "ref_id": "isbe-9237e7af45bb0305f040-n000034",
       "original_target": "STRAW",
@@ -3326,18 +3156,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See CLAY; LIME; SLIME."
-    },
-    {
-      "article_key": "CHAMELEON",
-      "ref_id": "isbe-cafe65032afd01790e3f-n000004",
-      "original_target": "LAND CROCODILE",
-      "displayed_text": "LAND CROCODILE",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "LAND-CROCODILE"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "ka-me'-le-un (koach, the Revised Version (British and American) LAND CROCODILE (Le 11:30); tinshemeth, the King James Version mole, the Revised Version (British and American) CHAMELEON (Le 11:30)):"
     },
     {
       "article_key": "CHANAAN; CHANAANITE",
@@ -3810,18 +3628,6 @@
       "context": "See CLOAK; DRESS, etc."
     },
     {
-      "article_key": "COAT OF MAIL",
-      "ref_id": "isbe-951c3e7a1c251ed334d7-n000005",
-      "original_target": "ARMOR, ARMS",
-      "displayed_text": "ARMOR, ARMS",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "ARMOR; ARMS"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "See ARMOR, ARMS; BRIGANDINE."
-    },
-    {
       "article_key": "COLLECTION",
       "ref_id": "isbe-63326d1d390cb1b52335-n000019",
       "original_target": "COMMUNION",
@@ -4192,18 +3998,6 @@
       "context": "kun'-tri-man (sumphuletes): \"Of the same tribe\" (1Th 2:14); also in idiomatic rendering (genos) for those of one's own race or kin (2Co 11:26; Ga 1:14 the King James Version, \"one's own nation\"). Compare Mr 6:4; Ro 9:3; and see COUSIN; KINSMAN, etc."
     },
     {
-      "article_key": "COURT OF THE GENTILES",
-      "ref_id": "isbe-1a14e2fc399c20077792-n000004",
-      "original_target": "TEMPLE (HEROD'S)",
-      "displayed_text": "TEMPLE (HEROD'S)",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "TEMPLE, HEROD'S"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "See TEMPLE (HEROD'S)."
-    },
-    {
       "article_key": "COURT OF THE SANCTUARY; TABERNACLE; TEMPLE",
       "ref_id": "isbe-222bc56f2cb7e0b4795d-n000033",
       "original_target": "TREASURY",
@@ -4484,18 +4278,6 @@
       "context": "kush'-it: Whereas kushi, is elsewhere rendered Ethiopian, in 2Sa 18:21-32 it is rendered Cushite in the Revised Version (British and American) (see CUSHI and compare CUSHITE WOMAN). Its plural, which occurs in Zephaniah, Daniel and 2 Chronicles, also in the form kushiyim, in Amos, is uniformly translated Ethiopians, following Septuagint. The other Old Testament books use simply kush, for people as well as land."
     },
     {
-      "article_key": "CUTHAH",
-      "ref_id": "isbe-02c782cd7d94ef8e05ac-n000004",
-      "original_target": "CUTH, CUTHAH",
-      "displayed_text": "CUTH, CUTHAH",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "CUTH; CUTHAH"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "See CUTH, CUTHAH."
-    },
-    {
       "article_key": "CUTHEAN; CUTHITE",
       "ref_id": "isbe-99b5ccffa9fca6888548-n000005",
       "original_target": "CUTH",
@@ -4544,18 +4326,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "si-re'-ni-an (Kurenaios, \"a native or inhabitant of Cyrene\"): Two Jews of Cyrene are mentioned in the New Testament, namely, Simon (Mr 15:21 and Lu 23:26 the King James Version) who was impressed to bear the Lord's cross (Mr 15:21 the Revised Version, margin), and Lucius, a Christian teacher at Antioch (Ac 13:1). See CYRENE; LUCIUS; SIMON. For Cyrenians see CYRENE."
-    },
-    {
-      "article_key": "DAGGER",
-      "ref_id": "isbe-b9b5b5d0625c22ec01ec-n000005",
-      "original_target": "ARMOR, ARMS",
-      "displayed_text": "ARMOR, ARMS",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "ARMOR; ARMS"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "See ARMOR, ARMS."
     },
     {
       "article_key": "DAINTIES; DAINTY (MEATS)",
@@ -5666,18 +5436,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See PARAN."
-    },
-    {
-      "article_key": "ELA",
-      "ref_id": "isbe-c9609c5e8871d4bcf524-n000009",
-      "original_target": "ELAH, 2",
-      "displayed_text": "ELAH, 2",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "ELAH (2)"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "See ELAH, 2."
     },
     {
       "article_key": "ELADAH",
@@ -6838,18 +6596,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "LITERATURE."
-    },
-    {
-      "article_key": "EXCHANGE; EXCHANGER",
-      "ref_id": "isbe-e08f9619f848e45ebe4d-n000005",
-      "original_target": "BANK, BANKING",
-      "displayed_text": "BANK, BANKING",
-      "candidate_key": null,
-      "lexical_candidates": [
-        "BANK; BANKING"
-      ],
-      "kind": "unique_separator_variant_candidate",
-      "context": "See BANK, BANKING."
     },
     {
       "article_key": "EXCOMMUNICATION",
