@@ -9,6 +9,7 @@ import hashlib
 import json
 import re
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 ARCHIVE_ITEMS = {
@@ -98,22 +99,24 @@ def main():
     ledger=json.loads(a.ledger.read_text(encoding="utf-8"))
     if len(ledger["cases"])!=31:
         raise SystemExit("Expected 31 empty-source article records")
-    ocr={}
-    for vol,item in ARCHIVE_ITEMS.items():
+    def load_one(task):
+        vol,item=task
         if a.source_directory:
             raw=(a.source_directory/f"{item}_djvu.txt").read_bytes()
             if len(raw)<100_000:
                 raise ValueError(f"Too short: {item}")
-            record={
+            return {
                 "volume":vol,"internet_archive_item":item,
                 "url":f"https://archive.org/details/{item}",
                 "ocr_sha256":hashlib.sha256(raw).hexdigest(),
                 "bytes":len(raw),"lines":raw.decode("utf-8",errors="replace").splitlines(),
             }
-        else:
-            record=fetch_ocr(vol,item)
-        ocr[vol]=record
-        print(f"Volume {vol}: {record['bytes']} OCR bytes; SHA256 {record['ocr_sha256']}")
+        return fetch_ocr(vol,item)
+    with ThreadPoolExecutor(max_workers=5) as pool:
+        loaded=list(pool.map(load_one,ARCHIVE_ITEMS.items()))
+    ocr={record["volume"]:record for record in loaded}
+    for vol,record in ocr.items():
+        print(f"Volume {vol}: {record['bytes']} OCR bytes; SHA256 {record['ocr_sha256']}",flush=True)
     cases=analyze(ledger,ocr)
     result={
         "purpose":"Preliminary full-corpus headword comparison; NOT page-image verified",
