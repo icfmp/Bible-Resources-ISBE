@@ -35,6 +35,25 @@ class ReviewedOccurrenceTests(unittest.TestCase):
         self.assertEqual(report["resolved_reviewed_occurrence_count"], 1)
         self.assertEqual(report["unresolved_link_occurrences"], 0)
 
+    def test_explicit_paragraph_anchor_is_accepted_and_original_is_retained(self):
+        pristine, _, _ = build(CORPUS)
+        article = next(x for x in pristine.iter()
+                       if x.tag.endswith("div") and x.get("n") == "NUMBERS, BOOK OF")
+        paragraph_id = next(x.get(XMLID) for x in article.iter() if x.tag.endswith("p"))
+        row = self.decision()
+        row["destination_element_id"] = paragraph_id
+        fixed, _, report = build(CORPUS, occurrence_mappings=[row])
+        source = next(x for x in fixed.iter() if x.tag.endswith("div") and x.get("n") == "GEMATRIA")
+        ref = next(x for x in source.iter() if x.get("n") == "ISBE:NUMBERS")
+        self.assertEqual(ref.get("target"), "#" + paragraph_id)
+        self.assertEqual(report["resolved_reviewed_occurrence_count"], 1)
+
+    def test_anchor_must_belong_to_chosen_article(self):
+        row = self.decision()
+        row["destination_element_id"] = "isbe-id-that-does-not-exist"
+        with self.assertRaisesRegex(ValueError, "not in designated article"):
+            build(CORPUS, occurrence_mappings=[row])
+
     def test_source_target_change_fails_loudly(self):
         row = self.decision()
         row["original_target"] = "CHANGED"
