@@ -197,6 +197,14 @@ def scan(path):
             "total_unresolved_occurrences": len(records),
             "category_counts": dict(sorted(summary.items())),
             "exclusive_scripture_numbered_candidates": scripture_candidates,
+            "inverted_definite_article_review": [
+                {"article_key": x["article_key"], "original_target": x["original_target"],
+                 "candidate": x["comma_prefix_candidates"][0],
+                 "context": x["context"][:170]}
+                for x in records if len(x["comma_prefix_candidates"]) == 1
+                and x["comma_prefix_candidates"][0].split(",", 1)[1].strip().casefold() == "the"
+                and not x["alias_candidates"]
+            ],
             "unique_comma_prefix_review": [
                 {"article_key": x["article_key"], "original_target": x["original_target"],
                  "candidate": x["comma_prefix_candidates"][0], "context": x["context"][:200]}
