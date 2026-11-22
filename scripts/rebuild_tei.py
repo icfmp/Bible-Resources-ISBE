@@ -170,7 +170,7 @@ def main():
             raise ValueError("Serialized TEI article missing heading")
         # Content includes the heading tail but not the synthetic heading text.
         source_text = (children[0].tail or "") + "".join(
-            "".join(ch.itertext()) for ch in children[1:])
+            ("".join(ch.itertext()) + (ch.tail or "")) for ch in children[1:])
         actual_hash = hashlib.sha256(source_text.encode("utf-8")).hexdigest()
         if actual_hash != item["text_sha256"]:
             raise ValueError(f"Serialized TEI changed article text: {item['key']}")
