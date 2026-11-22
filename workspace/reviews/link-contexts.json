@@ -1,10 +1,9 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 179,
+  "total_unresolved_occurrences": 171,
   "category_counts": {
-    "ambiguous_semicolon_alias": 1,
-    "requires_review": 178
+    "requires_review": 171
   },
   "unresolved_numbered_homonyms": [
     {
@@ -338,46 +337,6 @@
       "ref_id": "isbe-06356179aaf9496639ab-n000020",
       "candidate_paragraphs": [],
       "candidates_total": 0
-    },
-    {
-      "article": "ISRAEL, RELIGION OF",
-      "target": "LITERATURE",
-      "ref_id": "isbe-3b145575b85a01a7ca9c-n000215",
-      "candidate_paragraphs": [
-        {
-          "paragraph_id": "isbe-3b145575b85a01a7ca9c-n000048",
-          "leading_text": "LITERATURE",
-          "paragraph_preview": "LITERATURE",
-          "child_tags": []
-        },
-        {
-          "paragraph_id": "isbe-3b145575b85a01a7ca9c-n000222",
-          "leading_text": "LITERATURE.",
-          "paragraph_preview": "LITERATURE.",
-          "child_tags": []
-        }
-      ],
-      "candidates_total": 2
-    },
-    {
-      "article": "SIRACH, BOOK OF",
-      "target": "LITERATURE",
-      "ref_id": "isbe-0d2a424d93e75e31fb63-n000043",
-      "candidate_paragraphs": [
-        {
-          "paragraph_id": "isbe-0d2a424d93e75e31fb63-n000028",
-          "leading_text": "LITERATURE",
-          "paragraph_preview": "LITERATURE",
-          "child_tags": []
-        },
-        {
-          "paragraph_id": "isbe-0d2a424d93e75e31fb63-n000161",
-          "leading_text": "LITERATURE.",
-          "paragraph_preview": "LITERATURE.",
-          "child_tags": []
-        }
-      ],
-      "candidates_total": 2
     }
   ],
   "literature_reference_structure": [
@@ -530,38 +489,6 @@
       "following": "Ludolf, Historia Aethiopica, 1681; id, Commentarius ad suam historiam Aethiopicam, 1691; Dillmann, Grammatik der athiopischen Sprache (translated into English by Crichton) 1907, Intro; Littmann, Geschichte der athiopischen Littera",
       "position": 16,
       "siblings": 19
-    },
-    {
-      "article": "ISRAEL, RELIGION OF",
-      "original_target": "LITERATURE",
-      "ref_id": "isbe-3b145575b85a01a7ca9c-n000215",
-      "ref_text": "LITERATURE",
-      "paragraph_tag": "p",
-      "paragraph_text": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finally, the APOCALYPTIC LITERATURE (which see). Since the days of the Maccabees we find the custom in certain Jewish circles,",
-      "paragraph_text_before_ref": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finall",
-      "paragraph_child_tags": [
-        "ref"
-      ],
-      "previous": "(6) Apocalyptic Literature.",
-      "following": "III. Conclusion: Characteristic Features of the Religion of Israel.",
-      "position": 137,
-      "siblings": 147
-    },
-    {
-      "article": "SIRACH, BOOK OF",
-      "original_target": "LITERATURE",
-      "ref_id": "isbe-0d2a424d93e75e31fb63-n000043",
-      "ref_text": "LITERATURE",
-      "paragraph_tag": "p",
-      "paragraph_text": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom school of Palestinian Judaism about 200 BC, though there is not a word in the book about a Messianic hope or the settin",
-      "paragraph_text_before_ref": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom",
-      "paragraph_child_tags": [
-        "ref"
-      ],
-      "previous": "IV. Teaching.",
-      "following": "1. Religion:",
-      "position": 37,
-      "siblings": 150
     }
   ],
   "fuzzy_heading_review": [
@@ -708,28 +635,6 @@
         {
           "title": "HAMMON",
           "ratio": 0.769
-        }
-      ]
-    },
-    {
-      "target": "ANTIOCH",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "ANTIOCHUS",
-          "ratio": 0.875
-        },
-        {
-          "title": "ANTIOCHIS",
-          "ratio": 0.875
-        },
-        {
-          "title": "ANTIOCHUS V",
-          "ratio": 0.778
-        },
-        {
-          "title": "ANTIOCHUS I",
-          "ratio": 0.778
         }
       ]
     },
@@ -1514,20 +1419,6 @@
       ]
     },
     {
-      "target": "GOLDEN",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "GOLD",
-          "ratio": 0.8
-        },
-        {
-          "title": "GLEDE",
-          "ratio": 0.727
-        }
-      ]
-    },
-    {
       "target": "HAROD",
       "occurrences": 1,
       "candidates": [
@@ -1590,20 +1481,6 @@
         {
           "title": "HERD",
           "ratio": 0.727
-        }
-      ]
-    },
-    {
-      "target": "HOARY",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "OAR",
-          "ratio": 0.75
-        },
-        {
-          "title": "HAY",
-          "ratio": 0.75
         }
       ]
     },
@@ -1719,7 +1596,7 @@
     },
     {
       "target": "LITERATURE",
-      "occurrences": 5,
+      "occurrences": 3,
       "candidates": [
         {
           "title": "WISDOM LITERATURE",
@@ -1994,28 +1871,6 @@
       ]
     },
     {
-      "target": "POETRY",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "POET",
-          "ratio": 0.8
-        },
-        {
-          "title": "POVERTY",
-          "ratio": 0.769
-        },
-        {
-          "title": "POWER",
-          "ratio": 0.727
-        },
-        {
-          "title": "PIETY",
-          "ratio": 0.727
-        }
-      ]
-    },
-    {
       "target": "PROPHET",
       "occurrences": 3,
       "candidates": [
@@ -2098,28 +1953,6 @@
         {
           "title": "RAID",
           "ratio": 0.75
-        }
-      ]
-    },
-    {
-      "target": "SAMARIA",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "SHAMARIAH",
-          "ratio": 0.875
-        },
-        {
-          "title": "SAMAIAS",
-          "ratio": 0.857
-        },
-        {
-          "title": "AMARIAS",
-          "ratio": 0.857
-        },
-        {
-          "title": "AMARIAH",
-          "ratio": 0.857
         }
       ]
     },
@@ -2348,28 +2181,6 @@
       ]
     },
     {
-      "target": "WORLD",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "WORD",
-          "ratio": 0.889
-        },
-        {
-          "title": "SWORD",
-          "ratio": 0.8
-        },
-        {
-          "title": "OLD",
-          "ratio": 0.75
-        },
-        {
-          "title": "BYWORD",
-          "ratio": 0.727
-        }
-      ]
-    },
-    {
       "target": "ZEDEK",
       "occurrences": 1,
       "candidates": [
@@ -2386,14 +2197,6 @@
       "occurrences": 1,
       "title_candidates": [
         "ADRAMMELECH AND ANAMMELECH"
-      ]
-    },
-    {
-      "target": "ANTIOCH",
-      "occurrences": 1,
-      "title_candidates": [
-        "ANTIOCH, IN SYRIA",
-        "ANTIOCH, OF PISIDIA"
       ]
     },
     {
@@ -2519,15 +2322,6 @@
       ]
     },
     {
-      "target": "GOLDEN",
-      "occurrences": 1,
-      "title_candidates": [
-        "GOLDEN CALF",
-        "GOLDEN CITY",
-        "GOLDEN NUMBER"
-      ]
-    },
-    {
       "target": "HAROD",
       "occurrences": 1,
       "title_candidates": [
@@ -2577,7 +2371,7 @@
     },
     {
       "target": "LITERATURE",
-      "occurrences": 5,
+      "occurrences": 3,
       "title_candidates": [
         "LITERATURE, SUB-APOSTOLIC"
       ]
@@ -2668,14 +2462,6 @@
       ]
     },
     {
-      "target": "POETRY",
-      "occurrences": 1,
-      "title_candidates": [
-        "POETRY, HEBREW",
-        "POETRY, NEW TESTAMENT"
-      ]
-    },
-    {
       "target": "PROPHET",
       "occurrences": 3,
       "title_candidates": [
@@ -2702,14 +2488,6 @@
       "title_candidates": [
         "ROAD (INROAD)",
         "ROAD (WAY)"
-      ]
-    },
-    {
-      "target": "SAMARIA",
-      "occurrences": 1,
-      "title_candidates": [
-        "SAMARIA, CITY OF",
-        "SAMARIA, COUNTRY OF"
       ]
     },
     {
@@ -2745,15 +2523,6 @@
         "TONGUES, CONFUSION OF",
         "TONGUES, GIFT OF",
         "TONGUES, INTERPRETATION, OF"
-      ]
-    },
-    {
-      "target": "WORLD",
-      "occurrences": 1,
-      "title_candidates": [
-        "WORLD (GENERAL)",
-        "WORLD, COSMOLOGICAL",
-        "WORLD, END OF THE"
       ]
     }
   ],
@@ -2820,12 +2589,6 @@
       "context": "See BAPTISM."
     },
     {
-      "article_key": "ISRAEL, RELIGION OF",
-      "original_target": "LITERATURE",
-      "candidate": "LITERATURE, SUB-APOSTOLIC",
-      "context": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finally, the APOCALYPTIC LITERATURE (which see). Since the days of the Maccabees we find the custom in cer"
-    },
-    {
       "article_key": "KIRIATH",
       "original_target": "JEARIM",
       "candidate": "JEARIM, MOUNT",
@@ -2874,12 +2637,6 @@
       "context": "See PROPHET; PROPHECY."
     },
     {
-      "article_key": "SIRACH, BOOK OF",
-      "original_target": "LITERATURE",
-      "candidate": "LITERATURE, SUB-APOSTOLIC",
-      "context": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom school of Palestinian Judaism about 200 BC, though there is not a word in the book about a Messiani"
-    },
-    {
       "article_key": "URIAH; URUAH",
       "original_target": "SHEBA",
       "candidate": "SHEBA, QUEEN OF",
@@ -2924,17 +2681,7 @@
       "candidate_article_excerpt": "ADULTERY a-dul'-ter-i: In Scripture designates sexual intercourse of a man, whether married or unmarried, with a married woman.1. Its Punishment:It is categorically prohibited in the Decalogue (seventh commandment, Ex 20:14; De 5:18): \"Thou shalt not commit adultery.\" In more specific language we read: \"And thou shalt not he carnally with thy neighbor's wife, to defile thyself with her\" (Le 18:20). The penalty is death for both guilty parties: \"And the man that committeth adultery with another man's wife, even he that committeth adultery with his neighbor's wife, the adulterer and the adulteress shall surely be put to death\" (Le 20:10). The manner of death is not particularized; according to the rabbis (Siphra' at the place; Sanhedhrin 52b) it is strangulation. It would seem that in the days of Jesus the manner of death was interpreted to mean stoning (\"Now in the law Moses commanded us to stone such,\" Joh 8:5, said of the woman taken in adultery). Nevertheless, it may be said that in the case in question the woman may have been a virgin betrothed unto a husband, the law (in De 22:23"
     }
   ],
-  "ambiguous_alias_review": [
-    {
-      "article_key": "GRAY",
-      "original_target": "HOARY",
-      "candidates": [
-        "HOAR-FROST; HOARY",
-        "HOAR; HOARY"
-      ],
-      "context": "See COLORS; HOARY."
-    }
-  ],
+  "ambiguous_alias_review": [],
   "unique_semicolon_alias_candidates": [],
   "unique_separator_candidates": [],
   "occurrences": [
@@ -3372,19 +3119,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "a'-shi-ark (Asiarches; the English Revised Version \"the chief officers of Asia,\" the King James Version \"the chief of Asia\"): The title given to certain men of high honorary rank in the Roman province of Asia. What their exact functions were is not altogether clear. They derived their appellation from the name of the province over which they presided (compare BITHYNIARCH; CARIARCH; SYRIARCH)."
-    },
-    {
-      "article_key": "ASTROLOGY",
-      "ref_id": "isbe-cb90e8487204688dd11f-n000070",
-      "original_target": "GOLDEN",
-      "displayed_text": "GOLDEN",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See CALF, GOLDEN."
     },
     {
       "article_key": "ATHEISM",
@@ -4022,22 +3756,6 @@
       "context": "See also STIGMATA, MARK;"
     },
     {
-      "article_key": "DAPHNE",
-      "ref_id": "isbe-33e805a3afe88a296cb5-n000004",
-      "original_target": "ANTIOCH",
-      "displayed_text": "ANTIOCH",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "ANTIOCH, IN SYRIA",
-        "ANTIOCH, OF PISIDIA"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "daf'-ne (Daphne, \"bay-tree\"): A suburb of Antioch on the Orontes, according to Strabo and the Jerusalem itinerary, about 40 furlongs, or 5 miles distant. It is identified with Beit el-Ma' on the left bank of the river, to the Southwest of the city. Here were the famous grove and sanctuary of Apollo. The grove and shrine owed their origin to Seleucus Nicator. It was a place of great natural beauty, and the Seleucid kings spared no outlay in adding"
-    },
-    {
       "article_key": "DART",
       "ref_id": "isbe-857e0706163163049a12-n000007",
       "original_target": "ARMS, III",
@@ -4653,22 +4371,6 @@
       "context": "See NUMBERS; GAMES."
     },
     {
-      "article_key": "GEOGRAPHY",
-      "ref_id": "isbe-46741dd60f4a209cfdc6-n000007",
-      "original_target": "WORLD",
-      "displayed_text": "WORLD",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "WORLD, COSMOLOGICAL",
-        "WORLD, END OF THE"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See PALESTINE; TABLE OF NATIONS; WORLD."
-    },
-    {
       "article_key": "GIBEATH (1)",
       "ref_id": "isbe-40f78bbb00f52833ccc3-n000011",
       "original_target": "MOREH",
@@ -4719,22 +4421,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "The place of the Gospels in church tradition is secure. Eusebius places the 4 Gospels among the books that were never disputed in the church (Historia Ecclesiastica, III, 25). It is acknowledged that by the end of the 2nd century these 4 Gospels, and none else, ascribed to the authors whose names they bear, were in universal circulation and undisputed use throughout the church, stood at the head of church catalogues and of all VSS, were freely us"
-    },
-    {
-      "article_key": "GRAY",
-      "ref_id": "isbe-2d71cca47c3a29ce0624-n000006",
-      "original_target": "HOARY",
-      "displayed_text": "HOARY",
-      "candidate_key": null,
-      "alias_candidates": [
-        "HOAR-FROST; HOARY",
-        "HOAR; HOARY"
-      ],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "ambiguous_semicolon_alias",
-      "context": "See COLORS; HOARY."
     },
     {
       "article_key": "GROUND; GROUNDED",
@@ -4867,21 +4553,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "In PRAYERS OF CHRIST (which see), the intercessory character of many of our Lord's prayers, and especially that of Joh 17, is considered. And it has been impossible for Christian thought to divest itself of the idea that the heavenly intercession of Christ is of the order of prayer. It is impossible for us to know; and even if Christ now prays to the Father, it can be in no way analogous to earthly prayers. The thought of some portion of Christen"
-    },
-    {
-      "article_key": "ISRAEL, RELIGION OF",
-      "ref_id": "isbe-3b145575b85a01a7ca9c-n000215",
-      "original_target": "LITERATURE",
-      "displayed_text": "LITERATURE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "LITERATURE, SUB-APOSTOLIC"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finally, the APOCALYPTIC LITERATURE (which see). Since the days of the Maccabees we find the custom in certain Jewish circles, by using the old prophecies and adapting them to the events of the times, of drawing up a systematic picture of the future. The authorship of these writings was usually ascribed to one of the ancient saints, e.g. to Enoch, or Abr"
     },
     {
       "article_key": "JAREB",
@@ -5195,22 +4866,6 @@
       "context": "See PROPHET."
     },
     {
-      "article_key": "PSALMS, BOOK OF",
-      "ref_id": "isbe-37b2a9b3098791cd8edd-n000254",
-      "original_target": "POETRY",
-      "displayed_text": "POETRY",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "POETRY, HEBREW",
-        "POETRY, NEW TESTAMENT"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "For general discussion of the form of Hebrew poetry, see POETRY. In the Psalms almost all known varieties of poetic parallelism are exemplified. Among moderns, C.A. Briggs has made extensive research into the poetical structure of the Psalms. In summing up the result of his study of the various measures employed in the Psalms, he classes 89 psalms or parts of psalms as trimeters, that is, the lines have three main accents; 22 psalms or parts he r"
-    },
-    {
       "article_key": "RELATIONSHIPS, FAMILY",
       "ref_id": "isbe-98d7454913d9913b49f1-n000356",
       "original_target": "STRANGER AND SOJOURNER",
@@ -5222,22 +4877,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See STRANGER AND SOJOURNER."
-    },
-    {
-      "article_key": "SAMARITANS",
-      "ref_id": "isbe-6062647defde0d70b380-n000026",
-      "original_target": "SAMARIA",
-      "displayed_text": "SAMARIA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "SAMARIA, CITY OF",
-        "SAMARIA, COUNTRY OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See SAMARIA."
     },
     {
       "article_key": "SAUL",
@@ -5305,21 +4944,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "To the Southeast of Warka and Senqara lies the site of the ancient UR OF THE CHALDEES (which see) now Mugheir. It was renowned for its temple to the moon, and for the kings known as the dynasty of Ur: Sur-Engur, Dungi, Bur-Sin, Gimil-Sin, and Ibi-Sin."
-    },
-    {
-      "article_key": "SIRACH, BOOK OF",
-      "ref_id": "isbe-0d2a424d93e75e31fb63-n000043",
-      "original_target": "LITERATURE",
-      "displayed_text": "LITERATURE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "LITERATURE, SUB-APOSTOLIC"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom school of Palestinian Judaism about 200 BC, though there is not a word in the book about a Messianic hope or the setting up of a Messianic kingdom. None of the views characteristic of Alexandrian Judaism and absent from the teaching of Palestinian Judaism are to be found in this book, though some of them at least are represented in Wisdom (see WIS"
     },
     {
       "article_key": "SOJOURNER",

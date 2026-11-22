@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 179,
-  "unresolved_distinct_targets": 161,
+  "unresolved_occurrences": 171,
+  "unresolved_distinct_targets": 155,
   "categories_by_occurrence": {
-    "article_section_label": 15,
+    "article_section_label": 13,
     "multiple_numbered_entries": 8,
     "single_numbered_entry_candidate": 3,
-    "unmatched_heading_or_alias": 153
+    "unmatched_heading_or_alias": 147
   },
   "review_queue": [
     {
@@ -126,13 +126,6 @@
     },
     {
       "source_target": "ANTIMONY; EYELID",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ANTIOCH",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -624,13 +617,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "GOLDEN",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "HAROD",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -653,13 +639,6 @@
     },
     {
       "source_target": "HEROD'S",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "HOARY",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -733,7 +712,7 @@
     },
     {
       "source_target": "LITERATURE",
-      "occurrences": 5,
+      "occurrences": 3,
       "category": "article_section_label",
       "review_candidates": [],
       "status": "needs_review"
@@ -893,13 +872,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "POETRY",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "PROPHET",
       "occurrences": 3,
       "category": "unmatched_heading_or_alias",
@@ -936,13 +908,6 @@
     },
     {
       "source_target": "ROAD",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SAMARIA",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -1143,13 +1108,6 @@
       "source_target": "VI. THE ESSENES AND CHRISTIANITY",
       "occurrences": 1,
       "category": "article_section_label",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "WORLD",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
     },
