@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from rebuild_tei import resolve_key
+from rebuild_tei import resolve_key, separator_key
 
 
 class LinkResolutionTests(unittest.TestCase):
@@ -24,6 +24,19 @@ class LinkResolutionTests(unittest.TestCase):
 
     def test_ambiguous_names_never_guessed(self):
         self.assertEqual(resolve_key("BAAL", self.ids, self.lookup), (None, "not_found"))
+
+    def test_unique_separator_variant(self):
+        ids = {"ARMY, ROMAN": "a", "ARMY, GREEK": "b"}
+        normalized = {k.casefold(): [k] for k in ids}
+        sep = {}
+        for k in ids:
+            sep.setdefault(separator_key(k), []).append(k)
+        self.assertEqual(resolve_key("ARMY (ROMAN)", ids, normalized, sep),
+                         ("ARMY, ROMAN", "unique_separator_variant"))
+
+    def test_separator_normalization_keeps_letters(self):
+        self.assertEqual(separator_key("BUILD; BUILDING"), separator_key("BUILD, BUILDING"))
+        self.assertNotEqual(separator_key("GOD'S"), separator_key("GODS"))
 
     def test_missing_stays_missing(self):
         self.assertEqual(resolve_key("LITERATURE", self.ids, self.lookup), (None, "not_found"))
