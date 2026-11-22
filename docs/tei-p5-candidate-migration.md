@@ -1,22 +1,18 @@
 # ISBE TEI P5 candidate migration — version 1
 
-**State: full-corpus candidate with automated official TEI validation; not promoted
-to the canonical master.** The canonical faithful reconstruction and the
-preserved CrossWire input are unchanged. The migration does not certify
-historical print fidelity, distribution rights or translation readiness.
+**State: validated and adopted as the canonical TEI P5 working master.** The previous faithful legacy reconstruction remains reproducible byte-for-byte from the preserved IMP and is retrievable from git history. This migration does not certify historical print fidelity, distribution rights or translation readiness.
 
 ## Reproducible inputs and source lock
 
 - Preserved original SWORD ZIP: sources/crosswire/isbe-2.2/ISBE.zip.
 - Preserved IMP export: workspace/exports/isbe-2.2.imp.
-- Faithful unmodified reconstruction: cleaned/en/ISBE.xml.
+- Faithful legacy intermediate: generated under workspace/tmp/isbe-legacy/ISBE.xml from the preserved IMP. The adopted, source-faithful TEI P5 master is cleaned/en/ISBE.xml.
 - Version-1 source lock and official schema digests:
   workspace/changes/tei-p5-candidate-v1.json.
 - Input reconstruction SHA-256:
   98b07b64019601a8ad1eb13feff5b336c870fd80adfecd670bd9b7e3be7b8575.
-- Generated, unpromoted candidate: workspace/candidates/en/ISBE.xml.
-- Reports: tei-p5-candidate-report.json and tei-p5-official-validation.json
-  beside the generated candidate, saved as a GitHub Actions artifact.
+- Reproducible temporary candidate: workspace/candidates/en/ISBE.xml. Its verified bytes are identical to the adopted cleaned/en/ISBE.xml.
+- Canonical audit reports: workspace/reports/tei-p5-candidate-report.json and workspace/reports/tei-p5-official-validation.json; the source-inventory report is workspace/reports/tei-structure-inventory.json.
 
 The preferred source-first build reconstructs the faithful legacy witness from
 the preserved IMP in an **ignored temporary directory** and checks its source
@@ -42,9 +38,7 @@ matches the pinned SHA-256 and that the resulting candidate bytes have the
 previously validated SHA-256
 a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25.
 
-Run the official format gates using the pinned, reviewed
-.github/workflows/tei-p5-candidate.yml GitHub Actions workflow. The schema
-downloads must match the exact SHA-256 in the version-1 lock, or CI fails.
+Run the official format gates using scripts/validate_official_tei_p5.py (shared by the candidate, canonical CI and rebuild workflows). The official schema downloads must match the exact SHA-256 in the version-1 lock, or CI fails. The canonical rebuild workflow runs every source-fidelity and official schema check **before** replacing the master.
 
 ## Official schema provenance and validator tooling
 
@@ -95,8 +89,7 @@ individual original node attributes and text/tail, original order, paragraph
 nesting except the 29 documented wrappers, Scripture values and internal
 targets. Every unapproved change causes an error.
 
-To roll back, delete the separate candidate and use the unchanged cleaned
-master. No reverse patching of the source is necessary.
+To roll back, restore the pre-migration faithful master from git history or reconstruct it from the immutable IMP; the source-locked legacy bytes are never destroyed. Do not overwrite the TEI master as a way to run source diagnostics.
 
 ## Approval boundaries
 
@@ -105,9 +98,7 @@ master. No reverse patching of the source is necessary.
 - An automated official format PASS is a technical result; it does not prove
   agreement with the historic print edition or independent authorization to
   distribute and translate the digital source.
-- Do not move the candidate to cleaned/en/ISBE.xml until complete acceptance
-  checks, human review and an explicit editorial decision. Do not begin the
-  modern-English edition based merely on a successful extraction.
+- The exact reviewed, source-locked candidate has been adopted as cleaned/en/ISBE.xml. No further unreviewed canonical changes are allowed; source locks must be revised with evidence, and the canonical rebuild regenerates the same bytes only after all full-corpus and official schema gates pass. Do not begin the modern-English edition based merely on successful XML validation.
 - Unresolved source-derived empty paragraphs, unverified historical structure
   (lists, quotations, notes, poetry) and source rights remain independent
   review tasks; this mechanical conversion does not silently edit them.
