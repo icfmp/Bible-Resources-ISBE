@@ -1,20 +1,24 @@
 # ISBE TEI P5 candidate migration — version 1
 
-**State: fidelity candidate, NOT certified TEI P5.** Official RELAX NG
-and Schematron checks required by issue #3 have not yet been performed.
-Do not replace the faithful cleaned master.
+**State: full-corpus candidate with automated official TEI validation; not promoted
+to the canonical master.** The canonical faithful reconstruction and the
+preserved CrossWire input are unchanged. The migration does not certify
+historical print fidelity, distribution rights or translation readiness.
 
-## Provenance and reproducibility
+## Reproducible inputs and source lock
 
-- Immutable original digital witness: sources/crosswire/isbe-2.2/ISBE.zip.
-- Unchanged faithful reconstruction: cleaned/en/ISBE.xml.
-- Source lock: workspace/changes/tei-p5-candidate-v1.json, with original
-  SHA-256 and exact expected node/reference counts.
-- Separate candidate: workspace/candidates/en/ISBE.xml, generated in CI.
-- Reversible method: remove the candidate and regenerate from the unchanged
-  master; no inverse conversion is needed to recover the source.
+- Preserved original SWORD ZIP: sources/crosswire/isbe-2.2/ISBE.zip.
+- Preserved IMP export: workspace/exports/isbe-2.2.imp.
+- Faithful unmodified reconstruction: cleaned/en/ISBE.xml.
+- Version-1 source lock and official schema digests:
+  workspace/changes/tei-p5-candidate-v1.json.
+- Input reconstruction SHA-256:
+  98b07b64019601a8ad1eb13feff5b336c870fd80adfecd670bd9b7e3be7b8575.
+- Generated, unpromoted candidate: workspace/candidates/en/ISBE.xml.
+- Reports: tei-p5-candidate-report.json and tei-p5-official-validation.json
+  beside the generated candidate, saved as a GitHub Actions artifact.
 
-Execute from the repository root:
+Run the source-fidelity transformation from the repository root:
 
     python3 scripts/normalize_tei_p5.py \
       --input cleaned/en/ISBE.xml \
@@ -23,34 +27,72 @@ Execute from the repository root:
       --output workspace/candidates/en/ISBE.xml \
       --report workspace/candidates/en/tei-p5-candidate-report.json
 
-## Approved changes
+Run the official format gates using the pinned, reviewed
+.github/workflows/tei-p5-candidate.yml GitHub Actions workflow. The schema
+downloads must match the exact SHA-256 in the version-1 lock, or CI fails.
 
-1. Add document xml:lang=en and teiHeader/encodingDesc/refsDecl with source
-   reference provenance (NOT an invented external Bible URI or resolver), and
-   add revisionDesc. Preserve original fileDesc.
-2. Transfer every original scripture ref/@osisRef **exactly** to @cRef and
-   assign type=scripture; no changes to source reference strings or wording.
-3. Type original internal fragment links article when targeting an article
-   entry, section when targeting an existing non-entry anchor. Preserve target,
-   original @n, original XML ID and displayed words.
-4. Mark the synthetic source-key head as type=index, after exact key check.
-5. Wrap already-attested bibliography headings and subsequent article content
-   in structural TEI div type=bibliography, preserving every original node,
-   text, tail, identifier and order. No invented lists or bibliography items.
-   The new wrapper has no id; the existing bibliography head retains its id.
+## Official schema provenance and validator tooling
 
-## Validation limits and next step
+**TEI P5 release 4.12.0**, using the official TEI Vault (not latest aliases):
 
-The migration refuses changes to the input SHA, source inventory, IDs,
-article-text checksums, original fileDesc, original node text/tail/attributes,
-original node order, internal targets, or paragraph nesting outside the
-approved bibliography wrapper rule.
+- RELAX NG tei_all.rng:
+  https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/custom/schema/relaxng/tei_all.rng
+  SHA-256 b0f115095ead2ccc6933aa3365c6f4a82cba3b2ec7eee7f76bb616d7a63b7e48.
+- ISO Schematron tei_all.isosch:
+  https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/Exemplars/tei_all.isosch
+  SHA-256 500f231ac32d12827bdbdd4168e88743848656bc46cc83286d39bd1f396113d5.
+  The file contains 120 TEI rules/patterns.
+- Schematron ISO compilation resources pinned to commit
+  77dcd36c53d12ed786c144ece3b2af7694abdc56 of
+  https://github.com/Schematron/schematron; source list is in the lock.
+- Validation engines: jing for RELAX NG and Saxon HE XSLT2 for compiled
+  Schematron/SVRL. The workflow logs installed Debian package versions.
+- Negative controls: invalid p/@type for RELAX NG, and a ref with both
+  @target and @cRef for Schematron. Invalid controls **must be rejected**
+  or CI fails.
+- scripts/check_tei_p5_svrl.py checks official schema byte-level digests,
+  source parity report, SVRL execution and the failing negative control,
+  and produces a separate machine-readable official verification report.
 
-Checks run on serialized candidate bytes and compare each article to the
-master and its source index. The generated report says
-official_tei_schema_validation = NOT_PERFORMED until a separate official,
-version- and SHA-256-locked TEI P5 4.12.0 RELAX NG and Schematron gate passes.
+## Authorized changes and reversibility
 
-No print-source validation, SWORD readback, rights clearance or publication
-is implied. Review the migration and its complete corpus report before
-changing the canonical master.
+1. Add document xml:lang="en", teiHeader/encodingDesc/refsDecl with
+   **source reference provenance** (not an invented external Bible resolver),
+   and revisionDesc. Keep the original fileDesc byte-equivalent in XML terms.
+2. Transfer all 93,162 original Scripture ref/@osisRef values unchanged into
+   @cRef, assign type=scripture, preserve every reference ID and visible word.
+3. Assign type=article or type=section to 5,906 existing verified internal
+   links based on their actual destination; keep @target and the CrossWire
+   original @n unchanged.
+4. Mark 9,380 generated headwords type=index only after verifying their keys.
+5. Wrap 27 existing bibliography heads plus 2 source-marked bibliography
+   lead paragraphs (29 in total) in div type=bibliography. TEI P5 disallows
+   type on p, so only the two p type=bibliography-lead attributes are removed
+   as their source classification is transferred to the containing div.
+   Original paragraph/head nodes, visible text, tails, child order and XML
+   identifiers are preserved. No invented list, bibl, head or quotation.
+6. Preserve all 144 intentionally inert original source links exactly, along
+   with their original @n and source-identifying XML IDs.
+
+The full **serialized** candidate is checked against all 9,380 original
+articles, article-index hashes, 185,657 existing IDs, source fileDesc,
+individual original node attributes and text/tail, original order, paragraph
+nesting except the 29 documented wrappers, Scripture values and internal
+targets. Every unapproved change causes an error.
+
+To roll back, delete the separate candidate and use the unchanged cleaned
+master. No reverse patching of the source is necessary.
+
+## Approval boundaries
+
+- A successful source-fidelity report does not itself mean official TEI
+  validation passed. Both machine-readable reports must be reviewed.
+- An automated official format PASS is a technical result; it does not prove
+  agreement with the historic print edition or independent authorization to
+  distribute and translate the digital source.
+- Do not move the candidate to cleaned/en/ISBE.xml until complete acceptance
+  checks, human review and an explicit editorial decision. Do not begin the
+  modern-English edition based merely on a successful extraction.
+- Unresolved source-derived empty paragraphs, unverified historical structure
+  (lists, quotations, notes, poetry) and source rights remain independent
+  review tasks; this mechanical conversion does not silently edit them.
