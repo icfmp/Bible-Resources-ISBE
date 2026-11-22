@@ -48,33 +48,10 @@ def scan(path):
         key = a.get("n")
         lexical_index.setdefault(folded_letters(key), []).append(key)
     records = []
-    sections = []
-    structure_examples = []
     summary = Counter()
     for article in entries:
         article_key = article.get("n")
-        if article_key in ("EDUCATION", "EGYPT", "EBIONISM; EBIONITES", "ANTHROPOMORPHISM"):
-            paragraphs = [p for p in article.iter() if p.tag.split("}")[-1] == "p"]
-            structure_examples.append({
-                "article": article_key,
-                "paragraphs": len(paragraphs),
-                "paragraph_previews": [
-                    {"text": " ".join("".join(p.itertext()).split())[:180],
-                     "children": [x.tag.split("}")[-1] for x in list(p)[:7]]}
-                    for p in paragraphs[:18]
-                ],
-            })
         parents = {c: p for p in article.iter() for c in p}
-        marked_headings = []
-        for candidate in article.iter():
-            if candidate.tag.split("}")[-1] not in ("hi", "head"):
-                continue
-            if candidate.tag.split("}")[-1] == "hi" and candidate.get("rend") != "underline":
-                continue
-            txt = " ".join("".join(candidate.itertext()).split())
-            if txt:
-                marked_headings.append({"id": candidate.get(XMLID), "text": txt[:180],
-                                        "parent_tag": parents[candidate].tag.split("}")[-1] if candidate in parents else ""})
         for ref in article.iter(REF):
             destination = ref.get("target", "")
             if not destination.startswith("ISBE:"):
@@ -97,18 +74,6 @@ def scan(path):
             else:
                 kind = "requires_review"
             summary[kind] += 1
-            is_section_reference = (
-                target.strip().casefold().rstrip(".") == "literature"
-                or target.lstrip().startswith(tuple(str(i) + "." for i in range(1, 31)))
-                or (len(target) > 2 and target[0] in "IVX" and "." in target[:7])
-            )
-            if is_section_reference:
-                needles = normalized(target).strip(".").replace("literature.", "literature")
-                possible = [h for h in marked_headings
-                            if needles in normalized(h["text"]).strip(".:")]
-                sections.append({"source_article": article_key, "target": target,
-                                 "visible": visible, "possible_local_headings": possible[:8],
-                                 "marked_heading_count": len(marked_headings)})
             records.append({
                 "article_key": article_key,
                 "ref_id": ref.get(XMLID),
@@ -123,9 +88,6 @@ def scan(path):
             "status": "review_diagnostics_not_approved_mappings",
             "total_unresolved_occurrences": len(records),
             "category_counts": dict(sorted(summary.items())),
-            "article_structure_examples": structure_examples,
-            "section_review_samples": sections[:120],
-            "section_occurrences_in_review": len(sections),
             "unique_separator_candidates": [
                 {"article_key": x["article_key"], "original_target": x["original_target"],
                  "candidate": x["lexical_candidates"][0], "context": x["context"][:170]}
