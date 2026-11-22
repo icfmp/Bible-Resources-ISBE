@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 1254,
-  "unresolved_distinct_targets": 659,
+  "unresolved_occurrences": 1253,
+  "unresolved_distinct_targets": 658,
   "categories_by_occurrence": {
-    "article_section_label": 57,
+    "article_section_label": 56,
     "multiple_numbered_entries": 173,
     "single_numbered_entry_candidate": 9,
     "unmatched_heading_or_alias": 1015
@@ -2489,13 +2489,6 @@
       "source_target": "HOSPITALITY",
       "occurrences": 2,
       "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "I. INTRODUCTION",
-      "occurrences": 1,
-      "category": "article_section_label",
       "review_candidates": [],
       "status": "needs_review"
     },
