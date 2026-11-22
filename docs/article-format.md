@@ -23,3 +23,12 @@ The extractor compares the complete Unicode text of each source entry with its r
 The XML preserves inline TEI and source Bible references where present. It does not attempt to reproduce original printed layouts.
 
 The unresolved links and name variants in the reconstruction report require separate editorial review; do not automatically equate similar entries without evidence.
+
+## Internal cross-reference reconstruction
+
+Original CrossWire `ISBE:...` targets are retained in the `n` attribute when resolved and replaced with a validated `#xml-id` destination. The resolver supports exact keys, uniquely attested punctuation and alternate-title components, local headings, numbered subentry paragraphs, and limited biblical-reference disambiguation of numbered homonyms. It does **not** invent entries or select among unresolved homonyms.
+
+The small, reviewable `workspace/reviews/accepted-title-aliases.json` is the source of manually approved heading equivalences. Each mapping records a reason and is applied generically by the reconstruction tool. The source SWORD ZIP and IMP export are immutable.
+
+The full regeneration verifies the Unicode article-text hash against the export, checks all `xml:id` values for uniqueness, checks every resolved fragment target, and confirms the number of internal source links is unchanged. Unresolved `ISBE:` targets remain visible as such; they are not silently discarded.
+
