@@ -36,7 +36,16 @@ class PrintRecoveryCandidateConsistencyTests(unittest.TestCase):
         for row in redirects["records"]:
             candidates.append((row["article_key"], row["original_empty_paragraph_id"], row,
                                "print_text_fully_certified"))
-            # Some redirects still have only a secondary reading, not a\n            # source-image-collated text. Never fill the gap by inference.\n            if "proposed_print_collated_text" in row:\n                self.assertTrue(row["proposed_print_collated_text"].strip())\n            else:\n                self.assertTrue(row["observed_secondary_witness_text"].strip())\n                self.assertTrue(row["proposed_lead"].strip())
+            # Some redirects still have only a secondary reading, not a
+            # source-image-collated text. Never fill the gap by inference.
+            if "proposed_print_collated_text" in row:
+                self.assertIsInstance(row["proposed_print_collated_text"], str)
+                self.assertTrue(row["proposed_print_collated_text"].strip())
+            else:
+                self.assertIsInstance(row["observed_secondary_witness_text"], str)
+                self.assertTrue(row["observed_secondary_witness_text"].strip())
+                self.assertIsInstance(row["proposed_lead"], str)
+                self.assertTrue(row["proposed_lead"].strip())
             self.assertTrue(row["proposed_targets"])
 
         self.assertEqual(len(candidates), 31)
