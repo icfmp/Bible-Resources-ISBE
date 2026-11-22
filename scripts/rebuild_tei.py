@@ -132,7 +132,8 @@ def build(imp):
     unsupported = Counter()
     missing_refs = Counter()
     resolved_variants = Counter()
-    unresolved_details = Counter()\n    resolved_local = Counter()
+    unresolved_details = Counter()
+    resolved_local = Counter()
     title_variants = []
     text_chars = 0
     nodes = 0
