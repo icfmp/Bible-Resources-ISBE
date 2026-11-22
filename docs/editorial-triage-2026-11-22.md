@@ -53,3 +53,11 @@ The canonical structure inventory currently has **no `note` elements** in its ar
 3. For each approved addition/removal, record original/source and revised-text hashes and stable unit mapping. Reject changes to unaffected article text and IDs.
 4. Validate the resulting separate editorial edition through pinned TEI P5 RELAX NG, Schematron and article-reference audit. Keep original digital witness intact.
 5. Rights and translation publication remain blocked by #1 until separately cleared.
+
+## Recovery checkpoint — second text batch (2026-11-22)
+
+**Historical genre correction:** `JOSIBIAH` is not a prose article; its independent 1915-attributed transcription contains a pronunciation and `See JOSHIBIAH`. It is now the **eleventh** provisional original-redirect record. The prior first-pass classification was wrong and is corrected in the versioned source-gap ledger.
+
+Six more CrossWire-empty entries have now been transcribed into the **noncanonical** review specimen: `BEERA`, `ITHLAH`, `MANASSITES`, `SAVIAS`, `SESIS`, and `HASRAH`. Each is restricted to the actual article passage from its own 1915-attributed reproduction; HTML menus, website terms, recommendations and copyright/bibliographic boilerplate are **excluded**. The exact secondary witness is recorded per entry in `workspace/reviews/print-prose-candidate-v1.json`.
+
+Combined preview target: **11 provisional redirects plus 9 prose entries**, with 9,360 other article texts and all original identifiers preserved. This is an editorial research specimen, **not** the canonical text or an approved printed transcription. No invented expansion or silent editorial modernization is permissible. Final page-image collation and rights checks remain required.
