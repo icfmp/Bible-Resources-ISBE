@@ -27,20 +27,45 @@ jobs:
             --manifest workspace/changes/tei-p5-candidate-v1.json \
             --output workspace/candidates/en/ISBE.xml \
             --report workspace/candidates/en/tei-p5-candidate-report.json
-      - name: Explore official TEI P5 4.12.0 RNG (diagnostic only; NOT pinned)
-        continue-on-error: true
+      - name: Verify pinned official TEI P5 4.12.0 RELAX NG schema
         shell: bash
         run: |
           set -euo pipefail
           url="https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/custom/schema/relaxng/tei_all.rng"
-          echo "Official TEI versioned source: $url"
           curl --fail --location --silent --show-error --retry 2 "$url" -o /tmp/tei_all-4.12.0.rng
-          file /tmp/tei_all-4.12.0.rng
-          wc -c /tmp/tei_all-4.12.0.rng
-          sha256sum /tmp/tei_all-4.12.0.rng
+          echo "b0f115095ead2ccc6933aa3365c6f4a82cba3b2ec7eee7f76bb616d7a63b7e48  /tmp/tei_all-4.12.0.rng" | sha256sum --check --strict
           sudo apt-get update -qq
           sudo apt-get install -y -qq jing
           jing /tmp/tei_all-4.12.0.rng workspace/candidates/en/ISBE.xml
+      - name: Confirm the official schema rejects an invalid paragraph
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > /tmp/invalid-tei-p5.xml <<'XML'
+          <?xml version="1.0" encoding="utf-8"?>
+          <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader><fileDesc><titleStmt><title>Invalid control</title></titleStmt>
+            <publicationStmt><p>Test</p></publicationStmt>
+            <sourceDesc><p>Test</p></sourceDesc></fileDesc></teiHeader>
+            <text><body><p type="not-valid-on-p">Bad</p></body></text>
+          </TEI>
+          XML
+          if jing /tmp/tei_all-4.12.0.rng /tmp/invalid-tei-p5.xml; then
+            echo "Official RNG accepted the intentionally invalid fixture" >&2
+            exit 1
+          fi
+          echo "Verified: malformed TEI structural control rejected"
+      - name: Inventory official TEI P5 4.12.0 Schematron (digest discovery)
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          url="https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/Exemplars/tei_all.isosch"
+          echo "Official versioned Schematron source: $url"
+          curl --fail --location --silent --show-error --retry 2 "$url" -o /tmp/tei_all-4.12.0.isosch
+          file /tmp/tei_all-4.12.0.isosch
+          wc -c /tmp/tei_all-4.12.0.isosch
+          sha256sum /tmp/tei_all-4.12.0.isosch
       - name: Publish candidate for independent official schema review
         uses: actions/upload-artifact@v4
         with:
