@@ -16,13 +16,14 @@
       "source_level": "secondary_transcription",
       "source_image_verified": true,
       "approved": false,
-      "editorial_note": "Independent reproduction includes a pronunciation before the redirect. Preview omits pronunciation; not approved as historical transcription. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "editorial_note": "Original 1915 printed page visually inspected (volume 1, printed p. 295); see 1915-visual-page-collation-v1.json. Original composite headword is printed as 'ASTARTE, [pronunciation], ASTORETH. See ASHTAROTH.' The draft omitted ASTORETH from the printed prose and altered its punctuation. Remaining uncertainty: pronunciation diacritics need exact image enlargement. Complete character-by-character certification and canonical approval remain pending.",
       "proposed_lead": "as-tar'-te, ASTORETH. See ",
       "observed_secondary_witness_text": "as-tar'-te. See ASHTAROTH.",
       "proposed_print_collated_text": "as-tar'-te, ASTORETH. See ASHTAROTH.",
       "print_source_observation": "Printed p. 295 visibly places ASTORETH after the pronunciation, before 'See Ashtaroth'; exact macrons/breves still pending high-magnification collation.",
       "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_editorial_note": "Independent reproduction includes a pronunciation before the redirect. Preview omits pronunciation; not approved as historical transcription. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending."
     },
     {
       "article_key": "BURNT OFFERING",
@@ -34,7 +35,7 @@
       "source_level": "secondary_transcription",
       "source_image_verified": true,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "editorial_note": "Original 1915 printed page visually inspected (volume 1, printed p. 532); see 1915-visual-page-collation-v1.json. Printed redirect explicitly says See SACRIFICE IN THE OT AND NT, not merely See SACRIFICE. Remaining uncertainty: Historical typography, diacritics and complete source transcription require separate confirmation. Complete character-by-character certification and canonical approval remain pending.",
       "proposed_lead": "See ",
       "observed_secondary_witness_text": "See SACRIFICE.",
       "proposed_display_labels": {
@@ -43,7 +44,8 @@
       "proposed_print_collated_text": "See SACRIFICE IN THE OT AND NT.",
       "print_source_observation": "Original vol I p. 532 prints full target title rather than SACRIFICE alone. Existing link remains article-level until canonical article destination key verified.",
       "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending."
     },
     {
       "article_key": "COMING OF CHRIST",
@@ -56,10 +58,11 @@
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "editorial_note": "Original 1915 printed page visually inspected (volume 2, printed p. 679); see 1915-visual-page-collation-v1.json. Original redirect says See ADVENT; PAROUSIA, consistent with proposal. Remaining uncertainty: Historical typography, diacritics and complete source transcription require separate confirmation. Complete character-by-character certification and canonical approval remain pending.",
       "proposed_lead": "See ",
       "observed_secondary_witness_text": "See ADVENT; PAROUSIA.",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending."
     },
     {
       "article_key": "DUALISM",
@@ -71,13 +74,14 @@
       "source_level": "secondary_transcription",
       "source_image_verified": true,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "editorial_note": "Original 1915 printed page visually inspected (volume 2, printed p. 881); see 1915-visual-page-collation-v1.json. Printed pronunciation differs from derivative's extra hyphens; See PHILOSOPHY retained. Remaining uncertainty: Historical typography, diacritics and complete source transcription require separate confirmation. Complete character-by-character certification and canonical approval remain pending.",
       "proposed_lead": "dū'al-iz'm. See ",
       "observed_secondary_witness_text": "du'-al-iz'-m. See PHILOSOPHY.",
       "proposed_print_collated_text": "dū'al-iz'm. See PHILOSOPHY.",
       "print_source_observation": "Original vol II p. 881 lacks the derivative's extra hyphen. Macron is read from printed facsimile and requires precision sign-off.",
       "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending."
     },
     {
       "article_key": "MARKET, SHEEP",
@@ -89,10 +93,11 @@
       "source_level": "secondary_index",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "editorial_note": "Original 1915 printed page visually inspected (volume 3, printed p. 1996); see 1915-visual-page-collation-v1.json. Printed See SHEEP MARKET confirms candidate destination. Remaining uncertainty: Historical typography, diacritics and complete source transcription require separate confirmation. Complete character-by-character certification and canonical approval remain pending.",
       "proposed_lead": "See ",
       "observed_secondary_witness_text": "See SHEEP MARKET.",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending."
     },
     {
       "article_key": "PATRIARCHS, TESTAMENTS OF THE TWELVE",
@@ -104,7 +109,7 @@
       "source_level": "secondary_transcription",
       "source_image_verified": true,
       "approved": false,
-      "editorial_note": "Independent reproduction gives section IV, 1; proposed TEI link is article-level only pending a verified exact subsection anchor. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "editorial_note": "Original 1915 printed page visually inspected (volume 4, printed p. 2264); see 1915-visual-page-collation-v1.json. Original short cross-reference reads 'See APOCALYPTIC LITERATURE, IV, 1.' The review candidate introduced 'sec.', a word absent from the printed entry. Remaining uncertainty: punctuation verified from page image. Complete character-by-character certification and canonical approval remain pending.",
       "proposed_display_labels": {
         "APOCALYPTIC LITERATURE": "APOCALYPTIC LITERATURE, IV, 1"
       },
@@ -113,7 +118,8 @@
       "proposed_print_collated_text": "See APOCALYPTIC LITERATURE, IV, 1.",
       "print_source_observation": "Printed p. 2264 omits the invented word 'sec.'; section locator IV, 1 is original.",
       "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_editorial_note": "Independent reproduction gives section IV, 1; proposed TEI link is article-level only pending a verified exact subsection anchor. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending."
     },
     {
       "article_key": "PAUL, VOYAGE AND SHIPWRECK OF",
@@ -126,7 +132,7 @@
       "source_level": "secondary_transcription",
       "source_image_verified": true,
       "approved": false,
-      "editorial_note": "The independent reproduction includes a precise subsection V, 9 for PAUL, THE APOSTLE. Candidate link is article-level only, and must not claim to target that subsection. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "editorial_note": "Original 1915 printed page visually inspected (volume 4, printed p. 2289); see 1915-visual-page-collation-v1.json. Printed See PAUL THE APOSTLE, V, 9; PHOENIX lacks a comma between PAUL and THE unlike derivative text. Remaining uncertainty: Historical typography, diacritics and complete source transcription require separate confirmation. Complete character-by-character certification and canonical approval remain pending.",
       "proposed_display_labels": {
         "PAUL, THE APOSTLE": "PAUL THE APOSTLE, V, 9"
       },
@@ -135,7 +141,8 @@
       "proposed_print_collated_text": "See PAUL THE APOSTLE, V, 9; PHOENIX.",
       "print_source_observation": "Original vol IV p. 2289 has no comma between PAUL and THE in the target label.",
       "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_editorial_note": "The independent reproduction includes a precise subsection V, 9 for PAUL, THE APOSTLE. Candidate link is article-level only, and must not claim to target that subsection. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending."
     },
     {
       "article_key": "PROSTRATION",
@@ -147,13 +154,14 @@
       "source_level": "secondary_transcription",
       "source_image_verified": true,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "editorial_note": "Original 1915 printed page visually inspected (volume 4, printed p. 2469); see 1915-visual-page-collation-v1.json. Printed pros-tra'shun, not derivative pros-tra'-shun; redirects to ATTITUDES. Remaining uncertainty: Historical typography, diacritics and complete source transcription require separate confirmation. Complete character-by-character certification and canonical approval remain pending.",
       "proposed_lead": "pros-tra'shun. See ",
       "observed_secondary_witness_text": "pros-tra'-shun. See ATTITUDES.",
       "proposed_print_collated_text": "pros-tra'shun. See ATTITUDES.",
       "print_source_observation": "Original vol IV p. 2469: pros-tra'shun, not pros-tra'-shun.",
       "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending."
     },
     {
       "article_key": "REGENERATION, BAPTISMAL",
@@ -165,10 +173,11 @@
       "source_level": "secondary_transcription",
       "source_image_verified": false,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "editorial_note": "Original 1915 printed page visually inspected (volume 4, printed p. 2550); see 1915-visual-page-collation-v1.json. Printed short redirect reads 'REGENERATION, BAPTISMAL. See BAPTISMAL REGENERATION.' This verifies the target and proves there is a printed entry despite strict OCR not locating it. Remaining uncertainty: printed page image legible. Complete character-by-character certification and canonical approval remain pending.",
       "proposed_lead": "See ",
       "observed_secondary_witness_text": "See BAPTISMAL REGENERATION.",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending."
     },
     {
       "article_key": "STANDING",
@@ -180,13 +189,14 @@
       "source_level": "secondary_transcription",
       "source_image_verified": true,
       "approved": false,
-      "editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "editorial_note": "Original 1915 printed page visually inspected (volume 5, printed p. 2848); see 1915-visual-page-collation-v1.json. Printed stand'ing rather than derivative stand'-ing; redirects to ATTITUDES. Remaining uncertainty: Historical typography, diacritics and complete source transcription require separate confirmation. Complete character-by-character certification and canonical approval remain pending.",
       "proposed_lead": "stand'ing. See ",
       "observed_secondary_witness_text": "stand'-ing. See ATTITUDES.",
       "proposed_print_collated_text": "stand'ing. See ATTITUDES.",
       "print_source_observation": "Original vol V p. 2848: stand'ing, not stand'-ing.",
       "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_editorial_note": "Provisional reading aid only; historical typography and precise scope not attested from the 1915 print image. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending."
     },
     {
       "article_key": "JOSIBIAH",
@@ -201,13 +211,14 @@
       "source_level": "secondary_transcription",
       "source_image_verified": true,
       "approved": false,
-      "editorial_note": "Secondary witness attests pronunciation jos-i-bi'-a followed by See JOSHIBIAH; the synthetic preview omits pronunciation, so remains unapproved and not a historical transcription. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending.",
+      "editorial_note": "Original 1915 printed page visually inspected (volume 3, printed p. 1753); see 1915-visual-page-collation-v1.json. Printed source clearly states 'JOSIBIAH, jos-i-bi\\'a. See JOSHIBIAH.' The provisional secondary-reading manuscript inserts an extra hyphen into the pronunciation. Remaining uncertainty: no remaining uncertainty in short body apart from printed apostrophe style. Complete character-by-character certification and canonical approval remain pending.",
       "proposed_lead": "jos-i-bi'a. See ",
       "observed_secondary_witness_text": "jos-i-bi'-a. See JOSHIBIAH.",
       "proposed_print_collated_text": "jos-i-bi'a. See JOSHIBIAH.",
       "print_source_observation": "Printed p. 1753 uses jos-i-bi'a, not the secondary site's jos-i-bi'-a; punctuation checked visually.",
       "visual_reference": "workspace/reviews/1915-visual-page-collation-v1.json",
-      "print_text_fully_certified": false
+      "print_text_fully_certified": false,
+      "pre_visual_review_editorial_note": "Secondary witness attests pronunciation jos-i-bi'-a followed by See JOSHIBIAH; the synthetic preview omits pronunciation, so remains unapproved and not a historical transcription. Observed short text/lead and exact punctuation of the 1915-attributed secondary reading are retained; physical 1915 printed-page verification is still pending."
     }
   ],
   "research_checkpoint": "Eight historical cross-reference records corrected from visually inspected original print facsimiles, all unapproved as canonical publication edition."
