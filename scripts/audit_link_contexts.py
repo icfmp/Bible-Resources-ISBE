@@ -37,6 +37,28 @@ def classify_candidate(target, visible, known_keys):
     return matches[0]
 
 
+def numbered_markers(article, reference):
+    """Show candidate subsection markers for a reference such as NAME (2)."""
+    match = re.search(r"\\((\\d+)\\)$", reference.strip())
+    if not match:
+        return []
+    needle = "(" + match.group(1) + ")"
+    evidence = []
+    for node in article.iter():
+        if node.tag.split("}")[-1] != "p":
+            continue
+        label = " ".join("".join(node.itertext()).split())
+        offset = label.find(needle)
+        if offset >= 0:
+            evidence.append({
+                "paragraph_id": node.get(XMLID),
+                "starts_with_marker": label.startswith(needle),
+                "offset": offset,
+                "excerpt": label[max(0, offset - 60):offset + 230]
+            })
+    return evidence[:12]
+
+
 def scan(path):
     root = ET.parse(path).getroot()
     entries = root.findall(f".//{ENTRY}[@type='entry']")
@@ -113,6 +135,9 @@ def scan(path):
             "numbered_link_review": [
                 {"article_key": x["article_key"], "original_target": x["original_target"],
                  "candidates": x["numbered_candidates"], "context": x["context"][:300],
+                 "numbered_markers": numbered_markers(
+                     article_by_key[x["numbered_candidates"][0]], x["original_target"]
+                 ),
                  "candidate_article_excerpt": " ".join(
                      "".join(article_by_key[x["numbered_candidates"][0]].itertext()).split()
                  )[:1100]}
