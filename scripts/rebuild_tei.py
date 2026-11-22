@@ -387,6 +387,30 @@ def main():
         actual_hash = hashlib.sha256(source_text.encode("utf-8")).hexdigest()
         if actual_hash != item["text_sha256"]:
             raise ValueError(f"Serialized TEI changed article text: {item['key']}")
+    all_ids = set()
+    for node in round_trip.iter():
+        xml_id = node.get(XMLID)
+        if not xml_id:
+            continue
+        if xml_id in all_ids:
+            raise ValueError(f"Duplicate TEI xml:id: {xml_id}")
+        all_ids.add(xml_id)
+    unresolved_seen = 0
+    resolved_seen = 0
+    for node in round_trip.iter():
+        target = node.get("target", "")
+        original = node.get("n", "")
+        if target.startswith("ISBE:"):
+            unresolved_seen += 1
+        if original.startswith("ISBE:") and target.startswith("#"):
+            resolved_seen += 1
+            if target[1:] not in all_ids:
+                raise ValueError(f"Broken resolved ISBE link: {original} -> {target}")
+    if unresolved_seen != report["unresolved_link_occurrences"]:
+        raise ValueError("Serialized TEI unresolved link total differs from report")
+    report["resolved_internal_links_validated"] = resolved_seen
+    report["xml_id_uniqueness"] = "validated"
+
     args.index.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(report, ensure_ascii=False, indent=2))
