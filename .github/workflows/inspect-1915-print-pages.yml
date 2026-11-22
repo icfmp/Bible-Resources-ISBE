@@ -10,6 +10,8 @@ on:
 
 jobs:
   page-images:
+    # Archive PDFs are expensive to fetch; keep repeat inspection explicit.
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     strategy:
