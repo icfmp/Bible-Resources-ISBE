@@ -17,7 +17,7 @@ class DiffTests(unittest.TestCase):
         self.assertEqual(result["totals"],
                          {"added": 1, "removed": 0, "changed": 1, "unchanged": 1})
         self.assertEqual([x["status"] for x in result["segments"]],
-                         ["changed", "unchanged", "added"])
+                         ["changed", "added", "unchanged"])
 
     def test_reject_duplicate_ids(self):
         with tempfile.TemporaryDirectory() as d:
