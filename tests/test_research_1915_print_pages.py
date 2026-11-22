@@ -74,7 +74,7 @@ class PrintHeadingResearchTests(unittest.TestCase):
             )
             with patch("scripts.research_1915_print_pages.subprocess.run", return_value=fake):
                 result = analyze_pdf(
-                    pdf, ROOT / "workspace/reviews/empty-article-recovery-ledger.json", "I"
+                    pdf, ROOT / "workspace/reviews/empty-article-recovery-ledger.json", "1"
                 )
             self.assertEqual(result["total_checked_keys"], 31)
             self.assertFalse(result["claims_exact_print_verification"])
