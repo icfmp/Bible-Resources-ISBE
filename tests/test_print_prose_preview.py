@@ -36,7 +36,7 @@ class PrintProsePreviewTests(unittest.TestCase):
             self.assertIn("descendant of Asher", "".join(records["BEERA"].itertext()))
             self.assertIn("In 1 Esdras 8:2", "".join(records["SAVIAS"].itertext()))
             self.assertIn("Grandfather of Shallum", "".join(records["HASRAH"].itertext()))
-            self.assertIn("JOSHIBIAH", "".join(records["JOSIBIAH"].itertext()))
+            self.assertIn("jos-i-bi\'-a. See JOSHIBIAH.", "".join(records["JOSIBIAH"].itertext()))
 
     def test_boilerplate_is_rejected_without_modifying_canonical_source(self):
         original=hashlib.sha256(SOURCE.read_bytes()).hexdigest()

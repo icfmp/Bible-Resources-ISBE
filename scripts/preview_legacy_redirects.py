@@ -56,7 +56,10 @@ def preview(source,manifest_path,destination,report_path):
             raise ValueError(f"Not the verified empty source paragraph: {key}")
         if not record["proposed_targets"]:
             raise ValueError("Empty target proposal")
-        p.text="See "
+        lead=record["proposed_lead"]
+        if not lead.endswith("See "):
+            raise ValueError(f"Unverified source redirect lead for {key}")
+        p.text=lead
         resolved=[]
         for pos,target_key in enumerate(record["proposed_targets"]):
             target=articles.get(target_key)
@@ -68,6 +71,10 @@ def preview(source,manifest_path,destination,report_path):
             item.text=record.get("proposed_display_labels", {}).get(target_key, target_key)
             item.tail=("." if pos==len(record["proposed_targets"])-1 else "; ")
             resolved.append({"target_key":target_key,"resolved":target is not None})
+        observed=record["observed_secondary_witness_text"]
+        actual="".join(p.itertext())
+        if actual!=observed:
+            raise ValueError(f"Redirect preview differs from witnessed text for {key}")
         report.append({"article_key":key,
             "source_paragraph_xml_id":p.get(XMLID),
             "preview_only":True,

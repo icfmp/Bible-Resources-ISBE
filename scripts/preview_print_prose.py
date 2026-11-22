@@ -77,7 +77,10 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
         p=children[0]
         if (p.text or "").strip() or len(p):
             raise ValueError(f"Unexpected original text in redirect: {key}")
-        p.text="See "
+        lead=r["proposed_lead"]
+        if not lead.endswith("See "):
+            raise ValueError(f"Unverified source redirect lead for {key}")
+        p.text=lead
         for i,target_key in enumerate(r["proposed_targets"]):
             target=articles.get(target_key)
             if target is None or target.get(XMLID) is None:
@@ -85,6 +88,10 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
             link=ET.SubElement(p,q("ref"),{"type":"article","target":"#"+target.get(XMLID)})
             link.text=r.get("proposed_display_labels",{}).get(target_key,target_key)
             link.tail="." if i==len(r["proposed_targets"])-1 else "; "
+        observed=r["observed_secondary_witness_text"]
+        actual="".join(p.itertext())
+        if actual!=observed:
+            raise ValueError(f"Redirect preview differs from witnessed text for {key}")
         affected.add(key)
     # Proposed content-bearing restorations from individually documented historical witnesses.
     for r in spec["records"]:
