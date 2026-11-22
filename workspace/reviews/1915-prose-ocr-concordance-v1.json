@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "bibliographic_witness": "James Orr (ed.), The International Standard Bible Encyclopaedia, Howard-Severance, 1915, volumes I–V",
+  "method": "Read-only ordered Latin token alignment of provisional candidate prose against original volume PDF searchable OCR after verifying PDF SHA256. Textual/orthographic claims cannot be inferred from this metric.",
+  "all_twenty_primary_pdf_sha_verified": true,
+  "all_twenty_source_page_ocr_checked": true,
+  "fully_character_collated_articles": 0,
+  "source_rights_cleared": false,
+  "editorial_approval": false,
+  "metric_not_accuracy_probability": true,
+  "high_priority_image_review": [
+    "FROWARDNESS",
+    "HASRAH",
+    "SEPHARVITES",
+    "THOMEI"
+  ],
+  "records": [
+    {
+      "source_key": "ABISSEI",
+      "volume": "1",
+      "printed_folio": 13,
+      "pdf_page_1_based": 37,
+      "matched_candidate_tokens": 26,
+      "candidate_token_count": 29,
+      "ordered_token_recall": 0.897,
+      "unmatched_candidate_tokens": [
+        "ff",
+        "ezr",
+        "7"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-413cc0807cda26de4368-n000003",
+      "original_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540499"
+    },
+    {
+      "source_key": "AMNON",
+      "volume": "1",
+      "printed_folio": 118,
+      "pdf_page_1_based": 148,
+      "matched_candidate_tokens": 101,
+      "candidate_token_count": 102,
+      "ordered_token_recall": 0.99,
+      "unmatched_candidate_tokens": [
+        "aminon"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-5e778465f86cbebb18c2-n000003",
+      "original_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540499"
+    },
+    {
+      "source_key": "ANTIQUITY",
+      "volume": "1",
+      "printed_folio": 160,
+      "pdf_page_1_based": 192,
+      "matched_candidate_tokens": 58,
+      "candidate_token_count": 62,
+      "ordered_token_recall": 0.935,
+      "unmatched_candidate_tokens": [
+        "tikwi",
+        "kadmah",
+        "trd",
+        "delitzsch"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-37a107af209df86e5c90-n000003",
+      "original_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540499"
+    },
+    {
+      "source_key": "BEERA",
+      "volume": "1",
+      "printed_folio": 424,
+      "pdf_page_1_based": 458,
+      "matched_candidate_tokens": 15,
+      "candidate_token_count": 17,
+      "ordered_token_recall": 0.882,
+      "unmatched_candidate_tokens": [
+        "be",
+        "expounder"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-7b2802f1161a54c7298e-n000003",
+      "original_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540499"
+    },
+    {
+      "source_key": "CHORBE",
+      "volume": "1",
+      "printed_folio": 614,
+      "pdf_page_1_based": 654,
+      "matched_candidate_tokens": 30,
+      "candidate_token_count": 31,
+      "ordered_token_recall": 0.968,
+      "unmatched_candidate_tokens": [
+        "chorbe"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-5adc37c1c33ed6b144e4-n000003",
+      "original_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540499"
+    },
+    {
+      "source_key": "DEHORT",
+      "volume": "2",
+      "printed_folio": 819,
+      "pdf_page_1_based": 165,
+      "matched_candidate_tokens": 32,
+      "candidate_token_count": 36,
+      "ordered_token_recall": 0.889,
+      "unmatched_candidate_tokens": [
+        "hort",
+        "apostrepho",
+        "macc",
+        "dissuade"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-1d7d2f8f41d3e2f526ed-n000003",
+      "original_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540718"
+    },
+    {
+      "source_key": "FROWARDNESS",
+      "volume": "2",
+      "printed_folio": 1147,
+      "pdf_page_1_based": 499,
+      "matched_candidate_tokens": 49,
+      "candidate_token_count": 74,
+      "ordered_token_recall": 0.662,
+      "unmatched_candidate_tokens": [
+        "translation",
+        "plural",
+        "tahpukhah",
+        "perversity",
+        "proverbs",
+        "the",
+        "american",
+        "standard",
+        "revised",
+        "version",
+        "margin",
+        "compare",
+        "2",
+        "the",
+        "american",
+        "standard",
+        "revised",
+        "version",
+        "american",
+        "standard"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-bb51e96346fee9590908-n000003",
+      "original_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540718"
+    },
+    {
+      "source_key": "HASRAH",
+      "volume": "2",
+      "printed_folio": 1342,
+      "pdf_page_1_based": 699,
+      "matched_candidate_tokens": 22,
+      "candidate_token_count": 28,
+      "ordered_token_recall": 0.786,
+      "unmatched_candidate_tokens": [
+        "chacrah",
+        "grandfather",
+        "huldah",
+        "chronicles",
+        "kings",
+        "which"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-3ab6d344b65809300342-n000003",
+      "original_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540718"
+    },
+    {
+      "source_key": "HEMDAN",
+      "volume": "2",
+      "printed_folio": 1374,
+      "pdf_page_1_based": 731,
+      "matched_candidate_tokens": 41,
+      "candidate_token_count": 42,
+      "ordered_token_recall": 0.976,
+      "unmatched_candidate_tokens": [
+        "trd"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-37d611bf975263633981-n000003",
+      "original_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540718"
+    },
+    {
+      "source_key": "ITHLAH",
+      "volume": "3",
+      "printed_folio": 1543,
+      "pdf_page_1_based": 177,
+      "matched_candidate_tokens": 20,
+      "candidate_token_count": 21,
+      "ordered_token_recall": 0.952,
+      "unmatched_candidate_tokens": [
+        "jethlah"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-2df419f44751d30fb782-n000003",
+      "original_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540709"
+    },
+    {
+      "source_key": "MANASSITES",
+      "volume": "3",
+      "printed_folio": 1980,
+      "pdf_page_1_based": 624,
+      "matched_candidate_tokens": 20,
+      "candidate_token_count": 23,
+      "ordered_token_recall": 0.87,
+      "unmatched_candidate_tokens": [
+        "menashshi",
+        "manasse",
+        "k"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-036b79f716e946c74b6d-n000003",
+      "original_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540709"
+    },
+    {
+      "source_key": "MANKIND",
+      "volume": "3",
+      "printed_folio": 1982,
+      "pdf_page_1_based": 626,
+      "matched_candidate_tokens": 32,
+      "candidate_token_count": 34,
+      "ordered_token_recall": 0.941,
+      "unmatched_candidate_tokens": [
+        "men",
+        "jas"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-3da82bda0cddd078bd9b-n000003",
+      "original_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540709"
+    },
+    {
+      "source_key": "SAVIAS",
+      "volume": "4",
+      "printed_folio": 2700,
+      "pdf_page_1_based": 618,
+      "matched_candidate_tokens": 18,
+      "candidate_token_count": 19,
+      "ordered_token_recall": 0.947,
+      "unmatched_candidate_tokens": [
+        "saouia"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-c0d21e6f8317b00c0198-n000003",
+      "original_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540713"
+    },
+    {
+      "source_key": "SEPHARVITES",
+      "volume": "4",
+      "printed_folio": 2723,
+      "pdf_page_1_based": 642,
+      "matched_candidate_tokens": 29,
+      "candidate_token_count": 37,
+      "ordered_token_recall": 0.784,
+      "unmatched_candidate_tokens": [
+        "vits",
+        "se",
+        "far",
+        "vits",
+        "cepharwim",
+        "kings",
+        "which",
+        "see"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-298ae627bc3b471727f1-n000003",
+      "original_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540713"
+    },
+    {
+      "source_key": "SESIS",
+      "volume": "4",
+      "printed_folio": 2743,
+      "pdf_page_1_based": 663,
+      "matched_candidate_tokens": 21,
+      "candidate_token_count": 22,
+      "ordered_token_recall": 0.955,
+      "unmatched_candidate_tokens": [
+        "seseis"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-670aaf6f5bdb88843872-n000003",
+      "original_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540713"
+    },
+    {
+      "source_key": "SHALLUN",
+      "volume": "4",
+      "printed_folio": 2747,
+      "pdf_page_1_based": 667,
+      "matched_candidate_tokens": 50,
+      "candidate_token_count": 51,
+      "ordered_token_recall": 0.98,
+      "unmatched_candidate_tokens": [
+        "repairing"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-1b106c8f94e68a2a4df8-n000003",
+      "original_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540713"
+    },
+    {
+      "source_key": "SYCHEM",
+      "volume": "5",
+      "printed_folio": 2877,
+      "pdf_page_1_based": 67,
+      "matched_candidate_tokens": 51,
+      "candidate_token_count": 53,
+      "ordered_token_recall": 0.962,
+      "unmatched_candidate_tokens": [
+        "suchem",
+        "transcription"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-0916cc3026c11f71caf8-n000003",
+      "original_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540751"
+    },
+    {
+      "source_key": "TEPHON",
+      "volume": "5",
+      "printed_folio": 2948,
+      "pdf_page_1_based": 142,
+      "matched_candidate_tokens": 32,
+      "candidate_token_count": 34,
+      "ordered_token_recall": 0.941,
+      "unmatched_candidate_tokens": [
+        "1",
+        "macc"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-f5a022af77e03584a5cc-n000003",
+      "original_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540751"
+    },
+    {
+      "source_key": "THOCANUS",
+      "volume": "5",
+      "printed_folio": 2973,
+      "pdf_page_1_based": 169,
+      "matched_candidate_tokens": 32,
+      "candidate_token_count": 36,
+      "ordered_token_recall": 0.889,
+      "unmatched_candidate_tokens": [
+        "tho",
+        "thokanos",
+        "thokanos",
+        "upon"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-85699a1ae3f034e512e0-n000003",
+      "original_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540751"
+    },
+    {
+      "source_key": "THOMEI",
+      "volume": "5",
+      "printed_folio": 2973,
+      "pdf_page_1_based": 169,
+      "matched_candidate_tokens": 26,
+      "candidate_token_count": 40,
+      "ordered_token_recall": 0.65,
+      "unmatched_candidate_tokens": [
+        "e",
+        "codex",
+        "alexandrinus",
+        "thomoi",
+        "codex",
+        "vaticanus",
+        "thomthei",
+        "king",
+        "james",
+        "version",
+        "esdras",
+        "5",
+        "ezra",
+        "nehemiah"
+      ],
+      "ocr_collation_only": true,
+      "full_print_text_certified": false,
+      "source_paragraph_xml_id": "isbe-b7e3dc6b67d5e025b90d-n000003",
+      "original_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "job_evidence_url": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45085016819/job/137401540751"
+    }
+  ],
+  "canonical_source_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "candidate_file_git_blob_sha1": "ed1e35bc3450168e9d052e27d0bd33ed0c1fc918",
+  "visual_page_evidence_git_blob_sha1": "d8770215fb1e7728313a5f546aa8161ac1a5ab38",
+  "reproducibility_note": "The candidate and primary-page evidence blob IDs bind this OCR comparison to exact reviewed inputs. Regenerate against all five SHA-pinned original PDFs whenever either blob changes."
+}
