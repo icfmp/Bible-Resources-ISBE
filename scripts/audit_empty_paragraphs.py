@@ -97,7 +97,7 @@ def main():
     args.report.write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    print(f"Documented {report['count']} untouched source-derived empty paragraphs")
+    print(f"Documented {report['count']} untouched source-derived empty paragraphs")\n    for case in report["cases"]:\n        print(f"  {case['article_key']!r}: {case['paragraph_xml_id']}")
 
 
 if __name__ == "__main__":
