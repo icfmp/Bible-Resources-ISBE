@@ -1315,6 +1315,12 @@
       "occurrences": 3
     },
     {
+      "original": "ESDRAELON",
+      "resolved_to": "ESDRAELON, PLAIN OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "ESSENES.",
       "resolved_to": "ESSENES",
       "rule": "terminal_period",
@@ -1835,6 +1841,12 @@
       "resolved_to": "MAKTESH, THE",
       "rule": "inverted_definite_article",
       "occurrences": 2
+    },
+    {
+      "original": "MAN (THE NATURAL)",
+      "resolved_to": "MAN, NATURAL",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
     },
     {
       "original": "MANEH",
@@ -2767,7 +2779,7 @@
       "occurrences": 1
     }
   ],
-  "resolved_variant_occurrences": 871,
+  "resolved_variant_occurrences": 873,
   "resolved_local_section_links": [
     {
       "article_key": "ACCOMMODATION",
@@ -3558,6 +3570,14 @@
       "basis": "BAALIM is the plural of the Canaanite deity Baal, the subject of BAAL (1)."
     },
     {
+      "source_article": "BAASHA",
+      "ref_id": "isbe-4acd69228bba8d90cfd3-n000012",
+      "original": "ELAH",
+      "destination_article": "ELAH (1)",
+      "destination_id": "isbe-9578591e638b1ac50c93",
+      "basis": "King Baasha's royal successor was his son Elah; the source context is the Israelite monarchy rather than the valley of Elah."
+    },
+    {
       "source_article": "BABYLONIA",
       "ref_id": "isbe-7be90b6a0f007ce77848-n000078",
       "original": "BABYLON",
@@ -3646,12 +3666,36 @@
       "basis": "BOTCH denotes a bodily sore or boil; BOIL (1) is the medically relevant noun entry."
     },
     {
+      "source_article": "CALAH",
+      "ref_id": "isbe-afd1ba74aa4d845dae9e-n000005",
+      "original": "BABEL, BABYLON",
+      "destination_article": "BABEL, BABYLON (1)",
+      "destination_id": "isbe-4bf2f680122c9d9b9841",
+      "basis": "CALAH discusses the ancient cities of Mesopotamia and Assyria, corresponding to the Babylon topographical article BABEL, BABYLON (1)."
+    },
+    {
       "source_article": "CANAAN; CANAANITES",
       "ref_id": "isbe-321c8192e5660800ef48-n000117",
       "original": "BAAL",
       "destination_article": "BAAL (1)",
       "destination_id": "isbe-aa129a30edcc782f9006",
       "basis": "The Canaanite context lists their worship and deities, matching BAAL (1)."
+    },
+    {
+      "source_article": "CANANAEAN; CANAANITE",
+      "ref_id": "isbe-b7c345e2e3b2c8c1a43d-n000005",
+      "original": "SIMON",
+      "destination_article": "SIMON (2)",
+      "destination_id": "isbe-3f71bb6c8f78f00eb374",
+      "basis": "This source discusses Simon the Cananaean/Zealot, one of the Twelve listed within SIMON (2)."
+    },
+    {
+      "source_article": "CHEDORLAOMER",
+      "ref_id": "isbe-caacae0916506a8a4e57-n000029",
+      "original": "BABEL, BABYLON",
+      "destination_article": "BABEL, BABYLON (1)",
+      "destination_id": "isbe-4bf2f680122c9d9b9841",
+      "basis": "The source discusses Babylonian royal inscriptions and city history, the topographical/historical material in BABEL, BABYLON (1)."
     },
     {
       "source_article": "CHRIST, THE EXALTATION OF",
@@ -3710,6 +3754,22 @@
       "basis": "The CREATION article references the world in the setting of its physical origin, matching WORLD, COSMOLOGICAL."
     },
     {
+      "source_article": "DAMN; DAMNATION; DAMNABLE",
+      "ref_id": "isbe-e4802055958172116841-n000058",
+      "original": "JUDGMENT",
+      "destination_article": "JUDGMENT, LAST",
+      "destination_id": "isbe-6f5a4a0339fe45ccf72a",
+      "basis": "The source explicitly discusses God's future judicial activity in moral terms; JUDGMENT, LAST is the associated eschatological judgment article."
+    },
+    {
+      "source_article": "DEFENCE",
+      "ref_id": "isbe-9f3bed01ba593455014c-n000005",
+      "original": "JUDICIAL",
+      "destination_article": "COURTS, JUDICIAL",
+      "destination_id": "isbe-52e68a8dd3d83899f4cb",
+      "basis": "The surrounding source text reads 'See COURTS, JUDICIAL', explicitly identifying the indexed compound heading; the two visible words were separately linked in CrossWire."
+    },
+    {
       "source_article": "DISPERSION OF NATIONS",
       "ref_id": "isbe-b97f9c2ffbab6d2bcaaf-n000004",
       "original": "BABEL",
@@ -3724,6 +3784,14 @@
       "destination_article": "LYDIA (1)",
       "destination_id": "isbe-e5258b7a6c81e232f63d",
       "basis": "The source describes the western Asia Minor region renowned for dyes, not Paul's convert Lydia."
+    },
+    {
+      "source_article": "EGYPT",
+      "ref_id": "isbe-53ec5f597cfe84a6fc32-n000199",
+      "original": "COSHEN",
+      "destination_article": "GOSHEN (1)",
+      "destination_id": "isbe-dcb13da2c430eb6110dd",
+      "basis": "COSHEN is a transcription variant of Goshen, the Egyptian district; the Egyptian source explicitly describes the Wady Tumilat district of Goshen."
     },
     {
       "source_article": "EGYPT",
@@ -3814,6 +3882,14 @@
       "basis": "The Hexateuch includes the biblical Book of Joshua, explicitly indexed under JOSHUA, BOOK OF."
     },
     {
+      "source_article": "HIZKIAH",
+      "ref_id": "isbe-b6fa076b9e31c41690b2-n000009",
+      "original": "HEZEKIAH",
+      "destination_article": "HEZEKIAH (1)",
+      "destination_id": "isbe-e9974cf8c5857ba9a504",
+      "basis": "HIZKIAH is an alternative spelling used for the biblical king Hezekiah, whose biography appears in HEZEKIAH (1)."
+    },
+    {
       "source_article": "IMPUTATION",
       "ref_id": "isbe-17e98c6db5ca0d523c1f-n000163",
       "original": "SIN",
@@ -3836,6 +3912,14 @@
       "destination_article": "RAMOTH (1)",
       "destination_id": "isbe-8f73fcd263571dab513f",
       "basis": "RAMOTH (1) explicitly identifies the city Jarmuth in the Levite-town lists as a Ramoth variant."
+    },
+    {
+      "source_article": "JEHOSHUA",
+      "ref_id": "isbe-b96f5a5aad5c6613e29c-n000007",
+      "original": "JOSHUA",
+      "destination_article": "JOSHUA (2)",
+      "destination_id": "isbe-1ee1f37205abfac77ea9",
+      "basis": "JEHOSHUA is an alternative Hebrew name for Joshua son of Nun, whose extended biography appears in JOSHUA (2)."
     },
     {
       "source_article": "JOSHUA (3)",
@@ -3894,6 +3978,14 @@
       "basis": "The Naphtali source cites the tribal census in Numbers 1 and Numbers 26."
     },
     {
+      "source_article": "NOE",
+      "ref_id": "isbe-14b2034535b441e935d3-n000009",
+      "original": "NOAH",
+      "destination_article": "NOAH (1)",
+      "destination_id": "isbe-fd49580e138ef504aeb0",
+      "basis": "The NOE entry explicitly mentions the flood-era patriarch in Matthew 24 and Luke 17; the name-list NOAH (1) concerns that patriarch."
+    },
+    {
       "source_article": "OG",
       "ref_id": "isbe-4a0260ac68f5f966f8a3-n000024",
       "original": "ARGOB",
@@ -3948,6 +4040,14 @@
       "destination_article": "STRANGER AND SOJOURNER (IN THE APOCRYPHA AND THE NEW TESTAMENT)",
       "destination_id": "isbe-04f0f86ee1b7f998bce6",
       "basis": "The proselyte category is discussed in the later Jewish and New Testament setting, the subject of the dedicated second entry."
+    },
+    {
+      "source_article": "PUNISHMENTS",
+      "ref_id": "isbe-e43219a96b52c29bd9b2-n000282",
+      "original": "SCORPIONS",
+      "destination_article": "SCORPIONS, CHASTISING WITH",
+      "destination_id": "isbe-873cf4bc13fd36caf1dd",
+      "basis": "The punishment context concerns chastisement with scorpions, exactly as identified by the indexed heading."
     },
     {
       "source_article": "REMETH",
@@ -4030,6 +4130,22 @@
       "basis": "The seller context refers to Lydia, the seller of purple and Pauline convert, described in LYDIA (2)."
     },
     {
+      "source_article": "SHIMRON-MERON",
+      "ref_id": "isbe-375d7e855334833ecc07-n000005",
+      "original": "SHIMRON",
+      "destination_article": "SHIMRON (2)",
+      "destination_id": "isbe-596c13e10cd70d01b1c6",
+      "basis": "Shimron-Meron is a geographical place-name; SHIMRON (2) is the city entry rather than the person Shimron."
+    },
+    {
+      "source_article": "SHINAR",
+      "ref_id": "isbe-bd6699368085bf6215e9-n000066",
+      "original": "BABEL",
+      "destination_article": "BABEL, BABYLON (1)",
+      "destination_id": "isbe-4bf2f680122c9d9b9841",
+      "basis": "The SHINAR entry discusses the ancient city of Babylon, an explicitly topographical topic in BABEL, BABYLON (1)."
+    },
+    {
       "source_article": "SHINAR",
       "ref_id": "isbe-bd6699368085bf6215e9-n000067",
       "original": "BABYLON",
@@ -4046,6 +4162,14 @@
       "basis": "The Simeonites descend from Simeon son of Jacob, the subject of SIMEON (1)."
     },
     {
+      "source_article": "SIMON (1)",
+      "ref_id": "isbe-73b028707adce6db766f-n000004",
+      "original": "SIMEON",
+      "destination_article": "SIMEON (2)",
+      "destination_id": "isbe-f6a37677f8d137e2083c",
+      "basis": "The source relates the Greek form Simon to multiple persons named Simeon in the Apocrypha; SIMEON (2) is the collective name-list rather than the patriarch's biography."
+    },
+    {
       "source_article": "SINNER",
       "ref_id": "isbe-c01def6c5dea8de38667-n000028",
       "original": "SIN",
@@ -4060,6 +4184,14 @@
       "destination_article": "RAMOTH (1)",
       "destination_id": "isbe-8f73fcd263571dab513f",
       "basis": "The first RAMOTH (1) article expressly includes Ramoth of the South as a subsection."
+    },
+    {
+      "source_article": "TADMOR",
+      "ref_id": "isbe-ff2abdae53fe9311e142-n000009",
+      "original": "TAMAR",
+      "destination_article": "TAMAR (2)",
+      "destination_id": "isbe-666e0f41870991456516",
+      "basis": "Tadmor is an ancient place associated with Tamar, a place-name treated in TAMAR (2), not Tamar in Genesis."
     },
     {
       "source_article": "TAMAR (1)",
@@ -4118,6 +4250,14 @@
       "basis": "The article on the first woman refers to the Genesis creation account of Adam in the Old Testament."
     },
     {
+      "source_article": "ZACHARIAH",
+      "ref_id": "isbe-b5a4071798a2dd2b2638-n000010",
+      "original": "ZECHARIAH",
+      "destination_article": "ZECHARIAH (1)",
+      "destination_id": "isbe-18251a45d9e245121990",
+      "basis": "The generic form Zachariah is an alternate spelling of the many-person heading ZECHARIAH (1), not solely the king of Israel in ZECHARIAH (2)."
+    },
+    {
       "source_article": "ZARAIAS",
       "ref_id": "isbe-9746d70920935414ca85-n000007",
       "original": "ZACHARIAS",
@@ -4126,7 +4266,7 @@
       "basis": "The ZARAIAS entry explicitly names a 1 Esdras form of Zacharias in a list of returning exiles, covered in the name-list ZACHARIAS (1)."
     }
   ],
-  "resolved_reviewed_occurrence_count": 82,
+  "resolved_reviewed_occurrence_count": 98,
   "unresolved_link_diagnostics": [
     {
       "original": "ABDON",
@@ -4296,12 +4436,7 @@
     {
       "original": "BABEL",
       "reason": "not_found",
-      "occurrences": 2
-    },
-    {
-      "original": "BABEL, BABYLON",
-      "reason": "not_found",
-      "occurrences": 2
+      "occurrences": 1
     },
     {
       "original": "BABYLON",
@@ -4444,11 +4579,6 @@
       "occurrences": 1
     },
     {
-      "original": "COSHEN",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "COVENANT",
       "reason": "not_found",
       "occurrences": 2
@@ -4554,11 +4684,6 @@
       "occurrences": 1
     },
     {
-      "original": "ELAH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "ENSIGN, STANDARDS",
       "reason": "not_found",
       "occurrences": 1
@@ -4580,11 +4705,6 @@
     },
     {
       "original": "ESCHATOLOGY; WORLD, END OF THE",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "ESDRAELON",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -4694,11 +4814,6 @@
       "occurrences": 1
     },
     {
-      "original": "HEZEKIAH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "HEZRON",
       "reason": "not_found",
       "occurrences": 1
@@ -4774,22 +4889,7 @@
       "occurrences": 1
     },
     {
-      "original": "JOSHUA",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "JUDGES",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "JUDGMENT",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "JUDICIAL",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -4815,11 +4915,6 @@
     },
     {
       "original": "MAKE",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "MAN (THE NATURAL)",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -4895,11 +4990,6 @@
     },
     {
       "original": "NICANOR",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "NOAH",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5059,11 +5149,6 @@
       "occurrences": 1
     },
     {
-      "original": "SCORPIONS",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "SEMITES",
       "reason": "not_found",
       "occurrences": 1
@@ -5085,21 +5170,6 @@
     },
     {
       "original": "SHEMESH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "SHIMRON",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "SIMEON",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "SIMON",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5130,11 +5200,6 @@
     },
     {
       "original": "TALISMAN",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "TAMAR",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5254,11 +5319,6 @@
       "occurrences": 1
     },
     {
-      "original": "ZECHARIAH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "ZEDEK",
       "reason": "not_found",
       "occurrences": 1
@@ -5295,7 +5355,6 @@
     "MANASSEH": 1,
     "TALISMAN": 1,
     "ADRAMMELECH": 1,
-    "SIMEON": 1,
     "ALOROS": 1,
     "ALAPAROS": 1,
     "AMELON": 1,
@@ -5320,10 +5379,9 @@
     "CREATION; GOD": 1,
     "AVEN; ON": 1,
     "BAAL": 1,
-    "ELAH": 1,
     "ZIMRI": 1,
     "CHARMER": 1,
-    "BABEL": 2,
+    "BABEL": 1,
     "BABYLON": 1,
     "JONATHAN": 1,
     "NICANOR": 1,
@@ -5355,15 +5413,11 @@
     "PETER": 1,
     "ADULTERY (2)": 2,
     "BAR": 1,
-    "JUDGMENT": 1,
     "LAST": 1,
     "FEASTS AND FASTS, I, 2": 1,
     "DB": 1,
     "BROTHERLY KINDNESS (LOVE)": 1,
-    "BABEL, BABYLON": 2,
     "EAST": 2,
-    "SIMON": 1,
-    "MAN (THE NATURAL)": 1,
     "GAD": 1,
     "TEMPLE, II, 4": 1,
     "ERI-AKU, 4": 1,
@@ -5388,7 +5442,6 @@
     "OF THE OLD TESTAMENT AND NEW TESTAMENT": 1,
     "DECEASE": 2,
     "AUGURY, IV, 3": 1,
-    "JUDICIAL": 1,
     "BABYLONIA AND ASSYRIA": 1,
     "DEMETRIUS": 1,
     "ASHER": 1,
@@ -5403,7 +5456,6 @@
     "SCHOOL; SCHOOLMASTER": 1,
     "SCHOOL; TEACHER; TUTOR": 1,
     "CUSHIM": 1,
-    "COSHEN": 1,
     "EGYPTIAN KINGS": 1,
     "EGYPT, III": 1,
     "IV. COGNATE AND ILLUSTRATIVE BIBLICAL LANGUANGE": 1,
@@ -5435,12 +5487,9 @@
     "HOARY": 1,
     "DRY": 1,
     "HERETH": 1,
-    "ESDRAELON": 1,
     "HAROD": 1,
     "GEDI": 1,
-    "JOSHUA": 1,
     "ROAD": 1,
-    "HEZEKIAH": 1,
     "HORON": 1,
     "UZ": 1,
     "CHRIST": 1,
@@ -5454,7 +5503,6 @@
     "ZEDEK": 1,
     "AKRA": 1,
     "JONAS": 1,
-    "ZECHARIAH": 1,
     "BARNEA": 1,
     "HEZRON": 1,
     "JEARIM": 1,
@@ -5472,7 +5520,6 @@
     "PASSION": 1,
     "NAARAH": 1,
     "NAMES": 1,
-    "NOAH": 1,
     "NUN": 1,
     "LOT": 1,
     "TONGUES": 1,
@@ -5481,7 +5528,6 @@
     "PHILIP": 1,
     "NEBO": 1,
     "POETRY": 1,
-    "SCORPIONS": 1,
     "JOEL": 1,
     "CUSTOM": 1,
     "SAMARIA": 1,
@@ -5489,11 +5535,9 @@
     "SHAALIM": 1,
     "ARBEL": 1,
     "SEMITES": 1,
-    "SHIMRON": 1,
     "CHALDEES": 1,
     "NORTHEAST": 1,
     "ALTAR OF INCENSE": 1,
-    "TAMAR": 1,
     "TERAH": 1,
     "SARIS": 1,
     "TELEM": 1,
@@ -5505,11 +5549,11 @@
     "TEMPLE KEEPERS": 1,
     "ZIPH": 1
   },
-  "unresolved_link_occurrences": 253,
+  "unresolved_link_occurrences": 235,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5797,
+  "resolved_internal_links_validated": 5815,
   "xml_id_uniqueness": "validated",
-  "reviewed_title_alias_count": 67,
+  "reviewed_title_alias_count": 69,
   "reviewed_title_aliases_used": [
     "BACK",
     "BILL",
@@ -5525,6 +5569,7 @@
     "ECCLESIASTES",
     "EDER",
     "EPHRON",
+    "ESDRAELON",
     "FAN",
     "GERIZIM",
     "GIHON",
@@ -5545,6 +5590,7 @@
     "LAMENTATIONS",
     "LAST TIME",
     "LUNATIC",
+    "MAN (THE NATURAL)",
     "MEALS",
     "MEJARGON",
     "MEMMIUS",

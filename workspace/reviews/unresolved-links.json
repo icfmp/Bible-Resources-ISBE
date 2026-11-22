@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 253,
-  "unresolved_distinct_targets": 229,
+  "unresolved_occurrences": 235,
+  "unresolved_distinct_targets": 213,
   "categories_by_occurrence": {
     "article_section_label": 15,
-    "multiple_numbered_entries": 57,
+    "multiple_numbered_entries": 46,
     "single_numbered_entry_candidate": 3,
-    "unmatched_heading_or_alias": 178
+    "unmatched_heading_or_alias": 171
   },
   "review_queue": [
     {
@@ -255,19 +255,9 @@
     },
     {
       "source_target": "BABEL",
-      "occurrences": 2,
+      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "BABEL, BABYLON",
-      "occurrences": 2,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "BABEL, BABYLON (1)",
-        "BABEL, BABYLON (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -481,13 +471,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "COSHEN",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "COVENANT",
       "occurrences": 2,
       "category": "unmatched_heading_or_alias",
@@ -647,16 +630,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "ELAH",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ELAH (1)",
-        "ELAH (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "ENSIGN, STANDARDS",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -689,13 +662,6 @@
     },
     {
       "source_target": "ESCHATOLOGY; WORLD, END OF THE",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ESDRAELON",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -860,16 +826,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "HEZEKIAH",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "HEZEKIAH (1)",
-        "HEZEKIAH (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "HEZRON",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
@@ -999,32 +955,7 @@
       "status": "needs_review"
     },
     {
-      "source_target": "JOSHUA",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "JOSHUA (1)",
-        "JOSHUA (2)",
-        "JOSHUA (3)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "JUDGES",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "JUDGMENT",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "JUDICIAL",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -1063,13 +994,6 @@
     },
     {
       "source_target": "MAKE",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "MAN (THE NATURAL)",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -1199,16 +1123,6 @@
       "review_candidates": [
         "NICANOR (1)",
         "NICANOR (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "NOAH",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "NOAH (1)",
-        "NOAH (2)"
       ],
       "status": "needs_review"
     },
@@ -1443,13 +1357,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "SCORPIONS",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "SEMITES",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1485,36 +1392,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SHIMRON",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "SHIMRON (1)",
-        "SHIMRON (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SIMEON",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "SIMEON (1)",
-        "SIMEON (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SIMON",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "SIMON (1)",
-        "SIMON (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1557,16 +1434,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "TAMAR",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "TAMAR (1)",
-        "TAMAR (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1746,16 +1613,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ZECHARIAH",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ZECHARIAH (1)",
-        "ZECHARIAH (2)"
-      ],
       "status": "needs_review"
     },
     {
