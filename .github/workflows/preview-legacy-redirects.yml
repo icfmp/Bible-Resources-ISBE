@@ -1,0 +1,30 @@
+name: Build noncanonical ISBE redirect review candidate
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/preview_legacy_redirects.py'
+      - 'tests/test_redirect_preview.py'
+      - 'workspace/reviews/redirect-candidate-v1.json'
+      - '.github/workflows/preview-legacy-redirects.yml'
+  workflow_dispatch:
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Full corpus positive and negative integrity tests
+        run: python -m unittest discover -s tests -p 'test_redirect_preview.py'
+      - name: Reconstruct noncanonical review candidate
+        run: |
+          python scripts/preview_legacy_redirects.py \
+            --output workspace/tmp/isbe-redirect-preview.xml \
+            --report workspace/tmp/isbe-redirect-preview-report.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: noncanonical-isbe-redirect-review
+          path: |
+            workspace/tmp/isbe-redirect-preview.xml
+            workspace/tmp/isbe-redirect-preview-report.json
+          if-no-files-found: error
