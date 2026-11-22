@@ -51,9 +51,9 @@ class LocalHeadingTests(unittest.TestCase):
         self.assertEqual(report["resolved_local_section_occurrences"], 1)
 
     def test_numbered_subentry_link_uses_unique_paragraph_id(self):
-        imp = """$$BETHABARA
+        imp = """$$$BETHABARA
 <entryFree n="BETHABARA"><p>See <ref target="ISBE:BETHANY (2)">BETHANY (2)</ref>.</p></entryFree>
-$$BETHANY
+$$$BETHANY
 <entryFree n="BETHANY"><p>(1) The Jerusalem village.</p><p>(2) Beyond Jordan.</p></entryFree>"""
         root, _, report = build(imp)
         source = next(a for a in root.iter() if a.tag == "{http://www.tei-c.org/ns/1.0}div" and a.get("n") == "BETHABARA")
@@ -66,9 +66,9 @@ $$BETHANY
         self.assertEqual(report["resolved_numbered_section_occurrences"], 1)
 
     def test_numbered_subentry_requires_matching_paragraph(self):
-        imp = """$$BELAITES
+        imp = """$$$BELAITES
 <entryFree n="BELAITES"><p>See <ref target="ISBE:BELA (2)">BELA (2)</ref>.</p></entryFree>
-$$BELA
+$$$BELA
 <entryFree n="BELA"><p>See ZOAR.</p></entryFree>"""
         _, _, report = build(imp)
         self.assertEqual(report["unresolved_link_occurrences"], 1)
