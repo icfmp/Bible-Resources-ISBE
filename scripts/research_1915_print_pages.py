@@ -25,6 +25,19 @@ def normalize(value):
     return " ".join(re.findall(r"[A-Z0-9]+", value.upper()))
 
 
+# Physical 1915 five-volume boundaries, not the four-volume 1979 revision.
+# Headwords at exact boundary are not among the 31 source gaps.
+VOLUME_BOUNDARIES = ("CLEMENCY", "HERESY", "NAARAH", "SOCKET")
+
+
+def expected_volume(source_key):
+    """Restrict OCR headword evidence to its alphabetical print volume."""
+    key = normalize(source_key)
+    if not key:
+        raise ValueError("Missing ISBE headword")
+    return str(1 + sum(key >= limit for limit in VOLUME_BOUNDARIES))
+
+
 def digest(path):
     h = hashlib.sha256()
     with Path(path).open("rb") as stream:
@@ -119,10 +132,21 @@ def analyze_pdf(pdf_path, source_ledger_path, volume):
         raise ValueError("PDF is not an identifiable ISBE historical scan")
     heading_candidates = find_headings(pages, keys)
     case_results = [
-        {"source_key": key, "proposed_genre": next(
-            case["genre_hypothesis"] for case in cases
-            if case["source_key"] == key),
-         "candidates": heading_candidates[key],
+        {"source_key": key,
+         "expected_print_volume": expected_volume(key),
+         "proposed_genre": next(
+             case["genre_hypothesis"] for case in cases
+             if case["source_key"] == key),
+         # Vol V contains a back-of-book index to earlier volumes. Matches
+         # there for ABISSEI etc are NOT original articles in volume V.
+         "candidates": (
+             heading_candidates[key]
+             if expected_volume(key) == str(volume) else []
+         ),
+         "off_volume_mentions_ignored": (
+             len(heading_candidates[key])
+             if expected_volume(key) != str(volume) else 0
+         ),
          "ocr_does_not_certify_print": True}
         for key in keys
     ]
