@@ -98,6 +98,28 @@ class CandidateTests(unittest.TestCase):
             "article",
         )
 
+    def test_bibliography_lead_keeps_paragraph_in_valid_section(self):
+        inline = SAMPLE.replace(
+            '<head xml:id="bh1" type="bibliography">',
+            '<p xml:id="bh1" type="bibliography-lead">'
+        ).replace(
+            '</head>\n      <p xml:id="p4">',
+            '</p>\n      <p xml:id="p4">'
+        )
+        self.prepare(inline)
+        report = self.run_candidate()
+        output = ET.parse(self.candidate).getroot()
+        moved = next(node for node in output.iter() if node.get(XMLID) == "bh1")
+        self.assertEqual(moved.tag, Q("p"))
+        self.assertIsNone(moved.get("type"))
+        self.assertEqual(report["transformation_counts"]["bibliography_leads"], 1)
+        self.assertEqual(report["bibliography_wrappers"], 1)
+        self.assertEqual(report["source_inventory"]["bibliography_heads"], 0)
+        section = next(node for node in output.iter(Q("div"))
+                       if node.get("type") == "bibliography")
+        self.assertIs(section[0], moved)
+        self.assertEqual(section[1].get(XMLID), "p4")
+
     def test_original_file_is_never_overwritten(self):
         previous = self.source.read_bytes()
         with self.assertRaisesRegex(ValueError, "distinct candidate"):
