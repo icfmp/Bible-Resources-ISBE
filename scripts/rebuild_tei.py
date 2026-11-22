@@ -72,7 +72,7 @@ def resolve_key(raw_key, ids, normalized):
 
 def normalize_section_label(text):
     """Normalize presentation punctuation only, not words or numbering."""
-    return re.sub(r"[:.\\s]+$", "", " ".join(text.split())).casefold()
+    return re.sub(r"[:.\s]+$", "", " ".join(text.split())).casefold()
 
 
 def resolve_local_heading(article, reference):
