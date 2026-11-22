@@ -55,6 +55,7 @@ def scan(path):
             component = component.strip()
             if component:
                 aliases.setdefault(normalized(component), set()).add(key)
+    article_by_key = {a.get("n"): a for a in entries}
     numbered_candidates = {}
     for key in (a.get("n") for a in entries):
         stem = re.sub(r"\s+\(\d+\)$", "", key).strip().casefold()
@@ -111,7 +112,10 @@ def scan(path):
             "category_counts": dict(sorted(summary.items())),
             "numbered_link_review": [
                 {"article_key": x["article_key"], "original_target": x["original_target"],
-                 "candidates": x["numbered_candidates"], "context": x["context"][:300]}
+                 "candidates": x["numbered_candidates"], "context": x["context"][:300],
+                 "candidate_article_excerpt": " ".join(
+                     "".join(article_by_key[x["numbered_candidates"][0]].itertext()).split()
+                 )[:1100]}
                 for x in records if len(x["numbered_candidates"]) == 1
                 and x["original_target"] != x["numbered_candidates"][0]
             ],
