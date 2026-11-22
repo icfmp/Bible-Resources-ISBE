@@ -1,552 +1,12 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 634,
+  "total_unresolved_occurrences": 609,
   "category_counts": {
     "ambiguous_semicolon_alias": 14,
-    "requires_review": 620
+    "requires_review": 595
   },
-  "exclusive_scripture_numbered_candidates": [
-    {
-      "source_article": "ABIJAH",
-      "ref_id": "isbe-9ee4628d8cc9f7e85fc6-n000052",
-      "original_target": "ABI",
-      "candidate": "ABI (1)",
-      "candidate_article_excerpt": "ABI (1) a'-bi ('abhi): The name of the mother of King Hezekiah, as given in 2Ki 18:2. Most naturally explained as a contraction of Abijah (\"Yahweh is a father,\" or \"is my father\"), found in the parallel passage in 2Ch 29:1. The spelling in the oldest translations seems to indicate that 'abhi is not a copyist's error, but a genuine contracted form. She is spoken of as the daughter of Zechariah, and was of course the wife of Ahaz.",
-      "exclusive_common_refs": [
-        "Bible:2Chr.29.1"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "ABI (1)",
-          "common": 1
-        },
-        {
-          "article": "ABI (2)",
-          "common": 0
-        }
-      ],
-      "context": "(8) The mother of King Hezekiah (2Ch 29:1), called Abi in 2 Ki. See ABI."
-    },
-    {
-      "source_article": "ADER",
-      "ref_id": "isbe-2580b8a94172997581c8-n000005",
-      "original_target": "EDER",
-      "candidate": "EDER (2)",
-      "candidate_article_excerpt": "EDER (2) e'-der (`edher, \"flock\").(1) A Merarite Levite in the days of David (1Ch 23:23; 24:30); son of Mushi.(2) A Benjamite (1Ch 8:15, the King James Version \"Ader\").",
-      "exclusive_common_refs": [
-        "Bible:1Chr.8.15"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "EDER (1)",
-          "common": 0
-        },
-        {
-          "article": "EDER (2)",
-          "common": 1
-        }
-      ],
-      "context": "a'-der: Used in 1Ch 8:15 the King James Version for EDER, which see."
-    },
-    {
-      "source_article": "AHAZIAH",
-      "ref_id": "isbe-9d10d47900e33ab7a279-n000020",
-      "original_target": "JEHOSHAPHAT",
-      "candidate": "JEHOSHAPHAT (2)",
-      "candidate_article_excerpt": "JEHOSHAPHAT (2) je-hosh'-a-fat (yehoshaphaT, \"Yahweh judges\"): The 4th king of Judah, son of Asa. His mother was Azubah, the daughter of Shilhi, of whom nothing further is known. He was 35 years of age at his accession, and reigned 25 years, circa 873-849 BC. Th e history of his reign is contained in 1Ki 22:41-50 and in 2Ch 17:1-21:1. The narrative in 1Ki 22:1-35 a and in 2Ki 3:4 ff belongs to the history of the Northern Kingdom. The absence from Ki of the details contained in 2 Chronicles affords no presumpt against their truth. Neither do high numbers, embellished statements, and the coloring of the writer's own age destroy the historical perspective.1. His Religious Policy:The reign of Jehoshaphat appears to have been one of unusual religious activity. It was, however, characterized not so much by striking religious measures as it was by the religious spirit that pervaded every act of",
-      "exclusive_common_refs": [
-        "Bible:1Kgs.22.48",
-        "Bible:2Chr.20.35-2Chr.20.37"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "JEHOSHAPHAT (1)",
-          "common": 0
-        },
-        {
-          "article": "JEHOSHAPHAT (2)",
-          "common": 2
-        }
-      ],
-      "context": "According to 1Ki 22:48 f Ahaziah attempted to form an alliance with Jehoshaphat of Judah to revive the ancient maritime traffic, but failed. According to 2Ch 20:35-37 the alliance was consummated, in consequence of which the enterprise came to nothing. See JEHOSHAPHAT."
-    },
-    {
-      "source_article": "AVEN",
-      "ref_id": "isbe-82afc8a9ca49d197d4aa-n000005",
-      "original_target": "ON",
-      "candidate": "ON (1)",
-      "candidate_article_excerpt": "ON (1) on ('on; Egyptian An, Ant, Annu, probably pronounced An only, as this is often all that is written, a \"stone\" or \"stone pillars\"): Later called Hellopolis. The name On occurs only in Ge 41:45,50; 46:20. It occurs in one other place in the Septuagint (Ex 1:11), where On is mentioned with Pithom and Raamses as strong cities which the Israelites built. Hebrew slaves may have worked upon fortifications here, but certainly did not build the city. On is possibly referred to as `ir ha-herec, in Isa 19:18 (see IR-HA-HERES). On may also be mentioned by Jeremiah (43:13) under the name Beth-shemesh. Ezekiel speaks of an Aven ('awen) (Eze 30:17), where it is mentioned with Pibeseth (Bubastis). Aven in this passage is almost certainly the same as On in Ge 41:45; 46:20, as the letters of both words are the same in the Hebrew. Only the placing of the vowel-points makes any difference. If there i",
-      "exclusive_common_refs": [
-        "Bible:Ezek.30.17"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "ON (1)",
-          "common": 1
-        },
-        {
-          "article": "ON (2)",
-          "common": 0
-        }
-      ],
-      "context": "a'-ven 'awen \"emptiness,\" \"vanity\": Used in Eze 30:17 for On or Heliopolis, in Egypt. See ON. As a term of contempt Hosea calls Beth-el \"Beth-aven\" (4:15; 10:5). So Amos speaks of some valley near Damascus as \"the valley of Aven\" (that is, of the idol, 1:5), in which Baalbek (Hel"
-    },
-    {
-      "source_article": "BARACHEL",
-      "ref_id": "isbe-47852e6c9c1f99f5a038-n000007",
-      "original_target": "RAM",
-      "candidate": "RAM (1)",
-      "candidate_article_excerpt": "RAM (1) ram (ram, \"high,\" \"exalted\"):(1) An ancestor of David (Ru 4:19 (Arran); Mt 1:3,4 (Aram); in 1Ch 2:9 he is called the \"brother,\" but in 2:25, the \"son of Jerahmeel\" (compare 2:27). Ram as the son of Hezron appears more likely than Ram the son of Jerahmeel, since, according to the narratives of 1 and 2 Samuel, David cannot have been a Jerahmeelite.(2) Name of Elihu's family (Job 32:2). It is an open question as to whether Ram should be taken as a purely fictitious name, invented by the author of the Elihu speeches, or whether it is that of some obscure Arab tribe. In Ge 22:21 Aram is a nephew of Buz (compare Elihu the Buzite), and the conjecture was at one time advanced that Ram was a contraction of Aram; but this theory is no longer held to be tenable. The suggestion that the initial \"a\" (the Hebrew letter, 'aleph) has been changed by a scribal error into \"h\" (the Hebrew letter, h",
-      "exclusive_common_refs": [
-        "Bible:Job.32.2"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "RAM (1)",
-          "common": 1
-        },
-        {
-          "article": "RAM (2)",
-          "common": 0
-        }
-      ],
-      "context": "bar'-a-kel (barakh'el, \"God blesses\"): Barachel, the Buzite, of the family of Ram, was the father of Elihu, who was the last one to reason with Job (Job 32:2,6). Compare BUZ; RAM."
-    },
-    {
-      "source_article": "BECHER",
-      "ref_id": "isbe-6bbca4d87f54f02e9759-n000010",
-      "original_target": "BERED",
-      "candidate": "BERED (1)",
-      "candidate_article_excerpt": "BERED (1) be'-red (beredh, \"hail,\" from a Hebrew root meaning \"to be cold\"): The son of Shuthelah of the house of Ephraim (1Ch 7:20). Compare BECHER.",
-      "exclusive_common_refs": [
-        "Bible:1Chr.7.20"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "BERED (1)",
-          "common": 1
-        },
-        {
-          "article": "BERED (2)",
-          "common": 0
-        }
-      ],
-      "context": "(2) Son of Ephraim whose family is called Becherites (the King James Version \"Bachrites\"), Nu 26:35 (1Ch 7:20 called Bered). Compare BERED."
-    },
-    {
-      "source_article": "CAIN",
-      "ref_id": "isbe-173c52fd0a771dc7e3fd-n000009",
-      "original_target": "ABEL",
-      "candidate": "ABEL (1)",
-      "candidate_article_excerpt": "ABEL (1) a'-bel (hebhel; Abel; Westcott and Hort, The New Testament in Greek Habel; etymology uncertain. Some translation \"a breath,\" \"vapor,\" \"transitoriness,\" which are suggestive of his brief existence and tragic end; others take it to be a variant of Jabal, yabhal, \"shepherd\" or \"herdman,\" Ge 4:20. Compare Assyrian ablu and Babylonian abil, \"son\"): The second son of Adam and Eve. The absence of the verb harah (Ge 4:2; compare Ge 4:1) has been taken to imply, perhaps truly, that Cain and Abel were twins.1. A Shepherd:\"Abel was a keeper of sheep, but Cain was a tiller of the ground,\" thus representing the two fundamental pursuits of civilized life, the two earliest subdivisions of the human race. On the Hebrew tradition of the superiority of the pastoral over agricultural and city life, see The Expositor T, V, 351 ff. The narrative may possibly bear witness to the primitive idea that p",
-      "exclusive_common_refs": [
-        "Bible:1John.3.12",
-        "Bible:Heb.11.4"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "ABEL (1)",
-          "common": 2
-        },
-        {
-          "article": "ABEL (2)",
-          "common": 0
-        }
-      ],
-      "context": "(1) In Ge 4:1-24 Cain is the first son of Adam and Eve. His birth is hailed as a manifestation of Yahweh's help. He becomes \"a tiller of the ground,\" and brings to Yahweh an offering of the produce of the soil, his brother Abel, the shepherd, bringing at the same time the fat of "
-    },
-    {
-      "source_article": "CAIN",
-      "ref_id": "isbe-173c52fd0a771dc7e3fd-n000046",
-      "original_target": "KAIN",
-      "candidate": "KAIN (1)",
-      "candidate_article_excerpt": "KAIN (1) kan (ha-qayin; the King James Version Cain): A town in the hill country of Judah (Jos 15:57). There is, too, apparently a reference to this place in Nu 24:21,22:\"And he looked on the Kenite, and took up his parable, and said,Strong is thy dwelling-place,And thy nest is set in the rock.Nevertheless Kain shall be wasted,Until Asshur shall carry thee away captive.\"This place has been very doubtfully identified as the ruin Yukin, a place on a lofty hill Southeast of Hebron, overlooking the wilderness of Judah; the tomb of Cain is shown there. See PEF, III, 312, Sh XXI.E. W. G. Masterman",
-      "exclusive_common_refs": [
-        "Bible:Josh.15.57"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "KAIN (1)",
-          "common": 1
-        },
-        {
-          "article": "KAIN (2)",
-          "common": 0
-        }
-      ],
-      "context": "A. Dillmann, Genesis (English translation); S. R. Driver, Genesis (\"Westminster Commentaries\"); H. E. Ryle, Early Narratives of Genesis; J. Skinner, Genesis (ICC); A. H. Sayce, \"Archaeology of the Book of Genesis,\" The Expositor T, August, 1910, June, 1911. (2) In Jos 15:57, the "
-    },
-    {
-      "source_article": "CHARRAN",
-      "ref_id": "isbe-b078a84a598ef8a92304-n000004",
-      "original_target": "HARAN",
-      "candidate": "HARAN (2)",
-      "candidate_article_excerpt": "HARAN (2) ha'-ran (charan; Charhran): The city where Terah settled on his departure from Ur (Ge 11:31 f); whence Abram set out on his pilgrimage of faith to Canaan (Ge 12:1). It was probably \"the city of Nahor\" to which Abraham's servant came to find a wife for Isaac (Ge 24:10). Hither came Jacob when he fled from Esau's anger (Ge 27:43). Here he met his bride (Ge 29:4), and in the neighboring pastures he tended the flocks of Laban. It is one of the cities named by Rabshakeh as destroyed by the king of Assyria (2Ki 19:12; Isa 37:12). Ezekiel speaks of the merchants of Haran as trading with Tyre (27:23).The name appears in Assyro-Babalonian as Charran, which means \"road\"; possibly because here the trade route from Damascus joined that from Nineveh to Carchemish. It is mentioned in the prism inscription of Tiglath-pileser I. It was a seat of the worship of Sin, the moon-god, from very anci",
-      "exclusive_common_refs": [
-        "Bible:Acts.7.2",
-        "Bible:Acts.7.4"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "HARAN (1)",
-          "common": 0
-        },
-        {
-          "article": "HARAN (2)",
-          "common": 2
-        }
-      ],
-      "context": "kar'-an (Charrhan): Greek form of HARAN (which see) (Ac 7:2,4)."
-    },
-    {
-      "source_article": "CITY OF DESTRUCTION",
-      "ref_id": "isbe-bb532a9c35fbbb4abda7-n000007",
-      "original_target": "ON",
-      "candidate": "ON (1)",
-      "candidate_article_excerpt": "ON (1) on ('on; Egyptian An, Ant, Annu, probably pronounced An only, as this is often all that is written, a \"stone\" or \"stone pillars\"): Later called Hellopolis. The name On occurs only in Ge 41:45,50; 46:20. It occurs in one other place in the Septuagint (Ex 1:11), where On is mentioned with Pithom and Raamses as strong cities which the Israelites built. Hebrew slaves may have worked upon fortifications here, but certainly did not build the city. On is possibly referred to as `ir ha-herec, in Isa 19:18 (see IR-HA-HERES). On may also be mentioned by Jeremiah (43:13) under the name Beth-shemesh. Ezekiel speaks of an Aven ('awen) (Eze 30:17), where it is mentioned with Pibeseth (Bubastis). Aven in this passage is almost certainly the same as On in Ge 41:45; 46:20, as the letters of both words are the same in the Hebrew. Only the placing of the vowel-points makes any difference. If there i",
-      "exclusive_common_refs": [
-        "Bible:Gen.41.45",
-        "Bible:Isa.19.18"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "ON (1)",
-          "common": 2
-        },
-        {
-          "article": "ON (2)",
-          "common": 0
-        }
-      ],
-      "context": "de-struk'-shun `ir ha-herec; (Septuagint Base-dek): In his prediction of the future return of Egypt to Yahweh, Isaiah declares, \"In that day there shall be five cities in the land of Egypt that speak the language of Canaan, and swear to Yahweh of hosts; one shall be called The ci"
-    },
-    {
-      "source_article": "COUCH",
-      "ref_id": "isbe-cc969a2e564b42e91f4a-n000008",
-      "original_target": "ABEL",
-      "candidate": "ABEL (1)",
-      "candidate_article_excerpt": "ABEL (1) a'-bel (hebhel; Abel; Westcott and Hort, The New Testament in Greek Habel; etymology uncertain. Some translation \"a breath,\" \"vapor,\" \"transitoriness,\" which are suggestive of his brief existence and tragic end; others take it to be a variant of Jabal, yabhal, \"shepherd\" or \"herdman,\" Ge 4:20. Compare Assyrian ablu and Babylonian abil, \"son\"): The second son of Adam and Eve. The absence of the verb harah (Ge 4:2; compare Ge 4:1) has been taken to imply, perhaps truly, that Cain and Abel were twins.1. A Shepherd:\"Abel was a keeper of sheep, but Cain was a tiller of the ground,\" thus representing the two fundamental pursuits of civilized life, the two earliest subdivisions of the human race. On the Hebrew tradition of the superiority of the pastoral over agricultural and city life, see The Expositor T, V, 351 ff. The narrative may possibly bear witness to the primitive idea that p",
-      "exclusive_common_refs": [
-        "Bible:Gen.4.7"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "ABEL (1)",
-          "common": 1
-        },
-        {
-          "article": "ABEL (2)",
-          "common": 0
-        }
-      ],
-      "context": "Couch (verb): rabhats, \"to crouch,\" \"lurk,\" as a beast in readiness to spring on its prey. \"If thou doest not well, sin coucheth at the door\" (Ge 4:7, the King James Version \"lieth\"), waiting for it to open. Cain is warned to beware of the first temptations to evil, in his case e"
-    },
-    {
-      "source_article": "CREATURE, LIVING",
-      "ref_id": "isbe-7b51fc600a04bd4e8c8a-n000022",
-      "original_target": "CHERUBIM",
-      "candidate": "CHERUBIM (1)",
-      "candidate_article_excerpt": "CHERUBIM (1) cher'-u-bim, cher'-oo-bim (kerubhim, plural of cherub, kerubh): Through the influence of the Septuagint, \"cherubim\" was used in the earlier English versions, also as a singular, hence, the plural was made to sound \"cherubims.\" The etymology of the word cannot be ascertained.1. As Guardians of Paradise:In Ge 3:24 the cherubim are placed by God, after the expulsion of Adam from the garden of Eden, at the east thereof, together with the flaming sword \"to keep the way of the tree of life.\" In their function as guardians of Paradise the cherubim bear an analogy to the winged bulls and lions of Babylonia and Assyria, colossal figures with human faces standing guard at the entrance of temples (and palaces), just as in Egypt the approaches to the sanctuaries are guarded by sphinxes. But the Babylonian colossi go by the name of lamassu, or shedu; no designation at all approaching the",
-      "exclusive_common_refs": [
-        "Bible:Ezek.1.5",
-        "Bible:Ezek.10.12",
-        "Bible:Ezek.10.2",
-        "Bible:Ezek.9.3"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "CHERUBIM (1)",
-          "common": 4
-        },
-        {
-          "article": "CHERUBIM (2)",
-          "common": 0
-        }
-      ],
-      "context": "The \"living creatures\" in Ezekiel's vision (Eze 1:5 ff) were four in number, \"with the general appearance of a man, but each with four faces and four wings, and straight legs with the feet of an ox. Under their wings are human hands, and these wings are so joined that they never "
-    },
-    {
-      "source_article": "CYRENIAN; CYRENIANS",
-      "ref_id": "isbe-9cec95d52de476a91532-n000009",
-      "original_target": "LUCIUS",
-      "candidate": "LUCIUS (2)",
-      "candidate_article_excerpt": "LUCIUS (2) (Loukios): This name is mentioned twice:(1) In the church at Antioch which sent out Barnabas and Saul as its missionaries were several prophets and teachers, among whom was Lucius of Cyrene (Ac 13:1). He was probably one of those \"men of Cyprus and Cyrene, who, when they were come to Antioch, spake unto the Greeks also\" (Ac 11:20). It has been suggested that he is the same as Luke, but this is merely conjecture.(2) \"Lucius and Jason and Sosipater, my kinsmen\" were among those who joined Paul in saluting the Christians in Rome (Ro 16:21). By \"kinsmen\" Paul means \"Jews\" (compare Ro 9:3; 16:11,21). This Lucius may have been the same person as (1), but, as we have no more information about either, we cannot determine this.S. F. Hunter",
-      "exclusive_common_refs": [
-        "Bible:Acts.13.1"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "LUCIUS (1)",
-          "common": 0
-        },
-        {
-          "article": "LUCIUS (2)",
-          "common": 1
-        }
-      ],
-      "context": "si-re'-ni-an (Kurenaios, \"a native or inhabitant of Cyrene\"): Two Jews of Cyrene are mentioned in the New Testament, namely, Simon (Mr 15:21 and Lu 23:26 the King James Version) who was impressed to bear the Lord's cross (Mr 15:21 the Revised Version, margin), and Lucius, a Chris"
-    },
-    {
-      "source_article": "CYRENIAN; CYRENIANS",
-      "ref_id": "isbe-9cec95d52de476a91532-n000010",
-      "original_target": "SIMON",
-      "candidate": "SIMON (2)",
-      "candidate_article_excerpt": "SIMON (2) si'-mon (Simon):(1) Simon Peter.See PETER (SIMON).(2) Another of the Twelve, Simon \"the Cananean\" (Mt 10:4; Mr 3:18), \"the Zealot\" (Lu 6:15; Ac 1:13).See CANANAEAN.(3) One of the brethren of Jesus (Mt 13:55; Mr 6:3).See BRETHREN OF THE LORD.(4) \"The leper\" in Bethany, in whose house a woman poured a cruse of precious ointment over the head of Jesus (Mt 26:6; Mr 14:3). He had perhaps been healed by Jesus; in that case his ungracious behavior was not consistent with due gratitude. However he was healed, the title referred to his condition in the past, as lepers were ostracized by law.(5) A Pharisee in whose house a woman, \"a sinner,\" wet the feet of Jesus with her tears, and anointed them with ointment (Lu 7:36). By some he is identified with (4), this being regarded as Luke's version of the incident recorded in Mt 26 and Mr 14. Others as strongly deny this view.For discussion se",
-      "exclusive_common_refs": [
-        "Bible:Luke.23.26",
-        "Bible:Mark.15.21"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "SIMON (1)",
-          "common": 0
-        },
-        {
-          "article": "SIMON (2)",
-          "common": 2
-        }
-      ],
-      "context": "si-re'-ni-an (Kurenaios, \"a native or inhabitant of Cyrene\"): Two Jews of Cyrene are mentioned in the New Testament, namely, Simon (Mr 15:21 and Lu 23:26 the King James Version) who was impressed to bear the Lord's cross (Mr 15:21 the Revised Version, margin), and Lucius, a Chris"
-    },
-    {
-      "source_article": "DEMAS",
-      "ref_id": "isbe-6f5613cb3b92264390aa-n000008",
-      "original_target": "DEMETRIUS",
-      "candidate": "DEMETRIUS (2)",
-      "candidate_article_excerpt": "DEMETRIUS (2) de-me'-tri-us (Demetrios, \"belonging to Ceres\"): The name of two persons:(1) A Christian disciple praised by John (3Joh 1:12).(2) A silversmith of Ephesus who manufactured the little silver shrines of the goddess Diana to sell to the visiting pilgrims (Ac 19:23 ff). Because the teachings of Paul were injuring the trade of the silversmiths, there arose a riot of which Demetrius was the chief. Upon an inscription which Mr. Wood discovered among the ruins of the city, there appeared the name Demetrius, a warden of the Ephesian temple for the year 57 AD, and some authors believe the temple warden to be identical with the ringleader of the rebellion. The name, however, has been most common among the Greeks of every age. Because of its frequent use it cannot be supposed that Demetrius, the disciple of 3Joh 1:12, was the silversmith of Ephesus, nor that Demas of 2Ti 4:10, who bore",
-      "exclusive_common_refs": [
-        "Bible:2Tim.4.10"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "DEMETRIUS (1)",
-          "common": 0
-        },
-        {
-          "article": "DEMETRIUS (2)",
-          "common": 1
-        }
-      ],
-      "context": "de'-mas (Demas, \"popular\"): According to Col 4:14; 2Ti 4:10; Phm 1:24, one who was for a time a \"fellow-worker\" with Paul at Rome (Col, Philem), but at last, \"having loved this present world,\" forsook the apostle and betook himself to Thessalonica (2 Tim). No other particulars ar"
-    },
-    {
-      "source_article": "ELONITES",
-      "ref_id": "isbe-4e30e767165beb8e3d80-n000004",
-      "original_target": "ELON",
-      "candidate": "ELON (1)",
-      "candidate_article_excerpt": "ELON (1) e'-lon ('elon \"terebinth\"):(1) A Zebulunite, who judged Israel ten years, and was buried in Aijalon (Jud 12:11,12).(2) A son of Zebulun (Ge 46:14; Nu 26:26).(3) A Hittite whose daughter Esau wedded (Ge 26:34; 36:2).",
-      "exclusive_common_refs": [
-        "Bible:Num.26.26"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "ELON (1)",
-          "common": 1
-        },
-        {
-          "article": "ELON (2)",
-          "common": 0
-        }
-      ],
-      "context": "e'-lon-its: Descendants of ELON (which see (2) Nu 26:26)."
-    },
-    {
-      "source_article": "EVIL",
-      "ref_id": "isbe-a4cae81b6d0480d3ab6b-n000012",
-      "original_target": "SIN",
-      "candidate": "SIN (1)",
-      "candidate_article_excerpt": "SIN (1) (chaTTa'th, \"a missing,\" `awon, \"perversity]\" pesha`, \"transgression,\" ra`, \"evil,\" etc.; hamartano, \"miss the mark,\" parabasis, \"transgression\" with a suggestion of violence, adikia, \"injustice,\" \"unrighteousness\"):1. Sin as Disobedience2. Affects the Inner Life3. Involves All Men4. The Story of the Fall5. The Freedom of Man6. A Transgression against Light7. Inwardness of the Moral Law(1) Prophets(2) Paul(3) Jesus8. Sin a Positive Force9. Heredity10. Environment11. Redemption12. Life in Christ13. Repentance14. ForgivenessLITERATURE1. Sin as Disobedience:A fairly exact definition of sin based on Biblical data would be that sin is the transgression of the law of God (1 Joh 3:4). Ordinarily, sin is defined simply as \"the transgression of the law,\" but the idea of God is so completely the essential conception of the entire Biblical revelation that we can best define sin as disobedie",
-      "exclusive_common_refs": [
-        "Bible:Matt.5.21",
-        "Bible:Matt.5.27"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "SIN (1)",
-          "common": 2
-        },
-        {
-          "article": "SIN (2)",
-          "common": 0
-        }
-      ],
-      "context": "By this term we refer to wrongs done to our fellowman, where the actor is responsible for the action. The immorality may be present when the action is not possible. \"But if that evil servant shall say in his heart\" (Mt 24:48,49), whether he shall smite his fellow-servants or not,"
-    },
-    {
-      "source_article": "GAD (1)",
-      "ref_id": "isbe-21016d06ae9356b03cfe-n000035",
-      "original_target": "GILEAD",
-      "candidate": "GILEAD (1)",
-      "candidate_article_excerpt": "GILEAD (1) gil'-e-ad (ha-gil`adh, \"the Gilead\"): The name is explained in Ge 31:46 ff,51, as derived from Hebrew gal, \"a cairn,\" and `edh, \"witness,\" agreeing in meaning with the Aramaic yegharsahadhutha'. The Arabic jilead means \"rough,\" \"rugged.\"(1) A city named in Ho 6:8; 12:11, possibly to be identified with Gilead near to Mizpah (Jud 10:17). If this is correct, the ancient city may be represented by the modern Jil`ad, a ruin about 5 miles North of es-Salt.(2) A mountain named in Jud 7:3. Gideon, ordered to reduce the number of men who were with him, commanded all who were \"fearful and trembling\" to \"return and depart from Mt. Gilead.\" the Revised Version, margin reads \"return and go round about from Mt. Gilead.\" Gideon and his army lay to the South of the plain of Jezreel on the lower slopes of Gilboa. It has been suggested (Studer, Comm., at the place) that, as the Midianites lay b",
-      "exclusive_common_refs": [
-        "Bible:Judg.5.17"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "GILEAD (1)",
-          "common": 1
-        },
-        {
-          "article": "GILEAD (2)",
-          "common": 0
-        }
-      ],
-      "context": "It is impossible to indicate with any certainty the boundaries of the territory of Gad. Reuben lay on the South, and the half-tribe of Manasseh on the North. These three occupied the whole of Eastern Palestine. The South border of Gad is given as the Arnon in Nu 32:34; but six ci"
-    },
-    {
-      "source_article": "IMAGES",
-      "ref_id": "isbe-fd8cc9c5db7978c59e7c-n000146",
-      "original_target": "EPHOD",
-      "candidate": "EPHOD (1)",
-      "candidate_article_excerpt": "EPHOD (1) ef'-od ('ephowdh (28 times), 'ephodh (20 times), 'ephodh; Septuagint epomis, ephoth, ephod, ephoud, stole exallos, stole bussine):(1) A sacred vestment originally designed for the high priest (Ex 28:4 ff; 39:2 ff), and made \"of gold, blue, and purple, and scarlet, and fine twined linen,\" held together by two shoulder-pieces and a skillfully woven band which served as a girdle for the ephod. On the shoulderpieces were two onyx stones on which were engraved the names of the twelve tribes of Israel. It is not known whether the ephod extended below the hips or only to the waist. Attached to the ephod by chains of pure gold was a breastplate containing twelve precious stones in four rows. Underneath the ephod was the blue robe of the ephod extending to the feet of the priest. The robe of the ephod was thus a garment comprising, in addition to the long robe proper, the ephod with its",
-      "exclusive_common_refs": [
-        "Bible:Hos.3.4",
-        "Bible:Judg.17.5",
-        "Bible:Rev.17.14"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "EPHOD (1)",
-          "common": 3
-        },
-        {
-          "article": "EPHOD (2)",
-          "common": 0
-        }
-      ],
-      "context": "Teraphim (teraphim).--These are usually considered household gods, but this does not necessarily include the idea that they were images of ancestors, though this is not improbable (Nowack, Hebrew Archaeology, II, 23; HDB, II, 190); that they were images of Yahweh is a baseless su"
-    },
-    {
-      "source_article": "JERUSALEM",
-      "ref_id": "isbe-ee3b669c99fe2e08d2e2-n000525",
-      "original_target": "SALEM",
-      "candidate": "SALEM (1)",
-      "candidate_article_excerpt": "SALEM (1) sa'-lem (shalem; Salem): The name of the city of which Melchizedek was king (Ge 14:18; Heb 7:1,2; compare Ps 76:2).1. Identification and Meaning:To all appearance it lay near \"the Vale of Shaveh,\" described as \"the King's Vale.\" The general opinion among the Jews was that Salem was the same as Jerusalem, as stated by Josephus (Ant., I, x, 2), who adds (VII, iii, 2) that it was known as Solyma (Saluma, variants, according to Whiston, Salem and Hierosolyma) in the time of Abraham. It was also reported that the city and its temple were called Solyma by Homer, and he adds that the name in Hebrew means \"security.\" This identification with Jerusalem was accepted by Onkelos and all the Targums, as well as by the early Christians. The Samaritans have always identified Salem with Salim, East of Nablus, but Jewish and Christian tradition is more likely to be correct, supported, as it is,",
-      "exclusive_common_refs": [
-        "Bible:Gen.14.18"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "SALEM (1)",
-          "common": 1
-        },
-        {
-          "article": "SALEM (2)",
-          "common": 0
-        }
-      ],
-      "context": "Pre-Israelite period.--The beginnings of Jerusalem are long before recorded history: at various points in the neighborhood, e.g. at el Bukei`a to the Southwest, and at the northern extremity of the Mount of Olives to the Northeast, were very large settlements of Paleolithic man, "
-    },
-    {
-      "source_article": "LAISH",
-      "ref_id": "isbe-b50f502770f538b45795-n000005",
-      "original_target": "DAN",
-      "candidate": "DAN (2)",
-      "candidate_article_excerpt": "DAN (2) A city familiar as marking the northern limit of the land of Israel in the common phrase \"from Da even to Beer- sheba\" (Jud 20:1; 1Sa 3:20, etc.). Its ancient name was Laish or Leshem (Jud 18:7, etc.). It was probably an outlying settlement of Tyre of Sidon. Its inhabitants, pursuing the ends of peaceful traders, were defenseless against the onset of the Danite raiders. Having captured the city the Danites gave it the name of their own tribal ancestor (Jud 18). It lay in the valley near Beth-rehob (Jud 18:28). Josephus places it near Mt. Lebanon and the fountain of the lesser Jordan, a day's journey from Sidon (Ant., V, iii, 1; VIII, viii, 4; BJ, IV, i, 1). Eusebius, Onomasticon says it lay 4 Roman miles from Paneas on the way to Tyre, at the source of the Jordan.This points decisively to Tell el-Qady, in the plain West of Banias. The mound of this name--Kady is the exact Arabic ",
-      "exclusive_common_refs": [
-        "Bible:Judg.18.7"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "DAN (2)",
-          "common": 1
-        },
-        {
-          "article": "DAN (3)",
-          "common": 0
-        }
-      ],
-      "context": "(1) A city in the upper Jordan valley, apparently colonized by the Sidonians, which was captured by the Danires and called DAN (which see) (Jud 18:7, etc.; Isa 10:30 the King James Version). In Jos 19:47 the name appears as \"Leshem.\""
-    },
-    {
-      "source_article": "SHEBA (2)",
-      "ref_id": "isbe-77d5f589d96750336e7a-n000008",
-      "original_target": "SHEMA",
-      "candidate": "SHEMA (1)",
-      "candidate_article_excerpt": "SHEMA (1) she'-ma (shema`; Samaa): A city of Judah in the Negeb (Jos 15:26). If, as some think, identical with SHEBA (which see) of Jos 19:2, then the latter must have been inserted here from Jos 15:26. It is noticeable that the root letters (sh-m-`) were those from which Simeon is derived. Shema is probably identical with Jeshua (Ne 11:26). The place was clearly far South, and it may be Kh. Sa`wah, a ruin upon a prominent hilltop between Kh. `Attir and Khirbet el-Milch. There is a wall around the ruins, of large blocks of conglomerate flint (PEF, III, 409, Sh XXV).E. W. G. Masterman",
-      "exclusive_common_refs": [
-        "Bible:Josh.19.2"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "SHEMA (1)",
-          "common": 1
-        },
-        {
-          "article": "SHEMA (2)",
-          "common": 0
-        }
-      ],
-      "context": "she'-ba (shebha`; Sabee, or Samaa): The name of one of the towns allotted to Simeon (Jos 19:2). the King James Version mentions it as an independent town, but as it is not mentioned at all in the parallel list (1Ch 4:28), and is omitted in Jos 19:2 in some manuscripts, it is prob"
-    },
-    {
-      "source_article": "SHEMA (1)",
-      "ref_id": "isbe-691574cc1ee2e1169409-n000005",
-      "original_target": "SHEBA",
-      "candidate": "SHEBA (2)",
-      "candidate_article_excerpt": "SHEBA (2) she'-ba (shebha`; Sabee, or Samaa): The name of one of the towns allotted to Simeon (Jos 19:2). the King James Version mentions it as an independent town, but as it is not mentioned at all in the parallel list (1Ch 4:28), and is omitted in Jos 19:2 in some manuscripts, it is probable that the Revised Version (British and American) is correct in its translation \"Beer-sheba or Sheba.\" Only in this way can the total of towns in this group be made 13 (Jos 19:6). If it is a separate name, it is probably the same as SHEMA (which see).E. W. G. Masterman",
-      "exclusive_common_refs": [
-        "Bible:Josh.19.2"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "SHEBA (1)",
-          "common": 0
-        },
-        {
-          "article": "SHEBA (2)",
-          "common": 1
-        }
-      ],
-      "context": "she'-ma (shema`; Samaa): A city of Judah in the Negeb (Jos 15:26). If, as some think, identical with SHEBA (which see) of Jos 19:2, then the latter must have been inserted here from Jos 15:26. It is noticeable that the root letters (sh-m-`) were those from which Simeon is derived"
-    },
-    {
-      "source_article": "SHILLEM, SHILLEMITES",
-      "ref_id": "isbe-cc83a1e0ad7d424c1243-n000006",
-      "original_target": "SHALLUM",
-      "candidate": "SHALLUM (1)",
-      "candidate_article_excerpt": "SHALLUM (1) shal'-um (shallum, shallum; various forms in the Septuagint): This is the name of not less than 12 Hebrew persons:(1) The youngest son of Naphtali (1Ch 7:13). He is also called \"Shillem\" in Ge 46:24; Nu 26:49.(2) A descendant of Simeon, the son of Shaul and the father of Mibsam (1Ch 4:25). He lived in 1618 BC.(3) The son of Sismai \"son\" of Shesham of the tribe of Judah (1Ch 2:40,41). He lived in 1300 BC.(4) A son of Kore, a porter of the sanctuary during the reign of David (1Ch 9:17,19,31; Ezr 2:42; Ne 7:45). The name is also written \"Meshullam\" in Ne 12:25, \"Salum\" in 1 Esdras 5:28, \"Meshelemiah\" in 1Ch 26:1,2,9, and \"Shelemiah\" in 1Ch 26:14. He lived about 1050 BC.(5) A son of Zadok and father of Hilkiah, a high priest and ancestor of Ezra the scribe (1Ch 6:12,13; Ezr 7:2). In the works of Josephus he is called \"Sallumus\"; in 1 Esdras 8:1, \"Salem,\" and in 2 Esdras 1:1, \"Sal",
-      "exclusive_common_refs": [
-        "Bible:1Chr.7.13",
-        "Bible:Gen.46.24",
-        "Bible:Num.26.49"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "SHALLUM (1)",
-          "common": 3
-        },
-        {
-          "article": "SHALLUM (2)",
-          "common": 0
-        }
-      ],
-      "context": "shil'-em, shil'-em-its (shillem, ha-shillemi): Shillem is found in Ge 46:24, a son of Naphtali; Shillemites, his descendants, are mentioned in Nu 26:49; SHALLUM (which see) is found in 1Ch 7:13."
-    },
-    {
-      "source_article": "ZOAN",
-      "ref_id": "isbe-5b8b2b8473f607695ec3-n000023",
-      "original_target": "GOSHEN",
-      "candidate": "GOSHEN (1)",
-      "candidate_article_excerpt": "GOSHEN (1) go'-shen (goshen; Gesem):1. Meaning of Name:The region where the Hebrews dwelt in Egypt. If the Septuagint reading Gesem be correct, the word, which in its Hebrew form has no known meaning, may mean \"cultivated\"--comparing the Arabic root jashima, \"to labor.\" Egyptologists have suggested a connection with the Egyptian word qas, meaning \"inundated land\" because Goshen was apparently the same region, called by the Greeks the \"Arabian nome,\" which had its capital at Phakousa representing the Egyptian Pa-qas (Brugsch, Geog., I, 298), the name of a town, with the determinative for \"pouring forth.\" Van der Hardt, indeed, more than a century ago (see Sayce, Higher Criticism, 235), supposed the two words to be connected. Dr. Naville in 1887 found the word as denoting the vicinity of Pi-sopt (now Saft el Henneh), 6 miles East of Zagazig--in the form Q-s-m. He concludes that this was th",
-      "exclusive_common_refs": [
-        "Bible:Ps.78.12",
-        "Bible:Ps.78.43"
-      ],
-      "all_candidate_scores": [
-        {
-          "article": "GOSHEN (1)",
-          "common": 2
-        },
-        {
-          "article": "GOSHEN (2)",
-          "common": 0
-        }
-      ],
-      "context": "The city is only once noticed in the Pentateuch (Nu 13:22), as having been built seven years after Hebron, which existed in the time of Abraham. Zoan was certainly a very ancient town, since monuments of the VIth Egyptian Dynasty have been found at the site. It has been thought t"
-    }
-  ],
+  "exclusive_scripture_numbered_candidates": [],
   "numbered_link_review": [
     {
       "article_key": "BELAITES",
@@ -726,21 +186,6 @@
       "context": "('abh, the Hebrew and Aramaic word for \"father\"): It is a very common word in the Old Testament; this article notes only certain uses of it. It is used both in the singular and in the plural to denote a grandfather or more remote ancestors (e.g. Jer 35:16,15). The father of a people or tribe is its founder, not, as is frequently assumed, its progenitor. In this sense Abraham is father to the Israelites (see, for example, Ge 17:11-14,27), Isaac an"
     },
     {
-      "article_key": "ABIJAH",
-      "ref_id": "isbe-9ee4628d8cc9f7e85fc6-n000052",
-      "original_target": "ABI",
-      "displayed_text": "ABI",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "ABI (1)",
-        "ABI (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "(8) The mother of King Hezekiah (2Ch 29:1), called Abi in 2 Ki. See ABI."
-    },
-    {
       "article_key": "ABISHALOM",
       "ref_id": "isbe-77cdf8fa6b9a84cfa0fc-n000004",
       "original_target": "ABSALOM",
@@ -843,21 +288,6 @@
       "context": "Books pretending to give the life and deeds of Adam and other Old Testament worthies existed in abundance among the Jews and the early Christians. The Talmud speaks of a Book of Adam, which is now lost, but which probably furnished some of the material which appears in early Christian writings. The Vita Adami was translated from the Ethiopic by Dillmann (1853), and into English by Malan (The Book of Adam and Eve, London, 1882). The Testament of A"
     },
     {
-      "article_key": "ADER",
-      "ref_id": "isbe-2580b8a94172997581c8-n000005",
-      "original_target": "EDER",
-      "displayed_text": "EDER",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "EDER (1)",
-        "EDER (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "a'-der: Used in 1Ch 8:15 the King James Version for EDER, which see."
-    },
-    {
       "article_key": "ADMAH",
       "ref_id": "isbe-fd4f7ad90f4a8074ad45-n000011",
       "original_target": "VALE OF SIDDIM",
@@ -958,21 +388,6 @@
       "lexical_candidates": [],
       "kind": "ambiguous_semicolon_alias",
       "context": "No clearer picture to correspond with present-day practice in vine culture (see VINE) in Palestine could be given than that mentioned in Isa 5:1,6. Grapes probably served an important part in the diet of Bible times as they do at present. In the season which begins in July and extends for at least three months, the humblest peasant as well as the richest landlord considers grapes as a necessary part of at least one meal each day. The grapes were "
-    },
-    {
-      "article_key": "AHAZIAH",
-      "ref_id": "isbe-9d10d47900e33ab7a279-n000020",
-      "original_target": "JEHOSHAPHAT",
-      "displayed_text": "JEHOSHAPHAT",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "JEHOSHAPHAT (1)",
-        "JEHOSHAPHAT (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "According to 1Ki 22:48 f Ahaziah attempted to form an alliance with Jehoshaphat of Judah to revive the ancient maritime traffic, but failed. According to 2Ch 20:35-37 the alliance was consummated, in consequence of which the enterprise came to nothing. See JEHOSHAPHAT."
     },
     {
       "article_key": "AHI; AH",
@@ -1729,21 +1144,6 @@
       "context": "Since Le 16 constitutes only one part of the Levitical legislation, the question as to the original and historical character of the day cannot be fully discussed at this place (see LEVITICUS). At so late a period, naturally all the data that would lead to an explanation of the origin of such a fundamental institution as the Day of Atonement are lacking. It is all the more impossible to separate Le 16 from the other priestly ordinances, because th"
     },
     {
-      "article_key": "AVEN",
-      "ref_id": "isbe-82afc8a9ca49d197d4aa-n000005",
-      "original_target": "ON",
-      "displayed_text": "ON",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "ON (1)",
-        "ON (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "a'-ven 'awen \"emptiness,\" \"vanity\": Used in Eze 30:17 for On or Heliopolis, in Egypt. See ON. As a term of contempt Hosea calls Beth-el \"Beth-aven\" (4:15; 10:5). So Amos speaks of some valley near Damascus as \"the valley of Aven\" (that is, of the idol, 1:5), in which Baalbek (Heliopolis) was situated. The word is rendered \"idol\" in Isa 66:3."
-    },
-    {
       "article_key": "BAAL-ZEPHON",
       "ref_id": "isbe-56ef1165dd84ac441b6e-n000007",
       "original_target": "EXODUS",
@@ -2015,21 +1415,6 @@
       "context": "See BAPTISM (I), I, 6."
     },
     {
-      "article_key": "BARACHEL",
-      "ref_id": "isbe-47852e6c9c1f99f5a038-n000007",
-      "original_target": "RAM",
-      "displayed_text": "RAM",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "RAM (1)",
-        "RAM (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "bar'-a-kel (barakh'el, \"God blesses\"): Barachel, the Buzite, of the family of Ram, was the father of Elihu, who was the last one to reason with Job (Job 32:2,6). Compare BUZ; RAM."
-    },
-    {
       "article_key": "BARLEY",
       "ref_id": "isbe-8bdbfc0995b0a6c157d7-n000018",
       "original_target": "ORDEAL OF JEALOUSY",
@@ -2148,21 +1533,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See GOLD (BEATEN)."
-    },
-    {
-      "article_key": "BECHER",
-      "ref_id": "isbe-6bbca4d87f54f02e9759-n000010",
-      "original_target": "BERED",
-      "displayed_text": "BERED",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "BERED (1)",
-        "BERED (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "(2) Son of Ephraim whose family is called Becherites (the King James Version \"Bachrites\"), Nu 26:35 (1Ch 7:20 called Bered). Compare BERED."
     },
     {
       "article_key": "BEG; BEGGAR; BEGGING",
@@ -2636,36 +2006,6 @@
       "context": "See BROTHERLY KINDNESS (LOVE)."
     },
     {
-      "article_key": "CAIN",
-      "ref_id": "isbe-173c52fd0a771dc7e3fd-n000009",
-      "original_target": "ABEL",
-      "displayed_text": "ABEL",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "ABEL (1)",
-        "ABEL (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "(1) In Ge 4:1-24 Cain is the first son of Adam and Eve. His birth is hailed as a manifestation of Yahweh's help. He becomes \"a tiller of the ground,\" and brings to Yahweh an offering of the produce of the soil, his brother Abel, the shepherd, bringing at the same time the fat of the first-born of his own flock. From Cain and from his offering Yahweh withholds the sign of acceptance which he grants to Abel. That the ground of this difference of tr"
-    },
-    {
-      "article_key": "CAIN",
-      "ref_id": "isbe-173c52fd0a771dc7e3fd-n000046",
-      "original_target": "KAIN",
-      "displayed_text": "KAIN",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "KAIN (1)",
-        "KAIN (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "A. Dillmann, Genesis (English translation); S. R. Driver, Genesis (\"Westminster Commentaries\"); H. E. Ryle, Early Narratives of Genesis; J. Skinner, Genesis (ICC); A. H. Sayce, \"Archaeology of the Book of Genesis,\" The Expositor T, August, 1910, June, 1911. (2) In Jos 15:57, the Revised Version (British and American) KAIN, which see."
-    },
-    {
       "article_key": "CALAH",
       "ref_id": "isbe-afd1ba74aa4d845dae9e-n000005",
       "original_target": "BABEL, BABYLON",
@@ -2799,21 +2139,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See ARCHITECTURE; JACHIN AND BOAZ; TEMPLE, II, 4."
-    },
-    {
-      "article_key": "CHARRAN",
-      "ref_id": "isbe-b078a84a598ef8a92304-n000004",
-      "original_target": "HARAN",
-      "displayed_text": "HARAN",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "HARAN (1)",
-        "HARAN (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "kar'-an (Charrhan): Greek form of HARAN (which see) (Ac 7:2,4)."
     },
     {
       "article_key": "CHEDORLAOMER",
@@ -2952,21 +2277,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See G. A. Smith, Jerusalem, I, chapters v-x, for detailed account of the conditions of Jewish city life. For details of government, see ELDER; JUDGES; SANHEDRIN."
-    },
-    {
-      "article_key": "CITY OF DESTRUCTION",
-      "ref_id": "isbe-bb532a9c35fbbb4abda7-n000007",
-      "original_target": "ON",
-      "displayed_text": "ON",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "ON (1)",
-        "ON (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "de-struk'-shun `ir ha-herec; (Septuagint Base-dek): In his prediction of the future return of Egypt to Yahweh, Isaiah declares, \"In that day there shall be five cities in the land of Egypt that speak the language of Canaan, and swear to Yahweh of hosts; one shall be called The city of destruction\" (Isa 19:18). The name `ir ha-herec, \"the city of overthrow,\" is evidently a play upon `ir ha-cherec, \"city of the sun,\" a designation of Heliopolis (sa"
     },
     {
       "article_key": "CLOUD, PILLAR OF",
@@ -3149,21 +2459,6 @@
       "context": "See WORLD; PROVIDENCE."
     },
     {
-      "article_key": "COUCH",
-      "ref_id": "isbe-cc969a2e564b42e91f4a-n000008",
-      "original_target": "ABEL",
-      "displayed_text": "ABEL",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "ABEL (1)",
-        "ABEL (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "Couch (verb): rabhats, \"to crouch,\" \"lurk,\" as a beast in readiness to spring on its prey. \"If thou doest not well, sin coucheth at the door\" (Ge 4:7, the King James Version \"lieth\"), waiting for it to open. Cain is warned to beware of the first temptations to evil, in his case especially a sullen and jealous disposition (compare Dante, Inferno, I, 30). See ABEL; CAIN. The tribe of Judah is compared for its bravery to a recumbent lion or lioness "
-    },
-    {
       "article_key": "COVENANT, BOOK OF THE",
       "ref_id": "isbe-61621371c2643b0f6e91-n000059",
       "original_target": "CRITICISM (GRAF-WELLHAUSEN HYPOTHESIS)",
@@ -3218,21 +2513,6 @@
       "context": "See also ANTHROPOLOGY; EARTH; WORLD."
     },
     {
-      "article_key": "CREATURE, LIVING",
-      "ref_id": "isbe-7b51fc600a04bd4e8c8a-n000022",
-      "original_target": "CHERUBIM",
-      "displayed_text": "CHERUBIM",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "CHERUBIM (1)",
-        "CHERUBIM (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "The \"living creatures\" in Ezekiel's vision (Eze 1:5 ff) were four in number, \"with the general appearance of a man, but each with four faces and four wings, and straight legs with the feet of an ox. Under their wings are human hands, and these wings are so joined that they never require to turn. The front face is that of a man; right and left of this are the faces of a lion and (of) an ox, and behind, that of an eagle .... out of the midst of the"
-    },
-    {
       "article_key": "CURIOUS",
       "ref_id": "isbe-b39a376be11e6e96ddd4-n000017",
       "original_target": "ASTROLOGY 14",
@@ -3255,36 +2535,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See also STIGMATA, MARK;"
-    },
-    {
-      "article_key": "CYRENIAN; CYRENIANS",
-      "ref_id": "isbe-9cec95d52de476a91532-n000009",
-      "original_target": "LUCIUS",
-      "displayed_text": "LUCIUS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "LUCIUS (1)",
-        "LUCIUS (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "si-re'-ni-an (Kurenaios, \"a native or inhabitant of Cyrene\"): Two Jews of Cyrene are mentioned in the New Testament, namely, Simon (Mr 15:21 and Lu 23:26 the King James Version) who was impressed to bear the Lord's cross (Mr 15:21 the Revised Version, margin), and Lucius, a Christian teacher at Antioch (Ac 13:1). See CYRENE; LUCIUS; SIMON. For Cyrenians see CYRENE."
-    },
-    {
-      "article_key": "CYRENIAN; CYRENIANS",
-      "ref_id": "isbe-9cec95d52de476a91532-n000010",
-      "original_target": "SIMON",
-      "displayed_text": "SIMON",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "SIMON (1)",
-        "SIMON (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "si-re'-ni-an (Kurenaios, \"a native or inhabitant of Cyrene\"): Two Jews of Cyrene are mentioned in the New Testament, namely, Simon (Mr 15:21 and Lu 23:26 the King James Version) who was impressed to bear the Lord's cross (Mr 15:21 the Revised Version, margin), and Lucius, a Christian teacher at Antioch (Ac 13:1). See CYRENE; LUCIUS; SIMON. For Cyrenians see CYRENE."
     },
     {
       "article_key": "DALE, KING'S",
@@ -3513,21 +2763,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "It is worthy of notice that the cuneiform tablet exhibits as much variety of style as does the Biblical account. Plain narrative and rhetorical prose are intermingled in both accounts, a fact which effectually disposes of the critical theory which regards the Biblical account as a clumsy combination made in later times by piecing together two or more independent traditions. Evidently the piecing together, if there was any, had been accomplished e"
-    },
-    {
-      "article_key": "DEMAS",
-      "ref_id": "isbe-6f5613cb3b92264390aa-n000008",
-      "original_target": "DEMETRIUS",
-      "displayed_text": "DEMETRIUS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "DEMETRIUS (1)",
-        "DEMETRIUS (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "de'-mas (Demas, \"popular\"): According to Col 4:14; 2Ti 4:10; Phm 1:24, one who was for a time a \"fellow-worker\" with Paul at Rome (Col, Philem), but at last, \"having loved this present world,\" forsook the apostle and betook himself to Thessalonica (2 Tim). No other particulars are given concerning him. See APOSTASY; DEMETRIUS."
     },
     {
       "article_key": "DIASPORA",
@@ -4145,21 +3380,6 @@
       "context": "See ELON."
     },
     {
-      "article_key": "ELONITES",
-      "ref_id": "isbe-4e30e767165beb8e3d80-n000004",
-      "original_target": "ELON",
-      "displayed_text": "ELON",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "ELON (1)",
-        "ELON (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "e'-lon-its: Descendants of ELON (which see (2) Nu 26:26)."
-    },
-    {
       "article_key": "EN-",
       "ref_id": "isbe-b507bb8ae817aa1c3f0b-n000009",
       "original_target": "SHEMESH",
@@ -4724,21 +3944,6 @@
       "context": "See LOGIA; and compare Ropes, Die Spruche Jesu, 56."
     },
     {
-      "article_key": "EVIL",
-      "ref_id": "isbe-a4cae81b6d0480d3ab6b-n000012",
-      "original_target": "SIN",
-      "displayed_text": "SIN",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "SIN (1)",
-        "SIN (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "By this term we refer to wrongs done to our fellowman, where the actor is responsible for the action. The immorality may be present when the action is not possible. \"But if that evil servant shall say in his heart\" (Mt 24:48,49), whether he shall smite his fellow-servants or not, the moral evil is present. See SIN. \"All these evil things proceed from within, and defile the man\" (Mr 7:21-23). The last six commandments of the Decalogue apply here ("
-    },
-    {
       "article_key": "EVIL EYE",
       "ref_id": "isbe-ea7a3b29ea3b1b380be0-n000021",
       "original_target": "LITERATURE.",
@@ -4983,21 +4188,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See NUMBERS."
-    },
-    {
-      "article_key": "GAD (1)",
-      "ref_id": "isbe-21016d06ae9356b03cfe-n000035",
-      "original_target": "GILEAD",
-      "displayed_text": "GILEAD",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "GILEAD (1)",
-        "GILEAD (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "It is impossible to indicate with any certainty the boundaries of the territory of Gad. Reuben lay on the South, and the half-tribe of Manasseh on the North. These three occupied the whole of Eastern Palestine. The South border of Gad is given as the Arnon in Nu 32:34; but six cities to the North of the Arnon are assigned in 32:16 ff to Reuben. Again, Jos 13:26 makes Wady Chesban the southern boundary of Gad. Mesha, however (MS), says that the me"
     },
     {
       "article_key": "GAD, VALLEY OF",
@@ -5521,21 +4711,6 @@
       "context": "See UZ."
     },
     {
-      "article_key": "IMAGES",
-      "ref_id": "isbe-fd8cc9c5db7978c59e7c-n000146",
-      "original_target": "EPHOD",
-      "displayed_text": "EPHOD",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "EPHOD (1)",
-        "EPHOD (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "Teraphim (teraphim).--These are usually considered household gods, but this does not necessarily include the idea that they were images of ancestors, though this is not improbable (Nowack, Hebrew Archaeology, II, 23; HDB, II, 190); that they were images of Yahweh is a baseless supposition (see Kautzsch, HDB, V, 643). Sometimes they appear in the house (1Sa 19:13,16); sometimes in sanctuaries (Jud 17:5; 18:14); sometimes as carried by travelers an"
-    },
-    {
       "article_key": "IMPUTATION",
       "ref_id": "isbe-17e98c6db5ca0d523c1f-n000163",
       "original_target": "SIN",
@@ -5860,21 +5035,6 @@
     },
     {
       "article_key": "JERUSALEM",
-      "ref_id": "isbe-ee3b669c99fe2e08d2e2-n000525",
-      "original_target": "SALEM",
-      "displayed_text": "SALEM",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "SALEM (1)",
-        "SALEM (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "Pre-Israelite period.--The beginnings of Jerusalem are long before recorded history: at various points in the neighborhood, e.g. at el Bukei`a to the Southwest, and at the northern extremity of the Mount of Olives to the Northeast, were very large settlements of Paleolithic man, long before the dawn of history, as is proved by the enormous quantities of Celts scattered over the surface. It is certain that the city's site itself was occupied many "
-    },
-    {
-      "article_key": "JERUSALEM",
       "ref_id": "isbe-ee3b669c99fe2e08d2e2-n000531",
       "original_target": "ZEDEK",
       "displayed_text": "ZEDEK",
@@ -6151,21 +5311,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See ECCLESIASTES."
-    },
-    {
-      "article_key": "LAISH",
-      "ref_id": "isbe-b50f502770f538b45795-n000005",
-      "original_target": "DAN",
-      "displayed_text": "DAN",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "DAN (2)",
-        "DAN (3)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "(1) A city in the upper Jordan valley, apparently colonized by the Sidonians, which was captured by the Danires and called DAN (which see) (Jud 18:7, etc.; Isa 10:30 the King James Version). In Jos 19:47 the name appears as \"Leshem.\""
     },
     {
       "article_key": "LANGUAGES OF THE OLD TESTAMENT",
@@ -7738,21 +6883,6 @@
       "context": "(1) The son of Sennacherib, king of Assyria, who with ADRAMMELECH (which see) murdered his father (2Ki 19:37; Isa 37:38). The Babylonian Chronicle says concerning Sennacherib's death: \"On the 20th day of Tebet Sennacherib, king of Assyria, was slain by his son in a revolt.\" This differs from the Old Testament account in that it speaks of only one murderer, and does not give his name. How the two accounts can be harmonized is still uncertain. Hitz"
     },
     {
-      "article_key": "SHEBA (2)",
-      "ref_id": "isbe-77d5f589d96750336e7a-n000008",
-      "original_target": "SHEMA",
-      "displayed_text": "SHEMA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "SHEMA (1)",
-        "SHEMA (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "she'-ba (shebha`; Sabee, or Samaa): The name of one of the towns allotted to Simeon (Jos 19:2). the King James Version mentions it as an independent town, but as it is not mentioned at all in the parallel list (1Ch 4:28), and is omitted in Jos 19:2 in some manuscripts, it is probable that the Revised Version (British and American) is correct in its translation \"Beer-sheba or Sheba.\" Only in this way can the total of towns in this group be made 13"
-    },
-    {
       "article_key": "SHEM",
       "ref_id": "isbe-e23206a8feedfdd5d911-n000016",
       "original_target": "HAM",
@@ -7781,21 +6911,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See HAM; JAPHETH; TABLE OF NATIONS."
-    },
-    {
-      "article_key": "SHEMA (1)",
-      "ref_id": "isbe-691574cc1ee2e1169409-n000005",
-      "original_target": "SHEBA",
-      "displayed_text": "SHEBA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "SHEBA (1)",
-        "SHEBA (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "she'-ma (shema`; Samaa): A city of Judah in the Negeb (Jos 15:26). If, as some think, identical with SHEBA (which see) of Jos 19:2, then the latter must have been inserted here from Jos 15:26. It is noticeable that the root letters (sh-m-`) were those from which Simeon is derived. Shema is probably identical with Jeshua (Ne 11:26). The place was clearly far South, and it may be Kh. Sa`wah, a ruin upon a prominent hilltop between Kh. `Attir and Kh"
     },
     {
       "article_key": "SHEMINITH",
@@ -7832,21 +6947,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See SHEWBREAD."
-    },
-    {
-      "article_key": "SHILLEM, SHILLEMITES",
-      "ref_id": "isbe-cc83a1e0ad7d424c1243-n000006",
-      "original_target": "SHALLUM",
-      "displayed_text": "SHALLUM",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "SHALLUM (1)",
-        "SHALLUM (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "shil'-em, shil'-em-its (shillem, ha-shillemi): Shillem is found in Ge 46:24, a son of Naphtali; Shillemites, his descendants, are mentioned in Nu 26:49; SHALLUM (which see) is found in 1Ch 7:13."
     },
     {
       "article_key": "SHIMRON-MERON",
@@ -8859,21 +7959,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See ZIPH."
-    },
-    {
-      "article_key": "ZOAN",
-      "ref_id": "isbe-5b8b2b8473f607695ec3-n000023",
-      "original_target": "GOSHEN",
-      "displayed_text": "GOSHEN",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "numbered_candidates": [
-        "GOSHEN (1)",
-        "GOSHEN (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "The city is only once noticed in the Pentateuch (Nu 13:22), as having been built seven years after Hebron, which existed in the time of Abraham. Zoan was certainly a very ancient town, since monuments of the VIth Egyptian Dynasty have been found at the site. It has been thought that Zoar on the border of Egypt (Ge 13:10) is a clerical error for Zoan, but the Septuagint reading (Zogora) does not favor this view, and the place intended is probably "
     },
     {
       "article_key": "ZOROASTRIANISM",
