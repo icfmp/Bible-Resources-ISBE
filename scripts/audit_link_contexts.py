@@ -59,6 +59,25 @@ def numbered_markers(article, reference):
     return evidence[:12]
 
 
+def numbered_root(key):
+    root, sep, suffix = key.rpartition(" (")
+    if sep and suffix.endswith(")") and suffix[:-1].isdigit():
+        return root.strip().casefold()
+    return None
+
+
+def scripture_refs(element):
+    """Return explicit OSIS reference strings without semantic expansion."""
+    if element is None:
+        return set()
+    refs = set()
+    for node in element.iter():
+        value = node.get("osisRef")
+        if value:
+            refs.update(part for part in value.split() if part)
+    return refs
+
+
 def scan(path):
     root = ET.parse(path).getroot()
     entries = root.findall(f".//{ENTRY}[@type='entry']")
@@ -82,7 +101,17 @@ def scan(path):
     for key in (a.get("n") for a in entries):
         stem = re.sub(r"\s+\(\d+\)$", "", key).strip().casefold()
         numbered_candidates.setdefault(stem, set()).add(key)
+    numbered_groups = {}
+    for a in entries:
+        root_name = numbered_root(a.get("n"))
+        if root_name is not None:
+            numbered_groups.setdefault(root_name, []).append(a)
+    numbered_candidate_osis = {
+        a.get("n"): scripture_refs(a)
+        for group in numbered_groups.values() for a in group
+    }
     records = []
+    scripture_candidates = []
     summary = Counter()
     for article in entries:
         article_key = article.get("n")
@@ -99,6 +128,28 @@ def scan(path):
                 parent = parents.get(parent)
             container_text = "".join(parent.itertext()) if parent is not None else ""
             snippet = " ".join(container_text.split())[:450]
+            ambiguous_homonyms = numbered_groups.get(normalized(target), ())
+            if len(ambiguous_homonyms) > 1:
+                local_refs = scripture_refs(parent)
+                candidates = []
+                for candidate_article in ambiguous_homonyms:
+                    candidate_key = candidate_article.get("n")
+                    common = sorted(local_refs & numbered_candidate_osis[candidate_key])
+                    candidates.append({"article_key": candidate_key, "shared_osis_refs": common})
+                positive = [item for item in candidates if item["shared_osis_refs"]]
+                if len(positive) == 1:
+                    scripture_candidates.append({
+                        "source_article": article_key,
+                        "ref_id": ref.get(XMLID),
+                        "original_target": target,
+                        "candidate": positive[0]["article_key"],
+                        "exclusive_common_refs": positive[0]["shared_osis_refs"],
+                        "all_candidate_scores": [
+                            {"article": item["article_key"], "common": len(item["shared_osis_refs"])}
+                            for item in candidates
+                        ],
+                        "context": snippet[:280],
+                    })
             alias_matches = sorted(aliases.get(normalized(target), ()))
             stripped_target = re.sub(r"\s+\(\d+\)$", "", target).strip().casefold()
             numbered_matches = sorted(numbered_candidates.get(stripped_target, ()))
@@ -132,6 +183,7 @@ def scan(path):
             "status": "review_diagnostics_not_approved_mappings",
             "total_unresolved_occurrences": len(records),
             "category_counts": dict(sorted(summary.items())),
+            "exclusive_scripture_numbered_candidates": scripture_candidates,
             "numbered_link_review": [
                 {"article_key": x["article_key"], "original_target": x["original_target"],
                  "candidates": x["numbered_candidates"], "context": x["context"][:300],
