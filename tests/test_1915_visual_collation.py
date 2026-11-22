@@ -11,13 +11,13 @@ VOLUMES = ROOT/"sources/print/1915-volume-witnesses.json"
 CANONICAL = ROOT/"cleaned/en/ISBE.xml"
 
 class PrintedPageCollationTests(unittest.TestCase):
-    def test_all_nine_visual_observations_are_source_locked_and_reversible(self):
+    def test_all_twenty_one_visual_observations_are_source_locked_and_reversible(self):
         data=json.loads(REVIEW.read_text(encoding="utf-8"))
         baseline=json.loads(LEDGER.read_text(encoding="utf-8"))
         volumes={v["volume"]:v for v in json.loads(VOLUMES.read_text(encoding="utf-8"))["volumes"]}
         source_sha=hashlib.sha256(CANONICAL.read_bytes()).hexdigest()
-        self.assertEqual(data["sample_size"],9)
-        self.assertEqual(data["visual_page_inspected_count"],9)
+        self.assertEqual(data["sample_size"],21)
+        self.assertEqual(data["visual_page_inspected_count"],21)
         self.assertEqual(data["complete_article_transcriptions_certified"],0)
         self.assertTrue(data["no_canonical_change"])
         self.assertEqual(source_sha,data["canonical_source_sha256"])
