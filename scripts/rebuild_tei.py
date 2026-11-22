@@ -70,6 +70,38 @@ def resolve_key(raw_key, ids, normalized):
     return None, "not_found"
 
 
+def normalize_section_label(text):
+    """Normalize presentation punctuation only, not words or numbering."""
+    return re.sub(r"[:.\\s]+$", "", " ".join(text.split())).casefold()
+
+
+def resolve_local_heading(article, reference):
+    """Resolve a source ISBE link to a unique explicit underlined local heading.
+
+    A heading must be the first, leading marked span in a paragraph. This avoids
+    interpreting arbitrary underlined emphasis as an article section.
+    """
+    parent_of = {child: parent for parent in article.iter() for child in parent}
+    target = normalize_section_label(reference)
+    if not target:
+        return None
+    candidates = []
+    for el in article.iter():
+        if el.tag.split("}")[-1] != "hi" or el.get("rend") != "underline":
+            continue
+        parent = parent_of.get(el)
+        if parent is None or parent.tag.split("}")[-1] != "p":
+            continue
+        if list(parent)[0] is not el or (parent.text or "").strip():
+            continue
+        label = normalize_section_label("".join(el.itertext()))
+        if label == target:
+            candidates.append(el.get(XMLID))
+    if len(candidates) == 1 and candidates[0]:
+        return candidates[0]
+    return None
+
+
 def build(imp):
     records = list(entries_from_imp(imp))
     ids = {}
@@ -100,7 +132,7 @@ def build(imp):
     unsupported = Counter()
     missing_refs = Counter()
     resolved_variants = Counter()
-    unresolved_details = Counter()
+    unresolved_details = Counter()\n    resolved_local = Counter()
     title_variants = []
     text_chars = 0
     nodes = 0
@@ -162,6 +194,27 @@ def build(imp):
                 else:
                     missing_refs[link_key] += 1
                     unresolved_details[(link_key, reason)] += 1
+
+        # The old module sometimes encoded its own section headings as
+        # encyclopedia-wide targets. Only rewrite to a locally unique,
+        # explicitly underlined heading; leave everything else untouched.
+        for element in article.iter():
+            target = element.attrib.get("target", "")
+            if not target.startswith("ISBE:"):
+                continue
+            source_key = target[5:]
+            heading_id = resolve_local_heading(article, source_key)
+            if heading_id:
+                element.set("n", target)
+                element.set("target", "#" + heading_id)
+                missing_refs[source_key] -= 1
+                if not missing_refs[source_key]:
+                    del missing_refs[source_key]
+                unresolved_details[(source_key, "not_found")] -= 1
+                if not unresolved_details[(source_key, "not_found")]:
+                    del unresolved_details[(source_key, "not_found")]
+                resolved_local[(key, source_key, heading_id)] += 1
+
         manifest.append({"index": number, "key": key, "id": aid,
                          "text_chars": len(original_text),
                          "text_sha256": hashlib.sha256(original_text.encode("utf-8")).hexdigest()})
@@ -175,6 +228,12 @@ def build(imp):
                   for (original, mapped, rule), n in sorted(resolved_variants.items())
               ],
               "resolved_variant_occurrences": sum(resolved_variants.values()),
+              "resolved_local_section_links": [
+                  {"article_key": article_key, "original": original,
+                   "local_heading_id": heading_id, "occurrences": count}
+                  for (article_key, original, heading_id), count in sorted(resolved_local.items())
+              ],
+              "resolved_local_section_occurrences": sum(resolved_local.values()),
               "unresolved_link_diagnostics": [
                   {"original": key, "reason": reason, "occurrences": n}
                   for (key, reason), n in sorted(unresolved_details.items())
