@@ -57,7 +57,7 @@ def scan(path):
                 aliases.setdefault(normalized(component), set()).add(key)
     numbered_candidates = {}
     for key in (a.get("n") for a in entries):
-        stem = re.sub(r"\\s+\\(\\d+\\)$", "", key).strip().casefold()
+        stem = re.sub(r"\s+\(\d+\)$", "", key).strip().casefold()
         numbered_candidates.setdefault(stem, set()).add(key)
     records = []
     summary = Counter()
@@ -77,7 +77,7 @@ def scan(path):
             container_text = "".join(parent.itertext()) if parent is not None else ""
             snippet = " ".join(container_text.split())[:450]
             alias_matches = sorted(aliases.get(normalized(target), ()))
-            stripped_target = re.sub(r"\\s+\\(\\d+\\)$", "", target).strip().casefold()
+            stripped_target = re.sub(r"\s+\(\d+\)$", "", target).strip().casefold()
             numbered_matches = sorted(numbered_candidates.get(stripped_target, ()))
             target_matches = lexical_index.get(folded_letters(target), [])
             if len(alias_matches) == 1:
