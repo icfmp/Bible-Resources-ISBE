@@ -8,6 +8,7 @@ from unittest.mock import patch
 
 from scripts.research_1915_print_pages import (
     analyze_pdf, candidate_heading, expected_volume, find_headings, normalize,
+    verify_print_witness,
 )
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +22,25 @@ class PrintHeadingResearchTests(unittest.TestCase):
         self.assertEqual(candidate_heading("AMNON", "AMNON"), 5)
         self.assertEqual(candidate_heading("Amnon", "AMNON"), 1)
         self.assertEqual(candidate_heading("antiquity", "ANTIQUITY"), 1)
+
+    def test_identified_original_scans_are_sha_locked(self):
+        manifest = ROOT / "sources/print/1915-volume-witnesses.json"
+        data = json.loads(manifest.read_text(encoding="utf-8"))
+        self.assertEqual(len(data["volumes"]), 5)
+        for witness in data["volumes"]:
+            with self.subTest(volume=witness["volume"]):
+                self.assertEqual(
+                    verify_print_witness(
+                        manifest, witness["volume"],
+                        witness["pdf_sha256"], witness["pages"]
+                    )["volume"],
+                    witness["volume"]
+                )
+                with self.assertRaisesRegex(ValueError,"SHA256"):
+                    verify_print_witness(
+                        manifest, witness["volume"],
+                        "0" * 64, witness["pages"]
+                    )
 
     def test_original_five_volume_boundaries_exclude_back_of_book_index(self):
         examples = {
