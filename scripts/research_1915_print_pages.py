@@ -106,6 +106,27 @@ def find_headings(pages, source_keys, max_hits=8):
     return out
 
 
+def verify_print_witness(manifest_path, volume, pdf_sha256, pages):
+    """Fail closed if remote scans differ from the identified 1915 source."""
+    manifest = json.loads(Path(manifest_path).read_text(encoding="utf-8"))
+    if manifest.get("manifest_version") != 1:
+        raise ValueError("Unreviewed historical witness manifest")
+    if manifest.get("canonical_tei_sha256") != EXPECTED_CANONICAL_SHA256:
+        raise ValueError("Witness source and canonical text locks differ")
+    volumes = manifest.get("volumes", [])
+    if len(volumes) != 5 or len({v["volume"] for v in volumes}) != 5:
+        raise ValueError("Expected five uniquely identified original print volumes")
+    matches = [v for v in volumes if v["volume"] == str(volume)]
+    if len(matches) != 1:
+        raise ValueError(f"Missing exact print source volume {volume}")
+    witness = matches[0]
+    if witness["pdf_sha256"] != pdf_sha256 or witness["pages"] != pages:
+        raise ValueError("Downloaded original print witness does not match pinned SHA256/pages")
+    if witness.get("print_page_images_reviewed") is not False:
+        raise ValueError("Research provenance must not assert unearned visual review")
+    return witness
+
+
 def analyze_pdf(pdf_path, source_ledger_path, volume):
     pdf_path = Path(pdf_path)
     if pdf_path.read_bytes()[:5] != b"%PDF-":
@@ -173,11 +194,18 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--pdf", type=Path, required=True)
     p.add_argument("--volume", required=True)
+    p.add_argument("--witness-manifest", type=Path)
     p.add_argument("--ledger", type=Path,
                    default=Path("workspace/reviews/empty-article-recovery-ledger.json"))
     p.add_argument("--report", type=Path, required=True)
     a = p.parse_args()
     report = analyze_pdf(a.pdf, a.ledger, a.volume)
+    if a.witness_manifest:
+        verify_print_witness(
+            a.witness_manifest, a.volume,
+            report["pdf_sha256"], report["pdf_total_pages"]
+        )
+        report["exact_1915_scan_sha256_verified"] = True
     a.report.parent.mkdir(parents=True, exist_ok=True)
     a.report.write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n",
