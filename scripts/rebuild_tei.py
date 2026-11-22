@@ -209,6 +209,19 @@ def unique_numbered_paragraph(article, marker):
     return matches[0] if len(matches) == 1 and matches[0] else None
 
 
+def is_literature_label(text):
+    """Recognize exact bibliography section labels, with optional section number."""
+    return bool(re.fullmatch(
+        r"(?:(?:[IVXLCDM]+|[0-9]+)\\.\\s*)?LITERATURE\\.?",
+        " ".join(text.split()), flags=re.I
+    ))
+
+
+def is_final_literature_heading(text):
+    normalized = " ".join(text.split())
+    return normalized.endswith(".") and is_literature_label(normalized)
+
+
 def build(imp, reviewed=None, occurrence_mappings=None):
     reviewed = reviewed or {}
     occurrence_mappings = occurrence_mappings or []
@@ -577,8 +590,93 @@ def build(imp, reviewed=None, occurrence_mappings=None):
         raise ValueError("Unmatched reviewed occurrence IDs: "
                          + ", ".join(sorted(set(occurrence_by_id) - used_occurrences)))
 
+    # CrossWire encoded many bibliography section headings as external
+    # dictionary hyperlinks to a non-existent LITERATURE entry. These are
+    # typographic section labels, not navigable encyclopedia references.
+    # Reclassify ONLY an explicit, leading, full-stop label near article end,
+    # preserving its xml:id, literal text and original ISBE target in n.
+    bibliography_reclassified = []
+    bibliography_toc = []
+    for source_key, source_article in articles_by_key.items():
+        children = list(source_article)
+        headings = []
+        for pos, block in enumerate(children):
+            if block.tag.split("}")[-1] != "p":
+                continue
+            if pos < max(0, len(children) - max(6, len(children) // 8)):
+                continue
+            if (block.text or "").strip():
+                continue
+            first = list(block)[0] if len(block) else None
+            if first is None or first.tag.split("}")[-1] != "ref":
+                continue
+            original_target = first.get("target", "")
+            if not original_target.startswith("ISBE:"):
+                continue
+            label = " ".join("".join(first.itertext()).split())
+            if not is_final_literature_heading(label):
+                continue
+            if not is_final_literature_heading(original_target[5:]):
+                continue
+            if pos == len(children) - 1:
+                continue
+            first_id = first.get(XMLID)
+            first.set("n", original_target)
+            first.attrib.pop("target")
+            first.tag = f"{{{TEI}}}hi"
+            first.set("rend", "bibliography-heading")
+            if len(block) == 1 and not (first.tail or "").strip():
+                block.tag = f"{{{TEI}}}head"
+                block.set("type", "bibliography")
+            else:
+                block.set("type", "bibliography-lead")
+            target_key = original_target[5:]
+            missing_refs[target_key] -= 1
+            if missing_refs[target_key] == 0:
+                del missing_refs[target_key]
+            reason_key = (target_key, "not_found")
+            if unresolved_details.get(reason_key, 0) <= 0:
+                raise ValueError(f"Unexpected bibliography heading state: {source_key}")
+            unresolved_details[reason_key] -= 1
+            if unresolved_details[reason_key] == 0:
+                del unresolved_details[reason_key]
+            headings.append(block.get(XMLID))
+            bibliography_reclassified.append({
+                "article_key": source_key, "source_ref_id": first_id,
+                "original_target": original_target,
+                "heading_id": block.get(XMLID),
+            })
+
+        # Redirect an original internal bibliography TOC link to the unique
+        # bibliographic heading, only within the *same* source article.
+        if len(headings) == 1:
+            for element in source_article.iter():
+                target = element.get("target", "")
+                if not target.startswith("ISBE:") or not is_literature_label(target[5:]):
+                    continue
+                element.set("n", target)
+                element.set("target", "#" + headings[0])
+                target_key = target[5:]
+                missing_refs[target_key] -= 1
+                if missing_refs[target_key] == 0:
+                    del missing_refs[target_key]
+                reason_key = (target_key, "not_found")
+                if unresolved_details.get(reason_key, 0) <= 0:
+                    raise ValueError(f"Unexpected local bibliography reference: {source_key}")
+                unresolved_details[reason_key] -= 1
+                if unresolved_details[reason_key] == 0:
+                    del unresolved_details[reason_key]
+                bibliography_toc.append({
+                    "article_key": source_key,
+                    "original_target": target, "heading_id": headings[0]
+                })
+
     report = {"source_entries": len(records), "tei_entries": len(body),
               "original_isbe_link_occurrences": original_isbe_links,
+              "reclassified_bibliography_headings": bibliography_reclassified,
+              "reclassified_bibliography_occurrences": len(bibliography_reclassified),
+              "resolved_bibliography_toc_links": bibliography_toc,
+              "resolved_bibliography_toc_occurrences": len(bibliography_toc),
               "indexed_content_nodes": nodes, "source_text_characters": text_chars,
               "other_root_tags": dict(unsupported),
               "source_title_variants": title_variants,
@@ -706,7 +804,9 @@ def main():
             resolved_seen += 1
             if target[1:] not in all_ids:
                 raise ValueError(f"Broken resolved ISBE link: {original} -> {target}")
-    if unresolved_seen + resolved_seen != report["original_isbe_link_occurrences"]:
+    if (unresolved_seen + resolved_seen
+            + report["reclassified_bibliography_occurrences"]
+            != report["original_isbe_link_occurrences"]):
         raise ValueError("A source ISBE cross-reference was lost or duplicated")
     if unresolved_seen != report["unresolved_link_occurrences"]:
         raise ValueError("Serialized TEI unresolved link total differs from report")
