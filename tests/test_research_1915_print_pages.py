@@ -16,9 +16,9 @@ ROOT = Path(__file__).resolve().parents[1]
 class PrintHeadingResearchTests(unittest.TestCase):
     def test_punctuation_and_composite_titles(self):
         self.assertEqual(normalize("ASTARTE; ASTORETH"), "ASTARTE ASTORETH")
-        self.assertEqual(candidate_heading("ASTARTE; ASTORETH, a title", "ASTARTE; ASTORETH"), 3)
+        self.assertEqual(candidate_heading("ASTARTE; ASTORETH, a title", "ASTARTE; ASTORETH"), 4)
         self.assertEqual(candidate_heading("AMNON, am'-non", "AMNON"), 3)
-        self.assertEqual(candidate_heading("AMNON", "AMNON"), 4)
+        self.assertEqual(candidate_heading("AMNON", "AMNON"), 5)\n        self.assertEqual(candidate_heading("Amnon", "AMNON"), 1)\n        self.assertEqual(candidate_heading("antiquity", "ANTIQUITY"), 1)
 
     def test_two_column_ocr_line_finds_right_column_headword(self):
         pages = [
