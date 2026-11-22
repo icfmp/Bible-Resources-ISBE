@@ -106,7 +106,11 @@ def resolve_local_heading(article, reference):
         if list(parent)[0] is not el or (parent.text or "").strip():
             continue
         standalone_heading = len(list(parent)) == 1 and not (el.tail or "").strip()
-        if el.get("rend") != "underline" and not standalone_heading:
+        label_text = "".join(el.itertext()).strip()
+        numbered_title = bool(re.match(r"^(?:[IVXLCDM]+|[0-9]+)\\.\\s+", label_text, re.I))
+        named_literature_heading = normalize_section_label(label_text) == "literature"
+        explicit_heading_prefix = (numbered_title or named_literature_heading) and label_text.endswith((".", ":"))
+        if el.get("rend") != "underline" and not standalone_heading and not explicit_heading_prefix:
             continue
         label = normalize_section_label("".join(el.itertext()))
         if label == target:
