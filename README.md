@@ -10,6 +10,8 @@ A reproducible, multilingual editorial workspace for the historical **Internatio
 - `cleaned/en/article-index.json` contains a stable identifier and source-content checksum for each entry.
 - `workspace/reports/tei-reconstruction.json` records content integrity and unresolved cross-references.
 - Modern English and translations **have not been started**.
+- The [ISBE TEI P5 structure profile](docs/tei-structure-profile.md) defines the **target** for article structure and biblical references, informed by the source-first standards used in `icfmp/Bible-Resources`.
+- The [full-corpus structure inventory](workspace/reports/tei-structure-inventory.json) confirms all 9,380 article XML trees are in the TEI namespace, but also records **93,162 legacy `osisRef` attributes**, **9,380 untyped index labels** and **27 bibliography headings requiring structural review**. The master has **not yet passed an official TEI P5 schema validation**; tracked in [issue #3](https://github.com/icfmp/Bible-Resources-ISBE/issues/3).
 
 ## Layout
 
@@ -48,4 +50,4 @@ The cleaned TEI is a **transcription of the CrossWire digital source**, not a cr
 
 The CrossWire source contains **6,079 encyclopedia reference occurrences**. The latest verified reconstruction has **5,906 valid internal TEI links**, **29 source references correctly represented as bibliography headings**, and **144 unresolved references converted to non-clickable source-reference segments**. **There are zero active broken `ISBE:` links in the canonical TEI.** From the original 1,344 problematic references, **1,171 have become valid links**, 29 were reclassified as headings, and 144 remain unlinked because no destination can currently be justified; 6 of the resolved links are explicitly documented as less-precise article-level fallbacks. The unlinked references span 130 distinct original targets; they preserve their full visible text, source `xml:id` and original `ISBE:…` string in the `n` attribute. The exact per-occurrence disposition is recorded in `workspace/reports/tei-reconstruction.json`, editorial decisions in `workspace/reviews/accepted-title-aliases.json`, and review candidates in `workspace/reviews/unresolved-links.json` and `workspace/reviews/link-contexts.json`. All 9,380 entries and 22,670,955 source-text characters remain intact. These are integrity-checked TEI results, not independent runtime verification in SWORD readers.
 
-See [TEI conventions](docs/article-format.md), [workflow](docs/workflow.md), and [source policy](docs/source-policy.md).
+See the [normative ISBE TEI target profile](docs/tei-structure-profile.md), [current format and IDs](docs/article-format.md), [workflow](docs/workflow.md), and [source policy](docs/source-policy.md).
