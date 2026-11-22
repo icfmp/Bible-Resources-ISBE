@@ -62,9 +62,9 @@ class LinkResolutionTests(unittest.TestCase):
 
     def test_self_ambiguous_alias_redirects_to_only_other_article(self):
         from rebuild_tei import build
-        imp = """$$ATHANASIAN; CREED
+        imp = """$$$ATHANASIAN; CREED
 <entryFree n="ATHANASIAN; CREED"><p>See <ref target="ISBE:CREED">CREED</ref>.</p></entryFree>
-$$CREED; CREEDS
+$$$CREED; CREEDS
 <entryFree n="CREED; CREEDS"><p>A general creed entry.</p></entryFree>"""
         root, _, report = build(imp)
         source = next(el for el in root.iter() if el.tag.endswith("div") and el.get("n") == "ATHANASIAN; CREED")
@@ -75,11 +75,11 @@ $$CREED; CREEDS
 
     def test_ambiguous_alias_from_other_article_stays_unresolved(self):
         from rebuild_tei import build
-        imp = """$$OTHER
+        imp = """$$$OTHER
 <entryFree n="OTHER"><p>See <ref target="ISBE:CREED">CREED</ref>.</p></entryFree>
-$$ATHANASIAN; CREED
+$$$ATHANASIAN; CREED
 <entryFree n="ATHANASIAN; CREED"><p>One subject.</p></entryFree>
-$$CREED; CREEDS
+$$$CREED; CREEDS
 <entryFree n="CREED; CREEDS"><p>Another subject.</p></entryFree>"""
         _, _, report = build(imp)
         self.assertEqual(report["resolved_redirect_alias_occurrences"], 0)
