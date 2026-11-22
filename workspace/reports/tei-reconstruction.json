@@ -691,6 +691,12 @@
       "occurrences": 3
     },
     {
+      "original": "BRIDE-CHAMBER, SONS",
+      "resolved_to": "BRIDE-CHAMBER, SONS (CHILDREN) OF THE",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "BROOK OF EGYPT",
       "resolved_to": "BROOK OF EGYPT, THE",
       "rule": "inverted_definite_article",
@@ -934,6 +940,12 @@
       "original": "COMMANDMENT",
       "resolved_to": "COMMANDMENT; COMMANDMENTS",
       "rule": "explicit_semicolon_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "COMMANDMENT; TEN COMMANDMENTS",
+      "resolved_to": "COMMANDMENTS, THE TEN",
+      "rule": "reviewed_title_alias",
       "occurrences": 1
     },
     {
@@ -1567,6 +1579,12 @@
       "occurrences": 2
     },
     {
+      "original": "HERETH",
+      "resolved_to": "HERETH, THE FOREST OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "HILL",
       "resolved_to": "HILL; MOUNT; MOUNTAIN",
       "rule": "explicit_semicolon_title_alias",
@@ -1849,6 +1867,12 @@
       "occurrences": 7
     },
     {
+      "original": "MAKE",
+      "resolved_to": "MAKE, MAKER",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "MAKTESH",
       "resolved_to": "MAKTESH, THE",
       "rule": "inverted_definite_article",
@@ -2109,6 +2133,12 @@
     {
       "original": "PARAN",
       "resolved_to": "PARAN, EL-PARAN",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
+      "original": "PARTITION",
+      "resolved_to": "PARTITION, THE MIDDLE WALL OF",
       "rule": "reviewed_title_alias",
       "occurrences": 1
     },
@@ -2395,6 +2425,12 @@
       "occurrences": 1
     },
     {
+      "original": "SHAALIM",
+      "resolved_to": "SHAALIM, LAND OF",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "SHECANIAH",
       "resolved_to": "SHECANIAH; SHECHANIAH",
       "rule": "explicit_semicolon_title_alias",
@@ -2659,6 +2695,12 @@
       "occurrences": 1
     },
     {
+      "original": "TEMPLE KEEPERS",
+      "resolved_to": "TEMPLE KEEPERS (SERVANTS)",
+      "rule": "reviewed_title_alias",
+      "occurrences": 1
+    },
+    {
       "original": "TEMPT",
       "resolved_to": "TEMPT; TEMPTATION",
       "rule": "explicit_semicolon_title_alias",
@@ -2833,7 +2875,7 @@
       "occurrences": 1
     }
   ],
-  "resolved_variant_occurrences": 884,
+  "resolved_variant_occurrences": 891,
   "resolved_local_section_links": [
     {
       "article_key": "ACCOMMODATION",
@@ -4852,11 +4894,6 @@
       "occurrences": 1
     },
     {
-      "original": "BRIDE-CHAMBER, SONS",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "BURIAL, IV",
       "reason": "not_found",
       "occurrences": 1
@@ -4893,11 +4930,6 @@
     },
     {
       "original": "CLOUD, II, 2",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "COMMANDMENT; TEN COMMANDMENTS",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5087,11 +5119,6 @@
       "occurrences": 1
     },
     {
-      "original": "HERETH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "HEROD'S",
       "reason": "not_found",
       "occurrences": 1
@@ -5162,11 +5189,6 @@
       "occurrences": 1
     },
     {
-      "original": "MAKE",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "MEALS; TRICLINIUM",
       "reason": "not_found",
       "occurrences": 1
@@ -5218,11 +5240,6 @@
     },
     {
       "original": "OTIARTES",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "PARTITION",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5332,11 +5349,6 @@
       "occurrences": 1
     },
     {
-      "original": "SHAALIM",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
       "original": "SHEBA",
       "reason": "not_found",
       "occurrences": 1
@@ -5378,11 +5390,6 @@
     },
     {
       "original": "TAPPUAH",
-      "reason": "not_found",
-      "occurrences": 1
-    },
-    {
-      "original": "TEMPLE KEEPERS",
       "reason": "not_found",
       "occurrences": 1
     },
@@ -5538,13 +5545,11 @@
     "EAST": 2,
     "TEMPLE, II, 4": 1,
     "ERI-AKU, 4": 1,
-    "BRIDE-CHAMBER, SONS": 1,
     "JUDGES": 1,
     "CLOUD, II, 2": 1,
     "PILLAR OF CLOUD": 1,
     "ARMOR, III, 1": 1,
     "VALE OF ESHCOL": 1,
-    "COMMANDMENT; TEN COMMANDMENTS": 1,
     "TEXTUAL CRITICISM": 2,
     "DEMON, DEMONOLOGY": 1,
     "FORTIFICATION, II, 1": 1,
@@ -5598,7 +5603,6 @@
     "HEBREWS": 1,
     "HOARY": 1,
     "DRY": 1,
-    "HERETH": 1,
     "HAROD": 1,
     "GEDI": 1,
     "ROAD": 1,
@@ -5614,10 +5618,8 @@
     "SEPHER": 1,
     "PUNISHMENT": 1,
     "DEBAR": 1,
-    "MAKE": 1,
     "TO": 1,
     "SAQQAREH": 1,
-    "PARTITION": 1,
     "PASSION": 1,
     "NAMES": 1,
     "LOT": 1,
@@ -5628,28 +5630,28 @@
     "POETRY": 1,
     "SAMARIA": 1,
     "BOSHETH": 1,
-    "SHAALIM": 1,
     "ARBEL": 1,
     "CHALDEES": 1,
     "ALTAR OF INCENSE": 1,
     "SARIS": 1,
     "ALTAR OF BURNT OFFERING": 1,
-    "REBELLION": 1,
-    "TEMPLE KEEPERS": 1
+    "REBELLION": 1
   },
-  "unresolved_link_occurrences": 186,
+  "unresolved_link_occurrences": 179,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5864,
+  "resolved_internal_links_validated": 5871,
   "xml_id_uniqueness": "validated",
-  "reviewed_title_alias_count": 78,
+  "reviewed_title_alias_count": 85,
   "reviewed_title_aliases_used": [
     "BACK",
     "BILL",
+    "BRIDE-CHAMBER, SONS",
     "BROTHERLY KINDNESS (LOVE)",
     "CANAAN, CANAANITE",
     "CHESTNUT",
     "CHRIST AS KING",
     "COLOSSIANS",
+    "COMMANDMENT; TEN COMMANDMENTS",
     "COURTS",
     "DAY OF THE LORD",
     "DEBIR",
@@ -5670,6 +5672,7 @@
     "HANANEL",
     "HEAVENS, NEW",
     "HEBRON",
+    "HERETH",
     "ISHUAI",
     "JAPHETH",
     "JASHAR",
@@ -5680,6 +5683,7 @@
     "LAMENTATIONS",
     "LAST TIME",
     "LUNATIC",
+    "MAKE",
     "MAN (THE NATURAL)",
     "MEALS",
     "MEJARGON",
@@ -5695,12 +5699,14 @@
     "PALAESTRA",
     "PALLU",
     "PARAN",
+    "PARTITION",
     "PERSIAN RELIGION",
     "PHILIPPIANS",
     "PROVERBS",
     "PSALMS",
     "ROLL",
     "SEMITES",
+    "SHAALIM",
     "SHEPHUPHAM",
     "SHERGHAT",
     "SHEW",
@@ -5711,6 +5717,7 @@
     "SYCAMINE",
     "SYCOMORE",
     "SYRIA",
+    "TEMPLE KEEPERS",
     "THE TWIN BROTHERS",
     "THORNS",
     "TOB",

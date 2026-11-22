@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 186,
+  "total_unresolved_occurrences": 179,
   "category_counts": {
     "ambiguous_semicolon_alias": 1,
-    "requires_review": 185
+    "requires_review": 178
   },
   "unresolved_numbered_homonyms": [
     {
@@ -1064,16 +1064,6 @@
       ]
     },
     {
-      "target": "BRIDE-CHAMBER, SONS",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "BRIDE-CHAMBER",
-          "ratio": 0.812
-        }
-      ]
-    },
-    {
       "target": "BURIAL, IV",
       "occurrences": 1,
       "candidates": [
@@ -1174,16 +1164,6 @@
         {
           "title": "CHERISH",
           "ratio": 0.769
-        }
-      ]
-    },
-    {
-      "target": "COMMANDMENT; TEN COMMANDMENTS",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "COMMANDMENT; COMMANDMENTS",
-          "ratio": 0.926
         }
       ]
     },
@@ -1592,28 +1572,6 @@
       ]
     },
     {
-      "target": "HERETH",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "HEREWITH",
-          "ratio": 0.857
-        },
-        {
-          "title": "ZERETH",
-          "ratio": 0.833
-        },
-        {
-          "title": "HERESH",
-          "ratio": 0.833
-        },
-        {
-          "title": "HEARTH",
-          "ratio": 0.833
-        }
-      ]
-    },
-    {
       "target": "HEROD'S",
       "occurrences": 1,
       "candidates": [
@@ -1792,28 +1750,6 @@
       ]
     },
     {
-      "target": "MAKE",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "MAKER",
-          "ratio": 0.889
-        },
-        {
-          "title": "MAKED",
-          "ratio": 0.889
-        },
-        {
-          "title": "TAKE",
-          "ratio": 0.75
-        },
-        {
-          "title": "MARK",
-          "ratio": 0.75
-        }
-      ]
-    },
-    {
       "target": "MEALS; TRICLINIUM",
       "occurrences": 1,
       "candidates": [
@@ -1924,28 +1860,6 @@
         {
           "title": "TARES",
           "ratio": 0.769
-        }
-      ]
-    },
-    {
-      "target": "PARTITION",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "APPARITION",
-          "ratio": 0.842
-        },
-        {
-          "title": "PETITION",
-          "ratio": 0.824
-        },
-        {
-          "title": "PERDITION",
-          "ratio": 0.778
-        },
-        {
-          "title": "PROSTITUTION",
-          "ratio": 0.762
         }
       ]
     },
@@ -2264,28 +2178,6 @@
       ]
     },
     {
-      "target": "SHAALIM",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "SHAALBIM",
-          "ratio": 0.933
-        },
-        {
-          "title": "SHALIM",
-          "ratio": 0.923
-        },
-        {
-          "title": "SHARAIM",
-          "ratio": 0.857
-        },
-        {
-          "title": "SALIM",
-          "ratio": 0.833
-        }
-      ]
-    },
-    {
       "target": "SHEBA",
       "occurrences": 1,
       "candidates": [
@@ -2559,13 +2451,6 @@
       ]
     },
     {
-      "target": "BRIDE-CHAMBER, SONS",
-      "occurrences": 1,
-      "title_candidates": [
-        "BRIDE-CHAMBER, SONS (CHILDREN) OF THE"
-      ]
-    },
-    {
       "target": "CHRIST",
       "occurrences": 1,
       "title_candidates": [
@@ -2659,13 +2544,6 @@
       ]
     },
     {
-      "target": "HERETH",
-      "occurrences": 1,
-      "title_candidates": [
-        "HERETH, THE FOREST OF"
-      ]
-    },
-    {
       "target": "JEARIM",
       "occurrences": 1,
       "title_candidates": [
@@ -2713,13 +2591,6 @@
       ]
     },
     {
-      "target": "MAKE",
-      "occurrences": 1,
-      "title_candidates": [
-        "MAKE, MAKER"
-      ]
-    },
-    {
       "target": "MILLENNIUM",
       "occurrences": 1,
       "title_candidates": [
@@ -2748,13 +2619,6 @@
       "occurrences": 1,
       "title_candidates": [
         "NUMBERS, BOOK OF"
-      ]
-    },
-    {
-      "target": "PARTITION",
-      "occurrences": 1,
-      "title_candidates": [
-        "PARTITION, THE MIDDLE WALL OF"
       ]
     },
     {
@@ -2849,13 +2713,6 @@
       ]
     },
     {
-      "target": "SHAALIM",
-      "occurrences": 1,
-      "title_candidates": [
-        "SHAALIM, LAND OF"
-      ]
-    },
-    {
       "target": "SHEBA",
       "occurrences": 1,
       "title_candidates": [
@@ -2878,13 +2735,6 @@
       "title_candidates": [
         "TAPPUAH (1)",
         "TAPPUAH (2)"
-      ]
-    },
-    {
-      "target": "TEMPLE KEEPERS",
-      "occurrences": 1,
-      "title_candidates": [
-        "TEMPLE KEEPERS (SERVANTS)"
       ]
     },
     {
@@ -2958,12 +2808,6 @@
       "context": "See NUMBERS; GAMES."
     },
     {
-      "article_key": "HARETH",
-      "original_target": "HERETH",
-      "candidate": "HERETH, THE FOREST OF",
-      "context": "See HERETH."
-    },
-    {
       "article_key": "HARODITE",
       "original_target": "HAROD",
       "candidate": "HAROD, WELL OF",
@@ -2992,18 +2836,6 @@
       "original_target": "PUNISHMENT",
       "candidate": "PUNISHMENT, EVERLASTING",
       "context": "See also PUNISHMENT."
-    },
-    {
-      "article_key": "MAKER",
-      "original_target": "MAKE",
-      "candidate": "MAKE, MAKER",
-      "context": "See MAKE."
-    },
-    {
-      "article_key": "MIDDLE WALL",
-      "original_target": "PARTITION",
-      "candidate": "PARTITION, THE MIDDLE WALL OF",
-      "context": "See PARTITION."
     },
     {
       "article_key": "NAME",
@@ -3040,12 +2872,6 @@
       "original_target": "PROPHET",
       "candidate": "PROPHET, THE OLD",
       "context": "See PROPHET; PROPHECY."
-    },
-    {
-      "article_key": "SHALIM",
-      "original_target": "SHAALIM",
-      "candidate": "SHAALIM, LAND OF",
-      "context": "See SHAALIM."
     },
     {
       "article_key": "SIRACH, BOOK OF",
@@ -4037,19 +3863,6 @@
       "context": "See ERI-AKU, 4."
     },
     {
-      "article_key": "CHILDREN OF THE BRIDECHAMBER",
-      "ref_id": "isbe-2b8ffa452f08c5cc0499-n000004",
-      "original_target": "BRIDE-CHAMBER, SONS",
-      "displayed_text": "BRIDE-CHAMBER, SONS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See BRIDE-CHAMBER, SONS."
-    },
-    {
       "article_key": "CITY",
       "ref_id": "isbe-31a5fbc075a79de045a6-n000106",
       "original_target": "JUDGES",
@@ -4116,19 +3929,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "(1) 'eshkol; compare proper name VALE OF ESHCOL. (which see), from root meaning \"to bind together.\" A cluster or bunch of grapes (Ge 40:10; Nu 13:23; Isa 65:8; So 7:8; Mic 7:1, etc.); a cluster of henna flowers (So 1:14); a cluster of dates (So 7:7). \"Their grapes are grapes of gall, their clusters are bitter.\" (De 32:32)."
-    },
-    {
-      "article_key": "COMMANDMENTS, THE TEN",
-      "ref_id": "isbe-4136f85c1ba373314705-n000004",
-      "original_target": "COMMANDMENT; TEN COMMANDMENTS",
-      "displayed_text": "COMMANDMENT; TEN COMMANDMENTS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See COMMANDMENT; TEN COMMANDMENTS."
     },
     {
       "article_key": "COMMENTARIES",
@@ -4950,21 +4750,6 @@
       "context": "(1) \"Ground\" is in the King James Version the translation of 'adhamah, \"the soil,\" the ground so called from its red color, frequently also translated \"earth\" and \"land\" (Ge 2:5 f, etc.; Ex 3:5; 8:21, etc.); it is more often the translation of 'erets, which means rather the earth, most often translated \"earth\" and \"land\" (Ge 18:2; Ps 74:7; Isa 3:26, etc.); other words are chelqah, \"portion,\" \"field\" (2Sa 23:12, the Revised Version (British and Am"
     },
     {
-      "article_key": "HARETH",
-      "ref_id": "isbe-34fde6cdbd5cbca5b207-n000005",
-      "original_target": "HERETH",
-      "displayed_text": "HERETH",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "HERETH, THE FOREST OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See HERETH."
-    },
-    {
       "article_key": "HARODITE",
       "ref_id": "isbe-69421f188ccd3d089f42-n000006",
       "original_target": "HAROD",
@@ -5223,21 +5008,6 @@
       "context": "lid'-e-ber (lidhebhir): For \"of Debir\" in EV; the Revised Version margin suggests the name \"Lidebir\" (Jos 13:26), a city in the territory of Gad. It is probably identical with LO-DEBAR (which see)."
     },
     {
-      "article_key": "MAKER",
-      "ref_id": "isbe-8682907b1f0aef20dbac-n000005",
-      "original_target": "MAKE",
-      "displayed_text": "MAKE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "MAKE, MAKER"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See MAKE."
-    },
-    {
       "article_key": "MARK, JOHN",
       "ref_id": "isbe-080d71b9f44392c479a3-n000033",
       "original_target": "TO",
@@ -5279,21 +5049,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "me-fib'-o-sheth (mephibhosheth, \"idol-breaker,\" also MERIB-BAAL (which see); Memphibosthe):"
-    },
-    {
-      "article_key": "MIDDLE WALL",
-      "ref_id": "isbe-cf0eb795311cd0067da0-n000004",
-      "original_target": "PARTITION",
-      "displayed_text": "PARTITION",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "PARTITION, THE MIDDLE WALL OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See PARTITION."
     },
     {
       "article_key": "MOTION",
@@ -5513,21 +5268,6 @@
       "context": "See PROPHET; PROPHECY."
     },
     {
-      "article_key": "SHALIM",
-      "ref_id": "isbe-6b2ea0c1c8c418764690-n000005",
-      "original_target": "SHAALIM",
-      "displayed_text": "SHAALIM",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "SHAALIM, LAND OF"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See SHAALIM."
-    },
-    {
       "article_key": "SHALMAN",
       "ref_id": "isbe-be20b70125c181f13dd9-n000005",
       "original_target": "ARBEL",
@@ -5678,19 +5418,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "wosh, wosh'-ing: The two usual Hebrew words for \"wash\" are rachats, and kabhac, the former being normally used of persons or of sacrificial animals (Ge 18:4, etc., often translated \"bathe\"; Le 15:5, etc.), and the latter of things (Ge 49:11, etc.), the exceptions to this distinction being few (for rachats, 1Ki 22:38 margin; for kabhac, Ps 51:2,7; Jer 2:22; 4:14). Much less common are duach (2Ch 4:6; Isa 4:4; Eze 40:38) and shataph (1Ki 22:38; Job"
-    },
-    {
-      "article_key": "WORSHIPPER",
-      "ref_id": "isbe-8ea929244fcf43f53baf-n000005",
-      "original_target": "TEMPLE KEEPERS",
-      "displayed_text": "TEMPLE KEEPERS",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See TEMPLE KEEPERS; WORSHIP."
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 186,
-  "unresolved_distinct_targets": 168,
+  "unresolved_occurrences": 179,
+  "unresolved_distinct_targets": 161,
   "categories_by_occurrence": {
     "article_section_label": 15,
     "multiple_numbered_entries": 8,
     "single_numbered_entry_candidate": 3,
-    "unmatched_heading_or_alias": 160
+    "unmatched_heading_or_alias": 153
   },
   "review_queue": [
     {
@@ -337,13 +337,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "BRIDE-CHAMBER, SONS",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "BURIAL, IV",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -394,13 +387,6 @@
     },
     {
       "source_target": "CLOUD, II, 2",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "COMMANDMENT; TEN COMMANDMENTS",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -666,13 +652,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "HERETH",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "HEROD'S",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -777,13 +756,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "MAKE",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "MEALS; TRICLINIUM",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -855,13 +827,6 @@
     },
     {
       "source_target": "OTIARTES",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "PARTITION",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -1019,13 +984,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "SHAALIM",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "SHEBA",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
@@ -1092,13 +1050,6 @@
         "TAPPUAH (1)",
         "TAPPUAH (2)"
       ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "TEMPLE KEEPERS",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
       "status": "needs_review"
     },
     {
