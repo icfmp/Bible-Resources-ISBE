@@ -51,7 +51,7 @@ class PrintRecoveryCandidateConsistencyTests(unittest.TestCase):
                 self.assertTrue(evidence["visual_page_inspected"])
                 self.assertTrue(original["print_image_reviewed"])
                 self.assertFalse(row["approved"])
-                self.assertFalse(row.get(certification_field, False))
+                self.assertFalse(row[certification_field])
                 self.assertFalse(evidence["all_text_punctuation_and_foreign_script_certified"])
                 self.assertFalse(evidence["canonical_modification_approved"])
                 self.assertFalse(original["source_recovery_approved"])
