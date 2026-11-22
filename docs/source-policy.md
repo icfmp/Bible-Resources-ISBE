@@ -1,9 +1,13 @@
-# Source, integrity and rights
+# Provenance and fidelity
 
-The historic 1915 ISBE, the **CrossWire module 2.2**, and any subsequent normalized or modernized editions are different artifacts. Do not describe CrossWire 2.2 as a verified exact reproduction of the printed 1915 edition without comparison.
+The historical 1915 work, the CrossWire ISBE **SWORD module 2.2**, our faithful rebuilt **TEI master**, and future modernizations/translations are distinct artifacts.
 
-For each upstream artifact capture: upstream URL, retrieval timestamp (UTC), module identifier and version, original filename, byte count, SHA-256, license/permissions, and any relevant metadata. Verify actual redistribution rights, including bundled additions and the jurisdictions relevant to publication.
+## Archived original
 
-Keep the complete downloaded source; never overwrite or normalize it in place. Corrections of transcription errors are recorded with source evidence, and historical modernization remains explicitly separate from faithful extraction.
+`sources/crosswire/isbe-2.2/ISBE.zip` was obtained from the CrossWire distribution and retained without modification. Its exact URL, timestamp, size and SHA-256 are recorded in `MANIFEST.json`. The ZIP contains one module configuration and four compressed dictionary files. The module configuration states `SourceType=TEI`, `ModDrv=zLD`, `Encoding=UTF-8`, `Version=2.2`, `DistributionLicense=Public Domain`. The module's documented 2.2 history includes an OCR correction and layout improvements.
 
-The cleaned master must be reproducible from the recorded original using a deterministic tool and a report of structural differences; current folder placeholders are **not evidence of ingestion**.
+## Derived artifacts
+
+`workspace/exports/isbe-2.2.imp` preserves the content exported by SWORD. The extractor reconstructs `cleaned/en/ISBE.xml` with stable identifiers, preserving article text and all source-contained scripture references. This **does not independently verify** the digital text against printed 1915 volumes; no such claim should be made.
+
+Only source-backed editorial corrections may alter historical content, and each correction must be documented and reversible. Modern English and translations are separate derivative editions. Before publishing, review licensing and legal rights for both the digital original and derivatives in intended jurisdictions.
