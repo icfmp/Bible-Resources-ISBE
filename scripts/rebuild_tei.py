@@ -51,7 +51,12 @@ def entries_from_imp(text):
         yield key, text[match.end():end].strip()
 
 
-def resolve_key(raw_key, ids, normalized):
+def separator_key(text):
+    """Ignore editorial separators, retaining letters, digits and apostrophes."""
+    return re.sub(r"[\\s,;().-]+", "", text.casefold())
+
+
+def resolve_key(raw_key, ids, normalized, separators=None):
     """Resolve only unique case, spacing or terminal-dot variations."""
     if raw_key in ids:
         return raw_key, "exact"
@@ -65,6 +70,12 @@ def resolve_key(raw_key, ids, normalized):
         matches = normalized.get(folded[:-1].rstrip(), ())
         if len(matches) == 1:
             return matches[0], "terminal_period"
+        if len(matches) > 1:
+            return None, "ambiguous"
+    if separators is not None:
+        matches = separators.get(separator_key(raw_key), ())
+        if len(matches) == 1:
+            return matches[0], "unique_separator_variant"
         if len(matches) > 1:
             return None, "ambiguous"
     return None, "not_found"
@@ -116,6 +127,10 @@ def build(imp):
     normalized = {}
     for key in ids:
         normalized.setdefault(key.strip().casefold(), []).append(key)
+
+    separators = {}
+    for key in ids:
+        separators.setdefault(separator_key(key), []).append(key)
 
     root = ET.Element(f"{{{TEI}}}TEI")
     header = ET.SubElement(root, f"{{{TEI}}}teiHeader")
@@ -186,7 +201,7 @@ def build(imp):
             target = element.attrib.get("target", "")
             if target.startswith("ISBE:"):
                 link_key = target[5:]
-                resolved_key, reason = resolve_key(link_key, ids, normalized)
+                resolved_key, reason = resolve_key(link_key, ids, normalized, separators)
                 if resolved_key is not None:
                     element.set("n", target)
                     element.set("target", "#" + ids[resolved_key])
