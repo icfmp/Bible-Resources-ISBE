@@ -28,6 +28,8 @@ jobs:
         run: |
           set -euo pipefail
           git add workspace/exports/isbe-2.2.imp cleaned/en/ISBE.xml cleaned/en/article-index.json workspace/reports/tei-reconstruction.json workspace/reviews/unresolved-links.json
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Import 9,380 ISBE entries as integrity-checked TEI master'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Import 9,380 ISBE entries as integrity-checked TEI master'
           git pull --rebase origin main
           git push origin HEAD:main
