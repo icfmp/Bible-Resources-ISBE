@@ -1,0 +1,23 @@
+name: Validate empty-article recovery ledger
+
+on:
+  push:
+    paths:
+      - 'workspace/reviews/empty-article-recovery-ledger.json'
+      - 'tests/test_empty_article_recovery_ledger.py'
+      - 'cleaned/en/ISBE.xml'
+  pull_request:
+    paths:
+      - 'workspace/reviews/empty-article-recovery-ledger.json'
+      - 'tests/test_empty_article_recovery_ledger.py'
+      - 'cleaned/en/ISBE.xml'
+      - '.github/workflows/validate-empty-article-ledger.yml'
+  workflow_dispatch:
+
+jobs:
+  verify-ledger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify canonical source and all 31 ledger records
+        run: python -m unittest discover -s tests -p 'test_empty_article_recovery_ledger.py'
