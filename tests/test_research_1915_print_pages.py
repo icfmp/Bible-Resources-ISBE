@@ -20,6 +20,16 @@ class PrintHeadingResearchTests(unittest.TestCase):
         self.assertEqual(candidate_heading("AMNON, am'-non", "AMNON"), 3)
         self.assertEqual(candidate_heading("AMNON", "AMNON"), 4)
 
+    def test_two_column_ocr_line_finds_right_column_headword(self):
+        pages = [
+            "End of another article in the left column       ABISSEI, a-bis'-e-i (AV Abisei):\n"
+            "More unrelated prose goes here                  An ancestor of Ezra",
+        ]
+        hits = find_headings(pages, ["ABISSEI"])
+        self.assertTrue(hits["ABISSEI"])
+        self.assertEqual(hits["ABISSEI"][0]["pdf_page_1_based"], 1)
+        self.assertIn("ABISSEI", hits["ABISSEI"][0]["source_line"])
+
     def test_no_prose_substring_or_running_header_claim(self):
         self.assertEqual(candidate_heading("The eldest son, Amnon, was ...", "AMNON"), 0)
         self.assertEqual(candidate_heading("AMNONITES", "AMNON"), 0)
