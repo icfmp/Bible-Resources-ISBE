@@ -1,0 +1,21 @@
+{
+  "source": "CrossWire SWORD raw module package",
+  "module": "ISBE",
+  "expected_module_version": "2.2",
+  "download_url": "https://www2.crosswire.org/ftpmirror/pub/sword/raw/packages/ISBE.zip",
+  "retrieved_at_utc": "2026-11-22T15:22:22.740252+00:00",
+  "archive_filename": "ISBE.zip",
+  "archive_bytes": 9987447,
+  "archive_sha256": "4de747545d9c349ab724bc1708b01df5481e3b93e5e51077f859dd8a32023a32",
+  "zip_file_count": 5,
+  "zip_members": [
+    "mods.d/isbe.conf",
+    "modules/lexdict/zld/isbe/isbe.idx",
+    "modules/lexdict/zld/isbe/isbe.dat",
+    "modules/lexdict/zld/isbe/isbe.zdt",
+    "modules/lexdict/zld/isbe/isbe.zdx"
+  ],
+  "license_evidence_url": "https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=ISBE",
+  "redistribution_review": "PENDING_INDEPENDENT_REVIEW",
+  "notes": "Exact CrossWire archive preserved; contents not yet editorially checked against print."
+}
