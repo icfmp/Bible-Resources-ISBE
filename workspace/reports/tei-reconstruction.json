@@ -3186,8 +3186,369 @@
     }
   ],
   "resolved_primary_alias_occurrences": 7,
-  "resolved_reviewed_occurrences": [],
-  "resolved_reviewed_occurrence_count": 0,
+  "resolved_reviewed_occurrences": [
+    {
+      "source_article": "ABISHALOM",
+      "ref_id": "isbe-77cdf8fa6b9a84cfa0fc-n000004",
+      "original": "ABSALOM",
+      "destination_article": "ABSALOM (1)",
+      "destination_id": "isbe-5fdaf5529f833286fec7",
+      "basis": "ABISHALOM is a variant of Absalom, David's son, described in ABSALOM (1)."
+    },
+    {
+      "source_article": "ABSALON",
+      "ref_id": "isbe-3e7291583b4cfd8d7e6d-n000004",
+      "original": "ABSALOM",
+      "destination_article": "ABSALOM (2)",
+      "destination_id": "isbe-9c853a9cd15126694f53",
+      "basis": "ABSALON explicitly points to the Apocryphal Absalom, described in ABSALOM (2)."
+    },
+    {
+      "source_article": "ADAM IN THE OLD TESTAMENT",
+      "ref_id": "isbe-c98a9bd231e4b72b644d-n000057",
+      "original": "EVE",
+      "destination_article": "EVE IN THE OLD TESTAMENT",
+      "destination_id": "isbe-b522b8cf0004841d8998",
+      "basis": "The Adam article discusses Genesis 3 and the first woman Eve in the Old Testament."
+    },
+    {
+      "source_article": "ANNA",
+      "ref_id": "isbe-5c5a268702708ababeb9-n000008",
+      "original": "SIMEON",
+      "destination_article": "SIMEON (2)",
+      "destination_id": "isbe-f6a37677f8d137e2083c",
+      "basis": "Anna's article discusses the Temple period of Jesus' birth; the contemporary Simeon is in SIMEON (2)."
+    },
+    {
+      "source_article": "ARABIA",
+      "ref_id": "isbe-7b22d917243de31494ad-n000080",
+      "original": "SHEBA",
+      "destination_article": "SHEBA (1)",
+      "destination_id": "isbe-0078a8518d15c66a2dbe",
+      "basis": "The Arabian context concerns the land and descendants of Sheba, treated in SHEBA (1), not the Judahite town."
+    },
+    {
+      "source_article": "ARIEH",
+      "ref_id": "isbe-fe7bf63eb833d19f618e-n000004",
+      "original": "ARGOB",
+      "destination_article": "ARGOB (1)",
+      "destination_id": "isbe-0db782069bf32b97c437",
+      "basis": "ARIEH explicitly refers to the associate Argob in 2 Kings 15:25, treated in ARGOB (1)."
+    },
+    {
+      "source_article": "BAALIM",
+      "ref_id": "isbe-4700620a20a2b1848aa0-n000004",
+      "original": "BAAL",
+      "destination_article": "BAAL (1)",
+      "destination_id": "isbe-aa129a30edcc782f9006",
+      "basis": "BAALIM is the plural of the Canaanite deity Baal, the subject of BAAL (1)."
+    },
+    {
+      "source_article": "BACCHIDES",
+      "ref_id": "isbe-c8e409cfb4866f455a67-n000006",
+      "original": "JONATHAN",
+      "destination_article": "JONATHAN (1)",
+      "destination_id": "isbe-c882fd8690e7d23c79c5",
+      "basis": "The Maccabean Jonathan in the Apocrypha is among the named figures in the general JONATHAN (1), not Saul's son."
+    },
+    {
+      "source_article": "BASCAMA",
+      "ref_id": "isbe-cbb765b2a6ce495353ca-n000004",
+      "original": "JONATHAN",
+      "destination_article": "JONATHAN (1)",
+      "destination_id": "isbe-c882fd8690e7d23c79c5",
+      "basis": "The reference explicitly mentions Jonathan son of Absalom in 1 Maccabees, not the son of Saul."
+    },
+    {
+      "source_article": "CANAAN; CANAANITES",
+      "ref_id": "isbe-321c8192e5660800ef48-n000117",
+      "original": "BAAL",
+      "destination_article": "BAAL (1)",
+      "destination_id": "isbe-aa129a30edcc782f9006",
+      "basis": "The Canaanite context lists their worship and deities, matching BAAL (1)."
+    },
+    {
+      "source_article": "CITIZENSHIP",
+      "ref_id": "isbe-a3890505dbb58e9db1cd-n000015",
+      "original": "PAUL",
+      "destination_article": "PAUL, THE APOSTLE",
+      "destination_id": "isbe-83041d34248702e0c238",
+      "basis": "The citizenship source refers to the Roman citizenship of Paul the Apostle."
+    },
+    {
+      "source_article": "DYE; DYEING",
+      "ref_id": "isbe-7fa9433130523d0941a5-n000023",
+      "original": "LYDIA",
+      "destination_article": "LYDIA (1)",
+      "destination_id": "isbe-e5258b7a6c81e232f63d",
+      "basis": "The source describes the western Asia Minor region renowned for dyes, not Paul's convert Lydia."
+    },
+    {
+      "source_article": "EGYPT",
+      "ref_id": "isbe-53ec5f597cfe84a6fc32-n000219",
+      "original": "SIN",
+      "destination_article": "SIN (2)",
+      "destination_id": "isbe-83f4955dec2fbafb1ac1",
+      "basis": "The Egyptian article identifies Sin with Pelusium, the specific place described in SIN (2)."
+    },
+    {
+      "source_article": "GAD (1)",
+      "ref_id": "isbe-21016d06ae9356b03cfe-n000021",
+      "original": "NUMBERS",
+      "destination_article": "NUMBERS, BOOK OF",
+      "destination_id": "isbe-bd5373fef66cd8563553",
+      "basis": "The Gad tribal source points to the census and camp material recorded in the biblical Book of Numbers."
+    },
+    {
+      "source_article": "GEZER",
+      "ref_id": "isbe-821b78c5e7c9b783f322-n000037",
+      "original": "BAAL",
+      "destination_article": "BAAL (1)",
+      "destination_id": "isbe-aa129a30edcc782f9006",
+      "basis": "The source names Baal alongside Ashtaroth, identifying the Canaanite deity in BAAL (1)."
+    },
+    {
+      "source_article": "GODS",
+      "ref_id": "isbe-3876f7979c4c8903f1c8-n000082",
+      "original": "RIMMON",
+      "destination_article": "RIMMON (2)",
+      "destination_id": "isbe-dd54043b1616583d69f5",
+      "basis": "The article discusses a Syrian deity Rimmon, identified within RIMMON (2)."
+    },
+    {
+      "source_article": "GUILT",
+      "ref_id": "isbe-68c675755a7811ba6562-n000063",
+      "original": "SIN",
+      "destination_article": "SIN (1)",
+      "destination_id": "isbe-95838ce02166d3bf2af5",
+      "basis": "Guilt is treated under moral and theological sin, not under the Egyptian city Sin."
+    },
+    {
+      "source_article": "HAVVAH",
+      "ref_id": "isbe-4f85fdac752eeac4cfa6-n000006",
+      "original": "EVE",
+      "destination_article": "EVE IN THE OLD TESTAMENT",
+      "destination_id": "isbe-b522b8cf0004841d8998",
+      "basis": "HAVVAH is the Hebrew personal name of Eve in Genesis."
+    },
+    {
+      "source_article": "HEREDITY",
+      "ref_id": "isbe-7075f41d77c63050291e-n000058",
+      "original": "SIN",
+      "destination_article": "SIN (1)",
+      "destination_id": "isbe-95838ce02166d3bf2af5",
+      "basis": "The article discusses inherited moral sin, the exact subject of SIN (1)."
+    },
+    {
+      "source_article": "HEXATEUCH",
+      "ref_id": "isbe-4982c0fc15cdd68abd93-n000012",
+      "original": "JOSHUA",
+      "destination_article": "JOSHUA, BOOK OF",
+      "destination_id": "isbe-442f723d03d36bafee55",
+      "basis": "The Hexateuch includes the biblical Book of Joshua, explicitly indexed under JOSHUA, BOOK OF."
+    },
+    {
+      "source_article": "IMPUTATION",
+      "ref_id": "isbe-17e98c6db5ca0d523c1f-n000163",
+      "original": "SIN",
+      "destination_article": "SIN (1)",
+      "destination_id": "isbe-95838ce02166d3bf2af5",
+      "basis": "The article discusses the imputation of moral sin, matching SIN (1), not the locality."
+    },
+    {
+      "source_article": "ISSACHAR",
+      "ref_id": "isbe-ecd1e176619bcdbf2e73-n000015",
+      "original": "NUMBERS",
+      "destination_article": "NUMBERS, BOOK OF",
+      "destination_id": "isbe-bd5373fef66cd8563553",
+      "basis": "The Issachar source explicitly cites Numbers 1 and 26 for the tribal census figures."
+    },
+    {
+      "source_article": "LYDIAN",
+      "ref_id": "isbe-52e92544043b5983d3c5-n000005",
+      "original": "LYDIA",
+      "destination_article": "LYDIA (1)",
+      "destination_id": "isbe-e5258b7a6c81e232f63d",
+      "basis": "LYDIAN denotes an inhabitant of the Asia Minor region Lydia (1)."
+    },
+    {
+      "source_article": "MEDITERRANEAN SEA",
+      "ref_id": "isbe-a105eeb25edeca168f9f-n000031",
+      "original": "PAUL",
+      "destination_article": "PAUL, VOYAGE AND SHIPWRECK OF",
+      "destination_id": "isbe-e67412378b992c5614eb",
+      "basis": "The cited context explicitly concerns Paul's voyages on the Mediterranean."
+    },
+    {
+      "source_article": "MICAH (1)",
+      "ref_id": "isbe-36ff40bf3aabab14f43c-n000013",
+      "original": "JUDGES",
+      "destination_article": "JUDGES, BOOK OF",
+      "destination_id": "isbe-d8e50727d59dfc443ccb",
+      "basis": "The Micah priesthood/Dan narrative is found in the biblical Book of Judges."
+    },
+    {
+      "source_article": "NAPHTALI",
+      "ref_id": "isbe-9fd1b11bd6506e6838bb-n000031",
+      "original": "NUMBERS",
+      "destination_article": "NUMBERS, BOOK OF",
+      "destination_id": "isbe-bd5373fef66cd8563553",
+      "basis": "The Naphtali source cites the tribal census in Numbers 1 and Numbers 26."
+    },
+    {
+      "source_article": "OG",
+      "ref_id": "isbe-4a0260ac68f5f966f8a3-n000024",
+      "original": "ARGOB",
+      "destination_article": "ARGOB (2)",
+      "destination_id": "isbe-b61fc1eae7c849bc658d",
+      "basis": "Argob is the Bashan region of King Og, explicitly described in ARGOB (2)."
+    },
+    {
+      "source_article": "OSHEA",
+      "ref_id": "isbe-be54a8a9a9ec78ba49ee-n000008",
+      "original": "JOSHUA",
+      "destination_article": "JOSHUA (2)",
+      "destination_id": "isbe-1ee1f37205abfac77ea9",
+      "basis": "OSHEA/Hoshea is the personal name of Joshua son of Nun, the subject of JOSHUA (2)."
+    },
+    {
+      "source_article": "PILLAR OF SALT",
+      "ref_id": "isbe-cd049c63cd9f6b1379eb-n000005",
+      "original": "LOT",
+      "destination_article": "LOT (1)",
+      "destination_id": "isbe-4ac787bf3fa4fe61efc0",
+      "basis": "The pillar of salt belongs to the Genesis narrative of Lot and his wife, covered in LOT (1)."
+    },
+    {
+      "source_article": "POMEGRANATE",
+      "ref_id": "isbe-fe479603c55b2116709c-n000021",
+      "original": "RIMMON",
+      "destination_article": "RIMMON (2)",
+      "destination_id": "isbe-dd54043b1616583d69f5",
+      "basis": "Rimmon is also a Hebrew term for pomegranate, discussed within RIMMON (2)."
+    },
+    {
+      "source_article": "REUBEN",
+      "ref_id": "isbe-f27efeff1db85941ca96-n000021",
+      "original": "NUMBERS",
+      "destination_article": "NUMBERS, BOOK OF",
+      "destination_id": "isbe-bd5373fef66cd8563553",
+      "basis": "The Reuben source cites the census in Numbers 1 and subsequent wilderness census."
+    },
+    {
+      "source_article": "SABAEANS",
+      "ref_id": "isbe-6c34bfcd4a754e0f0bfe-n000028",
+      "original": "SHEBA",
+      "destination_article": "SHEBA (1)",
+      "destination_id": "isbe-0078a8518d15c66a2dbe",
+      "basis": "The Sabaeans are associated with the Arabian Sheba, covered by SHEBA (1)."
+    },
+    {
+      "source_article": "SALT, PILLAR OF",
+      "ref_id": "isbe-7c65c60c66a0a568ed83-n000004",
+      "original": "LOT",
+      "destination_article": "LOT (1)",
+      "destination_id": "isbe-4ac787bf3fa4fe61efc0",
+      "basis": "The pillar of salt belongs to the Genesis narrative of Lot and his wife, covered in LOT (1)."
+    },
+    {
+      "source_article": "SAUL",
+      "ref_id": "isbe-8a1adecea5c9e9f99549-n000081",
+      "original": "JONATHAN",
+      "destination_article": "JONATHAN (2)",
+      "destination_id": "isbe-fe344a8f3b53dcbe3d2c",
+      "basis": "SAUL refers to his son Jonathan, for whom the dedicated biography is JONATHAN (2)."
+    },
+    {
+      "source_article": "SAUL",
+      "ref_id": "isbe-8a1adecea5c9e9f99549-n000127",
+      "original": "JONATHAN",
+      "destination_article": "JONATHAN (2)",
+      "destination_id": "isbe-fe344a8f3b53dcbe3d2c",
+      "basis": "SAUL refers to his son Jonathan, for whom the dedicated biography is JONATHAN (2)."
+    },
+    {
+      "source_article": "SAUL",
+      "ref_id": "isbe-8a1adecea5c9e9f99549-n000204",
+      "original": "PAUL",
+      "destination_article": "PAUL, THE APOSTLE",
+      "destination_id": "isbe-83041d34248702e0c238",
+      "basis": "SAUL explicitly redirects to Saul of Tarsus, later Paul the Apostle."
+    },
+    {
+      "source_article": "SEA, THE GREAT",
+      "ref_id": "isbe-acbec9234c706554a9c0-n000036",
+      "original": "PAUL",
+      "destination_article": "PAUL, VOYAGE AND SHIPWRECK OF",
+      "destination_id": "isbe-e67412378b992c5614eb",
+      "basis": "The Great Sea redirect concerns Paul's sea travel, whose voyage and shipwreck have a dedicated entry."
+    },
+    {
+      "source_article": "SELL, SELLER",
+      "ref_id": "isbe-aa9fc06c7798dd1e10d0-n000006",
+      "original": "LYDIA",
+      "destination_article": "LYDIA (2)",
+      "destination_id": "isbe-a7c6dbc20575a8a115fd",
+      "basis": "The seller context refers to Lydia, the seller of purple and Pauline convert, described in LYDIA (2)."
+    },
+    {
+      "source_article": "SIMEONITES",
+      "ref_id": "isbe-c74213685ac817ff72a1-n000005",
+      "original": "SIMEON",
+      "destination_article": "SIMEON (1)",
+      "destination_id": "isbe-2a97809afd61e1260e05",
+      "basis": "The Simeonites descend from Simeon son of Jacob, the subject of SIMEON (1)."
+    },
+    {
+      "source_article": "SINNER",
+      "ref_id": "isbe-c01def6c5dea8de38667-n000028",
+      "original": "SIN",
+      "destination_article": "SIN (1)",
+      "destination_id": "isbe-95838ce02166d3bf2af5",
+      "basis": "SINNER explicitly concerns human moral transgression, matching SIN (1)."
+    },
+    {
+      "source_article": "TAMAR (1)",
+      "ref_id": "isbe-f22de1bba91259ed711b-n000007",
+      "original": "JUDAH",
+      "destination_article": "JUDAH (2)",
+      "destination_id": "isbe-38e50d2239829f43090e",
+      "basis": "Tamar's Genesis 38 narrative refers to Judah son of Jacob, whose biography appears in JUDAH (2)."
+    },
+    {
+      "source_article": "TAMAR (1)",
+      "ref_id": "isbe-f22de1bba91259ed711b-n000015",
+      "original": "ABSALOM",
+      "destination_article": "ABSALOM (1)",
+      "destination_id": "isbe-5fdaf5529f833286fec7",
+      "basis": "The Tamar article also references Amnon and Absalom the son of David."
+    },
+    {
+      "source_article": "TRACHONITIS",
+      "ref_id": "isbe-fd3506820764cb5d4ed5-n000008",
+      "original": "ARGOB",
+      "destination_article": "ARGOB (2)",
+      "destination_id": "isbe-b61fc1eae7c849bc658d",
+      "basis": "Trachonitis refers to the ancient northeastern Bashan region, the subject of ARGOB (2)."
+    },
+    {
+      "source_article": "TRUTH",
+      "ref_id": "isbe-c92bcb2ea7bb84e1c56b-n000064",
+      "original": "SIN",
+      "destination_article": "SIN (1)",
+      "destination_id": "isbe-95838ce02166d3bf2af5",
+      "basis": "The ethical and theological context names sin as moral evil, covered by SIN (1)."
+    },
+    {
+      "source_article": "WICKEDNESS",
+      "ref_id": "isbe-639ec363f9b2206570c6-n000006",
+      "original": "SIN",
+      "destination_article": "SIN (1)",
+      "destination_id": "isbe-95838ce02166d3bf2af5",
+      "basis": "The source defines wickedness as sinfulness and evil behavior, matching SIN (1)."
+    }
+  ],
+  "resolved_reviewed_occurrence_count": 45,
   "unresolved_link_diagnostics": [
     {
       "original": "14. LITERATURE.",
@@ -3208,11 +3569,6 @@
       "original": "ABI",
       "reason": "not_found",
       "occurrences": 2
-    },
-    {
-      "original": "ABSALOM",
-      "reason": "not_found",
-      "occurrences": 3
     },
     {
       "original": "ADAM",
@@ -3325,11 +3681,6 @@
       "occurrences": 1
     },
     {
-      "original": "ARGOB",
-      "reason": "not_found",
-      "occurrences": 3
-    },
-    {
       "original": "ARMOR, III, 1",
       "reason": "not_found",
       "occurrences": 1
@@ -3387,7 +3738,7 @@
     {
       "original": "BAAL",
       "reason": "not_found",
-      "occurrences": 4
+      "occurrences": 1
     },
     {
       "original": "BABEL",
@@ -3730,11 +4081,6 @@
       "occurrences": 1
     },
     {
-      "original": "EVE",
-      "reason": "not_found",
-      "occurrences": 2
-    },
-    {
       "original": "EXODUS, II, 2",
       "reason": "not_found",
       "occurrences": 1
@@ -3897,7 +4243,7 @@
     {
       "original": "JONATHAN",
       "reason": "not_found",
-      "occurrences": 5
+      "occurrences": 1
     },
     {
       "original": "JORDAN, VALLEY OF",
@@ -3907,7 +4253,7 @@
     {
       "original": "JOSHUA",
       "reason": "not_found",
-      "occurrences": 3
+      "occurrences": 1
     },
     {
       "original": "JUBILEE",
@@ -3917,12 +4263,12 @@
     {
       "original": "JUDAH",
       "reason": "not_found",
-      "occurrences": 3
+      "occurrences": 2
     },
     {
       "original": "JUDGES",
       "reason": "not_found",
-      "occurrences": 2
+      "occurrences": 1
     },
     {
       "original": "JUDGMENT",
@@ -3952,17 +4298,12 @@
     {
       "original": "LOT",
       "reason": "not_found",
-      "occurrences": 3
+      "occurrences": 1
     },
     {
       "original": "LUNATIC",
       "reason": "not_found",
       "occurrences": 2
-    },
-    {
-      "original": "LYDIA",
-      "reason": "not_found",
-      "occurrences": 3
     },
     {
       "original": "MAKE",
@@ -4067,7 +4408,7 @@
     {
       "original": "NUMBERS",
       "reason": "not_found",
-      "occurrences": 5
+      "occurrences": 1
     },
     {
       "original": "NUN",
@@ -4108,11 +4449,6 @@
       "original": "PASSION",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "PAUL",
-      "reason": "not_found",
-      "occurrences": 4
     },
     {
       "original": "PEITHE",
@@ -4187,7 +4523,7 @@
     {
       "original": "RIMMON",
       "reason": "not_found",
-      "occurrences": 3
+      "occurrences": 1
     },
     {
       "original": "RIVER, THE",
@@ -4252,7 +4588,7 @@
     {
       "original": "SHEBA",
       "reason": "not_found",
-      "occurrences": 3
+      "occurrences": 1
     },
     {
       "original": "SHEMESH",
@@ -4267,17 +4603,12 @@
     {
       "original": "SIMEON",
       "reason": "not_found",
-      "occurrences": 3
+      "occurrences": 1
     },
     {
       "original": "SIMON",
       "reason": "not_found",
       "occurrences": 1
-    },
-    {
-      "original": "SIN",
-      "reason": "not_found",
-      "occurrences": 7
     },
     {
       "original": "SLAVONIC",
@@ -4477,10 +4808,8 @@
   ],
   "unresolved_isbe_links": {
     "ABI": 2,
-    "ABSALOM": 3,
     "FAST.": 1,
     "EKRON.": 1,
-    "EVE": 2,
     "ADAM IN THE NEW TESTAMENT; FALL, THE": 1,
     "APOCALYPTIC LITERATURE; APOCRYPHA": 1,
     "VALE OF SIDDIM": 1,
@@ -4500,7 +4829,7 @@
     "MANASSEH": 1,
     "TALISMAN": 1,
     "ADRAMMELECH": 2,
-    "SIMEON": 3,
+    "SIMEON": 1,
     "ALOROS": 1,
     "ALAPAROS": 1,
     "AMELON": 1,
@@ -4513,9 +4842,8 @@
     "LITERATURE": 15,
     "CORINTHIANS": 1,
     "TAPPUAH": 1,
-    "SHEBA": 3,
+    "SHEBA": 1,
     "AR": 2,
-    "ARGOB": 3,
     "ALTAR HEARTH": 1,
     "PROPHET": 3,
     "BITHYNIARCH": 1,
@@ -4526,13 +4854,13 @@
     "EARTH, VAULT OF": 1,
     "CREATION; GOD": 1,
     "AVEN; ON": 1,
-    "BAAL": 4,
+    "BAAL": 1,
     "ELAH": 1,
     "ZIMRI": 1,
     "CHARMER": 1,
     "BABEL": 4,
     "BABYLON": 3,
-    "JONATHAN": 5,
+    "JONATHAN": 1,
     "NICANOR": 1,
     "CAESAREA, PHILIPPI": 1,
     "BANIAS": 1,
@@ -4580,8 +4908,7 @@
     "TEMPLE, II, 4": 1,
     "ERI-AKU, 4": 1,
     "BRIDE-CHAMBER, SONS": 1,
-    "PAUL": 4,
-    "JUDGES": 2,
+    "JUDGES": 1,
     "CLOUD, II, 2": 1,
     "PILLAR OF CLOUD": 1,
     "ARMOR, III, 1": 1,
@@ -4609,7 +4936,6 @@
     "THE TWIN BROTHERS": 1,
     "ASHER": 1,
     "TUNIC": 1,
-    "LYDIA": 3,
     "AMULET; ORNAMENT": 1,
     "ANTHROPOLOGY; ASTRONOMY; EVOLUTION; WORLD": 1,
     "ESCHATOLOGY OF THE NEW TESTAMENT, IX": 1,
@@ -4621,7 +4947,6 @@
     "SCHOOL; TEACHER; TUTOR": 1,
     "CUSHIM": 1,
     "COSHEN": 1,
-    "SIN": 7,
     "EGYPTIAN KINGS": 1,
     "EGYPT, III": 1,
     "IV. COGNATE AND ILLUSTRATIVE BIBLICAL LANGUANGE": 1,
@@ -4653,9 +4978,9 @@
     "STRANGER AND SOJOURNER": 4,
     "EPHRAIM": 1,
     "FIERCENESS": 1,
-    "NUMBERS": 5,
+    "NUMBERS": 1,
     "MOREH": 1,
-    "RIMMON": 3,
+    "RIMMON": 1,
     "HEBREWS": 1,
     "HOARY": 1,
     "DRY": 1,
@@ -4663,7 +4988,7 @@
     "ESDRAELON": 1,
     "HAROD": 1,
     "GEDI": 1,
-    "JOSHUA": 3,
+    "JOSHUA": 1,
     "ROAD": 1,
     "HEZEKIAH": 1,
     "HORON": 1,
@@ -4681,7 +5006,7 @@
     "AKRA": 1,
     "JONAS": 1,
     "ZECHARIAH": 2,
-    "JUDAH": 3,
+    "JUDAH": 2,
     "BARNEA": 1,
     "HEZRON": 1,
     "JEARIM": 1,
@@ -4702,7 +5027,7 @@
     "NAMES": 1,
     "NOAH": 1,
     "NUN": 1,
-    "LOT": 3,
+    "LOT": 1,
     "TONGUES": 1,
     "PERAZIM": 1,
     "PERSON": 1,
@@ -4734,9 +5059,9 @@
     "TEMPLE KEEPERS": 1,
     "ZIPH": 1
   },
-  "unresolved_link_occurrences": 384,
+  "unresolved_link_occurrences": 339,
   "text_integrity": "validated for every entry",
-  "resolved_internal_links_validated": 5695,
+  "resolved_internal_links_validated": 5740,
   "xml_id_uniqueness": "validated",
   "reviewed_title_alias_count": 60,
   "reviewed_title_aliases_used": [

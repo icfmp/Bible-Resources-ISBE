@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 384,
-  "unresolved_distinct_targets": 257,
+  "unresolved_occurrences": 339,
+  "unresolved_distinct_targets": 251,
   "categories_by_occurrence": {
     "article_section_label": 56,
-    "multiple_numbered_entries": 109,
+    "multiple_numbered_entries": 75,
     "single_numbered_entry_candidate": 3,
-    "unmatched_heading_or_alias": 216
+    "unmatched_heading_or_alias": 205
   },
   "review_queue": [
     {
@@ -41,16 +41,6 @@
       "review_candidates": [
         "ABI (1)",
         "ABI (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ABSALOM",
-      "occurrences": 3,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ABSALOM (1)",
-        "ABSALOM (2)"
       ],
       "status": "needs_review"
     },
@@ -211,16 +201,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "ARGOB",
-      "occurrences": 3,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ARGOB (1)",
-        "ARGOB (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "ARMOR, III, 1",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -305,7 +285,7 @@
     },
     {
       "source_target": "BAAL",
-      "occurrences": 4,
+      "occurrences": 1,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "BAAL (1)",
@@ -835,13 +815,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "EVE",
-      "occurrences": 2,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "EXODUS, II, 2",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1099,7 +1072,7 @@
     },
     {
       "source_target": "JONATHAN",
-      "occurrences": 5,
+      "occurrences": 1,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "JONATHAN (1)",
@@ -1116,7 +1089,7 @@
     },
     {
       "source_target": "JOSHUA",
-      "occurrences": 3,
+      "occurrences": 1,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "JOSHUA (1)",
@@ -1134,7 +1107,7 @@
     },
     {
       "source_target": "JUDAH",
-      "occurrences": 3,
+      "occurrences": 2,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "JUDAH (1)",
@@ -1144,7 +1117,7 @@
     },
     {
       "source_target": "JUDGES",
-      "occurrences": 2,
+      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -1186,7 +1159,7 @@
     },
     {
       "source_target": "LOT",
-      "occurrences": 3,
+      "occurrences": 1,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "LOT (1)",
@@ -1199,16 +1172,6 @@
       "occurrences": 2,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "LYDIA",
-      "occurrences": 3,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "LYDIA (1)",
-        "LYDIA (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1378,7 +1341,7 @@
     },
     {
       "source_target": "NUMBERS",
-      "occurrences": 5,
+      "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -1438,13 +1401,6 @@
     {
       "source_target": "PASSION",
       "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "PAUL",
-      "occurrences": 4,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
       "status": "needs_review"
@@ -1560,7 +1516,7 @@
     },
     {
       "source_target": "RIMMON",
-      "occurrences": 3,
+      "occurrences": 1,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "RIMMON (1)",
@@ -1657,7 +1613,7 @@
     },
     {
       "source_target": "SHEBA",
-      "occurrences": 3,
+      "occurrences": 1,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "SHEBA (1)",
@@ -1684,7 +1640,7 @@
     },
     {
       "source_target": "SIMEON",
-      "occurrences": 3,
+      "occurrences": 1,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "SIMEON (1)",
@@ -1699,16 +1655,6 @@
       "review_candidates": [
         "SIMON (1)",
         "SIMON (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SIN",
-      "occurrences": 7,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "SIN (1)",
-        "SIN (2)"
       ],
       "status": "needs_review"
     },
