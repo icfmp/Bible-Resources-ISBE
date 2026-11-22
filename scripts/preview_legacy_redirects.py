@@ -56,7 +56,7 @@ def preview(source,manifest_path,destination,report_path):
             raise ValueError(f"Not the verified empty source paragraph: {key}")
         if not record["proposed_targets"]:
             raise ValueError("Empty target proposal")
-        lead=r["proposed_lead"]ecord
+        lead=record["proposed_lead"]
         if not lead.endswith("See "):
             raise ValueError(f"Unverified source redirect lead for {key}")
         p.text=lead
