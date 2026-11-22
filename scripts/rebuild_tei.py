@@ -212,7 +212,7 @@ def unique_numbered_paragraph(article, marker):
 def is_literature_label(text):
     """Recognize exact bibliography section labels, with optional section number."""
     return bool(re.fullmatch(
-        r"(?:(?:[IVXLCDM]+|[0-9]+)\\.\\s*)?LITERATURE\\.?",
+        r"(?:(?:[IVXLCDM]+|[0-9]+)\.\s*)?LITERATURE\.?",
         " ".join(text.split()), flags=re.I
     ))
 
