@@ -89,8 +89,8 @@ def normalize_section_label(text):
 def resolve_local_heading(article, reference):
     """Resolve a source ISBE link to a unique explicit underlined local heading.
 
-    A heading must be the first, leading marked span in a paragraph. This avoids
-    interpreting arbitrary underlined emphasis as an article section.
+    An underlined leading heading or a standalone marked paragraph is accepted.
+    Arbitrary inline emphasis and table-of-contents links are excluded.
     """
     parent_of = {child: parent for parent in article.iter() for child in parent}
     target = normalize_section_label(reference)
@@ -98,12 +98,15 @@ def resolve_local_heading(article, reference):
         return None
     candidates = []
     for el in article.iter():
-        if el.tag.split("}")[-1] != "hi" or el.get("rend") != "underline":
+        if el.tag.split("}")[-1] != "hi":
             continue
         parent = parent_of.get(el)
         if parent is None or parent.tag.split("}")[-1] != "p":
             continue
         if list(parent)[0] is not el or (parent.text or "").strip():
+            continue
+        standalone_heading = len(list(parent)) == 1 and not (el.tail or "").strip()
+        if el.get("rend") != "underline" and not standalone_heading:
             continue
         label = normalize_section_label("".join(el.itertext()))
         if label == target:
