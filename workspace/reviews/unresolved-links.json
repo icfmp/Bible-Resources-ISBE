@@ -1,29 +1,15 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 339,
-  "unresolved_distinct_targets": 251,
+  "unresolved_occurrences": 298,
+  "unresolved_distinct_targets": 247,
   "categories_by_occurrence": {
-    "article_section_label": 56,
+    "article_section_label": 15,
     "multiple_numbered_entries": 75,
     "single_numbered_entry_candidate": 3,
     "unmatched_heading_or_alias": 205
   },
   "review_queue": [
-    {
-      "source_target": "14. LITERATURE.",
-      "occurrences": 1,
-      "category": "article_section_label",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "23.  LITERATURE.",
-      "occurrences": 1,
-      "category": "article_section_label",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
     {
       "source_target": "ABDON",
       "occurrences": 1,
@@ -1145,14 +1131,14 @@
     },
     {
       "source_target": "LITERATURE",
-      "occurrences": 15,
+      "occurrences": 5,
       "category": "article_section_label",
       "review_candidates": [],
       "status": "needs_review"
     },
     {
       "source_target": "LITERATURE.",
-      "occurrences": 28,
+      "occurrences": 2,
       "category": "article_section_label",
       "review_candidates": [],
       "status": "needs_review"
@@ -1818,7 +1804,7 @@
     },
     {
       "source_target": "V. LITERATURE",
-      "occurrences": 2,
+      "occurrences": 1,
       "category": "article_section_label",
       "review_candidates": [],
       "status": "needs_review"
@@ -1870,20 +1856,6 @@
     },
     {
       "source_target": "VI. THE ESSENES AND CHRISTIANITY",
-      "occurrences": 1,
-      "category": "article_section_label",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "VIII. LITERATURE",
-      "occurrences": 1,
-      "category": "article_section_label",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "VIII. LITERATURE.",
       "occurrences": 1,
       "category": "article_section_label",
       "review_candidates": [],
