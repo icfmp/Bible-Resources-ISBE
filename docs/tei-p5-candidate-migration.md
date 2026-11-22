@@ -18,14 +18,29 @@ historical print fidelity, distribution rights or translation readiness.
 - Reports: tei-p5-candidate-report.json and tei-p5-official-validation.json
   beside the generated candidate, saved as a GitHub Actions artifact.
 
-Run the source-fidelity transformation from the repository root:
+The preferred source-first build reconstructs the faithful legacy witness from
+the preserved IMP in an **ignored temporary directory** and checks its source
+SHA-256 before normalizing. This works even if the canonical master is later
+promoted to TEI P5 and is no longer a legacy normalization input.
 
+    mkdir -p workspace/tmp/isbe-legacy workspace/candidates/en
+    python3 scripts/rebuild_tei.py \
+      --input workspace/exports/isbe-2.2.imp \
+      --accepted-aliases workspace/reviews/accepted-title-aliases.json \
+      --output workspace/tmp/isbe-legacy/ISBE.xml \
+      --index workspace/tmp/isbe-legacy/article-index.json \
+      --report workspace/tmp/isbe-legacy/tei-reconstruction.json
     python3 scripts/normalize_tei_p5.py \
-      --input cleaned/en/ISBE.xml \
-      --index cleaned/en/article-index.json \
+      --input workspace/tmp/isbe-legacy/ISBE.xml \
+      --index workspace/tmp/isbe-legacy/article-index.json \
       --manifest workspace/changes/tei-p5-candidate-v1.json \
       --output workspace/candidates/en/ISBE.xml \
       --report workspace/candidates/en/tei-p5-candidate-report.json
+
+The workflow also independently verifies that the temporary legacy witness
+matches the pinned SHA-256 and that the resulting candidate bytes have the
+previously validated SHA-256
+a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25.
 
 Run the official format gates using the pinned, reviewed
 .github/workflows/tei-p5-candidate.yml GitHub Actions workflow. The schema
