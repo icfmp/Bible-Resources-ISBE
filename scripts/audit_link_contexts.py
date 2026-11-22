@@ -96,6 +96,14 @@ def scan(path):
             component = component.strip()
             if component:
                 aliases.setdefault(normalized(component), set()).add(key)
+    comma_headings = {}
+    for article in entries:
+        key = article.get("n")
+        if "," not in key:
+            continue
+        prefix = key.split(",", 1)[0].strip()
+        if len(prefix) >= 3:
+            comma_headings.setdefault(normalized(prefix), set()).add(key)
     article_by_key = {a.get("n"): a for a in entries}
     numbered_candidates = {}
     for key in (a.get("n") for a in entries):
@@ -153,6 +161,7 @@ def scan(path):
                         ],
                         "context": snippet[:280],
                     })
+            comma_prefix_matches = sorted(comma_headings.get(normalized(target), ()))
             alias_matches = sorted(aliases.get(normalized(target), ()))
             stripped_target = re.sub(r"\s+\(\d+\)$", "", target).strip().casefold()
             numbered_matches = sorted(numbered_candidates.get(stripped_target, ()))
@@ -177,6 +186,7 @@ def scan(path):
                 "displayed_text": visible,
                 "candidate_key": candidate,
                 "alias_candidates": alias_matches,
+                "comma_prefix_candidates": comma_prefix_matches,
                 "numbered_candidates": numbered_matches,
                 "lexical_candidates": target_matches[:20],
                 "kind": kind,
@@ -187,6 +197,12 @@ def scan(path):
             "total_unresolved_occurrences": len(records),
             "category_counts": dict(sorted(summary.items())),
             "exclusive_scripture_numbered_candidates": scripture_candidates,
+            "unique_comma_prefix_review": [
+                {"article_key": x["article_key"], "original_target": x["original_target"],
+                 "candidate": x["comma_prefix_candidates"][0], "context": x["context"][:200]}
+                for x in records if len(x["comma_prefix_candidates"]) == 1
+                and len(x["alias_candidates"]) == 0
+            ],
             "numbered_link_review": [
                 {"article_key": x["article_key"], "original_target": x["original_target"],
                  "candidates": x["numbered_candidates"], "context": x["context"][:300],
