@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "status": "review_diagnostics_not_approved_mappings",
-  "total_unresolved_occurrences": 167,
+  "total_unresolved_occurrences": 155,
   "category_counts": {
-    "requires_review": 167
+    "requires_review": 155
   },
   "unresolved_numbered_homonyms": [
     {
@@ -235,39 +235,6 @@
           "article_excerpt": "PHILIP (3) (\"tetrarch,\" Lu 3:1).See HEROD.",
           "osis_refs": [
             "Bible:Luke.3.1"
-          ]
-        }
-      ]
-    },
-    {
-      "source_article": "URIAH; URUAH",
-      "original_target": "SHEBA",
-      "ref_id": "isbe-7515003edf58e50cd270-n000011",
-      "context": "(1) A Hittite, who had settled in Jerusalem at the time of David and who had entered David's service. He had become a worshipper of Yahweh (judging from the usual interpretations of his name) and had married a Hebrew wife, BATH-SHEBA (which see). David's sin with this woman occurred while Uriah was engaged in warfare, and David had him re",
-      "candidates": [
-        {
-          "article_key": "SHEBA (1)",
-          "article_excerpt": "SHEBA (1) she'-ba (shebha'; Saba):(1) Sheba and Dedan are the two sons of Raamah son of Cush (Ge 10:7).(2) Sheba and Dedan are the two sons of Jokshan the son of Abraham and Keturah (Ge 25:3).(3) Sheba is a son of Joktan son of Eber who was a descendant of Shem (Ge 10:28).From the above statements it would appear that Sheba was the name of an Arab tribe, and consequently of Semitic descent. The fact that Sheba and Dedan are represented as Cushite (Ge 10:7) would point to a migration of part of these tribes to Ethiopia, and similarly t",
-          "osis_refs": [
-            "Bible:1Kgs.10.1",
-            "Bible:Deut.4.47",
-            "Bible:Ezek.27.22",
-            "Bible:Gen.10.28",
-            "Bible:Gen.10.7",
-            "Bible:Gen.25.3",
-            "Bible:Isa.60.6",
-            "Bible:Jer.6.20",
-            "Bible:Job.1.15",
-            "Bible:Job.6.19"
-          ]
-        },
-        {
-          "article_key": "SHEBA (2)",
-          "article_excerpt": "SHEBA (2) she'-ba (shebha`; Sabee, or Samaa): The name of one of the towns allotted to Simeon (Jos 19:2). the King James Version mentions it as an independent town, but as it is not mentioned at all in the parallel list (1Ch 4:28), and is omitted in Jos 19:2 in some manuscripts, it is probable that the Revised Version (British and American) is correct in its translation \"Beer-sheba or Sheba.\" Only in this way can the total of towns in this group be made 13 (Jos 19:6). If it is a separate name, it is probably the same as SHEMA (which s",
-          "osis_refs": [
-            "Bible:1Chr.4.28",
-            "Bible:Josh.19.2",
-            "Bible:Josh.19.6"
           ]
         }
       ]
@@ -909,28 +876,6 @@
       ]
     },
     {
-      "target": "BARNEA",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "BARN",
-          "ratio": 0.8
-        },
-        {
-          "title": "ARNA",
-          "ratio": 0.8
-        },
-        {
-          "title": "BANNEAS",
-          "ratio": 0.769
-        },
-        {
-          "title": "TAREA",
-          "ratio": 0.727
-        }
-      ]
-    },
-    {
       "target": "BITHYNIARCH",
       "occurrences": 1,
       "candidates": [
@@ -945,28 +890,6 @@
         {
           "title": "ETHNARCH",
           "ratio": 0.737
-        }
-      ]
-    },
-    {
-      "target": "BOSHETH",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "SHETH",
-          "ratio": 0.833
-        },
-        {
-          "title": "ISH-BOSHETH",
-          "ratio": 0.778
-        },
-        {
-          "title": "ZOHETH",
-          "ratio": 0.769
-        },
-        {
-          "title": "SHEATH",
-          "ratio": 0.769
         }
       ]
     },
@@ -1203,28 +1126,6 @@
         {
           "title": "DAY OF ATONEMENT",
           "ratio": 0.842
-        }
-      ]
-    },
-    {
-      "target": "DEBAR",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "DEKAR",
-          "ratio": 0.8
-        },
-        {
-          "title": "LO-DEBAR",
-          "ratio": 0.769
-        },
-        {
-          "title": "EAR",
-          "ratio": 0.75
-        },
-        {
-          "title": "MEDEBA",
-          "ratio": 0.727
         }
       ]
     },
@@ -1487,50 +1388,6 @@
       ]
     },
     {
-      "target": "HORON",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "HORN",
-          "ratio": 0.889
-        },
-        {
-          "title": "ORION",
-          "ratio": 0.8
-        },
-        {
-          "title": "HOLON",
-          "ratio": 0.8
-        },
-        {
-          "title": "HERON",
-          "ratio": 0.8
-        }
-      ]
-    },
-    {
-      "target": "JEARIM",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "MEZARIM",
-          "ratio": 0.769
-        },
-        {
-          "title": "IJE-ABARIM",
-          "ratio": 0.75
-        },
-        {
-          "title": "JORIM",
-          "ratio": 0.727
-        },
-        {
-          "title": "JARIB",
-          "ratio": 0.727
-        }
-      ]
-    },
-    {
       "target": "JONAS",
       "occurrences": 1,
       "candidates": [
@@ -1571,28 +1428,6 @@
         {
           "title": "JUDAS",
           "ratio": 0.727
-        }
-      ]
-    },
-    {
-      "target": "LAST",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "BLAST",
-          "ratio": 0.889
-        },
-        {
-          "title": "MAST",
-          "ratio": 0.75
-        },
-        {
-          "title": "LUST",
-          "ratio": 0.75
-        },
-        {
-          "title": "LIST",
-          "ratio": 0.75
         }
       ]
     },
@@ -1738,28 +1573,6 @@
         },
         {
           "title": "TARES",
-          "ratio": 0.769
-        }
-      ]
-    },
-    {
-      "target": "PASSION",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "COMPASSION",
-          "ratio": 0.824
-        },
-        {
-          "title": "PHASIRON",
-          "ratio": 0.8
-        },
-        {
-          "title": "ASSARION",
-          "ratio": 0.8
-        },
-        {
-          "title": "ASSIGN",
           "ratio": 0.769
         }
       ]
@@ -1937,28 +1750,6 @@
       ]
     },
     {
-      "target": "ROAD",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "BROAD",
-          "ratio": 0.889
-        },
-        {
-          "title": "ROD",
-          "ratio": 0.857
-        },
-        {
-          "title": "ABROAD",
-          "ratio": 0.8
-        },
-        {
-          "title": "RAID",
-          "ratio": 0.75
-        }
-      ]
-    },
-    {
       "target": "SARIS",
       "occurrences": 1,
       "candidates": [
@@ -1987,50 +1778,6 @@
         {
           "title": "SCHOOLMASTER",
           "ratio": 0.75
-        }
-      ]
-    },
-    {
-      "target": "SEPHER",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "SHEPHER",
-          "ratio": 0.923
-        },
-        {
-          "title": "EPHER",
-          "ratio": 0.909
-        },
-        {
-          "title": "SHEPHERD",
-          "ratio": 0.857
-        },
-        {
-          "title": "SEPHAR",
-          "ratio": 0.833
-        }
-      ]
-    },
-    {
-      "target": "SHEBA",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "SHEBNA",
-          "ratio": 0.909
-        },
-        {
-          "title": "SHEBAT",
-          "ratio": 0.909
-        },
-        {
-          "title": "SHEBAM",
-          "ratio": 0.909
-        },
-        {
-          "title": "SHEBAH",
-          "ratio": 0.909
         }
       ]
     },
@@ -2179,16 +1926,6 @@
         {
           "title": "WISDOM LITERATURE",
           "ratio": 0.774
-        }
-      ]
-    },
-    {
-      "target": "ZEDEK",
-      "occurrences": 1,
-      "candidates": [
-        {
-          "title": "ZELEK",
-          "ratio": 0.8
         }
       ]
     }
@@ -2340,13 +2077,6 @@
       ]
     },
     {
-      "target": "JEARIM",
-      "occurrences": 1,
-      "title_candidates": [
-        "JEARIM, MOUNT"
-      ]
-    },
-    {
       "target": "JONAS",
       "occurrences": 1,
       "title_candidates": [
@@ -2360,15 +2090,6 @@
       "title_candidates": [
         "JUDGES, BOOK OF",
         "JUDGES, PERIOD OF"
-      ]
-    },
-    {
-      "target": "LAST",
-      "occurrences": 1,
-      "title_candidates": [
-        "LAST DAY",
-        "LAST DAYS",
-        "LAST TIME, TIMES"
       ]
     },
     {
@@ -2415,14 +2136,6 @@
       "occurrences": 1,
       "title_candidates": [
         "NUMBERS, BOOK OF"
-      ]
-    },
-    {
-      "target": "PASSION",
-      "occurrences": 1,
-      "title_candidates": [
-        "PASSION, GOSPEL OF THE",
-        "PASSION, PASSIONS"
       ]
     },
     {
@@ -2475,30 +2188,6 @@
       "occurrences": 1,
       "title_candidates": [
         "PUNISHMENT, EVERLASTING"
-      ]
-    },
-    {
-      "target": "RIVER, THE",
-      "occurrences": 1,
-      "title_candidates": [
-        "RIVER, THE (GREAT)"
-      ]
-    },
-    {
-      "target": "ROAD",
-      "occurrences": 1,
-      "title_candidates": [
-        "ROAD (INROAD)",
-        "ROAD (WAY)"
-      ]
-    },
-    {
-      "target": "SHEBA",
-      "occurrences": 1,
-      "title_candidates": [
-        "SHEBA (1)",
-        "SHEBA (2)",
-        "SHEBA, QUEEN OF"
       ]
     },
     {
@@ -2597,12 +2286,6 @@
       "context": "A unique phenomenon at the close of the Biblical and in the earliest post-Biblical period is, finally, the APOCALYPTIC LITERATURE (which see). Since the days of the Maccabees we find the custom in cer"
     },
     {
-      "article_key": "KIRIATH",
-      "original_target": "JEARIM",
-      "candidate": "JEARIM, MOUNT",
-      "context": "kir'-i-ath (qiryath, \"city\"; the King James Version Kirjath): Mentioned (Jos 18:28) as a city of Benjamin; has been identified with Kuriet el `Enab, \"town of grapes,\" a prosperous town on the highroad"
-    },
-    {
       "article_key": "LAW IN THE NEW TESTAMENT",
       "original_target": "PUNISHMENT",
       "candidate": "PUNISHMENT, EVERLASTING",
@@ -2649,12 +2332,6 @@
       "original_target": "LITERATURE",
       "candidate": "LITERATURE, SUB-APOSTOLIC",
       "context": "In general it may be said that the principles enunciated in this book agree with those of the Wisdom school of Palestinian Judaism about 200 BC, though there is not a word in the book about a Messiani"
-    },
-    {
-      "article_key": "URIAH; URUAH",
-      "original_target": "SHEBA",
-      "candidate": "SHEBA, QUEEN OF",
-      "context": "(1) A Hittite, who had settled in Jerusalem at the time of David and who had entered David's service. He had become a worshipper of Yahweh (judging from the usual interpretations of his name) and had "
     },
     {
       "article_key": "WASH; WASHING",
@@ -3383,19 +3060,6 @@
       "context": "See BURIAL, IV, 4, 5, 6; GRIEF."
     },
     {
-      "article_key": "BEYOND",
-      "ref_id": "isbe-ebc79ae5811aa0806b35-n000036",
-      "original_target": "RIVER, THE",
-      "displayed_text": "RIVER, THE",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "be-yond': Found in the Hebrew only in its application to space and time, and for these ideas three words are employed: hale'ah (Ge 35:21) = \"to the distance\"; `abhar = \"to go beyond\" \"to cross\" derivative `ebher (Chald. `abhar) = \"across,\" \"beyond\" (De 30:13; Jos 18:7; Jud 3:26; 1Sa 20:36; 2Ch 20:2; Ezr 4:17,20; Jer 25:22); and `al (Le 15:25) = \"beyond the time.\" In the New Testament peran, is used to express \"beyond\" in the spatial sense (Mt 4:1"
-    },
-    {
       "article_key": "BIKATH-AVEN",
       "ref_id": "isbe-5353b466b71c4cdd5796-n000006",
       "original_target": "AVEN; BETH-EDEN",
@@ -3427,19 +3091,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See AUTHORITY; FORGIVENESS; PETER."
-    },
-    {
-      "article_key": "BOOK OF LIFE",
-      "ref_id": "isbe-e6d737f445fb69904625-n000026",
-      "original_target": "LAST",
-      "displayed_text": "LAST",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See APOCALYPSE; BLOT; BOOK OF REMEMBRANCE; JUDGMENT, LAST."
     },
     {
       "article_key": "BOOTHS, FEAST OF",
@@ -4376,32 +4027,6 @@
       "context": "haz'-a-zan-ta'-mar (chatsatson tamar; the King James Version Hazezon Tamar): \"Hazazon of the palm trees,\" mentioned (Ge 14:7) as a place of the Amorites, conquered, together with En-mishpat and the country of the Amalekites, by Chedorlaomer; in 2Ch 20:2 it is identified with EN-GEDI (which see); and if so, it must have been its older name. If this identification be accepted, then Hazazon may survive in the name Wady Husasah, Northwest of `Ain Jid"
     },
     {
-      "article_key": "HIGHWAY",
-      "ref_id": "isbe-bfcc8d7356a4cb2f8135-n000005",
-      "original_target": "ROAD",
-      "displayed_text": "ROAD",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "See ROAD; WAY."
-    },
-    {
-      "article_key": "HORONITE",
-      "ref_id": "isbe-95b69e49056b5d27b9ef-n000007",
-      "original_target": "HORON",
-      "displayed_text": "HORON",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "hor'-o-nit, ho'-ro-nit (ha-choroni): an appellation of Sanballat (Ne 2:10,19; 13:28), as an inhabitant of BETH-HORON (which see)."
-    },
-    {
       "article_key": "HUZ",
       "ref_id": "isbe-451c1ccacc3ab6a8aed3-n000006",
       "original_target": "UZ",
@@ -4483,19 +4108,6 @@
     },
     {
       "article_key": "JERUSALEM",
-      "ref_id": "isbe-ee3b669c99fe2e08d2e2-n000531",
-      "original_target": "ZEDEK",
-      "displayed_text": "ZEDEK",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "At the time of Joshua's invasion of Canaan, ADONI-ZEDEK (which see) is mentioned (Jos 10:1-27) as king of Jerusalem; he united with the kings of Hebron, Jarmuth, Lachish and Eglon to fight against the Gibeonites who had made peace with Joshua; the 5 kings were defeated and, being captured in hiding at the cave Makkedah, were all slain. Another king, ADONIBEZEK (which see) (whom some identify with Adoni-zedek), was defeated by Judah after the deat"
-    },
-    {
-      "article_key": "JERUSALEM",
       "ref_id": "isbe-ee3b669c99fe2e08d2e2-n000723",
       "original_target": "AKRA",
       "displayed_text": "AKRA",
@@ -4524,47 +4136,6 @@
       "context": "See JONAH; JONAS."
     },
     {
-      "article_key": "KEDESH (1)",
-      "ref_id": "isbe-7552265ed13754020756-n000006",
-      "original_target": "BARNEA",
-      "displayed_text": "BARNEA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "(1) One of the \"uttermost cities\" of Judah \"toward the border of Edom in the South\" (Jos 15:23). Possibly it is to be identified with KADESH-BARNEA (which see); otherwise it is strange that this latter should be omitted from the list. Dillmann would identify it with Kadus, to the South of Hebron, mentioned by Muqaddasi."
-    },
-    {
-      "article_key": "KIRIATH",
-      "ref_id": "isbe-2d9175b41d6118cc9d04-n000005",
-      "original_target": "JEARIM",
-      "displayed_text": "JEARIM",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "JEARIM, MOUNT"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "kir'-i-ath (qiryath, \"city\"; the King James Version Kirjath): Mentioned (Jos 18:28) as a city of Benjamin; has been identified with Kuriet el `Enab, \"town of grapes,\" a prosperous town on the highroad between Jerusalem and Jaffa; it is sometimes spoken of by the inhabitants as Qurieh. It is, however, generally thought that Kiriath here stands for KIRIATH-JEARIM (which see). See P E F, III, 132, Sh XVII."
-    },
-    {
-      "article_key": "KIRIATH-SANNAH",
-      "ref_id": "isbe-8c04ba67a8e8defd1248-n000005",
-      "original_target": "SEPHER",
-      "displayed_text": "SEPHER",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "kir-i-ath-san'-a (qiryath sannah; the King James Version Kirjath Sannah): In Jos 15:49 it is called \"Debir,\" and is identical with KIRIATH-SEPHER (which see). Aspolis grammaton, \"city of books,\" is the reading in Septuagint, the most natural explanation is that cannah, is a copyist's error for cepher, but Sayce considers this an ancient Canaanite name meaning \"city of instruction,\" and that it occurs in the Tell el-Amarna Letters in the form \"Bit"
-    },
-    {
       "article_key": "LAW IN THE NEW TESTAMENT",
       "ref_id": "isbe-e037836378f607db448d-n000103",
       "original_target": "PUNISHMENT",
@@ -4578,19 +4149,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "See also PUNISHMENT."
-    },
-    {
-      "article_key": "LIDEBIR",
-      "ref_id": "isbe-a5280556ac704fdb0edc-n000005",
-      "original_target": "DEBAR",
-      "displayed_text": "DEBAR",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "lid'-e-ber (lidhebhir): For \"of Debir\" in EV; the Revised Version margin suggests the name \"Lidebir\" (Jos 13:26), a city in the territory of Gad. It is probably identical with LO-DEBAR (which see)."
     },
     {
       "article_key": "MARK, JOHN",
@@ -4634,22 +4192,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "me-fib'-o-sheth (mephibhosheth, \"idol-breaker,\" also MERIB-BAAL (which see); Memphibosthe):"
-    },
-    {
-      "article_key": "MOTION",
-      "ref_id": "isbe-1c5b91c8ee20bdf0b6dc-n000006",
-      "original_target": "PASSION",
-      "displayed_text": "PASSION",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "PASSION, GOSPEL OF THE",
-        "PASSION, PASSIONS"
-      ],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "mo'-shun: In 2 Esdras 6:14, the King James Version \"motion\" represents the Latin commotio, \"commotion,\" \"disturbance\" (the Revised Version (British and American) has revised entirely here). In Ro 7:5, \"the motions of sins, which were by the law,\" \"motion\" is used in the sense of \"impulse,\" and \"impulses\" would probably give the best translation. But the Greek noun (pathemata) is hard to translate exactly, and the Revised Version (British and Amer"
     },
     {
       "article_key": "NAME",
@@ -4793,19 +4335,6 @@
       "context": "See STRANGER AND SOJOURNER."
     },
     {
-      "article_key": "SAUL",
-      "ref_id": "isbe-8a1adecea5c9e9f99549-n000161",
-      "original_target": "BOSHETH",
-      "displayed_text": "BOSHETH",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [],
-      "numbered_candidates": [],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "With Saul the first Israelite dynasty began and ended. The names of his sons are given in 1Sa 14:49 as Jonathan, Ishvi and Malchishua. Ishvi or Ishyo (Septuagint) is Eshbaal, called in 2Sa 2:8 ISH-BOSHETH (which see). 1Ch 8:33 adds Abinadab. Jonathan left a long line of descendants famous, like himself, as archers (1Ch 8:34). The rest of Saul's posterity apparently died out. Malchishua and Abinadab were slain at Gilboa (1Sa 31:6; 1Ch 10:2), and I"
-    },
-    {
       "article_key": "SEER",
       "ref_id": "isbe-63d1f45fa6675d9e8dbd-n000026",
       "original_target": "PROPHET",
@@ -4938,24 +4467,6 @@
       "lexical_candidates": [],
       "kind": "requires_review",
       "context": "trans-gresh'-un: From \"transgress,\" to pass over or beyond; to overpass, as any rule prescribed as the limit of duty; to break or violate, as a law, civil or moral; the act of transgressing; the violation of a law or known principle of rectitude; breach of command; offense; crime; sin. In the Old Testament pesha`, occurs 80 times, rendered in all versions by \"transgression.\" Its meaning is \"rebellion\"; see REBELLION. The word \"rebellion\" differs "
-    },
-    {
-      "article_key": "URIAH; URUAH",
-      "ref_id": "isbe-7515003edf58e50cd270-n000011",
-      "original_target": "SHEBA",
-      "displayed_text": "SHEBA",
-      "candidate_key": null,
-      "alias_candidates": [],
-      "comma_prefix_candidates": [
-        "SHEBA, QUEEN OF"
-      ],
-      "numbered_candidates": [
-        "SHEBA (1)",
-        "SHEBA (2)"
-      ],
-      "lexical_candidates": [],
-      "kind": "requires_review",
-      "context": "(1) A Hittite, who had settled in Jerusalem at the time of David and who had entered David's service. He had become a worshipper of Yahweh (judging from the usual interpretations of his name) and had married a Hebrew wife, BATH-SHEBA (which see). David's sin with this woman occurred while Uriah was engaged in warfare, and David had him recalled to Jerusalem in order to hide what had transpired. Uriah, however, felt himself bound by the consecrati"
     },
     {
       "article_key": "WASH; WASHING",

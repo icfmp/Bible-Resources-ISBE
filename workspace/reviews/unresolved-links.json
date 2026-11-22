@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 167,
-  "unresolved_distinct_targets": 150,
+  "unresolved_occurrences": 155,
+  "unresolved_distinct_targets": 138,
   "categories_by_occurrence": {
     "article_section_label": 15,
-    "multiple_numbered_entries": 8,
-    "unmatched_heading_or_alias": 144
+    "multiple_numbered_entries": 7,
+    "unmatched_heading_or_alias": 133
   },
   "review_queue": [
     {
@@ -262,13 +262,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "BARNEA",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "BETHUEL; CHESIL",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -277,13 +270,6 @@
     },
     {
       "source_target": "BITHYNIARCH",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "BOSHETH",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -410,13 +396,6 @@
     },
     {
       "source_target": "DB",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "DEBAR",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -605,13 +584,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "HORON",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "ICC",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -640,13 +612,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "JEARIM",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "JONAS",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
@@ -658,13 +623,6 @@
     },
     {
       "source_target": "JUDGES",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "LAST",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
@@ -772,13 +730,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "PASSION",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "PEITHE",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -860,20 +811,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "RIVER, THE",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ROAD",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
       "source_target": "SAQQAREH",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -899,23 +836,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SEPHER",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SHEBA",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "SHEBA (1)",
-        "SHEBA (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1073,13 +993,6 @@
     },
     {
       "source_target": "YHWH",
-      "occurrences": 1,
-      "category": "unmatched_heading_or_alias",
-      "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ZEDEK",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
