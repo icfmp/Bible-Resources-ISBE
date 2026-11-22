@@ -4,6 +4,7 @@ on:
     paths:
       - .github/workflows/audit-link-contexts.yml
       - scripts/audit_link_contexts.py
+      - cleaned/en/ISBE.xml
 permissions:
   contents: write
 jobs:
