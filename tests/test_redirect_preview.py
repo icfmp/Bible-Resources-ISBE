@@ -16,11 +16,12 @@ class RedirectPreviewTests(unittest.TestCase):
             output=Path(tmp)/"preview.xml"
             report=Path(tmp)/"report.json"
             result=preview(source,root/"workspace/reviews/redirect-candidate-v1.json",output,report)
-            self.assertEqual(result["changed_articles"],10)
-            self.assertEqual(result["untouched_articles_verified"],9370)
+            self.assertEqual(result["changed_articles"],11)
+            self.assertEqual(result["untouched_articles_verified"],9369)
             self.assertTrue(result["original_ids_preserved"])
             self.assertTrue(result["noncanonical"])
             self.assertEqual(result["proposed_links_unresolved"], 0)
+            self.assertEqual(next(r["proposed_visible_text"] for r in result["records"] if r["article_key"]=="JOSIBIAH"), "See JOSHIBIAH.")
             proposed={r["article_key"]:r["proposed_visible_text"] for r in result["records"]}
             self.assertEqual(proposed["PAUL, VOYAGE AND SHIPWRECK OF"],
                              "See PAUL, THE APOSTLE, V, 9; PHOENIX.")
