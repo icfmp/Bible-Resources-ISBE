@@ -51,6 +51,25 @@ def entries_from_imp(text):
         yield key, text[match.end():end].strip()
 
 
+def resolve_key(raw_key, ids, normalized):
+    """Resolve only unique case, spacing or terminal-dot variations."""
+    if raw_key in ids:
+        return raw_key, "exact"
+    folded = raw_key.strip().casefold()
+    matches = normalized.get(folded, ())
+    if len(matches) == 1:
+        return matches[0], "case_or_space"
+    if len(matches) > 1:
+        return None, "ambiguous"
+    if folded.endswith("."):
+        matches = normalized.get(folded[:-1].rstrip(), ())
+        if len(matches) == 1:
+            return matches[0], "terminal_period"
+        if len(matches) > 1:
+            return None, "ambiguous"
+    return None, "not_found"
+
+
 def build(imp):
     records = list(entries_from_imp(imp))
     ids = {}
@@ -61,6 +80,10 @@ def build(imp):
         if aid in ids.values():
             raise ValueError(f"Article ID collision: {key}")
         ids[key] = aid
+
+    normalized = {}
+    for key in ids:
+        normalized.setdefault(key.strip().casefold(), []).append(key)
 
     root = ET.Element(f"{{{TEI}}}TEI")
     header = ET.SubElement(root, f"{{{TEI}}}teiHeader")
@@ -76,6 +99,8 @@ def build(imp):
 
     unsupported = Counter()
     missing_refs = Counter()
+    resolved_variants = Counter()
+    unresolved_details = Counter()
     title_variants = []
     text_chars = 0
     nodes = 0
@@ -128,11 +153,15 @@ def build(imp):
             target = element.attrib.get("target", "")
             if target.startswith("ISBE:"):
                 link_key = target[5:]
-                if link_key in ids:
+                resolved_key, reason = resolve_key(link_key, ids, normalized)
+                if resolved_key is not None:
                     element.set("n", target)
-                    element.set("target", "#" + ids[link_key])
+                    element.set("target", "#" + ids[resolved_key])
+                    if reason != "exact":
+                        resolved_variants[(link_key, resolved_key, reason)] += 1
                 else:
                     missing_refs[link_key] += 1
+                    unresolved_details[(link_key, reason)] += 1
         manifest.append({"index": number, "key": key, "id": aid,
                          "text_chars": len(original_text),
                          "text_sha256": hashlib.sha256(original_text.encode("utf-8")).hexdigest()})
@@ -141,6 +170,15 @@ def build(imp):
               "indexed_content_nodes": nodes, "source_text_characters": text_chars,
               "other_root_tags": dict(unsupported),
               "source_title_variants": title_variants,
+              "resolved_variant_links": [
+                  {"original": original, "resolved_to": mapped, "rule": rule, "occurrences": n}
+                  for (original, mapped, rule), n in sorted(resolved_variants.items())
+              ],
+              "resolved_variant_occurrences": sum(resolved_variants.values()),
+              "unresolved_link_diagnostics": [
+                  {"original": key, "reason": reason, "occurrences": n}
+                  for (key, reason), n in sorted(unresolved_details.items())
+              ],
               "unresolved_isbe_links": dict(missing_refs),
               "unresolved_link_occurrences": sum(missing_refs.values()),
               "text_integrity": "validated for every entry"}
