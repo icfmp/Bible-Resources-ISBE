@@ -234,6 +234,18 @@ def scan(path):
             "status": "review_diagnostics_not_approved_mappings",
             "total_unresolved_occurrences": len(records),
             "category_counts": dict(sorted(summary.items())),
+            "unresolved_numbered_homonyms": [
+                {"source_article": x["article_key"], "original_target": x["original_target"],
+                 "ref_id": x["ref_id"], "context": x["context"][:340],
+                 "candidates": [
+                     {"article_key": a.get("n"),
+                      "article_excerpt": " ".join("".join(a.itertext()).split())[:540],
+                      "osis_refs": sorted(scripture_refs(a))[:10]}
+                     for a in numbered_groups[normalized(x["original_target"])]
+                 ]}
+                for x in records
+                if len(numbered_groups.get(normalized(x["original_target"]), ())) > 1
+            ],
             "exclusive_scripture_numbered_candidates": scripture_candidates,
             "local_section_review": local_section_candidates,
             "article_heading_candidates": [
