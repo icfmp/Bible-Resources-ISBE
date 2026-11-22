@@ -40,6 +40,16 @@ class LocalHeadingTests(unittest.TestCase):
         self.assertEqual(ref.get("target"), "#" + paragraphs[1].get(XMLID))
         self.assertEqual(report["resolved_local_section_occurrences"], 1)
 
+    def test_numbered_bold_heading_with_paragraph_content(self):
+        imp = """$$$ARTICLE
+<entryFree n="ARTICLE"><p><ref target="ISBE:I. DEFINITION">I. DEFINITION</ref></p><p><hi rend="bold">I. Definition:</hi> An introductory explanation.</p></entryFree>"""
+        root, _, report = build(imp)
+        article = root.find(".//{http://www.tei-c.org/ns/1.0}div[@type='entry']")
+        heading = next(el for el in article.iter() if el.tag == "hi")
+        ref = next(el for el in article.iter() if el.tag == "ref")
+        self.assertEqual(ref.get("target"), "#" + heading.get(XMLID))
+        self.assertEqual(report["resolved_local_section_occurrences"], 1)
+
     def test_no_guess_for_repeated_plain_section_title(self):
         imp = """$$$ARTICLE
 <entryFree n="ARTICLE"><p><ref target="ISBE:LITERATURE">Literature</ref></p><p>Literature</p><p>Literature</p></entryFree>"""
