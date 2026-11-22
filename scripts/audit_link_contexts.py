@@ -7,6 +7,7 @@ import argparse
 from collections import Counter
 import json
 import unicodedata
+import re
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -54,6 +55,10 @@ def scan(path):
             component = component.strip()
             if component:
                 aliases.setdefault(normalized(component), set()).add(key)
+    numbered_candidates = {}
+    for key in (a.get("n") for a in entries):
+        stem = re.sub(r"\\s+\\(\\d+\\)$", "", key).strip().casefold()
+        numbered_candidates.setdefault(stem, set()).add(key)
     records = []
     summary = Counter()
     for article in entries:
@@ -72,6 +77,8 @@ def scan(path):
             container_text = "".join(parent.itertext()) if parent is not None else ""
             snippet = " ".join(container_text.split())[:450]
             alias_matches = sorted(aliases.get(normalized(target), ()))
+            stripped_target = re.sub(r"\\s+\\(\\d+\\)$", "", target).strip().casefold()
+            numbered_matches = sorted(numbered_candidates.get(stripped_target, ()))
             target_matches = lexical_index.get(folded_letters(target), [])
             if len(alias_matches) == 1:
                 kind = "unique_semicolon_alias_candidate"
@@ -93,6 +100,7 @@ def scan(path):
                 "displayed_text": visible,
                 "candidate_key": candidate,
                 "alias_candidates": alias_matches,
+                "numbered_candidates": numbered_matches,
                 "lexical_candidates": target_matches[:20],
                 "kind": kind,
                 "context": snippet,
@@ -101,6 +109,17 @@ def scan(path):
             "status": "review_diagnostics_not_approved_mappings",
             "total_unresolved_occurrences": len(records),
             "category_counts": dict(sorted(summary.items())),
+            "numbered_link_review": [
+                {"article_key": x["article_key"], "original_target": x["original_target"],
+                 "candidates": x["numbered_candidates"], "context": x["context"][:300]}
+                for x in records if len(x["numbered_candidates"]) == 1
+                and x["original_target"] != x["numbered_candidates"][0]
+            ],
+            "ambiguous_alias_review": [
+                {"article_key": x["article_key"], "original_target": x["original_target"],
+                 "candidates": x["alias_candidates"], "context": x["context"][:170]}
+                for x in records if x["kind"] == "ambiguous_semicolon_alias"
+            ],
             "unique_semicolon_alias_candidates": [
                 {"article_key": x["article_key"], "original_target": x["original_target"],
                  "candidate": x["alias_candidates"][0],
