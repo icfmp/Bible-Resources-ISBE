@@ -111,3 +111,20 @@ Nine source-gap entries have been visually inspected:
 **Material source-fidelity findings:** The 1915 `ASTARTE` headword includes the alternate form `ASTORETH` in the printed entry, absent from our earlier redirect body. `JOSIBIAH` has a different pronunciation from the derivative transcript. The `PATRIARCHS` cross-reference names `APOCALYPTIC LITERATURE, IV, 1` without the later insertion `sec.`. `REGENERATION, BAPTISMAL` is a real short printed redirect despite previous strict OCR failure. `CHORBE`, `THOCANUS` and `SYCHEM` need their original Greek/1915 terminology and abbreviations retained rather than expanded paraphrases. The source-website's spurious `>` after the second `SEPHARVITES` pronunciation is **not printed**. Conversely the unusual ending `in "is."` in `FROWARDNESS` **is printed**: it is genuine source text, not a truncated digitization error.
 
 Only confidently source-backed portions have been changed in the **noncanonical, still unapproved** editorial preview. Each amended record retains its earlier reading, provenance and print-page evidence. These nine page observations are **not** claims that every mark, Hebrew/Greek character, paragraph or bibliography in the full articles has been exhaustively collated. Original 1915 typography and scientific transliteration require further precision review. The other **22 records** still await visual checking. The canonical TEI remains deliberately unchanged pending source-wide validation and editorial approval.
+
+## Closure of all six strict-OCR misses by direct print-image inspection
+
+All **six** previously unlocated entries have now been identified in their proper original 1915 printed volumes, not inferred from the back-of-book index:
+
+| Historical source key | Original vol. | PDF page (1-based) | Printed folio |
+| --- | ---: | ---: | ---: |
+| ASTARTE; ASTORETH | I | 329 | 295 |
+| CHORBE | I | 654 | 614 |
+| JOSIBIAH | III | 393 | 1753 |
+| PATRIARCHS, TESTAMENTS OF THE TWELVE | IV | 176 | 2264 |
+| REGENERATION, BAPTISMAL | IV | 466 | 2550 |
+| THOCANUS | V | 169 | 2973 |
+
+The source-located evidence is now **31/31**: 25 strict primary-print OCR matches plus six additionally checked printed-page image matches. **Do not equate this to 31/31 complete article transcription validations**: only nine individual pages have been visually checked, and none of the entire source articles or Greek/Hebrew punctuation has yet received fully certified text-level collation.
+
+This correction supersedes the earlier six-unresolved *OCR* checkpoint without rewriting the audit history. In the historical OCR ledger, the six original strict-OCR fields remain absent, with their separate confirmed page-image locations preserved. The original CrossWire and canonical TEI remain immutable.
