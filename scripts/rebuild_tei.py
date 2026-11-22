@@ -681,6 +681,45 @@ def build(imp, reviewed=None, occurrence_mappings=None):
                     "original_target": target, "heading_id": headings[0]
                 })
 
+    # Never ship an ISBE reference whose destination cannot be validated.
+    # This changes navigation only: text, nested markup, xml:id, original
+    # CrossWire target and all whitespace remain intact and recoverable.
+    # No "missing" index target is silently replaced by a guessed article.
+    unlinked_references = []
+    numbered_stems = {}
+    for key in ids:
+        root_key = numbered_root(key)
+        if root_key is not None:
+            numbered_stems.setdefault(root_key, []).append(key)
+    for source_key, article in articles_by_key.items():
+        for ref in article.iter():
+            raw_target = ref.get("target", "")
+            if not raw_target.startswith("ISBE:"):
+                continue
+            missing_key = raw_target[5:]
+            if len(numbered_stems.get(missing_key.casefold().strip(), ())) > 1:
+                reason = "ambiguous_numbered_headword"
+            elif re.match(r"^(?:(?:[IVXLCDM]+|[0-9]+)\\.\\s+)", missing_key, re.I):
+                reason = "section_anchor_not_verified"
+            elif ";" in missing_key:
+                reason = "compound_target_not_unique"
+            else:
+                reason = "target_not_found_in_index"
+            ref.tag = f"{{{TEI}}}seg"
+            ref.attrib.pop("target")
+            ref.set("type", "unlinked-source-reference")
+            ref.set("subtype", reason)
+            ref.set("n", raw_target)
+            unlinked_references.append({
+                "source_article": source_key,
+                "ref_id": ref.get(XMLID),
+                "original_target": raw_target,
+                "disposition": reason,
+                "displayed_text": "".join(ref.itertext()),
+            })
+    if len(unlinked_references) != sum(missing_refs.values()):
+        raise ValueError("Every missing CrossWire target must be explicitly unlinked")
+
     report = {"source_entries": len(records), "tei_entries": len(body),
               "original_isbe_link_occurrences": original_isbe_links,
               "reclassified_bibliography_headings": bibliography_reclassified,
@@ -741,6 +780,11 @@ def build(imp, reviewed=None, occurrence_mappings=None):
                   for (key, reason), n in sorted(unresolved_details.items())
               ],
               "unresolved_isbe_links": dict(missing_refs),
+              "unlinked_source_references": unlinked_references,
+              "unlinked_source_reference_occurrences": len(unlinked_references),
+              "unlinked_source_reference_reasons": dict(sorted(Counter(
+                  x["disposition"] for x in unlinked_references
+              ).items())),
               "unresolved_link_occurrences": sum(missing_refs.values()),
               "text_integrity": "validated for every entry"}
     return root, manifest, report
@@ -807,24 +851,36 @@ def main():
         if xml_id in all_ids:
             raise ValueError(f"Duplicate TEI xml:id: {xml_id}")
         all_ids.add(xml_id)
-    unresolved_seen = 0
+    active_broken_links = 0
     resolved_seen = 0
+    unlinked_seen = 0
+    unlinked_ids = set()
     for node in round_trip.iter():
         target = node.get("target", "")
         original = node.get("n", "")
         if target.startswith("ISBE:"):
-            unresolved_seen += 1
+            active_broken_links += 1
         if original.startswith("ISBE:") and target.startswith("#"):
             resolved_seen += 1
             if target[1:] not in all_ids:
                 raise ValueError(f"Broken resolved ISBE link: {original} -> {target}")
-    if (unresolved_seen + resolved_seen
+        if node.tag == f"{{{TEI}}}seg" and node.get("type") == "unlinked-source-reference":
+            if not original.startswith("ISBE:") or target:
+                raise ValueError("Unlinked reference lacks original provenance or has a target")
+            unlinked_seen += 1
+            unlinked_ids.add(node.get(XMLID))
+    if active_broken_links:
+        raise ValueError(f"Found {active_broken_links} active broken ISBE links")
+    if (unlinked_seen + resolved_seen
             + report["reclassified_bibliography_occurrences"]
             != report["original_isbe_link_occurrences"]):
         raise ValueError("A source ISBE cross-reference was lost or duplicated")
-    if unresolved_seen != report["unresolved_link_occurrences"]:
-        raise ValueError("Serialized TEI unresolved link total differs from report")
+    if unlinked_seen != report["unresolved_link_occurrences"]:
+        raise ValueError("Serialized TEI unlinked reference count differs from report")
+    if unlinked_ids != {r["ref_id"] for r in report["unlinked_source_references"]}:
+        raise ValueError("Serialized TEI unlinked source reference IDs differ from report")
     report["resolved_internal_links_validated"] = resolved_seen
+    report["active_broken_isbe_links"] = active_broken_links
     report["xml_id_uniqueness"] = "validated"
     report["reviewed_title_alias_count"] = len(reviewed)
     report["reviewed_title_aliases_used"] = sorted(
