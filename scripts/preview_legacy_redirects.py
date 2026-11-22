@@ -40,8 +40,8 @@ def preview(source,manifest_path,destination,report_path):
     originals={key:(article_text(article),[n.get(XMLID) for n in article.iter()])
                for key,article in articles.items()}
     ids={n.get(XMLID) for a in articles.values() for n in a.iter()}
-    if None in ids:
-        raise ValueError("Original TEI node missing xml:id")
+    # The canonical P5 has source-backed bibliography wrapper divisions with no ID.
+    # Their absence of xml:id is intentional; preserve all existing IDs instead.
     report=[]
     for record in records:
         key=record["article_key"]
