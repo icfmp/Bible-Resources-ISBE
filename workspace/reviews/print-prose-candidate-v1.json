@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "document_base_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "authority": "1915 Orr / Howard-Severance volume I, independently indexed searchable copy; not yet image-collated",
   "prohibited_canonical_promotion": true,
@@ -151,11 +151,16 @@
       "scan_page": null,
       "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
       "blocks": [
+        "kôr'bē (Χορβέ, Chorbē; AV Corbe): Head of a family which returned with Zerubbabel (1 Esd 5 12). The name apparently corresponds to Zaccai in Ezr 2 9 and Neh 7 14."
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation. PRINT COLLATION: Printed original vol. I p. 614 shows ancient Greek Χορβέ, AV Corbe, and the historical scripture abbreviations. Greek accent and transliteration retain proofreading status.",
+      "print_image_reviewed": true,
+      "approved": false,
+      "pre_print_image_text": [
         "kor'-be (Chorbe; the King James Version Corbe): Head of a family which returned with Zerubbabel (1 Esdras 5:12). The name apparently corresponds to Zaccai in Ezra 2:9 and Nehemiah 7:14."
       ],
-      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
-      "print_image_reviewed": false,
-      "approved": false
+      "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "source_key": "DEHORT",
@@ -183,9 +188,11 @@
       "blocks": [
         "fro'-werd-nes: The translation of tahpukhoth the plural of tahpukhah, \"perversity,\" \"foolishness\" (from haphakh, \"to turn about\") in Proverbs 2:14, \"delight in the frowardness of the wicked,\" the American Standard Revised Version \"the perverseness of evil,\" margin \"the evil man\" (compare 2:12; some render \"deceit\"); 6:14 the American Standard Revised Version, \"perverseness\"; 10:32, \"the mouth of the wicked speaketh frowardness,\" the American Standard Revised Version \"speaketh perverseness,\" margin \"is.\""
       ],
-      "editorial_notes": "The web transcript's final sentence ends with the word 'is.'; retained without emendation and flagged for scan validation.",
-      "print_image_reviewed": false,
-      "approved": false
+      "editorial_notes": "The web transcript's final sentence ends with the word 'is.'; retained without emendation and flagged for scan validation. The printed 1915 page 1147 confirms the apparently abrupt closing phrase in 'is.' It is authentic editorial content and must not be silently repaired.",
+      "print_image_reviewed": true,
+      "approved": false,
+      "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "source_key": "HEMDAN",
@@ -226,11 +233,16 @@
       "scan_page": null,
       "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
       "blocks": [
+        "se'-far-vits, se-far'-vits (cepharwim): In 2 Kings 17:31, the inhabitants of SEPHARVAIM (which see), planted by the king of Assyria in Samaria. They continued there to burn their children to their native gods."
+      ],
+      "editorial_notes": "Independent web source has an unexplained '>' after the second pronunciation: preserved verbatim; needs print image confirmation. PRINT COLLATION: Removed a greater-than sign after the second pronunciation: original 1915 printed page 2723 has none. Other pronunciation, Hebrew and source abbreviations still require exact collation.",
+      "print_image_reviewed": true,
+      "approved": false,
+      "pre_print_image_text": [
         "se'-far-vits, se-far'-vits> (cepharwim): In 2 Kings 17:31, the inhabitants of SEPHARVAIM (which see), planted by the king of Assyria in Samaria. They continued there to burn their children to their native gods."
       ],
-      "editorial_notes": "Independent web source has an unexplained '>' after the second pronunciation: preserved verbatim; needs print image confirmation.",
-      "print_image_reviewed": false,
-      "approved": false
+      "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "source_key": "SHALLUN",
@@ -256,11 +268,16 @@
       "scan_page": null,
       "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
       "blocks": [
+        "si'kem (Συχέμ, Suchém): In this form the name of Shechem appears in Acts 7 16 AV, in the report of Stephen's speech. AV is a transcription from the Gr; RV in accordance with its practice, to give uniformity in the Eng., follows the Heb form of the name given in the OT."
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation. PRINT COLLATION: Printed original vol. V p. 2877 consistently uses AV, RV, Gr, Eng., Heb and OT; earlier secondary transcript expanded/altered these. Greek accent remains editorially unapproved.",
+      "print_image_reviewed": true,
+      "approved": false,
+      "pre_print_image_text": [
         "si'-kem (Suchem): In this form the name of Shechem appears in Acts 7:16 the King James Version, in the report of Stephen's speech. the King James Version is a transcription from the Greek; the Revised Version (British and American) in accordance with its practice, to give uniformity in the English, follows the Hebrew form of the name given in the Old Testament."
       ],
-      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
-      "print_image_reviewed": false,
-      "approved": false
+      "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "source_key": "TEPHON",
@@ -286,11 +303,16 @@
       "scan_page": null,
       "source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
       "blocks": [
+        "thô-kă'nus (Θόκανος, Thókanos, Θώκανος, Thōkanos; AV Theocanus): The father of Ezekias, who with Jonathan \"took the matter upon them\" in the proceedings under Ezra against foreign wives (1 Esd 9 14) = \"Tikvah\" in Ezr 10 15."
+      ],
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation. PRINT COLLATION: Printed original vol. V p. 2973 shows both Greek alternate forms and printed AV/Ezr abbreviations missing from earlier derivative witness. Detailed accentuation still needs second-pass collation.",
+      "print_image_reviewed": true,
+      "approved": false,
+      "pre_print_image_text": [
         "tho-ka'-nus (Thokanos, Thokanos; the King James Version Theocanus): The father of Ezekias, who with Jonathan \"took the matter upon them\" in the proceedings under Ezra against foreign wives (1 Esdras 9:14) = \"Tikvah\" in Ezra 10:15."
       ],
-      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation.",
-      "print_image_reviewed": false,
-      "approved": false
+      "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
+      "print_text_fully_certified": false
     },
     {
       "source_key": "THOMEI",
@@ -308,5 +330,5 @@
       "approved": false
     }
   ],
-  "research_checkpoint": "All 20 provisional article-text candidates recovered from identified 1915 print text or independent 1915-attributed transcriptions. All 11 historical redirects separately sourced. No original printed page-image verification or editorial approval."
+  "research_checkpoint": "Visual primary-print collation of nine headwords and source-backed amendments to CHORBE, SYCHEM, THOCANUS and SEPHARVITES; unusual FROWARDNESS ending confirmed authentic. All publication/source-text changes remain unapproved."
 }
