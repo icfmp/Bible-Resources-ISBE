@@ -13,9 +13,9 @@ Audit unresolved references, headings, unusual article structures and representa
 
 Treat cross-reference navigation as a separate layer from source text. Run the canonical TEI rebuild action on changes to `scripts/rebuild_tei.py` or `workspace/reviews/accepted-title-aliases.json`. The action regenerates `workspace/reports/tei-reconstruction.json` and the remaining-link diagnostics under `workspace/reviews/`.
 
-Resolve mechanical title variants and explicitly identifiable article/section destinations through generic rules. Where the original headings are insufficient, record a source-backed decision with a concise rationale in `accepted-title-aliases.json`. Never add guessed links merely to decrease the unresolved count. All original CrossWire encyclopedia reference destinations must remain recoverable in `n` on rewritten links.
+Resolve mechanical title variants and explicitly identifiable article/section destinations through generic rules. Where the original headings are insufficient, record a source-backed decision with a concise rationale in `accepted-title-aliases.json`. Use a global `mapping` only if its title equivalence holds in every context; for homonyms and exceptional references use `occurrence_mappings` with the stable source reference ID and original target. Never add guessed links merely to decrease the unresolved count. All original CrossWire encyclopedia reference destinations must remain recoverable in `n` on rewritten links.
 
-Checks must confirm entry/character counts, per-article text hashes, unique XML IDs, valid rewritten targets, and that every original SWORD encyclopedia link occurrence is either resolved or remains explicitly unresolved.
+Checks must confirm entry/character counts, per-article text hashes, unique XML IDs, valid rewritten targets, and that every original SWORD encyclopedia link occurrence is resolved, remains explicitly unresolved, or has been identified as a bibliographic heading with preserved provenance.
 
 ## 4. Modernize without overwriting
 Copy the validated cleaned master to `modern/en/ISBE.xml`; preserve existing `xml:id` values. Modernize language in reviewable batches with recorded editorial rationale. Distinguish linguistic updates from corrections of historic assertions.
