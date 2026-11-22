@@ -73,7 +73,7 @@ $$$CREED; CREEDS
         self.assertEqual(ref.get("target"), "#" + dest.get("{http://www.w3.org/XML/1998/namespace}id"))
         self.assertEqual(report["resolved_redirect_alias_occurrences"], 1)
 
-    def test_ambiguous_alias_from_other_article_stays_unresolved(self):
+    def test_unique_primary_alias_from_other_article_is_safe(self):
         from rebuild_tei import build
         imp = """$$$OTHER
 <entryFree n="OTHER"><p>See <ref target="ISBE:CREED">CREED</ref>.</p></entryFree>
@@ -81,9 +81,13 @@ $$$ATHANASIAN; CREED
 <entryFree n="ATHANASIAN; CREED"><p>One subject.</p></entryFree>
 $$$CREED; CREEDS
 <entryFree n="CREED; CREEDS"><p>Another subject.</p></entryFree>"""
-        _, _, report = build(imp)
-        self.assertEqual(report["resolved_redirect_alias_occurrences"], 0)
-        self.assertEqual(report["unresolved_link_occurrences"], 1)
+        root, _, report = build(imp)
+        source = next(x for x in root.iter() if x.tag.endswith("div") and x.get("n") == "OTHER")
+        target = next(x for x in root.iter() if x.tag.endswith("div") and x.get("n") == "CREED; CREEDS")
+        ref = next(x for x in source.iter() if x.get("n") == "ISBE:CREED")
+        self.assertEqual(ref.get("target"), "#" + target.get("{http://www.w3.org/XML/1998/namespace}id"))
+        self.assertEqual(report["resolved_primary_alias_occurrences"], 1)
+        self.assertEqual(report["unresolved_link_occurrences"], 0)
 
     def test_unique_inverted_definite_article(self):
         ids = {"DEAD SEA, THE": "entry"}
