@@ -46,6 +46,6 @@ The process fails if XML cannot be parsed, article keys are duplicated, the entr
 
 The cleaned TEI is a **transcription of the CrossWire digital source**, not a critically verified edition of the printed volumes. It is never modernized in place. All language modernization happens separately under `modern/en/`; translations are derived from a pinned modern-English revision. Preserve semantic IDs across revisions so only altered text units need translation review.
 
-The initial report lists 1,344 unresolved internal-link occurrences and four original title variants. Keep these as open review findings rather than inventing targets or silently correcting historical content.
+The current report lists **1,328 unresolved internal-link occurrences** (729 distinct target strings) after **16 uniquely grounded punctuation-only link repairs**, plus four original title variants. Keep these as open review findings rather than inventing targets or silently correcting historical content.
 
 See [TEI conventions](docs/article-format.md), [workflow](docs/workflow.md), and [source policy](docs/source-policy.md).
