@@ -1,50 +1,51 @@
 # Bible Resources — ISBE
 
-A reproducible, multilingual workspace for the **1915 International Standard Bible Encyclopedia** (ISBE).
+A reproducible, multilingual editorial workspace for the historical **International Standard Bible Encyclopedia** (James Orr edition), using the CrossWire SWORD ISBE 2.2 module as the digital starting point.
 
-This repository preserves the historical source, prepares a faithful structured reference, develops a separate modern-English edition, and derives translations from identified revisions of that modern-English edition.
+## Current state
 
-> **Status:** workspace initialization. No CrossWire archive, cleaned corpus, modernized article or translation has yet been imported or verified. Directory placeholders are not data.
+- The original CrossWire 2.2 ZIP is preserved unchanged at `sources/crosswire/isbe-2.2/ISBE.zip` with a SHA-256 provenance manifest.
+- The complete `mod2imp` export is preserved at `workspace/exports/isbe-2.2.imp`.
+- **9,380 entries** have been rebuilt into one TEI XML edition: `cleaned/en/ISBE.xml`.
+- `cleaned/en/article-index.json` contains a stable identifier and source-content checksum for each entry.
+- `workspace/reports/tei-reconstruction.json` records content integrity and unresolved cross-references.
+- Modern English and translations **have not been started**.
 
-## Repository layout
+## Layout
 
 ```text
-sources/
-  crosswire/isbe-2.2/          # Immutable original distribution, manifest and checksum
-cleaned/
-  en/                         # Faithful structured extraction, no rewriting
-modern/
-  en/                         # Version-controlled, modern English editorial master
-translations/
-  fr/ de/ es/ it/             # Derived translations, same stable IDs
-workspace/
-  changes/                    # Reviewable changesets for incremental translation
-  reports/                    # Ingestion, integrity, coverage and QA reports
-  reviews/                    # Editorial decisions and unresolved questions
-scripts/                      # Reusable ingestion, comparison and QA tools
-tests/                        # Representative, automated tests
-docs/                         # General process, formats and editorial rules only
+sources/crosswire/isbe-2.2/      Immutable original SWORD distribution and manifest
+workspace/exports/              Verbatim intermediate SWORD IMP export (retained)
+cleaned/en/                     Canonical, faithful, indexed TEI reference
+modern/en/                      Future modern-English TEI editorial master
+translations/{fr,de,es,it}/      Future TEI translations with matching IDs
+workspace/reports/              Import and quality-control reports
+workspace/changes/              Future revision-diff reports
+workspace/reviews/              Editorial decision records
+scripts/                        Reusable import and validation utilities
+tests/                          Automated tests
+docs/                           Repository-wide working rules
 ```
 
-## Canonical relationships
+## Rebuild
 
-1. The **CrossWire SWORD distribution** is kept byte-for-byte, with upstream URL, exact module version, retrieval date, SHA-256, and licensing information. Never overwrite it; a new upstream version receives a new folder.
-2. **Cleaned English** extracts and represents the source faithfully (headings, articles, paragraphs, references, cross-references, notes and markup when present). No silent corrections or paraphrases. Record all transformation decisions.
-3. **Modern English** is a separate editorial work. Its revisions are kept in Git and its article/segment identifiers remain stable. Modernizing language is not the same as changing historical claims.
-4. **Translations** reference an explicit modern-English revision. Updating the English master invalidates only impacted translated segments; unmodified segments are retained.
-5. The **BSI links** will later reference stable ISBE article IDs, not translated headings. Article-to-entity mapping remains a distinct activity.
-
-## Incremental translation
-
-Store articles as JSON (one article per file) with stable `id` and stable `segments[].id`. The utility `scripts/translation_diff.py` compares two modern-English snapshots and emits changed, added, removed and unchanged segment IDs with source hashes. Generate and review these reports before commissioning updates; changed source segments require retranslation or review, never silent reuse.
+Reconstruction uses the versioned script `scripts/rebuild_tei.py`, and the `Reconstruct ISBE TEI corpus` GitHub Action. To reproduce locally, install SWORD's `mod2imp` utility, unpack the original ZIP into a private directory and run:
 
 ```bash
-python3 scripts/translation_diff.py --old modern/en --new path/to/updated-modern-en --output workspace/changes/modern-en-diff.json
-python3 -m unittest discover -s tests -v
+SWORD_PATH=/path/to/unpacked/sword mod2imp ISBE > workspace/exports/isbe-2.2.imp
+python3 scripts/rebuild_tei.py \
+  --input workspace/exports/isbe-2.2.imp \
+  --output cleaned/en/ISBE.xml \
+  --index cleaned/en/article-index.json \
+  --report workspace/reports/tei-reconstruction.json
 ```
 
-## Publishing rules
+The process fails if XML cannot be parsed, article keys are duplicated, the entry count changes unexpectedly, or any extracted article's text differs after serialization.
 
-No public release until provenance and redistribution rights of the exact source and any derived editions are documented and the transformed content has been validated. Git is the history of changes, but stable source snapshots and machine-readable change reports are also retained. Do not create empty or fabricated ISBE articles merely to populate folders.
+## Editorial boundaries
 
-See [workflow](docs/workflow.md) and [article format](docs/article-format.md).
+The cleaned TEI is a **transcription of the CrossWire digital source**, not a critically verified edition of the printed volumes. It is never modernized in place. All language modernization happens separately under `modern/en/`; translations are derived from a pinned modern-English revision. Preserve semantic IDs across revisions so only altered text units need translation review.
+
+The initial report lists 1,344 unresolved internal-link occurrences and four original title variants. Keep these as open review findings rather than inventing targets or silently correcting historical content.
+
+See [TEI conventions](docs/article-format.md), [workflow](docs/workflow.md), and [source policy](docs/source-policy.md).
