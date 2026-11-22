@@ -1,25 +1,15 @@
 {
   "schema_version": 1,
   "purpose": "editorial_review_only",
-  "unresolved_occurrences": 224,
-  "unresolved_distinct_targets": 204,
+  "unresolved_occurrences": 186,
+  "unresolved_distinct_targets": 168,
   "categories_by_occurrence": {
     "article_section_label": 15,
-    "multiple_numbered_entries": 46,
+    "multiple_numbered_entries": 8,
     "single_numbered_entry_candidate": 3,
     "unmatched_heading_or_alias": 160
   },
   "review_queue": [
-    {
-      "source_target": "ABDON",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ABDON (1)",
-        "ABDON (2)"
-      ],
-      "status": "needs_review"
-    },
     {
       "source_target": "ADAM IN THE NEW TESTAMENT; FALL, THE",
       "occurrences": 1,
@@ -275,16 +265,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "BANIAS",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "BANIAS (1)",
-        "BANIAS (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "BAPTISM",
       "occurrences": 3,
       "category": "unmatched_heading_or_alias",
@@ -303,16 +283,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "BAR",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "BAR (1)",
-        "BAR (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -335,16 +305,6 @@
       "category": "single_numbered_entry_candidate",
       "review_candidates": [
         "BELA"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "BETH",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "BETH (1)",
-        "BETH (2)"
       ],
       "status": "needs_review"
     },
@@ -426,16 +386,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "CHERUBIM",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "CHERUBIM (1)",
-        "CHERUBIM (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "CHRIST",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -499,40 +449,10 @@
       "status": "needs_review"
     },
     {
-      "source_target": "CUSH",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "CUSH (1)",
-        "CUSH (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "CUSHIM",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "CUSTOM",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "CUSTOM (1)",
-        "CUSTOM (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "DAN",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "DAN (2)",
-        "DAN (3)"
-      ],
       "status": "needs_review"
     },
     {
@@ -568,16 +488,6 @@
       "occurrences": 2,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "DEMETRIUS",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "DEMETRIUS (1)",
-        "DEMETRIUS (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -630,16 +540,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "EPHRAIM",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "EPHRAIM (1)",
-        "EPHRAIM (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "ERI-AKU, 4",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -665,16 +565,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ESHCOL",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ESHCOL (1)",
-        "ESHCOL (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -734,18 +624,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "GAD",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "GAD (1)",
-        "GAD (2)",
-        "GAD (3)",
-        "GAD (4)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "GEDI",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -764,16 +642,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "HAIL",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "HAIL (1)",
-        "HAIL (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -812,16 +680,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "HEZRON",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "HEZRON (1)",
-        "HEZRON (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "HOARY",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -857,40 +715,10 @@
       "status": "needs_review"
     },
     {
-      "source_target": "ISHMAEL",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ISHMAEL (1)",
-        "ISHMAEL (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "IV. COGNATE AND ILLUSTRATIVE BIBLICAL LANGUANGE",
       "occurrences": 1,
       "category": "article_section_label",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "JACOB",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "JACOB (1)",
-        "JACOB (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "JAIRUS",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "JAIRUS (1)",
-        "JAIRUS (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -901,42 +729,12 @@
       "status": "needs_review"
     },
     {
-      "source_target": "JEHOSHAPHAT",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "JEHOSHAPHAT (1)",
-        "JEHOSHAPHAT (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "JOEL",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "JOEL (1)",
-        "JOEL (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "JONAS",
       "occurrences": 1,
       "category": "multiple_numbered_entries",
       "review_candidates": [
         "JONAS (1)",
         "JONAS (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "JONATHAN",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "JONATHAN (1)",
-        "JONATHAN (2)"
       ],
       "status": "needs_review"
     },
@@ -986,17 +784,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "MANASSEH",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "MANASSEH (1)",
-        "MANASSEH (2)",
-        "MANASSEH (3)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "MEALS; TRICLINIUM",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1008,16 +795,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "MICAH",
-      "occurrences": 3,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "MICAH (1)",
-        "MICAH (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1042,16 +819,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "NAARAH",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "NAARAH (1)",
-        "NAARAH (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "NAMES",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1059,60 +826,10 @@
       "status": "needs_review"
     },
     {
-      "source_target": "NATHAN",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "NATHAN (1)",
-        "NATHAN (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "NATHANAEL",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "NATHANAEL (1)",
-        "NATHANAEL (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "NEBO",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "NEBO (1)",
-        "NEBO (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "NICANOR",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "NICANOR (1)",
-        "NICANOR (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "NUMBERS",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "NUN",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "NUN (1)",
-        "NUN (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1211,16 +928,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "PLASTER",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "PLASTER (1)",
-        "PLASTER (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "POETRY",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1267,16 +974,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "SALEM",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "SALEM (1)",
-        "SALEM (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1398,16 +1095,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "TELEM",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "TELEM (1)",
-        "TELEM (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "TEMPLE KEEPERS",
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
@@ -1419,16 +1106,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "TERAH",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "TERAH (1)",
-        "TERAH (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1464,16 +1141,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "URIAS",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "URIAS (1)",
-        "URIAS (2)"
-      ],
       "status": "needs_review"
     },
     {
@@ -1515,16 +1182,6 @@
       "status": "needs_review"
     },
     {
-      "source_target": "VEIL",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "VEIL (1)",
-        "VEIL (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
       "source_target": "VI. LITERATURE",
       "occurrences": 1,
       "category": "article_section_label",
@@ -1557,26 +1214,6 @@
       "occurrences": 1,
       "category": "unmatched_heading_or_alias",
       "review_candidates": [],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ZIMRI",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ZIMRI (1)",
-        "ZIMRI (2)"
-      ],
-      "status": "needs_review"
-    },
-    {
-      "source_target": "ZIPH",
-      "occurrences": 1,
-      "category": "multiple_numbered_entries",
-      "review_candidates": [
-        "ZIPH (1)",
-        "ZIPH (2)"
-      ],
       "status": "needs_review"
     }
   ]
