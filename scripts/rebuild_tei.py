@@ -53,7 +53,7 @@ def entries_from_imp(text):
 
 def separator_key(text):
     """Ignore editorial separators, retaining letters, digits and apostrophes."""
-    return re.sub(r"[\\s,;().-]+", "", text.casefold())
+    return re.sub(r"[\s,;().-]+", "", text.casefold())
 
 
 def resolve_key(raw_key, ids, normalized, separators=None):
