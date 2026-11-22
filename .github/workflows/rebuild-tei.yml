@@ -6,6 +6,7 @@ on:
       - scripts/rebuild_tei.py
       - scripts/audit_references.py
       - scripts/audit_link_contexts.py
+      - workspace/reviews/accepted-title-aliases.json
 concurrency:
   group: isbe-rebuild-main
   cancel-in-progress: true
@@ -21,7 +22,7 @@ jobs:
         run: |
           set -euo pipefail
           test -s workspace/exports/isbe-2.2.imp
-          python3 scripts/rebuild_tei.py --input workspace/exports/isbe-2.2.imp --output cleaned/en/ISBE.xml --index cleaned/en/article-index.json --report workspace/reports/tei-reconstruction.json
+          python3 scripts/rebuild_tei.py --accepted-aliases workspace/reviews/accepted-title-aliases.json --input workspace/exports/isbe-2.2.imp --output cleaned/en/ISBE.xml --index cleaned/en/article-index.json --report workspace/reports/tei-reconstruction.json
           python3 scripts/audit_references.py --index cleaned/en/article-index.json --report workspace/reports/tei-reconstruction.json --output workspace/reviews/unresolved-links.json
           python3 scripts/audit_link_contexts.py --input cleaned/en/ISBE.xml --output workspace/reviews/link-contexts.json
       - name: Commit verified data artifacts
