@@ -73,6 +73,11 @@
       "basis": "EPHRAIM, EPHRAIN and GEPHYRUN cross-references identify geographical places, not Ephron the Hittite landowner described in EPHRON (1)."
     },
     {
+      "source_target": "ESDRAELON",
+      "destination_article": "ESDRAELON, PLAIN OF",
+      "basis": "HAROD, WELL OF explicitly references the Esdraelon plain, the only matching heading for this Galilean valley."
+    },
+    {
       "source_target": "FAN",
       "destination_article": "FAN, FANNER",
       "basis": "WINNOWING references the threshing fan and fanner, the subject of the original combined heading."
@@ -171,6 +176,11 @@
       "source_target": "LUNATIC",
       "destination_article": "LUNATIC(K)",
       "basis": "Both EPILEPSY and MAD/MADNESS cite LUNATIC; the unique indexed original heading uses the historical spelling LUNATIC(K)."
+    },
+    {
+      "source_target": "MAN (THE NATURAL)",
+      "destination_article": "MAN, NATURAL",
+      "basis": "The CARNAL article directs to the natural man; the unique original heading MAN, NATURAL contains precisely this expression with inverted words."
     },
     {
       "source_target": "MEALS",
@@ -368,6 +378,13 @@
       "basis": "BETHASMOTH is an alternate spelling of the village Azmaveth, indexed under AZMAVETH (2)."
     },
     {
+      "source_article": "NOE",
+      "ref_id": "isbe-14b2034535b441e935d3-n000009",
+      "original_target": "NOAH",
+      "destination_article": "NOAH (1)",
+      "basis": "The NOE entry explicitly mentions the flood-era patriarch in Matthew 24 and Luke 17; the name-list NOAH (1) concerns that patriarch."
+    },
+    {
       "source_article": "IMPUTATION",
       "ref_id": "isbe-17e98c6db5ca0d523c1f-n000163",
       "original_target": "SIN",
@@ -401,6 +418,13 @@
       "original_target": "JUDGES",
       "destination_article": "JUDGES, BOOK OF",
       "basis": "The Micah priesthood/Dan narrative is found in the biblical Book of Judges."
+    },
+    {
+      "source_article": "SHIMRON-MERON",
+      "ref_id": "isbe-375d7e855334833ecc07-n000005",
+      "original_target": "SHIMRON",
+      "destination_article": "SHIMRON (2)",
+      "basis": "Shimron-Meron is a geographical place-name; SHIMRON (2) is the city entry rather than the person Shimron."
     },
     {
       "source_article": "GODS",
@@ -473,6 +497,13 @@
       "basis": "Argob is the Bashan region of King Og, explicitly described in ARGOB (2)."
     },
     {
+      "source_article": "BAASHA",
+      "ref_id": "isbe-4acd69228bba8d90cfd3-n000012",
+      "original_target": "ELAH",
+      "destination_article": "ELAH (1)",
+      "basis": "King Baasha's royal successor was his son Elah; the source context is the Israelite monarchy rather than the valley of Elah."
+    },
+    {
       "source_article": "COSMOGONY",
       "ref_id": "isbe-4b54c0f9ab589e4dcbb5-n000009",
       "original_target": "WORLD",
@@ -492,6 +523,13 @@
       "original_target": "LYDIA",
       "destination_article": "LYDIA (1)",
       "basis": "LYDIAN denotes an inhabitant of the Asia Minor region Lydia (1)."
+    },
+    {
+      "source_article": "EGYPT",
+      "ref_id": "isbe-53ec5f597cfe84a6fc32-n000199",
+      "original_target": "COSHEN",
+      "destination_article": "GOSHEN (1)",
+      "basis": "COSHEN is a transcription variant of Goshen, the Egyptian district; the Egyptian source explicitly describes the Wady Tumilat district of Goshen."
     },
     {
       "source_article": "EGYPT",
@@ -569,6 +607,13 @@
       "original_target": "WINE PRESS",
       "destination_article": "WINEFAT; WINE PRESS; WINEVAT",
       "basis": "The craftsmanship redirect names the physical wine press, indexed together with winefats and winevats."
+    },
+    {
+      "source_article": "SIMON (1)",
+      "ref_id": "isbe-73b028707adce6db766f-n000004",
+      "original_target": "SIMEON",
+      "destination_article": "SIMEON (2)",
+      "basis": "The source relates the Greek form Simon to multiple persons named Simeon in the Apocrypha; SIMEON (2) is the collective name-list rather than the patriarch's biography."
     },
     {
       "source_article": "ABISHALOM",
@@ -662,6 +707,13 @@
       "basis": "The source compares oil and wine presses as mechanical equipment; the destination describes wine presses and winevats."
     },
     {
+      "source_article": "DEFENCE",
+      "ref_id": "isbe-9f3bed01ba593455014c-n000005",
+      "original_target": "JUDICIAL",
+      "destination_article": "COURTS, JUDICIAL",
+      "basis": "The surrounding source text reads 'See COURTS, JUDICIAL', explicitly identifying the indexed compound heading; the two visible words were separately linked in CrossWire."
+    },
+    {
       "source_article": "NAPHTALI",
       "ref_id": "isbe-9fd1b11bd6506e6838bb-n000031",
       "original_target": "NUMBERS",
@@ -704,6 +756,27 @@
       "basis": "The Great Sea redirect concerns Paul's sea travel, whose voyage and shipwreck have a dedicated entry."
     },
     {
+      "source_article": "CALAH",
+      "ref_id": "isbe-afd1ba74aa4d845dae9e-n000005",
+      "original_target": "BABEL, BABYLON",
+      "destination_article": "BABEL, BABYLON (1)",
+      "basis": "CALAH discusses the ancient cities of Mesopotamia and Assyria, corresponding to the Babylon topographical article BABEL, BABYLON (1)."
+    },
+    {
+      "source_article": "ZACHARIAH",
+      "ref_id": "isbe-b5a4071798a2dd2b2638-n000010",
+      "original_target": "ZECHARIAH",
+      "destination_article": "ZECHARIAH (1)",
+      "basis": "The generic form Zachariah is an alternate spelling of the many-person heading ZECHARIAH (1), not solely the king of Israel in ZECHARIAH (2)."
+    },
+    {
+      "source_article": "HIZKIAH",
+      "ref_id": "isbe-b6fa076b9e31c41690b2-n000009",
+      "original_target": "HEZEKIAH",
+      "destination_article": "HEZEKIAH (1)",
+      "basis": "HIZKIAH is an alternative spelling used for the biblical king Hezekiah, whose biography appears in HEZEKIAH (1)."
+    },
+    {
       "source_article": "PROSELYTE",
       "ref_id": "isbe-b6fc335ced87df8bd17b-n000060",
       "original_target": "STRANGER AND SOJOURNER",
@@ -711,11 +784,32 @@
       "basis": "The proselyte category is discussed in the later Jewish and New Testament setting, the subject of the dedicated second entry."
     },
     {
+      "source_article": "CANANAEAN; CANAANITE",
+      "ref_id": "isbe-b7c345e2e3b2c8c1a43d-n000005",
+      "original_target": "SIMON",
+      "destination_article": "SIMON (2)",
+      "basis": "This source discusses Simon the Cananaean/Zealot, one of the Twelve listed within SIMON (2)."
+    },
+    {
+      "source_article": "JEHOSHUA",
+      "ref_id": "isbe-b96f5a5aad5c6613e29c-n000007",
+      "original_target": "JOSHUA",
+      "destination_article": "JOSHUA (2)",
+      "basis": "JEHOSHUA is an alternative Hebrew name for Joshua son of Nun, whose extended biography appears in JOSHUA (2)."
+    },
+    {
       "source_article": "DISPERSION OF NATIONS",
       "ref_id": "isbe-b97f9c2ffbab6d2bcaaf-n000004",
       "original_target": "BABEL",
       "destination_article": "BABEL, TOWER OF",
       "basis": "The dispersion-of-nations narrative specifically invokes the tower of Babel in Genesis 11."
+    },
+    {
+      "source_article": "SHINAR",
+      "ref_id": "isbe-bd6699368085bf6215e9-n000066",
+      "original_target": "BABEL",
+      "destination_article": "BABEL, BABYLON (1)",
+      "basis": "The SHINAR entry discusses the ancient city of Babylon, an explicitly topographical topic in BABEL, BABYLON (1)."
     },
     {
       "source_article": "SHINAR",
@@ -781,6 +875,13 @@
       "basis": "The Adam article discusses Genesis 3 and the first woman Eve in the Old Testament."
     },
     {
+      "source_article": "CHEDORLAOMER",
+      "ref_id": "isbe-caacae0916506a8a4e57-n000029",
+      "original_target": "BABEL, BABYLON",
+      "destination_article": "BABEL, BABYLON (1)",
+      "basis": "The source discusses Babylonian royal inscriptions and city history, the topographical/historical material in BABEL, BABYLON (1)."
+    },
+    {
       "source_article": "BASCAMA",
       "ref_id": "isbe-cbb765b2a6ce495353ca-n000004",
       "original_target": "JONATHAN",
@@ -842,6 +943,20 @@
       "original_target": "WORLD",
       "destination_article": "WORLD, COSMOLOGICAL",
       "basis": "The HEAVENS reference explicitly concerns the physical heavens and world, the subject of WORLD, COSMOLOGICAL."
+    },
+    {
+      "source_article": "PUNISHMENTS",
+      "ref_id": "isbe-e43219a96b52c29bd9b2-n000282",
+      "original_target": "SCORPIONS",
+      "destination_article": "SCORPIONS, CHASTISING WITH",
+      "basis": "The punishment context concerns chastisement with scorpions, exactly as identified by the indexed heading."
+    },
+    {
+      "source_article": "DAMN; DAMNATION; DAMNABLE",
+      "ref_id": "isbe-e4802055958172116841-n000058",
+      "original_target": "JUDGMENT",
+      "destination_article": "JUDGMENT, LAST",
+      "basis": "The source explicitly discusses God's future judicial activity in moral terms; JUDGMENT, LAST is the associated eschatological judgment article."
     },
     {
       "source_article": "BOOK OF LIFE",
@@ -912,6 +1027,13 @@
       "original_target": "ARGOB",
       "destination_article": "ARGOB (1)",
       "basis": "ARIEH explicitly refers to the associate Argob in 2 Kings 15:25, treated in ARGOB (1)."
+    },
+    {
+      "source_article": "TADMOR",
+      "ref_id": "isbe-ff2abdae53fe9311e142-n000009",
+      "original_target": "TAMAR",
+      "destination_article": "TAMAR (2)",
+      "basis": "Tadmor is an ancient place associated with Tamar, a place-name treated in TAMAR (2), not Tamar in Genesis."
     }
   ]
 }
