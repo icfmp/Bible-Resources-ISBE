@@ -1,19 +1,22 @@
-# Workflow
+# Source-to-translation workflow
 
-## Acquisition
-Download the exact upstream CrossWire ISBE 2.2 distribution through an approved official source. Retain the original download unmodified under `sources/crosswire/isbe-2.2/`. Record retrieval date, URI, checksums, distribution contents and exact licensing text in a manifest. A version number alone is not proof of textual fidelity.
+## 1. Preserve the original
+Keep `sources/crosswire/isbe-2.2/ISBE.zip` byte-for-byte, accompanied by its retrieval metadata and SHA-256 in `MANIFEST.json`. No re-downloading or rewriting as part of normal editorial work.
 
-## Faithful extraction
-Extract the complete article set to `cleaned/en/` as structured files. Preserve titles, spelling, headings, paragraph structure, verse references, internal links and relevant source annotations. Audit article counts, collisions, broken references, ordering and output-to-input traceability. Log any unavoidable normalization. Do not treat cleaned output as a rewritten edition.
+## 2. Rebuild the faithful reference
+Use SWORD `mod2imp` to export `workspace/exports/isbe-2.2.imp` and retain that export. Run `scripts/rebuild_tei.py` to create `cleaned/en/ISBE.xml`, `cleaned/en/article-index.json`, and `workspace/reports/tei-reconstruction.json`. The program aborts on missing entries, duplicate IDs, malformed XML or text integrity failure. Cross-references that fail to resolve and original label differences are reported, not guessed.
 
-## Editorial modernization
-Copy the validated cleaned corpus into `modern/en/` as separate tracked articles, then modernize in reviewable batches. Preserve stable article IDs and segment IDs across wording changes. Splitting, merging or deleting segments needs explicit mapping and review. Flag historical / theological changes independently of purely linguistic modernization. Record editorial decisions in `workspace/reviews/`.
+## 3. Review the corpus
+Audit unresolved references, headings, unusual article structures and representative content against the official source and, for textual issues, the historic printed edition. Keep factual/OCR/editorial questions distinct. The 2.2 module itself reports historic OCR and layout corrections, so it is not automatically a facsimile of 1915.
 
-## Translation
-Translate from a known commit/release of `modern/en/`, preserving IDs and structure. Each translated segment records its `source_hash` (SHA-256 of canonical modern-English source text) and ideally source revision. Retain human review status and terminology decisions. Do not present raw machine translations as editorially validated.
+## 4. Modernize without overwriting
+Copy the validated cleaned master to `modern/en/ISBE.xml`; preserve existing `xml:id` values. Modernize language in reviewable batches with recorded editorial rationale. Distinguish linguistic updates from corrections of historic assertions.
 
-## Updates
-Before changing `modern/en/`, retain an identifiable old snapshot via Git tag/commit or an export. Compare old and new snapshots using `scripts/translation_diff.py`, store JSON reports in `workspace/changes/`, and queue only changed or newly added segments for translation. Removed segments need explicit editorial review; unchanged segments are reused only when their hashes match. After translation, run validation for IDs, hashes, references, links and completeness.
+## 5. Translate
+Create `translations/<lang>/ISBE.xml` from a recorded modern-English commit. Preserve stable entry/unit IDs, text structure and references. Record per-unit source revision and hash for translation currency. Flag machine translations as such until reviewed.
 
-## Release
-Require approved licensing, source provenance, integrity report, coverage/quality checks and editorial release decision. Outputs for SWORD/OSIS or other publication formats are generated from tracked sources, not maintained as competing editorial masters.
+## 6. Update incrementally
+Compare consecutive modern-English TEI revisions at indexed text-unit level, retain machine-readable diffs in `workspace/changes/`, and retranslate only changed or added units. Treat deleted or structurally split units as editorial cases; never silently retain stale translations.
+
+## 7. Publish
+Publishing requires verified rights for the exact digital artifacts and derivative editions, coverage/validation reports, editorial approval and a separately generated distribution format (SWORD, OSIS or another supported target).
