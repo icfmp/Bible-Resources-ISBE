@@ -4,7 +4,6 @@
   "canonical_edition_id": "isbe-orr-1915-crosswire-corrected",
   "category": "encyclopedia",
   "language": "en",
-  "planned_sword_id": "BRISBE1915",
   "version": "0.1.0-rc.1",
   "title": {
     "en": "International Standard Bible Encyclopedia (1915, corrected historical working text)"
@@ -26,10 +25,24 @@
     "entries": 9380
   },
   "quality": {
-    "status": "source_validated_not_compiled",
-    "native_sword_readback": "not_performed",
+    "status": "native_candidate_verified_not_reader_approved",
+    "native_sword_readback": "complete_9380_exact_unicode_and_xml",
     "two_reader_acceptance": "not_performed",
-    "original_print_full_collation_certified": false
+    "original_print_full_collation_certified": false,
+    "native_sword_readback_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383",
+    "native_lexicon_source_format": "TEI_entryFree",
+    "native_lexicon_driver": "zLD",
+    "native_lexicon_compression": "ZIP",
+    "full_original_script_reconstruction_certified": false,
+    "internal_article_links_converted": 5919,
+    "scripture_links_exposed": 93164,
+    "section_level_navigation_degraded": 80,
+    "native_readback_text_mismatches": 0,
+    "native_readback_xml_mismatches": 0,
+    "native_readback_missing_entries": 0,
+    "diatheke_htmlhref_rendered_sample_keys": 4,
+    "diatheke_htmlhref_total_sample_anchors": 63,
+    "interactive_gui_hyperlink_click_verified": false
   },
   "rights": {
     "upstream_declared_license": "Public Domain",
@@ -40,8 +53,12 @@
   },
   "distribution": {
     "payload_present": false,
-    "status": "not_built",
+    "status": "compiled_candidate_in_unpublished_actions_artifact",
     "release_published": false,
-    "draft_source_release_only": true
-  }
+    "draft_source_release_only": true,
+    "artifact_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383",
+    "binary_candidate_sha256": "6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b",
+    "binary_candidate_not_released": true
+  },
+  "sword_id": "BRISBE1915"
 }

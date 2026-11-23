@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "status": "native_dictionary_candidate_compiled_and_roundtrip_verified_NOT_PUBLICATION_APPROVED",
+  "module_id": "BRISBE1915",
+  "edition": "isbe-orr-1915-crosswire-corrected",
+  "version": "0.1.0-rc.1",
+  "original_source_zip_sha256": "4de747545d9c349ab724bc1708b01df5481e3b93e5e51077f859dd8a32023a32",
+  "corrected_historical_tei_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "export_script": "scripts/export_tei_dictionary_for_sword.py",
+  "import_driver": "tei2mod zLD ZIP unmodified UTF8",
+  "import_tei_sha256": "6d5262d69ca13724a9a9a3bcd8cd23e957aefddfeeb0be20a7ce59e2d97fa745",
+  "source_entry_count": 9380,
+  "native_readback_entries": 9380,
+  "native_readback_missing_entries": 0,
+  "native_readback_unexpected_entries": 0,
+  "unicode_text_mismatch_count": 0,
+  "xml_structure_mismatch_count": 0,
+  "internal_article_links_mapped_by_key": 5919,
+  "scripture_links_with_osisRef": 93164,
+  "section_links_with_article_level_navigation_only": 80,
+  "native_roundtrip_verified": true,
+  "independently_tested_gui_readers": [],
+  "xiphos_accepted": false,
+  "second_reader_accepted": false,
+  "built_native_candidate_archive_sha256": "6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b",
+  "compiled_candidate_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383",
+  "original_1915_print_fully_collated": false,
+  "original_greek_hebrew_fully_restored": false,
+  "redistributed": false,
+  "rights_cleared": false,
+  "publication_permitted": false,
+  "warning": "Native libSWORD byte-equivalent reserialization is confirmed; GUI reader acceptance, intra-article navigation precision and exact original print reconstruction remain distinct and incomplete.",
+  "native_frontend_smoke": {
+    "frontend": "diatheke",
+    "readback_formats": [
+      "HTML",
+      "HTMLHREF",
+      "plain"
+    ],
+    "sample_keys": [
+      "AARON",
+      "ABIDE",
+      "GAINSAY",
+      "ZEBIDAH"
+    ],
+    "htmlhref_anchors_detected": {
+      "AARON": 41,
+      "ABIDE": 8,
+      "GAINSAY": 10,
+      "ZEBIDAH": 4
+    },
+    "interactive_link_click_verified": false,
+    "source_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383"
+  }
+}
