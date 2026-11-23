@@ -393,13 +393,14 @@
       ],
       "observations": [],
       "verified_continuation_pages": [],
-      "review_note": "Entire numbered MEADOW article read from headword to Alfred Ely Day on vol. III p. 657, including intervening column content. The printed Hebrew and Arabic forms are omitted digitally and AV/RV abbreviations expanded; expansion corrupts nested quotation boundaries in the printed Isaiah 19:7 phrase.",
+      "review_note": "Full printed MEADOW, including the complete two-column section on original 1915 volume III PDF page 657, read through Alfred Ely Day against digital English text. Printed original Hebrew and Arabic graphies are missing digitally. A magnified source-image rereading corrects the earlier v1/v2 spot-check impression: the printed nested AV citation uses SQUARE BRACKETS [AV “paper reeds”] inside the quotation, not parentheses or a quotation closure after meadows. The original v1 ledger remains preserved as historical research evidence, not an authoritative final collation.",
       "new_article_wide_findings": [
         {
           "digital_exact": "the meadows (the King James Version \"paper reeds\") by the Nile\"",
-          "print_reading": "the meadows” (AV “paper reeds”) by the Nile",
+          "print_reading": "“the meadows [AV “paper reeds”] by the Nile”",
           "kind": "quotation_boundary_shift",
-          "text_correction_approved": false
+          "text_correction_approved": false,
+          "corrects_prior_fragment_transcription": true
         }
       ]
     },
