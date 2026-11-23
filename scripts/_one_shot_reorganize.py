@@ -119,6 +119,24 @@ def main():
         if new!=s:
             p.write_text(new,encoding="utf-8")
             touched.append(name)
+    # Legacy sources sometimes assemble path components rather than writing
+    # a literal repo-relative string; migrate those explicit call sites too.
+    special=ROOT/"scripts/audit_1915_prose_evidence.py"
+    current=special.read_text(encoding="utf-8")
+    previous='root / "sources" / "print" / "1915-volume-witnesses.json"'
+    replacement='root / "workspace" / "witnesses" / "print" / "1915-volume-witnesses.json"'
+    if current.count(previous)!=1:
+        raise RuntimeError("Expected exact old print-metadata composed path once")
+    special.write_text(current.replace(previous,replacement),encoding="utf-8")
+
+    test=ROOT/"tests/test_persist_1915_cleaned_master.py"
+    content=test.read_text(encoding="utf-8")
+    obsolete='self.assertNotEqual(master.SOURCE_ZIP,master.ORIGINAL_DIR/"ISBE.zip")'
+    correct='self.assertEqual(master.SOURCE_ZIP,master.ORIGINAL_DIR/"ISBE.zip")'
+    if content.count(obsolete)!=1:
+        raise RuntimeError("Expected old duplicate-original assertion once")
+    test.write_text(content.replace(obsolete,correct),encoding="utf-8")
+
     # Real entity module candidate metadata, NOT a fabricated compiled module.
     dump("modules/isbe-1915/metadata.json",{
       "schema_version":1,
