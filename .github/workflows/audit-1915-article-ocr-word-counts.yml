@@ -17,6 +17,7 @@ on:
       - 'workspace/reviews/empty-article-recovery-ledger.json'
       - 'workspace/reviews/1915-second-pass-visual-approval-v1.json'
       - 'workspace/reviews/1915-ocr-print-heading-visual-inspection-v1.json'
+      - 'workspace/reviews/1915-ocr-print-heading-visual-inspection-v2.json'
       - '.github/workflows/audit-1915-article-ocr-word-counts.yml'
   pull_request:
     paths:
@@ -34,6 +35,7 @@ on:
       - 'workspace/reviews/empty-article-recovery-ledger.json'
       - 'workspace/reviews/1915-second-pass-visual-approval-v1.json'
       - 'workspace/reviews/1915-ocr-print-heading-visual-inspection-v1.json'
+      - 'workspace/reviews/1915-ocr-print-heading-visual-inspection-v2.json'
       - '.github/workflows/audit-1915-article-ocr-word-counts.yml'
   workflow_dispatch:
 
