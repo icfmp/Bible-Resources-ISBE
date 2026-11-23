@@ -30,6 +30,7 @@ class AuditEditorialNoticesTests(unittest.TestCase):
         xml=f'''<TEI xmlns="{NS}"><text><body><div type="entry" n="A" xml:id="a">
         <head xml:id="h" type="index">A</head>
         <p xml:id="p1">Article about ancient copyright law.</p>
+        <p xml:id="p0">See next article for the older literary tradition.</p>
         <p xml:id="p2">Click here to read more.</p>
         <list><item xml:id="i1">Privacy Policy</item></list>
         <p xml:id="p3">https://example.org/fictitious-edition</p>
@@ -40,11 +41,11 @@ class AuditEditorialNoticesTests(unittest.TestCase):
             before=path.read_bytes()
             result=scan(path,profile="paratext")
             self.assertEqual(result["articles_scanned"],1)
-            self.assertEqual(result["units_scanned"],5)
+            self.assertEqual(result["units_scanned"],6)
             self.assertEqual([c["unit_xml_id"] for c in result["cases"]],
                              ["p2","i1","p3"])
-            self.assertEqual(result["cases"][0]["unit_position_zero_based"],2)
-            self.assertIn("ancient copyright law",
+            self.assertEqual(result["cases"][0]["unit_position_zero_based"],3)
+            self.assertIn("See next article",
                           result["cases"][0]["previous_unit_excerpt"])
             self.assertEqual(result["cases"][1]["next_unit_excerpt"],
                              "https://example.org/fictitious-edition")
