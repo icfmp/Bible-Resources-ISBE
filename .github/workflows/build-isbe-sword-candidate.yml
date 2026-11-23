@@ -89,17 +89,21 @@ jobs:
           samples=["AARON","ABIDE","GAINSAY","ZEBIDAH"]
           results={}
           for key in samples:
-              proc=subprocess.run(["diatheke","-b","BRISBE1915","-f","HTML","-k",key],
-                                  check=True,capture_output=True,text=True,env=os.environ)
-              rendered=proc.stdout
-              if len(rendered)<80 or key.casefold() not in rendered.casefold():
-                  raise RuntimeError(f"Native reader returned empty or unexpected content for {key}")
-              results[key]={"rendered_characters":len(rendered),
-                            "render_contains_article_headword":True,
-                            "html_anchor_count":rendered.count("<a "),
-                            "html_reference_count":rendered.count("href=")}
-          report={"frontend":"diatheke HTML via libSWORD",
-                  "format":"HTML",
+              variants={}
+              for fmt in ("HTML","HTMLHREF","plain"):
+                  proc=subprocess.run(["diatheke","-b","BRISBE1915",
+                                       "-f",fmt,"-k",key],
+                                      check=True,capture_output=True,text=True,
+                                      env=os.environ)
+                  rendered=proc.stdout
+                  if len(rendered)<80 or key.casefold() not in rendered.casefold():
+                      raise RuntimeError(f"Native reader returned empty or unexpected {fmt} for {key}")
+                  variants[fmt]={"rendered_characters":len(rendered),
+                                 "html_anchor_count":rendered.count("<a "),
+                                 "html_reference_count":rendered.count("href=")}
+              results[key]=variants
+          report={"frontend":"diatheke three render formats via libSWORD",
+                  "formats":["HTML","HTMLHREF","plain"],
                   "smoke_articles":results,
                   "independent_gui_reader_verified":False,
                   "rights_cleared":False,
