@@ -1,0 +1,20 @@
+name: Report exact 1915 reference anchors
+on:
+  pull_request:
+    paths:
+      - 'scripts/report_1915_reference_unit_anchors.py'
+      - '.github/workflows/report-1915-reference-anchors.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-anchors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m scripts.report_1915_reference_unit_anchors
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 1915-exact-scripture-ref-anchors
+          path: workspace/tmp/1915-scripture-ref-anchors.json
+          if-no-files-found: error
