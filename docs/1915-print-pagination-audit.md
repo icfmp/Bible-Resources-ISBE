@@ -22,3 +22,27 @@ as CI review artifacts, with the original PDF hashes in
 source images and a new page witness distinct from the source-locked
 canonical CrossWire TEI. Rights and publishing remain blocked (#1);
 full article-to-print comparison remains open (#9).
+
+## First five-volume result (2026-11-23)
+
+The completed initial CI matrix [run 45123423853](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45123423853)
+reported **eight adjacent printed-folio jump candidates** (volumes I: 1,
+II: 4, III: 0, IV: 1, V: 2). The versioned report
+`workspace/reports/1915-scan-folio-continuity-v1.json`
+records the exact neighboring PDF pages and their apparent printed numbers.
+
+One discrepancy can be corroborated by visually examining **the
+two actual adjacent PDF images**: volume V PDF page 78 shows printed
+folio **2886**, and PDF page 79 shows folio **2889**. The identified
+*scan* does not contain images of intervening printed folios **2887–2888**.
+Its source JPEG digests and evidence run identifiers are retained.
+This is a **digitization-source gap**, not proof that those folios were
+absent from the 1915 printed book. An independently obtained scan of
+those leaves is necessary for source-certified TAANACH collation.
+
+The seven other OCR candidates are **not yet visually certified**,
+especially jumps of ten folios, which may simply reflect OCR confusion
+between printed numerals. They must not be advertised as seven confirmed
+missing-page events. This scan is not an exhaustive inventory of every
+physical leaf: any page whose OCR header could not be interpreted was
+deliberately excluded.
