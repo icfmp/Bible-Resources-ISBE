@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "source": "1915 original SHA-256-pinned printed PDF witnesses",
+  "canonical_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "evidence_ci": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45123423853",
+  "method": "Adjacent PDF-page folio continuity from OCR running headers; visual review separately indicated",
+  "total_adjacent_jump_candidates": 8,
+  "by_volume": {
+    "1": 1,
+    "2": 4,
+    "3": 0,
+    "4": 1,
+    "5": 2
+  },
+  "claims_original_book_missing_pages": false,
+  "claims_comprehensive_print_text_collation": false,
+  "correction_authorized": false,
+  "cases": [
+    {
+      "volume": "1",
+      "pdf_page_before": 408,
+      "printed_folio_before": 374,
+      "pdf_page_after": 409,
+      "printed_folio_after": 376,
+      "unseen_printed_folios": [
+        375
+      ],
+      "review_status": "ocr_candidate_unreviewed",
+      "source_scan_only": true
+    },
+    {
+      "volume": "2",
+      "pdf_page_before": 408,
+      "printed_folio_before": 1058,
+      "pdf_page_after": 409,
+      "printed_folio_after": 1069,
+      "unseen_printed_folios": [
+        1059,
+        1060,
+        1061,
+        1062,
+        1063,
+        1064,
+        1065,
+        1066,
+        1067,
+        1068
+      ],
+      "review_status": "ocr_candidate_unreviewed",
+      "source_scan_only": true
+    },
+    {
+      "volume": "2",
+      "pdf_page_before": 528,
+      "printed_folio_before": 1174,
+      "pdf_page_after": 529,
+      "printed_folio_after": 1176,
+      "unseen_printed_folios": [
+        1175
+      ],
+      "review_status": "ocr_candidate_unreviewed",
+      "source_scan_only": true
+    },
+    {
+      "volume": "2",
+      "pdf_page_before": 688,
+      "printed_folio_before": 1331,
+      "pdf_page_after": 689,
+      "printed_folio_after": 1333,
+      "unseen_printed_folios": [
+        1332
+      ],
+      "review_status": "ocr_candidate_unreviewed",
+      "source_scan_only": true
+    },
+    {
+      "volume": "2",
+      "pdf_page_before": 706,
+      "printed_folio_before": 1349,
+      "pdf_page_after": 707,
+      "printed_folio_after": 1360,
+      "unseen_printed_folios": [
+        1350,
+        1351,
+        1352,
+        1353,
+        1354,
+        1355,
+        1356,
+        1357,
+        1358,
+        1359
+      ],
+      "review_status": "ocr_candidate_unreviewed",
+      "source_scan_only": true
+    },
+    {
+      "volume": "4",
+      "pdf_page_before": 53,
+      "printed_folio_before": 2149,
+      "pdf_page_after": 54,
+      "printed_folio_after": 2160,
+      "unseen_printed_folios": [
+        2150,
+        2151,
+        2152,
+        2153,
+        2154,
+        2155,
+        2156,
+        2157,
+        2158,
+        2159
+      ],
+      "review_status": "ocr_candidate_unreviewed",
+      "source_scan_only": true
+    },
+    {
+      "volume": "5",
+      "pdf_page_before": 78,
+      "printed_folio_before": 2886,
+      "pdf_page_after": 79,
+      "printed_folio_after": 2889,
+      "unseen_printed_folios": [
+        2887,
+        2888
+      ],
+      "review_status": "source_scan_gap_visually_confirmed_ai_assisted",
+      "source_scan_only": true,
+      "page_before_jpeg_sha256": "f9e932e8d91ad65ddd1a412b25a6503e0e5d6fea4b35",
+      "page_after_jpeg_sha256": "2f6573a6d14e81ba195a47aa0c59463991f85e3121dee8179",
+      "image_evidence_jobs": [
+        137517616832,
+        137517241233
+      ],
+      "evidence_note": "Consecutive original PDF pages show printed 2886 then 2889, but this does not establish that bound original 1915 print lacks those pages."
+    },
+    {
+      "volume": "5",
+      "pdf_page_before": 143,
+      "printed_folio_before": 2949,
+      "pdf_page_after": 144,
+      "printed_folio_after": 2960,
+      "unseen_printed_folios": [
+        2950,
+        2951,
+        2952,
+        2953,
+        2954,
+        2955,
+        2956,
+        2957,
+        2958,
+        2959
+      ],
+      "review_status": "ocr_candidate_unreviewed",
+      "source_scan_only": true
+    }
+  ]
+}
