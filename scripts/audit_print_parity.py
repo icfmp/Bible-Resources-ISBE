@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 TEI="{http://www.tei-c.org/ns/1.0}"
 XML_ID="{http://www.w3.org/XML/1998/namespace}id"
 SOURCE_SHA="a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25"
-REVIEW_STATUS="extracted_print_page_image_seen_not_primary_volume_sha_verified"
+REVIEW_STATUS="primary_print_folio_visually_checked_ai_assisted_not_full_article"
 
 def check(tei_path, ledger_path):
     raw=Path(tei_path).read_bytes()
@@ -30,6 +30,9 @@ def check(tei_path, ledger_path):
         articles[key]=article
     if len(articles)!=9380:
         raise ValueError("Unexpected article coverage")
+    manifest=json.loads((Path(__file__).resolve().parents[1]/
+        "sources/print/1915-volume-witnesses.json").read_text(encoding="utf-8"))
+    volumes={v["volume"]:v for v in manifest["volumes"]}
     out=[]
     anchors=set()
     for case in ledger["cases"]:
@@ -41,6 +44,16 @@ def check(tei_path, ledger_path):
             raise ValueError("Comparison ledger cannot authorize editorial text changes")
         if case.get("review_status")!=REVIEW_STATUS:
             raise ValueError("Witness status must not be overstated")
+        witness=volumes.get(case.get("print_volume"))
+        if witness is None or case.get("original_pdf_sha256")!=witness["pdf_sha256"]:
+            raise ValueError("Original full-volume print SHA mismatch")
+        page=case.get("primary_pdf_page_1_based")
+        if not isinstance(page,int) or not 1<=page<=witness["pages"]:
+            raise ValueError("Invalid original printed-page index")
+        image_sha=case.get("rendered_jpeg_sha256")
+        if (not isinstance(image_sha,str) or len(image_sha)!=64
+                or any(c not in "0123456789abcdef" for c in image_sha)):
+            raise ValueError("Missing original printed-page image digest")
         article=articles[key]
         matches=[]
         for node in article.iter():
@@ -62,6 +75,8 @@ def check(tei_path, ledger_path):
                     "source_text_exact":anchor,"printed_text_reading":case["printed_text_reading"],
                     "difference_type":case["difference_type"],"witness_url":case["witness_url"],
                     "print_volume":case["print_volume"],"printed_folio":case["printed_folio"],
+                    "primary_pdf_page_1_based":page,"original_pdf_sha256":witness["pdf_sha256"],
+                    "rendered_jpeg_sha256":image_sha,"primary_evidence_workflow":case["primary_evidence_workflow"],
                     "review_status":case["review_status"],"approved":False})
     return {"canonical_sha256":SOURCE_SHA,"article_count":len(articles),
             "case_count":len(out),"approved_change_count":0,"cases":out}
