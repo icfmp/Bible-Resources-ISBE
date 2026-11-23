@@ -1,0 +1,32 @@
+name: Inspect remaining four 1915 reference source readings
+on:
+  pull_request:
+    paths: ['.github/workflows/inspect-1915-scripture-final-cases.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  page-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {volume: '2', pages: '321,322,324,325'}
+          - {volume: '2', pages: '644'}
+          - {volume: '3', pages: '413'}
+          - {volume: '5', pages: '79'}
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - run: |
+          mkdir -p workspace/tmp
+          curl --fail --location --silent --show-error --retry 4 --retry-all-errors \
+            --connect-timeout 20 --max-time 480 \
+            "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
+            --output "workspace/tmp/v${{ matrix.volume }}.pdf"
+      - run: |
+          python3 scripts/render_1915_print_evidence.py \
+            --pdf "workspace/tmp/v${{ matrix.volume }}.pdf" \
+            --volume "${{ matrix.volume }}" --pages "${{ matrix.pages }}"
