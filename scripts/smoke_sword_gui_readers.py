@@ -22,6 +22,19 @@ def command(args,**kw):
     return subprocess.run(args,capture_output=True,text=True,**kw)
 
 def find_window(app):
+    # Prefer the real top-level window; generic class matches may pick
+    # an invisible-to-reader child named merely "window" or "bibletime".
+    title_pattern={"xiphos":r" - Xiphos$",
+                   "bibletime":r"BibleTime [0-9]"}.get(app)
+    if title_pattern:
+        found=command(["xdotool","search","--onlyvisible","--name",title_pattern])
+        candidates=[v for v in found.stdout.splitlines() if v.strip().isdigit()]
+        for value in reversed(candidates):
+            title=command(["xdotool","getwindowname",value]).stdout.strip()
+            if title and ((" - Xiphos" in title) if app=="xiphos"
+                          else title.casefold().startswith("bibletime ") and
+                          any(ch.isdigit() for ch in title)):
+                return value
     matches=[]
     for query in (["--class",app],["--name",app]):
         process=command(["xdotool","search","--onlyvisible",*query])
@@ -156,6 +169,29 @@ def test_reader(reader,outdir,lookup_key):
                 screen=command(["scrot",str(shot)],timeout=15)
                 if screen.returncode==0 and shot.stat().st_size>1000:
                     result["screenshots"].append(shot.name)
+            if name=="bibletime":
+                # On a clean, isolated profile the bookshelf contains the
+                # two independently asserted categories: Bibles, then
+                # Lexicons and Dictionaries. These are intentionally simple
+                # UI actions for human screenshot review, NOT programmatic
+                # certification that the selected article rendered.
+                ui_window=find_window("bibletime") or window
+                command(["xdotool","windowactivate","--sync",ui_window],timeout=10)
+                command(["xdotool","mousemove","--window",ui_window,"105","157"],timeout=10)
+                command(["xdotool","click","--repeat","2","--delay","180","1"],timeout=10)
+                time.sleep(1)
+                expanded=outdir/"bibletime-lexicons-expanded.png"
+                pic=command(["scrot",str(expanded)],timeout=15)
+                if pic.returncode==0 and expanded.stat().st_size>1000:
+                    result["screenshots"].append(expanded.name)
+                command(["xdotool","mousemove","--window",ui_window,"116","179"],timeout=10)
+                command(["xdotool","click","--repeat","2","--delay","180","1"],timeout=10)
+                time.sleep(3)
+                opened=outdir/"bibletime-article-attempt.png"
+                pic=command(["scrot",str(opened)],timeout=15)
+                if pic.returncode==0 and opened.stat().st_size>1000:
+                    result["screenshots"].append(opened.name)
+                result["article_open_attempted_not_certified"]=True
             if name=="xiphos":
                 result["blocking_first_run_dialog"]=bool(
                     named_window("Welcome to Xiphos") or
@@ -220,7 +256,9 @@ def main():
     if report["blocking_first_run_dialogs"]:
         raise SystemExit("GUI reader blocked by a startup/modal dialog: not an acceptance test")
     required={"xiphos":{"xiphos-startup.png","xiphos-lookup-attempt.png"},
-              "bibletime":{"bibletime-startup.png"}}
+              "bibletime":{"bibletime-startup.png",
+                           "bibletime-lexicons-expanded.png",
+                           "bibletime-article-attempt.png"}}
     for reader in readers:
         if not required[reader["name"]].issubset(set(reader["screenshots"])):
             raise SystemExit("Missing readable GUI screenshot for "+reader["name"])
