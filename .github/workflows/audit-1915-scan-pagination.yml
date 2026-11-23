@@ -16,6 +16,7 @@ jobs:
       - run: python3 -m unittest discover -s tests -p 'test_audit_1915_scan_pagination.py' -v
   print-source:
     needs: tests
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
