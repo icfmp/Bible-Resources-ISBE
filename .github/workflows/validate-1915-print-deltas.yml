@@ -1,0 +1,62 @@
+name: Validate separate 1915 ISBE print-delta editorial edition
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/apply_1915_print_deltas.py'
+      - 'tests/test_apply_1915_print_deltas.py'
+      - 'workspace/reviews/1915-approved-print-deltas-v1.json'
+      - '.github/workflows/validate-1915-print-deltas.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-locked-print-edits:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test reversible exact-reference edits and negative controls
+        run: python -m unittest discover -s tests -p 'test_apply_1915_print_deltas.py' -v
+      - name: Regenerate approved 31-entry original print recovery as immutable input
+        run: |
+          python scripts/finalize_1915_recovery.py \
+            --output workspace/tmp/ISBE-1915-approved-base.xml \
+            --report workspace/tmp/ISBE-1915-approved-base-report.json \
+            --validator-manifest workspace/tmp/ISBE-1915-base-validator.json \
+            --fidelity-report workspace/tmp/ISBE-1915-base-fidelity.json
+      - name: Apply separately approved print corrections without changing canonical
+        run: |
+          python scripts/apply_1915_print_deltas.py \
+            --source cleaned/en/ISBE.xml \
+            --baseline workspace/tmp/ISBE-1915-approved-base.xml \
+            --baseline-report workspace/tmp/ISBE-1915-approved-base-report.json \
+            --baseline-manifest workspace/tmp/ISBE-1915-base-validator.json \
+            --ledger workspace/reviews/1915-approved-print-deltas-v1.json \
+            --output workspace/tmp/ISBE-1915-edited-nonpublishable.xml \
+            --report workspace/tmp/ISBE-1915-print-deltas-report.json \
+            --derived-manifest workspace/tmp/ISBE-1915-edited-validator.json \
+            --fidelity workspace/tmp/ISBE-1915-edited-fidelity.json
+      - name: Install pinned official TEI P5 validator dependency
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jing
+      - name: Validate revised historical editorial witness with pinned official TEI P5
+        run: |
+          python scripts/validate_official_tei_p5.py \
+            --candidate workspace/tmp/ISBE-1915-edited-nonpublishable.xml \
+            --source-report workspace/tmp/ISBE-1915-edited-fidelity.json \
+            --manifest workspace/tmp/ISBE-1915-edited-validator.json \
+            --output workspace/tmp/ISBE-1915-edited-official-validation.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ISBE-1915-print-corrected-editorial-review-NOT-FOR-PUBLICATION
+          path: |
+            workspace/tmp/ISBE-1915-edited-nonpublishable.xml
+            workspace/tmp/ISBE-1915-print-deltas-report.json
+            workspace/tmp/ISBE-1915-edited-fidelity.json
+            workspace/tmp/ISBE-1915-edited-official-validation.json
+          if-no-files-found: warn
