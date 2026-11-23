@@ -4,6 +4,9 @@ A reproducible, multilingual editorial workspace for the historical **Internatio
 
 ## Current state
 
+**Source storage (Bible-Resources layout):** the preserved CrossWire 2.2 original resides at `sources/original/encyclopedias/en/isbe-crosswire-2.2/ISBE.zip` (duplicated only for compatibility with the existing `sources/crosswire/` path); the reproducibly corrected **historical** English TEI lives at `sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml`. The original `cleaned/en/ISBE.xml` remains a byte-locked **source-faithful CrossWire witness**, *not* the historical cleaned editorial master. See [source layout](sources/README.md) and [edition evidence](sources/cleaned/encyclopedias/en/isbe-1915/editorial/README.md). Edited source remains a working asset; pending rights review blocks any distribution/release.
+
+
 - The exact original CrossWire ISBE 2.2 ZIP is preserved unchanged at `sources/crosswire/isbe-2.2/ISBE.zip`, with a SHA-256 provenance manifest.
 - The original `mod2imp` export is preserved at `workspace/exports/isbe-2.2.imp`.
 - **9,380 entries** form the canonical, fully typed **TEI P5 4.12.0** working master at `cleaned/en/ISBE.xml`.
@@ -19,7 +22,9 @@ A reproducible, multilingual editorial workspace for the historical **Internatio
 ```text
 sources/crosswire/isbe-2.2/      Immutable original SWORD distribution and manifest
 workspace/exports/              Verbatim intermediate SWORD IMP export (retained)
-cleaned/en/                     Canonical, faithful, indexed TEI reference
+cleaned/en/                     Canonical, CrossWire-faithful TEI witness (immutable)
+sources/original/               Original CrossWire ZIP with provenance
+sources/cleaned/                Complete corrected historical ISBE TEI master
 modern/en/                      Future modern-English TEI editorial master
 translations/{fr,de,es,it}/      Future TEI translations with matching IDs
 workspace/reports/              Import and quality-control reports
@@ -40,7 +45,7 @@ The ongoing `validate.yml` and structural inventory workflow fail on source/form
 
 ## Editorial boundaries
 
-The cleaned TEI is a **transcription of the CrossWire digital source**, not a critically verified edition of the printed volumes. It is never modernized in place. All language modernization happens separately under `modern/en/`; translations are derived from a pinned modern-English revision. Preserve semantic IDs across revisions so only altered text units need translation review.
+The legacy `cleaned/en/ISBE.xml` is a **source-faithful transcription of CrossWire** for original parity tests. The *historical corrected working source* is separately maintained and SHA-locked under `sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml` and is likewise never modernized in place. All language modernization happens separately under `modern/en/`; translations are derived from a pinned modern-English revision. Preserve semantic IDs across revisions so only altered text units need translation review.
 
 The CrossWire source contains **6,079 encyclopedia reference occurrences**. The latest verified reconstruction has **5,906 valid internal TEI links**, **29 source references represented by bibliography structures (27 headings and 2 lead paragraphs)**, and **144 unresolved references converted to non-clickable source-reference segments**. **There are zero active broken `ISBE:` links in the canonical TEI.** From the original 1,344 problematic references, **1,171 have become valid links**, 29 were reclassified as bibliography labels (27 headings, 2 paragraph leads), and 144 remain unlinked because no destination can currently be justified; 6 of the resolved links are explicitly documented as less-precise article-level fallbacks. The unlinked references span 130 distinct original targets; they preserve their full visible text, source `xml:id` and original `ISBE:…` string in the `n` attribute. The exact per-occurrence disposition is recorded in `workspace/reports/tei-reconstruction.json`, editorial decisions in `workspace/reviews/accepted-title-aliases.json`, and review candidates in `workspace/reviews/unresolved-links.json` and `workspace/reviews/link-contexts.json`. All 9,380 entries and 22,670,955 source-text characters remain intact. These are integrity-checked TEI results, not independent runtime verification in SWORD readers.
 
