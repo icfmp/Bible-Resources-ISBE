@@ -8,6 +8,7 @@ import re
 
 from scripts.research_1915_print_pages import expected_volume
 from scripts.diagnose_1915_ocr_candidate_spans import diagnostic_category
+from scripts.diagnose_1915_print_abbreviation_equivalence import EXPLICIT_SOURCE_TO_PRINT
 from scripts.audit_1915_article_ocr_word_counts import latin_tokens
 
 SOURCE_LOCK = "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25"
@@ -53,6 +54,7 @@ ALLOWED_CANDIDATE_EVIDENCE_FIELDS = {
     "ocr_word_count_by_scan_page", "tei_token_unigram_recall",
     "tei_token_bigram_recall", "tei_token_trigram_recall",
     "tei_token_fourgram_recall", "unique_fourgram_overlap_footprint",
+    "print_abbreviation_equivalence_research",
     "candidate_ocr_span_not_an_original_print_certification",
     "print_page_images_directly_compared",
     "textual_correction_authorized", "publication_permitted",
@@ -115,6 +117,40 @@ def verify_target_evidence(report):
         if any(not isinstance(score, (float, int)) or not 0 <= score <= 1
                for score in scores):
             raise ValueError("OCR token-overlap evidence outside possible bounds")
+        variant = evidence["print_abbreviation_equivalence_research"]
+        if evidence["review_queue"] == "similar_length_low_phrase_overlap":
+            required_variant_fields = {
+                "raw_source_fourgram_recall",
+                "derived_abbreviation_equivalence_fourgram_recall",
+                "derived_minus_raw_fourgram_recall",
+                "source_expressions_compacted_by_print_abbreviation",
+                "diagnostic_source_derived_token_count",
+                "original_tei_and_ocr_text_unchanged",
+                "printed_abbreviation_matches_are_not_image_certifications",
+                "publication_permitted",
+            }
+            if (not isinstance(variant, dict)
+                    or set(variant) != required_variant_fields
+                    or variant["raw_source_fourgram_recall"] != row["source_fourgram_recall"]
+                    or variant["original_tei_and_ocr_text_unchanged"] is not True
+                    or variant["printed_abbreviation_matches_are_not_image_certifications"] is not True
+                    or variant["publication_permitted"] is not False):
+                raise ValueError("Unknown or overstated historical abbreviation research")
+            folded = variant["derived_abbreviation_equivalence_fourgram_recall"]
+            diff = variant["derived_minus_raw_fourgram_recall"]
+            counts = variant["source_expressions_compacted_by_print_abbreviation"]
+            nfolded = variant["diagnostic_source_derived_token_count"]
+            allowed = {abbr for _, abbr in EXPLICIT_SOURCE_TO_PRINT}
+            if (not isinstance(folded, (float, int)) or not 0 <= folded <= 1
+                    or not isinstance(diff, (float, int))
+                    or diff != round(folded - row["source_fourgram_recall"], 4)
+                    or not isinstance(nfolded, int) or not 4 <= nfolded <= row["tei_latin_tokens"]
+                    or not isinstance(counts, dict)
+                    or any(label not in allowed or not isinstance(n, int) or n <= 0
+                           for label, n in counts.items())):
+                raise ValueError("Source-only abbreviation equivalence score is invalid")
+        elif variant is not None:
+            raise ValueError("Long-span cases must not claim shorthand reconciliation")
         page_counts = evidence["ocr_word_count_by_scan_page"]
         if not page_counts or not isinstance(page_counts, list):
             raise ValueError("No original scan page distribution for OCR evidence")
@@ -183,7 +219,7 @@ def aggregate(reports, manifest, recovery_map=None):
     statuses = Counter()
     for report in sorted(reports, key=lambda r: r["volume"]):
         vol = report["volume"]
-        if (report.get("schema_version") != 7
+        if (report.get("schema_version") != 8
                 or report.get("print_pdf_sha256") != source[vol]["pdf_sha256"]
                 or report.get("canonical_tei_sha256") != SOURCE_LOCK
                 or report.get("pdf_pages") != source[vol]["pages"]
@@ -353,6 +389,33 @@ def aggregate(reports, manifest, recovery_map=None):
     if actual_diagnostic_kinds != +expected_diagnostic_kinds:
         raise ValueError("Candidate evidence coverage does not match independent full-corpus queues")
 
+    low_abbreviation_evidence = sorted(
+        (
+            e for e in content_target_evidence
+            if e["review_queue"] == "similar_length_low_phrase_overlap"
+        ),
+        key=lambda e: (
+            -e["print_abbreviation_equivalence_research"]["derived_minus_raw_fourgram_recall"],
+            e["source_key"],
+        ),
+    )
+    shorthand_material_gain = sum(
+        e["print_abbreviation_equivalence_research"]["derived_minus_raw_fourgram_recall"] >= 0.10
+        for e in low_abbreviation_evidence
+    )
+    shorthand_at_least25 = sum(
+        e["print_abbreviation_equivalence_research"][
+            "derived_abbreviation_equivalence_fourgram_recall"
+        ] >= 0.25
+        for e in low_abbreviation_evidence
+    )
+    shorthand_counts = Counter()
+    for e in low_abbreviation_evidence:
+        shorthand_counts.update(
+            e["print_abbreviation_equivalence_research"][
+                "source_expressions_compacted_by_print_abbreviation"
+            ]
+        )
     def word_count_band(n):
         if n < 20:
             return "00_0_to_19_source_words"
@@ -401,7 +464,7 @@ def aggregate(reports, manifest, recovery_map=None):
             "ocr_fourgram_precision": r["ocr_fourgram_precision"],
         }
     return {
-        "schema_version": 7,
+        "schema_version": 8,
         "source": manifest["bibliographic_citation"],
         "canonical_tei_sha256": SOURCE_LOCK,
         "full_corpus_source_articles": len(keys),
@@ -455,6 +518,25 @@ def aggregate(reports, manifest, recovery_map=None):
             key=lambda r: (r["review_queue"], r["original_print_volume"], r["source_key"])
         ),
         "content_candidate_diagnostic_count": len(content_target_evidence),
+        "abbreviation_research_low_overlap_cases": len(low_abbreviation_evidence),
+        "abbreviation_research_gain_at_least_10pct_points": shorthand_material_gain,
+        "abbreviation_research_derived_overlap_at_least_25pct": shorthand_at_least25,
+        "abbreviation_research_source_expression_counts": dict(sorted(shorthand_counts.items())),
+        "abbreviation_research_ranked_candidates": [
+            {
+                "source_key": e["source_key"],
+                "volume": e["original_print_volume"],
+                "source_fourgram_recall_raw": e["tei_token_fourgram_recall"],
+                "diagnostic_folded_fourgram_recall": e[
+                    "print_abbreviation_equivalence_research"
+                ]["derived_abbreviation_equivalence_fourgram_recall"],
+                "diagnostic_gain": e["print_abbreviation_equivalence_research"][
+                    "derived_minus_raw_fourgram_recall"
+                ],
+                "image_article_prose_certified": False,
+            }
+            for e in low_abbreviation_evidence
+        ],
         "content_candidate_diagnostics_by_queue": dict(sorted(Counter(
             e["review_queue"] for e in content_target_evidence
         ).items())),
@@ -522,6 +604,19 @@ def main():
         ],
         "target_evidence_cases": result["content_candidate_diagnostic_count"],
         "target_evidence_by_queue": result["content_candidate_diagnostics_by_queue"],
+        "abbreviation_research_cases": result["abbreviation_research_low_overlap_cases"],
+        "abbreviation_research_gain_10pct_points": result[
+            "abbreviation_research_gain_at_least_10pct_points"
+        ],
+        "abbreviation_research_derived_recall_at_least_25pct": result[
+            "abbreviation_research_derived_overlap_at_least_25pct"
+        ],
+        "abbreviation_research_counts": result[
+            "abbreviation_research_source_expression_counts"
+        ],
+        "top_10_abbreviation_research": result[
+            "abbreviation_research_ranked_candidates"
+        ][:10],
         "first_10_target_evidence": result["content_candidate_diagnostics"][:10],
         "large_ocr_excess_with_source_phrase_overlap": result[
             "large_ocr_excess_with_source_phrase_overlap"
