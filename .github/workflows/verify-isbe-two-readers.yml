@@ -1,0 +1,151 @@
+name: Test corrected ISBE module in Xiphos and BibleTime headless UIs
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/verify-isbe-two-readers.yml
+      - scripts/smoke_sword_gui_readers.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install native SWORD and independent Xiphos/BibleTime graphical readers
+        run: |
+          set -euo pipefail
+          # Prefer an explicit stable runner and bounded, noninteractive apt
+          # operation: a stalled package install must not masquerade as a
+          # failed dictionary compatibility test.
+          # The pinned Ubuntu image needs a refreshed package index:
+          # skipping update caused an independent 360-second apt timeout.
+          # Bound both operations and treat infrastructure failure distinctly.
+          sudo env DEBIAN_FRONTEND=noninteractive APT_LISTCHANGES_FRONTEND=none \
+            timeout 180s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=25 update -qq
+          sudo env DEBIAN_FRONTEND=noninteractive APT_LISTCHANGES_FRONTEND=none \
+            timeout 360s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=25 \
+            -y -qq install libsword-utils diatheke sword-text-kjv xiphos bibletime \
+            xvfb xdotool scrot openbox dbus-x11
+          command -v xiphos
+          command -v bibletime
+      - name: Verify corrected source and compile native 9380-entry ZIP dictionary
+        run: |
+          set -euo pipefail
+          python3 scripts/persist_1915_cleaned_master.py --verify-only
+          python3 scripts/export_tei_dictionary_for_sword.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --expected-sha256 5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c \
+            --expected-count 9380 \
+            --output workspace/tmp/dict-import.xml \
+            --report workspace/tmp/dict-import-report.json
+          mkdir -p workspace/tmp/gui-module/modules/lexdict/zld/brisbe1915
+          mkdir -p workspace/tmp/gui-module/mods.d
+          tei2mod workspace/tmp/gui-module/modules/lexdict/zld/brisbe1915 \
+            workspace/tmp/dict-import.xml -z z -N >workspace/tmp/native-compiler.log 2>&1
+          cat >workspace/tmp/gui-module/mods.d/brisbe1915.conf <<'CONF'
+          [BRISBE1915]
+          DataPath=./modules/lexdict/zld/brisbe1915/dict
+          ModDrv=zLD
+          CompressType=ZIP
+          SourceType=TEI
+          Encoding=UTF-8
+          Lang=en
+          Version=0.1.0
+          Description=International Standard Bible Encyclopedia (1915, historically corrected working edition)
+          About=Source-locked historical ISBE candidate. NOT APPROVED FOR REDISTRIBUTION.
+          DistributionLicense=Copyrighted
+          CONF
+          # Both independent GUI clients require a real Bible module on
+          # their first launch, even when testing an encyclopedia dictionary.
+          # Use Ubuntu's separately packaged public-domain KJV as an isolated
+          # test fixture; it is NOT part of the curated ISBE release payload.
+          mkdir -p workspace/tmp/gui-module/modules/texts
+          # Ubuntu and Debian KJV package versions use different file trees.
+          # Copy the files actually installed by the separate KJV package.
+          while IFS= read -r src; do
+            test -f "$src" || continue
+            case "$src" in
+              /usr/share/sword/mods.d/*.conf|/usr/share/sword/modules/texts/*)
+                rel="$(printf '%s' "$src" | sed 's|^/usr/share/sword/||')"
+                mkdir -p "workspace/tmp/gui-module/$(dirname "$rel")"
+                cp -a "$src" "workspace/tmp/gui-module/$rel"
+                ;;
+            esac
+          done < <(dpkg -L sword-text-kjv)
+          test "$(find workspace/tmp/gui-module/modules/texts -type f | wc -l)" -gt 0
+          test "$(find workspace/tmp/gui-module/mods.d -name '*.conf' | wc -l)" -ge 2
+          export SWORD_PATH="$PWD/workspace/tmp/gui-module"
+          diatheke -b system -k modulelist | tee workspace/tmp/native-available-modules.txt
+          grep -q BRISBE1915 workspace/tmp/native-available-modules.txt
+          python3 - <<'PY'
+          from pathlib import Path
+          lines=Path("workspace/tmp/native-available-modules.txt").read_text().splitlines()
+          inside=False
+          bibles=[]
+          for line in lines:
+              if line.strip()=="Biblical Texts:":
+                  inside=True
+                  continue
+              if line.strip().endswith(":") and inside:
+                  break
+              if inside and " : " in line:
+                  bibles.append(line.strip())
+          if not bibles:
+              raise SystemExit("No native Bible test fixture discovered")
+          print("Public-domain Bible test fixture:",bibles)
+          PY
+          mod2imp BRISBE1915 >workspace/tmp/gui-module.imp
+          python3 scripts/validate_sword_dictionary_roundtrip.py \
+            --input-tei workspace/tmp/dict-import.xml \
+            --native-imp workspace/tmp/gui-module.imp \
+            --report workspace/tmp/GUI_NATIVE_VALIDATION.json
+      - name: Start graphical readers with isolated original and corrected module install
+        shell: bash
+        run: |
+          set -euo pipefail
+          export SWORD_PATH="$PWD/workspace/tmp/gui-module"
+          export HOME="$PWD/workspace/tmp/gui-home"
+          export XDG_DATA_HOME="$HOME/.local/share"
+          export XDG_CONFIG_HOME="$HOME/.config"
+          export XDG_CACHE_HOME="$HOME/.cache"
+          export XDG_STATE_HOME="$HOME/.local/state"
+          export XDG_RUNTIME_DIR="$HOME/.run"
+          mkdir -p "$HOME" "$XDG_DATA_HOME" "$XDG_CONFIG_HOME" "$XDG_CACHE_HOME" "$XDG_STATE_HOME" "$XDG_RUNTIME_DIR"
+          chmod 700 "$XDG_RUNTIME_DIR"
+          # Also install into the isolated standard per-user SWORD location.
+          # This checks BibleTime's own module discovery independently from
+          # the SWORD_PATH override accepted by Xiphos and Diatheke.
+          mkdir -p "$HOME/.sword"
+          cp -a workspace/tmp/gui-module/mods.d "$HOME/.sword/"
+          cp -a workspace/tmp/gui-module/modules "$HOME/.sword/"
+          env -u SWORD_PATH diatheke -b system -k modulelist | tee workspace/tmp/user-home-module-list.txt
+          env -u SWORD_PATH diatheke -b system -k modulelist | grep -q BRISBE1915
+          xvfb-run -a -s '-screen 0 1440x900x24' \
+            dbus-run-session -- bash -c '
+              set -euo pipefail
+              openbox --sm-disable >workspace/tmp/openbox.log 2>&1 &
+              python3 scripts/smoke_sword_gui_readers.py \
+                --module-id BRISBE1915 \
+                --lookup-key AARON \
+                --output-dir workspace/tmp/gui-reader-review
+            '
+      - name: Upload only GUI launch evidence and strict native validation (NOT full binary)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: BRISBE1915-Xiphos-BibleTime-reader-diagnostics
+          path: |
+            workspace/tmp/gui-reader-review/GUI_SMOKE.json
+            workspace/tmp/gui-reader-review/*.log
+            workspace/tmp/gui-reader-review/*.png
+            workspace/tmp/GUI_NATIVE_VALIDATION.json
+            workspace/tmp/openbox.log
+            workspace/tmp/native-available-modules.txt
+            workspace/tmp/user-home-module-list.txt
+          if-no-files-found: warn
+          retention-days: 14
