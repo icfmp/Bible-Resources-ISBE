@@ -9,12 +9,12 @@ These are **research candidates, not 24 certified textual errors**.
 The original full PDF OCR and historical page positions are tracked in
 [`1915-ocr-word-count-audit.md`](1915-ocr-word-count-audit.md).
 
-The first additional **nine actual original page-image inspections**
-document **eleven bounded individual phrase discrepancies**, using images
+The first two batches of **thirteen actual original page-image inspections**
+document **fifteen bounded individual phrase discrepancies**, using images
 from the SHA-locked
 [original-image research run 45139297142](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45139297142).
 The review ledger is
-[`1915-low-overlap-prose-image-spotchecks-v1.json`](../workspace/reviews/1915-low-overlap-prose-image-spotchecks-v1.json).
+[`1915-low-overlap-prose-image-spotchecks-v2.json`](../workspace/reviews/1915-low-overlap-prose-image-spotchecks-v1.json).
 
 | Article | Original 1915 volume / PDF page / printed folio | Bounded observation |
 | --- | --- | --- |
@@ -27,6 +27,10 @@ The review ledger is
 | VERY | V / 244 / 3048 | Printed `As advb.` becomes digital `As ab adverb`, introducing an extraneous `ab`. |
 | LINE | III / 536 / 1894 | Opening parenthesis before `phthoggos` is missing digitally. |
 | BELLY | I / 468 / 432 | Printed abbreviation `esp.` is expanded into digitally split `espec ially`. |
+| WATERCOURSE | V / 270 / 3074 | Original printed *Jehovah* is replaced with *Yahweh* in the digital witness. |
+| CONFUSION | II / 42 / 700 | Original *akatastasia* differs from digital *akatashatasia*. |
+| JEUSH | III / 313 / 1675 | CrossWire inserts an extraneous comma in *that, of an Arabian lion-god*. |
+| BUSINESS | I / 569 / 533 | Original Greek wording accompanies its transliteration; the digital witness has Latin-only text with added commas. |
 
 ## What is proved—and what is not
 
@@ -34,7 +38,7 @@ The review ledger is
   canonical TEI article and is checked against the source-locked, complete
   9,380-entry inventory. Each article ID, volume, original PDF SHA-256,
   research-image SHA-256, scan page and printed folio is recorded separately.
-- The 1915 visual quotations are **human/image readings** of small segments.
+- The 1915 visual quotations are **direct image readings** of small segments.
   CI verifies their provenance metadata and the existing digital side, but
   does not re-read or independently certify the historical JPEG's wording.
 - **This is not a full word-for-word or character-level collation of any
@@ -54,8 +58,7 @@ The review ledger is
 
 ## Next stage
 
-Review the remaining **15 not-yet-observed low-overlap candidates** at
-original-image phrase level. Then collate **all 24 complete article bodies**
+All **24 candidate starting-page images** have now been examined for initial triage, but only **13** have bounded recorded print/digital fragment differences. The other starting pages cannot be considered fully collated merely because no glaring first-page discrepancy was singled out. Revisit all relevant continuation pages and all article prose. Then collate **all 24 complete article bodies**
 against the original facsimiles, including non-Latin text and punctuation.
 Maintain independent, reversible editorial delta records with source and
 historical witnesses before any change to a separately maintained 1915
