@@ -16,7 +16,30 @@ STATUSES = {
 }
 
 
-def aggregate(reports, manifest):
+def approved_recovery_map(recovery, source_empty_ledger):
+    """Cross-check known historical restorations without using them as OCR proof."""
+    if (recovery.get("canonical_source_sha256") != SOURCE_LOCK
+            or recovery.get("source_empty_entries_recovered") != 31
+            or recovery.get("legal_redistribution_clearance") is not False
+            or recovery.get("published") is not False
+            or source_empty_ledger.get("baseline_canonical_tei_sha256") != SOURCE_LOCK):
+        raise ValueError("Unexpected historical source-empty restoration provenance")
+    source_keys = [r["source_key"] for r in source_empty_ledger["cases"]]
+    rows = recovery.get("records", [])
+    result = {}
+    for row in rows:
+        key = row.get("source_key")
+        if (not key or key in result or row.get("kind") not in {"redirect", "prose"}
+                or row.get("approved_for_separate_editorial_tei") is not True):
+            raise ValueError("Invalid approved historical restoration record")
+        result[key] = row["kind"]
+    if (len(source_keys) != 31 or len(set(source_keys)) != 31
+            or len(rows) != 31 or set(source_keys) != set(result)):
+        raise ValueError("Exactly 31 original source-empty restorations must be matched")
+    return result
+
+
+def aggregate(reports, manifest, recovery_map=None):
     source = {v["volume"]: v for v in manifest["volumes"]}
     if set(source) != VOLUMES or manifest.get("canonical_tei_sha256") != SOURCE_LOCK:
         raise ValueError("Unexpected original 1915 five-volume witness manifest")
@@ -86,6 +109,17 @@ def aggregate(reports, manifest):
         raise ValueError(f"Incomplete source article coverage: {len(keys)} / 9380")
     if not rows:
         raise ValueError("No adjacent article OCR boundaries could be aligned")
+    empty_ocr = sorted(
+        [r for r in rows if r["status"] == "source_empty_print_ocr_nonempty"],
+        key=lambda r: r["article_key"],
+    )
+    recovered = [
+        {"source_key": r["article_key"], "volume": r["volume"],
+         "ocr_latin_tokens": r["ocr_latin_tokens"],
+         "already_restored_in_separate_1915_tei": r["article_key"] in recovery_map,
+         "approved_recovery_kind": recovery_map.get(r["article_key"])}
+        for r in empty_ocr
+    ] if recovery_map is not None else []
     discrepant = [
         r for r in rows if r["status"] == "ocr_count_diff_over_10pct_candidate"
     ]
@@ -111,6 +145,17 @@ def aggregate(reports, manifest):
         "volume_summaries": by_volume,
         "ocr_only_not_print_certified": True,
         "no_editorial_changes_approved": True,
+        "source_empty_candidates_in_ocr": len(empty_ocr),
+        "source_empty_crosscheck_performed": recovery_map is not None,
+        "already_separately_restored_source_empty_candidates": (
+            sum(r["already_restored_in_separate_1915_tei"] for r in recovered)
+            if recovery_map is not None else None
+        ),
+        "new_unreviewed_source_empty_candidates": (
+            sum(not r["already_restored_in_separate_1915_tei"] for r in recovered)
+            if recovery_map is not None else None
+        ),
+        "source_empty_candidates": recovered,
         "publication_permitted": False,
         "counting_limitation": "Normalized Latin tokens only; exact article boundaries, multilingual words, punctuation, diagrams and OCR quality cannot be historically certified from this report",
         "top_50_discrepancy_candidates": [
@@ -135,11 +180,19 @@ def main():
     p.add_argument("--manifest", type=Path,
                    default=Path("sources/print/1915-volume-witnesses.json"))
     p.add_argument("--output", type=Path, required=True)
+    p.add_argument("--approved-recovery-ledger", type=Path)
+    p.add_argument("--original-empty-source-ledger", type=Path)
     args = p.parse_args()
+    if bool(args.approved_recovery_ledger) != bool(args.original_empty_source_ledger):
+        p.error("Both original and approved recovery ledgers are required together")
+    recovery = approved_recovery_map(
+        json.loads(args.approved_recovery_ledger.read_text(encoding="utf-8")),
+        json.loads(args.original_empty_source_ledger.read_text(encoding="utf-8")),
+    ) if args.approved_recovery_ledger else None
     paths = sorted(args.reports_dir.glob("volume-*.json"))
     reports = [json.loads(path.read_text(encoding="utf-8")) for path in paths]
     manifest = json.loads(args.manifest.read_text(encoding="utf-8"))
-    result = aggregate(reports, manifest)
+    result = aggregate(reports, manifest, recovery_map=recovery)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(
         json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
@@ -149,6 +202,11 @@ def main():
         "count_comparable_articles": result["count_comparable_articles"],
         "unresolved_ocr_article_boundaries": result["unresolved_ocr_article_boundaries"],
         "status_counts": result["status_counts"],
+        "source_empty_ocr_candidates": result["source_empty_candidates_in_ocr"],
+        "source_empty_already_restored_in_separate_edition": result[
+            "already_separately_restored_source_empty_candidates"
+        ],
+        "source_empty_new_unreviewed": result["new_unreviewed_source_empty_candidates"],
         "by_volume": {
             k: {
                 "source_articles": r["source_articles"],
