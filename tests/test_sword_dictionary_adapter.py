@@ -25,6 +25,11 @@ def make_source(path, duplicates=False):
         ref=ET.SubElement(para,NS+"ref",{"cRef":"Bible:John.3.16","type":"scripture"})
         ref.text="Jn 3:16"
         ref.tail=" content."
+    # Source-owned internal navigation is by xml:id; the SWORD adapter must
+    # rewrite to an actual dictionary headword without losing the original ID.
+    first=body[0].find(NS+"p")
+    anchor=ET.SubElement(first,NS+"ref",{"target":"#entry-1","type":"entry"})
+    anchor.text="BETA"
     ET.ElementTree(root).write(path,encoding="utf-8",xml_declaration=True)
 
 class SwordAdapterTests(unittest.TestCase):
@@ -46,6 +51,13 @@ class SwordAdapterTests(unittest.TestCase):
             self.assertIn("entryFree",text)
             self.assertIn("café Καὶ עברית",text)
             self.assertEqual(len(ET.parse(produced).find("./"+NS+"text/"+NS+"body")),2)
+            self.assertEqual(result["internal_references_retargeted_to_source_key"],1)
+            self.assertEqual(result["scripture_references_exposed_via_osisRef"],2)
+            entry=ET.parse(produced).find("./"+NS+"text/"+NS+"body")[0]
+            refs=list(entry.iter(NS+"ref"))
+            self.assertEqual(refs[0].get("osisRef"),"Bible:John.3.16")
+            self.assertEqual(refs[1].get("target"),"self:BETA")
+            self.assertEqual(refs[1].get("corresp"),"#entry-1")
 
     def test_wrong_hash_missing_keys_and_duplicated_keys_fail(self):
         with TemporaryDirectory() as folder:
@@ -59,6 +71,19 @@ class SwordAdapterTests(unittest.TestCase):
             make_source(src,duplicates=True)
             with self.assertRaises(ValueError):
                 read_entries(src,digest(src),2)
+
+    def test_broken_internal_target_fails_instead_of_silently_dropping_reference(self):
+        with TemporaryDirectory() as folder:
+            folder=Path(folder)
+            src=folder/"source.xml"
+            make_source(src)
+            root=ET.parse(src)
+            internal=list(root.getroot().iter(NS+"ref"))[-1]
+            self.assertEqual(internal.get("target"),"#entry-1")
+            internal.set("target","#missing-target")
+            root.write(src,encoding="utf-8",xml_declaration=True)
+            with self.assertRaisesRegex(ValueError,"Unresolved"):
+                convert(src,folder/"sword.xml",folder/"report.json",digest(src),2)
 
     def test_native_readback_detects_full_text_and_markup_corruption(self):
         with TemporaryDirectory() as folder:
