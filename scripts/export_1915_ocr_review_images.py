@@ -16,8 +16,8 @@ import subprocess
 from scripts.audit_1915_article_ocr_word_counts import digest, LOCK
 
 
-def selected_pages(report, witness, limit=32):
-    if (report.get("schema_version") != 5
+def selected_pages(report, witness, limit=32, include_near_size_end=False):
+    if (report.get("schema_version") != 8
             or report.get("canonical_tei_sha256") != LOCK
             or report.get("print_pdf_sha256") != witness["pdf_sha256"]
             or report.get("volume") != witness["volume"]
@@ -51,6 +51,13 @@ def selected_pages(report, witness, limit=32):
                 and 1 <= start <= end <= witness["pages"]):
             raise ValueError("Unverified printed PDF page location")
         picks = [(start, "candidate_heading")]
+        # Optional original-page boundary research for similar-length cases.
+        # The next heading page is only a candidate continuation image; it is
+        # NOT proof that the article extends to that page or is fully read.
+        if (include_near_size_end
+                and case["review_queue"] == "similar_length_low_phrase_overlap"
+                and end > start):
+            picks.append((end, "following_heading_possible_continuation"))
         if case["review_queue"] == "long_ocr_span_source_phrases_present":
             window = case["unique_fourgram_overlap_footprint"]
             if window:
@@ -76,7 +83,8 @@ def selected_pages(report, witness, limit=32):
 
 
 def export_research_images(pdf, witness_manifest, volume_report, output_folder,
-                           max_size=2200, max_pages=32):
+                           max_size=2200, max_pages=32,
+                           include_near_size_end=False):
     witness_source = json.loads(Path(witness_manifest).read_text(encoding="utf-8"))
     if witness_source.get("canonical_tei_sha256") != LOCK:
         raise ValueError("Original printed witness source lock differs")
@@ -87,7 +95,8 @@ def export_research_images(pdf, witness_manifest, volume_report, output_folder,
     actual = digest(pdf)
     if actual != witness["pdf_sha256"]:
         raise ValueError("Downloaded original printed 1915 PDF SHA-256 mismatch")
-    pages = selected_pages(report, witness, max_pages)
+    pages = selected_pages(report, witness, max_pages,
+                           include_near_size_end=include_near_size_end)
     output = Path(output_folder)
     output.mkdir(parents=True, exist_ok=True)
     rendered = []
@@ -138,9 +147,12 @@ def main():
     p.add_argument("--volume-manifest", type=Path,
                    default=Path("sources/print/1915-volume-witnesses.json"))
     p.add_argument("--output-dir", required=True, type=Path)
+    p.add_argument("--include-near-size-end-page", action="store_true",
+                   help="Render next-heading scan page too for same-size low-overlap candidates")
     a = p.parse_args()
     manifest = export_research_images(
         a.pdf, a.volume_manifest, a.ocr_report, a.output_dir,
+        include_near_size_end=a.include_near_size_end_page,
     )
     print(json.dumps({
         "original_1915_volume": manifest["original_1915_volume"],

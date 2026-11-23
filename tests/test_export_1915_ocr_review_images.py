@@ -32,7 +32,7 @@ def witness():
 
 def report(cases):
     return {
-        "schema_version": 5,
+        "schema_version": 8,
         "canonical_tei_sha256": LOCK,
         "print_pdf_sha256": "a" * 64,
         "volume": "3",
@@ -51,6 +51,16 @@ class ResearchPDFPageSelectionTests(unittest.TestCase):
         self.assertEqual(list(selected), [657])
         self.assertEqual(selected[657][0]["source_key"], "MEADOW")
         self.assertTrue(selected[657][0]["still_requires_human_image_collation"])
+
+    def test_optional_next_heading_page_research_is_not_certification(self):
+        item = scan_case("ZABUD", 328, 329)
+        unchanged = selected_pages(report([item]), witness())
+        self.assertEqual(list(unchanged), [328])
+        pages = selected_pages(report([item]), witness(), include_near_size_end=True)
+        self.assertEqual(list(pages), [328, 329])
+        self.assertEqual(pages[329][0]["evidence_role"],
+                         "following_heading_possible_continuation")
+        self.assertTrue(pages[329][0]["still_requires_human_image_collation"])
 
     def test_long_case_renders_heading_both_unique_boundaries_and_next_heading(self):
         window = {
