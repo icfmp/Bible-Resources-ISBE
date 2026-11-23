@@ -96,9 +96,9 @@ jobs:
             --report workspace/tmp/ISBE-1915-prose-deltas.json \
             --derived-validator workspace/tmp/ISBE-1915-prose-validator.json \
             --derived-fidelity workspace/tmp/ISBE-1915-prose-fidelity.json
-      - name: Test ten original-image-exact editorial changes and negative controls
+      - name: Test sixteen original-image-exact editorial changes and negative controls
         run: python3 -m unittest discover -s tests -p 'test_apply_1915_additional_prose_deltas.py' -v
-      - name: Apply ten source-locked printed word/script/reference-punctuation fragments to the NEXT separate TEI
+      - name: Apply sixteen source-locked printed word/script/reference-punctuation fragments to the NEXT separate TEI
         run: |
           python3 -m scripts.apply_1915_additional_prose_deltas \
             --source cleaned/en/ISBE.xml \
@@ -119,7 +119,7 @@ jobs:
             --source-report workspace/tmp/ISBE-1915-prose-fidelity.json \
             --manifest workspace/tmp/ISBE-1915-prose-validator.json \
             --output workspace/tmp/ISBE-1915-prose-official-validation.json
-      - name: Independently validate all ten additional text deltas with pinned official TEI P5 schemas
+      - name: Independently validate all sixteen additional text deltas with pinned official TEI P5 schemas
         run: |
           python3 scripts/validate_official_tei_p5.py \
             --candidate workspace/tmp/ISBE-1915-additional-prose-corrected-NONPUBLISHABLE.xml \
