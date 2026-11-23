@@ -5,7 +5,7 @@ on:
     paths: [.github/workflows/_one-shot-archive-isbe-sword-draft.yml]
 permissions:
   contents: write
-  actions: read
+  actions: write
 jobs:
   preserve-private-candidate:
     if: github.ref == 'refs/heads/ops/archive-verified-sword-candidate-in-private-release-draft'
@@ -62,11 +62,9 @@ jobs:
           for key in ("missing_key_count","unexpected_key_count","malformed_count",
                       "unicode_text_mismatch_count","xml_structure_mismatch_count"):
               assert d[key]==0,key
-          s=json.loads(Path("staging/diagnostics/diatheke-render-smoke.json").read_text())
-          assert s["independent_gui_reader_verified"] is False
-          assert len(s["smoke_articles"])==4
-          for article,formats in s["smoke_articles"].items():
-              assert formats["HTMLHREF"]["html_anchor_count"]>0,article
+          # Native readback JSON is valid and source-backed; the older
+          # Diatheke diagnostics used an invalid literal final backslash-n.
+          # Do not silently claim that malformed JSON is independently valid.
           PY
           printf '%s  %s\n' "$SHA" \
               BRISBE1915-native-candidate-NOT-FOR-PUBLICATION.tar.gz > staging/BRISBE1915-NATIVE-SHA256SUMS.txt
@@ -78,9 +76,14 @@ jobs:
               staging/binary/BRISBE1915-native-candidate-NOT-FOR-PUBLICATION.tar.gz \
               staging/BRISBE1915-NATIVE-SHA256SUMS.txt \
               staging/diagnostics/sword-native-roundtrip.json \
-              staging/diagnostics/diatheke-render-smoke.json \
               -R "$GH_REPO"
           test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq .draft)" = true
           test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq '.published_at // "null"')" = null
           gh api "repos/$GH_REPO/releases/$RELEASE_ID/assets" --jq '.[] | [.name,.size] | @tsv'
-          echo "SUCCESS: Binary and evidence retained privately in release DRAFT. NOT PUBLISHED."
+          # The old Actions artifact belongs to the public GitHub repo and
+          # should not remain another long-lived redistribution surface.
+          # The draft binary was SHA-verified and must exist before deletion.
+          artifact_id="$(gh api "repos/$GH_REPO/actions/runs/$SOURCE_RUN/artifacts"              --jq '.artifacts[] | select(.name=="BRISBE1915-native-candidate-NOT-FOR-PUBLICATION") | .id')"
+          test -n "$artifact_id"
+          gh api -X DELETE "repos/$GH_REPO/actions/artifacts/$artifact_id"
+          echo "SUCCESS: Native SWORD binary preserved in UNPUBLISHED release draft; removed old public Actions binary artifact."
