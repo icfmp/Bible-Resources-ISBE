@@ -36,7 +36,7 @@ def sample():
             status="ocr_count_near_source_candidate",
         )
         reports.append({
-            "schema_version": 1, "volume": vol, "print_pdf_sha256": sha,
+            "schema_version": 2, "volume": vol, "print_pdf_sha256": sha,
             "canonical_tei_sha256": SOURCE_LOCK,
             "pdf_pages": 700, "publication_permitted": False,
             "ocr_not_original_print_certification": True,
