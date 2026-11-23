@@ -80,6 +80,8 @@ def main():
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in result.items() if k != "cases"}, indent=2))
+    for case in result["cases"]:
+        print("CANDIDATE", json.dumps(case, ensure_ascii=False, sort_keys=True))
 
 
 if __name__ == "__main__":
