@@ -15,14 +15,17 @@ class FirstOriginalPrintReadingTests(unittest.TestCase):
             (REVIEWS / "print-prose-candidate-v1.json").read_text(encoding="utf-8"))["records"]}
         pages = {r["source_key"]: r for r in json.loads(
             (REVIEWS / "1915-visual-page-collation-v1.json").read_text(encoding="utf-8"))["records"]}
-        self.assertEqual(data["print_collated_articles"], 9)
-        self.assertEqual(data["remaining_prose_articles_pending_initial_exact_print_collation"], 11)
-        self.assertEqual({r["source_key"] for r in data["records"]}, {"ABISSEI","MANKIND","BEERA","CHORBE","ITHLAH","SHALLUN","SYCHEM","TEPHON","DEHORT"})
+        self.assertEqual(data["print_collated_articles"], 14)
+        self.assertEqual(data["remaining_prose_articles_pending_initial_exact_print_collation"], 6)
+        self.assertEqual({r["source_key"] for r in data["records"]}, {"ABISSEI","MANKIND","BEERA","CHORBE","ITHLAH","SHALLUN","SYCHEM","TEPHON","DEHORT","AMNON","ANTIQUITY","MANASSITES","SAVIAS","SESIS"})
         for row in data["records"]:
             key = row["source_key"]
             with self.subTest(key=key):
                 c, p = candidates[key], pages[key]
-                self.assertEqual([row["exact_print_body_reading"]], c["blocks"])
+                if "exact_print_body_blocks" in row:
+                    self.assertEqual(row["exact_print_body_blocks"], c["blocks"])
+                else:
+                    self.assertEqual([row["exact_print_body_reading"]], c["blocks"])
                 self.assertEqual(row["original_paragraph_xml_id"], c["source_paragraph_id"])
                 self.assertEqual(row["original_paragraph_xml_id"], p["original_source_paragraph_xml_id"])
                 self.assertEqual(row["source_pdf_sha256"], p["original_pdf_sha256"])
@@ -30,7 +33,7 @@ class FirstOriginalPrintReadingTests(unittest.TestCase):
                 self.assertEqual(row["printed_folio"], p["printed_page_number"])
                 self.assertEqual(row["source_pdf_page_1_based"], p["pdf_page_1_based"])
                 self.assertTrue(row["whole_body_visual_comparison"])
-                self.assertEqual(row["foreign_script_present"], key in {"BEERA","CHORBE","ITHLAH","SHALLUN","SYCHEM","TEPHON","DEHORT"})
+                self.assertEqual(row["foreign_script_present"], key in {"BEERA","CHORBE","ITHLAH","SHALLUN","SYCHEM","TEPHON","DEHORT","AMNON","ANTIQUITY","MANASSITES","SAVIAS","SESIS"})
                 self.assertFalse(row["editorial_approval"])
                 self.assertFalse(row["canonical_tei_changed"])
                 self.assertFalse(row["full_bibliographic_text_certified_by_independent_reviewer"])
