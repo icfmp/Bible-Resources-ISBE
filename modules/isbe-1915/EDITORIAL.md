@@ -22,7 +22,7 @@ The generic `scripts/export_tei_dictionary_for_sword.py` translates the reviewed
 - 93,164 biblical reference elements acquire a SWORD `osisRef` equal to their original source `cRef`; original reference markup and displayed text remain unchanged.
 - 80 links to a *section* within another article now address its parent article, without guaranteed precise intra-article scroll targeting. This loss is documented; source selectors remain intact.
 - 29 nested `div` elements are retained without destructive flattening; actual GUI rendering/interaction with these structures still needs review.
-- The diatheke command-line HTML renderer successfully produced representative outputs, **but did not expose clickable HTML anchors in those samples**; therefore UI link-click acceptance is **not** claimed.
+- The diatheke CLI rendered four representative articles in `plain`, `HTML` and `HTMLHREF`. The general `HTML` filter produced no anchors; SWORD's purpose-built `HTMLHREF` filter rendered **63 anchors** (41 AARON, 8 ABIDE, 10 GAINSAY, 4 ZEBIDAH), confirming generated hyperlink markup. **Actual GUI click-navigation in Xiphos or BibleTime is still not verified** ([run #45259095383](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383)).
 - Historical 1915 Greek/Hebrew text missing in the source remains missing. The original full printed work has **not** been critically collated.
 
 ## Remaining publication gates
