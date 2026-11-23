@@ -1,0 +1,49 @@
+name: Locate and render pinned 1915 Scripture mismatch pages
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/locate_1915_scripture_pages.py'
+      - 'tests/test_locate_1915_scripture_pages.py'
+      - '.github/workflows/locate-1915-scripture-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m unittest discover -s tests -p 'test_locate_1915_scripture_pages.py' -v
+  visual-research:
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        volume: ['1','2','3','4','5']
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Fetch SHA-pinned historical volume
+        run: |
+          mkdir -p workspace/tmp
+          curl --fail --location --silent --show-error --retry 4 --retry-all-errors \
+            --connect-timeout 20 --max-time 480 \
+            "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
+            --output "workspace/tmp/volume-${{ matrix.volume }}.pdf"
+      - name: Locate candidate headings and render bounded primary image evidence
+        run: |
+          python3 -m scripts.locate_1915_scripture_pages \
+            --volume "${{ matrix.volume }}" \
+            --pdf "workspace/tmp/volume-${{ matrix.volume }}.pdf" \
+            --output "workspace/tmp/print-headword-locations-v${{ matrix.volume }}.json" \
+            --render-pages --render-limit 3
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isbe-1915-headword-candidates-v${{ matrix.volume }}
+          path: workspace/tmp/print-headword-locations-v${{ matrix.volume }}.json
+          if-no-files-found: error
