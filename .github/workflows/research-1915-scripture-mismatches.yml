@@ -1,0 +1,61 @@
+name: Research 1915 Scripture mismatch print witnesses
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_1915_scripture_candidates.py'
+      - 'tests/test_audit_1915_scripture_candidates.py'
+      - '.github/workflows/research-1915-scripture-mismatches.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  digital:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run provenance-negative tests
+        run: python3 -m unittest discover -s tests -p 'test_audit_1915_scripture_candidates.py' -v
+      - name: Produce full digital context review queue
+        run: |
+          python3 -m scripts.audit_1915_scripture_candidates \
+            --output workspace/tmp/1915-scripture-digital-review.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 1915-scripture-digital-context-candidates
+          path: workspace/tmp/1915-scripture-digital-review.json
+          if-no-files-found: error
+  print-ocr-research:
+    needs: digital
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        volume: ['1', '2', '3', '4', '5']
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF text extraction
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Download original facsimile for isolated research job
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p workspace/tmp
+          curl --fail --location --silent --show-error --retry 4 --retry-all-errors \
+            --connect-timeout 20 --max-time 480 \
+            "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
+            --output "workspace/tmp/volume-${{ matrix.volume }}.pdf"
+      - name: SHA-check source and collect headword OCR location hints
+        run: |
+          python3 -m scripts.audit_1915_scripture_candidates \
+            --pdf "workspace/tmp/volume-${{ matrix.volume }}.pdf" \
+            --volume "${{ matrix.volume }}" \
+            --output "workspace/tmp/1915-scripture-candidates-vol-${{ matrix.volume }}.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 1915-scripture-ocr-hints-volume-${{ matrix.volume }}
+          path: workspace/tmp/1915-scripture-candidates-vol-${{ matrix.volume }}.json
+          if-no-files-found: error
