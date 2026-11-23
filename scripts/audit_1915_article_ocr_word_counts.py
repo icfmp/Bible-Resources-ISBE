@@ -28,6 +28,7 @@ from scripts.research_1915_print_pages import (
     candidate_heading, expected_volume, normalize,
 )
 from scripts.diagnose_1915_ocr_candidate_spans import diagnose_candidates
+from scripts.guard_1915_print_headword_interleaving import guard_interleaved_headings
 
 TEI = "{http://www.tei-c.org/ns/1.0}"
 ID = "{http://www.w3.org/XML/1998/namespace}id"
@@ -419,10 +420,12 @@ def compare_bbox(bbox_file, pdf_sha, source_sha, volume, manifest, entries):
         raise ValueError("Wrong source-identified 1915 scanned volume")
     lines = bbox_lines(bbox_file, witness[0]["pages"])
     accepted, alignment = unique_print_headings(lines, entries)
-    reports, statuses = assess(lines, entries, accepted)
+    reports, _ = assess(lines, entries, accepted)
+    reports, guarded = guard_interleaved_headings(lines, entries, accepted, reports)
+    statuses = dict(sorted(Counter(row["status"] for row in reports).items()))
     targeted = diagnose_candidates(lines, entries, accepted, reports, latin_tokens)
     return {
-        "schema_version": 5,
+        "schema_version": 6,
         "volume": volume,
         "print_pdf_sha256": pdf_sha,
         "canonical_tei_sha256": source_sha,
@@ -438,6 +441,8 @@ def compare_bbox(bbox_file, pdf_sha, source_sha, volume, manifest, entries):
         "articles_in_volume": len(entries),
         "article_count_sum": sum(statuses.values()),
         "heading_diagnostics": alignment,
+        "ocr_intervals_withdrawn_due_to_independent_intervening_print_headwords": guarded,
+        "independent_print_order_does_not_imply_digital_source_order": True,
         "status_counts": statuses,
         "content_candidate_diagnostic_method": "existing SHA-locked 1915 PDF OCR bboxes, no second extraction; 1/2/3/4-gram evidence and unique 4-gram localization; no historical image certification",
         "content_candidate_diagnostics": targeted,

@@ -27,6 +27,9 @@ def sample():
                 "status": "unresolved_print_boundaries",
                 "source_fourgram_recall": None,
                 "ocr_fourgram_precision": None,
+                "intervening_print_heading_candidates": [],
+                "withheld_ocr_span_start_scan_pdf_page_1_based": None,
+                "withheld_ocr_span_next_heading_scan_pdf_page_1_based": None,
                 "visually_verified": False,
                 "full_print_text_certified": False,
             })
@@ -39,9 +42,11 @@ def sample():
             source_fourgram_recall=0.8, ocr_fourgram_precision=0.8,
         )
         reports.append({
-            "schema_version": 5, "volume": vol, "print_pdf_sha256": sha,
+            "schema_version": 6, "volume": vol, "print_pdf_sha256": sha,
             "canonical_tei_sha256": SOURCE_LOCK,
             "pdf_pages": 700, "publication_permitted": False,
+            "independent_print_order_does_not_imply_digital_source_order": True,
+            "ocr_intervals_withdrawn_due_to_independent_intervening_print_headwords": 0,
             "ocr_not_original_print_certification": True,
             "articles_in_volume": len(rows),
             "article_count_sum": len(rows),
@@ -209,6 +214,64 @@ class OCRAggregateSafetyTests(unittest.TestCase):
         self.assertEqual(result["top_50_substantive_source_abs_differences"][0][
             "absolute_latin_token_difference"], 250)
         self.assertFalse(result["top_50_substantive_source_abs_differences"][0]["source_print_certified"])
+
+    def test_independent_print_headword_withdrawal_is_preserved_and_not_counted(self):
+        reports, manifest = sample()
+        row = reports[0]["entries"][0]
+        row.update(
+            ocr_latin_tokens=None, ocr_start_pdf_page=None,
+            ocr_end_pdf_page=None, ocr_to_tei_ratio=None,
+            source_fourgram_recall=None, ocr_fourgram_precision=None,
+            status="unresolved_intervening_print_heading",
+            withheld_ocr_span_start_scan_pdf_page_1_based=1,
+            withheld_ocr_span_next_heading_scan_pdf_page_1_based=2,
+            intervening_print_heading_candidates=[{
+                "source_key": reports[0]["entries"][1]["article_key"],
+                "source_article_xml_id": reports[0]["entries"][1]["article_xml_id"],
+                "scan_pdf_page_1_based": 1,
+                "image_verified": False,
+            }]
+        )
+        reports[0]["status_counts"] = {
+            "unresolved_intervening_print_heading": 1,
+            "unresolved_print_boundaries": 1875,
+        }
+        reports[0][
+            "ocr_intervals_withdrawn_due_to_independent_intervening_print_headwords"
+        ] = 1
+        result = self.run_synthetic(reports, manifest)
+        self.assertEqual(result["count_comparable_articles"], 4)
+        self.assertEqual(result["unresolved_ocr_article_boundaries"], 9376)
+        self.assertEqual(result["withheld_due_to_detected_intervening_print_titles"], 1)
+        self.assertEqual(result["possible_print_order_interleavings"][0][
+            "candidate_independent_print_titles"][0]["image_verified"], False)
+
+    def test_illegal_visual_proof_of_interleaving_rejected(self):
+        reports, manifest = sample()
+        row = reports[0]["entries"][0]
+        row.update(
+            ocr_latin_tokens=None, ocr_start_pdf_page=None,
+            ocr_end_pdf_page=None, ocr_to_tei_ratio=None,
+            source_fourgram_recall=None, ocr_fourgram_precision=None,
+            status="unresolved_intervening_print_heading",
+            withheld_ocr_span_start_scan_pdf_page_1_based=1,
+            withheld_ocr_span_next_heading_scan_pdf_page_1_based=2,
+            intervening_print_heading_candidates=[{
+                "source_key": reports[0]["entries"][1]["article_key"],
+                "source_article_xml_id": reports[0]["entries"][1]["article_xml_id"],
+                "scan_pdf_page_1_based": 1,
+                "image_verified": True,
+            }]
+        )
+        reports[0]["status_counts"] = {
+            "unresolved_intervening_print_heading": 1,
+            "unresolved_print_boundaries": 1875,
+        }
+        reports[0][
+            "ocr_intervals_withdrawn_due_to_independent_intervening_print_headwords"
+        ] = 1
+        with self.assertRaises(ValueError):
+            self.run_synthetic(reports, manifest)
 
     def test_missing_one_volume_is_rejected(self):
         reports, manifest = sample()
