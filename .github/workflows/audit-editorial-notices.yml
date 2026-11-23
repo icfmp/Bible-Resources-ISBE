@@ -23,8 +23,14 @@ jobs:
         run: |
           python scripts/audit_editorial_notices.py cleaned/en/ISBE.xml \
             --report workspace/tmp/editorial-notices.json
+      - name: Review high-signal digital paratext and neighbouring source units
+        run: |
+          python scripts/audit_editorial_notices.py cleaned/en/ISBE.xml \
+            --profile paratext --report workspace/tmp/editorial-paratext.json
       - uses: actions/upload-artifact@v4
         with:
           name: isbe-editorial-notices
-          path: workspace/tmp/editorial-notices.json
+          path: |
+            workspace/tmp/editorial-notices.json
+            workspace/tmp/editorial-paratext.json
           if-no-files-found: error
