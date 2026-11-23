@@ -63,7 +63,20 @@ class CleanSourceTreeTests(unittest.TestCase):
             self.assertEqual(record["quality"]["native_readback_text_mismatches"],0)
             self.assertEqual(record["quality"]["native_readback_xml_mismatches"],0)
             self.assertEqual(record["quality"]["two_reader_acceptance"],
-                             "not_performed")
+                             "partial_article_display_verified_interactive_pending")
+            self.assertEqual(record["quality"]["gui_article_display_verified_in"],
+                             ["Xiphos","BibleTime"])
+            self.assertEqual(record["quality"]["gui_article_headword_sample"],"AARON")
+            self.assertFalse(record["quality"]["interactive_gui_hyperlink_click_verified"])
+            validation=read_json(folder/"SOURCE_VALIDATION.json")
+            self.assertEqual(validation["independently_tested_gui_readers"],
+                             ["Xiphos","BibleTime"])
+            self.assertEqual(validation["gui_article_display"]["headword"],"AARON")
+            self.assertFalse(validation["gui_article_display"]["actual_clicked_links_verified"])
+            self.assertFalse(validation["gui_article_display"]["two_reader_full_acceptance"])
+            self.assertFalse(validation["xiphos_accepted"])
+            self.assertFalse(validation["second_reader_accepted"])
+            self.assertFalse(validation["publication_permitted"])
         self.assertFalse(record["distribution"]["payload_present"])
         self.assertFalse(record["distribution"]["release_published"])
         distribution=record["distribution"]

@@ -14,7 +14,8 @@
 - [x] Full native SWORD `mod2imp` parity: 9,380 entries, zero text/XML mismatch, original source unchanged.
 - [x] Validate 5,919 converted internal navigation targets and 93,164 exposed Bible reference fields in the compiled text; record 80 reduced section-scroll targets.
 - [x] Retain private source and native binary release **draft** assets with SHA-256 and delete the expiring publicly retrievable Actions copy.
-- [ ] Xiphos/BibleTime independent graphical reader acceptance, including actual hyperlink clicks, Greek/Hebrew, editorial structure and article navigation.
+- [x] Real **AARON** headword input and corresponding corrected article text visibly confirmed in [Xiphos](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45279693011) and [BibleTime](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561) (second attempt, [screenshots](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561/artifacts/14869951086)).
+- [ ] **Full** Xiphos/BibleTime reader acceptance, including actual clicked hyperlinks, Greek/Hebrew, nested scholarly structures, section-level navigation, and independent editorial inspection.
 
 ## Unresolved before publication
 
