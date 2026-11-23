@@ -95,6 +95,11 @@ def validate(ledger, source_manifest, article_index):
                     or end not in physical or end < start
                     or len(pages) < 1):
                 raise ValueError("Original intervening printed heading not evidenced")
+        elif record["classification"] == "visually_confirmed_midpage_alphabetic_section_break":
+            if (other is not None or other_id is not None or end is not None
+                    or len(pages) != 1
+                    or not key[0].isupper()):
+                raise ValueError("Midpage letter-section review invented a source entry")
         elif other is not None or other_id is not None or end is not None:
             raise ValueError("Non-conflicting print review invents another article")
         outcome[record["classification"]] = outcome.get(record["classification"], 0) + 1
