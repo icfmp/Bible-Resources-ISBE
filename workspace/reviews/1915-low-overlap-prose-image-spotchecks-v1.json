@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "scope": "Nine original 1915 printed-page images manually inspected for eleven bounded phrase-level discrepancies in the 24 low-fourgram candidate queue; not entire article or full-corpus collation.",
+  "original_print_image_research_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45139297142",
+  "canonical_tei_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "original_crosswire_or_canonical_tei_modified": false,
+  "full_article_collation_completed": false,
+  "editorial_corrections_approved": false,
+  "redistribution_authorized": false,
+  "entries": [
+    {
+      "source_key": "ABIDE",
+      "source_article_xml_id": "isbe-a0d0790fca21ada422f4",
+      "volume": "1",
+      "pdf_page_1_based": 33,
+      "printed_folio": 9,
+      "original_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "research_jpeg_sha256": "31729843e1b9f971b7d7fff69d8eaad8ef5afcab27f7831983231d630c414800",
+      "fragments": [
+        {
+          "digital_source_exact": "His bow abide (remained) in strength",
+          "printed_visible_reading": "His bow a. [remained] in strength",
+          "classification": "misexpanded_abbreviation",
+          "annotation": "The printed abbreviated a. follows the explicit past-tense discussion (abode); the CrossWire expansion reads abide."
+        },
+        {
+          "digital_source_exact": "There he abide\" (dwelt)",
+          "printed_visible_reading": "There he a. [dwelt]",
+          "classification": "misexpanded_abbreviation",
+          "annotation": "Another past-tense context where an unqualified expansion to abide is not source-faithful."
+        },
+        {
+          "digital_source_exact": "make our abide with him",
+          "printed_visible_reading": "make our a. with him",
+          "classification": "misexpanded_abbreviation",
+          "annotation": "In the expressly noun-focused Abode paragraph, a. denotes abode rather than the ungrammatical digital abide."
+        }
+      ],
+      "printed_page_image_visually_inspected": true,
+      "full_article_prose_verified": false,
+      "correction_authorized": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "MEADOW",
+      "source_article_xml_id": "isbe-185f20346f14005e6f24",
+      "volume": "3",
+      "pdf_page_1_based": 657,
+      "printed_folio": 2013,
+      "original_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "research_jpeg_sha256": "c82c31e7f6f3788eb886b12b9e7bf390267aafcc3ecb407e725490a7ed394deb",
+      "fragments": [
+        {
+          "digital_source_exact": "the meadows (the King James Version \"paper reeds\") by the Nile\"",
+          "printed_visible_reading": "the meadows” (AV “paper reeds”) by the Nile",
+          "classification": "quote_boundary_shift",
+          "annotation": "Printed outer quotation closes after meadows; digital expansion disrupts the nested quotation boundaries. Exact historical typography still requires editorial transcription."
+        }
+      ],
+      "printed_page_image_visually_inspected": true,
+      "full_article_prose_verified": false,
+      "correction_authorized": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "REPAIR",
+      "source_article_xml_id": "isbe-d90b7f3c18342b7511bf",
+      "volume": "4",
+      "pdf_page_1_based": 474,
+      "printed_folio": 2558,
+      "original_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "research_jpeg_sha256": "453524e91248a202ad3cfade5675363ff15d2f87342c134301b1c55a9fc77f5c",
+      "fragments": [
+        {
+          "digital_source_exact": "for the King James Version The Lord will be the hope of his people\"",
+          "printed_visible_reading": "for AV (“The Lord will be the hope of his people”)",
+          "classification": "punctuation_loss",
+          "annotation": "The printed biblical phrase is opened as a quotation in parentheses; the digital witness has an unmatched closing quotation after people."
+        }
+      ],
+      "printed_page_image_visually_inspected": true,
+      "full_article_prose_verified": false,
+      "correction_authorized": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "HERB",
+      "source_article_xml_id": "isbe-74d89030a45b096ede61",
+      "volume": "2",
+      "pdf_page_1_based": 732,
+      "printed_folio": 1375,
+      "original_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "research_jpeg_sha256": "91eddf0b91f1b05ce722570716e837620f7faf649706abbce20de8061c04c18c",
+      "fragments": [
+        {
+          "digital_source_exact": "a garden of herbs\"",
+          "printed_visible_reading": "“a garden of herbs”",
+          "classification": "punctuation_loss",
+          "annotation": "The opening printed quotation mark is absent from the source-faithful digital witness."
+        }
+      ],
+      "printed_page_image_visually_inspected": true,
+      "full_article_prose_verified": false,
+      "correction_authorized": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "JERUBBESHETH",
+      "source_article_xml_id": "isbe-1ac75cd37db7b473de8a",
+      "volume": "3",
+      "pdf_page_1_based": 231,
+      "printed_folio": 1595,
+      "original_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "research_jpeg_sha256": "f217b9c1856424a475f592dc3ca67eef5f44a98994ffd3214a9ef4b78e78114c",
+      "fragments": [
+        {
+          "digital_source_exact": "The reason for this was reluctant to pronounce",
+          "printed_visible_reading": "The reason for this was reluctance to pronounce",
+          "classification": "lexical_substitution",
+          "annotation": "Original image reads reluctance; the digital adjective reluctant changes the grammar and the printed word."
+        }
+      ],
+      "printed_page_image_visually_inspected": true,
+      "full_article_prose_verified": false,
+      "correction_authorized": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "GAINSAY",
+      "source_article_xml_id": "isbe-b892edd68cfa282dd67e",
+      "volume": "2",
+      "pdf_page_1_based": 505,
+      "printed_folio": 1153,
+      "original_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "research_jpeg_sha256": "88f820a4945cb7c8a5c8561ece0f1f015dc79b79a1724fcd4ca97f63556b3976",
+      "fragments": [
+        {
+          "digital_source_exact": "/APC 2Esdras 5:29",
+          "printed_visible_reading": "2 Esd 5 29, contradicebant",
+          "classification": "digitization_marker",
+          "annotation": "The slash-prefixed /APC locator is not printed before the 2 Esdras citation. This does not authorize stripping all such strings without context."
+        }
+      ],
+      "printed_page_image_visually_inspected": true,
+      "full_article_prose_verified": false,
+      "correction_authorized": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "VERY",
+      "source_article_xml_id": "isbe-82296ddaa3ed3a5fd42f",
+      "volume": "5",
+      "pdf_page_1_based": 244,
+      "printed_folio": 3048,
+      "original_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "research_jpeg_sha256": "60772fbcd0c2d90e21ee5e57b5a953377fbee8b10d9373fecabd883b570f0ab8",
+      "fragments": [
+        {
+          "digital_source_exact": "As ab adverb it is commonly",
+          "printed_visible_reading": "As advb. it is commonly",
+          "classification": "broken_word_expansion",
+          "annotation": "Printed advb. is abbreviated; digital As ab adverb has an extraneous ab and is not a faithful expansion."
+        }
+      ],
+      "printed_page_image_visually_inspected": true,
+      "full_article_prose_verified": false,
+      "correction_authorized": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "LINE",
+      "source_article_xml_id": "isbe-81a0d84c989551158408",
+      "volume": "3",
+      "pdf_page_1_based": 536,
+      "printed_folio": 1894,
+      "original_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "research_jpeg_sha256": "658c976368bedd5db8e9e1f22bfa6038876d33277acf63bb9559386d01f60369",
+      "fragments": [
+        {
+          "digital_source_exact": "a musical cord phthoggos)",
+          "printed_visible_reading": "a musical cord (phthoggos)",
+          "classification": "punctuation_loss",
+          "annotation": "The opening parenthesis before the Greek transliteration is missing in the digital witness."
+        }
+      ],
+      "printed_page_image_visually_inspected": true,
+      "full_article_prose_verified": false,
+      "correction_authorized": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "BELLY",
+      "source_article_xml_id": "isbe-2b8490c61ed13100748a",
+      "volume": "1",
+      "pdf_page_1_based": 468,
+      "printed_folio": 432,
+      "original_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "research_jpeg_sha256": "a427121d8f4c2f3b04b1fdb1329932659ad322cec456e517f44e5372f794c619",
+      "fragments": [
+        {
+          "digital_source_exact": "espec ially the abdominal",
+          "printed_visible_reading": "esp. the abdominal",
+          "classification": "broken_word_expansion",
+          "annotation": "Printed esp. is an abbreviation, whereas the digital expansion inserts an internal space into especially."
+        }
+      ],
+      "printed_page_image_visually_inspected": true,
+      "full_article_prose_verified": false,
+      "correction_authorized": false,
+      "publication_permitted": false
+    }
+  ]
+}
