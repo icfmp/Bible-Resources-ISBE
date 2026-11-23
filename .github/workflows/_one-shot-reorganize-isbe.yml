@@ -50,11 +50,9 @@ jobs:
           git add -A
           git diff --cached --stat
           git diff --cached --check
-          test ! -e cleaned
-          test ! -e modern
-          test ! -e translations
-          test ! -e sources/crosswire
-          test ! -e sources/print
+          # Git does not track empty directories: require no legacy files
+          # remain staged, not that the runner has deleted empty parents.
+          test -z "$(git ls-files -- cleaned/ modern/ translations/ sources/crosswire/ sources/print/)"
           test -f modules/isbe-1915/metadata.json
           test ! -d modules/isbe-1915/payload
           test -f workspace/witnesses/crosswire-2.2/ISBE.xml
