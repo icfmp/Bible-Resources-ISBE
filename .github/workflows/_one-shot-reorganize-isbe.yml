@@ -66,3 +66,5 @@ jobs:
           git push origin HEAD:refactor/consolidate-source-tree-and-modules
 
 # Re-run migration with composed-path and source ZIP uniqueness checks.
+
+# Retry with all assembled source path usages accounted for.
