@@ -1,0 +1,39 @@
+name: Internal 1915 full-24 original PDF page text research (NOT FOR PUBLICATION)
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/research_1915_all24_original_pdf_text.py'
+      - '.github/workflows/research-1915-all24-original-pdf-text.yml'
+      - 'workspace/reviews/1915-article-wide-prose-review-v2.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extract-original-pdf-text-layer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        volume: ['1', '2', '3', '4', '5']
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install original PDF text extractor
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Fetch precise original 1915 volume
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 --retry-all-errors --connect-timeout 20 --max-time 500 "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" -o "/tmp/isbe-print-vol-${{ matrix.volume }}.pdf"
+      - name: Extract exact article pages from original PDF text layer
+        run: |
+          python3 -m scripts.research_1915_all24_original_pdf_text --volume "${{ matrix.volume }}" --pdf "/tmp/isbe-print-vol-${{ matrix.volume }}.pdf" --output-dir "workspace/tmp/1915-print-text-layer/volume-${{ matrix.volume }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ISBE-1915-original-volume-${{ matrix.volume }}-article-PDF-TEXT-UNVERIFIED
+          path: workspace/tmp/1915-print-text-layer/volume-${{ matrix.volume }}/
+          if-no-files-found: error
+          retention-days: 3
