@@ -1,5 +1,14 @@
 # 1915 low-fourgram candidates: original-image prose spot-checks
 
+> **Superseding 2026-11-23 image correction (PR #71):** The MEADOW v1/v2
+> spot-check below misdescribes the original printed punctuation. Magnified
+> original volume III PDF page 657 reads **“the meadows [AV “paper reeds”] by the Nile”**:
+> square brackets, not parentheses, and no quotation closure after *meadows*.
+> The original spot-check ledgers are retained for provenance; use the
+> [all-24 v2 original-image review](1915-all24-english-prose-review.md)
+> before any textual correction.
+
+
 ## Evidential scope
 
 The source-locked five-volume OCR triage identifies **24 articles** with at
