@@ -8,9 +8,10 @@ A reproducible, multilingual editorial workspace for the historical **Internatio
 - The original `mod2imp` export is preserved at `workspace/exports/isbe-2.2.imp`.
 - **9,380 entries** form the canonical, fully typed **TEI P5 4.12.0** working master at `cleaned/en/ISBE.xml`.
 - The canonical master is the exact source-faithful candidate SHA-256 `a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25`; per-article text, original 185,657 XML IDs, 93,162 Bible references and 5,906 active internal links are proved unchanged by the migration.
+- **31 source-empty entries have been recovered in a separate, non-published 1915 editorial TEI**: 20 substantive articles and 11 redirects, with original printed-page references, source-image digests, source-locked editorial decisions, and a second AI-assisted visual reading. The canonical source-faithful `cleaned/en/ISBE.xml` remains unchanged. See [recovered entries](docs/1915-recovered-entries.md) and [merged PR #42](https://github.com/icfmp/Bible-Resources-ISBE/pull/42).
 - Both pinned official TEI P5 RELAX NG and ISO Schematron validation (120 patterns, 175,075 fired rules, zero violations) passed on serialized XML. Mandatory project-profile checks and negative controls are enforced by CI.
 - `cleaned/en/article-index.json` keeps the original stable source-key, ID and content checksums. Source reconstruction diagnostics and separate schema/parity evidence are in `workspace/reports/`.
-- Modern English and translations **have not been started**. The CrossWire source's rights and correspondence with the historical printed edition remain separate open reviews; TEI validity is not publication authorization.
+- Modern English and translations **have not been started**. The 31 recovered entries have received a documented second **AI-assisted** facsimile reading, **not independent human scholarly peer review**. Full-corpus print comparison, copyright/redistribution clearance and native SWORD/two-reader release testing remain open. TEI validity is not publication authorization.
 - Details: [TEI P5 profile](docs/tei-structure-profile.md), [source-locked migration proof](docs/tei-p5-candidate-migration.md), [issue #3](https://github.com/icfmp/Bible-Resources-ISBE/issues/3).
 
 ## Layout
