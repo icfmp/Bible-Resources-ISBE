@@ -50,7 +50,7 @@ def aggregate(reports, manifest, recovery_map=None):
     statuses = Counter()
     for report in sorted(reports, key=lambda r: r["volume"]):
         vol = report["volume"]
-        if (report.get("schema_version") != 3
+        if (report.get("schema_version") != 4
                 or report.get("print_pdf_sha256") != source[vol]["pdf_sha256"]
                 or report.get("canonical_tei_sha256") != SOURCE_LOCK
                 or report.get("pdf_pages") != source[vol]["pages"]
@@ -90,6 +90,16 @@ def aggregate(reports, manifest, recovery_map=None):
                         raise ValueError("Zero-source article has invalid OCR disposition")
                 elif status not in {"ocr_count_near_source_candidate", "ocr_count_diff_over_10pct_candidate"}:
                     raise ValueError("Nonempty article has invalid OCR comparison disposition")
+            recall = row.get("source_fourgram_recall")
+            precision = row.get("ocr_fourgram_precision")
+            if nocr is None or nsource < 4 or nocr < 4:
+                if recall is not None or precision is not None:
+                    raise ValueError("Cannot claim phrase overlap without two real text spans")
+            elif (not isinstance(recall, (float, int))
+                  or not isinstance(precision, (float, int))
+                  or not 0 <= recall <= 1
+                  or not 0 <= precision <= 1):
+                raise ValueError("Missing normalized lexical overlap evidence")
             vstatus[status] += 1
             statuses[status] += 1
             if nocr is not None:
@@ -131,6 +141,29 @@ def aggregate(reports, manifest, recovery_map=None):
             -abs(r["ocr_latin_tokens"] - r["tei_latin_tokens"]),
             r["article_key"],
         )
+    )
+    # A similar length can hide unrelated text. Neither word counts nor
+    # machine OCR four-gram agreement are publication/certification gates.
+    count_near_low_overlap = sorted(
+        [r for r in rows
+         if (r["status"] == "ocr_count_near_source_candidate"
+             and r["tei_latin_tokens"] >= 100
+             and r["source_fourgram_recall"] is not None
+             and r["source_fourgram_recall"] < 0.25)],
+        key=lambda r: (r["source_fourgram_recall"], -r["tei_latin_tokens"], r["article_key"]),
+    )
+    # High source phrase recovery but much more OCR prose may indicate an
+    # edition difference, a longer printed article, or poor OCR boundaries.
+    ocr_excess_source_present = sorted(
+        [r for r in discrepant
+         if (r["tei_latin_tokens"] >= 100
+             and r["ocr_latin_tokens"] >= 2 * r["tei_latin_tokens"]
+             and r["source_fourgram_recall"] is not None
+             and r["source_fourgram_recall"] >= 0.6)],
+        key=lambda r: (
+            -(r["ocr_latin_tokens"] - r["tei_latin_tokens"]),
+            r["article_key"],
+        ),
     )
     def word_count_band(n):
         if n < 20:
@@ -176,9 +209,11 @@ def aggregate(reports, manifest, recovery_map=None):
             ),
             "status": r["status"],
             "source_print_certified": False,
+            "source_fourgram_recall": r["source_fourgram_recall"],
+            "ocr_fourgram_precision": r["ocr_fourgram_precision"],
         }
     return {
-        "schema_version": 3,
+        "schema_version": 4,
         "source": manifest["bibliographic_citation"],
         "canonical_tei_sha256": SOURCE_LOCK,
         "full_corpus_source_articles": len(keys),
@@ -204,6 +239,14 @@ def aggregate(reports, manifest, recovery_map=None):
         "difference_direction_counts": dict(sorted(discrepancy_directions.items())),
         "discrepancies_by_source_size": dict(sorted(discrepant_by_source_size.items())),
         "substantive_source_difference_candidates_count": len(substantive),
+        "near_word_count_but_low_source_phrase_overlap": len(count_near_low_overlap),
+        "top_30_near_word_count_low_overlap": [
+            brief(r) for r in count_near_low_overlap[:30]
+        ],
+        "large_ocr_excess_with_source_phrase_overlap": len(ocr_excess_source_present),
+        "top_30_ocr_excess_with_source_phrase_overlap": [
+            brief(r) for r in ocr_excess_source_present[:30]
+        ],
         "top_50_substantive_source_abs_differences": [
             brief(r) for r in substantive[:50]
         ],
@@ -248,6 +291,13 @@ def main():
         "substantive_source_difference_candidates": result[
             "substantive_source_difference_candidates_count"
         ],
+        "near_word_count_but_low_source_phrase_overlap": result[
+            "near_word_count_but_low_source_phrase_overlap"
+        ],
+        "large_ocr_excess_with_source_phrase_overlap": result[
+            "large_ocr_excess_with_source_phrase_overlap"
+        ],
+        "top_5_near_count_low_overlap": result["top_30_near_word_count_low_overlap"][:5],
         "top_5_substantive_source_abs_differences": result[
             "top_50_substantive_source_abs_differences"
         ][:5],

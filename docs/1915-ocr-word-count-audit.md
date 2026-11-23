@@ -171,3 +171,68 @@ headword styles, review actual source page images for high-priority
 long-form discrepancies, and compare the independently approved
 editorial TEI against source OCR without replacing the immutable
 source-faithful baseline.
+
+## Content coherence: original TEI vs printed OCR four-token sequences
+
+The follow-up audit retains exactly the same five pinned PDF scan sources,
+conservative article-boundary rules, and **numeric article word counts**.
+It additionally compares **ordered four-word sequences** in the Latin
+tokens of the digital-source article and its purported printed OCR span.
+
+- Source four-gram recall: the proportion of source TEI four-token runs
+  also observed in the OCR article, including repeated runs only as often
+  as they really occur. Low recall is a candidate for transposition, a
+  wrong boundary, or a genuinely different article or source reading.
+- OCR four-gram precision: the proportion of OCR four-token runs also
+  occurring in the source. High source recall with low OCR precision can
+  indicate additional printed prose, but also an OCR boundary that
+  swallowed unrelated material.
+- Both metrics are unavailable for empty or fewer-than-four-token
+  spans. Greek/Hebrew script and punctuation still require direct
+  printed-image collation. OCR hyphenation, column layout and textual
+  conventions can greatly lower scores, including for perfectly
+  faithful source text.
+
+A **near-equal word count with low four-gram recall** is separately
+flagged if the source has at least 100 Latin tokens and source recall
+is below 0.25. Longer OCR spans with at least twice as many words
+and at least 0.60 source four-gram recall form a distinct research
+shortlist. Both thresholds prioritize human review; neither
+justifies an editorial correction or a published text.
+
+Only counts/scores, source keys, article identifiers and source-page
+locations are persisted in Actions reports. Full OCR or article prose
+is **not copied into audit artifacts**. The original CrossWire source
+and separately edited 1915 witness remain unchanged.
+
+### First five-volume lexical-coherence result (2026-11-23)
+
+The SHA-locked [GitHub Actions run 45135114531](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45135114531)
+passed all five volumes and 9,380-entry consolidation, with unchanged
+conservative word-count coverage: 5,857 comparable article spans, 3,523
+unresolved, 1,858 >10% count differences, and 18 source-empty entries
+already included among the 31 separately approved restorations.
+
+The four-token overlap adds two more **human-review queues**:
+
+- **24** substantial source entries (at least 100 Latin words) have OCR
+  word counts within 10% but less than 25% source four-gram recall.
+  Examples in the research report include `MEADOW` (266 vs 242 words;
+  recall 0.0989), `REPAIR` (128 vs 128; recall 0.1440), and `PRESENCE`
+  (165 vs 155; recall 0.1543). A near-equal length plainly does not
+  prove equal text.
+- **9** substantive entries have at least double the number of OCR words
+  but retain at least 60% of the TEI source four-grams. For example,
+  `JOHN THE BAPTIST` has 3,004 TEI Latin tokens vs 15,427 in its
+  **candidate** OCR span, source four-gram recall 0.7251 and OCR precision
+  0.1411. This combination is consistent with the source prose
+  appearing inside an overly long candidate span, but **does not establish
+  whether the printed article is longer or the boundaries were wrong**.
+  Inspect original page images before interpreting the difference.
+
+These lexical checks are fully **read-only**. They do not change the
+CrossWire input, TEI source/paragraph structure or previously approved
+separate historical edition. The two queues overlap the count-based
+queues and must not be added together as distinct confirmed errors.
+They are candidates for reviewing original images and OCR layout, never
+automatic approval for edits or publication.

@@ -47,6 +47,28 @@ def latin_tokens(text):
     return re.findall(r"[a-z0-9]+", ascii_text.lower())
 
 
+def token_fourgram_overlap(source_tokens, ocr_tokens):
+    """Conservative ordered-four-token overlap, NOT text/print certification.
+
+    A four-token run is robust enough to distinguish much common-word
+    coincidence, yet sensitive to OCR errors, hyphenation, textual variants
+    and wrong article boundaries. Source and OCR occurrences are counted
+    with multiplicity; neither witness is rewritten.
+    """
+    if len(source_tokens) < 4 or len(ocr_tokens) < 4:
+        return None, None
+    source = Counter(
+        tuple(source_tokens[i:i+4]) for i in range(len(source_tokens)-3)
+    )
+    observed = Counter(
+        tuple(ocr_tokens[i:i+4]) for i in range(len(ocr_tokens)-3)
+    )
+    common = sum((source & observed).values())
+    source_recall = round(common / (len(source_tokens)-3), 4)
+    ocr_precision = round(common / (len(ocr_tokens)-3), 4)
+    return source_recall, ocr_precision
+
+
 def tei_entries(path, volume, manifest):
     if digest(path) != LOCK or manifest.get("canonical_tei_sha256") != LOCK:
         raise ValueError("Canonical TEI source SHA-256 drift")
@@ -69,12 +91,15 @@ def tei_entries(path, volume, manifest):
             " ".join(child.itertext()) for child in article
             if not (child.tag == TEI + "head" and child.get("type") == "index")
         )
+        source_tokens = latin_tokens(text)
         entries.append({
             "key": key, "article_xml_id": article.get(ID),
-            "tei_latin_tokens": len(latin_tokens(text)),
+            "tei_latin_tokens": len(source_tokens),
             # Nonauthorial source-key display never appears in this sample.
             # Used only to disambiguate a duplicated OCR heading candidate.
-            "opening_latin_tokens": latin_tokens(text)[:16],
+            "opening_latin_tokens": source_tokens[:16],
+            # Transient internal evidence; NEVER serialized to JSON reports.
+            "source_latin_tokens": source_tokens,
         })
     if not entries:
         raise ValueError("No TEI entries for original historical print volume")
@@ -341,6 +366,8 @@ def assess(lines, entries, accepted):
             "ocr_start_pdf_page": None,
             "ocr_end_pdf_page": None,
             "ocr_to_tei_ratio": None,
+            "source_fourgram_recall": None,
+            "ocr_fourgram_precision": None,
             "status": "unresolved_print_boundaries",
             "visually_verified": False,
             "full_print_text_certified": False,
@@ -350,13 +377,23 @@ def assess(lines, entries, accepted):
         # Count only between *consecutive* article headings in TEI order,
         # which forbids absorbing an unlocated intervening article.
         if start is not None and stop is not None and stop > start:
-            total = sum(len(latin_tokens(line["text"]))
-                        for line in lines[start:stop])
+            span_tokens = []
+            for line in lines[start:stop]:
+                span_tokens.extend(latin_tokens(line["text"]))
             heading_tokens = len(latin_tokens(entry["key"]))
-            ocr_count = max(0, total - heading_tokens)
+            # Match the original v1 word-count rule exactly: subtract the
+            # synthetic source headword token count, without pretending the
+            # OCR headword typography is fully proved.
+            ocr_body_tokens = span_tokens[heading_tokens:]
+            ocr_count = len(ocr_body_tokens)
             tei_count = row["tei_latin_tokens"]
+            source_recall, ocr_precision = token_fourgram_overlap(
+                entry.get("source_latin_tokens", []), ocr_body_tokens
+            )
             row.update({
                 "ocr_latin_tokens": ocr_count,
+                "source_fourgram_recall": source_recall,
+                "ocr_fourgram_precision": ocr_precision,
                 "ocr_start_pdf_page": lines[start]["page"],
                 "ocr_end_pdf_page": lines[stop]["page"],
                 "ocr_to_tei_ratio": round(ocr_count / tei_count, 4) if tei_count else None,
@@ -383,12 +420,13 @@ def compare_bbox(bbox_file, pdf_sha, source_sha, volume, manifest, entries):
     accepted, alignment = unique_print_headings(lines, entries)
     reports, statuses = assess(lines, entries, accepted)
     return {
-        "schema_version": 3,
+        "schema_version": 4,
         "volume": volume,
         "print_pdf_sha256": pdf_sha,
         "canonical_tei_sha256": source_sha,
         "pdf_pages": witness[0]["pages"],
         "ocr_latin_token_definition": "NFKD decomposition then ASCII [a-z0-9]+; non-Latin characters, punctuation and typography are not compared",
+        "lexical_comparison": "ordered 4-token multiset overlap: source recall and OCR precision; generated for candidate segmentation only, never proof of print fidelity",
         "extraction": "single pdftotext -bbox-layout pass over entire SHA-locked original volume",
         "alignment": "v1 unique uppercase monotonic anchors + strongly bracketed repeated headings + weak exact titles supported by three ordered source-opening tokens within strong anchor brackets; adjacent TEI article pairs only",
         "source": manifest["bibliographic_citation"],

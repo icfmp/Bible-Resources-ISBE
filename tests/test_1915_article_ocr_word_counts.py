@@ -10,7 +10,7 @@ import unittest
 import xml.etree.ElementTree as ET
 
 from scripts.audit_1915_article_ocr_word_counts import (
-    assess, bbox_lines, compare_bbox, latin_tokens, unique_print_headings,
+    assess, bbox_lines, compare_bbox, latin_tokens, token_fourgram_overlap, unique_print_headings,
 )
 
 
@@ -226,6 +226,31 @@ class OriginalPrintedWordCountTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 compare_bbox(path, "b"*64, "c"*64, "1", manifest,
                              entries(("AARON", 3), ("AARON'S ROD", 2)))
+
+    def test_fourgram_overlap_is_conservative_and_distinguishes_excess(self):
+        source = ["the", "ancient", "city", "had", "great", "walls"]
+        print_ocr = source + ["other", "additional", "printed", "words"]
+        recall, precision = token_fourgram_overlap(source, print_ocr)
+        self.assertEqual(recall, 1)
+        self.assertLess(precision, 1)
+        self.assertEqual(token_fourgram_overlap(source, [
+            "unrelated", "vocabulary", "appears", "here", "instead", "now"
+        ]), (0, 0))
+
+    def test_fourgram_overlap_never_certifies_very_short_sources(self):
+        self.assertEqual(token_fourgram_overlap(
+            ["one", "two", "three"], ["one", "two", "three", "four"]
+        ), (None, None))
+
+    def test_counted_spans_get_fourgram_evidence_without_text_leakage(self):
+        lines = self.get_lines(page_xml(example()))
+        a = entries(("AARON", 3), ("AARON'S ROD", 5),
+                    ("ABASE", 3), ("ABBOT", 2))
+        a[1]["source_latin_tokens"] = ["four", "five", "other", "source", "words"]
+        accepted, _ = unique_print_headings(lines, a)
+        rows, _ = assess(lines, a, accepted)
+        self.assertEqual(rows[1]["source_fourgram_recall"], None) # only two printed body tokens
+        self.assertNotIn("source_latin_tokens", rows[1])
 
     def test_normalization_is_not_nonlatin_text_certification(self):
         self.assertEqual(latin_tokens("שָׁלוֹם (shalom); Jésus – 42"),

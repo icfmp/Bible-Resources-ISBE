@@ -25,6 +25,8 @@ def sample():
                 "ocr_end_pdf_page": None,
                 "ocr_to_tei_ratio": None,
                 "status": "unresolved_print_boundaries",
+                "source_fourgram_recall": None,
+                "ocr_fourgram_precision": None,
                 "visually_verified": False,
                 "full_print_text_certified": False,
             })
@@ -34,9 +36,10 @@ def sample():
             ocr_latin_tokens=104, ocr_start_pdf_page=1,
             ocr_end_pdf_page=1, ocr_to_tei_ratio=1.04,
             status="ocr_count_near_source_candidate",
+            source_fourgram_recall=0.8, ocr_fourgram_precision=0.8,
         )
         reports.append({
-            "schema_version": 3, "volume": vol, "print_pdf_sha256": sha,
+            "schema_version": 4, "volume": vol, "print_pdf_sha256": sha,
             "canonical_tei_sha256": SOURCE_LOCK,
             "pdf_pages": 700, "publication_permitted": False,
             "ocr_not_original_print_certification": True,
@@ -97,6 +100,22 @@ class OCRAggregateSafetyTests(unittest.TestCase):
         self.assertEqual(result["unresolved_ocr_article_boundaries"], 9375)
         self.assertTrue(result["ocr_only_not_print_certified"])
         self.assertFalse(result["publication_permitted"])
+
+    def test_similar_counts_with_low_phrase_overlap_are_flagged_not_certified(self):
+        reports, manifest = sample()
+        reports[0]["entries"][0]["source_fourgram_recall"] = 0.1
+        result = self.run_synthetic(reports, manifest)
+        self.assertEqual(result["near_word_count_but_low_source_phrase_overlap"], 1)
+        self.assertFalse(result["top_30_near_word_count_low_overlap"][0]["source_print_certified"])
+
+    def test_missing_or_impossible_lexical_evidence_is_rejected(self):
+        reports, manifest = sample()
+        reports[0]["entries"][0]["source_fourgram_recall"] = None
+        with self.assertRaises(ValueError):
+            self.run_synthetic(reports, manifest)
+        reports[0]["entries"][0]["source_fourgram_recall"] = 1.5
+        with self.assertRaises(ValueError):
+            self.run_synthetic(reports, manifest)
 
     def test_substantive_differences_are_ranked_separately_from_short_entries(self):
         reports, manifest = sample()
