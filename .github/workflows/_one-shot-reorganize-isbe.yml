@@ -1,0 +1,66 @@
+name: One-time lossless ISBE source tree consolidation
+
+on:
+  push:
+    branches:
+      - refactor/consolidate-source-tree-and-modules
+    paths:
+      - '.github/workflows/_one-shot-reorganize-isbe.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate-test-and-commit:
+    if: github.ref == 'refs/heads/refactor/consolidate-source-tree-and-modules'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Source hash checked lossless directory consolidation
+        run: |
+          set -euo pipefail
+          python3 scripts/_one_shot_reorganize.py
+      - name: Full Python regression suite after source path relocation
+        run: python3 -m unittest discover -s tests -v
+      - name: Verify original ZIP and restored historical TEI source bytes
+        run: python3 scripts/persist_1915_cleaned_master.py --verify-only
+      - name: Recheck pinned TEI P5 source structure against committed inventory
+        run: |
+          python3 scripts/audit_tei_structure.py workspace/witnesses/crosswire-2.2/ISBE.xml \
+            --report /tmp/isbe-tei-structure.json --expected-entries 9380 \
+            --strict-profile --reject-active-broken-links --reject-non-tei-namespace
+          cmp /tmp/isbe-tei-structure.json workspace/reports/tei-structure-inventory.json
+      - name: Install official TEI P5 validation dependencies
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq jing
+      - name: Reproduce all cleaned historical corrections byte-for-byte
+        run: |
+          set -euo pipefail
+          python3 scripts/persist_1915_cleaned_master.py --assemble
+          python3 scripts/persist_1915_cleaned_master.py --verify-only
+      - name: Commit only final maintained directories; discard one-shot tooling
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm scripts/_one_shot_reorganize.py .github/workflows/_one-shot-reorganize-isbe.yml
+          git add -A
+          git diff --cached --stat
+          git diff --cached --check
+          test ! -e cleaned
+          test ! -e modern
+          test ! -e translations
+          test ! -e sources/crosswire
+          test ! -e sources/print
+          test -f modules/isbe-1915/metadata.json
+          test ! -d modules/isbe-1915/payload
+          test -f workspace/witnesses/crosswire-2.2/ISBE.xml
+          test -f sources/original/encyclopedias/en/isbe-crosswire-2.2/ISBE.zip
+          test -f sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Consolidate ISBE original, corrected, witness and module trees without changing text"
+          git push origin HEAD:refactor/consolidate-source-tree-and-modules
