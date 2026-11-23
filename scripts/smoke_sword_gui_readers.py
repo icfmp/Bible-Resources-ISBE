@@ -163,6 +163,9 @@ def test_reader(reader,outdir,lookup_key):
             command(["xdotool","windowsize",window,"1200","760"],timeout=10)
             command(["xdotool","windowmove",window,"0","0"],timeout=10)
             time.sleep(2)
+            # xdotool geometry reports the client origin (below decorations);
+            # document the actual origin for repeatable click diagnostics.
+            result["window_client_origin"]=list(window_origin(window))
             if name=="xiphos":
                 # A locale information popup can consume the first dictionary
                 # lookup keypress; dismiss it before Alt+D is sent.
@@ -193,7 +196,7 @@ def test_reader(reader,outdir,lookup_key):
                 # human review, not proof that a key displayed correctly.
                 # Focus the visible dictionary lookup field; Alt+D alone
                 # may target a different pane on a fresh Xiphos profile.
-                click_at(window,820,460)
+                click_at(window,820,440)
                 command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
                 command(["xdotool","type","--clearmodifiers","--delay","80",lookup_key],timeout=10)
                 command(["xdotool","key","Return"],timeout=10)
@@ -210,15 +213,15 @@ def test_reader(reader,outdir,lookup_key):
                 # Exercise each visible bookshelf level before opening a
                 # dictionary. Use *window-relative* GUI coordinates on this
                 # fixed Xvfb fixture rather than absolute screen pixels.
-                click_at(window,10,139)   # expand Lexicons via disclosure arrow
+                click_at(window,10,119)   # expand Lexicons via disclosure arrow
                 time.sleep(1)
-                click_at(window,30,158)   # expand English via disclosure arrow
+                click_at(window,30,138)   # expand English via disclosure arrow
                 time.sleep(1)
                 expanded=outdir/"bibletime-lexicons-expanded.png"
                 pic=command(["scrot",str(expanded)],timeout=15)
                 if pic.returncode==0 and expanded.stat().st_size>1000:
                     result["screenshots"].append(expanded.name)
-                click_at(window,115,177,double=True)   # module name
+                click_at(window,115,157,double=True)   # module name
                 time.sleep(3)
                 opened=outdir/"bibletime-article-attempt.png"
                 pic=command(["scrot",str(opened)],timeout=15)
