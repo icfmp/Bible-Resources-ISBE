@@ -1,0 +1,65 @@
+name: Internal 1915 OCR anomaly image research (NOT for publication)
+
+on:
+  push:
+    paths:
+      - 'scripts/export_1915_ocr_review_images.py'
+      - 'tests/test_export_1915_ocr_review_images.py'
+      - '.github/workflows/research-1915-ocr-review-pages.yml'
+  pull_request:
+    paths:
+      - 'scripts/export_1915_ocr_review_images.py'
+      - 'tests/test_export_1915_ocr_review_images.py'
+      - '.github/workflows/research-1915-ocr-review-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-source-image-research-code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check source/page provenance and fail-closed cases
+        run: |
+          python3 -m unittest discover -s tests -p 'test_export_1915_ocr_review_images.py' -v
+
+  research-original-1915-page-images:
+    needs: validate-source-image-research-code
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        volume: ['1', '2', '3', '4', '5']
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install trusted PDF text/image readers
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Fetch one exact original 1915 source PDF per volume
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 --retry-all-errors \
+            --connect-timeout 20 --max-time 500 \
+            "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
+            -o "/tmp/isbe-print-vol-${{ matrix.volume }}.pdf"
+      - name: Reproduce all source-locked 1915 OCR anomalies without text edits
+        run: |
+          python3 -m scripts.audit_1915_article_ocr_word_counts \
+            --volume "${{ matrix.volume }}" --pdf "/tmp/isbe-print-vol-${{ matrix.volume }}.pdf" \
+            --report "workspace/tmp/research-1915-ocr-vol-${{ matrix.volume }}.json"
+      - name: Render only source-locked anomaly and next-heading pages
+        run: |
+          python3 -m scripts.export_1915_ocr_review_images \
+            --pdf "/tmp/isbe-print-vol-${{ matrix.volume }}.pdf" \
+            --ocr-report "workspace/tmp/research-1915-ocr-vol-${{ matrix.volume }}.json" \
+            --output-dir "workspace/tmp/source-page-research/volume-${{ matrix.volume }}"
+      - name: Retain source page previews briefly for INTERNAL research, not release
+        uses: actions/upload-artifact@v4
+        with:
+          name: isbe-1915-ocr-source-pages-vol-${{ matrix.volume }}-RESEARCH-NOT-PUBLICATION
+          path: workspace/tmp/source-page-research/volume-${{ matrix.volume }}/
+          if-no-files-found: error
+          retention-days: 3
