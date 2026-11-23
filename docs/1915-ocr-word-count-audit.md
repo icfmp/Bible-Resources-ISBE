@@ -510,3 +510,43 @@ expanded wording should replace the printed edition. No canonical TEI
 data, individual historical reading, editorial delta, publication
 state or rights status is changed. Full source-image prose collation
 remains required to close any of the 24 cases.
+
+## Three actual original-page printed-abbreviation image observations
+
+The [source-locked internal print-image workflow
+45139297142](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45139297142)
+preserves short-lived research previews of five 1915 printed volumes.
+Three specific original pages have now been inspected *visually* and
+compared with the unmodified canonical TEI's expanded phrases:
+
+| Article | Original volume / PDF page / printed folio | Directly visible printed abbreviations |
+| --- | --- | --- |
+| ABIDE | I / 33 / 9 | OE, OT, AV, Heb, NT, Gr, RV, RVm |
+| MEADOW | III / 657 / 2013 | AV, RV, RVm |
+| REPAIR | IV / 474 / 2558 | AV, AVm, RV |
+
+The corresponding canonical CrossWire TEI contains expanded forms
+including *Old English*, *Old/New Testament*, *King James Version*,
+*Revised Version*, and the English names of the original languages.
+This is **direct printed-page evidence of an editorial representation
+difference**, not just a word-count heuristic. The differences are
+not wholesale OCR omissions and do not themselves justify replacing
+the canonical source wording.
+
+The versioned, review-only
+`workspace/reviews/1915-print-abbreviation-image-observations-v1.json`
+records the exact original article XML IDs, five-volume source PDF
+SHA-256 and research JPEG SHA-256, original printed folios, observed
+printed abbreviations, and source-digital expansion examples. The
+corresponding validator checks original source IDs, each source
+expansion's presence in the SHA-pinned 9,380-entry TEI, genuine
+volume identity and non-publication flags.
+
+**These three image reviews are limited to entry boundaries and
+abbreviations.** They do not certify every original word, Hebrew,
+Greek, textual variant, footnote, or typography in any of these
+articles. They also do **not** close the remaining 24 low-four-gram
+candidates, alter any original or cleaned TEI, modify historical
+research images, authorize new editorial deltas, or clear
+redistribution rights. Other, nonstandard printed abbreviations remain
+outside the narrow optional diagnostic mapping.
