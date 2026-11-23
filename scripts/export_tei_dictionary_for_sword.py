@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Adapt a locked TEI P5 encyclopedia to the official SWORD dictionary format.
+"""Adapt source-locked TEI P5 entries and references to SWORD dictionaries.
 
 The source master stays unchanged. Entry wrapper div elements are converted to
-entryFree, with the same source n key, original ids and all child nodes.
-Nested sections are retained and explicitly flagged for compatibility review.
+entryFree; article and section links gain explicit SWORD self:key targets,
+while the exact source target remains in corresp. Bible cRef is retained and
+exposed via native osisRef. All these adapter-only changes are reported;
+nested sections are retained for independent reader compatibility review.
 """
 import argparse
 import copy
@@ -68,14 +70,50 @@ def convert(source,outpath,reportpath,expected_sha,expected_count):
     output.append(copy.deepcopy(header))
     text=ET.SubElement(output,NS+"text")
     body=ET.SubElement(text,NS+"body")
+    # Native SWORD self-links address ENTRY KEYS, not source TEI xml:id values.
+    # Resolve every existing target against the complete source ID inventory,
+    # preserve its exact original selector as TEI @corresp, and explicitly
+    # record the lost intra-article scroll precision for editorial review.
+    id_to_key={}
+    for entry in entries:
+        for node in entry.iter():
+            identifier=node.get(f"{{{XML}}}id")
+            if identifier:
+                if identifier in id_to_key:
+                    raise ValueError("Duplicate source element XML id")
+                id_to_key[identifier]=entry.get("n")
+    retargeted=0
+    section_links=0
+    scripture_exposed=0
     for entry in entries:
         item=copy.deepcopy(entry)
         item.tag=NS+"entryFree"
         del item.attrib["type"]
         # Each entry becomes a standalone SWORD raw payload after tei2mod.
-        # Redeclare the inherited P5 namespace locally to keep that native
-        # fragment semantically identical to its source TEI parent tree.
+        # Retain its inherited TEI P5 namespace within the native fragment.
         item.attrib["xmlns"]=TEI
+        for ref in item.iter(NS+"ref"):
+            target=ref.get("target")
+            if target and target.startswith("#"):
+                if ref.get("corresp"):
+                    raise ValueError("Cannot overwrite original TEI ref corresp")
+                original_id=target[1:]
+                if original_id not in id_to_key:
+                    raise ValueError("Unresolved article or section source target")
+                key=id_to_key[original_id]
+                ref.set("corresp",target)
+                ref.set("target","self:"+key)
+                retargeted+=1
+                if ref.get("type")=="section":
+                    section_links+=1
+            cref=ref.get("cRef")
+            if cref:
+                if ref.get("osisRef"):
+                    raise ValueError("Cannot overwrite original native Bible reference")
+                # The original Bible: OSIS address remains byte-for-byte in
+                # @cRef; @osisRef makes the link available to SWORD TEI UI.
+                ref.set("osisRef",cref)
+                scripture_exposed+=1
         body.append(item)
     outpath.parent.mkdir(parents=True,exist_ok=True)
     ET.ElementTree(output).write(outpath,encoding="utf-8",xml_declaration=True)
@@ -90,6 +128,9 @@ def convert(source,outpath,reportpath,expected_sha,expected_count):
             raise ValueError("Source article text changed by TEI adapter")
         if len(original)!=len(mapped):
             raise ValueError("Source article child nodes were dropped")
+    if retargeted!=sum(1 for entry in entries for ref in entry.iter(NS+"ref")
+                       if (ref.get("target") or "").startswith("#")):
+        raise ValueError("Unconverted native SWORD internal reference")
     report={
       "schema_version":1,"status":"TEI_dictionary_import_input_not_native_approved",
       "source_path":str(source),"source_sha256":digest(source),
@@ -98,6 +139,10 @@ def convert(source,outpath,reportpath,expected_sha,expected_count):
       "article_ids_preserved":True,"entry_visible_text_preserved":True,
       "original_child_elements_preserved":True,
       "nested_divisions_preserved_unadapted":nested,
+      "internal_references_retargeted_to_source_key":retargeted,
+      "original_xml_reference_anchors_preserved_in_corresp":True,
+      "section_links_with_reduced_native_scroll_precision":section_links,
+      "scripture_references_exposed_via_osisRef":scripture_exposed,
       "source_markup_links_require_reader_audit":True,
       "rights_cleared":False,"publication_permitted":False,
       "entries":details
