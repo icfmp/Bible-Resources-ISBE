@@ -127,7 +127,12 @@ def main():
     replacement='root / "workspace" / "witnesses" / "print" / "1915-volume-witnesses.json"'
     if current.count(previous)!=1:
         raise RuntimeError("Expected exact old print-metadata composed path once")
-    special.write_text(current.replace(previous,replacement),encoding="utf-8")
+    old_xml='root / "cleaned" / "en" / "ISBE.xml"'
+    new_xml='root / "workspace" / "witnesses" / "crosswire-2.2" / "ISBE.xml"'
+    if current.count(old_xml)!=1:
+        raise RuntimeError("Expected composed original TEI path exactly once")
+    special.write_text(current.replace(previous,replacement).replace(old_xml,new_xml),
+                       encoding="utf-8")
 
     test=ROOT/"tests/test_persist_1915_cleaned_master.py"
     content=test.read_text(encoding="utf-8")
