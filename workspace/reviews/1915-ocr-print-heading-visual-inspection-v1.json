@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "source": "James Orr (ed.), The International Standard Bible Encyclopaedia (Howard-Severance, 1915)",
+  "original_canonical_tei_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "review_scope": "Headword boundaries and printed article order only; not wording, source completeness, textual fidelity, rights or publication",
+  "evidence_workflow": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45139297142",
+  "render_command": "pdftoppm -singlefile -jpeg -scale-to 2200 -jpegopt quality=82 (source PDF/page independently SHA-pinned)",
+  "printed_page_images_visually_inspected": true,
+  "full_article_text_collation_performed": false,
+  "redistribution_authorized": false,
+  "original_crosswire_and_canonical_tei_changed": false,
+  "records": [
+    {
+      "source_key": "JOHN THE BAPTIST",
+      "source_article_xml_id": "isbe-ecb0c34513aa22a21a85",
+      "volume": "3",
+      "classification": "visually_confirmed_intervening_print_article",
+      "initial_candidate_pdf_page": 346,
+      "incorrect_digital_next_heading_pdf_page": 358,
+      "intervening_source_key": "JOHN, THE EPISTLES OF",
+      "intervening_source_article_xml_id": "isbe-0fa404f51a015bcf23da",
+      "observed_boundary": "Original print article JOHN THE BAPTIST ends in the left column of PDF page 349 (printed 1711), followed immediately by JOHN, THE EPISTLES OF. The source-index next key JOHN, GOSPEL OF starts at PDF page 358 (printed 1720). Source-order interval swallowed independently titled printed material.",
+      "pages": [
+        {
+          "pdf_page_1_based": 346,
+          "printed_folio": 1708,
+          "image_sha256": "471f0c6ae6f69166c03e4a0db6252186c40e33805af245b99fbd2b87269c9e69"
+        },
+        {
+          "pdf_page_1_based": 349,
+          "printed_folio": 1711,
+          "image_sha256": "6ef9b75528ec16538812d6d6e7b92427d688f60a6f1dd479471a0e1c15b9e361"
+        },
+        {
+          "pdf_page_1_based": 358,
+          "printed_folio": 1720,
+          "image_sha256": "820affce9f3a2490dad1e02b74dcffa7ec112861a7c2cbbc1c99ed03d7dffc4c"
+        }
+      ],
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "JOSEPH BARSABBAS",
+      "source_article_xml_id": "isbe-6ff089f5a7ba6c943e15",
+      "volume": "3",
+      "classification": "visually_confirmed_intervening_print_article",
+      "initial_candidate_pdf_page": 380,
+      "incorrect_digital_next_heading_pdf_page": 381,
+      "intervening_source_key": "JOSEPH, HUSBAND OF MARY",
+      "intervening_source_article_xml_id": "isbe-251624d91a077b8f41ec",
+      "observed_boundary": "Original print entry JOSEPH BARSABBAS begins near the foot of left column PDF 380 (printed 1740), continues at top right column, and concludes before the original heading JOSEPH, HUSBAND OF MARY on the same page. The digital-index next key is JOSEPH OF ARIMATHAEA on later printed text.",
+      "pages": [
+        {
+          "pdf_page_1_based": 380,
+          "printed_folio": 1740,
+          "image_sha256": "02cbed42e3e7d65ff13ebeb5fe8d29e7649e9a491de6af33d045b526cd2038f7"
+        },
+        {
+          "pdf_page_1_based": 381,
+          "printed_folio": 1741,
+          "image_sha256": "8df61308ec39928070b302f70dfd1d3829d4fb94408e5f4fc476bcd41ee32700"
+        }
+      ],
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "PHARAOH HOPHRA",
+      "source_article_xml_id": "isbe-528196a179635be55e22",
+      "volume": "4",
+      "classification": "visually_confirmed_intervening_print_article",
+      "initial_candidate_pdf_page": 271,
+      "incorrect_digital_next_heading_pdf_page": 272,
+      "intervening_source_key": "PHARAOH-NECOH",
+      "intervening_source_article_xml_id": "isbe-410a765975d728eb271f",
+      "observed_boundary": "Original print entry PHARAOH HOPHRA ends in left column PDF 272 (printed 2360), followed by PHARAOH-NECOH. The key-sorted digital next key PHARAOH'S DAUGHTER appears later, in right column PDF 272; this source-order count included another article.",
+      "pages": [
+        {
+          "pdf_page_1_based": 271,
+          "printed_folio": 2359,
+          "image_sha256": "07dff4049dab01eb14be1e40c3eb835fafea1469b44652e080b78c4c0003b230"
+        },
+        {
+          "pdf_page_1_based": 272,
+          "printed_folio": 2360,
+          "image_sha256": "029487434c32a171bee8d81ec2553c7df91c8f846f8b055cf2d50abc4363730a"
+        }
+      ],
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "MEADOW",
+      "source_article_xml_id": "isbe-185f20346f14005e6f24",
+      "volume": "3",
+      "classification": "visually_checked_heading_boundary_no_intervening_print_article_seen",
+      "initial_candidate_pdf_page": 657,
+      "incorrect_digital_next_heading_pdf_page": null,
+      "intervening_source_key": null,
+      "intervening_source_article_xml_id": null,
+      "observed_boundary": "Printed entry MEADOW and the immediately following MEAH are visibly distinct in the left column of PDF page 657 (printed 2013). Low 4-gram agreement is not explained by a visibly swallowed next entry; original wording not fully collated.",
+      "pages": [
+        {
+          "pdf_page_1_based": 657,
+          "printed_folio": 2013,
+          "image_sha256": "c82c31e7f6f3788eb886b12b9e7bf390267aafcc3ecb407e725490a7ed394deb"
+        }
+      ],
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "REPAIR",
+      "source_article_xml_id": "isbe-d90b7f3c18342b7511bf",
+      "volume": "4",
+      "classification": "visually_checked_heading_boundary_no_intervening_print_article_seen",
+      "initial_candidate_pdf_page": 474,
+      "incorrect_digital_next_heading_pdf_page": null,
+      "intervening_source_key": null,
+      "intervening_source_article_xml_id": null,
+      "observed_boundary": "Original printed article REPAIR and following REPENTANCE visibly have separate headings on PDF page 474 (printed 2558). Same approximate token count does not by itself establish word-for-word fidelity.",
+      "pages": [
+        {
+          "pdf_page_1_based": 474,
+          "printed_folio": 2558,
+          "image_sha256": "453524e91248a202ad3cfade5675363ff15d2f87342c134301b1c55a9fc77f5c"
+        }
+      ],
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    }
+  ]
+}
