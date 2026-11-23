@@ -56,11 +56,11 @@ def dismiss_dialog(pattern,key="Escape"):
 
 def dismiss_tip_of_day():
     """BibleTime may show a separate Tip of the Day after its Welcome screen."""
-    if not named_window("Tip of the Day"):
+    if not named_window("Tip [Oo]f [Tt]he Day"):
         return False
-    if dismiss_dialog("Tip of the Day"):
+    if dismiss_dialog("Tip [Oo]f [Tt]he Day"):
         return True
-    modal=named_window("Tip of the Day")
+    modal=named_window("Tip [Oo]f [Tt]he Day")
     if not modal:
         return True
     # The standard Qt tip dialog has a "Close" control at bottom right.
@@ -79,7 +79,7 @@ def dismiss_tip_of_day():
     if click.returncode or command(["xdotool","click","1"],timeout=10).returncode:
         return False
     time.sleep(1)
-    return not bool(named_window("Tip of the Day"))
+    return not bool(named_window("Tip [Oo]f [Tt]he Day"))
 
 def test_reader(reader,outdir,lookup_key):
     name=reader["name"]
@@ -161,7 +161,7 @@ def test_reader(reader,outdir,lookup_key):
             else:
                 result["blocking_first_run_dialog"]=bool(
                     named_window("Welcome to BibleTime") or
-                    named_window("Tip of the Day")
+                    named_window("Tip [Oo]f [Tt]he Day")
                 )
             return result
         finally:
