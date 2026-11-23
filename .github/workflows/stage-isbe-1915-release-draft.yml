@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     env:
-      GH_TOKEN: \${{ secrets.GITHUB_TOKEN }}
-      GH_REPO: \${{ github.repository }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
       TAG: isbe-1915-v0.1.0-rc.1
       SOURCE_COMMIT: 0853bc904acc24de50fb49ab75a32a5b2bb3c339
     steps:
