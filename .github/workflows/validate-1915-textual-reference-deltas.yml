@@ -1,0 +1,83 @@
+name: Validate original-1915 textual reference deltas in separate TEI
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/apply_1915_reference_text_deltas.py'
+      - 'tests/test_apply_1915_reference_text_deltas.py'
+      - 'workspace/reviews/1915-approved-reference-text-deltas-v1.json'
+      - 'workspace/reviews/1915-scripture-reference-image-triage-v1.json'
+      - '.github/workflows/validate-1915-textual-reference-deltas.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  corrected-reference-prose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Regression tests and negative source-evidence controls
+        run: python3 -m unittest discover -s tests -p 'test_apply_1915_scripture_targets.py' -v
+      - name: Test precise printed reference text and target repairs
+        run: python3 -m unittest discover -s tests -p 'test_apply_1915_reference_text_deltas.py' -v
+      - name: Rebuild approved 31 article restorations into separate witness
+        run: |
+          python3 scripts/finalize_1915_recovery.py \
+            --output workspace/tmp/ISBE-1915-approved-base.xml \
+            --report workspace/tmp/ISBE-1915-approved-base-report.json \
+            --validator-manifest workspace/tmp/ISBE-1915-base-validator.json \
+            --fidelity-report workspace/tmp/ISBE-1915-base-fidelity.json
+      - name: Rebuild previously approved six historical print deltas
+        run: |
+          python3 scripts/apply_1915_print_deltas.py \
+            --source cleaned/en/ISBE.xml \
+            --baseline workspace/tmp/ISBE-1915-approved-base.xml \
+            --baseline-report workspace/tmp/ISBE-1915-approved-base-report.json \
+            --baseline-manifest workspace/tmp/ISBE-1915-base-validator.json \
+            --ledger workspace/reviews/1915-approved-print-deltas-v1.json \
+            --output workspace/tmp/ISBE-1915-previous-editorial.xml \
+            --report workspace/tmp/ISBE-1915-previous-report.json \
+            --derived-manifest workspace/tmp/ISBE-1915-previous-validator.json \
+            --fidelity workspace/tmp/ISBE-1915-previous-fidelity.json
+      - name: Apply twelve exact-target, verified-image corrections only
+        run: |
+          python3 -m scripts.apply_1915_scripture_targets \
+            --baseline workspace/tmp/ISBE-1915-previous-editorial.xml \
+            --previous-report workspace/tmp/ISBE-1915-previous-report.json \
+            --previous-validator workspace/tmp/ISBE-1915-previous-validator.json \
+            --output workspace/tmp/ISBE-1915-target-corrected-NONPUBLISHABLE.xml \
+            --report workspace/tmp/ISBE-1915-target-corrections.json \
+            --derived-validator workspace/tmp/ISBE-1915-target-validator.json \
+            --derived-fidelity workspace/tmp/ISBE-1915-target-fidelity.json
+      - name: Apply source-image-verified continuation text and target delta separately
+        run: |
+          python3 -m scripts.apply_1915_reference_text_deltas \
+            --baseline workspace/tmp/ISBE-1915-target-corrected-NONPUBLISHABLE.xml \
+            --previous-report workspace/tmp/ISBE-1915-target-corrections.json \
+            --previous-validator workspace/tmp/ISBE-1915-target-validator.json \
+            --output workspace/tmp/ISBE-1915-reference-text-corrected-NONPUBLISHABLE.xml \
+            --report workspace/tmp/ISBE-1915-reference-text-deltas.json \
+            --derived-validator workspace/tmp/ISBE-1915-reference-text-validator.json \
+            --derived-fidelity workspace/tmp/ISBE-1915-reference-text-fidelity.json
+      - name: Install official TEI P5 validator dependency
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq jing
+      - name: Independently validate final text-and-target corrected TEI P5
+        run: |
+          python3 scripts/validate_official_tei_p5.py \
+            --candidate workspace/tmp/ISBE-1915-reference-text-corrected-NONPUBLISHABLE.xml \
+            --source-report workspace/tmp/ISBE-1915-reference-text-fidelity.json \
+            --manifest workspace/tmp/ISBE-1915-reference-text-validator.json \
+            --output workspace/tmp/ISBE-1915-reference-text-official-validation.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ISBE-1915-textual-reference-corrected-NOT-FOR-PUBLICATION
+          path: |
+            workspace/tmp/ISBE-1915-reference-text-corrected-NONPUBLISHABLE.xml
+            workspace/tmp/ISBE-1915-reference-text-deltas.json
+            workspace/tmp/ISBE-1915-reference-text-fidelity.json
+            workspace/tmp/ISBE-1915-reference-text-official-validation.json
+          if-no-files-found: warn
