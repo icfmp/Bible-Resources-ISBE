@@ -361,3 +361,99 @@ compares the limited heading observations against the canonical
 9,380-key index, the historical volume PDF SHA-256 manifest, the
 rendered image SHA-256 and source page/folio metadata, and explicitly
 rejects textual-correction, print-content and publication claims.
+
+## Print-alias typography and midpage alphabetic sections (2026-11-23)
+
+A further direct review of original 1915 printed images found that several
+remaining high-ratio OCR comparisons were **not evidence of source omissions**.
+
+Historical printed titles often present both a capitalized headword and
+its pronunciation on one line, or multiple capitalized synonyms
+interspersed with separate pronunciations. CrossWire stores some of these
+as **semicolon-separated source keys**. For example, the original print
+has independent headings for `ANTICHRIST`, `COCKATRICE`,
+`CHILD; CHILDREN`, `FAITHFUL; FAITHFULNESS`, and
+`OBEDIENCE; OBEY`. The previous guard recognized some
+multiword headings but missed these single-word and interrupted compound
+headwords.
+
+The generic recognizer now accepts strongly typographic, uppercase,
+punctuation-delimited single-word headings and a semicolon-separated
+source key **only if each separately named printed component is itself
+uppercase and on the same OCR line**. Uncertain, multiple and ordinary
+prose occurrences remain untrusted. A recognized title inside two
+digitally neighboring article heads continues to **quarantine** the
+candidate word count, rather than silently redrawing the article boundary.
+
+### Independent two-column layout finding
+
+On original volume V, PDF page 240 (printed folio 3044), the letter
+**V** is printed as a centered, full-width alphabetic section heading
+midway down the page. The top two columns still contain the end of
+`UZZIEL`, whereas the lower two columns begin the new V entries.
+Reading the entire left column followed by the entire right column
+wrongly inserted upper-right UZZIEL prose into the `VAIN` entry.
+
+The new **source-agnostic page-band reader** accepts an alphabetic
+section break only when all of these original OCR geometry conditions
+hold:
+
+- A single uppercase Latin letter is centered on the page and
+  significantly larger than its own page's typical text glyph.
+- Both columns have a sufficiently wide vertical whitespace gap at
+  the candidate section.
+- A strong, uppercase, punctuation-delimited headword beginning with
+  **the same letter** appears promptly in the lower left section.
+
+The reader processes upper-left/upper-right and then
+lower-left/lower-right. It **does not erase** an isolated letter that
+fails these checks. It reports every selected source page and letter,
+with `image_verified: false` until an original page image is actually
+reviewed. Only the V case is separately image-attested in the visual
+review ledger; the scans additionally nominate III p752 N and
+IV p436 R for future visual checking. The first looser geometric attempt
+detected dozens of unjustified section breaks and was **rejected**, not
+merged.
+
+### Full original-source-locked scan results
+
+The successful [all-five-volume v7 run 45144455342](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45144455342)
+preserved all 9,380 original TEI article keys and all original PDF
+SHA-256 locks:
+
+| Research-only metric | Previous v6 | Revised v7 |
+| --- | ---: | ---: |
+| Conservative OCR-count-comparable source articles | 5,768 | **5,743** |
+| Unresolved candidates, **including** quarantined intervals | 3,612 | **3,637** |
+| Candidates withheld for intervening printed titles | 89 | **117** |
+| Similar length but low source four-gram overlap | 24 | **24** |
+| OCR spans ≥2x source with ≥60% source four-gram recovery | 6 | **0** |
+| Source articles ≥100 tokens with ≥50 absolute-token discrepancy | 78 | **64** |
+
+The remaining six OCR-excess candidates were handled as follows:
+
+- `ANTHROPOMORPHISM`, `CHIEF SEATS`, `COCK`, `FAITH`,
+  `OBED-EDOM`: the independent printed heading of a different
+  article occurs inside the proposed digital-neighbor OCR interval,
+  so the misleading count is **withdrawn**.
+- `VAIN`: after the full-width section band is read correctly,
+  its OCR count becomes **105 Latin tokens vs 103 source TEI tokens**,
+  close enough for a numerical candidate, though still **not a
+  certified historical transcription**.
+
+The source-image observations (previous five plus six newly reviewed
+headings/letter sections) are recorded in
+`workspace/reviews/1915-ocr-print-heading-visual-inspection-v2.json`.
+This **retains all five v1 records unchanged**, captures 1915 original
+PDF and rendered page JPEG SHA-256s and folios, and is validated by
+the same canonical source-index checks. Eleven original printed
+heading/layout observations are **not** eleven complete content
+collations. The exact original CrossWire texts, cleaned canonical TEI
+and separate previously approved editorial corrections have not been
+changed or silently normalized. Legal redistribution is still blocked.
+
+Next editorial work should prioritize the **24** similar-length,
+low-four-gram cases with original page images and token-level
+comparisons, distinguishing OCR transcription noise from genuine source
+variations. The **117** OCR-quarantined intervals are not automatically
+117 historical errors; most still require printed-image validation.
