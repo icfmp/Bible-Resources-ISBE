@@ -66,7 +66,7 @@ def validate_ledger(spec, original_root, research, witness):
     if len(visual) != 24 or len(vols) != 5:
         raise ValueError('Unexpected original witnesses')
     rows = spec.get('decisions')
-    if not isinstance(rows, list) or len(rows) != 10:
+    if not isinstance(rows, list) or len(rows) != 16:
         raise ValueError('Need 10 image-attested edits')
     keys = set()
     for d in rows:
