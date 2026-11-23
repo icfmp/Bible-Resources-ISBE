@@ -7,20 +7,20 @@ a critical edition, character-level collation or publication permission.
 It compares all 9,380 source article identities and counts the portion
 whose boundaries can be conservatively determined in the original printed
 PDF OCR layer. Source input is the unchanged SHA-pinned canonical
-\`cleaned/en/ISBE.xml\`; the independently corrected, noncanonical editorial
+`cleaned/en/ISBE.xml`; the independently corrected, noncanonical editorial
 witness is **not** silently substituted for that baseline.
 
 The five source PDFs and digests are fixed in
-\`sources/print/1915-volume-witnesses.json\`; volume V is known to lack
+`sources/print/1915-volume-witnesses.json`; volume V is known to lack
 printed folios 2887–2888 in this particular digitization. Those pages
 cannot receive print certification based on the present scans.
 
 ## One extraction, two-column aware, per volume
 
-\`scripts/audit_1915_article_ocr_word_counts.py\`:
+`scripts/audit_1915_article_ocr_word_counts.py`:
 
 1. Confirms PDF and canonical TEI SHA-256 digests before comparing.
-2. Runs \`pdftotext -bbox-layout\` **once** for that full volume, using the
+2. Runs `pdftotext -bbox-layout` **once** for that full volume, using the
    existing embedded OCR layer, not Tesseract or another image OCR pass.
 3. Reconstructs printed reading order column-wise using the bounding-box
    coordinates, while excluding typical running headers/page furniture.
@@ -33,11 +33,11 @@ cannot receive print certification based on the present scans.
    This strict gate avoids making a large chapter look artificially complete
    by absorbing an adjacent article.
 6. Subtracts the printed headword from the counted segment, and excludes
-   the synthetic \`head type="index"\` from the canonical TEI count.
+   the synthetic `head type="index"` from the canonical TEI count.
 
 The word-count definition on **both** sides is deliberately conservative:
 NFKD normalization followed by ASCII Latin/digit tokenization
-(\`[a-z0-9]+\`). This excludes non-Latin Greek and Hebrew, punctuation and
+(`[a-z0-9]+`). This excludes non-Latin Greek and Hebrew, punctuation and
 typographic fidelity; it can split apostrophes differently from a human
 word count. There are also inevitable OCR errors and difficult book
 structures (e.g. tables, illustrations, inline subheadings and unusual
@@ -48,18 +48,18 @@ column arrangements).
 Each article has its **TEI word count** and one of these research-only
 statuses:
 
-- \`unresolved_print_boundaries\`: no reliable per-article OCR number;
+- `unresolved_print_boundaries`: no reliable per-article OCR number;
   **never** fill it in with a plausible guess.
-- \`ocr_count_near_source_candidate\`: comparable OCR count within 10% of
+- `ocr_count_near_source_candidate`: comparable OCR count within 10% of
   source TEI; candidate for lower-priority review, **not verified text**.
-- \`ocr_count_diff_over_10pct_candidate\`: candidate for higher-priority
+- `ocr_count_diff_over_10pct_candidate`: candidate for higher-priority
   image comparison; the difference may be OCR/layout noise, not a bad TEI.
-- \`source_empty_print_ocr_nonempty\`: candidate source omission; compare
+- `source_empty_print_ocr_nonempty`: candidate source omission; compare
   with separately restored 31-entry witness before concluding anything.
-- \`both_zero_candidate\`: both counts zero, but neither witness certified.
+- `both_zero_candidate`: both counts zero, but neither witness certified.
 
-Every row explicitly states \`visually_verified=false\` and
-\`full_print_text_certified=false\`. No output from these scripts ever
+Every row explicitly states `visually_verified=false` and
+`full_print_text_certified=false`. No output from these scripts ever
 authorizes text deletion, repair, publication or full original-print
 certification. A true correction requires a separate exact-image
 collation, page-image SHA, editorial ledger and source-locked reversible
@@ -67,7 +67,7 @@ transformation in the **separate edition**.
 
 ## Running and collecting evidence
 
-The \`.github/workflows/audit-1915-article-ocr-word-counts.yml\`
+The `.github/workflows/audit-1915-article-ocr-word-counts.yml`
 workflow runs preflight unit tests, then five jobs in parallel.
 Each volume PDF is downloaded once and compared in one extraction
 pass; only count/evidence reports are uploaded, not the entire copyrighted
@@ -75,16 +75,16 @@ or potentially restricted original OCR text.
 
 Local equivalent, for an already obtained source PDF:
 
-\`\`\`bash
+```bash
 python3 -m scripts.audit_1915_article_ocr_word_counts \
   --volume 1 --pdf /path/to/original-1915-vol-1.pdf \
   --report workspace/tmp/1915-ocr-wordcounts/volume-1.json
-\`\`\`
+```
 
 The matrix merge verifies that all five original print witness digests,
 all 9,380 TEI keys and identifiers, individual status invariants, and
 noncertification flags agree, then produces
-\`1915-ocr-word-counts-overview.json\` with per-volume coverage and
+`1915-ocr-word-counts-overview.json` with per-volume coverage and
 50 highest relative count-difference candidates.
 
 **Important limitation:** the pilot is expected to leave many articles
