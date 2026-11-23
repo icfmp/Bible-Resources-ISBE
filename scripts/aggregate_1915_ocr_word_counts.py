@@ -13,7 +13,8 @@ from scripts.audit_1915_article_ocr_word_counts import latin_tokens
 SOURCE_LOCK = "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25"
 VOLUMES = {"1", "2", "3", "4", "5"}
 STATUSES = {
-    "unresolved_print_boundaries", "source_empty_print_ocr_nonempty",
+    "unresolved_print_boundaries", "unresolved_intervening_print_heading",
+    "source_empty_print_ocr_nonempty",
     "both_zero_candidate", "ocr_count_near_source_candidate",
     "ocr_count_diff_over_10pct_candidate",
 }
@@ -182,10 +183,11 @@ def aggregate(reports, manifest, recovery_map=None):
     statuses = Counter()
     for report in sorted(reports, key=lambda r: r["volume"]):
         vol = report["volume"]
-        if (report.get("schema_version") != 5
+        if (report.get("schema_version") != 6
                 or report.get("print_pdf_sha256") != source[vol]["pdf_sha256"]
                 or report.get("canonical_tei_sha256") != SOURCE_LOCK
                 or report.get("pdf_pages") != source[vol]["pages"]
+                or report.get("independent_print_order_does_not_imply_digital_source_order") is not True
                 or report.get("publication_permitted") is not False
                 or report.get("ocr_not_original_print_certification") is not True
                 or report.get("articles_in_volume") != len(report.get("entries", []))
@@ -193,6 +195,9 @@ def aggregate(reports, manifest, recovery_map=None):
             raise ValueError("Source-locked OCR report incomplete or overclaims evidence")
         vstatus = Counter()
         checked = 0
+        by_source_key = {r["article_key"]: r for r in report["entries"]}
+        if len(by_source_key) != len(report["entries"]):
+            raise ValueError("Duplicate canonical article identifiers within a volume")
         for row in report["entries"]:
             key, aid, status = row["article_key"], row["article_xml_id"], row["status"]
             nsource, nocr = row["tei_latin_tokens"], row["ocr_latin_tokens"]
@@ -204,10 +209,39 @@ def aggregate(reports, manifest, recovery_map=None):
                 raise ValueError("Duplicate, invalid or falsely certified article")
             keys.add(key)
             ids.add(aid)
+            candidate_print_titles = row.get("intervening_print_heading_candidates")
+            withheld_start = row.get("withheld_ocr_span_start_scan_pdf_page_1_based")
+            withheld_end = row.get("withheld_ocr_span_next_heading_scan_pdf_page_1_based")
+            if not isinstance(candidate_print_titles, list):
+                raise ValueError("Missing original print-order research metadata")
+            if status == "unresolved_intervening_print_heading":
+                if (not candidate_print_titles
+                        or not isinstance(withheld_start, int)
+                        or not isinstance(withheld_end, int)
+                        or not (1 <= withheld_start <= withheld_end <= source[vol]["pages"])):
+                    raise ValueError("Suspicious printed-order conflict has no source-page witnesses")
+                for title in candidate_print_titles:
+                    if set(title) != {
+                        "source_key", "source_article_xml_id",
+                        "scan_pdf_page_1_based", "image_verified"
+                    }:
+                        raise ValueError("Unexpected or textual raw print-order data")
+                    other = by_source_key.get(title["source_key"])
+                    if (other is None or title["source_key"] == key
+                            or title["source_article_xml_id"] != other["article_xml_id"]
+                            or title["image_verified"] is not False
+                            or not (withheld_start <= title["scan_pdf_page_1_based"]
+                                    <= withheld_end)):
+                        raise ValueError("Invented printed title, location or visual proof")
+            elif candidate_print_titles or withheld_start is not None or withheld_end is not None:
+                raise ValueError("Unflagged OCR row contains unreviewed interleaving")
             if nocr is None:
-                if (status != "unresolved_print_boundaries"
+                if (status not in {
+                        "unresolved_print_boundaries", "unresolved_intervening_print_heading"
+                    }
                         or row.get("ocr_to_tei_ratio") is not None
-                        or row.get("ocr_start_pdf_page") is not None):
+                        or row.get("ocr_start_pdf_page") is not None
+                        or row.get("ocr_end_pdf_page") is not None):
                     raise ValueError("Unresolved article contains invented OCR measurement")
             else:
                 checked += 1
@@ -234,10 +268,12 @@ def aggregate(reports, manifest, recovery_map=None):
                 raise ValueError("Missing normalized lexical overlap evidence")
             vstatus[status] += 1
             statuses[status] += 1
-            if nocr is not None:
-                rows.append({**row, "volume": vol})
+            rows.append({**row, "volume": vol})
         if dict(sorted(vstatus.items())) != report["status_counts"]:
             raise ValueError("Raw entry status counts and volume summary disagree")
+        if vstatus["unresolved_intervening_print_heading"] != report.get(
+                "ocr_intervals_withdrawn_due_to_independent_intervening_print_headwords"):
+            raise ValueError("Intervening printed headword guard not reconciled")
         content_target_evidence.extend(
             {**evidence, "original_print_volume": vol}
             for evidence in verify_target_evidence(report)
@@ -245,7 +281,11 @@ def aggregate(reports, manifest, recovery_map=None):
         by_volume[vol] = {
             "source_articles": len(report["entries"]),
             "count_comparable_articles": checked,
-            "unresolved_boundaries": vstatus["unresolved_print_boundaries"],
+            "unresolved_boundaries": (
+                vstatus["unresolved_print_boundaries"]
+                + vstatus["unresolved_intervening_print_heading"]
+            ),
+            "intervening_print_heading_cases": vstatus["unresolved_intervening_print_heading"],
             "status_counts": dict(sorted(vstatus.items())),
             "ocr_extraction_seconds": report.get("ocr_extraction_seconds"),
             "heading_diagnostics": report["heading_diagnostics"],
@@ -253,7 +293,7 @@ def aggregate(reports, manifest, recovery_map=None):
         }
     if len(keys) != 9380:
         raise ValueError(f"Incomplete source article coverage: {len(keys)} / 9380")
-    if not rows:
+    if not any(r["ocr_latin_tokens"] is not None for r in rows):
         raise ValueError("No adjacent article OCR boundaries could be aligned")
     empty_ocr = sorted(
         [r for r in rows if r["status"] == "source_empty_print_ocr_nonempty"],
@@ -361,14 +401,40 @@ def aggregate(reports, manifest, recovery_map=None):
             "ocr_fourgram_precision": r["ocr_fourgram_precision"],
         }
     return {
-        "schema_version": 5,
+        "schema_version": 6,
         "source": manifest["bibliographic_citation"],
         "canonical_tei_sha256": SOURCE_LOCK,
         "full_corpus_source_articles": len(keys),
         "original_pdf_sha256_by_volume": {v: source[v]["pdf_sha256"] for v in sorted(VOLUMES)},
         "five_source_pdfs_verified": True,
-        "count_comparable_articles": len(rows),
-        "unresolved_ocr_article_boundaries": statuses["unresolved_print_boundaries"],
+        "count_comparable_articles": sum(
+            r["ocr_latin_tokens"] is not None for r in rows
+        ),
+        "unresolved_ocr_article_boundaries": (
+            statuses["unresolved_print_boundaries"]
+            + statuses["unresolved_intervening_print_heading"]
+        ),
+        "withheld_due_to_detected_intervening_print_titles": statuses[
+            "unresolved_intervening_print_heading"
+        ],
+        "possible_print_order_interleavings": [
+            {
+                "source_key": r["article_key"], "source_article_xml_id": r["article_xml_id"],
+                "volume": r["volume"],
+                "withheld_ocr_span_start_pdf_page": r[
+                    "withheld_ocr_span_start_scan_pdf_page_1_based"
+                ],
+                "withheld_ocr_span_end_pdf_page": r[
+                    "withheld_ocr_span_next_heading_scan_pdf_page_1_based"
+                ],
+                "candidate_independent_print_titles": r["intervening_print_heading_candidates"],
+                "original_print_image_verified": False,
+            }
+            for r in sorted(
+                (r for r in rows if r["status"] == "unresolved_intervening_print_heading"),
+                key=lambda r: (r["volume"], r["article_key"])
+            )
+        ],
         "status_counts": dict(sorted(statuses.items())),
         "volume_summaries": by_volume,
         "ocr_only_not_print_certified": True,
@@ -441,6 +507,10 @@ def main():
         "full_corpus_source_articles": result["full_corpus_source_articles"],
         "count_comparable_articles": result["count_comparable_articles"],
         "unresolved_ocr_article_boundaries": result["unresolved_ocr_article_boundaries"],
+        "withheld_due_to_intervening_print_titles": result[
+            "withheld_due_to_detected_intervening_print_titles"
+        ],
+        "possible_print_order_interleavings": result["possible_print_order_interleavings"][:12],
         "status_counts": result["status_counts"],
         "difference_direction_counts": result["difference_direction_counts"],
         "discrepancies_by_source_size": result["discrepancies_by_source_size"],
