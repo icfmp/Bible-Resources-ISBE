@@ -1,6 +1,18 @@
 name: Audit 1915 full-volume OCR article word counts (read-only)
 
 on:
+  push:
+    paths:
+      - 'scripts/audit_1915_article_ocr_word_counts.py'
+      - 'scripts/aggregate_1915_ocr_word_counts.py'
+      - 'scripts/diagnose_1915_ocr_candidate_spans.py'
+      - 'tests/test_1915_article_ocr_word_counts.py'
+      - 'tests/test_aggregate_1915_ocr_word_counts.py'
+      - 'tests/test_diagnose_1915_ocr_candidate_spans.py'
+      - 'sources/print/1915-volume-witnesses.json'
+      - 'workspace/reviews/empty-article-recovery-ledger.json'
+      - 'workspace/reviews/1915-second-pass-visual-approval-v1.json'
+      - '.github/workflows/audit-1915-article-ocr-word-counts.yml'
   pull_request:
     paths:
       - 'scripts/audit_1915_article_ocr_word_counts.py'
