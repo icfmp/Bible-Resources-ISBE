@@ -21,13 +21,15 @@ def fixture():
         "explicit_label_verse": 27,
         "printed_1915_certification": False,
         "approved_for_noncanonical_navigation_layer": True,
+        "parallel_print_attested_article": "PRINTED EXAMPLE",
+        "parallel_print_attested_ref_xml_id": "printed-r1",
         "digital_witness_urls": ["https://example.org/witness-a", "https://example.net/witness-b"],
     }
     spec = {
         "schema_version": 1,
         "canonical_source_sha256": LOCK,
         "preceding_editorial_layer": "1915_print_attested_31_plus_6_plus_12_plus_1",
-        "evidence_level": "digital_visible_label_corrobated_not_original_print",
+        "evidence_level": "digital_display_parallel_print_mapping_not_taanach_print",
         "original_1915_folios_verified": False,
         "publication_permitted": False,
         "independent_human_peer_review": False,
@@ -44,6 +46,14 @@ def fixture():
             "unit_xml_id": "example-p1",
             "visible": "f; Jud 1:27",
             "original_cRef": "Bible:Rev.1.2",
+        }, {
+            "ref_xml_id": "printed-r1",
+            "source_key": "PRINTED EXAMPLE",
+            "disposition": "visually_attested_candidate",
+            "visible": "f; Jud 1:27",
+            "proposed_cRef": "Bible:Judg.1.27",
+            "source_image_jpeg_sha256": "a" * 64,
+            "printed_reading": "Jgs 1 27 f",
         }],
     }
     xml = (
@@ -101,6 +111,11 @@ class DisplayOnlySourceGateTests(unittest.TestCase):
     def test_rejects_unapproved_or_unresolved_mismatch(self):
         self.assert_rejected(lambda spec, _: spec["decisions"][0].update(approved_for_noncanonical_navigation_layer=False))
         self.assert_rejected(lambda _, original: original["cases"][0].update(proposed_cRef="Bible:Judg.1.27"))
+
+    def test_rejects_uncorroborated_book_mapping(self):
+        self.assert_rejected(lambda spec, _: spec["decisions"][0].update(corrected_cRef="Bible:Zech.1.27"))
+        self.assert_rejected(lambda spec, _: spec["decisions"][0].update(parallel_print_attested_ref_xml_id="unknown"))
+        self.assert_rejected(lambda spec, original: original["cases"][1].update(disposition="unresolved_no_adequate_print_page"))
 
     def test_rejects_visible_reference_mismatch(self):
         self.assert_rejected(lambda spec, _: spec["decisions"][0].update(original_visible="f; Rev 1:2"))
