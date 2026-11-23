@@ -119,6 +119,7 @@ class OriginalPrintOrderSafetyTests(unittest.TestCase):
     def test_unrelated_short_uppercase_words_cannot_block(self):
         lines, entries, rows = fixture()
         entries[2]["key"] = "A"
+        rows[2]["article_key"] = "A"
         lines[2]["text"] = "A"
         _, count = guard_interleaved_headings(
             lines, entries, {0: 0, 1: 4}, rows
