@@ -78,6 +78,65 @@ class OriginalPrintedWordCountTests(unittest.TestCase):
         self.assertIsNone(out[3]["ocr_to_tei_ratio"])
         self.assertTrue(all(x["full_print_text_certified"] is False for x in out))
 
+    def test_large_centered_midpage_alphabetic_section_break_reorders_columns(self):
+        # The 1915 printed encyclopedia can start a new letter beneath the
+        # previous letter's two columns, as seen at V on original volume V.
+        # Before the section heading, reading order is upper-left/right;
+        # after it, lower-left/right. The entire-left/right model is wrong.
+        raw = page_xml([
+            ("UPPER LEFT", 60, 130),
+            ("LOWER LEFT", 60, 560),
+            ("UPPER RIGHT", 350, 130),
+            ("LOWER RIGHT", 350, 560),
+            ("V", 293, 390),
+        ])
+        self.assertIn('xMin="293" yMin="390" xMax="307" yMax="398"', raw)
+        # This letter alone is visibly a larger (section-heading) glyph.
+        raw = raw.replace(
+            'xMin="293" yMin="390" xMax="307" yMax="398"',
+            'xMin="293" yMin="390" xMax="307" yMax="418"',
+        )
+        got = self.get_lines(raw)
+        self.assertEqual(
+            [r["text"] for r in got],
+            ["UPPER LEFT", "UPPER RIGHT", "LOWER LEFT", "LOWER RIGHT"]
+        )
+        self.assertEqual(
+            [r["section_band"] for r in got], [0, 0, 1, 1]
+        )
+        self.assertNotIn("V", [r["text"] for r in got])
+
+    def test_ordinary_centered_single_letter_is_not_silently_deleted(self):
+        raw = page_xml([
+            ("UPPER LEFT", 60, 130),
+            ("LOWER LEFT", 60, 560),
+            ("UPPER RIGHT", 350, 130),
+            ("LOWER RIGHT", 350, 560),
+            ("V", 293, 390),
+        ])
+        got = self.get_lines(raw)
+        self.assertEqual(
+            [r["text"] for r in got],
+            ["UPPER LEFT", "LOWER LEFT", "UPPER RIGHT", "V", "LOWER RIGHT"]
+        )
+        self.assertTrue(all(r["section_band"] == 0 for r in got))
+
+    def test_centered_prose_letter_near_page_furniture_cannot_split(self):
+        raw = page_xml([
+            ("TOP LEFT", 60, 130), ("BOTTOM LEFT", 60, 560),
+            ("TOP RIGHT", 350, 130), ("BOTTOM RIGHT", 350, 560),
+            ("V", 293, 110),
+        ])
+        raw = raw.replace(
+            'xMin="293" yMin="110" xMax="307" yMax="118"',
+            'xMin="293" yMin="110" xMax="307" yMax="144"',
+        )
+        got = self.get_lines(raw)
+        self.assertEqual(
+            [r["text"] for r in got],
+            ["TOP LEFT", "BOTTOM LEFT", "TOP RIGHT", "V", "BOTTOM RIGHT"]
+        )
+
     def test_unknown_intermediate_article_forbids_count(self):
         lines = self.get_lines(page_xml(example()))
         a = entries(("AARON", 3), ("AARON'S ROD", 2),
