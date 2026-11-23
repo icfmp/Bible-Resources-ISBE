@@ -196,7 +196,7 @@ def test_reader(reader,outdir,lookup_key):
                 # human review, not proof that a key displayed correctly.
                 # Focus the visible dictionary lookup field; Alt+D alone
                 # may target a different pane on a fresh Xiphos profile.
-                click_at(window,820,440)
+                click_at(window,820,420)
                 command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
                 command(["xdotool","type","--clearmodifiers","--delay","80",lookup_key],timeout=10)
                 command(["xdotool","key","Return"],timeout=10)
@@ -228,6 +228,18 @@ def test_reader(reader,outdir,lookup_key):
                 if pic.returncode==0 and opened.stat().st_size>1000:
                     result["screenshots"].append(opened.name)
                 result["article_open_attempted_not_certified"]=True
+                # Once the module's initial index opens, use its own entry
+                # lookup box to request the explicit headword being audited.
+                click_at(window,405,80)
+                command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
+                command(["xdotool","type","--clearmodifiers","--delay","70",lookup_key],timeout=10)
+                command(["xdotool","key","Return"],timeout=10)
+                time.sleep(3)
+                lookupshot=outdir/"bibletime-lookup-attempt.png"
+                pic=command(["scrot",str(lookupshot)],timeout=15)
+                if pic.returncode==0 and lookupshot.stat().st_size>1000:
+                    result["screenshots"].append(lookupshot.name)
+                result["headword_lookup_attempted_not_certified"]=True
             if name=="xiphos":
                 result["blocking_first_run_dialog"]=bool(
                     named_window("Welcome to Xiphos") or
@@ -294,7 +306,8 @@ def main():
     required={"xiphos":{"xiphos-startup.png","xiphos-lookup-attempt.png"},
               "bibletime":{"bibletime-startup.png",
                            "bibletime-lexicons-expanded.png",
-                           "bibletime-article-attempt.png"}}
+                           "bibletime-article-attempt.png",
+                           "bibletime-lookup-attempt.png"}}
     for reader in readers:
         if not required[reader["name"]].issubset(set(reader["screenshots"])):
             raise SystemExit("Missing readable GUI screenshot for "+reader["name"])
