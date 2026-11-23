@@ -64,3 +64,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Consolidate ISBE original, corrected, witness and module trees without changing text"
           git push origin HEAD:refactor/consolidate-source-tree-and-modules
+
+# Re-run migration with composed-path and source ZIP uniqueness checks.
