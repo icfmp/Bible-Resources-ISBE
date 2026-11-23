@@ -85,9 +85,9 @@ class OriginalPrintedWordCountTests(unittest.TestCase):
         # after it, lower-left/right. The entire-left/right model is wrong.
         raw = page_xml([
             ("UPPER LEFT", 60, 130),
-            ("LOWER LEFT", 60, 560),
+            ("VAGABOND, entry below alphabetic separator", 60, 560),
             ("UPPER RIGHT", 350, 130),
-            ("LOWER RIGHT", 350, 560),
+            ("VAINGLORY, printed continuation", 350, 560),
             ("V", 293, 390),
         ])
         self.assertIn('xMin="293" yMin="390" xMax="307" yMax="398"', raw)
@@ -99,12 +99,13 @@ class OriginalPrintedWordCountTests(unittest.TestCase):
         got = self.get_lines(raw)
         self.assertEqual(
             [r["text"] for r in got],
-            ["UPPER LEFT", "UPPER RIGHT", "LOWER LEFT", "LOWER RIGHT"]
+            ["UPPER LEFT", "UPPER RIGHT", "VAGABOND, entry below alphabetic separator", "VAINGLORY, printed continuation"]
         )
         self.assertEqual(
             [r["section_band"] for r in got], [0, 0, 1, 1]
         )
         self.assertNotIn("V", [r["text"] for r in got])
+        self.assertEqual([r["midpage_letter_section"] for r in got], [None, None, "V", "V"])
 
     def test_ordinary_centered_single_letter_is_not_silently_deleted(self):
         raw = page_xml([
