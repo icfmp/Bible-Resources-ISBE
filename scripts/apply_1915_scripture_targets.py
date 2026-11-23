@@ -55,7 +55,7 @@ def validate_ledger(ledger,manifest):
                 or not re.fullmatch("[a-f0-9]{64}",row.get("source_image_jpeg_sha256") or "")
                 or not row.get("source_image_workflow_run")
                 or row["original_cRef"]==row["proposed_cRef"]
-                or not re.fullmatch(r"Bible:[A-Za-z0-9]+\\.\\d+\\.\\d+",row["proposed_cRef"])):
+                or not re.fullmatch(r"Bible:[A-Za-z0-9]+\.\d+\.\d+",row["proposed_cRef"])):
             raise ValueError("Missing individual original printed-page evidence")
         approved.append(row)
     if len(approved)!=12:
