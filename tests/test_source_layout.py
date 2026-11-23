@@ -66,6 +66,14 @@ class CleanSourceTreeTests(unittest.TestCase):
                              "not_performed")
         self.assertFalse(record["distribution"]["payload_present"])
         self.assertFalse(record["distribution"]["release_published"])
+        distribution=record["distribution"]
+        if distribution.get("draft_binary_asset"):
+            self.assertFalse(distribution["draft_source_release_only"])
+            self.assertTrue(distribution["draft_contains_source_and_native_candidate"])
+            self.assertNotEqual(distribution["status"],
+                                "compiled_candidate_in_unpublished_actions_artifact")
+        if distribution.get("temporary_actions_binary_deleted"):
+            self.assertNotIn("actions_artifact",distribution["status"])
         self.assertFalse(record["rights"]["redistribution_allowed"])
 
     def test_no_active_script_or_workflow_uses_retired_paths(self):
