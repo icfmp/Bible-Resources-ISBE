@@ -175,16 +175,20 @@ def test_reader(reader,outdir,lookup_key):
                 # Lexicons and Dictionaries. These are intentionally simple
                 # UI actions for human screenshot review, NOT programmatic
                 # certification that the selected article rendered.
-                ui_window=find_window("bibletime") or window
-                command(["xdotool","windowactivate","--sync",ui_window],timeout=10)
-                command(["xdotool","mousemove","--window",ui_window,"105","157"],timeout=10)
+                # In this fixed 1440x900 Xvfb session the main BibleTime
+                # window opens at (240,138) before the bookshelf selection.
+                # Relative xdotool mouse moves addressed a child titled
+                # "bibletime" instead of its visible main window. Use the
+                # observed absolute on-screen category coordinates here;
+                # screenshots remain the source of truth for acceptance.
+                command(["xdotool","mousemove","340","296"],timeout=10)
                 command(["xdotool","click","--repeat","2","--delay","180","1"],timeout=10)
                 time.sleep(1)
                 expanded=outdir/"bibletime-lexicons-expanded.png"
                 pic=command(["scrot",str(expanded)],timeout=15)
                 if pic.returncode==0 and expanded.stat().st_size>1000:
                     result["screenshots"].append(expanded.name)
-                command(["xdotool","mousemove","--window",ui_window,"116","179"],timeout=10)
+                command(["xdotool","mousemove","344","317"],timeout=10)
                 command(["xdotool","click","--repeat","2","--delay","180","1"],timeout=10)
                 time.sleep(3)
                 opened=outdir/"bibletime-article-attempt.png"
