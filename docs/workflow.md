@@ -27,7 +27,9 @@ Resolve mechanical title variants and explicitly identifiable article/section de
 Checks must confirm entry/character counts, per-article text hashes, unique XML IDs, valid rewritten targets, and that every original SWORD encyclopedia link occurrence is a valid destination, an explicitly unlinked source-reference segment, or a bibliographic heading with preserved provenance. The count of active `ISBE:` targets with no verified destination must be **zero**.
 
 ## 5. Modernize without overwriting
-Copy the validated cleaned master to `modern/en/ISBE.xml`; preserve existing `xml:id` values. Modernize language in reviewable batches with recorded editorial rationale. Distinguish linguistic updates from corrections of historic assertions.
+The immutable CrossWire original now also lives under `sources/original/encyclopedias/en/isbe-crosswire-2.2/`. The source-faithful TEI remains locked under `cleaned/en/ISBE.xml` for reproducibility and parity of the original. Rebuild our historical edited master into `sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml` using `python3 scripts/persist_1915_cleaned_master.py --assemble` and independently verify its exact output digest before any modernization.
+
+**Modernization begins from `sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml`, not from the uncorrected `cleaned/en/ISBE.xml`.** Copy this verified *historical working master* to `modern/en/ISBE.xml`; preserve existing `xml:id` values. Modernize language in reviewable batches with recorded editorial rationale. Distinguish linguistic updates from corrections of historic assertions.
 
 ## 6. Translate
 Create `translations/<lang>/ISBE.xml` from a recorded modern-English commit. Preserve stable entry/unit IDs, text structure and references. Record per-unit source revision and hash for translation currency. Flag machine translations as such until reviewed.

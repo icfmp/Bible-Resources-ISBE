@@ -1,0 +1,58 @@
+name: Validate retained original and cleaned ISBE working masters
+
+on:
+  push:
+    paths:
+      - 'sources/original/encyclopedias/en/isbe-crosswire-2.2/**'
+      - 'sources/cleaned/encyclopedias/en/isbe-1915/**'
+      - 'sources/crosswire/isbe-2.2/**'
+      - 'cleaned/en/**'
+      - 'scripts/persist_1915_cleaned_master.py'
+      - 'scripts/finalize_1915_recovery.py'
+      - 'scripts/apply_1915_*.py'
+      - 'scripts/apply_display_verified_scripture_targets.py'
+      - 'workspace/reviews/1915-*.json'
+      - 'tests/test_persist_1915_cleaned_master.py'
+      - '.github/workflows/validate-retained-isbe-sources.yml'
+  pull_request:
+    paths:
+      - 'sources/original/encyclopedias/en/isbe-crosswire-2.2/**'
+      - 'sources/cleaned/encyclopedias/en/isbe-1915/**'
+      - 'sources/crosswire/isbe-2.2/**'
+      - 'cleaned/en/**'
+      - 'scripts/persist_1915_cleaned_master.py'
+      - 'scripts/finalize_1915_recovery.py'
+      - 'scripts/apply_1915_*.py'
+      - 'scripts/apply_display_verified_scripture_targets.py'
+      - 'workspace/reviews/1915-*.json'
+      - 'tests/test_persist_1915_cleaned_master.py'
+      - '.github/workflows/validate-retained-isbe-sources.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-complete-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify both stored source witnesses and their fail-closed provenance manifests
+        run: |
+          python3 -m unittest discover -s tests -p 'test_persist_1915_cleaned_master.py' -v
+          python3 scripts/persist_1915_cleaned_master.py --verify-only
+      - name: Install official pinned TEI P5 validator
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq jing
+      - name: Rebuild all reviewed historical corrections from original SHA-locked CrossWire witness and printed evidence
+        run: python3 scripts/persist_1915_cleaned_master.py --assemble
+      - name: Verify rebuild is byte-identical to both retained originals and published-in-Git working master
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/persist_1915_cleaned_master.py --verify-only
+          git diff --exit-code -- \
+            sources/original/encyclopedias/en/isbe-crosswire-2.2/ \
+            sources/cleaned/encyclopedias/en/isbe-1915/
+          test -z "$(git ls-files --others --exclude-standard sources/original/encyclopedias/en/isbe-crosswire-2.2/ sources/cleaned/encyclopedias/en/isbe-1915/)"
+          echo "Rebuilt source files are byte-for-byte identical to the committed historical working edition."
