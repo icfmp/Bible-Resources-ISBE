@@ -23,9 +23,10 @@ jobs:
       - name: Require existing release to remain nonpublic
         run: |
           set -euo pipefail
+          gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq '{draft,prerelease,tag_name,published_at}'
           test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq .draft)" = true
           test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq .prerelease)" = true
-          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq .published_at)" = null
+          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq '.published_at // "null"')" = null
           test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq .tag_name)" = "$TAG"
           if gh api "repos/$GH_REPO/releases/$RELEASE_ID/assets" --jq '.[].name' |
              grep -q 'BRISBE1915-native-candidate-NOT-FOR-PUBLICATION'; then
@@ -80,6 +81,6 @@ jobs:
               staging/diagnostics/diatheke-render-smoke.json \
               -R "$GH_REPO"
           test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq .draft)" = true
-          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq .published_at)" = null
+          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq '.published_at // "null"')" = null
           gh api "repos/$GH_REPO/releases/$RELEASE_ID/assets" --jq '.[] | [.name,.size] | @tsv'
           echo "SUCCESS: Binary and evidence retained privately in release DRAFT. NOT PUBLISHED."
