@@ -19,6 +19,7 @@ jobs:
       - run: python3 -m unittest discover -s tests -p 'test_locate_1915_scripture_pages.py' -v
   visual-research:
     needs: test
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
