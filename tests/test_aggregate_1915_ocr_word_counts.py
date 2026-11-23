@@ -42,7 +42,7 @@ def sample():
             source_fourgram_recall=0.8, ocr_fourgram_precision=0.8,
         )
         reports.append({
-            "schema_version": 7, "volume": vol, "print_pdf_sha256": sha,
+            "schema_version": 8, "volume": vol, "print_pdf_sha256": sha,
             "canonical_tei_sha256": SOURCE_LOCK,
             "pdf_pages": 700, "publication_permitted": False,
             "independent_print_order_does_not_imply_digital_source_order": True,
