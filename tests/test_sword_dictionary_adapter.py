@@ -78,7 +78,8 @@ class SwordAdapterTests(unittest.TestCase):
             src=folder/"source.xml"
             make_source(src)
             root=ET.parse(src)
-            internal=list(root.getroot().iter(NS+"ref"))[-1]
+            internal=next(ref for ref in root.getroot().iter(NS+"ref")
+                          if ref.get("target")=="#entry-1")
             self.assertEqual(internal.get("target"),"#entry-1")
             internal.set("target","#missing-target")
             root.write(src,encoding="utf-8",xml_declaration=True)
