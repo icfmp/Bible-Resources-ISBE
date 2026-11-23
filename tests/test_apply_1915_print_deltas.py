@@ -93,7 +93,7 @@ class PrintDeltasTests(unittest.TestCase):
         self.assertEqual(changed,{"AARON"})
         self.assertEqual(len(records),2)
         self.assertFalse(added)
-        p=xml.find(f".//{{{N}}}p[@xml:id='p-aaron']") if False else list(xml.iter(f"{{{N}}}p"))[0]
+        p=list(xml.iter(f"{{{N}}}p"))[0]
         self.assertIn("Moses' hands: Jehovah had called them", "".join(p.itertext()))
         self.assertEqual(ET.tostring(other),old_other)
         with self.assertRaisesRegex(ValueError,"Repeated"):
