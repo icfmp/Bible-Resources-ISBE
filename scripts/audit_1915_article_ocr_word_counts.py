@@ -113,11 +113,14 @@ def _tag(elem):
 
 
 def bbox_lines(path, page_count):
-    """Return left-column then right-column lines per original PDF page.
+    """Two printed columns, read in physical bands separated by section letters.
 
-    Poppler's word bounding boxes, not plaintext padding/reading order,
-    determine columns. That avoids interleaving two parallel columns.
-    Pages with unusual layouts remain candidates, not guaranteed text.
+    A full-width alphabetic section heading can occur midway down a page:
+    upper left/right columns must be read before lower left/right columns.
+    Blindly sorting the *entire* left column before the entire right one
+    can swallow text belonging to the previous encyclopedia letter.
+    Only a centered, oversized, single uppercase Latin letter triggers a
+    band split. Ordinary page headings/prose cannot trigger a rearrangement.
     """
     result = []
     pages_seen = 0
@@ -130,38 +133,71 @@ def bbox_lines(path, page_count):
         if width < 100 or height < 100:
             raise ValueError("Invalid scanned page coordinates")
         buckets = {0: [], 1: []}
+        possible_sections = []
+        heights = []
         for line in page.iter():
             if _tag(line) != "line":
                 continue
-            groups = {0: [], 1: []}
+            valid = []
             for word in line:
                 if _tag(word) != "word" or not (word.text or "").strip():
                     continue
-                x = (float(word.attrib["xMin"]) + float(word.attrib["xMax"])) / 2
-                y = (float(word.attrib["yMin"]) + float(word.attrib["yMax"])) / 2
-                # Crop page furniture, not authorial body text; a missed
-                # heading is preferable to a false-perfect OCR comparison.
+                xmin = float(word.attrib["xMin"])
+                xmax = float(word.attrib["xMax"])
+                ymin = float(word.attrib["yMin"])
+                ymax = float(word.attrib["yMax"])
+                x, y = (xmin + xmax) / 2, (ymin + ymax) / 2
                 if not (0.075 * height <= y <= 0.94 * height):
                     continue
-                groups[int(x >= width / 2)].append(
-                    (float(word.attrib["xMin"]), y, word.text.strip())
-                )
+                valid.append((xmin, x, y, ymax - ymin, word.text.strip()))
+            if not valid:
+                continue
+            if (len(valid) == 1
+                    and re.fullmatch(r"[A-Z]", valid[0][4])
+                    and 0.45 * width <= valid[0][1] <= 0.55 * width
+                    and 0.18 * height <= valid[0][2] <= 0.85 * height):
+                possible_sections.append(valid[0])
+                continue
+            groups = {0: [], 1: []}
+            for xmin, x, y, w_height, text in valid:
+                heights.append(w_height)
+                groups[int(x >= width / 2)].append((xmin, y, text))
             for col, words in groups.items():
                 if words:
                     words.sort(key=lambda item: item[0])
                     text = " ".join(w[2] for w in words)
                     y = min(w[1] for w in words)
                     buckets[col].append((y, text))
-        for col in (0, 1):
-            for y, text in sorted(buckets[col], key=lambda item: item[0]):
-                # Headers/footers can survive physical cropping. A line
-                # identical to this running title is not article content.
-                if re.search(r"INTERNATIONAL\s+STANDARD\s+BIBLE\s+ENCYCLOP", text, re.I):
-                    continue
-                result.append({
-                    "page": pages_seen, "column": "left" if col == 0 else "right",
-                    "y": round(y, 1), "text": text,
-                })
+
+        # Compare the section letter size against *actual glyph heights* on
+        # the same source page, not a fixed font size or per-book exception.
+        if heights:
+            sorted_heights = sorted(heights)
+            usual_height = sorted_heights[len(sorted_heights) // 2]
+        else:
+            usual_height = 0
+        cuts = sorted({
+            marker[2] for marker in possible_sections
+            if marker[3] >= 1.25 * usual_height and usual_height > 0
+        })
+        edges = [float("-inf"), *cuts, float("inf")]
+        for band in range(len(edges)-1):
+            for col in (0, 1):
+                for y, text in sorted(buckets[col], key=lambda item: item[0]):
+                    if not (edges[band] < y < edges[band+1]):
+                        continue
+                    if re.search(
+                        r"INTERNATIONAL\s+STANDARD\s+BIBLE\s+ENCYCLOP",
+                        text, re.I,
+                    ):
+                        continue
+                    result.append({
+                        "page": pages_seen,
+                        "column": "left" if col == 0 else "right",
+                        "y": round(y, 1),
+                        "section_band": band,
+                        "text": text,
+                    })
         page.clear()
     if pages_seen != page_count:
         raise ValueError(f"Scanned PDF page count differs: {pages_seen} != {page_count}")
@@ -420,12 +456,15 @@ def compare_bbox(bbox_file, pdf_sha, source_sha, volume, manifest, entries):
         raise ValueError("Wrong source-identified 1915 scanned volume")
     lines = bbox_lines(bbox_file, witness[0]["pages"])
     accepted, alignment = unique_print_headings(lines, entries)
+    alignment["printed_pages_with_explicit_midpage_section_breaks"] = len({
+        line["page"] for line in lines if line.get("section_band", 0) > 0
+    })
     reports, _ = assess(lines, entries, accepted)
     reports, guarded = guard_interleaved_headings(lines, entries, accepted, reports)
     statuses = dict(sorted(Counter(row["status"] for row in reports).items()))
     targeted = diagnose_candidates(lines, entries, accepted, reports, latin_tokens)
     return {
-        "schema_version": 6,
+        "schema_version": 7,
         "volume": volume,
         "print_pdf_sha256": pdf_sha,
         "canonical_tei_sha256": source_sha,
@@ -433,7 +472,7 @@ def compare_bbox(bbox_file, pdf_sha, source_sha, volume, manifest, entries):
         "ocr_latin_token_definition": "NFKD decomposition then ASCII [a-z0-9]+; non-Latin characters, punctuation and typography are not compared",
         "lexical_comparison": "ordered 4-token multiset overlap: source recall and OCR precision; generated for candidate segmentation only, never proof of print fidelity",
         "extraction": "single pdftotext -bbox-layout pass over entire SHA-locked original volume",
-        "alignment": "v1 unique uppercase monotonic anchors + strongly bracketed repeated headings + weak exact titles supported by three ordered source-opening tokens within strong anchor brackets; adjacent TEI article pairs only",
+        "alignment": "strong source-ordered OCR anchors; midpage centered uppercase alphabetic section bands read left/right in each band; independently recognized interrupted printed headings quarantine invalid digital-neighbor spans",
         "source": manifest["bibliographic_citation"],
         "original_pages_2887_2888_available_in_volume_v": False if volume == "5" else None,
         "ocr_not_original_print_certification": True,
