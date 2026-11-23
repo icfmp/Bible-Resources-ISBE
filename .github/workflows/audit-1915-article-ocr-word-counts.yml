@@ -1,0 +1,80 @@
+name: Audit 1915 full-volume OCR article word counts (read-only)
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_1915_article_ocr_word_counts.py'
+      - 'scripts/aggregate_1915_ocr_word_counts.py'
+      - 'tests/test_1915_article_ocr_word_counts.py'
+      - 'tests/test_aggregate_1915_ocr_word_counts.py'
+      - 'sources/print/1915-volume-witnesses.json'
+      - '.github/workflows/audit-1915-article-ocr-word-counts.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-conservative-ocr-alignment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run synthetic geometry, fidelity and aggregation tests
+        run: |
+          python3 -m unittest discover -s tests -p 'test_1915_article_ocr_word_counts.py' -v
+          python3 -m unittest discover -s tests -p 'test_aggregate_1915_ocr_word_counts.py' -v
+
+  scan-1915-volume:
+    needs: test-conservative-ocr-alignment
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        volume: ['1', '2', '3', '4', '5']
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install original PDF text layer reader
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Download source-locked historical facsimile once
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 --retry-all-errors \
+            --connect-timeout 20 --max-time 500 \
+            "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
+            -o "/tmp/isbe-1915-volume-${{ matrix.volume }}.pdf"
+      - name: Extract original PDF OCR once and conservatively compare article token counts
+        run: |
+          python3 -m scripts.audit_1915_article_ocr_word_counts \
+            --volume "${{ matrix.volume }}" \
+            --pdf "/tmp/isbe-1915-volume-${{ matrix.volume }}.pdf" \
+            --report "workspace/tmp/1915-ocr-wordcounts/volume-${{ matrix.volume }}.json"
+      - name: Upload counts and limitations only, not full OCR text
+        uses: actions/upload-artifact@v4
+        with:
+          name: isbe-1915-ocr-wordcounts-vol-${{ matrix.volume }}-RESEARCH-ONLY
+          path: workspace/tmp/1915-ocr-wordcounts/volume-${{ matrix.volume }}.json
+          if-no-files-found: error
+
+  consolidate-ocr-counts:
+    needs: scan-1915-volume
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: isbe-1915-ocr-wordcounts-vol-*-RESEARCH-ONLY
+          path: workspace/tmp/1915-ocr-reports
+          merge-multiple: true
+      - name: Verify exactly five witnesses and all 9,380 source articles
+        run: |
+          python3 -m scripts.aggregate_1915_ocr_word_counts \
+            --reports-dir workspace/tmp/1915-ocr-reports \
+            --output workspace/tmp/1915-ocr-word-counts-overview.json
+      - name: Upload full-corpus statistics, not historical print certification
+        uses: actions/upload-artifact@v4
+        with:
+          name: isbe-1915-ocr-wordcounts-overview-RESEARCH-ONLY
+          path: workspace/tmp/1915-ocr-word-counts-overview.json
+          if-no-files-found: error
