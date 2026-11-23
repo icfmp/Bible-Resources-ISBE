@@ -11,8 +11,8 @@ from pathlib import Path
 import re
 import subprocess
 
-HEADER=re.compile(r"INTERNATIONAL\\s+STANDARD\\s+BIBLE\\s+ENCYCLOP(?:A)?EDIA",re.I)
-NUM=re.compile(r"(?<![\\d])([1-3]\\d{2,3})(?![\\d])")
+HEADER=re.compile(r"INTERNATIONAL\s+STANDARD\s+BIBLE\s+ENCYCLOP(?:A)?EDIA",re.I)
+NUM=re.compile(r"(?<![\d])([1-3]\d{2,3})(?![\d])")
 
 def printed_folio(page):
     lines=[x.strip() for x in page.splitlines() if x.strip()][:6]
