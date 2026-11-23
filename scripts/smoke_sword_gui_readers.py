@@ -34,6 +34,45 @@ def named_window(pattern):
     matches=[x for x in proc.stdout.splitlines() if x.isdigit()]
     return matches[-1] if matches else None
 
+def dismiss_dialog(pattern,key="Escape"):
+    """Close known non-content startup dialog; never count it as article UI."""
+    modal=named_window(pattern)
+    if not modal:
+        return False
+    if command(["xdotool","windowactivate","--sync",modal],timeout=10).returncode:
+        return False
+    if command(["xdotool","key","--clearmodifiers",key],timeout=10).returncode:
+        return False
+    time.sleep(1)
+    return not bool(named_window(pattern))
+
+def dismiss_tip_of_day():
+    """BibleTime may show a separate Tip of the Day after its Welcome screen."""
+    if not named_window("Tip of the Day"):
+        return False
+    if dismiss_dialog("Tip of the Day"):
+        return True
+    modal=named_window("Tip of the Day")
+    if not modal:
+        return True
+    # The standard Qt tip dialog has a "Close" control at bottom right.
+    # Use its current window geometry rather than fixed screen coordinates.
+    geometry=command(["xdotool","getwindowgeometry","--shell",modal],timeout=10)
+    if geometry.returncode:
+        return False
+    values=dict(line.split("=",1) for line in geometry.stdout.splitlines()
+                if "=" in line)
+    width=int(values.get("WIDTH","0"))
+    height=int(values.get("HEIGHT","0"))
+    if width<100 or height<100:
+        return False
+    click=command(["xdotool","mousemove","--window",modal,
+                   str(width-50),str(height-26)],timeout=10)
+    if click.returncode or command(["xdotool","click","1"],timeout=10).returncode:
+        return False
+    time.sleep(1)
+    return not bool(named_window("Tip of the Day"))
+
 def test_reader(reader,outdir):
     name=reader["name"]
     log=outdir/(name+".log")
@@ -67,6 +106,10 @@ def test_reader(reader,outdir):
             command(["xdotool","windowsize",window,"1200","760"],timeout=10)
             command(["xdotool","windowmove",window,"0","0"],timeout=10)
             time.sleep(2)
+            if name=="xiphos":
+                # A locale information popup can consume the first dictionary
+                # lookup keypress; dismiss it before Alt+D is sent.
+                result["locale_notice_dismissed"]=dismiss_dialog("^Xiphos$",key="Return")
             if name=="bibletime":
                 # BibleTime's fresh profile displays a welcome modal even
                 # with a separately valid local dictionary installation.
@@ -80,6 +123,8 @@ def test_reader(reader,outdir):
                     time.sleep(4)
                 else:
                     result["fresh_profile_welcome_dismissed"]=False
+                result["tip_of_day_dismissed"]=dismiss_tip_of_day()
+                time.sleep(2)
             shot=outdir/(name+"-startup.png")
             screen=command(["scrot",str(shot)],timeout=15)
             if screen.returncode==0 and shot.stat().st_size>1000:
@@ -90,6 +135,7 @@ def test_reader(reader,outdir):
                 # Send an actual representative lookup; screenshot is for
                 # human review, not proof that a key displayed correctly.
                 command(["xdotool","key","--clearmodifiers","alt+d"],timeout=10)
+                command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
                 command(["xdotool","type","--clearmodifiers","--delay","80","AARON"],timeout=10)
                 command(["xdotool","key","Return"],timeout=10)
                 time.sleep(3)
@@ -101,11 +147,13 @@ def test_reader(reader,outdir):
                 result["blocking_first_run_dialog"]=bool(
                     named_window("Welcome to Xiphos") or
                     named_window("Module Manager") or
-                    named_window("can not create directory")
+                    named_window("can not create directory") or
+                    named_window("^Xiphos$")
                 )
             else:
                 result["blocking_first_run_dialog"]=bool(
-                    named_window("Welcome to BibleTime")
+                    named_window("Welcome to BibleTime") or
+                    named_window("Tip of the Day")
                 )
             return result
         finally:
@@ -156,7 +204,12 @@ def main():
     if report["visible_reader_window_count"]!=len(readers):
         raise SystemExit("One or more graphical readers did not open")
     if report["blocking_first_run_dialogs"]:
-        raise SystemExit("GUI reader blocked by welcome/module-manager/error dialog: not an acceptance test")
+        raise SystemExit("GUI reader blocked by a startup/modal dialog: not an acceptance test")
+    required={"xiphos":{"xiphos-startup.png","xiphos-aaron-attempt.png"},
+              "bibletime":{"bibletime-startup.png"}}
+    for reader in readers:
+        if not required[reader["name"]].issubset(set(reader["screenshots"])):
+            raise SystemExit("Missing readable GUI screenshot for "+reader["name"])
 
 if __name__=="__main__":
     main()
