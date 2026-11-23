@@ -27,7 +27,7 @@ class Additional1915ProseDeltasTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_ledger(data, self.source, self.research, self.witness)
 
-    def test_ten_individual_print_attestations_have_exact_original_source(self):
+    def test_sixteen_individual_print_attestations_have_exact_original_source(self):
         rows = validate_ledger(self.spec, self.source, self.research, self.witness)
         self.assertEqual(len(rows), 16)
         self.assertEqual({r['source_key'] for r in rows},
