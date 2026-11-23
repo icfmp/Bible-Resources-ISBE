@@ -42,20 +42,21 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p workspace/tmp/native-root/modules/lexdict/rawld4/brisbe1915
+          mkdir -p workspace/tmp/native-root/modules/lexdict/zld/brisbe1915
           mkdir -p workspace/tmp/native-root/mods.d
-          if ! tei2mod workspace/tmp/native-root/modules/lexdict/rawld4/brisbe1915/dict \
-            workspace/tmp/isbe-sword-import.xml -s 4 -N \
+          if ! tei2mod workspace/tmp/native-root/modules/lexdict/zld/brisbe1915 \
+            workspace/tmp/isbe-sword-import.xml -z z -N \
             > workspace/tmp/tei2mod.log 2>&1; then
             tail -60 workspace/tmp/tei2mod.log
             exit 1
           fi
           { tei2mod --version || true; }
-          find workspace/tmp/native-root/modules/lexdict/rawld4/brisbe1915/ -type f -printf '%P %s bytes\n'
+          find workspace/tmp/native-root/modules/lexdict/zld/brisbe1915/ -type f -printf '%P %s bytes\n'
           cat > workspace/tmp/native-root/mods.d/brisbe1915.conf <<'CONF'
           [BRISBE1915]
-          DataPath=./modules/lexdict/rawld4/brisbe1915/dict
-          ModDrv=RawLD4
+          DataPath=./modules/lexdict/zld/brisbe1915/dict
+          ModDrv=zLD
+          CompressType=ZIP
           SourceType=TEI
           Encoding=UTF-8
           Lang=en
