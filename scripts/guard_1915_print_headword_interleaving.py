@@ -94,12 +94,16 @@ def guard_interleaved_headings(lines, entries, accepted, reports):
             h["scan_pdf_page_1_based"], h["source_key"]
         ))
         row["intervening_print_heading_candidates"] = witnesses
+        row["withheld_ocr_span_start_scan_pdf_page_1_based"] = None
+        row["withheld_ocr_span_next_heading_scan_pdf_page_1_based"] = None
         if not witnesses:
             continue
         if row["ocr_latin_tokens"] is None:
             # No OCR word-count claim to withdraw from an already unresolved
             # source entry. Keep its status unchanged.
             continue
+        row["withheld_ocr_span_start_scan_pdf_page_1_based"] = lines[start]["page"]
+        row["withheld_ocr_span_next_heading_scan_pdf_page_1_based"] = lines[stop]["page"]
         for name in (
             "ocr_latin_tokens", "ocr_start_pdf_page", "ocr_end_pdf_page",
             "ocr_to_tei_ratio", "source_fourgram_recall",
