@@ -150,6 +150,45 @@ class OriginalPrintedWordCountTests(unittest.TestCase):
         self.assertEqual(stats["bracketed_duplicate_heading_rescues"], 1)
         self.assertIn(1, accepted)
 
+    def test_weak_heading_requires_independent_nearby_source_prose(self):
+        src = example()
+        src[2] = ("Aaron's Rod", 60, 160)
+        src[3] = ("uncommon ancient biography within three", 60, 178)
+        lines = self.get_lines(page_xml(src))
+        a = entries(("AARON", 3), ("AARON'S ROD", 5),
+                    ("ABASE", 3), ("ABBOT", 2))
+        a[1]["opening_latin_tokens"] = [
+            "uncommon", "ancient", "biography", "within", "three", "other"
+        ]
+        accepted, stats = unique_print_headings(lines, a)
+        self.assertEqual(stats["weak_bracketed_context_rescues"], 1)
+        self.assertIn(1, accepted)
+        self.assertEqual(stats["strict_ordered_unique_heading_articles"], 3)
+
+    def test_weak_heading_without_source_opening_cannot_inflate_coverage(self):
+        src = example()
+        src[2] = ("Aaron's Rod", 60, 160)
+        lines = self.get_lines(page_xml(src))
+        a = entries(("AARON", 3), ("AARON'S ROD", 0),
+                    ("ABASE", 3), ("ABBOT", 2))
+        accepted, stats = unique_print_headings(lines, a)
+        self.assertEqual(stats["weak_bracketed_context_rescues"], 0)
+        self.assertNotIn(1, accepted)
+
+    def test_weak_heading_without_two_strong_neighbors_is_not_rescued(self):
+        src = example()
+        src[0] = ("Aaron", 60, 70)
+        src[1] = ("uncommon ancient biography within three", 60, 88)
+        lines = self.get_lines(page_xml(src))
+        a = entries(("AARON", 5), ("AARON'S ROD", 2),
+                    ("ABASE", 3), ("ABBOT", 2))
+        a[0]["opening_latin_tokens"] = [
+            "uncommon", "ancient", "biography", "within", "three"
+        ]
+        accepted, stats = unique_print_headings(lines, a)
+        self.assertEqual(stats["weak_bracketed_context_rescues"], 0)
+        self.assertNotIn(0, accepted)
+
     def test_printed_body_crop_and_page_count_guard(self):
         lines = self.get_lines(page_xml([
             ("INTERNATIONAL STANDARD BIBLE ENCYCLOPAEDIA", 60, 20),
