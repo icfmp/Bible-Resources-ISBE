@@ -39,7 +39,7 @@ def sample():
             source_fourgram_recall=0.8, ocr_fourgram_precision=0.8,
         )
         reports.append({
-            "schema_version": 4, "volume": vol, "print_pdf_sha256": sha,
+            "schema_version": 5, "volume": vol, "print_pdf_sha256": sha,
             "canonical_tei_sha256": SOURCE_LOCK,
             "pdf_pages": 700, "publication_permitted": False,
             "ocr_not_original_print_certification": True,
@@ -50,6 +50,8 @@ def sample():
                 "unresolved_print_boundaries": 1875,
             },
             "heading_diagnostics": {"ordered_unique_heading_articles": 2},
+            "content_candidate_diagnostic_count": 0,
+            "content_candidate_diagnostics": [],
             "entries": rows,
         })
     manifest = {
@@ -58,6 +60,47 @@ def sample():
         "volumes": volumes,
     }
     return reports, manifest
+
+
+def install_synthetic_candidate(report, *, low_recall=0.1):
+    """Build exact allowlisted digest-only evidence for an original-source row.
+
+    Synthetic source keys don't reference any historical article prose.
+    """
+    row, following = report["entries"][:2]
+    row["source_fourgram_recall"] = low_recall
+    from scripts.audit_1915_article_ocr_word_counts import latin_tokens
+    case = {
+        "source_key": row["article_key"],
+        "article_xml_id": row["article_xml_id"],
+        "review_queue": "similar_length_low_phrase_overlap",
+        "source_latin_token_count": row["tei_latin_tokens"],
+        "candidate_ocr_latin_token_count": row["ocr_latin_tokens"],
+        "source_tokens_sha256": "a"*64,
+        "ocr_candidate_tokens_sha256": "b"*64,
+        "initial_heading_scan_pdf_page_1_based": 1,
+        "next_known_heading_scan_pdf_page_1_based": 1,
+        "next_source_article_key": following["article_key"],
+        "span_pdf_page_count_inclusive": 1,
+        "ocr_word_count_by_scan_page": [{
+            "scan_pdf_page_1_based": 1,
+            "ocr_tokens_in_page_segment": (
+                row["ocr_latin_tokens"] + len(latin_tokens(row["article_key"]))
+            ),
+        }],
+        "tei_token_unigram_recall": 0.4,
+        "tei_token_bigram_recall": 0.2,
+        "tei_token_trigram_recall": 0.15,
+        "tei_token_fourgram_recall": low_recall,
+        "unique_fourgram_overlap_footprint": None,
+        "candidate_ocr_span_not_an_original_print_certification": True,
+        "print_page_images_directly_compared": False,
+        "textual_correction_authorized": False,
+        "publication_permitted": False,
+    }
+    report["content_candidate_diagnostics"] = [case]
+    report["content_candidate_diagnostic_count"] = 1
+    return case
 
 
 class OCRAggregateSafetyTests(unittest.TestCase):
@@ -103,10 +146,41 @@ class OCRAggregateSafetyTests(unittest.TestCase):
 
     def test_similar_counts_with_low_phrase_overlap_are_flagged_not_certified(self):
         reports, manifest = sample()
-        reports[0]["entries"][0]["source_fourgram_recall"] = 0.1
+        install_synthetic_candidate(reports[0])
         result = self.run_synthetic(reports, manifest)
         self.assertEqual(result["near_word_count_but_low_source_phrase_overlap"], 1)
         self.assertFalse(result["top_30_near_word_count_low_overlap"][0]["source_print_certified"])
+
+    def test_all_queued_anomalies_require_evidence_even_if_count_summary_succeeds(self):
+        reports, manifest = sample()
+        reports[0]["entries"][0]["source_fourgram_recall"] = 0.1
+        with self.assertRaises(ValueError):
+            self.run_synthetic(reports, manifest)
+
+    def test_prohibited_original_ocr_prose_field_is_rejected(self):
+        reports, manifest = sample()
+        case = install_synthetic_candidate(reports[0])
+        case["ocr_article_text"] = "Unapproved prose leakage"
+        with self.assertRaises(ValueError):
+            self.run_synthetic(reports, manifest)
+
+    def test_unsupported_print_image_approval_is_rejected(self):
+        reports, manifest = sample()
+        case = install_synthetic_candidate(reports[0])
+        case["print_page_images_directly_compared"] = True
+        with self.assertRaises(ValueError):
+            self.run_synthetic(reports, manifest)
+
+    def test_wrong_source_next_heading_or_word_totals_are_rejected(self):
+        reports, manifest = sample()
+        case = install_synthetic_candidate(reports[0])
+        case["next_source_article_key"] = "INVENTED"
+        with self.assertRaises(ValueError):
+            self.run_synthetic(reports, manifest)
+        case["next_source_article_key"] = reports[0]["entries"][1]["article_key"]
+        case["ocr_word_count_by_scan_page"][0]["ocr_tokens_in_page_segment"] += 1
+        with self.assertRaises(ValueError):
+            self.run_synthetic(reports, manifest)
 
     def test_missing_or_impossible_lexical_evidence_is_rejected(self):
         reports, manifest = sample()

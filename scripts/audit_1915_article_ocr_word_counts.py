@@ -27,6 +27,7 @@ import xml.etree.ElementTree as ET
 from scripts.research_1915_print_pages import (
     candidate_heading, expected_volume, normalize,
 )
+from scripts.diagnose_1915_ocr_candidate_spans import diagnose_candidates
 
 TEI = "{http://www.tei-c.org/ns/1.0}"
 ID = "{http://www.w3.org/XML/1998/namespace}id"
@@ -419,8 +420,9 @@ def compare_bbox(bbox_file, pdf_sha, source_sha, volume, manifest, entries):
     lines = bbox_lines(bbox_file, witness[0]["pages"])
     accepted, alignment = unique_print_headings(lines, entries)
     reports, statuses = assess(lines, entries, accepted)
+    targeted = diagnose_candidates(lines, entries, accepted, reports, latin_tokens)
     return {
-        "schema_version": 4,
+        "schema_version": 5,
         "volume": volume,
         "print_pdf_sha256": pdf_sha,
         "canonical_tei_sha256": source_sha,
@@ -437,6 +439,9 @@ def compare_bbox(bbox_file, pdf_sha, source_sha, volume, manifest, entries):
         "article_count_sum": sum(statuses.values()),
         "heading_diagnostics": alignment,
         "status_counts": statuses,
+        "content_candidate_diagnostic_method": "existing SHA-locked 1915 PDF OCR bboxes, no second extraction; 1/2/3/4-gram evidence and unique 4-gram localization; no historical image certification",
+        "content_candidate_diagnostics": targeted,
+        "content_candidate_diagnostic_count": len(targeted),
         "entries": reports,
     }
 

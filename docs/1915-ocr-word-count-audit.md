@@ -236,3 +236,50 @@ separate historical edition. The two queues overlap the count-based
 queues and must not be added together as distinct confirmed errors.
 They are candidates for reviewing original images and OCR layout, never
 automatic approval for edits or publication.
+
+## Reproducible review dossiers for the 24 + 9 candidate queues
+
+The next audit builds a **bounded, automatic evidence dossier per flagged
+article** from the same original PDF extraction; there is **no second
+download or OCR pass**. This lets researchers prioritize printed image
+inspection without publishing entire OCR transcriptions or silently
+editing the canonical TEI.
+
+The source-locked report contains one record for every qualifying
+candidate: the exact source article key and stable XML ID; the candidate
+category; PDF page numbers and the following known article title;
+normalized word counts and separate SHA-256 fingerprints of the source
+and OCR tokens; page-by-page OCR word-count distribution; and normalized
+source recall for unigrams, bigrams, trigrams and four-grams.
+
+For long OCR spans, a separate localization algorithm selects
+four-word sequences that occur **exactly once in both witnesses** and
+finds the shortest OCR interval containing 80% of these unique matches.
+If there are fewer than twelve such correspondences, the localization
+remains explicitly null rather than speculating about a target.
+The report records the span offset and PDF page bounds of the
+localization candidate, never quotes or reconstructs historical prose.
+
+These diagnostics can help distinguish two kinds of *hypothesis*:
+
+1. A long OCR span in which most source-specific phrases occupy a
+   relatively compact region may have swallowed adjacent print material.
+2. An article with similar source/OCR length but low four-gram recall
+   can be checked at the one-, two- and three-word levels to assess
+   whether OCR word order or an actual variant needs source-image review.
+
+**Neither explanation is automatically accepted.** A reproduced OCR
+position remains only a digital transcription-layer observation; it
+does not prove that the printed page has a particular article boundary.
+Every report explicitly sets page images reviewed = false, textual
+correction authorized = false, and publication permitted = false.
+Historical page-image verification and the independent rights review
+remain open. The strictly immutable CrossWire ZIP/IMP and canonical TEI
+remain unchanged.
+
+The aggregator checks that every one of the selected cases has a
+matching, nonduplicated evidence dossier, verifies original volume and
+canonical source hashes, ensures exact article IDs, reconciles per-page
+token totals with known OCR counts, rejects extra unapproved fields
+that could leak OCR text, and refuses machine-claimed print
+certification.
