@@ -94,6 +94,28 @@ def dismiss_tip_of_day():
     time.sleep(1)
     return not bool(named_window("Tip [Oo]f [Tt]he Day"))
 
+def window_origin(window):
+    """Return desktop geometry origin for a real, visible GUI window."""
+    result=command(["xdotool","getwindowgeometry","--shell",window],timeout=10)
+    if result.returncode:
+        raise RuntimeError("Unable to locate graphical reader window")
+    values=dict(line.split("=",1) for line in result.stdout.splitlines()
+                if "=" in line)
+    return int(values["X"]),int(values["Y"])
+
+def click_at(window,offset_x,offset_y,double=False):
+    """Click a row relative to its containing *top-level* window."""
+    x,y=window_origin(window)
+    cmd=["xdotool","mousemove",str(x+offset_x),str(y+offset_y)]
+    if command(cmd,timeout=10).returncode:
+        raise RuntimeError("Unable to move pointer to reader control")
+    click=["xdotool","click"]
+    if double:
+        click+=["--repeat","2","--delay","180"]
+    click+=["1"]
+    if command(click,timeout=10).returncode:
+        raise RuntimeError("Unable to click reader control")
+
 def test_reader(reader,outdir,lookup_key):
     name=reader["name"]
     log=outdir/(name+".log")
@@ -116,9 +138,14 @@ def test_reader(reader,outdir,lookup_key):
         for _ in range(35):
             window=find_window(reader["window_class"])
             if window:
-                break
+                title=command(["xdotool","getwindowname",window]).stdout.strip()
+                if ((name=="xiphos" and title.endswith(" - Xiphos")) or
+                    (name=="bibletime" and title.startswith("BibleTime "))):
+                    break
             if process.poll() is not None:
+                window=None
                 break
+            window=None
             time.sleep(1)
         result={"name":name,"executable":reader["argv"][0],
                 "window_found":bool(window),"window_title":None,
@@ -164,7 +191,9 @@ def test_reader(reader,outdir,lookup_key):
                 # which is meaningful only if the module is selected in UI.
                 # Send an actual representative lookup; screenshot is for
                 # human review, not proof that a key displayed correctly.
-                command(["xdotool","key","--clearmodifiers","alt+d"],timeout=10)
+                # Focus the visible dictionary lookup field; Alt+D alone
+                # may target a different pane on a fresh Xiphos profile.
+                click_at(window,545,380)
                 command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
                 command(["xdotool","type","--clearmodifiers","--delay","80",lookup_key],timeout=10)
                 command(["xdotool","key","Return"],timeout=10)
@@ -178,26 +207,18 @@ def test_reader(reader,outdir,lookup_key):
                 if screen.returncode==0 and shot.stat().st_size>1000:
                     result["screenshots"].append(shot.name)
             if name=="bibletime":
-                # On a clean, isolated profile the bookshelf contains the
-                # two independently asserted categories: Bibles, then
-                # Lexicons and Dictionaries. These are intentionally simple
-                # UI actions for human screenshot review, NOT programmatic
-                # certification that the selected article rendered.
-                # In this fixed 1440x900 Xvfb session the main BibleTime
-                # window opens at (240,138) before the bookshelf selection.
-                # Relative xdotool mouse moves addressed a child titled
-                # "bibletime" instead of its visible main window. Use the
-                # observed absolute on-screen category coordinates here;
-                # screenshots remain the source of truth for acceptance.
-                command(["xdotool","mousemove","340","296"],timeout=10)
-                command(["xdotool","click","--repeat","2","--delay","180","1"],timeout=10)
+                # Exercise each visible bookshelf level before opening a
+                # dictionary. Use *window-relative* GUI coordinates on this
+                # fixed Xvfb fixture rather than absolute screen pixels.
+                click_at(window,100,158)   # Lexicons and Dictionaries
+                time.sleep(1)
+                click_at(window,40,176)    # English language group
                 time.sleep(1)
                 expanded=outdir/"bibletime-lexicons-expanded.png"
                 pic=command(["scrot",str(expanded)],timeout=15)
                 if pic.returncode==0 and expanded.stat().st_size>1000:
                     result["screenshots"].append(expanded.name)
-                command(["xdotool","mousemove","352","331"],timeout=10)
-                command(["xdotool","click","--repeat","2","--delay","180","1"],timeout=10)
+                click_at(window,115,195,double=True)   # module name
                 time.sleep(3)
                 opened=outdir/"bibletime-article-attempt.png"
                 pic=command(["scrot",str(opened)],timeout=15)
