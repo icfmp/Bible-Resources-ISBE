@@ -15,7 +15,6 @@ import xml.etree.ElementTree as ET
 TEI="http://www.tei-c.org/ns/1.0"
 XML="http://www.w3.org/XML/1998/namespace"
 NS=f"{{{TEI}}}"
-SOURCE_SHA="5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c"
 ET.register_namespace("",TEI)
 
 def digest(path):
@@ -25,7 +24,7 @@ def digest(path):
             out.update(chunk)
     return out.hexdigest()
 
-def read_entries(source,expected_sha=SOURCE_SHA):
+def read_entries(source,expected_sha,expected_count):
     source=Path(source)
     if expected_sha and digest(source)!=expected_sha:
         raise ValueError("Source TEI SHA-256 is not the locked historical master")
@@ -37,8 +36,8 @@ def read_entries(source,expected_sha=SOURCE_SHA):
     if header is None or body is None:
         raise ValueError("Missing TEI header or body")
     entries=list(body)
-    if len(entries)!=9380:
-        raise ValueError("Expected exactly 9380 source entries")
+    if expected_count and len(entries)!=expected_count:
+        raise ValueError(f"Expected {expected_count} source entries; got {len(entries)}")
     ids=set()
     keys=set()
     nested=0
@@ -62,9 +61,9 @@ def read_entries(source,expected_sha=SOURCE_SHA):
         })
     return header,entries,nested,details
 
-def convert(source,outpath,reportpath):
+def convert(source,outpath,reportpath,expected_sha,expected_count):
     source=Path(source);outpath=Path(outpath);reportpath=Path(reportpath)
-    header,entries,nested,details=read_entries(source)
+    header,entries,nested,details=read_entries(source,expected_sha,expected_count)
     output=ET.Element(NS+"TEI",{f"{{{XML}}}lang":"en"})
     output.append(copy.deepcopy(header))
     text=ET.SubElement(output,NS+"text")
@@ -109,8 +108,10 @@ def main():
     p.add_argument("--source",default="sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml")
     p.add_argument("--output",required=True)
     p.add_argument("--report",required=True)
+    p.add_argument("--expected-sha256",required=True)
+    p.add_argument("--expected-count",type=int,required=True)
     args=p.parse_args()
-    report=convert(args.source,args.output,args.report)
+    report=convert(args.source,args.output,args.report,args.expected_sha256,args.expected_count)
     print(json.dumps({k:v for k,v in report.items() if k!="entries"},indent=2))
 
 if __name__=="__main__":
