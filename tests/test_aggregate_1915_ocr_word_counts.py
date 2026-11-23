@@ -3,7 +3,7 @@ import copy
 import unittest
 from unittest.mock import patch
 
-from scripts.aggregate_1915_ocr_word_counts import aggregate, SOURCE_LOCK
+from scripts.aggregate_1915_ocr_word_counts import aggregate, approved_recovery_map, SOURCE_LOCK
 
 
 def sample():
@@ -64,6 +64,30 @@ class OCRAggregateSafetyTests(unittest.TestCase):
         with patch("scripts.aggregate_1915_ocr_word_counts.expected_volume",
                    side_effect=lambda key: key.split("-")[1]):
             return aggregate(reports, manifest)
+
+    def test_source_empty_restoration_witness_matches_all_original_empty_keys(self):
+        from pathlib import Path
+        import json
+        root = Path(__file__).resolve().parents[1] / "workspace" / "reviews"
+        approved = json.loads((root / "1915-second-pass-visual-approval-v1.json").read_text(encoding="utf-8"))
+        empty = json.loads((root / "empty-article-recovery-ledger.json").read_text(encoding="utf-8"))
+        result = approved_recovery_map(approved, empty)
+        self.assertEqual(len(result), 31)
+        self.assertEqual(result["ABISSEI"], "prose")
+
+    def test_source_empty_restoration_provenance_guard(self):
+        from pathlib import Path
+        import json
+        root = Path(__file__).resolve().parents[1] / "workspace" / "reviews"
+        approved = json.loads((root / "1915-second-pass-visual-approval-v1.json").read_text(encoding="utf-8"))
+        empty = json.loads((root / "empty-article-recovery-ledger.json").read_text(encoding="utf-8"))
+        approved["published"] = True
+        with self.assertRaises(ValueError):
+            approved_recovery_map(approved, empty)
+        approved["published"] = False
+        approved["records"][0]["approved_for_separate_editorial_tei"] = False
+        with self.assertRaises(ValueError):
+            approved_recovery_map(approved, empty)
 
     def test_full_corpus_coverage_only_five_real_sources(self):
         reports, manifest = sample()
