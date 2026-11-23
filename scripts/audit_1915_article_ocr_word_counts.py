@@ -202,6 +202,36 @@ def _repeated_title_rescues(lines, entries, hits, strict):
     return rescues
 
 
+def _weak_contextual_title_rescues(lines, entries, weak_hits, strict, promoted):
+    """TitleCase/lowercase OCR headings must have independent opening evidence.
+
+    Do not accept low-scoring matches globally. Only consider a unique
+    exact-text heading between two independently accepted strict anchors,
+    and match at least three ordered distinctive source words immediately
+    after it. This protects against a sentence/prose line looking like a
+    short article name.
+    """
+    anchors = sorted(strict)
+    rescued = {}
+    for index, positions in weak_hits.items():
+        if index in strict or index in promoted:
+            continue
+        offset = bisect_left(anchors, index)
+        if not 0 < offset < len(anchors):
+            continue
+        lower, upper = strict[anchors[offset-1]], strict[anchors[offset]]
+        if lower >= upper:
+            continue
+        between = [pos for pos in positions if lower < pos < upper]
+        if len(between) != 1:
+            continue
+        pos = between[0]
+        if (normalize(lines[pos]["text"]) == normalize(entries[index]["key"])
+                and _opening_context_agrees(lines, pos, entries[index])):
+            rescued[index] = pos
+    return rescued
+
+
 def unique_print_headings(lines, entries):
     """Two-stage monotonic alignment, preserving a strict-baseline counter.
 
@@ -221,24 +251,33 @@ def unique_print_headings(lines, entries):
     unique_names = {canon for canon, indices in normalized.items()
                     if len(indices) == 1}
     hits = defaultdict(list)
+    weak_hits = defaultdict(list)
     for pos, line in enumerate(lines):
         text = line["text"]
         prefix = normalize(text)
         if not prefix:
             continue
-        candidates = [
-            (len(canon), index, key) for canon, key, index
-            in by_word.get(prefix.split()[0], ())
-            if canon in unique_names and candidate_heading(text, key) >= 4
-        ]
-        if not candidates:
+        strong, weak = [], []
+        for canon, key, index in by_word.get(prefix.split()[0], ()):
+            if canon not in unique_names:
+                continue
+            score = candidate_heading(text, key)
+            if score >= 4:
+                strong.append((len(canon), index))
+            elif score == 1 and prefix == canon:
+                weak.append((len(canon), index))
+        # Never allow a weak title to override a strong title on this line.
+        matches = strong or weak
+        if not matches:
             continue
-        best = max(c[0] for c in candidates)
-        winners = [c for c in candidates if c[0] == best]
+        best = max(length for length, _ in matches)
+        winners = [index for length, index in matches if length == best]
         if len(winners) != 1:
             continue
-        _, index, _ = winners[0]
-        hits[index].append(pos)
+        if strong:
+            hits[winners[0]].append(pos)
+        else:
+            weak_hits[winners[0]].append(pos)
     unique = [(positions[0], index)
               for index, positions in hits.items() if len(positions) == 1]
     unique.sort()
@@ -265,8 +304,12 @@ def unique_print_headings(lines, entries):
     strict = {index: pos for i, (pos, index) in enumerate(unique)
               if i in kept}
     rescues = _repeated_title_rescues(lines, entries, hits, strict)
+    weak_rescues = _weak_contextual_title_rescues(
+        lines, entries, weak_hits, strict, rescues
+    )
     accepted = dict(strict)
     accepted.update(rescues)
+    accepted.update(weak_rescues)
     if len(set(accepted.values())) != len(accepted):
         raise ValueError("Duplicate source heading positions assigned")
     sorted_positions = [accepted[i] for i in sorted(accepted)]
@@ -278,6 +321,8 @@ def unique_print_headings(lines, entries):
         "strict_ordered_unique_heading_articles": len(strict),
         "ordered_unique_heading_articles": len(accepted),
         "bracketed_duplicate_heading_rescues": len(rescues),
+        "weak_heading_candidates": sum(len(v) for v in weak_hits.values()),
+        "weak_bracketed_context_rescues": len(weak_rescues),
         "ambiguous_multiple_heading_articles": sum(len(p) != 1 for p in hits.values()),
         "nonmonotonic_unique_heading_articles": len(unique) - len(strict),
         "normalized_key_collisions": sum(len(v) > 1 for v in normalized.values()),
@@ -338,14 +383,14 @@ def compare_bbox(bbox_file, pdf_sha, source_sha, volume, manifest, entries):
     accepted, alignment = unique_print_headings(lines, entries)
     reports, statuses = assess(lines, entries, accepted)
     return {
-        "schema_version": 2,
+        "schema_version": 3,
         "volume": volume,
         "print_pdf_sha256": pdf_sha,
         "canonical_tei_sha256": source_sha,
         "pdf_pages": witness[0]["pages"],
         "ocr_latin_token_definition": "NFKD decomposition then ASCII [a-z0-9]+; non-Latin characters, punctuation and typography are not compared",
         "extraction": "single pdftotext -bbox-layout pass over entire SHA-locked original volume",
-        "alignment": "v1 unique uppercase monotonic anchors plus strict repeated-title rescues bracketed by two v1 anchors; immediately adjacent TEI article pairs only",
+        "alignment": "v1 unique uppercase monotonic anchors + strongly bracketed repeated headings + weak exact titles supported by three ordered source-opening tokens within strong anchor brackets; adjacent TEI article pairs only",
         "source": manifest["bibliographic_citation"],
         "original_pages_2887_2888_available_in_volume_v": False if volume == "5" else None,
         "ocr_not_original_print_certification": True,
