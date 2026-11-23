@@ -180,6 +180,11 @@ def bbox_lines(path, page_count):
             marker[2] for marker in possible_sections
             if marker[3] >= 1.25 * usual_height and usual_height > 0
         })
+        # A *rejected* candidate is an ordinary OCR token. Never erase
+        # potential authorial text merely because it resembles a section.
+        for xmin, x, y, _, value in possible_sections:
+            if y not in cuts:
+                buckets[int(x >= width / 2)].append((y, value))
         edges = [float("-inf"), *cuts, float("inf")]
         for band in range(len(edges)-1):
             for col in (0, 1):
