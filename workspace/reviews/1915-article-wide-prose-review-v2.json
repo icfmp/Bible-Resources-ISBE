@@ -1,0 +1,728 @@
+{
+  "schema_version": 2,
+  "scope": "All 24 low-fourgram article bodies read from original 1915 scanned page images against full digital English visible prose; exact Greek, Hebrew, Arabic glyphs, punctuation, critical typography, and references still require scholarly collation. Read-through is NOT full print-original certification.",
+  "canonical_tei_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "source_images_research_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45139297142",
+  "full_historical_collation_certified": false,
+  "publication_permitted": false,
+  "canonical_source_modified": false,
+  "editorial_changes_approved": false,
+  "entries": [
+    {
+      "source_key": "ABIDE",
+      "source_article_xml_id": "isbe-a0d0790fca21ada422f4",
+      "volume": "1",
+      "pdf_page": 33,
+      "pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "page_image_sha256": "31729843e1b9f971b7d7fff69d8eaad8ef5afcab27f7831983231d630c414800",
+      "canonical_visible_text_sha256": "0a9600f7aa939972bd4204e6c57b6264a8f188d11a551077497ae1afbe7abd9f",
+      "canonical_visible_text_characters": 1062,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "review_note": "Entire original entry from ABIDE to Dwight M. Pratt on vol I p33: repeated printed 'a.' is wrongly expanded as 'abide' digitally; original Hebrew/Greek spellings are not represented.",
+      "remaining_work": [
+        "Exact original language script, diacritics and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [
+        {
+          "digital_exact": "His bow abide (remained) in strength",
+          "print_excerpt": "His bow a. [remained] in strength",
+          "classification": "misexpanded_abbreviation"
+        },
+        {
+          "digital_exact": "make our abide with him",
+          "print_excerpt": "make our a. with him",
+          "classification": "misexpanded_abbreviation"
+        }
+      ],
+      "verified_continuation_pages": []
+    },
+    {
+      "source_key": "BALTASAR",
+      "source_article_xml_id": "isbe-971c2321db93b9bc27c5",
+      "volume": "1",
+      "pdf_page": 415,
+      "pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "page_image_sha256": "c05b36408a97441a157a0b375888ae922456efaf05c0607678363d131946e393",
+      "canonical_visible_text_sha256": "bd850b9b3da72c9201cbc06273686f0a4dae13ff39d6a13da16450ca6fe41d3d",
+      "canonical_visible_text_characters": 817,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Read full printed three-part BALTASAR article on volume I page 415 through A. L. Breslich signature against digital English prose; printed Greek/Hebrew/Syriac original forms and AV abbreviation are not fully encoded in source."
+    },
+    {
+      "source_key": "BELLY",
+      "source_article_xml_id": "isbe-2b8490c61ed13100748a",
+      "volume": "1",
+      "pdf_page": 468,
+      "pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "page_image_sha256": "a427121d8f4c2f3b04b1fdb1329932659ad322cec456e517f44e5372f794c619",
+      "canonical_visible_text_sha256": "99eb88aa318249ca265291be004d6ba0cb122ad1131ce622cc9bd12b66b9b798",
+      "canonical_visible_text_characters": 728,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Read start at bottom of first column and full continuation at top of second column on volume I page 468; digital espec ially breaks printed esp., and original Hebrew/Greek glyphs are lost."
+    },
+    {
+      "source_key": "BUSINESS",
+      "source_article_xml_id": "isbe-8eb6a764bc6f20a33477",
+      "volume": "1",
+      "pdf_page": 569,
+      "pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "page_image_sha256": "636e9142329140404d65262b5e7ee62d1d5fc7de13dce3f8026ed865a0f8c7be",
+      "canonical_visible_text_sha256": "41b50a3a5a3eb09dd4d328fad099f6ea8d1eeaeffa6bbfe8ba61a02659b40e79",
+      "canonical_visible_text_characters": 1589,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Complete printed BUSINESS from headword to Arthur J. Kinsella on vol. I p. 569 compared against all digital English prose. Four printed Hebrew headwords and a printed Greek quotation/citation-word cluster are missing or replaced by Latin transliterations; the digital Greek expression 'en, tois, tou patros mou' introduces commas absent in the printed Greek.",
+      "new_article_wide_findings": [
+        {
+          "digital_exact": "en, tois, tou patros mou",
+          "print_reading": "ἐν τοῖς τοῦ πατρός μου",
+          "kind": "original_greek_script_and_spurious_commas",
+          "text_correction_approved": false
+        }
+      ]
+    },
+    {
+      "source_key": "CARPENTER",
+      "source_article_xml_id": "isbe-e78e1f91782c8aaaffae",
+      "volume": "1",
+      "pdf_page": 620,
+      "pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "page_image_sha256": "02008e69b02a27fd78ffaaadaea25ddee2c3d9c97239dcd3fedbf39328f3e5f8",
+      "canonical_visible_text_sha256": "11268ae476b2613ff8707d262706dfe361131df964af729c6bc157c5cc08b2a3",
+      "canonical_visible_text_characters": 609,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "review_note": "Complete printed text occupies bottom of left column and top of right column on vol I p620: English text checked across the physical column transition; original Hebrew/Greek script absent digitally.",
+      "remaining_work": [
+        "Exact original language script, diacritics and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [
+        {
+          "digital_exact": "(charash; tekton)",
+          "print_excerpt": "(חָרָשׁ, hārāsh; τέκτων, téktōn)",
+          "classification": "original_script_omission"
+        }
+      ],
+      "verified_continuation_pages": []
+    },
+    {
+      "source_key": "CONFUSION",
+      "source_article_xml_id": "isbe-30478949b60c5881beb3",
+      "volume": "2",
+      "pdf_page": 42,
+      "pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "page_image_sha256": "43bc247fc1aa2cda6ec5d1f964b558c636a70b73e98df924461abe0cfccc9612",
+      "canonical_visible_text_sha256": "040f54c121e46254253680148c430f4b9da06b82330ac84aa0036742cc50b630",
+      "canonical_visible_text_characters": 878,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "review_note": "Entire entry from heading to W. L. Walker on vol II p42: original 'akatastasia' becomes digital 'akatashatasia'; original-language script omitted.",
+      "remaining_work": [
+        "Exact original language script, diacritics and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [
+        {
+          "digital_exact": "Greek akatashatasia, \"instability\"",
+          "print_excerpt": "Gr akatastasia, “instability”",
+          "classification": "lexical_substitution"
+        }
+      ],
+      "verified_continuation_pages": []
+    },
+    {
+      "source_key": "GAINSAY",
+      "source_article_xml_id": "isbe-b892edd68cfa282dd67e",
+      "volume": "2",
+      "pdf_page": 505,
+      "pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "page_image_sha256": "88f820a4945cb7c8a5c8561ece0f1f015dc79b79a1724fcd4ca97f63556b3976",
+      "canonical_visible_text_sha256": "c2bf5ab15bff30dfbf1250312c79410bd023b034148ad02dbf1bcc17047b3994",
+      "canonical_visible_text_characters": 880,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Complete printed GAINSAY through W. L. Walker on vol. II p. 505 compared against all digital English prose. Four electronic /APC reference locator prefixes are absent in print. Printed 'Ad Est 13 9' differs from the digital Additions-to-Esther 9:13 navigation/display: verify printed-book versification before changing a target. Original Greek and Latin forms are not all represented in original script.",
+      "new_article_wide_findings": [
+        {
+          "digital_exact": "Additions to  Esther 9:13",
+          "print_reading": "Ad Est 13 9",
+          "kind": "apocrypha_verse_versification_and_book_display_mismatch_requires_review",
+          "text_correction_approved": false
+        },
+        {
+          "digital_exact": "/APC 1Macc 14:44",
+          "print_reading": "1 Macc 14 44",
+          "kind": "unprinted_internal_navigation_prefix",
+          "text_correction_approved": false
+        }
+      ]
+    },
+    {
+      "source_key": "HERB",
+      "source_article_xml_id": "isbe-74d89030a45b096ede61",
+      "volume": "2",
+      "pdf_page": 732,
+      "pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "page_image_sha256": "91eddf0b91f1b05ce722570716e837620f7faf649706abbce20de8061c04c18c",
+      "canonical_visible_text_sha256": "448e6d2333df5555b5b64aeaa9a1e6c5312a210ffd2d3d8c644353a27509dd90",
+      "canonical_visible_text_characters": 1101,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Complete seven numbered printed HERB senses and E. W. G. Masterman signature on vol. II p. 732 compared against digital English prose. The original Hebrew/Arabic/Greek word forms and typography are not retained; the separate editorial PR #69 already corrects the printed opening quotation of 'a garden of herbs'.",
+      "new_article_wide_findings": []
+    },
+    {
+      "source_key": "IMAGINATION",
+      "source_article_xml_id": "isbe-874980b16e0f5ea10490",
+      "volume": "3",
+      "pdf_page": 88,
+      "pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "page_image_sha256": "b67e14bd8553dcb6e63c229c8aec5ae3079c0fc9294a75681dacfb55a7f00110",
+      "canonical_visible_text_sha256": "ab7bebd03fbf49a58e4ae15b43daee3b41cac395b5d90348b49b53eba6ba53c1",
+      "canonical_visible_text_characters": 1460,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Read complete printed IMAGINATION from lower left of volume III page 88 through W. L. Walker signature; Hebrew/Greek original glyphs and some compact marginal reference typography absent in digital."
+    },
+    {
+      "source_key": "JERUBBESHETH",
+      "source_article_xml_id": "isbe-1ac75cd37db7b473de8a",
+      "volume": "3",
+      "pdf_page": 231,
+      "pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "page_image_sha256": "f217b9c1856424a475f592dc3ca67eef5f44a98994ffd3214a9ef4b78e78114c",
+      "canonical_visible_text_sha256": "6e39447fc193b5ff392edc59805b71da5430a2ab47c3c2cc39b5c7727fc8e80e",
+      "canonical_visible_text_characters": 830,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Read article across the left-column foot and right-column top on vol. III p. 231, through David Francis Roberts signature. English text corresponds apart from previously attested reluctant/reluctance error (corrected in separate PR #69), expanded LXX/Septuagint conventions and printed original Hebrew words.",
+      "new_article_wide_findings": []
+    },
+    {
+      "source_key": "JEUSH",
+      "source_article_xml_id": "isbe-d28a8c1d46819539b64b",
+      "volume": "3",
+      "pdf_page": 313,
+      "pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "page_image_sha256": "6ccf1f8b4cbac9dc4ce022d794fe502413af7768616d3fc1c2f388cb467ead4e",
+      "canonical_visible_text_sha256": "144dcc69e00e6971c8d3d4009bb362c6d05bf2967dec5874a99ff6d0f20d4730",
+      "canonical_visible_text_characters": 619,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Complete printed five-item JEUSH article and David Francis Roberts signature on vol. III p. 313 checked against digital English. The extra digital comma in 'that, of an Arabian lion-god' was already corrected in separate PR #69; original Hebrew forms and source italics remain absent.",
+      "new_article_wide_findings": []
+    },
+    {
+      "source_key": "LINE",
+      "source_article_xml_id": "isbe-81a0d84c989551158408",
+      "volume": "3",
+      "pdf_page": 536,
+      "pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "page_image_sha256": "658c976368bedd5db8e9e1f22bfa6038876d33277acf63bb9559386d01f60369",
+      "canonical_visible_text_sha256": "820a625b99436b2fc804417e73a9be90dd45fcfa741ed276d202c29bc57ab5e1",
+      "canonical_visible_text_characters": 753,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Entire printed LINE from headword through James Orr and all scripture citations on vol. III p. 536 checked against digital English. Original printed Greek phthoggos and Hebrew qaw/chebhel are represented in digital Latin; the missing opening parenthesis was already corrected in PR #69.",
+      "new_article_wide_findings": []
+    },
+    {
+      "source_key": "MEADOW",
+      "source_article_xml_id": "isbe-185f20346f14005e6f24",
+      "volume": "3",
+      "pdf_page": 657,
+      "pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "page_image_sha256": "c82c31e7f6f3788eb886b12b9e7bf390267aafcc3ecb407e725490a7ed394deb",
+      "canonical_visible_text_sha256": "6f9a94c69ea30bf3b7d41abe672d71e0fc4c15a984a9c599a34434745df9bbfa",
+      "canonical_visible_text_characters": 1491,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Entire numbered MEADOW article read from headword to Alfred Ely Day on vol. III p. 657, including intervening column content. The printed Hebrew and Arabic forms are omitted digitally and AV/RV abbreviations expanded; expansion corrupts nested quotation boundaries in the printed Isaiah 19:7 phrase.",
+      "new_article_wide_findings": [
+        {
+          "digital_exact": "the meadows (the King James Version \"paper reeds\") by the Nile\"",
+          "print_reading": "the meadows” (AV “paper reeds”) by the Nile",
+          "kind": "quotation_boundary_shift",
+          "text_correction_approved": false
+        }
+      ]
+    },
+    {
+      "source_key": "OZIAS",
+      "source_article_xml_id": "isbe-e4a85353cc42b6ac599b",
+      "volume": "4",
+      "pdf_page": 112,
+      "pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "page_image_sha256": "bc4ec6d105c0c3bb214d783b2b4f931469af212a52bd82661e9e08936c8522b1",
+      "canonical_visible_text_sha256": "26eb87c2cc72ff86464708b7a8aa1ad148c5c96ab9a3cc5df9fe0f0bac2444fb",
+      "canonical_visible_text_characters": 607,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Read entire four-part original printed OZIAS from volume IV page 112 through S. Angus signature; digital expands the sigla and lacks Greek manuscript readings."
+    },
+    {
+      "source_key": "PRESENCE",
+      "source_article_xml_id": "isbe-66d9a2e1c2bf7b1a6522",
+      "volume": "4",
+      "pdf_page": 354,
+      "pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "page_image_sha256": "c4549a1598c607e975f3226bc9aa7cfac8f404496c33f35030fd3ecd4f3b834c",
+      "canonical_visible_text_sha256": "90571d704de15fb4f7439a4192cee2508fe946920b8d65f7799812ac1d0fc32b",
+      "canonical_visible_text_characters": 921,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Whole printed PRESENCE from headword at the left-column foot to Burton Scott Easton signature at right-column top on vol. IV p. 354 checked against digital English. Printed Hebrew panim/ayin/neghedh and Greek parousia forms appear in original alphabet; digital uses only Latin forms. No additional English prose omission established by this pass.",
+      "new_article_wide_findings": []
+    },
+    {
+      "source_key": "RECOVER",
+      "source_article_xml_id": "isbe-f9b5b9db79dec543d817",
+      "volume": "4",
+      "pdf_page": 454,
+      "pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "page_image_sha256": "8b4961acdcb5c1e4857afa37256856ac86f0335170fb5551e8f8e7ab6e57275f",
+      "canonical_visible_text_sha256": "6aff48fe0cf15dd7f478a52d39b16c2d487cf81ea2d5273bace64efd56071611",
+      "canonical_visible_text_characters": 1105,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Whole printed RECOVER from left-column foot to W. L. Walker in right column on vol. IV p. 454 read against digital English. Printed Hebrew and Greek spellings are missing in digitized visible text, and print AV/RV abbreviations are expanded, without a newly established substantial English prose deletion.",
+      "new_article_wide_findings": []
+    },
+    {
+      "source_key": "REPAIR",
+      "source_article_xml_id": "isbe-d90b7f3c18342b7511bf",
+      "volume": "4",
+      "pdf_page": 474,
+      "pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "page_image_sha256": "453524e91248a202ad3cfade5675363ff15d2f87342c134301b1c55a9fc77f5c",
+      "canonical_visible_text_sha256": "c799d6d47a5ac4b08ce8888b3d3ee93da130eeeeac2cd61dd21cfb704adc595d",
+      "canonical_visible_text_characters": 748,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Complete printed REPAIR through M. O. Evans on vol. IV p. 474 compared with digital English. Original opening parentheses and quotation marks around the Joel 3:16 quotation are missing; several original Hebrew and Greek forms and historical sigla are absent or expanded. Exact punctuation change remains deferred due to markup boundaries.",
+      "new_article_wide_findings": [
+        {
+          "digital_exact": "for the King James Version The Lord will be the hope of his people\"",
+          "print_reading": "for AV (“The Lord will be the hope of his people”)",
+          "kind": "lost_opening_quote_and_parenthesis",
+          "text_correction_approved": false
+        }
+      ]
+    },
+    {
+      "source_key": "STOREHOUSES",
+      "source_article_xml_id": "isbe-4b003ce4172c6a31eefb",
+      "volume": "5",
+      "pdf_page": 53,
+      "pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "page_image_sha256": "ed0a0634f80bfacad8d1f835ecd9d190314deb24bc86edc030b376dcdeac43ab",
+      "canonical_visible_text_sha256": "3d79f481eec32ee858982eab92a20383a812930c75d78acc2e273ca06c18cdd7",
+      "canonical_visible_text_characters": 654,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "review_note": "Entire short entry lies between STORE-CITIES and STORIES on vol V p53; English body was read through; abbreviated AV/RV and original Hebrew are not preserved exactly.",
+      "remaining_work": [
+        "Exact original language script, diacritics and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [],
+      "verified_continuation_pages": []
+    },
+    {
+      "source_key": "SUMMER",
+      "source_article_xml_id": "isbe-20281d1b6cf1a97468ec",
+      "volume": "5",
+      "pdf_page": 60,
+      "pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "page_image_sha256": "2563e4a82b99ef9d647a37b81f0eca3a48279fcda828add9eb779c1a52e63a56",
+      "canonical_visible_text_sha256": "6f680500a168c34d81f7e3f1667d398fb3dd1925dde9396a14cdd7f1102fd1f9",
+      "canonical_visible_text_characters": 627,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "review_note": "Entire entry lies between SULPHUR and SUMMER-HOUSE on vol V p60, through H. Porter signature; original Hebrew, Aramaic and Greek spellings require exact transcription.",
+      "remaining_work": [
+        "Exact original language script, diacritics and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [],
+      "verified_continuation_pages": []
+    },
+    {
+      "source_key": "VERY",
+      "source_article_xml_id": "isbe-82296ddaa3ed3a5fd42f",
+      "volume": "5",
+      "pdf_page": 244,
+      "pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "page_image_sha256": "60772fbcd0c2d90e21ee5e57b5a953377fbee8b10d9373fecabd883b570f0ab8",
+      "canonical_visible_text_sha256": "a106339c47a35751825f3b753d2c7d836d2dd4c4eadecd5352fed4bd42be1803",
+      "canonical_visible_text_characters": 888,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "review_note": "Entire entry from VERY to W. L. Walker on vol V p244; printed 'As advb. it is commonly' becomes 'As ab adverb it is commonly' digitally; exact script and typography not certified.",
+      "remaining_work": [
+        "Exact original language script, diacritics and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [
+        {
+          "digital_exact": "As ab adverb it is commonly",
+          "print_excerpt": "As advb. it is commonly",
+          "classification": "broken_word_expansion"
+        }
+      ],
+      "verified_continuation_pages": []
+    },
+    {
+      "source_key": "WATERCOURSE",
+      "source_article_xml_id": "isbe-00b0884454c0475cc92d",
+      "volume": "5",
+      "pdf_page": 270,
+      "pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "page_image_sha256": "64b9a4eaa69da841918a4b95dd1f1c7a1c0c49eb6e396d832df3da869f37aa8c",
+      "canonical_visible_text_sha256": "75bb6bfbe7bbedc92830b110e6b2db7dd349d60f2541346924d56ddab53812fc",
+      "canonical_visible_text_characters": 839,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Complete printed five-sense WATERCOURSE to Alfred Ely Day on vol. V p. 270 checked against English digitization. The image-attested Jehovah/Yahweh substitution was already corrected separately by PR #69; printed Hebrew forms and citation typography differ from Latin-only digital.",
+      "new_article_wide_findings": []
+    },
+    {
+      "source_key": "YEA",
+      "source_article_xml_id": "isbe-c788343f411cecf5a42d",
+      "volume": "5",
+      "pdf_page": 326,
+      "pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "page_image_sha256": "f3d6def138e525418c386af110ac7ac51373ffe6249ef8e8fbc2fe68518a7208",
+      "canonical_visible_text_sha256": "568f351f6f108669751797810d435dbdd799c0a1dd7bce7e6456e39acad95d62",
+      "canonical_visible_text_characters": 846,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [
+        {
+          "digital_exact": "16:3, etc.]",
+          "print_excerpt": "16 3, etc.)",
+          "classification": "punctuation_substitution",
+          "note": "The original right parenthesis after the 2 Kings citation is represented by an unmatched square bracket in digital text."
+        }
+      ],
+      "verified_continuation_pages": [],
+      "review_note": "Read entire printed YEA from volume V page 326 through Frank E. Hirsch signature; digital preserves two numbered sections as running text rather than printed marginal headings, and contains an unmatched right bracket."
+    },
+    {
+      "source_key": "ZABUD",
+      "source_article_xml_id": "isbe-a0563e9ac3e97a4acdc6",
+      "volume": "5",
+      "pdf_page": 328,
+      "pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "page_image_sha256": "315436afe256cbce6740bb1ce09111f341f9a082a51b6d36ce579325040a7f14",
+      "canonical_visible_text_sha256": "a2d51548d45994fae0d8efbdf69537ad059741678ca0c03c53e29334e72cdcf0",
+      "canonical_visible_text_characters": 678,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": false,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
+        "Independent second visual pass"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [
+        {
+          "pdf_page": 329,
+          "image_sha256": "cf6b05de09558a263f56f949f5ddcd9f334aa31a5c9cf7f6576b903699e8af7c",
+          "research_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45204221240"
+        }
+      ],
+      "review_note": "Read both printed original ZABUD pages 328 and 329 in volume V through David Francis Roberts signature, including the king's friend discussion. The first page ends mid-sentence; the new second-page image supplies the missing continuation. Source digital expansions and missing Hebrew graphy remain uncollated at character level."
+    },
+    {
+      "source_key": "ZEBIDAH",
+      "source_article_xml_id": "isbe-974293b2f1af7d985888",
+      "volume": "5",
+      "pdf_page": 334,
+      "pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "page_image_sha256": "2678f6a992faff479d62dcc86c18c03b1ea6bab434f680ff8dde5ae793345b1b",
+      "canonical_visible_text_sha256": "765c47abf574779beeba7eaed1ad58133c64303d424bfd8a8748c76bf2d11199",
+      "canonical_visible_text_characters": 952,
+      "digitized_source_nonlatin_script_characters": 0,
+      "original_nonlatin_script_visible_in_print": true,
+      "printed_article_end_observed_on_same_page": true,
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
+      "original_script_punctuation_and_markup_verified": false,
+      "full_word_for_word_print_collation_certified": false,
+      "remaining_work": [
+        "Original-language glyph-by-glyph, diacritics, punctuation, all biblical references, and typography against original page images",
+        "Independent repeat reading of all article elements"
+      ],
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Entire ZEBIDAH article from vol. V p. 334 headword through David Francis Roberts signature examined against digital English prose. Printed Hebrew names and selected Greek textual witnesses are transliterated or absent in digital original script; the broad wording and reference sequence remains present.",
+      "new_article_wide_findings": []
+    }
+  ],
+  "source_images_continuation_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45204221240",
+  "previous_review_git_blob_sha1": "7b3eac7f2df630e8c19cc0f1b5b354eb33d8642c",
+  "previous_review_path": "workspace/reviews/1915-article-wide-prose-review-v1.json",
+  "english_prose_read_through_count": 24
+}
