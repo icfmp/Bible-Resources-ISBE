@@ -32,7 +32,7 @@ def witness():
 
 def report(cases):
     return {
-        "schema_version": 5,
+        "schema_version": 8,
         "canonical_tei_sha256": LOCK,
         "print_pdf_sha256": "a" * 64,
         "volume": "3",
