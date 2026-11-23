@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "canonical_source_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "previous_noncanonical_layer": "1915_16_exact_prose_corrections",
+  "previous_noncanonical_tei_sha256": "3b622fa7ecebede0ee96c78d75f9f232667fe212717b8c83d70cebeb86edd732",
+  "original_witness": "James Orr ISBE 1915, vol II printed folio 1153, original PDF page 505",
+  "witness_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+  "witness_jpeg_sha256": "88f820a4945cb7c8a5c8561ece0f1f015dc79b79a1724fcd4ca97f63556b3976",
+  "original_print_quotation": "Ad Est 13 9, antitassō",
+  "supporting_text_witness": "King James Version 1611 Additions to Esther 13:9: there is no man that can gainsay thee",
+  "osis_book_authority": "https://wiki.crosswire.org/OSIS_Book_Abbreviations",
+  "approval_scope": "one_exact_printed_source_article_scripture_display_and_navigation_fix_only",
+  "original_canonical_unchanged": true,
+  "previous_noncanonical_layer_unchanged": true,
+  "full_1915_historical_article_collation_certified": false,
+  "redistribution_authorized": false,
+  "decisions": [
+    {
+      "operation": "replace_one_scripture_ref_with_preceding_tail",
+      "source_key": "GAINSAY",
+      "source_article_xml_id": "isbe-b892edd68cfa282dd67e",
+      "source_paragraph_xml_id": "isbe-b892edd68cfa282dd67e-n000003",
+      "previous_paragraph_text_sha256": "5b670086cd6a1f78265b61e7ae74c070153325a7fb4bb0a44dc340e219d279ee",
+      "preceding_ref_xml_id": "isbe-b892edd68cfa282dd67e-n000005",
+      "preceding_ref_expected_cRef": "Bible:Rom.10.21",
+      "preceding_ref_original_tail": "); 2 Esd 5 29, contradicebant; Jth 8 28, anthistemi; 12 14, antero; Additions to  ",
+      "preceding_ref_new_tail": "); 2 Esd 5 29, contradicebant; Jth 8 28, anthistemi; 12 14, antero; Ad ",
+      "source_ref_xml_id": "isbe-b892edd68cfa282dd67e-n000006",
+      "source_ref_original_visible": "Esther 9:13",
+      "source_ref_new_visible": "Est 13 9",
+      "source_ref_original_cRef": "Bible:Esth.9.13",
+      "source_ref_new_cRef": "Bible:AddEsth.13.9",
+      "source_ref_type": "scripture",
+      "printed_folio": 1153,
+      "pdf_page": 505,
+      "print_reading": "Ad Est 13 9",
+      "approved_for_separate_editorial_tei": true,
+      "rationale": "The original 1915 page clearly cites Additions to Esther 13:9, and the 1611 KJV Apocrypha uses the verb 'gainsay' in this exact verse. The original digital cRef Esther 9:13 points to a different book/passage. Correct this one exact source-locked text and navigation target without changing canonical source, independent article text or apocrypha versification rules."
+    }
+  ]
+}
