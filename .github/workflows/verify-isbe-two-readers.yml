@@ -118,6 +118,14 @@ jobs:
           export XDG_RUNTIME_DIR="$HOME/.run"
           mkdir -p "$HOME" "$XDG_DATA_HOME" "$XDG_CONFIG_HOME" "$XDG_CACHE_HOME" "$XDG_STATE_HOME" "$XDG_RUNTIME_DIR"
           chmod 700 "$XDG_RUNTIME_DIR"
+          # Also install into the isolated standard per-user SWORD location.
+          # This checks BibleTime's own module discovery independently from
+          # the SWORD_PATH override accepted by Xiphos and Diatheke.
+          mkdir -p "$HOME/.sword"
+          cp -a workspace/tmp/gui-module/mods.d "$HOME/.sword/"
+          cp -a workspace/tmp/gui-module/modules "$HOME/.sword/"
+          env -u SWORD_PATH diatheke -b system -k modulelist | tee workspace/tmp/user-home-module-list.txt
+          env -u SWORD_PATH diatheke -b system -k modulelist | grep -q BRISBE1915
           xvfb-run -a -s '-screen 0 1440x900x24' \
             dbus-run-session -- bash -c '
               set -euo pipefail
@@ -139,5 +147,6 @@ jobs:
             workspace/tmp/GUI_NATIVE_VALIDATION.json
             workspace/tmp/openbox.log
             workspace/tmp/native-available-modules.txt
+            workspace/tmp/user-home-module-list.txt
           if-no-files-found: warn
           retention-days: 14

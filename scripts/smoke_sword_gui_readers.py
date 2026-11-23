@@ -88,6 +88,10 @@ def test_reader(reader,outdir,lookup_key):
     env["GDK_BACKEND"]="x11"
     env["QT_QPA_PLATFORM"]="xcb"
     env["NO_AT_BRIDGE"]="1"
+    # BibleTime 3.0.x may enumerate only system modules with SWORD_PATH.
+    # Exercise its supported normal per-user ~/.sword installation instead.
+    if name=="bibletime":
+        env.pop("SWORD_PATH",None)
     with log.open("w",encoding="utf-8") as stream:
         process=subprocess.Popen(reader["argv"],env=env,
                                  stdout=stream,stderr=subprocess.STDOUT)
@@ -102,6 +106,7 @@ def test_reader(reader,outdir,lookup_key):
         result={"name":name,"executable":reader["argv"][0],
                 "window_found":bool(window),"window_title":None,
                 "screenshots":[],"startup_exit_status":process.poll(),
+                "sword_install_source":"user_home" if name=="bibletime" else "SWORD_PATH",
                 "module_name_visible_in_window_unverified":True,
                 "article_markup_visible_unverified":True,
                 "gui_link_click_unverified":True}
