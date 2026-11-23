@@ -14,7 +14,7 @@ document **fifteen bounded individual phrase discrepancies**, using images
 from the SHA-locked
 [original-image research run 45139297142](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45139297142).
 The review ledger is
-[`1915-low-overlap-prose-image-spotchecks-v2.json`](../workspace/reviews/1915-low-overlap-prose-image-spotchecks-v1.json).
+[`1915-low-overlap-prose-image-spotchecks-v2.json`](../workspace/reviews/1915-low-overlap-prose-image-spotchecks-v2.json).
 
 | Article | Original 1915 volume / PDF page / printed folio | Bounded observation |
 | --- | --- | --- |
@@ -64,3 +64,11 @@ Maintain independent, reversible editorial delta records with source and
 historical witnesses before any change to a separately maintained 1915
 edition. The CrossWire ZIP/IMP, canonical TEI and approved historical
 edition stay untouched. Redistribution remains blocked by rights review #1.
+
+## Individually attested noncanonical text corrections
+
+Eight of the fifteen reviewed printed/digital snippets have a separately approved,
+exact-source, markup-preserving corrective operation. Their independent
+noncanonical TEI stage, strict regression checks, and seven deliberately deferred
+snippets are described in [the print-backed prose delta report](1915-image-attested-prose-deltas.md).
+This is not full-article collation; the 24 historical image comparisons remain open.
