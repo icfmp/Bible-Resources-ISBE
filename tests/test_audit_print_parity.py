@@ -14,10 +14,10 @@ class PrintParityTests(unittest.TestCase):
         original=SOURCE.read_bytes()
         result=check(SOURCE,LEDGER)
         self.assertEqual(result["article_count"],9380)
-        self.assertEqual(result["case_count"],3)
+        self.assertEqual(result["case_count"],7)
         self.assertEqual(result["approved_change_count"],0)
-        self.assertEqual({r["source_key"] for r in result["cases"]},{"AARON","AALAR"})
-        self.assertEqual(len({r["unit_xml_id"] for r in result["cases"]}),3)
+        self.assertEqual({r["source_key"] for r in result["cases"]},{"AARON","AALAR","AARON'S ROD","AB (1)","ABASE"})
+        self.assertEqual(len({r["unit_xml_id"] for r in result["cases"]}),6)
         self.assertEqual(SOURCE.read_bytes(),original)
 
     def test_reject_source_drift(self):

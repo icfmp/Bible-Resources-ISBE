@@ -5,7 +5,7 @@
   "source_evidence_ledger": "workspace/reviews/1915-nonempty-contrast-v1.json",
   "publication_permitted": false,
   "independent_human_peer_review": false,
-  "purpose": "Source-locked, reversible corrections to separately generated 1915 editorial TEI only; original CrossWire remains immutable",
+  "purpose": "Exact source-locked reversible corrections to the separately generated 1915 editorial TEI, including multiple independent deltas per article; not to the immutable CrossWire canonical witness.",
   "decisions": [
     {
       "operation": "replace_article_ref",
@@ -20,6 +20,82 @@
       "evidence_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
       "evidence_rendered_jpeg_sha256": "e87dee75f8d24da8f863d9446d7c686e37f35db0c18403afe9179b1aca0f0c4a",
       "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45116299265"
+    },
+    {
+      "operation": "replace_text_span",
+      "source_key": "AARON",
+      "source_unit_xml_id": "isbe-c4ddde6d464e6713eef5-n000018",
+      "original_visible": "Yahweh had called them",
+      "printed_visible": "Jehovah had called them",
+      "rationale": "Original printed volume I folio 1 reads Jehovah, not CrossWire's Yahweh.",
+      "approved_for_separate_editorial_tei": true,
+      "evidence_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "evidence_rendered_jpeg_sha256": "e87dee75f8d24da8f863d9446d7c686e37f35db0c18403afe9179b1aca0f0c4a",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45116299265"
+    },
+    {
+      "operation": "replace_text_span",
+      "source_key": "AARON",
+      "source_unit_xml_id": "isbe-c4ddde6d464e6713eef5-n000018",
+      "original_visible": "Moses hands",
+      "printed_visible": "Moses' hands",
+      "rationale": "Original printed volume I folio 1 retains Moses' possessive apostrophe omitted from CrossWire.",
+      "approved_for_separate_editorial_tei": true,
+      "evidence_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "evidence_rendered_jpeg_sha256": "e87dee75f8d24da8f863d9446d7c686e37f35db0c18403afe9179b1aca0f0c4a",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45116299265"
+    },
+    {
+      "operation": "replace_text_span",
+      "source_key": "AARON'S ROD",
+      "source_unit_xml_id": "isbe-d012ee347e578c6d51fd-n000003",
+      "original_visible": "command of Yahweh",
+      "printed_visible": "command of Jehovah",
+      "rationale": "Original printed volume I folio 2 reads Jehovah.",
+      "approved_for_separate_editorial_tei": true,
+      "evidence_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "evidence_rendered_jpeg_sha256": "d9d048f544ddf0e83353382899aa16cb218860e971bc9d989b305e0ef9b0d540",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45117828758"
+    },
+    {
+      "operation": "replace_scripture_ref_series",
+      "source_key": "AB (1)",
+      "source_unit_xml_id": "isbe-21841db19e61a3f3a07a-n000014",
+      "source_ref_xml_id": "isbe-21841db19e61a3f3a07a-n000015",
+      "original_visible": "Mr 4:6",
+      "original_c_ref": "Bible:Mark.4.6",
+      "printed_visible": "Mk 14:36; Rom 8:15; Gal 4:6",
+      "replacements": [
+        {
+          "visible": "Mk 14:36",
+          "cRef": "Bible:Mark.14.36"
+        },
+        {
+          "visible": "Rom 8:15",
+          "cRef": "Bible:Rom.8.15"
+        },
+        {
+          "visible": "Gal 4:6",
+          "cRef": "Bible:Gal.4.6"
+        }
+      ],
+      "rationale": "The printed 1915 volume I folio 2 cites all three Abba passages. CrossWire kept only an erroneous Mark 4:6; colon notation encodes printed chapter/verse typography in this TEI.",
+      "approved_for_separate_editorial_tei": true,
+      "evidence_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "evidence_rendered_jpeg_sha256": "d9d048f544ddf0e83353382899aa16cb218860e971bc9d989b305e0ef9b0d540",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45117828758"
+    },
+    {
+      "operation": "replace_text_span",
+      "source_key": "ABASE",
+      "source_unit_xml_id": "isbe-5e75953b172e64383bba-n000003",
+      "original_visible": "daunt Yahweh",
+      "printed_visible": "daunt Jehovah",
+      "rationale": "Original printed volume I folio 3 reads Jehovah, not CrossWire's Yahweh.",
+      "approved_for_separate_editorial_tei": true,
+      "evidence_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "evidence_rendered_jpeg_sha256": "bb25961e2f4816486bba2f35b9c407acf610de258435881cd16a53d498a25a78",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45117828758"
     }
   ]
 }
