@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "canonical_source_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "preceding_editorial_layer": "1915_print_attested_31_plus_6_plus_12_plus_1",
+  "evidence_level": "digital_visible_label_corrobated_not_original_print",
+  "original_1915_folios_verified": false,
+  "publication_permitted": false,
+  "independent_human_peer_review": false,
+  "scope": "Navigation target metadata only, not an assertion about the missing 1915 print folios",
+  "decisions": [
+    {
+      "source_key": "TAANACH",
+      "source_unit_xml_id": "isbe-c683f5f7386bb41de7d0-n000003",
+      "source_ref_xml_id": "isbe-c683f5f7386bb41de7d0-n000008",
+      "original_visible": "f; Jud 1:27",
+      "original_cRef": "Bible:Rev.1.2",
+      "corrected_cRef": "Bible:Judg.1.27",
+      "explicit_label_book": "Jud",
+      "explicit_label_chapter": 1,
+      "explicit_label_verse": 27,
+      "printed_1915_certification": false,
+      "digital_witness_urls": [
+        "https://m.egwwritings.org/en/book/14702.55472",
+        "https://gospelcompanion.app/dictionary/taanach"
+      ],
+      "approved_for_noncanonical_navigation_layer": true,
+      "rationale": "Digital visible label is unambiguous (Judges 1:27) while the encoded target points to Revelation 1:2. Two publicly readable ISBE transcriptions agree on Judges 1:27. The missing 1915 Cornell facsimile folios 2887-2888 remain unverified; this change corrects navigation only and makes no claim of print collation."
+    }
+  ]
+}
