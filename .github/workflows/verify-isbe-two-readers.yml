@@ -20,7 +20,7 @@ jobs:
       - name: Install native SWORD and independent Xiphos/BibleTime graphical readers
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq libsword-utils diatheke xiphos bibletime \
+          sudo apt-get install -y -qq libsword-utils diatheke sword-text-kjv xiphos bibletime \
             xvfb xdotool scrot openbox dbus-x11
           command -v xiphos
           command -v bibletime
@@ -51,7 +51,17 @@ jobs:
           About=Source-locked historical ISBE candidate. NOT APPROVED FOR REDISTRIBUTION.
           DistributionLicense=Copyrighted
           CONF
+          # Both independent GUI clients require a real Bible module on
+          # their first launch, even when testing an encyclopedia dictionary.
+          # Use Ubuntu's separately packaged public-domain KJV as an isolated
+          # test fixture; it is NOT part of the curated ISBE release payload.
+          mkdir -p workspace/tmp/gui-module/modules/texts/ztext
+          cp -a /usr/share/sword/modules/texts/ztext/kjv             workspace/tmp/gui-module/modules/texts/ztext/
+          cp -a /usr/share/sword/mods.d/kjv.conf             workspace/tmp/gui-module/mods.d/
           export SWORD_PATH="$PWD/workspace/tmp/gui-module"
+          diatheke -b system -k modulelist | tee workspace/tmp/native-available-modules.txt
+          grep -q BRISBE1915 workspace/tmp/native-available-modules.txt
+          grep -q KJV workspace/tmp/native-available-modules.txt
           mod2imp BRISBE1915 >workspace/tmp/gui-module.imp
           python3 scripts/validate_sword_dictionary_roundtrip.py \
             --input-tei workspace/tmp/dict-import.xml \
@@ -89,5 +99,6 @@ jobs:
             workspace/tmp/gui-reader-review/*.png
             workspace/tmp/GUI_NATIVE_VALIDATION.json
             workspace/tmp/openbox.log
+            workspace/tmp/native-available-modules.txt
           if-no-files-found: warn
           retention-days: 14
