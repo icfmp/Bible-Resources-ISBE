@@ -33,6 +33,33 @@ jobs:
             --connect-timeout 20 --max-time 360 \
             "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
             --output "workspace/tmp/print-evidence/vol-${{ matrix.volume }}.pdf"
+      - name: Examine original digital article readings and stable IDs (read-only)
+        run: |
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          source=Path('cleaned/en/ISBE.xml')
+          raw=source.read_bytes()
+          expected='a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25'
+          assert hashlib.sha256(raw).hexdigest()==expected
+          t='{http://www.tei-c.org/ns/1.0}'
+          xid='{http://www.w3.org/XML/1998/namespace}id'
+          root=ET.fromstring(raw)
+          body=root.find('./'+t+'text/'+t+'body')
+          keys=["AARON","AARONITES","AARON'S ROD","AB (1)","AB (2)","ABACUC","ABADDON","ABADIAS","ABAGARUS","ABAGTHA","ABANAH","ABARIM","ABASE"]
+          found={a.get('n'):a for a in body if a.get('n') in keys}
+          assert len(found)==len(keys),(len(found),sorted(set(keys)-set(found)))
+          print('ORIGINAL_CANONICAL_SHA',expected,flush=True)
+          for key in keys:
+              article=found[key]
+              units=[n for n in article.iter() if n.tag in (t+'p',t+'head') and n.get('type')!='index']
+              samples=[{'unit_id':n.get(xid),'text':''.join(n.itertext())[:700]} for n in units[:4]]
+              if len(units)>4:
+                  samples.extend([{'unit_id':n.get(xid),'text':''.join(n.itertext())[:500]} for n in units[-2:]])
+              refs=[{'source_text':''.join(n.itertext()),'target':n.get('target'),'original':n.get('n')} for n in article.iter(t+'ref') if n.get('target')]
+              print('DIGITAL_ENTRY '+json.dumps({'key':key,'article_id':article.get(xid),'units':len(units),'samples':samples,'first_8_article_refs':refs[:8]},ensure_ascii=False),flush=True)
+          PY
       - name: Render SHA-locked page images to temporary evidence log
         run: |
           python scripts/render_1915_print_evidence.py \
