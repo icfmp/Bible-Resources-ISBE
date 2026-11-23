@@ -22,12 +22,20 @@ def command(args,**kw):
     return subprocess.run(args,capture_output=True,text=True,**kw)
 
 def find_window(app):
+    matches=[]
     for query in (["--class",app],["--name",app]):
         process=command(["xdotool","search","--onlyvisible",*query])
         values=[v for v in process.stdout.splitlines() if v.strip().isdigit()]
-        if values:
-            return values[-1]
-    return None
+        for value in values:
+            title=command(["xdotool","getwindowname",value]).stdout.strip().casefold()
+            # Prefer the real application window to a transient child with
+            # title "window", or the Xiphos locale prompt titled "Xiphos".
+            if (app=="xiphos" and title.endswith(" - xiphos")) or (
+                app=="bibletime" and title.startswith("bibletime ") and
+                any(ch.isdigit() for ch in title)):
+                return value
+        matches.extend(values)
+    return matches[-1] if matches else None
 
 def named_window(pattern):
     proc=command(["xdotool","search","--onlyvisible","--name",pattern])
@@ -73,7 +81,7 @@ def dismiss_tip_of_day():
     time.sleep(1)
     return not bool(named_window("Tip of the Day"))
 
-def test_reader(reader,outdir):
+def test_reader(reader,outdir,lookup_key):
     name=reader["name"]
     log=outdir/(name+".log")
     env=os.environ.copy()
@@ -136,10 +144,10 @@ def test_reader(reader,outdir):
                 # human review, not proof that a key displayed correctly.
                 command(["xdotool","key","--clearmodifiers","alt+d"],timeout=10)
                 command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
-                command(["xdotool","type","--clearmodifiers","--delay","80","AARON"],timeout=10)
+                command(["xdotool","type","--clearmodifiers","--delay","80",lookup_key],timeout=10)
                 command(["xdotool","key","Return"],timeout=10)
                 time.sleep(3)
-                shot=outdir/"xiphos-aaron-attempt.png"
+                shot=outdir/"xiphos-lookup-attempt.png"
                 screen=command(["scrot",str(shot)],timeout=15)
                 if screen.returncode==0 and shot.stat().st_size>1000:
                     result["screenshots"].append(shot.name)
@@ -168,6 +176,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-dir",required=True)
     parser.add_argument("--module-id",required=True)
+    parser.add_argument("--lookup-key",required=True)
     args=parser.parse_args()
     if not os.getenv("DISPLAY") or not os.getenv("SWORD_PATH"):
         raise SystemExit("Require active X display and isolated SWORD_PATH")
@@ -187,9 +196,9 @@ def main():
     lookup=command(["diatheke","-b","system","-k","modulelist"])
     if lookup.returncode or args.module_id not in lookup.stdout:
         raise SystemExit("Native corrected SWORD module not discoverable")
-    readers=[test_reader(r,out) for r in READERS]
+    readers=[test_reader(r,out,args.lookup_key) for r in READERS]
     report={
-       "schema_version":1,"module":args.module_id,
+       "schema_version":1,"module":args.module_id,"lookup_key":args.lookup_key,
        "scope":"visible_GUI_launch_only_plus_keyboard_navigation_attempt",
        "independent_gui_readers":readers,
        "visible_reader_window_count":sum(bool(r["window_found"]) for r in readers),
@@ -205,7 +214,7 @@ def main():
         raise SystemExit("One or more graphical readers did not open")
     if report["blocking_first_run_dialogs"]:
         raise SystemExit("GUI reader blocked by a startup/modal dialog: not an acceptance test")
-    required={"xiphos":{"xiphos-startup.png","xiphos-aaron-attempt.png"},
+    required={"xiphos":{"xiphos-startup.png","xiphos-lookup-attempt.png"},
               "bibletime":{"bibletime-startup.png"}}
     for reader in readers:
         if not required[reader["name"]].issubset(set(reader["screenshots"])):

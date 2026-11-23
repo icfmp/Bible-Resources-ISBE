@@ -124,6 +124,7 @@ jobs:
               openbox --sm-disable >workspace/tmp/openbox.log 2>&1 &
               python3 scripts/smoke_sword_gui_readers.py \
                 --module-id BRISBE1915 \
+                --lookup-key AARON \
                 --output-dir workspace/tmp/gui-reader-review
             '
       - name: Upload only GUI launch evidence and strict native validation (NOT full binary)
