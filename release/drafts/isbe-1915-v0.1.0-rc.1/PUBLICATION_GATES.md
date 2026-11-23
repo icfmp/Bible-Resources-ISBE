@@ -1,6 +1,6 @@
 # Rights and editorial gates for ISBE 1915 v0.1.0-rc.1
 
-**Outcome: DO NOT PUBLISH.** A source-pinned internal GitHub release *draft* may be staged, but no release publication is authorized by technical validations.
+**Outcome: DO NOT PUBLISH.** A source-pinned internal GitHub release *draft* now holds both corrected TEI source and a real compiled SWORD binary candidate. Neither is approved for **public** redistribution on the basis of technical validation alone.
 
 ## Verified
 
@@ -8,7 +8,13 @@
 - [x] CrossWire **declares** `DistributionLicense=Public Domain` for the module, confirmed at https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=ISBE and in the archived module configuration.
 - [x] The 1915 Orr/Howard-Severance print is an original historical source; pre-1931 U.S. publication is public domain in the U.S.
 - [x] The corrected 9,380-entry historical TEI is separately pinned and can be reconstructed byte-for-byte with original evidence and official TEI P5 schema validation.
-- [x] Cleaned edition, source-faithful CrossWire witness and original ZIP are distinctly stored and identified; no SWORD package has been published.
+- [x] Cleaned edition, source-faithful CrossWire witness and original ZIP are distinctly stored and identified; a compiled native SWORD binary is stored in an **unpublished draft only**, and no SWORD package has been publicly released.
+
+- [x] Source-locked `tei2mod` compilation of an actual corrected `BRISBE1915` ZIP zLD module.
+- [x] Full native SWORD `mod2imp` parity: 9,380 entries, zero text/XML mismatch, original source unchanged.
+- [x] Validate 5,919 converted internal navigation targets and 93,164 exposed Bible reference fields in the compiled text; record 80 reduced section-scroll targets.
+- [x] Retain private source and native binary release **draft** assets with SHA-256 and delete the expiring publicly retrievable Actions copy.
+- [ ] Xiphos/BibleTime independent graphical reader acceptance, including actual hyperlink clicks, Greek/Hebrew, editorial structure and article navigation.
 
 ## Unresolved before publication
 
@@ -16,7 +22,7 @@
 - [ ] Verify the exact chain and basis of CrossWire 2.2 digital *text / markup / later OCR corrections*, including contributions not in the original 1915 edition.
 - [ ] Confirm whether the rights situation of the exact digitally edited TEI is sufficient for unrestricted redistribution in target countries, not merely for preserving working files in Git.
 - [ ] Independently check contributor and publisher notices/attribution before distributing a new SWORD module, modernized derivative or translation.
-- [ ] Obtain final owner-approved editorial and distribution sign-off (including source display, native SWORD reader acceptance if a compiled module is contemplated). This draft is TEI **source only**.
+- [ ] Obtain final owner-approved editorial and distribution sign-off (including source display, native SWORD reader acceptance if a compiled module is contemplated). The draft holds source **and native binary**, both unapproved for publication.
 
 ## References
 

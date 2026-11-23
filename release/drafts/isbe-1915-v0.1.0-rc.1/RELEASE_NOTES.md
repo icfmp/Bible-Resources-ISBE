@@ -1,6 +1,6 @@
-# ISBE 1915 — corrected historical TEI source v0.1.0-rc.1
+# ISBE 1915 — corrected historical source and compiled SWORD candidate v0.1.0-rc.1
 
-**UNPUBLISHED DRAFT — rights clearance pending. Not a public release, endorsed facsimile, modern-English edition or SWORD module.**
+**UNPUBLISHED DRAFT — rights clearance pending.** This draft now contains the historical TEI source **and a genuine compiled SWORD dictionary candidate**. Neither is publicly released, approved for redistribution or certified as a facsimile of all 1915 print typography.
 
 ## What the candidate contains
 
@@ -20,13 +20,21 @@ Source repository: [icfmp/Bible-Resources-ISBE](https://github.com/icfmp/Bible-R
 
 A deterministic source ZIP in this **draft** contains the corrected TEI `ISBE.xml`, its `CLEANUP_MANIFEST.json`, the original CrossWire `PROVENANCE.json` (metadata only, not the original ZIP), and this README. Asset checksums are attached separately.
 
+## Native SWORD candidate included in the unpublished draft
+
+A genuine `BRISBE1915` zLD module was compiled via upstream SWORD `tei2mod` from our **corrected** TEI, not copied from the old CrossWire binary. It is stored in the **draft only** as `BRISBE1915-native-candidate-NOT-FOR-PUBLICATION.tar.gz`, SHA-256 `6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b`. Additional draft assets include `BRISBE1915-NATIVE-SHA256SUMS.txt` and `sword-native-roundtrip.json`.
+
+On native `mod2imp` readback: **9,380/9,380 keys**, zero missing, unexpected, malformed, Unicode text-different or XML-structure-different entries. SWORD link adaptation maps 5,919 internal references to their article keys, exposes 93,164 Bible references and documents 80 section targets that now resolve only to their containing articles. A later CLI `HTMLHREF` smoke on four articles renders links. Graphical independent Xiphos/BibleTime click-navigation and all source-specific copyrights are **not yet approved**. [Native build evidence](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383); [permanent SWORD CI fix](https://github.com/icfmp/Bible-Resources-ISBE/pull/81).
+
+The source-draft promotion process privately attached the binary, validated its exact SHA-256 and native parity JSON, checked `draft=true` before and after, and deleted the previous temporary Actions binary artifact after successful storage. [Private archival run #45262814840](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45262814840).
+
 ## Limitations and release gate
 
 This text is **not** modern English. A 24-article source-fidelity audit established that many original Greek/Hebrew graphemes are not reproduced in the CrossWire-based digital witness. Neither exact original-print facsimile certification nor full-corpus independent editorial peer review is claimed.
 
 **Do not publish this draft** until the [copyright / redistribution assessment (#1)](https://github.com/icfmp/Bible-Resources-ISBE/issues/1) is independently completed, including the source's original article/contributor rights (particularly for France/EU), the specific CrossWire digitization and any independently protected later editorial layer. CrossWire labels its ISBE 2.2 distribution `Public Domain`, which is meaningful primary evidence, but does not alone settle every jurisdiction and layer. Source retention in a public repository should itself be assessed under the same rights review.
 
-No compiled SWORD binary, Bible app integration, modernized derivative, GitHub publication or catalog update is authorized by a **draft**.
+The **compiled SWORD binary is retained in this private draft**, but no Bible app integration, modernized derivative, public GitHub release or catalog update is authorized by a draft.
 
 ## Validation evidence
 
