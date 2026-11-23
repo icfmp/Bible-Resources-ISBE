@@ -98,6 +98,25 @@ class OCRAggregateSafetyTests(unittest.TestCase):
         self.assertTrue(result["ocr_only_not_print_certified"])
         self.assertFalse(result["publication_permitted"])
 
+    def test_substantive_differences_are_ranked_separately_from_short_entries(self):
+        reports, manifest = sample()
+        source = reports[0]["entries"][0]
+        source.update(
+            tei_latin_tokens=300, ocr_latin_tokens=50,
+            ocr_to_tei_ratio=0.1667, status="ocr_count_diff_over_10pct_candidate",
+        )
+        reports[0]["status_counts"] = {
+            "ocr_count_diff_over_10pct_candidate": 1,
+            "unresolved_print_boundaries": 1875,
+        }
+        result = self.run_synthetic(reports, manifest)
+        self.assertEqual(result["difference_direction_counts"]["tei_longer"], 1)
+        self.assertEqual(result["discrepancies_by_source_size"]["02_100_to_499_source_words"], 1)
+        self.assertEqual(result["substantive_source_difference_candidates_count"], 1)
+        self.assertEqual(result["top_50_substantive_source_abs_differences"][0][
+            "absolute_latin_token_difference"], 250)
+        self.assertFalse(result["top_50_substantive_source_abs_differences"][0]["source_print_certified"])
+
     def test_missing_one_volume_is_rejected(self):
         reports, manifest = sample()
         with self.assertRaises(ValueError):
