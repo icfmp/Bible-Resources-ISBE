@@ -1,0 +1,33 @@
+{
+  "kind": "working_cleaned_editorial_TEI_not_released",
+  "resource": "ISBE",
+  "historical_print_edition": "Orr/Howard-Severance 1915",
+  "original_module_sha256": "4de747545d9c349ab724bc1708b01df5481e3b93e5e51077f859dd8a32023a32",
+  "source_faithful_canonical_path": "cleaned/en/ISBE.xml",
+  "source_faithful_canonical_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "source_article_index_path": "cleaned/en/article-index.json",
+  "source_article_index_sha256": "bdfa352af5b372874e6d2578e86ebae38a70efb64489a91e8985f3b09f2e18e1",
+  "cleaned_file": "ISBE.xml",
+  "cleaned_bytes": 37062851,
+  "cleaned_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "article_count": 9380,
+  "stable_article_ids": "Preserved from original source-faithful TEI",
+  "approved_source_text_restorations": 31,
+  "editorial_evidence": [
+    "workspace/reviews/1915-second-pass-visual-approval-v1.json",
+    "workspace/reviews/1915-approved-print-deltas-v1.json",
+    "workspace/reviews/1915-gainsay-additions-esther-reference-v1.json",
+    "workspace/reviews/1915-additional-exact-print-deltas-v1.json",
+    "workspace/reviews/1915-approved-low-overlap-prose-deltas-v1.json",
+    "workspace/reviews/1915-approved-reference-text-deltas-v1.json"
+  ],
+  "rebuild_script": "scripts/persist_1915_cleaned_master.py",
+  "official_tei_p5": "4.12.0",
+  "schema_validation": "PASS",
+  "fidelity_gate": "PASS: source-backed deltas only",
+  "original_print_full_collation_certified": false,
+  "modernized": false,
+  "publication_permitted": false,
+  "rights_redistribution_cleared": false,
+  "source_crosswire_unchanged": true
+}
