@@ -42,7 +42,20 @@ def check_source():
 
 def run(script,*args):
     print("RUN",script,flush=True)
-    subprocess.run([sys.executable,script,*map(str,args)],check=True)
+    # The existing evidence-locked builders use 'from scripts.*' imports;
+    # invoke these via the same -m module entrypoint as their verified CI.
+    script_path=Path(script)
+    module_builders={
+        "apply_1915_scripture_targets.py",
+        "apply_1915_reference_text_deltas.py",
+        "apply_display_verified_scripture_targets.py",
+        "apply_1915_low_overlap_prose_deltas.py",
+        "apply_1915_additional_prose_deltas.py",
+        "apply_1915_printed_apocrypha_refs.py",
+    }
+    command=([sys.executable,"-m","scripts."+script_path.stem]
+             if script_path.name in module_builders else [sys.executable,script])
+    subprocess.run([*command,*map(str,args)],check=True)
 
 def stages():
     # This is the same ordered, original-source-locked chain used in
