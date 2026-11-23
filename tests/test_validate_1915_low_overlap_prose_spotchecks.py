@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 class PrintedProseSpotcheckTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.ledger = json.loads((ROOT / "workspace/reviews/1915-low-overlap-prose-image-spotchecks-v1.json").read_text(encoding="utf-8"))
+        cls.ledger = json.loads((ROOT / "workspace/reviews/1915-low-overlap-prose-image-spotchecks-v2.json").read_text(encoding="utf-8"))
         cls.manifest = json.loads((ROOT / "sources/print/1915-volume-witnesses.json").read_text(encoding="utf-8"))
         cls.tei_file = ROOT / "cleaned/en/ISBE.xml"
         cls.root = ET.parse(cls.tei_file).getroot()
@@ -26,8 +26,8 @@ class PrintedProseSpotcheckTests(unittest.TestCase):
     def test_source_locked_bounded_case_inventory(self):
         result = self.check(self.ledger)
         self.assertEqual(self.digest, LOCK)
-        self.assertEqual(result["source_articles_checked"], 9)
-        self.assertEqual(result["bounded_differences_checked"], 11)
+        self.assertEqual(result["source_articles_checked"], 13)
+        self.assertEqual(result["bounded_differences_checked"], 15)
         self.assertFalse(result["full_historical_articles_collated"])
         self.assertFalse(result["textual_corrections_approved"])
 
