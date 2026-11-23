@@ -283,3 +283,81 @@ canonical source hashes, ensures exact article IDs, reconciles per-page
 token totals with known OCR counts, rejects extra unapproved fields
 that could leak OCR text, and refuses machine-claimed print
 certification.
+
+## Correcting a systemic error: physical printed entry order can differ from CrossWire index order
+
+Direct image inspection of SHA-pinned facsimiles showed that *even two
+individually located article headings are insufficient* to calculate an
+article length by subtracting their OCR positions when their order
+follows a digitally sorted source index, rather than the historical
+print. In the 1915 printed volume, an independently titled entry can
+appear **between** two adjacent CrossWire keys.
+
+Three original printed-image examples (see the separate, reversible
+headword-only observation ledger
+`workspace/reviews/1915-ocr-print-heading-visual-inspection-v1.json`):
+
+- **JOHN THE BAPTIST**, vol. III PDF page 346 (printed 1708):
+  it concludes in PDF page 349 (printed 1711), immediately followed
+  on that printed page by **JOHN, THE EPISTLES OF**. The *digital-key
+  next article* JOHN, GOSPEL OF begins at PDF page 358 (printed 1720).
+  The previous candidate span to p358 included multiple other entries,
+  not a proven 12,423-word omission from CrossWire.
+- **JOSEPH BARSABBAS**, vol. III PDF page 380 (printed 1740):
+  its text finishes top of the right column and **JOSEPH, HUSBAND OF
+  MARY** begins on that same page; a digital-key-order interval running
+  to another Joseph title must not be trusted as a word count.
+- **PHARAOH HOPHRA**, vol. IV PDF page 271–272 (printed 2359–2360):
+  **PHARAOH-NECOH** begins on p272 before the printed
+  **PHARAOH'S DAUGHTER**, contrary to digital index order.
+
+Two further direct image checks of title boundaries were recorded for
+**MEADOW** (vol. III p657, printed 2013) and **REPAIR** (vol. IV p474,
+printed 2558). For these, the immediate printed titles do appear
+distinct and the low four-gram recall cannot simply be attributed to a
+visually evident intervening printed headword. **Neither article's
+full wording has been visually certified.**
+
+To prevent recurrence **generically** and without special-casing these
+five keys, the OCR scanner now looks for uniquely recognizable, strongly
+structured printed headings between every pair of proposed source-key
+article boundaries. For a competing original printed heading, it
+**withdraws** the originally calculated OCR count and lexical scores
+and marks the source article as
+`unresolved_intervening_print_heading`. It retains the original source
+ID and numbers/pages of intervening printed titles for later image
+inspection. Only machine-readable, uniquely attested OCR headings
+under strict syntax constraints can trigger this protective quarantine;
+the image-review ledger documents separately what was really seen.
+
+### First corrected full five-volume pass
+
+The [source-locked full original print OCR run 45140687212](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45140687212)
+passed for 9,380 digital entries and all five original print witnesses.
+It detected **89** potentially contaminated source-order article
+intervals and withdrew their numerical results:
+
+| Measure | Before print-order guard | After guard |
+| --- | ---: | ---: |
+| Canonical source articles | 9,380 | 9,380 |
+| OCR-count-comparable source articles | 5,857 | **5,768** |
+| Unresolved original print boundaries | 3,523 | **3,612** |
+| Overlong OCR / source-fourgram-rich cases | 9 | **6** |
+| Similar count / low fourgram recall cases | 24 | **24** |
+
+**More conservative coverage is a deliberate quality improvement.**
+The 89 cases are *OCR-based possible print-order conflicts*, not 89
+historical manuscript defects or 89 image-certified conclusions. The
+three examples above are separately visually checked for printed
+heading/boundary differences only. The 31 restored historical entries
+and 1915 CrossWire/canonical TEI original remain unmodified. Future
+research should check further original-page images and never
+automatically infer an omitted original article from source-index
+word-count differences.
+
+The validator
+`scripts/validate_1915_ocr_print_heading_visual_inspection.py`
+compares the limited heading observations against the canonical
+9,380-key index, the historical volume PDF SHA-256 manifest, the
+rendered image SHA-256 and source page/folio metadata, and explicitly
+rejects textual-correction, print-content and publication claims.
