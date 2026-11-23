@@ -13,14 +13,20 @@ permissions:
 
 jobs:
   build-and-smoke:
-    runs-on: ubuntu-latest
-    timeout-minutes: 45
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - name: Install native SWORD and independent Xiphos/BibleTime graphical readers
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq libsword-utils diatheke sword-text-kjv xiphos bibletime \
+          set -euo pipefail
+          # Prefer an explicit stable runner and bounded, noninteractive apt
+          # operation: a stalled package install must not masquerade as a
+          # failed dictionary compatibility test.
+          sudo env DEBIAN_FRONTEND=noninteractive APT_LISTCHANGES_FRONTEND=none \
+            timeout 180s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=25 update -qq
+          sudo env DEBIAN_FRONTEND=noninteractive APT_LISTCHANGES_FRONTEND=none \
+            timeout 360s apt-get -y -qq install libsword-utils diatheke sword-text-kjv xiphos bibletime \
             xvfb xdotool scrot openbox dbus-x11
           command -v xiphos
           command -v bibletime
