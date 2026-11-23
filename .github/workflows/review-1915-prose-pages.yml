@@ -1,4 +1,4 @@
-name: Inspect magnified original 1915 prose glyphs
+name: Inspect unresolved 1915 redirect glyphs and SESIS
 
 on:
   pull_request:
@@ -10,27 +10,27 @@ permissions:
   contents: read
 
 jobs:
-  cropped-evidence:
+  source-pages:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
       fail-fast: false
       matrix:
         include:
-          - {volume: "1", crops: "148:AMNON:206:2362:790:441,192:ANTIQUITY:170:1734:825:280"}
-          - {volume: "2", crops: "499:FROWARDNESS:1060:1245:815:338,699:HASRAH:1030:1630:810:205,731:HEMDAN:1069:1125:778:260"}
-          - {volume: "3", crops: "624:MANASSITES:1050:2360:800:170"}
-          - {volume: "4", crops: "618:SAVIAS:170:1585:825:110,642:SEPHARVITES:190:1145:815:225,663:SESIS:206:281:730:140"}
-          - {volume: "5", crops: "169:THOMEI:1020:2560:850:230,169:THOCANUS:188:1680:816:175"}
+          - {volume: "1", page: "329", key: "ASTARTE_AST", crop: "no"}
+          - {volume: "4", page: "385", key: "PROSTRATION", crop: "no"}
+          - {volume: "4", page: "663", key: "SESIS_DETAIL", crop: "yes"}
     steps:
       - uses: actions/checkout@v4
       - name: Install PDF renderer
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
-      - name: Render SHA-pinned magnified page crops
+      - name: Fetch SHA-locked 1915 source and render page
         shell: bash
         env:
           VOLUME: ${{ matrix.volume }}
-          CROPS: ${{ matrix.crops }}
+          PAGE: ${{ matrix.page }}
+          KEY: ${{ matrix.key }}
+          CROP: ${{ matrix.crop }}
         run: |
           set -euo pipefail
           curl --fail --location --silent --show-error --retry 3 --retry-all-errors --connect-timeout 20 --max-time 360 "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${VOLUME}.pdf" -o /tmp/original.pdf
@@ -40,20 +40,20 @@ jobs:
           v=next(x for x in json.loads(Path('sources/print/1915-volume-witnesses.json').read_text())['volumes'] if x['volume']==os.environ['VOLUME'])
           digest=hashlib.sha256(Path('/tmp/original.pdf').read_bytes()).hexdigest()
           assert digest==v['pdf_sha256'], 'Wrong original facsimile'
-          print('Verified 1915 PDF SHA:',digest)
+          print('Verified original source PDF sha256:',digest)
           PY
-          IFS=',' read -ra ITEMS <<< "$CROPS"
-          for item in "${ITEMS[@]}"; do
-            IFS=':' read -r page key x y width height <<< "$item"
-            pdftoppm -f "$page" -l "$page" -singlefile -png -r 300 -x "$x" -y "$y" -W "$width" -H "$height" /tmp/original.pdf /tmp/crop >/dev/null 2>&1
-            KEY="$key" python - <<'PY'
+          if [[ "$CROP" == "yes" ]]; then
+            pdftoppm -f "$PAGE" -l "$PAGE" -singlefile -png -r 300 -x 160 -y 260 -W 900 -H 230 /tmp/original.pdf /tmp/visible >/dev/null 2>&1
+          else
+            pdftoppm -f "$PAGE" -l "$PAGE" -singlefile -png -r 160 /tmp/original.pdf /tmp/visible >/dev/null 2>&1
+          fi
+          python - <<'PY'
           import os,base64
           from pathlib import Path
-          image=Path('/tmp/crop.png').read_bytes()
-          b64=base64.b64encode(image).decode('ascii')
+          image=Path('/tmp/visible.png').read_bytes()
+          encoded=base64.b64encode(image).decode()
           print('BEGIN_IMAGE:'+os.environ['KEY']+':'+str(len(image)))
-          for i in range(0,len(b64),2000):
-              print('IMG_CHUNK:'+b64[i:i+2000])
+          for i in range(0,len(encoded),2000):
+              print('IMG_CHUNK:'+encoded[i:i+2000])
           print('END_IMAGE:'+os.environ['KEY'])
           PY
-          done
