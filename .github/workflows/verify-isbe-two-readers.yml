@@ -55,13 +55,41 @@ jobs:
           # their first launch, even when testing an encyclopedia dictionary.
           # Use Ubuntu's separately packaged public-domain KJV as an isolated
           # test fixture; it is NOT part of the curated ISBE release payload.
-          mkdir -p workspace/tmp/gui-module/modules/texts/ztext
-          cp -a /usr/share/sword/modules/texts/ztext/kjv             workspace/tmp/gui-module/modules/texts/ztext/
-          cp -a /usr/share/sword/mods.d/kjv.conf             workspace/tmp/gui-module/mods.d/
+          mkdir -p workspace/tmp/gui-module/modules/texts
+          # Ubuntu and Debian KJV package versions use different file trees.
+          # Copy the files actually installed by the separate KJV package.
+          while IFS= read -r src; do
+            test -f "$src" || continue
+            case "$src" in
+              /usr/share/sword/mods.d/*.conf|/usr/share/sword/modules/texts/*)
+                rel="$(printf '%s' "$src" | sed 's|^/usr/share/sword/||')"
+                mkdir -p "workspace/tmp/gui-module/$(dirname "$rel")"
+                cp -a "$src" "workspace/tmp/gui-module/$rel"
+                ;;
+            esac
+          done < <(dpkg -L sword-text-kjv)
+          test "$(find workspace/tmp/gui-module/modules/texts -type f | wc -l)" -gt 0
+          test "$(find workspace/tmp/gui-module/mods.d -name '*.conf' | wc -l)" -ge 2
           export SWORD_PATH="$PWD/workspace/tmp/gui-module"
           diatheke -b system -k modulelist | tee workspace/tmp/native-available-modules.txt
           grep -q BRISBE1915 workspace/tmp/native-available-modules.txt
-          grep -q KJV workspace/tmp/native-available-modules.txt
+          python3 - <<'PY'
+          from pathlib import Path
+          lines=Path("workspace/tmp/native-available-modules.txt").read_text().splitlines()
+          inside=False
+          bibles=[]
+          for line in lines:
+              if line.strip()=="Biblical Texts:":
+                  inside=True
+                  continue
+              if line.strip().endswith(":") and inside:
+                  break
+              if inside and " : " in line:
+                  bibles.append(line.strip())
+          if not bibles:
+              raise SystemExit("No native Bible test fixture discovered")
+          print("Public-domain Bible test fixture:",bibles)
+          PY
           mod2imp BRISBE1915 >workspace/tmp/gui-module.imp
           python3 scripts/validate_sword_dictionary_roundtrip.py \
             --input-tei workspace/tmp/dict-import.xml \
