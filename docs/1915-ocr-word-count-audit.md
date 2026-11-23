@@ -127,3 +127,47 @@ Among 5,781 entries with two OCR heading boundaries resolved in source order:
 Some of the highest-ratio candidates involve a very short digital redirect and a long apparent print span (e.g. `PROPERTY`, `COUTHA`, `WINDOWS OF HEAVEN`). These require **image/heading-boundary review first**; an extreme numerical difference is not yet evidence of a several-thousand-word digital omission. This is deliberately a first-stage *coherence check*, not exhaustive character-level collation.
 
 The per-volume row reports and the combined top-50 discrepancy overview are uploaded as **research-only** Actions artifacts; the historical OCR text itself is not included in the artifacts. Follow-up should improve heading alignment with grounded neighboring text/visual checks and compare the separate approved editorial witness, preserving the source-locked canonical baseline for reproducibility.
+
+## Conservative title-disambiguation second pass (2026-11-23)
+
+[PR #59](https://github.com/icfmp/Bible-Resources-ISBE/pull/59)
+adds a second **read-only, still-uncertified** OCR alignment stage, without
+relaxing the original unique uppercase monotonic heading anchors.
+
+- Repeated printed headwords: may be used only when **exactly one**
+  occurrence lies between two already accepted strong anchors, and the
+  occurrence is an exact standalone title or has corroborating opening
+  prose (at least three ordered distinctive Latin tokens).
+- Lowercase/title-case OCR headword candidates: only exact title lines
+  with that corroborating nearby source opening, again strictly bracketed
+  by two independently strong anchor points. Weak headings never override
+  a strong match or gain full-printed-text certification.
+- Unresolvable boundaries remain explicitly uncounted. The source ZIP,
+  canonical TEI and accepted editorial TEI layers are unchanged.
+
+The [fully successful five-volume pilot, run 45134232593](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45134232593),
+measured **5,857 comparable canonical source article counts**, compared
+with 5,781 in [PR #58](https://github.com/icfmp/Bible-Resources-ISBE/pull/58):
+**76 newly comparable articles**, and 3,523 still unresolved. Among the
+comparable group, 3,981 counts were within 10%, 1,858 differed by more
+than 10%, and 18 original source-empty entries contained nonempty
+printed OCR spans.
+
+All **18** of the latter matched the exact previously approved **31
+original-source-empty restorations** in the versioned, separate 1915
+editorial witness. This eliminates **new** unknown empty-article alerts
+**within the subset successfully delimited by this scanner**; it does
+not exclude other omissions among the 3,523 unresolved articles, nor
+certify any printed wording or rights.
+
+The aggregation now also ranks **substantive source articles** with
+large absolute count differences separately from tiny digital redirects.
+Huge raw ratios (e.g. 11 TEI words against thousands of OCR words) are
+*reasons to verify the printed boundaries first*, not automatic
+approval to restore allegedly omitted prose.
+
+Remaining audit: improve alignment for other distinct historical
+headword styles, review actual source page images for high-priority
+long-form discrepancies, and compare the independently approved
+editorial TEI against source OCR without replacing the immutable
+source-faithful baseline.

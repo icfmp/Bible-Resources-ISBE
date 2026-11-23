@@ -8,6 +8,8 @@ on:
       - 'tests/test_1915_article_ocr_word_counts.py'
       - 'tests/test_aggregate_1915_ocr_word_counts.py'
       - 'sources/print/1915-volume-witnesses.json'
+      - 'workspace/reviews/empty-article-recovery-ledger.json'
+      - 'workspace/reviews/1915-second-pass-visual-approval-v1.json'
       - '.github/workflows/audit-1915-article-ocr-word-counts.yml'
   workflow_dispatch:
 
@@ -71,6 +73,8 @@ jobs:
         run: |
           python3 -m scripts.aggregate_1915_ocr_word_counts \
             --reports-dir workspace/tmp/1915-ocr-reports \
+            --approved-recovery-ledger workspace/reviews/1915-second-pass-visual-approval-v1.json \
+            --original-empty-source-ledger workspace/reviews/empty-article-recovery-ledger.json \
             --output workspace/tmp/1915-ocr-word-counts-overview.json
       - name: Upload full-corpus statistics, not historical print certification
         uses: actions/upload-artifact@v4

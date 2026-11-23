@@ -72,6 +72,9 @@ def tei_entries(path, volume, manifest):
         entries.append({
             "key": key, "article_xml_id": article.get(ID),
             "tei_latin_tokens": len(latin_tokens(text)),
+            # Nonauthorial source-key display never appears in this sample.
+            # Used only to disambiguate a duplicated OCR heading candidate.
+            "opening_latin_tokens": latin_tokens(text)[:16],
         })
     if not entries:
         raise ValueError("No TEI entries for original historical print volume")
@@ -138,11 +141,103 @@ def bbox_lines(path, page_count):
     return result
 
 
-def unique_print_headings(lines, entries):
-    """Conservative unique candidate + monotonic order alignment.
+def _opening_context_agrees(lines, position, entry):
+    """Supplemental evidence for a repeated title candidate.
 
-    Duplicate normalized keys, multiple OCR occurrences, and inversions
-    are *not* assigned a plausible-looking boundary.
+    This is not print certification: source opening prose can differ, and a
+    failed check always leaves the occurrence unresolved. Avoid matching
+    common one-word overlaps as alleged proof of an article heading.
+    """
+    source = [t for t in entry.get("opening_latin_tokens", ())
+              if len(t) >= 4]
+    if len(source) < 3:
+        return False
+    # Stop at a page turn or the next few OCR lines; never seek a match in
+    # a different, possibly unrelated article hundreds of lines away.
+    window = []
+    page = lines[position]["page"]
+    for line in lines[position+1:position+7]:
+        if line["page"] > page + 1:
+            break
+        window.extend(latin_tokens(line["text"]))
+    pos = 0
+    matches = 0
+    for token in source[:10]:
+        try:
+            loc = window.index(token, pos)
+        except ValueError:
+            continue
+        pos = loc + 1
+        matches += 1
+    return matches >= 3
+
+
+def _repeated_title_rescues(lines, entries, hits, strict):
+    """Rescue only a title bracketed by two securely ordered unique titles.
+
+    A duplicate outside the bracket is rejected as a repeated mention;
+    a duplicate inside remains ambiguous. Requiring an *exact* standalone
+    heading or corroborating opening words avoids arbitrary title selection.
+    Previously trusted headings are never moved or replaced.
+    """
+    indices = sorted(strict)
+    rescues = {}
+    for index, positions in sorted(hits.items()):
+        if index in strict or len(positions) < 2:
+            continue
+        offset = bisect_left(indices, index)
+        if offset == 0 or offset == len(indices):
+            continue
+        lower, upper = strict[indices[offset-1]], strict[indices[offset]]
+        if lower >= upper:
+            continue
+        between = [pos for pos in positions if lower < pos < upper]
+        if len(between) != 1:
+            continue
+        pos = between[0]
+        normalized_heading = normalize(entries[index]["key"])
+        standalone = normalize(lines[pos]["text"]) == normalized_heading
+        if standalone or _opening_context_agrees(lines, pos, entries[index]):
+            rescues[index] = pos
+    return rescues
+
+
+def _weak_contextual_title_rescues(lines, entries, weak_hits, strict, promoted):
+    """TitleCase/lowercase OCR headings must have independent opening evidence.
+
+    Do not accept low-scoring matches globally. Only consider a unique
+    exact-text heading between two independently accepted strict anchors,
+    and match at least three ordered distinctive source words immediately
+    after it. This protects against a sentence/prose line looking like a
+    short article name.
+    """
+    anchors = sorted(strict)
+    rescued = {}
+    for index, positions in weak_hits.items():
+        if index in strict or index in promoted:
+            continue
+        offset = bisect_left(anchors, index)
+        if not 0 < offset < len(anchors):
+            continue
+        lower, upper = strict[anchors[offset-1]], strict[anchors[offset]]
+        if lower >= upper:
+            continue
+        between = [pos for pos in positions if lower < pos < upper]
+        if len(between) != 1:
+            continue
+        pos = between[0]
+        if (normalize(lines[pos]["text"]) == normalize(entries[index]["key"])
+                and _opening_context_agrees(lines, pos, entries[index])):
+            rescued[index] = pos
+    return rescued
+
+
+def unique_print_headings(lines, entries):
+    """Two-stage monotonic alignment, preserving a strict-baseline counter.
+
+    First find unique, strongly scored heading candidates (the v1 rule).
+    Resolve a duplicated title only if exactly one printed occurrence lies
+    between two v1 anchors, with exact-heading or opening-prose support.
     """
     by_word = defaultdict(list)
     normalized = defaultdict(list)
@@ -156,34 +251,40 @@ def unique_print_headings(lines, entries):
     unique_names = {canon for canon, indices in normalized.items()
                     if len(indices) == 1}
     hits = defaultdict(list)
+    weak_hits = defaultdict(list)
     for pos, line in enumerate(lines):
         text = line["text"]
         prefix = normalize(text)
         if not prefix:
             continue
-        first = prefix.split()[0]
-        candidates = [
-            (len(canon), index, key) for canon, key, index
-            in by_word.get(first, ())
-            if canon in unique_names and candidate_heading(text, key) >= 4
-        ]
-        if not candidates:
+        strong, weak = [], []
+        for canon, key, index in by_word.get(prefix.split()[0], ()):
+            if canon not in unique_names:
+                continue
+            score = candidate_heading(text, key)
+            if score >= 4:
+                strong.append((len(canon), index))
+            elif score == 1 and prefix == canon:
+                weak.append((len(canon), index))
+        # Never allow a weak title to override a strong title on this line.
+        matches = strong or weak
+        if not matches:
             continue
-        # Only one candidate heading can start at the same printed line.
-        best = max(c[0] for c in candidates)
-        winners = [c for c in candidates if c[0] == best]
+        best = max(length for length, _ in matches)
+        winners = [index for length, index in matches if length == best]
         if len(winners) != 1:
             continue
-        _, index, key = winners[0]
-        hits[index].append(pos)
+        if strong:
+            hits[winners[0]].append(pos)
+        else:
+            weak_hits[winners[0]].append(pos)
     unique = [(positions[0], index)
               for index, positions in hits.items() if len(positions) == 1]
     unique.sort()
 
-    # The original encyclopedia is in alphabetical article order. Longest
-    # increasing subsequence keeps print positions and digital order aligned.
-    tails = []
-    owners = []
+    # Original strictly monotonic v1 anchor baseline, not a permissive
+    # replacement for the already audited first pass.
+    tails, owners = [], []
     previous = [-1] * len(unique)
     for i, (_, index) in enumerate(unique):
         slot = bisect_left(tails, index)
@@ -200,14 +301,30 @@ def unique_print_headings(lines, entries):
         while cur >= 0:
             kept.add(cur)
             cur = previous[cur]
-    accepted = {index: pos for i, (pos, index) in enumerate(unique)
-                if i in kept}
+    strict = {index: pos for i, (pos, index) in enumerate(unique)
+              if i in kept}
+    rescues = _repeated_title_rescues(lines, entries, hits, strict)
+    weak_rescues = _weak_contextual_title_rescues(
+        lines, entries, weak_hits, strict, rescues
+    )
+    accepted = dict(strict)
+    accepted.update(rescues)
+    accepted.update(weak_rescues)
+    if len(set(accepted.values())) != len(accepted):
+        raise ValueError("Duplicate source heading positions assigned")
+    sorted_positions = [accepted[i] for i in sorted(accepted)]
+    if sorted_positions != sorted(sorted_positions):
+        raise ValueError("Repaired heading sequence is not monotonic")
     return accepted, {
         "headword_candidates_total": sum(len(v) for v in hits.values()),
         "unique_ocr_heading_articles": len(unique),
+        "strict_ordered_unique_heading_articles": len(strict),
         "ordered_unique_heading_articles": len(accepted),
+        "bracketed_duplicate_heading_rescues": len(rescues),
+        "weak_heading_candidates": sum(len(v) for v in weak_hits.values()),
+        "weak_bracketed_context_rescues": len(weak_rescues),
         "ambiguous_multiple_heading_articles": sum(len(p) != 1 for p in hits.values()),
-        "nonmonotonic_unique_heading_articles": len(unique) - len(accepted),
+        "nonmonotonic_unique_heading_articles": len(unique) - len(strict),
         "normalized_key_collisions": sum(len(v) > 1 for v in normalized.values()),
     }
 
@@ -266,14 +383,14 @@ def compare_bbox(bbox_file, pdf_sha, source_sha, volume, manifest, entries):
     accepted, alignment = unique_print_headings(lines, entries)
     reports, statuses = assess(lines, entries, accepted)
     return {
-        "schema_version": 1,
+        "schema_version": 3,
         "volume": volume,
         "print_pdf_sha256": pdf_sha,
         "canonical_tei_sha256": source_sha,
         "pdf_pages": witness[0]["pages"],
         "ocr_latin_token_definition": "NFKD decomposition then ASCII [a-z0-9]+; non-Latin characters, punctuation and typography are not compared",
         "extraction": "single pdftotext -bbox-layout pass over entire SHA-locked original volume",
-        "alignment": "unique uppercase OCR headword candidates in two-column geometric reading order, longest monotonic subsequence, immediately adjacent TEI article pairs only",
+        "alignment": "v1 unique uppercase monotonic anchors + strongly bracketed repeated headings + weak exact titles supported by three ordered source-opening tokens within strong anchor brackets; adjacent TEI article pairs only",
         "source": manifest["bibliographic_citation"],
         "original_pages_2887_2888_available_in_volume_v": False if volume == "5" else None,
         "ocr_not_original_print_certification": True,

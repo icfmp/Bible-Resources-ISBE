@@ -3,7 +3,7 @@ import copy
 import unittest
 from unittest.mock import patch
 
-from scripts.aggregate_1915_ocr_word_counts import aggregate, SOURCE_LOCK
+from scripts.aggregate_1915_ocr_word_counts import aggregate, approved_recovery_map, SOURCE_LOCK
 
 
 def sample():
@@ -36,7 +36,7 @@ def sample():
             status="ocr_count_near_source_candidate",
         )
         reports.append({
-            "schema_version": 1, "volume": vol, "print_pdf_sha256": sha,
+            "schema_version": 3, "volume": vol, "print_pdf_sha256": sha,
             "canonical_tei_sha256": SOURCE_LOCK,
             "pdf_pages": 700, "publication_permitted": False,
             "ocr_not_original_print_certification": True,
@@ -65,6 +65,30 @@ class OCRAggregateSafetyTests(unittest.TestCase):
                    side_effect=lambda key: key.split("-")[1]):
             return aggregate(reports, manifest)
 
+    def test_source_empty_restoration_witness_matches_all_original_empty_keys(self):
+        from pathlib import Path
+        import json
+        root = Path(__file__).resolve().parents[1] / "workspace" / "reviews"
+        approved = json.loads((root / "1915-second-pass-visual-approval-v1.json").read_text(encoding="utf-8"))
+        empty = json.loads((root / "empty-article-recovery-ledger.json").read_text(encoding="utf-8"))
+        result = approved_recovery_map(approved, empty)
+        self.assertEqual(len(result), 31)
+        self.assertEqual(result["ABISSEI"], "prose")
+
+    def test_source_empty_restoration_provenance_guard(self):
+        from pathlib import Path
+        import json
+        root = Path(__file__).resolve().parents[1] / "workspace" / "reviews"
+        approved = json.loads((root / "1915-second-pass-visual-approval-v1.json").read_text(encoding="utf-8"))
+        empty = json.loads((root / "empty-article-recovery-ledger.json").read_text(encoding="utf-8"))
+        approved["published"] = True
+        with self.assertRaises(ValueError):
+            approved_recovery_map(approved, empty)
+        approved["published"] = False
+        approved["records"][0]["approved_for_separate_editorial_tei"] = False
+        with self.assertRaises(ValueError):
+            approved_recovery_map(approved, empty)
+
     def test_full_corpus_coverage_only_five_real_sources(self):
         reports, manifest = sample()
         result = self.run_synthetic(reports, manifest)
@@ -73,6 +97,25 @@ class OCRAggregateSafetyTests(unittest.TestCase):
         self.assertEqual(result["unresolved_ocr_article_boundaries"], 9375)
         self.assertTrue(result["ocr_only_not_print_certified"])
         self.assertFalse(result["publication_permitted"])
+
+    def test_substantive_differences_are_ranked_separately_from_short_entries(self):
+        reports, manifest = sample()
+        source = reports[0]["entries"][0]
+        source.update(
+            tei_latin_tokens=300, ocr_latin_tokens=50,
+            ocr_to_tei_ratio=0.1667, status="ocr_count_diff_over_10pct_candidate",
+        )
+        reports[0]["status_counts"] = {
+            "ocr_count_diff_over_10pct_candidate": 1,
+            "unresolved_print_boundaries": 1875,
+        }
+        result = self.run_synthetic(reports, manifest)
+        self.assertEqual(result["difference_direction_counts"]["tei_longer"], 1)
+        self.assertEqual(result["discrepancies_by_source_size"]["02_100_to_499_source_words"], 1)
+        self.assertEqual(result["substantive_source_difference_candidates_count"], 1)
+        self.assertEqual(result["top_50_substantive_source_abs_differences"][0][
+            "absolute_latin_token_difference"], 250)
+        self.assertFalse(result["top_50_substantive_source_abs_differences"][0]["source_print_certified"])
 
     def test_missing_one_volume_is_rejected(self):
         reports, manifest = sample()
