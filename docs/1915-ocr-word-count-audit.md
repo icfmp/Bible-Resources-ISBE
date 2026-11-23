@@ -457,3 +457,56 @@ low-four-gram cases with original page images and token-level
 comparisons, distinguishing OCR transcription noise from genuine source
 variations. The **117** OCR-quarantined intervals are not automatically
 117 historical errors; most still require printed-image validation.
+
+## Historical abbreviations versus expanded CrossWire source wording (2026-11-23)
+
+The original 1915 printed ISBE frequently abbreviates **AV**, **RV**,
+**OT**, **NT**, **OE**, **Heb**, **Gr**, and **RVm**. The canonical
+CrossWire-derived TEI sometimes writes out the corresponding expressions:
+*King James Version*, *Revised Version*, *Old Testament*, *New Testament*,
+*Old English*, *Hebrew*, and *Greek*. Original-image review of
+**ABIDE** (volume I, PDF page 33) and **REPAIR** (volume IV, PDF page
+474) illustrates this editorial difference. An expanded digital
+expression changes a four-word sequence even when the intended
+reference is otherwise the same.
+
+The new **independent diagnostic** keeps the existing **source text,
+OCR text, source SHA locks, word counts, and raw four-gram recall
+unchanged**. For each of the 24 comparable long-enough articles with
+nearly equal word counts but low raw lexical overlap, it calculates an
+additional score from **only a small, explicitly listed set of known
+digital phrases**, and **only if the corresponding abbreviated token
+actually occurs in that article's OCR candidate span**. The derived
+sequence exists in memory only; the research report stores scores,
+source expression counts and immutable-source flags, not rewritten
+article text. A token appearing somewhere in a large OCR span does
+not itself prove that every derived substitution belongs at that
+historical location, so the result is an aid to review, not a
+certification.
+
+The complete [successful all-five-volume research run
+45146141692](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45146141692)
+found **24** low-raw-overlap cases (unchanged), of which **12** reached
+at least **25%** derived source four-gram recall. **Only one** gained
+**10 percentage points or more**, so it would be incorrect to claim
+that abbreviations explain or resolve the entire queue. In these 24
+candidate source articles the diagnostic applied 41 AV, 27 RV, 7 RVm,
+3 AVm, 10 NT, 6 OT, 1 OE, 12 Heb and 12 Gr source-phrase substitutions
+(111 **candidate occurrences**, not 111 verified printed word edits).
+
+Examples (raw → abbreviation-derived research four-gram recall):
+
+| Canonical article | Raw | Research-derived | Source-image word-for-word certified? |
+| --- | ---: | ---: | --- |
+| ABIDE | 21.71% | 34.78% | No |
+| IMAGINATION | 22.82% | 32.52% | No |
+| REPAIR | 14.40% | 24.07% | No |
+| PRESENCE | 15.43% | 24.82% | No |
+| MEADOW | 9.89% | 18.22% | No |
+
+The two reported scores are **not interchangeable**. A derived score
+is neither a historical transcription nor evidence that CrossWire's
+expanded wording should replace the printed edition. No canonical TEI
+data, individual historical reading, editorial delta, publication
+state or rights status is changed. Full source-image prose collation
+remains required to close any of the 24 cases.
