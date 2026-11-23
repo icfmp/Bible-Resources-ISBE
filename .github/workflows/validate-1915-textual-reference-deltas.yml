@@ -14,6 +14,10 @@ on:
       - 'scripts/apply_1915_low_overlap_prose_deltas.py'
       - 'tests/test_apply_1915_low_overlap_prose_deltas.py'
       - 'workspace/reviews/1915-approved-low-overlap-prose-deltas-v1.json'
+      - 'workspace/reviews/1915-additional-exact-print-deltas-v1.json'
+      - 'workspace/reviews/1915-article-wide-prose-review-v2.json'
+      - 'scripts/apply_1915_additional_prose_deltas.py'
+      - 'tests/test_apply_1915_additional_prose_deltas.py'
   workflow_dispatch:
 
 permissions:
@@ -92,6 +96,20 @@ jobs:
             --report workspace/tmp/ISBE-1915-prose-deltas.json \
             --derived-validator workspace/tmp/ISBE-1915-prose-validator.json \
             --derived-fidelity workspace/tmp/ISBE-1915-prose-fidelity.json
+      - name: Test ten original-image-exact editorial changes and negative controls
+        run: python3 -m unittest discover -s tests -p 'test_apply_1915_additional_prose_deltas.py' -v
+      - name: Apply ten source-locked printed word/script/reference-punctuation fragments to the NEXT separate TEI
+        run: |
+          python3 -m scripts.apply_1915_additional_prose_deltas \
+            --source cleaned/en/ISBE.xml \
+            --prior workspace/tmp/ISBE-1915-prose-corrected-NONPUBLISHABLE.xml \
+            --prior-report workspace/tmp/ISBE-1915-prose-deltas.json \
+            --prior-validator workspace/tmp/ISBE-1915-prose-validator.json \
+            --ledger workspace/reviews/1915-additional-exact-print-deltas-v1.json \
+            --output workspace/tmp/ISBE-1915-additional-prose-corrected-NONPUBLISHABLE.xml \
+            --report workspace/tmp/ISBE-1915-additional-prose-deltas.json \
+            --derived-manifest workspace/tmp/ISBE-1915-additional-prose-validator.json \
+            --derived-fidelity workspace/tmp/ISBE-1915-additional-prose-fidelity.json
       - name: Install official TEI P5 validator dependency
         run: sudo apt-get update -qq && sudo apt-get install -y -qq jing
       - name: Independently validate final source-locked prose-corrected TEI P5
@@ -101,6 +119,13 @@ jobs:
             --source-report workspace/tmp/ISBE-1915-prose-fidelity.json \
             --manifest workspace/tmp/ISBE-1915-prose-validator.json \
             --output workspace/tmp/ISBE-1915-prose-official-validation.json
+      - name: Independently validate all ten additional text deltas with pinned official TEI P5 schemas
+        run: |
+          python3 scripts/validate_official_tei_p5.py \
+            --candidate workspace/tmp/ISBE-1915-additional-prose-corrected-NONPUBLISHABLE.xml \
+            --source-report workspace/tmp/ISBE-1915-additional-prose-fidelity.json \
+            --manifest workspace/tmp/ISBE-1915-additional-prose-validator.json \
+            --output workspace/tmp/ISBE-1915-additional-prose-official-validation.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -116,4 +141,8 @@ jobs:
             workspace/tmp/ISBE-1915-prose-deltas.json
             workspace/tmp/ISBE-1915-prose-fidelity.json
             workspace/tmp/ISBE-1915-prose-official-validation.json
+            workspace/tmp/ISBE-1915-additional-prose-corrected-NONPUBLISHABLE.xml
+            workspace/tmp/ISBE-1915-additional-prose-deltas.json
+            workspace/tmp/ISBE-1915-additional-prose-fidelity.json
+            workspace/tmp/ISBE-1915-additional-prose-official-validation.json
           if-no-files-found: warn
