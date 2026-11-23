@@ -7,13 +7,16 @@ on:
       - 'scripts/aggregate_1915_ocr_word_counts.py'
       - 'scripts/diagnose_1915_ocr_candidate_spans.py'
       - 'scripts/guard_1915_print_headword_interleaving.py'
+      - 'scripts/validate_1915_ocr_print_heading_visual_inspection.py'
       - 'tests/test_1915_article_ocr_word_counts.py'
       - 'tests/test_aggregate_1915_ocr_word_counts.py'
       - 'tests/test_diagnose_1915_ocr_candidate_spans.py'
       - 'tests/test_guard_1915_print_headword_interleaving.py'
+      - 'tests/test_validate_1915_ocr_print_heading_visual_inspection.py'
       - 'sources/print/1915-volume-witnesses.json'
       - 'workspace/reviews/empty-article-recovery-ledger.json'
       - 'workspace/reviews/1915-second-pass-visual-approval-v1.json'
+      - 'workspace/reviews/1915-ocr-print-heading-visual-inspection-v1.json'
       - '.github/workflows/audit-1915-article-ocr-word-counts.yml'
   pull_request:
     paths:
@@ -21,13 +24,16 @@ on:
       - 'scripts/aggregate_1915_ocr_word_counts.py'
       - 'scripts/diagnose_1915_ocr_candidate_spans.py'
       - 'scripts/guard_1915_print_headword_interleaving.py'
+      - 'scripts/validate_1915_ocr_print_heading_visual_inspection.py'
       - 'tests/test_1915_article_ocr_word_counts.py'
       - 'tests/test_aggregate_1915_ocr_word_counts.py'
       - 'tests/test_diagnose_1915_ocr_candidate_spans.py'
       - 'tests/test_guard_1915_print_headword_interleaving.py'
+      - 'tests/test_validate_1915_ocr_print_heading_visual_inspection.py'
       - 'sources/print/1915-volume-witnesses.json'
       - 'workspace/reviews/empty-article-recovery-ledger.json'
       - 'workspace/reviews/1915-second-pass-visual-approval-v1.json'
+      - 'workspace/reviews/1915-ocr-print-heading-visual-inspection-v1.json'
       - '.github/workflows/audit-1915-article-ocr-word-counts.yml'
   workflow_dispatch:
 
@@ -45,6 +51,8 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_aggregate_1915_ocr_word_counts.py' -v
           python3 -m unittest discover -s tests -p 'test_diagnose_1915_ocr_candidate_spans.py' -v
           python3 -m unittest discover -s tests -p 'test_guard_1915_print_headword_interleaving.py' -v
+          python3 -m unittest discover -s tests -p 'test_validate_1915_ocr_print_heading_visual_inspection.py' -v
+          python3 -m scripts.validate_1915_ocr_print_heading_visual_inspection
 
   scan-1915-volume:
     needs: test-conservative-ocr-alignment
