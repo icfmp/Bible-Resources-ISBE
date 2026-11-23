@@ -40,11 +40,10 @@ This is a **digitization-source gap**, not proof that those folios were
 absent from the 1915 printed book. An independently obtained scan of
 those leaves is necessary for source-certified TAANACH collation.
 
-The seven other OCR candidates are **not yet visually certified**,
-especially jumps of ten folios, which may simply reflect OCR confusion
-between printed numerals. They must not be advertised as seven confirmed
-missing-page events. This scan is not an exhaustive inventory of every
-physical leaf: any page whose OCR header could not be interpreted was
+At the first review, seven additional OCR candidates remained unverified.
+They have since been **visually resolved as OCR errors** (see below).
+The original automated scan was not an exhaustive inventory of every
+physical leaf: pages whose OCR header could not be interpreted were
 deliberately excluded.
 
 ## OCR neighborhood cross-check: volume V, folios 2949–2960
@@ -53,16 +52,50 @@ A read-only examination of the OCR layer of the same SHA-locked volume V
 shows running headers in the sequence **2949, 2960, 2951, 2952**; after
 2959, **2960 appears again**. This strongly indicates that the first
 apparent 2960 is actually folio **2950 misread by OCR**, rather than
-ten missing leaves. It is **not image-certified** because a direct
-page-image screenshot could not be obtained in that examination.
-The unchanged gap candidate has gained an explicit OCR-neighborhood
-annotation in the versioned report; no source text or article content
-has changed.
+ten missing leaves. This inference was **OCR-only at that stage**. The following independent
+page-image examination has since confirmed that folio 2950 is present.
+The earlier OCR-neighborhood annotation remains preserved in the ledger
+as evidence of the discovery sequence.
 
 The generic pagination auditor now adds follow-up OCR page-header
 context for *every* candidate, including whether the suspicious number
 recurs at its expected position. It **never suppresses** a candidate
-or upgrades its evidence to visually confirmed solely on OCR. Verify
-remaining candidates with the original page images before declaring
-a missing page, and keep the distinct genuine volume-V scan gap
-at folios **2887–2888** unresolved pending a second physical witness.
+or upgrades its evidence to visually confirmed solely on OCR. Keep the distinct genuine volume-V scan gap at folios **2887–2888**
+unresolved pending a second physical witness.
+
+## Second pass: all seven remaining pairs visually examined (2026-11-23)
+
+The [SHA-locked two-page image research, run 45125508778](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45125508778)
+has now verified all seven remaining OCR jump candidates **directly
+against the original facsimile images**. These are AI-assisted visual
+readings, not independent human scholarly peer review. The original
+digital OCR readings are retained in the report; the source images
+establish that the folio numbers below actually appear on those pages.
+
+| Volume | PDF image pages | OCR jump originally reported | Printed numbers seen on page images | Finding |
+| --- | --- | --- | --- | --- |
+| I | 408–409 | 374→376 | **374→375** | OCR misread |
+| II | 408–409 | 1058→1069 | **1058→1059** | OCR misread |
+| II | 528–529 | 1174→1176 | **1174→1175** | OCR misread |
+| II | 688–689 | 1331→1333 | **1331→1332** | OCR misread |
+| II | 706–707 | 1349→1360 | **1349→1350** | OCR misread |
+| IV | 53–54 | 2149→2160 | **2149→2150** | OCR misread |
+| V | 143–144 | 2949→2960 | **2949→2950** | OCR misread |
+
+The versioned report
+`workspace/reports/1915-scan-folio-continuity-v1.json`
+records the source PDF SHA-256, two independently generated page JPEG
+SHA-256 digests, exact PDF page positions, source-image job ID and
+visible folios for each case. Its findings remain explicitly scoped to
+the **eight initial adjacent-header jump candidates**: seven confirmed
+OCR false positives, one confirmed missing-page interval **in this
+specific scanned copy** (volume V, 2887–2888). Other omissions cannot
+be ruled out by this OCR-driven candidate search.
+
+**Editorial consequences:** no changes to the CrossWire original,
+source-locked canonical TEI, or historical article content; the TAANACH
+case remains uncorrected until a separately sourced facsimile of its
+missing folios is actually compared. Neither this scan audit nor the
+existing corrected navigation TEI is publishable without the separate
+rights investigation (#1). Wider 9,380-article print collation stays
+open (#9).

@@ -1,0 +1,41 @@
+name: Review original 1915 folio anomaly source images
+# Source scans are expensive: perform page-image research only on explicit dispatch.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  visual-witness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {volume: "1", pages: "408,409"}
+          - {volume: "2", pages: "408,409"}
+          - {volume: "2", pages: "528,529"}
+          - {volume: "2", pages: "688,689"}
+          - {volume: "2", pages: "706,707"}
+          - {volume: "4", pages: "53,54"}
+          - {volume: "5", pages: "143,144"}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install page renderer
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Download original SHA-pinned volume (research use only)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p workspace/tmp/print-evidence
+          curl --fail --location --silent --show-error --retry 4 --retry-all-errors \
+            --connect-timeout 20 --max-time 480 \
+            "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
+            --output "workspace/tmp/print-evidence/v${{ matrix.volume }}.pdf"
+      - name: Render exactly two neighboring primary-source pages with hashes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/render_1915_print_evidence.py \
+            --pdf "workspace/tmp/print-evidence/v${{ matrix.volume }}.pdf" \
+            --volume "${{ matrix.volume }}" --pages "${{ matrix.pages }}"

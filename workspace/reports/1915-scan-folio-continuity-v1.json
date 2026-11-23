@@ -25,8 +25,20 @@
       "unseen_printed_folios": [
         375
       ],
-      "review_status": "ocr_candidate_unreviewed",
-      "source_scan_only": true
+      "review_status": "ocr_folio_misread_source_images_checked_ai_assisted",
+      "source_scan_only": true,
+      "image_review": {
+        "method": "AI-assisted visual examination of original adjacent printed PDF page images; not independent scholarly peer review",
+        "outcome": "no_folio_gap_in_this_source_scan",
+        "printed_folio_before_read_from_image": 374,
+        "printed_folio_after_read_from_image": 375,
+        "pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+        "page_before_jpeg_sha256": "f71550ed69ebb5927ac12f01027c392b065875ce57d5597419e2231d8400c721",
+        "page_after_jpeg_sha256": "64b5fa7290f2db9ade77fed301386458794129d53a840f187838c0eea6573b93",
+        "source_image_workflow_run": 45125508778,
+        "source_image_job_id": 137528814347,
+        "note": "Original OCR-detected jump retained as an audit observation; correction applies to recognition of printed folio, not to article content."
+      }
     },
     {
       "volume": "2",
@@ -46,8 +58,20 @@
         1067,
         1068
       ],
-      "review_status": "ocr_candidate_unreviewed",
-      "source_scan_only": true
+      "review_status": "ocr_folio_misread_source_images_checked_ai_assisted",
+      "source_scan_only": true,
+      "image_review": {
+        "method": "AI-assisted visual examination of original adjacent printed PDF page images; not independent scholarly peer review",
+        "outcome": "no_folio_gap_in_this_source_scan",
+        "printed_folio_before_read_from_image": 1058,
+        "printed_folio_after_read_from_image": 1059,
+        "pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+        "page_before_jpeg_sha256": "a1425ac373567683b8a5b3c685106c99f58e6118f2360d4b5e6f6453ff2f9196",
+        "page_after_jpeg_sha256": "738ec12926fc3c03d246cccb31773116967ad05488933e14caf2257f80490dc5",
+        "source_image_workflow_run": 45125508778,
+        "source_image_job_id": 137528814617,
+        "note": "Original OCR-detected jump retained as an audit observation; correction applies to recognition of printed folio, not to article content."
+      }
     },
     {
       "volume": "2",
@@ -58,8 +82,20 @@
       "unseen_printed_folios": [
         1175
       ],
-      "review_status": "ocr_candidate_unreviewed",
-      "source_scan_only": true
+      "review_status": "ocr_folio_misread_source_images_checked_ai_assisted",
+      "source_scan_only": true,
+      "image_review": {
+        "method": "AI-assisted visual examination of original adjacent printed PDF page images; not independent scholarly peer review",
+        "outcome": "no_folio_gap_in_this_source_scan",
+        "printed_folio_before_read_from_image": 1174,
+        "printed_folio_after_read_from_image": 1175,
+        "pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+        "page_before_jpeg_sha256": "dd20400600c5b3aad9207efa7e469532f7161350af37bdbc4b88a05d21a553d0",
+        "page_after_jpeg_sha256": "420c9be590da418998f67e296df1de3b5dac688fbc45c19cbe35ddf3611f9dca",
+        "source_image_workflow_run": 45125508778,
+        "source_image_job_id": 137528814531,
+        "note": "Original OCR-detected jump retained as an audit observation; correction applies to recognition of printed folio, not to article content."
+      }
     },
     {
       "volume": "2",
@@ -70,8 +106,20 @@
       "unseen_printed_folios": [
         1332
       ],
-      "review_status": "ocr_candidate_unreviewed",
-      "source_scan_only": true
+      "review_status": "ocr_folio_misread_source_images_checked_ai_assisted",
+      "source_scan_only": true,
+      "image_review": {
+        "method": "AI-assisted visual examination of original adjacent printed PDF page images; not independent scholarly peer review",
+        "outcome": "no_folio_gap_in_this_source_scan",
+        "printed_folio_before_read_from_image": 1331,
+        "printed_folio_after_read_from_image": 1332,
+        "pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+        "page_before_jpeg_sha256": "c1a35d7e97411b11808c183121ffe540d43e9c428974fc6fda6a17aca9cfed6c",
+        "page_after_jpeg_sha256": "6150a6d89e0b8520dd2be5d32f33c3d50ebe261d5d1bfb72a5a60976f114f341",
+        "source_image_workflow_run": 45125508778,
+        "source_image_job_id": 137528814578,
+        "note": "Original OCR-detected jump retained as an audit observation; correction applies to recognition of printed folio, not to article content."
+      }
     },
     {
       "volume": "2",
@@ -91,8 +139,20 @@
         1358,
         1359
       ],
-      "review_status": "ocr_candidate_unreviewed",
-      "source_scan_only": true
+      "review_status": "ocr_folio_misread_source_images_checked_ai_assisted",
+      "source_scan_only": true,
+      "image_review": {
+        "method": "AI-assisted visual examination of original adjacent printed PDF page images; not independent scholarly peer review",
+        "outcome": "no_folio_gap_in_this_source_scan",
+        "printed_folio_before_read_from_image": 1349,
+        "printed_folio_after_read_from_image": 1350,
+        "pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+        "page_before_jpeg_sha256": "b8e1efc44c83d2a23d4458af81f797bfd35320cf0af429440482729867e777f4",
+        "page_after_jpeg_sha256": "38a0e09cf26d559aa102d7df227ff89cdf3b2051f6cba6b9b30c4a92796e4b81",
+        "source_image_workflow_run": 45125508778,
+        "source_image_job_id": 137528814428,
+        "note": "Original OCR-detected jump retained as an audit observation; correction applies to recognition of printed folio, not to article content."
+      }
     },
     {
       "volume": "4",
@@ -112,8 +172,20 @@
         2158,
         2159
       ],
-      "review_status": "ocr_candidate_unreviewed",
-      "source_scan_only": true
+      "review_status": "ocr_folio_misread_source_images_checked_ai_assisted",
+      "source_scan_only": true,
+      "image_review": {
+        "method": "AI-assisted visual examination of original adjacent printed PDF page images; not independent scholarly peer review",
+        "outcome": "no_folio_gap_in_this_source_scan",
+        "printed_folio_before_read_from_image": 2149,
+        "printed_folio_after_read_from_image": 2150,
+        "pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+        "page_before_jpeg_sha256": "fcf03b6af2e6b546094500790dc04cd2c191717011b5975a92e73a98bfe7d0d0",
+        "page_after_jpeg_sha256": "f33dd3db117b574ed32174ea00553535df0d44c06eaf4fd13c29a0abedc7b4b1",
+        "source_image_workflow_run": 45125508778,
+        "source_image_job_id": 137528814699,
+        "note": "Original OCR-detected jump retained as an audit observation; correction applies to recognition of printed folio, not to article content."
+      }
     },
     {
       "volume": "5",
@@ -153,7 +225,7 @@
         2958,
         2959
       ],
-      "review_status": "ocr_candidate_unreviewed",
+      "review_status": "ocr_folio_misread_source_images_checked_ai_assisted",
       "source_scan_only": true,
       "ocr_neighborhood_review": {
         "status": "strong_ocr_misread_indication_not_image_certified",
@@ -161,7 +233,22 @@
         "expected_intermediate_folio": 2950,
         "digital_evidence": "1915 volume V original PDF OCR layer; primary source in sources/print/1915-volume-witnesses.json",
         "caution": "OCR-text sequence is not a direct visual page-image inspection. Retain gap candidate until images are inspected."
+      },
+      "image_review": {
+        "method": "AI-assisted visual examination of original adjacent printed PDF page images; not independent scholarly peer review",
+        "outcome": "no_folio_gap_in_this_source_scan",
+        "printed_folio_before_read_from_image": 2949,
+        "printed_folio_after_read_from_image": 2950,
+        "pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+        "page_before_jpeg_sha256": "c3a8951260140ccff1ff57270d8bd9351b5c36e3f2d92abc8478317ed125d373",
+        "page_after_jpeg_sha256": "91c42470c07d39cbfbac37667341d4e8309e240696aba21334301d6e4220a9af",
+        "source_image_workflow_run": 45125508778,
+        "source_image_job_id": 137528814461,
+        "note": "Original OCR-detected jump retained as an audit observation; correction applies to recognition of printed folio, not to article content."
       }
     }
-  ]
+  ],
+  "visually_reviewed_candidate_count": 8,
+  "visually_confirmed_ocr_false_positive_count": 7,
+  "visually_confirmed_source_scan_gap_count": 1
 }

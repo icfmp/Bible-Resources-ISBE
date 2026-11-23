@@ -4,6 +4,9 @@ on:
     paths:
       - 'scripts/audit_1915_scan_pagination.py'
       - 'tests/test_audit_1915_scan_pagination.py'
+      - 'tests/test_1915_scan_folio_report.py'
+      - 'workspace/reports/1915-scan-folio-continuity-v1.json'
+      - 'docs/1915-print-pagination-audit.md'
       - '.github/workflows/audit-1915-scan-pagination.yml'
   workflow_dispatch:
 permissions:
@@ -13,7 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 -m unittest discover -s tests -p 'test_audit_1915_scan_pagination.py' -v
+      - name: Unit tests and immutable historical image evidence controls
+        run: |
+          python3 -m unittest discover -s tests -p 'test_audit_1915_scan_pagination.py' -v
+          python3 -m unittest discover -s tests -p 'test_1915_scan_folio_report.py' -v
   print-source:
     needs: tests
     if: github.event_name == 'workflow_dispatch'
