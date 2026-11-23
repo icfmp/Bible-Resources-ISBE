@@ -171,3 +171,36 @@ headword styles, review actual source page images for high-priority
 long-form discrepancies, and compare the independently approved
 editorial TEI against source OCR without replacing the immutable
 source-faithful baseline.
+
+## Content coherence: original TEI vs printed OCR four-token sequences
+
+The follow-up audit retains exactly the same five pinned PDF scan sources,
+conservative article-boundary rules, and **numeric article word counts**.
+It additionally compares **ordered four-word sequences** in the Latin
+tokens of the digital-source article and its purported printed OCR span.
+
+- Source four-gram recall: the proportion of source TEI four-token runs
+  also observed in the OCR article, including repeated runs only as often
+  as they really occur. Low recall is a candidate for transposition, a
+  wrong boundary, or a genuinely different article or source reading.
+- OCR four-gram precision: the proportion of OCR four-token runs also
+  occurring in the source. High source recall with low OCR precision can
+  indicate additional printed prose, but also an OCR boundary that
+  swallowed unrelated material.
+- Both metrics are unavailable for empty or fewer-than-four-token
+  spans. Greek/Hebrew script and punctuation still require direct
+  printed-image collation. OCR hyphenation, column layout and textual
+  conventions can greatly lower scores, including for perfectly
+  faithful source text.
+
+A **near-equal word count with low four-gram recall** is separately
+flagged if the source has at least 100 Latin tokens and source recall
+is below 0.25. Longer OCR spans with at least twice as many words
+and at least 0.60 source four-gram recall form a distinct research
+shortlist. Both thresholds prioritize human review; neither
+justifies an editorial correction or a published text.
+
+Only counts/scores, source keys, article identifiers and source-page
+locations are persisted in Actions reports. Full OCR or article prose
+is **not copied into audit artifacts**. The original CrossWire source
+and separately edited 1915 witness remain unchanged.
