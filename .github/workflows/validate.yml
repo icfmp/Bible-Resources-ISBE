@@ -17,7 +17,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 scripts/audit_tei_structure.py cleaned/en/ISBE.xml \
+          python3 scripts/audit_tei_structure.py workspace/witnesses/crosswire-2.2/ISBE.xml \
             --report /tmp/isbe-tei-structure.json \
             --expected-entries 9380 \
             --strict-profile \
@@ -32,7 +32,7 @@ jobs:
           import hashlib, json
           from pathlib import Path
           lock = json.loads(Path("workspace/changes/tei-p5-candidate-v1.json").read_text(encoding="utf-8"))
-          source = Path("cleaned/en/ISBE.xml")
+          source = Path("workspace/witnesses/crosswire-2.2/ISBE.xml")
           digest = hashlib.sha256(source.read_bytes()).hexdigest()
           if digest != lock["expected_candidate_sha256"]:
               raise SystemExit("Canonical TEI P5 differs from source-validated pinned candidate: " + digest)
@@ -56,7 +56,7 @@ jobs:
         run: |
           set -euo pipefail
           python3 scripts/validate_official_tei_p5.py \
-            --candidate cleaned/en/ISBE.xml \
+            --candidate workspace/witnesses/crosswire-2.2/ISBE.xml \
             --source-report workspace/reports/tei-p5-candidate-report.json \
             --manifest workspace/changes/tei-p5-candidate-v1.json \
             --output /tmp/isbe-tei-p5-official-validation.json

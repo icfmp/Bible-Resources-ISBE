@@ -8,7 +8,7 @@ reconstruct missing references, compare 1915 printed pages, or alter the source.
 Run:
 
 ```sh
-python3 scripts/audit_scripture_ref_display.py cleaned/en/ISBE.xml \
+python3 scripts/audit_scripture_ref_display.py workspace/witnesses/crosswire-2.2/ISBE.xml \
   --report workspace/tmp/scripture-ref-display-audit.json
 ```
 

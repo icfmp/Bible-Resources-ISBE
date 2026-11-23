@@ -80,7 +80,7 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--pdf",required=True,type=Path)
     p.add_argument("--volume",required=True)
-    p.add_argument("--manifest",default="sources/print/1915-volume-witnesses.json")
+    p.add_argument("--manifest",default="workspace/witnesses/print/1915-volume-witnesses.json")
     p.add_argument("--output",required=True,type=Path)
     a=p.parse_args()
     result=audit_pdf(a.pdf,a.manifest,a.volume)

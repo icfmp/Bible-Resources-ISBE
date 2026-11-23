@@ -15,7 +15,7 @@ class PrintSourceLocationLedgerTests(unittest.TestCase):
             .read_text(encoding="utf-8")
         )
         scans = json.loads(
-            (ROOT / "sources/print/1915-volume-witnesses.json")
+            (ROOT / "workspace/witnesses/print/1915-volume-witnesses.json")
             .read_text(encoding="utf-8")
         )
         locations = json.loads(

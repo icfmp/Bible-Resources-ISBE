@@ -123,8 +123,8 @@ def main():
     p.add_argument("--ledger", type=Path, default=Path(
         "workspace/reviews/1915-low-overlap-prose-image-spotchecks-v2.json"))
     p.add_argument("--manifest", type=Path, default=Path(
-        "sources/print/1915-volume-witnesses.json"))
-    p.add_argument("--tei", type=Path, default=Path("cleaned/en/ISBE.xml"))
+        "workspace/witnesses/print/1915-volume-witnesses.json"))
+    p.add_argument("--tei", type=Path, default=Path("workspace/witnesses/crosswire-2.2/ISBE.xml"))
     args = p.parse_args()
     source_sha = digest(args.tei)
     result = validate(

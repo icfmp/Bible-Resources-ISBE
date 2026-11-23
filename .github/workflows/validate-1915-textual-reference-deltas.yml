@@ -46,7 +46,7 @@ jobs:
       - name: Rebuild previously approved six historical print deltas
         run: |
           python3 scripts/apply_1915_print_deltas.py \
-            --source cleaned/en/ISBE.xml \
+            --source workspace/witnesses/crosswire-2.2/ISBE.xml \
             --baseline workspace/tmp/ISBE-1915-approved-base.xml \
             --baseline-report workspace/tmp/ISBE-1915-approved-base-report.json \
             --baseline-manifest workspace/tmp/ISBE-1915-base-validator.json \
@@ -104,7 +104,7 @@ jobs:
       - name: Apply sixteen source-locked printed word/script/reference-punctuation fragments to the NEXT separate TEI
         run: |
           python3 -m scripts.apply_1915_additional_prose_deltas \
-            --source cleaned/en/ISBE.xml \
+            --source workspace/witnesses/crosswire-2.2/ISBE.xml \
             --prior workspace/tmp/ISBE-1915-prose-corrected-NONPUBLISHABLE.xml \
             --prior-report workspace/tmp/ISBE-1915-prose-deltas.json \
             --prior-validator workspace/tmp/ISBE-1915-prose-validator.json \
@@ -118,7 +118,7 @@ jobs:
       - name: Correct one historical printed Additions-to-Esther reference in ANOTHER separate TEI
         run: |
           python3 -m scripts.apply_1915_printed_apocrypha_refs \
-            --source cleaned/en/ISBE.xml \
+            --source workspace/witnesses/crosswire-2.2/ISBE.xml \
             --prior workspace/tmp/ISBE-1915-additional-prose-corrected-NONPUBLISHABLE.xml \
             --prior-report workspace/tmp/ISBE-1915-additional-prose-deltas.json \
             --prior-validator workspace/tmp/ISBE-1915-additional-prose-validator.json \

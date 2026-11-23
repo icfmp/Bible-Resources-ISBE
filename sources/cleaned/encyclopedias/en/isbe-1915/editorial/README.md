@@ -1,8 +1,8 @@
 # ISBE historical English editorial provenance
 
-**This is a working edition, not an independently certified facsimile or an authorized public release.** Source text is historical English; English modernization is a separate downstream `modern/en/` task.
+**This is a working edition, not an independently certified facsimile or an authorized public release.** Source text is historical English; English modernization is a separate downstream `sources/cleaned/encyclopedias/en/isbe-modern/` task.
 
-The authoritative corrected `../ISBE.xml` is built from the original source-faithful 9,380-entry `cleaned/en/ISBE.xml` with the exact source-locked correction sequence:
+The authoritative corrected `../ISBE.xml` is built from the original source-faithful 9,380-entry `workspace/witnesses/crosswire-2.2/ISBE.xml` with the exact source-locked correction sequence:
 
 1. **31 printed historical entries recovered** — `scripts/finalize_1915_recovery.py`, `workspace/reviews/1915-second-pass-visual-approval-v1.json`; 20 full articles and 11 redirects.
 2. **Six print-attested wording corrections** — `scripts/apply_1915_print_deltas.py`; `workspace/reviews/1915-approved-print-deltas-v1.json`.

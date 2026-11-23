@@ -119,7 +119,7 @@ def finalize(source, output, report_path, manifest_path, fidelity_path, approval
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source", default="cleaned/en/ISBE.xml")
+    parser.add_argument("--source", default="workspace/witnesses/crosswire-2.2/ISBE.xml")
     parser.add_argument("--output", required=True)
     parser.add_argument("--report", required=True)
     parser.add_argument("--validator-manifest", required=True)

@@ -15,8 +15,8 @@ class PrintedApocryphaReferenceTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.spec=read(ROOT/"workspace/reviews/1915-gainsay-additions-esther-reference-v1.json")
-        cls.witness=read(ROOT/"sources/print/1915-volume-witnesses.json")
-        cls.canonical=ET.parse(ROOT/"cleaned/en/ISBE.xml").getroot()
+        cls.witness=read(ROOT/"workspace/witnesses/print/1915-volume-witnesses.json")
+        cls.canonical=ET.parse(ROOT/"workspace/witnesses/crosswire-2.2/ISBE.xml").getroot()
 
     def rejects(self, change):
         data=copy.deepcopy(self.spec)
@@ -36,7 +36,7 @@ class PrintedApocryphaReferenceTests(unittest.TestCase):
     def test_exact_reversal_on_original_prior_paragraph_without_other_changes(self):
         # Stand-in reproducing the previous *printed-stage paragraph* while
         # the workflow validates the genuine 36MB prior TEI SHA and whole file.
-        root=ET.parse(ROOT/"cleaned/en/ISBE.xml").getroot()
+        root=ET.parse(ROOT/"workspace/witnesses/crosswire-2.2/ISBE.xml").getroot()
         article=index(root)["GAINSAY"]
         para=next(p for p in article if p.get("{http://www.w3.org/XML/1998/namespace}id")==
                  self.spec["decisions"][0]["source_paragraph_xml_id"])

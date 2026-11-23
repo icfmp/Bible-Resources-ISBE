@@ -11,8 +11,8 @@ class ArticleWideVisualReviewTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.spec=load(ROOT/"workspace/reviews/1915-article-wide-prose-review-v1.json")
-        cls.manifest=load(ROOT/"sources/print/1915-volume-witnesses.json")
-        cls.root=ET.parse(ROOT/"cleaned/en/ISBE.xml").getroot()
+        cls.manifest=load(ROOT/"workspace/witnesses/print/1915-volume-witnesses.json")
+        cls.root=ET.parse(ROOT/"workspace/witnesses/crosswire-2.2/ISBE.xml").getroot()
 
     def reject(self, fn):
         spec=copy.deepcopy(self.spec)

@@ -50,7 +50,7 @@ class SourceBackedNavigationTests(unittest.TestCase):
 
     def test_ledger_unresolved_case_refuses_approval(self):
         d=json.loads((ROOT/"workspace/reviews/1915-scripture-reference-image-triage-v1.json").read_text())
-        m=json.loads((ROOT/"sources/print/1915-volume-witnesses.json").read_text())
+        m=json.loads((ROOT/"workspace/witnesses/print/1915-volume-witnesses.json").read_text())
         self.assertEqual(len(validate_ledger(d,m)),12)
         bad=copy.deepcopy(d)
         next(x for x in bad["cases"] if x["source_key"]=="TAANACH")["proposed_cRef"]="Bible:Judg.1.27"

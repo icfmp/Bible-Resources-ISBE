@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PATH = ROOT / "workspace/reports/1915-scan-folio-continuity-v1.json"
-MANIFEST = ROOT / "sources/print/1915-volume-witnesses.json"
+MANIFEST = ROOT / "workspace/witnesses/print/1915-volume-witnesses.json"
 
 REVIEWED_FOLIOS = {
     ("1", 408, 409): (374, 375),

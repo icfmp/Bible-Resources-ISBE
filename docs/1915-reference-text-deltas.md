@@ -4,7 +4,7 @@ This is a **separate, nonpublishable editorial candidate** built after the
 previously approved 31 restored entries, six historical print corrections,
 and twelve Scripture **navigation-only** repairs. It does not alter any
 CrossWire ZIP or IMP, the source-locked canonical
-`cleaned/en/ISBE.xml`, or those preceding generated editions.
+`workspace/witnesses/crosswire-2.2/ISBE.xml`, or those preceding generated editions.
 
 ## Precise original-print discrepancy
 

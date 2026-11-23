@@ -13,10 +13,10 @@ import shutil
 import subprocess
 import sys
 
-SOURCE_ZIP = Path("sources/crosswire/isbe-2.2/ISBE.zip")
-SOURCE_MANIFEST = Path("sources/crosswire/isbe-2.2/MANIFEST.json")
-CANONICAL = Path("cleaned/en/ISBE.xml")
-INDEX = Path("cleaned/en/article-index.json")
+SOURCE_ZIP = Path("sources/original/encyclopedias/en/isbe-crosswire-2.2/ISBE.zip")
+SOURCE_MANIFEST = Path("sources/original/encyclopedias/en/isbe-crosswire-2.2/ACQUISITION_MANIFEST.json")
+CANONICAL = Path("workspace/witnesses/crosswire-2.2/ISBE.xml")
+INDEX = Path("workspace/witnesses/crosswire-2.2/article-index.json")
 ORIGINAL_DIR = Path("sources/original/encyclopedias/en/isbe-crosswire-2.2")
 CLEANED_DIR = Path("sources/cleaned/encyclopedias/en/isbe-1915")
 TMP = Path("workspace/tmp/isbe-retained-master")
@@ -155,7 +155,8 @@ def persist(source_manifest,validation):
     CLEANED_DIR.mkdir(parents=True,exist_ok=True)
     original=ORIGINAL_DIR/"ISBE.zip"
     edited=CLEANED_DIR/"ISBE.xml"
-    shutil.copyfile(SOURCE_ZIP,original)
+    if SOURCE_ZIP.resolve() != original.resolve():
+        shutil.copyfile(SOURCE_ZIP,original)
     shutil.copyfile(TMP/"final.xml",edited)
     if digest(original)!=ORIGINAL_ZIP_SHA or digest(edited)!=EXPECTED_CLEANED_SHA:
         raise ValueError("Retained files differ from independently verified inputs")

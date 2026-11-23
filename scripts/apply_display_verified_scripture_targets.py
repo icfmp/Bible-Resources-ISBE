@@ -192,7 +192,7 @@ def run(source, baseline, prior_report, prior_validator, ledger, candidates, out
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--source", default="cleaned/en/ISBE.xml")
+    p.add_argument("--source", default="workspace/witnesses/crosswire-2.2/ISBE.xml")
     p.add_argument("--ledger", default="workspace/reviews/1915-source-display-navigation-deltas-v1.json")
     p.add_argument("--candidates", default="workspace/reviews/1915-scripture-reference-image-triage-v1.json")
     for field in ("baseline", "prior-report", "prior-validator", "output", "report",

@@ -73,7 +73,7 @@ def main():
     p.add_argument("--pdf",required=True,type=Path)
     p.add_argument("--volume",required=True)
     p.add_argument("--output-dir",required=True,type=Path)
-    p.add_argument("--manifest",type=Path,default=Path("sources/print/1915-volume-witnesses.json"))
+    p.add_argument("--manifest",type=Path,default=Path("workspace/witnesses/print/1915-volume-witnesses.json"))
     p.add_argument("--review",type=Path,default=Path("workspace/reviews/1915-article-wide-prose-review-v2.json"))
     a=p.parse_args()
     data=extract(a.pdf,json.loads(a.manifest.read_text()),

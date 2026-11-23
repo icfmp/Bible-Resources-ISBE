@@ -134,9 +134,9 @@ def main():
     p.add_argument("--original-ledger", type=Path, default=Path(
         "workspace/reviews/1915-ocr-print-heading-visual-inspection-v1.json"))
     p.add_argument("--source-manifest", type=Path, default=Path(
-        "sources/print/1915-volume-witnesses.json"))
+        "workspace/witnesses/print/1915-volume-witnesses.json"))
     p.add_argument("--article-index", type=Path, default=Path(
-        "cleaned/en/article-index.json"))
+        "workspace/witnesses/crosswire-2.2/article-index.json"))
     a = p.parse_args()
     def read(path):
         return json.loads(path.read_text(encoding="utf-8"))

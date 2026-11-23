@@ -231,7 +231,7 @@
         "status": "strong_ocr_misread_indication_not_image_certified",
         "reading": "OCR headers show 2949, then 2960, then 2951 and 2952, with another 2960 after 2959",
         "expected_intermediate_folio": 2950,
-        "digital_evidence": "1915 volume V original PDF OCR layer; primary source in sources/print/1915-volume-witnesses.json",
+        "digital_evidence": "1915 volume V original PDF OCR layer; primary source in workspace/witnesses/print/1915-volume-witnesses.json",
         "caution": "OCR-text sequence is not a direct visual page-image inspection. Retain gap candidate until images are inspected."
       },
       "image_review": {

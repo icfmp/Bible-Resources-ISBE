@@ -87,12 +87,12 @@ def attach_ocr_hints(report, pdf, manifest, volume):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--tei", type=Path, default=Path("cleaned/en/ISBE.xml"))
+    p.add_argument("--tei", type=Path, default=Path("workspace/witnesses/crosswire-2.2/ISBE.xml"))
     p.add_argument("--output", required=True, type=Path)
     p.add_argument("--volume")
     p.add_argument("--pdf", type=Path)
     p.add_argument("--witness-manifest", type=Path,
-                   default=Path("sources/print/1915-volume-witnesses.json"))
+                   default=Path("workspace/witnesses/print/1915-volume-witnesses.json"))
     a = p.parse_args()
     if bool(a.volume) != bool(a.pdf):
         p.error("--volume and --pdf must be provided together")

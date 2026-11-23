@@ -10,7 +10,7 @@ LEDGER=ROOT/"workspace/reviews/1915-scripture-reference-image-triage-v1.json"
 class OriginalPrintCandidateLedgerTests(unittest.TestCase):
     def test_complete_canonical_coverage_and_sources(self):
         d=json.loads(LEDGER.read_text(encoding="utf-8"))
-        report=scan(ROOT/"cleaned/en/ISBE.xml")
+        report=scan(ROOT/"workspace/witnesses/crosswire-2.2/ISBE.xml")
         self.assertEqual(d["canonical_sha256"],report["input_sha256"])
         self.assertEqual(report["candidate_count"],13)
         self.assertFalse(d["publication_permitted"])
@@ -20,7 +20,7 @@ class OriginalPrintCandidateLedgerTests(unittest.TestCase):
         self.assertEqual(len(rows),13)
         self.assertEqual({x["ref_xml_id"] for x in rows},set(by_id))
         from scripts.research_1915_print_pages import expected_volume
-        manifest=json.loads((ROOT/"sources/print/1915-volume-witnesses.json").read_text())
+        manifest=json.loads((ROOT/"workspace/witnesses/print/1915-volume-witnesses.json").read_text())
         pdfs={v["volume"]:v["pdf_sha256"] for v in manifest["volumes"]}
         for r in rows:
             baseline=by_id[r["ref_xml_id"]]

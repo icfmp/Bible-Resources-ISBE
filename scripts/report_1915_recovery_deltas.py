@@ -30,7 +30,7 @@ def read(path):
 def build(root=ROOT):
     root = Path(root)
     reviews = root / "workspace/reviews"
-    canonical_path = root / "cleaned/en/ISBE.xml"
+    canonical_path = root / "workspace/witnesses/crosswire-2.2/ISBE.xml"
     original = canonical_path.read_bytes()
     baseline = sha(original)
     ledger = read(reviews / "empty-article-recovery-ledger.json")

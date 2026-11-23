@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class EmptyArticleRecoveryLedgerTests(unittest.TestCase):
     def test_all_empty_source_records_are_accounted_for(self):
-        corpus = ROOT / "cleaned/en/ISBE.xml"
+        corpus = ROOT / "workspace/witnesses/crosswire-2.2/ISBE.xml"
         ledger = json.loads(
             (ROOT / "workspace/reviews/empty-article-recovery-ledger.json").read_text(encoding="utf-8")
         )

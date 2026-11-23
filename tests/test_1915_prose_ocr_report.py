@@ -24,7 +24,7 @@ class OriginalProseOCRReportTests(unittest.TestCase):
                           .read_text(encoding="utf-8"))
         audited = {r["source_key"]: r for r in audit(ROOT)["records"]}
         self.assertEqual(data["canonical_source_sha256"],
-                         hashlib.sha256((ROOT / "cleaned/en/ISBE.xml").read_bytes()).hexdigest())
+                         hashlib.sha256((ROOT / "workspace/witnesses/crosswire-2.2/ISBE.xml").read_bytes()).hexdigest())
         self.assertEqual(data["candidate_file_git_blob_sha1"],
                          git_blob_sha1(REVIEWS / "print-prose-candidate-v1.json"))
         self.assertEqual(data["visual_page_evidence_git_blob_sha1"],

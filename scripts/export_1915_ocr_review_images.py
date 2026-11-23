@@ -145,7 +145,7 @@ def main():
     p.add_argument("--pdf", required=True, type=Path)
     p.add_argument("--ocr-report", required=True, type=Path)
     p.add_argument("--volume-manifest", type=Path,
-                   default=Path("sources/print/1915-volume-witnesses.json"))
+                   default=Path("workspace/witnesses/print/1915-volume-witnesses.json"))
     p.add_argument("--output-dir", required=True, type=Path)
     p.add_argument("--include-near-size-end-page", action="store_true",
                    help="Render next-heading scan page too for same-size low-overlap candidates")

@@ -18,8 +18,8 @@ class PrintHeadingVisualProofTests(unittest.TestCase):
             return json.loads((ROOT / path).read_text(encoding="utf-8"))
         cls.ledger = read("workspace/reviews/1915-ocr-print-heading-visual-inspection-v1.json")
         cls.v2 = read("workspace/reviews/1915-ocr-print-heading-visual-inspection-v2.json")
-        cls.manifest = read("sources/print/1915-volume-witnesses.json")
-        cls.article_index = read("cleaned/en/article-index.json")
+        cls.manifest = read("workspace/witnesses/print/1915-volume-witnesses.json")
+        cls.article_index = read("workspace/witnesses/crosswire-2.2/article-index.json")
 
     def try_check(self, ledger):
         return validate(ledger, self.manifest, self.article_index)

@@ -12,8 +12,8 @@ on:
       - tests/test_check_tei_p5_svrl.py
       - workspace/changes/tei-p5-candidate-v1.json
       - .github/workflows/tei-p5-candidate.yml
-      - cleaned/en/ISBE.xml
-      - cleaned/en/article-index.json
+      - workspace/witnesses/crosswire-2.2/ISBE.xml
+      - workspace/witnesses/crosswire-2.2/article-index.json
   workflow_dispatch:
 permissions:
   contents: read

@@ -202,7 +202,7 @@ def run(source, prior, prior_report, prior_validator, ledger, output,
     source_root = ET.parse(source).getroot()
     decisions = validate_ledger(
         spec, source_root, research,
-        read('sources/print/1915-volume-witnesses.json'))
+        read('workspace/witnesses/print/1915-volume-witnesses.json'))
     root = ET.parse(prior).getroot()
     baseline_articles = articles(root)
     old_nodes = {key: ET.tostring(article, encoding='utf-8')
@@ -263,7 +263,7 @@ def run(source, prior, prior_report, prior_validator, ledger, output,
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--source', type=Path, default=Path('cleaned/en/ISBE.xml'))
+    p.add_argument('--source', type=Path, default=Path('workspace/witnesses/crosswire-2.2/ISBE.xml'))
     for name in ('prior', 'prior-report', 'prior-validator', 'ledger',
                  'output', 'report', 'derived-manifest', 'derived-fidelity'):
         p.add_argument('--' + name, type=Path, required=True)

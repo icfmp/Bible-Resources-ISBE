@@ -183,7 +183,7 @@ def validate_decisions(spec, evidence):
           for d in spec.get("decisions",[])]
     if not keys or len(keys)!=len(set(keys)):
         raise ValueError("Missing or duplicated approval")
-    manifest=read(ROOT/"sources/print/1915-volume-witnesses.json")
+    manifest=read(ROOT/"workspace/witnesses/print/1915-volume-witnesses.json")
     volumes={v["volume"]:v for v in manifest["volumes"]}
     for delta in spec["decisions"]:
         rows=[r for r in evidence["cases"] if r["source_key"]==delta["source_key"]
@@ -289,7 +289,7 @@ def apply_files(source,baseline,baseline_report,ledger_path,output,report,baseli
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--source",default="cleaned/en/ISBE.xml")
+    p.add_argument("--source",default="workspace/witnesses/crosswire-2.2/ISBE.xml")
     for field in ("baseline","baseline-report","ledger","output","report",
                   "baseline-manifest","derived-manifest","fidelity"):
         p.add_argument("--"+field,required=True)

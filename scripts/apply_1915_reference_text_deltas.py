@@ -255,7 +255,7 @@ def run(source, baseline, previous_report, previous_validator,
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--source", default="cleaned/en/ISBE.xml")
+    p.add_argument("--source", default="workspace/witnesses/crosswire-2.2/ISBE.xml")
     p.add_argument("--baseline", required=True)
     p.add_argument("--previous-report", required=True)
     p.add_argument("--previous-validator", required=True)

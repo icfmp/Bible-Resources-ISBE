@@ -33,7 +33,7 @@ def anchors(path):
     return rows
 
 def main():
-    rows=anchors(Path("cleaned/en/ISBE.xml"))
+    rows=anchors(Path("workspace/witnesses/crosswire-2.2/ISBE.xml"))
     Path("workspace/tmp").mkdir(parents=True,exist_ok=True)
     Path("workspace/tmp/1915-scripture-ref-anchors.json").write_text(
         json.dumps({"canonical_sha256":LOCK,"cases":rows},ensure_ascii=False,indent=2)+"\n"

@@ -20,9 +20,9 @@ class Original1915AbbreviationImageTests(unittest.TestCase):
         cls.ledger = read(
             "workspace/reviews/1915-print-abbreviation-image-observations-v1.json"
         )
-        cls.sources = read("sources/print/1915-volume-witnesses.json")
-        cls.root = ET.parse(ROOT / "cleaned/en/ISBE.xml").getroot()
-        cls.lock = digest(ROOT / "cleaned/en/ISBE.xml")
+        cls.sources = read("workspace/witnesses/print/1915-volume-witnesses.json")
+        cls.root = ET.parse(ROOT / "workspace/witnesses/crosswire-2.2/ISBE.xml").getroot()
+        cls.lock = digest(ROOT / "workspace/witnesses/crosswire-2.2/ISBE.xml")
 
     def check(self, ledger):
         return validate(ledger, self.sources, self.root, self.lock)

@@ -1,15 +1,9 @@
-# Maintained historical cleaned masters
+# Corrected and maintained source masters
 
-Real, complete, verified sources under `<category>/<language>/<resource>/` only, following Bible-Resources.
+Real reviewed editorial masters belong under `<category>/<language>/<resource-id>/`, matching Bible-Resources.
 
-The **English ISBE historical editorial master** is:
-`encyclopedias/en/isbe-1915/ISBE.xml`.
+The corrected historical English ISBE is [`encyclopedias/en/isbe-1915/ISBE.xml`](encyclopedias/en/isbe-1915/ISBE.xml), with an adjacent `CLEANUP_MANIFEST.json` and [editorial record](encyclopedias/en/isbe-1915/editorial/README.md). It contains all **9,380 entries** plus the source-attested 1915 repairs, without changing the original upstream SWORD source.
 
-It starts from the immutable 9,380-entry CrossWire source-faithful TEI; restores the 31 documented printed articles/redirects and applies all the exact, reviewed 1915 prose, structure and verse-target corrections in their original order. The adjacent `CLEANUP_MANIFEST.json` records original/canonical/output SHA-256, source paths, original evidence and validation status. `editorial/README.md` records the correction chain and outstanding editorial uncertainties.
+Original CrossWire bytes live separately in `sources/original/`. The reconstructed digital-faithful TEI is an **intermediate witness** under `workspace/witnesses/crosswire-2.2/`, and is never confused with this corrected edition.
 
-Rebuild reproducibly: `python3 scripts/persist_1915_cleaned_master.py --assemble`.
-Check stored bytes: `python3 scripts/persist_1915_cleaned_master.py --verify-only`.
-
-This is the base for future `modern/en/` modernization; **never modernize or silently change the historical master in place**. Note that `cleaned/en/ISBE.xml` at the repository root remains a locked **CrossWire-faithful technical witness** for original parity tests, not the historically corrected master.
-
-Rights and publication remain unapproved: a clean XML file is not a release or a license clearance.
+Future modern English or translations must be new independently versioned source masters (e.g. `encyclopedias/en/isbe-modern/ISBE.xml`), created only when they exist; no empty placeholder folders. Rebuild/verification: `python3 scripts/persist_1915_cleaned_master.py --assemble` and `--verify-only`. Redistribution remains blocked by rights issue #1.

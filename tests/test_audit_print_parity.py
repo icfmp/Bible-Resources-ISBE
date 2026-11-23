@@ -6,7 +6,7 @@ from pathlib import Path
 from scripts.audit_print_parity import check
 
 ROOT=Path(__file__).resolve().parents[1]
-SOURCE=ROOT/"cleaned/en/ISBE.xml"
+SOURCE=ROOT/"workspace/witnesses/crosswire-2.2/ISBE.xml"
 LEDGER=ROOT/"workspace/reviews/1915-nonempty-contrast-v1.json"
 
 class PrintParityTests(unittest.TestCase):

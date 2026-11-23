@@ -125,10 +125,10 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--volume",required=True)
     p.add_argument("--original-text-directory",required=True,type=Path)
-    p.add_argument("--canonical",default="cleaned/en/ISBE.xml",type=Path)
+    p.add_argument("--canonical",default="workspace/witnesses/crosswire-2.2/ISBE.xml",type=Path)
     p.add_argument("--report",default="workspace/reviews/1915-all24-print-layer-whole-article-comparison-v1.json",type=Path)
     p.add_argument("--visual",default="workspace/reviews/1915-article-wide-prose-review-v2.json",type=Path)
-    p.add_argument("--manifest",default="sources/print/1915-volume-witnesses.json",type=Path)
+    p.add_argument("--manifest",default="workspace/witnesses/print/1915-volume-witnesses.json",type=Path)
     args=p.parse_args()
     if sha256(args.canonical.read_bytes()).hexdigest()!=LOCK:
         raise ValueError("Canonical source ZIP/IMP/TEI drift")
