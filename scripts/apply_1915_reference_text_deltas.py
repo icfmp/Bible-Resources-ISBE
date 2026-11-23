@@ -153,7 +153,7 @@ def apply_deltas(root, decisions):
         ref.text = row["corrected_visible"]
         ref.set("cRef", row["corrected_cRef"])
         after_unit_text = "".join(paragraph.itertext())
-        if after_unit_text == "" or after_unit_text == row["source_unit_text_sha256"]:
+        if not after_unit_text or text_digest(after_unit_text) == row["source_unit_text_sha256"]:
             raise ValueError("Malformed resulting paragraph")
         # Reverting only the two edited fields MUST exactly restore the prior
         # article serialization, proving that no other markup or text changed.
