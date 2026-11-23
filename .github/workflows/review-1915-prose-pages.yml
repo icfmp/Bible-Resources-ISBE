@@ -1,4 +1,4 @@
-name: Inspect 20 original 1915 prose article pages
+name: Inspect magnified original 1915 prose glyphs
 
 on:
   pull_request:
@@ -10,27 +10,27 @@ permissions:
   contents: read
 
 jobs:
-  page-evidence:
+  cropped-evidence:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
       fail-fast: false
       matrix:
         include:
-          - {volume: "1", pages: "37:ABISSEI,148:AMNON,192:ANTIQUITY,458:BEERA,654:CHORBE"}
-          - {volume: "2", pages: "165:DEHORT,499:FROWARDNESS,699:HASRAH,731:HEMDAN"}
-          - {volume: "3", pages: "177:ITHLAH,624:MANASSITES,626:MANKIND"}
-          - {volume: "4", pages: "618:SAVIAS,642:SEPHARVITES,663:SESIS,667:SHALLUN"}
-          - {volume: "5", pages: "67:SYCHEM,142:TEPHON,169:THOCANUS_THOMEI"}
+          - {volume: "1", crops: "148:AMNON:206:2362:790:441,192:ANTIQUITY:170:1734:825:280"}
+          - {volume: "2", crops: "499:FROWARDNESS:1060:1245:815:338,699:HASRAH:1030:1630:810:205,731:HEMDAN:1069:1125:778:260"}
+          - {volume: "3", crops: "624:MANASSITES:1050:2360:800:170"}
+          - {volume: "4", crops: "618:SAVIAS:170:1585:825:110,642:SEPHARVITES:190:1145:815:225,663:SESIS:206:281:730:140"}
+          - {volume: "5", crops: "169:THOMEI:1020:2560:850:230,169:THOCANUS:188:1680:816:175"}
     steps:
       - uses: actions/checkout@v4
       - name: Install PDF renderer
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
-      - name: Obtain SHA-pinned 1915 print images
+      - name: Render SHA-pinned magnified page crops
         shell: bash
         env:
           VOLUME: ${{ matrix.volume }}
-          PAGES: ${{ matrix.pages }}
+          CROPS: ${{ matrix.crops }}
         run: |
           set -euo pipefail
           curl --fail --location --silent --show-error --retry 3 --retry-all-errors --connect-timeout 20 --max-time 360 "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${VOLUME}.pdf" -o /tmp/original.pdf
@@ -39,20 +39,19 @@ jobs:
           from pathlib import Path
           v=next(x for x in json.loads(Path('sources/print/1915-volume-witnesses.json').read_text())['volumes'] if x['volume']==os.environ['VOLUME'])
           digest=hashlib.sha256(Path('/tmp/original.pdf').read_bytes()).hexdigest()
-          assert digest==v['pdf_sha256'], 'Original scan SHA drift'
-          print('Original 1915 volume verified:', digest)
+          assert digest==v['pdf_sha256'], 'Wrong original facsimile'
+          print('Verified 1915 PDF SHA:',digest)
           PY
-          IFS=',' read -ra ENTRY <<< "$PAGES"
-          for unit in "${ENTRY[@]}"; do
-            page="${unit%%:*}"
-            key="${unit#*:}"
-            pdftoppm -f "$page" -l "$page" -singlefile -jpeg -r 160 -jpegopt quality=80,optimize=y /tmp/original.pdf /tmp/source-page >/dev/null 2>&1
+          IFS=',' read -ra ITEMS <<< "$CROPS"
+          for item in "${ITEMS[@]}"; do
+            IFS=':' read -r page key x y width height <<< "$item"
+            pdftoppm -f "$page" -l "$page" -singlefile -png -r 300 -x "$x" -y "$y" -W "$width" -H "$height" /tmp/original.pdf /tmp/crop >/dev/null 2>&1
             KEY="$key" python - <<'PY'
           import os,base64
           from pathlib import Path
-          data=Path('/tmp/source-page.jpg').read_bytes()
-          b64=base64.b64encode(data).decode('ascii')
-          print('BEGIN_IMAGE:'+os.environ['KEY']+':'+str(len(data)))
+          image=Path('/tmp/crop.png').read_bytes()
+          b64=base64.b64encode(image).decode('ascii')
+          print('BEGIN_IMAGE:'+os.environ['KEY']+':'+str(len(image)))
           for i in range(0,len(b64),2000):
               print('IMG_CHUNK:'+b64[i:i+2000])
           print('END_IMAGE:'+os.environ['KEY'])
