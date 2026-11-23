@@ -132,6 +132,51 @@ def aggregate(reports, manifest, recovery_map=None):
             r["article_key"],
         )
     )
+    def word_count_band(n):
+        if n < 20:
+            return "00_0_to_19_source_words"
+        if n < 100:
+            return "01_20_to_99_source_words"
+        if n < 500:
+            return "02_100_to_499_source_words"
+        return "03_500_plus_source_words"
+
+    discrepant_by_source_size = Counter(
+        word_count_band(r["tei_latin_tokens"]) for r in discrepant
+    )
+    discrepancy_directions = Counter(
+        "ocr_longer" if r["ocr_latin_tokens"] > r["tei_latin_tokens"] else "tei_longer"
+        for r in discrepant
+    )
+    # Rank substantive source articles separately. Relative ratios of very
+    # short redirects are useful flags but would otherwise monopolize the
+    # highest-priority list without proving missing printed prose.
+    substantive = sorted(
+        (
+            r for r in discrepant
+            if r["tei_latin_tokens"] >= 100
+            and abs(r["ocr_latin_tokens"] - r["tei_latin_tokens"]) >= 50
+        ),
+        key=lambda r: (
+            -abs(r["ocr_latin_tokens"] - r["tei_latin_tokens"]),
+            r["article_key"],
+        ),
+    )
+    def brief(r):
+        return {
+            "source_key": r["article_key"],
+            "article_xml_id": r["article_xml_id"],
+            "volume": r["volume"],
+            "ocr_start_pdf_page": r["ocr_start_pdf_page"],
+            "tei_latin_tokens": r["tei_latin_tokens"],
+            "ocr_latin_tokens": r["ocr_latin_tokens"],
+            "ocr_to_tei_ratio": r["ocr_to_tei_ratio"],
+            "absolute_latin_token_difference": abs(
+                r["ocr_latin_tokens"] - r["tei_latin_tokens"]
+            ),
+            "status": r["status"],
+            "source_print_certified": False,
+        }
     return {
         "schema_version": 3,
         "source": manifest["bibliographic_citation"],
@@ -156,20 +201,16 @@ def aggregate(reports, manifest, recovery_map=None):
             if recovery_map is not None else None
         ),
         "source_empty_candidates": recovered,
+        "difference_direction_counts": dict(sorted(discrepancy_directions.items())),
+        "discrepancies_by_source_size": dict(sorted(discrepant_by_source_size.items())),
+        "substantive_source_difference_candidates_count": len(substantive),
+        "top_50_substantive_source_abs_differences": [
+            brief(r) for r in substantive[:50]
+        ],
         "publication_permitted": False,
         "counting_limitation": "Normalized Latin tokens only; exact article boundaries, multilingual words, punctuation, diagrams and OCR quality cannot be historically certified from this report",
         "top_50_discrepancy_candidates": [
-            {
-                "source_key": r["article_key"],
-                "article_xml_id": r["article_xml_id"],
-                "volume": r["volume"],
-                "ocr_start_pdf_page": r["ocr_start_pdf_page"],
-                "tei_latin_tokens": r["tei_latin_tokens"],
-                "ocr_latin_tokens": r["ocr_latin_tokens"],
-                "ocr_to_tei_ratio": r["ocr_to_tei_ratio"],
-                "status": r["status"],
-            }
-            for r in discrepant[:50]
+            brief(r) for r in discrepant[:50]
         ],
     }
 
@@ -202,6 +243,14 @@ def main():
         "count_comparable_articles": result["count_comparable_articles"],
         "unresolved_ocr_article_boundaries": result["unresolved_ocr_article_boundaries"],
         "status_counts": result["status_counts"],
+        "difference_direction_counts": result["difference_direction_counts"],
+        "discrepancies_by_source_size": result["discrepancies_by_source_size"],
+        "substantive_source_difference_candidates": result[
+            "substantive_source_difference_candidates_count"
+        ],
+        "top_5_substantive_source_abs_differences": result[
+            "top_50_substantive_source_abs_differences"
+        ][:5],
         "source_empty_ocr_candidates": result["source_empty_candidates_in_ocr"],
         "source_empty_already_restored_in_separate_edition": result[
             "already_separately_restored_source_empty_candidates"
