@@ -86,7 +86,7 @@ class OriginalPrintedWordCountTests(unittest.TestCase):
         out, _ = assess(lines, a, accepted)
         self.assertIsNone(out[1]["ocr_latin_tokens"])
         self.assertIsNone(out[2]["ocr_latin_tokens"])
-        self.assertIsNone(out[3]["ocr_latin_tokens"])
+        self.assertEqual(out[3]["ocr_latin_tokens"], 3)  # ABASE -> ABBOT remain consecutive
 
     def test_repeated_heading_does_not_make_false_boundary(self):
         src = example()
