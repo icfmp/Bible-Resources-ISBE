@@ -85,9 +85,9 @@ class OriginalPrintedWordCountTests(unittest.TestCase):
         # after it, lower-left/right. The entire-left/right model is wrong.
         raw = page_xml([
             ("UPPER LEFT", 60, 130),
-            ("VAGABOND, entry below alphabetic separator", 60, 560),
+            ("VAGABOND, entry below alphabetic separator", 60, 470),
             ("UPPER RIGHT", 350, 130),
-            ("VAINGLORY, printed continuation", 350, 560),
+            ("VAINGLORY, printed continuation", 350, 470),
             ("V", 293, 390),
         ])
         self.assertIn('xMin="293" yMin="390" xMax="307" yMax="398"', raw)
