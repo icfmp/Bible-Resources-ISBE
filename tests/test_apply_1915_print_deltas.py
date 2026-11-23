@@ -48,6 +48,26 @@ class PrintDeltasTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 apply_operations(root(),d)
 
+
+    def test_reject_modified_facsimile_digest(self):
+        import json
+        from pathlib import Path
+        root_path = Path(__file__).resolve().parents[1]
+        delta = json.loads((root_path / "workspace/reviews/1915-approved-print-deltas-v1.json")
+                           .read_text(encoding="utf-8"))
+        evidence = json.loads((root_path / "workspace/reviews/1915-nonempty-contrast-v1.json")
+                              .read_text(encoding="utf-8"))
+        self.assertEqual(validate_decisions(delta,evidence),1)
+        tampered = copy.deepcopy(delta)
+        tampered["decisions"][0]["evidence_rendered_jpeg_sha256"]="0"*64
+        with self.assertRaisesRegex(ValueError,"Unverified"):
+            validate_decisions(tampered,evidence)
+        tampered = copy.deepcopy(evidence)
+        case = next(c for c in tampered["cases"] if c["source_key"]=="AALAR")
+        case["original_pdf_sha256"]="0"*64
+        with self.assertRaisesRegex(ValueError,"Unverified"):
+            validate_decisions(delta,tampered)
+
     def test_no_unapproved_or_duplicate_edits(self):
         d=spec()
         d[0]["approved_for_separate_editorial_tei"]=False
