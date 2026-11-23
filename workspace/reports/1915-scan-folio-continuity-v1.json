@@ -154,7 +154,14 @@
         2959
       ],
       "review_status": "ocr_candidate_unreviewed",
-      "source_scan_only": true
+      "source_scan_only": true,
+      "ocr_neighborhood_review": {
+        "status": "strong_ocr_misread_indication_not_image_certified",
+        "reading": "OCR headers show 2949, then 2960, then 2951 and 2952, with another 2960 after 2959",
+        "expected_intermediate_folio": 2950,
+        "digital_evidence": "1915 volume V original PDF OCR layer; primary source in sources/print/1915-volume-witnesses.json",
+        "caution": "OCR-text sequence is not a direct visual page-image inspection. Retain gap candidate until images are inspected."
+      }
     }
   ]
 }
