@@ -142,6 +142,18 @@ def main():
         raise RuntimeError("Expected old duplicate-original assertion once")
     test.write_text(content.replace(obsolete,correct),encoding="utf-8")
 
+    # Source deduplication now makes SOURCE_ZIP identical to the retained
+    # original archive path; avoid copying a file onto itself. It remains
+    # independently digest-checked by check_source and verify_saved.
+    persistence=ROOT/"scripts/persist_1915_cleaned_master.py"
+    kept=persistence.read_text(encoding="utf-8")
+    previous_copy="    shutil.copyfile(SOURCE_ZIP,original)"
+    guarded_copy="    if SOURCE_ZIP.resolve() != original.resolve():\n        shutil.copyfile(SOURCE_ZIP,original)"
+    if kept.count(previous_copy)!=1:
+        raise RuntimeError("Expected exact original ZIP archival copy call once")
+    persistence.write_text(kept.replace(previous_copy,guarded_copy),
+                           encoding="utf-8")
+
     # Real entity module candidate metadata, NOT a fabricated compiled module.
     dump("modules/isbe-1915/metadata.json",{
       "schema_version":1,
