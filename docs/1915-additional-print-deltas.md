@@ -1,4 +1,4 @@
-# Ten further individually reversible 1915 image-attested printed readings
+# Sixteen further individually reversible 1915 image-attested printed readings
 
 This step extends—not replaces—the **separate, noncanonical** 1915 editorial
 ISBE witness after the [previous eight source-image print corrections
@@ -11,13 +11,13 @@ editorial outputs untouched.
 
 | Article | Corrected fragments | Exact scope |
 | --- | ---: | --- |
-| ABIDE | 2 | False expansions of printed `a.` (one past tense, one noun) with original square brackets retained |
+| ABIDE | **8** | Seven false expansions of printed `a.` with original square brackets **or parentheses as actually printed**, plus one printed Greek `μονή` and transliteration restored |
 | BUSINESS | 1 | Original **Greek plus transliteration** `ἐν τοῖς τοῦ πατρός μου, en tois tou patros mou`, not the malformed digital Latin-only expression |
 | GAINSAY | 4 | Four exact printable Apocrypha citation spans containing unprinted electronic `/APC` markers |
 | MEADOW | 1 | Historical quotation with **square brackets** `[AV “paper reeds”]` |
 | REPAIR | 1 | Original AV abbreviation and restored quotation parentheses around Joel 3:16 |
 | YEA | 1 | Printed closing parenthesis `)` instead of digital unbalanced `]` |
-| **Total** | **10** | **Six articles** |
+| **Total** | **16** | **Six articles** |
 
 This **supersedes the incorrect earlier MEADOW image-reading inference**:
 on the magnified original volume III PDF page 657 the printed passage uses
@@ -29,7 +29,7 @@ In GAINSAY, **do not conflate** an accurately read `Ad Est 13 9` with
 digitized `Additions to Esther 9:13`. The displayed reading and its
 `Bible:Esth.9.13` target remain untouched pending a separately documented
 versification decision. Likewise, no systematic deletion of other `/APC`
-occurrences is authorized: these **four exact printed citations** only.
+occurrences is authorized: these **four exact printed citations** only. A magnified original ABIDE image also corrects our earlier spot-check description: `There he a.` is followed by **(dwelt)** in parentheses, not `[dwelt]`.
 
 ## Exact provenance and reversal
 
@@ -56,7 +56,7 @@ release approvals, bulk substitutions, and silently re-targeted references.
 
 ## What this does not certify
 
-These ten small original-print restorations do **not** certify the entire
+These sixteen small original-print restorations do **not** certify the entire
 text, punctuation, original languages, notes, signatures, reference locations
 or editorial choices of all 24 English-reviewed articles. The source-print
 glyph-by-glyph verification remains separately open under [issue #9](https://github.com/icfmp/Bible-Resources-ISBE/issues/9);
