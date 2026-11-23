@@ -6,9 +6,11 @@ on:
       - 'scripts/audit_1915_article_ocr_word_counts.py'
       - 'scripts/aggregate_1915_ocr_word_counts.py'
       - 'scripts/diagnose_1915_ocr_candidate_spans.py'
+      - 'scripts/guard_1915_print_headword_interleaving.py'
       - 'tests/test_1915_article_ocr_word_counts.py'
       - 'tests/test_aggregate_1915_ocr_word_counts.py'
       - 'tests/test_diagnose_1915_ocr_candidate_spans.py'
+      - 'tests/test_guard_1915_print_headword_interleaving.py'
       - 'sources/print/1915-volume-witnesses.json'
       - 'workspace/reviews/empty-article-recovery-ledger.json'
       - 'workspace/reviews/1915-second-pass-visual-approval-v1.json'
@@ -18,9 +20,11 @@ on:
       - 'scripts/audit_1915_article_ocr_word_counts.py'
       - 'scripts/aggregate_1915_ocr_word_counts.py'
       - 'scripts/diagnose_1915_ocr_candidate_spans.py'
+      - 'scripts/guard_1915_print_headword_interleaving.py'
       - 'tests/test_1915_article_ocr_word_counts.py'
       - 'tests/test_aggregate_1915_ocr_word_counts.py'
       - 'tests/test_diagnose_1915_ocr_candidate_spans.py'
+      - 'tests/test_guard_1915_print_headword_interleaving.py'
       - 'sources/print/1915-volume-witnesses.json'
       - 'workspace/reviews/empty-article-recovery-ledger.json'
       - 'workspace/reviews/1915-second-pass-visual-approval-v1.json'
@@ -40,6 +44,7 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_1915_article_ocr_word_counts.py' -v
           python3 -m unittest discover -s tests -p 'test_aggregate_1915_ocr_word_counts.py' -v
           python3 -m unittest discover -s tests -p 'test_diagnose_1915_ocr_candidate_spans.py' -v
+          python3 -m unittest discover -s tests -p 'test_guard_1915_print_headword_interleaving.py' -v
 
   scan-1915-volume:
     needs: test-conservative-ocr-alignment
