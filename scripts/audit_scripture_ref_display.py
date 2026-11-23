@@ -15,8 +15,8 @@ import xml.etree.ElementTree as ET
 
 TEI = "{http://www.tei-c.org/ns/1.0}"
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
-SINGLE_TARGET = re.compile(r"^Bible:[A-Za-z0-9]+\\.(\\d+)\\.(\\d+)$")
-SINGLE_LABEL = re.compile(r"^\\s*[^\\d\\s][^\\d]*?\\s+(\\d+):(\\d+)\\s*$")
+SINGLE_TARGET = re.compile(r"^Bible:[A-Za-z0-9]+\.(\d+)\.(\d+)$")
+SINGLE_LABEL = re.compile(r"^\s*[^\d\s][^\d]*?\s+(\d+):(\d+)\s*$")
 
 
 def scan(path):
