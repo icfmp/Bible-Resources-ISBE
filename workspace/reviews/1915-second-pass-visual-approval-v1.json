@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "canonical_source_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "edition": "Orr/Howard-Severance, International Standard Bible Encyclopaedia (1915)",
+  "review_method": "Second direct visual reading of SHA-identified printed facsimiles retrieved from existing GitHub Actions log images. Compared against complete candidate bodies, including Hebrew, Greek, pronunciation marks, source abbreviations, punctuation, and paragraph boundaries. No OCR agreement scores used for signoff.",
+  "reviewer": "GPT-6 assistant — second pass; not a separate human peer reviewer",
+  "review_date": "2026-11-23",
+  "scope": "Approval of these 31 printed paragraph readings for a distinct, versioned corrected TEI witness only. Original CrossWire and source-locked canonical TEI remain immutable.",
+  "independent_human_peer_review": false,
+  "legal_redistribution_clearance": false,
+  "published": false,
+  "source_empty_entries_recovered": 31,
+  "prose_articles": 20,
+  "short_redirects": 11,
+  "records": [
+    {
+      "source_key": "ABISSEI",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-413cc0807cda26de4368-n000003",
+      "approved_blocks": [
+        "a-bis'ē-i (AV Abisei): An ancestor of Ezra (2 Esd 1 2) = Abisue (1 Esd 8 2) and Abishua (1 Ch 6 4 ff; Ezr 7 5)."
+      ],
+      "scan_volume": "1",
+      "original_pdf_page_1_based": 37,
+      "printed_page": 13,
+      "source_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "rendered_image_sha256": "f48554163c132d966d035005236a9b7b4070a4b5de4aeb6774a62a699e0b14f2",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "AMNON",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-5e778465f86cbebb18c2-n000003",
+      "approved_blocks": [
+        "am'non (אַמְנוֹן, ʾamnōn, “faithful”; cf אַמִינוֹן, ʾāmīnōn, 2 S 13 20, which is probably a diminutive. Wellhausen [IJG, II, 24, n.2] resolves אַמִינוֹן into אֲמִי, ʾimmī, and נוּן, nūn, “my mother is the serpent”; cf NUN):",
+        "(1) The eldest son of David and Ahinoam, the Jezreelites (cf 2 S 3 2). As the crown prince and heir presumptive to the throne, he was intensely hated by Absalom, who was, therefore, doubly eager to revenge the outrage committed by Amnon upon his sister Tamar (2 S 3 2; 13 1 ff; 1 Ch 3 1).",
+        "(2) A name in the genealogy of Judah (1 Ch 4 20)."
+      ],
+      "scan_volume": "1",
+      "original_pdf_page_1_based": 148,
+      "printed_page": 118,
+      "source_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "rendered_image_sha256": "af28e517bf894b8e44d8b031bd84cbd814299e226eee03d0ee1f9be248c2cd87",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "ANTIQUITY",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-37a107af209df86e5c90-n000003",
+      "approved_blocks": [
+        "an-tik'wi-ti (קַדְמָה, kadmāh, from קדם, kādham, “to precede in time,” “to be old”): In Ezk 16 55; 36 11, rendered “former”; in Ps 129 6, “before.” Trᵈ “antiquity” only in Isa 23 7 to indicate the primeval age of Tyre, which Strabo terms, “after Sidon,” the oldest Phoen city. Delitzsch renders it “whose origin is from the days of the olden time.”"
+      ],
+      "scan_volume": "1",
+      "original_pdf_page_1_based": 192,
+      "printed_page": 160,
+      "source_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "rendered_image_sha256": "d402a2dcb86b6c36c33d6db21ef30d7060d0e5411fdc18d0881d758d6ff6a21f",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45079034324",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "ASTARTE; ASTORETH",
+      "kind": "redirect",
+      "source_paragraph_xml_id": "isbe-736f31de8a092306969f-n000003",
+      "approved_printed_paragraph": "as-tär'tē, ASTORETH. See ASHTAROTH.",
+      "scan_volume": "1",
+      "original_pdf_page_1_based": 329,
+      "printed_page": 295,
+      "source_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "rendered_image_sha256": "eef3362a6bda8bbdc2d8d2f6eceb6a058f6019119fa40e8c7d0269f518cb0f97",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "BEERA",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-7b2802f1161a54c7298e-n000003",
+      "approved_blocks": [
+        "bē-ē'ra, bē'er-a (בְּאֵרָא, be'ērā', \"expounder\"): A descendant of Asher (1 Ch 7 37)."
+      ],
+      "scan_volume": "1",
+      "original_pdf_page_1_based": 458,
+      "printed_page": 424,
+      "source_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "rendered_image_sha256": "50290eb0426ffa404f3453519f0b3ad4fbc13a5b219874ace070ba8518c6b8e1",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45079034324",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "BURNT OFFERING",
+      "kind": "redirect",
+      "source_paragraph_xml_id": "isbe-9cab9b90bd9c5fd60640-n000003",
+      "approved_printed_paragraph": "See SACRIFICE IN THE OT AND NT.",
+      "scan_volume": "1",
+      "original_pdf_page_1_based": 568,
+      "printed_page": 532,
+      "source_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "rendered_image_sha256": "f6b1205b8aeff247423221f8b95cf8daa8bec9456bd668a2601f746810bcf1e8",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "CHORBE",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-5adc37c1c33ed6b144e4-n000003",
+      "approved_blocks": [
+        "kôr'bē (Χορβέ, Chorbē; AV Corbe): Head of a family which returned with Zerubbabel (1 Esd 5 12). The name apparently corresponds to Zaccai in Ezr 2 9 and Neh 7 14."
+      ],
+      "scan_volume": "1",
+      "original_pdf_page_1_based": 654,
+      "printed_page": 614,
+      "source_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "rendered_image_sha256": "c2cf65197bb7fc4ad59e497581e08b8765861da87ea03c3755dcc17a469b4e7b",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "COMING OF CHRIST",
+      "kind": "redirect",
+      "source_paragraph_xml_id": "isbe-42f53cd0ba3af1a8da25-n000003",
+      "approved_printed_paragraph": "See ADVENT; PAROUSIA.",
+      "scan_volume": "2",
+      "original_pdf_page_1_based": 21,
+      "printed_page": 679,
+      "source_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "rendered_image_sha256": "4c30a23c087c9a13ae5e47cbbe5562b1b73354ff342ff112f67d237b18080eef",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "DEHORT",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-1d7d2f8f41d3e2f526ed-n000003",
+      "approved_blocks": [
+        "dē-hôrt' (ἀποστρέφω, apostréphō; RV DISSUADE): Not found in the Eng. Bible; once only in Apoc (1 Macc 9 9). An obsolete Eng. word; the opposite of \"exhort.\" It means \"to dissuade,\" \"to forbid,\" \"to restrain from.\""
+      ],
+      "scan_volume": "2",
+      "original_pdf_page_1_based": 165,
+      "printed_page": 819,
+      "source_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "rendered_image_sha256": "28bed000cacadb58ae93281ab2e99228ada82dbdf9ca5578e77c800113d05995",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "DUALISM",
+      "kind": "redirect",
+      "source_paragraph_xml_id": "isbe-c50d86a525e392b466e7-n000003",
+      "approved_printed_paragraph": "dū'al-iz'm. See PHILOSOPHY.",
+      "scan_volume": "2",
+      "original_pdf_page_1_based": 227,
+      "printed_page": 881,
+      "source_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "rendered_image_sha256": "e4ca2f41318ef5b3bd4434692cfff58037b16db13a14a4790739d7dbab0b9c23",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "FROWARDNESS",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-bb51e96346fee9590908-n000003",
+      "approved_blocks": [
+        "frō'werd-nes: The tr of תַּהְפֻּכוֹת, tahpukhōth, the pl. of tahpukhāh, “perversity,” “foolishness” (from hāphakh, “to turn about”) in Prov 2 14, “delight in the frowardness of the wicked,” ARV “the perverseness of evil,” m “the evil man” (cf ver 12; some render “deceit”); 6 14 ARV, “perverseness”; 10 32, “the mouth of the wicked speaketh frowardness,” ARV “speaketh perverseness,” m “is.”"
+      ],
+      "scan_volume": "2",
+      "original_pdf_page_1_based": 499,
+      "printed_page": 1147,
+      "source_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "rendered_image_sha256": "66011bd623c6f73203284f9635c8d1241d78fd1abc2e86c58719bd22df34a732",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "HASRAH",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-3ab6d344b65809300342-n000003",
+      "approved_blocks": [
+        "haz'ra, has'ra (חַסְרָה, hasrāh): Grandfather of Shallum, who was the husband of Huldah the prophetess (2 Ch 34 22). In 2 K 22 14, HARHAS (q.v.)."
+      ],
+      "scan_volume": "2",
+      "original_pdf_page_1_based": 699,
+      "printed_page": 1342,
+      "source_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "rendered_image_sha256": "7c55210593cf5b27098200c66bf37246d372ef3fb7618d8031b6051d073f7f6b",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45079034324",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "HEMDAN",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-37d611bf975263633981-n000003",
+      "approved_blocks": [
+        "hem'dan (חֶמְדָּן, hemdān, “pleasant”): A descendant of Seir, the Horite (Gen 36 26). Wrongly trᵈ “Amram” by AV in 1 Ch 1 41 (RV “Hamran”), where the transcribers made an error in one vowel and one consonant, writing hamrān (חַמְרָן), instead of hemdān (חֶמְדָּן)."
+      ],
+      "scan_volume": "2",
+      "original_pdf_page_1_based": 731,
+      "printed_page": 1374,
+      "source_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "rendered_image_sha256": "90257f6a9f15312a5332b9dc7718455b2c6cc0c9c2d124b6df34b44befdf2017",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45079034324",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "ITHLAH",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-2df419f44751d30fb782-n000003",
+      "approved_blocks": [
+        "ith'la (יִתְלָה, yithlāh; AV Jethlah): An unidentified town in the territory of Dan, named with Aijalon and Elon (Josh 19 42)."
+      ],
+      "scan_volume": "3",
+      "original_pdf_page_1_based": 177,
+      "printed_page": 1543,
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "rendered_image_sha256": "32a1bba22a314e071bbb4b0168b97b6612281a1eb1ff6270f3de185cd9596fdf",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "JOSIBIAH",
+      "kind": "redirect",
+      "source_paragraph_xml_id": "isbe-b06e5906f6227e5b9bed-n000003",
+      "approved_printed_paragraph": "jos-i-bi'a. See JOSHIBIAH.",
+      "scan_volume": "3",
+      "original_pdf_page_1_based": 393,
+      "printed_page": 1753,
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "rendered_image_sha256": "d64fd875ee009b87b1f94c32bd9622d4cd30bbb8436fa6e06cb4e731b271315c",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "MANASSITES",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-036b79f716e946c74b6d-n000003",
+      "approved_blocks": [
+        "ma-nas'its (מְנַשִּׁי, mĕnashshī; ὁ Μανασσῆ, ho Manassē): Members of the tribe of Manasseh (Dt 4 43; Jgs 12 4 AV; 2 K 10 33)."
+      ],
+      "scan_volume": "3",
+      "original_pdf_page_1_based": 624,
+      "printed_page": 1980,
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "rendered_image_sha256": "9459f19e0f4146f3117070daaf57a2a8be22e79e149c6e0a2b1d8adc73de6676",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45079034324",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "MANKIND",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-3da82bda0cddd078bd9b-n000003",
+      "approved_blocks": [
+        "man-kīnd': In Lev 18 22; 20 13, the term is applied to men, as distinguished from women; in Job 12 10, to the human race; in Jas 3 7, to the human nature."
+      ],
+      "scan_volume": "3",
+      "original_pdf_page_1_based": 626,
+      "printed_page": 1982,
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "rendered_image_sha256": "93701f77361a05e6ee943b77dba7795fc37c8746cfc4e509e8ed0d1812369f43",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45079034324",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "MARKET, SHEEP",
+      "kind": "redirect",
+      "source_paragraph_xml_id": "isbe-13ab6607020862d9694e-n000003",
+      "approved_printed_paragraph": "See SHEEP MARKET.",
+      "scan_volume": "3",
+      "original_pdf_page_1_based": 640,
+      "printed_page": 1996,
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "rendered_image_sha256": "a5f893573b312eb0b1f29eef1b2732d1e824d355530f100058d36e39bc595a9e",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "PATRIARCHS, TESTAMENTS OF THE TWELVE",
+      "kind": "redirect",
+      "source_paragraph_xml_id": "isbe-6ffbfcee48e41c3c16d8-n000003",
+      "approved_printed_paragraph": "See APOCALYPTIC LITERATURE, IV, 1.",
+      "scan_volume": "4",
+      "original_pdf_page_1_based": 176,
+      "printed_page": 2264,
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "rendered_image_sha256": "79df3faac493a4bc09e6fbb012f1b8f65d2ac5ee1c9a6a2432b764c4cf7f557b",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "PAUL, VOYAGE AND SHIPWRECK OF",
+      "kind": "redirect",
+      "source_paragraph_xml_id": "isbe-e67412378b992c5614eb-n000003",
+      "approved_printed_paragraph": "See PAUL THE APOSTLE, V, 9; PHOENIX.",
+      "scan_volume": "4",
+      "original_pdf_page_1_based": 201,
+      "printed_page": 2289,
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "rendered_image_sha256": "17612dcfbc998709c2eaccf186c369a6615c5b48ca37ccd354760f5ecdd70bad",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "PROSTRATION",
+      "kind": "redirect",
+      "source_paragraph_xml_id": "isbe-4b3b422628f4bc724af7-n000003",
+      "approved_printed_paragraph": "pros-trā'shun. See ATTITUDES.",
+      "scan_volume": "4",
+      "original_pdf_page_1_based": 385,
+      "printed_page": 2469,
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "rendered_image_sha256": "9905be03561d333db19037c18aaddeb302fc6fd0ab2b6a6f71906104cbbe81f7",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "REGENERATION, BAPTISMAL",
+      "kind": "redirect",
+      "source_paragraph_xml_id": "isbe-b4b78eb923b1606ec046-n000003",
+      "approved_printed_paragraph": "See BAPTISMAL REGENERATION.",
+      "scan_volume": "4",
+      "original_pdf_page_1_based": 466,
+      "printed_page": 2550,
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "rendered_image_sha256": "66c4b4a09b648c16596fc55999ecef13ebfac6160d00b3a897ab03d38afb2f39",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "SAVIAS",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-c0d21e6f8317b00c0198-n000003",
+      "approved_blocks": [
+        "sa-vi'as (Σαουΐα, Saouïa): In 1 Esd 8 2, for Uzzi, an ancestor of Ezra, in Ezr 7 4."
+      ],
+      "scan_volume": "4",
+      "original_pdf_page_1_based": 618,
+      "printed_page": 2700,
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "rendered_image_sha256": "26e36a054c194ebc981abe7452a36af4dd049b7e361f81d83a141da7349af90a",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45079034324",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "SEPHARVITES",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-298ae627bc3b471727f1-n000003",
+      "approved_blocks": [
+        "sē'fär-vits, sē-fär'-vits (סְפַרְוִים, sĕpharwīm): In 2 K 17 31, the inhabitants of SEPHARVAIM (q.v.), planted by the king of Assyria in Samaria. They continued there to burn their children to their native gods."
+      ],
+      "scan_volume": "4",
+      "original_pdf_page_1_based": 642,
+      "printed_page": 2723,
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "rendered_image_sha256": "3996a07e7b125b5dabffb7f69e61f299bae7d774094c933d8fe74917cb9c19e7",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "SESIS",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-670aaf6f5bdb88843872-n000003",
+      "approved_blocks": [
+        "sē'sis (B, Σεσεῖς, Seseis, A, Σεσσεῖς, Sesseis): One who put away his foreign wife (1 Esd 9 34) = \"Shashai\" in Ezr 10 40."
+      ],
+      "scan_volume": "4",
+      "original_pdf_page_1_based": 663,
+      "printed_page": 2743,
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "rendered_image_sha256": "aa5fcdaceb21e17f5740201ece67b97512d20c2fe19be2a3291e8ba54d52654d",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45079034324",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "SHALLUN",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-1b106c8f94e68a2a4df8-n000003",
+      "approved_blocks": [
+        "shal'un (שַׁלּוּן, shallūn, not in LXX): Another form of Shallum, the son of Col-hozeh. He was the ruler of the district of Mizpah. He assisted Nehemiah in building the wall of Jerus and in repairing the gate by the Pool of Siloah at the King's Gardens (Neh 3 15)."
+      ],
+      "scan_volume": "4",
+      "original_pdf_page_1_based": 667,
+      "printed_page": 2747,
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "rendered_image_sha256": "6c25e297743badcc2638f1c4357bf1836cd06d3a94fa999830eb5a334076de64",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45079034324",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "STANDING",
+      "kind": "redirect",
+      "source_paragraph_xml_id": "isbe-3e1f0d65ca79928769ac-n000003",
+      "approved_printed_paragraph": "stand'ing. See ATTITUDES.",
+      "scan_volume": "5",
+      "original_pdf_page_1_based": 38,
+      "printed_page": 2848,
+      "source_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "rendered_image_sha256": "ee83449e8d3bfcb8c7d2c00a14c0eda409cdf6fb3cbdcd3aa42df96270b83e4f",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "SYCHEM",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-0916cc3026c11f71caf8-n000003",
+      "approved_blocks": [
+        "si'kem (Συχέμ, Suchém): In this form the name of Shechem appears in Acts 7 16 AV, in the report of Stephen's speech. AV is a transcription from the Gr; RV in accordance with its practice, to give uniformity in the Eng., follows the Heb form of the name given in the OT."
+      ],
+      "scan_volume": "5",
+      "original_pdf_page_1_based": 67,
+      "printed_page": 2877,
+      "source_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "rendered_image_sha256": "1e115272fe06bda7b10bc13e42280cbc3a7671d6b5696a3868af3f6c652f537f",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "TEPHON",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-f5a022af77e03584a5cc-n000003",
+      "approved_blocks": [
+        "tē'fon (ἡ Τεφώ, hē Tephō): In 1 Macc 9 50, a city of Judaea fortified by Bacchides, probably the \"Beth-tappuah\" of Josh 15 53, near Hebron. Jos (Ant, XII, i, 3) calls it \"Tochoa.\""
+      ],
+      "scan_volume": "5",
+      "original_pdf_page_1_based": 142,
+      "printed_page": 2948,
+      "source_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "rendered_image_sha256": "2359aad35c27df38f30d43a6edfe318a895188103113106e899643914becf044",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "THOCANUS",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-85699a1ae3f034e512e0-n000003",
+      "approved_blocks": [
+        "thō-kă'nus (Θόκανος, Thókanos, Θώκανος, Thōkanos; AV Theocanus): The father of Ezekias, who with Jonathan “took the matter upon them” in the proceedings under Ezra against foreign wives (1 Esd 9 14) = “Tikvah” in Ezr 10 15."
+      ],
+      "scan_volume": "5",
+      "original_pdf_page_1_based": 169,
+      "printed_page": 2973,
+      "source_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "rendered_image_sha256": "aba00e5e2436bd9be04717d2bb7cfa864f5cff8e4c6b80f26916079644bbb40b",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    },
+    {
+      "source_key": "THOMEI",
+      "kind": "prose",
+      "source_paragraph_xml_id": "isbe-b7e3dc6b67d5e025b90d-n000003",
+      "approved_blocks": [
+        "thom'ē-ī (A, Θομεῖ, Thomeī, Fritzsche, Θομοῖ, Thomoī, B and Swete, Θομθεῖ, Thomtheī; AV Thomoi): A family name of temple-servants who returned with Zerubbabel (1 Esd 5 32) = “Temah” in Ezr 2 53; Neh 7 55."
+      ],
+      "scan_volume": "5",
+      "original_pdf_page_1_based": 169,
+      "printed_page": 2973,
+      "source_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "rendered_image_sha256": "aba00e5e2436bd9be04717d2bb7cfa864f5cff8e4c6b80f26916079644bbb40b",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "second_pass_visual_reading": "matches_proposed_text",
+      "approved_for_separate_editorial_tei": true
+    }
+  ]
+}

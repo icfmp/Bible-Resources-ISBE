@@ -1,0 +1,50 @@
+name: Validate separately corrected 1915 ISBE editorial witness
+
+on:
+  pull_request:
+    paths:
+      - 'workspace/reviews/1915-second-pass-visual-approval-v1.json'
+      - 'scripts/finalize_1915_recovery.py'
+      - 'tests/test_1915_second_pass_approval.py'
+      - '.github/workflows/validate-1915-editorial-edition.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  corrected-1915-tei:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enforce all 31 source-bound visual approvals and negative controls
+        run: python -m unittest discover -s tests -p 'test_1915_second_pass_approval.py'
+      - name: Generate distinct 1915 editorial TEI and source-fidelity proof
+        run: |
+          python scripts/finalize_1915_recovery.py \
+            --output workspace/tmp/ISBE-1915-editorial.xml \
+            --report workspace/tmp/ISBE-1915-editorial-report.json \
+            --validator-manifest workspace/tmp/1915-editorial-validator-manifest.json \
+            --fidelity-report workspace/tmp/1915-editorial-fidelity.json
+      - name: Install official TEI P5 validator
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jing
+      - name: Validate the 1915 corrected editorial witness with pinned TEI P5
+        run: |
+          python scripts/validate_official_tei_p5.py \
+            --candidate workspace/tmp/ISBE-1915-editorial.xml \
+            --source-report workspace/tmp/1915-editorial-fidelity.json \
+            --manifest workspace/tmp/1915-editorial-validator-manifest.json \
+            --output workspace/tmp/1915-editorial-official-validation.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ISBE-1915-corrected-editorial-witness-not-for-publication
+          path: |
+            workspace/tmp/ISBE-1915-editorial.xml
+            workspace/tmp/ISBE-1915-editorial-report.json
+            workspace/tmp/1915-editorial-fidelity.json
+            workspace/tmp/1915-editorial-official-validation.json
+          if-no-files-found: warn
