@@ -19,7 +19,10 @@
   "scripture_links_with_osisRef": 93164,
   "section_links_with_article_level_navigation_only": 80,
   "native_roundtrip_verified": true,
-  "independently_tested_gui_readers": [],
+  "independently_tested_gui_readers": [
+    "Xiphos",
+    "BibleTime"
+  ],
   "xiphos_accepted": false,
   "second_reader_accepted": false,
   "built_native_candidate_archive_sha256": "6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b",
@@ -51,5 +54,16 @@
     },
     "interactive_link_click_verified": false,
     "source_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383"
+  },
+  "gui_article_display": {
+    "status": "exact_headword_AARON_render_verified",
+    "headword": "AARON",
+    "xiphos_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45279693011",
+    "bibletime_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561",
+    "bibletime_artifact": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561/artifacts/14869951086",
+    "actual_clicked_links_verified": false,
+    "foreign_script_rendering_certified": false,
+    "nested_section_rendering_certified": false,
+    "two_reader_full_acceptance": false
   }
 }

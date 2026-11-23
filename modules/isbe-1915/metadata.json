@@ -27,7 +27,7 @@
   "quality": {
     "status": "native_candidate_verified_not_reader_approved",
     "native_sword_readback": "complete_9380_exact_unicode_and_xml",
-    "two_reader_acceptance": "not_performed",
+    "two_reader_acceptance": "partial_article_display_verified_interactive_pending",
     "original_print_full_collation_certified": false,
     "native_sword_readback_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383",
     "native_lexicon_source_format": "TEI_entryFree",
@@ -42,7 +42,17 @@
     "native_readback_missing_entries": 0,
     "diatheke_htmlhref_rendered_sample_keys": 4,
     "diatheke_htmlhref_total_sample_anchors": 63,
-    "interactive_gui_hyperlink_click_verified": false
+    "interactive_gui_hyperlink_click_verified": false,
+    "gui_article_display_verified_in": [
+      "Xiphos",
+      "BibleTime"
+    ],
+    "gui_article_headword_sample": "AARON",
+    "gui_article_evidence": {
+      "xiphos": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45279693011",
+      "bibletime": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561",
+      "bibletime_artifact": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561/artifacts/14869951086"
+    }
   },
   "rights": {
     "upstream_declared_license": "Public Domain",
