@@ -1,4 +1,4 @@
-name: Validate original-1915 textual reference deltas in separate TEI
+name: Validate original-1915 reference and prose deltas in separate TEI
 
 on:
   pull_request:
@@ -11,6 +11,9 @@ on:
       - 'scripts/apply_display_verified_scripture_targets.py'
       - 'tests/test_apply_display_verified_scripture_targets.py'
       - '.github/workflows/validate-1915-textual-reference-deltas.yml'
+      - 'scripts/apply_1915_low_overlap_prose_deltas.py'
+      - 'tests/test_apply_1915_low_overlap_prose_deltas.py'
+      - 'workspace/reviews/1915-approved-low-overlap-prose-deltas-v1.json'
   workflow_dispatch:
 
 permissions:
@@ -77,15 +80,27 @@ jobs:
             --report workspace/tmp/ISBE-1915-taanach-target-report.json \
             --derived-validator workspace/tmp/ISBE-1915-taanach-target-validator.json \
             --derived-fidelity workspace/tmp/ISBE-1915-taanach-target-fidelity.json
+      - name: Test precise and individually reversible printed prose repairs
+        run: python3 -m unittest discover -s tests -p 'test_apply_1915_low_overlap_prose_deltas.py' -v
+      - name: Apply eight exact print-attested prose spans to a NEW editorial TEI
+        run: |
+          python3 -m scripts.apply_1915_low_overlap_prose_deltas \
+            --baseline workspace/tmp/ISBE-1915-taanach-target-NONPUBLISHABLE.xml \
+            --prior-report workspace/tmp/ISBE-1915-taanach-target-report.json \
+            --prior-validator workspace/tmp/ISBE-1915-taanach-target-validator.json \
+            --output workspace/tmp/ISBE-1915-prose-corrected-NONPUBLISHABLE.xml \
+            --report workspace/tmp/ISBE-1915-prose-deltas.json \
+            --derived-validator workspace/tmp/ISBE-1915-prose-validator.json \
+            --derived-fidelity workspace/tmp/ISBE-1915-prose-fidelity.json
       - name: Install official TEI P5 validator dependency
         run: sudo apt-get update -qq && sudo apt-get install -y -qq jing
-      - name: Independently validate final navigation-corrected TEI P5
+      - name: Independently validate final source-locked prose-corrected TEI P5
         run: |
           python3 scripts/validate_official_tei_p5.py \
-            --candidate workspace/tmp/ISBE-1915-taanach-target-NONPUBLISHABLE.xml \
-            --source-report workspace/tmp/ISBE-1915-taanach-target-fidelity.json \
-            --manifest workspace/tmp/ISBE-1915-taanach-target-validator.json \
-            --output workspace/tmp/ISBE-1915-taanach-target-official-validation.json
+            --candidate workspace/tmp/ISBE-1915-prose-corrected-NONPUBLISHABLE.xml \
+            --source-report workspace/tmp/ISBE-1915-prose-fidelity.json \
+            --manifest workspace/tmp/ISBE-1915-prose-validator.json \
+            --output workspace/tmp/ISBE-1915-prose-official-validation.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -97,5 +112,8 @@ jobs:
             workspace/tmp/ISBE-1915-taanach-target-NONPUBLISHABLE.xml
             workspace/tmp/ISBE-1915-taanach-target-report.json
             workspace/tmp/ISBE-1915-taanach-target-fidelity.json
-            workspace/tmp/ISBE-1915-taanach-target-official-validation.json
+            workspace/tmp/ISBE-1915-prose-corrected-NONPUBLISHABLE.xml
+            workspace/tmp/ISBE-1915-prose-deltas.json
+            workspace/tmp/ISBE-1915-prose-fidelity.json
+            workspace/tmp/ISBE-1915-prose-official-validation.json
           if-no-files-found: warn
