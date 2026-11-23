@@ -29,6 +29,11 @@ def find_window(app):
             return values[-1]
     return None
 
+def named_window(pattern):
+    proc=command(["xdotool","search","--onlyvisible","--name",pattern])
+    matches=[x for x in proc.stdout.splitlines() if x.isdigit()]
+    return matches[-1] if matches else None
+
 def test_reader(reader,outdir):
     name=reader["name"]
     log=outdir/(name+".log")
@@ -66,7 +71,7 @@ def test_reader(reader,outdir):
                 # BibleTime's fresh profile displays a welcome modal even
                 # with a separately valid local dictionary installation.
                 # Dismiss "Install later" without downloading anything.
-                modal=find_window("Welcome to BibleTime")
+                modal=named_window("Welcome to BibleTime")
                 if modal:
                     command(["xdotool","windowactivate","--sync",modal],timeout=10)
                     command(["xdotool","mousemove","--window",modal,"500","296"],timeout=10)
@@ -92,6 +97,16 @@ def test_reader(reader,outdir):
                 screen=command(["scrot",str(shot)],timeout=15)
                 if screen.returncode==0 and shot.stat().st_size>1000:
                     result["screenshots"].append(shot.name)
+            if name=="xiphos":
+                result["blocking_first_run_dialog"]=bool(
+                    named_window("Welcome to Xiphos") or
+                    named_window("Module Manager") or
+                    named_window("can not create directory")
+                )
+            else:
+                result["blocking_first_run_dialog"]=bool(
+                    named_window("Welcome to BibleTime")
+                )
             return result
         finally:
             process.terminate()
@@ -130,6 +145,8 @@ def main():
        "scope":"visible_GUI_launch_only_plus_keyboard_navigation_attempt",
        "independent_gui_readers":readers,
        "visible_reader_window_count":sum(bool(r["window_found"]) for r in readers),
+       "blocking_first_run_dialogs":sum(bool(r.get("blocking_first_run_dialog")) for r in readers),
+       "extra_bible_test_fixture":"Ubuntu sword-text-kjv, independent of curated ISBE payload",
        "interactive_hyperlink_click_tested":False,
        "article_body_rendering_certified":False,
        "rights_cleared":False,"publication_approved":False
@@ -137,7 +154,9 @@ def main():
     (out/"GUI_SMOKE.json").write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(report,indent=2))
     if report["visible_reader_window_count"]!=len(readers):
-        raise SystemExit("One or more independent graphical SWORD readers did not open visibly")
+        raise SystemExit("One or more graphical readers did not open")
+    if report["blocking_first_run_dialogs"]:
+        raise SystemExit("GUI reader blocked by welcome/module-manager/error dialog: not an acceptance test")
 
 if __name__=="__main__":
     main()
