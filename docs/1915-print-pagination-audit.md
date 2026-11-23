@@ -46,3 +46,23 @@ between printed numerals. They must not be advertised as seven confirmed
 missing-page events. This scan is not an exhaustive inventory of every
 physical leaf: any page whose OCR header could not be interpreted was
 deliberately excluded.
+
+## OCR neighborhood cross-check: volume V, folios 2949–2960
+
+A read-only examination of the OCR layer of the same SHA-locked volume V
+shows running headers in the sequence **2949, 2960, 2951, 2952**; after
+2959, **2960 appears again**. This strongly indicates that the first
+apparent 2960 is actually folio **2950 misread by OCR**, rather than
+ten missing leaves. It is **not image-certified** because a direct
+page-image screenshot could not be obtained in that examination.
+The unchanged gap candidate has gained an explicit OCR-neighborhood
+annotation in the versioned report; no source text or article content
+has changed.
+
+The generic pagination auditor now adds follow-up OCR page-header
+context for *every* candidate, including whether the suspicious number
+recurs at its expected position. It **never suppresses** a candidate
+or upgrades its evidence to visually confirmed solely on OCR. Verify
+remaining candidates with the original page images before declaring
+a missing page, and keep the distinct genuine volume-V scan gap
+at folios **2887–2888** unresolved pending a second physical witness.

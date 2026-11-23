@@ -33,12 +33,29 @@ def audit_pages(pages):
         if left is None or right is None:
             continue
         if 2<=right-left<=12:
-            gaps.append({"pdf_page_before_1_based":index+1,
-                         "printed_before":left,"pdf_page_after_1_based":index+2,
-                         "printed_after":right,
-                         "unseen_printed_folios":list(range(left+1,right)),
-                         "disposition":"candidate_for_image_review",
-                         "confirmed_missing_from_print":False})
+            candidate={"pdf_page_before_1_based":index+1,
+                       "printed_before":left,"pdf_page_after_1_based":index+2,
+                       "printed_after":right,
+                       "unseen_printed_folios":list(range(left+1,right)),
+                       "disposition":"candidate_for_image_review",
+                       "confirmed_missing_from_print":False}
+            # A one-digit OCR misread (e.g. 2950 -> 2960) can resemble a
+            # ten-page omission. Keep the candidate visible and append
+            # neighboring-header evidence, never an automatic dismissal.
+            next_index=index+2
+            repeat_index=index+(right-left)
+            next_folio=folios[next_index] if next_index<len(folios) else None
+            repeat_folio=folios[repeat_index] if repeat_index<len(folios) else None
+            candidate["ocr_followup"]={
+                "next_pdf_page_1_based":next_index+1 if next_index<len(folios) else None,
+                "next_recognized_folio":next_folio,
+                "expected_next_without_gap":left+2,
+                "later_pdf_page_1_based":repeat_index+1 if repeat_index<len(folios) else None,
+                "later_recognized_folio":repeat_folio,
+                "probable_header_misread_not_image_certified":(
+                    right-left>=3 and next_folio==left+2 and repeat_folio==right),
+            }
+            gaps.append(candidate)
     return {"pdf_pages":len(pages),"recognized_printed_folios":sum(n is not None for n in folios),
             "adjacent_page_jump_candidates":len(gaps),"candidate_gaps":gaps,
             "method":"strict original-text OCR header detection; no page-image certification"}

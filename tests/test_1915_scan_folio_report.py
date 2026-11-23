@@ -27,6 +27,14 @@ class FiveVolumeGapReportTests(unittest.TestCase):
         self.assertEqual(len(observed),1)
         self.assertEqual(observed[0]["volume"],"5")
         self.assertEqual(observed[0]["unseen_printed_folios"],[2887,2888])
+        ocr_context=next(c for c in rows if c["volume"]=="5"
+                         and c["pdf_page_before"]==143)
+        self.assertEqual(ocr_context["review_status"],"ocr_candidate_unreviewed")
+        self.assertEqual(ocr_context["ocr_neighborhood_review"]["expected_intermediate_folio"],2950)
+        self.assertEqual(ocr_context["ocr_neighborhood_review"]["status"],
+                         "strong_ocr_misread_indication_not_image_certified")
+        self.assertFalse(ocr_context.get("page_before_jpeg_sha256"))
+
         for p in ("page_before_jpeg_sha256","page_after_jpeg_sha256"):
             self.assertRegex(observed[0][p],r"^[a-f0-9]{64}$")
 
