@@ -1,8 +1,12 @@
 """Reversible exact-reference print edits; fail closed on all ambiguous patches."""
-import copy
+import sys
 import unittest
 import xml.etree.ElementTree as ET
-from scripts.apply_1915_print_deltas import apply_operations,validate_decisions
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from apply_1915_print_deltas import apply_operations, validate_decisions
 
 N="http://www.tei-c.org/ns/1.0"
 def root():
