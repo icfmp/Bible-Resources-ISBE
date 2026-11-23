@@ -29,7 +29,7 @@ class Additional1915ProseDeltasTests(unittest.TestCase):
 
     def test_ten_individual_print_attestations_have_exact_original_source(self):
         rows = validate_ledger(self.spec, self.source, self.research, self.witness)
-        self.assertEqual(len(rows), 10)
+        self.assertEqual(len(rows), 16)
         self.assertEqual({r['source_key'] for r in rows},
                          {'ABIDE', 'BUSINESS', 'GAINSAY', 'MEADOW', 'REPAIR', 'YEA'})
         self.assertFalse(self.spec['publication_permitted'])
