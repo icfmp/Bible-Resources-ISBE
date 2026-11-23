@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "scope": "Three SHA-identified original printed ISBE 1915 article images reviewed for headings and abbreviation conventions only; no complete prose collation or editorial approval.",
+  "original_1915_print_image_workflow": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45139297142",
+  "canonical_tei_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "report_reference": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45146605233",
+  "text_redistribution_authorized": false,
+  "full_edition_print_certified": false,
+  "entries": [
+    {
+      "source_key": "ABIDE",
+      "source_article_xml_id": "isbe-a0d0790fca21ada422f4",
+      "volume": "1",
+      "scan_pdf_page": 33,
+      "printed_folio": 9,
+      "original_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "research_jpeg_sha256": "31729843e1b9f971b7d7fff69d8eaad8ef5afcab27f7831983231d630c414800",
+      "printed_abbreviations_seen": [
+        "OE",
+        "OT",
+        "AV",
+        "Heb",
+        "NT",
+        "Gr",
+        "RV",
+        "RVm"
+      ],
+      "digital_expansions_seen": [
+        "Old English",
+        "Old Testament",
+        "King James Version",
+        "Hebrew",
+        "New Testament",
+        "Greek",
+        "Revised Version (British and American)",
+        "Revised Version, margin"
+      ],
+      "review_summary": "Printed article begins in the lower left column and concludes before ABIEL, same page. The printed source uses OE, OT, AV, Heb, NT, Gr, RV and RVm forms whose expanded digital phrases alter lexical four-grams. Other abbreviated terms and exact original spelling remain uncollated.",
+      "heading_and_typographic_abbreviations_image_reviewed": true,
+      "full_historical_prose_collation_completed": false,
+      "source_digital_text_changed": false,
+      "approved_textual_corrections": [],
+      "publication_permitted": false
+    },
+    {
+      "source_key": "MEADOW",
+      "source_article_xml_id": "isbe-185f20346f14005e6f24",
+      "volume": "3",
+      "scan_pdf_page": 657,
+      "printed_folio": 2013,
+      "original_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "research_jpeg_sha256": "c82c31e7f6f3788eb886b12b9e7bf390267aafcc3ecb407e725490a7ed394deb",
+      "printed_abbreviations_seen": [
+        "AV",
+        "RV",
+        "RVm"
+      ],
+      "digital_expansions_seen": [
+        "King James Version",
+        "Revised Version (British and American)",
+        "Revised Version margin"
+      ],
+      "review_summary": "Printed MEADOW entry occupies the lower left column and ends immediately before MEAH on original printed folio 2013. The printed AV/RV/RVm designations correspond to expanded digital expressions, with additional Hebrew/Arabic characters not represented in Latin-only scoring. Full lexical or semantic collation not certified.",
+      "heading_and_typographic_abbreviations_image_reviewed": true,
+      "full_historical_prose_collation_completed": false,
+      "source_digital_text_changed": false,
+      "approved_textual_corrections": [],
+      "publication_permitted": false
+    },
+    {
+      "source_key": "REPAIR",
+      "source_article_xml_id": "isbe-d90b7f3c18342b7511bf",
+      "volume": "4",
+      "scan_pdf_page": 474,
+      "printed_folio": 2558,
+      "original_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "research_jpeg_sha256": "453524e91248a202ad3cfade5675363ff15d2f87342c134301b1c55a9fc77f5c",
+      "printed_abbreviations_seen": [
+        "AV",
+        "AVm",
+        "RV"
+      ],
+      "digital_expansions_seen": [
+        "King James Version",
+        "King James Version margin",
+        "Revised Version (British and American)"
+      ],
+      "review_summary": "Original printed REPAIR entry begins in upper left column and ends before the separately titled REPENTANCE. Printed AV, AVm and RV correspond to expanded expressions in the canonical digital article. Original Greek/Hebrew and punctuation are not fully compared; no content correction authorized.",
+      "heading_and_typographic_abbreviations_image_reviewed": true,
+      "full_historical_prose_collation_completed": false,
+      "source_digital_text_changed": false,
+      "approved_textual_corrections": [],
+      "publication_permitted": false
+    }
+  ]
+}
