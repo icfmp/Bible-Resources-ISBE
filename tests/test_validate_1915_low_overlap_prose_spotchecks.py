@@ -31,6 +31,13 @@ class PrintedProseSpotcheckTests(unittest.TestCase):
         self.assertFalse(result["full_historical_articles_collated"])
         self.assertFalse(result["textual_corrections_approved"])
 
+    def test_original_v1_ledger_remains_valid_and_unmodified(self):
+        original = json.loads((ROOT / "workspace/reviews/1915-low-overlap-prose-image-spotchecks-v1.json").read_text(encoding="utf-8"))
+        result = self.check(original)
+        self.assertEqual(result["source_articles_checked"], 9)
+        self.assertEqual(result["bounded_differences_checked"], 11)
+        self.assertEqual(self.ledger["entries"][:9], original["entries"])
+
     def test_unearned_approval_and_publication_are_rejected(self):
         for field in ("full_article_collation_completed",
                       "editorial_corrections_approved",
