@@ -1,0 +1,45 @@
+name: Audit historical 1915 print folio continuity
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_1915_scan_pagination.py'
+      - 'tests/test_audit_1915_scan_pagination.py'
+      - '.github/workflows/audit-1915-scan-pagination.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m unittest discover -s tests -p 'test_audit_1915_scan_pagination.py' -v
+  print-source:
+    needs: tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        volume: ['1','2','3','4','5']
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Fetch original SHA-pinned historical volume
+        run: |
+          mkdir -p workspace/tmp
+          curl --fail --location --silent --show-error --retry 4 --retry-all-errors \
+            --connect-timeout 20 --max-time 480 \
+            "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
+            --output "workspace/tmp/v${{ matrix.volume }}.pdf"
+      - name: Detect adjacent physically printed folio jumps, without correcting text
+        run: |
+          python3 -m scripts.audit_1915_scan_pagination \
+            --volume "${{ matrix.volume }}" \
+            --pdf "workspace/tmp/v${{ matrix.volume }}.pdf" \
+            --output "workspace/tmp/folio-gaps-v${{ matrix.volume }}.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 1915-source-folio-candidates-volume-${{ matrix.volume }}
+          path: workspace/tmp/folio-gaps-v${{ matrix.volume }}.json
+          if-no-files-found: error
