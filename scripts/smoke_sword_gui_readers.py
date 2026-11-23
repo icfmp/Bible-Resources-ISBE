@@ -62,6 +62,19 @@ def test_reader(reader,outdir):
             command(["xdotool","windowsize",window,"1200","760"],timeout=10)
             command(["xdotool","windowmove",window,"0","0"],timeout=10)
             time.sleep(2)
+            if name=="bibletime":
+                # BibleTime's fresh profile displays a welcome modal even
+                # with a separately valid local dictionary installation.
+                # Dismiss "Install later" without downloading anything.
+                modal=find_window("Welcome to BibleTime")
+                if modal:
+                    command(["xdotool","windowactivate","--sync",modal],timeout=10)
+                    command(["xdotool","mousemove","--window",modal,"500","296"],timeout=10)
+                    command(["xdotool","click","1"],timeout=10)
+                    result["fresh_profile_welcome_dismissed"]=True
+                    time.sleep(4)
+                else:
+                    result["fresh_profile_welcome_dismissed"]=False
             shot=outdir/(name+"-startup.png")
             screen=command(["scrot",str(shot)],timeout=15)
             if screen.returncode==0 and shot.stat().st_size>1000:
@@ -100,6 +113,13 @@ def main():
             raise SystemExit("Missing independent reader tool: "+package)
     out=Path(args.output_dir)
     out.mkdir(parents=True,exist_ok=True)
+    # Prevent the previous false positive: an error dialog alone is not
+    # evidence of a successfully initialized reader. Its writable parent
+    # paths must exist before the apps start.
+    for name in ("XDG_DATA_HOME","XDG_CONFIG_HOME","XDG_CACHE_HOME"):
+        base=Path(os.environ.get(name,""))
+        if not base.is_dir() or not os.access(base,os.W_OK):
+            raise SystemExit(f"Reader XDG storage is not writable: {name}")
     # Verify libSWORD itself sees our precise candidate install root.
     lookup=command(["diatheke","-b","system","-k","modulelist"])
     if lookup.returncode or args.module_id not in lookup.stdout:
