@@ -17,15 +17,18 @@ The printed and digital witnesses must **not** be silently collapsed.
 | --- | ---: |
 | Source-locked low-overlap cases | 24 |
 | Printed entry starts and ends on the **same available page** | 23 |
-| Printed entry requires an additional page not in the research images | 1: ZABUD, volume V PDF page 329 |
-| Entire English prose visually read against the digital entry in the current additional pass | 6 |
+| Printed entry spans two *now examined* original PDF pages | 1: ZABUD, volume V PDF pages 328–329 |
+| Entire English prose visually read against the digital entry in the current additional passes | **12** |
 | Exact original-language glyph, diacritic, punctuation and complete article collation certified | **0** |
 
-The six additional article-wide **English-prose** passes are ABIDE,
-CARPENTER, CONFUSION, STOREHOUSES, SUMMER, and VERY. The record gives their
-individual scope and already verified bounded differences. The other 18
-remain prior **initial-page spot-checks**; seeing the article's end on the
-same page does **not** imply that every word was checked.
+The twelve bounded article-wide **English-prose** passes are ABIDE,
+BALTASAR, BELLY, CARPENTER, CONFUSION, IMAGINATION, OZIAS,
+STOREHOUSES, SUMMER, VERY, YEA and ZABUD. The other twelve remain
+prior **initial-page spot-checks**; seeing the end of an article on the
+same page does **not** imply that every word was checked. The newly
+recovered original ZABUD continuation is page 329, JPEG SHA-256
+`cf6b05de09558a263f56f949f5ddcd9f334aa31a5c9cf7f6576b903699e8af7c`,
+from [successful image research run 45204221240](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45204221240).
 
 ## Important emerging digital-fidelity risk
 
@@ -44,8 +47,9 @@ for a faithful original-script transcription. In particular:
   instances in the digital text.
 - VERY: the printed *As advb. it is commonly* becomes the malformed
   digital *As ab adverb it is commonly*.
-- ZABUD: the current image ends mid-article; the original continuation
-  on PDF page 329 must be obtained and examined before any complete claim.
+- ZABUD: the article starts at the foot of page 328 and finishes at the top
+  of page 329, which has now been directly inspected; its Hebrew original
+  spelling and punctuation remain **uncertified**.
 
 For the other bounded findings, see
 [`1915-low-overlap-prose-spotchecks.md`](1915-low-overlap-prose-spotchecks.md)
@@ -60,8 +64,8 @@ five historical PDF hashes, print-page bounds and the exact uniqueness of
 any digital quote used in the record. Negative tests reject fabricated
 source quotes, duplicate or changed article identities, false completions,
 source modifications, bogus page metadata and publication claims.
-The historical page JPEG fingerprints are recorded from the previous
-research artifact; CI checks their format and historical PDF identity but
+The historical page JPEG fingerprints are recorded from SHA-pinned
+research artifacts (including the new ZABUD continuation); CI checks their format and historical PDF identity but
 **cannot re-read the original JPEG or certify its printed wording**.
 
 This is an English-prose research pass, **not** a completed critical
