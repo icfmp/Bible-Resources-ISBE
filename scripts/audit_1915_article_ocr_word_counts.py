@@ -506,7 +506,7 @@ def compare_bbox(bbox_file, pdf_sha, source_sha, volume, manifest, entries):
     statuses = dict(sorted(Counter(row["status"] for row in reports).items()))
     targeted = diagnose_candidates(lines, entries, accepted, reports, latin_tokens)
     return {
-        "schema_version": 7,
+        "schema_version": 8,
         "volume": volume,
         "print_pdf_sha256": pdf_sha,
         "canonical_tei_sha256": source_sha,
