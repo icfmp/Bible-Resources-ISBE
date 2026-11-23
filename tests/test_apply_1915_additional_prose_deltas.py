@@ -47,7 +47,7 @@ class Additional1915ProseDeltasTests(unittest.TestCase):
         unaffected = ET.tostring(before['WATERCOURSE'], encoding='utf-8')
         prior_count = len(before)
         changed, records = apply_exact(root, self.spec['decisions'])
-        self.assertEqual(len(records), 10)
+        self.assertEqual(len(records), 16)
         self.assertEqual(len(changed), 6)
         self.assertEqual(len(articles(root)), prior_count)
         self.assertEqual(ET.tostring(articles(root)['WATERCOURSE'], encoding='utf-8'),
