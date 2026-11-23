@@ -53,9 +53,9 @@
   },
   "distribution": {
     "payload_present": false,
-    "status": "compiled_candidate_in_unpublished_actions_artifact",
+    "status": "compiled_candidate_archived_in_unpublished_release_draft",
     "release_published": false,
-    "draft_source_release_only": true,
+    "draft_source_release_only": false,
     "artifact_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383",
     "binary_candidate_sha256": "6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b",
     "binary_candidate_not_released": true,
@@ -63,7 +63,8 @@
     "draft_tag": "isbe-1915-v0.1.0-rc.1",
     "draft_binary_asset": "BRISBE1915-native-candidate-NOT-FOR-PUBLICATION.tar.gz",
     "draft_binary_sha256": "6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b",
-    "temporary_actions_binary_deleted": true
+    "temporary_actions_binary_deleted": true,
+    "draft_contains_source_and_native_candidate": true
   },
   "sword_id": "BRISBE1915"
 }
