@@ -179,7 +179,9 @@ def validate_decisions(spec, evidence):
         raise ValueError("Wrong editorial delta source or schema")
     if spec.get("publication_permitted") is not False or spec.get("independent_human_peer_review") is not False:
         raise ValueError("Editorial text correction is not release/human approval")
-    if not spec.get("decisions") or len(spec["decisions"])!=len({d["source_key"] for d in spec["decisions"]}):
+    keys=[(d.get("source_key"),d.get("source_unit_xml_id"),d.get("operation"),d.get("original_visible"))
+          for d in spec.get("decisions",[])]
+    if not keys or len(keys)!=len(set(keys)):
         raise ValueError("Missing or duplicated approval")
     manifest=read(ROOT/"sources/print/1915-volume-witnesses.json")
     volumes={v["volume"]:v for v in manifest["volumes"]}
@@ -229,7 +231,7 @@ def apply_files(source,baseline,baseline_report,ledger_path,output,report,baseli
         raise ValueError("Unexpected 1915 editorial baseline population")
     before={k:ET.tostring(v,encoding="utf-8") for k,v in articles.items()}
     ids_before=[n.get(XMLID) for a in articles.values() for n in a.iter() if n.get(XMLID)]
-    changed,deltas=apply_operations(root,spec["decisions"])
+    changed,deltas,new_ids=apply_operations(root,spec["decisions"])
     if changed & set(status["affected_keys"]):
         raise ValueError("Print delta conflicts with original 31 reviewed recoveries")
     if any(ET.tostring(a,encoding="utf-8")!=before[k] for k,a in articles.items() if k not in changed):
@@ -243,8 +245,12 @@ def apply_files(source,baseline,baseline_report,ledger_path,output,report,baseli
     if any(ET.tostring(reloaded[k],encoding="utf-8")!=before[k] for k in articles if k not in changed):
         raise ValueError("Unreviewed serialized content/structure drift")
     ids_after=[n.get(XMLID) for a in reloaded.values() for n in a.iter() if n.get(XMLID)]
-    if ids_after!=ids_before or len(set(ids_after))!=len(ids_after):
-        raise ValueError("XML identifiers changed or duplicated")
+    before_ids=set(ids_before)
+    after_ids=set(ids_after)
+    if (len(ids_after)!=len(after_ids) or not before_ids.issubset(after_ids)
+            or after_ids-before_ids!=new_ids
+            or [x for x in ids_after if x in before_ids]!=ids_before):
+        raise ValueError("Original XML identifiers changed or new IDs are unapproved")
     id_set=set(ids_after)
     if any(ref.get("target")[1:] not in id_set for a in reloaded.values()
            for ref in a.iter(TEI+"ref") if (ref.get("target") or "").startswith("#")):
@@ -260,7 +266,10 @@ def apply_files(source,baseline,baseline_report,ledger_path,output,report,baseli
         "original_entries":len(articles),
         "unchanged_articles_verified":len(articles)-len(changed),
         "changed_articles":len(changed),
-        "original_xml_ids_preserved":len(ids_after),
+        "original_xml_ids_preserved":len(ids_before),
+        "new_xml_ids":len(new_ids),
+        "total_xml_ids":len(ids_after),
+        "applied_operations":len(deltas),
         "source_zip_imp_and_canonical_unchanged":True,
         "noncanonical":True,"publication_permitted":False,
         "independent_human_peer_review":False,
@@ -271,7 +280,7 @@ def apply_files(source,baseline,baseline_report,ledger_path,output,report,baseli
                        "noncanonical_review_only":True,"review_delta_ledger":str(ledger_path)}),
                       (fidelity,{"candidate_sha256":candidate_hash,"article_parity":"PASS",
                        "serialized_profile_check":"PASS","unchanged_articles_verified":len(articles)-len(changed),
-                       "approved_text_modifications":len(changed),"publication_permitted":False,
+                       "approved_text_modifications":len(deltas),"publication_permitted":False,
                        "noncanonical":True,"independent_human_peer_review":False})]:
         dst=Path(path)
         dst.parent.mkdir(parents=True,exist_ok=True)
@@ -290,7 +299,7 @@ def main():
                     a["derived_manifest"],a["fidelity"])
     print(json.dumps({k:v for k,v in out.items() if k!="deltas"},indent=2))
     for d in out["deltas"]:
-        print("APPROVED_PRINT_DELTA",d["article_key"],d["ref_xml_id"],
+        print("APPROVED_PRINT_DELTA",d["article_key"],d["operation"],d["source_paragraph_xml_id"],
               repr(d["original_visible"]), "->",repr(d["revised_visible"]))
 
 if __name__=="__main__":
