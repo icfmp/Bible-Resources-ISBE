@@ -3,8 +3,8 @@
 
 This is **digital-source metadata consistency**, not original-1915 printed-page
 certification. No source article prose, original IDs, CrossWire master or
-previous editorial layer is modified. The independent digital corroboration
-remains a lower evidence tier than a photographed printed folio.
+previous editorial layer is modified. A parallel, image-attested reference can establish book mapping, but never
+certifies the wording of an unobserved article's original printed folios.
 """
 import argparse
 from hashlib import sha256
@@ -45,7 +45,7 @@ def verified_decisions(spec, candidates):
     if (spec.get("schema_version") != 1
             or spec.get("canonical_source_sha256") != LOCK
             or spec.get("preceding_editorial_layer") != "1915_print_attested_31_plus_6_plus_12_plus_1"
-            or spec.get("evidence_level") != "digital_visible_label_corrobated_not_original_print"
+            or spec.get("evidence_level") != "digital_display_parallel_print_mapping_not_taanach_print"
             or spec.get("original_1915_folios_verified") is not False
             or spec.get("publication_permitted") is not False
             or spec.get("independent_human_peer_review") is not False
@@ -70,6 +70,18 @@ def verified_decisions(spec, candidates):
                 or len(set(row["digital_witness_urls"])) < 2
                 or not all(u.startswith("https://") for u in row["digital_witness_urls"])):
             raise ValueError("Missing exact digital source or independent corroboration")
+        # A different, image-attested printed article corroborates the
+        # book-code mapping. This NEVER certifies the missing article folio.
+        parallel = source.get(row.get("parallel_print_attested_ref_xml_id"))
+        if (parallel is None
+                or parallel["source_key"] != row.get("parallel_print_attested_article")
+                or parallel["ref_xml_id"] == rid
+                or parallel["disposition"] != "visually_attested_candidate"
+                or parallel["visible"] != row["original_visible"]
+                or parallel["proposed_cRef"] != row["corrected_cRef"]
+                or not parallel.get("source_image_jpeg_sha256")
+                or not parallel.get("printed_reading")):
+            raise ValueError("Uncorroborated displayed book-to-target mapping")
         label = row["original_visible"]
         explicit = re.findall(r"(?<![A-Za-z0-9])([1-3]?[A-Za-z]+)\s+(\d+):(\d+)(?!\d)", label)
         expected = (str(row["explicit_label_book"]), str(row["explicit_label_chapter"]), str(row["explicit_label_verse"]))
