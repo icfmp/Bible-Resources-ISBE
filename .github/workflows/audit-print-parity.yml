@@ -1,0 +1,32 @@
+name: Audit 1915 print-versus-digital contrast evidence
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/audit_print_parity.py'
+      - 'tests/test_audit_print_parity.py'
+      - 'workspace/reviews/1915-nonempty-contrast-v1.json'
+      - '.github/workflows/audit-print-parity.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  source-locked-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test exact-source witness constraints and negative controls
+        run: python -m unittest discover -s tests -p 'test_audit_print_parity.py' -v
+      - name: Resolve exact source unit IDs and preserve review-only contrasts
+        run: |
+          python scripts/audit_print_parity.py \
+            --tei cleaned/en/ISBE.xml \
+            --ledger workspace/reviews/1915-nonempty-contrast-v1.json \
+            --report workspace/tmp/1915-nonempty-source-contrast.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isbe-1915-nonempty-source-contrast
+          path: workspace/tmp/1915-nonempty-source-contrast.json
+          if-no-files-found: error
