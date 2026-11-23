@@ -29,6 +29,10 @@ class WholeProsePrintedPageCoverage(unittest.TestCase):
                 self.assertEqual(entry["source_pdf_sha256"],page["original_pdf_sha256"])
                 self.assertEqual(entry["rendered_page_sha256"],page["rendered_jpeg_sha256"])
                 self.assertEqual(entry["original_paragraph_xml_id"],candidates[key]["source_paragraph_id"])
+                expected_blocks = entry.get("exact_print_body_blocks")
+                if expected_blocks is None:
+                    expected_blocks = [entry["exact_print_body_reading"]]
+                self.assertEqual(candidates[key]["blocks"], expected_blocks)
                 self.assertTrue(entry["whole_body_visual_comparison"])
                 self.assertFalse(entry["full_bibliographic_text_certified_by_independent_reviewer"])
         for key,entry in second.items():
