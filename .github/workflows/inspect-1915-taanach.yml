@@ -1,0 +1,20 @@
+name: Inspect 1915 Taanach original folios
+on:
+  pull_request:
+    paths: ['.github/workflows/inspect-1915-taanach.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - run: |
+          mkdir -p workspace/tmp
+          curl --fail --location --silent --show-error --retry 4 --retry-all-errors \
+            --connect-timeout 20 --max-time 480 \
+            "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_5.pdf" \
+            --output workspace/tmp/v5.pdf
+      - run: python3 scripts/render_1915_print_evidence.py --pdf workspace/tmp/v5.pdf --volume 5 --pages 77,78
