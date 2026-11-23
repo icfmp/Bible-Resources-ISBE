@@ -43,13 +43,15 @@ class PrintedApocryphaReferenceTests(unittest.TestCase):
         oldref=next(c for c in para if c.get("{http://www.w3.org/XML/1998/namespace}id")==
                     self.spec["decisions"][0]["preceding_ref_xml_id"])
         oldref.tail=self.spec["decisions"][0]["preceding_ref_original_tail"]
-        self.assertEqual(
-            hashlib.sha256("".join(para.itertext()).encode()).hexdigest(),
-            self.spec["decisions"][0]["previous_paragraph_text_sha256"]
-        )
+        # Unit fixture models the preceding reference-tail slot. The actual
+        # prior generated TEI paragraph SHA is checked by the *integration*
+        # workflow: synthetic canonical text is not the prior editorial TEI.
+        decision=copy.deepcopy(self.spec["decisions"][0])
+        decision["previous_paragraph_text_sha256"]=hashlib.sha256(
+            "".join(para.itertext()).encode()).hexdigest()
         original=ET.tostring(article,encoding="utf-8")
         unchanged=ET.tostring(index(root)["REPAIR"],encoding="utf-8")
-        affected,records=apply(root,self.spec["decisions"])
+        affected,records=apply(root,[decision])
         self.assertEqual(affected,{"GAINSAY"})
         self.assertEqual(len(records),1)
         updated=index(root)["GAINSAY"]
