@@ -60,7 +60,7 @@ def validate_extension(previous, current, source_root, manifest, previous_bytes)
         for field, value in prior.items():
             if field not in allowed_updates and item.get(field) != value:
                 raise ValueError("Prior source text, page image or status was altered")
-        extra = set(item) - set(prior) - {"new_article_wide_findings"}
+        extra = set(item) - set(prior) - allowed_updates
         if extra:
             raise ValueError("Unreviewed extra fields inserted")
         if prior["english_prose_linewise_comparison_completed"]:
