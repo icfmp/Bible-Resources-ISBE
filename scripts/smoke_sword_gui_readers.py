@@ -193,7 +193,7 @@ def test_reader(reader,outdir,lookup_key):
                 # human review, not proof that a key displayed correctly.
                 # Focus the visible dictionary lookup field; Alt+D alone
                 # may target a different pane on a fresh Xiphos profile.
-                click_at(window,545,380)
+                click_at(window,820,460)
                 command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
                 command(["xdotool","type","--clearmodifiers","--delay","80",lookup_key],timeout=10)
                 command(["xdotool","key","Return"],timeout=10)
@@ -210,15 +210,15 @@ def test_reader(reader,outdir,lookup_key):
                 # Exercise each visible bookshelf level before opening a
                 # dictionary. Use *window-relative* GUI coordinates on this
                 # fixed Xvfb fixture rather than absolute screen pixels.
-                click_at(window,100,158)   # Lexicons and Dictionaries
+                click_at(window,100,139)   # Lexicons and Dictionaries
                 time.sleep(1)
-                click_at(window,40,176)    # English language group
+                click_at(window,40,158)    # English language group
                 time.sleep(1)
                 expanded=outdir/"bibletime-lexicons-expanded.png"
                 pic=command(["scrot",str(expanded)],timeout=15)
                 if pic.returncode==0 and expanded.stat().st_size>1000:
                     result["screenshots"].append(expanded.name)
-                click_at(window,115,195,double=True)   # module name
+                click_at(window,115,177,double=True)   # module name
                 time.sleep(3)
                 opened=outdir/"bibletime-article-attempt.png"
                 pic=command(["scrot",str(opened)],timeout=15)
