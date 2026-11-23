@@ -4,8 +4,11 @@ import argparse
 from collections import Counter
 import json
 from pathlib import Path
+import re
 
 from scripts.research_1915_print_pages import expected_volume
+from scripts.diagnose_1915_ocr_candidate_spans import diagnostic_category
+from scripts.audit_1915_article_ocr_word_counts import latin_tokens
 
 SOURCE_LOCK = "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25"
 VOLUMES = {"1", "2", "3", "4", "5"}
@@ -39,6 +42,134 @@ def approved_recovery_map(recovery, source_empty_ledger):
     return result
 
 
+ALLOWED_CANDIDATE_EVIDENCE_FIELDS = {
+    "source_key", "article_xml_id", "review_queue",
+    "source_latin_token_count", "candidate_ocr_latin_token_count",
+    "source_tokens_sha256", "ocr_candidate_tokens_sha256",
+    "initial_heading_scan_pdf_page_1_based",
+    "next_known_heading_scan_pdf_page_1_based",
+    "next_source_article_key", "span_pdf_page_count_inclusive",
+    "ocr_word_count_by_scan_page", "tei_token_unigram_recall",
+    "tei_token_bigram_recall", "tei_token_trigram_recall",
+    "tei_token_fourgram_recall", "unique_fourgram_overlap_footprint",
+    "candidate_ocr_span_not_an_original_print_certification",
+    "print_page_images_directly_compared",
+    "textual_correction_authorized", "publication_permitted",
+}
+
+
+def verify_target_evidence(report):
+    """Fail closed for every v4 queue entry, no invented visual print review.
+
+    Because source prose must never appear in an artifact, allow only
+    explicitly known numerical/digest/location/provenance fields.
+    """
+    rows = report["entries"]
+    source = {r["article_key"]: (i, r) for i, r in enumerate(rows)}
+    expected = {
+        row["article_key"]: diagnostic_category(row)
+        for row in rows if diagnostic_category(row) is not None
+    }
+    supplied = report.get("content_candidate_diagnostics")
+    if (not isinstance(supplied, list)
+            or report.get("content_candidate_diagnostic_count") != len(supplied)):
+        raise ValueError("OCR evidence row inventory missing")
+    seen = set()
+    for evidence in supplied:
+        if not isinstance(evidence, dict) or set(evidence) != ALLOWED_CANDIDATE_EVIDENCE_FIELDS:
+            raise ValueError("Unexpected OCR evidence fields or prohibited text leak")
+        key = evidence["source_key"]
+        if key in seen or key not in expected:
+            raise ValueError("Duplicate or invented OCR research case")
+        seen.add(key)
+        i, row = source[key]
+        if i + 1 >= len(rows):
+            raise ValueError("OCR case has no next real TEI article")
+        if (
+            evidence["article_xml_id"] != row["article_xml_id"]
+            or evidence["review_queue"] != expected[key]
+            or evidence["source_latin_token_count"] != row["tei_latin_tokens"]
+            or evidence["candidate_ocr_latin_token_count"] != row["ocr_latin_tokens"]
+            or evidence["tei_token_fourgram_recall"] != row["source_fourgram_recall"]
+            or evidence["initial_heading_scan_pdf_page_1_based"] != row["ocr_start_pdf_page"]
+            or evidence["next_known_heading_scan_pdf_page_1_based"] != row["ocr_end_pdf_page"]
+            or evidence["next_source_article_key"] != rows[i+1]["article_key"]
+            or evidence["span_pdf_page_count_inclusive"] != (
+                row["ocr_end_pdf_page"] - row["ocr_start_pdf_page"] + 1
+            )
+            or evidence["candidate_ocr_span_not_an_original_print_certification"] is not True
+            or evidence["print_page_images_directly_compared"] is not False
+            or evidence["textual_correction_authorized"] is not False
+            or evidence["publication_permitted"] is not False
+        ):
+            raise ValueError("OCR research evidence contradicts source-locked article")
+        if any(not re.fullmatch(r"[0-9a-f]{64}", evidence[d]) for d in (
+            "source_tokens_sha256", "ocr_candidate_tokens_sha256"
+        )):
+            raise ValueError("Missing reproducible normalized-text SHA-256 fingerprints")
+        scores = [evidence[s] for s in (
+            "tei_token_unigram_recall", "tei_token_bigram_recall",
+            "tei_token_trigram_recall", "tei_token_fourgram_recall"
+        )]
+        if any(not isinstance(score, (float, int)) or not 0 <= score <= 1
+               for score in scores):
+            raise ValueError("OCR token-overlap evidence outside possible bounds")
+        page_counts = evidence["ocr_word_count_by_scan_page"]
+        if not page_counts or not isinstance(page_counts, list):
+            raise ValueError("No original scan page distribution for OCR evidence")
+        encountered = []
+        total = 0
+        for page in page_counts:
+            if not isinstance(page, dict) or set(page) != {
+                "scan_pdf_page_1_based", "ocr_tokens_in_page_segment"
+            }:
+                raise ValueError("Malformed OCR page distribution")
+            n, count = page["scan_pdf_page_1_based"], page["ocr_tokens_in_page_segment"]
+            if not isinstance(n, int) or not isinstance(count, int) or count < 0:
+                raise ValueError("Impossible OCR page/token counter")
+            if not (row["ocr_start_pdf_page"] <= n <= row["ocr_end_pdf_page"]):
+                raise ValueError("OCR evidence page lies outside two heading anchors")
+            encountered.append(n)
+            total += count
+        if (encountered != sorted(set(encountered))
+                or encountered[0] != row["ocr_start_pdf_page"]
+                or total != row["ocr_latin_tokens"] + len(latin_tokens(key))):
+            raise ValueError("OCR page distribution differs from recorded article span")
+        matched = evidence["unique_fourgram_overlap_footprint"]
+        if matched is not None:
+            required = {
+                "matched_unique_fourgrams", "window_80pct_matched_fourgrams",
+                "window_first_ocr_token_offset", "window_last_ocr_token_offset",
+                "window_length_latin_tokens", "window_fraction_of_full_ocr_span",
+                "window_first_scan_pdf_page_1_based",
+                "window_last_scan_pdf_page_1_based",
+                "source_print_fidelity_certified",
+            }
+            if not isinstance(matched, dict) or set(matched) != required:
+                raise ValueError("Malformed high-specificity OCR localization")
+            if matched["source_print_fidelity_certified"] is not False:
+                raise ValueError("Automated 4-gram location is not page-image certification")
+            if not (
+                12 <= matched["window_80pct_matched_fourgrams"]
+                <= matched["matched_unique_fourgrams"]
+                and 0 <= matched["window_first_ocr_token_offset"]
+                <= matched["window_last_ocr_token_offset"] < row["ocr_latin_tokens"]
+                and matched["window_length_latin_tokens"] == (
+                    matched["window_last_ocr_token_offset"]
+                    - matched["window_first_ocr_token_offset"] + 1
+                )
+                and 0 < matched["window_fraction_of_full_ocr_span"] <= 1
+                and row["ocr_start_pdf_page"]
+                <= matched["window_first_scan_pdf_page_1_based"]
+                <= matched["window_last_scan_pdf_page_1_based"]
+                <= row["ocr_end_pdf_page"]
+            ):
+                raise ValueError("OCR source-match region not in original article span")
+    if seen != set(expected):
+        raise ValueError("Inconsistent or missing v4 candidate diagnostics")
+    return supplied
+
+
 def aggregate(reports, manifest, recovery_map=None):
     source = {v["volume"]: v for v in manifest["volumes"]}
     if set(source) != VOLUMES or manifest.get("canonical_tei_sha256") != SOURCE_LOCK:
@@ -46,11 +177,12 @@ def aggregate(reports, manifest, recovery_map=None):
     if len(reports) != 5 or {r["volume"] for r in reports} != VOLUMES:
         raise ValueError("Expected exactly one result for each of five original volumes")
     by_volume, rows = {}, []
+    content_target_evidence = []
     keys, ids = set(), set()
     statuses = Counter()
     for report in sorted(reports, key=lambda r: r["volume"]):
         vol = report["volume"]
-        if (report.get("schema_version") != 4
+        if (report.get("schema_version") != 5
                 or report.get("print_pdf_sha256") != source[vol]["pdf_sha256"]
                 or report.get("canonical_tei_sha256") != SOURCE_LOCK
                 or report.get("pdf_pages") != source[vol]["pages"]
@@ -106,6 +238,10 @@ def aggregate(reports, manifest, recovery_map=None):
                 rows.append({**row, "volume": vol})
         if dict(sorted(vstatus.items())) != report["status_counts"]:
             raise ValueError("Raw entry status counts and volume summary disagree")
+        content_target_evidence.extend(
+            {**evidence, "original_print_volume": vol}
+            for evidence in verify_target_evidence(report)
+        )
         by_volume[vol] = {
             "source_articles": len(report["entries"]),
             "count_comparable_articles": checked,
@@ -213,7 +349,7 @@ def aggregate(reports, manifest, recovery_map=None):
             "ocr_fourgram_precision": r["ocr_fourgram_precision"],
         }
     return {
-        "schema_version": 4,
+        "schema_version": 5,
         "source": manifest["bibliographic_citation"],
         "canonical_tei_sha256": SOURCE_LOCK,
         "full_corpus_source_articles": len(keys),
@@ -236,6 +372,14 @@ def aggregate(reports, manifest, recovery_map=None):
             if recovery_map is not None else None
         ),
         "source_empty_candidates": recovered,
+        "content_candidate_diagnostics": sorted(
+            content_target_evidence,
+            key=lambda r: (r["review_queue"], r["original_print_volume"], r["source_key"])
+        ),
+        "content_candidate_diagnostic_count": len(content_target_evidence),
+        "content_candidate_diagnostics_by_queue": dict(sorted(Counter(
+            e["review_queue"] for e in content_target_evidence
+        ).items())),
         "difference_direction_counts": dict(sorted(discrepancy_directions.items())),
         "discrepancies_by_source_size": dict(sorted(discrepant_by_source_size.items())),
         "substantive_source_difference_candidates_count": len(substantive),
@@ -294,6 +438,9 @@ def main():
         "near_word_count_but_low_source_phrase_overlap": result[
             "near_word_count_but_low_source_phrase_overlap"
         ],
+        "target_evidence_cases": result["content_candidate_diagnostic_count"],
+        "target_evidence_by_queue": result["content_candidate_diagnostics_by_queue"],
+        "first_10_target_evidence": result["content_candidate_diagnostics"][:10],
         "large_ocr_excess_with_source_phrase_overlap": result[
             "large_ocr_excess_with_source_phrase_overlap"
         ],
