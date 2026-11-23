@@ -55,7 +55,8 @@ jobs:
           python3 -m scripts.export_1915_ocr_review_images \
             --pdf "/tmp/isbe-print-vol-${{ matrix.volume }}.pdf" \
             --ocr-report "workspace/tmp/research-1915-ocr-vol-${{ matrix.volume }}.json" \
-            --output-dir "workspace/tmp/source-page-research/volume-${{ matrix.volume }}"
+            --output-dir "workspace/tmp/source-page-research/volume-${{ matrix.volume }}" \
+            --include-near-size-end-page
       - name: Retain source page previews briefly for INTERNAL research, not release
         uses: actions/upload-artifact@v4
         with:
