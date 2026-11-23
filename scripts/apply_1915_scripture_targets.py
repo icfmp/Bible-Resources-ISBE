@@ -9,6 +9,7 @@ import argparse
 from hashlib import sha256
 import json
 from pathlib import Path
+from scripts.audit_tei_structure import analyze
 import re
 import xml.etree.ElementTree as ET
 
@@ -128,6 +129,9 @@ def run(source,baseline,previous_report,ledger_path,manifest_path,output,report,
     for key,a in reloaded.items():
         if "".join(a.itertext())!=texts[key] or (key not in changed and ET.tostring(a,encoding="utf-8")!=before[key]):
             raise ValueError("Unexpected serialized historical content changes")
+    structure=analyze(output)
+    if structure["profile_rule_findings"] or structure["duplicate_xml_ids"]:
+        raise ValueError("Source-derived TEI project profile failed")
     result={"canonical_sha256":LOCK,"previous_editorial_sha256":sha(baseline),
             "revised_sha256":sha(output),"article_count":len(articles),
             "changed_articles":len(changed),"unchanged_articles":len(articles)-len(changed),
@@ -139,7 +143,8 @@ def run(source,baseline,previous_report,ledger_path,manifest_path,output,report,
                "noncanonical_review_only":True,
                "review_delta_ledger":str(ledger_path)}
     fidelity={"candidate_sha256":result["revised_sha256"],
-              "article_parity":"PASS","publication_permitted":False,
+              "article_parity":"PASS","serialized_profile_check":"PASS",
+              "publication_permitted":False,
               "noncanonical":True,"independent_human_peer_review":False,
               "changed_reference_metadata_only":len(records)}
     for dst,data in [(report,result),(derived_validator,validator),(derived_fidelity,fidelity)]:
