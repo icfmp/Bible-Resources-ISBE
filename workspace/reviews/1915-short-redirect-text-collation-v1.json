@@ -3,11 +3,8 @@
   "bibliographic_witness": "Orr (ed.), International Standard Bible Encyclopaedia (Howard-Severance, 1915), original printed volumes",
   "canonical_source_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "scope": "Exact printed-reading comparison of whole short redirect paragraphs, excluding synthetic TEI heading markup, layout line breaks and small-caps styling; not independent peer certification or publication approval",
-  "compared_short_redirect_paragraphs": 9,
-  "remaining_redirects_pending_exact_body_proofreading": [
-    "ASTARTE; ASTORETH",
-    "PROSTRATION"
-  ],
+  "compared_short_redirect_paragraphs": 11,
+  "remaining_redirects_pending_exact_body_proofreading": [],
   "records": [
     {
       "source_key": "BURNT OFFERING",
@@ -170,11 +167,54 @@
       "collation_observation": "Reconciles pre-existing original-print visual reading (vol III p. 1753) with the exact candidate. Secondary transcription inserted an additional hyphen. Original apostrophe glyph style and independent character-level editorial certification remain pending; no new visual inspection claimed.",
       "editorial_approval": false,
       "canonical_change": false
+    },
+    {
+      "source_key": "ASTARTE; ASTORETH",
+      "original_paragraph_xml_id": "isbe-736f31de8a092306969f-n000003",
+      "printed_entry_reading_with_heading": "ASTARTE, as-tär'tē, ASTORETH. See ASHTAROTH.",
+      "exact_candidate_paragraph_reading": "as-tär'tē, ASTORETH. See ASHTAROTH.",
+      "comparison_result": "matches_magnified_original_1915_printed_page_pending_independent_second_review",
+      "comparison_scope": "entire_short_redirect_paragraph_only",
+      "source_pdf_volume": "1",
+      "source_pdf_page_1_based": 329,
+      "printed_page": 295,
+      "original_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "rendered_page_jpeg_sha256": "eef3362a6bda8bbdc2d8d2f6eceb6a058f6019119fa40e8c7d0269f518cb0f97",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45077481982",
+      "magnified_print_evidence_job": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45087128917/job/137408205095",
+      "inspected_at_2000px": true,
+      "collation_observation": "Original source print pronunciation punctuation/quantity marks transcribed directly, old provisional candidate retained. No independent second-reader or edition sign-off.",
+      "editorial_approval": false,
+      "canonical_change": false
+    },
+    {
+      "source_key": "PROSTRATION",
+      "original_paragraph_xml_id": "isbe-4b3b422628f4bc724af7-n000003",
+      "printed_entry_reading_with_heading": "PROSTRATION, pros-trā'shun. See ATTITUDES.",
+      "exact_candidate_paragraph_reading": "pros-trā'shun. See ATTITUDES.",
+      "comparison_result": "matches_magnified_original_1915_printed_page_pending_independent_second_review",
+      "comparison_scope": "entire_short_redirect_paragraph_only",
+      "source_pdf_volume": "4",
+      "source_pdf_page_1_based": 385,
+      "printed_page": 2469,
+      "original_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "rendered_page_jpeg_sha256": "9905be03561d333db19037c18aaddeb302fc6fd0ab2b6a6f71906104cbbe81f7",
+      "evidence_workflow_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45078377694",
+      "magnified_print_evidence_job": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45087128917/job/137408204980",
+      "inspected_at_2000px": true,
+      "collation_observation": "Original source print pronunciation punctuation/quantity marks transcribed directly, old provisional candidate retained. No independent second-reader or edition sign-off.",
+      "editorial_approval": false,
+      "canonical_change": false
     }
   ],
   "unresolved_print_readings_notes": {
     "ASTARTE; ASTORETH": "Original pronunciation includes diacritics not reliably represented in current candidate; enlarge and compare letter-by-letter before matching.",
     "JOSIBIAH": "Hyphen positions and pronunciation glyphs require magnified recheck against full printed article.",
     "PROSTRATION": "Pronunciation vowel quantity mark shown in print is not clearly represented in ASCII-based candidate; preserve unresolved status."
-  }
+  },
+  "magnified_original_page_print_readings_reconciled": [
+    "ASTARTE; ASTORETH",
+    "PROSTRATION"
+  ],
+  "unresolved_print_readings_notes_reconciled_from_prior_checkpoint": true
 }
