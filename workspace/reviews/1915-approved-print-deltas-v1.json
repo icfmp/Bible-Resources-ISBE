@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "canonical_source_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "baseline_kind": "31_second_pass_1915_print_restorations",
+  "source_evidence_ledger": "workspace/reviews/1915-nonempty-contrast-v1.json",
+  "publication_permitted": false,
+  "independent_human_peer_review": false,
+  "purpose": "Source-locked, reversible corrections to separately generated 1915 editorial TEI only; original CrossWire remains immutable",
+  "decisions": [
+    {
+      "operation": "replace_article_ref",
+      "source_key": "AALAR",
+      "source_unit_xml_id": "isbe-413b804d23ddfae4dfcf-n000003",
+      "original_visible": "ALTAR",
+      "printed_visible": "ALLAR",
+      "original_target_key": "ALTAR",
+      "printed_target_key": "ALLAR",
+      "approved_for_separate_editorial_tei": true,
+      "rationale": "Original 1915 volume I folio 1 reads AALAR See ALLAR; CrossWire incorrectly directs this short reference to ALTAR. Both keys are present and distinguishable."
+    }
+  ]
+}
