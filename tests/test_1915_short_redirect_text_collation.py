@@ -13,15 +13,15 @@ def read(name):
 
 
 class ShortRedirectPrintedTextCollationTests(unittest.TestCase):
-    def test_nine_complete_short_redirect_bodies_match_unapproved_candidates(self):
+    def test_all_eleven_short_redirect_bodies_match_unapproved_candidates(self):
         proof = read("1915-short-redirect-text-collation-v1.json")
         redirects = read("redirect-candidate-v1.json")
         pages = read("1915-visual-page-collation-v1.json")
         canonical = hashlib.sha256((ROOT / "cleaned/en/ISBE.xml").read_bytes()).hexdigest()
         self.assertEqual(proof["canonical_source_sha256"], canonical)
-        self.assertEqual(proof["compared_short_redirect_paragraphs"], 9)
-        self.assertEqual(len(proof["records"]), 9)
-        self.assertEqual(len(proof["remaining_redirects_pending_exact_body_proofreading"]), 2)
+        self.assertEqual(proof["compared_short_redirect_paragraphs"], 11)
+        self.assertEqual(len(proof["records"]), 11)
+        self.assertEqual(len(proof["remaining_redirects_pending_exact_body_proofreading"]), 0)
         candidates = {r["article_key"]: r for r in redirects["records"]}
         visual = {r["source_key"]: r for r in pages["records"]}
         checked = set()
@@ -38,7 +38,8 @@ class ShortRedirectPrintedTextCollationTests(unittest.TestCase):
                                  page["original_source_paragraph_xml_id"])
                 self.assertEqual(row["exact_candidate_paragraph_reading"],
                                  candidate["proposed_print_collated_text"])
-                self.assertTrue(row["printed_entry_reading_with_heading"].startswith(key))
+                self.assertTrue(row["printed_entry_reading_with_heading"].startswith(
+                    "ASTARTE, " if key == "ASTARTE; ASTORETH" else key))
                 self.assertTrue(row["printed_entry_reading_with_heading"].endswith(
                     row["exact_candidate_paragraph_reading"]))
                 self.assertEqual(row["source_pdf_volume"], page["scan_volume"])
@@ -67,6 +68,9 @@ class ShortRedirectPrintedTextCollationTests(unittest.TestCase):
                          "See PAUL THE APOSTLE, V, 9; PHOENIX.")
         self.assertEqual(rows["COMING OF CHRIST"], "See ADVENT; PAROUSIA.")
         self.assertEqual(rows["JOSIBIAH"], "jos-i-bi\'a. See JOSHIBIAH.")
+        self.assertEqual(rows["ASTARTE; ASTORETH"],
+                         "as-tär\'tē, ASTORETH. See ASHTAROTH.")
+        self.assertEqual(rows["PROSTRATION"], "pros-trā\'shun. See ATTITUDES.")
 
 
 if __name__ == "__main__":
