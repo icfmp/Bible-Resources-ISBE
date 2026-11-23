@@ -6,6 +6,8 @@ on:
       - 'scripts/research_1915_all24_original_pdf_text.py'
       - '.github/workflows/research-1915-all24-original-pdf-text.yml'
       - 'workspace/reviews/1915-article-wide-prose-review-v2.json'
+      - 'workspace/reviews/1915-all24-print-layer-whole-article-comparison-v1.json'
+      - 'scripts/validate_1915_all24_print_layer_comparison.py'
   workflow_dispatch:
 
 permissions:
@@ -31,6 +33,9 @@ jobs:
       - name: Extract exact article pages from original PDF text layer
         run: |
           python3 -m scripts.research_1915_all24_original_pdf_text --volume "${{ matrix.volume }}" --pdf "/tmp/isbe-print-vol-${{ matrix.volume }}.pdf" --output-dir "workspace/tmp/1915-print-text-layer/volume-${{ matrix.volume }}"
+      - name: Verify all original-page article text layer samples and canonical source SHA locks
+        run: |
+          python3 -m scripts.validate_1915_all24_print_layer_comparison --volume "${{ matrix.volume }}" --original-text-directory "workspace/tmp/1915-print-text-layer/volume-${{ matrix.volume }}"
       - uses: actions/upload-artifact@v4
         with:
           name: ISBE-1915-original-volume-${{ matrix.volume }}-article-PDF-TEXT-UNVERIFIED
