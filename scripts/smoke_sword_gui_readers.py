@@ -101,6 +101,10 @@ def test_reader(reader,outdir,lookup_key):
     env["GDK_BACKEND"]="x11"
     env["QT_QPA_PLATFORM"]="xcb"
     env["NO_AT_BRIDGE"]="1"
+    if name=="xiphos":
+        # Avoid a known locale-selection information dialog in headless CI.
+        env["LANG"]="en_US.UTF-8"
+        env["LC_ALL"]="en_US.UTF-8"
     # BibleTime 3.0.x may enumerate only system modules with SWORD_PATH.
     # Exercise its supported normal per-user ~/.sword installation instead.
     if name=="bibletime":
@@ -164,7 +168,11 @@ def test_reader(reader,outdir,lookup_key):
                 command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
                 command(["xdotool","type","--clearmodifiers","--delay","80",lookup_key],timeout=10)
                 command(["xdotool","key","Return"],timeout=10)
-                time.sleep(3)
+                time.sleep(2)
+                result["post_lookup_locale_notice_dismissed"]=dismiss_dialog(
+                    "^Xiphos$",key="Return"
+                )
+                time.sleep(1)
                 shot=outdir/"xiphos-lookup-attempt.png"
                 screen=command(["scrot",str(shot)],timeout=15)
                 if screen.returncode==0 and shot.stat().st_size>1000:
@@ -188,7 +196,7 @@ def test_reader(reader,outdir,lookup_key):
                 pic=command(["scrot",str(expanded)],timeout=15)
                 if pic.returncode==0 and expanded.stat().st_size>1000:
                     result["screenshots"].append(expanded.name)
-                command(["xdotool","mousemove","344","317"],timeout=10)
+                command(["xdotool","mousemove","352","331"],timeout=10)
                 command(["xdotool","click","--repeat","2","--delay","180","1"],timeout=10)
                 time.sleep(3)
                 opened=outdir/"bibletime-article-attempt.png"
