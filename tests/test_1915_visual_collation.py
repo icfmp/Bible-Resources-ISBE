@@ -81,7 +81,7 @@ class PrintedPageCollationTests(unittest.TestCase):
         self.assertNotIn("vits>",pp["SEPHARVITES"]["blocks"][0])
         self.assertIn("AV is a transcription",pp["SYCHEM"]["blocks"][0])
         self.assertIn("Θόκανος",pp["THOCANUS"]["blocks"][0])
-        self.assertIn('margin "is."',pp["FROWARDNESS"]["blocks"][0])
+        self.assertIn('m “is.”',pp["FROWARDNESS"]["blocks"][0])
         for key in ("CHORBE","SEPHARVITES","SYCHEM","THOCANUS","FROWARDNESS"):
             self.assertTrue(pp[key]["print_image_reviewed"])
             self.assertFalse(pp[key]["approved"])

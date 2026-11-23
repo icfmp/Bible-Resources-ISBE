@@ -64,7 +64,7 @@ class PrintProsePreviewTests(unittest.TestCase):
             self.assertIn("Χορβέ", "".join(records["CHORBE"].itertext()))
             self.assertIn("AV is a transcription", "".join(records["SYCHEM"].itertext()))
             self.assertIn("Θόκανος", "".join(records["THOCANUS"].itertext()))
-            self.assertIn('margin "is."', "".join(records["FROWARDNESS"].itertext()))
+            self.assertIn('m “is.”', "".join(records["FROWARDNESS"].itertext()))
 
     def test_boilerplate_is_rejected_without_modifying_canonical_source(self):
         original=hashlib.sha256(SOURCE.read_bytes()).hexdigest()

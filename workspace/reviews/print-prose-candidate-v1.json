@@ -197,16 +197,20 @@
       "scan_page": null,
       "source_status": "1915_attributed_secondary_transcription_provisional",
       "blocks": [
-        "haz'-ra, has'-ra (chacrah): Grandfather of Shallum, who was the husband of Huldah the prophetess (2 Chronicles 34:22). In 2 Kings 22:14, HARHAS (which see)."
+        "haz'ra, has'ra (חַסְרָה, hasrāh): Grandfather of Shallum, who was the husband of Huldah the prophetess (2 Ch 34 22). In 2 K 22 14, HARHAS (q.v.)."
       ],
-      "editorial_notes": "Article prose only; removed HTML navigation, site notices, copyright/footer, bibliographic furniture. Source claims to reproduce Orr 1915 but historical printed page not independently collated. Original 1915 printed page inspected; original-language typography, transliteration accents and all punctuation still need a second textual collation before approval.",
+      "editorial_notes": "Article prose only; removed HTML navigation, site notices, copyright/footer, bibliographic furniture. Source claims to reproduce Orr 1915 but historical printed page not independently collated. Original 1915 printed page inspected; original-language typography, transliteration accents and all punctuation still need a second textual collation before approval. FULL-PAGE 1915 PRIMARY FACSIMILE COMPARED ON 2026-11-23. Original-volume SHA-locked raster checked, with enlarged 300-dpi crop evidence in original-image inspection PR #36 (commit ead91d23). Provisional candidate restored original abbreviations and/or foreign-script variants. Original diacritic glyphs and interpretation remain subject to independent second reading; no canonical TEI approval or publication rights inferred.",
       "print_image_reviewed": true,
       "approved": false,
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
       "print_text_fully_certified": false,
       "pre_visual_review_source_status": "secondary_1915_attributed_transcription_not_print_image_proofread",
       "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
-      "full_transcription_review": "pending_character_level_1915_fidelity_review"
+      "full_transcription_review": "pending_character_level_1915_fidelity_review",
+      "pre_second_direct_facsimile_blocks": [
+        "haz'-ra, has'-ra (chacrah): Grandfather of Shallum, who was the husband of Huldah the prophetess (2 Chronicles 34:22). In 2 Kings 22:14, HARHAS (which see)."
+      ],
+      "direct_print_image_collation_revision": "first_source_image_revised_candidate_pending_independent_review"
     },
     {
       "source_key": "CHORBE",
@@ -266,16 +270,20 @@
       "scan_page": null,
       "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
-        "fro'-werd-nes: The translation of tahpukhoth the plural of tahpukhah, \"perversity,\" \"foolishness\" (from haphakh, \"to turn about\") in Proverbs 2:14, \"delight in the frowardness of the wicked,\" the American Standard Revised Version \"the perverseness of evil,\" margin \"the evil man\" (compare 2:12; some render \"deceit\"); 6:14 the American Standard Revised Version, \"perverseness\"; 10:32, \"the mouth of the wicked speaketh frowardness,\" the American Standard Revised Version \"speaketh perverseness,\" margin \"is.\""
+        "frō'werd-nes: The tr of תַּהְפֻּכוֹת, tahpukhōth, the pl. of tahpukhāh, “perversity,” “foolishness” (from hāphakh, “to turn about”) in Prov 2 14, “delight in the frowardness of the wicked,” ARV “the perverseness of evil,” m “the evil man” (cf ver 12; some render “deceit”); 6 14 ARV, “perverseness”; 10 32, “the mouth of the wicked speaketh frowardness,” ARV “speaketh perverseness,” m “is.”"
       ],
-      "editorial_notes": "The web transcript's final sentence ends with the word 'is.'; retained without emendation and flagged for scan validation. The printed 1915 page 1147 confirms the apparently abrupt closing phrase in 'is.' It is authentic editorial content and must not be silently repaired.",
+      "editorial_notes": "The web transcript's final sentence ends with the word 'is.'; retained without emendation and flagged for scan validation. The printed 1915 page 1147 confirms the apparently abrupt closing phrase in 'is.' It is authentic editorial content and must not be silently repaired. FULL-PAGE 1915 PRIMARY FACSIMILE COMPARED ON 2026-11-23. Original-volume SHA-locked raster checked, with enlarged 300-dpi crop evidence in original-image inspection PR #36 (commit ead91d23). Provisional candidate restored original abbreviations and/or foreign-script variants. Original diacritic glyphs and interpretation remain subject to independent second reading; no canonical TEI approval or publication rights inferred.",
       "print_image_reviewed": true,
       "approved": false,
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
       "print_text_fully_certified": false,
       "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
       "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
-      "full_transcription_review": "pending_character_level_1915_fidelity_review"
+      "full_transcription_review": "pending_character_level_1915_fidelity_review",
+      "pre_second_direct_facsimile_blocks": [
+        "fro'-werd-nes: The translation of tahpukhoth the plural of tahpukhah, \"perversity,\" \"foolishness\" (from haphakh, \"to turn about\") in Proverbs 2:14, \"delight in the frowardness of the wicked,\" the American Standard Revised Version \"the perverseness of evil,\" margin \"the evil man\" (compare 2:12; some render \"deceit\"); 6:14 the American Standard Revised Version, \"perverseness\"; 10:32, \"the mouth of the wicked speaketh frowardness,\" the American Standard Revised Version \"speaketh perverseness,\" margin \"is.\""
+      ],
+      "direct_print_image_collation_revision": "first_source_image_revised_candidate_pending_independent_review"
     },
     {
       "source_key": "HEMDAN",
@@ -286,9 +294,9 @@
       "scan_page": null,
       "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
-        "hem'dan (חֶמְדָּן, hemdān, \"pleasant\"): A descendant of Seir, the Horite (Gen 36 26). Wrongly trd \"Amram\" by AV in 1 Ch 1 41 (RV \"Hamran\"), where the transcribers made an error in one vowel and one consonant, writing hamrān instead of hemdān."
+        "hem'dan (חֶמְדָּן, hemdān, “pleasant”): A descendant of Seir, the Horite (Gen 36 26). Wrongly trᵈ “Amram” by AV in 1 Ch 1 41 (RV “Hamran”), where the transcribers made an error in one vowel and one consonant, writing hamrān (חַמְרָן), instead of hemdān (חֶמְדָּן)."
       ],
-      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation. Original 1915 printed page inspected; original-language typography, transliteration accents and all punctuation still need a second textual collation before approval.",
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation. Original 1915 printed page inspected; original-language typography, transliteration accents and all punctuation still need a second textual collation before approval. FULL-PAGE 1915 PRIMARY FACSIMILE COMPARED ON 2026-11-23. Original-volume SHA-locked raster checked, with enlarged 300-dpi crop evidence in original-image inspection PR #36 (commit ead91d23). Provisional candidate restored original abbreviations and/or foreign-script variants. Original diacritic glyphs and interpretation remain subject to independent second reading; no canonical TEI approval or publication rights inferred.",
       "print_image_reviewed": true,
       "approved": false,
       "pre_print_image_text": [
@@ -298,7 +306,11 @@
       "print_text_fully_certified": false,
       "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
       "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
-      "full_transcription_review": "pending_character_level_1915_fidelity_review"
+      "full_transcription_review": "pending_character_level_1915_fidelity_review",
+      "pre_second_direct_facsimile_blocks": [
+        "hem'dan (חֶמְדָּן, hemdān, \"pleasant\"): A descendant of Seir, the Horite (Gen 36 26). Wrongly trd \"Amram\" by AV in 1 Ch 1 41 (RV \"Hamran\"), where the transcribers made an error in one vowel and one consonant, writing hamrān instead of hemdān."
+      ],
+      "direct_print_image_collation_revision": "first_source_image_revised_candidate_pending_independent_review"
     },
     {
       "source_key": "MANKIND",
@@ -332,9 +344,9 @@
       "scan_page": null,
       "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
-        "se'-far-vits, se-far'-vits (cepharwim): In 2 Kings 17:31, the inhabitants of SEPHARVAIM (which see), planted by the king of Assyria in Samaria. They continued there to burn their children to their native gods."
+        "sē'fär-vits, sē-fär'-vits (סְפַרְוִים, sĕpharwīm): In 2 K 17 31, the inhabitants of SEPHARVAIM (q.v.), planted by the king of Assyria in Samaria. They continued there to burn their children to their native gods."
       ],
-      "editorial_notes": "Independent web source has an unexplained '>' after the second pronunciation: preserved verbatim; needs print image confirmation. PRINT COLLATION: Removed a greater-than sign after the second pronunciation: original 1915 printed page 2723 has none. Other pronunciation, Hebrew and source abbreviations still require exact collation.",
+      "editorial_notes": "Independent web source has an unexplained '>' after the second pronunciation: preserved verbatim; needs print image confirmation. PRINT COLLATION: Removed a greater-than sign after the second pronunciation: original 1915 printed page 2723 has none. Other pronunciation, Hebrew and source abbreviations still require exact collation. FULL-PAGE 1915 PRIMARY FACSIMILE COMPARED ON 2026-11-23. Original-volume SHA-locked raster checked, with enlarged 300-dpi crop evidence in original-image inspection PR #36 (commit ead91d23). Provisional candidate restored original abbreviations and/or foreign-script variants. Original diacritic glyphs and interpretation remain subject to independent second reading; no canonical TEI approval or publication rights inferred.",
       "print_image_reviewed": true,
       "approved": false,
       "pre_print_image_text": [
@@ -344,7 +356,11 @@
       "print_text_fully_certified": false,
       "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
       "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
-      "full_transcription_review": "pending_character_level_1915_fidelity_review"
+      "full_transcription_review": "pending_character_level_1915_fidelity_review",
+      "pre_second_direct_facsimile_blocks": [
+        "se'-far-vits, se-far'-vits (cepharwim): In 2 Kings 17:31, the inhabitants of SEPHARVAIM (which see), planted by the king of Assyria in Samaria. They continued there to burn their children to their native gods."
+      ],
+      "direct_print_image_collation_revision": "first_source_image_revised_candidate_pending_independent_review"
     },
     {
       "source_key": "SHALLUN",
@@ -424,9 +440,9 @@
       "scan_page": null,
       "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
-        "thô-kă'nus (Θόκανος, Thókanos, Θώκανος, Thōkanos; AV Theocanus): The father of Ezekias, who with Jonathan \"took the matter upon them\" in the proceedings under Ezra against foreign wives (1 Esd 9 14) = \"Tikvah\" in Ezr 10 15."
+        "thō-kă'nus (Θόκανος, Thókanos, Θώκανος, Thōkanos; AV Theocanus): The father of Ezekias, who with Jonathan “took the matter upon them” in the proceedings under Ezra against foreign wives (1 Esd 9 14) = “Tikvah” in Ezr 10 15."
       ],
-      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation. PRINT COLLATION: Printed original vol. V p. 2973 shows both Greek alternate forms and printed AV/Ezr abbreviations missing from earlier derivative witness. Detailed accentuation still needs second-pass collation.",
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation. PRINT COLLATION: Printed original vol. V p. 2973 shows both Greek alternate forms and printed AV/Ezr abbreviations missing from earlier derivative witness. Detailed accentuation still needs second-pass collation. FULL-PAGE 1915 PRIMARY FACSIMILE COMPARED ON 2026-11-23. Original-volume SHA-locked raster checked, with enlarged 300-dpi crop evidence in original-image inspection PR #36 (commit ead91d23). Provisional candidate restored original abbreviations and/or foreign-script variants. Original diacritic glyphs and interpretation remain subject to independent second reading; no canonical TEI approval or publication rights inferred.",
       "print_image_reviewed": true,
       "approved": false,
       "pre_print_image_text": [
@@ -436,7 +452,11 @@
       "print_text_fully_certified": false,
       "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
       "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
-      "full_transcription_review": "pending_character_level_1915_fidelity_review"
+      "full_transcription_review": "pending_character_level_1915_fidelity_review",
+      "pre_second_direct_facsimile_blocks": [
+        "thô-kă'nus (Θόκανος, Thókanos, Θώκανος, Thōkanos; AV Theocanus): The father of Ezekias, who with Jonathan \"took the matter upon them\" in the proceedings under Ezra against foreign wives (1 Esd 9 14) = \"Tikvah\" in Ezr 10 15."
+      ],
+      "direct_print_image_collation_revision": "first_source_image_revised_candidate_pending_independent_review"
     },
     {
       "source_key": "THOMEI",
@@ -447,16 +467,20 @@
       "scan_page": null,
       "source_status": "1915_attributed_independent_web_transcription_provisional",
       "blocks": [
-        "thom'-e-i (Codex Alexandrinus Thomei; Fritzsche Thomoi; Codex Vaticanus and Swete Thomthei; the King James Version, Thomoi): A family name of temple-servants who returned with Zerubbabel (1 Esdras 5:32) = \"Temah\" in Ezra 2:53; Nehemiah 7:55."
+        "thom'ē-ī (A, Θομεῖ, Thomeī, Fritzsche, Θομοῖ, Thomoī, B and Swete, Θομθεῖ, Thomtheī; AV Thomoi): A family name of temple-servants who returned with Zerubbabel (1 Esd 5 32) = “Temah” in Ezr 2 53; Neh 7 55."
       ],
-      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation. Original 1915 printed page inspected; original-language typography, transliteration accents and all punctuation still need a second textual collation before approval.",
+      "editorial_notes": "Article prose and pronunciation only. Digital navigation, metadata and copyright notices excluded. Source pages and punctuation require printed-volume visual collation. Original 1915 printed page inspected; original-language typography, transliteration accents and all punctuation still need a second textual collation before approval. FULL-PAGE 1915 PRIMARY FACSIMILE COMPARED ON 2026-11-23. Original-volume SHA-locked raster checked, with enlarged 300-dpi crop evidence in original-image inspection PR #36 (commit ead91d23). Provisional candidate restored original abbreviations and/or foreign-script variants. Original diacritic glyphs and interpretation remain subject to independent second reading; no canonical TEI approval or publication rights inferred.",
       "print_image_reviewed": true,
       "approved": false,
       "visual_print_witness_review": "workspace/reviews/1915-visual-page-collation-v1.json",
       "print_text_fully_certified": false,
       "pre_visual_review_source_status": "1915-attributed_independent_web_transcription_not_original_print_image",
       "print_page_inspection_status": "visually_inspected_not_fully_text_collated",
-      "full_transcription_review": "pending_character_level_1915_fidelity_review"
+      "full_transcription_review": "pending_character_level_1915_fidelity_review",
+      "pre_second_direct_facsimile_blocks": [
+        "thom'-e-i (Codex Alexandrinus Thomei; Fritzsche Thomoi; Codex Vaticanus and Swete Thomthei; the King James Version, Thomoi): A family name of temple-servants who returned with Zerubbabel (1 Esdras 5:32) = \"Temah\" in Ezra 2:53; Nehemiah 7:55."
+      ],
+      "direct_print_image_collation_revision": "first_source_image_revised_candidate_pending_independent_review"
     }
   ],
   "research_checkpoint": "Original 1915 print page images inspected for all 20 substantive article source gaps and all 11 redirects. Seven newly re-collated provisional paragraph texts with original historical abbreviations and foreign scripts, still subject to technical specialist proofing. No canonical adoption."
