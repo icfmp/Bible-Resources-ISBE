@@ -2,12 +2,21 @@ name: Build and native-verify corrected historical ISBE SWORD dictionary
 
 on:
   push:
-    branches:
-      - feat/compile-reviewed-isbe-1915-sword-dictionary
+    branches: [main]
     paths:
       - scripts/export_tei_dictionary_for_sword.py
       - scripts/validate_sword_dictionary_roundtrip.py
       - tests/test_sword_dictionary_adapter.py
+      - modules/isbe-1915/**
+      - sources/cleaned/encyclopedias/en/isbe-1915/**
+      - .github/workflows/build-isbe-sword-candidate.yml
+  pull_request:
+    paths:
+      - scripts/export_tei_dictionary_for_sword.py
+      - scripts/validate_sword_dictionary_roundtrip.py
+      - tests/test_sword_dictionary_adapter.py
+      - modules/isbe-1915/**
+      - sources/cleaned/encyclopedias/en/isbe-1915/**
       - .github/workflows/build-isbe-sword-candidate.yml
   workflow_dispatch:
 
@@ -109,9 +118,10 @@ jobs:
                   "rights_cleared":False,
                   "published":False}
           Path("workspace/tmp/diatheke-render-smoke.json").write_text(
-               json.dumps(report,indent=2)+"\\n",encoding="utf-8")
+               json.dumps(report,indent=2)+"\n",encoding="utf-8")
           print(json.dumps(report,indent=2))
           PY
+          python3 -m json.tool workspace/tmp/diatheke-render-smoke.json > /dev/null
       - name: Record exact independently built native binary hashes
         if: success()
         run: |
@@ -135,10 +145,6 @@ jobs:
             workspace/tmp/diatheke-render-smoke.json
           if-no-files-found: warn
           retention-days: 14
-      - name: Archive verified corrected native binary as NOT-FOR-PUBLICATION candidate
-        if: success()
-        uses: actions/upload-artifact@v4
-        with:
-          name: BRISBE1915-native-candidate-NOT-FOR-PUBLICATION
-          path: workspace/tmp/BRISBE1915-native-candidate-NOT-FOR-PUBLICATION.tar.gz
-          retention-days: 14
+      # No compiled encyclopedia binary is uploaded as an Actions artifact.
+      # A public GitHub repository's build artifacts are not a rights-cleared
+      # distribution channel. Store source metadata only until issue #1 closes.
