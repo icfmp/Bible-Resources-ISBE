@@ -301,6 +301,18 @@ def aggregate(reports, manifest, recovery_map=None):
             r["article_key"],
         ),
     )
+    # Independent whole-corpus queue calculation must match all detailed
+    # dossiers exactly; never pass a test by accepting missing candidates.
+    actual_diagnostic_kinds = Counter(
+        evidence["review_queue"] for evidence in content_target_evidence
+    )
+    expected_diagnostic_kinds = Counter({
+        "similar_length_low_phrase_overlap": len(count_near_low_overlap),
+        "long_ocr_span_source_phrases_present": len(ocr_excess_source_present),
+    })
+    if actual_diagnostic_kinds != +expected_diagnostic_kinds:
+        raise ValueError("Candidate evidence coverage does not match independent full-corpus queues")
+
     def word_count_band(n):
         if n < 20:
             return "00_0_to_19_source_words"
