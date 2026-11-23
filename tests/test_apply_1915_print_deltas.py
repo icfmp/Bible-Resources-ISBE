@@ -59,7 +59,7 @@ class PrintDeltasTests(unittest.TestCase):
                            .read_text(encoding="utf-8"))
         evidence = json.loads((root_path / "workspace/reviews/1915-nonempty-contrast-v1.json")
                               .read_text(encoding="utf-8"))
-        self.assertEqual(validate_decisions(delta,evidence),1)
+        self.assertEqual(validate_decisions(delta,evidence),len(delta["decisions"]))
         tampered = copy.deepcopy(delta)
         tampered["decisions"][0]["evidence_rendered_jpeg_sha256"]="0"*64
         with self.assertRaisesRegex(ValueError,"Unverified"):
