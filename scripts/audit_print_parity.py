@@ -69,6 +69,19 @@ def check(tei_path, ledger_path):
             raise ValueError("Missing stable source unit identifier")
         if case.get("source_unit_xml_id") != node.get(XML_ID):
             raise ValueError("Original source unit identifier drift")
+        extra={}
+        if case["difference_type"]=="original_print_cross_reference_destination_mismatch":
+            printed_target=case["printed_text_reading"]
+            if printed_target==anchor or printed_target not in articles:
+                raise ValueError("Printed destination is missing or not distinct")
+            refs=[child for child in node.iter()
+                  if child.tag==TEI+"ref"
+                  and "".join(child.itertext())==anchor
+                  and child.get("n")=="ISBE:"+anchor]
+            if len(refs)!=1 or refs[0].get("target")!="#"+articles[anchor].get(XML_ID):
+                raise ValueError("Source navigation target does not match audited digital text")
+            extra={"digital_destination_xml_id":articles[anchor].get(XML_ID),
+                   "printed_destination_candidate_xml_id":articles[printed_target].get(XML_ID)}
         out.append({"source_key":key,"article_xml_id":article.get(XML_ID),
                     "unit_xml_id":node.get(XML_ID),
                     "unit_text_sha256":hashlib.sha256(value.encode("utf-8")).hexdigest(),
@@ -77,7 +90,8 @@ def check(tei_path, ledger_path):
                     "print_volume":case["print_volume"],"printed_folio":case["printed_folio"],
                     "primary_pdf_page_1_based":page,"original_pdf_sha256":witness["pdf_sha256"],
                     "rendered_jpeg_sha256":image_sha,"primary_evidence_workflow":case["primary_evidence_workflow"],
-                    "review_status":case["review_status"],"approved":False})
+                    "review_status":case["review_status"],"approved":False,
+                    **extra})
     return {"canonical_sha256":SOURCE_SHA,"article_count":len(articles),
             "case_count":len(out),"approved_change_count":0,"cases":out}
 
