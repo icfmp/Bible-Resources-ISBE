@@ -20,6 +20,7 @@ from pathlib import Path
 import re
 import subprocess
 import tempfile
+from time import monotonic
 import unicodedata
 import xml.etree.ElementTree as ET
 
@@ -296,13 +297,16 @@ def run(pdf, volume, manifest_file, tei, report):
     entries = tei_entries(tei, volume, manifest)
     with tempfile.TemporaryDirectory(prefix="isbe-1915-ocr-") as tmp:
         bbox = Path(tmp) / "page-words.xhtml"
+        started = monotonic()
         subprocess.run(
             ["pdftotext", "-bbox-layout", str(pdf), str(bbox)],
             check=True, timeout=300,
         )
+        extraction_seconds = monotonic() - started
         result = compare_bbox(
             bbox, pdf_sha, digest(tei), volume, manifest, entries,
         )
+        result["ocr_extraction_seconds"] = round(extraction_seconds, 2)
     dest = Path(report)
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -323,6 +327,7 @@ def main():
         "articles_in_volume": result["articles_in_volume"],
         "status_counts": result["status_counts"],
         "heading_diagnostics": result["heading_diagnostics"],
+        "ocr_extraction_seconds": result["ocr_extraction_seconds"],
     }, ensure_ascii=False, indent=2))
 
 
