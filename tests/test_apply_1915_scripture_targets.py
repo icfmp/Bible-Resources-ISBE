@@ -18,7 +18,7 @@ def fixture():
     </body></text></TEI>''')
 
 def choice():
-    return {"source_key":"A","source_unit_xml_id":"p1","ref_xml_id":"r1",
+    return {"source_key":"A","unit_xml_id":"p1","ref_xml_id":"r1",
             "visible":"Ze 2:15","original_cRef":"Bible:Zech.3.2",
             "proposed_cRef":"Bible:Zeph.2.15","print_volume":"1",
             "pdf_page_1_based":618,"source_pdf_sha256":"a"*64,
