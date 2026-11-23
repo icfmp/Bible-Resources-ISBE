@@ -97,6 +97,16 @@ def install_synthetic_candidate(report, *, low_recall=0.1):
         "tei_token_bigram_recall": 0.2,
         "tei_token_trigram_recall": 0.15,
         "tei_token_fourgram_recall": low_recall,
+        "print_abbreviation_equivalence_research": {
+            "raw_source_fourgram_recall": low_recall,
+            "derived_abbreviation_equivalence_fourgram_recall": low_recall,
+            "derived_minus_raw_fourgram_recall": 0,
+            "source_expressions_compacted_by_print_abbreviation": {},
+            "diagnostic_source_derived_token_count": row["tei_latin_tokens"],
+            "original_tei_and_ocr_text_unchanged": True,
+            "printed_abbreviation_matches_are_not_image_certifications": True,
+            "publication_permitted": False,
+        },
         "unique_fourgram_overlap_footprint": None,
         "candidate_ocr_span_not_an_original_print_certification": True,
         "print_page_images_directly_compared": False,
@@ -184,6 +194,38 @@ class OCRAggregateSafetyTests(unittest.TestCase):
             self.run_synthetic(reports, manifest)
         case["next_source_article_key"] = reports[0]["entries"][1]["article_key"]
         case["ocr_word_count_by_scan_page"][0]["ocr_tokens_in_page_segment"] += 1
+        with self.assertRaises(ValueError):
+            self.run_synthetic(reports, manifest)
+
+    def test_abbreviation_equivalence_supplement_does_not_replace_raw_score(self):
+        reports, manifest = sample()
+        case = install_synthetic_candidate(reports[0])
+        supplement = case["print_abbreviation_equivalence_research"]
+        supplement["derived_abbreviation_equivalence_fourgram_recall"] = 0.6
+        supplement["derived_minus_raw_fourgram_recall"] = 0.5
+        supplement["source_expressions_compacted_by_print_abbreviation"] = {"rv": 3}
+        result = self.run_synthetic(reports, manifest)
+        self.assertEqual(result["near_word_count_but_low_source_phrase_overlap"], 1)
+        self.assertEqual(result["abbreviation_research_gain_at_least_10pct_points"], 1)
+        self.assertEqual(result["abbreviation_research_derived_overlap_at_least_25pct"], 1)
+        self.assertEqual(result["abbreviation_research_source_expression_counts"], {"rv": 3})
+        self.assertFalse(result["abbreviation_research_ranked_candidates"][0][
+            "image_article_prose_certified"
+        ])
+
+    def test_fake_abbreviation_reconciliation_or_license_claim_fails_closed(self):
+        reports, manifest = sample()
+        case = install_synthetic_candidate(reports[0])
+        supplement = case["print_abbreviation_equivalence_research"]
+        supplement["original_tei_and_ocr_text_unchanged"] = False
+        with self.assertRaises(ValueError):
+            self.run_synthetic(reports, manifest)
+        supplement["original_tei_and_ocr_text_unchanged"] = True
+        supplement["publication_permitted"] = True
+        with self.assertRaises(ValueError):
+            self.run_synthetic(reports, manifest)
+        supplement["publication_permitted"] = False
+        supplement["derived_minus_raw_fourgram_recall"] = 0.8
         with self.assertRaises(ValueError):
             self.run_synthetic(reports, manifest)
 
