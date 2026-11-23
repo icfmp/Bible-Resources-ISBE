@@ -53,7 +53,17 @@ class CleanSourceTreeTests(unittest.TestCase):
         self.assertEqual(record["category"],"encyclopedia")
         self.assertEqual(record["origin"]["entries"],9380)
         self.assertEqual(record["origin"]["cleaned_master_sha256"],digest(CLEANED/"ISBE.xml"))
-        self.assertEqual(record["quality"]["status"],"source_validated_not_compiled")
+        self.assertIn(record["quality"]["status"],(
+            "source_validated_not_compiled",
+            "native_candidate_verified_not_reader_approved",
+        ))
+        if record["quality"]["status"]=="native_candidate_verified_not_reader_approved":
+            self.assertEqual(record["quality"]["native_sword_readback"],
+                             "complete_9380_exact_unicode_and_xml")
+            self.assertEqual(record["quality"]["native_readback_text_mismatches"],0)
+            self.assertEqual(record["quality"]["native_readback_xml_mismatches"],0)
+            self.assertEqual(record["quality"]["two_reader_acceptance"],
+                             "not_performed")
         self.assertFalse(record["distribution"]["payload_present"])
         self.assertFalse(record["distribution"]["release_published"])
         self.assertFalse(record["rights"]["redistribution_allowed"])
