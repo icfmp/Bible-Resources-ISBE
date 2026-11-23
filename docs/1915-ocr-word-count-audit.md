@@ -101,3 +101,29 @@ This can rank later visual collation work dramatically faster than a
 manual, serial reading of all 9,380 articles. It cannot demonstrate
 that prose, punctuation, references, Greek/Hebrew, scholarly decisions
 or article divisions match the original 1915 print.
+
+## Initial five-volume research result (2026-11-23)
+
+The **full** [Actions run 45132413080](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45132413080) passed for all five original print witnesses, with unit tests and the exact 9,380-source-entry consolidation gate. Results below refer to the **source-faithful canonical TEI** (not yet the separate, 31-restoration-and-further-corrections editorial candidate).
+
+| 1915 volume | Source TEI entries | OCR counts assigned | Extract existing OCR text (s) |
+| --- | ---: | ---: | ---: |
+| I | 2,145 | 1,394 | 3.67 |
+| II | 2,129 | 1,287 | 3.22 |
+| III | 1,908 | 1,146 | 4.32 |
+| IV | 2,009 | 1,234 | 4.33 |
+| V | 1,189 | 720 | 2.47 |
+| **Total** | **9,380** | **5,781** | **18.01 (sum; jobs parallel)** |
+
+The extraction seconds measure **only Poppler's extraction pass after downloading each verified PDF**, not download, XML parsing or total CI runtime. The five-volume workflow ran in parallel. It does not imply a two-second *review* of individual articles.
+
+Among 5,781 entries with two OCR heading boundaries resolved in source order:
+
+- **3,926** have normalized Latin token counts within ±10% of source TEI.
+- **1,837** differ by more than 10%; this is a **review queue**, not an error count.
+- **18** are empty in the immutable digital-source TEI but nonempty in these OCR spans. These must be reconciled against the already separately recovered 31 historical entries before treating as new defects.
+- **3,599** source entries remain `unresolved_print_boundaries`; no OCR word counts were invented for them.
+
+Some of the highest-ratio candidates involve a very short digital redirect and a long apparent print span (e.g. `PROPERTY`, `COUTHA`, `WINDOWS OF HEAVEN`). These require **image/heading-boundary review first**; an extreme numerical difference is not yet evidence of a several-thousand-word digital omission. This is deliberately a first-stage *coherence check*, not exhaustive character-level collation.
+
+The per-volume row reports and the combined top-50 discrepancy overview are uploaded as **research-only** Actions artifacts; the historical OCR text itself is not included in the artifacts. Follow-up should improve heading alignment with grounded neighboring text/visual checks and compare the separate approved editorial witness, preserving the source-locked canonical baseline for reproducibility.
