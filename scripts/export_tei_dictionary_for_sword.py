@@ -72,6 +72,10 @@ def convert(source,outpath,reportpath,expected_sha,expected_count):
         item=copy.deepcopy(entry)
         item.tag=NS+"entryFree"
         del item.attrib["type"]
+        # Each entry becomes a standalone SWORD raw payload after tei2mod.
+        # Redeclare the inherited P5 namespace locally to keep that native
+        # fragment semantically identical to its source TEI parent tree.
+        item.attrib["xmlns"]=TEI
         body.append(item)
     outpath.parent.mkdir(parents=True,exist_ok=True)
     ET.ElementTree(output).write(outpath,encoding="utf-8",xml_declaration=True)
