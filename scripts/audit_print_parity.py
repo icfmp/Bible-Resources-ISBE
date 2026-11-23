@@ -54,6 +54,8 @@ def check(tei_path, ledger_path):
         node,value=matches[0]
         if not node.get(XML_ID):
             raise ValueError("Missing stable source unit identifier")
+        if case.get("source_unit_xml_id") != node.get(XML_ID):
+            raise ValueError("Original source unit identifier drift")
         out.append({"source_key":key,"article_xml_id":article.get(XML_ID),
                     "unit_xml_id":node.get(XML_ID),
                     "unit_text_sha256":hashlib.sha256(value.encode("utf-8")).hexdigest(),
