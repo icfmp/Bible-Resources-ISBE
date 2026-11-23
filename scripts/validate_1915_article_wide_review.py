@@ -126,7 +126,8 @@ def validate(spec, manifest, root):
     if (reviewed, one_page, continuation) != (12,23,1):
         raise ValueError("Review coverage changed without a new evidence version")
     return {"candidates":len(rows),"article_body_one_original_page":one_page,
-            "english_prose_reviewed":reviewed,"articles_with_printed_continuation":continuation,\n            "unexamined_continuation_pages":sum(len(r.get("pending_continuation_pdf_pages", [])) for r in rows),
+            "english_prose_reviewed":reviewed,"articles_with_printed_continuation":continuation,
+            "unexamined_continuation_pages":sum(len(r.get("pending_continuation_pdf_pages", [])) for r in rows),
             "full_print_collations_certified":0}
 
 def main():
