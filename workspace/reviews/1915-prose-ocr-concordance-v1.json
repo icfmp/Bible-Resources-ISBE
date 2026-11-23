@@ -418,7 +418,8 @@
     }
   ],
   "canonical_source_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
-  "candidate_file_git_blob_sha1": "ed1e35bc3450168e9d052e27d0bd33ed0c1fc918",
+  "candidate_file_git_blob_sha1": "cbfe3b24fb386b44d60085219e814f5875a0288c",
   "visual_page_evidence_git_blob_sha1": "d8770215fb1e7728313a5f546aa8161ac1a5ab38",
-  "reproducibility_note": "The candidate and primary-page evidence blob IDs bind this OCR comparison to exact reviewed inputs. Regenerate against all five SHA-pinned original PDFs whenever either blob changes."
+  "reproducibility_note": "The candidate and primary-page evidence blob IDs bind this OCR comparison to exact reviewed inputs. Regenerate against all five SHA-pinned original PDFs whenever either blob changes.",
+  "candidate_revision_note": "Original 20-entry ordered-Latin-token OCR concordance remains unchanged after ABISSEI macron restoration: the change a-bis'e-i → a-bis'ē-i has the same normalized Latin tokens. Previously observed candidate blob: ed1e35bc3450168e9d052e27d0bd33ed0c1fc918. New blob bound here; no new OCR score or printed-character certification claimed."
 }
