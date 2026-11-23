@@ -103,9 +103,9 @@ def window_origin(window):
                 if "=" in line)
     return int(values["X"]),int(values["Y"])
 
-def click_at(window,offset_x,offset_y,double=False):
-    """Click a row relative to its containing *top-level* window."""
-    x,y=window_origin(window)
+def click_at_origin(origin,offset_x,offset_y,double=False):
+    """Click at a known desktop origin, even after Qt recreates a window."""
+    x,y=origin
     cmd=["xdotool","mousemove",str(x+offset_x),str(y+offset_y)]
     if command(cmd,timeout=10).returncode:
         raise RuntimeError("Unable to move pointer to reader control")
@@ -115,6 +115,10 @@ def click_at(window,offset_x,offset_y,double=False):
     click+=["1"]
     if command(click,timeout=10).returncode:
         raise RuntimeError("Unable to click reader control")
+
+def click_at(window,offset_x,offset_y,double=False):
+    """Click a widget relative to the currently valid top-level window."""
+    return click_at_origin(window_origin(window),offset_x,offset_y,double)
 
 def test_reader(reader,outdir,lookup_key):
     name=reader["name"]
@@ -230,7 +234,10 @@ def test_reader(reader,outdir,lookup_key):
                 result["article_open_attempted_not_certified"]=True
                 # Once the module's initial index opens, use its own entry
                 # lookup box to request the explicit headword being audited.
-                click_at(window,405,80)
+                # BibleTime may reparent/destroy its original top-level X11
+                # window when opening the lexicon document. The screen stays
+                # fixed, so use its previously recorded client origin.
+                click_at_origin(result["window_client_origin"],405,80)
                 command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
                 command(["xdotool","type","--clearmodifiers","--delay","70",lookup_key],timeout=10)
                 command(["xdotool","key","Return"],timeout=10)
