@@ -78,6 +78,36 @@ jobs:
             --input-tei workspace/tmp/isbe-sword-import.xml \
             --native-imp workspace/tmp/native-module.imp \
             --report workspace/tmp/sword-native-roundtrip.json
+      - name: Render representative articles through independent diatheke frontend
+        shell: bash
+        run: |
+          set -euo pipefail
+          export SWORD_PATH="$PWD/workspace/tmp/native-root"
+          python3 - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+          samples=["AARON","ABIDE","GAINSAY","ZEBIDAH"]
+          results={}
+          for key in samples:
+              proc=subprocess.run(["diatheke","-b","BRISBE1915","-f","HTML","-k",key],
+                                  check=True,capture_output=True,text=True,env=os.environ)
+              rendered=proc.stdout
+              if len(rendered)<80 or key.casefold() not in rendered.casefold():
+                  raise RuntimeError(f"Native reader returned empty or unexpected content for {key}")
+              results[key]={"rendered_characters":len(rendered),
+                            "render_contains_article_headword":True,
+                            "html_anchor_count":rendered.count("<a "),
+                            "html_reference_count":rendered.count("href=")}
+          report={"frontend":"diatheke HTML via libSWORD",
+                  "format":"HTML",
+                  "smoke_articles":results,
+                  "independent_gui_reader_verified":False,
+                  "rights_cleared":False,
+                  "published":False}
+          Path("workspace/tmp/diatheke-render-smoke.json").write_text(
+               json.dumps(report,indent=2)+"\\n",encoding="utf-8")
+          print(json.dumps(report,indent=2))
+          PY
       - name: Record exact independently built native binary hashes
         if: success()
         run: |
@@ -98,6 +128,7 @@ jobs:
             workspace/tmp/native-module-list.txt
             workspace/tmp/tei2mod.log
             workspace/tmp/native-module-sha256sums.txt
+            workspace/tmp/diatheke-render-smoke.json
           if-no-files-found: warn
           retention-days: 14
       - name: Archive verified corrected native binary as NOT-FOR-PUBLICATION candidate
