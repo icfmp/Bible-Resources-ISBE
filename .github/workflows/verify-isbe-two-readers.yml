@@ -1,8 +1,7 @@
 name: Test corrected ISBE module in Xiphos and BibleTime headless UIs
 
 on:
-  push:
-    branches: [test/real-xiphos-bibletime-isbe-reader-smoke]
+  pull_request:
     paths:
       - .github/workflows/verify-isbe-two-readers.yml
       - scripts/smoke_sword_gui_readers.py
