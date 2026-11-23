@@ -52,7 +52,7 @@ class PrintProsePreviewTests(unittest.TestCase):
             self.assertIn("Grandfather of Shallum", "".join(records["HASRAH"].itertext()))
             self.assertIn("ὁ Μανασσῆ", "".join(records["MANASSITES"].itertext()))
             self.assertIn("Σαουΐα", "".join(records["SAVIAS"].itertext()))
-            self.assertIn("Σεσεΐς", "".join(records["SESIS"].itertext()))
+            self.assertIn("Σεσεῖς", "".join(records["SESIS"].itertext()))
             self.assertIn("not in LXX", "".join(records["SHALLUN"].itertext()))
             self.assertIn("jos-i-bi'a. See JOSHIBIAH.", "".join(records["JOSIBIAH"].itertext()))
             for key in ("CHORBE", "DEHORT", "FROWARDNESS", "HEMDAN",
