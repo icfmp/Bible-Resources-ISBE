@@ -12,40 +12,19 @@ jobs:
   page-images:
     # Archive PDFs are expensive to fetch; keep repeat inspection explicit.
     # Temporary one-time visual evidence run on this PR; return to manual before merge.
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     strategy:
       fail-fast: false
       matrix:
         include:
-          - {volume: "1", pages: "25,26,27"}
+          - {volume: "1", pages: "192,458"}
+          - {volume: "2", pages: "699,731"}
+          - {volume: "3", pages: "624,626"}
+          - {volume: "4", pages: "618,663,667"}
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect exact canonical TEI XML for source-vs-print corrections
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          import hashlib,xml.etree.ElementTree as ET
-          raw=Path('cleaned/en/ISBE.xml').read_bytes()
-          assert hashlib.sha256(raw).hexdigest()=='a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25'
-          root=ET.fromstring(raw)
-          ns='{http://www.tei-c.org/ns/1.0}'
-          xid='{http://www.w3.org/XML/1998/namespace}id'
-          wanted={
-            "AB (1)":{"isbe-21841db19e61a3f3a07a-n000014"},
-            "AARON'S ROD":{"isbe-d012ee347e578c6d51fd-n000003"},
-            "ABASE":{"isbe-5e75953b172e64383bba-n000003"},
-            "AARON":{"isbe-c4ddde6d464e6713eef5-n000018"}
-          }
-          for article in root.find('./'+ns+'text/'+ns+'body'):
-              if article.get('n') not in wanted: continue
-              for node in article.iter(ns+'p'):
-                  if node.get(xid) in wanted[article.get('n')]:
-                      print('SOURCE_UNIT_START',article.get('n'),node.get(xid),flush=True)
-                      print(ET.tostring(node,encoding='unicode'),flush=True)
-                      print('SOURCE_UNIT_END',article.get('n'),flush=True)
-          PY
       - name: Install source-page rendering tool
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
       - name: Fetch exact 1915 original printed volume
@@ -57,33 +36,6 @@ jobs:
             --connect-timeout 20 --max-time 360 \
             "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_International_Standard_Bible_Encyclopedia_Volume_${{ matrix.volume }}.pdf" \
             --output "workspace/tmp/print-evidence/vol-${{ matrix.volume }}.pdf"
-      - name: Examine original digital article readings and stable IDs (read-only)
-        run: |
-          python - <<'PY'
-          import hashlib, json
-          from pathlib import Path
-          import xml.etree.ElementTree as ET
-          source=Path('cleaned/en/ISBE.xml')
-          raw=source.read_bytes()
-          expected='a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25'
-          assert hashlib.sha256(raw).hexdigest()==expected
-          t='{http://www.tei-c.org/ns/1.0}'
-          xid='{http://www.w3.org/XML/1998/namespace}id'
-          root=ET.fromstring(raw)
-          body=root.find('./'+t+'text/'+t+'body')
-          keys=["AARON","AARONITES","AARON'S ROD","AB (1)","AB (2)","ABACUC","ABADDON","ABADIAS","ABAGARUS","ABAGTHA","ABANAH","ABARIM","ABASE"]
-          found={a.get('n'):a for a in body if a.get('n') in keys}
-          assert len(found)==len(keys),(len(found),sorted(set(keys)-set(found)))
-          print('ORIGINAL_CANONICAL_SHA',expected,flush=True)
-          for key in keys:
-              article=found[key]
-              units=[n for n in article.iter() if n.tag in (t+'p',t+'head') and n.get('type')!='index']
-              samples=[{'unit_id':n.get(xid),'text':''.join(n.itertext())[:700]} for n in units[:4]]
-              if len(units)>4:
-                  samples.extend([{'unit_id':n.get(xid),'text':''.join(n.itertext())[:500]} for n in units[-2:]])
-              refs=[{'source_text':''.join(n.itertext()),'target':n.get('target'),'original':n.get('n')} for n in article.iter(t+'ref') if n.get('target')]
-              print('DIGITAL_ENTRY '+json.dumps({'key':key,'article_id':article.get(xid),'units':len(units),'samples':samples,'first_8_article_refs':refs[:8]},ensure_ascii=False),flush=True)
-          PY
       - name: Render SHA-locked page images to temporary evidence log
         run: |
           python scripts/render_1915_print_evidence.py \
