@@ -15,8 +15,8 @@ class PrintedProseSpotcheckTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.ledger = json.loads((ROOT / "workspace/reviews/1915-low-overlap-prose-image-spotchecks-v2.json").read_text(encoding="utf-8"))
-        cls.manifest = json.loads((ROOT / "sources/print/1915-volume-witnesses.json").read_text(encoding="utf-8"))
-        cls.tei_file = ROOT / "cleaned/en/ISBE.xml"
+        cls.manifest = json.loads((ROOT / "workspace/witnesses/print/1915-volume-witnesses.json").read_text(encoding="utf-8"))
+        cls.tei_file = ROOT / "workspace/witnesses/crosswire-2.2/ISBE.xml"
         cls.root = ET.parse(cls.tei_file).getroot()
         cls.digest = digest(cls.tei_file)
 

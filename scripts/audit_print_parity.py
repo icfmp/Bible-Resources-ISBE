@@ -31,7 +31,7 @@ def check(tei_path, ledger_path):
     if len(articles)!=9380:
         raise ValueError("Unexpected article coverage")
     manifest=json.loads((Path(__file__).resolve().parents[1]/
-        "sources/print/1915-volume-witnesses.json").read_text(encoding="utf-8"))
+        "workspace/witnesses/print/1915-volume-witnesses.json").read_text(encoding="utf-8"))
     volumes={v["volume"]:v for v in manifest["volumes"]}
     out=[]
     anchors=set()
@@ -97,7 +97,7 @@ def check(tei_path, ledger_path):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--tei",default="cleaned/en/ISBE.xml")
+    p.add_argument("--tei",default="workspace/witnesses/crosswire-2.2/ISBE.xml")
     p.add_argument("--ledger",default="workspace/reviews/1915-nonempty-contrast-v1.json")
     p.add_argument("--report",required=True)
     a=p.parse_args()

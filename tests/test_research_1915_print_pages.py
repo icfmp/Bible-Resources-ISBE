@@ -24,7 +24,7 @@ class PrintHeadingResearchTests(unittest.TestCase):
         self.assertEqual(candidate_heading("antiquity", "ANTIQUITY"), 1)
 
     def test_identified_original_scans_are_sha_locked(self):
-        manifest = ROOT / "sources/print/1915-volume-witnesses.json"
+        manifest = ROOT / "workspace/witnesses/print/1915-volume-witnesses.json"
         data = json.loads(manifest.read_text(encoding="utf-8"))
         self.assertEqual(len(data["volumes"]), 5)
         for witness in data["volumes"]:

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate an explicit, NONCANONICAL preview of historical ISBE redirects.
 
-Never alters or promotes cleaned/en/ISBE.xml. No claim of 1915 transcription:
+Never alters or promotes workspace/witnesses/crosswire-2.2/ISBE.xml. No claim of 1915 transcription:
 the short proposed 'See' text is a modern review aid, not source wording.
 """
 import argparse
@@ -127,7 +127,7 @@ def preview(source,manifest_path,destination,report_path):
 
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--source",type=Path,default=Path("cleaned/en/ISBE.xml"))
+    ap.add_argument("--source",type=Path,default=Path("workspace/witnesses/crosswire-2.2/ISBE.xml"))
     ap.add_argument("--manifest",type=Path,default=Path("workspace/reviews/redirect-candidate-v1.json"))
     ap.add_argument("--output",type=Path,required=True)
     ap.add_argument("--report",type=Path,required=True)

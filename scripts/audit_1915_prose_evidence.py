@@ -34,8 +34,8 @@ def audit(root=ROOT):
     prose = load(review / "print-prose-candidate-v1.json")
     pages = load(review / "1915-visual-page-collation-v1.json")
     ledger = load(review / "empty-article-recovery-ledger.json")
-    sources = load(root / "sources" / "print" / "1915-volume-witnesses.json")
-    digest = hashlib.sha256((root / "cleaned" / "en" / "ISBE.xml").read_bytes()).hexdigest()
+    sources = load(root / "workspace" / "witnesses" / "print" / "1915-volume-witnesses.json")
+    digest = hashlib.sha256((root / "workspace" / "witnesses" / "crosswire-2.2" / "ISBE.xml").read_bytes()).hexdigest()
     locked = (EXPECTED_SHA, prose["document_base_sha256"],
               pages["canonical_source_sha256"],
               ledger["baseline_canonical_tei_sha256"],

@@ -24,7 +24,7 @@ jobs:
       - name: Verify strict serialized profile and produce independent validator input
         run: |
           python scripts/validate_redirect_preview_profile.py \
-            --source cleaned/en/ISBE.xml \
+            --source workspace/witnesses/crosswire-2.2/ISBE.xml \
             --candidate workspace/tmp/isbe-redirect-preview.xml \
             --change-report workspace/tmp/isbe-redirect-preview-report.json \
             --original-manifest workspace/changes/tei-p5-candidate-v1.json \

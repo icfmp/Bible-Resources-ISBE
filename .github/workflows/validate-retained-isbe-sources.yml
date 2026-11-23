@@ -5,8 +5,8 @@ on:
     paths:
       - 'sources/original/encyclopedias/en/isbe-crosswire-2.2/**'
       - 'sources/cleaned/encyclopedias/en/isbe-1915/**'
-      - 'sources/crosswire/isbe-2.2/**'
-      - 'cleaned/en/**'
+      - 'sources/original/encyclopedias/en/isbe-crosswire-2.2/**'
+      - 'workspace/witnesses/crosswire-2.2/**'
       - 'scripts/persist_1915_cleaned_master.py'
       - 'scripts/finalize_1915_recovery.py'
       - 'scripts/apply_1915_*.py'
@@ -18,8 +18,8 @@ on:
     paths:
       - 'sources/original/encyclopedias/en/isbe-crosswire-2.2/**'
       - 'sources/cleaned/encyclopedias/en/isbe-1915/**'
-      - 'sources/crosswire/isbe-2.2/**'
-      - 'cleaned/en/**'
+      - 'sources/original/encyclopedias/en/isbe-crosswire-2.2/**'
+      - 'workspace/witnesses/crosswire-2.2/**'
       - 'scripts/persist_1915_cleaned_master.py'
       - 'scripts/finalize_1915_recovery.py'
       - 'scripts/apply_1915_*.py'

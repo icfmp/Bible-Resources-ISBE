@@ -20,7 +20,7 @@ jobs:
         run: python3 -m unittest discover -s tests -p 'test_audit_scripture_ref_display.py' -v
       - name: Generate candidate-only report against pinned canonical TEI
         run: |
-          python3 scripts/audit_scripture_ref_display.py cleaned/en/ISBE.xml \
+          python3 scripts/audit_scripture_ref_display.py workspace/witnesses/crosswire-2.2/ISBE.xml \
             --report workspace/tmp/scripture-ref-display-audit.json
       - uses: actions/upload-artifact@v4
         with:

@@ -17,8 +17,8 @@ class ArticleWideProseReviewV2Tests(unittest.TestCase):
         cls.prior_bytes=cls.prior_path.read_bytes()
         cls.previous=load(cls.prior_path)
         cls.current=load(ROOT/"workspace/reviews/1915-article-wide-prose-review-v2.json")
-        cls.manifest=load(ROOT/"sources/print/1915-volume-witnesses.json")
-        cls.root=ET.parse(ROOT/"cleaned/en/ISBE.xml").getroot()
+        cls.manifest=load(ROOT/"workspace/witnesses/print/1915-volume-witnesses.json")
+        cls.root=ET.parse(ROOT/"workspace/witnesses/crosswire-2.2/ISBE.xml").getroot()
 
     def rejects(self, fn):
         item=copy.deepcopy(self.current)

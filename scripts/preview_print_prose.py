@@ -161,7 +161,7 @@ def apply(source,redirect_manifest,prose_manifest,output,report_path):
 
 if __name__=="__main__":
     ap=argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--source",default="cleaned/en/ISBE.xml")
+    ap.add_argument("--source",default="workspace/witnesses/crosswire-2.2/ISBE.xml")
     ap.add_argument("--redirects",default="workspace/reviews/redirect-candidate-v1.json")
     ap.add_argument("--prose",default="workspace/reviews/print-prose-candidate-v1.json")
     ap.add_argument("--output",required=True)

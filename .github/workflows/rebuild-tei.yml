@@ -88,11 +88,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cp workspace/candidates/en/ISBE.xml cleaned/en/ISBE.xml
-          cp workspace/tmp/isbe-legacy/article-index.json cleaned/en/article-index.json
+          cp workspace/candidates/en/ISBE.xml workspace/witnesses/crosswire-2.2/ISBE.xml
+          cp workspace/tmp/isbe-legacy/article-index.json workspace/witnesses/crosswire-2.2/article-index.json
           cp workspace/tmp/isbe-legacy/tei-reconstruction.json workspace/reports/tei-reconstruction.json
-          cmp workspace/candidates/en/ISBE.xml cleaned/en/ISBE.xml
-          python3 scripts/audit_tei_structure.py cleaned/en/ISBE.xml \
+          cmp workspace/candidates/en/ISBE.xml workspace/witnesses/crosswire-2.2/ISBE.xml
+          python3 scripts/audit_tei_structure.py workspace/witnesses/crosswire-2.2/ISBE.xml \
             --report /tmp/isbe-canonical-inventory.json \
             --expected-entries 9380 \
             --strict-profile \
@@ -105,7 +105,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add cleaned/en/ISBE.xml cleaned/en/article-index.json \
+          git add workspace/witnesses/crosswire-2.2/ISBE.xml workspace/witnesses/crosswire-2.2/article-index.json \
             workspace/reports/tei-reconstruction.json \
             workspace/reports/tei-structure-inventory.json \
             workspace/reports/tei-p5-candidate-report.json \

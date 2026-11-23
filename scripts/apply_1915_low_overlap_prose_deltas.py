@@ -181,7 +181,7 @@ def run(source, baseline, prior_report, prior_validator, ledger, output,
     spec = load(ledger)
     decisions = validate_decisions(
         spec, load(spec["evidence_ledger"]),
-        load("sources/print/1915-volume-witnesses.json"))
+        load("workspace/witnesses/print/1915-volume-witnesses.json"))
     root = ET.parse(baseline).getroot()
     articles = entries(root)
     old_articles = {key: ET.tostring(article, encoding="utf-8")
@@ -240,7 +240,7 @@ def run(source, baseline, prior_report, prior_validator, ledger, output,
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--source", default="cleaned/en/ISBE.xml")
+    p.add_argument("--source", default="workspace/witnesses/crosswire-2.2/ISBE.xml")
     p.add_argument("--ledger", default=
                    "workspace/reviews/1915-approved-low-overlap-prose-deltas-v1.json")
     for name in ("baseline", "prior-report", "prior-validator", "output",

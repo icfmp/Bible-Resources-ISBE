@@ -126,7 +126,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--pdf", required=True)
     p.add_argument("--volume", choices=list(GAPS), required=True)
-    p.add_argument("--witness-manifest", default="sources/print/1915-volume-witnesses.json")
+    p.add_argument("--witness-manifest", default="workspace/witnesses/print/1915-volume-witnesses.json")
     p.add_argument("--output", required=True)
     a = p.parse_args()
     result = investigate(a.pdf, a.volume, a.witness_manifest)

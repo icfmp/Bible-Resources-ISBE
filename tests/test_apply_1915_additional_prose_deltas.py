@@ -10,7 +10,7 @@ from scripts.apply_1915_additional_prose_deltas import (
 
 ROOT = Path(__file__).resolve().parents[1]
 LEDGER = ROOT / 'workspace/reviews/1915-additional-exact-print-deltas-v1.json'
-SOURCE = ROOT / 'cleaned/en/ISBE.xml'
+SOURCE = ROOT / 'workspace/witnesses/crosswire-2.2/ISBE.xml'
 
 
 class Additional1915ProseDeltasTests(unittest.TestCase):
@@ -18,7 +18,7 @@ class Additional1915ProseDeltasTests(unittest.TestCase):
     def setUpClass(cls):
         cls.spec = read(LEDGER)
         cls.research = read(ROOT / 'workspace/reviews/1915-article-wide-prose-review-v2.json')
-        cls.witness = read(ROOT / 'sources/print/1915-volume-witnesses.json')
+        cls.witness = read(ROOT / 'workspace/witnesses/print/1915-volume-witnesses.json')
         cls.source = ET.parse(SOURCE).getroot()
 
     def rejects(self, changed):

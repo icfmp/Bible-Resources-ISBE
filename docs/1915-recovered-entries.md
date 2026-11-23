@@ -4,7 +4,7 @@
 
 The CrossWire ISBE 2.2 source left 31 indexed articles with an empty body. The 1915 Orr/Howard-Severance facsimiles contain 20 substantive texts and 11 redirects at those locations.
 
-The source-locked `cleaned/en/ISBE.xml` is **never overwritten**. A separately generated editorial TEI witness restores the 31 readings and preserves the other 9,349 articles and their original XML identifiers. The original CrossWire ZIP and IMP remain intact.
+The source-locked `workspace/witnesses/crosswire-2.2/ISBE.xml` is **never overwritten**. A separately generated editorial TEI witness restores the 31 readings and preserves the other 9,349 articles and their original XML identifiers. The original CrossWire ZIP and IMP remain intact.
 
 The complete approved body readings are locked in `workspace/reviews/1915-second-pass-visual-approval-v1.json`, one record per entry. Each record identifies the canonical source paragraph, original printed volume/folio/PDF page, original PDF SHA-256, rendered source-image SHA-256, and the exact text visually rechecked against the printed page. The first-pass and pre-correction transcriptions remain in Git for comparison and reversal.
 

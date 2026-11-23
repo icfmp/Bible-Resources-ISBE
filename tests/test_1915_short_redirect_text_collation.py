@@ -17,7 +17,7 @@ class ShortRedirectPrintedTextCollationTests(unittest.TestCase):
         proof = read("1915-short-redirect-text-collation-v1.json")
         redirects = read("redirect-candidate-v1.json")
         pages = read("1915-visual-page-collation-v1.json")
-        canonical = hashlib.sha256((ROOT / "cleaned/en/ISBE.xml").read_bytes()).hexdigest()
+        canonical = hashlib.sha256((ROOT / "workspace/witnesses/crosswire-2.2/ISBE.xml").read_bytes()).hexdigest()
         self.assertEqual(proof["canonical_source_sha256"], canonical)
         self.assertEqual(proof["compared_short_redirect_paragraphs"], 11)
         self.assertEqual(len(proof["records"]), 11)

@@ -43,7 +43,7 @@ def concordance(candidate, scanned):
 
 def inspect(pdf_path, volume, root=ROOT):
     root = Path(root)
-    witness = load(root / "sources/print/1915-volume-witnesses.json")
+    witness = load(root / "workspace/witnesses/print/1915-volume-witnesses.json")
     volumes = {v["volume"]: v for v in witness["volumes"]}
     if volume not in volumes:
         raise ValueError("Unknown 1915 volume")

@@ -13,7 +13,7 @@ class HistoricalSourceRetentionTests(unittest.TestCase):
         self.assertEqual(master.EXPECTED_CLEANED_SHA,"5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c")
         self.assertEqual(len({master.CANONICAL_SHA,master.ORIGINAL_ZIP_SHA,master.EXPECTED_CLEANED_SHA}),3)
         self.assertNotEqual(master.CANONICAL,master.CLEANED_DIR/"ISBE.xml")
-        self.assertNotEqual(master.SOURCE_ZIP,master.ORIGINAL_DIR/"ISBE.zip")
+        self.assertEqual(master.SOURCE_ZIP,master.ORIGINAL_DIR/"ISBE.zip")
 
     def test_no_original_source_can_be_accepted_with_wrong_sha(self):
         with TemporaryDirectory() as temp:

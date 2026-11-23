@@ -196,7 +196,7 @@ def run(source, prior, prior_report, prior_validator, ledger, output, report,
             or validator.get("expected_candidate_sha256")!=prior_sha
             or validator.get("noncanonical_review_only") is not True):
         raise ValueError("Wrong previous sixteen-correction editorial layer")
-    decisions=validate_ledger(spec,read(ROOT/"sources/print/1915-volume-witnesses.json"),
+    decisions=validate_ledger(spec,read(ROOT/"workspace/witnesses/print/1915-volume-witnesses.json"),
                               ET.parse(source).getroot())
     root=ET.parse(prior).getroot()
     changed,edits=apply(root,decisions)
@@ -242,7 +242,7 @@ def run(source, prior, prior_report, prior_validator, ledger, output, report,
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--source",type=Path,default=Path("cleaned/en/ISBE.xml"))
+    p.add_argument("--source",type=Path,default=Path("workspace/witnesses/crosswire-2.2/ISBE.xml"))
     for name in ("prior","prior-report","prior-validator","ledger","output",
                  "report","derived-validator","derived-fidelity"):
         p.add_argument("--"+name,type=Path,required=True)

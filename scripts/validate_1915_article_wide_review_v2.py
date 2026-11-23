@@ -18,8 +18,8 @@ from scripts.validate_1915_article_wide_review import (
 
 DEFAULT_V1 = Path("workspace/reviews/1915-article-wide-prose-review-v1.json")
 DEFAULT_V2 = Path("workspace/reviews/1915-article-wide-prose-review-v2.json")
-DEFAULT_MANIFEST = Path("sources/print/1915-volume-witnesses.json")
-DEFAULT_CANONICAL = Path("cleaned/en/ISBE.xml")
+DEFAULT_MANIFEST = Path("workspace/witnesses/print/1915-volume-witnesses.json")
+DEFAULT_CANONICAL = Path("workspace/witnesses/crosswire-2.2/ISBE.xml")
 
 def git_blob_sha1(content):
     return hashlib.sha1(b"blob " + str(len(content)).encode() + b"\0" + content).hexdigest()

@@ -134,8 +134,8 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--ledger",type=Path,default=Path(
         "workspace/reviews/1915-article-wide-prose-review-v1.json"))
-    p.add_argument("--canonical",type=Path,default=Path("cleaned/en/ISBE.xml"))
-    p.add_argument("--manifest",type=Path,default=Path("sources/print/1915-volume-witnesses.json"))
+    p.add_argument("--canonical",type=Path,default=Path("workspace/witnesses/crosswire-2.2/ISBE.xml"))
+    p.add_argument("--manifest",type=Path,default=Path("workspace/witnesses/print/1915-volume-witnesses.json"))
     a=p.parse_args()
     if hashlib.sha256(a.canonical.read_bytes()).hexdigest()!=LOCK:
         raise ValueError("Canonical TEI SHA-256 mismatch")

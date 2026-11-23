@@ -154,12 +154,12 @@ def run(source,baseline,previous_report,ledger_path,manifest_path,output,report,
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--source",default="cleaned/en/ISBE.xml")
+    p.add_argument("--source",default="workspace/witnesses/crosswire-2.2/ISBE.xml")
     p.add_argument("--baseline",required=True)
     p.add_argument("--previous-report",required=True)
     p.add_argument("--previous-validator",required=True)
     p.add_argument("--ledger",default="workspace/reviews/1915-scripture-reference-image-triage-v1.json")
-    p.add_argument("--manifest",default="sources/print/1915-volume-witnesses.json")
+    p.add_argument("--manifest",default="workspace/witnesses/print/1915-volume-witnesses.json")
     for k in ("output","report","derived-validator","derived-fidelity"):
         p.add_argument("--"+k,required=True)
     a=p.parse_args()

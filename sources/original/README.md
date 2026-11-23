@@ -1,9 +1,7 @@
-# Original sources
+# Immutable original sources
 
-Real, unchanged originals only. Use `<category>/<language>/<resource>/`, as in Bible-Resources.
+Only exact, independently identified original source bytes under `<category>/<language>/<resource-id>/`, with recorded acquisition provenance. Never change the original to repair text, adjust markup, remove blank entries, or modernize.
 
-For the International Standard Bible Encyclopedia, the original is the **exact CrossWire SWORD ISBE 2.2 ZIP** at `encyclopedias/en/isbe-crosswire-2.2/ISBE.zip`. `PROVENANCE.json` records exact acquisition source and immutable SHA-256. No corrected English or printed-1915 reconstruction may replace it.
+The CrossWire SWORD ISBE 2.2 original is `encyclopedias/en/isbe-crosswire-2.2/ISBE.zip` with `PROVENANCE.json` and `ACQUISITION_MANIFEST.json`. It is stored **once**. The original 1915 printed PDF scans are separately catalogued under `workspace/witnesses/print/` because the actual PDF bytes are not stored here.
 
-The older `sources/crosswire/isbe-2.2/ISBE.zip` and its acquisition manifest remain byte-identical for historical reproducibility and existing workflows. The printed 1915 facsimiles are independent references catalogued by `sources/print/1915-volume-witnesses.json` and are not silently substituted for the CrossWire distribution.
-
-The corrected editorial source belongs under [cleaned](../cleaned/README.md). Publication/derivative rights remain under independent review.
+Our edited TEI belongs in [sources/cleaned](../cleaned/README.md). Do not infer global redistribution rights from a module's declared upstream license.

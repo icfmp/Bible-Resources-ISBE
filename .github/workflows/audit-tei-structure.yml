@@ -5,13 +5,13 @@ on:
     paths:
       - .github/workflows/audit-tei-structure.yml
       - scripts/audit_tei_structure.py
-      - cleaned/en/ISBE.xml
+      - workspace/witnesses/crosswire-2.2/ISBE.xml
       - workspace/reports/tei-structure-inventory.json
   pull_request:
     paths:
       - .github/workflows/audit-tei-structure.yml
       - scripts/audit_tei_structure.py
-      - cleaned/en/ISBE.xml
+      - workspace/witnesses/crosswire-2.2/ISBE.xml
       - workspace/reports/tei-structure-inventory.json
 permissions:
   contents: read
@@ -24,7 +24,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 scripts/audit_tei_structure.py cleaned/en/ISBE.xml \
+          python3 scripts/audit_tei_structure.py workspace/witnesses/crosswire-2.2/ISBE.xml \
             --report /tmp/isbe-canonical-inventory.json \
             --expected-entries 9380 \
             --strict-profile \

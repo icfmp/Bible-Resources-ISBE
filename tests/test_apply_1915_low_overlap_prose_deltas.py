@@ -12,8 +12,8 @@ from scripts.apply_1915_low_overlap_prose_deltas import (
 ROOT = Path(__file__).resolve().parents[1]
 SPEC = ROOT / "workspace/reviews/1915-approved-low-overlap-prose-deltas-v1.json"
 EVIDENCE = ROOT / "workspace/reviews/1915-low-overlap-prose-image-spotchecks-v2.json"
-MANIFEST = ROOT / "sources/print/1915-volume-witnesses.json"
-SOURCE = ROOT / "cleaned/en/ISBE.xml"
+MANIFEST = ROOT / "workspace/witnesses/print/1915-volume-witnesses.json"
+SOURCE = ROOT / "workspace/witnesses/crosswire-2.2/ISBE.xml"
 ID = "{http://www.w3.org/XML/1998/namespace}id"
 
 

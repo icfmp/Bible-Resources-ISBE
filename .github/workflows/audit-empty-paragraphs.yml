@@ -17,7 +17,7 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_audit_empty_paragraphs.py'
       - name: Inventory canonical TEI without modification
         run: |
-          python scripts/audit_empty_paragraphs.py cleaned/en/ISBE.xml \
+          python scripts/audit_empty_paragraphs.py workspace/witnesses/crosswire-2.2/ISBE.xml \
             --report workspace/tmp/empty-paragraph-audit.json \
             --expected-count 31
       - uses: actions/upload-artifact@v4

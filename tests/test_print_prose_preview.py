@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 from scripts.preview_print_prose import apply, q, reject_digital_paratext
 
 ROOT=Path(__file__).resolve().parents[1]
-SOURCE=ROOT/"cleaned/en/ISBE.xml"
+SOURCE=ROOT/"workspace/witnesses/crosswire-2.2/ISBE.xml"
 REDIRECTS=ROOT/"workspace/reviews/redirect-candidate-v1.json"
 PROSE=ROOT/"workspace/reviews/print-prose-candidate-v1.json"
 

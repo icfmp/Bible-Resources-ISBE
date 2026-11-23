@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 class EditorialNoticeReviewTests(unittest.TestCase):
     def test_all_reviewed_candidates_match_source(self):
         ledger=json.loads((ROOT/"workspace/reviews/editorial-notices-reviewed-v1.json").read_text(encoding="utf-8"))
-        actual=scan(ROOT/"cleaned/en/ISBE.xml")
+        actual=scan(ROOT/"workspace/witnesses/crosswire-2.2/ISBE.xml")
         self.assertEqual(actual["input_sha256"],ledger["canonical_tei_sha256"])
         expected={(row["article_key"],row["unit_xml_id"]) for row in actual["cases"]}
         checked={(row["source_key"],row["unit_xml_id"]) for row in ledger["entries"]}

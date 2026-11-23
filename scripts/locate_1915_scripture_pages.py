@@ -59,7 +59,7 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--pdf", required=True, type=Path)
     p.add_argument("--volume", required=True)
-    p.add_argument("--manifest", default="sources/print/1915-volume-witnesses.json")
+    p.add_argument("--manifest", default="workspace/witnesses/print/1915-volume-witnesses.json")
     p.add_argument("--output", required=True, type=Path)
     p.add_argument("--render-pages", action="store_true")
     p.add_argument("--render-limit", type=int, default=3)
@@ -74,7 +74,7 @@ def main():
         pages.pop()
     if len(pages)!=witness["pages"]:
         raise ValueError("Wrong historical print PDF page count")
-    q=make_digital_queue(Path("cleaned/en/ISBE.xml"))
+    q=make_digital_queue(Path("workspace/witnesses/crosswire-2.2/ISBE.xml"))
     keys=sorted({c["article_key"] for c in q["cases"] if expected_volume(c["article_key"])==a.volume})
     rows=[{"key":k,"candidate_pages":locate(pages,k)} for k in keys]
     result={"volume":a.volume,"pdf_sha256":witness["pdf_sha256"],

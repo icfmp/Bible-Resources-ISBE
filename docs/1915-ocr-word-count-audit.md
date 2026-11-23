@@ -7,11 +7,11 @@ a critical edition, character-level collation or publication permission.
 It compares all 9,380 source article identities and counts the portion
 whose boundaries can be conservatively determined in the original printed
 PDF OCR layer. Source input is the unchanged SHA-pinned canonical
-`cleaned/en/ISBE.xml`; the independently corrected, noncanonical editorial
+`workspace/witnesses/crosswire-2.2/ISBE.xml`; the independently corrected, noncanonical editorial
 witness is **not** silently substituted for that baseline.
 
 The five source PDFs and digests are fixed in
-`sources/print/1915-volume-witnesses.json`; volume V is known to lack
+`workspace/witnesses/print/1915-volume-witnesses.json`; volume V is known to lack
 printed folios 2887–2888 in this particular digitization. Those pages
 cannot receive print certification based on the present scans.
 

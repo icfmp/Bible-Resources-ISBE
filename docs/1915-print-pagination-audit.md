@@ -18,7 +18,7 @@ Page header OCR is imperfect. **Every candidate gap must be checked
 against the original page images**; no missing-page claim is certified
 by this audit alone. The workflow preserves machine-readable reports
 as CI review artifacts, with the original PDF hashes in
-`sources/print/1915-volume-witnesses.json`. Keep recovered historical
+`workspace/witnesses/print/1915-volume-witnesses.json`. Keep recovered historical
 source images and a new page witness distinct from the source-locked
 canonical CrossWire TEI. Rights and publishing remain blocked (#1);
 full article-to-print comparison remains open (#9).

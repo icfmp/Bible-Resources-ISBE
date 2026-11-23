@@ -7,8 +7,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 REVIEW = ROOT/"workspace/reviews/1915-visual-page-collation-v1.json"
 LEDGER = ROOT/"workspace/reviews/empty-article-recovery-ledger.json"
-VOLUMES = ROOT/"sources/print/1915-volume-witnesses.json"
-CANONICAL = ROOT/"cleaned/en/ISBE.xml"
+VOLUMES = ROOT/"workspace/witnesses/print/1915-volume-witnesses.json"
+CANONICAL = ROOT/"workspace/witnesses/crosswire-2.2/ISBE.xml"
 
 class PrintedPageCollationTests(unittest.TestCase):
     def test_all_thirty_one_source_entries_have_original_print_page_evidence(self):

@@ -30,7 +30,7 @@ jobs:
       - name: Rebuild previously approved six historical print deltas
         run: |
           python3 scripts/apply_1915_print_deltas.py \
-            --source cleaned/en/ISBE.xml \
+            --source workspace/witnesses/crosswire-2.2/ISBE.xml \
             --baseline workspace/tmp/ISBE-1915-approved-base.xml \
             --baseline-report workspace/tmp/ISBE-1915-approved-base-report.json \
             --baseline-manifest workspace/tmp/ISBE-1915-base-validator.json \

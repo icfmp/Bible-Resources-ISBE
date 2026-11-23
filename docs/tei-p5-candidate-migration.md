@@ -4,14 +4,14 @@
 
 ## Reproducible inputs and source lock
 
-- Preserved original SWORD ZIP: sources/crosswire/isbe-2.2/ISBE.zip.
+- Preserved original SWORD ZIP: sources/original/encyclopedias/en/isbe-crosswire-2.2/ISBE.zip.
 - Preserved IMP export: workspace/exports/isbe-2.2.imp.
-- Faithful legacy intermediate: generated under workspace/tmp/isbe-legacy/ISBE.xml from the preserved IMP. The adopted, source-faithful TEI P5 master is cleaned/en/ISBE.xml.
+- Faithful legacy intermediate: generated under workspace/tmp/isbe-legacy/ISBE.xml from the preserved IMP. The adopted, source-faithful TEI P5 master is workspace/witnesses/crosswire-2.2/ISBE.xml.
 - Version-1 source lock and official schema digests:
   workspace/changes/tei-p5-candidate-v1.json.
 - Input reconstruction SHA-256:
   98b07b64019601a8ad1eb13feff5b336c870fd80adfecd670bd9b7e3be7b8575.
-- Reproducible temporary candidate: workspace/candidates/en/ISBE.xml. Its verified bytes are identical to the adopted cleaned/en/ISBE.xml.
+- Reproducible temporary candidate: workspace/candidates/en/ISBE.xml. Its verified bytes are identical to the adopted workspace/witnesses/crosswire-2.2/ISBE.xml.
 - Canonical audit reports: workspace/reports/tei-p5-candidate-report.json and workspace/reports/tei-p5-official-validation.json; the source-inventory report is workspace/reports/tei-structure-inventory.json.
 
 The preferred source-first build reconstructs the faithful legacy witness from
@@ -98,7 +98,7 @@ To roll back, restore the pre-migration faithful master from git history or reco
 - An automated official format PASS is a technical result; it does not prove
   agreement with the historic print edition or independent authorization to
   distribute and translate the digital source.
-- The exact reviewed, source-locked candidate has been adopted as cleaned/en/ISBE.xml. No further unreviewed canonical changes are allowed; source locks must be revised with evidence, and the canonical rebuild regenerates the same bytes only after all full-corpus and official schema gates pass. Do not begin the modern-English edition based merely on successful XML validation.
+- The exact reviewed, source-locked candidate has been adopted as workspace/witnesses/crosswire-2.2/ISBE.xml. No further unreviewed canonical changes are allowed; source locks must be revised with evidence, and the canonical rebuild regenerates the same bytes only after all full-corpus and official schema gates pass. Do not begin the modern-English edition based merely on successful XML validation.
 - Unresolved source-derived empty paragraphs, unverified historical structure
   (lists, quotations, notes, poetry) and source rights remain independent
   review tasks; this mechanical conversion does not silently edit them.

@@ -566,7 +566,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--reports-dir", type=Path, required=True)
     p.add_argument("--manifest", type=Path,
-                   default=Path("sources/print/1915-volume-witnesses.json"))
+                   default=Path("workspace/witnesses/print/1915-volume-witnesses.json"))
     p.add_argument("--output", type=Path, required=True)
     p.add_argument("--approved-recovery-ledger", type=Path)
     p.add_argument("--original-empty-source-ledger", type=Path)

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "isbe-1915",
+  "canonical_edition_id": "isbe-orr-1915-crosswire-corrected",
+  "category": "encyclopedia",
+  "language": "en",
+  "planned_sword_id": "BRISBE1915",
+  "version": "0.1.0-rc.1",
+  "title": {
+    "en": "International Standard Bible Encyclopedia (1915, corrected historical working text)"
+  },
+  "upstreams": [
+    {
+      "provider": "crosswire",
+      "module_id": "ISBE",
+      "last_integrated_version": "2.2"
+    }
+  ],
+  "origin": {
+    "original_archive": "sources/original/encyclopedias/en/isbe-crosswire-2.2/ISBE.zip",
+    "original_archive_sha256": "4de747545d9c349ab724bc1708b01df5481e3b93e5e51077f859dd8a32023a32",
+    "canonical_witness": "workspace/witnesses/crosswire-2.2/ISBE.xml",
+    "canonical_witness_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+    "cleaned_master": "sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml",
+    "cleaned_master_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+    "entries": 9380
+  },
+  "quality": {
+    "status": "source_validated_not_compiled",
+    "native_sword_readback": "not_performed",
+    "two_reader_acceptance": "not_performed",
+    "original_print_full_collation_certified": false
+  },
+  "rights": {
+    "upstream_declared_license": "Public Domain",
+    "redistribution_allowed": false,
+    "derivatives_cleared": false,
+    "review_status": "pending_original_author_and_eu_france_rights_assessment",
+    "tracking_issue": "https://github.com/icfmp/Bible-Resources-ISBE/issues/1"
+  },
+  "distribution": {
+    "payload_present": false,
+    "status": "not_built",
+    "release_published": false,
+    "draft_source_release_only": true
+  }
+}

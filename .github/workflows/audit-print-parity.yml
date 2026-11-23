@@ -22,7 +22,7 @@ jobs:
       - name: Resolve exact source unit IDs and preserve review-only contrasts
         run: |
           python scripts/audit_print_parity.py \
-            --tei cleaned/en/ISBE.xml \
+            --tei workspace/witnesses/crosswire-2.2/ISBE.xml \
             --ledger workspace/reviews/1915-nonempty-contrast-v1.json \
             --report workspace/tmp/1915-nonempty-source-contrast.json
       - uses: actions/upload-artifact@v4

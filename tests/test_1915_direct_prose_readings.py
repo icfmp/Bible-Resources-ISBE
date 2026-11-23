@@ -41,7 +41,7 @@ class FirstOriginalPrintReadingTests(unittest.TestCase):
         self.assertEqual(candidates["ABISSEI"]["blocks"][0].split(" ",1)[0],"a-bis'ē-i")
         self.assertTrue(candidates["MANKIND"]["blocks"][0].endswith("to the human nature."))
         self.assertEqual(
-            hashlib.sha256((ROOT / "cleaned/en/ISBE.xml").read_bytes()).hexdigest(),
+            hashlib.sha256((ROOT / "workspace/witnesses/crosswire-2.2/ISBE.xml").read_bytes()).hexdigest(),
             "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
         )
 

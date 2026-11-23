@@ -2,7 +2,7 @@
 
 The **target encoding standard** is [ISBE TEI P5 structure profile](tei-structure-profile.md). This document describes the source-faithful **canonical TEI P5 working edition**, its stable IDs and its verified migration. Official RELAX NG and Schematron checks pass, but format validity is not historical print review or permission to publish.
 
-The editorial master is **TEI XML**, one document per language edition. `cleaned/en/ISBE.xml` contains the complete digital-source transcription. Subsequent editions use the same article identifiers and (where structure is unchanged) the same text-unit identifiers.
+The editorial master is **TEI XML**, one document per language edition. `workspace/witnesses/crosswire-2.2/ISBE.xml` contains the complete digital-source transcription. Subsequent editions use the same article identifiers and (where structure is unchanged) the same text-unit identifiers.
 
 The document contains:
 

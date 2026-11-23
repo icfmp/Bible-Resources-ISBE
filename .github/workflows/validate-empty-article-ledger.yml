@@ -5,12 +5,12 @@ on:
     paths:
       - 'workspace/reviews/empty-article-recovery-ledger.json'
       - 'tests/test_empty_article_recovery_ledger.py'
-      - 'cleaned/en/ISBE.xml'
+      - 'workspace/witnesses/crosswire-2.2/ISBE.xml'
   pull_request:
     paths:
       - 'workspace/reviews/empty-article-recovery-ledger.json'
       - 'tests/test_empty_article_recovery_ledger.py'
-      - 'cleaned/en/ISBE.xml'
+      - 'workspace/witnesses/crosswire-2.2/ISBE.xml'
       - '.github/workflows/validate-empty-article-ledger.yml'
   workflow_dispatch:
 

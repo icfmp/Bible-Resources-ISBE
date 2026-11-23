@@ -21,11 +21,11 @@ jobs:
           python -m unittest discover -s tests -p 'test_editorial_notice_review.py'
       - name: Scan canonical source without modifying it
         run: |
-          python scripts/audit_editorial_notices.py cleaned/en/ISBE.xml \
+          python scripts/audit_editorial_notices.py workspace/witnesses/crosswire-2.2/ISBE.xml \
             --report workspace/tmp/editorial-notices.json
       - name: Review high-signal digital paratext and neighbouring source units
         run: |
-          python scripts/audit_editorial_notices.py cleaned/en/ISBE.xml \
+          python scripts/audit_editorial_notices.py workspace/witnesses/crosswire-2.2/ISBE.xml \
             --profile paratext --report workspace/tmp/editorial-paratext.json
       - uses: actions/upload-artifact@v4
         with:

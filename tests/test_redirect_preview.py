@@ -10,7 +10,7 @@ from scripts.preview_legacy_redirects import preview, Q, XMLID
 class RedirectPreviewTests(unittest.TestCase):
     def test_real_corpus_preview_is_lossless_outside_approved_scope(self):
         root=Path(__file__).resolve().parents[1]
-        source=root/"cleaned/en/ISBE.xml"
+        source=root/"workspace/witnesses/crosswire-2.2/ISBE.xml"
         before=hashlib.sha256(source.read_bytes()).hexdigest()
         with tempfile.TemporaryDirectory() as tmp:
             output=Path(tmp)/"preview.xml"
@@ -43,7 +43,7 @@ class RedirectPreviewTests(unittest.TestCase):
             mf=Path(tmp)/"invalid.json"
             mf.write_text(json.dumps(manifest))
             with self.assertRaisesRegex(ValueError,"SHA-256"):
-                preview(root/"cleaned/en/ISBE.xml",mf,Path(tmp)/"out.xml",Path(tmp)/"report.json")
+                preview(root/"workspace/witnesses/crosswire-2.2/ISBE.xml",mf,Path(tmp)/"out.xml",Path(tmp)/"report.json")
 
 if __name__=="__main__":
     unittest.main()

@@ -25,7 +25,7 @@ jobs:
       - name: Check strict profile and source-fidelity report for official validation
         run: |
           python scripts/validate_prose_preview_profile.py \
-            --source cleaned/en/ISBE.xml \
+            --source workspace/witnesses/crosswire-2.2/ISBE.xml \
             --candidate workspace/tmp/ISBE-print-prose-preview.xml \
             --report workspace/tmp/ISBE-print-prose-report.json \
             --manifest workspace/changes/tei-p5-candidate-v1.json \

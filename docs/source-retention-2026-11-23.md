@@ -9,11 +9,11 @@ critical facsimile approval, or copyright determination.
 | --- | --- | ---: | --- |
 | Unedited CrossWire ISBE 2.2 SWORD ZIP | `sources/original/encyclopedias/en/isbe-crosswire-2.2/ISBE.zip` | 9,987,447 bytes | `4de747545d9c349ab724bc1708b01df5481e3b93e5e51077f859dd8a32023a32` |
 | **Historically corrected, non-modernized** English ISBE TEI | `sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml` | 37,062,851 bytes | `5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c` |
-| Byte-locked source-faithful intermediate (unchanged from before retention) | `cleaned/en/ISBE.xml` | 37,056,724 bytes | `a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25` |
+| Byte-locked source-faithful intermediate (unchanged from before retention) | `workspace/witnesses/crosswire-2.2/ISBE.xml` | 37,056,724 bytes | `a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25` |
 
 The new original ZIP has the **same Git blob SHA**
 (`c72a179b275e21387fb26bfe6851174aa69f1d60`) as the original saved
-earlier at `sources/crosswire/isbe-2.2/ISBE.zip`: Git stores identical bytes
+earlier at `sources/original/encyclopedias/en/isbe-crosswire-2.2/ISBE.zip`: Git stores identical bytes
 as one content-addressed blob. The source-faithful intermediate continues to
 serve as an immutable source witness; only the distinct **source-cleaned
 historical edition** contains the verified restorative changes.
@@ -30,7 +30,7 @@ Build/commit proof: [GitHub Actions run
 final target came from [run
 45217614531](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45217614531).
 
-**Modernization:** future `modern/en/` derives from the historical working
+**Modernization:** future `sources/cleaned/encyclopedias/en/isbe-modern/` derives from the historical working
 cleaned edition, not the uncorrected digital source witness, and must preserve
 article identifiers. It is **not started** here.
 

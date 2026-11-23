@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class RecoveryDeltaEvidenceTests(unittest.TestCase):
     def test_complete_traceability_without_canonical_modification(self):
-        canonical = ROOT / "cleaned/en/ISBE.xml"
+        canonical = ROOT / "workspace/witnesses/crosswire-2.2/ISBE.xml"
         before = hashlib.sha256(canonical.read_bytes()).hexdigest()
         result = build(ROOT)
         self.assertEqual(result["canonical_source_sha256"], before)

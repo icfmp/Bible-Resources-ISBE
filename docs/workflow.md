@@ -1,7 +1,7 @@
 # Source-to-translation workflow
 
 ## 1. Preserve the original
-Keep `sources/crosswire/isbe-2.2/ISBE.zip` byte-for-byte, accompanied by its retrieval metadata and SHA-256 in `MANIFEST.json`. No re-downloading or rewriting as part of normal editorial work.
+Keep `sources/original/encyclopedias/en/isbe-crosswire-2.2/ISBE.zip` byte-for-byte, accompanied by its retrieval metadata and SHA-256 in `MANIFEST.json`. No re-downloading or rewriting as part of normal editorial work.
 
 ## 2. Rebuild the faithful source witness as an intermediate
 
@@ -9,7 +9,7 @@ Keep the preserved IMP and original CrossWire ZIP unchanged. Run `scripts/rebuil
 
 ## 3. Validate and adopt the source-locked canonical TEI P5
 
-The canonical working XML at `cleaned/en/ISBE.xml` is the exact verified TEI P5 candidate derived from that source. `scripts/normalize_tei_p5.py` makes only documented mechanical changes, in a **separate candidate**, and compares every article's source text, paragraph/node text and tails, original attributes outside the declared exceptions, IDs, keys and links to the intermediate and source index.
+The canonical working XML at `workspace/witnesses/crosswire-2.2/ISBE.xml` is the exact verified TEI P5 candidate derived from that source. `scripts/normalize_tei_p5.py` makes only documented mechanical changes, in a **separate candidate**, and compares every article's source text, paragraph/node text and tails, original attributes outside the declared exceptions, IDs, keys and links to the intermediate and source index.
 
 Before replacing the master, `.github/workflows/rebuild-tei.yml` enforces the pinned candidate SHA-256, strict project profile, and both official TEI P5 4.12.0 RELAX NG and Schematron. The shared validator is `scripts/validate_official_tei_p5.py`, with two deliberately invalid controls. The canonical master is overwritten **only after all tests pass**, and the report and source digest are committed together with the master.
 
@@ -27,12 +27,12 @@ Resolve mechanical title variants and explicitly identifiable article/section de
 Checks must confirm entry/character counts, per-article text hashes, unique XML IDs, valid rewritten targets, and that every original SWORD encyclopedia link occurrence is a valid destination, an explicitly unlinked source-reference segment, or a bibliographic heading with preserved provenance. The count of active `ISBE:` targets with no verified destination must be **zero**.
 
 ## 5. Modernize without overwriting
-The immutable CrossWire original now also lives under `sources/original/encyclopedias/en/isbe-crosswire-2.2/`. The source-faithful TEI remains locked under `cleaned/en/ISBE.xml` for reproducibility and parity of the original. Rebuild our historical edited master into `sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml` using `python3 scripts/persist_1915_cleaned_master.py --assemble` and independently verify its exact output digest before any modernization.
+The immutable CrossWire original now also lives under `sources/original/encyclopedias/en/isbe-crosswire-2.2/`. The source-faithful TEI remains locked under `workspace/witnesses/crosswire-2.2/ISBE.xml` for reproducibility and parity of the original. Rebuild our historical edited master into `sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml` using `python3 scripts/persist_1915_cleaned_master.py --assemble` and independently verify its exact output digest before any modernization.
 
-**Modernization begins from `sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml`, not from the uncorrected `cleaned/en/ISBE.xml`.** Copy this verified *historical working master* to `modern/en/ISBE.xml`; preserve existing `xml:id` values. Modernize language in reviewable batches with recorded editorial rationale. Distinguish linguistic updates from corrections of historic assertions.
+**Modernization begins from `sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml`, not from the uncorrected `workspace/witnesses/crosswire-2.2/ISBE.xml`.** Copy this verified *historical working master* to `sources/cleaned/encyclopedias/en/isbe-modern/ISBE.xml`; preserve existing `xml:id` values. Modernize language in reviewable batches with recorded editorial rationale. Distinguish linguistic updates from corrections of historic assertions.
 
 ## 6. Translate
-Create `translations/<lang>/ISBE.xml` from a recorded modern-English commit. Preserve stable entry/unit IDs, text structure and references. Record per-unit source revision and hash for translation currency. Flag machine translations as such until reviewed.
+Create `sources/cleaned/encyclopedias/<lang>/isbe-modern/ISBE.xml` from a recorded modern-English commit. Preserve stable entry/unit IDs, text structure and references. Record per-unit source revision and hash for translation currency. Flag machine translations as such until reviewed.
 
 ## 7. Update incrementally
 Compare consecutive modern-English TEI revisions at indexed text-unit level, retain machine-readable diffs in `workspace/changes/`, and retranslate only changed or added units. Treat deleted or structurally split units as editorial cases; never silently retain stale translations.

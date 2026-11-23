@@ -9,7 +9,7 @@ The generator `scripts/apply_1915_scripture_targets.py` accepts the
 separate edited TEI produced by first reconstructing the 31 lost records
 and then replaying the six earlier approved 1915 source deltas. It never
 writes to the original CrossWire ZIP, IMP, source-locked canonical
-`cleaned/en/ISBE.xml`, or either preceding editorial witness.
+`workspace/witnesses/crosswire-2.2/ISBE.xml`, or either preceding editorial witness.
 
 Each correction requires the original article key, source paragraph XML ID,
 reference XML ID, exact visible text and old encoded `cRef`, and the

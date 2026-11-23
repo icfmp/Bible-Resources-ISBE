@@ -52,7 +52,7 @@ def main():
     p.add_argument("--pdf", required=True)
     p.add_argument("--volume", required=True)
     p.add_argument("--pages", required=True, help="Comma-separated 1-based PDF page indexes")
-    p.add_argument("--manifest", default="sources/print/1915-volume-witnesses.json")
+    p.add_argument("--manifest", default="workspace/witnesses/print/1915-volume-witnesses.json")
     a = p.parse_args()
     pages = [int(x.strip()) for x in a.pages.split(",")]
     render_pages(a.pdf, a.volume, pages, a.manifest)
