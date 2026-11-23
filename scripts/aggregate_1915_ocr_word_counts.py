@@ -27,7 +27,7 @@ def aggregate(reports, manifest):
     statuses = Counter()
     for report in sorted(reports, key=lambda r: r["volume"]):
         vol = report["volume"]
-        if (report.get("schema_version") != 1
+        if (report.get("schema_version") != 2
                 or report.get("print_pdf_sha256") != source[vol]["pdf_sha256"]
                 or report.get("canonical_tei_sha256") != SOURCE_LOCK
                 or report.get("pdf_pages") != source[vol]["pages"]
@@ -99,7 +99,7 @@ def aggregate(reports, manifest):
         )
     )
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "source": manifest["bibliographic_citation"],
         "canonical_tei_sha256": SOURCE_LOCK,
         "full_corpus_source_articles": len(keys),
