@@ -9,6 +9,7 @@ import unittest
 
 from scripts.guard_1915_print_headword_interleaving import (
     guard_interleaved_headings, strong_intervening_heading_candidates,
+    is_strong_print_heading,
 )
 
 
@@ -97,6 +98,63 @@ class OriginalPrintOrderSafetyTests(unittest.TestCase):
         self.assertEqual(
             got[0]["intervening_print_heading_candidates"][0]["source_key"],
             "PHARAOH-NECOH",
+        )
+
+    def test_one_word_titles_with_explicit_printed_pronunciations(self):
+        self.assertTrue(is_strong_print_heading(
+            "ANTICHRIST, an'ti-krist (original words):", "ANTICHRIST"
+        ))
+        self.assertTrue(is_strong_print_heading(
+            "COCKATRICE, kok'a-tris, A fabulous creature", "COCKATRICE"
+        ))
+        self.assertFalse(is_strong_print_heading(
+            "ANTICHRIST is named in various publications", "ANTICHRIST"
+        ))
+        self.assertFalse(is_strong_print_heading(
+            "Antichrist, some authors use the name", "ANTICHRIST"
+        ))
+
+    def test_printed_aliases_separated_by_phonetic_notation(self):
+        for printed, key in [
+            ("CHILD, child, CHILDREN, chil'dren (Hebrew)", "CHILD; CHILDREN"),
+            ("FAITHFUL, fath'fool, FAITHFULNESS, fath'fol-nes",
+             "FAITHFUL; FAITHFULNESS"),
+            ("OBEDIENCE, o-be'di-ens, OBEY, o-ba",
+             "OBEDIENCE; OBEY"),
+        ]:
+            with self.subTest(key=key):
+                self.assertTrue(is_strong_print_heading(printed, key))
+        self.assertFalse(is_strong_print_heading(
+            "CHILD, child, children are important",
+            "CHILD; CHILDREN"
+        ))
+        self.assertFalse(is_strong_print_heading(
+            "CHILDREN, chil'dren; CHILD, child",
+            "CHILD; CHILDREN"
+        ))
+
+    def test_compound_title_blocks_digital_neighbor_false_long_article(self):
+        parts = [
+            entry("CHIEF SEATS", 0),
+            entry("CHILD-BEARING", 1),
+            entry("CHILD; CHILDREN", 2),
+        ]
+        scans = [
+            {"page": 646, "text": "CHIEF SEATS, chief seats"},
+            {"page": 646, "text": "Original chief seats paragraph"},
+            {"page": 646, "text": "CHILD, child, CHILDREN, chil'dren"},
+            {"page": 646, "text": "Child and children source prose"},
+            {"page": 647, "text": "CHILD-BEARING, childbirth"},
+        ]
+        rows = [source_row(parts[0]), source_row(parts[1], measured=False),
+                source_row(parts[2], measured=False)]
+        got, n = guard_interleaved_headings(
+            scans, parts, {0: 0, 1: 4}, rows
+        )
+        self.assertEqual(n, 1)
+        self.assertEqual(
+            got[0]["intervening_print_heading_candidates"][0]["source_key"],
+            "CHILD; CHILDREN"
         )
 
     def test_uppercase_prose_without_title_delimiter_is_not_heading(self):

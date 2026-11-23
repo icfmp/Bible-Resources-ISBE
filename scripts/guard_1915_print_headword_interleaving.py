@@ -15,14 +15,62 @@ import re
 from scripts.research_1915_print_pages import candidate_heading, normalize
 
 
+def is_strong_print_heading(line, key):
+    """Require explicit title typography, not mere uppercase prose mentions.
+
+    The source key sometimes joins separately pronounced printed headwords
+    with semicolons (e.g. CHILD; CHILDREN), whereas a printed line
+    interposes transliterations before the second capitalized title.
+    """
+    original = line.strip()
+    if len(original) > 190 or not original:
+        return False
+    parts = [p.strip() for p in key.split(";")]
+    if len(parts) > 1:
+        if any(not p or len(normalize(p).replace(" ", "")) < 4 for p in parts):
+            return False
+        first = parts[0]
+        # The first printed title is fully uppercase and is followed by
+        # its genuine printed pronunciation, not simply words of prose.
+        initial = re.match(
+            r"^\s*" + re.escape(first) + r"\s*[,:(]\s*",
+            original,
+        )
+        if not initial or first != first.upper():
+            return False
+        # Every additional separately named title must be visibly uppercase
+        # and followed by typographic punctuation, within this SAME OCR line.
+        tail = original[initial.end():]
+        for part in parts[1:]:
+            match = re.search(
+                r"(?<![A-Za-z])" + re.escape(part) + r"\s*[,:(]",
+                tail,
+            )
+            if not match or part != part.upper():
+                return False
+            tail = tail[match.end():]
+        return True
+    if candidate_heading(original, key) < 4:
+        return False
+    if normalize(original) == normalize(key):
+        return True
+    # Single-word headings are common; ignoring comma+pronunciation
+    # discarded explicit headings such as ANTICHRIST or COCKATRICE.
+    # The existing >=8-letter/uniqueness gate limits incidental mentions.
+    return bool(re.match(
+        r"^\s*" + re.escape(key) + r"\s*[:,;(]",
+        original,
+    ))
+
+
 def strong_intervening_heading_candidates(lines, entries):
     """Recognize rare, unique, well-delimited title lines across all entries.
 
     High specificity is intentional. A common word matching a dictionary
     index is NOT a trusted start of a separate historical print article.
-    Only a full standalone uppercase heading, or a long title of two or
-    more words followed immediately by a typographic heading delimiter,
-    qualifies. Duplicate occurrences are left untrusted.
+    Only a unique uppercase headword with structural punctuation, a
+    standalone heading, or separately pronounced semicolon-separated source
+    aliases qualifies. Duplicate occurrences are left untrusted.
     """
     by_first = defaultdict(list)
     norm_duplicates = Counter(normalize(entry["key"]) for entry in entries)
@@ -40,18 +88,7 @@ def strong_intervening_heading_candidates(lines, entries):
         if not norm:
             continue
         for index, key, title, words in by_first.get(norm.split()[0], ()):
-            if candidate_heading(original, key) < 4:
-                continue
-            standalone = norm == title
-            # Distinguish explicit article headwords from prose beginning
-            # with a common uppercase term. A print heading conventionally
-            # separates the title from its definition with punctuation.
-            punctuated = (len(words) >= 2 and bool(re.match(
-                r"^\s*" + re.escape(key) + r"\s*[:,;(]",
-                original,
-                flags=re.IGNORECASE,
-            )))
-            if not (standalone or punctuated):
+            if not is_strong_print_heading(original, key):
                 continue
             hits[index].append(pos)
     return [

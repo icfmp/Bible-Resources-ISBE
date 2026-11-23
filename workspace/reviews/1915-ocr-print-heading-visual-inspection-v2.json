@@ -1,0 +1,324 @@
+{
+  "schema_version": 2,
+  "source": "James Orr (ed.), The International Standard Bible Encyclopaedia (Howard-Severance, 1915)",
+  "original_canonical_tei_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
+  "review_scope": "Headword boundaries and printed article order only; not wording, source completeness, textual fidelity, rights or publication",
+  "evidence_workflow": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45139297142",
+  "render_command": "pdftoppm -singlefile -jpeg -scale-to 2200 -jpegopt quality=82 (source PDF/page independently SHA-pinned)",
+  "printed_page_images_visually_inspected": true,
+  "full_article_text_collation_performed": false,
+  "redistribution_authorized": false,
+  "original_crosswire_and_canonical_tei_changed": false,
+  "records": [
+    {
+      "source_key": "JOHN THE BAPTIST",
+      "source_article_xml_id": "isbe-ecb0c34513aa22a21a85",
+      "volume": "3",
+      "classification": "visually_confirmed_intervening_print_article",
+      "initial_candidate_pdf_page": 346,
+      "incorrect_digital_next_heading_pdf_page": 358,
+      "intervening_source_key": "JOHN, THE EPISTLES OF",
+      "intervening_source_article_xml_id": "isbe-0fa404f51a015bcf23da",
+      "observed_boundary": "Original print article JOHN THE BAPTIST ends in the left column of PDF page 349 (printed 1711), followed immediately by JOHN, THE EPISTLES OF. The source-index next key JOHN, GOSPEL OF starts at PDF page 358 (printed 1720). Source-order interval swallowed independently titled printed material.",
+      "pages": [
+        {
+          "pdf_page_1_based": 346,
+          "printed_folio": 1708,
+          "image_sha256": "471f0c6ae6f69166c03e4a0db6252186c40e33805af245b99fbd2b87269c9e69"
+        },
+        {
+          "pdf_page_1_based": 349,
+          "printed_folio": 1711,
+          "image_sha256": "6ef9b75528ec16538812d6d6e7b92427d688f60a6f1dd479471a0e1c15b9e361"
+        },
+        {
+          "pdf_page_1_based": 358,
+          "printed_folio": 1720,
+          "image_sha256": "820affce9f3a2490dad1e02b74dcffa7ec112861a7c2cbbc1c99ed03d7dffc4c"
+        }
+      ],
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "JOSEPH BARSABBAS",
+      "source_article_xml_id": "isbe-6ff089f5a7ba6c943e15",
+      "volume": "3",
+      "classification": "visually_confirmed_intervening_print_article",
+      "initial_candidate_pdf_page": 380,
+      "incorrect_digital_next_heading_pdf_page": 381,
+      "intervening_source_key": "JOSEPH, HUSBAND OF MARY",
+      "intervening_source_article_xml_id": "isbe-251624d91a077b8f41ec",
+      "observed_boundary": "Original print entry JOSEPH BARSABBAS begins near the foot of left column PDF 380 (printed 1740), continues at top right column, and concludes before the original heading JOSEPH, HUSBAND OF MARY on the same page. The digital-index next key is JOSEPH OF ARIMATHAEA on later printed text.",
+      "pages": [
+        {
+          "pdf_page_1_based": 380,
+          "printed_folio": 1740,
+          "image_sha256": "02cbed42e3e7d65ff13ebeb5fe8d29e7649e9a491de6af33d045b526cd2038f7"
+        },
+        {
+          "pdf_page_1_based": 381,
+          "printed_folio": 1741,
+          "image_sha256": "8df61308ec39928070b302f70dfd1d3829d4fb94408e5f4fc476bcd41ee32700"
+        }
+      ],
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "PHARAOH HOPHRA",
+      "source_article_xml_id": "isbe-528196a179635be55e22",
+      "volume": "4",
+      "classification": "visually_confirmed_intervening_print_article",
+      "initial_candidate_pdf_page": 271,
+      "incorrect_digital_next_heading_pdf_page": 272,
+      "intervening_source_key": "PHARAOH-NECOH",
+      "intervening_source_article_xml_id": "isbe-410a765975d728eb271f",
+      "observed_boundary": "Original print entry PHARAOH HOPHRA ends in left column PDF 272 (printed 2360), followed by PHARAOH-NECOH. The key-sorted digital next key PHARAOH'S DAUGHTER appears later, in right column PDF 272; this source-order count included another article.",
+      "pages": [
+        {
+          "pdf_page_1_based": 271,
+          "printed_folio": 2359,
+          "image_sha256": "07dff4049dab01eb14be1e40c3eb835fafea1469b44652e080b78c4c0003b230"
+        },
+        {
+          "pdf_page_1_based": 272,
+          "printed_folio": 2360,
+          "image_sha256": "029487434c32a171bee8d81ec2553c7df91c8f846f8b055cf2d50abc4363730a"
+        }
+      ],
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "MEADOW",
+      "source_article_xml_id": "isbe-185f20346f14005e6f24",
+      "volume": "3",
+      "classification": "visually_checked_heading_boundary_no_intervening_print_article_seen",
+      "initial_candidate_pdf_page": 657,
+      "incorrect_digital_next_heading_pdf_page": null,
+      "intervening_source_key": null,
+      "intervening_source_article_xml_id": null,
+      "observed_boundary": "Printed entry MEADOW and the immediately following MEAH are visibly distinct in the left column of PDF page 657 (printed 2013). Low 4-gram agreement is not explained by a visibly swallowed next entry; original wording not fully collated.",
+      "pages": [
+        {
+          "pdf_page_1_based": 657,
+          "printed_folio": 2013,
+          "image_sha256": "c82c31e7f6f3788eb886b12b9e7bf390267aafcc3ecb407e725490a7ed394deb"
+        }
+      ],
+      "source_pdf_sha256": "aeaf03d5365375ec39c697ae8e79f9717d134ed1e6e4bd6095261e9d98995a2d",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "REPAIR",
+      "source_article_xml_id": "isbe-d90b7f3c18342b7511bf",
+      "volume": "4",
+      "classification": "visually_checked_heading_boundary_no_intervening_print_article_seen",
+      "initial_candidate_pdf_page": 474,
+      "incorrect_digital_next_heading_pdf_page": null,
+      "intervening_source_key": null,
+      "intervening_source_article_xml_id": null,
+      "observed_boundary": "Original printed article REPAIR and following REPENTANCE visibly have separate headings on PDF page 474 (printed 2558). Same approximate token count does not by itself establish word-for-word fidelity.",
+      "pages": [
+        {
+          "pdf_page_1_based": 474,
+          "printed_folio": 2558,
+          "image_sha256": "453524e91248a202ad3cfade5675363ff15d2f87342c134301b1c55a9fc77f5c"
+        }
+      ],
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "ANTHROPOMORPHISM",
+      "source_article_xml_id": "isbe-462b8f1c54973f39926d",
+      "volume": "1",
+      "classification": "visually_confirmed_intervening_print_article",
+      "initial_candidate_pdf_page": 182,
+      "incorrect_digital_next_heading_pdf_page": 186,
+      "intervening_source_key": "ANTICHRIST",
+      "intervening_source_article_xml_id": "isbe-b4e363e994900894bab1",
+      "observed_boundary": "Original vol. I printed ANTHROPOMORPHISM concludes in the left column of PDF page 184, followed by the separately headed ANTICHRIST on that same page. The next sorted digital index key ANTI-LIBANUS begins on PDF page 186; the earlier cross-article OCR span was misleading.",
+      "pages": [
+        {
+          "pdf_page_1_based": 182,
+          "printed_folio": 152,
+          "image_sha256": "e187450df4eccb14c89827653f1d9ec989a0a9f742e55345127470a201350337"
+        },
+        {
+          "pdf_page_1_based": 184,
+          "printed_folio": 154,
+          "image_sha256": "43cbc5aba105dcb1af22477a33e03cd2ea008d324123f7934a7065189651190d"
+        },
+        {
+          "pdf_page_1_based": 186,
+          "printed_folio": 156,
+          "image_sha256": "5da35980070fa78b78a2437fe785d169e7e5de927f661fbb806fa7a55a61021b"
+        }
+      ],
+      "source_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "CHIEF SEATS",
+      "source_article_xml_id": "isbe-ce0334a95044fbd3d89f",
+      "volume": "1",
+      "classification": "visually_confirmed_intervening_print_article",
+      "initial_candidate_pdf_page": 646,
+      "incorrect_digital_next_heading_pdf_page": 647,
+      "intervening_source_key": "CHILD; CHILDREN",
+      "intervening_source_article_xml_id": "isbe-bcf619e17c553edf67ad",
+      "observed_boundary": "Original vol. I PDF page 646 prints CHIEF SEATS followed immediately by the distinct heading CHILD, CHILDREN in the right column; digitally adjacent CHILD-BEARING begins on PDF page 647. The semicolon-separated digital alias hides a phonetic-interleaved printed headword.",
+      "pages": [
+        {
+          "pdf_page_1_based": 646,
+          "printed_folio": 606,
+          "image_sha256": "22ead3e448a78538139a858cc1e5ba64d143eebd20ab9f672df2ecca0809a3c5"
+        },
+        {
+          "pdf_page_1_based": 647,
+          "printed_folio": 607,
+          "image_sha256": "1f84bcc48705bf18a527469b396a8a1962a600aef550f5e9194daa70c7fda59c"
+        }
+      ],
+      "source_pdf_sha256": "f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "COCK",
+      "source_article_xml_id": "isbe-bde274fa5e50a230dab7",
+      "volume": "2",
+      "classification": "visually_confirmed_intervening_print_article",
+      "initial_candidate_pdf_page": 14,
+      "incorrect_digital_next_heading_pdf_page": 14,
+      "intervening_source_key": "COCKATRICE",
+      "intervening_source_article_xml_id": "isbe-fb2f29061a3d3d1f17c5",
+      "observed_boundary": "Original vol. II PDF page 14 prints COCK at the lower left and its concluding prose at the right top, then an independent COCKATRICE heading before COCK-CROWING on that same printed page. The digital next-key span crossed this printed entry.",
+      "pages": [
+        {
+          "pdf_page_1_based": 14,
+          "printed_folio": 672,
+          "image_sha256": "5c093e6261a53832ebf5dd652927e8f7c33b3a752aca32dc04030d3f415f91f3"
+        }
+      ],
+      "source_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "FAITH",
+      "source_article_xml_id": "isbe-958ddcd131bba696016c",
+      "volume": "2",
+      "classification": "visually_confirmed_intervening_print_article",
+      "initial_candidate_pdf_page": 437,
+      "incorrect_digital_next_heading_pdf_page": 441,
+      "intervening_source_key": "FAITHFUL; FAITHFULNESS",
+      "intervening_source_article_xml_id": "isbe-f9bd3c50aa5ccd8eb6b0",
+      "observed_boundary": "Original vol. II PDF p437 begins FAITH. Its text concludes in left and right columns of PDF p438, where the separately headed FAITHFUL, FAITHFULNESS starts. The digitally next FAITHFUL SAYINGS begins only at PDF p441. No source-text omission is inferred.",
+      "pages": [
+        {
+          "pdf_page_1_based": 437,
+          "printed_folio": 1087,
+          "image_sha256": "4905cad1d61283de28b7f377746de3a6ba98b369f99d4d883aaf68121b817537"
+        },
+        {
+          "pdf_page_1_based": 438,
+          "printed_folio": 1088,
+          "image_sha256": "9f97b714d62b4aa31fd79be3f86995f38bfbf38ec68332486703f2d48684782f"
+        },
+        {
+          "pdf_page_1_based": 441,
+          "printed_folio": 1091,
+          "image_sha256": "979c724cdca8cd6c148480b4211d0a27cb3c90be5a42220eb99625a20cb3833b"
+        }
+      ],
+      "source_pdf_sha256": "e8ad1d382b79ee40701983ffee89201193585a0e4542fb0c52b99cbff6ad2cb1",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "OBED-EDOM",
+      "source_article_xml_id": "isbe-0af6ad2bb3700e2aad94",
+      "volume": "4",
+      "classification": "visually_confirmed_intervening_print_article",
+      "initial_candidate_pdf_page": 79,
+      "incorrect_digital_next_heading_pdf_page": 79,
+      "intervening_source_key": "OBEDIENCE; OBEY",
+      "intervening_source_article_xml_id": "isbe-ab101e8701b0f9aad307",
+      "observed_boundary": "Original vol. IV PDF page 79 contains the distinct heading OBEDIENCE, OBEY after OBED-EDOM, while the digitally next OBEDIENCE OF CHRIST is printed further down the right column of that same page. The earlier OCR count included unrelated printed material.",
+      "pages": [
+        {
+          "pdf_page_1_based": 79,
+          "printed_folio": 2175,
+          "image_sha256": "096d4a15e72f917da2a564084bbdcebf56483aaae2c032655240d8160af25107"
+        }
+      ],
+      "source_pdf_sha256": "f55a4b76ce0596c36c51428fec422fe1153a589181ea72ebb54577544200e962",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    },
+    {
+      "source_key": "VAIN",
+      "source_article_xml_id": "isbe-701f05fd740e59eb5e90",
+      "volume": "5",
+      "classification": "visually_confirmed_midpage_alphabetic_section_break",
+      "initial_candidate_pdf_page": 240,
+      "incorrect_digital_next_heading_pdf_page": null,
+      "intervening_source_key": null,
+      "intervening_source_article_xml_id": null,
+      "observed_boundary": "Original vol. V PDF p240 (printed 3044) has a large centered V alphabetic section marker across both columns. Before this marker, upper columns conclude the preceding UZZIEL entry; after it the lower columns print VAGABOND, VAHEB, VAIL, VAIN and VAINGLORY. Page-wide left-then-right OCR order previously misplaced the upper-right text between VAIN and VAINGLORY.",
+      "pages": [
+        {
+          "pdf_page_1_based": 240,
+          "printed_folio": 3044,
+          "image_sha256": "45660815dd15a17f883d8830114ef30fd022af6a618d85c29e78ebcf7c8389e3"
+        }
+      ],
+      "source_pdf_sha256": "8646ff71f4f36208887465e3263436f73b6e81fb58902ecea21cd021c74e5a0f",
+      "heading_image_reviewed": true,
+      "full_article_text_collated": false,
+      "print_content_certified": false,
+      "editorial_correction_approved": false,
+      "publication_permitted": false
+    }
+  ],
+  "supersedes": "workspace/reviews/1915-ocr-print-heading-visual-inspection-v1.json"
+}

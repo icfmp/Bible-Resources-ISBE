@@ -22,6 +22,7 @@ EVIDENCE_URL = re.compile(
 CATEGORIES = {
     "visually_confirmed_intervening_print_article",
     "visually_checked_heading_boundary_no_intervening_print_article_seen",
+    "visually_confirmed_midpage_alphabetic_section_break",
 }
 
 
@@ -29,7 +30,7 @@ def validate(ledger, source_manifest, article_index):
     lock = source_manifest["canonical_tei_sha256"]
     if (
         ledger["original_canonical_tei_sha256"] != lock
-        or ledger.get("schema_version") != 1
+        or ledger.get("schema_version") not in {1, 2}
         or ledger.get("full_article_text_collation_performed") is not False
         or ledger.get("redistribution_authorized") is not False
         or ledger.get("original_crosswire_and_canonical_tei_changed") is not False
@@ -92,8 +93,13 @@ def validate(ledger, source_manifest, article_index):
                     or expected_volume(other) != volume
                     or not isinstance(end, int)
                     or end not in physical or end < start
-                    or len(pages) < 2):
+                    or len(pages) < 1):
                 raise ValueError("Original intervening printed heading not evidenced")
+        elif record["classification"] == "visually_confirmed_midpage_alphabetic_section_break":
+            if (other is not None or other_id is not None or end is not None
+                    or len(pages) != 1
+                    or not key[0].isupper()):
+                raise ValueError("Midpage letter-section review invented a source entry")
         elif other is not None or other_id is not None or end is not None:
             raise ValueError("Non-conflicting print review invents another article")
         outcome[record["classification"]] = outcome.get(record["classification"], 0) + 1
@@ -106,9 +112,26 @@ def validate(ledger, source_manifest, article_index):
     }
 
 
+def validate_supersession(v2, original):
+    """The earlier image observations may be extended, NEVER retroactively edited."""
+    if (
+        original.get("schema_version") != 1
+        or v2.get("schema_version") != 2
+        or v2.get("supersedes")
+        != "workspace/reviews/1915-ocr-print-heading-visual-inspection-v1.json"
+        or v2.get("original_canonical_tei_sha256")
+        != original.get("original_canonical_tei_sha256")
+        or v2.get("records", [])[:len(original["records"])] != original["records"]
+        or len(v2.get("records", [])) <= len(original["records"])
+    ):
+        raise ValueError("Visual print review edited or lost older source image evidence")
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--ledger", type=Path, default=Path(
+        "workspace/reviews/1915-ocr-print-heading-visual-inspection-v2.json"))
+    p.add_argument("--original-ledger", type=Path, default=Path(
         "workspace/reviews/1915-ocr-print-heading-visual-inspection-v1.json"))
     p.add_argument("--source-manifest", type=Path, default=Path(
         "sources/print/1915-volume-witnesses.json"))
@@ -117,7 +140,10 @@ def main():
     a = p.parse_args()
     def read(path):
         return json.loads(path.read_text(encoding="utf-8"))
-    result = validate(read(a.ledger), read(a.source_manifest), read(a.article_index))
+    ledger = read(a.ledger)
+    if ledger.get("schema_version") == 2:
+        validate_supersession(ledger, read(a.original_ledger))
+    result = validate(ledger, read(a.source_manifest), read(a.article_index))
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
