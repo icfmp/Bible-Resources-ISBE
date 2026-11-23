@@ -2,7 +2,7 @@
   "schema_version": 1,
   "canonical_source_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "preceding_editorial_layer": "1915_print_attested_31_plus_6_plus_12_plus_1",
-  "evidence_level": "digital_visible_label_corrobated_not_original_print",
+  "evidence_level": "digital_visible_label_corborated_by_parallel_print_reference_not_original_print",
   "original_1915_folios_verified": false,
   "publication_permitted": false,
   "independent_human_peer_review": false,
@@ -24,7 +24,9 @@
         "https://gospelcompanion.app/dictionary/taanach"
       ],
       "approved_for_noncanonical_navigation_layer": true,
-      "rationale": "Digital visible label is unambiguous (Judges 1:27) while the encoded target points to Revelation 1:2. Two publicly readable ISBE transcriptions agree on Judges 1:27. The missing 1915 Cornell facsimile folios 2887-2888 remain unverified; this change corrects navigation only and makes no claim of print collation."
+      "rationale": "Digital visible label is unambiguous (Judges 1:27) while the encoded target points to Revelation 1:2. Two publicly readable ISBE transcriptions agree on Judges 1:27. The missing 1915 Cornell facsimile folios 2887-2888 remain unverified; this change corrects navigation only and makes no claim of print collation. The separate MEGIDDO article has an image-attested equivalent reference target (1915 volume III page 671), establishing the displayed abbreviated book-code mapping only, not the wording of TAANACH.",
+      "parallel_print_attested_article": "MEGIDDO; MEGIDDON",
+      "parallel_print_attested_ref_xml_id": "isbe-23c2f3d07ffe34c86f04-n000008"
     }
   ]
 }
