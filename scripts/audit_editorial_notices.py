@@ -40,7 +40,7 @@ PATTERNS = {
 PARATEXT_PATTERNS = {
     "web_navigation": re.compile(
         r"(?i)\b(?:popular articles|share tweet save|privacy policy|"
-        r"click here|skip to content|next article|previous article|"
+        r"click here|skip to content|"
         r"return to (?:index|homepage)|browse (?:more|all) articles)\b"
     ),
     "digitization_credit": re.compile(
