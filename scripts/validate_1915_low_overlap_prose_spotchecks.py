@@ -21,6 +21,7 @@ RUN = re.compile(r"https://github[.]com/icfmp/Bible-Resources-ISBE/actions/runs/
 CLASSES = {
     "misexpanded_abbreviation", "quote_boundary_shift", "punctuation_loss",
     "lexical_substitution", "digitization_marker", "broken_word_expansion",
+    "punctuation_difference", "source_script_omitted",
 }
 FIELDS = {
     "source_key", "source_article_xml_id", "volume", "pdf_page_1_based",
@@ -120,7 +121,7 @@ def validate(ledger, manifest, root, actual_tei_sha256):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--ledger", type=Path, default=Path(
-        "workspace/reviews/1915-low-overlap-prose-image-spotchecks-v1.json"))
+        "workspace/reviews/1915-low-overlap-prose-image-spotchecks-v2.json"))
     p.add_argument("--manifest", type=Path, default=Path(
         "sources/print/1915-volume-witnesses.json"))
     p.add_argument("--tei", type=Path, default=Path("cleaned/en/ISBE.xml"))
