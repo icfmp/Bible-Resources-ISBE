@@ -58,6 +58,11 @@ class OCRContentEvidenceTests(unittest.TestCase):
         self.assertEqual(record["review_queue"], "similar_length_low_phrase_overlap")
         self.assertEqual(record["tei_token_unigram_recall"], 0)
         self.assertEqual(record["tei_token_fourgram_recall"], 0)
+        shorthand = record["print_abbreviation_equivalence_research"]
+        self.assertIsNotNone(shorthand)
+        self.assertEqual(shorthand["derived_minus_raw_fourgram_recall"], 0)
+        self.assertEqual(shorthand["raw_source_fourgram_recall"], 0)
+        self.assertTrue(shorthand["original_tei_and_ocr_text_unchanged"])
         self.assertIsNone(record["unique_fourgram_overlap_footprint"])
         self.assertEqual(record["ocr_word_count_by_scan_page"], [
             {"scan_pdf_page_1_based": 1, "ocr_tokens_in_page_segment": 101}
@@ -78,6 +83,7 @@ class OCRContentEvidenceTests(unittest.TestCase):
         self.assertEqual(diag["review_queue"], "long_ocr_span_source_phrases_present")
         self.assertEqual(diag["tei_token_unigram_recall"], 1)
         self.assertEqual(diag["tei_token_fourgram_recall"], 1)
+        self.assertIsNone(diag["print_abbreviation_equivalence_research"])
         dense = diag["unique_fourgram_overlap_footprint"]
         self.assertIsNotNone(dense)
         self.assertEqual(dense["matched_unique_fourgrams"], 97)

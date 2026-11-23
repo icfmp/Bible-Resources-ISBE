@@ -8,6 +8,7 @@ historical heading; numerical and lexical matches cannot certify print text.
 """
 from collections import Counter, defaultdict
 from hashlib import sha256
+from scripts.diagnose_1915_print_abbreviation_equivalence import research_abbreviation_effect
 import math
 
 
@@ -150,6 +151,10 @@ def diagnose_candidates(lines, entries, heading_positions, rows, tokenize):
             "tei_token_bigram_recall": gram2,
             "tei_token_trigram_recall": gram3,
             "tei_token_fourgram_recall": gram4,
+            "print_abbreviation_equivalence_research": (
+                research_abbreviation_effect(source, ocr, gram4, multiset_recall)
+                if category == "similar_length_low_phrase_overlap" else None
+            ),
             "unique_fourgram_overlap_footprint": localized,
             "candidate_ocr_span_not_an_original_print_certification": True,
             "print_page_images_directly_compared": False,
