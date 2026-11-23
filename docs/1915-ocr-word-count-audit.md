@@ -492,7 +492,7 @@ at least **25%** derived source four-gram recall. **Only one** gained
 that abbreviations explain or resolve the entire queue. In these 24
 candidate source articles the diagnostic applied 41 AV, 27 RV, 7 RVm,
 3 AVm, 10 NT, 6 OT, 1 OE, 12 Heb and 12 Gr source-phrase substitutions
-(111 **candidate occurrences**, not 111 verified printed word edits).
+(119 **candidate occurrences**, not 111 verified printed word edits).
 
 Examples (raw → abbreviation-derived research four-gram recall):
 
