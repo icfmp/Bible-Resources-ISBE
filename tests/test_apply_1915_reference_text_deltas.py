@@ -36,6 +36,9 @@ def fixture():
         "corrected_visible": "20",
         "original_cRef": "Bible:Zech.3.10",
         "corrected_cRef": "Bible:Zeph.3.20",
+        "print_pdf_sha256": "a" * 64,
+        "print_pdf_page_1_based": 325,
+        "print_jpeg_sha256": "b" * 64,
     }
     return root, row
 
