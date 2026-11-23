@@ -68,3 +68,5 @@ jobs:
 # Re-run migration with composed-path and source ZIP uniqueness checks.
 
 # Retry with all assembled source path usages accounted for.
+
+# Final rebuild now preserves the single original ZIP source location.
