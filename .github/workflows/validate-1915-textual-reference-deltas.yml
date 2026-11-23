@@ -7,6 +7,9 @@ on:
       - 'tests/test_apply_1915_reference_text_deltas.py'
       - 'workspace/reviews/1915-approved-reference-text-deltas-v1.json'
       - 'workspace/reviews/1915-scripture-reference-image-triage-v1.json'
+      - 'workspace/reviews/1915-source-display-navigation-deltas-v1.json'
+      - 'scripts/apply_display_verified_scripture_targets.py'
+      - 'tests/test_apply_display_verified_scripture_targets.py'
       - '.github/workflows/validate-1915-textual-reference-deltas.yml'
   workflow_dispatch:
 
@@ -62,15 +65,27 @@ jobs:
             --report workspace/tmp/ISBE-1915-reference-text-deltas.json \
             --derived-validator workspace/tmp/ISBE-1915-reference-text-validator.json \
             --derived-fidelity workspace/tmp/ISBE-1915-reference-text-fidelity.json
+      - name: Test display-only target verification and false-certification guards
+        run: python3 -m unittest discover -s tests -p 'test_apply_display_verified_scripture_targets.py' -v
+      - name: Repair Taanach link only in distinct noncanonical digital-evidence tier
+        run: |
+          python3 -m scripts.apply_display_verified_scripture_targets \
+            --baseline workspace/tmp/ISBE-1915-reference-text-corrected-NONPUBLISHABLE.xml \
+            --prior-report workspace/tmp/ISBE-1915-reference-text-deltas.json \
+            --prior-validator workspace/tmp/ISBE-1915-reference-text-validator.json \
+            --output workspace/tmp/ISBE-1915-taanach-target-NONPUBLISHABLE.xml \
+            --report workspace/tmp/ISBE-1915-taanach-target-report.json \
+            --derived-validator workspace/tmp/ISBE-1915-taanach-target-validator.json \
+            --derived-fidelity workspace/tmp/ISBE-1915-taanach-target-fidelity.json
       - name: Install official TEI P5 validator dependency
         run: sudo apt-get update -qq && sudo apt-get install -y -qq jing
-      - name: Independently validate final text-and-target corrected TEI P5
+      - name: Independently validate final navigation-corrected TEI P5
         run: |
           python3 scripts/validate_official_tei_p5.py \
-            --candidate workspace/tmp/ISBE-1915-reference-text-corrected-NONPUBLISHABLE.xml \
-            --source-report workspace/tmp/ISBE-1915-reference-text-fidelity.json \
-            --manifest workspace/tmp/ISBE-1915-reference-text-validator.json \
-            --output workspace/tmp/ISBE-1915-reference-text-official-validation.json
+            --candidate workspace/tmp/ISBE-1915-taanach-target-NONPUBLISHABLE.xml \
+            --source-report workspace/tmp/ISBE-1915-taanach-target-fidelity.json \
+            --manifest workspace/tmp/ISBE-1915-taanach-target-validator.json \
+            --output workspace/tmp/ISBE-1915-taanach-target-official-validation.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -79,5 +94,8 @@ jobs:
             workspace/tmp/ISBE-1915-reference-text-corrected-NONPUBLISHABLE.xml
             workspace/tmp/ISBE-1915-reference-text-deltas.json
             workspace/tmp/ISBE-1915-reference-text-fidelity.json
-            workspace/tmp/ISBE-1915-reference-text-official-validation.json
+            workspace/tmp/ISBE-1915-taanach-target-NONPUBLISHABLE.xml
+            workspace/tmp/ISBE-1915-taanach-target-report.json
+            workspace/tmp/ISBE-1915-taanach-target-fidelity.json
+            workspace/tmp/ISBE-1915-taanach-target-official-validation.json
           if-no-files-found: warn
