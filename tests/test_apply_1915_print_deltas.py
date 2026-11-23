@@ -1,4 +1,5 @@
 """Reversible exact-reference print edits; fail closed on all ambiguous patches."""
+import copy
 import sys
 import unittest
 import xml.etree.ElementTree as ET
