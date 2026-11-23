@@ -12,10 +12,16 @@ The opening historical page appears at page index 2 (zero-based) in [this scanne
 
 ## AALAR, the same printed folio 1
 
-The printed **AALAR** cross-reference visibly points to **ALLAR**, while the preserved CrossWire module text reads **ALTAR** and encodes navigation to that different entry. This is a **potentially materially wrong encyclopedia link**, not merely display typography. It must be corrected only by an explicit, source-pinned and reversible editorial delta in a separate edition, after confirming the target's identity; the immutable CrossWire witness remains preserved.
+The printed **AALAR** cross-reference visibly points to **ALLAR**, while the preserved CrossWire module reads **ALTAR** and encodes navigation to that different entry. The source-backed correction was implemented only in the separate nonpublishable editorial TEI by [PR #46](https://github.com/icfmp/Bible-Resources-ISBE/pull/46), with provenance and reversal preserved; the immutable CrossWire witness remains unchanged.
 
 Primary print evidence: [source-locked 1915 volume-I, PDF page 25](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45116299265), SHA-256 f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5. The ledger records the exact source paragraph ID and both readings, with no approved text replacement or publication.
 
 The versioned source-locked comparison evidence is in workspace/reviews/1915-nonempty-contrast-v1.json. The reusable read-only check in scripts/audit_print_parity.py locates exact digital anchors, stable unit IDs and Unicode content digests, rejecting drift and unauthorized changes.
 
 **Next gate:** verify the target ALLAR as a distinct encyclopedia entry, compare other representative printed entries across volumes, and implement only reviewed, reversible editorial deltas in a separately revised TEI. Preserve the digital canonical witness. Issues #9 (content/structure) and #1 (rights) remain open.
+
+## Volume I, folios 2–3 — additional source-vs-print evidence
+
+[Source-locked original print images](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45117828758) (PDF pages 26 and 27) and [exact current TEI subtree excerpts](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45118045886) reveal two **Jehovah/Yahweh** historical substitutions in AARON'S ROD and ABASE, and a significant error in **AB (1)**. The printed original cites the three uses of “Abba Father” (Mark 14:36, Romans 8:15, Galatians 4:6); CrossWire retains only a corrupted **Mark 4:6**. The printed folio 1 also retains **Moses' hands**, whose apostrophe is absent from CrossWire AARON. These are individual documented observations, not proof of complete source/print textual agreement for any article.
+
+See [the separately generated corrected-edition workflow](1915-print-deltas.md) for explicit decisions, exact reference semantics, additional IDs and tests. The numbered heading reconstruction, comprehensive author attribution/formatting review, independent human scholarly validation and rights clearance remain open.
