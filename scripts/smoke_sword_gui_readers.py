@@ -210,9 +210,9 @@ def test_reader(reader,outdir,lookup_key):
                 # Exercise each visible bookshelf level before opening a
                 # dictionary. Use *window-relative* GUI coordinates on this
                 # fixed Xvfb fixture rather than absolute screen pixels.
-                click_at(window,100,139)   # Lexicons and Dictionaries
+                click_at(window,10,139)   # expand Lexicons via disclosure arrow
                 time.sleep(1)
-                click_at(window,40,158)    # English language group
+                click_at(window,30,158)   # expand English via disclosure arrow
                 time.sleep(1)
                 expanded=outdir/"bibletime-lexicons-expanded.png"
                 pic=command(["scrot",str(expanded)],timeout=15)
