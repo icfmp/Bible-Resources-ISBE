@@ -125,11 +125,11 @@ class OriginalPrintedWordCountTests(unittest.TestCase):
         raw = page_xml([
             ("TOP LEFT", 60, 130), ("BOTTOM LEFT", 60, 560),
             ("TOP RIGHT", 350, 130), ("BOTTOM RIGHT", 350, 560),
-            ("V", 293, 110),
+            ("V", 293, 120),
         ])
         raw = raw.replace(
-            'xMin="293" yMin="110" xMax="307" yMax="118"',
-            'xMin="293" yMin="110" xMax="307" yMax="144"',
+            'xMin="293" yMin="120" xMax="307" yMax="128"',
+            'xMin="293" yMin="120" xMax="307" yMax="154"',
         )
         got = self.get_lines(raw)
         self.assertEqual(
