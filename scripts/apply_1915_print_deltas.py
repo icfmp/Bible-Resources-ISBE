@@ -104,6 +104,8 @@ def validate_decisions(spec, evidence):
         raise ValueError("Editorial text correction is not release/human approval")
     if not spec.get("decisions") or len(spec["decisions"])!=len({d["source_key"] for d in spec["decisions"]}):
         raise ValueError("Missing or duplicated approval")
+    manifest=read(ROOT/"sources/print/1915-volume-witnesses.json")
+    volumes={v["volume"]:v for v in manifest["volumes"]}
     for delta in spec["decisions"]:
         rows=[r for r in evidence["cases"] if r["source_key"]==delta["source_key"]
               and r["source_text_exact"]==delta["original_visible"]
@@ -112,9 +114,15 @@ def validate_decisions(spec, evidence):
         if len(rows)!=1:
             raise ValueError("Approved correction not bound to print/source contrast")
         e=rows[0]
+        original=volumes.get(e.get("print_volume"))
+        image=e.get("rendered_jpeg_sha256")
         if (e.get("review_status")!="primary_print_folio_visually_checked_ai_assisted_not_full_article"
-                or e["original_pdf_sha256"]!="f1232371fec1df1382692b2f1be8993fb1d594eda46170aaccd6337ce98a29f5"
-                or not e.get("rendered_jpeg_sha256")
+                or original is None or e["original_pdf_sha256"]!=original["pdf_sha256"]
+                or delta.get("evidence_pdf_sha256")!=e.get("original_pdf_sha256")
+                or delta.get("evidence_rendered_jpeg_sha256")!=image
+                or delta.get("evidence_workflow_run")!=e.get("primary_evidence_workflow")
+                or not isinstance(image,str) or len(image)!=64
+                or any(c not in "0123456789abcdef" for c in image)
                 or e.get("approved") is not False):
             raise ValueError("Unverified 1915 original printed-page evidence")
     return len(spec["decisions"])
