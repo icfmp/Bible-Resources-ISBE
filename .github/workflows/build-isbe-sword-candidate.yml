@@ -107,9 +107,16 @@ jobs:
                   rendered=proc.stdout
                   if len(rendered)<80 or key.casefold() not in rendered.casefold():
                       raise RuntimeError(f"Native reader returned empty or unexpected {fmt} for {key}")
+                  anchors=rendered.count("<a ")
+                  hrefs=rendered.count("href=")
+                  # These selected entries contain real annotated links.
+                  # A passing text-only readback must never conceal a
+                  # renderer regression silently removing *all* anchors.
+                  if fmt=="HTMLHREF" and (anchors<1 or hrefs<1):
+                      raise RuntimeError(f"Native reader lost HTMLHREF links for {key}")
                   variants[fmt]={"rendered_characters":len(rendered),
-                                 "html_anchor_count":rendered.count("<a "),
-                                 "html_reference_count":rendered.count("href=")}
+                                 "html_anchor_count":anchors,
+                                 "html_reference_count":hrefs}
               results[key]=variants
           report={"frontend":"diatheke three render formats via libSWORD",
                   "formats":["HTML","HTMLHREF","plain"],
