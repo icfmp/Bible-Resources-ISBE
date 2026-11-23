@@ -176,14 +176,44 @@ def bbox_lines(path, page_count):
             usual_height = sorted_heights[len(sorted_heights) // 2]
         else:
             usual_height = 0
-        cuts = sorted({
-            marker[2] for marker in possible_sections
-            if marker[3] >= 1.25 * usual_height and usual_height > 0
-        })
+        # A *large centered capital* alone is not sufficient: printed
+        # page prose, diagrams and roman enumerations can generate hundreds
+        # of false section breaks. Demand physical white space across BOTH
+        # columns plus a first NEW left-column headword beginning with the
+        # same printed alphabetic letter, all using source-agnostic geometry.
+        cuts_by_y = {}
+        for xmin, x, y, w_height, letter in possible_sections:
+            if usual_height <= 0 or w_height < 1.5 * usual_height:
+                continue
+            distances = [
+                abs(candidate_y - y)
+                for col in (0, 1)
+                for candidate_y, _ in buckets[col]
+            ]
+            if not distances or min(distances) < 1.8 * usual_height:
+                continue
+            following_left = sorted(
+                (candidate_y, text) for candidate_y, text in buckets[0]
+                if y < candidate_y <= y + 0.13 * height
+            )
+            # Near the printed V section the next left-column entry is
+            # VAGABOND, while the right column above still carries UZZIEL.
+            # The test depends on typography and the current letter, never
+            # on any particular encyclopedia entry or hardcoded PDF page.
+            if not any(
+                re.match(
+                    r"^\s*" + re.escape(letter) + r"[A-Z-]{3,}\s*[:,;(]",
+                    text,
+                )
+                for _, text in following_left[:4]
+            ):
+                continue
+            cuts_by_y[y] = letter
+        cuts = sorted(cuts_by_y)
         # A *rejected* candidate is an ordinary OCR token. Never erase
         # potential authorial text merely because it resembles a section.
         for xmin, x, y, _, value in possible_sections:
-            if y not in cuts:
+            if y not in cuts_by_y:
                 buckets[int(x >= width / 2)].append((y, value))
         edges = [float("-inf"), *cuts, float("inf")]
         for band in range(len(edges)-1):
@@ -201,6 +231,7 @@ def bbox_lines(path, page_count):
                         "column": "left" if col == 0 else "right",
                         "y": round(y, 1),
                         "section_band": band,
+                        "midpage_letter_section": cuts_by_y.get(edges[band]) if band else None,
                         "text": text,
                     })
         page.clear()
@@ -461,9 +492,15 @@ def compare_bbox(bbox_file, pdf_sha, source_sha, volume, manifest, entries):
         raise ValueError("Wrong source-identified 1915 scanned volume")
     lines = bbox_lines(bbox_file, witness[0]["pages"])
     accepted, alignment = unique_print_headings(lines, entries)
-    alignment["printed_pages_with_explicit_midpage_section_breaks"] = len({
-        line["page"] for line in lines if line.get("section_band", 0) > 0
+    letter_breaks = sorted({
+        (line["page"], line["midpage_letter_section"])
+        for line in lines if line.get("midpage_letter_section")
     })
+    alignment["printed_pages_with_explicit_midpage_section_breaks"] = len(letter_breaks)
+    alignment["printed_midpage_section_break_candidates"] = [
+        {"pdf_page_1_based": page, "letter": letter, "image_verified": False}
+        for page, letter in letter_breaks
+    ]
     reports, _ = assess(lines, entries, accepted)
     reports, guarded = guard_interleaved_headings(lines, entries, accepted, reports)
     statuses = dict(sorted(Counter(row["status"] for row in reports).items()))
