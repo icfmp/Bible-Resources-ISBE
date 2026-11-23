@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Twenty-four low-fourgram article print-image positions. Entire heading-to-end article is on one scanned page for 23; ZABUD extends to page 329 not yet collected. Six complete English-prose image readings, but zero complete original-script/punctuation scholarly collations.",
+  "scope": "Twenty-four low-fourgram article print-image locations. The original body lies on one available scanned page for 23; ZABUD spans two pages, both now SHA-verified and visually reviewed. Twelve complete English-prose image readings; zero entire original-script/punctuation scholarly collations.",
   "canonical_tei_sha256": "a54c060420518db1c15bbf54264ed3652ec45e62f93c9af106c44d101add5e25",
   "source_images_research_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45139297142",
   "full_historical_collation_certified": false,
@@ -42,7 +42,8 @@
           "print_excerpt": "make our a. with him",
           "classification": "misexpanded_abbreviation"
         }
-      ]
+      ],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "BALTASAR",
@@ -57,17 +58,18 @@
       "original_nonlatin_script_visible_in_print": true,
       "printed_article_end_observed_on_same_page": true,
       "pending_continuation_pdf_pages": [],
-      "source_text_read_through_entire_article": false,
-      "english_prose_linewise_comparison_completed": false,
-      "evidence_scope": "earlier_start_page_spotcheck_only",
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
       "original_script_punctuation_and_markup_verified": false,
       "full_word_for_word_print_collation_certified": false,
       "remaining_work": [
-        "Whole-article line-by-line comparison",
-        "Exact original-script and punctuation collation",
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Read full printed three-part BALTASAR article on volume I page 415 through A. L. Breslich signature against digital English prose; printed Greek/Hebrew/Syriac original forms and AV abbreviation are not fully encoded in source."
     },
     {
       "source_key": "BELLY",
@@ -82,17 +84,18 @@
       "original_nonlatin_script_visible_in_print": true,
       "printed_article_end_observed_on_same_page": true,
       "pending_continuation_pdf_pages": [],
-      "source_text_read_through_entire_article": false,
-      "english_prose_linewise_comparison_completed": false,
-      "evidence_scope": "earlier_start_page_spotcheck_only",
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
       "original_script_punctuation_and_markup_verified": false,
       "full_word_for_word_print_collation_certified": false,
       "remaining_work": [
-        "Whole-article line-by-line comparison",
-        "Exact original-script and punctuation collation",
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Read start at bottom of first column and full continuation at top of second column on volume I page 468; digital espec ially breaks printed esp., and original Hebrew/Greek glyphs are lost."
     },
     {
       "source_key": "BUSINESS",
@@ -117,7 +120,8 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "CARPENTER",
@@ -148,7 +152,8 @@
           "print_excerpt": "(חָרָשׁ, hārāsh; τέκτων, téktōn)",
           "classification": "original_script_omission"
         }
-      ]
+      ],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "CONFUSION",
@@ -179,7 +184,8 @@
           "print_excerpt": "Gr akatastasia, “instability”",
           "classification": "lexical_substitution"
         }
-      ]
+      ],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "GAINSAY",
@@ -204,7 +210,8 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "HERB",
@@ -229,7 +236,8 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "IMAGINATION",
@@ -244,17 +252,18 @@
       "original_nonlatin_script_visible_in_print": true,
       "printed_article_end_observed_on_same_page": true,
       "pending_continuation_pdf_pages": [],
-      "source_text_read_through_entire_article": false,
-      "english_prose_linewise_comparison_completed": false,
-      "evidence_scope": "earlier_start_page_spotcheck_only",
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
       "original_script_punctuation_and_markup_verified": false,
       "full_word_for_word_print_collation_certified": false,
       "remaining_work": [
-        "Whole-article line-by-line comparison",
-        "Exact original-script and punctuation collation",
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Read complete printed IMAGINATION from lower left of volume III page 88 through W. L. Walker signature; Hebrew/Greek original glyphs and some compact marginal reference typography absent in digital."
     },
     {
       "source_key": "JERUBBESHETH",
@@ -279,7 +288,8 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "JEUSH",
@@ -304,7 +314,8 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "LINE",
@@ -329,7 +340,8 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "MEADOW",
@@ -354,7 +366,8 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "OZIAS",
@@ -369,17 +382,18 @@
       "original_nonlatin_script_visible_in_print": true,
       "printed_article_end_observed_on_same_page": true,
       "pending_continuation_pdf_pages": [],
-      "source_text_read_through_entire_article": false,
-      "english_prose_linewise_comparison_completed": false,
-      "evidence_scope": "earlier_start_page_spotcheck_only",
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
       "original_script_punctuation_and_markup_verified": false,
       "full_word_for_word_print_collation_certified": false,
       "remaining_work": [
-        "Whole-article line-by-line comparison",
-        "Exact original-script and punctuation collation",
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": [],
+      "review_note": "Read entire four-part original printed OZIAS from volume IV page 112 through S. Angus signature; digital expands the sigla and lacks Greek manuscript readings."
     },
     {
       "source_key": "PRESENCE",
@@ -404,7 +418,8 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "RECOVER",
@@ -429,7 +444,8 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "REPAIR",
@@ -454,7 +470,8 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "STOREHOUSES",
@@ -479,7 +496,8 @@
         "Exact original language script, diacritics and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "SUMMER",
@@ -504,7 +522,8 @@
         "Exact original language script, diacritics and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "VERY",
@@ -535,7 +554,8 @@
           "print_excerpt": "As advb. it is commonly",
           "classification": "broken_word_expansion"
         }
-      ]
+      ],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "WATERCOURSE",
@@ -560,7 +580,8 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     },
     {
       "source_key": "YEA",
@@ -575,17 +596,25 @@
       "original_nonlatin_script_visible_in_print": true,
       "printed_article_end_observed_on_same_page": true,
       "pending_continuation_pdf_pages": [],
-      "source_text_read_through_entire_article": false,
-      "english_prose_linewise_comparison_completed": false,
-      "evidence_scope": "earlier_start_page_spotcheck_only",
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
       "original_script_punctuation_and_markup_verified": false,
       "full_word_for_word_print_collation_certified": false,
       "remaining_work": [
-        "Whole-article line-by-line comparison",
-        "Exact original-script and punctuation collation",
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [
+        {
+          "digital_exact": "16:3, etc.]",
+          "print_excerpt": "16 3, etc.)",
+          "classification": "punctuation_substitution",
+          "note": "The original right parenthesis after the 2 Kings citation is represented by an unmatched square bracket in digital text."
+        }
+      ],
+      "verified_continuation_pages": [],
+      "review_note": "Read entire printed YEA from volume V page 326 through Frank E. Hirsch signature; digital preserves two numbered sections as running text rather than printed marginal headings, and contains an unmatched right bracket."
     },
     {
       "source_key": "ZABUD",
@@ -599,20 +628,25 @@
       "digitized_source_nonlatin_script_characters": 0,
       "original_nonlatin_script_visible_in_print": true,
       "printed_article_end_observed_on_same_page": false,
-      "pending_continuation_pdf_pages": [
-        329
-      ],
-      "source_text_read_through_entire_article": false,
-      "english_prose_linewise_comparison_completed": false,
-      "evidence_scope": "earlier_start_page_spotcheck_only",
+      "pending_continuation_pdf_pages": [],
+      "source_text_read_through_entire_article": true,
+      "english_prose_linewise_comparison_completed": true,
+      "evidence_scope": "whole_article_english_prose_pass",
       "original_script_punctuation_and_markup_verified": false,
       "full_word_for_word_print_collation_certified": false,
       "remaining_work": [
-        "Whole-article line-by-line comparison",
-        "Exact original-script and punctuation collation",
+        "Exact original language script, diacritics, reference apparatus and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": [
+        {
+          "pdf_page": 329,
+          "image_sha256": "cf6b05de09558a263f56f949f5ddcd9f334aa31a5c9cf7f6576b903699e8af7c",
+          "research_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45204221240"
+        }
+      ],
+      "review_note": "Read both printed original ZABUD pages 328 and 329 in volume V through David Francis Roberts signature, including the king's friend discussion. The first page ends mid-sentence; the new second-page image supplies the missing continuation. Source digital expansions and missing Hebrew graphy remain uncollated at character level."
     },
     {
       "source_key": "ZEBIDAH",
@@ -637,7 +671,9 @@
         "Exact original-script and punctuation collation",
         "Independent second visual pass"
       ],
-      "observations": []
+      "observations": [],
+      "verified_continuation_pages": []
     }
-  ]
+  ],
+  "source_images_continuation_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45204221240"
 }
