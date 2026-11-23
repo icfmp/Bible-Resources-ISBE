@@ -17,7 +17,7 @@ from scripts.audit_1915_article_ocr_word_counts import digest, LOCK
 
 
 def selected_pages(report, witness, limit=32, include_near_size_end=False):
-    if (report.get("schema_version") != 5
+    if (report.get("schema_version") != 8
             or report.get("canonical_tei_sha256") != LOCK
             or report.get("print_pdf_sha256") != witness["pdf_sha256"]
             or report.get("volume") != witness["volume"]
