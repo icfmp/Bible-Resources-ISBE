@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/compare_1915_prose_ocr.py'
       - 'scripts/audit_1915_prose_evidence.py'
+      - 'workspace/reviews/print-prose-candidate-v1.json'
       - 'tests/test_1915_prose_ocr.py'
       - '.github/workflows/compare-1915-prose-ocr.yml'
   workflow_dispatch:
