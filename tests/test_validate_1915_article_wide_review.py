@@ -24,7 +24,7 @@ class ArticleWideVisualReviewTest(unittest.TestCase):
         outcome=validate(self.spec,self.manifest,self.root)
         self.assertEqual((outcome["candidates"],outcome["article_body_one_original_page"],
                           outcome["english_prose_reviewed"],outcome["full_print_collations_certified"]),
-                         (24,23,6,0))
+                         (24,23,12,0))
 
     def test_reject_false_certification_and_publication(self):
         self.reject(lambda s:s.update(full_historical_collation_certified=True))
@@ -42,12 +42,13 @@ class ArticleWideVisualReviewTest(unittest.TestCase):
 
     def test_reject_uncollated_continuation_claim(self):
         row=next(i for i,x in enumerate(self.spec["entries"]) if x["source_key"]=="ZABUD")
-        self.reject(lambda s:s["entries"][row].update(pending_continuation_pdf_pages=[]))
-        self.reject(lambda s:s["entries"][row].update(source_text_read_through_entire_article=True,
-            english_prose_linewise_comparison_completed=True))
+        self.reject(lambda s:s["entries"][row].update(verified_continuation_pages=[]))
+        self.reject(lambda s:s["entries"][row]["verified_continuation_pages"][0].update(image_sha256="0"))
+        self.reject(lambda s:s["entries"][row].update(pending_continuation_pdf_pages=[329]))
 
     def test_reject_silent_coverage_inflation(self):
-        self.reject(lambda s:s["entries"][1].update(source_text_read_through_entire_article=True,
+        row=next(i for i,x in enumerate(self.spec["entries"]) if x["source_key"]=="GAINSAY")
+        self.reject(lambda s:s["entries"][row].update(source_text_read_through_entire_article=True,
             english_prose_linewise_comparison_completed=True,
             evidence_scope="whole_article_english_prose_pass",review_note="unverified"))
 
