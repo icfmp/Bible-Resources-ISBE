@@ -272,3 +272,63 @@ Before merging, require full source-locked reconstruction, 456 article
 reading proofs, cohort uniqueness and immutable identifier checks,
 and complete official TEI validation. Independent bilingual approval is a
 separate, still-uncompleted editorial gate.
+
+## Fourth 100-entry historical French draft cohort — 24 November 2026
+
+**Cohort 004 adds exactly 100 more complete source-locked first drafts**, all
+from previously undrafted original `@n` entries among canonical positions
+#0001–#1000. They are frozen, without creating a second index, in
+`cohorts/COHORT_004_100_SHORT_HISTORICAL_ARTICLES.json`, with exact canonical
+source positions, source keys, TEI `xml:id`, per-entry source fingerprints and
+source-locked patch filenames.
+
+- `0026-cohort-004-concise-articles-01.json` — 25 complete entries
+- `0027-cohort-004-concise-articles-02.json` — 25 complete entries
+- `0028-cohort-004-concise-articles-03.json` — 25 complete entries
+- `0029-cohort-004-concise-articles-04.json` — 25 complete entries
+
+These are the shortest 100 among the remaining 589 undrafted lot-1 entries,
+but are significantly more involved than the previous cohorts: **25,037
+eligible historical English source characters**, 188–323 per article, with
+multiple persons, original edition distinctions, historical lexical notes,
+and ancient geographic identifications. All source-owned reference
+destinations, internal links and canonical positions remain unchanged.
+Source-historical pronunciation and proper names may be retained explicitly.
+
+**Wave 01: 511/1,000 full first drafts (51.1%); 489 undrafted.
+Entire ISBE: 556/9,380 complete first drafts.
+Independent bilingual editorial approvals: 0/1,000; 0 issue checkboxes
+checked. No French SWORD publication authorized.**
+This is article-count coverage, emphatically **not** 51.1% of the English
+source's entire prose by volume.
+
+Separate bilingual editorial collation flags from this cohort:
+
+- `AGADE`: the historical author's date of approximately **3500 BC** for
+  Sargon is retained as a historical claim, not asserted as current research.
+- `AGGABA`: source wording calls the temple servants "descendants of
+  Abraham" despite naming Hagabah/Hagaba. We have translated the *actual*
+  English source and flagged it; no silent correction to a different person.
+- `AHIEZER`: the English phrase "when a furtive before Saul" is anomalous
+  in the supplied witness; the French interprets it as fleeing Saul. This
+  exact passage requires verification against the historical printed witness
+  in bilingual review.
+- `ARAM`: unusual original English reference `Mt 13:4` remains owned by the
+  canonical source; determine whether it is a historical source error only
+  through separately documented source collation, not a translation edit.
+- `ASHKENAZ`: source cites `1Ch 16`; unchanged on purpose, requires
+  separate source-witness check.
+- `ANATH`: original bibliographic page span `105-896` was preserved rather
+  than silently replaced.
+- `ANTIOCHIS`: translation explicitly preserves that Antiochus granted
+  the cities to Antiochis; the recipient is not the king.
+- `AWAY WITH`, `ALBEIT`, `ARIGHT` and other English lexical entries
+  explain their original English wording, without falsely inventing French
+  etymologies.
+- Uncertain name etymologies and ancient location identifications retain
+  the original qualifiers ("perhaps", "apparently", "probably").
+
+Every cohort must pass full reconstruction and source fingerprint checks,
+manifest uniqueness and original key parity, French editorial reading-copy
+rendering for all **556** first drafts, and the official TEI checks before
+merge. Bilingual editorial sign-off remains *a separate, uncompleted gate*.
