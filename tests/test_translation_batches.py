@@ -170,7 +170,7 @@ class TranslationBatchTests(unittest.TestCase):
         self.assertFalse(proof["publication_permitted"])
         self.assertEqual(len(index), len(set(index)))
         by_key = {key: article for (_, key), article in zip(index, body)}
-        self.assertIn("ABGAR", by_key)
+        self.assertIn("ABGAR; ABGARUS; ABAGARUS", by_key)
         self.assertIn("légende", "".join(by_key["ABGAR; ABGARUS; ABAGARUS"].itertext()))
         self.assertIn("King James Version", "".join(by_key["ABHOR"].itertext())
                       + "".join(by_key["ABEZ"].itertext()))
