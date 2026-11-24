@@ -10,91 +10,93 @@
       "source_key": "ANATHOTH",
       "article_id": "isbe-7c8cb45a5be1fb97c3bf",
       "source_article_sha256": "76cce2d0fab979bedd008dc7c5570b49d4b5eb811c28affecc4ce597d47133b2",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANATHOTH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANATHOTH",
+          "action": "preserve",
+          "reason": "Original proper-name headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "an'-a-thoth (`anathoth; Anathoth): A town which lay between Michmash and Jerusalem (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "an'-a-thoth (`anathoth ; Anathoth) : Ville située entre Mikmas et Jérusalem (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "), in the territory of Benjamin, assigned to the Levites (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), sur le territoire de Benjamin, attribuée aux Lévites (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": "). It was the native place of Abiathar (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). C'était le lieu d'origine d'Abiathar (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "), and of the prophet Jer (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") et du prophète Jérémie (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " ff, etc.). Here lay the field which, under remarkable circumstances, the prophet purchased (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv.). C'est là que se trouvait le champ que le prophète acheta dans des circonstances remarquables (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": " ff). Two of David's distinguished soldiers, Abiezer (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv.). Deux soldats éminents de David, Abiézer (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": ") and Jehu (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") et Jéhu (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": "), also hailed from Anathoth. It was again occupied by the Benjamites after the return from the Exile (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), étaient aussi originaires d'Anathoth. La ville fut de nouveau habitée par des Benjaminites après le retour d'exil (",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": ", etc.). It is identified with `Anata, two and a quarter miles Northeast of Jerusalem, a small village of some fifteen houses with remains of ancient walls. There are quarries in the neighborhood from which stones are still carried to Jerusalem. It commands a spacious outlook over the uplands to the North, and especially to the Southeast, over the Jordan valley toward the Dead Sea and the mountains of Moab. There is nothing to shelter it from the withering power of the winds from the eastern deserts (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et autres passages). Elle correspond à `Anata, à deux milles et quart au nord-est de Jérusalem, petit village d'une quinzaine de maisons où subsistent des vestiges de murailles anciennes. Des carrières voisines fournissent encore de la pierre à Jérusalem. Le site offre un vaste panorama sur les hauteurs au nord et surtout, vers le sud-est, sur la vallée du Jourdain, la mer Morte et les montagnes de Moab. Rien ne le protège de la puissance desséchante des vents des déserts orientaux (",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "tail",
           "source": ", etc.).",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et autres passages).",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "text",
           "source": "W. Ewing",
-          "target": "",
-          "action": "pending_translation"
+          "target": "W. Ewing",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -102,119 +104,120 @@
       "source_key": "ANCIENT",
       "article_id": "isbe-e95f000e0be57b53dac1",
       "source_article_sha256": "14cabb63e14fd3b91b805e4420bccce31bf8f2bfdeb603cbdc02b10d9d9e414b",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANCIENT",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANCIEN",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "an'-shent: This word renders several Hebrew words:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "an'-shent : Ce mot anglais traduit plusieurs mots hébreux :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) qedhem, which denotes \"beforetime,\" \"yore\"; generally the remote past (compare ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) qedhem, qui désigne le temps passé, « jadis », généralement un passé très éloigné (comparer ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": ", \"ancient mountains\"; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « montagnes anciennes » ; ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": ", Kishon, the \"ancient river\"; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : le Kishon, « fleuve ancien » ; ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " \"ancient kings\").",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « rois anciens »).",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "(2) zaqen, \"old\" in years. Whereas the King James Version generally renders the word by \"old\" (or \"elders\" when the plural form is found) in six cases \"ancient\" is used and \"ancients\" in nine cases. See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) zaqen, « âgé », « vieux ». Si la King James Version le traduit généralement par « vieux » ou par « anciens » au pluriel, elle emploie « ancient » dans six cas et « ancients » dans neuf cas. Voir ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "ANCIENTS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANCIENS",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "(3) `olam, which denotes \"long duration\" --past or future. In regard to the past it suggests remote antiquity. The connotation may be discovered in such expressions as: \"the years of ancient times\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) `olam, qui signifie « longue durée », passée ou future. Pour le passé, il suggère la haute antiquité ; cette nuance apparaît dans « les années des temps anciens » (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": "); \"ancient land-mark\" or \"paths\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; « borne ancienne » ou « anciens sentiers » (",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "tail",
           "source": "); \"ancient people\" or \"nation\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; « peuple ancien » ou « nation ancienne » (",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "tail",
           "source": "); \"ancient high places\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; « anciennes hauteurs » (",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "text",
           "source": "(4) `attiq. This word--really Aramaic--comes from a stem which means \"to advance,\" i.e. in age; hence old, aged (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(4) `attiq, mot proprement araméen, dérivé d'une racine signifiant « avancer », notamment en âge ; d'où « vieux », « âgé » (",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "text",
           "source": "(5) yashish, literally, \"weak,\" \"impotent,\" hence decrepit aged; a rare and poetical word, and found only in Job. It is rendered \"ancient\" only in one instance (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(5) yashish, littéralement « faible », « impuissant », donc « décrépit », terme rare et poétique, présent seulement dans Job. Il n'est traduit par « ancien » qu'une fois (",
+          "action": "translate"
         },
         {
           "node": 19,
           "part": "tail",
           "source": " the King James Version).",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans la King James Version).",
+          "action": "translate"
         },
         {
           "node": 20,
           "part": "text",
           "source": "Thomas Lewis",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Thomas Lewis",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -222,77 +225,78 @@
       "source_key": "ANCIENTS",
       "article_id": "isbe-c4b30549c52a30e9322f",
       "source_article_sha256": "b4f23fcf4fa6aa9f119226de6bf91a001e1ccc7326290b066bf6fd95e2eaafe3",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANCIENTS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANCIENS",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "an-shents: This word (except in one instance) renders the Hebrew word zeqenim, (pl of zaqen), which should always be translated \"old men\" or \"elders.\" The Hebrew word never has the connotation which \"ancients\" has in modern English. The words \"I understand more than the ancients\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "an-shents : Sauf une fois, ce mot anglais traduit l'hébreu zeqenim (pluriel de zaqen), qu'il faudrait toujours rendre par « vieillards » ou « anciens ». Le terme hébreu ne possède jamais la nuance d'« ancêtres lointains » que peut avoir l'anglais moderne « ancients ». « J'ai plus d'intelligence que les anciens » (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": " the King James Version) do not mean that the Psalmist claims greater wisdom than his distant forbears but than his contemporaries with all their age and experience. In the parallel clause \"teachers\" is the corresponding word. In such phrases as \"ancients of the people\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans la King James Version) ne signifie pas que le psalmiste se juge plus sage que ses ancêtres lointains, mais qu'il surpasse des contemporains plus âgés et plus expérimentés. Le membre parallèle du verset mentionne les « maîtres ». Dans des expressions comme « anciens du peuple » (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": " the King James Version), \"ancients of the house of Israel\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans la King James Version), « anciens de la maison d'Israël » (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "), \"elders\" would obviously be the correct rendering, as in the Revised Version (British and American). Even in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), le mot « anciens » est manifestement juste, comme dans la Revised Version (britannique et américaine). Même en ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " (\"before his ancients gloriously\" the English Revised Version) \"elders\" is the right translation (American Revised Version). The writer probably alludes to the Sinaitic; theophany witnessed by the \"seventy .... elders\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (« glorieusement devant ses anciens », English Revised Version), « anciens » est préférable (American Revised Version). L'auteur fait probablement allusion à la théophanie du Sinaï dont furent témoins les « soixante-dix […] anciens » (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": ") Generally speaking the word suggests the experience, insight and practical acquaintance with life which age ought to bring with it (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). D'ordinaire, le terme évoque l'expérience, la perspicacité et la connaissance pratique de la vie qu'on devrait acquérir avec l'âge (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": "). In one instance (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Dans un seul passage (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": ") \"ancients\" is the right rendering for the Hebrew word qadhmonim, which means \"men of former times.\"",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), « ancêtres » ou « anciens d'autrefois » convient à l'hébreu qadhmonim, « hommes des temps passés ».",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "Thomas Lewis",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Thomas Lewis",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -300,70 +304,72 @@
       "source_key": "ANDRONICUS",
       "article_id": "isbe-9d109682b09454eb4d66",
       "source_article_sha256": "79c7fe0f35eeed28a2517fb210787907a6beedcea41343a8355ba6a0b879751c",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANDRONICUS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANDRONICUS",
+          "action": "preserve",
+          "reason": "Original proper-name headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "an-dro-ni'-kus (Andronikos):",
-          "target": "",
-          "action": "pending_translation"
+          "target": "an-dro-ni'-kus (Andronikos) :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) A deputy of Antiochus Epiphanes, who, while ruling at Antioch, excited the Jews by the murder of Onias, and, upon their formal complaint, was executed by his superior (2 Macc 4:32-38); generally distinguished from another officer of the same name, also under Antiochus (2 Macc 5:23).",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Délégué d'Antiochos Épiphane qui, pendant qu'il gouvernait à Antioche, suscita la colère des Juifs en faisant assassiner Onias. Après leur plainte officielle, son supérieur le fit exécuter (2 Maccabées 4:32–38). On le distingue généralement d'un autre officier homonyme également au service d'Antiochos (2 Maccabées 5:23).",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "(2) A kinsman of Paul, residing at Rome (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Parent de Paul demeurant à Rome (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "). He had been converted to Christianity before Paul, and, like Paul, had suffered imprisonment, although when and where can only be surmised. When he and Junias, another kinsman of Paul, are referred to as \"of note among the apostles,\" this may be interpreted as either designating the high esteem in which they were held by the Twelve, or as reckoning them in the number of apostles. The latter is the sense, if \"apostle\" be understood here in the more general meaning, used in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Converti au christianisme avant Paul, il avait subi la prison comme lui, bien que la date et le lieu en soient inconnus. Lui et Junias, autre parent de Paul, sont qualifiés de « remarquables parmi les apôtres » ; cela peut signifier qu'ils étaient particulièrement estimés des Douze ou qu'ils appartenaient eux-mêmes au nombre des apôtres. La seconde interprétation est possible si le mot « apôtre » est pris au sens plus général qu'il possède en ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " of Barnabas, in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " pour Barnabas, en ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " of Titus, in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " pour Tite, en ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": " of Epaphroditus, and in the Didache of \"the traveling evangelists or missionaries who preached the gospel from place to place\" (Schaff, The Teaching of the Twelve Apostles, 67; see also Lightfoot on Philippians, 196). On this assumption, Andronicus was one of the most prominent and successful of the traveling missionaries of the early church.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " pour Épaphrodite, et dans la Didachè pour les « évangélistes itinérants ou missionnaires qui prêchaient l'Évangile de lieu en lieu » (Schaff, The Teaching of the Twelve Apostles, p. 67 ; voir aussi Lightfoot sur Philippiens, p. 196). Selon cette hypothèse, Andronicus était l'un des missionnaires itinérants les plus importants et les plus féconds de l'Église primitive.",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "H. E. Jacobs",
-          "target": "",
-          "action": "pending_translation"
+          "target": "H. E. Jacobs",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -371,63 +377,64 @@
       "source_key": "ANGELS OF THE SEVEN CHURCHES",
       "article_id": "isbe-708b83e3148c5be92011",
       "source_article_sha256": "0b2d063484d1a19ef117eef1162c03353fe2cda068e732316b1c3f693ab6db6a",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANGELS OF THE SEVEN CHURCHES",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANGES DES SEPT ÉGLISES",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "It is evident from the contexts of the various Biblical passages in which the word \"angel\" appears, that the word does not always represent the same idea. In such passages as ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Les contextes des différents passages bibliques où figure le mot « ange » montrent clairement qu'il ne désigne pas toujours une même idée. Dans des textes comme ",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": " and ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": " it would seem that the angel was generally regarded as a superhuman being whose duty it was to guard a nation or an individual, not unlike the jenei of the Arabs. However, in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", l'ange semble généralement considéré comme un être surhumain chargé de protéger une nation ou un individu, un peu comme les djinns des Arabes. Toutefois, en ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " (Hebrew) the word is clearly used to represent men. In the New Testament also, there are passages, such as ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (en hébreu), ce mot désigne clairement des hommes. Le Nouveau Testament comporte aussi des passages, comme ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " (Greek), in which the word seems to be applied to men. The seven angels of the seven churches (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (en grec), où il semble s'appliquer à des humains. Les sept anges des sept Églises (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": ") received seven letters, figurative letters, and therefore it would seem that the seven angels are also figurative and may refer to the seven bishops who presided over the seven churches of Asia. Or the angels may be regarded as the personifications of the churches.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") reçurent sept lettres, symboliques ; cela pourrait indiquer que les sept anges eux aussi sont figurés et désignent les sept évêques présidant les sept Églises d'Asie. Selon une autre interprétation, les anges personnifient les Églises.",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "E. J. Banks",
-          "target": "",
-          "action": "pending_translation"
+          "target": "E. J. Banks",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
