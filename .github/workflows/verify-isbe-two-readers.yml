@@ -125,6 +125,22 @@ jobs:
           cp -a workspace/tmp/gui-module/modules "$HOME/.sword/"
           env -u SWORD_PATH diatheke -b system -k modulelist | tee workspace/tmp/user-home-module-list.txt
           env -u SWORD_PATH diatheke -b system -k modulelist | grep -q BRISBE1915
+          # BibleTime requires an explicit "standardBible" for Scripture
+          # hyperlinks in a fresh profile. Source: upstream BtConfig uses
+          # $HOME/.bibletime/bibletimerc, Qt INI, and the exact setting
+          # settings/defaults/standardBible. This is the isolated KJV test
+          # fixture, NOT a resource packaged with BRISBE1915.
+          env -u SWORD_PATH diatheke -b system -k modulelist | grep -q KJV
+          mkdir -p "$HOME/.bibletime"
+          cat >"$HOME/.bibletime/bibletimerc" <<'BIBLETIME_CONFIG'
+          [General]
+          btconfig_api_version=1
+          [settings]
+          defaults\standardBible=KJV
+          BIBLETIME_CONFIG
+          # Verify the expected fresh-profile config is present before GUI.
+          grep -Fqx 'btconfig_api_version=1' "$HOME/.bibletime/bibletimerc"
+          grep -Fqx 'defaults\standardBible=KJV' "$HOME/.bibletime/bibletimerc"
           xvfb-run -a -s '-screen 0 1440x900x24' \
             dbus-run-session -- bash -c '
               set -euo pipefail
