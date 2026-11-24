@@ -401,3 +401,75 @@ Before merging, require automatic source-lock reconstruction of
 all 656 French reading proofs and official original TEI RELAX NG /
 Schematron tests. **None** of these automated checks constitutes
 independent bilingual editorial sign-off, which remains pending.
+
+## Sixth 100-entry French historical first-draft cohort — 24 November 2026
+
+**Cohort 006:** exactly **100 new, complete** canonical historical English
+source entries translated into French first-draft form, each with unchanged
+English `@n`, original canonical worklist position, TEI `xml:id`,
+source-article SHA-256 and one exact source-locked patch path in
+`cohorts/COHORT_006_100_HISTORICAL_ARTICLES.json`. This manifest is not a
+new index or a different French versification.
+
+Four patches, each with **25 entire original entries**:
+- `0034-cohort-006-historical-articles-01.json`
+- `0035-cohort-006-historical-articles-02.json`
+- `0036-cohort-006-historical-articles-03.json`
+- `0037-cohort-006-historical-articles-04.json`
+
+**Actual source text:** **64,555 eligible English characters**, from
+491 to 857 English characters per article. Selection: 100 shortest
+*previously undrafted* complete entries from the fixed first 1,000;
+these are increasingly substantive short-to-medium lexical, theological,
+historical, archaeological and biographical articles, not long essays.
+Exactly **613 source text units** compared by original node index, part,
+source text, source article and SHA-256, consisting of **482 translated
+units and 131 explicitly justified unchanged names, bylines and historical
+pronunciation/cross-reference labels**; no unexplained long English
+prose or omitted original text units.
+
+**Cumulative first drafts:** **711/1,000** original wave-01 articles
+(71.1% *by article count*), leaving **289** not yet drafted in wave 01.
+Whole ISBE original index: **756/9,380** complete first drafts.
+**Independent bilingual editorial sign-offs: 0/1,000**, checklist boxes
+in issue #109: **0/1,000**. The French SWORD module must not be
+published. This article count is **not** 71.1% of all original prose.
+
+### Outstanding witness and editorial questions
+
+- **ATHARIM source contamination:** the corrected canonical English
+  source includes an unrelated clause about Charles II of England
+  between the Numbers 21:1 discussion and the HORMAH cross-reference.
+  The clause is source-locked and translated as witnessed; it was **not
+  silently removed**. Independently tracked in
+  **[source integrity issue #125](https://github.com/icfmp/Bible-Resources-ISBE/issues/125)**.
+  Source collation and original-witness proof must precede any change to
+  the English master and any bilingual acceptance of this draft.
+- **ARNI:** the original English text has an unexpected Matthew 13:4
+  cross-reference in a genealogy comparison; the original Scripture
+  identifier is unchanged pending historical source collation.
+- **AGUR:** the original author's appraisal of Agur as "agnostic" is
+  presented as *the author's interpretation*, not as a new endorsed
+  theological conclusion.
+- **APPHIA:** the historical account of her alleged martyrdom is
+  represented with its traditional attribution, not independently
+  established as fact.
+- **ANTIOCHUS I, II, V and VII, ARATHES:** original historical dates,
+  identifications and bibliographic sources remain source claims.
+- **ARIEL:** author's competing etymologies and readings are preserved;
+  all references and TEI targets stay canonical.
+- **AYIN and ALEPH:** original pronunciation and numerical descriptions
+  remain historical descriptions, without changing Hebrew source text.
+- **ANISE; DILL:** distinguishes actual plant identity from the English
+  Bible vocabulary reported by the original article.
+- **ANCIENT doctrinal interpretive sources:** this is translation of a
+  historical encyclopedia, not silent rewriting to match later
+  doctrinal positions.
+
+Before merging, require **756 fully reconstructed source-locked drafts**,
+all six frozen 100-entry cohort fingerprint/ID checks, 756 complete
+readable French proofs, the original TEI regression suite and independent
+official RELAX NG plus Schematron validation. No technical CI check
+can substitute for later bilingual editorial approval. The original
+corrected English source SHA-256 remains
+`5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c`.
