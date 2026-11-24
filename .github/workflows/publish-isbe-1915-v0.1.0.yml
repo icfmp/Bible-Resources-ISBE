@@ -1,0 +1,238 @@
+name: Publish source-qualified ISBE 1915 SWORD v0.1.0
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/publish-isbe-1915-v0.1.0.yml
+      - release/published/isbe-1915-v0.1.0/**
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publish-isbe-1915-v0.1.0.yml
+
+permissions:
+  contents: write
+
+jobs:
+  verify-and-release:
+    if: github.repository == 'icfmp/Bible-Resources-ISBE'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      DRAFT_TAG: isbe-1915-v0.1.0-rc.1
+      DRAFT_ID: '455869112'
+      RELEASE_TAG: isbe-1915-v0.1.0
+      NATIVE_SHA256: 6b7edccc0f27fbcf71595597ddd8794a5db72acd3952fb03e1e4e569e7acf3a5
+      ORIGINAL_SHA256: 4de747545d9c349ab724bc1708b01df5481e3b93e5e51077f859dd8a32023a32
+      CLEANED_SHA256: 5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c
+      IMPORT_SHA256: bdac245cad329fdff8039d0374815ff7086b8a5f8055118f1250461b9d5f17ec
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check authorized release identity, locked sources and private original candidate
+        run: |
+          set -euo pipefail
+          test "$GH_REPO" = icfmp/Bible-Resources-ISBE
+          test "$(gh api "repos/$GH_REPO/releases/$DRAFT_ID" --jq .draft)" = true
+          test "$(gh api "repos/$GH_REPO/releases/$DRAFT_ID" --jq '.published_at // "null"')" = null
+          test "$(gh api "repos/$GH_REPO/releases/$DRAFT_ID" --jq .tag_name)" = "$DRAFT_TAG"
+          python3 scripts/persist_1915_cleaned_master.py --verify-only
+          echo "$CLEANED_SHA256  sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml" | sha256sum --check --strict
+          echo "$ORIGINAL_SHA256  sources/original/encyclopedias/en/isbe-crosswire-2.2/ISBE.zip" | sha256sum --check --strict
+          mkdir -p workspace/tmp/publish-isbe
+          gh release download "$DRAFT_TAG" -R "$GH_REPO" \
+            --pattern BRISBE1915-native-workid-draft.tar.gz \
+            --dir workspace/tmp/publish-isbe
+          echo "$NATIVE_SHA256  workspace/tmp/publish-isbe/BRISBE1915-native-workid-draft.tar.gz" | sha256sum --check --strict
+          test "$(stat -c %s workspace/tmp/publish-isbe/BRISBE1915-native-workid-draft.tar.gz)" = 11731030
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          m=json.loads(Path('modules/isbe-1915/metadata.json').read_text())
+          assert m['sword_id']=='BRISBE1915'
+          assert m['distribution']['draft_binary_sha256']=='6b7edccc0f27fbcf71595597ddd8794a5db72acd3952fb03e1e4e569e7acf3a5'
+          assert m['origin']['cleaned_master_sha256']=='5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c'
+          assert m['rights']['owner_distribution_basis_accepted'] is True
+          assert m['rights']['further_legal_review_required_for_publication'] is False
+          PY
+      - name: Install independently packaged libSWORD tools
+        run: |
+          set -euo pipefail
+          sudo env DEBIAN_FRONTEND=noninteractive APT_LISTCHANGES_FRONTEND=none \
+            timeout 180s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=25 update -qq
+          sudo env DEBIAN_FRONTEND=noninteractive APT_LISTCHANGES_FRONTEND=none \
+            timeout 360s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=25 \
+            -y -qq install libsword-utils diatheke
+      - name: Verify the exact archived SWORD tarball through real native readback
+        run: |
+          set -euo pipefail
+          root=workspace/tmp/publish-isbe
+          mkdir -p "$root/native"
+          tar -tzf "$root/BRISBE1915-native-workid-draft.tar.gz" > "$root/tar-members.txt"
+          grep -Fxq './mods.d/brisbe1915.conf' "$root/tar-members.txt"
+          for extension in zdt zdx idx dat; do
+            grep -Fxq "./modules/lexdict/zld/brisbe1915/dict.$extension" "$root/tar-members.txt"
+          done
+          tar -xzf "$root/BRISBE1915-native-workid-draft.tar.gz" -C "$root/native"
+          grep -Fqx 'Version=0.1.0' "$root/native/mods.d/brisbe1915.conf"
+          grep -Fqx 'DistributionLicense=Public Domain' "$root/native/mods.d/brisbe1915.conf"
+          grep -Fqx 'ModDrv=zLD' "$root/native/mods.d/brisbe1915.conf"
+          export SWORD_PATH="$PWD/$root/native"
+          diatheke -b system -k modulelist | grep -q BRISBE1915
+          python3 scripts/export_tei_dictionary_for_sword.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --expected-sha256 "$CLEANED_SHA256" \
+            --expected-count 9380 \
+            --module-id BRISBE1915 \
+            --output "$root/import.xml" --report "$root/import.json"
+          echo "$IMPORT_SHA256  $root/import.xml" | sha256sum --check --strict
+          mod2imp BRISBE1915 > "$root/readback.imp"
+          python3 scripts/validate_sword_dictionary_roundtrip.py \
+            --input-tei "$root/import.xml" --native-imp "$root/readback.imp" \
+            --report "$root/roundtrip.json"
+          python3 scripts/audit_sword_reference_targets.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --adapted "$root/import.xml" --module-id BRISBE1915 \
+            --report "$root/reference-register.json"
+          python3 scripts/select_isbe_internal_link_samples.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --adapted "$root/import.xml" --module-id BRISBE1915 \
+            --output "$root/link-samples.json"
+          python3 scripts/audit_sword_rendered_internal_link.py \
+            --samples "$root/link-samples.json" --module-id BRISBE1915 \
+            --report "$root/rendered-link.json"
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('workspace/tmp/publish-isbe')
+          r=json.loads((root/'roundtrip.json').read_text())
+          assert r['expected_keys']==r['native_keys']==9380 and r['native_roundtrip_verified']
+          for k in ('missing_key_count','unexpected_key_count','malformed_count','unicode_text_mismatch_count','xml_structure_mismatch_count'):
+              assert r[k]==0,(k,r[k])
+          a=json.loads((root/'reference-register.json').read_text())
+          assert a['source_article_count']==9380
+          assert a['internal_dictionary_refs']==5919 and a['bible_osis_references']==93164
+          assert a['section_ref_register_count']==80
+          assert a['source_and_adapter_ref_text_unchanged'] and a['source_and_adapter_attributes_verified']
+          link=json.loads((root/'rendered-link.json').read_text())['sample_result']
+          assert link['source_article']=='ARK' and link['destination_article']=='ARK OF BULRUSHES'
+          assert link['native_sword_href']=='sword://BRISBE1915/ARK+OF+BULRUSHES'
+          print('FINAL PUBLICATION GATE: corrected native archive, all 9380 articles and work-ID links VERIFIED')
+          PY
+      - name: Assemble actual SWORD ZIP, historical source ZIP and SHA-256 manifest
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib,json,tarfile,zipfile
+          from pathlib import Path,PurePosixPath
+          root=Path('workspace/tmp/publish-isbe')
+          native=root/'BRISBE1915-native-workid-draft.tar.gz'
+          dest=root/'BRISBE1915-0.1.0-SWORD.zip'
+          expected={'mods.d/brisbe1915.conf'}|{
+              'modules/lexdict/zld/brisbe1915/dict.'+x
+              for x in ('zdt','zdx','idx','dat')
+          }
+          with tarfile.open(native,'r:gz') as archive:
+              members=[m for m in archive.getmembers() if m.isfile()]
+              names={m.name.removeprefix('./') for m in members}
+              if names!=expected or len(members)!=len(expected):
+                  raise SystemExit('Unexpected or missing native SWORD package member')
+              if any(not m.isfile() and not m.isdir() for m in archive.getmembers()):
+                  raise SystemExit('Unsafe native archive member')
+              with zipfile.ZipFile(dest,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as out:
+                  for m in sorted(members,key=lambda m:m.name):
+                      name=m.name.removeprefix('./')
+                      info=zipfile.ZipInfo(name,(1980,1,1,0,0,0))
+                      info.compress_type=zipfile.ZIP_DEFLATED
+                      info.external_attr=0o100644<<16
+                      out.writestr(info,archive.extractfile(m).read())
+          source_files={
+              'source/ISBE.xml':Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml'),
+              'source/CLEANUP_MANIFEST.json':Path('sources/cleaned/encyclopedias/en/isbe-1915/CLEANUP_MANIFEST.json'),
+              'source/CROSSWIRE_PROVENANCE.json':Path('sources/original/encyclopedias/en/isbe-crosswire-2.2/PROVENANCE.json'),
+              'source/ACQUISITION_MANIFEST.json':Path('sources/original/encyclopedias/en/isbe-crosswire-2.2/ACQUISITION_MANIFEST.json'),
+              'source/EDITORIAL_ASSESSMENT.md':Path('workspace/reviews/isbe-1915-publication-editorial-assessment.md'),
+              'source/README.md':Path('release/published/isbe-1915-v0.1.0/SOURCE_README.md'),
+          }
+          assert hashlib.sha256(source_files['source/ISBE.xml'].read_bytes()).hexdigest()=='5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c'
+          with zipfile.ZipFile(root/'BRISBE1915-0.1.0-source.zip','w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as out:
+              for name,src in sorted(source_files.items()):
+                  info=zipfile.ZipInfo(name,(1980,1,1,0,0,0))
+                  info.compress_type=zipfile.ZIP_DEFLATED
+                  info.external_attr=0o100644<<16
+                  out.writestr(info,src.read_bytes())
+          # Reopen both packages and reject changed member names/bytes.
+          with zipfile.ZipFile(dest) as sword:
+              assert set(sword.namelist())==expected
+              for name in expected:
+                  native_bytes=(root/'native'/name).read_bytes()
+                  assert sword.read(name)==native_bytes,name
+          with zipfile.ZipFile(root/'BRISBE1915-0.1.0-source.zip') as source:
+              assert set(source.namelist())==set(source_files)
+              assert hashlib.sha256(source.read('source/ISBE.xml')).hexdigest()=='5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c'
+          print('Safe standard SWORD ZIP and edition-source ZIP verified member-by-member')
+          PY
+          root=workspace/tmp/publish-isbe
+          cp "$root/BRISBE1915-native-workid-draft.tar.gz" "$root/BRISBE1915-0.1.0-SWORD.tar.gz"
+          cd "$root"
+          sha256sum BRISBE1915-0.1.0-SWORD.zip BRISBE1915-0.1.0-SWORD.tar.gz BRISBE1915-0.1.0-source.zip |
+            tee BRISBE1915-0.1.0-SHA256SUMS.txt
+          echo "$NATIVE_SHA256  BRISBE1915-0.1.0-SWORD.tar.gz" |
+            sha256sum --check --strict
+      - name: Publish a NEW public release with corrected assets ONLY
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          set -euo pipefail
+          test "$GH_REPO" = icfmp/Bible-Resources-ISBE
+          if gh api "repos/$GH_REPO/releases/tags/$RELEASE_TAG" >/dev/null 2>&1; then
+            echo "Public version already exists: immutable release, refusing overwrite" >&2
+            exit 1
+          fi
+          root=workspace/tmp/publish-isbe
+          gh release create "$RELEASE_TAG" \
+            "$root/BRISBE1915-0.1.0-SWORD.zip" \
+            "$root/BRISBE1915-0.1.0-SWORD.tar.gz" \
+            "$root/BRISBE1915-0.1.0-source.zip" \
+            "$root/BRISBE1915-0.1.0-SHA256SUMS.txt" \
+            --repo "$GH_REPO" \
+            --target "$GITHUB_SHA" \
+            --title 'ISBE 1915 — corrected historical SWORD edition 0.1.0' \
+            --notes-file release/published/isbe-1915-v0.1.0/RELEASE_NOTES.md
+          gh api "repos/$GH_REPO/releases/tags/$RELEASE_TAG" > "$root/published-release.json"
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          release=json.loads(Path('workspace/tmp/publish-isbe/published-release.json').read_text())
+          assert release['draft'] is False and release['prerelease'] is False
+          assert release['published_at'] is not None
+          assert release['tag_name']=='isbe-1915-v0.1.0'
+          root=Path('workspace/tmp/publish-isbe')
+          names=[
+            'BRISBE1915-0.1.0-SWORD.zip',
+            'BRISBE1915-0.1.0-SWORD.tar.gz',
+            'BRISBE1915-0.1.0-source.zip',
+            'BRISBE1915-0.1.0-SHA256SUMS.txt'
+          ]
+          actual={a['name']:a for a in release['assets']}
+          assert set(actual)==set(names),(set(actual),set(names))
+          for name in names:
+              data=(root/name).read_bytes()
+              a=actual[name]
+              assert a['size']==len(data),(name,'size')
+              assert a.get('digest')=='sha256:'+hashlib.sha256(data).hexdigest(),(name,'digest')
+          print('CONFIRMED PUBLIC RELEASE:',release['html_url'],release['published_at'])
+          PY
+      - name: Upload only final diagnostic evidence, NEVER the unpublished binary
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: isbe-1915-publication-gate-diagnostics
+          path: |
+            workspace/tmp/publish-isbe/roundtrip.json
+            workspace/tmp/publish-isbe/reference-register.json
+            workspace/tmp/publish-isbe/rendered-link.json
+            workspace/tmp/publish-isbe/BRISBE1915-0.1.0-SHA256SUMS.txt
+            workspace/tmp/publish-isbe/published-release.json
+          if-no-files-found: warn
+          retention-days: 14
