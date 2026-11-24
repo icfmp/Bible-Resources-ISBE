@@ -865,28 +865,30 @@
       "source_key": "ANTIOCHUS VI",
       "article_id": "isbe-3bbe556e54b47d845186",
       "source_article_sha256": "ca2821b96d7cbbd6a68016688ea47a2c3741765d583aaa3b28003bf29632c555",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANTIOCHUS VI",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANTIOCHUS VI",
+          "action": "preserve",
+          "reason": "Canonical original name"
         },
         {
           "node": 2,
           "part": "text",
           "source": "(Surnamed Theos (Theos), or, according to coins, Dionysus Epiphanes): Was the son of Alexander Balas, who claimed to be the son of Antiochus Epiphanes. Alexander left the throne to his son in 146 BC. The young king retired to Arabia--perhaps through compulsion. The shrewd diplomatist and skillful general, Tryphon, succeeded first in winning over to his side the two leaders of the Jews, Jonathan and Simon, and then, by force of arms, in making the Syrians recognize his protege. As soon as the monarchy had been firmly established, Tryphon unmasked his projects: he had been ambitious only for himself; Antiochus had been only an instrument in his hands. In 143; after a reign of a little more than three years, Antiochus was assassinated by Tryphon, who ascended the throne himself (1 Macc 13:31; Ant, XIII, vii, 1; Livy Epit. 55).",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(Surnommé Théos, ou, d'après les monnaies, Dionysos Épiphane) : Fils d'Alexandre Balas, qui prétendait être fils d'Antiochos Épiphane. Alexandre laissa le trône à son fils en 146 av. J.-C. Le jeune roi se retira en Arabie, peut-être sous la contrainte. Le diplomate habile et général compétent Tryphon réussit d'abord à gagner les deux chefs juifs, Jonathan et Simon, puis força les Syriens, par les armes, à reconnaître son protégé. Dès que la monarchie fut solidement établie, Tryphon révéla ses projets : il n'avait d'ambition que pour lui-même et Antiochos n'avait été qu'un instrument entre ses mains. En 143, après un règne d'un peu plus de trois ans, Antiochos fut assassiné par Tryphon, qui monta lui-même sur le trône (1 Maccabées 13:31 ; Antiquités judaïques, XIII, vii, 1 ; Tite-Live, Abrégé 55).",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "J. E. Harry",
-          "target": "",
-          "action": "pending_translation"
+          "target": "J. E. Harry",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -894,63 +896,65 @@
       "source_key": "APE",
       "article_id": "isbe-9be93b7bb92d900ed237",
       "source_article_sha256": "24372e237b5610bdfd0e2e1457032e359791b630d3e97888b790b604635f56cc",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "APE",
-          "target": "",
-          "action": "pending_translation"
+          "target": "SINGE",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ap (qoph): The word occurs only in the two parallel passages (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ap (qoph) : Ce mot n'apparaît que dans les deux passages parallèles (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": ") in which the magnificence of Solomon is illustrated by the things which are brought to him from foreign countries. Apes are mentioned with gold, silver, ivory and peacocks. Peacocks are natives of India and Ceylon. Apes and ivory may have been brought from India or Africa. Gold and silver may have come from these or other quarters. An Indian origin may be inferred from the fact that the Hebrew qoph, the Greek kebos and the English \"ape\" are akin to the Sanskrit \"kapi\", which is referred to the root kap, kamp, \"to tremble\"; but the question of the source of these imports depends upon what is understood by ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") où la splendeur de Salomon est illustrée par les objets importés de pays étrangers. Les singes sont mentionnés avec l'or, l'argent, l'ivoire et les paons. Les paons sont originaires d'Inde et de Ceylan ; singes et ivoire pouvaient venir d'Inde ou d'Afrique ; l'or et l'argent de ces régions ou d'autres encore. On peut supposer une origine indienne parce que l'hébreu qoph, le grec kebos et l'anglais « ape » sont apparentés au sanskrit kapi, qu'on rattache aux racines kap ou kamp, « trembler ». Mais la provenance des importations dépend de ce qu'on entend par ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "TARSHISH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "TARSIS",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": " and ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "OPHIR",
-          "target": "",
-          "action": "pending_translation"
+          "target": "OPHIR",
+          "action": "preserve",
+          "reason": "Original proper name or byline retained"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " (which see). Canon Cheyne in Encyclopedia Biblica (s.v. \"Peacock\") proposes a reading which would give \"gold, silver, ivory and precious stones\" instead of \"gold, silver, ivory, apes and peacocks.\" Assuming, however, that animals are here referred to, the word ape should be understood to mean some kind of monkey. The word \"ape\" is sometimes used for the tail-less apes or anthropoids such as the gorilla, the chimpanzee and the orangutang, as opposed to the tailed kinds, but this distinction is not strictly held to, and the usage seems formerly to have been freer than now.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (voir ces articles). Le chanoine Cheyne propose dans Encyclopedia Biblica (article « Peacock ») une lecture donnant « or, argent, ivoire et pierres précieuses », à la place de « or, argent, ivoire, singes et paons ». Si l'on admet la présence d'animaux, « ape » désigne une espèce de singe. En anglais, le mot peut qualifier les grands singes dépourvus de queue, comme le gorille, le chimpanzé et l'orang-outan, par opposition aux singes à queue. Cette distinction n'est pourtant pas strictement observée, et son usage semble avoir été autrefois plus large.",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "Alfred Ely Day",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Alfred Ely Day",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -958,35 +962,36 @@
       "source_key": "APHARSATHCHITES; APHARSACHITES",
       "article_id": "isbe-6f72d2cf3ec9e3e73dd8",
       "source_article_sha256": "62cace1d70114642db8766dff2209b58bc885d37d7f28fdfdebe6b76f2717c5c",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "APHARSATHCHITES; APHARSACHITES",
-          "target": "",
-          "action": "pending_translation"
+          "target": "APHARSATHCHITES ; APHARSACHITES",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "af-ar-sath'-kits, a-far'-sak-its ('apharcathkhaye'): A tribe living in Samaria that protested against the rebuilding of the Temple, and brought their complaint to Darius (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "af-ar-sath'-kits, a-far'-sak-its ('apharcathkhaye) : Tribu établie en Samarie qui protesta contre la reconstruction du Temple et adressa sa plainte à Darius (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "). The tribe has not yet been recognized with any certainty in the inscriptions. Rawlinson identifies them with the Persians; other scholars deny that any Assyrian king was ever so situated as to have been able to obtain colonists from Persia. Some maintain with Marquardt that the term is not the name of a tribe, but the title of certain officers under Darius. Fred. Delitzsch suggests the inhabitants of one of the two great Medean towns \"Partakka\" and \"Partukka\" mentioned in Esarhaddon's inscriptions. Andreas plausibly connects it with the Assyrian suparsak (Muss-Arnolt, Assyrian Dict., 1098), saqu (3) \"general\"; Scheft takes it from an old Iranian word aparasarka, \"lesser ruler.\"",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Cette tribu n'a pas été identifiée avec certitude dans les inscriptions. Rawlinson l'assimile aux Perses ; d'autres chercheurs nient qu'un roi assyrien ait pu disposer de colons venus de Perse. Certains, avec Marquardt, estiment que ce terme n'est pas un ethnonyme mais le titre de fonctionnaires au service de Darius. Friedrich Delitzsch propose les habitants de l'une des deux grandes villes mèdes « Partakka » et « Partukka » citées dans les inscriptions d'Assarhaddon. Andreas le rapproche avec vraisemblance de l'assyrien suparsak (Muss-Arnolt, Assyrian Dictionary, p. 1098), saqu (3), « général » ; Scheft le fait venir de l'ancien iranien aparasarka, « gouverneur subalterne ».",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "H. J. Wolf",
-          "target": "",
-          "action": "pending_translation"
+          "target": "H. J. Wolf",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -994,35 +999,37 @@
       "source_key": "APOLLONIA",
       "article_id": "isbe-0ad456d96e59337148b3",
       "source_article_sha256": "5157fbde69f6d31cc89a2c742f3885b20dec72a3749eb8fa2395bc3aacf77a32",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "APOLLONIA",
-          "target": "",
-          "action": "pending_translation"
+          "target": "APOLLONIA",
+          "action": "preserve",
+          "reason": "Canonical original name"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ap-o-lo'-ni-a (Apollonia): A town in Mygdonia, a district in Macedonia. It was situated a little to the south of Lake Bolbe, on the Via Egnatia, the great Roman road leading from the coast of the Adriatic to the river Hebrus (Maritza), one of the main military and commercial highways of the empire: it lay between Amphipolis and Thessalonica, a day's journey (Livy xlv.28) or about 30 Roman miles from the former and 38 from the latter. The foundation of the town may perhaps be attributed to about 432 BC; in any case, coins are extant which attest its existence in the 4th century BC (Head, Historia Numorum, 181). Paul and Silas passed through the town on their journey from Philippi to Thessalonica, but do not appear to have stayed there (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ap-o-lo'-ni-a (Apollonia) : Ville de Mygdonie, région de Macédoine. Elle se trouvait un peu au sud du lac Bolbé, sur la Via Egnatia, grande voie romaine reliant la côte adriatique au fleuve Hèbre (Maritsa), l'un des principaux axes militaires et commerciaux de l'Empire. Située entre Amphipolis et Thessalonique, elle était à une journée de marche (Tite-Live, XLV, 28), soit quelque trente milles romains de la première et trente-huit de la seconde. Sa fondation pourrait remonter à 432 av. J.-C. environ ; des monnaies attestent au moins son existence au IVe siècle av. J.-C. (Head, Historia Numorum, p. 181). Paul et Silas traversèrent la ville entre Philippes et Thessalonique, sans semble-t-il s'y arrêter (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "). The name seems to have survived in the modern Pollina (Leake, Northern Greece, III, 458; Cousinery, Voyage dans la Macedoine, I, 115).",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Le nom paraît subsister dans celui de l'actuelle Pollina (Leake, Northern Greece, III, p. 458 ; Cousinery, Voyage dans la Macédoine, I, p. 115).",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "Marcus N. Tod",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Marcus N. Tod",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -1030,112 +1037,113 @@
       "source_key": "APPAREL",
       "article_id": "isbe-7e7c39d1a8f64c463302",
       "source_article_sha256": "fe9d05768749c3b02531f11004ddb0bf0d0ce8bcefe5154cb1ee776f0334c5f9",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "APPAREL",
-          "target": "",
-          "action": "pending_translation"
+          "target": "VÊTEMENT",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-par'-el: The English equivalent of six Hebrew and three Greek words, variously signifying all kinds of raiment, chiefly garments costly and beautiful: ornamental (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-par'-el : Équivalent anglais de six mots hébreux et de trois mots grecs désignant différentes sortes d'habits, principalement des vêtements précieux et magnifiques : d'ornement (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "); royal, as of Ahasuerus (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; royaux, comme ceux d'Assuérus (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": "), of Herod (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), d'Hérode (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": ", esthes); of kings' daughters (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; esthes), ou des filles des rois (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": "); priestly (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; sacerdotaux (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": "); also mourning (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; mais aussi de deuil (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": "). In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). En ",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": " \"apparel\" replaces \"armor\" of King James Version: \"Saul clad David with his apparel,\" probably some close-fitting garment worn under the armor, or sometimes without it. Severe judgment was pronounced on Jewish princes who clothed themselves with \"strange\" (the King James Version), i.e. \"with foreign apparel\" (Ze 1:8; compare ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", « vêtement » remplace l'« armure » de la King James Version : « Saül revêtit David de ses vêtements », probablement un habit ajusté porté sous l'armure, ou parfois sans celle-ci. Un jugement sévère fut prononcé contre les princes de Juda portant des habits « étrangers » (King James Version), c'est-à-dire « de mode étrangère » (Sophonie 1:8 ; comparer ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": "). \"Modest apparel\" as against \"costly raiment\" is commended as suited to Christians (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). La « tenue modeste », opposée aux « vêtements coûteux », est recommandée aux chrétiens (",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "tail",
           "source": "; himatismos, and katastole). Angels are robed in white apparel (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; himatismos et katastole). Les anges sont vêtus de blanc (",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "tail",
           "source": "; compare ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; comparer ",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "tail",
           "source": ", \"dazzling\"). Fig. of the glorious and red (suggestive of the wine-press) apparel of the Messiah (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « éclatants »). Le vêtement glorieux et rouge du Messie (rappelant le pressoir) constitue un emploi figuré (",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "tail",
           "source": "), and of \"a meek and quiet spirit\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; de même l'« esprit doux et paisible » (",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "text",
           "source": "Dwight M. Pratt",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
