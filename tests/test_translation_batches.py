@@ -21,6 +21,7 @@ SOURCE = ROOT / "sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml"
 PILOT = ROOT / "workspace/pilots/isbe-1915-fr/draft-patches.json"
 ABRAHAM = ROOT / "workspace/translations/isbe-1915/fr/batches/0001-abraham.json"
 EARLY_WAVE01 = ROOT / "workspace/translations/isbe-1915/fr/batches/0002-early-a-entries.json"
+FIRST_25 = ROOT / "workspace/translations/isbe-1915/fr/batches/0003-complete-first-25.json"
 WAVE01_ROSTER = ROOT / "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json"
 
 
@@ -122,6 +123,26 @@ class TranslationBatchTests(unittest.TestCase):
         self.assertIn("BÂTON D'AARON", "".join(by_key["AARON'S ROD"].itertext()))
         self.assertIn("Dans les citations anglaises", "".join(by_key["ABIDE"].itertext()))
         self.assertIn("dames du palais", "".join(by_key["ARK OF BULRUSHES"].itertext()))
+        self.assertEqual(self.source_hash, sha256(SOURCE))
+
+    def test_first_25_canonical_entries_all_have_complete_drafts(self):
+        initial = json.loads(FIRST_25.read_text(encoding="utf-8"))
+        roster = json.loads(WAVE01_ROSTER.read_text(encoding="utf-8"))
+        self.assertEqual(len(initial["articles"]), 8)
+        self.assertEqual(initial["source_sha256"], SOURCE_SHA256)
+        self.assertFalse(initial["publication_permitted"])
+        self.assertEqual({a["source_key"] for a in initial["articles"]},
+                         {"AB (1)", "ABADDON", "ABANAH", "ABARIM",
+                          "ABASE", "ABBA", "ABDON (1)", "ABED-NEGO"})
+        proof, index, _ = self._apply([PILOT, ABRAHAM, EARLY_WAVE01, FIRST_25])
+        self.assertEqual(proof["excerpt_entries"], 75)
+        self.assertEqual(proof["complete_unreviewed_drafts"], 75)
+        self.assertEqual(proof["partial_unreviewed_drafts"], 0)
+        self.assertEqual(proof["human_reviewed"], 0)
+        self.assertFalse(proof["publication_permitted"])
+        keys = [key for _, key in index]
+        head_25 = [r["source_key"] for r in roster["entries"][:25]]
+        self.assertEqual([key for key in keys if key in set(head_25)], head_25)
         self.assertEqual(self.source_hash, sha256(SOURCE))
 
     def test_wrong_master_wrong_entry_or_duplicate_is_rejected(self):
