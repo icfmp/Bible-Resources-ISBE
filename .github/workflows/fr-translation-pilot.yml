@@ -36,8 +36,6 @@ jobs:
             --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
             --output /tmp/isbe-1915-fr-pilot-selection.json \
             --print-samples 19
-      - name: Inspect source-attested complete Abraham entry (temporary, remove before merge)
-        run: python3 -m scripts.export_translation_source --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml --key ABRAHAM --start 200 --limit 200
       - name: Verify selection coverage and no fabricated translation
         run: |
           python3 - <<'PY'
