@@ -23,6 +23,7 @@ ABRAHAM = ROOT / "workspace/translations/isbe-1915/fr/batches/0001-abraham.json"
 EARLY_WAVE01 = ROOT / "workspace/translations/isbe-1915/fr/batches/0002-early-a-entries.json"
 FIRST_25 = ROOT / "workspace/translations/isbe-1915/fr/batches/0003-complete-first-25.json"
 NEXT_NINE = ROOT / "workspace/translations/isbe-1915/fr/batches/0004-short-a-entries.json"
+NEW_EIGHT = ROOT / "workspace/translations/isbe-1915/fr/batches/0005-short-ab-entries.json"
 WAVE01_ROSTER = ROOT / "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json"
 
 
@@ -174,6 +175,33 @@ class TranslationBatchTests(unittest.TestCase):
         self.assertIn("légende", "".join(by_key["ABGAR; ABGARUS; ABAGARUS"].itertext()))
         self.assertIn("King James Version", "".join(by_key["ABHOR"].itertext())
                       + "".join(by_key["ABEZ"].itertext()))
+        self.assertEqual(self.source_hash, sha256(SOURCE))
+
+    def test_eight_short_fr_drafts_preserve_all_original_references(self):
+        additions = json.loads(NEW_EIGHT.read_text(encoding="utf-8"))
+        roster = json.loads(WAVE01_ROSTER.read_text(encoding="utf-8"))
+        by_key = {item["source_key"]: item for item in roster["entries"]}
+        expected = {"ABI-ALBON", "ABIASAPH", "ABIB", "ABIDA",
+                    "ABIDAH", "ABIDAN", "ABIEL", "ABIEZRITE"}
+        self.assertEqual(len(additions["articles"]), len(expected))
+        self.assertEqual({item["source_key"] for item in additions["articles"]}, expected)
+        for article in additions["articles"]:
+            self.assertEqual(article["article_id"], by_key[article["source_key"]]["article_id"])
+            self.assertEqual(len(article["units"]), len({
+                (u["node"], u["part"]) for u in article["units"]
+            }))
+        patch_files = [PILOT, *sorted(NEW_EIGHT.parent.glob("*.json"))]
+        proof, index, body = self._apply(patch_files)
+        expected_count = sum(len(load_patches([path])) for path in patch_files)
+        self.assertEqual(proof["excerpt_entries"], expected_count)
+        self.assertEqual(proof["complete_unreviewed_drafts"], expected_count)
+        self.assertEqual(proof["partial_unreviewed_drafts"], 0)
+        self.assertEqual(proof["human_reviewed"], 0)
+        self.assertFalse(proof["publication_permitted"])
+        self.assertEqual(len(index), len(set(index)))
+        by_key_out = {key: article for (_, key), article in zip(index, body)}
+        self.assertIn("CALENDRIER", "".join(by_key_out["ABIB"].itertext()))
+        self.assertIn("portiers coréites", "".join(by_key_out["ABIASAPH"].itertext()))
         self.assertEqual(self.source_hash, sha256(SOURCE))
 
     def test_wrong_master_wrong_entry_or_duplicate_is_rejected(self):
