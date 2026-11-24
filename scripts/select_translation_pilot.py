@@ -66,8 +66,8 @@ def qualifies(item, bucket):
         "short": length <= 450,
         "medium": 450 < length <= 2500,
         "long": 2500 < length <= 12000,
-        "linked": item["internal_refs"] >= 1 or item["refs"] >= 3,
-        "structured": item["has_nested_div"] or item["has_note"],
+        "linked": length <= 6000 and (item["internal_refs"] >= 1 or item["refs"] >= 3),
+        "structured": length <= 12000 and (item["has_nested_div"] or item["has_note"]),
     }[bucket]
 
 
