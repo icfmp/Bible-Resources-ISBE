@@ -33,3 +33,16 @@ The one-shot Actions workflows for the initial source draft and later native bin
 **The draft remains unpublished** because final reader/editorial acceptance and explicit approval of the actual release are still pending ([#79](https://github.com/icfmp/Bible-Resources-ISBE/issues/79), [#9](https://github.com/icfmp/Bible-Resources-ISBE/issues/9)). No automated workflow may publish this draft unilaterally.
 
 Release content and version metadata are documented in `RELEASE_NOTES.md` and `PUBLICATION_GATES.md`.
+
+## New explicit-work native candidate retained (2026-11-24)
+
+The original draft candidate was preserved as a comparison artifact. The current corrected SWORD module was **rebuilt from `main` at commit `c70a7657b6c4350f7850e8c639f83840a6d27d1f`** after [PR #95](https://github.com/icfmp/Bible-Resources-ISBE/pull/95), audited and uploaded **only to this same unpublished draft** by [run #45346863700](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45346863700). Direct GitHub Releases API verification confirmed `draft=true`, `prerelease=true`, `published_at=null` and the digest below.
+
+- **Current candidate:** `BRISBE1915-native-workid-draft.tar.gz` — 11,731,030 bytes; SHA-256 `6b7edccc0f27fbcf71595597ddd8794a5db72acd3952fb03e1e4e569e7acf3a5`; Release asset ID `786132782`.
+- **Checksum file:** `BRISBE1915-NATIVE-WORKID-SHA256SUMS.txt`.
+- **Private diagnostic assets:** `BRISBE1915-workid-roundtrip.json`, `BRISBE1915-workid-rendered-link.json`.
+- **Exact adapter TEI SHA-256:** `bdac245cad329fdff8039d0374815ff7086b8a5f8055118f1250461b9d5f17ec`. Original corrected TEI master SHA-256 is unchanged, `5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c`.
+- Native `mod2imp`: **9,380/9,380** entries, zero lost/extra, zero Unicode text or XML structural mismatches. Validated **5,919** internal links, **93,164** Bible reference attributes, and **80** reduced intra-article scroll targets.
+- Actual renderer link sample: `sword://BRISBE1915/ARK+OF+BULRUSHES`; both readers resolve the destination in their dictionary/Mag panes; Xiphos Book View still displays an error (see [run #45344977265](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45344977265)).
+
+The old `BRISBE1915-native-candidate-NOT-FOR-PUBLICATION.tar.gz` (SHA-256 `6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b`) remains in the draft solely as **superseded provenance evidence**. It uses the old `self:` links and must not be selected for the eventual public module. No public binary or catalog publication is implied.

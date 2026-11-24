@@ -27,9 +27,9 @@
   "quality": {
     "status": "native_candidate_verified_not_reader_approved",
     "native_sword_readback": "complete_9380_exact_unicode_and_xml",
-    "two_reader_acceptance": "partial_article_display_verified_interactive_pending",
+    "two_reader_acceptance": "dictionary_link_destination_visible_in_mag_panes_book_view_pending",
     "original_print_full_collation_certified": false,
-    "native_sword_readback_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383",
+    "native_sword_readback_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45346863700",
     "native_lexicon_source_format": "TEI_entryFree",
     "native_lexicon_driver": "zLD",
     "native_lexicon_compression": "ZIP",
@@ -52,6 +52,16 @@
       "xiphos": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45279693011",
       "bibletime": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561",
       "bibletime_artifact": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561/artifacts/14869951086"
+    },
+    "native_crosslink_scheme": "BRISBE1915:<entry-key>",
+    "dictionary_link_gui_evidence": {
+      "source_article": "ARK",
+      "destination_article": "ARK OF BULRUSHES",
+      "xiphos_dictionary_view_resolves": true,
+      "xiphos_book_view_resolves": false,
+      "bibletime_magnifier_view_resolves": true,
+      "evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45344977265",
+      "full_two_reader_navigation_certified": false
     }
   },
   "rights": {
@@ -71,15 +81,26 @@
     "status": "compiled_candidate_archived_in_unpublished_release_draft",
     "release_published": false,
     "draft_source_release_only": false,
-    "artifact_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383",
-    "binary_candidate_sha256": "6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b",
+    "artifact_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45346863700",
+    "binary_candidate_sha256": "6b7edccc0f27fbcf71595597ddd8794a5db72acd3952fb03e1e4e569e7acf3a5",
     "binary_candidate_not_released": true,
     "draft_release_id": 455869112,
     "draft_tag": "isbe-1915-v0.1.0-rc.1",
-    "draft_binary_asset": "BRISBE1915-native-candidate-NOT-FOR-PUBLICATION.tar.gz",
-    "draft_binary_sha256": "6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b",
+    "draft_binary_asset": "BRISBE1915-native-workid-draft.tar.gz",
+    "draft_binary_sha256": "6b7edccc0f27fbcf71595597ddd8794a5db72acd3952fb03e1e4e569e7acf3a5",
     "temporary_actions_binary_deleted": true,
-    "draft_contains_source_and_native_candidate": true
+    "draft_contains_source_and_native_candidate": true,
+    "legacy_archived_candidate": {
+      "file": "BRISBE1915-native-candidate-NOT-FOR-PUBLICATION.tar.gz",
+      "sha256": "6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b",
+      "import_tei_sha256": "6d5262d69ca13724a9a9a3bcd8cd23e957aefddfeeb0be20a7ce59e2d97fa745",
+      "retained_for_provenance": true
+    },
+    "latest_draft_stage_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45346863700",
+    "latest_draft_native_import_sha256": "bdac245cad329fdff8039d0374815ff7086b8a5f8055118f1250461b9d5f17ec",
+    "draft_binary_checksum_asset": "BRISBE1915-NATIVE-WORKID-SHA256SUMS.txt",
+    "publication_status_verified": "draft_unpublished_published_at_null_2026-11-24",
+    "latest_draft_asset_size": 11731030
   },
   "sword_id": "BRISBE1915"
 }

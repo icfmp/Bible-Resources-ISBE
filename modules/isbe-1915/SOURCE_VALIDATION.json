@@ -8,7 +8,7 @@
   "corrected_historical_tei_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "export_script": "scripts/export_tei_dictionary_for_sword.py",
   "import_driver": "tei2mod zLD ZIP unmodified UTF8",
-  "import_tei_sha256": "6d5262d69ca13724a9a9a3bcd8cd23e957aefddfeeb0be20a7ce59e2d97fa745",
+  "import_tei_sha256": "bdac245cad329fdff8039d0374815ff7086b8a5f8055118f1250461b9d5f17ec",
   "source_entry_count": 9380,
   "native_readback_entries": 9380,
   "native_readback_missing_entries": 0,
@@ -25,8 +25,8 @@
   ],
   "xiphos_accepted": false,
   "second_reader_accepted": false,
-  "built_native_candidate_archive_sha256": "6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b",
-  "compiled_candidate_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45259095383",
+  "built_native_candidate_archive_sha256": "6b7edccc0f27fbcf71595597ddd8794a5db72acd3952fb03e1e4e569e7acf3a5",
+  "compiled_candidate_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45346863700",
   "original_1915_print_fully_collated": false,
   "original_greek_hebrew_fully_restored": false,
   "redistributed": false,
@@ -64,9 +64,29 @@
     "actual_clicked_links_verified": false,
     "foreign_script_rendering_certified": false,
     "nested_section_rendering_certified": false,
-    "two_reader_full_acceptance": false
+    "two_reader_full_acceptance": false,
+    "dictionary_link_click_evidence": {
+      "source_article": "ARK",
+      "destination_article": "ARK OF BULRUSHES",
+      "xiphos_dictionary_view_resolves": true,
+      "xiphos_book_view_resolves": false,
+      "bibletime_magnifier_view_resolves": true,
+      "full_two_reader_navigation_certified": false,
+      "run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45344977265"
+    }
   },
   "maintainer_public_domain_distribution_basis_accepted": true,
   "further_legal_review_required_for_publication": false,
-  "independent_jurisdictional_rights_certification_performed": false
+  "independent_jurisdictional_rights_certification_performed": false,
+  "previous_candidate": {
+    "archived_asset": "BRISBE1915-native-candidate-NOT-FOR-PUBLICATION.tar.gz",
+    "archive_sha256": "6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b",
+    "adapter_import_sha256": "6d5262d69ca13724a9a9a3bcd8cd23e957aefddfeeb0be20a7ce59e2d97fa745",
+    "kept_in_unpublished_draft_for_comparison": true
+  },
+  "native_crosslink_target_scheme": "explicit_SWORD_module_ID_colon_entry_key",
+  "native_rendered_dictionary_href": "sword://BRISBE1915/ARK+OF+BULRUSHES",
+  "staged_workid_native_candidate_asset": "BRISBE1915-native-workid-draft.tar.gz",
+  "staged_workid_native_candidate_size": 11731030,
+  "staged_workid_binary_verified_in_unpublished_draft": true
 }
