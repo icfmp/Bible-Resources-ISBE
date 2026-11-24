@@ -3,7 +3,7 @@
   "source_work": "ISBE 1915 — corrected historical English master",
   "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "language": "fr",
-  "status": "translation_in_progress",
+  "status": "unreviewed_drafts",
   "publication_permitted": false,
   "articles": [
     {
@@ -3022,119 +3022,121 @@
       "source_key": "ANAKIM",
       "article_id": "isbe-069b6ac8a6795c5237eb",
       "source_article_sha256": "4d0c23f2b2bc00b18516acac26e3d696b69359038aac944c90025f5f25f9da86",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANAKIM",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANAKIM",
+          "action": "preserve",
+          "reason": "Canonical source headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "an'-a-kim (`anaqim; Enakim, or Enakeim; also called \"sons of Anak\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "an'-a-kim (`anaqim ; Enakim ou Enakeim ; également « fils d'Anak » (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "), and \"sons of the Anakim\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") et « fils des Anakim » (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": ")): The spies (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ")) : Les explorateurs (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": ") compared them to the Nephilim or \"giants\" of ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") les comparèrent aux Nephilim, ou « géants », de ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": ", and according to ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; selon ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " they were reckoned among the ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", ils étaient comptés parmi les ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "REPHAIM",
-          "target": "",
-          "action": "pending_translation"
+          "target": "REPHAÏM",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": " (which see). In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (voir cet article). En ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": " the chiefs of Hebron are said to be descendants of Anak, while \"the father of Anak\" is stated in Jos (15:13; 21:11) to be Arba after whom Hebron was called \"the city of Arba.\" Jos \"cut off the Anakim .... from Hebron, from Debir, from Anab, .... and from all the hill-country of Israel,\" remnants of them being left in the Philistine cities of Gaza, Gath and Ashdod (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", les chefs d'Hébron sont appelés descendants d'Anak, tandis que le « père d'Anak » est Arba selon Josué (15:13 ; 21:11), d'où le nom d'Hébron, « ville d'Arba ». Josué « extermina les Anakim […] d'Hébron, de Debir, d'Anab […] et de toute la région montagneuse d'Israël ». Il n'en resta que dans les cités philistines de Gaza, Gath et Ashdod (",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": "). As compared with the Israelites, they were tall like giants (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Comparés aux Israélites, ils étaient aussi grands que des géants (",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "tail",
           "source": "), and it would therefore seem that the \"giant\" Goliath and his family were of their race.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; Goliath et sa famille auraient donc appartenu à leur peuple.",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "At Hebron, at the time of the Israelite conquest, we may gather that they formed the body-guard of the Amorite king (see ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "À Hébron, lors de la conquête israélite, ils formaient peut-être la garde du corps du roi amoréen (voir ",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "tail",
           "source": ") under their three leaders Sheshai, Ahiman and Talmai (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") sous trois chefs : Sheshaï, Ahiman et Talmaï (",
+          "action": "translate"
         },
         {
           "node": 17,
           "part": "tail",
           "source": "). Tell el-Amarna Letters show that the Canaanite princes were accustomed to surround themselves with bodyguards of foreign mercenaries. It appears probable that the Anakim came from the Aegean like the Philistines, to whom they may have been related. The name Anak is a masculine corresponding with a feminine which we meet with in the name of the goddess Onka, who according to the Greek writers, Stephanus of Byzantium and Hesychius, was the \"Phoen,\" i.e. Syrian equivalent of Athena. Anket or Anukit was also the name of the goddess worshipped by the Egyptians at the First Cataract. In the name Ahi-man it is possible that \"-man\" denotes a non-Semitic deity.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Les lettres de Tell el-Amarna montrent que les princes cananéens s'entouraient souvent de gardes mercenaires étrangers. Les Anakim seraient venus de la mer Égée, comme les Philistins, auxquels ils auraient pu être apparentés. Le nom Anak est masculin et correspondrait à un féminin présent dans le nom d'Onka, déesse que les auteurs grecs Étienne de Byzance et Hésychius disent être l'équivalent « phénicien », donc syrien, d'Athéna. Anket ou Anukit était aussi le nom d'une déesse adorée en Égypte près de la première cataracte. Dans Ahi-man, « -man » pourrait renvoyer à une divinité non sémitique.",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "text",
           "source": "A. H. Sayce",
-          "target": "",
-          "action": "pending_translation"
+          "target": "A. H. Sayce",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -3142,77 +3144,79 @@
       "source_key": "ANAMMELECH",
       "article_id": "isbe-d8c19050a7facf1cd6dc",
       "source_article_sha256": "2deea16fa3bd0e675d476a37f99c458d478b100ebb813aa8ca1f1add61a0ac66",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANAMMELECH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANAMMELECH",
+          "action": "preserve",
+          "reason": "Canonical source headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-nam'-e-lek (`anammelekh = Assyrian Anu-malik, \"Anu is the prince\"): A Babylonian (?) deity worshipped by the Sepharvites in Samaria, after being transported there by Sargon. The worship of Adrammelech (who is mentioned with Anammelech) and Anammelech is accompanied by the sacrifice of children by fire: \"The Sepharvites burnt their children in the fire to Adrammelech and Anammelech, the gods of Sepharvaim\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-nam'-e-lek (`anammelekh, équivalent de l'assyrien Anu-malik, « Anu est prince ») : Divinité babylonienne (?) adorée par les Sépharvites en Samarie après leur transfert par Sargon. Les cultes d'Adrammélec et d'Anammélec étaient associés aux sacrifices d'enfants par le feu : « Les Sépharvites brûlaient leurs enfants dans le feu à Adrammélec et Anammélec, dieux de Sepharvaïm » (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "). This passage presents two grave difficulties. First, there is no evidence in cuneiform literature that would point to the presence of human sacrifice, by fire or otherwise, as part of the ritual; nor has it been shown that the sculptures or bas-reliefs deny this thesis.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Ce passage soulève deux graves difficultés. D'abord, aucune source cunéiforme ne démontre que le sacrifice humain, par le feu ou autrement, faisait partie de ce rituel ; mais rien ne prouve non plus que les sculptures ou bas-reliefs permettent d'exclure cette hypothèse.",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "Much depends upon the identification of \"Sepharvaim\"; if, as some scholars hold, Sepharvaim and Sippar are one and the same cities, the two deities referred to are Babylonian. But there are several strong objections to this theory. It has been suggested that Sepharvaim (Septuagint, seppharin, sepphareimi) is rather identical with \"Shabara'in,\" a city mentioned in the Babylonian Chronicle as having been destroyed by Shalmaneser IV. As Sepharvaim and Arpad and Hamath are grouped together (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "L'interprétation dépend largement de l'identification de « Sepharvaïm ». Si la ville désigne Sippar, comme le soutiennent certains, les divinités seraient babyloniennes. Mais cette hypothèse se heurte à de fortes objections. On a proposé de rapprocher Sepharvaïm (Septante : seppharin, sepphareimi) de « Shabara'in », ville mentionnée dans la Chronique babylonienne comme détruite par Salmanasar IV. Puisque Sepharvaïm est cité avec Arpad et Hamath (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": ") in two passages, it is probable that Sepharvaim is a Syriac city. Sepharvaim may then be another form of \"Shabara'in,\" which, in turn, is the Assyrian form of Sibraim (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") dans deux passages, il pourrait s'agir d'une ville syrienne. Sepharvaïm serait alors une autre forme de « Shabara'in », elle-même forme assyrienne de Sibraïm (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": "), a city in the neighborhood of Damascus (of Halevy, ZA, II, 401 ff). One objection to this last is the necessity for representing \"c\" by \"sh\"; this is not necessarily insurmountable, however. Then, the attempt to find an Assyrian etymology for the two god-names falls to the ground. Besides, the custom of sacrifice by fire was prevalent in Syria. Secondly, the god that was worshipped at Sippar was neither Adrammelech nor Anammelech but Samas. It is improbable, as some would urge, that Adrammelech is a secondary title of the tutelary god of Sippar; then it would have to be shown that Anu enjoyed special reverence in this city which was especially consecrated to the worship of the Sun-god. (For \"Anu\" see ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), ville proche de Damas (Halevy, ZA, II, p. 401 et suiv.). Une difficulté est le passage de « c » à « sh », pas nécessairement insurmontable. La tentative d'expliquer les noms divins par l'assyrien devient alors sans fondement ; en outre, les sacrifices par le feu étaient répandus en Syrie. La seconde difficulté est qu'à Sippar on adorait principalement Shamash, non Adrammélec ou Anammélec. Il est peu probable qu'Adrammélec fût un titre secondaire du dieu protecteur de Sippar ; il resterait à démontrer qu'Anu y recevait un culte particulier alors que cette ville était spécialement consacrée au dieu solaire. Sur « Anu », voir ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "ASSYRIA",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ASSYRIE",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": ".) It may be that the text is corrupt. See also ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". Le texte biblique pourrait être corrompu. Voir aussi ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "ADRAMMELECH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ADRAMMÉLEC",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "text",
           "source": "H. J. Wolf",
-          "target": "",
-          "action": "pending_translation"
+          "target": "H. J. Wolf",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -3220,77 +3224,78 @@
       "source_key": "ANNA",
       "article_id": "isbe-5c5a268702708ababeb9",
       "source_article_sha256": "b3fe655e7785a52b7d731fd6806d480a7117bde7bcd9f36bcdfd86a10d4ac845",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANNA",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANNE",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "an'-a (Anna (Westcott-Hort, Hanna; see Intro, 408); Hebrew equivalent channah, signifying \"grace\" ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "an'-a (Anna ; Westcott-Hort : Hanna, voir Introduction, p. 408 ; équivalent hébreu channah, « grâce », ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "(1) The wife of Tobit (Tobit 1:9).",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Épouse de Tobit (Tobie 1:9).",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "(2) A \"prophetess,\" daughter of Phanuel, of the tribe of Asher, and thus a Galilean, living in Jerusalem at the time of Jesus' birth (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) « Prophétesse », fille de Phanuel, de la tribu d'Aser, donc Galiléenne, vivant à Jérusalem lors de la naissance de Jésus (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": "). \"Of a great age,\" she must have been considerably over 100 years, having been a widow 84 years after a short married life of seven (see the Revised Version (British and American)). Exceptionally devout and gifted in spirit, she worshipped so constantly \"with fastings and supplications night and day,\" that she is said to have \"departed not from the temple.\" Some have mistakenly supposed that this signified permanent residence in the temple. The fact that her lineage is recorded indicates the distraction of her family. Tradition says that the tribe of Asher was noted for the beauty and talent of its women, who for these gifts, were qualified for royal and high-priestly marriage. While the tribe of Asher was not among the tribes that returned from the Babylonian exile to Palestine, many of its chief families must have done so as in the case of the prophetess. The period of war and national oppression, through which Anna's early life was passed, created in her, as in the aged Simeon, an intense longing for the \"redemption\" promised through the Messiah. See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Elle était « d'un âge très avancé » : ayant vécu quatre-vingt-quatre années de veuvage après un mariage de sept ans, elle devait dépasser largement cent ans, selon l'auteur et sa lecture de la Revised Version. Exceptionnellement pieuse et douée spirituellement, elle adorait Dieu constamment « par des jeûnes et des prières nuit et jour », au point qu'on dit qu'elle « ne quittait pas le Temple ». Certains ont pensé à tort que cela signifiait qu'elle y résidait en permanence. La mention de sa lignée montre la distinction de sa famille [le texte anglais imprime « distraction »]. D'après la tradition, les femmes de la tribu d'Aser étaient réputées pour leur beauté et leurs talents, ce qui les rendait aptes à épouser des rois et des grands prêtres. Bien qu'Aser ne figure pas parmi les tribus revenues officiellement de l'exil babylonien en Palestine, plusieurs familles importantes durent y retourner, comme celle de la prophétesse. La guerre et l'oppression nationale traversées dans sa jeunesse suscitèrent chez Anne, comme chez le vieux Siméon, une attente ardente de la « rédemption » promise par le Messie. Voir ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "SIMEON",
-          "target": "",
-          "action": "pending_translation"
+          "target": "SIMÉON",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": ". This hope of national deliverance sustained her through more than four decades of patient waiting. In the birth of Jesus her faith was abundantly rewarded, and she became a grateful and ceaseless witness \"to all them that were looking for the redemption of Jerusalem,\" that the day of their spiritual deliverance had come.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". Cet espoir de délivrance nationale la soutint pendant plus de quarante années d'attente patiente. À la naissance de Jésus, sa foi fut abondamment récompensée ; elle témoigna désormais sans relâche avec gratitude « à tous ceux qui attendaient la rédemption de Jérusalem » que le jour de leur délivrance spirituelle était venu.",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "LITERATURE",
-          "target": "",
-          "action": "pending_translation"
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "text",
           "source": "See Edersheim, Life and Times of Jesus, I, 200-201, Gelkie, Life and Words of Christ, I, 133-34.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Voir Edersheim, Life and Times of Jesus, I, p. 200–201 ; Geikie [« Gelkie » dans cette source], Life and Words of Christ, I, p. 133–134.",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "Dwight M. Pratt",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -3298,168 +3303,170 @@
       "source_key": "ANTEDILUVIANS",
       "article_id": "isbe-c73935a6b4a9dde75b00",
       "source_article_sha256": "7896ef8b24dd21b5f744e51d24135a2566a5c8ab26cee5593da7197b3b5b1a3f",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANTEDILUVIANS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANTÉDILUVIENS",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "an-te-di-lu'-vi-ans.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "an-te-di-lu'-vi-ans.",
+          "action": "preserve",
+          "reason": "Original source label"
         },
         {
           "node": 3,
           "part": "text",
           "source": "1. Chronology Uncertain:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "1. Une chronologie incertaine :",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "According to the ordinary interpretation of the genealogical tables in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Selon l'interprétation ordinaire des tableaux généalogiques de ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": " the lives of the antediluvians were prolonged to an extreme old age, Methuselah attaining that of 969 years. But before accepting these figures as a basis of interpretation it is important to observe that the Hebrew, the Samaritan and the Septuagint texts differ so radically in their sums that probably little confidence can be placed in any of them. The Septuagint adds 100 years to the age of six of the antediluvian patriarchs at the birth of their eldest sons. This, taken with the great uncertainty connected with the transmission of numbers by the Hebrew method of notation, makes it unwise to base important conclusions upon the data accessible. The most probable interpretation of the genealogical table in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", les antédiluviens vivaient jusqu'à un âge extrêmement avancé ; Mathusalem aurait atteint neuf cent soixante-neuf ans. Mais avant de prendre ces chiffres comme base d'interprétation, il importe de constater les fortes divergences entre les textes hébreu, samaritain et grec de la Septante, qui incitent à ne guère se fier à une somme particulière. La Septante ajoute cent ans à l'âge de six patriarches antédiluviens lors de la naissance de leurs fils aînés. Cette différence, jointe aux incertitudes de transmission des nombres dans la notation hébraïque, rend imprudent de tirer d'importantes conclusions des données disponibles. Selon l'auteur, l'interprétation la plus vraisemblable de la généalogie de ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " is that given by the late Professor William Henry Green, who maintains that it is not Intended to give chronology, and does not give it, but only indicates the line of descent, as where (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " est celle du défunt professeur William Henry Green : elle ne vise pas à établir une chronologie et ne le fait pas ; elle indique seulement une lignée, comme en ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": ") we read that \"Shebuel the son of Gershom, the son of Moses, was ruler over the treasures\"; whereas, while Gershom was the immediate son of Moses, Shebuel was separated from Gershom by several generations. According to the interpretation of Professor Green all that we can certainly infer from the statement in Hebrew that Adam was 130 years old when he begat Seth, is that at that age the line branched off which culminated in Seth, it being permitted, according to Hebrew usage, to interpolate as many intermediate generations as other evidence may compel.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Shebuel, fils de Guershom, fils de Moïse, était responsable des trésors », alors que plusieurs générations séparaient Shebuel de Guershom, fils immédiat de Moïse. Green estime que dire qu'Adam avait cent trente ans à la naissance de Seth permet seulement de conclure qu'à cet âge se détacha la branche généalogique aboutissant à Seth : l'usage hébreu laisserait la possibilité d'y intercaler autant de générations que d'autres preuves imposeraient.",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "2. Meaning of Genealogies:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "2. Sens des généalogies :",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "As in the genealogies of Christ in the Gospels, the object of the tables in Genesis is evidently not to give chronology, but the line of descent. This conclusion is supported by the fact that no use is made afterward of the chronology, whereas the line of descent is repeatedly emphasized. This method of interpretation allows all the elasticity to prehistoric chronology that any archaeologist may require. Some will get further relief from the apparent incredibility of the figures by the Interpretation of Professor A. Winchell, and T. P. Crawford (Winchell, Pre-adamites, 449 ff) that the first number gives the age of actual life of the individual while the second gives that of the ascendancy of his family, the name being that of dynasties, like Caesar or Pharaoh.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Comme celles du Christ dans les Évangiles, les généalogies de la Genèse auraient pour objectif d'indiquer la descendance, et non de fixer une chronologie. Le récit ultérieur ne se sert pas de ces chiffres chronologiques, tandis qu'il souligne souvent les lignées : ce constat appuie l'interprétation. Elle laisserait à la préhistoire toute la souplesse chronologique dont un archéologue pourrait avoir besoin. Certains trouveraient une autre solution à l'apparente invraisemblance des chiffres dans l'hypothèse du professeur A. Winchell et de T. P. Crawford (Winchell, Pre-adamites, p. 449 et suiv.) : le premier nombre serait la durée de vie de l'individu, le second la durée de prééminence de sa famille ; le nom représenterait alors une dynastie, comme César ou Pharaon.",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "text",
           "source": "3. The Nephilim:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "3. Les Nephilim :",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "The nephilim (giants) and the mighty men born of \"the sons of God\" and the \"daughters of men\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Les Nephilim, ou géants, et les hommes puissants nés des « fils de Dieu » et des « filles des hommes » (",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "tail",
           "source": ") are according to the best interpretation \"giants in wickedness,\" being the fruit of intermarriage between the descendants of Seth (\"sons of God\" who called on the name of Yahweh, ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") seraient, selon l'interprétation que l'auteur estime la meilleure, des « géants dans la méchanceté » issus d'unions entre descendants de Seth (« fils de Dieu » invoquant le nom de Yahvé, ",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "tail",
           "source": "), and the \"daughters of men.\" The idea that \"sons of God\" refers to angels or demigods has no support in Scripture. On this familiar designation of the worshippers of the true God see ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") et « filles des hommes ». L'auteur affirme que voir des anges ou des demi-dieux dans les « fils de Dieu » ne serait pas fondé sur l'Écriture. Pour l'usage de cette appellation désignant les adorateurs du vrai Dieu, voir ",
+          "action": "translate"
         },
         {
           "node": 17,
           "part": "tail",
           "source": ", repeatedly; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " à plusieurs reprises ; ",
+          "action": "translate"
         },
         {
           "node": 22,
           "part": "tail",
           "source": ". Intermarriage with depraved races such as is here intimated produced the results which were guarded against in the Mosaic law prohibiting marriages with the surrounding idolatrous nations. The word Nephilim in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". Ces mariages avec des populations décrites comme corrompues auraient provoqué les conséquences que la loi mosaïque visait à prévenir en interdisant les mariages avec les nations idolâtres voisines. Le terme Nephilim de ",
+          "action": "translate"
         },
         {
           "node": 23,
           "part": "tail",
           "source": " occurs again only in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " n'apparaît ailleurs qu'en ",
+          "action": "translate"
         },
         {
           "node": 24,
           "part": "tail",
           "source": " (the King James Version \"giants\"). But the word is more probably a descriptive term than the name of a race. In the older Greek versions it is translated \"violent men.\"",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (« géants » dans la King James Version). Il s'agirait plutôt d'un qualificatif que du nom d'un peuple : les versions grecques anciennes traduisent par « hommes violents ».",
+          "action": "translate"
         },
         {
           "node": 25,
           "part": "text",
           "source": "4. The Ice Age:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "4. L'ère glaciaire :",
+          "action": "translate"
         },
         {
           "node": 26,
           "part": "text",
           "source": "The antediluvians are, with great probability, identified by some geologists (Sir William Dawson, e.g.) with glacial or paleolithic man, whose implements and remains are found buried beneath the deposits of glacial floods in northern France, southern England, southern Russia, and in the valleys of the Delaware, Ohio and Missouri rivers in America. The remains of \"paleolithic\" men reveal only conditions of extreme degradation and savagery, in which violence reigned. The sparse population which was spread over the northern hemisphere during the closing floods of the Glacial period lived in caves of the earth, and contended with a strange variety of gigantic animals which became extinct at the same time with their human contemporaries. See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Certains géologues de l'époque, comme sir William Dawson, identifiaient avec une grande probabilité, à leurs yeux, les antédiluviens à l'homme glaciaire ou paléolithique dont les outils et restes se trouvent enfouis sous les dépôts d'inondations glaciaires dans le nord de la France, le sud de l'Angleterre, le sud de la Russie et les vallées américaines du Delaware, de l'Ohio et du Missouri. Ils décrivaient ces hommes paléolithiques comme vivant dans un état extrême de dégradation et de sauvagerie, dominé par la violence. Cette population peu dense aurait vécu dans des grottes de l'hémisphère Nord lors des dernières crues de l'ère glaciaire et lutté contre diverses espèces d'animaux géants qui se seraient éteintes à la même époque. Voir ",
+          "action": "translate"
         },
         {
           "node": 27,
           "part": "text",
           "source": "DELUGE OF NOAH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "DÉLUGE DE NOÉ",
+          "action": "translate"
         },
         {
           "node": 29,
           "part": "text",
           "source": "LITERATURE.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
         },
         {
           "node": 30,
           "part": "text",
           "source": "Green, \"Primeval Chronology,\" Bibliotheca Sacra, April, 1890; Dawson, Modern Science in Bible Lands; B. B. Warfield, \"On the Antiquity and the Unity of the Human Race,\" Princeton Theol. Review, January, 1911; Winchell, Pre-adamites; Wright, Ice Age in North America, 5th ed.; Man and the Glacial Period, and Scientific Confirmations of Old Testament History.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Green, « Primeval Chronology », Bibliotheca Sacra, avril 1890 ; Dawson, Modern Science in Bible Lands ; B. B. Warfield, « On the Antiquity and the Unity of the Human Race », Princeton Theological Review, janvier 1911 ; Winchell, Pre-adamites ; Wright, Ice Age in North America, 5e éd. ; Man and the Glacial Period ; et Scientific Confirmations of Old Testament History.",
+          "action": "translate"
         },
         {
           "node": 31,
           "part": "text",
           "source": "George Frederick Wright",
-          "target": "",
-          "action": "pending_translation"
+          "target": "George Frederick Wright",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -3467,84 +3474,86 @@
       "source_key": "ANTELOPE",
       "article_id": "isbe-8fac9b410eb04c337e48",
       "source_article_sha256": "736e57d594b92e90744e748a222d26af151574e095de78a44c5525c8da983210",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANTELOPE",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANTELOPE",
+          "action": "preserve",
+          "reason": "Canonical source headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "an'-te-lop (RV; the King James Version \"wild ox,\" te'o (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "an'-te-lop (Revised Version ; King James Version : « bœuf sauvage », te'o, ",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "), and \"wild bull,\" to (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; et « taureau sauvage », to, ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": ")); orux (The Septuagint in Codex Vaticanus has hos seutlion hemiephthon, literally, \"like a half-cooked beet-root\"): The dorcas gazelle (Gazella dorcas) is widely distributed in Syria, Palestine and Arabia.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; orux ; la Septante dans le Codex Vaticanus lit hos seutlion hemiephthon, littéralement « comme une betterave à moitié cuite ») : La gazelle dorcas (Gazella dorcas) est largement répandue en Syrie, Palestine et Arabie.",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "The recently discovered Merrill's gazelle (Gazella Merrilli) inhabits the hilly country near Jerusalem and is not commonly distinguished from the dorcas gazelle. Probably the only other antelope within this range is the Arabian oryx (Oryx beatrix). Tristram cites two African species (the bubaline antelope, Bubalis mauretanica, and the addax, Addax nasomaculatus) as existing in the Sinaitic peninsula, southern Palestine and Arabia, but he did not collect specimens of either and was probably misled by statements of the Arabs which in both cases really referred to the oryx. The only naturalist who has ever penetrated into Northwest Arabia is Mr. Douglas Carruthers, who went in 1909 on a collecting expedition for the Syrian Protestant College at Beirut, his object being to obtain the oryx and any other large antelopes which might be found there. Through observation and repeated inquiry he became convinced that neither the addax nor the bubaline antelope is found in Arabia. Tristram says the addax is called maha' and the bubaline antelope baqar-ul-wachsh, both of which names are in fact used by the Arabs for the oryx, which is also according to Doughty called wadichah.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "La gazelle de Merrill (Gazella merrilli), récemment découverte à l'époque de l'article, habitait les collines de Jérusalem et n'était pas généralement distinguée de la gazelle dorcas. L'oryx d'Arabie (Oryx beatrix) était probablement le seul autre grand bovidé de type antilope dans la région. Tristram citait deux espèces africaines, l'antilope bubale (Bubalis mauretanica) et l'addax (Addax nasomaculatus), dans le Sinaï, le sud de la Palestine et l'Arabie ; mais il ne recueillit aucun spécimen et fut probablement induit en erreur par les Arabes, qui désignaient en réalité l'oryx. Selon l'auteur, le seul naturaliste à avoir pénétré en Arabie du Nord-Ouest était alors Douglas Carruthers, qui y mena en 1909 une expédition de collecte pour le Syrian Protestant College de Beyrouth afin de trouver l'oryx et d'éventuelles autres grandes antilopes. Après observations et enquêtes, il estima que ni l'addax ni l'antilope bubale ne vivaient en Arabie. Tristram appelle l'addax maha' et la bubale baqar-ul-wachsh, mais les Arabes donnaient ces deux noms à l'oryx, appelé aussi wadichah selon Doughty.",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "Tsebhi in the list of clean animals in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Tsebhi, dans la liste des animaux purs en ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " (the King James Version \"roebuck\"; the Revised Version (British and American) \"gazelle\") is quite certainly gazelle, Arabic zabi (which see), so it is quite possible that te'o may be the oryx. It is noteworthy that it is rendered oryx (orux) in the Septuagint. It must be borne in mind that re'm or re'em, rendered \"unicorn\" (which see) in the King James Version and \"wild ox\" in the Revised Version (British and American), may perhaps also be the oryx. That the oryx should be called by two names in the Bible need not be considered strange, in view of the indefiniteness of Semitic ideas of natural history, which is directly evidenced by the three names now used for this animal by the Arabs.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (« chevreuil » dans la King James Version, « gazelle » dans la Revised Version britannique et américaine), est presque certainement la gazelle, arabe zabi (voir cet article). Te'o pourrait donc désigner l'oryx ; la Septante le traduit d'ailleurs par orux. Il faut garder à l'esprit que re'm ou re'em, « licorne » dans la King James Version et « bœuf sauvage » dans la Revised Version, pourrait lui aussi être l'oryx. Que deux mots bibliques désignent cet animal n'aurait rien d'étonnant compte tenu de l'imprécision des classifications naturalistes sémitiques, comme l'attesteraient les trois noms arabes actuels de cet animal.",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "The slightly different form [to'] (the King James Version \"wild bull\"; the Revised Version (British and American) \"antelope\") found in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "La forme légèrement différente to' (King James Version : « taureau sauvage » ; Revised Version : « antilope »), rencontrée en ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": " (\"Thy sons have fainted, they lie at the head of all the streets, as an antelope in a net\") may quite as well refer to the oryx as to any other animal. According to Gesenius the word is derived from the verb ta'ah, \"to outrun,\" which would be appropriate for this or any antelope.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (« Tes fils se sont évanouis ; ils gisent au coin de toutes les rues, comme une antilope dans un filet »), pourrait désigner l'oryx aussi bien qu'un autre animal. Gesenius rattache le mot au verbe ta'ah, « dépasser à la course », ce qui conviendrait à toute antilope.",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "text",
           "source": "The accompanying illustration is from a photograph of a well-grown female oryx in the zoological gardens at Cairo, which is 35 inches high at the shoulder and whose horns are 21 inches long. An adult male measures 40 inches at the shoulders, 59 inches from tip of nose to root of tail, and the longest horns known measure 27 1/4 inches. The color is pure white with dark brown or black markings. It is a powerful animal and its horns may inflict dangerous wounds. It inhabits the deserts of Arabia and its remarkably large hoofs seem well adapted to traversing the sands. It feeds upon grasses and upon certain succulent roots, and the Bedouin declare that never drinks. Under its name of maha' it is celebrated in Arabic poetry for the beauty of its eyes. Compare the Homeric \"ox-eyed goddess Hera\" (Boopis potnia Ere). Baqar-ul-wachsh, the name most commonly used by the Bedouin, means \"wild cow\" or \"wild ox,\" which is identical with the translation of te'o in the King James Version.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "L'illustration accompagnant la notice, selon l'auteur, était tirée d'une photographie d'une femelle oryx adulte du jardin zoologique du Caire, mesurant trente-cinq pouces au garrot et portant des cornes de vingt et un pouces. Un mâle adulte mesure quarante pouces au garrot, cinquante-neuf pouces du museau à la naissance de la queue ; les cornes les plus longues connues atteignaient vingt-sept pouces et quart. L'animal est blanc pur, marqué de brun sombre ou de noir. Puissant, il peut infliger de graves blessures avec ses cornes. Il vit dans les déserts d'Arabie et ses sabots remarquablement grands lui permettent de traverser le sable. Il mange des herbes et certaines racines succulentes ; les Bédouins prétendent qu'il ne boit jamais. Sous le nom maha', la poésie arabe célèbre la beauté de ses yeux ; comparer la déesse Héra « aux yeux de bœuf » d'Homère (Boopis potnia Ere). Le nom le plus courant chez les Bédouins, baqar-ul-wachsh, signifie « vache sauvage » ou « bœuf sauvage », traduction identique à celle de te'o dans la King James Version.",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "Alfred Ely Day",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Alfred Ely Day",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     }
