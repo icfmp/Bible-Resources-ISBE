@@ -74,6 +74,10 @@ class TranslationBatchTests(unittest.TestCase):
         self.assertIn("J. Oscar Boyd", readable)
         self.assertNotIn("partial_unreviewed", readable)
         self.assertGreater(len(readable), 25000)
+        self.assertEqual(readable, (
+            ROOT / "workspace/translations/isbe-1915/fr/reviews/ABRAHAM.md"
+        ).read_text(encoding="utf-8"))
+        self.assertEqual(readable.count("\n### "), 21)
         self.assertEqual(self.source_hash, sha256(SOURCE))
 
     def test_pilot_and_new_batch_reuse_one_canonical_index(self):
