@@ -3,7 +3,7 @@
   "source_work": "ISBE 1915 — corrected historical English master",
   "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "language": "fr",
-  "status": "translation_in_progress",
+  "status": "unreviewed_drafts",
   "publication_permitted": false,
   "articles": [
     {
@@ -2419,98 +2419,99 @@
       "source_key": "ADVERSARY",
       "article_id": "isbe-87678ac8ff7a78fc0391",
       "source_article_sha256": "62880a03ad6df33a36109037b253bf9b934735d82020944c4cad79f06518ec02",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ADVERSARY",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ADVERSAIRE",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ad'-ver-sa-ri, ad'-ver-sa-ri: This word (in the singular or plural) is used in the Old Testament to render different Hebrew words. In thirty-two cases the word corresponds to the noun tsar, or the verb tsarar. This noun is the ordinary word for \"foe\" or \"adversary.\" In twelve passages the Hebrew word, of which \"adversary\" is the translation, is saTan = noun or saTan = verb. This stem means \"to oppose,\" or \"thwart\" anyone in his purpose or claims.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ad'-ver-sa-ri, ad'-ver-sa-ri : Dans l'Ancien Testament, le mot anglais « adversaire », au singulier comme au pluriel, traduit plusieurs mots hébreux. Trente-deux fois, il correspond au substantif tsar ou au verbe tsarar. Le substantif est le terme courant pour « ennemi » ou « adversaire ». Dans douze passages, le mot hébreu est saTan, employé comme nom ou verbe, de la racine « s'opposer », « contrarier » les projets ou les prétentions de quelqu'un.",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "The angel of Yahweh was saTan to Balaam (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "L'ange de Yahvé fut saTan pour Balaam (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": "). The word often denotes a political adversary (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Le mot désigne souvent un adversaire politique (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": "). In four cases (namely, Prologue to Job; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Dans quatre cas (notamment le prologue de Job, ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": ") the King James Version retains Satan as the rendering. But it is only in 1 Chronicles that the word is used without the article, that is, strictly as a proper name. The Septuagint gives diabolos, as the rendering, and both in Job and Zechariah, Satan is portrayed as the \"false accuser.\" In two cases \"adversary\" represents two Hebrew expressions which mean the \"opponent in a suit\" or \"controversy\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), la King James Version garde le nom Satan. Mais seule sa présence dans les Chroniques, sans article, correspond strictement à un nom propre. La Septante traduit par diabolos. Dans Job et Zacharie, Satan est présenté comme un « faux accusateur ». Deux fois, « adversaire » rend des expressions hébraïques signifiant « partie adverse dans un procès » ou un « litige » (",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "text",
           "source": "In the New Testament \"adversary\" represents:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Dans le Nouveau Testament, « adversaire » traduit :",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "text",
           "source": "(1) antikeimenoi, the participle of a verb which means \"to be set over against,\" \"to be opposed\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) antikeimenoi, participe d'un verbe signifiant « se dresser contre », « être opposé » (",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "text",
           "source": "(2) antidikos, \"opponent in a lawsuit,\" \"prosecutor\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) antidikos, « adversaire en justice », « accusateur » (",
+          "action": "translate"
         },
         {
           "node": 23,
           "part": "text",
           "source": "According to the last passage the devil is the \"accuser\" or \"prosecutor\" of believers, but according to another writer they have an \"advocate\" or \"counselor for the defense\" with the Father (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "D'après le dernier passage, le diable est « l'accusateur » ou « le poursuivant » des croyants ; mais un autre auteur affirme qu'ils ont un « avocat » ou « défenseur » auprès du Père (",
+          "action": "translate"
         },
         {
           "node": 24,
           "part": "tail",
           "source": "). In one passage (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Dans un passage (",
+          "action": "translate"
         },
         {
           "node": 25,
           "part": "tail",
           "source": ") \"adversary\" represents a Greek word, hupenantios, which means \"set over against,\" \"contrary to\"--a word used in classical Greek and in the Septuagint.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), « adversaire » traduit hupenantios, « opposé », « contraire », mot attesté en grec classique et dans la Septante.",
+          "action": "translate"
         },
         {
           "node": 26,
           "part": "text",
           "source": "Thomas Lewis",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Thomas Lewis",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -2518,182 +2519,183 @@
       "source_key": "AFFECT; AFFECTION",
       "article_id": "isbe-1623f57349e8997ca9e9",
       "source_article_sha256": "b88f5095974ee79aa8db91e9e1232f89c37a1e5b6ebcd46472be1524fa90fd73",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AFFECT; AFFECTION",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AFFECTER ; AFFECTION",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-fekt', a-fek'-shun: The literal meaning of \"affect\" is to act upon (Latin ad, \"to,\" \"upon,\" facio, \"to do\"). It has various shades of meaning, and occurs in the following senses in the English Bible:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-fekt', a-fek'-shun : Le sens littéral de l'anglais « affect » est « agir sur » (latin ad, « vers », « sur », et facio, « faire »). Ce mot possède différentes nuances dans la Bible anglaise :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) In its literal sense: ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Au sens littéral : ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": ", \"Mine eye affecteth my soul\"",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Mon œil affecte mon âme ».",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "(2) In the sense of \"to endeavor after,\" \"desire,\" \"court\": ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Au sens de « rechercher », « désirer », « courtiser » : ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": ", \"They zealously affect (the Revised Version (British and American) \"seek\") you .... that ye may affect (the Revised Version (British and American) \"seek\") them,\" i.e. they earnestly court your favor, that you may court theirs. Paul means that the proselytizing zeal of the Judaizers was rooted in personal ambition. The past part. \"affected\" (the Revised Version (British and American) \"sought\") has the same meaning in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Ils vous recherchent avec empressement » (Revised Version britannique et américaine : « cherchent »), « pour que vous les recherchiez » (Revised Version : « cherchiez »), c'est-à-dire qu'ils sollicitent ardemment votre faveur afin que vous sollicitiez la leur. Paul veut dire que le zèle prosélyte des judaïsants était fondé sur l'ambition personnelle. Le participe passé « affectés » (Revised Version : « recherchés ») possède le même sens en ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": ". The same Greek word (zeloo) is translated \"desire earnestly\" in the Revised Version (British and American) (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". Le même verbe grec, zeloo, est traduit « désirer ardemment » dans la Revised Version (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": "). \"Affect\" has a similar meaning in Ecclesiasticus 13:11.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Le verbe anglais « affect » possède un sens analogue en Siracide 13:11.",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "(3) In the passive, it occurs in the sense of \"to be disposed,\" in a neutral sense, with an adverb to characterize the nature of the disposition: ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) À la forme passive, il signifie « être disposé », en un sens neutre, accompagné d'un adverbe précisant la disposition : ",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "tail",
           "source": ", \"evil affected against the brethren\" So also 2 Macc 4:21; 13:26.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « mal disposés envers les frères ». De même en 2 Maccabées 4:21 et 13:26.",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "\"Affection\" occurs in the following senses:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "« Affection » se rencontre dans les sens suivants :",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "text",
           "source": "(1) In the literal sense: the state of having one's feelings acted upon or affected in some way; bent or disposition of mind, in a neutral sense (the nature of the affection, whether good or bad, needing further description in the context). So ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Au sens littéral : état de la personne dont les sentiments subissent une influence, inclination ou disposition d'esprit, sans nuance positive ou négative propre ; le contexte doit en préciser la nature. Ainsi ",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "tail",
           "source": ", \"Set your affection (the Revised Version (British and American) \"mind\") on things above\"; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Attachez votre affection » (Revised Version : « votre pensée ») « aux choses d'en haut » ; ",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "tail",
           "source": ", \"inordinate affection\" (here \"affection\" by itself is neutral; the addition of the adjective makes it equivalent to \"passion\" in an evil sense, as in the Revised Version (British and American)).",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « affection désordonnée » ; « affection » seul reste neutre, mais l'adjectif lui donne le sens d'une « passion » mauvaise, comme dans la Revised Version.",
+          "action": "translate"
         },
         {
           "node": 17,
           "part": "text",
           "source": "(2) In a good sense: tender feeling, warm attachment, good will; the word in itself carrying a good meaning apart from the context. ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Dans un sens favorable : sentiment tendre, attachement chaleureux, bienveillance. Le terme porte ici une nuance positive indépendamment du contexte. ",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "tail",
           "source": ", \"because I have set my affection on the house of my God\"; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Parce que j'ai mis mon affection dans la maison de mon Dieu » ; ",
+          "action": "translate"
         },
         {
           "node": 20,
           "part": "tail",
           "source": ", \"without natural affection\", ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « sans affection naturelle » ; ",
+          "action": "translate"
         },
         {
           "node": 21,
           "part": "tail",
           "source": " \"Ye are straitened in your own affections\" (lit. \"bowels,\" regarded as the seat of kindly feelings, compare Eng \"heart\") So ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « vous êtes à l'étroit dans vos propres affections » (littéralement « entrailles », considérées comme siège des sentiments bienveillants, comparer l'anglais « cœur »). De même en ",
+          "action": "translate"
         },
         {
           "node": 23,
           "part": "text",
           "source": "(3) In an evil sense in the plural = passions. ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Dans un sens défavorable, au pluriel : « passions ». ",
+          "action": "translate"
         },
         {
           "node": 24,
           "part": "tail",
           "source": ", the flesh, with the affections (the Revised Version (British and American) \"passions\") and \"lusts\"; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « la chair, avec ses affections » (Revised Version : « passions ») « et ses convoitises » ; ",
+          "action": "translate"
         },
         {
           "node": 25,
           "part": "tail",
           "source": ", \"God gave them unto vile affections\" (the Revised Version (British and American) \"passions\").",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Dieu les a livrés à des affections viles » (Revised Version : « passions »).",
+          "action": "translate"
         },
         {
           "node": 26,
           "part": "text",
           "source": "\"Affectioned\" occurs once, in a neutral sense: ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Le participe « affectioned » figure une fois dans un sens neutre : ",
+          "action": "translate"
         },
         {
           "node": 27,
           "part": "tail",
           "source": ", \"affectioned (i.e. \"disposed\") one to another\" In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « disposés les uns envers les autres ». En ",
+          "action": "translate"
         },
         {
           "node": 28,
           "part": "tail",
           "source": ", we have \"affectionately,\" in a good sense.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", l'adverbe « affectionately » a un sens favorable.",
+          "action": "translate"
         },
         {
           "node": 29,
           "part": "text",
           "source": "D. Miall Edwards",
-          "target": "",
-          "action": "pending_translation"
+          "target": "D. Miall Edwards",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -2701,133 +2703,136 @@
       "source_key": "AFRICA",
       "article_id": "isbe-d817dc954f5c0d6a5e72",
       "source_article_sha256": "abe2e218faf5640c732c49b20b8c7457eb38d97446db06eab07fcf685a829a0b",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AFRICA",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AFRICA",
+          "action": "preserve",
+          "reason": "Canonical original proper-name retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "af'-ri-ka: The name of this tract, as a continent, does not occur in the Bible, and it was only in later days known as one of the quarters of the world, under the name of Libya--that portion opposite the coast of Greece and West of Egypt.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "af'-ri-ka : Le nom du continent africain ne se trouve pas dans la Bible ; ce n'est que plus tard qu'on le reconnut comme l'une des parties du monde, sous le nom de « Libye », désignant la région située en face de la Grèce, à l'ouest de l'Égypte.",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "1. Africa as Known to the Ancients:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "1. L'Afrique connue des anciens :",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "Naturally the most considerable part of Africa known to the Hebrews was Egypt itself, but Libya is regarded as being referred to under the names of Lehabim and Lubim (Ludim) (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "La région d'Afrique la mieux connue des Hébreux était naturellement l'Égypte. La Libye semble cependant être désignée par les noms Lehabim et Lubim (Ludim) (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": ")--words indicating, as often with the Semites, not the country itself, but its inhabitants. Other portions of Africa known to the Hebrews were Cush or Ethiopia, and Put, whose inhabitants they regarded as belonging to the Hamitic stock. Canaan, also Cushite and therefore Hamitic, naturally did not belong to the African continent, showing that the divisions of then known world into \"quarters\" (Europe, Asia, Africa) had not taken place when the Table of the Nations (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; conformément à un usage fréquent chez les peuples sémitiques, ces mots renverraient aux habitants plutôt qu'au territoire. Les autres régions africaines connues des Hébreux étaient Cush, ou Éthiopie, et Puth ; leurs habitants étaient classés dans la descendance de Cham. Canaan, également classé parmi les descendants de Cush ou de Cham selon la notice, n'appartenait pas au continent africain : la division du monde connu en Europe, Asie et Afrique n'existait donc pas encore à l'époque de la table des nations (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": " ff) was drawn up--indeed, these division were not apparently thought of until many centuries later. The Casluhim and the Naphtuhim (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv.) ; elle ne fut apparemment envisagée que bien des siècles après. Les Casluhim et les Naphtuhim (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": ") were in all probability African peoples, though their position is in general regarded as uncertain. For the Hebrews, to all appearance, the southernmost point of Africa was Cush or Ethiopia, called by the Assyrians and Babylonians Kusu and Meluhha (Meroe), which included the district now known as the Sudan, or Black region. The sons of Cush, and also those of his firstborn, Sheba, were all Arabian tribes, nominally under the domain of Mizraim or Egypt, and on this account classed with the descendants of Ham.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") étaient probablement des peuples africains, malgré l'incertitude générale sur leur emplacement. Aux yeux des Hébreux, la limite méridionale de l'Afrique semblait être Cush ou Éthiopie, Kusu et Meluhha (Méroé) pour les Assyriens et Babyloniens, englobant la région alors appelée Soudan ou « région noire ». Les fils de Cush, ainsi que ceux de son premier-né Séba, étaient des tribus arabes, nominalement soumises à Mitsraïm, l'Égypte, et donc classées parmi les descendants de Cham.",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "2. The Cushites and the Negroes:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "2. Les Cushites et les populations noires :",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "It will thus be seen that the Negro districts were practically unknown to the ancient Hebrews, though men and women of Negro race must have come within their ken. It seems doubtful, therefore, whether there be, in the Bible, any reference to that race, either collectively or individually, the word Cushite standing, not for Negro, but for Ethiopian. This term is applied to Moses' (first) wife (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Les régions habitées par les populations noires étaient donc pratiquement inconnues des anciens Hébreux, même si ceux-ci durent connaître certains hommes et femmes de ces populations. L'auteur juge par conséquent douteux que la Bible évoque ce qu'il appelle la « race noire », collectivement ou individuellement : « Cushite » désignerait un Éthiopien plutôt qu'un Noir. Le terme s'applique à la (première) épouse de Moïse (",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "tail",
           "source": "), and it will probably be generally admitted, that the great Hebrew lawgiver is not likely to have espoused a Negro woman. The Ethiopian eunuch converted by Philip the Evangelist (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; l'auteur affirme, sur la base d'une supposition caractéristique de son époque, que le grand législateur hébreu n'aurait probablement pas épousé une femme noire. L'eunuque éthiopien converti par Philippe l'Évangéliste (",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "tail",
           "source": " ff) was an official of Meroe, and an educated man, for he could read the Old Testament in the Greek(Septuagint) version. Commerce must have revealed to the Hebrews the whereabouts of the various peoples of Africa with whom they came into contact, and they acquired a personal knowledge of Egypt when the 12 tribes were in bondage there. During this period, it may be supposed, they saw from time to time visitors from the South--people who are not mentioned in the sacred books of the Old Testament because the Hebrews, as a nation, never came into contact with them. Apart from Egypt, the history of the portion of Africa known to the Hebrews was a chequered one, as it came successively under Egypt, Phoenicia, Greek and Roman civilization. That it was not overrun, or even influenced, by the barbarous tribes of the South, is due to the fact that the Mediterranean tract is isolated from the central (and southern) portion of that continent by the Sahara.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv.) était fonctionnaire de Méroé et instruit, sachant lire l'Ancien Testament dans la version grecque, la Septante. Le commerce dut faire connaître aux Hébreux les différents peuples africains rencontrés ; ils apprirent à connaître personnellement l'Égypte lorsque les douze tribus y furent asservies. On peut supposer qu'à cette époque ils virent parfois des visiteurs du Sud, non mentionnés dans les livres de l'Ancien Testament parce que, comme nation, les Hébreux n'entrèrent pas en contact avec eux. Hors d'Égypte, la partie de l'Afrique connue des Hébreux connut une histoire mouvementée sous les influences successives des civilisations égyptienne, phénicienne, grecque et romaine. L'auteur attribue l'absence d'invasion ou même d'influence des peuples qu'il qualifie de « tribus barbares du Sud » à la séparation du littoral méditerranéen et de l'Afrique centrale et méridionale par le Sahara.",
+          "action": "translate"
         },
         {
           "node": 17,
           "part": "text",
           "source": "3. Hebrew Tradition:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "3. Tradition hébraïque :",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "text",
           "source": "In the Talmud it is related that Alexander penetrated Africa on Libyan asses to find a race of women, with whom he had conversation, and from whom, as he afterward confessed, being a fool, he learned wisdom--a legend suggesting some possible tradition of the Amazons of Dahomey. But even in the Talmud it is mainly the nearer (Northeast) portion of Africa which is referred to, the Africans, who had the reputation of being flat-footed, being associated with the Canaanites.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Le Talmud raconte qu'Alexandre parcourut l'Afrique à dos d'ânes libyens et rencontra un peuple de femmes avec lesquelles il conversa. Il reconnut ensuite, se jugeant insensé, avoir appris d'elles la sagesse. La légende pourrait conserver le souvenir des Amazones du Dahomey. Même dans le Talmud, il est surtout question de la partie proche, nord-orientale, de l'Afrique ; les Africains, réputés avoir les pieds plats, y sont associés aux Cananéens.",
+          "action": "translate"
         },
         {
           "node": 19,
           "part": "text",
           "source": "See also ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Voir aussi ",
+          "action": "translate"
         },
         {
           "node": 20,
           "part": "text",
           "source": "CUSH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "CUSH",
+          "action": "preserve",
+          "reason": "Original source key or byline retained"
         },
         {
           "node": 21,
           "part": "text",
           "source": "ETHIOPIA",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ÉTHIOPIE",
+          "action": "translate"
         },
         {
           "node": 22,
           "part": "text",
           "source": "MIZRAIM",
-          "target": "",
-          "action": "pending_translation"
+          "target": "MITSRAÏM",
+          "action": "translate"
         },
         {
           "node": 23,
           "part": "text",
           "source": "T. G. Pinches",
-          "target": "",
-          "action": "pending_translation"
+          "target": "T. G. Pinches",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -2835,91 +2840,93 @@
       "source_key": "AGABUS",
       "article_id": "isbe-286177a32a43b6b4da0b",
       "source_article_sha256": "5f26c2dd73a58a3ce62a4d168dc841118eac5eb559c20e49f98adb1ec18d3dc5",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AGABUS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AGABUS",
+          "action": "preserve",
+          "reason": "Canonical original proper-name retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ag'-a-bus (Agabos): A Christian prophet of Jerusalem, twice mentioned in Acts.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ag'-a-bus (Agabos) : Prophète chrétien de Jérusalem, mentionné deux fois dans les Actes des Apôtres.",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) En ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": " f, we find him at Antioch foretelling \"a great famine over all the world,\" \"which,\" adds the historian, \"came to pass in the days of Claudius.\" This visit of Agabus to Antioch took place in the winter of 43-44 AD, and was the means of urging the Antiochian Christians to send relief to the brethren in Judea by the hands of Barnabas and Saul. Two points should be noted.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv., il apparaît à Antioche et prédit « une grande famine sur toute la terre », qui, ajoute l'historien, « survint sous Claude ». La visite d'Agabus à Antioche eut lieu durant l'hiver 43–44 apr. J.-C. et conduisit les chrétiens de la ville à envoyer une aide aux frères de Judée par Barnabas et Saul. Deux observations s'imposent.",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "(a) The gift of prophet's here takes the form of prediction. The prophet's chief function was to reveal moral and spiritual truth, to \"forth-tell\" rather than to \"foretell\"; but the interpretation of God's message sometimes took the form of predicting events.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(a) Ici, le don prophétique prend la forme d'une prédiction. La fonction principale du prophète était de révéler la vérité morale et spirituelle, de proclamer la Parole plutôt que de prédire l'avenir ; toutefois l'interprétation du message de Dieu pouvait parfois annoncer des événements futurs.",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "(b) The phrase \"over all the world\" (practically synonymous with the Roman Empire) must be regarded as a rhetorical exaggeration if strictly interpreted as pointing to a general and simultaneous famine. But there is ample evidence of severe periodical famines in various localities in the reign of Claudius (eg. Suet Claud. 18; Tac. Ann. xii.43), and of a great dearth in Judea under the procurators Cuspius Fadus and Tiberius Alexander, 44-48 AD (Ant., XX, ii, 6; v, 2), which probably reached its climax circa 46 AD.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(b) L'expression « sur toute la terre » (pratiquement synonyme de l'Empire romain) doit être vue comme une exagération rhétorique si on l'entend d'une famine générale survenant simultanément partout. On dispose cependant d'amples témoignages sur de graves famines périodiques dans diverses régions sous Claude (par exemple Suétone, Vie de Claude, 18 ; Tacite, Annales, XII, 43), ainsi que sur une grande pénurie en Judée sous les procurateurs Cuspius Fadus et Tibère Alexandre, de 44 à 48 apr. J.-C. (Josèphe, Antiquités judaïques, XX, ii, 6 ; v, 2), qui atteignit probablement son maximum vers 46.",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "(2) In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) En ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": " f we find Agabus at Caesarea warning Paul, by a vivid symbolic action (after the manner of Old Testament prophets; compare ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv., Agabus se trouve à Césarée et avertit Paul, par un geste symbolique frappant, à la manière des prophètes de l'Ancien Testament (comparer ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": " ff; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv. ; ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": ") of the imprisonment and suffering he would undergo if he proceeded to Jerusalem.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), de l'emprisonnement et des souffrances qu'il subirait s'il se rendait à Jérusalem.",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "(3) In late tradition Agabus is included in lists of the seventy disciples of Christ.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Dans la tradition tardive, Agabus figure sur les listes des soixante-dix disciples du Christ.",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "D. Miall Edwards",
-          "target": "",
-          "action": "pending_translation"
+          "target": "D. Miall Edwards",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -2927,140 +2934,141 @@
       "source_key": "AGE",
       "article_id": "isbe-ab864bbd60c5c26b560d",
       "source_article_sha256": "605f1cce0eaffe5d974eb2b38c384dae5c1b2332db667625800c227557326180",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AGE",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ÂGE",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "aj: A period of time or a dispensation. In the above sense the word occurs only once in the King James Version, in the sing, as the translation of dor, which means, properly, a \"revolution\" or \"round of time,\" \"a period,\" \"an age\" or \"generation of man's life\"; almost invariable translated \"generation,\" \"generations\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "aj : Période de temps ou dispensation. Dans ce sens, le mot anglais « age » se rencontre une seule fois au singulier dans la King James Version, pour traduire dor, littéralement « tour » ou « cycle du temps », « période », « âge » ou « génération d'une vie humaine », presque toujours rendu par « génération » ou « générations » (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "), \"Inquire, I pray thee, of the former age\"); we have the plural as the translation of aion, properly \"duration,\" \"the course or flow of time,\" \"an age or period of the world,\" \"the world\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Interroge donc l'âge passé »). Au pluriel, il traduit aion, littéralement « durée », « cours du temps », « ère ou période du monde », « monde » (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": ", \"in the ages to come\"; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « dans les siècles à venir » ; ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": ", \"the mystery which hath been hid from ages and from generations,\" the English Revised Version, \"from all ages,\" etc., the American Revised Version, margin, of geneai, \"generations\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « le mystère caché depuis les siècles et les générations » ; l'English Revised Version donne « depuis tous les siècles », etc. ; l'American Revised Version propose en note pour geneai « générations » (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " \"generations,\" ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « générations » ; ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": ", \"unto all generations for ever and ever,\" Greek margin, \"all the generations of the age of the ages\"). \"Ages is given in margin of the King James Version (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « dans toutes les générations, aux siècles des siècles », note grecque : « toutes les générations du siècle des siècles »). « Âges » apparaît en note de la King James Version (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": ", \"the rock of ages\").",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « le rocher des siècles »).",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "text",
           "source": "We have \"age\" in the above sense (2 Esdras 3:18; Tobit 14:5; aion) \"ages,\" aion (1 Esdras 4:40 (of Truth) \"she is the strength,\" etc., \"of all ages\"), genea, the Revised Version (British and American), \"generation\" (The Wisdom of Solomon 7:27; 1 Macc 2:61); Ecclesiasticus 24:33, eis geneas aionon, \"generations of ages\"; The Wisdom of Solomon 14:6, \"generations' (geneseos).",
-          "target": "",
-          "action": "pending_translation"
+          "target": "« Âge » se rencontre dans ce sens en 2 Esdras 3:18 et Tobie 14:5 (aion) ; « âges », aion, en 1 Esdras 4:40, parlant de la Vérité, « elle est la force […] de tous les siècles » ; genea est traduit « génération » dans la Revised Version (Sagesse de Salomon 7:27 ; 1 Maccabées 2:61). En Siracide 24:33, eis geneas aionon signifie « générations des siècles » ; en Sagesse 14:6, geneseos correspond à « générations ».",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "Revised Version has \"age\" for \"world\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "La Revised Version emploie « âge » pour « monde » (",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "tail",
           "source": "); \"ages\" for \"worlds\" (the Revised Version, margin ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") et « siècles » pour « mondes » (note de la Revised Version, ",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "tail",
           "source": "; the American Revised Version, margin; compare ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; note de l'American Revised Version ; comparer ",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "tail",
           "source": ") (margin, \"unto the ages of the ages\"), \"ages\" for \"world\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", avec « aux siècles des siècles » en note) ; elle donne « siècles » à la place de « monde » (",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "tail",
           "source": "). the English Revised Version has \"all ages\" for \"the beginning of the world \" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). L'English Revised Version traduit « depuis tous les siècles » au lieu de « depuis le commencement du monde » (",
+          "action": "translate"
         },
         {
           "node": 17,
           "part": "tail",
           "source": ", the American Standard Revised Version \"for ages\"); \"king of the ages\" for \"king of saints\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; l'American Standard Revised Version donne « depuis des siècles ») ; et « roi des siècles » plutôt que « roi des saints » (",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "tail",
           "source": ", corrected text; margin, many ancient authorities read \"nations\"; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; texte corrigé ; selon la note, plusieurs témoins anciens lisent « nations » ; ",
+          "action": "translate"
         },
         {
           "node": 20,
           "part": "text",
           "source": "See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Voir ",
+          "action": "translate"
         },
         {
           "node": 21,
           "part": "text",
           "source": "EVERLASTING",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ÉTERNEL",
+          "action": "translate"
         },
         {
           "node": 22,
           "part": "text",
           "source": "W. L. Walker",
-          "target": "",
-          "action": "pending_translation"
+          "target": "W. L. Walker",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     }
