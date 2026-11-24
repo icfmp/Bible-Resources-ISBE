@@ -79,9 +79,14 @@ configured ID is discovered through `diatheke` rather than hardcoded. This does 
 introduce any KJV dependency into the curated ISBE candidate.
 
 The BibleTime standard Bible configuration is a **setup prerequisite**,
-not a passing hyperlink navigation result. Review the post-click screenshot
-for the exact displayed **Exodus 6:20** passage and document any remaining
-failure separately. Xiphos's click to a local missing `/passagestudy.jsp`
+not a passing hyperlink navigation result. With the actual installed King
+James module ID configured, the first independent screenshot shows a BibleTime
+window titled **Exodus 6:20** and its reference pane displaying the requested
+verse, **but the main Bible body still displays Genesis 1**. Therefore the
+passage-body gate is **NOT yet certified**. The GUI probe now records a second,
+settled screenshot eight seconds later to distinguish transient rendering
+from a lasting reader navigation failure. Review both screenshots and only
+accept the exact visible Exodus 6:20 **body** when genuinely shown. Xiphos's click to a local missing `/passagestudy.jsp`
 file is a separate client/filter routing problem; it must not be concealed
 by modifying historical `cRef` / `osisRef` source links.
 
