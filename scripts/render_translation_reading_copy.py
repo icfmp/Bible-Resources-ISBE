@@ -53,7 +53,7 @@ def render_article(article: ET.Element, *, draft_status: str) -> str:
             lines.extend([level + " " + text, ""])
             is_first_paragraph = False
             continue
-        if is_first_paragraph and text.lower().startswith(("a'-", "ar'-")):
+        if is_first_paragraph and len(text) <= 80 and text.endswith(":"):
             lines.extend(["*" + text + "*", ""])
             is_first_paragraph = False
             continue
