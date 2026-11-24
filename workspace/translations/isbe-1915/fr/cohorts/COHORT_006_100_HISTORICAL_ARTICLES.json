@@ -1,0 +1,818 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "100 shortest remaining complete original English entries after cohorts 001–005, drawn only from wave-01 original canonical positions 1–1000, source-order preserved without relabeling",
+  "selection_date": "2026-11-24",
+  "item_count": 100,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 94,
+      "source_key": "ABROAD",
+      "article_id": "isbe-0f644d4bd7f975d6c8bd",
+      "source_article_sha256": "28178dacf9f1af0c2734b933791a254d04b58ec5194c299fc67b278540f2766a",
+      "source_eligible_chars": 598,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 104,
+      "source_key": "ABUSE",
+      "article_id": "isbe-d712272623a9a063e917",
+      "source_article_sha256": "b3dcda0a263ca66406352091efa3e155d4473a3a7a72a4edf7acecf865920cc8",
+      "source_eligible_chars": 510,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 118,
+      "source_key": "ACCORD; ACCORDING; ACCORDINGLY",
+      "article_id": "isbe-c77e5cf4f8e1c5b8be25",
+      "source_article_sha256": "f33f870d7a4f56e564a73e9069383c9b88e78acdc59f7f2e4cd685c55ca91539",
+      "source_eligible_chars": 832,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 124,
+      "source_key": "ACCUSER",
+      "article_id": "isbe-c6514ddd31546de9ae12",
+      "source_article_sha256": "ad91f1e4f6cde1e9449b2acf4cb9045eb192b71fdbd47242b4b731d36a25faf3",
+      "source_eligible_chars": 654,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 127,
+      "source_key": "ACHAICUS",
+      "article_id": "isbe-5921cee9b5f7d4318204",
+      "source_article_sha256": "258d8855614abc02e7ff9e60c5a5c7e5e75af37785cb73e177ab68afd566047a",
+      "source_eligible_chars": 496,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 131,
+      "source_key": "ACHBOR",
+      "article_id": "isbe-5d79b49e5fcdf4ed5cf2",
+      "source_article_sha256": "39259fa3719a74912a294e27c42ef37775130e4afb8843b970191b9d2edc73f2",
+      "source_eligible_chars": 651,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 132,
+      "source_key": "ACHIACHARUS",
+      "article_id": "isbe-c5d8f65364c034527e2a",
+      "source_article_sha256": "b272495516a44e40562c35d164d15e1718d5fce22fa11b9a7e12aa4a20ac251a",
+      "source_eligible_chars": 545,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 143,
+      "source_key": "ACHSAH",
+      "article_id": "isbe-b5c45dcfcbd9d9174a63",
+      "source_article_sha256": "00067ff7775e0e40856844a5cae10af54369a77c719266ad7151f6cef6fc56b5",
+      "source_eligible_chars": 532,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 165,
+      "source_key": "ADAH",
+      "article_id": "isbe-ed84a682abe69fdaac10",
+      "source_article_sha256": "77027baa988a59cffa060109848a59e8deabdea254cb1e3fce37f0b0260225cc",
+      "source_eligible_chars": 791,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 171,
+      "source_key": "ADAM, BOOKS OF",
+      "article_id": "isbe-7dd07e71cbbea876d9ba",
+      "source_article_sha256": "b2f70a0f52ac3f29fad4f56f8d35a041acfeaaac986ca18f726e8f5860725aa7",
+      "source_eligible_chars": 646,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 172,
+      "source_key": "ADAM, CITY OF",
+      "article_id": "isbe-dfd75b552daaa6bdd5f0",
+      "source_article_sha256": "80ff80239c813ba058cc134c0ff4cd8affbe45acc509c2acd15fc8e015d819c4",
+      "source_eligible_chars": 590,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 183,
+      "source_key": "ADD",
+      "article_id": "isbe-0ecba1370ba1753f1ec6",
+      "source_article_sha256": "a4c4be7fa980425db3f3ca0b2dc4a6cfbbb2018851f243cecea16d5bef83d1a3",
+      "source_eligible_chars": 541,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 193,
+      "source_key": "ADIABENE",
+      "article_id": "isbe-a6a44074e2c4baef868a",
+      "source_article_sha256": "db94d25c02d00e5fd05d47000fdc467130a055c7c10100e582bbdbdaf289a716",
+      "source_eligible_chars": 771,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 207,
+      "source_key": "ADMINISTER; ADMINISTRATION",
+      "article_id": "isbe-ef459b1a2d83ac2bb1c6",
+      "source_article_sha256": "fa6e98dc234c64462b2494f24b56001b73ce46d9beb6ada047af2f3f7a269a75",
+      "source_eligible_chars": 561,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 208,
+      "source_key": "ADMIRATION",
+      "article_id": "isbe-2147f7c656df95725253",
+      "source_article_sha256": "60827bdb11b1395d048087af3b231c727771bc74262ee0f0ac452e9f79ddeb89",
+      "source_eligible_chars": 816,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 211,
+      "source_key": "ADO",
+      "article_id": "isbe-08be6b5aecbcd611e8ed",
+      "source_article_sha256": "ba52b6ca1970d7ecc1a7a3cf9a71c22864b95ca4801e99cc20b6630556570a21",
+      "source_eligible_chars": 613,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 213,
+      "source_key": "ADONI-ZEDEK",
+      "article_id": "isbe-0ef1dbdbb1c85ebd931a",
+      "source_article_sha256": "df9af27ccd0dd5309f4e0d3ae7a778f61ff25d634538333a4a7d7835a157be2d",
+      "source_eligible_chars": 694,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 234,
+      "source_key": "ADUMMIM",
+      "article_id": "isbe-50376127dd7b7b2e52b4",
+      "source_article_sha256": "193ae258fb006a4e507c19ef49b3c99d7f4688f5eab5f07f824fa6dbd3c52b93",
+      "source_eligible_chars": 826,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 239,
+      "source_key": "ADVERSITY",
+      "article_id": "isbe-b25bc1e7e63b6d0eaf87",
+      "source_article_sha256": "879d1a214fbd1d858922fa2fc70e30fc95d93f5b47c464384935cd16b6a3e718",
+      "source_eligible_chars": 690,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 251,
+      "source_key": "AFFINITY",
+      "article_id": "isbe-95e44632ee4daa0d7537",
+      "source_article_sha256": "a0ebb31b021b97f633b49746fcb8511ae89ef482e9408a144a546370eab309ce",
+      "source_eligible_chars": 541,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 259,
+      "source_key": "AFTER; AFTERWARD",
+      "article_id": "isbe-9b8a1d8c300b26980eab",
+      "source_article_sha256": "a4a4baabd6368b2156883f78aba56cc08275e1776ed036cc5c92d085584e44b2",
+      "source_eligible_chars": 802,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 260,
+      "source_key": "AFTERNOON",
+      "article_id": "isbe-faeb84278e16a695fba3",
+      "source_article_sha256": "1a902ff5f03e00eeace4dc2838f995b3ffc52c59da27f1f1ba9a5e255ea92065",
+      "source_eligible_chars": 513,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 264,
+      "source_key": "AGAG",
+      "article_id": "isbe-62375daa2a72e9f172d5",
+      "source_article_sha256": "cfc02230d344c2264107ae2098014a61fed213115b35d0f798ddba8b2d9c3ab6",
+      "source_eligible_chars": 666,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 265,
+      "source_key": "AGAGITE",
+      "article_id": "isbe-8774df3e295248145a5b",
+      "source_article_sha256": "6c88cadea4a23bfef646e991763c1c5a90448dea95d2f1a7f074e1ba4c5b1bdd",
+      "source_eligible_chars": 646,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 266,
+      "source_key": "AGAIN",
+      "article_id": "isbe-0f7b0a53eace9a68f5b4",
+      "source_article_sha256": "ba8353fd09a2248cfa6f09ef5c73dd9d037eb24a945614e05e31a187e4bab047",
+      "source_eligible_chars": 573,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0034-cohort-006-historical-articles-01.json"
+    },
+    {
+      "index": 268,
+      "source_key": "AGAINST",
+      "article_id": "isbe-59a440de418e8295618a",
+      "source_article_sha256": "26cc42e7eaff9e99cddc95165b9885b2ef03586462d6edefe968dab31ac1770a",
+      "source_eligible_chars": 605,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 287,
+      "source_key": "AGUE",
+      "article_id": "isbe-424e67accc5adc276c68",
+      "source_article_sha256": "6b39c4e9fd07ad7881763edb8aeb57e28bb232ccf9a7afec5abb2d74db9e2842",
+      "source_eligible_chars": 524,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 288,
+      "source_key": "AGUR",
+      "article_id": "isbe-3f5e8fca922d0e6ba568",
+      "source_article_sha256": "0fc027c8ca9405f8a160b1a056ed9ed55caadfad867f9681fcff5c546e5ef3d1",
+      "source_eligible_chars": 707,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 292,
+      "source_key": "AHAB AND ZEDEKIAH",
+      "article_id": "isbe-bd17555f0074cff6288f",
+      "source_article_sha256": "87707a73721048e88bd04a735f8f3404b7b1fca23810b3ad26cc66754123a876",
+      "source_eligible_chars": 546,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 322,
+      "source_key": "AHIRAM",
+      "article_id": "isbe-51a38d577ee2adef879f",
+      "source_article_sha256": "1c37d0b5f55ad2a9e16bce4c65d6ddad7bbd35b86191fbc9e57472d77c434b25",
+      "source_eligible_chars": 723,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 350,
+      "source_key": "AIL",
+      "article_id": "isbe-f4caf7286f8a4186668e",
+      "source_article_sha256": "3755d6c436f9608b7ce0c494fa007a72b43e4efabc8208411d6b94a8bae8f126",
+      "source_eligible_chars": 515,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 367,
+      "source_key": "ALABASTER",
+      "article_id": "isbe-0a19b53260e66d3bccab",
+      "source_article_sha256": "ac7a2a7cafc93ab12e6847e6e01f34d21985a7797348dae5a9eeeb7434106ddf",
+      "source_eligible_chars": 494,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 377,
+      "source_key": "ALEPH",
+      "article_id": "isbe-52fb6c182914a4628ab9",
+      "source_article_sha256": "e7ebfd923875c01b524f941ddc6a54f86a8d30d86bf803c344d024bcfea2db34",
+      "source_eligible_chars": 733,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 387,
+      "source_key": "ALIENATE",
+      "article_id": "isbe-f62bd2be32456c7b50cc",
+      "source_article_sha256": "2c264a27ce310d317cfdbbcca3e01a8e1d3d9ea404c90a9edfe66155d9135b23",
+      "source_eligible_chars": 491,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 388,
+      "source_key": "ALIVE",
+      "article_id": "isbe-49d8ca4048cdc379b205",
+      "source_article_sha256": "4c097cb95d3b6070c8f156cbdc86f45c62f914198858c79cde8bdfc91e02286e",
+      "source_eligible_chars": 789,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 405,
+      "source_key": "ALLURE",
+      "article_id": "isbe-430c0a64978a16be6c45",
+      "source_article_sha256": "d87727a0911d8bb816c7bdc366025accc76caf4850e09262f5e10f7c0d00e069",
+      "source_eligible_chars": 611,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 409,
+      "source_key": "ALMON-DIBLATHAIM",
+      "article_id": "isbe-87e2dc836d384bb0073f",
+      "source_article_sha256": "92ff58ecb0a6e0c5bdcad61f19f689320c10b63674712061b0488979d105f7ad",
+      "source_eligible_chars": 587,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 418,
+      "source_key": "ALOTH",
+      "article_id": "isbe-688c140d503c1d68fbc6",
+      "source_article_sha256": "9b10a5c751286083412921b131d17854505ad7077dcce635f3cdaa1b69c47491",
+      "source_eligible_chars": 628,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 443,
+      "source_key": "AMASAI",
+      "article_id": "isbe-9a9fe11d34926cbf85fd",
+      "source_article_sha256": "8aea1ecab834927a483db48dd9faa72d01f90f20bdbe2a89df808bab673eb8f8",
+      "source_eligible_chars": 679,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 448,
+      "source_key": "AMAZED",
+      "article_id": "isbe-790b36dcc75469cccf24",
+      "source_article_sha256": "1b78bd853e8c65510b0bb9415b37278e94ae5911643bf20c832dc7b431be0b26",
+      "source_eligible_chars": 824,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 457,
+      "source_key": "AMERCE",
+      "article_id": "isbe-2342f5816cb57d01b48e",
+      "source_article_sha256": "30f230ef9bf2be7bae313bd91f3eecd1fa86dbee5cb6bc25b1d96cb5afe47970",
+      "source_eligible_chars": 501,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 461,
+      "source_key": "AMIABLE",
+      "article_id": "isbe-bdb6f5197742ee5808f0",
+      "source_article_sha256": "3e6309dfa0d49463b0ae597267ee46840c5f87a2b5564adaba0379e511793058",
+      "source_eligible_chars": 690,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 465,
+      "source_key": "AMMAH",
+      "article_id": "isbe-fec136047bf98e29cc50",
+      "source_article_sha256": "322337741e7e241d3fe49b4f718f1add11c7c4cd1ee228fde2f23a93014638c9",
+      "source_eligible_chars": 543,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 468,
+      "source_key": "AMMIEL",
+      "article_id": "isbe-98f564f002c73655b26c",
+      "source_article_sha256": "6ac1cc438fcacce0a150c5df1f3494f0bdc6ba0c3ab0cee2e63b1e0e1adfa00f",
+      "source_eligible_chars": 620,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 486,
+      "source_key": "AMPLIATUS",
+      "article_id": "isbe-c4e6c217d6a67bca48b2",
+      "source_article_sha256": "fff592abc03ce78eaa2a6d416b0e399fa3de9c345e1573401d0ba7de5260ddc4",
+      "source_eligible_chars": 682,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 519,
+      "source_key": "ANEM",
+      "article_id": "isbe-e5c2bf592260c2b1b69a",
+      "source_article_sha256": "0874c30f12e95f88301bc2e9b767137b98ac207ba0ed95ca1d41fe9a0e588746",
+      "source_eligible_chars": 703,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 520,
+      "source_key": "ANER (1)",
+      "article_id": "isbe-8f72154f911fc399a048",
+      "source_article_sha256": "7eff8d874b6ed7d3e82171cd64343019fb12ba0b90b9e0459878de7a64786a06",
+      "source_eligible_chars": 639,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 536,
+      "source_key": "ANISE; DILL",
+      "article_id": "isbe-4ba7dab533d75e953499",
+      "source_article_sha256": "26edf077a6b34cefa42b1ce9b776ed562cef04ae871a131f4d7c10d1d2a3be49",
+      "source_eligible_chars": 857,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 538,
+      "source_key": "ANKLET; ANKLE-CHAIN",
+      "article_id": "isbe-52b7dd0d2052b266e651",
+      "source_article_sha256": "d3acd1f59f36242e262c457c34e3c941b73ffacedb229a9d733c60b52053acb1",
+      "source_eligible_chars": 614,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 552,
+      "source_key": "ANT",
+      "article_id": "isbe-88886033384749b13945",
+      "source_article_sha256": "f04873d623a2fd49c31a97e5634deb961ea59635d108141624b138daf0293538",
+      "source_eligible_chars": 539,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0035-cohort-006-historical-articles-02.json"
+    },
+    {
+      "index": 569,
+      "source_key": "ANTIOCHUS I",
+      "article_id": "isbe-965036fa98aa279810a7",
+      "source_article_sha256": "be17a7774110a2c7cbd18014b093190f23882771bc481dd152003090b86013fe",
+      "source_eligible_chars": 824,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 570,
+      "source_key": "ANTIOCHUS II",
+      "article_id": "isbe-2b41f9d2d401610fb166",
+      "source_article_sha256": "87feae80c5207ab2c27506a2c7a96193c87db87061a667b23779879ada51d495",
+      "source_eligible_chars": 778,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 573,
+      "source_key": "ANTIOCHUS V",
+      "article_id": "isbe-633089395ac24fb5afc3",
+      "source_article_sha256": "48c095c8dfdc7fc02bdcdaa90ca1f62fbc66da1ebafceb39a2c457462bdffd1f",
+      "source_eligible_chars": 781,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 575,
+      "source_key": "ANTIOCHUS VII",
+      "article_id": "isbe-c4771a59464182a4c476",
+      "source_article_sha256": "cf0fa37d000351987189c4686d8126f4bd1c0e12d5ee1cff2d37eb9753d146a4",
+      "source_eligible_chars": 588,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 578,
+      "source_key": "ANTIPATRIS",
+      "article_id": "isbe-d12258d748f435e5663a",
+      "source_article_sha256": "60d673655a02ab5d6f8738fe7426410d47b477922eb693ba528231ad57524786",
+      "source_eligible_chars": 552,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 585,
+      "source_key": "ANVIL",
+      "article_id": "isbe-860c985173d78e2d887a",
+      "source_article_sha256": "b218f672d04ceee4b18fd0c6b25802d3212c0d30e2cc447cbca35a54bd4ce598",
+      "source_eligible_chars": 631,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 588,
+      "source_key": "APART",
+      "article_id": "isbe-e1e8998e7645ef594463",
+      "source_article_sha256": "3be3c2a3c86a85f53e5f8147487fb9d79d724a3682db76895a571336eb4abc71",
+      "source_eligible_chars": 837,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 627,
+      "source_key": "APPARENTLY",
+      "article_id": "isbe-b498178c67e455a1c1f9",
+      "source_article_sha256": "d0b800fe00f3654fb8b0096131bde48eae0387957a5b0fe66d20f5657601e894",
+      "source_eligible_chars": 741,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 628,
+      "source_key": "APPARITION",
+      "article_id": "isbe-e9367d7a247a4b4cf9f5",
+      "source_article_sha256": "f1568a43078ca27413b23415bd0b871e46f4c365ea92ee2522076c2a6c92c345",
+      "source_eligible_chars": 807,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 631,
+      "source_key": "APPEARANCE",
+      "article_id": "isbe-a69553c0352c233e2e82",
+      "source_article_sha256": "ab13d3969381c3ae4ef3c838e9e7d56811fd5d8166e7c1b8377974b9779cc991",
+      "source_eligible_chars": 560,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 636,
+      "source_key": "APPHIA",
+      "article_id": "isbe-56f724efcc48544bc652",
+      "source_article_sha256": "573947cfa03575cfb0cd3b3839f64841857436c002d2c0892ba904fe19acfc3a",
+      "source_eligible_chars": 583,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 637,
+      "source_key": "APPHUS",
+      "article_id": "isbe-6716be96977bb47ec843",
+      "source_article_sha256": "01f06e39160cc242863140c417c2a194d4a03beca08d88d1761100d30a12c8bd",
+      "source_eligible_chars": 816,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 650,
+      "source_key": "AR, AR OF MOAB",
+      "article_id": "isbe-958ad249066a0f08e3ea",
+      "source_article_sha256": "f50e806e59afb42646ccbfe448f431dbaddf9900969cc87e1c123b60c9c7bc3d",
+      "source_eligible_chars": 747,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 676,
+      "source_key": "ARAN",
+      "article_id": "isbe-c5104b1867c95abdb69d",
+      "source_article_sha256": "91c4573eac8493b5ac7fe83e23fd7cebe98134a8e1f16469a3473bfe650d57a8",
+      "source_eligible_chars": 782,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 680,
+      "source_key": "ARATHES",
+      "article_id": "isbe-0436cbed5861f03e9732",
+      "source_article_sha256": "978537dd6d78254d8a907c3d3e26b3b4794cadc871e2305875a61723770e376d",
+      "source_eligible_chars": 834,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 685,
+      "source_key": "ARBATTA",
+      "article_id": "isbe-385f2667b8acabf01f3e",
+      "source_article_sha256": "b162a52e9e6b538610ae9a43a68161a7179b1a10998f297ecb3efb7e520abf87",
+      "source_eligible_chars": 637,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 688,
+      "source_key": "ARBONAI",
+      "article_id": "isbe-712da6593b54d5423810",
+      "source_article_sha256": "573ac0a09eacc46a126628df6480516be4fbb5d48d13f8bdf6a31de2a7432e14",
+      "source_eligible_chars": 543,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 689,
+      "source_key": "ARCH",
+      "article_id": "isbe-734126247ec8564046ea",
+      "source_article_sha256": "452e0e2965b8add8a2fc51d6a02ae14935ba8a78c6f4149e3373c13c07ee57c6",
+      "source_eligible_chars": 597,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 699,
+      "source_key": "ARCHITES",
+      "article_id": "isbe-06affc55b9381bc846cc",
+      "source_article_sha256": "33fffb7dd6e7eb12fae26e9140c3ce46acf6bb9efd6e14f8c8ac266c9a75551a",
+      "source_eligible_chars": 575,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 713,
+      "source_key": "ARGOB (1)",
+      "article_id": "isbe-0db782069bf32b97c437",
+      "source_article_sha256": "0a993f4305cba50cce1e2b9f7572f121a5f40b3240862e1f1ef3d5a23d6a5a38",
+      "source_eligible_chars": 592,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 720,
+      "source_key": "ARIEL",
+      "article_id": "isbe-6d14ccde102c3a206937",
+      "source_article_sha256": "9ae1754919259e654c1579d5431319095d95d46c73c1d865041b57d8b0f7502d",
+      "source_eligible_chars": 644,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 722,
+      "source_key": "ARIMATHAEA",
+      "article_id": "isbe-a822b730d049affb7447",
+      "source_article_sha256": "015207563070ad196e17c6bc4e00e3bd3d5aa20c904f1cbc039b90de78797407",
+      "source_eligible_chars": 599,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 728,
+      "source_key": "ARIUS",
+      "article_id": "isbe-80e2f8e1c05019fe35ba",
+      "source_article_sha256": "049084a29e6a67c3e46f12eb02f95d104c215b6f368cfc7809ee5fedea376328",
+      "source_eligible_chars": 544,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 734,
+      "source_key": "ARKITE",
+      "article_id": "isbe-36b71aeeca28c64d5a4b",
+      "source_article_sha256": "37b6dde1314890b920bccc6fec5ea01f233e37066c39ee9b32f462aea8c5a792",
+      "source_eligible_chars": 698,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 740,
+      "source_key": "ARMHOLE",
+      "article_id": "isbe-5a506601ab1885dac037",
+      "source_article_sha256": "7507c95b3a01ce8edeeb2efda9cd521670b234e2763d3f551657dd1090199c10",
+      "source_eligible_chars": 653,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0036-cohort-006-historical-articles-03.json"
+    },
+    {
+      "index": 745,
+      "source_key": "ARMORY",
+      "article_id": "isbe-3b225f99a802b7fe1306",
+      "source_article_sha256": "2507a8882c0728253f96da24d12b0d7bc77ad70ef3948aac449a3a1660d0a4be",
+      "source_eligible_chars": 569,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 750,
+      "source_key": "ARNI",
+      "article_id": "isbe-5e0dc0f0146a4d270304",
+      "source_article_sha256": "cde307c875bd85dc81f48c45d34c9677f4f5417aeac3f38fdff9e569b82e8456",
+      "source_eligible_chars": 591,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 759,
+      "source_key": "ARPAD; ARPHAD",
+      "article_id": "isbe-057774a3db0b81d74dbe",
+      "source_article_sha256": "c9bd42690b339eb29e97575ac08ca397e7e7aa6d132f0da35050259ca45447c6",
+      "source_eligible_chars": 648,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 772,
+      "source_key": "ARTEMAS",
+      "article_id": "isbe-13de5999b8cb571dbf67",
+      "source_article_sha256": "49ed8ac559e7221458edc3d6856288784d7e1f0a5b2ed3c84b787f0290b2c439",
+      "source_eligible_chars": 560,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 789,
+      "source_key": "ASAIAH",
+      "article_id": "isbe-e9cad274fe4e5ee34452",
+      "source_article_sha256": "750857c6293cb7297b5aedd7ae2df120d0c00dd9c5890fb9c07c380e84d4733d",
+      "source_eligible_chars": 585,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 808,
+      "source_key": "ASENATH",
+      "article_id": "isbe-9816a982a562ac6e9bac",
+      "source_article_sha256": "e4c9837f0c25e2e9f0214b34af4707d0e27f91738ee89925744173b4fa86d485",
+      "source_eligible_chars": 823,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 817,
+      "source_key": "ASHBEL; ASHBELITE",
+      "article_id": "isbe-ceb21ea25d89291fa72d",
+      "source_article_sha256": "00227b57fc1d4e725ab6626c99e3be7c962ebf65b0b0ccd4d8a53207df80dff3",
+      "source_eligible_chars": 642,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 820,
+      "source_key": "ASHDOTH PISGAH",
+      "article_id": "isbe-4f07f82d39ef7dccd325",
+      "source_article_sha256": "dc7882bcf1568cfbcc3ee5c73c9150b8836f578d1baef82b46d4d665b18cc90b",
+      "source_eligible_chars": 493,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 832,
+      "source_key": "ASHPENAZ",
+      "article_id": "isbe-ca9d3bfa61f82636c9e8",
+      "source_article_sha256": "9d435b8bca45e088d81d129513921da19b146192b9f5178c6f9edc60ffdec905",
+      "source_eligible_chars": 625,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 841,
+      "source_key": "ASHURITES",
+      "article_id": "isbe-73ba515dfbfa711d0fc0",
+      "source_article_sha256": "7af1a010c7288e374058d446587211b1e650c153612ac2eac81a738ee6da9618",
+      "source_eligible_chars": 545,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 860,
+      "source_key": "ASP",
+      "article_id": "isbe-cc6080c86703b41f5c6a",
+      "source_article_sha256": "a0b1f3bc8c94212e943789c19d12fdfe713a330507c1de6714a6497c6ee17661",
+      "source_eligible_chars": 753,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 886,
+      "source_key": "ASSIR",
+      "article_id": "isbe-353954dc445965dfdcd8",
+      "source_article_sha256": "4f43c64d9ac89586477f124712ca3dc297deb4d5180e1992daf43c04598c7009",
+      "source_eligible_chars": 584,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 904,
+      "source_key": "ASTRAY",
+      "article_id": "isbe-cc7d80494146eaa30a16",
+      "source_article_sha256": "1073cae1a1435cc2836c353030a3d3ed355b3277aa4870155fdc3f492b90948d",
+      "source_eligible_chars": 595,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 921,
+      "source_key": "ATEREZAIAS",
+      "article_id": "isbe-40493d36d39fc11025e9",
+      "source_article_sha256": "aa142d13492b91c97fa772be1c958b04c4147df8b6a34fb9dc22b8de0d3917a6",
+      "source_eligible_chars": 531,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 929,
+      "source_key": "ATHARIM",
+      "article_id": "isbe-7998d89901ae9159b2f5",
+      "source_article_sha256": "961a471aa76533c0abada7c840ee2a1058c4328de8e2c796a9ce51a1b5a0cb09",
+      "source_eligible_chars": 601,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 941,
+      "source_key": "ATTAIN",
+      "article_id": "isbe-8b168e8e699364d87eba",
+      "source_article_sha256": "8adf165247231bee390f740b81809f7b64d9565c4e8cd25b15c155b10ed65f30",
+      "source_eligible_chars": 708,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 951,
+      "source_key": "AUDIENCE",
+      "article_id": "isbe-1e40feedb6d8e174d473",
+      "source_article_sha256": "9bec2e9bfa099c756057a6b9413383d3a4e2000a117c44a03fc9980496f8bff1",
+      "source_eligible_chars": 672,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 959,
+      "source_key": "AUSTERE",
+      "article_id": "isbe-f3efe587c17e205a4141",
+      "source_article_sha256": "f3fdaee69c142bd4eeeb8798f589621a8f5826b892c13653cb5dd12f313097a9",
+      "source_eligible_chars": 760,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 966,
+      "source_key": "AVAIL",
+      "article_id": "isbe-ce163e5b7c10cc1c3ce9",
+      "source_article_sha256": "08d5544f3c9231b02761af3518b9d25005ad3d79aa6911e9ec81faea4d1662e8",
+      "source_eligible_chars": 572,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 967,
+      "source_key": "AVARAN",
+      "article_id": "isbe-c3757245f8c645d0c973",
+      "source_article_sha256": "9d1ba1994c1014e7ce2ae5e549cf8c8f19b4c80a22c20f67108a4c2ec5114a50",
+      "source_eligible_chars": 538,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 977,
+      "source_key": "AVVIM; AVITES",
+      "article_id": "isbe-c4f5ac2efe4cbb7ae83b",
+      "source_article_sha256": "88d5a92faaee0315763006f3ca7132429c89245eaa116c9bf3aa48805875dab5",
+      "source_eligible_chars": 551,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 980,
+      "source_key": "AWAKE",
+      "article_id": "isbe-3da4e330c9018f54189d",
+      "source_article_sha256": "77063285735dd9dec098dfa13b6e4f84c4cdc974d5f09b6bbb780c45a27f4401",
+      "source_eligible_chars": 776,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 986,
+      "source_key": "AYIN",
+      "article_id": "isbe-e8450bc1b341d62dcc7c",
+      "source_article_sha256": "de7875c2d1927a58ae8b470b198e5073e59bcad16213ab11f72cb2808ac7e8fc",
+      "source_eligible_chars": 755,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 997,
+      "source_key": "AZAREL",
+      "article_id": "isbe-8e1c2383caefe462a17e",
+      "source_article_sha256": "9b8d21e5f118a7032683042f631b506966949c5ff6c0fe64036ff8aa9ba92cf3",
+      "source_eligible_chars": 547,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    },
+    {
+      "index": 999,
+      "source_key": "AZARIAS",
+      "article_id": "isbe-7a20d15c0c1c74366a34",
+      "source_article_sha256": "b50b9e758d4cc63d15e867a603e4385780183007d76da1193d550de6d217edc2",
+      "source_eligible_chars": 646,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0037-cohort-006-historical-articles-04.json"
+    }
+  ]
+}
