@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five next substantive undrafted original source articles, selected in original source index order and source fingerprint locked",
+  "selection_date": "2026-11-24",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 751,
+      "source_key": "ARNON",
+      "article_id": "isbe-4f939ba67db519ae34f6",
+      "source_article_sha256": "2dc0fdd0445c6ec31110f654a7159d377f183dc76e654c7e0a8cabd6c53e7d5d",
+      "source_eligible_chars": 1847,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0046-cohort-011-substantive-articles-01.json"
+    },
+    {
+      "index": 828,
+      "source_key": "ASHKELON",
+      "article_id": "isbe-a839327900cb9f1f3c63",
+      "source_article_sha256": "9f2bec2e4ca91af51ddfec8ef2d65908db9ddd01374dd1dde84dd84498264be7",
+      "source_eligible_chars": 1938,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0046-cohort-011-substantive-articles-01.json"
+    },
+    {
+      "index": 843,
+      "source_key": "ASIA",
+      "article_id": "isbe-e1eba3226891f58a5f8b",
+      "source_article_sha256": "4b3838da0bde8d2a6f66ae5c6c8d0afb0714ba537d3fbe9065f31314f642ac37",
+      "source_eligible_chars": 2015,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0046-cohort-011-substantive-articles-01.json"
+    },
+    {
+      "index": 942,
+      "source_key": "ATTALIA",
+      "article_id": "isbe-7c774cea6d6f671706c5",
+      "source_article_sha256": "f8d3ab332c2e5ca3c1e8547d584011b7dd668b2613f58aa25a70a24665d18480",
+      "source_eligible_chars": 1996,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0046-cohort-011-substantive-articles-01.json"
+    },
+    {
+      "index": 960,
+      "source_key": "AUTHOR",
+      "article_id": "isbe-bb612d263d6024147d34",
+      "source_article_sha256": "dce9935ac677df91100799e4d7946f77f18dd64f8f5eed79f2e0ca209f75509b",
+      "source_eligible_chars": 1893,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0046-cohort-011-substantive-articles-01.json"
+    }
+  ]
+}
