@@ -107,7 +107,7 @@ def apply(source, roster_path, patches_path, *, output, report_path):
             raise ValueError("Translation source article key/hash mismatch")
 
     ET.register_namespace("", TEI[1:-1])
-    root = ET.Element(TEI + "TEI", {XML_LANG: "fr"})
+    root = ET.Element(TEI + "TEI", {XML_LANG: "mul"})  # Draft mixes EN pending with FR drafts
     header = ET.SubElement(root, TEI + "teiHeader")
     fd = ET.SubElement(header, TEI + "fileDesc")
     ts = ET.SubElement(fd, TEI + "titleStmt")
