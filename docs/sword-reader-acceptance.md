@@ -72,8 +72,10 @@ Upstream BibleTime `BtConfig` reads settings from
 `getDefaultSwordModuleByType("standardBible")` expects the Qt INI key
 `settings/defaults/standardBible`. Its configuration migration API version
 must be `btconfig_api_version=1`. The dedicated GUI workflow now seeds
-**only the temporary HOME** with the installed `KJV` *test fixture* as
-`standardBible` and retains the click and screenshot checks. This does not
+**only the temporary HOME** with the **actual installed SWORD module ID** of the public-domain
+King James *test fixture* (currently `engKJV2006eb` on Ubuntu, not `KJV`)
+as `standardBible` and retains the click and screenshot checks. The
+configured ID is discovered through `diatheke` rather than hardcoded. This does not
 introduce any KJV dependency into the curated ISBE candidate.
 
 The BibleTime standard Bible configuration is a **setup prerequisite**,
