@@ -26,6 +26,8 @@ NEXT_NINE = ROOT / "workspace/translations/isbe-1915/fr/batches/0004-short-a-ent
 NEW_EIGHT = ROOT / "workspace/translations/isbe-1915/fr/batches/0005-short-ab-entries.json"
 MORE_SHORT = ROOT / "workspace/translations/isbe-1915/fr/batches/0006-more-short-ab-entries.json"
 AC_SHORT = ROOT / "workspace/translations/isbe-1915/fr/batches/0007-short-ac-entries.json"
+ABEL_FULL = ROOT / "workspace/translations/isbe-1915/fr/batches/0008-abel-full.json"
+ABEL_PLACES = ROOT / "workspace/translations/isbe-1915/fr/batches/0009-abel-places-and-abiezer.json"
 WAVE01_ROSTER = ROOT / "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json"
 
 
@@ -257,6 +259,40 @@ class TranslationBatchTests(unittest.TestCase):
         by_key_out = {key: article for (_, key), article in zip(index, body)}
         self.assertIn("roi d'Israël", "".join(by_key_out["ACHAZ"].itertext()))
         self.assertIn("documents d'État", "".join(by_key_out["ACTS OF SOLOMON"].itertext()))
+        self.assertEqual(self.source_hash, sha256(SOURCE))
+
+    def test_full_abel_and_four_substantive_articles_keep_source_and_references(self):
+        roster = json.loads(WAVE01_ROSTER.read_text(encoding="utf-8"))
+        by_key = {row["source_key"]: row for row in roster["entries"]}
+        full = json.loads(ABEL_FULL.read_text(encoding="utf-8"))
+        places = json.loads(ABEL_PLACES.read_text(encoding="utf-8"))
+        self.assertEqual(len(full["articles"]), 1)
+        self.assertEqual(len(places["articles"]), 4)
+        expected = {"ABEL (1)", "ABEL-BETH-MAACAH", "ABEL-MEHOLAH",
+                    "ABEL-SHITTIM", "ABIEZER"}
+        self.assertEqual({a["source_key"] for a in full["articles"] +
+                          places["articles"]}, expected)
+        for article in full["articles"] + places["articles"]:
+            self.assertEqual(article["article_id"], by_key[article["source_key"]]["article_id"])
+            self.assertEqual(len(article["units"]), len({
+                (u["node"], u["part"]) for u in article["units"]
+            }))
+        proof, index, body = self._apply([ABEL_FULL, ABEL_PLACES])
+        self.assertEqual(proof["excerpt_entries"], 5)
+        self.assertEqual(proof["complete_unreviewed_drafts"], 5)
+        self.assertEqual(proof["partial_unreviewed_drafts"], 0)
+        self.assertEqual(proof["human_reviewed"], 0)
+        self.assertFalse(proof["publication_permitted"])
+        by_key_out = {key: article for (_, key), article in zip(index, body)}
+        abel = render_article(by_key_out["ABEL (1)"],
+                              draft_status="complete_unreviewed_draft")
+        for phrase in ("Un berger", "Un adorateur", "Un homme juste",
+                       "Un martyr", "Une figure", "M. O. Evans"):
+            self.assertIn(phrase, abel)
+        self.assertIn("Abel-Maïm", "".join(by_key_out["ABEL-BETH-MAACAH"].itertext()))
+        self.assertIn("vallée du Jourdain", "".join(by_key_out["ABEL-SHITTIM"].itertext()))
+        self.assertIn("famille à laquelle appartenait Gédéon",
+                      "".join(by_key_out["ABIEZER"].itertext()))
         self.assertEqual(self.source_hash, sha256(SOURCE))
 
     def test_wrong_master_wrong_entry_or_duplicate_is_rejected(self):
