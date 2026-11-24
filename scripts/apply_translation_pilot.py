@@ -146,7 +146,7 @@ def apply(source, roster_path, patches_path, *, output, report_path):
             translated_node = list(draft.iter())[node_index]
             if preserve_immutable(node, part):
                 if (node_index, part) in targets:
-                    raise ValueError("Source-language/scripture node must not be patched")
+                    raise ValueError("Scripture reference or source-language text must not be patched")
                 continue
             eligible += 1
             key = (node_index, part)
