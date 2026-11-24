@@ -61,6 +61,28 @@ compare the before/after screenshots, verify the opened Bible module and
 exact passage, and record success or failure separately. Recalibrate any
 coordinates after a client UI/layout change; do not weaken the assertion.
 Intra-encyclopedia hyperlink clicks are still a distinct acceptance gate.
+
+### BibleTime fresh-profile Scripture link prerequisite
+
+A real click on the source-attested `Ex 6:20` hyperlink was observed in the
+unconfigured BibleTime fresh profile, but displayed **Choose Standard Bible**
+instead of opening the passage (PR #89, run #45337526910, attempt 2).
+Upstream BibleTime `BtConfig` reads settings from
+`$HOME/.bibletime/bibletimerc`, and
+`getDefaultSwordModuleByType("standardBible")` expects the Qt INI key
+`settings/defaults/standardBible`. Its configuration migration API version
+must be `btconfig_api_version=1`. The dedicated GUI workflow now seeds
+**only the temporary HOME** with the installed `KJV` *test fixture* as
+`standardBible` and retains the click and screenshot checks. This does not
+introduce any KJV dependency into the curated ISBE candidate.
+
+The BibleTime standard Bible configuration is a **setup prerequisite**,
+not a passing hyperlink navigation result. Review the post-click screenshot
+for the exact displayed **Exodus 6:20** passage and document any remaining
+failure separately. Xiphos's click to a local missing `/passagestudy.jsp`
+file is a separate client/filter routing problem; it must not be concealed
+by modifying historical `cRef` / `osisRef` source links.
+
 Do not add guessed content to make a GUI test pass.
 
 ## Release boundary
