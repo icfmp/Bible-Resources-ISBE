@@ -169,6 +169,19 @@ def attempt_scripture_link(reader_name, outdir, result):
             result["screenshots"].append(filename.name)
     except (subprocess.TimeoutExpired, OSError) as exc:
         probe["diagnostic_error"] = str(exc)
+    if reader_name == "bibletime" and probe["click_command_succeeded"]:
+        # The first captured BibleTime state can show a newly opened Bible
+        # pane with the requested *title* but a previous Genesis 1 body.
+        # Record a separate settled view before assessing verse display.
+        time.sleep(8)
+        settled = outdir / "bibletime-scripture-click-settled.png"
+        resultshot = command(["scrot", str(settled)], timeout=15)
+        if resultshot.returncode == 0 and settled.is_file() and settled.stat().st_size > 1000:
+            probe["settled_screenshot"] = settled.name
+            result["screenshots"].append(settled.name)
+        probe["settled_window_title"] = command(
+            ["xdotool", "getactivewindow", "getwindowname"], timeout=10
+        ).stdout.strip()
     result["scripture_link_click_probe"] = probe
     return probe
 
@@ -379,6 +392,13 @@ def main():
         # NOT that an unknown destination navigation magically passed.
         if not probe.get("click_command_succeeded") or not probe.get("screenshot"):
             raise SystemExit("Missing attempted GUI reference click evidence for "+reader["name"])
+    for reader in readers:
+        if reader["name"] == "bibletime":
+            probe = reader.get("scripture_link_click_probe", {})
+            if "choose standard bible" in probe.get("window_title_after", "").casefold():
+                raise SystemExit("BibleTime has no configured standard Bible for source reference navigation")
+            if not probe.get("settled_screenshot"):
+                raise SystemExit("BibleTime post-click settled-view screenshot missing")
 
 if __name__=="__main__":
     main()
