@@ -1,0 +1,647 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ASSEMBLY, SOLEMN",
+      "article_id": "isbe-cba607f46cd8e94668b2",
+      "source_article_sha256": "2840411985bb54fcfc88dd2d6ed41b325c14a36f5be4c1440adc73794b7a8d3e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSEMBLY, SOLEMN",
+          "target": "ASSEMBLÉE SOLENNELLE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CONGREGATION",
+          "target": "ASSEMBLÉE",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "FEASTS",
+          "target": "FÊTES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASSHUR; ASSUR",
+      "article_id": "isbe-4518e69707ef64268de2",
+      "source_article_sha256": "85b564c257fdabf876baeefb5b06768123a9cd500264dcdbc414359a66c56e6f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSHUR; ASSUR",
+          "target": "ASSHUR; ASSUR",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ash'-oor, as'-oor. See ",
+          "target": "ash'-oor, as'-oor. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASSYRIA",
+          "target": "ASSYRIA",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ASSUR",
+      "article_id": "isbe-2fe81a868b05a33bcecf",
+      "source_article_sha256": "6755f5d532142271af879d2b2dfeddcc264ff27cc97f7b18876cd54146549573",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSUR",
+          "target": "ASSUR",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-ur. See ",
+          "target": "as'-ur. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASUR",
+          "target": "ASUR",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ASTAROTH",
+      "article_id": "isbe-a1f860925e35974fedaf",
+      "source_article_sha256": "81ad26143ea586fb4c08666b96c7d25ac3bc513d6b0368800f967756dd45a9d1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASTAROTH",
+          "target": "ASTAROTH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-ta-roth. See ",
+          "target": "as'-ta-roth. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASHTAROTH",
+          "target": "ASHTAROTH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ATERGATIS",
+      "article_id": "isbe-54a7ceca388608721015",
+      "source_article_sha256": "2169acf91ae42cddcb845405d3b67f5ce68bbe4fdb909ec007e8081f65905a77",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ATERGATIS",
+          "target": "ATERGATIS",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ter'-ga-tis. See ",
+          "target": "a-ter'-ga-tis. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ATARGATIS",
+          "target": "ATARGATIS",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ATHANASIAN; CREED",
+      "article_id": "isbe-50a0fd000fb72bf2b70a",
+      "source_article_sha256": "a5d5f034563aae4c5e889dc61b0e06437104656b721e013eaeb62d4e74b0b8dd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ATHANASIAN; CREED",
+          "target": "SYMBOLE D'ATHANASE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ath-a-na'-zhan. See ",
+          "target": "ath-a-na'-zhan. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CREED",
+          "target": "CONFESSION DE FOI",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ATHARIAS",
+      "article_id": "isbe-18ab1bc9b507f8dca69e",
+      "source_article_sha256": "af266c54e6f695c90a6c4f8d5e3e69382996e009acdad91a82460bf3f38d54f4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ATHARIAS",
+          "target": "ATHARIAS",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ath-a-ri'-as. See ",
+          "target": "ath-a-ri'-as. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ATTHARIAS",
+          "target": "ATTHARIAS",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ATIPHA",
+      "article_id": "isbe-d3e624463506a7bc3e03",
+      "source_article_sha256": "d2e9d4d1f2a8b9dcd7d7878deb0d0531966f40faffd4612a19e1c645a63e50dc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ATIPHA",
+          "target": "ATIPHA",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "at'i-fa. See ",
+          "target": "at'i-fa. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "HATIPHA",
+          "target": "HATIPHA",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ATTUS",
+      "article_id": "isbe-20a7845c54d8ac8d48b9",
+      "source_article_sha256": "5d32362106d0d78dad19e0f4ee69826826abf84b6114b358cac0faabb4171038",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ATTUS",
+          "target": "ATTUS",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "at'-us (1 Esdras 8:29 = ",
+          "target": "at'-us (1 Esdras 8:29 = ",
+          "action": "preserve",
+          "reason": "Historical pronunciation, personal name or unlinked biblical citation retained exactly"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). See ",
+          "target": "). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "HATTUSH",
+          "target": "HATTUSH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AUL",
+      "article_id": "isbe-a357c730fef3c1252470",
+      "source_article_sha256": "ed75b5ceee3f95927819dfa1ae7ac73745f1ae35e5fe7d09b6b2b267b8614af1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AUL",
+          "target": "AUL",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ol: See ",
+          "target": "ol : Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AWL",
+          "target": "AWL",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AVA",
+      "article_id": "isbe-7b7ca8a4392eceeba4cb",
+      "source_article_sha256": "d09fbe61a900fa13fb5148cc72c8599ea079bb37b17ceace0b4e8cd4a757694f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AVA",
+          "target": "AVA",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-va. See ",
+          "target": "a'-va. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AWA",
+          "target": "AWA",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AVIM",
+      "article_id": "isbe-05314ca7c29ed565df58",
+      "source_article_sha256": "64cf38e2635fffb7a7f508a7c5923229007524e6f9c45c1fa3361cfc1c4e63ce",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AVIM",
+          "target": "AVIM",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "av'-im. See ",
+          "target": "av'-im. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AVVIM",
+          "target": "AVVIM",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AVIMS",
+      "article_id": "isbe-2cc80e8795e0e56f3dcf",
+      "source_article_sha256": "fc2bed1a44aa01eb635f42cbefaba1b74f40f5e85cbf83df647d3342adc5729e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AVIMS",
+          "target": "AVIMS",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "av'-imz (",
+          "target": "av'-imz (",
+          "action": "preserve",
+          "reason": "Historical pronunciation, personal name or unlinked biblical citation retained exactly"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). See ",
+          "target": "). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "AVVIM",
+          "target": "AVVIM",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AVITES",
+      "article_id": "isbe-a669cd896d6ff6a93bcb",
+      "source_article_sha256": "f648380f8b286a393d6c381700490b95b8874e4b18a0829f93ad6aa599a71383",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AVITES",
+          "target": "AVITES",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-vits. See ",
+          "target": "a'-vits. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AVVIM",
+          "target": "AVVIM",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AXLE-TREE",
+      "article_id": "isbe-6f87ea2a52db7d7983e0",
+      "source_article_sha256": "b5895490db79a0a31a6fc58faf1e602fa3f78a13318d9576cbcdc394cb8113de",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AXLE-TREE",
+          "target": "ESSIEU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-sil-tre. See ",
+          "target": "ak'-sil-tre. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SEA, THE MOLTEN",
+          "target": "MER DE FONTE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AZAL",
+      "article_id": "isbe-58bf21f720a7aeabc2f9",
+      "source_article_sha256": "714e6275ce0c48c34a7891e1fe3fad8f3a8f451571835cf94073071ad79f48bd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZAL",
+          "target": "AZAL",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-zal. See ",
+          "target": "a'-zal. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AZEL",
+          "target": "AZEL",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AZAPHION",
+      "article_id": "isbe-6823d1191bf173b52ff3",
+      "source_article_sha256": "5aeecd454dd85df2f16ffa03dcc0476ec869648d678288f436dbf3bf6c76e957",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZAPHION",
+          "target": "AZAPHION",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-za'-fi-on. See ",
+          "target": "a-za'-fi-on. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASSAPHIOTH",
+          "target": "ASSAPHIOTH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AZARA",
+      "article_id": "isbe-1a4fee44b1d7af2acf56",
+      "source_article_sha256": "b7abc75af7e55f2872105cfaa7d155a5f477e63a6b5ff66cd8ccd4d94a715213",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZARA",
+          "target": "AZARA",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "az'-a-ra. See ",
+          "target": "az'-a-ra. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASARA",
+          "target": "ASARA",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AZARAEL",
+      "article_id": "isbe-ffc81d16ac4bae6310a9",
+      "source_article_sha256": "70afca1889bf4a423a1ce44bd5cb034b86998cdb263fd8ee8a408ff168ac93a7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZARAEL",
+          "target": "AZARAEL",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-za'-ra-el. See ",
+          "target": "a-za'-ra-el. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AZAREL",
+          "target": "AZAREL",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AZAREEL",
+      "article_id": "isbe-41168e638fbd54d8a1df",
+      "source_article_sha256": "cdef4cee2eb331b5fbe6d4ce0691d2be437d6a75f4ceb2ae625dd4425b414747",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZAREEL",
+          "target": "AZAREEL",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-zar'-e-el. See ",
+          "target": "a-zar'-e-el. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AZAREL",
+          "target": "AZAREL",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    }
+  ]
+}
