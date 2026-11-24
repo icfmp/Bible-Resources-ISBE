@@ -15,6 +15,8 @@ This working pilot comes **directly** from the corrected 1915 historical English
 
 `draft-patches.json` begins with **fifty actual source-based French drafts**, with exact original text nodes, original article hashes and source node ordinals. They have **not been independently proofread**. Historical English phonetic transcriptions are temporarily retained with explicit reasons; this is an editorial question for review, not a settled localization decision.
 
+`SOURCE_REVIEW_FLAGS.json` records **twelve exact-source suspected digital-text anomalies** for later witness review, without silently altering the released historical English source or inserting translator opinions into the French translation itself. These do not amount to independently confirmed printed-source corrections.
+
 The generator never touches the English source. It emits a **temporary multilingual (EN+FR) working excerpt**, not a complete French edition. All 50 selected source articles now have complete sets of draft translation/preserve actions. **No human editorial review has been certified**, and the multilingual 50-article excerpt is not a complete 9,380-article French edition. No release, catalogue entry or module publication is authorized.
 
 ## Reproduction
