@@ -37,32 +37,43 @@ def render_article(article: ET.Element, *, draft_status: str) -> str:
     lines.append("*ISBE historique (1915) — traduction française intégrale, brouillon non relu*")
     lines.append("")
     is_first_paragraph = True
+
+    def append_prose(raw: str) -> None:
+        nonlocal is_first_paragraph
+        prose = SPACE.sub(" ", raw).strip()
+        if not prose:
+            return
+        if is_first_paragraph and len(prose) <= 80 and prose.endswith(":"):
+            lines.extend(["*" + prose + "*", ""])
+        elif (prose.startswith("I. ") and "VII. " in prose
+              and prose.count("II.") >= 1):
+            lines.extend(["*Sommaire original : " + prose + "*", ""])
+        else:
+            lines.extend([prose, ""])
+        is_first_paragraph = False
+
+    # Source paragraphs sometimes embed an indexed section <hi> at the END
+    # of the preceding prose <p>. Split only *presentation*, never alter XML.
+    # Detect semantic numbered headings generically, not by article identity.
     for node in article:
         if node.tag == TEI + "head":
             continue
         if node.tag != TEI + "p":
             raise ValueError("Unknown article block: cannot silently drop source content")
-        children = list(node)
-        text = SPACE.sub(" ", inline_text(node)).strip()
-        if not text:
-            continue
-        if (len(children) == 1 and children[0].tag == TEI + "hi"
-                and not (node.text or "").strip()
-                and not (children[0].tail or "").strip()):
-            level = "##" if ROMAN_HEADING.match(text) else "###"
-            lines.extend([level + " " + text, ""])
-            is_first_paragraph = False
-            continue
-        if is_first_paragraph and len(text) <= 80 and text.endswith(":"):
-            lines.extend(["*" + text + "*", ""])
-            is_first_paragraph = False
-            continue
-        if text.startswith("I. ") and "VII. " in text and text.count("II.") >= 1:
-            lines.extend(["*Sommaire original : " + text + "*", ""])
-            is_first_paragraph = False
-            continue
-        lines.extend([text, ""])
-        is_first_paragraph = False
+        buffer = node.text or ""
+        for child in node:
+            content = SPACE.sub(" ", inline_text(child)).strip()
+            if (child.tag == TEI + "hi"
+                    and (ROMAN_HEADING.match(content)
+                         or re.match(r"^[0-9]+\\.\\s", content))):
+                append_prose(buffer)
+                level = "##" if ROMAN_HEADING.match(content) else "###"
+                lines.extend([level + " " + content, ""])
+                is_first_paragraph = False
+                buffer = child.tail or ""
+            else:
+                buffer += inline_text(child) + (child.tail or "")
+        append_prose(buffer)
     return "\n".join(lines).rstrip() + "\n"
 
 
