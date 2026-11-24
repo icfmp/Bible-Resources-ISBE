@@ -27,12 +27,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect bounded original-English entries for French editorial translation
-        run: |
-          python3 -m scripts.export_translation_source \
-            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
-            --key 'ABI (2)' --key ABIJAM --key ABILENE --key ABIMAEL --key ABINADAB --key ABISHAG \
-            --limit 200
       - name: Test source-locked batch extraction, parity and editorial gates
         run: python3 -m unittest tests.test_translation_batches -v
       - name: Reconstruct non-publishable historical French working excerpt
