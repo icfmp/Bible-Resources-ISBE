@@ -620,3 +620,14 @@ A bounded, source-locked first set of **five** previously undrafted complete his
 - Witness/editorial flags: `ASTYAGES` has an orphaned source `I, king` that remains visibly signaled in French as `« I », roi` pending print collation; `APPII FORUM` shows `Revised Verson` and an unmatched Scripture-reference closing parenthesis in the historical English. Translation fixes none of the English master, original SWORD keys or biblical link targets. Any later English source repair belongs in a separate reversible witness PR.
 
 Technical and editorial gates: the full draft reconstruction and reference/ID parity CI, all TEI checks and independent per-article bilingual acceptance are required before editorial checkboxes or release. The patch deliberately changes no historical English master, original article identity, canonical index or app code.
+
+## Tenth substantive cohort — five more complete French first drafts (24 November 2026)
+
+Five additional **entire historical English ISBE entries** now have source-locked, unreviewed first French drafts, without changes to the canonical English source: #0694 `ARCHERY`, #0761 `ARRAY`, #0825 `ASHES`, #0846 `ASIARCH`, and #0969 `AVENGE; AVENGER`. The original index `@n` and `xml:id` identities, exact source article fingerprints, and unchanged reference targets are frozen in `cohorts/COHORT_010_5_SUBSTANTIVE_ARTICLES.json`.
+
+- Patch: `batches/0045-cohort-010-substantive-articles-01.json`, representing **84 complete original eligible text/tail units** and **8,704 source English characters**; author credits, historically specific English Bible wording, original language terms and Scripture reference labels are retained or translated with context, never re-indexed.
+- Once this change is merged and CI passes, the first 1,000 English articles have **871/1,000** complete unreviewed French drafts (87.1% by source-article count), **129 undrafted**, and the entire 9,380-entry encyclopedia has **916** complete unreviewed first drafts. This percentage is **not** English-prose-volume coverage.
+- **0 independently bilingual-editorially accepted articles, 0 issue #109 checkboxes checked, no French SWORD release**. Validation of patch completeness/TEI and authorial meaning is not a publication approval.
+- Source witness/editorial caveat: `ASIARCH` includes the original historical form `Commune Asioe`, retained verbatim with attribution rather than silently regularized. `ASHES` historically attributes generalizations about Oriental mourning practices to its early-20th-century author; this is a translation, not a modern endorsement. `ARRAY` and `AVENGE; AVENGER` retain the source's King James Version / Revised Version lexical comparisons and original reference targets.
+
+All five need independent bilingual editorial collation and, where warranted, printed-source witness checking before article approval. The original 1915 corrected English TEI fingerprint is unchanged.
