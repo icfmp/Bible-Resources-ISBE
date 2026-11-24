@@ -29,6 +29,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Inspect next hundred canonical undrafted English source entries
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts.apply_translation_batches import load_patches
+          from scripts.apply_translation_pilot import text_units, preserve_immutable
+          from scripts.select_translation_pilot import SOURCE_SHA256, stable_xml_fingerprint
+          from scripts.validate_translation_identity import XML_ID, read_body, sha256
+          root=Path('workspace/translations/isbe-1915/fr')
+          source=Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml')
+          assert sha256(source)==SOURCE_SHA256
+          roster=json.loads((root/'worklists/wave-01/0001-1000.json').read_text(encoding='utf8'))['entries']
+          patches=[Path('workspace/pilots/isbe-1915-fr/draft-patches.json'),*sorted((root/'batches').glob('*.json'))]
+          drafted=load_patches(patches)
+          _,body=read_body(source)
+          by_id={entry.get(XML_ID):entry for entry in body}
+          candidates=[]
+          for row in roster:
+              aid=row['article_id']
+              if aid in drafted: continue
+              article=by_id[aid]
+              units=list(text_units(article))
+              eligible=[(n,node,part,s) for n,node,part,s in units if not preserve_immutable(node,part)]
+              if not eligible: continue
+              length=sum(len(u[3]) for u in eligible)
+              candidates.append((length,row['index'],row,article,units))
+          selected=sorted(sorted(candidates)[:100],key=lambda x:x[1])
+          print('COHORT004_META='+json.dumps({'eligible_remaining':len(candidates),'selected':len(selected),'source_chars':sum(x[0] for x in selected),'max_source_chars':max(x[0] for x in selected),'min_source_chars':min(x[0] for x in selected),'source_sha256':SOURCE_SHA256}))
+          for length,index,row,article,units in selected:
+              print('COHORT004_ARTICLE='+json.dumps({'index':index,'source_key':row['source_key'],'article_id':row['article_id'],'source_article_sha256':stable_xml_fingerprint(article),'eligible_source_chars':length,'units':[{'node':n,'part':part,'tag':node.tag.split('}')[-1],'source':s,'immutable':preserve_immutable(node,part)} for n,node,part,s in units]},ensure_ascii=False))
+          PY
       - name: Validate original-key editorial cohort manifests
         run: python3 -m unittest tests.test_translation_cohort_manifests -v
       - name: Test source-locked batch extraction, parity and editorial gates
