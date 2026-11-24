@@ -143,3 +143,39 @@ This is not a claim that one was carried out. Publication and catalogue changes
 still require completion or documented acceptance of outstanding technical and
 editorial reader limitations, and owner authorization of the actual release.
 Preserve original source and corrected historical master bytes.
+
+
+### Independently reviewed real-reader result — 2026-11-24
+
+The complete native / official-schema / Xiphos / BibleTime checks for the
+explicit-work adapter are in [PR #95](https://github.com/icfmp/Bible-Resources-ISBE/pull/95)
+and [GUI run #45344977265](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45344977265).
+The actual `ARK` → `ARK OF BULRUSHES` source-attested hyperlink was clicked
+with a real X11 pointer event in both readers, using the previously recorded
+source-article screenshots.
+
+- **BibleTime 3.2.0:** after the click, the *Mag* pane shows the exact
+  `ARK OF BULRUSHES` heading and matching article prose. The main document
+  includes both the ARK entry and the beginning of the linked entry. The
+  screenshot proves a usable destination in the Mag pane, not necessarily a
+  fresh main-document lookup.
+- **Xiphos:** after the click, the *left dictionary Viewer* changes to
+  `BRISBE1915: ARK OF BULRUSHES` and displays actual destination article
+  prose. This confirms that `BRISBE1915:<key>` resolves to the installed
+  dictionary. However the separate right *Book View* displays
+  **"The URL can't be shown"** rather than a clean destination article.
+  This is a separate GUI view/routing limitation still requiring review.
+
+The compiled SWORD HTMLHREF output uses
+`sword://BRISBE1915/ARK+OF+BULRUSHES` (URL-encoded `+` spaces), now covered
+by an independent real native-renderer check in the workflow. The full native
+roundtrip remains source-faithful: 9,380 entries, 5,919 internal targets,
+93,164 Bible reference fields and zero text/structure mismatches. The
+historical corrected TEI and source IDs are unchanged. **Do not describe
+Xiphos Book View navigation as fully accepted** or claim the click resolves
+every entry without separate evidence.
+
+The prior unpublished candidate draft still contains the old
+`self:<key>` links. This newly validated compiled work-ID adapter must
+be used for the next candidate rebuild; tests against the new source do
+not retroactively repair already archived binary assets.
