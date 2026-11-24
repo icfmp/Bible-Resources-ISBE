@@ -50,9 +50,17 @@ explicitly unsets `SWORD_PATH` (source lines 90–91); see also the
    passed. Avoid binary distribution through public Actions artifacts.
 
 The reusable `scripts/smoke_sword_gui_readers.py` performs **automated
-startup and screenshot capture** only. It deliberately labels article
-rendering and link clicks *uncertified*. Interactive GUI acceptance requires
-inspection of those screenshots and evidence of actual user interaction.
+startup, headword lookup, screenshot capture, and an actual pointer-click
+probe** on a visible `Ex 6:20` link in AARON for each reader. The probe
+uses observed positions under the fixed 1440×900 Xvfb fixture; it is **not**
+a portable GUI locator. Its before/after window titles, pointer-event result,
+fixed screen coordinates, and post-click PNG are diagnostics. The script
+explicitly labels **link navigation unverified** because sending a click and
+capturing a changed image does not certify the destination. A reviewer must
+compare the before/after screenshots, verify the opened Bible module and
+exact passage, and record success or failure separately. Recalibrate any
+coordinates after a client UI/layout change; do not weaken the assertion.
+Intra-encyclopedia hyperlink clicks are still a distinct acceptance gate.
 Do not add guessed content to make a GUI test pass.
 
 ## Release boundary

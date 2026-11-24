@@ -120,6 +120,58 @@ def click_at(window,offset_x,offset_y,double=False):
     """Click a widget relative to the currently valid top-level window."""
     return click_at_origin(window_origin(window),offset_x,offset_y,double)
 
+def attempt_scripture_link(reader_name, outdir, result):
+    """Send a real pointer click to an observed link in the fixed Xvfb fixture.
+
+    This is a diagnostic interaction, NOT an assertion that the displayed
+    destination is correct. A separate human review of the resulting PNG must
+    explicitly determine whether navigation occurred. The positions were
+    calibrated against the preserved AARON lookup screenshots in this *exact*
+    1440x900/1200x760 GitHub Actions reader fixture (not arbitrary desktops).
+    If the layouts change, the evidence must be recalibrated, not rubber-stamped.
+    """
+    if reader_name == "bibletime":
+        # Blue "Ex 6:20" in the first AARON paragraph. Actual screenshot:
+        # https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561
+        screen_xy = (476, 239)
+    elif reader_name == "xiphos":
+        # Grey "Ex 6:20" in first visible AARON paragraph of Book View.
+        # https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45279693011
+        screen_xy = (943, 703)
+    else:
+        raise ValueError(f"Unknown GUI reader: {reader_name}")
+    before = command(["xdotool", "getactivewindow", "getwindowname"], timeout=10)
+    probe = {
+        "source_article_key": "AARON",
+        "source_reference_label": "Ex 6:20",
+        "probe_screen_coordinates": list(screen_xy),
+        "coordinate_scope": "pinned Xvfb screenshot fixture only",
+        "window_title_before": before.stdout.strip(),
+        "click_command_succeeded": False,
+        "window_title_after": None,
+        "screenshot": None,
+        "click_destination_verified": False,
+        "requires_independent_visual_review": True,
+    }
+    filename = outdir / (reader_name + "-scripture-click-attempt.png")
+    try:
+        # xdotool takes *screen* coordinates; do not use stale Qt client
+        # origins after opening BibleTime's separate document window.
+        move = command(["xdotool", "mousemove", str(screen_xy[0]), str(screen_xy[1])], timeout=10)
+        click = command(["xdotool", "click", "1"], timeout=10) if move.returncode == 0 else move
+        probe["click_command_succeeded"] = move.returncode == 0 and click.returncode == 0
+        time.sleep(3)
+        after = command(["xdotool", "getactivewindow", "getwindowname"], timeout=10)
+        probe["window_title_after"] = after.stdout.strip()
+        captured = command(["scrot", str(filename)], timeout=15)
+        if captured.returncode == 0 and filename.is_file() and filename.stat().st_size > 1000:
+            probe["screenshot"] = filename.name
+            result["screenshots"].append(filename.name)
+    except (subprocess.TimeoutExpired, OSError) as exc:
+        probe["diagnostic_error"] = str(exc)
+    result["scripture_link_click_probe"] = probe
+    return probe
+
 def test_reader(reader,outdir,lookup_key):
     name=reader["name"]
     log=outdir/(name+".log")
@@ -247,6 +299,9 @@ def test_reader(reader,outdir,lookup_key):
                 if pic.returncode==0 and lookupshot.stat().st_size>1000:
                     result["screenshots"].append(lookupshot.name)
                 result["headword_lookup_attempted_not_certified"]=True
+            # Diagnostic only: actual pointer event and post-click screenshot.
+            # Never infer navigation correctness from process exit or PNG size.
+            attempt_scripture_link(name,outdir,result)
             if name=="xiphos":
                 result["blocking_first_run_dialog"]=bool(
                     named_window("Welcome to Xiphos") or
@@ -295,7 +350,7 @@ def main():
     readers=[test_reader(r,out,args.lookup_key) for r in READERS]
     report={
        "schema_version":1,"module":args.module_id,"lookup_key":args.lookup_key,
-       "scope":"visible_GUI_launch_only_plus_keyboard_navigation_attempt",
+       "scope":"visible_GUI_launch_headword_lookup_and_scripture_pointer_probe",
        "independent_gui_readers":readers,
        "visible_reader_window_count":sum(bool(r["window_found"]) for r in readers),
        "blocking_first_run_dialogs":sum(bool(r.get("blocking_first_run_dialog")) for r in readers),
@@ -318,6 +373,12 @@ def main():
     for reader in readers:
         if not required[reader["name"]].issubset(set(reader["screenshots"])):
             raise SystemExit("Missing readable GUI screenshot for "+reader["name"])
+    for reader in readers:
+        probe = reader.get("scripture_link_click_probe", {})
+        # Strictly assert a real UI event and screenshot were produced, but
+        # NOT that an unknown destination navigation magically passed.
+        if not probe.get("click_command_succeeded") or not probe.get("screenshot"):
+            raise SystemExit("Missing attempted GUI reference click evidence for "+reader["name"])
 
 if __name__=="__main__":
     main()
