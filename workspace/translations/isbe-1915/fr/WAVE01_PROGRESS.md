@@ -141,7 +141,7 @@ merging. No task in #109 is checked, and no SWORD release is authorized.
 ## First exactly 100-entry translation cohort — 24 November 2026
 
 **Cohort 001** is a bounded group of exactly **100 original canonical entries**,
-individually frozen in `worklists/wave-01/COHORT_001_100_SHORT_NOTICES.json`
+individually frozen in `cohorts/COHORT_001_100_SHORT_NOTICES.json`
 with their existing English source position, unmodified SWORD key, canonical
 `xml:id`, exact source article fingerprint and patch file.
 
