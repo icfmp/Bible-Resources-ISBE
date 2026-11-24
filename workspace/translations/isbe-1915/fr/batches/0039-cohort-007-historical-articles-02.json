@@ -3,7 +3,7 @@
   "source_work": "ISBE 1915 — corrected historical English master",
   "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "language": "fr",
-  "status": "translation_in_progress",
+  "status": "unreviewed_drafts",
   "publication_permitted": false,
   "articles": [
     {
@@ -1750,7 +1750,7 @@
       "source_key": "AMRAM",
       "article_id": "isbe-4a1c0b254e7bf00276a1",
       "source_article_sha256": "60d8218ee005aa70372f58c9af3ca1389972c43f4de78d7a6cba82f5284105b2",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
@@ -1842,8 +1842,8 @@
           "node": 17,
           "part": "tail",
           "source": " is called ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " est appelé ",
+          "action": "translate"
         },
         {
           "node": 18,
