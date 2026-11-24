@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five next shortest undrafted complete historical entries after cohort 009, keyed to original source and preserved original index",
+  "selection_date": "2026-11-24",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 694,
+      "source_key": "ARCHERY",
+      "article_id": "isbe-318babbeb4a8b6387fee",
+      "source_article_sha256": "67c71355d54f18e52cb28bd2fa7ec1b19fb5996bd0a6e3231670be5116128c4d",
+      "source_eligible_chars": 1755,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0045-cohort-010-substantive-articles-01.json"
+    },
+    {
+      "index": 761,
+      "source_key": "ARRAY",
+      "article_id": "isbe-23a49b7bcf56b7458196",
+      "source_article_sha256": "ba1220df6dafdcc3c94bf1f11ddc0a121513433f73ec0d5241a6160e7cde02e4",
+      "source_eligible_chars": 1637,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0045-cohort-010-substantive-articles-01.json"
+    },
+    {
+      "index": 825,
+      "source_key": "ASHES",
+      "article_id": "isbe-357932bd215576d8943b",
+      "source_article_sha256": "079cbe49bd5a2119cfe0569083f52a4a30766dffe064b7a1d3e14f43cc844302",
+      "source_eligible_chars": 1757,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0045-cohort-010-substantive-articles-01.json"
+    },
+    {
+      "index": 846,
+      "source_key": "ASIARCH",
+      "article_id": "isbe-7b9328b45bf061c13cf8",
+      "source_article_sha256": "077556632b917119739643934136e549f79e03358f0f4fd02576b43f6ab5852d",
+      "source_eligible_chars": 1859,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0045-cohort-010-substantive-articles-01.json"
+    },
+    {
+      "index": 969,
+      "source_key": "AVENGE; AVENGER",
+      "article_id": "isbe-5a3ba28be0d2198d1260",
+      "source_article_sha256": "96f04c6137831c25fb1debf72576ce6ba5a92f3d91ed705b4eeaa812bd78b33c",
+      "source_eligible_chars": 1696,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0045-cohort-010-substantive-articles-01.json"
+    }
+  ]
+}
