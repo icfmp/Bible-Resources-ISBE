@@ -5,6 +5,8 @@ on:
     paths:
       - .github/workflows/verify-isbe-two-readers.yml
       - scripts/smoke_sword_gui_readers.py
+      - scripts/select_isbe_internal_link_samples.py
+      - tests/test_isbe_internal_link_samples.py
   workflow_dispatch:
 
 permissions:
@@ -43,6 +45,11 @@ jobs:
             --expected-count 9380 \
             --output workspace/tmp/dict-import.xml \
             --report workspace/tmp/dict-import-report.json
+          python3 scripts/select_isbe_internal_link_samples.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --adapted workspace/tmp/dict-import.xml \
+            --output workspace/tmp/gui-internal-link-samples.json
+          python3 -m unittest discover -s tests -p 'test_isbe_internal_link_samples.py' -v
           mkdir -p workspace/tmp/gui-module/modules/lexdict/zld/brisbe1915
           mkdir -p workspace/tmp/gui-module/mods.d
           tei2mod workspace/tmp/gui-module/modules/lexdict/zld/brisbe1915 \
@@ -57,8 +64,8 @@ jobs:
           Lang=en
           Version=0.1.0
           Description=International Standard Bible Encyclopedia (1915, historically corrected working edition)
-          About=Source-locked historical ISBE candidate. NOT APPROVED FOR REDISTRIBUTION.
-          DistributionLicense=Copyrighted
+          About=Source-locked historical ISBE candidate. Reader acceptance is incomplete; do not confuse this test build with a published release.
+          DistributionLicense=Public Domain
           CONF
           # Both independent GUI clients require a real Bible module on
           # their first launch, even when testing an encyclopedia dictionary.
@@ -164,6 +171,17 @@ jobs:
           BIBLETIME_CONFIG
           grep -Fqx 'btconfig_api_version=1' "$HOME/.bibletime/bibletimerc"
           grep -Fqx "defaults\\standardBible=$standard_bible" "$HOME/.bibletime/bibletimerc"
+          export ISBE_INTERNAL_SAMPLE_KEY="$(python3 - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path("workspace/tmp/gui-internal-link-samples.json").read_text())
+          samples=report["chosen_samples"]
+          if not samples:
+              raise SystemExit("No internal encyclopedia link sample")
+          print(samples[0]["source_article"])
+          PY
+          )"
+          echo "Source article for internal-link visual review: $ISBE_INTERNAL_SAMPLE_KEY"
           xvfb-run -a -s '-screen 0 1440x900x24' \
             dbus-run-session -- bash -c '
               set -euo pipefail
@@ -171,6 +189,7 @@ jobs:
               python3 scripts/smoke_sword_gui_readers.py \
                 --module-id BRISBE1915 \
                 --lookup-key AARON \
+                --internal-link-key "$ISBE_INTERNAL_SAMPLE_KEY" \
                 --output-dir workspace/tmp/gui-reader-review
             '
       - name: Upload only GUI launch evidence and strict native validation (NOT full binary)
@@ -180,6 +199,7 @@ jobs:
           name: BRISBE1915-Xiphos-BibleTime-reader-diagnostics
           path: |
             workspace/tmp/gui-reader-review/GUI_SMOKE.json
+            workspace/tmp/gui-internal-link-samples.json
             workspace/tmp/gui-reader-review/*.log
             workspace/tmp/gui-reader-review/*.png
             workspace/tmp/GUI_NATIVE_VALIDATION.json

@@ -62,6 +62,24 @@ exact passage, and record success or failure separately. Recalibrate any
 coordinates after a client UI/layout change; do not weaken the assertion.
 Intra-encyclopedia hyperlink clicks are still a distinct acceptance gate.
 
+### Internal encyclopedia hyperlink fixture inventory
+
+The reusable `scripts/select_isbe_internal_link_samples.py` independently
+locates **source-attested article-to-article TEI links**, verifies the exact
+original selector against the source-to-SWORD adapter and ranks candidate
+source articles whose first clickable reference is an internal dictionary
+link near the article opening. The report includes source/destination keys,
+original `#xml:id`, mapped `self:` key, link text and text offset, without
+altering the source. The native diagnostic artifact retains 25 candidates.
+
+The two-reader smoke now makes a real lookup of the top ranked candidate in
+both graphical readers, captures **its source article before a link click**,
+then restores AARON and continues the existing Bible-reference probe. These
+new candidate screenshots are intended to identify reproducible clickable
+coordinates for a subsequent actual article-to-article click test. **Do not
+report passage navigation accepted on these screenshots alone.** The
+`interactive_dictionary_to_dictionary_link_verified` marker stays `false`.
+
 ### BibleTime fresh-profile Scripture link prerequisite
 
 A real click on the source-attested `Ex 6:20` hyperlink was observed in the

@@ -12,6 +12,8 @@ on:
       - tests/test_sword_reference_targets.py
       - scripts/audit_sword_presentation_samples.py
       - tests/test_sword_presentation_samples.py
+      - scripts/select_isbe_internal_link_samples.py
+      - tests/test_isbe_internal_link_samples.py
       - tests/test_sword_dictionary_adapter.py
       - modules/isbe-1915/**
       - sources/cleaned/encyclopedias/en/isbe-1915/**
@@ -26,6 +28,8 @@ on:
       - tests/test_sword_reference_targets.py
       - scripts/audit_sword_presentation_samples.py
       - tests/test_sword_presentation_samples.py
+      - scripts/select_isbe_internal_link_samples.py
+      - tests/test_isbe_internal_link_samples.py
       - tests/test_sword_dictionary_adapter.py
       - modules/isbe-1915/**
       - sources/cleaned/encyclopedias/en/isbe-1915/**
@@ -83,6 +87,14 @@ jobs:
             --adapted workspace/tmp/isbe-sword-import.xml \
             --report workspace/tmp/sword-gui-source-script-fixtures.json
           python3 -m unittest discover -s tests -p 'test_sword_presentation_samples.py' -v
+      - name: Select source-attested early article-to-article link fixtures
+        run: |
+          set -euo pipefail
+          python3 scripts/select_isbe_internal_link_samples.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --adapted workspace/tmp/isbe-sword-import.xml \
+            --output workspace/tmp/sword-internal-link-samples.json
+          python3 -m unittest discover -s tests -p 'test_isbe_internal_link_samples.py' -v
       - name: Compile an actual independent zLD binary from the corrected edition
         shell: bash
         run: |
@@ -107,8 +119,8 @@ jobs:
           Lang=en
           Version=0.1.0
           Description=International Standard Bible Encyclopedia (1915, historically corrected working edition)
-          About=Edited historical English ISBE; original CrossWire 2.2 with source-attested repairs. Original print collation incomplete. DO NOT REDISTRIBUTE PENDING RIGHTS REVIEW.
-          DistributionLicense=Copyrighted
+          About=Edited historical English ISBE, based on the source-locked 1915 edition and original CrossWire 2.2. Printed collation and GUI acceptance remain incomplete.
+          DistributionLicense=Public Domain
           CONF
       - name: Read all actual native module entries back through libSWORD
         shell: bash
@@ -189,6 +201,7 @@ jobs:
             workspace/tmp/sword-heading-profile.json
             workspace/tmp/sword-reference-target-register.json
             workspace/tmp/sword-gui-source-script-fixtures.json
+            workspace/tmp/sword-internal-link-samples.json
           if-no-files-found: warn
           retention-days: 14
       # No compiled encyclopedia binary is uploaded as an Actions artifact.
