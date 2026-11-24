@@ -62,6 +62,22 @@ exact passage, and record success or failure separately. Recalibrate any
 coordinates after a client UI/layout change; do not weaken the assertion.
 Intra-encyclopedia hyperlink clicks are still a distinct acceptance gate.
 
+### Verified native TEI dictionary link behavior
+
+The CrossWire [TEI Dictionary guide](https://wiki.crosswire.org/TEI_Dictionaries)
+documents `target="self:key"` for same-dictionary references, but the
+SWORD 1.9 [TEIHTMLHREF implementation](https://crosswire.org/svn/sword/trunk/src/modules/filters/teihtmlhref.cpp)
+splits targets at the first colon and treats the left component as a literal
+module ID. Hence `self:key` renders as `sword://self/key`, which Xiphos
+could not open during [real-click run #45343687175](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45343687175).
+The native adapter now takes an **explicit installed SWORD module ID** and
+rewrites original `#xml:id` references to `BRISBE1915:key`; the exact
+original selector remains in `corresp`. This maps to the standard
+`sword://BRISBE1915/key` URL in the SWORD TEI renderer, even for dictionary
+keys that contain a colon. The historical TEI source is not altered.
+**Both real-reader click destinations must be reconfirmed on the rebuilt
+candidate before declaring compatibility.**
+
 ### Internal encyclopedia hyperlink fixture inventory
 
 The reusable `scripts/select_isbe_internal_link_samples.py` independently
@@ -127,3 +143,39 @@ This is not a claim that one was carried out. Publication and catalogue changes
 still require completion or documented acceptance of outstanding technical and
 editorial reader limitations, and owner authorization of the actual release.
 Preserve original source and corrected historical master bytes.
+
+
+### Independently reviewed real-reader result — 2026-11-24
+
+The complete native / official-schema / Xiphos / BibleTime checks for the
+explicit-work adapter are in [PR #95](https://github.com/icfmp/Bible-Resources-ISBE/pull/95)
+and [GUI run #45344977265](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45344977265).
+The actual `ARK` → `ARK OF BULRUSHES` source-attested hyperlink was clicked
+with a real X11 pointer event in both readers, using the previously recorded
+source-article screenshots.
+
+- **BibleTime 3.2.0:** after the click, the *Mag* pane shows the exact
+  `ARK OF BULRUSHES` heading and matching article prose. The main document
+  includes both the ARK entry and the beginning of the linked entry. The
+  screenshot proves a usable destination in the Mag pane, not necessarily a
+  fresh main-document lookup.
+- **Xiphos:** after the click, the *left dictionary Viewer* changes to
+  `BRISBE1915: ARK OF BULRUSHES` and displays actual destination article
+  prose. This confirms that `BRISBE1915:<key>` resolves to the installed
+  dictionary. However the separate right *Book View* displays
+  **"The URL can't be shown"** rather than a clean destination article.
+  This is a separate GUI view/routing limitation still requiring review.
+
+The compiled SWORD HTMLHREF output uses
+`sword://BRISBE1915/ARK+OF+BULRUSHES` (URL-encoded `+` spaces), now covered
+by an independent real native-renderer check in the workflow. The full native
+roundtrip remains source-faithful: 9,380 entries, 5,919 internal targets,
+93,164 Bible reference fields and zero text/structure mismatches. The
+historical corrected TEI and source IDs are unchanged. **Do not describe
+Xiphos Book View navigation as fully accepted** or claim the click resolves
+every entry without separate evidence.
+
+The prior unpublished candidate draft still contains the old
+`self:<key>` links. This newly validated compiled work-ID adapter must
+be used for the next candidate rebuild; tests against the new source do
+not retroactively repair already archived binary assets.

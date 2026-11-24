@@ -2,7 +2,7 @@
 """Adapt source-locked TEI P5 entries and references to SWORD dictionaries.
 
 The source master stays unchanged. Entry wrapper div elements are converted to
-entryFree; article and section links gain explicit SWORD self:key targets,
+entryFree; article and section links gain explicit SWORD module:key targets,
 while the exact source target remains in corresp. Bible cRef is retained and
 exposed via native osisRef. All these adapter-only changes are reported;
 nested sections are retained for independent reader compatibility review.
@@ -63,14 +63,20 @@ def read_entries(source,expected_sha,expected_count):
         })
     return header,entries,nested,details
 
-def convert(source,outpath,reportpath,expected_sha,expected_count):
+def convert(source,outpath,reportpath,expected_sha,expected_count,module_id):
+    # SWORD TEIHTMLHREF splits the target at its first ':' and interprets
+    # the left part as the *actual module ID*, not a magic 'self' alias.
+    # Explicit module naming works even if a dictionary key contains ':'.
+    if not module_id or any(c in module_id for c in (":","/","\\","\n"," ")):
+        raise ValueError("SWORD module ID must be a valid, nonempty link work name")
     source=Path(source);outpath=Path(outpath);reportpath=Path(reportpath)
     header,entries,nested,details=read_entries(source,expected_sha,expected_count)
     output=ET.Element(NS+"TEI",{f"{{{XML}}}lang":"en"})
     output.append(copy.deepcopy(header))
     text=ET.SubElement(output,NS+"text")
     body=ET.SubElement(text,NS+"body")
-    # Native SWORD self-links address ENTRY KEYS, not source TEI xml:id values.
+    # SWORD dictionary cross-links address ENTRY KEYS under a real module ID,
+    # not source TEI xml:id values. The filter treats 'self' as a literal work.
     # Resolve every existing target against the complete source ID inventory,
     # preserve its exact original selector as TEI @corresp, and explicitly
     # record the lost intra-article scroll precision for editorial review.
@@ -102,7 +108,7 @@ def convert(source,outpath,reportpath,expected_sha,expected_count):
                     raise ValueError("Unresolved article or section source target")
                 key=id_to_key[original_id]
                 ref.set("corresp",target)
-                ref.set("target","self:"+key)
+                ref.set("target",module_id+":"+key)
                 retargeted+=1
                 if ref.get("type")=="section":
                     section_links+=1
@@ -134,6 +140,8 @@ def convert(source,outpath,reportpath,expected_sha,expected_count):
     report={
       "schema_version":1,"status":"TEI_dictionary_import_input_not_native_approved",
       "source_path":str(source),"source_sha256":digest(source),
+      "sword_dictionary_module_id":module_id,
+      "sword_link_scheme":"explicit_work_colon_entry_key",
       "sword_import_input":str(outpath),"sword_import_sha256":digest(outpath),
       "source_entry_count":len(entries),"converted_entry_count":len(produced),
       "article_ids_preserved":True,"entry_visible_text_preserved":True,
@@ -159,8 +167,10 @@ def main():
     p.add_argument("--report",required=True)
     p.add_argument("--expected-sha256",required=True)
     p.add_argument("--expected-count",type=int,required=True)
+    p.add_argument("--module-id",required=True,
+                   help="Installed SWORD dictionary module ID for native cross-links")
     args=p.parse_args()
-    report=convert(args.source,args.output,args.report,args.expected_sha256,args.expected_count)
+    report=convert(args.source,args.output,args.report,args.expected_sha256,args.expected_count,args.module_id)
     print(json.dumps({k:v for k,v in report.items() if k!="entries"},indent=2))
 
 if __name__=="__main__":

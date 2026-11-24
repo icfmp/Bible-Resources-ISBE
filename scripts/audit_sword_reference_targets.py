@@ -35,7 +35,9 @@ def read_entries(path,tag):
         found[key]=entry
     return found
 
-def analyze(source_path,import_path,report_path):
+def analyze(source_path,import_path,report_path,module_id):
+    if not module_id or ":" in module_id or "/" in module_id:
+        raise ValueError("Invalid explicit module ID")
     original=read_entries(source_path,"div")
     adapted=read_entries(import_path,"entryFree")
     if original.keys()!=adapted.keys():
@@ -53,6 +55,7 @@ def analyze(source_path,import_path,report_path):
     summary={
         "schema_version":1,
         "source_tei_sha256":digest(source_path),
+        "explicit_sword_work_id":module_id,
         "sword_import_tei_sha256":digest(import_path),
         "source_article_count":len(original),
         "source_xml_id_count":len(by_id),
@@ -94,7 +97,7 @@ def analyze(source_path,import_path,report_path):
                 dest_key,dest_node,is_article=by_id[ident]
                 if "corresp" in expected:
                     raise ValueError("Existing original corresp would be overwritten")
-                expected["target"]="self:"+dest_key
+                expected["target"]=module_id+":"+dest_key
                 expected["corresp"]=target
                 summary["internal_dictionary_refs"]+=1
                 destination_types[dest_node.tag.partition("}")[2]]+=1
@@ -110,7 +113,7 @@ def analyze(source_path,import_path,report_path):
                         "source_ref_index":index,
                         "link_text":"".join(prev.itertext()),
                         "original_target":target,
-                        "sword_article_target":"self:"+dest_key,
+                        "sword_article_target":module_id+":"+dest_key,
                         "destination_article":dest_key,
                         "destination_node_tag":dest_node.tag.partition("}")[2],
                         "destination_is_article":is_article,
@@ -141,8 +144,9 @@ def main():
     p.add_argument("--source",required=True)
     p.add_argument("--adapted",required=True)
     p.add_argument("--report",required=True)
+    p.add_argument("--module-id",required=True)
     a=p.parse_args()
-    result=analyze(a.source,a.adapted,a.report)
+    result=analyze(a.source,a.adapted,a.report,a.module_id)
     print(json.dumps({k:v for k,v in result.items() if k!="section_ref_register"},
                      indent=2,ensure_ascii=False))
 

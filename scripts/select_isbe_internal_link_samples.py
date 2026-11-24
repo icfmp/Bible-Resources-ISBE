@@ -49,7 +49,9 @@ def ref_offsets(entry):
     scan(entry)
     return refs
 
-def analyse(source,adapted,output,limit=25):
+def analyse(source,adapted,output,limit=25,module_id=None):
+    if not module_id or ":" in module_id or "/" in module_id:
+        raise ValueError("Invalid explicit SWORD module ID")
     old=entries(source,"div")
     new=entries(adapted,"entryFree")
     if old.keys()!=new.keys():
@@ -83,7 +85,7 @@ def analyse(source,adapted,output,limit=25):
             dest=id_to_article.get(target[1:])
             if dest is None:
                 raise ValueError(f"Unresolved original target {target}")
-            if replacement.get("target")!="self:"+dest or replacement.get("corresp")!=target:
+            if replacement.get("target")!=module_id+":"+dest or replacement.get("corresp")!=target:
                 raise ValueError(f"Original crosslink not correctly mapped: {key}")
             if dest==key:
                 continue
@@ -98,7 +100,7 @@ def analyse(source,adapted,output,limit=25):
                 "destination_article":dest,
                 "link_text":label,
                 "original_xml_target":target,
-                "native_link_target":"self:"+dest,
+                "native_link_target":module_id+":"+dest,
                 "first_cross_article_link_text_offset":offset,
                 "is_first_clickable_reference":offset==first_clickable,
                 "article_text_length":len(text),
@@ -122,6 +124,7 @@ def analyse(source,adapted,output,limit=25):
         "source_sha256":digest(source),
         "adapted_sha256":digest(adapted),
         "source_article_count":len(old),
+        "sword_module_id":module_id,
         "cross_article_reference_count":cross_count,
         "articles_with_cross_article_references":candidate_count,
         "chosen_samples":choices[:limit],
@@ -140,10 +143,11 @@ def main():
     p.add_argument("--adapted",required=True)
     p.add_argument("--output",required=True)
     p.add_argument("--limit",type=int,default=25)
+    p.add_argument("--module-id",required=True)
     a=p.parse_args()
     if not 1<=a.limit<=100:
         raise SystemExit("--limit requires 1..100")
-    report=analyse(a.source,a.adapted,a.output,a.limit)
+    report=analyse(a.source,a.adapted,a.output,a.limit,a.module_id)
     print(json.dumps({k:v for k,v in report.items() if k!="chosen_samples"},
                      indent=2,ensure_ascii=False))
     print(json.dumps({"first_sample":report["chosen_samples"][0] if report["chosen_samples"] else None},

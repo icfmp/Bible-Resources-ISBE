@@ -40,7 +40,7 @@ class SwordAdapterTests(unittest.TestCase):
             produced=folder/"sword.xml"
             report=folder/"report.json"
             make_source(source)
-            result=convert(source,produced,report,digest(source),2)
+            result=convert(source,produced,report,digest(source),2,"TESTLD")
             self.assertEqual(result["source_entry_count"],2)
             self.assertEqual(result["converted_entry_count"],2)
             self.assertTrue(result["article_ids_preserved"])
@@ -56,7 +56,7 @@ class SwordAdapterTests(unittest.TestCase):
             entry=ET.parse(produced).find("./"+NS+"text/"+NS+"body")[0]
             refs=list(entry.iter(NS+"ref"))
             self.assertEqual(refs[0].get("osisRef"),"Bible:John.3.16")
-            self.assertEqual(refs[1].get("target"),"self:BETA")
+            self.assertEqual(refs[1].get("target"),"TESTLD:BETA")
             self.assertEqual(refs[1].get("corresp"),"#entry-1")
 
     def test_wrong_hash_missing_keys_and_duplicated_keys_fail(self):
@@ -84,7 +84,7 @@ class SwordAdapterTests(unittest.TestCase):
             internal.set("target","#missing-target")
             root.write(src,encoding="utf-8",xml_declaration=True)
             with self.assertRaisesRegex(ValueError,"Unresolved"):
-                convert(src,folder/"sword.xml",folder/"report.json",digest(src),2)
+                convert(src,folder/"sword.xml",folder/"report.json",digest(src),2,"TESTLD")
 
     def test_native_readback_detects_full_text_and_markup_corruption(self):
         with TemporaryDirectory() as folder:
@@ -94,7 +94,7 @@ class SwordAdapterTests(unittest.TestCase):
             report=folder/"report.json"
             imp=folder/"native.imp"
             make_source(src)
-            convert(src,target,report,digest(src),2)
+            convert(src,target,report,digest(src),2,"TESTLD")
             root=ET.parse(target).getroot()
             entries=list(root.find("./"+NS+"text/"+NS+"body"))
             imp.write_text("".join("$$$"+e.get("n")+"\n"+ET.tostring(e,encoding="unicode")+"\n" for e in entries),
@@ -116,7 +116,7 @@ class SwordAdapterTests(unittest.TestCase):
             report=folder/"report.json"
             imp=folder/"native.imp"
             make_source(src)
-            convert(src,target,report,digest(src),2)
+            convert(src,target,report,digest(src),2,"TESTLD")
             entry=ET.parse(target).find("./"+NS+"text/"+NS+"body")[0]
             imp.write_text("$$$ALPHA\n"+ET.tostring(entry,encoding="unicode")+"\n",encoding="utf-8")
             audit=analyze(target,imp,folder/"native-report.json")
