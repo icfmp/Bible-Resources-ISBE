@@ -1,6 +1,6 @@
 # French ISBE translation conventions — provisional editorial decisions
 
-This is a **working draft**, not a human-approved glossary. It records actual choices and review questions from the first nineteen source-locked French article drafts. Future batches must use consistent, source-faithful terminology without altering the original English edition.
+This is a **working draft**, not a human-approved glossary. It records actual choices and review questions from the complete set of fifty source-locked French article drafts. Future batches must use consistent, source-faithful terminology without altering the original English edition.
 
 ## Non-negotiable technical contract
 
@@ -31,4 +31,6 @@ This is a **working draft**, not a human-approved glossary. It records actual ch
 4. Review Greek/Hebrew codepoints and punctuation visually, even after automated invariance tests pass.
 5. Create and test language-localized **search aliases** separately only after the common canonical index is stable. They cannot become BRSI keys.
 
-All draft rows are still marked **unreviewed**. No editorial acceptance or publication is implied.
+Editorial source anomalies requiring separate printed-source review: HOLY OF HOLIES contains the damaged phrase `great @@clothed`; DEUTERO-CANONICAL, BOOKS contains `Teaching of the Apes`, `Shepher`, `He`, and a broken Jerome/Augustine clause; other source formatting/typographic anomalies appear in the pilot. Drafts mark uncertainties without silently changing historical English source text. Do not treat translator annotations as an authorized correction of the original.
+
+All fifty draft entries are still **unreviewed**. No editorial acceptance or publication is implied.
