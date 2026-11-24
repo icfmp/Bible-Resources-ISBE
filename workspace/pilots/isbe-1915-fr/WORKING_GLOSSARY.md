@@ -14,7 +14,7 @@ This is a **working draft**, not a human-approved glossary. It records actual ch
 | English source text/type | French draft approach | Review note |
 | --- | --- | --- |
 | `See` and dictionary cross-reference labels | `Voir` and a French visible article name | Keep the source `ref/@target` and original `@n` unchanged |
-| `Ark`, `Ark of Bulrushes` | `Arche`, `Arche de joncs` | Display only: canonical keys remain `ARK`, `ARK OF BULRUSHES` |
+| `Ark`, `Ark of Bulrushes` | `Arche`, `Corbeille de joncs` | Distinguish Noah’s ark from the floating basket of Moses; canonical keys stay `ARK`, `ARK OF BULRUSHES` |
 | `Methuselah`, `Zerubbabel`, `Kiriathaim` | `Mathusalem`, `Zorobabel`, `Kiriathaïm` | Review proper-name spelling against a consistent French Bible convention |
 | `Revised Version`, `King James Version`, `AV` | Preserve the specific **historical** edition reference, usually in English | Never replace with a later French translation; consider an editorial abbreviation list |
 | `Good Luck` in FORTUNE | `Chance` | Avoid projecting a later doctrinal sense into the 1915 article |
