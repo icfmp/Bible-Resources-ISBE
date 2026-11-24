@@ -106,3 +106,34 @@ Source-witness and fidelity notes:
 - All original canonical `@n` / `xml:id`, original-language spans, bibliographic names, Scripture `cRef` and internal targets remain unchanged in the English TEI.
 
 These are complete source-locked first drafts, *not independent bilingual editorial approvals*. Source and reading-copy CI must pass; checkboxes stay unchecked and French publication remains prohibited.
+
+## Six complete historical article drafts — 24 November 2026
+
+Three source-locked patch files add **six** previously undrafted entries within lot 1:
+`ABI (2)` (#0038), `ABIJAM` (#0056), `ABILENE` (#0058),
+`ABIMAEL` (#0060), `ABINADAB` (#0062), and `ABISHAG` (#0067).
+Their full English source text units were exported directly from the pinned
+historical TEI using the existing `scripts.export_translation_source`
+tool; all original `@n` keys, IDs, Scripture locators, link destinations,
+source-language elements, and bibliography remain source-owned.
+
+**Updated coverage after full draft reconstruction is verified: 111/1,000
+complete first drafts in lot 1; 889 without French drafts. Whole corpus:
+156/9,380 draft entries. 0 independent bilingual editorial sign-offs.**
+
+This tranche includes substantial full paragraphs, not article excerpts:
+- `ABI (2)`: the complete historical discussion of Hebrew name components,
+  scholarly disputes, and qualified theological deductions.
+- `ABIJAM`: original textual-critical alternatives and the author's
+  historically conditioned interpretation remain explicit.
+- `ABILENE`: historical geographical and dynastic statements remain attributed
+  to the original 1915 work, not silently modernized.
+- `ABIMAEL`: Arabic naming conjectures and the original bibliography retained.
+- `ABINADAB`: all four persons/referents, text variants, and uncertainty
+  concerning the location of the ark preserved.
+- `ABISHAG`: original author's historical explanation of David's care and
+  Adonijah's request translated without imposing a modern interpretation.
+
+**Status remains complete *unreviewed* first drafts, not editorial acceptance.**
+The full source-locked reconstruction and reading-copy CI must pass before
+merging. No task in #109 is checked, and no SWORD release is authorized.
