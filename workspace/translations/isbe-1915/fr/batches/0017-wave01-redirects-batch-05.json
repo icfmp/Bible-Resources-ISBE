@@ -67,9 +67,8 @@
           "node": 3,
           "part": "text",
           "source": "ASSYRIA",
-          "target": "ASSYRIA",
-          "action": "preserve",
-          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+          "target": "ASSYRIE",
+          "action": "translate"
         }
       ]
     },
@@ -306,9 +305,8 @@
           "node": 1,
           "part": "text",
           "source": "AUL",
-          "target": "AUL",
-          "action": "preserve",
-          "reason": "Canonical proper name or lexical headword already suitable in French"
+          "target": "ALÈNE (AUL)",
+          "action": "translate"
         },
         {
           "node": 2,
