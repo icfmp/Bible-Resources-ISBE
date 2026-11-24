@@ -23,6 +23,7 @@ class TranslationReviewCorpusTests(unittest.TestCase):
                            folder / "audit.json", flags_file=FLAGS)
             self.assertEqual(report["selected_complete_unreviewed_drafts"], 51)
             self.assertEqual(report["pilot_drafts_count"], 50)
+            self.assertEqual(report["batch_drafts_count"], 1)
             self.assertEqual(report["source_article_count"], 9380)
             self.assertEqual(report["source_flags_pending_witness_review"], 12)
             self.assertEqual(report["source_flag_affected_articles"], 6)
