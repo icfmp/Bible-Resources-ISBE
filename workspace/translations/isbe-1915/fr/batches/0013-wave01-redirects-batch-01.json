@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ADAN",
+      "article_id": "isbe-9157e28784df26a460f8",
+      "source_article_sha256": "6b2df3a16d7accb3f7022c0d41ea82d9f6b775507e6a31274fa31d09c775dd15",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ADAN",
+          "target": "ADAN",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-dan. See ",
+          "target": "a'-dan. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ADDAN",
+          "target": "ADDAN",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ADARSA",
+      "article_id": "isbe-ddb09bf20a5a80f47742",
+      "source_article_sha256": "d11e1dee252ed8723f9917643bca5783f5ea66093d741527bb2df96a5601dca9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ADARSA",
+          "target": "ADARSA",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-dar'-sa. See ",
+          "target": "a-dar'-sa. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ADASA",
+          "target": "ADASA",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ADDON",
+      "article_id": "isbe-b179a588f76533fd499f",
+      "source_article_sha256": "3a50bb700c68b9f3dd19ff2c56273b91454d059f0bc15836f715b7d7f05b8eec",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ADDON",
+          "target": "ADDON",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ad'-on.",
+          "target": "ad'-on.",
+          "action": "preserve",
+          "reason": "Historical pronunciation, personal name or unlinked biblical citation retained exactly"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ADDAN",
+          "target": "ADDAN",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ADINUS",
+      "article_id": "isbe-ff74ef87f4a53ebc4994",
+      "source_article_sha256": "060fcc96726292fa861607fdfad7a1cdb5c66f1514fa1234e950c92aa304098a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ADINUS",
+          "target": "ADINUS",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ad'-i-nus. See ",
+          "target": "ad'-i-nus. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "IADINUS",
+          "target": "IADINUS",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Apocrypha).",
+          "target": " (livres apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ADMIN",
+      "article_id": "isbe-835d6dc88b708bc646d6",
+      "source_article_sha256": "1ef672e825e7d4c8f729b80e458287a02ed436241e56956ca565838380627e36",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ADMIN",
+          "target": "ADMIN",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ad'-min. See ",
+          "target": "ad'-min. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARNI",
+          "target": "ARNI",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ADORAM",
+      "article_id": "isbe-9f79fb1c60d4e23a11c0",
+      "source_article_sha256": "0ce8daf0974298af05b8c888adb38c3212329fd7d3eb2ac160d0cab2df17e76c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ADORAM",
+          "target": "ADORAM",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-do'-ram. See ",
+          "target": "a-do'-ram. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ADONIRAM",
+          "target": "ADONIRAM",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ADRA",
+      "article_id": "isbe-9a8171234fb985a88d78",
+      "source_article_sha256": "25bf4bd6c9e586c1c1f18d9bfab7e0ae4290220858a7617a6a7c17ff1fd6b03a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ADRA",
+          "target": "ADRA",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-dra. See ",
+          "target": "a'-dra. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARAD",
+          "target": "ARAD",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (city). ",
+          "target": " (ville). ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AELIA",
+      "article_id": "isbe-3794458d81bee73c0519",
+      "source_article_sha256": "8902b95528b2cb9cd1693cf9937407c8f4e6676a0f84c9e26032a76d73dc09e1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AELIA",
+          "target": "AELIA",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-li-a.",
+          "target": "e'-li-a.",
+          "action": "preserve",
+          "reason": "Historical pronunciation, personal name or unlinked biblical citation retained exactly"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "JERUSALEM",
+          "target": "JÉRUSALEM",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AGAIN; BORN",
+      "article_id": "isbe-2bfcb2ad1472312385c3",
+      "source_article_sha256": "925118c1e156387308a3305c46965602bc663384021c703a1694bc2ad665fd79",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AGAIN; BORN",
+          "target": "NAÎTRE DE NOUVEAU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "REGENERATION",
+          "target": "RÉGÉNÉRATION",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AGATE",
+      "article_id": "isbe-3a765c5a8d6d1513e2aa",
+      "source_article_sha256": "7b803c45a683a486ab26569aa803a38bb8d27ba0b896544d1b39453eac9d29d9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AGATE",
+          "target": "AGATE",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "STONES, PRECIOUS",
+          "target": "PIERRES PRÉCIEUSES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AGRIPPA",
+      "article_id": "isbe-556568fa71af5492b444",
+      "source_article_sha256": "ba5d07dc8c6a7ace3d49d0ec7dabeeec77ce288f26dc6cc2d369bb25774e6f1d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AGRIPPA",
+          "target": "AGRIPPA",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-grip'-a. See ",
+          "target": "a-grip'-a. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "HEROD",
+          "target": "HÉRODE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AH",
+      "article_id": "isbe-52198b80bf68e8139a9b",
+      "source_article_sha256": "0a114289ce525dca3a8b56c73cc2ad2698c61019dcb5975663611f2d8ec73d6f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AH",
+          "target": "AH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "In proper names. See ",
+          "target": "Dans les noms propres. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AHI",
+          "target": "AHI",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AHASAI",
+      "article_id": "isbe-070b0caf1177f8fe0636",
+      "source_article_sha256": "14e010132fa82b5b44d70a309caf2c4a34915397b02f11b273c1fdea595fffcb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHASAI",
+          "target": "AHASAI",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-ha-si, a-ha'-si. See ",
+          "target": "a'-ha-si, a-ha'-si. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AHZAI",
+          "target": "AHZAI",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AHAZ, DIAL OF",
+      "article_id": "isbe-f622fe8b32a01945907f",
+      "source_article_sha256": "eb8e23ddd2d5d910fe80c1a152903e755cd7bc9788cb86ebc0fd4b18bc2d6a75",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHAZ, DIAL OF",
+          "target": "CADRAN D'ACHAZ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "DIAL OF AHAZ",
+          "target": "CADRAN D'ACHAZ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AHOLAH",
+      "article_id": "isbe-6ed7567993770158fbf2",
+      "source_article_sha256": "4653a1f0a97711ffc82ef7d250eea053482dfccfe8850e29c2e6bc2da830b621",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHOLAH",
+          "target": "AHOLAH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ho'-la. See ",
+          "target": "a-ho'-la. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "OHOLAH",
+          "target": "OHOLAH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AHOLIAB",
+      "article_id": "isbe-8f97cfc7017fff1bfdf9",
+      "source_article_sha256": "81f4e7b1c17cd247e4768973ca069ced0b35b50c71127c53bd99806bcb159779",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHOLIAB",
+          "target": "AHOLIAB",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ho-li'-ab. See ",
+          "target": "a-ho-li'-ab. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "OHOLIAB",
+          "target": "OHOLIAB",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AHOLIAH",
+      "article_id": "isbe-b52a9f5715adf507b04f",
+      "source_article_sha256": "6d1441b1408927561b62a688893e94e5ed288e42d0e19aed8fee8265549395a6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHOLIAH",
+          "target": "AHOLIAH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ho-li'-a. See ",
+          "target": "a-ho-li'-a. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "OHOLIAH",
+          "target": "OHOLIAH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AHOLIBAH",
+      "article_id": "isbe-61393e30b319df9c341e",
+      "source_article_sha256": "431e5f768286d95456e4ef2414438205a947010cfe2bf275de91a35e60b952ea",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHOLIBAH",
+          "target": "AHOLIBAH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ho'-li-ba. See ",
+          "target": "a-ho'-li-ba. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "OHOLIBAH",
+          "target": "OHOLIBAH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AHOLIBAMAH",
+      "article_id": "isbe-2fba88d105d9fad7fb46",
+      "source_article_sha256": "91d09d8b6478b8ea7ac0a881b315b47c2e0f2d550c46161a246753da846085f1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHOLIBAMAH",
+          "target": "AHOLIBAMAH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ho-li-ba'-ma. See ",
+          "target": "a-ho-li-ba'-ma. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "OHOLIBAMAH",
+          "target": "OHOLIBAMAH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AIN (1)",
+      "article_id": "isbe-360d87b53c0483b5240e",
+      "source_article_sha256": "6f53c74928e1baca8e7adedd00f394eb69ef83a28778c7a1f37f08018298864d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AIN (1)",
+          "target": "AIN (1)",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AYIN",
+          "target": "AYIN",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    }
+  ]
+}

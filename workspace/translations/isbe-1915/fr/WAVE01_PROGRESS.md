@@ -137,3 +137,40 @@ This tranche includes substantial full paragraphs, not article excerpts:
 **Status remains complete *unreviewed* first drafts, not editorial acceptance.**
 The full source-locked reconstruction and reading-copy CI must pass before
 merging. No task in #109 is checked, and no SWORD release is authorized.
+
+## First exactly 100-entry translation cohort — 24 November 2026
+
+**Cohort 001** is a bounded group of exactly **100 original canonical entries**,
+individually frozen in `cohorts/COHORT_001_100_SHORT_NOTICES.json`
+with their existing English source position, unmodified SWORD key, canonical
+`xml:id`, exact source article fingerprint and patch file.
+
+**Selection is intentionally transparent:** these are the 100 shortest
+previously undrafted entries in lot 1, **all short cross-reference notices**,
+rather than 100 full-length scholarly essays. Their source prose spans 14–45
+eligible text characters per notice (3,099 characters across the cohort).
+The editorial workflow still translates each complete *source article*,
+including its headword and every original cross-reference; no excerpt is
+counted as an article. This selection makes the raw article-count progress
+move faster than the proportion of the encyclopedia's total prose translated.
+
+Five source-locked patches contain **20 complete notice drafts apiece**:
+`0013-wave01-redirects-batch-01.json` through
+`0017-wave01-redirects-batch-05.json`. They reuse the original 100 entries;
+not a single canonical identity or link is added, removed or reindexed.
+Historical English pronunciation guides and proper names may be retained with
+a source-unit reason. French display heads and cross-reference labels are
+localized without changing original reference targets, including historically
+specific terminology (e.g., `FARTHING`).
+
+**Lot-1 draft coverage after validating these files: 211/1,000, with 789
+undrafted. Across the entire source: 256/9,380 first drafts.**
+**Editorially accepted: 0/1,000.** This is a draft-only milestone: no issue
+checkbox is checked, and no translated SWORD release is authorized.
+
+Every cohort item is structurally checked against the immutable original TEI,
+and the added generic cohort regression test verifies the 100 original IDs,
+source positions, fingerprint parity, exact patch files, uniqueness, and
+nonpublication state. The full reconstructed French excerpt and readable
+editorial proofs are independently exercised by the existing translation CI.
+Bilingual article-level editorial collation and acceptance are still pending.

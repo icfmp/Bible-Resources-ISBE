@@ -7,6 +7,7 @@ on:
       - 'scripts/export_translation_source.py'
       - 'scripts/render_translation_reading_copy.py'
       - 'tests/test_translation_batches.py'
+      - 'tests/test_translation_cohort_manifests.py'
       - 'workspace/translations/isbe-1915/fr/**'
       - '.github/workflows/fr-translation-batches.yml'
   pull_request:
@@ -15,6 +16,7 @@ on:
       - 'scripts/export_translation_source.py'
       - 'scripts/render_translation_reading_copy.py'
       - 'tests/test_translation_batches.py'
+      - 'tests/test_translation_cohort_manifests.py'
       - 'workspace/translations/isbe-1915/fr/**'
       - '.github/workflows/fr-translation-batches.yml'
   workflow_dispatch:
@@ -27,6 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Validate original-key editorial cohort manifests
+        run: python3 -m unittest tests.test_translation_cohort_manifests -v
       - name: Test source-locked batch extraction, parity and editorial gates
         run: python3 -m unittest tests.test_translation_batches -v
       - name: Reconstruct non-publishable historical French working excerpt

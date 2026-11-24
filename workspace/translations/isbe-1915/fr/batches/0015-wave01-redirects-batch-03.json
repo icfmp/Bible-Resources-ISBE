@@ -1,0 +1,628 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AQUEDUCT",
+      "article_id": "isbe-cf27da8ef522eaf3a07f",
+      "source_article_sha256": "71f5ed87df78b8d32605f0339de2d25ccbd21b62080263d435a1d2e7019a992e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AQUEDUCT",
+          "target": "AQUEDUC",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-we-dukt. See ",
+          "target": "ak'-we-dukt. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CISTERN",
+          "target": "CITERNE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARABIAN",
+      "article_id": "isbe-25fa85a9d7a955dad9ae",
+      "source_article_sha256": "3e2fd33de3da43ab9327ada3567072bbe73e91b0653cccedbf536b76e71df2b1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARABIAN",
+          "target": "ARABE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARABIA",
+          "target": "ARABIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARABOTH",
+      "article_id": "isbe-da8bc8d3617652a25cb4",
+      "source_article_sha256": "00b5520b2b596635874575ca76c0590fde7e88345e0038b22ed701ca31514622",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARABOTH",
+          "target": "ARABOTH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-a-both. See ",
+          "target": "ar'-a-both. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARUBBOTH",
+          "target": "ARUBBOTH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAM-MAACAH",
+      "article_id": "isbe-0d1bc2d66b4d02d000f2",
+      "source_article_sha256": "7d15fc42bf71146a18f4472e1c4860731b7301378a8cb6929b4ece50fa92b9f8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAM-MAACAH",
+          "target": "ARAM-MAACAH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ram-ma'-a-ka. See ",
+          "target": "a-ram-ma'-a-ka. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SYRIA",
+          "target": "SYRIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAM-NAHARAIM",
+      "article_id": "isbe-921cfd461dc0c94d07fd",
+      "source_article_sha256": "57df4912200c8b8d05c00a4aa898e698f04ae30e6eee4797c93d9607a79b1a1b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAM-NAHARAIM",
+          "target": "ARAM-NAHARAIM",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ram-na-ha-ra'-im. See ",
+          "target": "a-ram-na-ha-ra'-im. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SYRIA",
+          "target": "SYRIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAM-REHOB",
+      "article_id": "isbe-be7ebfe149300d5c4544",
+      "source_article_sha256": "465fe50ecf2def4c25424e2148b2227b83dc1728057590fee19f133cfc159c95",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAM-REHOB",
+          "target": "ARAM-REHOB",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ram-re'-hob. See ",
+          "target": "a-ram-re'-hob. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SYRIA",
+          "target": "SYRIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAM-ZOBAH",
+      "article_id": "isbe-8cfec0ca5f3a7f2356a7",
+      "source_article_sha256": "9b2750234c4cf57f4a5d4ee63811602c8dd1d4de7d548dd073d1028f933ea4fb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAM-ZOBAH",
+          "target": "ARAM-ZOBAH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ram-zo'-ba. See ",
+          "target": "a-ram-zo'-ba. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SYRIA",
+          "target": "SYRIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAMAIC VERSIONS",
+      "article_id": "isbe-03836d74ecc4d6f56c1f",
+      "source_article_sha256": "c918ea4ca3f9fd1f3418495e4d05ead9c7bf654ab6a274a7483c7c9b95ec1d7d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAMAIC VERSIONS",
+          "target": "VERSIONS ARAMÉENNES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "TARGUM",
+          "target": "TARGUM",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ARARAH",
+      "article_id": "isbe-f5601012862055683ca5",
+      "source_article_sha256": "442184a45348f399dd6efe4568f4f3187bae4d0199d5d04c90a2e69bd1688969",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARARAH",
+          "target": "ARARAH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "Same as ",
+          "target": "Autre forme de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARARAT",
+          "target": "ARARAT",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Tobit 1:21).",
+          "target": " (Tobit 1:21).",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ARBA, CITY OF",
+      "article_id": "isbe-a7bdfde465e71f1ce6ff",
+      "source_article_sha256": "6d9b92f05437223897699155f05cc07de861ba9b5e5ce669bc9edcae6ab6cd60",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARBA, CITY OF",
+          "target": "VILLE D'ARBA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "KIRIATH-ARBA",
+          "target": "KIRIATH-ARBA",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ARCHANGEL",
+      "article_id": "isbe-5598d8d57144140a7bee",
+      "source_article_sha256": "0b8aebb8ae29f332a37791e859ea497a4e9834a6ccb0b6dfa57191c792c58531",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARCHANGEL",
+          "target": "ARCHANGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ark-an'-jel. See ",
+          "target": "ark-an'-jel. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ANGEL",
+          "target": "ANGE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARCHI",
+      "article_id": "isbe-0e22c9d21ed688fcd4b7",
+      "source_article_sha256": "0b225323b76ac53efc4cb71e31dd16ff46b6371a7e63f8b60acd6295028dcbaf",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARCHI",
+          "target": "ARCHI",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-ki. See ",
+          "target": "ar'-ki. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARCHITES",
+          "target": "ARCHITES",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ARELITES",
+      "article_id": "isbe-80e38b048c15efdb6ede",
+      "source_article_sha256": "5ee6f91229147fb526718f3f1ff620976b6c42ea47ac1033cf15aef1f8be9736",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARELITES",
+          "target": "ARÉLITES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-re'-lits: In ",
+          "target": "a-re'-lits : En ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". See ",
+          "target": ". Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARELI",
+          "target": "ARELI",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AREOPAGITE",
+      "article_id": "isbe-8c26ad5336723f07fbca",
+      "source_article_sha256": "b4db55f2f9a9de7060f5ff27da4d396b90608ebee8983e042afa1e2fb8bd14d7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AREOPAGITE",
+          "target": "ARÉOPAGITE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-e-op'-a-jit. See ",
+          "target": "ar-e-op'-a-jit. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "DIONYSIUS",
+          "target": "DENYS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARIARATHES",
+      "article_id": "isbe-9c18fd8bff0b54898286",
+      "source_article_sha256": "926591453d80ac240bdc4aa2ede8403617c62126c891787e922588eb5739fcc0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARIARATHES",
+          "target": "ARIARATHES",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ri-a-ra'-thez. See ",
+          "target": "a-ri-a-ra'-thez. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARATHES",
+          "target": "ARATHES",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ARIEH",
+      "article_id": "isbe-fe7bf63eb833d19f618e",
+      "source_article_sha256": "b6635fca7091d54f922fa991cedf922382d3a1384b9fce0c39bc6192a7418ce0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARIEH",
+          "target": "ARIEH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-ri-e: \"(the) Lion.\" See ",
+          "target": "a'-ri-e : « (le) Lion ». Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARGOB",
+          "target": "ARGOB",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ARITHMETIC",
+      "article_id": "isbe-45dda7066f686eb5e595",
+      "source_article_sha256": "85ff4b223b7490817da1ad8642a62f1acbe871acbe6f15a4258e44ec6c872bb4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARITHMETIC",
+          "target": "ARITHMÉTIQUE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-rith'-me-tik. See ",
+          "target": "a-rith'-me-tik. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "NUMBER",
+          "target": "NOMBRE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARODI",
+      "article_id": "isbe-f174865019395bc4e75d",
+      "source_article_sha256": "7421f0ec99b70bf055af2e3b39c98815dc9016819c0319d4cb7db0ee629a325a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARODI",
+          "target": "ARODI",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-o-di. See ",
+          "target": "ar'-o-di. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AROD",
+          "target": "AROD",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ARODITES",
+      "article_id": "isbe-72301ebd4a0ea02c8fa6",
+      "source_article_sha256": "591717e4b14b50dd698a6b73d05f03268120c220e2a2cc5718b3d006b28c8d80",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARODITES",
+          "target": "ARODITES",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-rod-its. See ",
+          "target": "a'-rod-its. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AROD",
+          "target": "AROD",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ARPACHSHAD",
+      "article_id": "isbe-656e98d11610bbf43255",
+      "source_article_sha256": "ba027a66bcf71ae1f86d76ae41449681e660dc4f7b7f8723de776996a2034acd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARPACHSHAD",
+          "target": "ARPACHSHAD",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-pak'-shad. See ",
+          "target": "ar-pak'-shad. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARPHAXAD",
+          "target": "ARPHAXAD",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    }
+  ]
+}
