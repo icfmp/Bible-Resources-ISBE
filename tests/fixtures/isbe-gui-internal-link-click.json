@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "scope": "actual pointer events only; fixed 1440x900 Xvfb CI screenshot coordinates",
+  "source_article": "ARK",
+  "destination_article": "ARK OF BULRUSHES",
+  "original_link_text": "ARK OF BULRUSHES",
+  "source_evidence": {
+    "xiphos": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45343260274",
+    "bibletime": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45343260274"
+  },
+  "coordinates": {
+    "xiphos": {
+      "x": 740,
+      "y": 550
+    },
+    "bibletime": {
+      "x": 348,
+      "y": 170
+    }
+  },
+  "expected_rendering_certified": false,
+  "navigation_destination_certified": false
+}

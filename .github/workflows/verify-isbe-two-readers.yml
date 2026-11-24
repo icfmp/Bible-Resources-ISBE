@@ -7,6 +7,7 @@ on:
       - scripts/smoke_sword_gui_readers.py
       - scripts/select_isbe_internal_link_samples.py
       - tests/test_isbe_internal_link_samples.py
+      - tests/fixtures/isbe-gui-internal-link-click.json
   workflow_dispatch:
 
 permissions:
@@ -182,6 +183,19 @@ jobs:
           PY
           )"
           echo "Source article for internal-link visual review: $ISBE_INTERNAL_SAMPLE_KEY"
+          # Fail closed if these previously observed screen coordinates
+          # correspond to a different source/destination after re-ranking.
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          report=json.loads(Path("workspace/tmp/gui-internal-link-samples.json").read_text())
+          sample=report["chosen_samples"][0]
+          fixture=json.loads(Path("tests/fixtures/isbe-gui-internal-link-click.json").read_text())
+          if (sample["source_article"]!=fixture["source_article"] or
+              sample["destination_article"]!=fixture["destination_article"] or
+              sample["link_text"]!=fixture["original_link_text"]):
+              raise SystemExit("Screenshot click fixture not aligned with source-attested first link")
+          PY
           xvfb-run -a -s '-screen 0 1440x900x24' \
             dbus-run-session -- bash -c '
               set -euo pipefail
@@ -190,6 +204,7 @@ jobs:
                 --module-id BRISBE1915 \
                 --lookup-key AARON \
                 --internal-link-key "$ISBE_INTERNAL_SAMPLE_KEY" \
+                --internal-link-click-fixture tests/fixtures/isbe-gui-internal-link-click.json \
                 --output-dir workspace/tmp/gui-reader-review
             '
       - name: Upload only GUI launch evidence and strict native validation (NOT full binary)

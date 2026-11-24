@@ -75,10 +75,18 @@ altering the source. The native diagnostic artifact retains 25 candidates.
 The two-reader smoke now makes a real lookup of the top ranked candidate in
 both graphical readers, captures **its source article before a link click**,
 then restores AARON and continues the existing Bible-reference probe. These
-new candidate screenshots are intended to identify reproducible clickable
-coordinates for a subsequent actual article-to-article click test. **Do not
-report passage navigation accepted on these screenshots alone.** The
-`interactive_dictionary_to_dictionary_link_verified` marker stays `false`.
+new candidate screenshots establish reproducible clickable coordinates.
+The captured real-reader [run #45343260274](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45343260274)
+shows the source-attested **ARK** entry and its grey/blue
+**ARK OF BULRUSHES** hyperlink in both independent readers. The fixture
+`tests/fixtures/isbe-gui-internal-link-click.json` stores the exact
+screen points *observed in those real images*, not guessed locations.
+The automated probe sends actual mouse events to those points and captures
+after-click screenshots, but **does not pre-certify** the destination article
+body. If the source/destination sample changes, the workflow fails rather
+than silently clicking a different link. The
+`interactive_dictionary_to_dictionary_link_verified` marker stays `false`
+until the resulting screenshots are independently reviewed.
 
 ### BibleTime fresh-profile Scripture link prerequisite
 
