@@ -1,0 +1,938 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ANSWERABLE",
+      "article_id": "isbe-ac2e484abbb8d4f827c2",
+      "source_article_sha256": "e477806c1cb13192db709d980e9e57f475b1d5818129a2582e3fe4ae161f2e94",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANSWERABLE",
+          "target": "CORRESPONDANT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-ser-a-bl: This word is found in the Old Testament only. Moses and Ezekiel alone use it (",
+          "target": "an'-ser-a-bl : Ce mot ne se rencontre que dans l'Ancien Testament. Seuls Moïse et Ézéchiel l'emploient (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "). It is used in the Old English sense of \"corresponding to,\" \"in harmony with.\" Bunyan uses it in the same sense (Holy War, Clar. Press ed., 92).",
+          "target": ") : Il est employé dans son sens anglais ancien de « correspondant à », « en harmonie avec ». Bunyan l'utilise dans le même sens (Holy War, éd. Clarendon Press, p. 92).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTIOCHIS",
+      "article_id": "isbe-7666c563c4d96b75d788",
+      "source_article_sha256": "93cce387bb294fe8b3462d5b9df9556cd88b07634a5cf442f83d3b22a37023cd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTIOCHIS",
+          "target": "ANTIOCHIS",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an-ti'-o-kis (Antiochis): A concubine of Antiochus Epiphanes who had presented her with the two Cilician cities, Tarsus and Mallus. Dissatisfied with this the cities made insurrection (2 Macc 4:30).",
+          "target": "an-ti'-o-kis (Antiochis) : Concubine d'Antiochos Épiphane, auquel il avait donné les deux villes ciliciennes de Tarse et de Mallos. Mécontentes de cette situation, ces villes se révoltèrent (2 Macc 4:30).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTIOCHUS",
+      "article_id": "isbe-7fcce360df2a5f220c46",
+      "source_article_sha256": "6b1cce360ca365d2c613c246c69a253c51567fde6a846612bc801c0dee12f0ef",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTIOCHUS",
+          "target": "ANTIOCHUS",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an-ti'-o-kus (Antiochos; A, Antimachos (1 Macc 12:16)): The father of Numenius, who in company with Antipater, son of Jason, was sent by Jonathan on an embassy to the Romans and Spartans to renew \"the friendship\" and \"former confederacy\" made by Judas (1 Macc 12:16; 14:22; Ant, XIII, vi; 8).",
+          "target": "an-ti'-o-kus (Antiochos ; A : Antimachos, 1 Macc 12:16) : Père de Numénius qui, avec Antipater, fils de Jason, fut envoyé par Jonathan en ambassade auprès des Romains et des Spartiates pour renouveler « l'amitié » et « l'ancienne alliance » conclues par Judas (1 Macc 12:16 ; 14:22 ; Antiquités judaïques, XIII, vi, 8).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTIPAS",
+      "article_id": "isbe-05655574ad8147c6dfb2",
+      "source_article_sha256": "3f2c160dc1ecb5f5637e92025535923338598a9225b912522f59ee6c311e7174",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTIPAS",
+          "target": "ANTIPAS",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-ti-pas (Antipas): The name is an abbreviation of Antipater:",
+          "target": "an'-ti-pas (Antipas) : Ce nom est une abréviation d'Antipater :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A name of Herod \"the tetrarch\" (in Jos), son of Herod the Great, the brother of Archelaus (",
+          "target": "(1) Nom d'Hérode « le tétrarque » (chez Josèphe), fils d'Hérode le Grand et frère d'Archélaüs (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "). See ",
+          "target": ") : Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "HEROD",
+          "target": "HÉRODE",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(2) A martyr of the church of Pergamum, described as \"my witness, my faithful one\" (",
+          "target": "(2) Martyr de l'Église de Pergame, décrit comme « mon témoin, mon fidèle » (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "APACE",
+      "article_id": "isbe-6156dc98918f4f38fd42",
+      "source_article_sha256": "60c62245a9427750dfa5523a8b91c643b3ecfb56503553b8ad28c4d9b705ba68",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APACE",
+          "target": "RAPIDEMENT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-pas' (\"at a pace\"): With \"come,\" ",
+          "target": "a-pas' (« à vive allure ») : Associé à « venir », ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; \"flee,\" ",
+          "target": " ; avec « fuir », ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", for \"rapidly,\" \"hastily,\" \"fast,\" corresponding to a Hebrew idiom that adds emphasis or intensity to an idea by repetition of the word or its equivalent.",
+          "target": ", au sens de « rapidement », « à la hâte », « vite ». Cette tournure correspond à un idiome hébreu qui renforce une idée en répétant un mot ou son équivalent.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "APAME",
+      "article_id": "isbe-a814f454132e518dc1da",
+      "source_article_sha256": "c95c18faac12d866dea1478fecb5f7df9bd09aca9b46c3644d2d96f92c525572",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APAME",
+          "target": "APAME",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-pa'-me, ap'-a-me (Apame): A concubine of Darius and a daughter of Bartacus the Illustrious, whose behavior to the king is referred to in a speech of Zerubbabel before the king to prove to him the great power of women (1 Esdras 4:29).",
+          "target": "a-pa'-me, ap'-a-me (Apamé) : Concubine de Darius et fille de Bartacus l'Illustre ; sa conduite envers le roi est évoquée dans un discours de Zorobabel devant ce dernier pour démontrer la grande puissance des femmes (1 Esdras 4:29).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BARTACUS",
+          "target": "BARTACUS",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ILLUSTRIOUS",
+          "target": "ILLUSTRE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "APHAEREMA",
+      "article_id": "isbe-3de6c3137cb45bec956c",
+      "source_article_sha256": "c5d11f2598508b5ab138be4d0280f51d55c34aef84289a55b30aff28ce4914d8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APHAEREMA",
+          "target": "APHAEREMA",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-fer'-e-ma (Aphairema and Apherema; the King James Version Apherema). One of three districts taken from Samaria and added to Judea by Demetrius Nicator (1 Macc 11:34). Compare Ant., XIII, iv, 9.",
+          "target": "a-fer'-e-ma (Aphairema et Apherema ; Apherema dans la King James Version) : L'un des trois districts détachés de la Samarie et ajoutés à la Judée par Démétrios Nicator (1 Macc 11:34). Comparer Antiquités judaïques, XIII, iv, 9.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "APPEARING",
+      "article_id": "isbe-f01a62955bf4f74d57ca",
+      "source_article_sha256": "66f030f1d74e4e9d3b1de2fe784b054e7d6421f158180e02ed86f8890850745b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APPEARING",
+          "target": "APPARITION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-per'-ing (apokalupsis, \"an unveiling\"; epiphaneia, \"a manifestation\"): Exclusively technical, referring in the six passages where found to the return, the millennial advent of Christ (e.g. ",
+          "target": "a-per'-ing (apokalupsis, « dévoilement » ; epiphaneia, « manifestation ») : Terme exclusivement technique qui, dans les six passages où il figure, désigne le retour, l'avènement millénaire du Christ (par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", the King James Version; ",
+          "target": ", dans la King James Version ; ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "APPLY",
+      "article_id": "isbe-2cbf6555f21e45398b5d",
+      "source_article_sha256": "5715d8432d2f30f310b005289132b88f8625f021e156228e7bf144535d5e4d4b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APPLY",
+          "target": "APPLIQUER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-pli': Purely an Old Testament term representing five Hebrew originals which signify respectively, \"to enter,\" \"to incline,\" \"to give,\" \"to go about,\" \"to put or place,\" in each instance spoken of the heart in its attitude to wisdom (",
+          "target": "a-pli' : Terme propre à l'Ancien Testament, traduisant cinq mots hébreux signifiant respectivement « entrer », « incliner », « donner », « parcourir », « mettre » ou « placer ». Il s'agit à chaque fois du cœur dans son attitude envers la sagesse (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the King James Version); instruction (",
+          "target": " dans la King James Version) ; l'instruction (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); understanding (",
+          "target": ") ; l'intelligence (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); knowledge (",
+          "target": ") ; la connaissance (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAH",
+      "article_id": "isbe-cc43f2f74fc33f93b4e9",
+      "source_article_sha256": "cabdbfe9ac438f65d52240e88ed55cef4c4b667f7a4a755bba94894c3ef4a358",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAH",
+          "target": "ARAH",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-ra ('arach, \"traveler\"?):",
+          "target": "a'-ra ('arach, « voyageur » ?) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) The son of Ulla, an Asherite (",
+          "target": "(1) Fils d'Ulla, de la tribu d'Aser (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) The head of a family that returned from the exile with Zerubbabel (",
+          "target": "(2) Chef d'une famille revenue d'exil avec Zorobabel (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "). He is sometimes identified with Arah of ",
+          "target": ") : Il est parfois identifié à l'Arach de ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " whose grand-daughter became the wife of Tobiah, the Ammonite who tried to thwart Nehemiah in rebuilding Jerusalem.",
+          "target": ", dont la petite-fille devint la femme de Tobija, l'Ammonite qui s'efforça d'empêcher Néhémie de rebâtir Jérusalem.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAM",
+      "article_id": "isbe-c2a28c8b0175b6b49bf3",
+      "source_article_sha256": "bf1ce5161181dc5e6a63ed6c1a100dbf2e5e33ff9603e3c7881bb25eddf61377",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAM",
+          "target": "ARAM",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-ram ('aram):",
+          "target": "a'-ram ('aram) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A son of Shem (",
+          "target": "(1) Fils de Sem (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). See ",
+          "target": ") : Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "ARAMEANS",
+          "target": "ARAMÉENS",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "SYRIA",
+          "target": "SYRIE",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(2) A grandson of Nahor (",
+          "target": "(2) Petit-fils de Nachor (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(3) A descendant of Asher (",
+          "target": "(3) Descendant d'Aser (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "(4) Aram, King James Version: Greek form of Ram (thus the Revised Version (British and American) ",
+          "target": "(4) Aram dans la King James Version : forme grecque de Ram (ainsi dans la Revised Version britannique et américaine, ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "; Arni ",
+          "target": " ; Arni en ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "), grandson of Perez.",
+          "target": "), petit-fils de Pérets.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAMITESS",
+      "article_id": "isbe-d1815e45d34954f2c1fd",
+      "source_article_sha256": "3e5f066d4fe1de825025c2eaed1d8c2cff24c9a447f31f0787deb730173df709",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAMITESS",
+          "target": "ARAMÉENNE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-am-it'-es, ar'-am-it-es, ar'-am-it-es ('arammiyah): The term applied to the concubine-mother of Machir, the father of Gilead (",
+          "target": "ar-am-it'-es, ar'-am-it-es, ar'-am-it-es ('arammiyah) : Terme désignant la concubine, mère de Makir, père de Galaad (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); the inhabitants of Gilead were thus in part Arameans (Syrians) by descent.",
+          "target": ") : Les habitants de Galaad étaient ainsi en partie d'ascendance araméenne (syrienne).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARBATHITE",
+      "article_id": "isbe-04d7d9c93967813aff4e",
+      "source_article_sha256": "06d36d3dbfe8c9107d4c9117e8a0dffa50f2f1e69e4a978298895df46204c0c4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARBATHITE",
+          "target": "ARBATHITE",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-bath-it (ha-`arbhathi): Perhaps \"a native of the Arabah.\" Klostermann suggests \"a native of Beth-arabah.\" The Arbathite is Abi-albon (",
+          "target": "ar'-bath-it (ha-`arbhathi) : Peut-être « habitant de l'Araba ». Klostermann suggère « habitant de Beth-Araba ». L'Arbathite est Abi-Albon (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), also named Abiel (",
+          "target": "), également nommé Abiel (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), one of David's heroes.",
+          "target": "), l'un des héros de David.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARBITE",
+      "article_id": "isbe-0d61c30810d8245a9f70",
+      "source_article_sha256": "11332852fe0015f067af3d42f03534f121485c59431cb3bed3125b0b3107d48c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARBITE",
+          "target": "ARBITE",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-bit (ha-'arbi): The Arbite or perhaps an inhabitant of Arabia in southern Judah (",
+          "target": "ar'-bit (ha-'arbi) : L'Arbite, peut-être habitant de l'Arabie dans le sud de Juda (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The epithet is used in connection with one of David's mighty men in ",
+          "target": ") : Cette désignation accompagne le nom d'un des vaillants hommes de David en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "; where Paarai the Arbite occurs. In the parallel list (",
+          "target": ", où figure Paaraï l'Arbite. Dans la liste parallèle (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ") we have Naarai the son of Ezbai.",
+          "target": "), on trouve Naaraï, fils d'Ezbaï.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARCHELAUS",
+      "article_id": "isbe-3614d6b552551fe9e973",
+      "source_article_sha256": "864fbdbdf229ecd34db6ec4136fcb14917a7eab863cda3d85a910cdfafd7ee6b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARCHELAUS",
+          "target": "ARCHELAUS",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-ke-la'-us (Archelaos, ",
+          "target": "ar-ke-la'-us (Archelaos, ",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): Son of Herod the Great by his wife Malthace. He succeeded on his father's death to the government of Judea, Samaria and Idumaea, but was deposed by the Romans for misgovernment in 6 AD. See ",
+          "target": ") : Fils d'Hérode le Grand et de sa femme Malthacé. À la mort de son père, il hérita du gouvernement de la Judée, de la Samarie et de l'Idumée, mais les Romains le déposèrent pour mauvaise administration en 6 apr. J.-C. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "HEROD",
+          "target": "HÉRODE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARCHIVES",
+      "article_id": "isbe-f95d29ef128a3b578982",
+      "source_article_sha256": "8813a2621a9fc4db904e2fbb5359edd79b4f8a0c2984523c3cef7e2df4c4ec73",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARCHIVES",
+          "target": "ARCHIVES",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-kivs (the more correct the Revised Version (British and American) rendition of beth ciphrayya', in ",
+          "target": "ar'-kivs (traduction plus juste de beth ciphrayya' dans la Revised Version britannique et américaine, en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", \"house of the archives\" instead of \"house of rolls\" as in the King James Version): A part of the royal treasure-house (5:17), in which important state documents were kept.",
+          "target": ", où figure « maison des archives » plutôt que « maison des rouleaux » dans la King James Version) : Partie du trésor royal (5:17) où étaient conservés d'importants documents d'État.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARELI",
+      "article_id": "isbe-f7b8607aa47a61e57c86",
+      "source_article_sha256": "c3f6e4459c117eac1e079210f957e8f3fcbe01775998c9324a0c25463e07ec92",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARELI",
+          "target": "ARELI",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-re'-li ('ar'eli, apparently the gentilic form of a compound that would mean \"God's lioness,\" or \"God's hearth\"): One of the sons of Gad the son of Jacob (",
+          "target": "a-re'-li ('ar'eli, apparemment forme gentilice d'un nom composé qui signifierait « lionne de Dieu » ou « foyer de Dieu ») : L'un des fils de Gad, lui-même fils de Jacob (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). \"Arelites\" (which see) is exactly the same word.",
+          "target": ") : Le mot « Arélites » (voir cet article) est exactement le même.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARGUE",
+      "article_id": "isbe-79d0f2cfd4693ae50ced",
+      "source_article_sha256": "2c5491038d291e32f5a8487cbea5dd326389eddff6663631cf35657a5a479398",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARGUE",
+          "target": "ARGUMENTER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-gu: Only in the Revised Version (British and American) in ",
+          "target": "ar'-gu : Mot qui ne figure que dans la Revised Version (britannique et américaine), en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". yakhach, which it translates, literally means \"to be right,\" and in the causative form \"reason with,\" \"answer back,\" and is found in the King James Version rendered \"reproach.\"",
+          "target": ") : Le terme hébreu yakhach, qu'il traduit, signifie littéralement « être juste », et, à la forme causative, « raisonner avec » ou « répondre ». Il est rendu par « reprocher » dans la King James Version.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARIGHT",
+      "article_id": "isbe-95ee3d71a2b7485db851",
+      "source_article_sha256": "3942278cbfa21b763d35c60fddff1f0963193c38ff087ad7c5a551d5587def53",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARIGHT",
+          "target": "CORRECTEMENT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-rit': \"In a right way,\" \"correctly,\" \"going straight to the point,\" without error or deviation. \"Set aright\" (",
+          "target": "a-rit' : « De la bonne manière », « correctement », « allant droit au but », sans erreur ni déviation. « Mettre en ordre » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; Wiener, Pentateuchal Studies 78 8). Its use in ",
+          "target": " ; Wiener, Pentateuchal Studies, p. 78, 8). Son emploi en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " is without authority in the Hebrew text; hence in italics.",
+          "target": " n'a pas d'appui dans le texte hébreu ; le mot est donc en italique.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARPHAXAD",
+      "article_id": "isbe-1812c9cbb7be54906648",
+      "source_article_sha256": "3ca6465ddf02df896869ece0e27acc150b15b33c8a4a2bfd32c363c419814dda",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARPHAXAD",
+          "target": "ARPHAXAD",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-fak'-sad:",
+          "target": "ar-fak'-sad :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) the King James Version form (",
+          "target": "(1) Forme employée dans la King James Version (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ") of the Revised Version (British and American) ",
+          "target": ") pour la forme ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "ARPACHSHAD",
+          "target": "ARPACHSHAD",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", which see. See also ",
+          "target": " de la Revised Version (britannique et américaine) ; voir cet article. Voir également ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "TABLE OF NATIONS",
+          "target": "TABLE DES NATIONS",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(2) In Apocrypha (Judith 1) a king of the Medes, who reigned in Ecbatana. He was defeated and slain by Nebuchadrezzar.",
+          "target": "(2) Dans les livres apocryphes (Judith 1), roi des Mèdes qui régnait à Ecbatane. Il fut vaincu et tué par Nabuchodonosor.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARRIVE",
+      "article_id": "isbe-1455d6aab67f8fd217b9",
+      "source_article_sha256": "06b8fecca8151f1c43b037f022387d33ecf8dae3aed379f8556fa10cc93309e5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARRIVE",
+          "target": "ARRIVER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-riv': Originally a nautical term (Latin: ad ripam) for reaching shore, is used in the literal sense in ",
+          "target": "a-riv' : À l'origine un terme de navigation (latin ad ripam) désignant l'arrivée sur une rive, employé au sens littéral en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", and, in the figurative sense for Greek phthano, instead of \"attain to,\" the Revised Version (British and American) in ",
+          "target": ", puis dans un sens figuré, pour le grec phthano, à la place de « atteindre », dans la Revised Version (britannique et américaine), en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARSIPHURITH",
+      "article_id": "isbe-c639719b5685dd5a4642",
+      "source_article_sha256": "62f81aa27fef56d88162ba6a702c1a59482195021e2b6f6b2ce1bec6845064d3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARSIPHURITH",
+          "target": "ARSIPHURITH",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-si-fu'-rith (Arsiphourith; the King James Version Azephurith): 112 of the sons of Arsiphurith returned to Jerusalem with Zerubbabel (1 Esdras 5:16). The name is omitted in Ezra and Nehemiah, but the number corresponds to those mentioned with Jorah (",
+          "target": "ar-si-fu'-rith (Arsiphourith ; Azephurith dans la King James Version) : 112 fils d'Arsiphurith revinrent à Jérusalem avec Zorobabel (1 Esdras 5:16). Le nom est absent d'Esdras et de Néhémie, mais ce nombre correspond à celui des hommes mentionnés avec Jora (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") and Hariph (",
+          "target": ") et Hariph (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARUMAH",
+      "article_id": "isbe-79454a2bbea945ff6c2e",
+      "source_article_sha256": "63c75e14087678674552c6a3770420122158ee2f18f60193ea940aea4bcd0327",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARUMAH",
+          "target": "ARUMAH",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-roo'-ma (arumah, \"lofty\"): The town in which Abimelech, the son of Jerubbaal (Gideon), dwelt when driven from Shechem (",
+          "target": "a-roo'-ma (arumah, « élevé ») : Ville où habitait Abimélec, fils de Jerubbaal (Gédéon), après avoir été chassé de Sichem (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The ruins El-Ormeh, 6 miles Southeast of Shechem, may be on the site, though its position is not known with certainty.",
+          "target": ") : Les ruines d'El-Ormeh, à six milles au sud-est de Sichem, pourraient correspondre à cet emplacement, sans que sa localisation soit certaine.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARZA",
+      "article_id": "isbe-7fccc56912930dafbc30",
+      "source_article_sha256": "649afec0ebdfc80ff94f679ecd07036ff973047151028bb3dee10badf075ccec",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARZA",
+          "target": "ARZA",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-za ('artsa'): A steward of King Elah, in whose house at Tirzah Zimri murdered the king at a drinking debauch. The text is not quite clear, and Arza might have been a servant of Zimri (",
+          "target": "ar'-za ('artsa') : Intendant du roi Éla, dans la maison duquel, à Tirtsa, Zimri assassina le roi au cours d'une beuverie. Le texte n'est pas tout à fait clair, et Artsa pourrait avoir été un serviteur de Zimri (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASAHIAH",
+      "article_id": "isbe-b5841c3ec844dd3c6017",
+      "source_article_sha256": "47774ccc19dc3b9ad81feb8d90ccf84b3f469f7562ef40d54f785eb9a9789063",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASAHIAH",
+          "target": "ASAHIAH",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as-a-hi'-a (`asayah, \"Yahweh hath made\"; the King James Version form; the Revised Version (British and American) ",
+          "target": "as-a-hi'-a (`asayah, « Yahvé a fait » ; forme de la King James Version ; la Revised Version britannique et américaine donne ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASAIAH",
+          "target": "ASAIAH",
+          "action": "preserve",
+          "reason": "Original canonical name, historical pronunciation or source-linked reference label retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): \"The king's servant\" sent by Josiah with Hilkiah, the priest, and others to inquire of Yahweh concerning the words of the book found in the temple (",
+          "target": ") : « Serviteur du roi » envoyé par Josias, avec le prêtre Hilkija et d'autres, pour consulter Yahvé au sujet des paroles du livre retrouvé dans le Temple (",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
