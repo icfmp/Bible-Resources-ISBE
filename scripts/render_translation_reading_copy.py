@@ -36,6 +36,13 @@ def render_article(article: ET.Element, *, draft_status: str) -> str:
     lines.append("")
     lines.append("*ISBE historique (1915) — traduction française intégrale, brouillon non relu*")
     lines.append("")
+    # Navigation in the reading copy is derived from the REAL source-owned
+    # section heads; the original front-matter TOC remains untouched in TEI.
+    top_level_sections = [
+        SPACE.sub(" ", inline_text(node)).strip()
+        for node in article.iter(TEI + "hi")
+        if ROMAN_HEADING.match(SPACE.sub(" ", inline_text(node)).strip())
+    ]
     is_first_paragraph = True
 
     def append_prose(raw: str) -> None:
@@ -46,8 +53,10 @@ def render_article(article: ET.Element, *, draft_status: str) -> str:
         if is_first_paragraph and len(prose) <= 80 and prose.endswith(":"):
             lines.extend(["*" + prose + "*", ""])
         elif (prose.startswith("I. ") and "VII. " in prose
-              and prose.count("II.") >= 1):
-            lines.extend(["*Sommaire original : " + prose + "*", ""])
+              and prose.count("II.") >= 1 and top_level_sections):
+            lines.extend(["## Plan de l'article", ""])
+            lines.extend("- " + heading for heading in top_level_sections)
+            lines.append("")
         else:
             lines.extend([prose, ""])
         is_first_paragraph = False
