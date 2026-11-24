@@ -102,9 +102,12 @@ jobs:
           tar -czf ../BRISBE1915-native-workid-draft.tar.gz .
           cd ..
           sha256sum BRISBE1915-native-workid-draft.tar.gz | tee BRISBE1915-NATIVE-WORKID-SHA256SUMS.txt
-          tar -tzf BRISBE1915-native-workid-draft.tar.gz | grep -Fxq './mods.d/brisbe1915.conf'
+          # Fully consume tar output before using grep. Under pipefail,
+          # "tar -tzf ... | grep -q" can SIGPIPE when grep exits early.
+          tar -tzf BRISBE1915-native-workid-draft.tar.gz > archive-contents.txt
+          grep -Fxq './mods.d/brisbe1915.conf' archive-contents.txt
           for ext in zdt zdx idx dat; do
-            tar -tzf BRISBE1915-native-workid-draft.tar.gz | grep -Fxq "./modules/lexdict/zld/brisbe1915/dict.$ext"
+            grep -Fxq "./modules/lexdict/zld/brisbe1915/dict.$ext" archive-contents.txt
           done
       - name: Upload new candidate to existing unpublished draft ONLY
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
