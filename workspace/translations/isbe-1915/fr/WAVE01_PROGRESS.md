@@ -551,3 +551,60 @@ checks, all 856 French readable article proofs, full canonical
 9,380-entry TEI regression suite and official TEI RELAX NG and
 Schematron validation. **Independent bilingual collation/acceptance**
 remains a separate, uncompleted publication gate.
+
+## Eighth source-locked substantive first-draft milestone: 50 articles — 24 November 2026
+
+**This milestone contains 50 entirely translated historical ISBE articles**, not
+the entire 100-entry extraction candidate. The much denser eighth selection
+(100 shortest then-undrafted source entries: **268,351 source English
+characters**, 1,544–4,491 eligible English chars per entry) was divided
+into smaller independently mergable and testable units. Only the first
+50 of those 100 candidates, in unchanged canonical source-index order,
+are finished. The other 50 candidate articles are still **undrafted**.
+
+The frozen 50-entry editorial cohort is at
+`cohorts/COHORT_008_50_SUBSTANTIVE_ARTICLES.json`. Complete first-draft
+patches, both intentionally non-publishable:
+
+- `0042-cohort-008-substantive-articles-01.json`: 25 full entries, **59,326** original English eligible chars, 403 exact source text units
+- `0043-cohort-008-substantive-articles-02.json`: 25 full entries, **71,962** original English eligible chars, 472 exact source text units
+
+**Combined: 50 distinct canonical articles; 131,288 English source
+characters; 875 source text units; 783 translated and 92 preserved
+original canonical/proper-name/author byline units with a reason.**
+Independent pre-CI audit confirms no omission, changed reference locator,
+source fingerprint mismatch, extra Greek/Hebrew script, unexplained long
+unchanged prose or incomplete article.
+
+**Cumulative first-draft status after merge: 861/1,000 (86.1% by article
+count) in wave 01, 139 still undrafted; 906/9,380 complete source-locked
+French first drafts across the whole original ISBE.**
+These article counts are *not* relative source-word coverage.
+Editorially approved by independent bilingual review: **0**.
+Issue #109 checked boxes: **0/1,000**.
+French SWORD edition published: **no**.
+
+Historical/source-critical caveats are documented in
+[issue #129](https://github.com/icfmp/Bible-Resources-ISBE/issues/129):
+broken English in `ACCEPT; ACCEPTABLE; ACCEPTATION`,
+`ABYSS` linked New Testament passage, `ACHMETHA` transcription
+failures, `AHIMAAZ` `Dared`, and `ANNA` `distraction`.
+No source text, original references, original-language strings,
+`@n` keys, canonical `xml:id`, or manuscript fingerprints are
+silently rewritten. Period-specific racial/ethnographic views in
+`AFRICA`, contested historical identifications in `AMRAPHEL`
+and authorial doctrinal interpretations in `AGONY` and
+`ANTEDILUVIANS` are translated with source attribution, not
+endorsed or silently updated. Original English witness collation remains
+pending; dependent French patches must be regenerated if an English
+witness correction is later accepted.
+
+The immutable English source master remains SHA-256
+`5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c`.
+
+**Technical merge gates:** reproduce 906 source-locked full first drafts
+and readable previews, assert all eight frozen cohort manifests, run all
+canonical TEI tests, and pass pinned official TEI RELAX NG and
+Schematron validators. These automated tests do not establish
+independent human editorial approval. The historical 1915 English
+master and no part of the application are to be modified in this PR.
