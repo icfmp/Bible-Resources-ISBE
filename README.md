@@ -23,8 +23,8 @@ sources/
     editorial/README.md           Reversible, source-attested corrections
 
 modules/
-  isbe-1915/metadata.json         Planned curated SWORD module, NOT compiled
-  isbe-1915/EDITORIAL.md          Module-building and rights gates
+  isbe-1915/metadata.json         Published metadata; compiled SWORD ZIP in GitHub Release
+  isbe-1915/EDITORIAL.md          Published module evidence and reader scope
 
 workspace/
   witnesses/crosswire-2.2/
@@ -40,7 +40,8 @@ workspace/
 scripts/                            Generic reconstruction, audits and validation
 tests/                              Regression and negative controls
 docs/                               Historical editorial/source documentation
-release/drafts/                     Source-only GitHub release draft evidence
+release/drafts/                     Unpublished historical draft evidence
+release/published/                  Verified public release receipts
 ```
 
 There is deliberately **no root `cleaned/`, `modern/`, `translations/`, or duplicate `sources/crosswire/`**: the original CrossWire ZIP is preserved once, and all other witnesses are explicitly distinguished from edited sources.
@@ -70,4 +71,14 @@ Modernization must derive from **`sources/cleaned/encyclopedias/en/isbe-1915/ISB
 
 ## Publication and rights
 
-The initial source-only historical TEI candidate exists as an **unpublished GitHub release draft**, not a public released source archive or compiled SWORD module. The `modules/isbe-1915/` directory currently has only explicit staging metadata: there is no corrected compiled `payload/` or Xiphos/two-reader acceptance. CrossWire labels its upstream distribution *Public Domain*, but exact digitization/translation rights and named 1915 contributors in France/EU still require independent review under [issue #1](https://github.com/icfmp/Bible-Resources-ISBE/issues/1). The wider editorial/print review remains [issue #9](https://github.com/icfmp/Bible-Resources-ISBE/issues/9). No publication is authorized by source retention or technical CI.
+**Published:** [ISBE 1915 corrected historical SWORD edition 0.1.0](https://github.com/icfmp/Bible-Resources-ISBE/releases/tag/isbe-1915-v0.1.0) on **2026-11-24**. The release provides a validated `BRISBE1915` SWORD ZIP, equivalent TAR, source archive and SHA-256 checksums. The public release has four assets; the older `self:`-link binary remains only in a separate unpublished historical draft.
+
+The edition contains 9,380 entries. The complete native dictionary readback matches the exact adapter input in text and XML structure. Native article links were corrected to the real `BRISBE1915:` work ID; 80 section-level links navigate to the containing article. The original historical TEI, CrossWire source, editorial decisions and provenance are retained unchanged.
+
+**Limitations:** Xiphos Book View and Scripture-reference GUI navigation are not fully resolved; both readers showed the selected Greek/Hebrew and nested-structure samples. No exhaustive five-volume printed collation or missing printed glyph restoration is claimed. Reader limitations are tracked in [#101](https://github.com/icfmp/Bible-Resources-ISBE/issues/101).
+
+**Redistribution basis:** CrossWire declares its source ISBE 2.2 module *Public Domain*; the project owner accepted that declaration and the historical 1915 edition as the distribution basis for 0.1.0. The original module is not overwritten.
+
+**Catalogue status:** The module is publicly available from this repository, but is **not yet integrated** into the separate Bible Resources central Pages catalogue. Its publication must not be represented as central catalogue distribution.
+
+See [published release evidence](release/published/isbe-1915-v0.1.0/PUBLICATION_EVIDENCE.json), [module validation](modules/isbe-1915/SOURCE_VALIDATION.json), and [editorial module record](modules/isbe-1915/EDITORIAL.md). The earlier draft and original decisions remain available for historical audit; they are not current publication gates.
