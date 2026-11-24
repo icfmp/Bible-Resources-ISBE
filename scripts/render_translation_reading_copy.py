@@ -74,7 +74,7 @@ def render_article(article: ET.Element, *, draft_status: str) -> str:
             content = SPACE.sub(" ", inline_text(child)).strip()
             if (child.tag == TEI + "hi"
                     and (ROMAN_HEADING.match(content)
-                         or re.match(r"^[0-9]+\\.\\s", content))):
+                         or re.match(r"^[0-9]+\.\s", content))):
                 append_prose(buffer)
                 level = "##" if ROMAN_HEADING.match(content) else "###"
                 lines.extend([level + " " + content, ""])
