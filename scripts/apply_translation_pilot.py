@@ -203,9 +203,14 @@ def apply(source, roster_path, patches_path, *, output, report_path):
     output.parent.mkdir(parents=True, exist_ok=True)
     report_path.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(root).write(output, encoding="utf-8", xml_declaration=True)
+    complete_drafts = all(
+        record["translation_status"] == "complete_unreviewed_draft"
+        for record in article_report
+    )
     result = {
         "schema_version": 1,
-        "status": "partial_bilingual_pilot_not_for_publication",
+        "status": ("all_pilot_drafts_complete_unreviewed_not_for_publication"
+                   if complete_drafts else "partial_bilingual_pilot_not_for_publication"),
         "source_sha256": SOURCE_SHA256,
         "draft_tei_sha256": sha256(output),
         "pilot_article_count": PILOT_COUNT,

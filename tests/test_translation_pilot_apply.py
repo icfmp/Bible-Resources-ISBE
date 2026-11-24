@@ -40,11 +40,12 @@ class FrenchPilotDraftTests(unittest.TestCase):
                          source_hash)
         return result, target
 
-    def test_nineteen_real_drafts_and_all_fifty_source_identity_rows_survive(self):
+    def test_fifty_real_drafts_and_all_fifty_source_identity_rows_survive(self):
         result, target = self.run_draft()
         self.assertEqual(result["pilot_article_count"], 50)
-        self.assertEqual(result["unreviewed_drafts"], 19)
-        self.assertEqual(result["pending"], 31)
+        self.assertEqual(result["status"], "all_pilot_drafts_complete_unreviewed_not_for_publication")
+        self.assertEqual(result["unreviewed_drafts"], 50)
+        self.assertEqual(result["pending"], 0)
         self.assertFalse(result["publication_permitted"])
         self.assertEqual(result["human_reviewed"], 0)
         root, body = read_body(target)
@@ -55,7 +56,7 @@ class FrenchPilotDraftTests(unittest.TestCase):
             [(x["source_key"], x["article_id"]) for x in self.roster["articles"]])
         self.assertEqual(
             {x["translation_status"] for x in result["articles"]},
-            {"pending", "complete_unreviewed_draft"})
+            {"complete_unreviewed_draft"})
         ark = next(x for x in body if x.get("n") == "ARK")
         self.assertEqual(ark.find(TEI + "head").text, "ARCHE")
         self.assertEqual(ark.find(TEI + "p").find(TEI + "ref").text,
@@ -103,6 +104,27 @@ class FrenchPilotDraftTests(unittest.TestCase):
         })
         with self.assertRaisesRegex(ValueError, "Scripture"):
             self.run_draft(patches)
+
+    def test_review_flags_are_bound_to_exact_source_units_and_unapproved(self):
+        flags = json.loads((PILOT / "SOURCE_REVIEW_FLAGS.json").read_text(encoding="utf-8"))
+        self.assertEqual(flags["original_english_tei_sha256"], self.patches["source_sha256"])
+        self.assertEqual(len(flags["items"]), 12)
+        seen = set()
+        for flag in flags["items"]:
+            ident = (flag["source_key"], flag["original_node_ordinal"],
+                     flag["original_node_part"], flag["exact_original_fragment"])
+            self.assertNotIn(ident, seen)
+            seen.add(ident)
+            article = next(a for a in self.patches["articles"]
+                           if a["source_key"] == flag["source_key"])
+            self.assertEqual(flag["canonical_article_id"], article["article_id"])
+            unit = next(u for u in article["units"]
+                        if u["node"] == flag["original_node_ordinal"]
+                        and u["part"] == flag["original_node_part"])
+            self.assertIn(flag["exact_original_fragment"], unit["source"])
+            self.assertFalse(flag["english_source_changed"])
+            self.assertFalse(flag["approved_reconstruction"])
+            self.assertEqual(flag["status"], "requires_original_print_or_upstream_witness_review")
 
     def test_no_publication_claim_is_possible_from_unreviewed_drafts(self):
         patches = copy.deepcopy(self.patches)
