@@ -17,6 +17,8 @@ NEW = ROOT / "workspace/translations/isbe-1915/fr/batches/0004-short-a-entries.j
 NEW_EIGHT = ROOT / "workspace/translations/isbe-1915/fr/batches/0005-short-ab-entries.json"
 MORE_SHORT = ROOT / "workspace/translations/isbe-1915/fr/batches/0006-more-short-ab-entries.json"
 AC_SHORT = ROOT / "workspace/translations/isbe-1915/fr/batches/0007-short-ac-entries.json"
+ABEL_FULL = ROOT / "workspace/translations/isbe-1915/fr/batches/0008-abel-full.json"
+ABEL_PLACES = ROOT / "workspace/translations/isbe-1915/fr/batches/0009-abel-places-and-abiezer.json"
 
 
 class TranslationReviewCorpusTests(unittest.TestCase):
@@ -77,6 +79,23 @@ class TranslationReviewCorpusTests(unittest.TestCase):
             index = (folder / "proofs" / "INDEX.md").read_text(encoding="utf-8")
             for key in ("ACCARON", "ACHAZ", "ACTS OF PILATE", "ACUB"):
                 self.assertIn(key, index)
+
+    def test_complete_five_section_abel_and_four_article_reading_proofs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            report = build(SOURCE, [ABEL_FULL, ABEL_PLACES],
+                           folder / "proofs", folder / "audit.json")
+            self.assertEqual(report["selected_complete_unreviewed_drafts"], 5)
+            self.assertEqual(report["human_editorially_approved"], 0)
+            self.assertFalse(report["publication_permitted"])
+            self.assertEqual(len(list((folder / "proofs").glob("isbe-*.md"))), 5)
+            index = (folder / "proofs" / "INDEX.md").read_text(encoding="utf-8")
+            for key in ("ABEL (1)", "ABEL-MEHOLAH", "ABEL-SHITTIM", "ABIEZER"):
+                self.assertIn(key, index)
+            row = next(x for x in report["articles"] if x["source_key"] == "ABEL (1)")
+            text = (folder / "proofs" / row["preview"]).read_text(encoding="utf-8")
+            self.assertIn("Un homme juste", text)
+            self.assertIn("M. O. Evans", text)
 
     def test_all_50_first_pilot_drafts_are_readable_and_unreviewed(self):
         with tempfile.TemporaryDirectory() as tmp:
