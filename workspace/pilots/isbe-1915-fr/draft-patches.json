@@ -1,0 +1,699 @@
+{
+  "schema_version": 1,
+  "language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "status": "unreviewed_drafts",
+  "articles": [
+    {
+      "article_id": "isbe-386e0601d9af04930c62",
+      "source_key": "ARK",
+      "source_article_sha256": "72fef12bd0f6470f880bba904edfe9f083adc8d7a4e7a8351ece8965fbc4c571",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARK",
+          "target": "ARCHE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "see ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARK OF BULRUSHES",
+          "target": "ARCHE DE JONCS",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARK OF THE COVENANT",
+          "target": "ARCHE DE L'ALLIANCE",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ARK OF NOAH",
+          "target": "ARCHE DE NOÉ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-6d308b347ae2acddca24",
+      "source_key": "BUL",
+      "source_article_sha256": "9b021a1c6b40397b36303d12aa19a567ab457c616caef71efbf15e1b0700735c",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUL",
+          "target": "BUL",
+          "action": "preserve",
+          "reason": "Historical month name remains unchanged"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bul (bul): Name of the 8th month of the Jewish year (",
+          "target": "bul (bul) : nom du huitième mois de l'année juive (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). It is of Phoenician origin and signifies the month of rain, the beginning of the rainy season.",
+          "target": "). Ce nom est d'origine phénicienne et signifie « mois de la pluie » ; il marque le début de la saison des pluies.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "CALENDAR",
+          "target": "CALENDRIER",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-5adc37c1c33ed6b144e4",
+      "source_key": "CHORBE",
+      "source_article_sha256": "eb187022d9ad8b5164fe960e43bce08af33e73a4cd7346affef84323d24fa9c7",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHORBE",
+          "target": "CHORBÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kôr'bē (Χορβέ, Chorbē; AV Corbe): Head of a family which returned with Zerubbabel (1 Esd 5 12). The name apparently corresponds to Zaccai in Ezr 2 9 and Neh 7 14.",
+          "target": "kôr'bē (Χορβέ, Chorbē ; AV : Corbe) : chef d'une famille revenue avec Zorobabel (1 Esd 5,12). Le nom correspond apparemment à Zaccaï en Esd 2,9 et Ne 7,14.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-05ca3642d537f78f0e97",
+      "source_key": "DINHABAH",
+      "source_article_sha256": "cd6d47144f7b935d67567a6f8623226f19be3f331a379eab68afcd5990818f12",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "DINHABAH",
+          "target": "DINHABAH",
+          "action": "preserve",
+          "reason": "Historical place name retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "din'-ha-ba, din-ha'-ba (dinhabhah): The royal city of Bela, son of Beor; king of Edom (",
+          "target": "din'-ha-ba, din-ha'-ba (dinhabhah) : cité royale de Béla, fils de Béor, roi d'Édom (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). There may be a resemblance in the name of Hodbat et-Teneib. about 8 miles East of Heshbon; but this is in the land of Moab, and probably much too far to the North. No satisfactory identification has been proposed.",
+          "target": "). Il existe peut-être une ressemblance avec le nom de Hodbat et-Teneib, situé à environ huit milles à l'est de Hesbon ; mais ce lieu se trouve au pays de Moab, probablement beaucoup trop au nord. Aucune identification satisfaisante n'a été proposée.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-855796d27a40ce781770",
+      "source_key": "FERRY-BOAT",
+      "source_article_sha256": "870ce900a9a6784561891bc6ecc0f0fdab635365ab56ea4d4ba1b0ca26e766ed",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "FERRY-BOAT",
+          "target": "BAC",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "fer'-i-bot (",
+          "target": "fer'-i-bot (",
+          "action": "preserve",
+          "reason": "Historical English pronunciation preserved pending editorial policy"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "SHIPS AND BOATS",
+          "target": "NAVIRES ET EMBARCATIONS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-81c7fff74ef76004b870",
+      "source_key": "FORTUNE",
+      "source_article_sha256": "db751848e2cc191d973678b1377b1b19dbcd2def94730868e069817ea8e947ae",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "FORTUNE",
+          "target": "FORTUNE",
+          "action": "preserve",
+          "reason": "French cognate retains source headword"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "for'-tun (Gad): A god of Good Luck, possibly the Hyades.",
+          "target": "for'-tun (Gad) : un dieu de la Chance, peut-être les Hyades.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ASTROLOGY, 10.",
+          "target": "Voir ASTROLOGIE, 10.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-31cb3869faff49e0a75c",
+      "source_key": "IDBASH",
+      "source_article_sha256": "c118373d5de88e93170afc651fa2b5f343891034bf2d98a5141df83ed8521c13",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "IDBASH",
+          "target": "IDBASH",
+          "action": "preserve",
+          "reason": "Historical proper name retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "id'-bash (yidhbash, \"honeysweet\"(?)): A man of Judah, one of the sons of the father of Etam (",
+          "target": "id'-bash (yidhbash, « doux comme le miel » [?]) : homme de Juda, l'un des fils du père d'Étam (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; Septuagint \"sons of Etam\").",
+          "target": " ; Septante : « fils d'Étam »).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-04ca4e3de0bae83fcf98",
+      "source_key": "JAVELIN",
+      "source_article_sha256": "e2821eae2a932b7c60857affb06d81b474478af5ac006e1b79ccc70e3e420eb0",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "JAVELIN",
+          "target": "JAVELOT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "jav'-lin, jav'-e-lin.",
+          "target": "jav'-lin, jav'-e-lin.",
+          "action": "preserve",
+          "reason": "Historical English pronunciation preserved pending editorial policy"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARMOR",
+          "target": "ARMURE",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ARMS",
+          "target": "ARMES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-276c92ceb284e6e94f4c",
+      "source_key": "KARTAN",
+      "source_article_sha256": "4171a5fe90ece09e32aef73548d312d0bd2e4ca485f78b7e633a8e04bbc238ad",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "KARTAN",
+          "target": "KARTAN",
+          "action": "preserve",
+          "reason": "Historical place name retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar'-tan (qartan): A city in the territory of Naphtali, given to the Gershonite Levites (",
+          "target": "kar'-tan (qartan) : ville du territoire de Nephtali, attribuée aux Lévites guerschonites (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). It is called Kiriathaim in ",
+          "target": "). Elle est appelée Kiriathaïm dans ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". Kartan may be a contraction of this. Cheyne (EB, under the word) suggests that both names may be corruptions from \"Chinnereth.\" Neither is mentioned in ",
+          "target": ". Kartan pourrait être une contraction de ce nom. Cheyne (EB, à l'article correspondant) suggère que les deux noms pourraient être des altérations de « Kinnéreth ». Aucun des deux n'est mentionné dans ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", in the list of Naphtalite cities, while Chinnereth is.",
+          "target": ", dans la liste des villes de Nephtali, contrairement à Kinnéreth.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-2a0500fd03af1c494328",
+      "source_key": "METHUSELAH",
+      "source_article_sha256": "880e3d0450e07c8a453a3b71bed76634c4fd6506af7f6f7a124f0f42a25952e8",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "METHUSELAH",
+          "target": "MATHUSALEM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "me-thu'-se-la, me-thu'-se-la (methushelach, \"man of the javelin\"): A descendant of Seth, the son of Enoch, and father of Lamech (",
+          "target": "me-thu'-se-la, me-thu'-se-la (methushelach, « homme du javelot ») : descendant de Seth, fils d'Hénoc et père de Lémec (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). Methuselah is said to have lived 969 years; he is therefore the oldest of the patriarchs and the oldest man. It is doubtful whether these long years do not include the duration of a family or clan.",
+          "target": "). Mathusalem aurait vécu 969 ans ; il est donc le plus âgé des patriarches et l'homme ayant vécu le plus longtemps. On peut se demander si ces longues années ne comprennent pas la durée d'une famille ou d'un clan.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-726ee75735bbd049a2c4",
+      "source_key": "NAARAN; NARATH",
+      "source_article_sha256": "c3e96c144d014de3225ee56a9ce4ace4f97a6766349bcf2eb6b11143db09bc3f",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "NAARAN; NARATH",
+          "target": "NAARAN ; NARATH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "na'-a-ran, na'-a-rath (na`aran, na`arath). see ",
+          "target": "na'-a-ran, na'-a-rath (na`aran, na`arath). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "NAARAH",
+          "target": "NAARAH",
+          "action": "preserve",
+          "reason": "Original proper name retained; future French alias independent of canonical key"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-d2aef9e60292502a325a",
+      "source_key": "PUNITES",
+      "source_article_sha256": "07ba0bf9fdf9d015e618bc3deb3a62767e964f3c1b36df4262192e7925055bb2",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "PUNITES",
+          "target": "PUNITES",
+          "action": "preserve",
+          "reason": "Name of descendants retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "pu'-nits (puni, probably \"dark\"): Descendants of Puvah, of the tribe of Issachar (",
+          "target": "pu'-nits (puni, probablement « sombre ») : descendants de Pouva, de la tribu d'Issacar (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-65cbe1e19791d49b0238",
+      "source_key": "RED",
+      "source_article_sha256": "3ee44949366c4d83aa13ab34a4dcfced7200d4196e0c12cfb09ada4c7cc16a16",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "RED",
+          "target": "ROUGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See COLORS, (10).",
+          "target": "Voir COULEURS, (10).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-cdb88be95868ad8159c0",
+      "source_key": "RELEASE",
+      "source_article_sha256": "cb00954e921b0aed9fa2565b9277c9c82273c259f7622892ba0287ce5735f8dc",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "RELEASE",
+          "target": "LIBÉRATION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "re-les': (1) The forgiveness of a debt (shemiTTah (",
+          "target": "re-les' : (1) Remise d'une dette (shemiTTah (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "; see JUBILEE YEAR)), with verb shamaT, \"to release,\" ",
+          "target": " ; voir ANNÉE DU JUBILÉ)), avec le verbe shamaT, « remettre, libérer », ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ". (2) To exempt from taxation or military service (hanachah, \"release,\" \"rest\" (",
+          "target": ". (2) Exemption d'impôt ou de service militaire (hanachah, « libération », « repos » (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ")). Some would render \"granted a holiday.\" (3) To set a prisoner or slave at liberty (apoluo, \"to let go free\" (",
+          "target": ")). Certains traduisent par « accorda un jour de fête ». (3) Remettre en liberté un prisonnier ou un esclave (apoluo, « laisser partir librement » (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " parallel ",
+          "target": " parallèle à ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "), etc.).",
+          "target": "), etc.).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-accd73b8f0eb081c9e9a",
+      "source_key": "SAPH",
+      "source_article_sha256": "95193d054d38bdd1d3902883567c55141c0aba3708a4cad0cfd52a671dffb193",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "SAPH",
+          "target": "SAPH",
+          "action": "preserve",
+          "reason": "Biblical proper name retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "saf (caph; Codex Vaticanus Saph; Codex Alexandrinus Sephe): A Philistine, one of the four champions of the race of Rapha (\"giant\") who was slain by Sibbecai, one of David's heroes (",
+          "target": "saf (caph ; Codex Vaticanus : Saph ; Codex Alexandrinus : Sephe) : Philistin, l'un des quatre champions de la descendance de Rapha (« géant »), tué par Sibbecaï, l'un des vaillants hommes de David (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). It is supposed by some that he was the son of the giant Goliath, but this is not proved. In ",
+          "target": "). Certains supposent qu'il était le fils du géant Goliath, mais cela n'est pas démontré. Dans ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", the same person is called \"Sippai.\"",
+          "target": ", la même personne est appelée « Sippaï ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-00c9bf50c91c2d07e985",
+      "source_key": "TRANSFORM",
+      "source_article_sha256": "88c1d5dcb29ccc3aa690d9bbbd6531a7fd378cb7dfc132a3d9c75592a561c1bc",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "TRANSFORM",
+          "target": "TRANSFORMER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "trans-form' (",
+          "target": "trans-form' (",
+          "action": "preserve",
+          "reason": "Historical English pronunciation left for editorial review"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; the Revised Version (British and American) ",
+          "target": " ; la Revised Version (britannique et américaine) ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " for metamorphoomai, and the King James Version ",
+          "target": " pour metamorphoomai, et la King James Version ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " for metaschematizo, the Revised Version (British and American) \"fashion\"): The commentaries often explain the former word as connoting a change of nature, while the latter refers only to the appearance, but this distinction is probably fanciful.",
+          "target": " pour metaschematizo, rendu par « fashion » dans la Revised Version (britannique et américaine)) : les commentaires expliquent souvent que le premier terme implique un changement de nature, tandis que le second ne concernerait que l'apparence ; mais cette distinction est probablement artificielle.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-7fd5160c95d5d0e6304a",
+      "source_key": "UNDERNEATH",
+      "source_article_sha256": "bd3cf7ade4ffa238d7422376db13132391227f9f3385e323f89dfcd887637374",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "UNDERNEATH",
+          "target": "AU-DESSOUS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "un-der-neth' (tachath, \"the bottom (as depressed)\"): \"Underneath are the everlasting arms\" (",
+          "target": "un-der-neth' (tachath, « le fond (comme une dépression) ») : « Au-dessous sont les bras éternels » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). In these words Moses sums up the history of Israel and gives expression to his final thought about life and time and all things visible. Underneath all phenomena and all the chances and changes of life and time there is unchanging law, everlasting principle, an all-enfolding power, an all-embracing love.",
+          "target": "). Par ces mots, Moïse résume l'histoire d'Israël et exprime sa pensée finale sur la vie, le temps et tout ce qui est visible. Sous tous les phénomènes, les hasards et les changements de la vie et du temps se trouvent une loi immuable, un principe éternel, une puissance qui enveloppe tout et un amour qui embrasse tout.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-d848825271814c97dd54",
+      "source_key": "VESTMENTS",
+      "source_article_sha256": "0e3e16e91efadb80de8cd6a374deb1bb1dff06ceae79d71274ee8924f3fde502",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "VESTMENTS",
+          "target": "VÊTEMENTS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "vest'-ments.",
+          "target": "vest'-ments.",
+          "action": "preserve",
+          "reason": "Historical English pronunciation preserved pending editorial policy"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "DRESS",
+          "target": "HABILLEMENT",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-ad5d8fb17c4c11ee6503",
+      "source_key": "WINNOWING",
+      "source_article_sha256": "1142f8b8a7e15ac099a175972503e9ff1fe8de7a6b94594d85d27e27067741f1",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "WINNOWING",
+          "target": "VANNAGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "win'-o-ing.",
+          "target": "win'-o-ing.",
+          "action": "preserve",
+          "reason": "Historical English pronunciation preserved pending editorial policy"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "AGRICULTURE",
+          "target": "AGRICULTURE",
+          "action": "preserve",
+          "reason": "Same visible headword in English and French"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "FAN",
+          "target": "VAN",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "THRESHING",
+          "target": "BATTAGE",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}

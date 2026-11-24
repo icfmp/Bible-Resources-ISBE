@@ -1,0 +1,73 @@
+name: Verify ISBE 1915 French translation pilot roster
+
+on:
+  push:
+    paths:
+      - 'scripts/select_translation_pilot.py'
+      - 'scripts/validate_translation_identity.py'
+      - 'tests/test_translation_pilot_selection.py'
+      - 'scripts/apply_translation_pilot.py'
+      - 'tests/test_translation_pilot_apply.py'
+      - 'workspace/pilots/isbe-1915-fr/**'
+      - '.github/workflows/fr-translation-pilot.yml'
+  pull_request:
+    paths:
+      - 'scripts/select_translation_pilot.py'
+      - 'scripts/validate_translation_identity.py'
+      - 'tests/test_translation_pilot_selection.py'
+      - 'scripts/apply_translation_pilot.py'
+      - 'tests/test_translation_pilot_apply.py'
+      - 'workspace/pilots/isbe-1915-fr/**'
+      - '.github/workflows/fr-translation-pilot.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pinned-roster:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify source-pinned French pilot selection and print bounded source samples
+        run: |
+          set -euo pipefail
+          python3 -m scripts.select_translation_pilot \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --output /tmp/isbe-1915-fr-pilot-selection.json \
+            --print-samples 19
+      - name: Verify selection coverage and no fabricated translation
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          data=json.loads(Path('/tmp/isbe-1915-fr-pilot-selection.json').read_text(encoding='utf-8'))
+          assert data['pilot_article_count']==50
+          assert data['summary']['pending']==50
+          assert data['summary']['translated']==0
+          assert all(row['translation_status']=='pending' for row in data['articles'])
+          assert data['index_policy']=='original_xml_ids_and_sword_source_keys_shared_by_all_languages'
+          print('FR pilot source roster: 50 canonical English IDs; no translated material approved')
+          PY
+
+      - name: Build explicitly unpublished partial translation excerpt and verify status
+        run: |
+          set -euo pipefail
+          python3 -m scripts.apply_translation_pilot \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --roster workspace/pilots/isbe-1915-fr/roster.json \
+            --patches workspace/pilots/isbe-1915-fr/draft-patches.json \
+            --output /tmp/isbe-fr-partial-draft.xml \
+            --report /tmp/isbe-fr-partial-draft-report.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          proof=json.loads(Path('/tmp/isbe-fr-partial-draft-report.json').read_text(encoding='utf-8'))
+          assert proof['pilot_article_count']==50
+          assert proof['unreviewed_drafts']==19
+          assert proof['pending']==31
+          assert proof['human_reviewed']==0
+          assert proof['publication_permitted'] is False
+          assert proof['canonical_article_index_preserved'] is True
+          print('Source-locked pilot: 19 unreviewed FR drafts + 31 English pending; NOT publishable.')
+          PY
