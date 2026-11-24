@@ -105,14 +105,18 @@ def build(source: Path, patch_files: list[Path], preview_dir: Path,
     (preview_dir / "INDEX.md").write_text("\n".join(index_lines) + "\n",
                                             encoding="utf-8")
 
+    pilot_count = sum(
+        len(json.loads(Path(path).read_text(encoding="utf-8"))["articles"])
+        for path in patch_files if "pilots" in Path(path).parts
+    )
     report = {
         "schema_version": 1,
         "status": "all_selected_drafts_readable_unreviewed_not_for_publication",
         "source_sha256": SOURCE_SHA256,
         "source_article_count": 9380,
         "selected_complete_unreviewed_drafts": len(articles),
-        "pilot_drafts_count": sum(
-            x["source_key"] != "ABRAHAM" for x in articles),
+        "pilot_drafts_count": pilot_count,
+        "batch_drafts_count": len(articles) - pilot_count,
         "human_editorially_approved": 0,
         "source_flags_pending_witness_review": len(flags),
         "source_flag_affected_articles": len(flags_by_key),
