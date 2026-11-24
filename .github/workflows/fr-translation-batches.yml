@@ -36,6 +36,7 @@ jobs:
             --patches workspace/pilots/isbe-1915-fr/draft-patches.json \
             --patches workspace/translations/isbe-1915/fr/batches/0001-abraham.json \
             --patches workspace/translations/isbe-1915/fr/batches/0002-early-a-entries.json \
+            --patches workspace/translations/isbe-1915/fr/batches/0003-complete-first-25.json \
             --output /tmp/isbe-fr-working-excerpt.xml \
             --report /tmp/isbe-fr-working-report.json
       - name: Build complete Abraham reading proof without touching canonical source
@@ -54,8 +55,8 @@ jobs:
           from pathlib import Path
           report=json.loads(Path('/tmp/isbe-fr-working-report.json').read_text(encoding='utf-8'))
           assert report['master_entry_count']==9380
-          assert report['excerpt_entries']==67
-          assert report['complete_unreviewed_drafts']==67
+          assert report['excerpt_entries']==75
+          assert report['complete_unreviewed_drafts']==75
           assert report['partial_unreviewed_drafts']==0
           assert report['human_reviewed']==0
           assert report['publication_permitted'] is False
@@ -64,7 +65,7 @@ jobs:
           for section in ('I. Le nom', 'II. La famille', 'III. La vie', 'IV. Les conditions', 'V. Le caractère', 'VI. L', 'VII. Interprétations'):
               assert section in proof, section
           assert 'J. Oscar Boyd' in proof
-          print('VERIFIED: 67 complete UNREVIEWED French drafts; canonical source intact; NOT published')
+          print('VERIFIED: 75 complete UNREVIEWED French drafts; canonical source intact; NOT published')
           PY
       - name: Retain non-publishable editorial report and Abraham reading proof
         uses: actions/upload-artifact@v4
