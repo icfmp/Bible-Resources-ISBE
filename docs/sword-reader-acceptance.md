@@ -180,3 +180,9 @@ The **latest unpublished draft candidate** (`BRISBE1915-native-workid-draft.tar.
 crosslinks, rebuilt and verified by [run #45346863700](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45346863700).
 The earlier superseded draft binary, retained for provenance, still has the
 old `self:<key>` links and must not be used for eventual publication.
+
+## Additional public-candidate presentation samples (2026-11-24)
+
+The source-attested [script/structure census](../scripts/audit_sword_presentation_samples.py) selects **CHORBE** (Greek characters at source text offset 15), **AMNON** (pointed Hebrew at offset 14) and **ELKOSHITE** (one nested TEI division) from the locked corrected master. The graphical workflow makes real dictionary lookups of all three keys in *both* independent clients and retains six separately named screenshots. Each lookup is cross-checked against the source inventory before execution; an image file is evidence of a real opened UI, not an automatic certification of correct script glyphs or nested section rendering. Independent screenshot review is required and is recorded separately.
+
+Historical original print glyph restoration is still not claimed: the census tests preservation of characters **present in the corrected digital witness**, not the completeness of the 1915 print transcription. The original TEI remains immutable.
