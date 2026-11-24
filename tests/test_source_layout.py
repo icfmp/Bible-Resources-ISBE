@@ -63,7 +63,7 @@ class CleanSourceTreeTests(unittest.TestCase):
             self.assertEqual(record["quality"]["native_readback_text_mismatches"],0)
             self.assertEqual(record["quality"]["native_readback_xml_mismatches"],0)
             self.assertEqual(record["quality"]["two_reader_acceptance"],
-                             "partial_article_display_verified_interactive_pending")
+                             "dictionary_link_destination_visible_in_mag_panes_book_view_pending")
             self.assertEqual(record["quality"]["gui_article_display_verified_in"],
                              ["Xiphos","BibleTime"])
             self.assertEqual(record["quality"]["gui_article_headword_sample"],"AARON")
@@ -74,11 +74,20 @@ class CleanSourceTreeTests(unittest.TestCase):
             self.assertEqual(validation["gui_article_display"]["headword"],"AARON")
             self.assertFalse(validation["gui_article_display"]["actual_clicked_links_verified"])
             self.assertFalse(validation["gui_article_display"]["two_reader_full_acceptance"])
+            self.assertEqual(validation["import_tei_sha256"],
+                             "bdac245cad329fdff8039d0374815ff7086b8a5f8055118f1250461b9d5f17ec")
+            self.assertEqual(validation["built_native_candidate_archive_sha256"],
+                             "6b7edccc0f27fbcf71595597ddd8794a5db72acd3952fb03e1e4e569e7acf3a5")
+            self.assertTrue(validation["staged_workid_binary_verified_in_unpublished_draft"])
+            self.assertFalse(validation["gui_article_display"]["dictionary_link_click_evidence"]["xiphos_book_view_resolves"])
             self.assertFalse(validation["xiphos_accepted"])
             self.assertFalse(validation["second_reader_accepted"])
             self.assertFalse(validation["publication_permitted"])
         self.assertFalse(record["distribution"]["payload_present"])
         self.assertFalse(record["distribution"]["release_published"])
+        self.assertEqual(record["distribution"]["draft_binary_asset"], "BRISBE1915-native-workid-draft.tar.gz")
+        self.assertEqual(record["distribution"]["draft_binary_sha256"], "6b7edccc0f27fbcf71595597ddd8794a5db72acd3952fb03e1e4e569e7acf3a5")
+        self.assertEqual(record["distribution"]["legacy_archived_candidate"]["sha256"], "6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b")
         distribution=record["distribution"]
         if distribution.get("draft_binary_asset"):
             self.assertFalse(distribution["draft_source_release_only"])

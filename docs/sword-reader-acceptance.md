@@ -175,7 +175,8 @@ historical corrected TEI and source IDs are unchanged. **Do not describe
 Xiphos Book View navigation as fully accepted** or claim the click resolves
 every entry without separate evidence.
 
-The prior unpublished candidate draft still contains the old
-`self:<key>` links. This newly validated compiled work-ID adapter must
-be used for the next candidate rebuild; tests against the new source do
-not retroactively repair already archived binary assets.
+The **latest unpublished draft candidate** (`BRISBE1915-native-workid-draft.tar.gz`, SHA-256
+`6b7edccc0f27fbcf71595597ddd8794a5db72acd3952fb03e1e4e569e7acf3a5`) now contains the corrected explicit `BRISBE1915:<key>`
+crosslinks, rebuilt and verified by [run #45346863700](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45346863700).
+The earlier superseded draft binary, retained for provenance, still has the
+old `self:<key>` links and must not be used for eventual publication.
