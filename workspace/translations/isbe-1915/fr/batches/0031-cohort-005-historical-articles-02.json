@@ -1,0 +1,1091 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AGEE",
+      "article_id": "isbe-598cf1f90d3d09148657",
+      "source_article_sha256": "e5409e41756b2b85dc9686e7c15a227f0bd08aa18f9e2a71f1d2692dbba664f7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AGEE",
+          "target": "AGEE",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-ge (aghe', \"fugitive\"): A Hararite, father of Shammah, one of David's \"three mighty men\" (",
+          "target": "a'-ge (aghe', « fugitif ») : Hararite, père de Shamma, l'un des « trois vaillants hommes » de David (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). In ",
+          "target": ") : En ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " we read of one \"Jonathan the son of Shagee the Hararite.\" The parallel in ",
+          "target": ", on lit « Jonathan, fils de Shagué le Hararite ». Le passage parallèle, en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " reads \"Jonathan, Shammah the Hararite.\" If we read \"Jonathan (son of) Shammah,\" then Agee is the grandfather of Jonathan. Some, however, think ",
+          "target": ", donne « Jonathan, Shamma le Hararite ». Si l'on comprend « Jonathan (fils de) Shamma », Agué est alors le grand-père de Jonathan. D'autres estiment cependant que ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " to be correct, and read \"Shagee\" for \"Agee\" in ",
+          "target": " est correct, et lisent « Shagué » à la place d'« Agué » en ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ", and for \"Shammah\" in ",
+          "target": " et de « Shamma » en ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ". This makes Jonathan and Shammah brothers.",
+          "target": ". Jonathan et Shamma seraient alors frères.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AGGAEUS",
+      "article_id": "isbe-4cd9ccf71a29f9c88e9c",
+      "source_article_sha256": "f127d35589eb292312d1d808a12ce429c7e5754ba7663af07a053a00c077522c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AGGAEUS",
+          "target": "AGGAEUS",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ge'-us (Aggaios; the King James Version Aggeus). Haggai, one of the Minor Prophets. Abraham prophesied in the second year of the reign of Darius (compare ",
+          "target": "a-ge'-us (Aggaios ; Aggeus dans la King James Version) : Aggée, l'un des petits prophètes. La source anglaise indique « Abraham » comme ayant prophétisé la deuxième année du règne de Darius (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") with Zacharias in Jerusalem (1 Esdras 6:1; 7:3) In 2 Esdras 1:40 he is mentioned as one who with others shall be given as \"leader to the nation from the east.\"",
+          "target": ") avec Zacharie à Jérusalem (1 Esdras 6:1 ; 7:3). En 2 Esdras 1:40, il est mentionné parmi ceux qui seront donnés comme « chefs à la nation venant de l'orient ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AHASBAI",
+      "article_id": "isbe-f0ab4088f055b86b2cb1",
+      "source_article_sha256": "c45ffcaebc8299d36acd805078b5fbbf456b14d2452e9450b470551ebc43e050",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHASBAI",
+          "target": "AHASBAI",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-has'-bi ('achacbay, \"blooming\"): The father of Eliphelet, a Maacathite, a soldier in David's army (",
+          "target": "a-has'-bi ('achacbay, « florissant ») : Père d'Éliphéleth, Maacatite et soldat de l'armée de David (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). He was either a native of Abel-beth-maacah (",
+          "target": ") : Il était soit originaire d'Abel-Beth-Maaca (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") or, more probably, of Maacah in Syria (",
+          "target": "), soit, plus probablement, de Maaca en Syrie (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). The list in ",
+          "target": ") : La liste de ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " gives different names entirely. Here we have Ur and Hepher, which simply show that the text is corrupt in one or both places.",
+          "target": " donne des noms entièrement différents : Ur et Hépher. Cela indique seulement que le texte est corrompu dans l'un des deux passages, voire dans les deux.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AHILUD",
+      "article_id": "isbe-40918fcb813d9096f8a6",
+      "source_article_sha256": "a51af8c92c7e6a27f75d78c90e6d4762f79b0e5f0ed5f2d7e60d102a5d68eea7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHILUD",
+          "target": "AHILUD",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-hi'-lud ('achiludh, \"child's brother,\" perhaps): The father of Jehoshaphat, who is mentioned as \"recorder\" in both the earlier and the later lists under David, and in the list under Solomon (",
+          "target": "a-hi'-lud ('achiludh, peut-être « frère de l'enfant ») : Père de Josaphat, désigné comme archiviste dans les premières et les dernières listes du règne de David, ainsi que dans celle de Salomon (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). In the absence of proof we may assume that the father of Baana, one of Solomon's district superintendents, was the same Ahilud (",
+          "target": ") : Faute de preuve contraire, on peut supposer que le père de Baana, l'un des intendants des districts de Salomon, était ce même Ahilud (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AHIRA",
+      "article_id": "isbe-d435fb86a25e1b1d196f",
+      "source_article_sha256": "e0832221d7409980a19427d71e69b34a546b438768248516849cee6702cad736",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHIRA",
+          "target": "AHIRA",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-hi'-ra ('achira`, \"brother of evil,\" or, \"my brother is evil\"): A man of Naphtali, contemporary with Moses. He is five times mentioned as the son of Enan. He was the representative of his tribe who assisted Moses in the census (",
+          "target": "a-hi'-ra ('achira`, « frère du mal » ou « mon frère est mauvais ») : Homme de Nephtali, contemporain de Moïse. Il est mentionné cinq fois comme fils d'Énan. Il représentait sa tribu et assista Moïse lors du recensement (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). He was the hereditary \"prince\" of the tribe; he made the tribal offering (",
+          "target": ") : Il était « prince » héréditaire de la tribu et présenta son offrande au nom de celle-ci (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "), and was commander of the tribal host when on the march (",
+          "target": ") ; il commandait le contingent de sa tribu pendant les déplacements (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AHUZZATH",
+      "article_id": "isbe-9f0a9730fe3ab9d98cdd",
+      "source_article_sha256": "cc33b55b83f0f0d0cd3c4aebf7013d44c5ccd1dd53278b88e9319efa815b9872",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHUZZATH",
+          "target": "AHUZZATH",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-huz'-ath ('achuzzath, \"possession\"): A \"friend\" perhaps a minister, of Abimelech, king of Gerar. He together with Phicol, commander of the army, accompanied their sovereign to Beersheba to make a covenant with Isaac (",
+          "target": "a-huz'-ath ('achuzzath, « possession ») : « Ami », peut-être ministre, d'Abimélec, roi de Guérar. Avec Picol, chef de l'armée, il accompagna son souverain à Beer-Shéba pour conclure une alliance avec Isaac (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The termination \"-ath\" reminds us of Philistine proper names, such as Gath, Goliath, etc. Compare ",
+          "target": ") : La terminaison « -ath » rappelle les noms propres philistins comme Gath et Goliath. Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Genubath",
+          "target": "Genubath",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        }
+      ]
+    },
+    {
+      "source_key": "AID",
+      "article_id": "isbe-86a0b1186a5723aca1cd",
+      "source_article_sha256": "76ca2674c558a89ee1e0fdf7a65d700b11be2307d841c95351e6fe3f0218d7c3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AID",
+          "target": "SECOURS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ad (chazaq, \"to strengthen,\" \"to aid\"): A military term used only once in Old Testament in the King James Version (",
+          "target": "ad (chazaq, « fortifier », « secourir ») : Terme militaire utilisé une seule fois dans l'Ancien Testament par la King James Version (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") and displaced in the Revised Version (British and American) by the literal rendering, \"who strengthened his hands.\" The men of Shechem supported Abimelech in his fratricidal crime, with money, enabling him to hire men to murder his brethren. The fundamental idea in the word, as used in the Old Testament, is \"abounding strength.\"",
+          "target": ") : La Revised Version (britannique et américaine) lui substitue la traduction littérale « qui fortifièrent ses mains ». Les hommes de Sichem soutinrent financièrement Abimélec dans son crime fratricide, lui permettant de recruter des hommes pour assassiner ses frères. Dans l'Ancien Testament, l'idée fondamentale de ce mot est celle d'une « force abondante ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AIM",
+      "article_id": "isbe-6d80381c5b38add22a1c",
+      "source_article_sha256": "ce804b5077c880cf709782b2e4d8cc1a64cf9d1cfd2adf0bbb8baa9936a2a41a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AIM",
+          "target": "VISER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am: In The Wisdom of Solomon 13:9. Lit. translation by the King James Version of Greek stochasasthai, which commonly means \"to shoot at.\" This is Interpreted and explained by the Revised Version (British and American) as \"explore,\" with a hint as to the nature of the process, and may be paraphrased: \"If they be able to conjecture the mysteries of the universe.\"",
+          "target": "am : En Sagesse de Salomon 13:9. Traduction littérale, dans la King James Version, du grec stochasasthai, qui signifie généralement « viser un but ». La Revised Version (britannique et américaine) l'interprète par « explorer », avec une indication du procédé envisagé. On pourrait paraphraser : « S'ils sont capables de conjecturer les mystères de l'univers. »",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AKRABBIM",
+      "article_id": "isbe-39864fda48f7fa43ccdd",
+      "source_article_sha256": "e4a2b575f8a4508289cca544ca841434c3335a66c20afcdf1520f482b7cbd61d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AKRABBIM",
+          "target": "AKRABBIM",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak-rab'-im (once in the King James Version, Acrabbim (",
+          "target": "ak-rab'-im (une fois « Acrabbim » dans la King James Version, ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); `aqrabbim, \"scorpions\"): Three times found (",
+          "target": ") ; `aqrabbim, « scorpions ») : Nom trouvé trois fois (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "), and always with ma`aleh, \"ascent\" or \"pass\"; and so \"Ascent of the Scorpions,\" an ascent at the Southwest point of the Dead Sea and a part of the boundary line between Judah and Edom. At this pass Judas Maccabeus won a victory over the Edomites (1 Macc 5:3), called in the King James Version, Arabattine.",
+          "target": ") et toujours avec ma`aleh, « montée » ou « col » ; d'où « montée des Scorpions », passage situé à l'extrémité sud-ouest de la mer Morte, sur une partie de la frontière entre Juda et Édom. Judas Maccabée y remporta une victoire sur les Édomites (1 Macc 5:3) ; la King James Version l'appelle Arabattine.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALAMETH",
+      "article_id": "isbe-f35570c9c899442b1291",
+      "source_article_sha256": "af5798389b96fb150864f4e181bb1c6cef2dab0bc984dd081eb8ae985e5e1d0c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALAMETH",
+          "target": "ALAMETH",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-a-meth (`alameth, \"concealment\"; ",
+          "target": "al'-a-meth (`alameth, « dissimulation » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the King James Version): The name of a son of Becher and grandson of Benjamin. His name was preserved as the name of a town near Anathoth (",
+          "target": " dans la King James Version) : Fils de Béker et petit-fils de Benjamin. Son nom fut conservé dans celui d'une ville proche d'Anathoth (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ALLEMETH",
+          "target": "ALLEMETH",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " the Revised Version (British and American)). Except for the strong pausal accent in the Hebrew the form of the word would be the same as ",
+          "target": " dans la Revised Version britannique et américaine). Sans le fort accent pausal de l'hébreu, la forme du mot serait identique à celle d'",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "ALEMETH",
+          "target": "ALEMETH",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALEMETH",
+      "article_id": "isbe-c548e8ea957631866908",
+      "source_article_sha256": "0615ca9c0b3fedb9a04ed3f59dbf47240ce713e49ff2989f6d9810ae3746d56a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALEMETH",
+          "target": "ALEMETH",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-e-meth (`alemeth, \"concealment\"):",
+          "target": "al'-e-meth (`alemeth, « dissimulation ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) the Revised Version (British and American) for Alameth of the King James Version in ",
+          "target": "(1) Forme de la Revised Version (britannique et américaine) pour « Alameth » dans la King James Version en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) Descendant of Saul and Jonathan, and son of Jehoaddah, ",
+          "target": "(2) Descendant de Saül et de Jonathan, fils de Jehoadda, ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", or of Jarah, ",
+          "target": ", ou de Jara, ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ". The genealogies in the two chapters are identical, and he is the fifth generation after Jonathan.",
+          "target": ". Les généalogies des deux chapitres sont identiques ; il représente la cinquième génération après Jonathan.",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(3) In some Hebrew texts, Ginsburg and Baer, for ",
+          "target": "(3) Dans certains textes hébreux, notamment ceux de Ginsburg et de Baer, forme employée pour ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "ALLEMETH",
+          "target": "ALLEMETH",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": " (which see); so in the King James Version.",
+          "target": " (voir cet article) ; de même dans la King James Version.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALIAH",
+      "article_id": "isbe-91c2e7ce656069ad9767",
+      "source_article_sha256": "639f9ac12c19194e517bdb7aa664e8016f3d137d72dc21447c2fe5632571c954",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALIAH",
+          "target": "ALIAH",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-li'-a (`alyah): One of the dukes, or heads of thousands of Edom (",
+          "target": "a-li'-a (`alyah) : L'un des chefs, ou chefs de milliers, d'Édom (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). In ",
+          "target": ") : En ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " the name is Alvah (`alwah), the only difference being the change of the weaker w, of Ge to the somewhat stronger, y, of the later Chronicles, a change which is not infrequent in Hebrew. He is not to be confused, as in HDB, with the Alian of the same chapter.",
+          "target": ", le nom est Alva (`alwah) ; la seule différence réside dans le remplacement du w plus faible de la Genèse par le y quelque peu plus fort des Chroniques, phénomène assez fréquent en hébreu. Il ne faut pas le confondre, comme le fait HDB, avec Alian, mentionné dans le même chapitre.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALIAN",
+      "article_id": "isbe-fa96b3d4cb9540c4a2de",
+      "source_article_sha256": "3a702e3538b74e74f4f7f4483ab376b8f2581c7391e26c895d334cdb34d20ddf",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALIAN",
+          "target": "ALIAN",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-li'-an (`alyan): A descendant of Esau, and son of Shobal (",
+          "target": "a-li'-an (`alyan) : Descendant d'Ésaü, fils de Shobal (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). In the corresponding earlier genealogy (",
+          "target": ") : Dans la généalogie parallèle plus ancienne (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") the same person is given as Alvan (`alwan), the change of the third consonant being a simple one, common to Hebrew, occurring similarly in Aliah (which see). Alian is not to be identified with Aliah, since the groups of names in which these occur are quite different, and the context in each case is not the same.",
+          "target": "), ce personnage est nommé Alvan (`alwan). Le changement de la troisième consonne est simple et fréquent en hébreu ; on le retrouve pour Alia (voir cet article). Alian ne doit pas être identifié à Alia, car les groupes de noms auxquels ils appartiennent sont bien différents, tout comme leur contexte respectif.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALLAR",
+      "article_id": "isbe-2c55eba8de37f2f22ec1",
+      "source_article_sha256": "89992ff68aedefda33579ddb6619cf07d3a4f78b109d91aedd5c740ec68474c8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALLAR",
+          "target": "ALLAR",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-ar (the King James Version, Aalar; Aalar): Occurring once (1 Esdras 5:36) and used apparently to indicate a place from which certain Jews came on the return from captivity, who could not prove their lineage, and were excluded for this reason from the privileges of the priesthood. ",
+          "target": "al'-ar (Aalar dans la King James Version ; Aalar) : Nom apparaissant une seule fois (1 Esdras 5:36), apparemment pour désigner un lieu d'où provenaient certains Juifs revenus de captivité, incapables de prouver leur ascendance et donc exclus des privilèges du sacerdoce. ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "HDB",
+          "target": "HDB",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " identifies with Immer of ",
+          "target": " l'identifie à Immer de ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " and ",
+          "target": " et de ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " (which see), but this is not at all certain.",
+          "target": " (voir cet article), mais cette identification est loin d'être certaine.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALLEMETH",
+      "article_id": "isbe-ac1a090e7933dc1413ff",
+      "source_article_sha256": "6aec0d34c7465c317cc655b85902d91b19bb85906eb3f591a95e810939256aa0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALLEMETH",
+          "target": "ALLEMETH",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-e-meth (`allemeth, \"concealment\"; the King James Version Alemeth, ",
+          "target": "al'-e-meth (`allemeth, « dissimulation » ; « Alemeth » dans la King James Version, ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): Name of a town in tribe of Benjamin, near Anathoth, one of the cities given to the sons of Aaron, the same as Almon of ",
+          "target": ") : Ville de la tribu de Benjamin, près d'Anathoth, l'une des villes données aux fils d'Aaron, identique à Almon de ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". The the King James Version ",
+          "target": ". La forme ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ALEMETH",
+          "target": "ALEMETH",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " (which see) is based upon the Hebrew reading `alemeth. Its site is the modern Almit, a village a short distance Northeast of Anathoth.",
+          "target": " de la King James Version (voir cet article) repose sur la lecture hébraïque `alemeth. Son emplacement est celui de l'actuel Almit, village situé à peu de distance au nord-est d'Anathoth.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALLOM",
+      "article_id": "isbe-78c865b310fe819d5535",
+      "source_article_sha256": "67d044a9e54157f79725d7532355cf8170a9e5f3647540a9f3cda79f16dc146f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALLOM",
+          "target": "ALLOM",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-om (Allon): the Revised Version (British and American) ",
+          "target": "al'-om (Allon) : La Revised Version (britannique et américaine) donne ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ALLON",
+          "target": "ALLON",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see): One of the families of the \"servants of Solomon,\" whose descendants returned with Zerubbabel from Babylon in the First Return, 537 BC (/APC 1Esdras 5:34). The name is not found in the parallel lists of Ezra and Nehemiah, although some have tried to identify with the last name of each list, Ami of ",
+          "target": " (voir cet article) : Famille des « serviteurs de Salomon » dont les descendants revinrent de Babylone avec Zorobabel lors du premier retour, en 537 av. J.-C. (1 Esdras 5:34). Le nom ne figure pas dans les listes parallèles d'Esdras et de Néhémie. Certains ont toutefois voulu l'identifier au dernier nom de chacune de ces listes, Ami en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", and Amon of ",
+          "target": " et Amon en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ". This is not probable.",
+          "target": " ; cette hypothèse est peu probable.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALLON",
+      "article_id": "isbe-fa490013b70a1577ec1a",
+      "source_article_sha256": "0ccc1f2e6341031e048c3303718e7aa0dd72d4d4bd572eedcce3e69008e1bd25",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALLON",
+          "target": "ALLON",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-on ('allon, \"oak\"):",
+          "target": "al'-on ('allon, « chêne ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A town in the tribe of Naphtali in northern Palestine (",
+          "target": "(1) Ville de la tribu de Nephtali, dans le nord de la Palestine (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), according to the King James Version, which follows some Hebrew texts. It is better however to read with the Revised Version (British and American), \"oak\" ('elon), rather than as proper noun.",
+          "target": ") selon la King James Version, qui suit certains textes hébreux. Il vaut cependant mieux lire, avec la Revised Version (britannique et américaine), « chêne » ('elon) plutôt qu'un nom propre.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) A prominent descendant of the tribe of Simeon (",
+          "target": "(2) Descendant notable de la tribu de Siméon (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(3) the Revised Version (British and American) for Allom of the King James Version in 1 Esdras 5:34 (which see).",
+          "target": "(3) Forme employée dans la Revised Version (britannique et américaine) pour « Allom » dans la King James Version en 1 Esdras 5:34 (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALLON-BACUTH",
+      "article_id": "isbe-6c7f3dd2f8d453bb4d63",
+      "source_article_sha256": "b5c2eba0733ae8c844d5d7108b84437c08aae6b8292882e62e6fd9b17d9855f0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALLON-BACUTH",
+          "target": "ALLON-BACUTH",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-on-ba'-kuth ('allon bakhuth; the King James Version transliterates Allon-bachuth, al-on-bak'uth, \"oak of weeping\"): The burial place of Deborah, the nurse of Rebekah (",
+          "target": "al'-on-ba'-kuth ('allon bakhuth ; la King James Version transcrit « Allon-bachuth », al-on-bak'uth, « chêne des pleurs ») : Lieu de sépulture de Débora, nourrice de Rébecca (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); it appears from the narrative that she made her home with Jacob, who had returned from Paddan-aram, and was sojourning at the time at Bethel, in the vicinity of which was the \"oak of weeping,\" under which she was buried.",
+          "target": ") : Le récit laisse entendre qu'elle résidait chez Jacob, revenu de Paddan-Aram et séjournant alors à Béthel. C'est près de cette ville que se trouvait le « chêne des pleurs » sous lequel elle fut ensevelie.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALMIGHTY",
+      "article_id": "isbe-af5c420bb620ce737dea",
+      "source_article_sha256": "9c6d9c281de0147e16ba9de77e6516c8dc2e0f5b4c3b9ea9fce15ffb98183d38",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALMIGHTY",
+          "target": "TOUT-PUISSANT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ol-mit'-i:",
+          "target": "ol-mit'-i :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) (shaddai (",
+          "target": "(1) shaddai (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ")): Found in the Old Testament forty-eight times, most of these in the Book of Job; it occurs either alone or in combination with 'el, \"God\"). The root meaning is uncertain.",
+          "target": ") : Présent quarante-huit fois dans l'Ancien Testament, surtout dans le livre de Job, seul ou associé à 'el, « Dieu ». Le sens étymologique de la racine reste incertain.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) (pantokrator), the exclusive translation of this Greek word in the New Testament, found principally in Re (nine times), once besides (",
+          "target": "(2) pantokrator : traduction exclusive de ce mot grec dans le Nouveau Testament, que l'on trouve principalement dans l'Apocalypse (neuf fois) et une seule autre fois (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). Its occurrence in the Apocrypha is frequent. See ",
+          "target": ") : Le mot apparaît fréquemment dans les livres apocryphes. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "GOD, NAMES OF",
+          "target": "NOMS DE DIEU",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALNATHAN",
+      "article_id": "isbe-dbffe5c2616a12c43309",
+      "source_article_sha256": "d39b1612ada4398fdeb937707da386efcf6696a70053a4aec4e06e8dd7d32240",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALNATHAN",
+          "target": "ALNATHAN",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-na-than (Alnathan, \"God has given,\" the Revised Version (British and American) ",
+          "target": "al'-na-than (Alnathan, « Dieu a donné » ; dans la Revised Version britannique et américaine : ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ELNATHAN",
+          "target": "ELNATHAN",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): Apocryphal name of a person (1 Esdras 8:44) corresponding to Elnathan of ",
+          "target": ") : Nom apocryphe (1 Esdras 8:44) correspondant à Elnathan de ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". He was one of the learned men summoned by Ezra, as he was beginning his journey to Jerusalem, and sent to Iddo to ask for ministers for the house of Yahweh.",
+          "target": ". Il s'agissait de l'un des hommes instruits convoqués par Esdras au début de son voyage vers Jérusalem et envoyés auprès d'Iddo pour demander des serviteurs pour la maison de Yahvé.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALSO",
+      "article_id": "isbe-af96e366471f42567942",
+      "source_article_sha256": "92b44de8615b52f09a8f5894de77370573794ee834ec1244e38c047dbd93b927",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALSO",
+          "target": "AUSSI",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ol'-so: In the Greek kai, when it is equivalent to \"also\" or \"even,\" is always placed before the word or phrase which it is intended to emphasize (e.g. ",
+          "target": "ol'-so : En grec, lorsque kai équivaut à « aussi » ou « même », il se place toujours avant le mot ou le groupe de mots qu'il souligne (par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " should therefore read, \"Your heavenly Father will forgive you also\"; ",
+          "target": ") devrait donc se lire : « Votre Père céleste vous pardonnera aussi » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", \"Whom also he named apostles\"; ",
+          "target": " : « Ceux qu'il nomma aussi apôtres » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ", \"The mediator of a better covenant also\"; and ",
+          "target": " : « Médiateur aussi d'une meilleure alliance » ; et ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ", `If we believe that Jesus died and rose again, so also (we believe that) those who are fallen asleep in Jesus, God will bring with Him.'",
+          "target": " : « Si nous croyons que Jésus est mort et ressuscité, nous croyons aussi que Dieu ramènera avec lui ceux qui se sont endormis en Jésus. »",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALWAY; ALWAYS",
+      "article_id": "isbe-9c5d364dcde718183b78",
+      "source_article_sha256": "272b9d32ebc0c6e3b815de44586cc864f60da261fef26247285a0ae9bc3ccf5a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALWAY; ALWAYS",
+          "target": "TOUJOURS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ol'-way, ol'-waz (archaic and poetic): Properly applied to acts or states perpetually occurring, but not necessarily continuous. In Hebrew, most frequently, tamiydh. In Greek dia pantos, ordinarily expresses continuity. In ",
+          "target": "ol'-way, ol'-waz (formes archaïques et poétiques) : Se rapporte proprement à des actions ou à des états se produisant sans cesse, sans être nécessairement continus. En hébreu, le mot le plus fréquent est tamiydh. En grec, dia pantos exprime ordinairement la continuité. En ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " \"alway\" the King James Version, the Revised Version (British and American) \"always,\" translation Greek pasas tas hemeras, \"all the days,\" corresponding to the Hebrew idiom similarly rendered in ",
+          "target": " : « alway » dans la King James Version et « always » dans la Revised Version (britannique et américaine) traduisent le grec pasas tas hemeras, « tous les jours », selon un idiome hébreu rendu de manière analogue en ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ", etc. Greek aei in ",
+          "target": ", etc. Le grec aei en ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": ", means \"at every and any time.\"",
+          "target": " signifie « en tout temps et à chaque occasion ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMAIN",
+      "article_id": "isbe-3adf39a6aa972e9e0abc",
+      "source_article_sha256": "1399ee0cf892a4dd069e75f1b3f51f51ca408372878e55448cbb93d79e4b6edd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMAIN",
+          "target": "À TOUTE VITESSE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-man' (translated from the Greek eis phugen hormesan, \"they rushed to flight\"): The word is composed of the prefix \"a\" and the word \"main,\" meaning \"force.\" The expression is used by Milton, Parker, et al., but in Biblical literature found only in 2 Macc 12:22 where used to describe the flight of Timotheus and his army after he suffered defeat at the hands of Judas Maccabee (\"They fled amain,\" i.e. violently and suddenly).",
+          "target": "a-man' (traduction du grec eis phugen hormesan, « ils prirent la fuite précipitamment ») : Ce mot est composé du préfixe « a » et de « main », qui signifie « force ». Milton, Parker et d'autres emploient cette expression ; dans la littérature biblique, elle ne figure qu'en 2 Macc 12:22, pour décrire la fuite de Timothée et de son armée après leur défaite devant Judas Maccabée (« They fled amain », c'est-à-dire violemment et soudainement).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMAN",
+      "article_id": "isbe-e49b4a12eeee9b0bf30b",
+      "source_article_sha256": "98365c005ada1bc0ab6e83df3082ac70fee270979d750cac353fd5eb78d484a0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMAN",
+          "target": "AMAN",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-man (Aman; Codex Vaticanus reads Adam): Tobit 14:10; Additions to Esther 12:6; 16:10,17, probably in each case for Haman, the arch-enemy of the Jews in the canonical Book of Esther (compare ",
+          "target": "a'-man (Aman ; le Codex Vaticanus donne Adam) : Tobie 14:10 ; Ajouts à Esther 12:6 ; 16:10, 17. Le nom désigne probablement à chaque fois Haman, l'ennemi juré des Juifs dans le livre canonique d'Esther (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " with Additions to Esther 12:6). In Additions to Esther (16:10) Aman is represented as a Macedonian, in all other points corresponding to the Haman of the Book of Esther.",
+          "target": " avec Ajouts à Esther 12:6) : Dans les Ajouts à Esther (16:10), Aman est présenté comme Macédonien ; sur tous les autres points, il correspond à Haman du livre d'Esther.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMANA",
+      "article_id": "isbe-a6b301efb692ade65317",
+      "source_article_sha256": "e4489e629384a928675c2bed01b6da63677db271fbcf58ecc9903ed1d89d896d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMANA",
+          "target": "AMANA",
+          "action": "preserve",
+          "reason": "Original proper noun, historical English pronunciation, ancient-language form or source byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ma'-na, ('amanah): A mountain mentioned in ",
+          "target": "a-ma'-na ('amanah) : Montagne mentionnée en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " along with Lebanon, Senir and Hermon. The name probably means the \"firm,\" or \"constant.\" \"From the top of Amana\" is mistranslated by the Septuagint apo arches pisteos. The Amana is most naturally sought in the Anti-Lebanon, near the course of the river Abana, or Amana (see ",
+          "target": " avec le Liban, le Senir et l'Hermon. Le nom signifie probablement « ferme » ou « constant ». La Septante traduit incorrectement « du sommet d'Amana » par apo arches pisteos. On situe le plus naturellement Amana dans l'Anti-Liban, près du cours de la rivière Abana ou Amana (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ABANAH",
+          "target": "ABANA",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). Another possible identification is with Mt. Amanus in the extreme north of Syria.",
+          "target": "). Une autre identification possible est le mont Amanus, tout au nord de la Syrie.",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
