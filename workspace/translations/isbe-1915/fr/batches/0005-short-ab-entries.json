@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ABI-ALBON",
+      "article_id": "isbe-af740cdee9dc024c5f45",
+      "source_article_sha256": "b1a761fd35ca70ec5b2ea761469abc3ae98f17a4a179bb0585ed13be6b9512d6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABI-ALBON",
+          "target": "ABI-ALBON",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab-i-al'-bon, abi-al'-bon ('abhi `alebhon, meaning not known. Gesenius infers from the Arabic a stem which would give the meaning \"father of strength,\" and this is at worst not quite so groundless as the conjectures which explain `alebhon as a textual misreading for 'el or ba`al): Abi-albon the Arbathite was one of David's listed heroes (",
+          "target": "ab-i-al'-bon, abi-al'-bon ('abhi `alebhon, de sens inconnu. Gesenius déduit de l'arabe une racine qui donnerait le sens de « père de la force » ; cette hypothèse est, à tout prendre, un peu moins dépourvue de fondement que celles qui font de `alebhon une mauvaise lecture du texte pour 'el ou ba`al) : Abi-Albon, l'Arbathite, était l'un des héros de David mentionnés dans les listes (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), called Abiel the Arbathite in ",
+          "target": "), appelé Abiel, l'Arbathite, en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". Presumably he was from Beth- arabah (",
+          "target": ". Il était probablement originaire de Beth-Araba (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABIASAPH",
+      "article_id": "isbe-c35ab051f07a7ebca7ab",
+      "source_article_sha256": "92a9198a90d50b83b116165f8d52367669c263647f17be88894a71aa64a89374",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIASAPH",
+          "target": "ABIASAPH",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bi'-a-saf, ab-i-a'-saf ('abhi-'acaph, \"my father has gathered\"): A descendant of Kohath the son of Levi (",
+          "target": "a-bi'-a-saf, ab-i-a'-saf ('abhi-'acaph, « mon père a rassemblé ») : Descendant de Kehath, fils de Lévi (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). In Chronicles the name is 'ebh-yacaph, which seems to be a mere variant spelling. The Samaritan version has the same form in Exodus. The list in Exodus terminates with Abiasaph, who is to be regarded as the contemporary of Phinehas, the grandson of Aaron. The two lists in ",
+          "target": "). Dans les Chroniques, son nom apparaît sous la forme 'ebh-yacaph, qui semble être une simple variante orthographique. La version samaritaine présente la même forme dans l'Exode. La généalogie de l'Exode se termine par Abiasaph, qui doit être considéré comme un contemporain de Phinées, petit-fils d'Aaron. Les deux listes de ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": " lead up to the prophet Samuel and the singing companies which David is said to have organized. The list in ",
+          "target": " remontent jusqu'au prophète Samuel et aux groupes de chantres que David aurait organisés. La liste de ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " leads up to the Korahite porters of the time of Nehemiah. Apparently all the lists intentionally omit names, just names enough being given in each to indicate the line. Willis J. Beecher",
+          "target": " remonte jusqu'aux portiers coréites de l'époque de Néhémie. Toutes ces généalogies semblent omettre volontairement certains noms : chacune ne donne que les noms nécessaires pour indiquer la lignée. Willis J. Beecher",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABIB",
+      "article_id": "isbe-7f366eb0da85658d248c",
+      "source_article_sha256": "3ce653cf7dab777e485c1b9a21d6dc6549de9e93ec3b08bc46c518de709ab57d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIB",
+          "target": "ABIB",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-bib ('abhibh, young ear of barley or other grain, ",
+          "target": "a'-bib ('abhibh, jeune épi d'orge ou d'une autre céréale, ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "): The first month of the Israelite year, called Nisan in ",
+          "target": ") : Le premier mois de l'année israélite, appelé Nisan en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", is Abib in ",
+          "target": ", porte le nom d'Abib en ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ". Abib is not properly a name of a month, but part of a descriptive phrase, \"the month of young ears of grain.\" This may indicate the Israelite way of determining the new year (",
+          "target": ". À proprement parler, Abib n'est pas un nom de mois, mais un élément de l'expression descriptive « mois des jeunes épis ». Cela peut indiquer comment les Israélites déterminaient le début de l'année (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "), the year beginning with the new moon nearest or next preceding this stage of the growth of the barley. The year thus indicated was practically the same with the old Babylonian year, and presumably came in with Abraham. The Pentateuchal laws do not introduce it, though they define it, perhaps to distinguish it from the Egyptian wandering year.",
+          "target": ") : l'année commençait à la nouvelle lune la plus proche de ce stade de croissance de l'orge, ou à celle qui le précédait immédiatement. L'année ainsi définie coïncidait pratiquement avec l'ancienne année babylonienne et avait vraisemblablement été introduite avec Abraham. Les lois du Pentateuque ne l'instaurent pas, bien qu'elles la définissent, peut-être pour la distinguer de l'année égyptienne mobile.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "CALENDAR",
+          "target": "CALENDRIER",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "Willis J. Beecher",
+          "target": "Willis J. Beecher",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ABIDA",
+      "article_id": "isbe-4d4968d33185d8dd1aba",
+      "source_article_sha256": "5d934f80165774e3856eae691db0255431a8145b388f8ce3b28eb5e44a90175a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIDA",
+          "target": "ABIDA",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bi'-da ('abhidha`, \"father of knowledge,\" or \"my father knows\"): A son of Midian and grandson of Abraham and Keturah (",
+          "target": "a-bi'-da ('abhidha`, « père de la connaissance » ou « mon père sait ») : Fils de Madian, petit-fils d'Abraham et de Ketura (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). Abidah in the King James Version in Gen.",
+          "target": "). La King James Version emploie la forme Abidah dans la Genèse.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABIDAH",
+      "article_id": "isbe-9fb737237239dea9ca13",
+      "source_article_sha256": "ae4fa098451da12fa2353c6aede29a7038d8918db76c1b94de36ae37860ee857",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIDAH",
+          "target": "ABIDAH",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bi'-dah: Used in the King James Version in ",
+          "target": "a-bi'-dah : Forme employée par la King James Version en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " for ",
+          "target": " pour ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ABIDA",
+          "target": "ABIDA",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", which see.",
+          "target": " ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABIDAN",
+      "article_id": "isbe-5c7834aa6609650abd8e",
+      "source_article_sha256": "f321488eb9aa8a9adb8e3c4a06534c069ae4f7f47db47ec58292a263fcc1e233",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIDAN",
+          "target": "ABIDAN",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bi'-dan ('abhidhan, \"father is judge\"): Abidan, son of Gideoni, was a \"prince\" of the children of Benjamin (",
+          "target": "a-bi'-dan ('abhidhan, « le père est juge ») : Abidan, fils de Guidéoni, était un « prince » parmi les fils de Benjamin (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). He was chosen to represent his tribe at the census in the wilderness of Sinai (",
+          "target": "). Il fut choisi pour représenter sa tribu lors du recensement dans le désert du Sinaï (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). When, on the erection, anointing and sanctification of the Tabernacle, the heads of Israel offered, Abidan offered on the ninth day (",
+          "target": "). Lorsque les chefs d'Israël présentèrent leurs offrandes après l'érection, l'onction et la consécration du tabernacle, Abidan fit son offrande le neuvième jour (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABIEL",
+      "article_id": "isbe-2eeb30876c688a9fb16d",
+      "source_article_sha256": "6a195ac097b7464ef8f749a5c5ec1f992ae4e014fed8dd3cf5d2868bfd06ca50",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIEL",
+          "target": "ABIEL",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-bi-el, ab'-yel, a-bi'-el ('abhi'el, \"my father is God,\" or \"God is father\"):",
+          "target": "a'-bi-el, ab'-yel, a-bi'-el ('abhi'el, « mon père est Dieu » ou « Dieu est père ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A descendant of Benjamin the son of Jacob. Father of Kish the father of King Saul, and also, apparently, the father of Ner the father of Saul's general, Abner (",
+          "target": "(1) Descendant de Benjamin, fils de Jacob. Père de Kis, lui-même père du roi Saül, et aussi, semble-t-il, père de Ner, dont le fils Abner commandait l'armée de Saül (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) One of David's mighty men (",
+          "target": "(2) L'un des vaillants hommes de David (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "), called ",
+          "target": "), appelé ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "ABI-ALBON",
+          "target": "ABI-ALBON",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ", which see, in ",
+          "target": " (voir cet article) en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABIEZRITE",
+      "article_id": "isbe-cb2078ac98af04248057",
+      "source_article_sha256": "a3599d71e01800cc0e308eb032e77d6a4ffab4f3d2231ef00f368cde124d3dee",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIEZRITE",
+          "target": "ABIEZRITE",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab-i-ez'-rit, a-bi-ez'-rit: The Gentile adjective of ",
+          "target": "ab-i-ez'-rit, a-bi-ez'-rit : Adjectif de gentilé dérivé du nom ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABIEZER",
+          "target": "ABIEZER",
+          "action": "preserve",
+          "reason": "Historical proper name, author attribution or canonical cross-reference label retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", which see.",
+          "target": " ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
