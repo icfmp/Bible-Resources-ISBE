@@ -109,7 +109,12 @@ def analyse(source,adapted,output,limit=25):
             choices.append(first_for_article)
     # Prefer first true hyperlink near the start, not a hidden/screen-deep
     # source location. Only actual GUI screenshots determine click geometry.
-    choices.sort(key=lambda x:(not x["is_first_clickable_reference"],
+    # A one-letter source key can leave Xiphos on an autocomplete match
+    # (observed: searching for "A" showed AARON despite the input field "A").
+    # Prefer unambiguous 3+ character headwords for *both* real GUI readers,
+    # while retaining all cross-article candidates for provenance.
+    choices.sort(key=lambda x:(len(x["source_article"])<3,
+                               not x["is_first_clickable_reference"],
                                x["first_cross_article_link_text_offset"],
                                -min(x["article_text_length"],300),x["source_article"]))
     report={
