@@ -185,7 +185,7 @@ def attempt_scripture_link(reader_name, outdir, result):
     result["scripture_link_click_probe"] = probe
     return probe
 
-def test_reader(reader,outdir,lookup_key):
+def test_reader(reader,outdir,lookup_key,internal_link_key=None,click_fixture=None):
     name=reader["name"]
     log=outdir/(name+".log")
     env=os.environ.copy()
@@ -312,6 +312,70 @@ def test_reader(reader,outdir,lookup_key):
                 if pic.returncode==0 and lookupshot.stat().st_size>1000:
                     result["screenshots"].append(lookupshot.name)
                 result["headword_lookup_attempted_not_certified"]=True
+            if internal_link_key:
+                # Take a separate actual on-screen lookup of a dictionary
+                # article with an original source-attested early internal link.
+                # It remains a diagnostic, NOT a certified clickable link.
+                if name=="xiphos":
+                    click_at(window,820,420)
+                else:
+                    click_at_origin(result["window_client_origin"],405,80)
+                command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
+                command(["xdotool","type","--clearmodifiers","--delay","65",internal_link_key],timeout=10)
+                command(["xdotool","key","Return"],timeout=10)
+                time.sleep(3)
+                candidate_image=outdir/(name+"-internal-link-source.png")
+                image=command(["scrot",str(candidate_image)],timeout=15)
+                if image.returncode==0 and candidate_image.is_file() and candidate_image.stat().st_size>1000:
+                    result["screenshots"].append(candidate_image.name)
+                result["internal_link_source_lookup"]={
+                    "source_article":internal_link_key,
+                    "screenshot":candidate_image.name if candidate_image.is_file() else None,
+                    "article_to_article_click_verified":False,
+                    "requires_source_link_coordinate_review":True
+                }
+                if click_fixture is not None:
+                    # These coordinates were reviewed in actual screenshots
+                    # from this exact Xvfb fixture, NOT inferred from TEI.
+                    spot=click_fixture["coordinates"][name]
+                    x,y=spot["x"],spot["y"]
+                    previous=command(["xdotool","getactivewindow","getwindowname"],timeout=10)
+                    moved=command(["xdotool","mousemove",str(x),str(y)],timeout=10)
+                    clicked=command(["xdotool","click","1"],timeout=10) if moved.returncode==0 else moved
+                    time.sleep(4)
+                    clickshot=outdir/(name+"-internal-link-click-attempt.png")
+                    grabbed=command(["scrot",str(clickshot)],timeout=15)
+                    if grabbed.returncode==0 and clickshot.is_file() and clickshot.stat().st_size>1000:
+                        result["screenshots"].append(clickshot.name)
+                    after=command(["xdotool","getactivewindow","getwindowname"],timeout=10)
+                    result["internal_article_link_click_probe"]={
+                        "source_article":internal_link_key,
+                        "expected_destination":click_fixture["destination_article"],
+                        "link_text":click_fixture["original_link_text"],
+                        "observed_screen_click_point":[x,y],
+                        "screen_geometry":"1440x900 Xvfb fixture only",
+                        "click_command_succeeded":moved.returncode==0 and clicked.returncode==0,
+                        "before_window_title":previous.stdout.strip(),
+                        "after_window_title":after.stdout.strip(),
+                        "post_click_screenshot":clickshot.name if clickshot.is_file() else None,
+                        "destination_article_body_verified":False,
+                        "requires_independent_visual_review":True
+                    }
+                # Restore AARON so existing observed Scripture reference
+                # coordinates are still valid. Do NOT assume that navigating
+                # to the candidate changed/retained the same screen layout.
+                if name=="xiphos":
+                    click_at(window,820,420)
+                else:
+                    click_at_origin(result["window_client_origin"],405,80)
+                command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
+                command(["xdotool","type","--clearmodifiers","--delay","65",lookup_key],timeout=10)
+                command(["xdotool","key","Return"],timeout=10)
+                time.sleep(3)
+                restored=outdir/(name+"-restored-before-scripture.png")
+                image=command(["scrot",str(restored)],timeout=15)
+                if image.returncode==0 and restored.is_file() and restored.stat().st_size>1000:
+                    result["screenshots"].append(restored.name)
             # Diagnostic only: actual pointer event and post-click screenshot.
             # Never infer navigation correctness from process exit or PNG size.
             attempt_scripture_link(name,outdir,result)
@@ -341,6 +405,10 @@ def main():
     parser.add_argument("--output-dir",required=True)
     parser.add_argument("--module-id",required=True)
     parser.add_argument("--lookup-key",required=True)
+    parser.add_argument("--internal-link-key",default=None,
+                        help="Source article containing an early internal link")
+    parser.add_argument("--internal-link-click-fixture",default=None,
+                        help="Pinned actual screen coordinates grounded in GUI screenshots")
     args=parser.parse_args()
     if not os.getenv("DISPLAY") or not os.getenv("SWORD_PATH"):
         raise SystemExit("Require active X display and isolated SWORD_PATH")
@@ -360,9 +428,25 @@ def main():
     lookup=command(["diatheke","-b","system","-k","modulelist"])
     if lookup.returncode or args.module_id not in lookup.stdout:
         raise SystemExit("Native corrected SWORD module not discoverable")
-    readers=[test_reader(r,out,args.lookup_key) for r in READERS]
+    click_fixture=None
+    if args.internal_link_click_fixture:
+        if not args.internal_link_key:
+            raise SystemExit("Internal click fixture requires --internal-link-key")
+        click_fixture=json.loads(Path(args.internal_link_click_fixture).read_text(encoding="utf-8"))
+        if (click_fixture.get("schema_version")!=1 or
+            click_fixture.get("source_article")!=args.internal_link_key or
+            set(click_fixture.get("coordinates",{}))!={r["name"] for r in READERS}):
+            raise SystemExit("Internal link click fixture does not match active source/reader inventory")
+        for reader in READERS:
+            point=click_fixture["coordinates"][reader["name"]]
+            if not (0<=point["x"]<1440 and 0<=point["y"]<900):
+                raise SystemExit("Invalid pinned Xvfb point for "+reader["name"])
+    readers=[test_reader(r,out,args.lookup_key,args.internal_link_key,click_fixture) for r in READERS]
     report={
        "schema_version":1,"module":args.module_id,"lookup_key":args.lookup_key,
+       "internal_link_candidate_lookup_key":args.internal_link_key,
+       "interactive_dictionary_to_dictionary_link_verified":False,
+       "internal_encyclopedia_link_click_attempted_in_both_readers":bool(click_fixture),
        "scope":"visible_GUI_launch_headword_lookup_and_scripture_pointer_probe",
        "independent_gui_readers":readers,
        "visible_reader_window_count":sum(bool(r["window_found"]) for r in readers),
@@ -392,6 +476,17 @@ def main():
         # NOT that an unknown destination navigation magically passed.
         if not probe.get("click_command_succeeded") or not probe.get("screenshot"):
             raise SystemExit("Missing attempted GUI reference click evidence for "+reader["name"])
+    if args.internal_link_key:
+        for reader in readers:
+            source_probe=reader.get("internal_link_source_lookup",{})
+            if source_probe.get("source_article")!=args.internal_link_key or not source_probe.get("screenshot"):
+                raise SystemExit("Missing internal article-link source screenshot for "+reader["name"])
+            if reader["name"]+"-restored-before-scripture.png" not in reader["screenshots"]:
+                raise SystemExit("Missing restored original source lookup for "+reader["name"])
+            if click_fixture is not None:
+                probe=reader.get("internal_article_link_click_probe",{})
+                if not probe.get("click_command_succeeded") or not probe.get("post_click_screenshot"):
+                    raise SystemExit("Missing real encyclopedia-reference click evidence for "+reader["name"])
     for reader in readers:
         if reader["name"] == "bibletime":
             probe = reader.get("scripture_link_click_probe", {})
