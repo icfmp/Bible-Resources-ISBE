@@ -42,6 +42,20 @@ sections IV–VII before full-article editorial review.
 Source SHA-256 (immutable):
 `5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c`.
 
+## Human-readable working articles
+
+`reviews/ABRAHAM.md` is the **full generated French reading proof** of
+the source-attested ABRAHAM translation. It displays every original section and
+subsection as readable headings; its source-owned verse-reference labels remain
+unchanged. This Markdown is a **derived editorial view**, not an independent
+translation source and not the published edition. It is committed only so
+reviewers can read the whole article without inspecting JSON/XML.
+
+The new CI workflow regenerates the Markdown from the canonical English TEI
+plus source-locked French patches and **fails** if the committed view differs
+by even one byte. Editorial changes therefore go into the source-locked patch,
+not directly into the rendered view.
+
 ## Reproducible extraction, validation and reading proof
 
 All commands run from the repository root.
