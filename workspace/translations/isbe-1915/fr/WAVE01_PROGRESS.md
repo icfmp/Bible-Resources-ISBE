@@ -608,3 +608,15 @@ canonical TEI tests, and pass pinned official TEI RELAX NG and
 Schematron validators. These automated tests do not establish
 independent human editorial approval. The historical 1915 English
 master and no part of the application are to be modified in this PR.
+
+## Ninth substantive cohort — first five complete French first drafts (24 November 2026)
+
+A bounded, source-locked first set of **five** previously undrafted complete historical articles has been drafted from the corrected English TEI: original canonical positions #0594 `APHEK`, #0638 `APPII FORUM`, #0639 `APPLE, OF THE EYE`, #0892 `ASSURANCE`, and #0907 `ASTYAGES`.
+
+- First-draft patch: `batches/0044-cohort-009-substantive-articles-01.json`; frozen exact original IDs, keys, positions and article SHA-256 values: `cohorts/COHORT_009_5_SUBSTANTIVE_ARTICLES.json`.
+- All **43 original eligible text/tail units** are represented: **8,148** original English source characters. Scripture `ref` text and targets are source-owned, untouched. Each historical-author byline is retained with an explicit preserve reason; original-source fingerprinting was cross-checked against an already accepted cohort fingerprint algorithm.
+- Draft status only: **866/1,000** complete, source-locked first drafts in wave 01 (86.6% by original article count); **134** wave-01 originals still without complete French drafts; **911/9,380** first drafts in the full corpus.
+- **0 independent bilingual editorial approvals; 0 checkboxes in #109; no French SWORD publication.** The counts are not English prose-volume coverage.
+- Witness/editorial flags: `ASTYAGES` has an orphaned source `I, king` that remains visibly signaled in French as `« I », roi` pending print collation; `APPII FORUM` shows `Revised Verson` and an unmatched Scripture-reference closing parenthesis in the historical English. Translation fixes none of the English master, original SWORD keys or biblical link targets. Any later English source repair belongs in a separate reversible witness PR.
+
+Technical and editorial gates: the full draft reconstruction and reference/ID parity CI, all TEI checks and independent per-article bilingual acceptance are required before editorial checkboxes or release. The patch deliberately changes no historical English master, original article identity, canonical index or app code.
