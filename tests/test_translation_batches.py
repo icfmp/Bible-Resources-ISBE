@@ -9,6 +9,7 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 from scripts.apply_translation_batches import apply, load_patches
+from scripts.render_translation_reading_copy import render_article
 from scripts.export_translation_source import extract
 from scripts.select_translation_pilot import SOURCE_COUNT, SOURCE_SHA256
 from scripts.validate_translation_identity import (
@@ -58,22 +59,28 @@ class TranslationBatchTests(unittest.TestCase):
         self.assertEqual(second["start"], 50)
         self.assertNotEqual(first["units"][0], second["units"][0])
 
-    def test_abraham_is_partial_and_never_presented_as_a_full_french_article(self):
+    def test_abraham_full_draft_preserves_every_canonical_source_fragment(self):
         proof, index, body = self._apply([ABRAHAM])
         self.assertEqual(proof["master_entry_count"], SOURCE_COUNT)
         self.assertEqual(proof["excerpt_entries"], 1)
-        self.assertEqual(proof["complete_unreviewed_drafts"], 0)
-        self.assertEqual(proof["partial_unreviewed_drafts"], 1)
+        self.assertEqual(proof["complete_unreviewed_drafts"], 1)
+        self.assertEqual(proof["partial_unreviewed_drafts"], 0)
         self.assertFalse(proof["publication_permitted"])
         self.assertEqual(index, [("isbe-34a2976d25bc7d0f3d37", "ABRAHAM")])
         self.assertIn("La période de résidence", "".join(body[0].itertext()))
+        readable = render_article(body[0], draft_status="complete_unreviewed_draft")
+        self.assertIn("## I. Le nom.", readable)
+        self.assertIn("## VII. Interprétations", readable)
+        self.assertIn("J. Oscar Boyd", readable)
+        self.assertNotIn("partial_unreviewed", readable)
+        self.assertGreater(len(readable), 25000)
         self.assertEqual(self.source_hash, sha256(SOURCE))
 
     def test_pilot_and_new_batch_reuse_one_canonical_index(self):
         proof, index, _ = self._apply([PILOT, ABRAHAM])
         self.assertEqual(proof["excerpt_entries"], 51)
-        self.assertEqual(proof["complete_unreviewed_drafts"], 50)
-        self.assertEqual(proof["partial_unreviewed_drafts"], 1)
+        self.assertEqual(proof["complete_unreviewed_drafts"], 51)
+        self.assertEqual(proof["partial_unreviewed_drafts"], 0)
         self.assertEqual(len({ident for ident, _ in index}), 51)
         self.assertEqual(len({key for _, key in index}), 51)
         self.assertEqual([key for _, key in index],
