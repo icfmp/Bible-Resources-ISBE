@@ -1,0 +1,687 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ANETHOTHITE",
+      "article_id": "isbe-1f5aa4de0ac2375cefbc",
+      "source_article_sha256": "c73435cd00261816637dc9a857da4d6e884a424b3614155076aac5f4ce23dbb5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANETHOTHITE",
+          "target": "ANÉTHOTHITE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-e-thoth-it: the King James Version form of Anathothite (thus the Revised Version (British and American) ",
+          "target": "an'-e-thoth-it : Forme d'Anathothite dans la King James Version (ainsi dans la Revised Version britannique et américaine : ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANETOTHITE",
+      "article_id": "isbe-2abbdb15b624ca2dc45c",
+      "source_article_sha256": "65c54ef7dd669bda43687bc0ea46aeecc5b706be83b862669c792d8d6be8fe16",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANETOTHITE",
+          "target": "ANÉTOTHITE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-e-toth-it: the King James Version form of Anathothite (thus the Revised Version (British and American) ",
+          "target": "an'-e-toth-it : Forme d'Anathothite dans la King James Version (ainsi dans la Revised Version britannique et américaine : ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANNUS",
+      "article_id": "isbe-c81192f4b0f7e4358c1d",
+      "source_article_sha256": "e171fa9db32397d7e6f073fa718149cd9a0a89e1d11ae34bb53b2f6a676fed4a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANNUS",
+          "target": "ANNUS",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-us (A, Annous, B, Anniouth; the King James Version Anus = Bani, ",
+          "target": "an'-us (A : Annous ; B : Anniouth ; Anus dans la King James Version = Bani, ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): One of the Levites who interpreted the law to the people (1 Esdras 9:48).",
+          "target": ") : L'un des Lévites qui expliquèrent la Loi au peuple (1 Esdras 9:48).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANNUUS",
+      "article_id": "isbe-73d5436979899e9763c7",
+      "source_article_sha256": "bab675e4e8da3dea6e26c03936e74da960721deddebbfe548b94cc1712899dbb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANNUUS",
+          "target": "ANNUUS",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-u-us (Announos): Returned with Ezra from Babylon to perform the functions of a priest in Jerusalem (1 Esdras 8:48). Omitted in ",
+          "target": "an'-u-us (Announos) : Revint de Babylone avec Esdras pour remplir des fonctions sacerdotales à Jérusalem (1 Esdras 8:48). Omis en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANON",
+      "article_id": "isbe-6e0db23e574a1ab87310",
+      "source_article_sha256": "fefd65683295ac35dadc2c893b19b2b97147630a0e5ee6757c52ef57aa7a4ea5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANON",
+          "target": "AUSSITÔT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-non' (eutheos, euthus): In the King James Version of ",
+          "target": "a-non' (eutheos, euthus) : Dans la King James Version de ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", for \"straightway\" of the Revised Version (British and American), i.e. \"without delay,\" \"immediately.\"",
+          "target": ", là où la Revised Version (britannique et américaine) emploie « straightway », c'est-à-dire « sans tarder », « immédiatement ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTHEDON",
+      "article_id": "isbe-64f7a542803c87a96187",
+      "source_article_sha256": "20fd4cb639f399cf60d91aa1534f327f52906be5a041b4d7bd21ee0bb80d868f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTHEDON",
+          "target": "ANTHEDON",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an-the'-don: A city of Palestine, rebuilt along with Samaria, Ashdod, Gaza, and other cities, at Gabinius' command (Josephus, Ant, XIV, v, 3).",
+          "target": "an-the'-don : Ville de Palestine rebâtie, avec Samarie, Ashdod, Gaza et d'autres cités, sur l'ordre de Gabinius (Josèphe, Antiquités judaïques, XIV, v, 3).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTHOTHIJAH",
+      "article_id": "isbe-d43fc468c51489f68dd3",
+      "source_article_sha256": "7a85c5945d490392ce583a0a70767569360252724b71150ad6977e6c70ceb3ce",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTHOTHIJAH",
+          "target": "ANTHOTHIJAH",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an-tho-thi'-ja (`anthothiyah, \"belonging to Anathoth\"(?)): A son of Shasak of Benjamin (",
+          "target": "an-tho-thi'-ja (`anthothiyah, « appartenant à Anathoth » (?)) : Fils de Shashak, de Benjamin (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), written in the King James Version Antothijah.",
+          "target": ") ; orthographié Antothijah dans la King James Version.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTIPATER",
+      "article_id": "isbe-87dab6d7d6fea16168b5",
+      "source_article_sha256": "74c2bd987cc143c7fc6d81b6d2cf702901bbcf513ba1e3438ad67b286450b4b5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTIPATER",
+          "target": "ANTIPATER",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an-tip'-a-ter (Antipatros): One of two envoys sent by the senate of the Jews to the Romans and Spartans (1 Macc 12:16; 14:22).",
+          "target": "an-tip'-a-ter (Antipatros) : L'un des deux envoyés du sénat des Juifs auprès des Romains et des Spartiates (1 Macc 12:16 ; 14:22).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTOTHITE",
+      "article_id": "isbe-35d514460a9fcf3bd65d",
+      "source_article_sha256": "2249b6cd3ef408c7447770980abdfaddc69bdc084dfccb5aeee7f3958f9878bc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTOTHITE",
+          "target": "ANTOTHITE",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-toth-it: the King James Version form of ",
+          "target": "an'-toth-it : Forme employée dans la King James Version pour ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ANATHOTHITE",
+          "target": "ANATHOTHITE",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see) (thus the Revised Version (British and American)) (",
+          "target": " (voir cet article), comme dans la Revised Version (britannique et américaine) (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "APHERRA",
+      "article_id": "isbe-33f806de70e5e600ae87",
+      "source_article_sha256": "dc445b74add7911b7de465ee95b9226e9ec2f909d7f6ad13abaf3c68555a44dd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APHERRA",
+          "target": "APHERRA",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-fer'-a (Apherra): Head of a family of children of Solomon's servants in the post-exilic list, one of eight listed in 1 Esdras 5:34 after Pochereth-hazzebaim of ",
+          "target": "a-fer'-a (Apherra) : Chef d'une famille de descendants des serviteurs de Salomon dans la liste postexilique, l'une des huit familles énumérées en 1 Esdras 5:34 après Pochereth-Hatsebajim de ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "APOSTOLIC FATHERS",
+      "article_id": "isbe-122168be58dce2998356",
+      "source_article_sha256": "29175b1379c45d9a9c4ccb675c5f20af33e0a2669293e605225fc56a6d59f534",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APOSTOLIC FATHERS",
+          "target": "PÈRES APOSTOLIQUES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "An appellation usually given to the writers of the 1st century who employed their pens in the cause of Christianity. See ",
+          "target": "Dénomination habituellement donnée aux auteurs du Ier siècle qui mirent leur plume au service du christianisme. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SUB-APOSTOLIC LITERATURE",
+          "target": "LITTÉRATURE SUBAPOSTOLIQUE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "APOSTOLICAL COUNCIL",
+      "article_id": "isbe-0b1240cc46b30ce62699",
+      "source_article_sha256": "03617d1e3b3d0928dc60bbc2884aec04bbe259eb4dc1a4a5d83cf003087fd01c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APOSTOLICAL COUNCIL",
+          "target": "CONCILE APOSTOLIQUE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ap-os-tol'-i-kal koun'-sil: The assembly of the apostles and elders held in Jerusalem (49 AD), an account of which is given in ",
+          "target": "ap-os-tol'-i-kal koun'-sil : Assemblée des apôtres et des anciens tenue à Jérusalem (49 apr. J.-C.), dont le récit se trouve en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAB",
+      "article_id": "isbe-d40e683c12dd59b04630",
+      "source_article_sha256": "d59334fe636a318ebda5bb119a4b240c8e7119bffd182cd926f623151a8154ea",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAB",
+          "target": "ARAB",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-rab ('arabh, \"ambush\"): A city in the hill country of Judah, probably the site of the ruins Er-Rabiyeh South of Hebron (",
+          "target": "a'-rab ('arabh, « embuscade ») : Ville de la région montagneuse de Juda, correspondant probablement aux ruines d'Er-Rabiyeh, au sud d'Hébron (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARADUS",
+      "article_id": "isbe-f58690660f4a92bc95e7",
+      "source_article_sha256": "73725e0bb22f836af7b9acaa99d9b575000e211d90cc66bc1bc0c127722cfe0d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARADUS",
+          "target": "ARADUS",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-a-dus (Arados, 1 Macc 15:23): Greek name of the Old Testament ",
+          "target": "ar'-a-dus (Arados, 1 Macc 15:23) : Nom grec de la ville appelée dans l'Ancien Testament ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARVAD",
+          "target": "ARVAD",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see), a city on the coast of Phoenicia.",
+          "target": " (voir cet article), sur la côte de Phénicie.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAMAEANS; ARAMEANS",
+      "article_id": "isbe-5bc9c07d30a0da961abc",
+      "source_article_sha256": "35914389a288b9cdf537862f13c8bc625c7e50b97111a533411f38b08d837d40",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAMAEANS; ARAMEANS",
+          "target": "ARAMÉENS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-a-me'-ans: Often in the King James Version and the Revised Version (British and American) Syrians. See ",
+          "target": "ar-a-me'-ans : Souvent appelés « Syriens » dans la King James Version et la Revised Version (britannique et américaine). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SYRIA",
+          "target": "SYRIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARDAT",
+      "article_id": "isbe-47128f3f4bfaef102ebc",
+      "source_article_sha256": "45eedd07fbe381895ccf63c36385384113f30511b12a698aed5cea8303a32020",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARDAT",
+          "target": "ARDAT",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ard'-at (the King James Version Ardath; Syriac and Ethiopic have Arphad): A certain field where Ezr communed with God (2 Esdras 9:26).",
+          "target": "ard'-at (Ardath dans la King James Version ; Arphad dans les versions syriaque et éthiopienne) : Champ où Esdras s'entretint avec Dieu (2 Esdras 9:26).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARES",
+      "article_id": "isbe-d7e5daa1ba4f9deed9c0",
+      "source_article_sha256": "6646a7061c8f3c82e3b027f10fe2ab0719a6f97d66dfcb025df503d37f5809b2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARES",
+          "target": "ARES",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-res, ar'-es (Ares = Arah (",
+          "target": "a'-res, ar'-es (Ares = Arah (",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ")): 756 of the sons of Ares returned to Jerusalem with Zerubbabel (1 Esdras 5:10).",
+          "target": ")) : 756 fils d'Ares revinrent à Jérusalem avec Zorobabel (1 Esdras 5:10).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARIDAI",
+      "article_id": "isbe-4bb7a4fe9b7a584e3746",
+      "source_article_sha256": "cd62567545e5e2aad936b8c4a06528eff4bb1430f96df367c1a152603f19a8cf",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARIDAI",
+          "target": "ARIDAI",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-i-di, a-rid'-a-i ('aridhay: a son of Haman (",
+          "target": "ar'-i-di, a-rid'-a-i ('aridhay) : Fils d'Haman (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ")): The name may be related to the Persian Hari-dayas, \"delight of Hari\"; the text is very uncertain.",
+          "target": ")) : Le nom pourrait être apparenté au perse Hari-dayas, « joie de Hari » ; le texte est très incertain.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARIDATHA",
+      "article_id": "isbe-0a27280f7f0923975e25",
+      "source_article_sha256": "91479e57f757a6b8eceb1c9cd1207f4732e2b2ec8b25211fb05f2b1a1932aa34",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARIDATHA",
+          "target": "ARIDATHA",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-i-da'-tha, a-rid'-a-tha ('aridhatha'): A son of Haman (",
+          "target": "ar-i-da'-tha, a-rid'-a-tha ('aridhatha) : Fils d'Haman (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). It may be related to the Persian Hari-data, \"given by Hari.\" The Septuagint reads Pharadatha.",
+          "target": "). Il pourrait être apparenté au perse Hari-data, « donné par Hari ». La Septante donne Pharadatha.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARISAI",
+      "article_id": "isbe-5585134c13d99b3aaede",
+      "source_article_sha256": "c67b612c276c03504305eaa1f4ed8a9810bb46c05173d228aa11e72d9926984f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARISAI",
+          "target": "ARISAI",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-i-sai, a-ris'-a-i ('aricai): Probably a Persian word of unknown meaning. One of Haman's sons, slain by the Jews (",
+          "target": "ar'-i-sai, a-ris'-a-i ('aricai) : Probablement un mot perse de sens inconnu. L'un des fils d'Haman mis à mort par les Juifs (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARMONI",
+      "article_id": "isbe-10169ce5501451643c91",
+      "source_article_sha256": "b9a17bda76bc6f4df4eb71ebbbfc9245cd0e178d178f5627c844f3da576cca3b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARMONI",
+          "target": "ARMONI",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-mo'-ni ('armoni, \"belonging to the palace\"): One of the two sons of Saul by Rizpah, the daughter of Aiah (",
+          "target": "ar-mo'-ni ('armoni, « appartenant au palais ») : L'un des deux fils de Saül et de Ritspa, fille d'Ajja (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). David delivered them over to the blood vengeance of the Gibeonites.",
+          "target": "). David les livra à la vengeance de sang des Gabaonites.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARNA",
+      "article_id": "isbe-2c57b4d9f3f3bc531b2d",
+      "source_article_sha256": "1a609a7ad1a365e629320579be63150b9cda70bab69744fd5917709af0c884ae",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARNA",
+          "target": "ARNA",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-na (Latin Arna): One of the ancestors of Ezra given in 2 Esdras 1:2, evidently identical with Zerahiah of ",
+          "target": "ar'-na (latin Arna) : L'un des ancêtres d'Esdras mentionnés en 2 Esdras 1:2, manifestement identique à Zerahia de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " and Zaraias of 1 Esdras 8:2.",
+          "target": " et à Zaraias de 1 Esdras 8:2.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AROM",
+      "article_id": "isbe-1c90e4594d434893244b",
+      "source_article_sha256": "ca3ac0e61605651e15af4226cc54d98072b45a8737c54824e22c4eb169066d47",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AROM",
+          "target": "AROM",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-rom (Arom): The sons of Arom returned to Jerusalem with Zerubbabel (1 Esdras 5:16). Omitted in Ezra and Nehemiah. Hashum is found in place of Arom in ",
+          "target": "a'-rom (Arom) : Les fils d'Arom revinrent à Jérusalem avec Zorobabel (1 Esdras 5:16). Ils sont omis dans Esdras et Néhémie. Hashum remplace Arom en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASANA",
+      "article_id": "isbe-3fcc0f3e874e4f9b10c2",
+      "source_article_sha256": "314fa57b42c7c189cea3de212e210b106d78e07522bcac841b1ae94d4c5029cc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASANA",
+          "target": "ASANA",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-a-na (Asana, Assana) = Asnah (",
+          "target": "as'-a-na (Asana, Assana) = Asna (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); omitted in Nehemiah. The sons of Asana (temple-servants) returned with Zerubbabel to Jerusalem (1 Esdras 5:31).",
+          "target": ") ; omis dans Néhémie. Les fils d'Asana, serviteurs du Temple, revinrent à Jérusalem avec Zorobabel (1 Esdras 5:31).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASARA",
+      "article_id": "isbe-64f83ccda9903b888a33",
+      "source_article_sha256": "d8fe7c443f8ecf07d4a5a5280e04383350ac640ad313e4ed32f83c51400db50b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASARA",
+          "target": "ASARA",
+          "action": "preserve",
+          "reason": "Original canonical proper name, source-linked cross-reference or source pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-a-ra (Asara; the King James Version Azara): The sons of Asara (temple-servants) returned to Jerusalem with Zerubbabel (1 Esdras 5:31). Omitted in Ezra and Nehemiah.",
+          "target": "as'-a-ra (Asara ; Azara dans la King James Version) : Les fils d'Asara, serviteurs du Temple, revinrent à Jérusalem avec Zorobabel (1 Esdras 5:31). Ils sont omis dans Esdras et Néhémie.",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
