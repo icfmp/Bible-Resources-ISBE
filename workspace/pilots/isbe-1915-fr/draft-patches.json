@@ -5,6 +5,129 @@
   "status": "unreviewed_drafts",
   "articles": [
     {
+      "article_id": "isbe-a0d0790fca21ada422f4",
+      "source_key": "ABIDE",
+      "source_article_sha256": "146631b518623cacd799c02659d4aff971c01ae2d54b2098540f800a53a7bd90",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIDE",
+          "target": "DEMEURER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bid': Old English word signifying progressively to \"await,\" \"remain,\" \"lodge,\" \"sojourn,\" \"dwell,\" \"continue,\" \"endure\"; represented richly in Old Testament (King James Version) by 12 Hebrew and in New Testament by as many Greek words. In the Revised Version (British and American) displaced often by words meaning \"to sojourn,\" \"dwell,\" \"encamp.\" The Hebrew and Greek originals in most frequent use are yashabh, \"to dwell\"; meno, \"to remain.\" \"A. [sit or tarry] ye here\" (",
+          "target": "a-bid' : ancien terme anglais dont les sens ont progressivement été « attendre », « rester », « loger », « séjourner », « habiter », « continuer » et « supporter ». Dans l'Ancien Testament de la King James Version, il traduit douze mots hébreux, et dans le Nouveau Testament autant de mots grecs. La Revised Version (britannique et américaine) le remplace souvent par des verbes signifiant « séjourner », « habiter » ou « camper ». Les termes originaux les plus fréquents sont l'hébreu yashabh, « habiter », et le grec meno, « demeurer ». « A. [restez ou attendez] ici » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); \"The earth a. [continueth] forever\" (",
+          "target": ") ; « La terre a. [subsiste] à toujours » (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); \"Who can a. [bear or endure] the day?\" (",
+          "target": ") ; « Qui pourra a. [supporter ou endurer] le jour ? » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); \"Afflictions a. [await] me\" (",
+          "target": ") ; « Des afflictions a. [m'attendent] » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). The past tense abode, in frequent use, has the same meaning. \"His bow a. [remained] in strength\" (",
+          "target": "). Le passé abode, fréquemment employé, possède les mêmes sens. « Son arc a. [demeura] ferme » (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "); \"There he a.\" (dwelt) (",
+          "target": ") ; « Il a. [habita] là » (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "Abode, as a noun (Gr μονή, monē) twice in New Testament: \"make our a. with him\" (",
+          "target": "Abode, comme nom (grec μονή, monē), apparaît deux fois dans le Nouveau Testament : « nous ferons notre a. auprès de lui » (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "); \"mansions,\" the Revised Version, margin \"abiding-places\" (",
+          "target": ") ; « demeures », avec « lieux de séjour » dans la marge de la Revised Version (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "). The soul of the true disciple and heaven are dwelling-places of the Father, Son and Holy Spirit.",
+          "target": "). L'âme du véritable disciple et le ciel sont des demeures du Père, du Fils et du Saint-Esprit.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "Dwight M. Pratt",
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "Historical term, proper name or author's byline retained"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-5e778465f86cbebb18c2",
+      "source_key": "AMNON",
+      "source_article_sha256": "dfe29faf7b13c6aa47056ac6f651a7b0be62a24dd5c91d7369a75c9f9c7f109e",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMNON",
+          "target": "AMNON",
+          "action": "preserve",
+          "reason": "Historical term, proper name or author's byline retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am'non (אַמְנוֹן, ʾamnōn, “faithful”; cf אַמִינוֹן, ʾāmīnōn, 2 S 13 20, which is probably a diminutive. Wellhausen [IJG, II, 24, n.2] resolves אַמִינוֹן into אֲמִי, ʾimmī, and נוּן, nūn, “my mother is the serpent”; cf NUN):",
+          "target": "am'non (אַמְנוֹן, ʾamnōn, « fidèle » ; cf. אַמִינוֹן, ʾāmīnōn, 2 S 13 20, qui est probablement un diminutif. Wellhausen [IJG, II, 24, n. 2] décompose אַמִינוֹן en אֲמִי, ʾimmī, et נוּן, nūn, « ma mère est le serpent » ; cf. NUN) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) The eldest son of David and Ahinoam, the Jezreelites (cf 2 S 3 2). As the crown prince and heir presumptive to the throne, he was intensely hated by Absalom, who was, therefore, doubly eager to revenge the outrage committed by Amnon upon his sister Tamar (2 S 3 2; 13 1 ff; 1 Ch 3 1).",
+          "target": "(1) Fils aîné de David et d'Ahinoam, la Jizreélite (cf. 2 S 3 2). Prince héritier, appelé à succéder au trône, il était profondément haï d'Absalom, qui désirait donc d'autant plus venger l'outrage commis par Amnon envers sa sœur Tamar (2 S 3 2 ; 13 1 et suiv. ; 1 Ch 3 1).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(2) A name in the genealogy of Judah (1 Ch 4 20).",
+          "target": "(2) Nom figurant dans la généalogie de Juda (1 Ch 4 20).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
       "article_id": "isbe-386e0601d9af04930c62",
       "source_key": "ARK",
       "source_article_sha256": "72fef12bd0f6470f880bba904edfe9f083adc8d7a4e7a8351ece8965fbc4c571",
@@ -206,6 +329,198 @@
           "part": "text",
           "source": "See ASTROLOGY, 10.",
           "target": "Voir ASTROLOGIE, 10.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-b892edd68cfa282dd67e",
+      "source_key": "GAINSAY",
+      "source_article_sha256": "45f0f86f0afeb6324e5b2e142da9f22145221f27976d35375c17447a5241b05f",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "GAINSAY",
+          "target": "CONTREDIRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "gan-sa, gan'-sa (anteipon, antilego, \"to say or speak against\"): Occurs as anteipon, \"not .... able to withstand or to gainsay\" (",
+          "target": "gan-sa, gan'-sa (anteipon, antilego, « parler contre », « contredire ») : le mot apparaît sous la forme anteipon, « incapables de résister ou de contredire » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); as antilego, \"a disobedient and gainsaying people\" (",
+          "target": ") ; sous la forme antilego, « un peuple désobéissant et contradicteur » (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); 2 Esd 5 29, contradicebant; Jth 8 28, anthistemi; 12 14, antero; Ad ",
+          "target": ") ; 2 Esd 5 29, contradicebant ; Jdt 8 28, anthistemi ; 12 14, antero ; Add Est ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", antitasso; 1 Macc 14 44, anteipon.",
+          "target": ", antitasso ; 1 Macc 14 44, anteipon.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "Gainsayer, antilego (",
+          "target": "Gainsayer, « contradicteur », antilego (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ", \"exhort and convince (the Revised Version (British and American) \"convict\") the gainsayers\").",
+          "target": ", « exhorter et convaincre les contradicteurs » [la Revised Version (britannique et américaine) : « convaincre de leur erreur »]).",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "Gainsaying, antilogia (",
+          "target": "Gainsaying, « contradiction », antilogia (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", \"the gain-saying of Korah\"); antilogia is Septuagint for meribhah (",
+          "target": ", « la révolte de Coré ») ; antilogia est employé par la Septante pour meribhah (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "); anantirrhetos, \"without contradiction\" (",
+          "target": ") ; anantirrhetos, « sans contradiction » (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": ", \"without gainsaying\").",
+          "target": ", « sans faire d'objection »).",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "The Revised Version (British and American) has \"gainsaid\" for \"spoken against\" (",
+          "target": "La Revised Version (britannique et américaine) emploie « gainsaid » pour « spoken against » (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "); \"not gainsaying\" for \"not answering again\" (",
+          "target": ") ; « not gainsaying » pour « not answering again » (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "); \"gainsaying\" for \"contradiction\" ",
+          "target": ") ; « gainsaying » pour « contradiction » ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "W. L. Walker",
+          "target": "W. L. Walker",
+          "action": "preserve",
+          "reason": "Historical term, proper name or author's byline retained"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-b8f63d6c3307b77fb99e",
+      "source_key": "HOUSE OF GOD",
+      "source_article_sha256": "76e619c85946c9d0467796d43759642f0bda714fa445bc1ef51faac0b3bedd0b",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "HOUSE OF GOD",
+          "target": "MAISON DE DIEU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "In ",
+          "target": "En ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BETHEL",
+          "target": "BÉTHEL",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " (which see). In Jgs, 1 and 2 Chronicles, Ezr, Neh, Ps, etc. (beth ha-'elohim), a designation of the sanctuary = \"house of Yahweh\" (of the tabernacle, ",
+          "target": " (voir cet article). Dans les Juges, 1 et 2 Chroniques, Esdras, Néhémie, les Psaumes, etc. (beth ha-'elohim), expression désignant le sanctuaire, c'est-à-dire la « maison de Yahvé » (le tabernacle, ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " the King James Version; of the temple, ",
+          "target": " dans la King James Version ; le temple, ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " the King James Version; ",
+          "target": " dans la King James Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": ", etc.; of the 2nd temple, ",
+          "target": ", etc. ; le second temple, ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "). Spiritually, in the New Testament, the \"house of God\" (oikos theou) is the church or community of believers (",
+          "target": "). Spirituellement, dans le Nouveau Testament, la « maison de Dieu » (oikos theou) désigne l'Église ou la communauté des croyants (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
           "action": "translate"
         }
       ]
@@ -413,6 +728,63 @@
           "part": "tail",
           "source": "; compare ",
           "target": " ; comparer ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-ef8908940dc63e521786",
+      "source_key": "QUARTER",
+      "source_article_sha256": "9653d1cf09bcc8ebffd1cd1a0c7dc2369469750a0e21ac95160160cb4e6fa490",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "QUARTER",
+          "target": "QUART, PARTIE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kwor'-ter: Literally, of course, \"the fourth part,\" and so of the four \"ends\" (qatsah) in ",
+          "target": "kwor'-ter : littéralement, bien entendu, « la quatrième partie », d'où l'emploi pour les quatre « extrémités » (qatsah) dans ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", and the King James Version of the four \"corners\" (so the Revised Version (British and American), gonia) in ",
+          "target": ", et, dans la King James Version, pour les quatre « coins » (ainsi dans la Revised Version [britannique et américaine], gonia) dans ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". Hence, \"any part\" and in this sense used freely for various words by the King James Version. the Revised Version (British and American) has usually dropped \"quarter,\" but unfortunately has retained it in ",
+          "target": ". Par extension, le terme désigne « n'importe quelle partie » ; la King James Version l'emploie librement dans ce sens pour divers mots. La Revised Version (britannique et américaine) a généralement supprimé « quarter », mais l'a malheureusement conservé dans ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ", and introduced it in ",
+          "target": ", et l'a introduit dans ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": " for pe'ah, usually rendered \"side.\" The result is very obscure. Elsewhere in the Revised Version (British and American) only in the phrase \"from every quarter\" (",
+          "target": " pour pe'ah, habituellement traduit par « côté ». Il en résulte un passage fort obscur. Ailleurs, la Revised Version (britannique et américaine) n'emploie ce terme que dans l'expression « de tous côtés » (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "Compare BORDER; COAST.",
+          "target": "Comparer BORDER et COAST.",
           "action": "translate"
         }
       ]
