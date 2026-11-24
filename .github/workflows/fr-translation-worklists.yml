@@ -1,0 +1,58 @@
+name: Validate French ISBE translation worklists (source-locked)
+
+on:
+  push:
+    paths:
+      - 'scripts/validate_translation_worklists.py'
+      - 'tests/test_translation_worklists.py'
+      - 'workspace/translations/isbe-1915/fr/worklists/**'
+      - '.github/workflows/fr-translation-worklists.yml'
+  pull_request:
+    paths:
+      - 'scripts/validate_translation_worklists.py'
+      - 'tests/test_translation_worklists.py'
+      - 'workspace/translations/isbe-1915/fr/worklists/**'
+      - '.github/workflows/fr-translation-worklists.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  canonical-worklists:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify source index, article IDs, no gaps and task counts
+        run: python3 -m unittest tests.test_translation_worklists -v
+      - name: Verify frozen 4,000-article wave against corrected English TEI
+        run: |
+          python3 -m scripts.validate_translation_worklists \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --worklist workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json \
+            --worklist workspace/translations/isbe-1915/fr/worklists/wave-01/1001-2000.json \
+            --worklist workspace/translations/isbe-1915/fr/worklists/wave-01/2001-3000.json \
+            --worklist workspace/translations/isbe-1915/fr/worklists/wave-01/3001-4000.json \
+            --expected-start 1 --expected-entries 4000 \
+            --report /tmp/isbe-fr-wave-01-report.json \
+            --issues-dir /tmp/isbe-fr-wave-01-tickets
+      - name: Ensure exactly four 1000-item unchecked GH issue tasklists
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          docs=list(Path('/tmp/isbe-fr-wave-01-tickets').glob('*.md'))
+          assert len(docs)==4, len(docs)
+          for doc in docs:
+              body=doc.read_text(encoding='utf-8')
+              assert body.count('- [ ] ')==1000, doc
+              assert '- [x] ' not in body
+              print(doc.name, '1000 unchecked canonical tasks')
+          PY
+      - name: Keep reproducible issue body templates and validation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: isbe-fr-wave-01-four-1000-entry-tickets
+          path: |
+            /tmp/isbe-fr-wave-01-report.json
+            /tmp/isbe-fr-wave-01-tickets/*.md
+          retention-days: 30
