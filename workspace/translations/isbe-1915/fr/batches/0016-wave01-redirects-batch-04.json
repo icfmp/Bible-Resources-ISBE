@@ -1,0 +1,629 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ARROW",
+      "article_id": "isbe-d6e6e0cf05c0a482e9d5",
+      "source_article_sha256": "4203f95ec8843b62aec3787abca19d5d0c2c64b1e795c190c85a859878bece46",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARROW",
+          "target": "FLÈCHE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-o. See ",
+          "target": "ar'-o. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARCHERY",
+          "target": "TIR À L'ARC",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARMOR",
+          "target": "ARMURE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARROWS, DIVINATION BY",
+      "article_id": "isbe-af3fd6af448dcdb5c837",
+      "source_article_sha256": "7f8f8e08c205d4c9d30447273c206718ee894475ca151b2a5a509a325930ca2d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARROWS, DIVINATION BY",
+          "target": "DIVINATION PAR LES FLÈCHES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AUGURY",
+          "target": "DIVINATION",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", IV, 1.",
+          "target": ", IV, 1.",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ARSARETH",
+      "article_id": "isbe-3de0c9443f12bd5369b8",
+      "source_article_sha256": "35bb115d4576ec4cb7c026a7c55f7bcb54156a46eeb1bbe09bae48c794476267",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARSARETH",
+          "target": "ARSARETH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-sa-reth. See ",
+          "target": "ar'-sa-reth. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARZARETH",
+          "target": "ARZARETH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ARTEMIS",
+      "article_id": "isbe-949da318f1e230839652",
+      "source_article_sha256": "cd3b8e86bb5b277d38448ff5e6a8f283b5c758c45c7e91184db5711412285044",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARTEMIS",
+          "target": "ARTÉMIS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-te-mis. See ",
+          "target": "ar'-te-mis. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "DIANA",
+          "target": "DIANE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARTIFICER",
+      "article_id": "isbe-defc85b742553cc92aa7",
+      "source_article_sha256": "bd470d5c20d866efa231581e51962d09cb5067a25c24288b2703bf2a95c9848c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARTIFICER",
+          "target": "ARTISAN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-tif'-i-ser. See ",
+          "target": "ar-tif'-i-ser. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CRAFTS",
+          "target": "MÉTIERS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARTISAN",
+      "article_id": "isbe-b47a930411848d5f3df9",
+      "source_article_sha256": "25a5a480fc2da7084a379ce1afc8592a871345dd3616d62126a35dd59e4438eb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARTISAN",
+          "target": "ARTISAN",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-ti-zan. See ",
+          "target": "ar'-ti-zan. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CRAFTS",
+          "target": "MÉTIERS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARTS",
+      "article_id": "isbe-c961b0e0b6d160d011d6",
+      "source_article_sha256": "2d2748b7cdae800ac3c8f535f9a8900b14d2984379b078f1f8d3b8fc959aeedb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARTS",
+          "target": "ARTS",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CRAFTS",
+          "target": "MÉTIERS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASAREEL",
+      "article_id": "isbe-19c7b7bc95d8f762e013",
+      "source_article_sha256": "b788696ec5621ddb7eb16c80ed2eb63c423854f50cbd0c18857d948cbeae2778",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASAREEL",
+          "target": "ASAREEL",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-sa'-re-el, a-sar'-e-el. See ",
+          "target": "a-sa'-re-el, a-sar'-e-el. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASAREL",
+          "target": "ASAREL",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ASARELAH",
+      "article_id": "isbe-34da30b0bf60b0b697e9",
+      "source_article_sha256": "28b594083c405297e272f9de8158c95abd8ea4731971035f831daa43e56ad407",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASARELAH",
+          "target": "ASARELAH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as-a-re'-la. See ",
+          "target": "as-a-re'-la. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASHARELAH",
+          "target": "ASHARELAH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ASBACAPHATH",
+      "article_id": "isbe-756d276e9ada911b7c47",
+      "source_article_sha256": "3850114d816d96277e1c5295f1e2e983ca3b814101184321fdd89d2795fab1fb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASBACAPHATH",
+          "target": "ASBACAPHATH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as-bak'-a-fath. See ",
+          "target": "as-bak'-a-fath. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASBASARETH",
+          "target": "ASBASARETH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ASCENSION OF ISAIAH",
+      "article_id": "isbe-701241c0c03c9dc61336",
+      "source_article_sha256": "516120498716e1d72f763bd5e5fca09db1f307401af0fa0b4ff6dd0fefd04e87",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASCENSION OF ISAIAH",
+          "target": "ASCENSION D'ÉSAÏE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCALYPTIC LITERATURE",
+          "target": "LITTÉRATURE APOCALYPTIQUE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASCHENAZ",
+      "article_id": "isbe-666d5b33ea58be06119b",
+      "source_article_sha256": "413d3335127f224773e3a15d15d9d4bd42effef1a03f98bfc5d92bb046e342fe",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASCHENAZ",
+          "target": "ASCHENAZ",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ash'-e-naz. See ",
+          "target": "ash'-e-naz. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASHKENAZ",
+          "target": "ASHKENAZ",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ASERER",
+      "article_id": "isbe-06b85a8520d29fe851ed",
+      "source_article_sha256": "9ee00fb3476a67dcaacb047c8650c9a948f056dcc3876ec3067ccddea075eb28",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASERER",
+          "target": "ASERER",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-e-rer See ",
+          "target": "as'-e-rer. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SERAR",
+          "target": "SERAR",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ASH (2)",
+      "article_id": "isbe-1a6a1cb5ef59289f0150",
+      "source_article_sha256": "910cbeae0f9bfbf9092c0d63fe5edc4c207a4809b60b213e1bd81cb6f1ffaa39",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASH (2)",
+          "target": "ASH (2)",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "(Bear). See ",
+          "target": "(l'Ours). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASTRONOMY",
+          "target": "ASTRONOMIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASHRIEL",
+      "article_id": "isbe-bff1aa1b6d379b6c128f",
+      "source_article_sha256": "71693c59a85661c06403bb49df530f374878dc2dd2ad8659e5b6a03895dad378",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASHRIEL",
+          "target": "ASHRIEL",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ash'-re-el. See ",
+          "target": "ash'-re-el. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASRIEL",
+          "target": "ASRIEL",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ASHTAROTH",
+      "article_id": "isbe-c3453a565fc730a85492",
+      "source_article_sha256": "5ece20599627295d9a5f8f8504dd1f3b408dac02d214cde7d6c605b58ad29745",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASHTAROTH",
+          "target": "ASHTAROTH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "Plural of Ashtoreth. See ",
+          "target": "Pluriel d'Ashtoreth. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASHTORETH",
+          "target": "ASHTORETH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ASHUR",
+      "article_id": "isbe-3d7dac480436c9eefc36",
+      "source_article_sha256": "c3e415a2a393505acd2862cf4984397d1b7e3ecd95c8e9205be69b98f990d45b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASHUR",
+          "target": "ASHUR",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ash'-ur. See ",
+          "target": "ash'-ur. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASHHUR",
+          "target": "ASHHUR",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ASNAPPER",
+      "article_id": "isbe-5009a06a3d0549bca257",
+      "source_article_sha256": "839ff192dbe91f9768c1873fb12d0bf275e930ae145685a2e1b815cd77d88d4b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASNAPPER",
+          "target": "ASNAPPER",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as-nap'-er. See ",
+          "target": "as-nap'-er. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "OSNAPPAR",
+          "target": "OSNAPPAR",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ASPHALT",
+      "article_id": "isbe-30676a8785f868f71985",
+      "source_article_sha256": "226810a8f6d0cde30a060ec3af8b4115a55bde439ab2e956a6e964240a2afc6f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASPHALT",
+          "target": "ASPHALTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-falt. See ",
+          "target": "as'-falt. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SLIME",
+          "target": "BITUME",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASSARION",
+      "article_id": "isbe-b4f993bf80ffce2c8785",
+      "source_article_sha256": "e3e57311091a7ff029a2c48f6965eafd6808cc632bbd938f102a2c0c9503b479",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSARION",
+          "target": "ASSARION",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as-a'-ri-on. See ",
+          "target": "as-a'-ri-on. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "FARTHING",
+          "target": "PETITE MONNAIE",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
