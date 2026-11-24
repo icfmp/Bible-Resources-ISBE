@@ -46,3 +46,7 @@ The original draft candidate was preserved as a comparison artifact. The current
 - Actual renderer link sample: `sword://BRISBE1915/ARK+OF+BULRUSHES`; both readers resolve the destination in their dictionary/Mag panes; Xiphos Book View still displays an error (see [run #45344977265](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45344977265)).
 
 The old `BRISBE1915-native-candidate-NOT-FOR-PUBLICATION.tar.gz` (SHA-256 `6993937ffcdba83348dc0f0cc510613a42f85d3e4c5423f19355a1cf65ee9c9b`) remains in the draft solely as **superseded provenance evidence**. It uses the old `self:` links and must not be selected for the eventual public module. No public binary or catalog publication is implied.
+
+## Superseded by a distinct PUBLIC 0.1.0 release — 2026-11-24
+
+The historical `isbe-1915-v0.1.0-rc.1` release described above **remains an unpublished draft**, preserving both original and superseded candidates as authenticated pre-release evidence. The project has now **separately published** [`isbe-1915-v0.1.0`](https://github.com/icfmp/Bible-Resources-ISBE/releases/tag/isbe-1915-v0.1.0), release ID `456444484`, published at `2026-11-24T07:47:40Z`, with exactly four user-facing assets **and no old `self:`-link SWORD binary**. The public ZIP's SHA-256 is `9d41edc06c3ebd916f3aaa5b3b12f2a495b069b36f2cb26b8e0dab4bdac15df7`. The published TAR SHA-256 matches the validated corrected work-ID draft asset. The draft's older evidence and artifacts are deliberately not erased or misrepresented as already public.

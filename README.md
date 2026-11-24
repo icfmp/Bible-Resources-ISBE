@@ -2,6 +2,13 @@
 
 Source-first editorial workspace for the **International Standard Bible Encyclopedia**, James Orr's historical 1915 edition, starting from the CrossWire SWORD 2.2 module.
 
+## Published corrected historical SWORD edition
+
+**[Download ISBE 1915 — Bible Resources 0.1.0](https://github.com/icfmp/Bible-Resources-ISBE/releases/tag/isbe-1915-v0.1.0)**. The validated public `BRISBE1915` SWORD ZIP, companion TAR, source ZIP and exact SHA-256 checksum file were published on **2026-11-24**, not merely drafted. The release is source-faithful, with 9,380 entries and documented CrossWire provenance. It is **not a full printed-facsimile collation**. Known Xiphos Book View and Scripture-link limitations, and article-level fallback for 80 section targets, appear in the release notes. The standard SWORD ZIP sha256 is `9d41edc06c3ebd916f3aaa5b3b12f2a495b069b36f2cb26b8e0dab4bdac15df7`.
+
+The public release is currently served directly from this ISBE repository. **The separate Bible Resources central Pages/SWORD catalogue has not yet imported it**; GitHub publication must not be confused with catalogue integration.
+
+
 ## Definitive directory layout
 
 ```text
