@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "APHEK",
+      "article_id": "isbe-981a0bca8f6bb558565f",
+      "source_article_sha256": "0109f53a33d65d7e60fd8ed3d8ffe36157260d1f3b60dbf0dc63fdc7fbf1eb15",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APHEK",
+          "target": "APHEK",
+          "action": "preserve",
+          "reason": "canonical_display_headword_or_same_french_name"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-fek ('apheq, \"fortress\"; Aphek):",
+          "target": "a'-fek ('apheq, « forteresse » ; Aphek) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) In ",
+          "target": "(1) En ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " we should probably read with the Septuagint \"the king of Aphek in Sharon.\" This may correspond to Aphek in ",
+          "target": " il faudrait probablement lire, avec la Septante, « le roi d'Aphek en Saron ». Il pourrait s'agir de l'Aphek mentionné en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ". It was a royal city of the Canaanites whose king was slain by Josh. Probably it is the Aphek mentioned by Josephus as being near to Antipatris (BJ, II, xix, 1). Kakon, a strong position commanding the main entrance to Samaria might suit; but the name has perished.",
+          "target": ". C'était une ville royale des Cananéens, dont Josué tua le roi. Il s'agit probablement de l'Aphek que Josèphe situe près d'Antipatris (Guerre des Juifs, II, xix, 1). Kakon, position forte qui commandait l'accès principal à la Samarie, pourrait convenir ; mais le nom ancien a disparu.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) (Greek Taphek or Apheka): A city in the lot of Asher (",
+          "target": "(2) (grec Taphek ou Apheka) : ville située dans le territoire attribué à Aser (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "). The inhabitants were not ejected by Asher, nor is it said that they became tributary (",
+          "target": "). Les habitants n'en furent pas chassés par Aser, et il n'est pas dit qu'ils soient devenus tributaires (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). In this passage it is written 'aphiq (Hebrew). It may be represented by 'Afqa on Nahr Ibrahim, although this is probably farther north than we should expect.",
+          "target": "). Dans ce passage, le nom s'écrit 'aphiq (hébreu). Le site d'Afqa, sur le Nahr Ibrahim, pourrait lui correspondre, bien qu'il soit probablement plus au nord qu'on ne devrait s'y attendre.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(3) To this place the Philistines gathered their hosts, while the Israelites pitched by the fountain which is in Jezreel (",
+          "target": "(3) C'est à cet endroit que les Philistins rassemblèrent leurs forces, tandis que les Israélites campaient près de la source de Jizreel (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "). It has been generally supposed that these two positions were over against each other, and that therefore Aphek must be sought in the plain of Esdraelon. No place answering this description has been found here. Fuqu`ah on Mount Gilboa is plainly impossible. If, however, this was only the rallying point of the Philistines from which they went up to Jezreel (",
+          "target": "). On a généralement supposé que ces deux positions se faisaient face, et qu'il fallait donc chercher Aphek dans la plaine d'Esdrelon. On n'y a trouvé aucun lieu correspondant à cette description. Fuqu'ah, sur le mont Guilboa, ne saurait manifestement convenir. Si, toutefois, il ne s'agissait que du point de ralliement des Philistins avant leur montée vers Jizreel (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "), it may be identical with the Aphek in the plain of Sharon (compare ",
+          "target": "), cet endroit pourrait être identique à l'Aphek de la plaine de Saron (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": " above).",
+          "target": " ci-dessus).",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "(4) A city on the plateau east of the Jordan, where disaster befell Benhadad (",
+          "target": "(4) Ville du plateau situé à l'est du Jourdain, où Ben-Hadad subit une défaite (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": "). The same place may be intended in ",
+          "target": "). Le même endroit pourrait être visé en ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": ". The modern Fiq or Afiq (for both forms are heard) on the brow of the hill beyond Qal`at el-Chucn, east of the Sea of Galilee, probably represents this ancient city.",
+          "target": ". Le Fiq ou Afiq actuel (les deux formes s'entendent), sur le rebord de la colline au-delà de Qal'at el-Chucn, à l'est de la mer de Galilée, correspond probablement à cette ville antique.",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "W. Ewing",
+          "target": "W. Ewing",
+          "action": "preserve",
+          "reason": "historical_author_attribution"
+        }
+      ]
+    },
+    {
+      "source_key": "APPII FORUM",
+      "article_id": "isbe-090e7740713c1dad880e",
+      "source_article_sha256": "5c593ad00dee11e3e60f8871e27c1fa13156a329e2d0d29682a5909e4871e707",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APPII FORUM",
+          "target": "FORUM D'APPIUS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ap'-i-i fo'-rum, transliteration of Lat; APPIUS ap'-i-us, MARKET OF (Revised Version) (Appiou phoron): Appi Forum Cicero ad Att. 2.10; Suetonius Tib. 2: Appii Forum; Vulgate Revised Verson: Forum Appi; Horace Satires i.5; Pliny, Nat. Hist., iii.64; xiv.61; CIL, X, 6824, or Market of Appius, was a town situated at the forty-third milestone on the Appian Road (39 1/2 English miles from Rome, a single day's journey for energetic travelers) according to the imperial itineraries (Ant., 108; Hierosol. 611; Geog. Rav. 4.34). Its existence probably dates from the time of Appius Claudius Caecus (Suet. Tib. 2; compare Mommsen, Rom. Forsch., I, 308), who laid out the famous highway from Rome to Capua in 312 BC. In the 1st century it had the rank of a municipality (Pliny, iii.64). Its importance as a highway station is due chiefly to the canal which ran by the side of the road from there to within a short distance of Tarracina (at the sixty-second milestone), affording an alternative means of conveyance (Strabo v.3.6). It was customary to cover this section of the journey, passing through the Pontine Marshes, by night in canal boats drawn by mules. Horace (Sat. i.5) offers a lively picture of the discomforts of the trip, mentioning the importunate inn-keepers and intolerable drinking water at Appii Forum, the gnats and frogs which were enemies to repose, and the exasperating procrastination of the muleteer.",
+          "target": "ap'-i-i fo'-rum, transcription du latin ; APPIUS, ap'-i-us, « MARCHÉ D' » (Revised Version), (Appiou phoron) : Appi Forum chez Cicéron (Ad Atticum, 2.10) et Suétone (Tibère, 2) ; Appii Forum dans la Vulgate et la Revised Version : Forum Appi ; Horace, Satires, I.5 ; Pline, Histoire naturelle, III.64 et XIV.61 ; CIL, X, 6824. Le Forum d'Appius, ou marché d'Appius, était une ville située à la quarante-troisième borne milliaire de la voie Appienne (39 milles et demi anglais depuis Rome, soit une journée de marche pour des voyageurs énergiques), selon les itinéraires impériaux (Ant., 108 ; Hierosol., 611 ; Geog. Rav., 4.34). Son existence remonte probablement à l'époque d'Appius Claudius Caecus (Suétone, Tibère, 2 ; comparer Mommsen, Rom. Forsch., I, 308), qui traça la célèbre route de Rome à Capoue en 312 av. J.-C. Au Ier siècle, elle avait le rang de municipe (Pline, III.64). Son importance comme relais routier tenait surtout au canal longeant la route depuis ce lieu jusqu'aux abords de Tarracina (à la soixante-deuxième borne milliaire), qui offrait un autre moyen de transport (Strabon, V.3.6). On avait coutume d'effectuer de nuit cette portion du trajet, à travers les marais Pontins, dans des embarcations tirées par des mulets. Horace (Satires, I.5) décrit avec vivacité les désagréments du voyage : aubergistes importuns, eau potable insupportable au Forum d'Appius, moustiques et grenouilles empêchant de dormir, et lenteur exaspérante du muletier.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "The Christian brethren in Rome went out along the Appian Road to welcome the apostle Paul upon hearing of his arrival at Puteoli. One party awaited him at Three Taverns while another proceeded as far as Appii Forum ",
+          "target": "Les frères chrétiens de Rome s'avancèrent sur la voie Appienne pour accueillir l'apôtre Paul lorsqu'ils apprirent son arrivée à Puteoli. Un groupe l'attendait aux Trois-Tavernes, tandis qu'un autre alla jusqu'au Forum d'Appius (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "George H. Allen",
+          "target": "George H. Allen",
+          "action": "preserve",
+          "reason": "historical_author_attribution"
+        }
+      ]
+    },
+    {
+      "source_key": "APPLE, OF THE EYE",
+      "article_id": "isbe-909f59e82e46bd45e94c",
+      "source_article_sha256": "1e25866eff8fc42fc77b66541f60c9f3b6ed2e81ac99bfbdd5c04ab2c2550db3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APPLE, OF THE EYE",
+          "target": "PRUNELLE DE L'ŒIL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ap'-'-l: The eyeball, or globe of the eye, with pupil in center, called \"apple\" from its round shape. Its great value and careful protection by the eyelids automatically closing when there is the least possibility of danger made it the emblem of that which was most precious and jealously protected. The Hebrew terms for it were, 'ishon, diminutive of 'ish, \"man,\" little man or mannikin, referring perhaps specially to the pupil, probably from \"the little image one sees of himself when looking into another's pupil\" (Davies' Lexicon). \"He kept him (Israel) as the apple of his eye\" (",
+          "target": "ap'-'-l : Le globe de l'œil, avec la pupille en son centre, est désigné en anglais par « apple » (« pomme »), à cause de sa forme ronde. Sa grande valeur et la protection attentive que lui assurent les paupières, qui se ferment automatiquement au moindre danger, en ont fait l'emblème de ce qui est particulièrement précieux et jalousement gardé. Les termes hébreux employés sont 'ishon, diminutif de 'ish, « homme », soit « petit homme », expression qui renvoie peut-être surtout à la pupille, probablement en raison de « la petite image de soi-même que l'on voit en regardant dans la pupille d'autrui » (Lexicon de Davies). « Il le garda (Israël) comme la prunelle de son œil » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); \"Keep me as the apple of the eye,\" literally, \"as the apple, the daughter of the eye\" (",
+          "target": ") ; « Garde-moi comme la prunelle de l'œil », littéralement « comme la prunelle, la fille de l'œil » (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). \"Keep my law (the Revised Version, margin \"teaching\") as the apple of thine eye\" (",
+          "target": "). « Garde ma loi (note de la Revised Version : « enseignement ») comme la prunelle de ton œil » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). Compare ",
+          "target": "). Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " where it is used to denote what is the center (American Revised Version, \"in the middle of the night\"; the English Revised Version \"in, the blackness of night\"; margin \"Hebrew pupil (of the eye)\"); babhah perhaps an \"opening,\" \"gate\"; others regard it as a mimetic word akin to Latin pupa, papilla (\"He that toucheth you toucheth the apple of his eye,\" i.e. Yahweh's; ",
+          "target": " : l'expression y désigne ce qui est au centre (American Revised Version : « au milieu de la nuit » ; English Revised Version : « dans l'obscurité de la nuit » ; note : « hébreu : pupille [de l'œil] »). Babhah signifie peut-être « ouverture », « porte » ; d'autres y voient un terme imitatif apparenté au latin pupa, papilla (« Celui qui vous touche touche la prunelle de son œil », c'est-à-dire de l'œil de Yahvé ; ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "); bath-`ayin, \"daughter of the eye\"; \"Give thyself no respite, let not the apple of thine eye cease\" (",
+          "target": ") ; bath-'ayin, « fille de l'œil » ; « Ne t'accorde aucun répit, que la prunelle de ton œil ne s'arrête pas » (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "), which means, either \"sleep not,\" or \"cease not to weep.\" kore, \"young girl,\" \"pupil of the eye\": \"He (the Lord) will keep the good deeds (the Revised Version (British and American) \"bounty\") of a man as the apple of the eye\" (Ecclesiasticus 17:22); the Septuagint also has kore in all instances except ",
+          "target": "), ce qui signifie soit « ne dors pas », soit « ne cesse pas de pleurer ». Kore, « jeune fille », signifie aussi « pupille de l'œil » : « Il [le Seigneur] gardera les bonnes œuvres (Revised Version britannique et américaine : « bienfaits ») d'un homme comme la prunelle de l'œil » (Ecclésiastique 17.22). La Septante emploie également kore dans tous les cas, sauf en ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", where it has thugater, \"daughter.\"",
+          "target": ", où elle a thugater, « fille ».",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "W. L. Walker",
+          "target": "W. L. Walker",
+          "action": "preserve",
+          "reason": "historical_author_attribution"
+        }
+      ]
+    },
+    {
+      "source_key": "ASSURANCE",
+      "article_id": "isbe-edfdb49e54aa01f476fc",
+      "source_article_sha256": "945b4e8d6d44f948a7bf05d3eb26c082042812d803b51de39b12095c769d69ef",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSURANCE",
+          "target": "ASSURANCE",
+          "action": "preserve",
+          "reason": "canonical_display_headword_or_same_french_name"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-shoor'-ans:",
+          "target": "a-shoor'-ans:",
+          "action": "preserve",
+          "reason": "historic_english_pronunciation"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "A term exceptionally rich in spiritual meaning. It signifies the joyous, unwavering confidence of an intelligent faith; the security of a fearless trust. The original words have to do with the heart of vital religion. baTach, \"trust\"; 'aman, \"to prop,\" \"to support,\" hence to confide in, to trust. Jesus repeatedly used this word \"amen\" to express the trustworthiness and abiding certainty of his sayings. pistis, \"faith\"; plerophoria, \"full assurance.\" The confidence of faith is based, not on \"works of righteousness which we have done\" (compare ",
+          "target": "Terme d'une richesse spirituelle exceptionnelle. Il désigne la confiance joyeuse et inébranlable d'une foi éclairée, la sécurité d'une confiance sans crainte. Les mots originaux touchent au cœur même de la religion vivante. BaTach signifie « faire confiance » ; 'aman, « étayer », « soutenir », d'où « se fier à », « avoir confiance ». Jésus a employé à plusieurs reprises le mot « amen » pour exprimer la fiabilité et la certitude durable de ses paroles. Pistis signifie « foi » ; plerophoria, « pleine assurance ». La confiance de la foi ne repose pas sur les « œuvres de justice que nous aurions accomplies » (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " the King James Version) but on the highpriesthood and atoning sacrifice of Christ.",
+          "target": " dans la King James Version), mais sur le souverain sacerdoce du Christ et sur son sacrifice expiatoire.",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", \"boldness to enter .... by the blood of Jesus,\" the King James Version). Assurance is the soul's apprehension of its complete emancipation from the power of evil and from consequent judgment, through the atoning grace of Christ. It is the exact opposite of self-confidence, being a joyous appropriation and experience of the fullness of Christ--a glad sense of security, freedom and eternal life in Him. This doctrine is of immeasurable importance to the life of the church and of the individual believer, as a life of spiritual doubt and uncertainty contradicts the ideal of liberty in Christ Jesus which is the natural and necessary fruitage of \"the washing of regeneration and renewing of the Holy Spirit .... shed on us abundantly, through Jesus Christ our Saviour.\" Paul unhesitatingly said, \"I know\" (",
+          "target": ", « l'assurance d'entrer ... par le sang de Jésus », dans la King James Version). L'assurance est la conviction intime, pour l'âme, d'avoir été entièrement délivrée de la puissance du mal et du jugement qui en découle, par la grâce expiatoire du Christ. À l'opposé exact de la confiance en soi, elle consiste à s'approprier et à éprouver joyeusement la plénitude du Christ : un heureux sentiment de sécurité, de liberté et de vie éternelle en lui. Cette doctrine est d'une importance inestimable pour la vie de l'Église comme pour celle de chaque croyant, car une existence dominée par le doute et l'incertitude spirituels contredit l'idéal de liberté en Jésus-Christ, fruit naturel et nécessaire du « bain de la régénération et du renouvellement du Saint-Esprit ... répandu abondamment sur nous par Jésus-Christ notre Sauveur ». Paul a déclaré sans hésiter : « Je sais » (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ")--a word which, oft-repeated in 1 Jn, furnishes the groundwork of glad assurance that runs through the entire epistle. For the classic passage on \"full assurance\" see ",
+          "target": ") ; ce mot, répété souvent dans la première épître de Jean, fonde la joyeuse assurance qui traverse toute cette lettre. Pour le passage classique sur la « pleine assurance », voir ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "Dwight M. Pratt",
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "historical_author_attribution"
+        }
+      ]
+    },
+    {
+      "source_key": "ASTYAGES",
+      "article_id": "isbe-903f3c331119f258cb83",
+      "source_article_sha256": "43b513486b0ff33e7087fd01880d7fb7bc6e7082323ed74e8125e14b72be0f4a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASTYAGES",
+          "target": "ASTYAGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as-ti'-a-jes (Astuages; or Astyigas (in Ktesias)), or Istuvigu, son of Cyaxares.",
+          "target": "as-ti'-a-jes (Astuages ; ou Astyigas, chez Ctésias), ou Istuvigu, fils de Cyaxare.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "I, king of the Medes 585-550 BC, and predecessor of Cyrus (Bel and the Dragon verse 1): His wife was the daughter of Alyattes, king of Lydia. The daughter of Astyages (Mandane) married a Persian, Cambyses, and a son was born to them who later became Cyrus the Great. Astyages had given orders to expose the babe; but Harpagus, on whom the task had been imposed, gave the child to a herdsman, with instructions to kill him. When the boy, who had been brought up as his own by the herdsman, arrived at the age of twelve, Astyages discovered that he was the son of Mandane. The king in wrath then had the son of Harpagus killed and served to his father as food. The latter concealed his feelings of hatred and resentment, and bided his time; and when the young Cyrus had grown to manhood, he stirred up the grandson in insurrection against Astyages, who was defeated and taken prisoner (Herodotus i.127-30). When Astyages marched against the Persians, the Medes, under the command of Harpagus, deserted their king, and sided with the disappointed Persians; and Cyrus was crowned king. This account of Herodotus is confirmed by the Annalistic Tablet of Cyrus (RP, series ii, 159). The dethroned monarch was treated with kindness by his conqueror. According to Ktesias, a home was provided for him by Cyrus in Hyrcania.",
+          "target": "« I », roi des Mèdes de 585 à 550 av. J.-C. et prédécesseur de Cyrus (Bel et le Dragon, verset 1) : sa femme était la fille d'Alyatte, roi de Lydie. La fille d'Astyage, Mandane, épousa un Perse, Cambyse, et leur fils devint plus tard Cyrus le Grand. Astyage avait ordonné d'exposer l'enfant ; mais Harpage, chargé de cette tâche, remit le nourrisson à un berger en lui prescrivant de le tuer. Lorsque le garçon, élevé comme son propre fils par le berger, eut douze ans, Astyage découvrit qu'il était le fils de Mandane. Furieux, le roi fit alors tuer le fils d'Harpage et le servit en nourriture à son père. Celui-ci dissimula sa haine et son ressentiment et attendit son heure. Lorsque le jeune Cyrus fut devenu adulte, Harpage poussa le petit-fils à se soulever contre Astyage, qui fut vaincu et fait prisonnier (Hérodote, I.127-130). Quand Astyage marcha contre les Perses, les Mèdes commandés par Harpage abandonnèrent leur roi et se rangèrent du côté des Perses mécontents ; Cyrus fut alors couronné roi. Selon l'auteur, le récit d'Hérodote est confirmé par la tablette annalistique de Cyrus (RP, série II, 159). Le souverain détrôné fut traité avec bonté par son vainqueur. D'après Ctésias, Cyrus lui procura une résidence en Hyrcanie.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Astyages was the last of the kings of the Manda (Media). An exceedingly shrewd man, Deioces by name, had founded the kingdom 150 years before (699-646). Phraortes was the second in line (646-624), and Cyaxares the third (624-584).",
+          "target": "Astyage fut le dernier des rois des Manda (Médie). Un homme d'une très grande habileté, nommé Déiocès, avait fondé le royaume cent cinquante ans plus tôt (699-646). Phraortès fut le deuxième souverain de cette lignée (646-624), et Cyaxare le troisième (624-584).",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "J. E. Harry",
+          "target": "J. E. Harry",
+          "action": "preserve",
+          "reason": "historical_author_attribution"
+        }
+      ]
+    }
+  ]
+}
