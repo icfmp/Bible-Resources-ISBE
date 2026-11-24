@@ -29,14 +29,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate bilingual source parity and fifty-one complete reading drafts
+      - name: Validate bilingual source parity and sixty-seven complete reading drafts
         run: python3 -m unittest tests.test_translation_review_corpus -v
-      - name: Render fifty source-locked pilot reading copies plus Abraham
+      - name: Render all source-locked working French drafts
         run: |
           python3 -m scripts.render_translation_review_corpus \
             --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
             --patches workspace/pilots/isbe-1915-fr/draft-patches.json \
             --patches workspace/translations/isbe-1915/fr/batches/0001-abraham.json \
+            --patches workspace/translations/isbe-1915/fr/batches/0002-early-a-entries.json \
             --flags workspace/pilots/isbe-1915-fr/SOURCE_REVIEW_FLAGS.json \
             --previews-dir /tmp/isbe-fr-reading-proofs \
             --report /tmp/isbe-fr-reading-review.json
@@ -46,20 +47,20 @@ jobs:
           import json
           from pathlib import Path
           report=json.loads(Path('/tmp/isbe-fr-reading-review.json').read_text(encoding='utf-8'))
-          assert report['selected_complete_unreviewed_drafts']==51
-          assert report['pilot_drafts_count']==50
-          assert report['markdown_previews_generated']==51
+          assert report['selected_complete_unreviewed_drafts']==67
+          assert report['pilot_drafts_count']==66
+          assert report['markdown_previews_generated']==67
           assert report['source_flags_pending_witness_review']==12
           assert report['human_editorially_approved']==0
           assert report['article_checkboxes_marked_complete']==0
           assert report['publication_permitted'] is False
-          assert len(list(Path('/tmp/isbe-fr-reading-proofs').glob('isbe-*.md')))==51
-          print('51 fully reconstructed French first drafts, 0 editorial approvals, 12 witness flags')
+          assert len(list(Path('/tmp/isbe-fr-reading-proofs').glob('isbe-*.md')))==67
+          print('67 fully reconstructed French first drafts, 0 editorial approvals, 12 witness flags')
           PY
       - name: Retain full readable French drafts and editorial review index
         uses: actions/upload-artifact@v4
         with:
-          name: isbe-fr-50-pilot-reading-proofs-plus-abraham-unreviewed
+          name: isbe-fr-67-source-locked-unreviewed-proofs
           path: |
             /tmp/isbe-fr-reading-proofs/
             /tmp/isbe-fr-reading-review.json
