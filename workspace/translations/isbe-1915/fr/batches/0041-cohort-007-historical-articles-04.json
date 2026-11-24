@@ -3,7 +3,7 @@
   "source_work": "ISBE 1915 — corrected historical English master",
   "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "language": "fr",
-  "status": "translation_in_progress",
+  "status": "unreviewed_drafts",
   "publication_permitted": false,
   "articles": [
     {
@@ -1630,77 +1630,79 @@
       "source_key": "ATAROTH",
       "article_id": "isbe-24765cd277cd8f2e5695",
       "source_article_sha256": "096ffd933ea07f2c56dd097105c23058a2b094162d330eb25683f3d7cedd4b60",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ATAROTH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ATAROTH",
+          "action": "preserve",
+          "reason": "Canonical original proper name"
         },
         {
           "node": 2,
           "part": "text",
           "source": "at'-a-roth, a-ta'-roth (`aTaroth, \"crowns\" or \"wreaths\"; Ataroth):",
-          "target": "",
-          "action": "pending_translation"
+          "target": "at'-a-roth, a-ta'-roth (`aTaroth, « couronnes » ou « guirlandes » ; Ataroth) :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) A city East of the Jordan, apparently in the territory given to Reuben, but built, or fortified, by the children of Gad (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Ville située à l'est du Jourdain, apparemment dans le territoire attribué à Ruben, mais bâtie ou fortifiée par les fils de Gad (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "). It is named along with Dibon, which is identified with Dhiban. Eight miles Northeast by North of Dibon, on the South of Wady Zerqa Ma`in, stands Jebel `Attarus, in which the ancient name is preserved. The city is doubtless represented by Khirbet `Attarus, about 4 miles West of the mountain.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Elle est citée avec Dibon, identifié à Dhiban. À huit milles au nord-nord-est de Dibon, au sud du ouadi Zerqa Ma`in, se trouve le Djebel `Attarus, dont le nom préserve la désignation ancienne. La ville correspond sans doute à Khirbet `Attarus, à environ quatre milles à l'ouest de la montagne.",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "(2) A place on the boundary between Ephraim and Benjamin, toward the West (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Lieu à la frontière occidentale entre Éphraïm et Benjamin (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": "). It seems to be the same as Ataroth- addar of ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Il semble correspondre à Ataroth-Addar de ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": ". It is probably to be identified with the modern ed-Dariyeh South of nether Bethhoron, and about 12 1/2 miles West of Jerusalem.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". On l'identifie probablement à l'actuelle ed-Dariyeh, au sud de Beth-Horon inférieur et à environ douze milles et demi à l'ouest de Jérusalem.",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "text",
           "source": "(3) A place on the eastern frontier of Ephraim (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Lieu sur la frontière orientale d'Éphraïm (",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": "). This town has not been identified. Conder thinks it may be identified with et-Truneh in the Jordan valley, or with Khirbet et-Taiyereh.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Cette ville n'a pas été identifiée. Conder propose et-Truneh dans la vallée du Jourdain, ou Khirbet et-Taiyereh.",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "W. Ewing",
-          "target": "",
-          "action": "pending_translation"
+          "target": "W. Ewing",
+          "action": "preserve",
+          "reason": "Original historical author byline"
         }
       ]
     },
@@ -1708,56 +1710,57 @@
       "source_key": "ATTIRE; DYED ATTIRE",
       "article_id": "isbe-2c2c351bc42f16e235c8",
       "source_article_sha256": "e5c0024b2596af6c9d42e1b021bc6d9693727267436d105ffdd345755d88d187",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ATTIRE; DYED ATTIRE",
-          "target": "",
-          "action": "pending_translation"
+          "target": "TENUE ; VÊTEMENT TEINT",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-tir': \"Can a virgin forget her ornaments, or a bride her attire?\" asks the prophet Jeremiah in hot remonstrance against Israel's unfaithfulness. \"Yet,\" saith Yahweh, \"my people have forgotten me\" (2:32). \"And I saw that she was defiled,\" cries Ezekiel against Jerusalem; \"she saw men ... girded with girdles upon their loins, with flowing turbans [AV exceeding in dyed attire] upon their heads, ..... after the likeness of the Babylonians in Chaldea, .... and .... she doted upon them .... \"(",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-tir' : « Une jeune fille oublie-t-elle ses ornements, une épouse sa parure ? », demande Jérémie dans son vif reproche à Israël infidèle. « Pourtant, dit Yahvé, mon peuple m'a oublié » (2:32). « J'ai vu qu'elle était souillée », s'écrie Ézéchiel à propos de Jérusalem ; « elle a vu des hommes […] ceints d'une ceinture à la taille, portant de grands turbans [King James Version : avec des vêtements teints extraordinaires] sur la tête […] à la manière des Babyloniens en Chaldée […] et s'est éprise d'eux […] » (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "). \"And, behold, there met him,\" says the author of Pr (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). « Voici qu'une femme vint à sa rencontre », dit l'auteur des Proverbes (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": ") in his description of the \"strange woman,\" that \"lieth in wait at every street corner,\" \"a woman with the attire of a harlot, and wily of heart,\" whose \"house is the way to Sheol\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), décrivant la « femme étrangère » qui « se tient en embuscade à chaque coin de rue », vêtue « comme une prostituée, avec un cœur rusé », et dont « la maison est le chemin du Shéol » (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "). These passages show how diversely and elastically the term \"attire\" was used among the Hebrews. The numerous synonyms for \"dress,\" \"attire,\" \"apparel,\" \"clothes,\" \"raiment,\" \"garment,\" etc., found in English Versions of the Bible, reflect a similar wealth of nomenclature in the original Hebrew and Greek; but the lack of exactness and consistency in the renderings of translators makes the identification of the various articles of dress referred to very difficult, sometimes impossible. See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Ces passages montrent combien le terme « tenue » était souple et varié chez les Hébreux. Les nombreux synonymes de vêtements, tenues, habits, parures et robes dans les versions anglaises reflètent une richesse comparable dans l'hébreu et le grec originaux ; mais le manque d'exactitude et de constance des traducteurs rend l'identification des différents habits très difficile, parfois impossible. Voir ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "DRESS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "VÊTEMENT",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "George B. Eager",
-          "target": "",
-          "action": "pending_translation"
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Original historical author byline"
         }
       ]
     },
@@ -1765,98 +1768,100 @@
       "source_key": "AUGUR'S OAK",
       "article_id": "isbe-dc8888aceeee5bfcb938",
       "source_article_sha256": "612b2dfc41d9caf5c4c52a2e9d1dd2d02f8b70ba4553d5c84e3275648ca2f201",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AUGUR'S OAK",
-          "target": "",
-          "action": "pending_translation"
+          "target": "CHÊNE DES DEVINS",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "o'-gurs' ok: If we translated the Hebrew verb `onen, \"to practice augury\" (see ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "o'-gurs' ok : Si l'on traduisait le verbe hébreu `onen par « pratiquer la divination » (voir ",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "AUGURY",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AUGURE",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": ") we should in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), il faudrait rendre en ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": " for \"the oak of Meonemm\" render \"the augurs' oak\" as in the Revised Version, margin, for the last word is simply the part. of the same verb and means \"one who practices augury,\" though there is some doubt as to the exact connotation of the word. See under ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " « chêne de Meonemm » par « chêne des devins », comme dans la note marginale de la Revised Version. Le dernier mot n'est en effet que le participe du même verbe et signifie « personne qui pratique les augures », bien que sa connotation exacte demeure discutée. Voir ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "DIVINATION",
-          "target": "",
-          "action": "pending_translation"
+          "target": "DIVINATION",
+          "action": "preserve",
+          "reason": "Original title or proper name retained"
         },
         {
           "node": 6,
           "part": "text",
           "source": "The English Versions of the Bible make this noun the name of a place; but no such place is known and the derivation and form of the word are clear and certain. We have a similar phrase similarly misunderstood by our translators in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Les versions anglaises de la Bible font de ce mot le nom d'un lieu ; aucun lieu de ce nom n'est connu, et sa dérivation comme sa forme seraient pourtant claires. Une expression semblable aurait été comprise à tort par les traducteurs en ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " where the \"oak of Moreh\" should be \"the oak\" (or \"terebinth?\") \"of the diviner\" or \"augur,\" for moreh is also a part. = \"one who teaches\" or \"directs.\" Probably the same tree is meant, since in each ease the neighborhood is that of Shechem. The worship of trees, or rather the deity supposed to make them his home, has prevailed very widely. See W. R. Smith, Rel. Semitic. (2), 195; compare ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", où « chêne de Moré » devrait se lire « chêne » (ou « térébinthe ? ») « du devin » : moreh est également un participe, « celui qui enseigne » ou « dirige ». Il s'agit probablement du même arbre, puisque les deux passages se situent près de Sichem. Le culte des arbres, ou plutôt des divinités censées y résider, fut largement répandu. Voir W. R. Smith, Religion of the Semites, 2e éd., p. 195 ; comparer ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": " and \"the oak of Zeus at Dodona. \" In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et le « chêne de Zeus à Dodone ». En ",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": " we read of a \"matstsebhah, oak tree\": the tree with an altar on which sacrifices were offered. The oak trees of ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", on lit « matstsebhah, chêne » : un arbre doté d'un autel où l'on offrait des sacrifices. Les chênes de ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": " and of ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et de ",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "tail",
           "source": ", if two distinct trees are meant, would be trees which the Canaanites had been in the habit of consulting: hence, the name.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", s'il s'agit de deux arbres différents, seraient des arbres que les Cananéens avaient coutume de consulter, d'où leur nom.",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "T. Witton Davies",
-          "target": "",
-          "action": "pending_translation"
+          "target": "T. Witton Davies",
+          "action": "preserve",
+          "reason": "Original historical author byline"
         }
       ]
     },
@@ -1864,84 +1869,85 @@
       "source_key": "AWE",
       "article_id": "isbe-32658f284bc33fbd93a5",
       "source_article_sha256": "2751be5030bafa078296d6a921ff07bc51f2205934b268c6b44f750cc156cbbc",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AWE",
-          "target": "",
-          "action": "pending_translation"
+          "target": "CRAINTE RÉVÉRENCIELLE",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "o: Fear mingled with reverence and wonder, a state of mind inspired by something terrible or sublime.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "o : Peur mêlée de révérence et d'émerveillement ; disposition intérieure suscitée par une réalité redoutable ou sublime.",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "In the King James Version and the Revised Version (British and American) it occurs in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Dans la King James Version et la Revised Version (britannique et américaine), le mot figure en ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": ": \"Stand in awe, and sin not\" (where the Revised Version, margin has, \"Be ye angry,\" so Septuagint; compare ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Tremblez et ne péchez pas » (note marginale de la Revised Version : « Mettez-vous en colère », comme la Septante ; comparer ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": ". In the following passages the Revised Version (British and American) substitutes \"stand in awe\" for the King James Version \"fear\": ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". Dans les passages suivants, la Revised Version remplace « craindre » de la King James Version par « être saisi de crainte révérencielle » : ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": " phoboumenoi;",
-          "target": "",
-          "action": "pending_translation"
+          "target": " phoboumenoi ;",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "tail",
           "source": "; and in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; et en ",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "tail",
           "source": " it substitutes \"awe\" for the King James Version \"reverence\" (deos here only in New Testament). In all these passages, except ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", elle substitue « crainte » à la « révérence » de la King James Version (deos n'apparaît qu'ici dans le Nouveau Testament). Dans tous ces passages, sauf ",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "tail",
           "source": " (eulabeito, where it describes Saul's feeling toward David), the word stands for man's attitude of reverential fear toward God. This is the characteristic attitude of the pious soul toward God in the Scriptures, especially in the Old Testament. It arises from a consciousness of the infinite power, sublimity and holiness of God, which fills the mind with the \"fear of the Lord,\" and a dread of violating His law. See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (eulabeito, qui décrit les sentiments de Saül envers David), le mot désigne la crainte respectueuse de l'homme devant Dieu. Dans les Écritures, surtout l'Ancien Testament, c'est l'attitude caractéristique de l'âme pieuse envers Dieu. Elle naît de la conscience de la puissance infinie, de la majesté et de la sainteté divines, remplissant l'esprit de la « crainte de Yahvé » et de la peur de transgresser sa loi. Voir ",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "text",
           "source": "FEAR",
-          "target": "",
-          "action": "pending_translation"
+          "target": "CRAINTE",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "text",
           "source": "D. Miall Edwards",
-          "target": "",
-          "action": "pending_translation"
+          "target": "D. Miall Edwards",
+          "action": "preserve",
+          "reason": "Original historical author byline"
         }
       ]
     },
@@ -1949,196 +1955,197 @@
       "source_key": "AZARIAH",
       "article_id": "isbe-dda69d9784f346d15166",
       "source_article_sha256": "4859630d2d25a579a9717469fc091ecafdf787c836598561cd0445a612459306",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AZARIAH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AZARIA",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "az-a-ri'-a `azaryahu and `azaryah, (\"Yahweh has helped\"):",
-          "target": "",
-          "action": "pending_translation"
+          "target": "az-a-ri'-a (`azaryahu et `azaryah, « Yahvé a aidé ») :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) King of Judah. See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Roi de Juda. Voir ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "UZZIAH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "OZIAS",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "(2) A Judahite of the house of Ethan the Wise (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Judéen de la maison d'Éthan le Sage (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "(3) The son of Jehu, descended from an Egyptian through the daughter of Sheshan (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Fils de Jéhu, descendant d'un Égyptien par la fille de Sheshan (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "(4) A son of Ahimaaz and grandson of Zadok (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(4) Fils d'Ahimaats et petit-fils de Tsadok (",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "(5) A son of Zadok the high priest and an official of Solomon (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(5) Fils de Tsadok, le grand prêtre, et dignitaire de Salomon (",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "(6) A high priest and son of Johanan (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(6) Grand prêtre, fils de Johanan (",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "text",
           "source": "(7) A Levite, ancestor of Samuel, and Heman the singer (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(7) Lévite, ancêtre de Samuel et du chantre Héman (",
+          "action": "translate"
         },
         {
           "node": 17,
           "part": "text",
           "source": "(8) A son of Nathan and captain of Solomon's tax collectors (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(8) Fils de Nathan et chef des collecteurs de taxes de Salomon (",
+          "action": "translate"
         },
         {
           "node": 19,
           "part": "text",
           "source": "(9) A prophet in the reign of King Asa; his father's name was Oded (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(9) Prophète du temps du roi Asa, dont le père se nommait Oded (",
+          "action": "translate"
         },
         {
           "node": 21,
           "part": "text",
           "source": "(10 and 11) Two sons of Jehoshaphat, king of Judah (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(10 et 11) Deux fils de Josaphat, roi de Juda (",
+          "action": "translate"
         },
         {
           "node": 23,
           "part": "text",
           "source": "(12) King of Judah (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(12) Roi de Juda (",
+          "action": "translate"
         },
         {
           "node": 24,
           "part": "tail",
           "source": ", called Ahaziah in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; appelé Achazia en ",
+          "action": "translate"
         },
         {
           "node": 26,
           "part": "text",
           "source": "(13) A son of Jeroham, who helped to overthrow Athaliah, and place Joash on the throne (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(13) Fils de Jéroham, qui participa au renversement d'Athalie et à l'intronisation de Joas (",
+          "action": "translate"
         },
         {
           "node": 28,
           "part": "text",
           "source": "(14) A son of Johanan and a leading man of Ephraim, mentioned in connection with the emancipated captives taken by Pekah (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(14) Fils de Johanan et notable d'Éphraïm, mentionné à propos des captifs libérés après avoir été pris par Péqah (",
+          "action": "translate"
         },
         {
           "node": 30,
           "part": "text",
           "source": "(15) A Levite of the family of Merari, who took part in cleansing the temple in the days of Hezekiah (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(15) Lévite de la famille de Merari, qui contribua à purifier le Temple sous Ézéchias (",
+          "action": "translate"
         },
         {
           "node": 32,
           "part": "text",
           "source": "(16) A high priest who rebuked King Uzziah for arrogating to himself priestly functions (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(16) Grand prêtre qui réprimanda le roi Ozias pour avoir usurpé les fonctions sacerdotales (",
+          "action": "translate"
         },
         {
           "node": 34,
           "part": "text",
           "source": "(17) The father of Seraiah and son of Hilkiah (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(17) Père de Séraja et fils de Hilkija (",
+          "action": "translate"
         },
         {
           "node": 36,
           "part": "text",
           "source": "(18) A son of Hoshaiah, and a bitter enemy of Jeremiah (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(18) Fils de Hoshaïa et ennemi acharné de Jérémie (",
+          "action": "translate"
         },
         {
           "node": 38,
           "part": "text",
           "source": "(19) One of the royal captives taken to Babylon, whose name was changed to Abed-nego (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(19) L'un des captifs de sang royal emmenés à Babylone, dont le nom fut changé en Abed-Nego (",
+          "action": "translate"
         },
         {
           "node": 40,
           "part": "text",
           "source": "(20) The son of Maaseiah, who helped repair the walls of Jerusalem (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(20) Fils de Maaséja, qui contribua à réparer les murailles de Jérusalem (",
+          "action": "translate"
         },
         {
           "node": 42,
           "part": "text",
           "source": "(21) A Levite who assisted Ezra to expound the Law (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(21) Lévite qui aida Esdras à expliquer la Loi (",
+          "action": "translate"
         },
         {
           "node": 44,
           "part": "text",
           "source": "(22) A priest who sealed the covenant (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(22) Prêtre qui scella l'alliance (",
+          "action": "translate"
         },
         {
           "node": 46,
           "part": "text",
           "source": "(23) A prince of Judah mentioned in connection with the dedication of the walls of Jerusalem (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(23) Prince de Juda mentionné lors de la dédicace des murailles de Jérusalem (",
+          "action": "translate"
         },
         {
           "node": 48,
           "part": "text",
           "source": "W. W. Davies",
-          "target": "",
-          "action": "pending_translation"
+          "target": "W. W. Davies",
+          "action": "preserve",
+          "reason": "Original historical author byline"
         }
       ]
     }
