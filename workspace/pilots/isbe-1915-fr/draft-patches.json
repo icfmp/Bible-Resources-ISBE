@@ -1386,6 +1386,618 @@
       ]
     },
     {
+      "article_id": "isbe-1396e84deb1fd6133368",
+      "source_key": "LAUGHTER",
+      "source_article_sha256": "113f980de04b3def0b571d9841cb0e52cd7b81c5e64eae8e9f3a5007c7696e31",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "LAUGHTER",
+          "target": "RIRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "laf'-ter (chaq, tsachaq, \"to laugh,\" sechoq, \"laughter\"; gelao, katagelao):",
+          "target": "laf'-ter (chaq, tsachaq, « rire » ; sechoq, « rire » ; gelao, katagelao) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) Laughter as the expression of gladness, pleasurable surprise, is the translation of tsachaq (",
+          "target": "(1) Le rire, expression de joie ou de surprise agréable, traduit tsachaq (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "), which, however, should perhaps be \"laugh at me,\" not \"with me,\" as the King James Version and the Revised Version (British and American) (so Delitzsch and others; see also Hastings in HDB), not in the sense of derision, but of surprise and pleasure. In the same verse for \"God hath made me to laugh,\" the Revised Version (British and American) gives in margin, \"hath prepared laughter for me,\" and this gave his name to the son, the promise of whose birth evoked the laughter (Yitschaq, Isaac); gelao (",
+          "target": ") ; toutefois, il faudrait peut-être lire « rire de moi » plutôt que « rire avec moi », comme dans la King James Version et la Revised Version (britannique et américaine) (ainsi Delitzsch et d'autres ; voir aussi Hastings, HDB), non par dérision, mais par surprise et plaisir. Dans le même verset, pour « Dieu m'a donné de quoi rire », la Revised Version (britannique et américaine) propose en marge « m'a préparé du rire » : c'est de là que le fils dont la naissance promise avait suscité ce rire tira son nom (Yitschaq, Isaac) ; gelao (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ") has the same meaning of gladness and rejoicing; sechoq, \"laughter,\" has also this sense (",
+          "target": ") exprime également la joie et l'allégresse ; sechoq, « rire », possède aussi ce sens (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "). It is, however, \"laughed to scorn\" in ",
+          "target": "). Il signifie cependant « objet de risée » dans ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "; the Revised Version (British and American) \"laughing-stock\"; so ",
+          "target": " ; la Revised Version (britannique et américaine) donne « risée » ; de même ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "; compare 48:26,27,39; ",
+          "target": " ; comparer 48:26,27,39 ; ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": ", \"derision.\"",
+          "target": ", « dérision ».",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "(2) Sachaq is used (except ",
+          "target": "(2) Sachaq est employé (sauf dans ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": ") in the sense of the laughter of defiance, or derision (",
+          "target": ") pour le rire de défi ou de moquerie (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": "); in Piel it is often translated \"play,\" \"playing,\" \"merry\"",
+          "target": ") ; au piel, il est souvent traduit par « jouer », « s'amuser », « être joyeux ».",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(3) La`agh is \"to scorn\" \"to laugh to scorn\" (",
+          "target": "(3) La'agh signifie « mépriser », « tourner en dérision » (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": "); sachaq has also this sense (",
+          "target": ") ; sachaq a également ce sens (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": "); tsechoq (",
+          "target": ") ; tsechoq (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": "); sechoq (",
+          "target": ") ; sechoq (",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "tail",
+          "source": "); katagelao (",
+          "target": ") ; katagelao (",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": "); the simple gelao occurs only in ",
+          "target": ") ; le simple gelao ne se rencontre qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": "; see above. Katagelao is found in Judith 12:12, \"laugh to scorn\" (Ecclesiasticus 7:11; 20:17; 1 Macc 10:70, the Revised Version (British and American) \"derision\").",
+          "target": " ; voir plus haut. On trouve katagelao en Judith 12:12, « tourner en dérision » (Ecclésiastique 7:11 ; 20:17 ; 1 Maccabées 10:70, « dérision » dans la Revised Version [britannique et américaine]).",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "For \"laugh\" (",
+          "target": "Pour « laugh » (",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "tail",
+          "source": ") the Revised Version (British and American) has \"mock\"; for \"mocked of his neighbor\" and \"laughed to scorn\" (",
+          "target": "), la Revised Version (britannique et américaine) emploie « mock » ; pour « mocked of his neighbor » et « laughed to scorn » (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": ") \"laughing-stock\"; for \"shall rejoice in time to come\" (",
+          "target": "), elle porte « laughing-stock » ; pour « shall rejoice in time to come » (",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "tail",
+          "source": "), \"laugheth at the time to come\"; \"laughter\" for \"laughing\" (",
+          "target": "), elle a « laugheth at the time to come » ; « laughter » pour « laughing » (",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "W. L. Walker",
+          "target": "W. L. Walker",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-aaffbf9e90467d2c57b9",
+      "source_key": "LOVINGKINDNESS",
+      "source_article_sha256": "7c83929738f9d42e9b760d1c7d71e17faf40a6310d0a2f4fbe4c5befeb4098bc",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "LOVINGKINDNESS",
+          "target": "BONTÉ FIDÈLE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "luv-ing-kind'-nes (hecedh): \"Lovingkindness\" in the King James Version always represents this word (30 times), but of hecedh there are many other renderings, e.g. \"mercy\" (frequently), \"kindness\" (38), \"goodness\" (12). The word is derived from chacadh, meaning, perhaps, \"to bend or bow oneself,\" \"to incline oneself\"; hence, \"to be gracious or merciful.\" the English Revised Version has not many changes, but in the American Standard Revised Version \"lovingkindness\" is invariably employed when checedh is used of God, and, as a rule, \"kindness\" when it is used of man, as in ",
+          "target": "luv-ing-kind'-nes (hecedh) : dans la King James Version, « lovingkindness » traduit toujours ce terme (trente fois), mais hecedh reçoit aussi bien d'autres traductions, par exemple « mercy » (fréquemment), « kindness » (trente-huit fois) et « goodness » (douze fois). Le mot dérive de chacadh, qui signifierait peut-être « se courber », « s'incliner », d'où « faire grâce » ou « exercer la miséricorde ». L'English Revised Version modifie peu cette traduction, mais l'American Standard Revised Version emploie invariablement « lovingkindness » lorsque checedh désigne l'action de Dieu, et généralement « kindness » lorsqu'il s'agit d'un homme, comme dans ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (the King James Version \"mercy,\" the Revised Version (British and American) \"deal kindly\"); ",
+          "target": " (« mercy » dans la King James Version ; « deal kindly » dans la Revised Version [britannique et américaine]) ; ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " (the King James Version \"goodness,\"'); margin \"Hebrew: kindness\" the Revised Version (British and American) \"good deeds\"); ",
+          "target": " (« goodness » dans la King James Version ; en marge « hébreu : kindness », et « good deeds » dans la Revised Version [britannique et américaine]) ; ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ", etc. Of the uses of the word as on man's part toward God, the only occurrences are: ",
+          "target": ", etc. Pour l'emploi du terme concernant l'attitude de l'homme envers Dieu, on ne relève que ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", \"I remember for thee the kindness of thy youth, the love of thine espousals,\" etc.; ",
+          "target": " : « Je me souviens de la bonté de ta jeunesse, de l'amour de tes fiançailles », etc. ; ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": ", \"Your goodness (the Revised Version margin \"or kindness\") is as a morning cloud,\" \"I desire goodness (the King James Version \"mercy,\" the Revised Version margin \"Kindness\"), and not sacrifice,\" which last passage may denote kindness as toward man.",
+          "target": " : « Votre bonté (ou « kindness », selon la marge de la Revised Version) est comme la nuée du matin », et « Je désire la bonté (la King James Version : « mercy » ; marge de la Revised Version : « kindness »), non les sacrifices » ; ce dernier passage pourrait toutefois désigner la bonté envers autrui.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "When used of God checedh denotes, in general, \"the Divine Love condescending to His creatures, more especially to sinners, in unmerited kindness\" (Delitzsch). It is frequency associated with forgiveness, and is practically equivalent to \"mercy\" or \"mercifulness\" (",
+          "target": "Lorsqu'il est appliqué à Dieu, checedh désigne en général « l'amour divin qui s'abaisse vers ses créatures, particulièrement vers les pécheurs, avec une bonté imméritée » (Delitzsch). Il est fréquemment associé au pardon et équivaut pratiquement à « miséricorde » ou « compassion » (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "), \"showing lovingkindness (the English Revised Version \"mercy\") unto thousands of them that love me\"; ",
+          "target": ") : « faisant preuve de bonté fidèle » (English Revised Version : « mercy ») « envers des milliers de ceux qui m'aiment » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": " f, \"slow to anger, and abundant in lovingkindness (the English Revised Version \"plenteous in mercy\")\"; (34:7) \"keeping lovingkindness (the English Revised Version \"mercy\") for thousands, forgiving iniquity and transgression and sin\" (compare ",
+          "target": " et suiv. : « lent à la colère et abondant en bonté fidèle » (English Revised Version : « plenteous in mercy ») ; (34:7) « conservant la bonté fidèle envers des milliers, pardonnant l'iniquité, la transgression et le péché » (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": ", \"He retaineth not his anger for ever, because he delighteth in lovingkindness\" (the English Revised Version \"mercy\"). This quality in Yahweh was one by which He sought to bind His people to Himself. It is greatly magnified in the Old Testament, highly extolled and gloried in, in many of the psalms (Ps 136 has the constant refrain, \"For his lovingkindness endureth forever\"). In ",
+          "target": " : « Il ne garde pas sa colère à toujours, car il prend plaisir à la bonté fidèle » (English Revised Version : « mercy »). Par cette qualité, Yahvé cherchait à attacher son peuple à lui-même. L'Ancien Testament l'exalte abondamment et plusieurs psaumes la célèbrent avec force (le Psaume 136 répète : « Car sa bonté fidèle dure à toujours »). Dans ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": " it is associated with the covenant, and in ",
+          "target": ", elle est associée à l'alliance, et dans ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": " with the covenant with David (compare ",
+          "target": " à l'alliance avec David (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": ", etc.). It was something that could always be relied on.",
+          "target": ", etc.). On pouvait toujours compter sur elle.",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "Being such an essential and distinctive quality of God, the prophets taught that it should also characterize His people. It is part of the Divine requirement in ",
+          "target": "Puisqu'il s'agit d'une qualité si essentielle et si caractéristique de Dieu, les prophètes enseignaient qu'elle devait également marquer son peuple. Elle figure parmi les exigences divines de ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": ", \"to love kindness\" (compare ",
+          "target": " : « aimer la bonté » (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": ", \"Show kindness and compassion every man to his brother\"). The want of it in the nation was a cause of Yahweh's controversy with them, e.g. ",
+          "target": " : « Pratiquez la bonté et la compassion chacun envers son frère »). Son absence dans la nation était un motif de contestation de Yahvé à son égard, par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": ", \"There is no truth, nor goodness (checedh) (the King James Version and the English Revised Version \"mercy\"), nor knowledge of God in the land\"; ",
+          "target": " : « Il n'y a ni vérité ni bonté (checedh) » (King James Version et English Revised Version : « mercy ») « ni connaissance de Dieu dans le pays » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": ", \"Therefore turn thou to thy God: keep kindness (the King James Version and the English Revised Version \"mercy\") and justice, and wait for thy God continually.\" Cheyne (Encyclopedia Biblica) regards [~checedh as denoting paternal affection on God's part, answered by filial and loyal affection and brotherly love on man's part (philadelphia in the New Testament).",
+          "target": " : « Et toi, reviens à ton Dieu ; garde la bonté » (King James Version et English Revised Version : « mercy ») « et la justice, et espère continuellement en ton Dieu ». Cheyne (Encyclopedia Biblica) considère [~checedh comme désignant l'affection paternelle de Dieu, à laquelle répondent chez l'homme l'affection filiale et loyale et l'amour fraternel (philadelphia dans le Nouveau Testament).",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "The word \"lovingkindness\" does not occur in the New Testament, but as its equivalents we have such terms as \"mercy\" \"goodness,\" \"kindness,\" \"brotherly love\" (see special articles).",
+          "target": "Le mot anglais « lovingkindness » ne se rencontre pas dans le Nouveau Testament, mais il trouve des équivalents dans des termes comme « miséricorde », « bonté », « bienveillance » et « amour fraternel » (voir les articles correspondants).",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "W. L. Walker",
+          "target": "W. L. Walker",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-5debe755e4dadf1891d7",
+      "source_key": "MERCHANDISE",
+      "source_article_sha256": "fe2d513cf0c6423e885454ad0c1bad59ec57a51afad4713740bd0a056f06a0c3",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "MERCHANDISE",
+          "target": "MARCHANDISE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "mur'-chan-diz",
+          "target": "mur'-chan-diz",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) `amar",
+          "target": "(1) `amar",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(2) cachar,",
+          "target": "(2) cachar,",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(3) cachar,",
+          "target": "(3) cachar,",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(4) cechorach,",
+          "target": "(4) cechorach,",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(5) rekhullah,",
+          "target": "(5) rekhullah,",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(6) ma`arabh,",
+          "target": "(6) ma`arabh,",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(7) markoleth;",
+          "target": "(7) markoleth;",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(8) emporia",
+          "target": "(8) emporia",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(9) emporion,",
+          "target": "(9) emporion,",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "(10) gomos)",
+          "target": "(10) gomos)",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": ": There seem to be 4 distinct meanings of the word according to the Revised Version (British and American), namely: (1) The products, i.e. goods or things sold or exchanged, and so merchandise in the present-day usage:",
+          "target": " : Selon la Revised Version (britannique et américaine), le mot semble avoir quatre sens distincts : (1) les produits, c'est-à-dire les biens vendus ou échangés, et donc les marchandises au sens actuel :",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "(a) cachar is translated thus in ",
+          "target": "(a) cachar est traduit ainsi dans ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "(b) cachar is translated thus in ",
+          "target": "(b) cachar est également traduit ainsi dans ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "; these two are from a root meaning \"to travel around as a peddler\";",
+          "target": " ; ces deux mots proviennent d'une racine signifiant « voyager comme marchand ambulant » ;",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "(c) rekhullah, translated thus in ",
+          "target": "(c) rekhullah, traduit ainsi dans ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": ", from a root meaning \"to travel for trading purposes\";",
+          "target": ", provient d'une racine signifiant « voyager pour commercer » ;",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(d) ma`arabh, translated thus in ",
+          "target": "(d) ma' arabh, traduit ainsi dans ",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": ", from a root meaning \"to intermix, to barter\";",
+          "target": ", provient d'une racine signifiant « mélanger, échanger par troc » ;",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "(e) markoleth, translated thus in ",
+          "target": "(e) markoleth, traduit ainsi dans ",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": " (the above 5 Hebrew words are all used to designate the goods or wares which were bartered);",
+          "target": " (les cinq mots hébreux précédents servent tous à désigner des biens ou marchandises échangés par troc) ;",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "(f) `amar, occurring in ",
+          "target": "(f) `amar, attesté dans ",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": ", translated in the King James Version \"make merchandise of,\" but in the Revised Version (British and American) \"deal with as a slave,\" or the Revised Version margin \"deal with as a chattel\";",
+          "target": ", est rendu dans la King James Version par « make merchandise of », mais dans la Revised Version (britannique et américaine) par « traiter comme un esclave », ou en marge « traiter comme un bien mobilier » ;",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "(g) emporia, translated \"merchandise\" in ",
+          "target": "(g) emporia est traduit par « marchandise » dans ",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "(h) emporion, likewise in ",
+          "target": "(h) emporion l'est également dans ",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": " (the same Greek word is used in ",
+          "target": " (le même mot grec est employé en ",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "tail",
+          "source": " for the American Standard Revised Version \"make merchandise of you\");",
+          "target": " pour « exploiter comme une marchandise » dans l'American Standard Revised Version) ;",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "(i) gomos, \"merchandise,\" margin \"cargo.\"",
+          "target": "(i) gomos, « marchandise » ; en marge « cargaison ».",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "(2) The process of trade itself, i.e. the business: rekhullah has in it the root meaning of \"itinerant trading\", and so in ",
+          "target": "(2) Le commerce lui-même, c'est-à-dire l'activité marchande : rekhullah contient l'idée fondamentale de « commerce itinérant ». Ainsi, dans ",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "tail",
+          "source": " the correct translation is not \"merchandise,\" as in the King James Version, but \"traffic,\" \"abundance of thy traffic,\" i.e. doing a thriving business: \"trade was good.\"",
+          "target": ", la bonne traduction n'est pas « marchandises », comme dans la King James Version, mais « trafic », « abondance de ton commerce », autrement dit une activité commerciale prospère : « les affaires marchaient bien ».",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "(3) The place of trading, i.e. emporium, mart, etc.: cechorah in ",
+          "target": "(3) Le lieu où l'on commerce : entrepôt, marché, etc. : cechorah, dans ",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": " is translated \"mart.\" In ",
+          "target": ", est traduit par « marché ». En ",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": " reference is made to the \"house of merchandise.\"",
+          "target": ", il est question d'une « maison de commerce ».",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "(4) The profits of trading: In ",
+          "target": "(4) Les profits du commerce : dans ",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "tail",
+          "source": ", cachar is translated \"gaining.\" Referring to wisdom, \"For the gaining of it is better than the gaining of silver, and the profit thereof than fine gold\"; the King James Version \"merchandise.\"",
+          "target": ", cachar est traduit par « gain ». À propos de la sagesse : « Car son acquisition vaut mieux que celle de l'argent, et son profit mieux que l'or fin » ; la King James Version emploie « merchandise ».",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "William Edward Raffety",
+          "target": "William Edward Raffety",
+          "action": "preserve",
+          "reason": "Original-language lexeme, historical pronunciation or attribution retained"
+        }
+      ]
+    },
+    {
       "article_id": "isbe-2a0500fd03af1c494328",
       "source_key": "METHUSELAH",
       "source_article_sha256": "880e3d0450e07c8a453a3b71bed76634c4fd6506af7f6f7a124f0f42a25952e8",
