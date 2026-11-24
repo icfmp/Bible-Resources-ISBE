@@ -28,6 +28,8 @@ The one-shot Actions workflows for the initial source draft and later native bin
 
 ## Publication restrictions
 
-[Rights #1](https://github.com/icfmp/Bible-Resources-ISBE/issues/1) and the original multi-author EU/France/CrossWire digitization-layer rights review are unresolved. **Do not click Publish release or use `gh release edit --draft=false` until the source-specific legal rights have been cleared and approved.** No other automated job is permitted to publish this asset. The source file is already retained in a **public repository**, which is independently relevant to the same rights analysis and does not resolve the outstanding legal question.
+**Maintainer decision (2026-11-24):** The owner accepts the historical 1915 edition and CrossWire's declared `Public Domain` license as the project's distribution basis. An independent additional France/EU contributor or digitization-layer audit is **not required** and is no longer a publication blocker. This is a maintainer policy decision, not a claim that a jurisdiction-by-jurisdiction legal review was completed; see [provenance issue #1](https://github.com/icfmp/Bible-Resources-ISBE/issues/1).
+
+**The draft remains unpublished** because final reader/editorial acceptance and explicit approval of the actual release are still pending ([#79](https://github.com/icfmp/Bible-Resources-ISBE/issues/79), [#9](https://github.com/icfmp/Bible-Resources-ISBE/issues/9)). No automated workflow may publish this draft unilaterally.
 
 Release content and version metadata are documented in `RELEASE_NOTES.md` and `PUBLICATION_GATES.md`.

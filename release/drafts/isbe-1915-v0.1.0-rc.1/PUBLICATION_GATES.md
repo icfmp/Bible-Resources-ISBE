@@ -1,37 +1,36 @@
-# Rights and editorial gates for ISBE 1915 v0.1.0-rc.1
+# ISBE 1915 v0.1.0-rc.1 — publication readiness
 
-**Outcome: DO NOT PUBLISH.** A source-pinned internal GitHub release *draft* now holds both corrected TEI source and a real compiled SWORD binary candidate. Neither is approved for **public** redistribution on the basis of technical validation alone.
+**Status: unpublished draft; technical and editorial acceptance remain open.** The source-pinned draft contains the corrected TEI and compiled SWORD candidate. This is a state report, not a claim that the binary has passed final reader acceptance.
 
-## Verified
+## Maintainer decision on public-domain distribution — 2026-11-24
 
-- [x] CrossWire ISBE 2.2 source retained as an immutable ZIP with exact SHA-256 and upstream attribution.
-- [x] CrossWire **declares** `DistributionLicense=Public Domain` for the module, confirmed at https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=ISBE and in the archived module configuration.
-- [x] The 1915 Orr/Howard-Severance print is an original historical source; pre-1931 U.S. publication is public domain in the U.S.
-- [x] The corrected 9,380-entry historical TEI is separately pinned and can be reconstructed byte-for-byte with original evidence and official TEI P5 schema validation.
-- [x] Cleaned edition, source-faithful CrossWire witness and original ZIP are distinctly stored and identified; a compiled native SWORD binary is stored in an **unpublished draft only**, and no SWORD package has been publicly released.
+The project owner expressly accepts the **Public Domain** status declared by CrossWire for ISBE 2.2 and the historical **1915** edition as a sufficient basis to proceed. **No further legal/copyright investigation or independent jurisdiction-by-jurisdiction clearance is required as an ISBE publication gate.** This ends the project's discretionary additional rights review, previously imposed by the maintainer's assistant rather than by the owner.
 
-- [x] Source-locked `tei2mod` compilation of an actual corrected `BRISBE1915` ZIP zLD module.
-- [x] Full native SWORD `mod2imp` parity: 9,380 entries, zero text/XML mismatch, original source unchanged.
-- [x] Validate 5,919 converted internal navigation targets and 93,164 exposed Bible reference fields in the compiled text; record 80 reduced section-scroll targets.
-- [x] Retain private source and native binary release **draft** assets with SHA-256 and delete the expiring publicly retrievable Actions copy.
-- [x] Real **AARON** headword input and corresponding corrected article text visibly confirmed in [Xiphos](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45279693011) and [BibleTime](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561) (second attempt, [screenshots](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561/artifacts/14869951086)).
-- [ ] **Full** Xiphos/BibleTime reader acceptance, including actual clicked hyperlinks, Greek/Hebrew, nested scholarly structures, section-level navigation, and independent editorial inspection.
+Evidence retained for provenance: CrossWire's module configuration declares `DistributionLicense=Public Domain`, and the 1915 historical edition is identified and preserved. The owner acceptance is a **project distribution decision**, not a representation that an independent France/EU contributor-by-contributor legal review was performed. Keep that distinction in metadata. Never rewrite source provenance or rights statements silently.
 
-## Unresolved before publication
+## Verified technical preparation
 
-- [ ] Establish the law applicable to distinct named ISBE article contributors in the **EU/France**. A multi-author encyclopedia is not automatically exempt from protection on identifiable separately authored articles merely because the U.S. printed original is in the public domain. Check whether French *œuvre collective* rules apply to the work as a whole and whether individual contributions retain separate protection.
-- [ ] Verify the exact chain and basis of CrossWire 2.2 digital *text / markup / later OCR corrections*, including contributions not in the original 1915 edition.
-- [ ] Confirm whether the rights situation of the exact digitally edited TEI is sufficient for unrestricted redistribution in target countries, not merely for preserving working files in Git.
-- [ ] Independently check contributor and publisher notices/attribution before distributing a new SWORD module, modernized derivative or translation.
-- [ ] Obtain final owner-approved editorial and distribution sign-off (including source display, native SWORD reader acceptance if a compiled module is contemplated). The draft holds source **and native binary**, both unapproved for publication.
+- [x] Immutable original CrossWire 2.2 ZIP with SHA-256 and upstream provenance.
+- [x] Corrected source-locked TEI P5, **9,380 entries**, validated by official schemas and reproducible from preserved evidence.
+- [x] Native `BRISBE1915` SWORD zLD ZIP compilation and complete `mod2imp` readback: 9,380 keys, no missing/extra, zero Unicode text or XML structure mismatches.
+- [x] Source-to-SWORD mapping audited: **5,919** internal dictionary references and **93,164** biblical references, with **80** documented losses of intra-article scroll precision; original selectors retained.
+- [x] Exact **AARON** headword and corresponding article visibly opened independently in Xiphos and BibleTime ([Xiphos evidence](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45279693011); [BibleTime evidence](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561)).
+- [x] Actual verse-reference click attempts captured in both readers ([PR #89](https://github.com/icfmp/Bible-Resources-ISBE/pull/89), [PR #92](https://github.com/icfmp/Bible-Resources-ISBE/pull/92)), with **unsuccessful end-to-end Bible passage-body navigation** transparently documented.
+- [x] Original and corrected historical sources are preserved separately. The compiled candidate remains in an **unpublished** GitHub release draft, not in a public SWORD catalogue or installed `modules/isbe-1915/payload/`.
 
-## References
+## Remaining work before release
 
-- CrossWire module metadata: https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=ISBE
-- CrossWire copyright metadata: https://crosswire.org/sword/copyright/ModInfoCopyright.jsp?modName=ISBE
-- CrossWire's general module copyright policy: https://wiki.crosswire.org/Copyright
-- Official French copyright terms, particularly L123-1 and L123-3: https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069414/LEGISCTA000006161638/
-- Original 1915 volume facsimile attribution (U.S. public-domain claim): https://commons.wikimedia.org/wiki/File:The_International_Standard_Bible_Encyclopedia_Volume_1.pdf
-- Project rights tracking: https://github.com/icfmp/Bible-Resources-ISBE/issues/1
+- [ ] Review and document actual article-to-article hyperlink navigation in independent SWORD readers.
+- [ ] Resolve or explicitly accept and document client-specific Scripture link limitations (Xiphos `passagestudy.jsp`, BibleTime new tab shows Genesis 1 body while requested reference is Exodus 6:20).
+- [ ] Inspect source-attested Greek/Hebrew characters, nested divisions, paragraph layout and the 80 section-navigation limitations; do not change historical text to conceal reader defects.
+- [ ] Complete enough editorial review of the historical edition under [#9](https://github.com/icfmp/Bible-Resources-ISBE/issues/9) to accurately describe its quality and limitations; do not claim full printed-1915 collation.
+- [ ] Obtain project-owner approval of **the actual release** once its content, limitations and artifacts are ready. Public publication remains a separate action, not an automatic consequence of accepting the public-domain basis.
 
-**Fail closed**: no automatic workflow may call `gh release edit --draft=false`, upload a public artifact, promote a tag to a published release, or claim the remaining gates passed without separate review and authorization.
+## Provenance and tracking
+
+- CrossWire module: https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=ISBE
+- Original import/provenance and recorded owner decision: [issue #1](https://github.com/icfmp/Bible-Resources-ISBE/issues/1)
+- Reader acceptance: [issue #79](https://github.com/icfmp/Bible-Resources-ISBE/issues/79)
+- Editorial review: [issue #9](https://github.com/icfmp/Bible-Resources-ISBE/issues/9)
+
+**No automatic publication:** CI verifies data, not approval of a specific release. Do not auto-toggle a draft to public or upload a public binary without the project owner's release decision.
