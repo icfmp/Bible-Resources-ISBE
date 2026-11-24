@@ -3,7 +3,7 @@
   "source_work": "ISBE 1915 — corrected historical English master",
   "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "language": "fr",
-  "status": "translation_in_progress",
+  "status": "unreviewed_drafts",
   "publication_permitted": false,
   "articles": [
     {
@@ -1728,63 +1728,64 @@
       "source_key": "APRON",
       "article_id": "isbe-bec35402bab96089be52",
       "source_article_sha256": "7224bacb050304374c919e34037a7964ce47f638cfd807bb056958fcb5ef74bb",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "APRON",
-          "target": "",
-          "action": "pending_translation"
+          "target": "TABLIER",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a'-prun: Appears only in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a'-prun : Ce terme n'apparaît que dans ",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": " and ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": " English Versions. English na-prun, North of England nap-peon, from Low Latin, through French nape, nappe, \"napkin.\" The \"n\" was dropped owing to false division of the article a from the noun; thus \"a napron\" became \"an apron:\" In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans les versions anglaises. Le mot anglais vient de na-prun, ou nap-peon dans le nord de l'Angleterre, par le bas latin et le français nape, « nappe », « serviette ». Le « n » a disparu par une division erronée de l'article : « a napron » devint « an apron ». En ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": " it is used to translate a Hebrew word rendered \"girdles\" in Revised Version margin: \"And they sewed fig-leaves together and made themselves aprons.\" In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", il traduit un mot hébreu rendu par « ceintures » dans la note marginale de la Revised Version : « Ils cousirent des feuilles de figuier et s'en firent des tabliers. » En ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " simikinthia, stands for semicinctia, which is really a Latin word meaning \"half-girdle,\" i.e. girdles going only half round the body and covering the front of the person: \"Unto the sick were carried away from his (Paul's) body handkerchiefs (soudaria, rendered \"napkins\" ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", simikinthia vient du latin semicinctia, littéralement « demi-ceinture », c'est-à-dire une ceinture ne faisant qu'à moitié le tour du corps et couvrant sa partie antérieure : « On portait aux malades, après les avoir pris sur son corps [celui de Paul], des mouchoirs » (soudaria, traduit par « serviettes » en ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": ") or aprons.\" The word denotes here, probably, a workman's apron, perhaps those of Paul himself; though it seems more natural to suppose that the people brought their own \"handkerchiefs\" or \"aprons\" to Paul to secure the miraculous effect desired. The garments, at any rate, were such as could be easily removed and carried back and forth. (See Rich, Dict. of Roman and Greek Ant, under the word, for illust.; also Pope's Lexicon, under the word).",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") « ou des tabliers ». Il s'agit probablement de tabliers d'artisans, peut-être ceux de Paul ; cependant, il paraît plus naturel que les gens aient apporté leurs propres « mouchoirs » ou « tabliers » à Paul pour obtenir l'effet miraculeux souhaité. Ces vêtements étaient en tout cas assez faciles à enlever et à transporter (voir Rich, Dictionary of Roman and Greek Antiquities, à cet article, pour des illustrations ; également le Lexicon de Pope).",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "text",
           "source": "George B. Eager",
-          "target": "",
-          "action": "pending_translation"
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Source author byline"
         }
       ]
     },
@@ -1792,84 +1793,86 @@
       "source_key": "ARAD",
       "article_id": "isbe-2ec11aaed0d4dae42374",
       "source_article_sha256": "1060549ec74ecc996ed2504c9d27d8e98cef504167eaafba694bbf21d37e8fb9",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ARAD",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ARAD",
+          "action": "preserve",
+          "reason": "Original canonical headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a'-rad (`aradh; Arad):",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a'-rad (`aradh ; Arad) :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) A city mentioned four times in the Old Testament. In the King James Version it is twice mistakenly rendered as the name of a king (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Ville mentionnée quatre fois dans l'Ancien Testament. La King James Version la prend deux fois, à tort selon l'auteur, pour le nom d'un roi (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "). Three times it is spoken of as in the South Country, one mention using the phrase `the wilderness of Judah which is in the South Country of Arad' (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). À trois reprises, elle est située dans le pays du Sud ; un passage parle du « désert de Juda dans le pays du Sud d'Arad » (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": "), that is, the part of the wilderness of Judah which is in the South Country near Arad. It was situated near the frontier of Judah and Simeon, being grouped with Debir, Hormah, Makkedah, etc. (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), c'est-à-dire la partie du désert de Juda proche d'Arad. Elle se trouvait près de la frontière de Juda et Siméon, dans un groupe comprenant Debir, Horma, Makkéda, etc. (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": "). Arad and other cities joined in attacking Israel in the fortieth year of the sojourn in the wilderness (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Arad et d'autres villes participèrent à l'attaque contre Israël lors de la quarantième année au désert (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": "), and Israel vowed to \"make their cities a devoted thing.\" In the case of Zephath, one of the cities, this vow was fulfilled after the death of Joshua (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; Israël fit alors le vœu de « vouer leurs villes à l'interdit ». Pour Tsephath, l'une de ces villes, ce vœu fut accompli après la mort de Josué (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": "). The Kenite relatives of Moses had their inheritance near Arad (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Les parents kénites de Moïse reçurent un héritage près d'Arad (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": "). In the form a-ru-da the city is mentioned by Shishak of Egypt as among the places which he conquered in Palestine. The identification of the site with Tel Arad, about 17 miles South of Hebron, seems to be generally accepted.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Sous la forme a-ru-da, la ville figure parmi les lieux palestiniens conquis par Shishak d'Égypte. Son identification à Tel Arad, à environ dix-sept milles au sud d'Hébron, est généralement admise.",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "(2) One of the descendants of Elpaal the son of Shaharaim, mentioned among the descendants of Benjamin (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Descendant d'Elpaal, fils de Shaharaïm, mentionné parmi la postérité de Benjamin (",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "Willis J. Beecher",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Willis J. Beecher",
+          "action": "preserve",
+          "reason": "Source author byline"
         }
       ]
     },
@@ -1877,105 +1880,109 @@
       "source_key": "ARIOCH",
       "article_id": "isbe-f5e19b1c232012789266",
       "source_article_sha256": "9c107ab7e74bb6cfd5c293dc60ca2862747c860c0ec12a6d83ceb8287bcb0d1c",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ARIOCH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ARIOCH",
+          "action": "preserve",
+          "reason": "Original canonical headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ar'-i-ok: ('aryokh):",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ar'-i-ok ('aryokh) :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) The name of the vassal king of Ellasar, under Chedorlaomer, king of Elam, and Amraphel, king of Shinar (Babylonia), who took part in the expedition against Sodom, Gomorrah and other states (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Nom d'un roi vassal d'Ellasar, dépendant de Kedorlaomer, roi d'Élam, et d'Amraphel, roi de Shinéar (Babylonie), qui prit part à l'expédition contre Sodome, Gomorrhe et d'autres cités (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "). Assyriologists generally, and probably rightly, identify Arioch with Eri-Aku (which see), king of Larsa, Ellasar being for Al-Larsa (now Sinqara in central Babylonia).",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Les assyriologues identifient généralement, et probablement à juste titre selon cette notice ancienne, Arjoc à Eri-Aku (voir cet article), roi de Larsa ; Ellasar représenterait Al-Larsa, actuellement Sinqara, en Babylonie centrale.",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "Texts Referring to the Reign of Arioch:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Textes relatifs au règne d'Arjoc :",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "For an account of the expedition see ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Pour le récit de l'expédition, voir ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "AMRAPHEL",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AMRAPHEL",
+          "action": "preserve",
+          "reason": "Original canonical proper name or author byline"
         },
         {
           "node": 8,
           "part": "tail",
           "source": ", and for the Babylonian texts bearing upon the reign, see ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; pour les textes babyloniens se rapportant au règne, voir ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "ERI-AKU",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ERI-AKU",
+          "action": "preserve",
+          "reason": "Original canonical proper name or author byline"
         },
         {
           "node": 9,
           "part": "tail",
           "source": ". In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". En ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": ", where the names of the allied kings who marched against the Cities of the Plain are given, that of Arioch follows his more immediate suzerain, Amraphel, and not Chedorlaomer, who, however, appears to have been the real overlord (verse 4), which agrees with the indications of the Bah records. No details of the expedition are available from Babylonian sources. Besides Larsa, Eri-Aku's inscriptions inform us that Ur (Muqayyar, Mugheir) was in the principality of which Larsa was the capital.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", dans la liste des rois alliés ayant marché contre les villes de la Plaine, Arjoc est nommé après son suzerain le plus direct, Amraphel, et non Kedorlaomer, qui paraît pourtant avoir été le véritable souverain dominant (verset 4), ce qui concorde avec les indications des documents de Bah. Les sources babyloniennes ne donnent aucun détail de l'expédition. Les inscriptions d'Eri-Aku montrent qu'outre Larsa, Ur (Mouqayyar, Mugheir) faisait partie de la principauté dont Larsa était la capitale.",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "(2) The Arioch of ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) L'Arjoc de ",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "tail",
           "source": " was captain of the bodyguard of King Nebuchadnezzar. Nothing else is known about him except that it was he who was commanded to slay the \"wise men\" who failed to repeat to the king his dream and its interpretation; and who communicated to his royal master that Daniel had undertaken the task.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " était capitaine de la garde du corps du roi Nabuchodonosor. On ne sait rien d'autre sur lui, sinon qu'il reçut l'ordre de tuer les « sages » incapables de rappeler au roi son songe et son interprétation, et qu'il informa le souverain que Daniel acceptait cette tâche.",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "text",
           "source": "T. G. Pinches",
-          "target": "",
-          "action": "pending_translation"
+          "target": "T. G. Pinches",
+          "action": "preserve",
+          "reason": "Source author byline"
         }
       ]
     },
@@ -1983,77 +1990,78 @@
       "source_key": "ARISTARCHUS",
       "article_id": "isbe-40e205cf33324c2d4ee9",
       "source_article_sha256": "d243129709a9bfeb1a46bc2ac7b6802646c0c199d31c56685f413ca25fbadd0f",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ARISTARCHUS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ARISTARQUE",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ar-is-tar'-kus (Aristarchos, \"best ruler\"): He was one of those faithful companions of the apostle Paul who shared with him his labors and sufferings. He is suddenly mentioned along with Gaius as having been seized by the excited Ephesians during the riot stirred up by the silversmiths (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ar-is-tar'-kus (Aristarchos, « meilleur dirigeant ») : L'un des fidèles compagnons de l'apôtre Paul, qui partagea ses travaux et ses souffrances. Il est mentionné soudain avec Gaïus, tous deux saisis par les Éphésiens en colère lors de l'émeute suscitée par les orfèvres (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "). They are designated \"men of Macedonia, Paul's companions in travel.\" We learn later that he was a native of Thessalonica (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Ils sont appelés « Macédoniens, compagnons de voyage de Paul ». On apprend ensuite qu'Aristarque venait de Thessalonique (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "). They were probably seized to extract from them information about their leader Paul, but when they could tell nothing, and since they were Greeks, nothing further was done to them.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Ils furent probablement arrêtés dans l'espoir d'obtenir des informations sur Paul, mais comme ils ne purent rien révéler et qu'ils étaient Grecs, on ne leur fit rien de plus.",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "When Aristarchus attached himself to Paul we do not know, but he seems ever after the Ephesian uproar to have remained in Paul's company. He was one of those who accompanied Paul from Greece via Macedonia (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "On ignore quand Aristarque s'attacha à Paul ; il semble être resté auprès de lui depuis les troubles d'Éphèse. Il faisait partie de ceux qui accompagnèrent Paul de Grèce en passant par la Macédoine (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": "). Having preceded Paul to Troas, where they waited for him, they traveled with him to Palestine. He is next mentioned as accompanying Paul to Rome (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). L'ayant précédé à Troas où ils l'attendirent, ils voyagèrent avec lui jusqu'en Palestine. Il est ensuite cité comme compagnon de Paul vers Rome (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": "). There he attended Paul and shared his imprisonment. He is mentioned in two of the letters of the Roman captivity, in the Epistle to the church at ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Là, il assista Paul et partagea sa captivité. Il figure dans deux lettres de cette captivité : l'épître à l'Église de ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": ", and in the Epistle to Phm (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et l'épître à Philémon (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": "), in both of which he sends greetings. In the former Paul calls him \"my fellow-prisoner.\" According to tradition he was martyred during the persecution of Nero.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Dans les deux, il adresse ses salutations ; dans la première, Paul le nomme « mon compagnon de captivité ». Selon la tradition, il aurait subi le martyre sous la persécution de Néron.",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "S. F. Hunter",
-          "target": "",
-          "action": "pending_translation"
+          "target": "S. F. Hunter",
+          "action": "preserve",
+          "reason": "Source author byline"
         }
       ]
     },
@@ -2061,126 +2069,127 @@
       "source_key": "ARM",
       "article_id": "isbe-316dddc5a44e6bf78986",
       "source_article_sha256": "7889a62b945f68b54771f12deaa7679cd96edba358c2b177e8e30c28e014c6d8",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ARM",
-          "target": "",
-          "action": "pending_translation"
+          "target": "BRAS",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "arm (zeroa`, 'ezroa`, dera`; brachion; chotsen, katheph): The usual form is zeroa` from the root zara`, \"to spread.\" The arm may be \"stretched out.\" 'Ezroa` is this form with prosthetic 'aleph (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "arm (zeroa`, 'ezroa`, dera` ; brachion ; chotsen, katheph) : La forme habituelle est zeroa`, de la racine zara`, « étendre ». Le bras peut être « étendu ». 'Ezroa` est la même forme avec un aleph prosthétique (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": "), and dera` is the Aramaic form. Chotsen is really \"bosom,\" thus the Revised Version (British and American) (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; dera` est sa forme araméenne. Chotsen signifie en fait « sein » ou « poitrine », ce que donne la Revised Version (britannique et américaine) (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "); and katheph is \"shoulder,\" thus the Revised Version (British and American) (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; katheph signifie « épaule », comme dans la Revised Version (britannique et américaine) (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": "). Compare cheir, also, in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Comparer également cheir en ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "Figurative: The arm denotes influence, power, means of support or conquest. The arms of Moab (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Au figuré : Le bras représente l'influence, la puissance, les moyens de soutien ou de conquête. Les bras de Moab (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": ") and of Pharaoh (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") et de Pharaon (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": " ff) are broken. The arm of Eli and the arm of his father's house are to be cut off (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv.) sont brisés. Le bras d'Éli et celui de la maison de son père doivent être coupés (",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": "). Because the arm wielded the sword it signified \"oppression\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Parce qu'il brandit l'épée, le bras symbolise l'« oppression » (",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "tail",
           "source": "). The arms are the means of support, therefore to refuse to aid the fatherless is to break their arms (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Le bras soutient ; ainsi, refuser de secourir les orphelins, c'est leur briser le bras (",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "text",
           "source": "Applied anthropomorphically to God, the arm denotes also His power, power to deliver, support, conquer. His \"outstretched arm\" delivered Israel from Egypt (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Appliqué à Dieu de manière anthropomorphique, le bras désigne sa puissance pour délivrer, soutenir et vaincre. Son « bras étendu » délivra Israël de l'Égypte (",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "tail",
           "source": ", etc.). They support: \"Underneath are the everlasting arms\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et autres passages). Il soutient : « Au-dessous de toi sont les bras éternels » (",
+          "action": "translate"
         },
         {
           "node": 17,
           "part": "tail",
           "source": "). His arm protects (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Son bras protège (",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "tail",
           "source": "). Yahweh is sometimes likened to a warrior and smites with His arm (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Yahvé est parfois comparé à un guerrier qui frappe de son bras (",
+          "action": "translate"
         },
         {
           "node": 21,
           "part": "tail",
           "source": "). The arm of Yahweh is holy (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Le bras de Yahvé est saint (",
+          "action": "translate"
         },
         {
           "node": 23,
           "part": "tail",
           "source": "). Many other passages of Scripture might be quoted showing how the power of God to redeem, judge, protect, punish is expressed by the idea of \"the arm of Yahweh.\"",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Bien d'autres passages montreraient comment le « bras de Yahvé » exprime sa puissance pour racheter, juger, protéger et punir.",
+          "action": "translate"
         },
         {
           "node": 24,
           "part": "text",
           "source": "S. F. Hunter",
-          "target": "",
-          "action": "pending_translation"
+          "target": "S. F. Hunter",
+          "action": "preserve",
+          "reason": "Source author byline"
         }
       ]
     }
