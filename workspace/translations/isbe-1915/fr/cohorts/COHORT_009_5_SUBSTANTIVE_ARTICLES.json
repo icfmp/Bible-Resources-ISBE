@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five shortest eligible original articles still missing drafts after the merged cohort 008, with fixed original English keys, XML IDs and source fingerprints",
+  "selection_date": "2026-11-24",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 594,
+      "source_key": "APHEK",
+      "article_id": "isbe-981a0bca8f6bb558565f",
+      "source_article_sha256": "0109f53a33d65d7e60fd8ed3d8ffe36157260d1f3b60dbf0dc63fdc7fbf1eb15",
+      "source_eligible_chars": 1578,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0044-cohort-009-substantive-articles-01.json"
+    },
+    {
+      "index": 638,
+      "source_key": "APPII FORUM",
+      "article_id": "isbe-090e7740713c1dad880e",
+      "source_article_sha256": "5c593ad00dee11e3e60f8871e27c1fa13156a329e2d0d29682a5909e4871e707",
+      "source_eligible_chars": 1659,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0044-cohort-009-substantive-articles-01.json"
+    },
+    {
+      "index": 639,
+      "source_key": "APPLE, OF THE EYE",
+      "article_id": "isbe-909f59e82e46bd45e94c",
+      "source_article_sha256": "1e25866eff8fc42fc77b66541f60c9f3b6ed2e81ac99bfbdd5c04ab2c2550db3",
+      "source_eligible_chars": 1613,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0044-cohort-009-substantive-articles-01.json"
+    },
+    {
+      "index": 892,
+      "source_key": "ASSURANCE",
+      "article_id": "isbe-edfdb49e54aa01f476fc",
+      "source_article_sha256": "945b4e8d6d44f948a7bf05d3eb26c082042812d803b51de39b12095c769d69ef",
+      "source_eligible_chars": 1655,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0044-cohort-009-substantive-articles-01.json"
+    },
+    {
+      "index": 907,
+      "source_key": "ASTYAGES",
+      "article_id": "isbe-903f3c331119f258cb83",
+      "source_article_sha256": "43b513486b0ff33e7087fd01880d7fb7bc6e7082323ed74e8125e14b72be0f4a",
+      "source_eligible_chars": 1643,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0044-cohort-009-substantive-articles-01.json"
+    }
+  ]
+}
