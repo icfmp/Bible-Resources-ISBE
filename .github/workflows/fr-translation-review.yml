@@ -1,0 +1,64 @@
+name: Review first fifty ISBE French drafts (no publication)
+
+on:
+  push:
+    paths:
+      - 'scripts/render_translation_review_corpus.py'
+      - 'tests/test_translation_review_corpus.py'
+      - 'workspace/pilots/isbe-1915-fr/draft-patches.json'
+      - 'workspace/pilots/isbe-1915-fr/SOURCE_REVIEW_FLAGS.json'
+      - 'workspace/translations/isbe-1915/fr/batches/**'
+      - '.github/workflows/fr-translation-review.yml'
+  pull_request:
+    paths:
+      - 'scripts/render_translation_review_corpus.py'
+      - 'tests/test_translation_review_corpus.py'
+      - 'workspace/pilots/isbe-1915-fr/draft-patches.json'
+      - 'workspace/pilots/isbe-1915-fr/SOURCE_REVIEW_FLAGS.json'
+      - 'workspace/translations/isbe-1915/fr/batches/**'
+      - '.github/workflows/fr-translation-review.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  readable-drafts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate bilingual source parity and fifty-one complete reading drafts
+        run: python3 -m unittest tests.test_translation_review_corpus -v
+      - name: Render fifty source-locked pilot reading copies plus Abraham
+        run: |
+          python3 -m scripts.render_translation_review_corpus \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --patches workspace/pilots/isbe-1915-fr/draft-patches.json \
+            --patches workspace/translations/isbe-1915/fr/batches/0001-abraham.json \
+            --flags workspace/pilots/isbe-1915-fr/SOURCE_REVIEW_FLAGS.json \
+            --previews-dir /tmp/isbe-fr-reading-proofs \
+            --report /tmp/isbe-fr-reading-review.json
+      - name: Guard editorial status and full French preview count
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path('/tmp/isbe-fr-reading-review.json').read_text(encoding='utf-8'))
+          assert report['selected_complete_unreviewed_drafts']==51
+          assert report['pilot_drafts_count']==50
+          assert report['markdown_previews_generated']==51
+          assert report['source_flags_pending_witness_review']==12
+          assert report['human_editorially_approved']==0
+          assert report['article_checkboxes_marked_complete']==0
+          assert report['publication_permitted'] is False
+          assert len(list(Path('/tmp/isbe-fr-reading-proofs').glob('isbe-*.md')))==51
+          print('51 fully reconstructed French first drafts, 0 editorial approvals, 12 witness flags')
+          PY
+      - name: Retain full readable French drafts and editorial review index
+        uses: actions/upload-artifact@v4
+        with:
+          name: isbe-fr-50-pilot-reading-proofs-plus-abraham-unreviewed
+          path: |
+            /tmp/isbe-fr-reading-proofs/
+            /tmp/isbe-fr-reading-review.json
+          retention-days: 30
