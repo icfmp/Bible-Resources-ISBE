@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "origin": "ISBE 1915 corrected historical English TEI P5",
+  "original_english_tei_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "scope": "French pilot discovered anomalies only",
+  "rule": "No silent source rewriting or conjectural translations. Verify against primary witness before any editorial change.",
+  "items": [
+    {
+      "source_key": "HOLY OF HOLIES",
+      "canonical_article_id": "isbe-19ec654489183caacd8f",
+      "original_node_ordinal": 8,
+      "original_node_part": "tail",
+      "exact_original_fragment": "the holy Ceiled",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Possible corrupted reference to sanctuary partition",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    },
+    {
+      "source_key": "HOLY OF HOLIES",
+      "canonical_article_id": "isbe-19ec654489183caacd8f",
+      "original_node_ordinal": 10,
+      "original_node_part": "tail",
+      "exact_original_fragment": "great @@clothed",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Likely lost text or markup around the annual rite",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    },
+    {
+      "source_key": "DEUTERO-CANONICAL, BOOKS",
+      "canonical_article_id": "isbe-372b7942b4eb95851afd",
+      "original_node_ordinal": 5,
+      "original_node_part": "text",
+      "exact_original_fragment": "Teaching of the Apes",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Possibly corrupted historical book title",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    },
+    {
+      "source_key": "DEUTERO-CANONICAL, BOOKS",
+      "canonical_article_id": "isbe-372b7942b4eb95851afd",
+      "original_node_ordinal": 5,
+      "original_node_part": "text",
+      "exact_original_fragment": "Shepher",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Possibly truncated historical book title",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    },
+    {
+      "source_key": "DEUTERO-CANONICAL, BOOKS",
+      "canonical_article_id": "isbe-372b7942b4eb95851afd",
+      "original_node_ordinal": 11,
+      "original_node_part": "text",
+      "exact_original_fragment": "He was freely attested",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Ambiguous historical abbreviation or truncated book name",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    },
+    {
+      "source_key": "DEUTERO-CANONICAL, BOOKS",
+      "canonical_article_id": "isbe-372b7942b4eb95851afd",
+      "original_node_ordinal": 14,
+      "original_node_part": "text",
+      "exact_original_fragment": "neither did the Greek churches receive Augustine",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Syntactically corrupted theological-historical claim",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    },
+    {
+      "source_key": "KIRIATH-JEARIM",
+      "canonical_article_id": "isbe-a3bc3e689e71ade6ec18",
+      "original_node_ordinal": 3,
+      "original_node_part": "tail",
+      "exact_original_fragment": "a city ,of Judah",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Punctuation/spacing anomaly",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    },
+    {
+      "source_key": "KIRIATH-JEARIM",
+      "canonical_article_id": "isbe-a3bc3e689e71ade6ec18",
+      "original_node_ordinal": 17,
+      "original_node_part": "tail",
+      "exact_original_fragment": "the men of Da",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Possibly truncated biblical tribal name",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    },
+    {
+      "source_key": "KIRIATH-JEARIM",
+      "canonical_article_id": "isbe-a3bc3e689e71ade6ec18",
+      "original_node_ordinal": 24,
+      "original_node_part": "text",
+      "exact_original_fragment": "Jehoiskim",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Possible name corruption",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    },
+    {
+      "source_key": "BARAK",
+      "canonical_article_id": "isbe-05bde3b680943772b2df",
+      "original_node_ordinal": 2,
+      "original_node_part": "text",
+      "exact_original_fragment": "Sabeanbarqac",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Possible missing space in historical proper-name sequence",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    },
+    {
+      "source_key": "GRACE",
+      "canonical_article_id": "isbe-99e457fafd9d36621d34",
+      "original_node_ordinal": 96,
+      "original_node_part": "tail",
+      "exact_original_fragment": "Gentilecustom",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Probable missing space in historical English clause",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    },
+    {
+      "source_key": "TAVERNS, THREE",
+      "canonical_article_id": "isbe-0477b3871dfa0a4e404f",
+      "original_node_ordinal": 2,
+      "original_node_part": "text",
+      "exact_original_fragment": "301/3 English miles",
+      "classification": "unverified_digital_source_text_anomaly",
+      "assessment": "Possibly corrupted historical distance typography",
+      "status": "requires_original_print_or_upstream_witness_review",
+      "english_source_changed": false,
+      "approved_reconstruction": false
+    }
+  ]
+}
