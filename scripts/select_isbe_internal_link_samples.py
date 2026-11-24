@@ -49,7 +49,7 @@ def ref_offsets(entry):
     scan(entry)
     return refs
 
-def analyse(source,adapted,output,limit=25,module_id="BRISBE1915"):
+def analyse(source,adapted,output,limit=25,module_id=None):
     if not module_id or ":" in module_id or "/" in module_id:
         raise ValueError("Invalid explicit SWORD module ID")
     old=entries(source,"div")
