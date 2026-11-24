@@ -332,3 +332,72 @@ Every cohort must pass full reconstruction and source fingerprint checks,
 manifest uniqueness and original key parity, French editorial reading-copy
 rendering for all **556** first drafts, and the official TEI checks before
 merge. Bilingual editorial sign-off remains *a separate, uncompleted gate*.
+
+## Fifth 100-entry French historical first-draft cohort — 24 November 2026
+
+**Cohort 005 adds exactly 100 complete original English source entries**, in
+four JSON batches of 25 source-locked French first drafts. Each entry is
+traceable by the original canonical worklist position, English `@n`,
+immutable TEI `xml:id`, per-article SHA-256 and patch path in
+`cohorts/COHORT_005_100_HISTORICAL_ARTICLES.json`. The cohort is an
+editorial selection record, **not a new French dictionary index**.
+
+The selection was the next 100 shortest **previously undrafted** entries
+among positions 1–1000, excluding the previous four cohorts and pilot.
+Every historical original entry is translated **in its entirety**, not
+as isolated extracts. Translation of this cohort covers **39,551 eligible
+English source characters**, 324–488 per article: technical biblical
+lexicography, ancient history, Scripture references and text-critical
+variants, rather than merely short redirects.
+
+Four patches, exactly 25 original entries each:
+- `0030-cohort-005-historical-articles-01.json`
+- `0031-cohort-005-historical-articles-02.json`
+- `0032-cohort-005-historical-articles-03.json`
+- `0033-cohort-005-historical-articles-04.json`
+
+Independent pre-CI checking: exactly 100 distinct English article IDs;
+**476 source text units** in identical original order, **402 translated
+units and 74 justified preserved historical names, pronunciations and
+labels**; zero long untranslated historical prose units; no source-unit
+identity mismatch or omission.
+
+**Wave 01: 611/1,000 complete source-locked first drafts (61.1%);
+389 remain undrafted. Entire 9,380-entry source: 656 complete first
+drafts. Independent bilingual editorial approvals remain 0/1,000 and
+issue #109 checkboxes 0/1,000. No French release authorized.**
+The 61.1% is an original-article **count**, not the proportion of all
+English encyclopedia prose translated.
+
+### Editorial witness alerts (collation required, not silently amended)
+
+- `AGGAEUS`: the original English witness surprisingly says
+  "Abraham prophesied" where the entry concerns Haggai. The French
+  draft explicitly attributes that wording to the English source.
+- `ADVERTISE`: source says "Balsam advises Balak" rather than the
+  expected biblical name. Preserved as a source-reported spelling,
+  clearly flagged in the French draft.
+- `ANAB`: original says "twelve males" in a geographical distance
+  statement; French renders the obvious *distance unit* interpretation
+  while leaving the English text untouched. Confirm against print.
+- `ANCIENT OF DAYS`: original author's interpretation of Daniel 7
+  must be faithfully distinguished from subsequent theological
+  agreement or disagreement; translated as an attributed historical
+  interpretation, never a newly asserted doctrinal verdict.
+- `ALMIGHTY` and `ADONAI`: original ancient-name etymologies are
+  represented with their uncertainty; other source-theological claims
+  (including the historic vowel explanation of the tetragrammaton)
+  are preserved as descriptions of the author, not rewritten.
+- `AMASHSAI`, `AG(E)E`, `ALIAH` and `ALIAN`: uncertain manuscript
+  readings remain uncertain, and the canonical cross-reference
+  destinations are never rewritten.
+- `ASPHAR, THE POOL`: alternative ancient-site identifications
+  retain the original conditional language.
+- `ARROWSNAKE`: the debate over serpent versus bird is preserved,
+  including the historical citation of Gesenius.
+
+Before merging, require automatic source-lock reconstruction of
+**all 656 complete drafts**, 5-cohort unique original ID checks,
+all 656 French reading proofs and official original TEI RELAX NG /
+Schematron tests. **None** of these automated checks constitutes
+independent bilingual editorial sign-off, which remains pending.
