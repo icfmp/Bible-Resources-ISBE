@@ -826,7 +826,7 @@
       "source_key": "ADAMANT",
       "article_id": "isbe-873e2b0602bc6211a002",
       "source_article_sha256": "a29654b0fa0681d1fed3b074528d7c828090cfa158f14146465a6d69c6275c78",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
@@ -876,8 +876,9 @@
           "node": 13,
           "part": "text",
           "source": "Alfred Ely Day",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Alfred Ely Day",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -944,7 +945,7 @@
       "source_key": "ADDER",
       "article_id": "isbe-76f15025961a5fef6689",
       "source_article_sha256": "616c89e1ad1030e2618dc53be9461b24a25e05c93819ec0895a58cb873d3af8f",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
@@ -1015,8 +1016,9 @@
           "node": 10,
           "part": "text",
           "source": "Alfred Ely Day",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Alfred Ely Day",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -1171,70 +1173,71 @@
       "source_key": "ADORN",
       "article_id": "isbe-c760f1ef717b1d427ffc",
       "source_article_sha256": "5d6db7934aad83de529ef63e75c79a1fa8bfb5e55461c5c948a10d18f8f7596f",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ADORN",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ORNER",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-dorn' (kosmeo): Has as its primary meaning \"to arrange,\" \"to put In order,\" \"to decorate.\" It is used with reference to the manner in which Christian women were urged to dress. This was a vital question in the early church, and both Paul and Peter give advice on the subject (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-dorn' (kosmeo) : Sens premier : « arranger », « mettre en ordre », « décorer ». Le mot concerne la façon dont les femmes chrétiennes étaient invitées à se vêtir. C'était une question importante dans l'Église primitive ; Paul et Pierre donnent tous deux des conseils à ce sujet (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Voir ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "DRESS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "VÊTEMENT",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "Figurative: In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Au sens figuré : En ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": " the King James Version the word is translated \"garnish\" and is used in a figurative sense. It describes accurately the condition of the Jewish nation. Even though they have swept out idolatry and have adorned the life with much ceremony and endless religious prescriptions yet the evil spirit can say, \"I will return to my house.\" This same thing has repeatedly been done by individuals and nations when reforms have been instituted, but Christ was not enthroned and the heart or nation was still dominated by evil. It is used also in a figurative sense with reference to the graces of the Christian life. When we remember how very highly Orientals esteem the adornment of the body, its use here becomes very forceful. It is this that makes ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans la King James Version, le mot est traduit par « garnir » et employé figurativement. Selon l'auteur, il décrit fidèlement l'état de la nation juive : bien qu'ayant chassé l'idolâtrie et orné son existence de cérémonies et de prescriptions religieuses sans fin, l'esprit mauvais peut toujours dire : « Je retournerai dans ma maison. » Des particuliers et des nations ont maintes fois fait de même en entreprenant des réformes sans laisser régner le Christ, leur cœur ou leur peuple demeurant ainsi dominé par le mal. Le mot s'emploie aussi figurativement à propos des vertus de la vie chrétienne. L'importance que les Orientaux attachent aux parures corporelles renforce l'image. Ainsi, ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": " of special significance as to the beauty and glory of the church as she is presented to God. See also ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " prend un sens particulier pour la beauté et la gloire de l'Église présentée à Dieu. Voir aussi ",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "tail",
           "source": ". Consecration to God, the indwelling of His Spirit, righteousness, a meek and quiet spirit--these are the true adornments of the life. All these passages carry with them the idea of joy, the satisfaction that should be ours in these possessions.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". Consécration à Dieu, présence de son Esprit, justice, douceur et esprit paisible : voilà les véritables ornements de la vie. Ces passages évoquent tous la joie et la satisfaction que ces biens devraient procurer.",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "text",
           "source": "Jacob W. Kapp",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Jacob W. Kapp",
+          "action": "preserve",
+          "reason": "Source original name or byline kept"
         }
       ]
     },
@@ -1242,35 +1245,37 @@
       "source_key": "ADRIA",
       "article_id": "isbe-c5f936575b86cecade6b",
       "source_article_sha256": "0d821b634d36a240309ebbbf52ccee0858d423701ae6837750ee31e3711e6603",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ADRIA",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ADRIA",
+          "action": "preserve",
+          "reason": "Original canonical proper name preserved"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a'-dri-a (Westcott-Hort: ho Hadrias or ho Adrias): In Greek Adrias (Polybios i.2.4), Adriatike Thalassa (Strabo iv.204), and Adriatikon Pelagos (Ptolemy iii.15.2), and in Latin Adriaticum mare (Livy xl.57.7), Adrianum mare (Cicero in Pisonem 38), Adriaticus sinus (Livy x.2.4), and Mare superurn (Cicero ad Att. 9.5.1). The Adriatic Sea is a name derived from the old Etruscan city Atria, situated near the mouth of the Po (Livy v.33.7; Strabo v.214). At first the name Adria was only applied to the most northern part of the sea. But after the development of the Syracusan colonies on the Italian and Illyrian coasts the application of the term was gradually extended southward, so as to reach Mons Garganus (the Abruzzi), and later the Strait of Hydruntum (Ptolemy iii.1.1; Polybios vii.19.2). But finally the name embraced the Ionian Sea as well, and we find it employed to denote the Gulf of Tarentum (Servius Aen xi.540), the Sicilian Sea (Pausanias v. 25), and even the waters between Crete and Malta (Orosius i.2.90). Procopius considers Malta as lying at the western extremity of the Adriatic Sea (i.14). After leaving Crete the vessel in which the apostle Paul was sailing under military escort was \"driven to and fro in the sea of Adria\" fourteen days (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a'-dri-a (Westcott-Hort : ho Hadrias ou ho Adrias) : En grec, Adrias (Polybe I, 2, 4), Adriatike Thalassa (Strabon IV, 204), Adriatikon Pelagos (Ptolémée III, 15, 2) ; en latin, Adriaticum mare (Tite-Live XL, 57, 7), Adrianum mare (Cicéron, In Pisonem 38), Adriaticus sinus (Tite-Live X, 2, 4), Mare superum (Cicéron, Ad Atticum IX, 5, 1). Le nom « mer Adriatique » vient de l'ancienne ville étrusque d'Atria, près de l'embouchure du Pô (Tite-Live V, 33, 7 ; Strabon V, 214). D'abord, « Adria » ne désignait que la partie septentrionale de cette mer. Avec le développement des colonies syracusaines sur les côtes d'Italie et d'Illyrie, le nom s'étendit progressivement vers le sud jusqu'au mont Gargano (les Abruzzes), puis jusqu'au détroit d'Otrante (Ptolémée III, 1, 1 ; Polybe VII, 19, 2). Finalement, il engloba aussi la mer Ionienne : on le trouve appliqué au golfe de Tarente (Servius, Énéide XI, 540), à la mer de Sicile (Pausanias V, 25), et même aux eaux situées entre la Crète et Malte (Orose I, 2, 90). Procope considère Malte comme la limite occidentale de l'Adriatique (I, 14). Après le départ de Crète, le navire transportant l'apôtre Paul sous escorte militaire fut « ballotté sur l'Adria » pendant quatorze jours (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": ") before it approached the shore of Malta. We may compare this with the shipwreck of Josephus in \"the middle of the Adria\" where he was picked up by a ship sailing from Cyrene to Puteoli (Josephus, Vita, 3).",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") avant d'approcher des côtes maltaises. On peut rapprocher cet épisode du naufrage de Josèphe « au milieu de l'Adria », après lequel il fut recueilli par un navire reliant Cyrène à Pouzzoles (Josèphe, Vie, 3).",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "George H. Allen",
-          "target": "",
-          "action": "pending_translation"
+          "target": "George H. Allen",
+          "action": "preserve",
+          "reason": "Source original name or byline kept"
         }
       ]
     },
@@ -1278,105 +1283,106 @@
       "source_key": "ADVICE; ADVISE; ADVISEMENT",
       "article_id": "isbe-ac3ff9187b4453d1c25c",
       "source_article_sha256": "ca4bdb6534540d26957ad0a65222cb982c5f46da699af26b3717bb9bfe093ea0",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ADVICE; ADVISE; ADVISEMENT",
-          "target": "",
-          "action": "pending_translation"
+          "target": "CONSEIL ; CONSEILLER ; DÉLIBÉRATION",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ad-vis', ad-viz', ad-viz'-ment: Aside from their regular meaning these words are peculiarly employed as follows:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ad-vis', ad-viz', ad-viz'-ment : En dehors de leur sens ordinaire, ces mots anglais présentent les emplois particuliers suivants :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) Advice' In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Advice (« conseil ») : En ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": " (from, dabhar, \"word\") the meaning is equal to \"request\" (the Revised Version, margin \"were we not the first to speak of bringing back\"). In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (de dabhar, « parole »), le terme signifie « demande » (note de la Revised Version : « n'avons-nous pas été les premiers à parler de son retour ? »). En ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": " the King James Version (from, Ta`am, \"taste,\" \"reason\") \"advice\" is equal to \"sagacity\" (the Revised Version (British and American) \"blessed be thy discretion\"). In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans la King James Version (de Ta`am, « goût », « raison »), « conseil » signifie « discernement » (Revised Version : « bénie soit ta prudence »). En ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " (from ya`ac, \"to give or take counsel\") the meaning seems to be \"to consult with oneself\"; compare also ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (de ya`ac, « donner ou prendre conseil »), le terme semble signifier « délibérer intérieurement » ; comparer également ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " the King James Version (the Revised Version (British and American) \"take counsel\").",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans la King James Version (Revised Version : « prendre conseil »).",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "(2) Advise: In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Advise (« conseiller ») : En ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": " the King James Version (from yadha, \"to know\") \"to advise\" means \"to advise oneself,\" i.e. \"to consider\" (the Revised Version (British and American) \"advise thee\") Compare also ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans la King James Version (de yadha, « connaître »), « conseiller » signifie « se conseiller soi-même », c'est-à-dire « réfléchir » (Revised Version : « considère toi-même »). Comparer aussi ",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": " the King James Version (the Revised Version (British and American) \"consider\" from, ra'ah, \"to see\") and ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans la King James Version (Revised Version : « considère », de ra'ah, « voir »), ainsi que ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": " where \"well- advised\" is the same as \"considerate\" (from ya`ac; see ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " où « bien conseillé » signifie « réfléchi » (de ya`ac ; voir ",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "(3) Advisement (antiquated): Found once in the Old Testament in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Advisement (mot désuet) : Il figure une seule fois dans l'Ancien Testament en ",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "tail",
           "source": " (from `etsah, \"counsel\"), where \"upon advisement\" means \"upon deliberation.\" Compare  2Macc 14:20 the King James Version (the Revised Version (British and American) \"when these proposals had been long considered\").",
-          "target": "",
-          "action": "pending_translation"
+          "target": " (de `etsah, « conseil »), où « sur avis » signifie « après délibération ». Comparer 2 Maccabées 14:20 dans la King James Version (la Revised Version donne « après un long examen des propositions »).",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "text",
           "source": "A. L. Breslich",
-          "target": "",
-          "action": "pending_translation"
+          "target": "A. L. Breslich",
+          "action": "preserve",
+          "reason": "Source original name or byline kept"
         }
       ]
     },
@@ -1384,98 +1390,99 @@
       "source_key": "ADVOCATE",
       "article_id": "isbe-58868da2049b36ae7f23",
       "source_article_sha256": "4739af44c67ebcf033f4b818adc203d64e1d5413dbd42824cc9b722e3b927f8d",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ADVOCATE",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AVOCAT",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ad'-vo-kat (parakletos): Found in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ad'-vo-kat (parakletos) : Terme rencontré en ",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": ", \"If any man sin, we have an Advocate with the Father, Jesus Christ the righteous.\" The Greek word has several shades of meaning:",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Si quelqu'un a péché, nous avons un avocat auprès du Père, Jésus-Christ le juste. » Le mot grec présente plusieurs sens :",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "(1) a legal advocate;",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) avocat au sens judiciaire ;",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "(2) an intercessor,",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) intercesseur ;",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "(3) a helper generally.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) soutien ou auxiliaire, au sens général.",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "In the passage before us the first and second meanings are included. Christ in heaven intercedes for Christians who sin upon earth. The next verse declares that He is the \"propitiation for our sins\" and it is His propitiatory work which lies at the basis of His intercession. The margins of the Revised Version (British and American) and the American Standard Revised Version give as alternative readings Comforter, Helper, Greek Paraclete. Beyond doubt however, \"advocate\" is the correct translation in the passage in the epistle. The same Greek word also occurs in the Gospel of John (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Dans ce passage, les deux premières acceptions sont présentes. Au ciel, le Christ intercède pour les chrétiens qui pèchent sur terre. Le verset suivant affirme qu'il est « la propitiation pour nos péchés » : son œuvre propitiatoire fonde son intercession. Les notes marginales de la Revised Version (britannique et américaine) et de l'American Standard Revised Version proposent comme traductions possibles « Consolateur », « Aide » et le terme grec « Paraclet ». Mais « avocat » est sans doute la traduction appropriée dans l'épître. Le même mot grec apparaît dans l'Évangile de Jean (",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": ") referring not to Christ but to the Holy Spirit, to whom Christ refers as \"another comforter\" whom He will send from the Father. In the Gospel various functions are ascribed to the Spirit in relation to believers and unbelievers. The word in the Gospel is inadequately translated \"Comforter.\" The Spirit according to these passages, is more than Comforter and more than Advocate.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), non pour désigner le Christ, mais le Saint-Esprit, présenté comme « un autre consolateur » que le Christ enverra de la part du Père. Dans l'Évangile, l'Esprit reçoit diverses fonctions à l'égard des croyants et des incroyants. Le mot « Consolateur » ne rend qu'imparfaitement l'idée : l'Esprit est plus qu'un consolateur et plus qu'un avocat.",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Voir ",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "PARACLETE",
-          "target": "",
-          "action": "pending_translation"
+          "target": "PARACLET",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "text",
           "source": "COMFORTER",
-          "target": "",
-          "action": "pending_translation"
+          "target": "CONSOLATEUR",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "text",
           "source": "HOLY SPIRIT",
-          "target": "",
-          "action": "pending_translation"
+          "target": "SAINT-ESPRIT",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "text",
           "source": "E. Y. Mullins",
-          "target": "",
-          "action": "pending_translation"
+          "target": "E. Y. Mullins",
+          "action": "preserve",
+          "reason": "Source original name or byline kept"
         }
       ]
     },
@@ -1483,63 +1490,65 @@
       "source_key": "AENON",
       "article_id": "isbe-8a4b3decbaa3df1227b9",
       "source_article_sha256": "95a13b8e74a2ff31d20f0a9fadd385ddb0da3605de431fa6261ab7d4e04f4eff",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AENON",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ÉNON",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "e'-non (Ainon): The place where John was baptizing \"because there was much water there\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "e'-non (Ainon) : Lieu où Jean baptisait « parce qu'il y avait beaucoup d'eau » (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "). It was on the west side of the Jordan, the place where John baptized at the first being on the east (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Il se trouvait à l'ouest du Jourdain, alors que Jean avait commencé à baptiser sur la rive orientale (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": "). We may be sure it was not in Samaritan territory. Eusebius, Onomasticon locates it 8 Roman miles South of Scythopolis (Beisan), this stretch of land on the west of the Jordan being then, not under Samaria, but under Scythopolis. Its position is defined by nearness to Salim. Various identifications have been suggested, the most probable being the springs near Umm el-`Amdan, which exactly suit the position indicated by Eusebius, Onomasticon.omforter, Helper, Greek Paraclete. Beyond doubt however, \"advocate ' is the correct translation in the passage in the epistle. The same Greek word also occurs in the Gospel of John (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Il ne pouvait se trouver sur le territoire des Samaritains. Eusèbe, dans son Onomasticon, le place à huit milles romains au sud de Scythopolis (Beïsan) ; cette bande de terre à l'ouest du Jourdain dépendait alors non de la Samarie, mais de Scythopolis. Le lieu est indiqué comme proche de Salim. Plusieurs identifications ont été proposées ; les sources près d'Umm el-`Amdan sont les plus probables, car elles correspondent exactement à la position donnée par Eusèbe. [La source anglaise contient ici, sans transition, un passage manifestement inséré depuis l'article AVOCAT, commençant par « omforter, Helper, Greek Paraclete ».] Dans l'épître, « avocat » est sans doute la traduction correcte. Le même mot grec apparaît dans l'Évangile de Jean (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": ") referring not to Christ but to the Holy Spirit, to whom Christ refers as \"another comforter\" whom He will send from the Father. In the Gospel various functions are ascribed to the Spirit in relation to believers and unbelievers. The word in the Gospel is inadequately translated \"Comforter.\" The Spirit according to these passages, is more than Comforter and more than Advocate.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), où il désigne non le Christ, mais le Saint-Esprit, appelé par le Christ « un autre consolateur » envoyé par le Père. L'Évangile lui attribue diverses fonctions envers croyants et incroyants. « Consolateur » ne suffit pas à en rendre le sens : l'Esprit est plus qu'un consolateur et plus qu'un avocat.",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "See discussion under ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Voir la discussion sous ",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "SALIM",
-          "target": "",
-          "action": "pending_translation"
+          "target": "SALIM",
+          "action": "preserve",
+          "reason": "Source original name or byline kept"
         },
         {
           "node": 13,
           "part": "text",
           "source": "W. Ewing",
-          "target": "",
-          "action": "pending_translation"
+          "target": "W. Ewing",
+          "action": "preserve",
+          "reason": "Source original name or byline kept"
         }
       ]
     },
