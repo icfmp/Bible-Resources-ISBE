@@ -75,7 +75,8 @@ def convert(source,outpath,reportpath,expected_sha,expected_count,module_id):
     output.append(copy.deepcopy(header))
     text=ET.SubElement(output,NS+"text")
     body=ET.SubElement(text,NS+"body")
-    # Native SWORD self-links address ENTRY KEYS, not source TEI xml:id values.
+    # SWORD dictionary cross-links address ENTRY KEYS under a real module ID,
+    # not source TEI xml:id values. The filter treats 'self' as a literal work.
     # Resolve every existing target against the complete source ID inventory,
     # preserve its exact original selector as TEI @corresp, and explicitly
     # record the lost intra-article scroll precision for editorial review.
