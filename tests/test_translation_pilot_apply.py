@@ -40,11 +40,11 @@ class FrenchPilotDraftTests(unittest.TestCase):
                          source_hash)
         return result, target
 
-    def test_nineteen_real_drafts_and_all_fifty_source_identity_rows_survive(self):
+    def test_fifty_real_drafts_and_all_fifty_source_identity_rows_survive(self):
         result, target = self.run_draft()
         self.assertEqual(result["pilot_article_count"], 50)
-        self.assertEqual(result["unreviewed_drafts"], 19)
-        self.assertEqual(result["pending"], 31)
+        self.assertEqual(result["unreviewed_drafts"], 50)
+        self.assertEqual(result["pending"], 0)
         self.assertFalse(result["publication_permitted"])
         self.assertEqual(result["human_reviewed"], 0)
         root, body = read_body(target)
@@ -55,7 +55,7 @@ class FrenchPilotDraftTests(unittest.TestCase):
             [(x["source_key"], x["article_id"]) for x in self.roster["articles"]])
         self.assertEqual(
             {x["translation_status"] for x in result["articles"]},
-            {"pending", "complete_unreviewed_draft"})
+            {"complete_unreviewed_draft"})
         ark = next(x for x in body if x.get("n") == "ARK")
         self.assertEqual(ark.find(TEI + "head").text, "ARCHE")
         self.assertEqual(ark.find(TEI + "p").find(TEI + "ref").text,
