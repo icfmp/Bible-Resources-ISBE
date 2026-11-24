@@ -1,6 +1,6 @@
-# BRISBE1915 — compiled SWORD dictionary candidate (not published)
+# BRISBE1915 — publicly released corrected historical SWORD dictionary
 
-**Current status:** A real ZIP-compressed SWORD zLD dictionary has been built and independently read back through libSWORD, but is **not** a public release, does **not** have an installed `payload/` in this public repository, and has **not** passed separate Xiphos + BibleTime GUI acceptance. See [source verification](SOURCE_VALIDATION.json) and [build #45256959636](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45256959636).
+**Current status (2026-11-24):** The corrected ISBE 1915 module is **publicly released as [0.1.0](https://github.com/icfmp/Bible-Resources-ISBE/releases/tag/isbe-1915-v0.1.0)**. The 9,380-entry native binary, source ZIP and checksums were independently verified after public publication. The repository keeps its original and edited TEI masters, but intentionally does **not** duplicate the 11 MB release binary under `modules/isbe-1915/payload/`. Full Xiphos Book View, Scripture destination navigation and complete historical printed-edition collation are **not certified**. The project owner explicitly accepted publication with the documented source and reader scope. See [source verification](SOURCE_VALIDATION.json) and [build #45256959636](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45256959636).
 
 ## Source identity
 
@@ -40,3 +40,9 @@ The [source-preserving PR #95](https://github.com/icfmp/Bible-Resources-ISBE/pul
 Actual [Xiphos/BibleTime GUI clicks](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45344977265) show the correct linked article `ARK OF BULRUSHES` in **Xiphos's dictionary Viewer** and **BibleTime's Mag pane**. Xiphos's separate *Book View* still shows “The URL can't be shown”. The earlier separate Scripture-reference navigation limitations also remain. Neither behavior justifies changing the original historical source.
 
 [PR #96](https://github.com/icfmp/Bible-Resources-ISBE/pull/96) rebuilt and stored the **new** 11,731,030-byte compiled candidate in the same GitHub release draft with its checksums and reports, without publishing it. The owner has accepted the CrossWire Public Domain basis; outstanding gates are editorial/reader acceptance and explicit approval of actual release artifacts, not a new rights audit.
+
+## Verified public release (2026-11-24)
+
+[Public GitHub release 0.1.0](https://github.com/icfmp/Bible-Resources-ISBE/releases/tag/isbe-1915-v0.1.0), published `2026-11-24T07:47:40Z` via [successful release run #45350683511](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45350683511), contains **exactly four** approved downloadable assets. The recommended, standard SWORD installation ZIP `BRISBE1915-0.1.0-SWORD.zip` is **11,734,786 bytes**, SHA-256 `9d41edc06c3ebd916f3aaa5b3b12f2a495b069b36f2cb26b8e0dab4bdac15df7`. The equivalent tarball SHA-256 is `6b7edccc0f27fbcf71595597ddd8794a5db72acd3952fb03e1e4e569e7acf3a5`. The source ZIP SHA-256 is `52ac2b3db91b49adab94db2fd6d6d009bf836efe11e993516c33434bb5c56365`.
+
+This release uses **only the corrected real SWORD `BRISBE1915:` crosslinks**. The old draft candidate with `self:` URLs remains in the **separate, unpublished historical draft** as provenance, not in the public download. Publication does not retroactively certify the upstream transcription as a complete photographic/print collation. See `release/published/isbe-1915-v0.1.0/PUBLICATION_EVIDENCE.json` and `workspace/reviews/isbe-1915-publication-editorial-assessment.md`.

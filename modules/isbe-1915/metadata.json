@@ -4,7 +4,7 @@
   "canonical_edition_id": "isbe-orr-1915-crosswire-corrected",
   "category": "encyclopedia",
   "language": "en",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0",
   "title": {
     "en": "International Standard Bible Encyclopedia (1915, corrected historical working text)"
   },
@@ -25,11 +25,11 @@
     "entries": 9380
   },
   "quality": {
-    "status": "native_candidate_verified_not_reader_approved",
+    "status": "published_with_documented_reader_limitations",
     "native_sword_readback": "complete_9380_exact_unicode_and_xml",
     "two_reader_acceptance": "dictionary_link_destination_visible_in_mag_panes_book_view_pending",
     "original_print_full_collation_certified": false,
-    "native_sword_readback_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45346863700",
+    "native_sword_readback_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45350683511",
     "native_lexicon_source_format": "TEI_entryFree",
     "native_lexicon_driver": "zLD",
     "native_lexicon_compression": "ZIP",
@@ -42,7 +42,7 @@
     "native_readback_missing_entries": 0,
     "diatheke_htmlhref_rendered_sample_keys": 4,
     "diatheke_htmlhref_total_sample_anchors": 63,
-    "interactive_gui_hyperlink_click_verified": false,
+    "interactive_gui_hyperlink_click_verified": true,
     "gui_article_display_verified_in": [
       "Xiphos",
       "BibleTime"
@@ -62,7 +62,14 @@
       "bibletime_magnifier_view_resolves": true,
       "evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45344977265",
       "full_two_reader_navigation_certified": false
-    }
+    },
+    "interactive_gui_hyperlink_click_scope": "ARK to ARK OF BULRUSHES validated in Xiphos dictionary Viewer and BibleTime Mag; Xiphos Book View still fails",
+    "gui_presentation_samples_visually_verified": [
+      "CHORBE Greek",
+      "AMNON Hebrew",
+      "ELKOSHITE nested sections"
+    ],
+    "gui_presentation_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45349111541"
   },
   "rights": {
     "upstream_declared_license": "Public Domain",
@@ -78,12 +85,12 @@
   },
   "distribution": {
     "payload_present": false,
-    "status": "compiled_candidate_archived_in_unpublished_release_draft",
-    "release_published": false,
+    "status": "published_on_GitHub_with_documented_reader_limitations",
+    "release_published": true,
     "draft_source_release_only": false,
     "artifact_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45346863700",
     "binary_candidate_sha256": "6b7edccc0f27fbcf71595597ddd8794a5db72acd3952fb03e1e4e569e7acf3a5",
-    "binary_candidate_not_released": true,
+    "binary_candidate_not_released": false,
     "draft_release_id": 455869112,
     "draft_tag": "isbe-1915-v0.1.0-rc.1",
     "draft_binary_asset": "BRISBE1915-native-workid-draft.tar.gz",
@@ -100,7 +107,25 @@
     "latest_draft_native_import_sha256": "bdac245cad329fdff8039d0374815ff7086b8a5f8055118f1250461b9d5f17ec",
     "draft_binary_checksum_asset": "BRISBE1915-NATIVE-WORKID-SHA256SUMS.txt",
     "publication_status_verified": "draft_unpublished_published_at_null_2026-11-24",
-    "latest_draft_asset_size": 11731030
+    "latest_draft_asset_size": 11731030,
+    "public_release_url": "https://github.com/icfmp/Bible-Resources-ISBE/releases/tag/isbe-1915-v0.1.0",
+    "public_release_id": 456444484,
+    "public_release_tag": "isbe-1915-v0.1.0",
+    "public_release_date": "2026-11-24T07:47:40Z",
+    "public_release_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45350683511",
+    "central_bible_resources_catalogue_integrated": false,
+    "public_sword_zip": {
+      "name": "BRISBE1915-0.1.0-SWORD.zip",
+      "sha256": "9d41edc06c3ebd916f3aaa5b3b12f2a495b069b36f2cb26b8e0dab4bdac15df7",
+      "size_bytes": 11734786,
+      "download_url": "https://github.com/icfmp/Bible-Resources-ISBE/releases/download/isbe-1915-v0.1.0/BRISBE1915-0.1.0-SWORD.zip"
+    },
+    "public_source_zip": {
+      "name": "BRISBE1915-0.1.0-source.zip",
+      "sha256": "52ac2b3db91b49adab94db2fd6d6d009bf836efe11e993516c33434bb5c56365",
+      "size_bytes": 10901183,
+      "download_url": "https://github.com/icfmp/Bible-Resources-ISBE/releases/download/isbe-1915-v0.1.0/BRISBE1915-0.1.0-source.zip"
+    }
   },
   "sword_id": "BRISBE1915"
 }

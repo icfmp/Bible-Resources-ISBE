@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "status": "native_dictionary_candidate_compiled_and_roundtrip_verified_NOT_PUBLICATION_APPROVED",
+  "status": "native_dictionary_published_source_faithful_with_disclosed_GUI_limits",
   "module_id": "BRISBE1915",
   "edition": "isbe-orr-1915-crosswire-corrected",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0",
   "original_source_zip_sha256": "4de747545d9c349ab724bc1708b01df5481e3b93e5e51077f859dd8a32023a32",
   "corrected_historical_tei_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "export_script": "scripts/export_tei_dictionary_for_sword.py",
@@ -29,9 +29,9 @@
   "compiled_candidate_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45346863700",
   "original_1915_print_fully_collated": false,
   "original_greek_hebrew_fully_restored": false,
-  "redistributed": false,
+  "redistributed": true,
   "rights_cleared": false,
-  "publication_permitted": false,
+  "publication_permitted": true,
   "warning": "Native libSWORD byte-equivalent reserialization is confirmed; GUI reader acceptance, intra-article navigation precision and exact original print reconstruction remain distinct and incomplete.",
   "native_frontend_smoke": {
     "frontend": "diatheke",
@@ -61,7 +61,7 @@
     "xiphos_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45279693011",
     "bibletime_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561",
     "bibletime_artifact": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45280079561/artifacts/14869951086",
-    "actual_clicked_links_verified": false,
+    "actual_clicked_links_verified": true,
     "foreign_script_rendering_certified": false,
     "nested_section_rendering_certified": false,
     "two_reader_full_acceptance": false,
@@ -73,7 +73,10 @@
       "bibletime_magnifier_view_resolves": true,
       "full_two_reader_navigation_certified": false,
       "run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45344977265"
-    }
+    },
+    "actual_clicked_links_scope": "ARK->ARK OF BULRUSHES correct article visible in Xiphos dictionary Viewer and BibleTime Mag; not in Xiphos Book View",
+    "greek_hebrew_nested_samples_visually_verified": true,
+    "greek_hebrew_nested_evidence": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45349111541"
   },
   "maintainer_public_domain_distribution_basis_accepted": true,
   "further_legal_review_required_for_publication": false,
@@ -88,5 +91,12 @@
   "native_rendered_dictionary_href": "sword://BRISBE1915/ARK+OF+BULRUSHES",
   "staged_workid_native_candidate_asset": "BRISBE1915-native-workid-draft.tar.gz",
   "staged_workid_native_candidate_size": 11731030,
-  "staged_workid_binary_verified_in_unpublished_draft": true
+  "staged_workid_binary_verified_in_unpublished_draft": true,
+  "publication_release": "https://github.com/icfmp/Bible-Resources-ISBE/releases/tag/isbe-1915-v0.1.0",
+  "publication_evidence_run": "https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45350683511",
+  "public_sword_zip_sha256": "9d41edc06c3ebd916f3aaa5b3b12f2a495b069b36f2cb26b8e0dab4bdac15df7",
+  "public_sword_zip_size_bytes": 11734786,
+  "public_release_date": "2026-11-24T07:47:40Z",
+  "original_print_full_collation_complete": false,
+  "central_catalogue_integration_complete": false
 }
