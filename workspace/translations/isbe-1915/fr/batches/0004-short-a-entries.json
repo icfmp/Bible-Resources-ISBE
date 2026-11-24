@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ABEL (2)",
+      "article_id": "isbe-1507057dfe2f025260ba",
+      "source_article_sha256": "206102ea2ddffc3f530b4463fbb07fa2e56d2b780d85f83a0048cd7f5d7994c8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABEL (2)",
+          "target": "ABEL (2)",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-bel ('abhel, \"meadow\"): A word used in several compound names of places. It appears by itself as the name of a city concerned in the rebellion of Sheba (",
+          "target": "a'-bel ('abhel, « prairie ») : Mot qui entre dans la composition de plusieurs noms de lieux. Il apparaît seul comme nom d'une ville mêlée à la révolte de Schéba (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), though it is there probably an abridgment of the name Abel-beth-maacah. In ",
+          "target": "), bien qu'il s'agisse probablement ici d'une forme abrégée du nom Abel-Beth-Maaca. En ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", where the Hebrew has \"the great meadow,\" and the Greek \"the great stone,\" the King James Version translates \"the great stone of Abel.\"",
+          "target": "), où l'hébreu porte « la grande prairie » et le grec « la grande pierre », la King James Version traduit « la grande pierre d'Abel ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABEL-CHERAMIM",
+      "article_id": "isbe-3e99275cba93c66a1ab1",
+      "source_article_sha256": "dcf922bc9881fb1cda7153d33810cd5d1b82a14f58ddcf82b4454051a53953e5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABEL-CHERAMIM",
+          "target": "ABEL-CHERAMIM",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-bel-ker'-a-mim ('abhel keramim, \"meadow of vineyards\"): A city mentioned in the Revised Version (British and American) in ",
+          "target": "a'-bel-ker'-a-mim ('abhel keramim, « prairie des vignobles ») : Ville mentionnée dans la Revised Version (britannique et américaine) en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", along with Aroer, Minnith, and \"twenty cities,\" in summarizing Jephthah's campaign against the Ammonites. The King James Version translates \"the plain of the vineyards.\" The site has not been identified, though Eusebius and Jerome speak of it as in their time a village about seven Roman miles from the Ammonite city of Rabbah.",
+          "target": ", aux côtés d'Aroër, de Minnith et de « vingt villes », dans le résumé de la campagne de Jephté contre les Ammonites. La King James Version traduit par « la plaine des vignobles ». Son emplacement n'a pas été identifié, bien qu'Eusèbe et Jérôme en parlent comme d'un village situé, à leur époque, à environ sept milles romains de Rabba, ville des Ammonites.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABEL-MAIM",
+      "article_id": "isbe-dc708e84d0d034f1cdb2",
+      "source_article_sha256": "93ac06c5d3b2e9b6860e3b3716624200f6b9f05df6bf348f2dcd8e9388721742",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABEL-MAIM",
+          "target": "ABEL-MAIM",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-bel-ma'-im ('abhel mayim, \"meadow of water\"). See ",
+          "target": "a'-bel-ma'-im ('abhel mayim, « prairie des eaux »). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABEL-BETH-MAACAH",
+          "target": "ABEL-BETH-MAACAH",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ABEL-MIZRAIM",
+      "article_id": "isbe-d91673462ca8cfedcde9",
+      "source_article_sha256": "f943d02bdc8eb3018adea5f5736d6d09e4410dbeb37ba12bc84d624d8f901579",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABEL-MIZRAIM",
+          "target": "ABEL-MIZRAIM",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-bel-miz'-ra-im ('abhel mitsrayim, \"meadow of Egypt\"): A name given to \"the threshing floor of Atad,\" East of the Jordan and North of the Dead Sea, because Joseph and his funeral party from Egypt there held their mourning over Jacob (",
+          "target": "a'-bel-miz'-ra-im ('abhel mitsrayim, « prairie d'Égypte ») : Nom donné à « l'aire d'Atad », à l'est du Jourdain et au nord de la mer Morte, parce que Joseph et le cortège funèbre venu d'Égypte y prirent le deuil de Jacob (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The name is a pun. The Canaanite residents saw the 'ebhel, \"the mourning,\" and therefore that place was called 'abhel mitsrayim.",
+          "target": "). Le nom repose sur un jeu de mots. Les habitants cananéens virent le 'ebhel, « deuil », et c'est pourquoi cet endroit fut appelé 'abhel mitsrayim.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "It is remarkable that the funeral should have taken this circuitous route, instead of going directly from Egypt to Hebron. Possibly a reason may be found as we obtain additional details in Egyptian history. The explanations which consist in changing the text, or in substituting the North Arabian Mutsri for Mitsrayim, are unsatisfactory. Willis J. Beecher",
+          "target": "Il est remarquable que le cortège funèbre ait suivi cet itinéraire détourné, au lieu d'aller directement d'Égypte à Hébron. On en découvrira peut-être la raison à mesure que l'histoire égyptienne nous livrera de nouvelles précisions. Les explications qui consistent à modifier le texte ou à substituer le Mutsri d'Arabie du Nord à Mitsrayim ne sont pas satisfaisantes. Willis J. Beecher",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABEZ",
+      "article_id": "isbe-8a59b807190e6c3ec799",
+      "source_article_sha256": "f310d5199f8b4057910a86c6f48d905f559a8c023fdba4ac33d7c9544f34743e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABEZ",
+          "target": "ABEZ",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-bez: Used in the King James Version (",
+          "target": "a'-bez : Forme employée dans la King James Version (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") for ",
+          "target": ") pour ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "EBEZ",
+          "target": "EBEZ",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", which see.",
+          "target": ", voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABGAR; ABGARUS; ABAGARUS",
+      "article_id": "isbe-c22832d437dd4e4d9451",
+      "source_article_sha256": "95da47b784d78f15c070b09260e7e4a80910cf66809e2839f578add6a8bf2825",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABGAR; ABGARUS; ABAGARUS",
+          "target": "ABGAR; ABGARUS; ABAGARUS",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab'-gar, ab-ga'-rus, a-bag'-a-rus (Abgaros): Written also Agbarus and Augarus. A king of Edessa. A name common to several kings (toparchs) of Edessa, Mesopotamia. One of these, Abgar, a son of Uchomo, the seventeenth (14th?) of twenty kings, according to the legend (Historia Ecclesiastica, i.13) sent a letter to Jesus, professing belief in His Messiahship and asking Him to come and heal him from an incurable disease (leprosy?), inviting Him at the same time to take refuge from His enemies in his city, \"which is enough for us both.\" Jesus answering the letter blessed him, because he had believed on Him without having seen Him, and promised to send one of His disciples after He had risen from the dead. The apostle Thomas sent Judas Thaddeus, one of the Seventy, who healed him (Cod. Apocrypha New Testament).",
+          "target": "ab'-gar, ab-ga'-rus, a-bag'-a-rus (Abgaros) : S'écrit aussi Agbarus et Augarus. Roi d'Édesse. Ce nom était porté par plusieurs rois (toparques) d'Édesse, en Mésopotamie. Selon la légende (Historia Ecclesiastica, I, 13), l'un d'eux, Abgar, fils d'Uchomo, dix-septième (quatorzième ?) d'une série de vingt rois, envoya une lettre à Jésus, professant sa foi en sa messianité et lui demandant de venir le guérir d'une maladie incurable (la lèpre ?). Il l'invitait en même temps à trouver refuge contre ses ennemis dans sa ville, « assez grande pour nous deux ». Jésus lui répondit par une lettre dans laquelle il le bénissait d'avoir cru en lui sans l'avoir vu et promettait d'envoyer l'un de ses disciples après sa résurrection. L'apôtre Thomas envoya Judas Thaddée, l'un des Soixante-Dix, qui le guérit (Cod. Apocrypha New Testament).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "A. L. Breslich",
+          "target": "A. L. Breslich",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ABHOR",
+      "article_id": "isbe-dc7ec48b350d93f0a939",
+      "source_article_sha256": "350d6d43ace6110a11a6b755e530cb448b7f839800ca7a8c8a43d5fd33ae6ff6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABHOR",
+          "target": "AVOIR EN HORREUR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab-hor': \"To cast away,\" \"reject,\" \"despise,\" \"defy,\" \"contemn,\" \"loathe,\" etc.",
+          "target": "ab-hor' : Le verbe anglais abhor signifie notamment « rejeter », « repousser », « mépriser », « défier », « dédaigner » ou « avoir en dégoût » (anglais : « to cast away », « reject », « despise », « defy », « contemn », « loathe »).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) Translated in the Old Testament from the following Hebrew words amongst others: (ba'ash), \"to be or to become stinking\" (",
+          "target": "(1) Dans l'Ancien Testament, il traduit notamment les mots hébreux suivants : ba'ash, « puer » ou « devenir nauséabond » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); (ga`al), \"to cast away as unclean,\" \"to loathe\"; compare ",
+          "target": ") ; ga'al, « rejeter comme impur », « avoir en dégoût » ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " the King James Version; (quts), \"to loathe,\" \"to fear\" (",
+          "target": " dans la King James Version ; quts, « avoir en dégoût », « redouter » (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " m; ",
+          "target": " (note marginale) ; ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "); (shaqats), \"to detest\" (",
+          "target": ") ; shaqats, « détester » (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "); (ta'abh), (ta`abh), \"to contemn\" (",
+          "target": ") ; ta'abh (ta`abh), « mépriser » (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "); (dera'on), \"an object of contempt,\" \"an abhorring\" (",
+          "target": ") ; dera'on, « objet de mépris », « chose abominable » (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": " margin).",
+          "target": " en note marginale).",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "(2) Translated in the New Testament from the following Greek words: bdelussomai, which is derived from bdeo, \"to stink\" (",
+          "target": "(2) Dans le Nouveau Testament, il traduit les mots grecs suivants : bdelussomai, dérivé de bdeo, « puer » (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": "); apostugeo, derived from stugeo, \"to hate,\" \"to shrink from\" (",
+          "target": ") ; apostugeo, dérivé de stugeo, « haïr », « reculer devant » (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "A. L. Breslich",
+          "target": "A. L. Breslich",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ABI (1)",
+      "article_id": "isbe-3c7befbf9c5954d20760",
+      "source_article_sha256": "bf681a12afbb6e075e884f098181ac13054897aa770d22e6431d688215cca626",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABI (1)",
+          "target": "ABI (1)",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-bi ('abhi): The name of the mother of King Hezekiah, as given in ",
+          "target": "a'-bi ('abhi) : Nom de la mère du roi Ézéchias, tel qu'il apparaît en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". Most naturally explained as a contraction of Abijah (\"Yahweh is a father,\" or \"is my father\"), found in the parallel passage in ",
+          "target": ". Il s'explique le plus naturellement comme une forme abrégée d'Abija (« Yahvé est père » ou « est mon père »), nom qui figure dans le passage parallèle en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". The spelling in the oldest translations seems to indicate that 'abhi is not a copyist's error, but a genuine contracted form. She is spoken of as the daughter of Zechariah, and was of course the wife of Ahaz.",
+          "target": ". L'orthographe des plus anciennes traductions semble indiquer que 'abhi n'est pas une erreur de copiste, mais une véritable forme contractée. Elle est présentée comme la fille de Zacharie et était, bien entendu, l'épouse d'Achaz.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABIA; ABIAH",
+      "article_id": "isbe-0ede60cd0bfd17a82a38",
+      "source_article_sha256": "9fcb9d2d5cad52fefd66c9d2de96d0f86338b4ea7e0ce9b736fb6b02e35575ad",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIA; ABIAH",
+          "target": "ABIA; ABIAH",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bi'-a, a-bi'-ah: Variants for ",
+          "target": "a-bi'-a, a-bi'-ah : Variantes du nom ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABIJAH",
+          "target": "ABIJAH",
+          "action": "preserve",
+          "reason": "Original historical proper name, title or author attribution retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; which see.",
+          "target": " ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}

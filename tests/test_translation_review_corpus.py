@@ -13,9 +13,25 @@ SOURCE = ROOT / "sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml"
 PILOT = ROOT / "workspace/pilots/isbe-1915-fr/draft-patches.json"
 ABRAHAM = ROOT / "workspace/translations/isbe-1915/fr/batches/0001-abraham.json"
 FLAGS = ROOT / "workspace/pilots/isbe-1915-fr/SOURCE_REVIEW_FLAGS.json"
+NEW = ROOT / "workspace/translations/isbe-1915/fr/batches/0004-short-a-entries.json"
 
 
 class TranslationReviewCorpusTests(unittest.TestCase):
+    def test_next_nine_drafts_generate_complete_unreviewed_reading_copies(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            report = build(SOURCE, [NEW], folder / "proofs", folder / "audit.json")
+            self.assertEqual(report["selected_complete_unreviewed_drafts"], 9)
+            self.assertEqual(report["pilot_drafts_count"], 0)
+            self.assertEqual(report["batch_drafts_count"], 9)
+            self.assertEqual(report["human_editorially_approved"], 0)
+            self.assertEqual(report["article_checkboxes_marked_complete"], 0)
+            self.assertFalse(report["publication_permitted"])
+            self.assertEqual(len(list((folder / "proofs").glob("isbe-*.md"))), 9)
+            index = (folder / "proofs" / "INDEX.md").read_text(encoding="utf-8")
+            for name in ("ABEL (2)", "ABHOR", "ABIA; ABIAH"):
+                self.assertIn(name, index)
+
     def test_all_50_first_pilot_drafts_are_readable_and_unreviewed(self):
         with tempfile.TemporaryDirectory() as tmp:
             folder = Path(tmp)
