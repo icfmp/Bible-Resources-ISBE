@@ -817,105 +817,107 @@
       "source_key": "ABNER",
       "article_id": "isbe-f79bb12bf5e7f69e8b80",
       "source_article_sha256": "d150e69778d81b1ec85e1e5d7d348897bdd8c8f39151296f2bbd6040a3a63326",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ABNER",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ABNER",
+          "action": "preserve",
+          "reason": "Original canonical headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ab'-ner ('abhner; in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ab'-ner ('abhner ; en ",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": " the Hebrew has the fuller form, 'abhiner, Abiner; compare Abiram by the side of Abram; meaning, \"my father is a lamp\"): Captain of the host under Saul and Ishbosheth (Eshbaal). He was Saul's cousin; Ner the father of Abner and Kish the father of Saul being brothers, the sons of Abiel (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", l'hébreu emploie la forme plus longue 'abhiner, Abiner ; comparer Abiram et Abram ; sens : « mon père est une lampe ») : Chef de l'armée sous Saül et Ish-Bosheth (Eshbaal). Il était cousin de Saül : Ner, père d'Abner, et Kish, père de Saül, étaient frères, fils d'Abiel (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": " f). In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv.). En ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " the text appears to be faulty; read: And Ner begat Abner, and Kish begat Saul. According to ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", le texte semble défectueux ; il faudrait lire : « Ner engendra Abner et Kish engendra Saül. » D'après ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " Abner had a son by the name of Jaasiel. Abner was to Saul what Joab was to David. Despite the many wars waged by Saul, we hear little of Abner during Saul's lifetime. Not even in the account' of the battle of Gilboa is mention made of him. Yet both his high office and his kinship to the king must have brought the two men in close contact. On festive occasions it was the custom of Abner to sit at table by the king's side (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", Abner eut un fils appelé Jaasiel. Abner occupait auprès de Saül une place comparable à celle de Joab auprès de David. Malgré les nombreuses guerres menées par Saül, on entend peu parler d'Abner de son vivant. Il n'est même pas mentionné dans le récit de Guilboa. Pourtant, sa haute fonction et sa parenté avec le roi durent les rapprocher. Lors des repas de fête, Abner s'asseyait à la table du roi (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": "). It was Abner who introduced the young David fresh from his triumph over Goliath to the king's court (so according to the account in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). C'est lui qui présenta à la cour le jeune David après sa victoire sur Goliath (selon le récit de ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": "). We find Abner accompanying the king in his pursuit of David (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Il accompagna Saül dans sa poursuite de David (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": " ff). Abner is rebuked by David for his negligence in keeping watch over his master (ibid., 15).",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv.). David reprocha à Abner sa négligence dans la garde de son maître (ibid., verset 15).",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "Upon the death of Saul, Abner took up the cause of the young heir to the throne, Ishbosheth, whom he forthwith removed from the neighborhood of David to Mahanaim in the East-Jordanic country. There he proclaimed him king over all Israel. By the pool of Gibeon he and his men met Joab and the servants of David. Twelve men on each side engaged in combat which ended disastrously for Abner who fled. He was pursued by Asahel, Joab's brother, whom Abner slew. Though Joab and his brother Abishai sought to avenge their brother's death on the spot, a truce was effected; Abner was permitted to go his way after three hundred and threescore of his men had fallen. Joab naturally watched his opportunity. Abner and his master soon had a quarrel over Saul's concubine, Rizpah, with whom Abner was intimate. It was certainly an act of treason which Ishbosheth was bound to resent. The disgruntled general made overtures to David; he won over the tribe of Benjamin. With twenty men of them he came to Hebron and arranged with the king of Judah that he would bring over to his side all Israel. He was scarcely gone when Joab learned of the affair; without the knowledge of David he recalled him to Hebron where he slew him, \"for the blood of Asahel his brother.\" David mourned sincerely the death of Abner. \"Know ye not,\" he addressed his servants, \"that there is a prince and a great man fallen this day in Israel?\" He followed the bier in person. Of the royal lament over Abner a fragment is quoted:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Après la mort de Saül, Abner soutint le jeune héritier Ish-Bosheth, qu'il emmena aussitôt loin de David, à Mahanaïm, dans le territoire transjordanien. Il l'y proclama roi de tout Israël. Près de l'étang de Gabaon, lui et ses hommes rencontrèrent Joab et les serviteurs de David. Douze combattants de chaque camp s'affrontèrent ; la rencontre tourna mal pour Abner, qui s'enfuit. Asaël, frère de Joab, le poursuivit et fut tué par lui. Joab et son frère Abishaï voulurent venger Asaël immédiatement, mais une trêve fut conclue : Abner put partir après la perte de trois cent soixante de ses hommes. Joab attendit naturellement l'occasion de se venger. Abner se querella bientôt avec Ish-Bosheth au sujet de Ritspa, concubine de Saül, avec laquelle il avait des relations. Il s'agissait d'un acte de trahison qu'Ish-Bosheth ne pouvait laisser passer. Le général mécontent fit des ouvertures à David et rallia la tribu de Benjamin. Avec vingt hommes de celle-ci, il se rendit à Hébron et promit au roi de Juda de lui gagner tout Israël. À peine était-il parti que Joab apprit l'affaire. À l'insu de David, il le rappela à Hébron et le tua « pour le sang d'Asaël, son frère ». David pleura sincèrement la mort d'Abner. « Ne savez-vous pas, dit-il à ses serviteurs, qu'un prince, un grand homme, est tombé aujourd'hui en Israël ? » Il suivit personnellement le cercueil. Un fragment de la lamentation royale est cité :",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "\"Should Abner die as a fool dieth? Thy hands were not bound, nor thy feet put into fetters: As a man falleth before the children of iniquity, so didst thou fall.\"",
-          "target": "",
-          "action": "pending_translation"
+          "target": "« Abner devait-il mourir comme meurt un insensé ? Tes mains n'étaient pas liées, tes pieds n'étaient pas entravés ; tu es tombé comme on tombe devant les hommes pervers. »",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "(See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(Voir ",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "tail",
           "source": ".) The death of Abner, while it thus cannot in any wise be laid at the door of David, nevertheless served his purposes well. The backbone of the opposition to David was broken, and he was soon proclaimed as king by all Israel.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ".) Si la mort d'Abner ne saurait donc être imputée à David, elle servit néanmoins ses intérêts. L'opposition à David perdit son principal soutien ; peu après, tout Israël le proclama roi.",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "text",
           "source": "Max L. Margolis",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Max L. Margolis",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -923,77 +925,79 @@
       "source_key": "ABOMINATION, BIRDS OF",
       "article_id": "isbe-021a9bc251e32d4bdb25",
       "source_article_sha256": "642532eaf523a205a24917b02855c5c547b39146058def3e9002c8adac436c26",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ABOMINATION, BIRDS OF",
-          "target": "",
-          "action": "pending_translation"
+          "target": "OISEAUX CONSIDÉRÉS COMME ABOMINABLES",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": ": \"And these ye shall have in abomination among the birds; they shall not be eaten, they are an abomination: the eagle, and the gier-eagle, and the osprey, and the kite, and the falcon after its kind, every raven after its kind, and the ostrich, and the night-hawk, and the sea-mew, and the hawk after its kind, and the little owl, and the cormorant, and the great owl, and the horned owl, and the pelican, and the vulture, and the stork, the heron after its kind, and the hoopoe, and the bat.\" ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Voici ceux que vous regarderez comme une abomination parmi les oiseaux ; on ne les mangera pas : l'aigle, le vautour, l'orfraie, le milan, le faucon selon son espèce, tout corbeau selon son espèce, l'autruche, l'engoulevent, la mouette, l'épervier selon son espèce, la petite chouette, le cormoran, le grand hibou, le hibou à aigrettes, le pélican, le vautour, la cigogne, le héron selon son espèce, la huppe et la chauve-souris. » ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": " gives the glede in addition.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ajoute le busard.",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "Each of these birds is treated in order in this work. There are two reasons why Moses pronounced them an abomination for food. Either they had rank, offensive, tough flesh, or they were connected with religious superstition. The eagle, gier-eagle, osprey, kite, glede, falcon, raven, night-hawk, sea-mew, hawk, little owl, cormorant, great owl, horned owl, pelican and vulture were offensive because they were birds of prey or ate carrion or fish until their flesh partook of the odor of their food. Young ostriches have sweet, tender flesh and the eggs are edible also. In putting these birds among the abominations Moses must have been thinking of grown specimens. (Ostriches live to a remarkable age and on account of the distances they cover, and their speed in locomotion, their muscles become almost as hard as bone.)",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Chacun de ces oiseaux fait l'objet d'un article dans l'ouvrage. Moïse les aurait déclarés impropres à la consommation pour deux raisons possibles : leur chair serait forte, désagréable et coriace, ou bien ils auraient été liés à des superstitions religieuses. L'aigle, le grand vautour, l'orfraie, le milan, le busard, le faucon, le corbeau, l'engoulevent, la mouette, l'épervier, les chouettes et hiboux, le cormoran, le pélican et le vautour pouvaient rebuter parce qu'ils étaient prédateurs ou mangeaient des charognes ou du poisson, au point d'en imprégner leur chair. La viande des jeunes autruches est douce et tendre ; leurs œufs sont également comestibles. En les classant parmi les abominations, Moïse pensait probablement aux adultes. Les autruches vivent très longtemps et, du fait de leurs déplacements rapides sur de grandes distances, leurs muscles deviennent extrêmement durs.",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "There is a trace of his early Egyptian training when he placed the stork and the heron on this list. These birds, and the crane as well, abounded in all countries known at that time and were used for food according to the superstitions of different nations. These three were closely related to the ibis which was sacred in Egypt and it is probable that they were protected by Moses for this reason, since they were eaten by other nations at that time and cranes are used for food today by natives of our southeastern coast states and are to be found in the markets of our western coast. The veneration for the stork that exists throughout the civilized world today had its origin in Palestine. Noting the devotion of mated pairs and their tender care for the young the Hebrews named the bird chacidhah, which means kindness. Carried down the history of ages with additions by other nations, this undoubtedly accounts for the story now universal, that the stork delivers newly-born children to their homes; so the bird is loved and protected.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "L'auteur voit un souvenir de l'éducation égyptienne de Moïse dans la présence de la cigogne et du héron sur la liste. Ces oiseaux, ainsi que la grue, abondaient dans les pays connus à l'époque ; leur consommation dépendait des croyances des peuples. Les trois espèces étaient proches de l'ibis sacré d'Égypte. Moïse les aurait peut-être protégées pour cette raison, puisqu'elles étaient mangées par d'autres nations. L'auteur ajoute que les habitants de la côte sud-est des États-Unis consommaient encore des grues, commercialisées sur la côte occidentale. La vénération de la cigogne dans le monde civilisé serait née en Palestine. Observant la fidélité des couples et les soins prodigués aux petits, les Hébreux l'appelèrent chacidhah, nom signifiant « bonté ». À travers les siècles et les enrichissements apportés par divers peuples, cette réputation expliquerait la légende universelle de la cigogne apportant les nouveau-nés ; cet oiseau est donc aimé et protégé.",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "One ancient Roman writer, Cornelius Nepos, recorded that in his time both crane and storks were eaten; storks were liked the better. Later, Pliny wrote that no one would touch a stork, but everyone was fond of crane. In Thessaly it was a capital crime to kill a stork. This change from regarding the stork as a delicacy to its protection by a death penalty merely indicates the hold the characteristics of the bird had taken on people as it became better known, and also the spread of the regard in which it was held throughout Palestine. The hoopoe (which see) was offensive to Moses on account of extremely filthy nesting habits, but was considered a great delicacy when captured in migration by residents of southern Europe.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Cornélius Népos, auteur romain ancien, écrit qu'à son époque on mangeait grues et cigognes, ces dernières étant préférées. Plus tard, Pline affirma que nul ne touchait aux cigognes, tandis que tous appréciaient les grues. En Thessalie, tuer une cigogne était puni de mort. Le passage d'une appréciation culinaire de la cigogne à sa protection sous peine capitale montrerait l'emprise de ses qualités sur les populations à mesure qu'elles la connaissaient, ainsi que la diffusion de l'estime dont elle jouissait en Palestine. La huppe (voir cet article) répugnait à Moïse en raison de ses habitudes de nidification particulièrement sales ; mais elle passait pour un mets délicat dans le sud de l'Europe lorsqu'on la capturait en migration.",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "See also ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Voir aussi ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "ABOMINATION",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ABOMINATION",
+          "action": "preserve",
+          "reason": "Canonical source label retained"
         },
         {
           "node": 10,
           "part": "text",
           "source": "BIRDS, UNCLEAN",
-          "target": "",
-          "action": "pending_translation"
+          "target": "OISEAUX IMPURS",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "Gene Stratton-Porter",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Gene Stratton-Porter",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -1001,126 +1005,127 @@
       "source_key": "ABOUND; ABUNDANCE; ABUNDANT; ABUNDANTLY",
       "article_id": "isbe-24f90a3c6690663fd8b2",
       "source_article_sha256": "ff0f71d80e6932cb9ae1e576ce9a55dd4e6c09fc2af4d5127ef44b01364a7455",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ABOUND; ABUNDANCE; ABUNDANT; ABUNDANTLY",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ABONDER ; ABONDANCE ; ABONDANT ; ABONDAMMENT",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-bound', a-bun'-dans, a-bun'-dant, a-bun'-dant-li: These words represent in the English Versions of the Bible a considerable variety of different words in the Hebrew and Greek original. In the Old Testament they most frequently stand for some form of the stem rabh, signifying \"to cast together,\" \"to increase.\" In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-bound', a-bun'-dans, a-bun'-dant, a-bun'-dant-li : Dans les versions anglaises de la Bible, ces mots correspondent à une grande diversité de termes hébreux et grecs. Dans l'Ancien Testament, ils représentent le plus souvent une forme de la racine rabh, « réunir », « accroître ». En ",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": " the primary idea is \"to be heavy\" (root: kabhadh); in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", l'idée première est « être lourd » (racine kabhadh) ; en ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": " and ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": " it is \"to overflow\" shapha`; in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", « déborder », shapha` ; en ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " it is \"to plait together,\" \"to augment,\" \"to multiply\" (makhbir from ka- bhar); in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", « entrelacer », « augmenter », « multiplier » (makhbir, de ka-bhar) ; en ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " it is \"strength\" `otsmah; in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", « force », `otsmah ; en ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": " it is \"tumult,\" \"crowd\" hamon; in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", « tumulte », « multitude », hamon ; en ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": " it is \"to fill to satiety\" (Revised Version (British and American) \"fulness\"); in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", « rassasier » (Revised Version britannique et américaine : « plénitude ») ; en ",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": " it is \"excellence\" yithrah and in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", « excellence », yithrah ; et en ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": " \"a full breast\" ziz; in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", « sein rempli », ziz ; en ",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "tail",
           "source": " it is \"copiousness\" (`athereth from `athar). In several passages (e.g. ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", « profusion » (`athereth, de `athar). Dans plusieurs passages (par exemple ",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "tail",
           "source": ") the Revised Version (British and American) gives other and better renderings than the King James Version. In the New Testament perissos, perisseuo, perisseia, etc., are the usual words for \"abundant,\" \"abound,\" \"abundance,\" etc. (the adjective signifies \"exceeding some number or measure\"). A slight formal difference of conception may be noted in pleonazo, which suggests that the abundance has resulted from augmentation. In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), la Revised Version propose des traductions meilleures que la King James Version. Dans le Nouveau Testament, perissos, perisseuo, perisseia, etc., sont les termes habituels pour « abondant », « abonder » ou « abondance » : l'adjectif signifie « dépasser un nombre ou une mesure ». Pleonazo se distingue légèrement par l'idée que l'abondance résulte d'une augmentation. En ",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "tail",
           "source": " the two words stand in the closest connection: `Where sin abounded (by its increase) grace abounded more exceedingly (was rich beyond measure).' In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", les deux verbes sont étroitement associés : « Là où le péché a abondé (par son accroissement), la grâce a surabondé (dépassé toute mesure). » En ",
+          "action": "translate"
         },
         {
           "node": 21,
           "part": "tail",
           "source": " the Revised Version (British and American) gives improved renderings instead of \"abundance,\" and in Titus 3:6 and ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", la Revised Version remplace avantageusement « abundance » ; et en Tite 3:6 et ",
+          "action": "translate"
         },
         {
           "node": 22,
           "part": "tail",
           "source": " instead of \"abundantly.\"",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", « abundantly ».",
+          "action": "translate"
         },
         {
           "node": 23,
           "part": "text",
           "source": "J. R. Van Pelt",
-          "target": "",
-          "action": "pending_translation"
+          "target": "J. R. Van Pelt",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -1128,133 +1133,134 @@
       "source_key": "ABYSS",
       "article_id": "isbe-6834e81e1ce33ca3fae4",
       "source_article_sha256": "eb337cd33e86d8a40effe236671988e97f087e4744446547fb993c5ec6a3f1c1",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ABYSS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ABÎME",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-bis', (he abussos): In classical Greek the word is always an adjective, and is used",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-bis' (he abussos) : En grec classique, le mot est toujours un adjectif, employé :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) literally, \"very deep,\" \"bottomless\";",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Au sens littéral : « très profond », « sans fond » ;",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "(2) figuratively, \"unfathomable,\" \"boundless.\" \"Abyss\" does not occur in the King James Version but the Revised Version (British and American) so transliterates abussos in each case. The the King James Version renders the Greek by \"the deep\" in two passages (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Au sens figuré : « insondable », « illimité ». Le mot anglais « abyss » est absent de la King James Version ; la Revised Version (britannique et américaine) translittère ainsi abussos dans tous les cas. La King James Version donne « les profondeurs » à deux endroits (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": "). In Revelation the King James Version renders by \"the bottomless pit\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Dans l'Apocalypse, elle traduit par « puits sans fond » (",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "tail",
           "source": "). In the Septuagint abussos is the rendering of the Hebrew word tehom. According to primitive Semitic cosmogony the earth was supposed to rest on a vast body of water which was the source of all springs of water and rivers (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Dans la Septante, abussos traduit l'hébreu tehom. Selon la cosmologie sémitique primitive, on imaginait la terre reposant sur une immense masse d'eau d'où jaillissaient toutes les sources et les rivières (",
+          "action": "translate"
         },
         {
           "node": 17,
           "part": "tail",
           "source": "). This subterranean ocean is sometimes described as \"the water under the earth\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Cet océan souterrain est parfois décrit comme « les eaux sous la terre » (",
+          "action": "translate"
         },
         {
           "node": 19,
           "part": "tail",
           "source": "). According to ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Selon ",
+          "action": "translate"
         },
         {
           "node": 20,
           "part": "tail",
           "source": " tehom is the home of the leviathan in which he plows his hoary path of foam. The Septuagint never uses abussos as a rendering of sheol (= Sheol = Hades) and probably tehom never meant the \"abode of the dead\" which was the ordinary meaning of Sheol. In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", tehom serait la demeure du Léviathan, qui y trace dans l'écume un sillage blanchi. La Septante n'emploie jamais abussos pour traduire sheol (Shéol, Hadès), et tehom n'a probablement jamais signifié « séjour des morts », sens ordinaire de Shéol. En ",
+          "action": "translate"
         },
         {
           "node": 21,
           "part": "tail",
           "source": " tehom is used figuratively, and denotes \"many and sore troubles\" through which the psalmist has passed (compare ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", tehom est figuré et désigne les « nombreuses et cruelles détresses » traversées par le psalmiste (comparer ",
+          "action": "translate"
         },
         {
           "node": 22,
           "part": "tail",
           "source": "). But in the New Testament the word abussos means the \"abode of demons.\" In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Dans le Nouveau Testament, au contraire, abussos signifie « séjour des démons ». En ",
+          "action": "translate"
         },
         {
           "node": 23,
           "part": "tail",
           "source": " the King James Version renders \"into the deep\" (Weymouth and The Twentieth Century New Testament = \"into the bottomless pit\"). The demons do not wish to be sent to their place of punishment before their destined time. Mark simply says \"out of the country\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", la King James Version porte « dans les profondeurs » (Weymouth et The Twentieth Century New Testament : « dans le puits sans fond »). Les démons ne veulent pas être envoyés à leur lieu de châtiment avant l'heure prévue. Marc dit simplement « hors du pays » (",
+          "action": "translate"
         },
         {
           "node": 24,
           "part": "tail",
           "source": "). In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). En ",
+          "action": "translate"
         },
         {
           "node": 25,
           "part": "tail",
           "source": " the word is equivalent to Hades, the abode of the dead. In Revelation (where the King James Version renders invariably \"the bottomless pit\") abussos denotes the abode of evil spirits, but not the place of final punishment; it is therefore to be distinguished from the \"lake of fire and brimstone\" where the beast and the false prophet are, and into which the Devil is to be finally cast (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", le mot correspond à Hadès, séjour des morts. Dans l'Apocalypse, où la King James Version traduit constamment par « puits sans fond », abussos désigne la demeure des mauvais esprits, distincte du lieu du châtiment final, « l'étang de feu et de soufre », où se trouvent la bête et le faux prophète et où le diable doit finalement être jeté (",
+          "action": "translate"
         },
         {
           "node": 28,
           "part": "text",
           "source": "See also ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Voir aussi ",
+          "action": "translate"
         },
         {
           "node": 29,
           "part": "text",
           "source": "ASTRONOMY",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ASTRONOMIE",
+          "action": "translate"
         },
         {
           "node": 29,
           "part": "tail",
           "source": ", sec. III, 7.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", section III, 7.",
+          "action": "translate"
         },
         {
           "node": 30,
           "part": "text",
           "source": "Thomas Lewis",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Thomas Lewis",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -1262,168 +1268,169 @@
       "source_key": "ACCEPT; ACCEPTABLE; ACCEPTATION",
       "article_id": "isbe-69699a8e8e61a4164e97",
       "source_article_sha256": "04e9f33fb66d8ccda26f050dc308de4530dffe0cb845b9420c03b4dafb0ec500",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ACCEPT; ACCEPTABLE; ACCEPTATION",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ACCEPTER ; ACCEPTABLE ; ACCEPTATION",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ak-sept', ak-sep'-ta-b'-l, ak-sep-ta'-shun: \"To receive with favor,\" \"to take pleasure in\"; \"well-pleasing\"; \"the act of receiving.\"",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ak-sept', ak-sep'-ta-b'-l, ak-sep-ta'-shun : « Accueillir favorablement », « prendre plaisir à » ; « agréable », « bien reçu » ; « action de recevoir ».",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "Accept, used",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Accepter s'emploie :",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "(1) of sacrifice, \"accept thy burnt-sacrifice\" (dashen, \"accept as fat,\" i.e. receive favorably; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Pour un sacrifice : « accepte ton holocauste » (dashen, « accepter comme gras », c'est-à-dire accueillir favorablement ; ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "(2) of persons, \"Yahweh accept Job\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Pour des personnes : « Yahvé accepta Job » (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": ", nasa', \"to lift up,\" \"take,\" \"receive\");",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; nasa', « lever », « prendre », « recevoir ») ;",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "(3) of works, \"a the work of his hands\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Pour les œuvres : « a l'œuvre de ses mains » [formulation altérée dans la source anglaise] (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": " ratsah, \"to delight in\").",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; ratsah, « prendre plaisir à »).",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "text",
           "source": "In New Testament",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Dans le Nouveau Testament :",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "(1) of favors, \"We accept .... with all thankfulness\" (apodechomai, ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Pour des faveurs : « Nous acceptons […] avec une entière reconnaissance » (apodechomai, ",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "(2) of personal appeal, \"He accept our exhortation\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Pour un appel personnel : « Il accepta notre exhortation » (",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "text",
           "source": "(3) of God's Impartiality (lambano, \"to take,\" \"receive\"); \"accepteth not man's person\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Pour l'impartialité divine (lambano, « prendre », « recevoir ») : « ne fait point acception de personne » (",
+          "action": "translate"
         },
         {
           "node": 17,
           "part": "text",
           "source": "Acceptable, used",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Acceptable s'emploie :",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "text",
           "source": "(1) of justice (bachar, \"choose select\"), \"more accept .... than sacrifice\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Pour la justice (bachar, « choisir », « sélectionner ») : « plus agréable […] qu'un sacrifice » (",
+          "action": "translate"
         },
         {
           "node": 20,
           "part": "text",
           "source": "(2) of words (chephets, \"delight in,\" \"sought .... accept words\") (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Pour des paroles (chephets, « plaisir », « rechercher […] des paroles agréables ») (",
+          "action": "translate"
         },
         {
           "node": 22,
           "part": "text",
           "source": "(3) of times (ratson, \"delight,\" \"approbation\"; dektos, \"receivable\") \"acceptable year of the Lord\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Pour les temps (ratson, « plaisir », « approbation » ; dektos, « recevable ») : « l'année favorable du Seigneur » (",
+          "action": "translate"
         },
         {
           "node": 23,
           "part": "tail",
           "source": " (King James Version); ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans la King James Version ; ",
+          "action": "translate"
         },
         {
           "node": 25,
           "part": "text",
           "source": "(4) of spiritual sacrifice (euprosdektos, \"well received\"), \"acceptable to God\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(4) Pour le sacrifice spirituel (euprosdektos, « bien reçu ») : « agréable à Dieu » (",
+          "action": "translate"
         },
         {
           "node": 27,
           "part": "text",
           "source": "(5) of patient endurance (charis, \"grace,\" \"favor\") \"This is acceptable with God\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(5) Pour l'endurance patiente (charis, « grâce », « faveur ») : « C'est agréable à Dieu » (",
+          "action": "translate"
         },
         {
           "node": 28,
           "part": "tail",
           "source": "). Acceptation, used twice to indicate the trustworthiness of the gospel of Christ's saving grace: \"worthy of all acceptation.\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Le mot acceptation apparaît deux fois pour marquer la fiabilité de l'Évangile de la grâce salvatrice du Christ : « digne d'être pleinement accepté » (",
+          "action": "translate"
         },
         {
           "node": 31,
           "part": "text",
           "source": "These words are full of the abundant grace of God and are rich in comfort to believers. That which makes man, in word, work and character, acceptable to God; and renders It possible for God to accept him, his service and sacrifice, is the fullness of the Divine mercy and grace and forgiveness. He \"chose us\" and made us, as adopted sons, the heirs of His grace \"which he freely bestowed on us in the Beloved\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Ces mots portent l'abondance de la grâce de Dieu et consolent richement les croyants. Ce qui rend l'homme, dans ses paroles, ses œuvres et son caractère, agréable à Dieu, et permet à Dieu d'accepter sa personne, son service et son sacrifice, c'est la plénitude de la miséricorde, de la grâce et du pardon divins. Dieu « nous a choisis » et faits, par adoption, héritiers de sa grâce « qu'il nous a librement accordée dans le Bien-Aimé » (",
+          "action": "translate"
         },
         {
           "node": 32,
           "part": "tail",
           "source": "; compare the King James Version).",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; comparer la King James Version).",
+          "action": "translate"
         },
         {
           "node": 33,
           "part": "text",
           "source": "Dwight M. Pratt",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
