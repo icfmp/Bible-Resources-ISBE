@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scripts/render_translation_review_corpus.py'
+      - 'scripts/render_translation_reading_copy.py'
       - 'tests/test_translation_review_corpus.py'
       - 'workspace/pilots/isbe-1915-fr/draft-patches.json'
       - 'workspace/pilots/isbe-1915-fr/SOURCE_REVIEW_FLAGS.json'
@@ -12,6 +13,7 @@ on:
   pull_request:
     paths:
       - 'scripts/render_translation_review_corpus.py'
+      - 'scripts/render_translation_reading_copy.py'
       - 'tests/test_translation_review_corpus.py'
       - 'workspace/pilots/isbe-1915-fr/draft-patches.json'
       - 'workspace/pilots/isbe-1915-fr/SOURCE_REVIEW_FLAGS.json'
