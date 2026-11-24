@@ -23,8 +23,8 @@ sources/
     editorial/README.md           Reversible, source-attested corrections
 
 modules/
-  isbe-1915/metadata.json         Planned curated SWORD module, NOT compiled
-  isbe-1915/EDITORIAL.md          Module-building and rights gates
+  isbe-1915/metadata.json         Published metadata; compiled SWORD ZIP in GitHub Release
+  isbe-1915/EDITORIAL.md          Published module evidence and reader scope
 
 workspace/
   witnesses/crosswire-2.2/
