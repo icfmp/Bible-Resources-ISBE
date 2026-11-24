@@ -36,8 +36,8 @@ articles into one excerpt using the same canonical index.
 canonical source `isbe-34a2976d25bc7d0f3d37`. It contains **all seven sections of the original ABRAHAM article**, with all
 source-owned Scripture reference labels, internal links and text nodes retained
 in their canonical locations. It is a **complete first draft, still unreviewed**,
-not a published resource. Work must continue with
-sections IV–VII before full-article editorial review.
+not a published resource. All seven sections are drafted; full bilingual
+editorial review remains outstanding.
 
 Source SHA-256 (immutable):
 `5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c`.
@@ -51,7 +51,7 @@ unchanged. This Markdown is a **derived editorial view**, not an independent
 translation source and not the published edition. It is committed only so
 reviewers can read the whole article without inspecting JSON/XML.
 
-The new CI workflow regenerates the Markdown from the canonical English TEI
+The CI workflow regenerates the Markdown from the canonical English TEI
 plus source-locked French patches and **fails** if the committed view differs
 by even one byte. Editorial changes therefore go into the source-locked patch,
 not directly into the rendered view.
