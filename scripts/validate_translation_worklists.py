@@ -116,7 +116,7 @@ def render_ticket(roster: dict, *, parent_issue=103) -> str:
         f"**Canonical source entries:** {first}–{last} inclusive "
         f"({roster['article_count']} articles).",
         "**Source of truth:** corrected original English ISBE 1915 TEI, "
-        f"SHA-256 \`{SOURCE_SHA256}\`. Never derive translation from "
+        f"SHA-256 `{SOURCE_SHA256}`. Never derive translation from "
         "the original CrossWire intermediate or a modern-English paraphrase.",
         f"**Master plan:** #{parent_issue}. "
         "The full index is 9,380 entries; this ticket is one contiguous slice.",
@@ -128,8 +128,8 @@ def render_ticket(roster: dict, *, parent_issue=103) -> str:
         "2. Translate the **entire** article in natural, accurate French; "
         "keep the original author's arguments, historical viewpoints and "
         "uncertainties. Do not modernize content or silently repair corruptions.",
-        "3. Preserve the original canonical English \`@n\` SWORD key, "
-        "\`xml:id\`, source order, source-language spans and link targets. "
+        "3. Preserve the original canonical English `@n` SWORD key, "
+        "`xml:id`, source order, source-language spans and link targets. "
         "Localize *visible labels* only; BRSI shares one canonical index.",
         "4. Reconstruct a full **readable article** from source-locked patches "
         "and compare it carefully against the English, paragraph by paragraph: "
@@ -153,9 +153,9 @@ def render_ticket(roster: dict, *, parent_issue=103) -> str:
     ]
     for entry in roster["entries"]:
         title = entry["source_key"]
-        if "\\n" in title or "`" in title:
+        if "\n" in title or "`" in title:
             raise ValueError("Unsafe canonical label for Markdown checklist")
-        lines.append(f"- [ ] {entry['index']:04d} \`{title}\`")
+        lines.append(f"- [ ] {entry['index']:04d} `{title}`")
     lines.extend([
         "",
         "## Completion gate",
@@ -165,7 +165,7 @@ def render_ticket(roster: dict, *, parent_issue=103) -> str:
         "content/structure defect in the covered articles. "
         "Do not interpret this issue closing as authorization to publish a module.",
     ])
-    return "\\n".join(lines) + "\\n"
+    return "\n".join(lines) + "\n"
 
 
 def main() -> None:
@@ -182,7 +182,7 @@ def main() -> None:
                       expected_start=args.expected_start,
                       expected_entries=args.expected_entries)
     args.report.parent.mkdir(parents=True, exist_ok=True)
-    args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\\n",
+    args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n",
                            encoding="utf-8")
     if args.issues_dir:
         args.issues_dir.mkdir(parents=True, exist_ok=True)
