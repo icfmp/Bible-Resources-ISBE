@@ -1,0 +1,894 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AHISAMACH",
+      "article_id": "isbe-d88f2b40e765f778f311",
+      "source_article_sha256": "020c07a8a48bf421e050d66f865e01dd6fb073e7b4d5b2ad44f1e7994d87556b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHISAMACH",
+          "target": "AHISAMACH",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-his'-a-mak ('achicamakh, \"my brother supports\"): A man of the tribe of Dan, father of Oholiab, who was the assistant of Bezalel in the building of the tent of meeting and preparing its furniture (",
+          "target": "a-his'-a-mak ('achicamakh, « mon frère soutient ») : Danite, père d'Oholiab, qui assista Betsaleel dans la construction de la tente de la Rencontre et la fabrication de son mobilier (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AHLAB",
+      "article_id": "isbe-bb2f9c2082161f132cb6",
+      "source_article_sha256": "ba63495743179c352fbb41a206f6965802bf49a31a03a59e999b1c097f743b56",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHLAB",
+          "target": "AHLAB",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-lab ('achlabh, \"fat or fruitful\"): A town of Asher. It is clear, however, that the Israelites failed to drive away the original inhabitants (",
+          "target": "a'-lab ('achlabh, « gras » ou « fertile ») : Ville d'Aser. Il est toutefois clair que les Israélites ne parvinrent pas à en chasser les premiers habitants (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). Some have identified Ahlab with Gush Halab or Geschila, Northwest of the Sea of Galilee.",
+          "target": ") : Certains ont identifié Ahlab à Gush Halab ou Geschila, au nord-ouest de la mer de Galilée.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AHLAI",
+      "article_id": "isbe-15dbbf76d422a6696c4f",
+      "source_article_sha256": "d52c09a709ba67ec38fc63f1dc098f188c932066ec305dff39c0e875db57afec",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHLAI",
+          "target": "AHLAI",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-li ('achlay \"O would that!\"):",
+          "target": "a'-li ('achlay, « ô si seulement ! ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A Son of Sheshan (",
+          "target": "(1) Fils de Sheshan (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") or according to ",
+          "target": ") ou, selon ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " a daughter of Sheshan, for here we read: \"Now Sheshan had no sons, but daughters.\"",
+          "target": ", fille de Sheshan, car on lit ici : « Sheshan n'avait pas de fils, mais des filles. »",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) The father of Zabad, a soldier in David's army (",
+          "target": "(2) Père de Zabad, soldat de l'armée de David (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AHOHITE",
+      "article_id": "isbe-fdb7abf502771850dc40",
+      "source_article_sha256": "978e0f1e9390bab746dfe7d02ae8dfb145e9ab41848a20ca8e5090631b2d130b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHOHITE",
+          "target": "AHOHITE",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ho'-hit ('achochi): A patronymic employed in connection with the descendants of ",
+          "target": "a-ho'-hit ('achochi) : Gentilé employé à propos des descendants d'",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AHOAH",
+          "target": "AHOAH",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see) such as Doda (",
+          "target": " (voir cet article), comme Doda (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") or Dodo (",
+          "target": ") ou Dodo (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), Ilai (29) or Zalmon (",
+          "target": "), Ilaï (29) ou Tsalmon (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "), and also Eleazar, son of Dodo (",
+          "target": "), ainsi qu'Éléazar, fils de Dodo (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "). The family must have been fond of military affairs, for all the above were officers in David and Solomon's armies.",
+          "target": ") : Cette famille devait être très portée sur les activités militaires, puisque tous ces hommes étaient officiers dans les armées de David et de Salomon.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AIAH",
+      "article_id": "isbe-033f9ce8c4c24df1e206",
+      "source_article_sha256": "d64f8e19ae89e64fc0b948ea2649e03ec7e93d23f9b6c09e813f62746c5e8f0b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AIAH",
+          "target": "AIAH",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-ya ('ayyah, \"falcon\"; once in the King James Version Ajah, ",
+          "target": "a'-ya ('ayyah, « faucon » ; une fois Ajah dans la King James Version, ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(1) A Horite, son of Zibeon, and brother of Anah, who was father of one of Esau's wives (",
+          "target": "(1) Horite, fils de Tsibeon et frère d'Ana, père de l'une des femmes d'Ésaü (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(2) Father of Rizpah, a concubine of Saul, about whom Ishbosheth falsely accused Abner (",
+          "target": "(2) Père de Ritspa, concubine de Saül, au sujet de laquelle Ish-Bosheth accusa faussement Abner (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "), and whose sons were hanged to appease the Gibeonites, whom Saul had wronged (",
+          "target": ") et dont les fils furent pendus pour apaiser les Gabaonites, que Saül avait lésés (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AIRUS",
+      "article_id": "isbe-9c3ac1e2d397dcad2e87",
+      "source_article_sha256": "302ea4922bd269aaaa4c55cac9f4e7c42694d86383e59515c4e826e6de283295",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AIRUS",
+          "target": "AIRUS",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-i'-rus, ar'-us (Iairos): the King James Version, one of the heads of a family of temple servants (1 Esdras 5:31 the Revised Version (British and American) ",
+          "target": "a-i'-rus, ar'-us (Iairos) : Nom employé dans la King James Version pour l'un des chefs d'une famille de serviteurs du Temple (1 Esdras 5:31) ; la Revised Version (britannique et américaine) porte ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "JAIRUS",
+          "target": "JAÏRUS",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), which returned from Babylon with Zerubbabel; in the Old Testament called Reaiah (",
+          "target": ") : Cette famille revint de Babylone avec Zorobabel. Dans l'Ancien Testament, le nom est Reaja (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), and classed among the Nethinim.",
+          "target": ") et ces personnes sont classées parmi les Néthiniens.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALBEIT",
+      "article_id": "isbe-9cbb2c0a8a3a8f92b3b9",
+      "source_article_sha256": "ef584de25eebe60393d9c51297fff1bcd1bc5dc75ddb000f9acbffb743cecc92",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALBEIT",
+          "target": "ALBEIT (BIEN QUE)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ol-be'-it (hina me; literally, \"lest\"): Occurs in a paraphrase rather than as a translation of a clause in ",
+          "target": "ol-be'-it (hina me, littéralement « de peur que ») : Mot apparaissant dans une paraphrase plutôt que dans la traduction littérale d'une proposition en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the King James Version. The thought is: \"although\" or \"albeit\" (synonym of \"although\") \"I might say,\" etc. This the Revised Version (British and American) translates with intense literalness: \"that I say not\".",
+          "target": " dans la King James Version. La pensée est « bien que », ou « albeit » (synonyme anglais de « although »), « je pourrais dire », etc. La Revised Version (britannique et américaine) traduit littéralement : « pour ne pas dire ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALCOVE",
+      "article_id": "isbe-af82cb6f70d66f76bb17",
+      "source_article_sha256": "7b474cb350c7ce4ed86314e2433e99933cd205f8b5bc0c394fe4033e28acef64",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALCOVE",
+          "target": "ALCÔVE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-kov (qubbah; the King James Version tent; the American Standard Revised Version pavilion; the American Revised Version, margin alcove): Perhaps a large tent occupied by a prince (",
+          "target": "al'-kov (qubbah ; « tente » dans la King James Version ; « pavillon » dans l'American Standard Revised Version ; « alcôve » dans la note marginale de l'American Revised Version) : Peut-être une grande tente occupée par un prince (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALEMA",
+      "article_id": "isbe-ca06aaae0ff9fb1449cf",
+      "source_article_sha256": "0541a4ba00298762ace0025c6a104e517aab4cc3a94bbba37e8e18053f3df561",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALEMA",
+          "target": "ALEMA",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-e-ma (Alemois): A town in Gilead, mentioned once only (1 Macc 5:26), besieged by the nations under Timotheus, together with Bosor and other cities; and probably relieved along with these cities by Judas Maccabeus, although no mention is made of Alema's relief. The name occurs the one time as dative plural.",
+          "target": "al'-e-ma (Alemois) : Ville de Galaad mentionnée une seule fois (1 Macc 5:26), assiégée par les nations sous Timothée avec Bosor et d'autres villes. Elle fut probablement secourue avec celles-ci par Judas Maccabée, bien que sa délivrance ne soit pas expressément mentionnée. Le nom apparaît cette seule fois au datif pluriel.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALLAY",
+      "article_id": "isbe-5c4398f967ad01457139",
+      "source_article_sha256": "4b5aeb1e140f5ae2ab6d9e4f543466c7bd11445b6b06e671338656e20dbc8e38",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALLAY",
+          "target": "APAISER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-la' (heniach, \"to cause to rest,\" \"soothe\": \"Gentleness allayeth (lit., \"pacifieth\") great offenses\" (",
+          "target": "a-la' (heniach, « faire reposer », « apaiser ») : « La douceur apaise (littéralement « pacifie ») de grandes offenses » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ")): The word is applied to what \"excites, disturbs and makes uneasy\" (Smith, Synonyms Discriminated, 106).",
+          "target": ")) : Le mot s'applique à ce qui « excite, trouble et inquiète » (Smith, Synonyms Discriminated, p. 106).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALLEGIANCE",
+      "article_id": "isbe-e39e8584d463e85141e0",
+      "source_article_sha256": "6f75ed06a39e5b8f2fcb62cf7f59b2b40a0bbf5dca913f0ada461b71844a298f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALLEGIANCE",
+          "target": "ALLÉGEANCE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-le'-jans (mishmereth, \"a charge,\" from shamar, \"to keep,\" ",
+          "target": "a-le'-jans (mishmereth, « charge », de shamar, « garder », ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): the Revised Version, margin gives as literal meaning, \"kept the charge of the house of Saul,\" which revisers consider figurative for \"maintaining their loyalty and fidelity,\" i.e. \"allegiance.\"",
+          "target": ") : La note marginale de la Revised Version donne le sens littéral « avaient gardé la charge de la maison de Saül », expression que les réviseurs jugent figurée pour « conserver leur loyauté et leur fidélité », c'est-à-dire leur allégeance.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALMODAD",
+      "article_id": "isbe-ee037d923264598cc3dd",
+      "source_article_sha256": "27641fc200a9ce2e84f0ff268ff48ba2e9ab3d02819ce99d6c39d3560bb3b2ee",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALMODAD",
+          "target": "ALMODAD",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al-mo'-dad ('almodhadh, \"the beloved,\" or, \"God is beloved\"): The first mentioned of the thirteen sons of Joktan (",
+          "target": "al-mo'-dad ('almodhadh, « le bien-aimé » ou « Dieu est aimé ») : Premier des treize fils de Jokthan mentionnés (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). A south Arabian name, and pointing to a south Arabian tribe. See ",
+          "target": ") : Nom d'Arabie méridionale, renvoyant à une tribu de cette région. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ABIMAEL",
+          "target": "ABIMAEL",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ALMON",
+      "article_id": "isbe-13ffc4809a928f6517af",
+      "source_article_sha256": "f332757696be8e9d59c54c53564aca2991595fbe75e43924a95387f7c5ce1daa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALMON",
+          "target": "ALMON",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-mon (`almon, \"hidden\"): A Levitical city in the tribe of Benjamin (",
+          "target": "al'-mon (`almon, « caché ») : Ville lévitique de la tribu de Benjamin (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), the same as \"Allemeth\" the Revised Version (British and American), \"Alemeth\" the King James Version, of ",
+          "target": ") ; la même ville est appelée « Allemeth » dans la Revised Version (britannique et américaine) et « Alemeth » dans la King James Version en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALOFT",
+      "article_id": "isbe-32161136bf72b33e9fd5",
+      "source_article_sha256": "6de191d1082cbc273a9f6b1c96f93338c4792ffdd3a1e003ac3487f4088f7f2e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALOFT",
+          "target": "ALOFT (EN HAUT)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-loft' (epano): Only in 1 Esdras 8:92. Meaning obscure. The statement following a confession of sin means probably that Israel in penitence returning to the Lord, is exultant in the assurance of His forgiveness, and encouraged in efforts at reformation.",
+          "target": "a-loft' (epano) : Uniquement en 1 Esdras 8:92. Sens obscur. Après une confession de péché, l'affirmation signifie probablement qu'Israël, revenant au Seigneur dans la repentance, se réjouit de l'assurance de son pardon et se trouve encouragé dans ses efforts de réforme.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALONG",
+      "article_id": "isbe-715bacbabe7da69d592e",
+      "source_article_sha256": "0115085b29e5b8d5c3835552a7e2a00b8098e22c4012f719b1f55ff060bbd01f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALONG",
+          "target": "ALONG (LE LONG DE)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-long': Corresponding to two different Hebrew words, ",
+          "target": "a-long' : Correspond à deux mots hébreux différents, ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", joined with \"come\" and \"go,\" vividly describes a course that is taken--it emphasizes its directness and immediateness. In ",
+          "target": ", associé à « venir » et « aller », décrit de façon saisissante le trajet suivi, en soulignant son caractère direct et immédiat. En ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", \"lay along in the valley,\" probably means \"all the length\" or \"at length.\"",
+          "target": ", « lay along in the valley » signifie probablement « sur toute sa longueur » ou « de tout son long ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMBITIOUS",
+      "article_id": "isbe-132293640e9c657ceff6",
+      "source_article_sha256": "7b14806a83ab28a02640d2583ed4b165b6b34fc3d1a1657a41266955e0e4722c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMBITIOUS",
+          "target": "AMBITIEUX",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am-bish'-us (philotimeomai, \"to be strongly desirous,\" \"strive earnestly,\" \"make it one's aim\"): Given as a marginal reading in ",
+          "target": "am-bish'-us (philotimeomai, « désirer vivement », « s'efforcer avec ardeur », « se donner pour but ») : Donné comme variante dans la note marginale de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (\"being ambitious to bring good tidings\"), ",
+          "target": " (« ambitionnant d'annoncer la bonne nouvelle »), ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (\"We are ambitious, whether at home or absent, to be well-pleasing unto him\"), and ",
+          "target": " (« nous avons l'ambition, présents ou absents, de lui être agréables »), et ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " (\"that ye be ambitious to be quiet\").",
+          "target": " (« ayez pour ambition de vivre tranquillement »).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMBUSHMENT",
+      "article_id": "isbe-98ef2dced5c48ce9118c",
+      "source_article_sha256": "7dc5b7ec2c2485360b78519459e4997d2a26846a18429d077d96402832caa6a4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMBUSHMENT",
+          "target": "EMBUSCADE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am'-boosh-ment (as above) has now disappeared in ",
+          "target": "am'-boosh-ment (comme ci-dessus) : Cette forme ancienne a disparu en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", where the Revised Version (British and American) gives for \"ambushment\" \"liers-in-wait.\" It still remains in ",
+          "target": ", où la Revised Version (britannique et américaine) remplace « embuscade » par « hommes en embuscade ». Le mot subsiste en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " where both the King James Version and the Revised Version (British and American) render the Hebrew noun \"ambushment.\"",
+          "target": ", où la King James Version et la Revised Version (britannique et américaine) rendent toutes deux ainsi le nom hébreu.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMMISHADDAI",
+      "article_id": "isbe-e5514102643924e61d1a",
+      "source_article_sha256": "edd583eae7fbef645066617f70c740fdf7f77cdecf4e701b8347f626a726e8cc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMMISHADDAI",
+          "target": "AMMISHADDAI",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am-i-shad'-i, am-i-shad-a'-i (`ammishadday, \"Shaddai is my kinsman\"): The father of Ahiezer, a Danite captain or \"head of his fathers' house,\" during the wilderness journey (",
+          "target": "am-i-shad'-i, am-i-shad-a'-i (`ammishadday, « Shaddaï est mon parent ») : Père d'Ahiézer, chef ou « chef de maison paternelle » danite pendant la traversée du désert (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", etc.).",
+          "target": ", etc.).",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "AMRAMITES",
+      "article_id": "isbe-97732ddf7675bc40ec5c",
+      "source_article_sha256": "c7f5982d74e6dbc1d9b74a5e6765fb6a041cc9224f1962b34f07eb98cf16c248",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMRAMITES",
+          "target": "AMRAMITES",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am'-ram-its (`amrami): The descendants of Amram, one of the Levitical families mentioned in ",
+          "target": "am'-ram-its (`amrami) : Descendants d'Amram, l'une des familles lévitiques mentionnées en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", who had the charge of the tabernacle proper, guarding the ark, table, candlestick, etc., called in ",
+          "target": ". Ils avaient la garde du tabernacle lui-même, veillant sur l'arche, la table, le chandelier, etc. ; ce service est appelé en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " \"the treasures of the house of Yahweh.\"",
+          "target": " « les trésors de la maison de Yahvé ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANAHARATH",
+      "article_id": "isbe-22153347b5fb94ecf008",
+      "source_article_sha256": "3fce9d3ec948e7412305626f15690a9c2b5f9cfe5bf1ab162c70d1083032187d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANAHARATH",
+          "target": "ANAHARATH",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-na'-ha-rath ('ana-charath, meaning unknown): A place which fell to the tribe of Issachar in the division of the land (",
+          "target": "a-na'-ha-rath ('ana-charath, de sens inconnu) : Lieu attribué à la tribu d'Issacar lors du partage du pays (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). Located in the valley of Jezreel toward the East, the name and site being preserved as the modern en-Na`-ura. BDB is wrong in assigning it to the tribe of Naphtali.",
+          "target": ") : Situé dans la vallée de Jizréel, à l'est, le nom et l'emplacement subsisteraient dans le lieu moderne d'en-Na`-ura. Le dictionnaire BDB l'attribue à tort à la tribu de Nephtali.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANAIAH",
+      "article_id": "isbe-edcfd863e76bd155e94d",
+      "source_article_sha256": "533e8b1ec1cc664659fd1bd878b6dd362516e0d8254bffe1138f2fb69d490e9f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANAIAH",
+          "target": "ANAIAH",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an-a-i'-a, a-ni'-a (`anayah, \"Yah has answered\"):",
+          "target": "an-a-i'-a, a-ni'-a (`anayah, « Yah a répondu ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) a Levite who assisted Ezr in reading the law to the people (",
+          "target": "(1) Lévite qui aida Esdras à lire la Loi au peuple (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), perhaps the person called Ananias in  Esdras 9:43.",
+          "target": ") ; peut-être celui qui est appelé Ananias en Esdras 9:43.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) One of those who sealed the covenant (",
+          "target": "(2) L'un de ceux qui scellèrent l'alliance (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). He may have been the same as Anaiah (1).",
+          "target": ") : Il s'agissait peut-être du même Anaïa qu'au premier paragraphe.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANATH",
+      "article_id": "isbe-0f87631b5ae80bae603e",
+      "source_article_sha256": "3e5679811244695cb4f8c8f7b2fbc8fa519108cb8c1af5bb1d96e3b112c83179",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANATH",
+          "target": "ANATH",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-nath (`anath): Father of Shamgar (",
+          "target": "a'-nath (`anath) : Père de Shamgar (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). This name is connected with the Phoenician and Canaanite goddess `Anat, which was also worshipped in Egypt. She is mentioned in monuments of the 18th Dynasty, coupled with the war- goddess Astart (Moore, Judges, 105-896; DB; EB).",
+          "target": ") : Ce nom est lié à celui de la déesse phénicienne et cananéenne `Anat, également adorée en Égypte. Elle apparaît sur des monuments de la XVIIIe dynastie, associée à la déesse guerrière Astarté (Moore, Judges, p. 105-896 ; DB ; EB).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANER (2)",
+      "article_id": "isbe-4f3bc26751e765578391",
+      "source_article_sha256": "ada86db2e9a5458d7267035f6d5d694760307aaf0777f54cf03bc8a314c08985",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANER (2)",
+          "target": "ANER (2)",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-ner (`aner, meaning doubtful): A Levitical town in Manasseh, West of the Jordan (",
+          "target": "a'-ner (`aner, de sens incertain) : Ville lévitique de Manassé, à l'ouest du Jourdain (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). Gesenius and others identified it with Taanach of ",
+          "target": ") : Gesenius et d'autres l'ont identifié à Taanach de ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". There is, however, no agreement as to its location.",
+          "target": ". Il n'existe cependant pas d'accord sur son emplacement.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANGLING",
+      "article_id": "isbe-4badac514a069451c26d",
+      "source_article_sha256": "a18a2c5ff3b92a485e545f8431d53a6011d5b8148a6ea035327b558ce7d679e7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANGLING",
+          "target": "PÊCHE À LA LIGNE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-gling: Angling, i.e. fishing with a hook or angle, was little known among the ancients. The fish were chiefly taken by casting nets, etc. (see ",
+          "target": "an'-gling : La pêche à la ligne, c'est-à-dire au moyen d'un hameçon, était peu connue des Anciens. Les poissons étaient principalement capturés à l'aide de filets jetés dans l'eau, etc. (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). Compare e.g. \"Then did Deucalion first the art invent of angling\" (Davors, Secret of Angling, I). See ",
+          "target": ") : Comparer, par exemple : « C'est alors que Deucalion inventa pour la première fois l'art de la pêche à la ligne » (Davors, Secret of Angling, I). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "NET",
+          "target": "FILET",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANNIS",
+      "article_id": "isbe-c88c904c150ed60921bd",
+      "source_article_sha256": "57488615da94d417b9355a49c84d7ec400d002c4a8dc6e7b47db1014b2de9244",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANNIS",
+          "target": "ANNIS",
+          "action": "preserve",
+          "reason": "Original historical pronunciation, canonical proper name or source-linked reference label retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-is (the King James Version Ananias; the Revised Version, margin Annias, Anneis Codex Vaticanus, Annias Codex Alexandrinus): The name of a family in the list of the returning exiles (1 Esdras 5:16). The name is not given in the parallel list in Ezra and Nehemiah.",
+          "target": "an'-is (Ananias dans la King James Version ; Annias dans la note marginale de la Revised Version ; Anneis dans le Codex Vaticanus, Annias dans le Codex Alexandrinus) : Nom d'une famille figurant sur la liste des exilés revenus au pays (1 Esdras 5:16). Ce nom ne figure pas dans la liste parallèle d'Esdras et de Néhémie.",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
