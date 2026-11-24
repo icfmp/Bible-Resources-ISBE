@@ -428,42 +428,44 @@
       "source_key": "ACACIA",
       "article_id": "isbe-d6f8b65768fb8893514b",
       "source_article_sha256": "940dfe069f68e59cd36ecaea4a34a9d2ca37a3ba133230c31b37334b9ebc23c4",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ACACIA",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ACACIA",
+          "action": "preserve",
+          "reason": "Original canonical proper name retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-ka'-sha (shiTTah, the shittah tree of the King James Version, ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-ka'-sha (shiTTah, l'arbre shittah de la King James Version, ",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": ", and `atse-shiTTah, acacia wood; shittah wood the King James Version, ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; et `atse-shiTTah, bois d'acacia, appelé « bois de shittah » dans la King James Version, ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": ".): ShiTTah (= shinTah) is equivalent to the Arabic sant which is now the name of the Acacia Nilotica (NO, Leguminosae), but no doubt the name once included other species of desert acacias. If one particular species is indicated in the Old Testament it is probably the Acacia Seyal--the Arabic Seyyal--which yields the well-known gum- arabic This tree, which has finely leaves ular flowers, grows to a height of twenty feet or more, and its stem may sometimes reach two feet in thickness. The tree often assumes a characteristic umbrella-like form. The wood is close-grained and is not readily attacked by insects. It would be well suited for such purposes as described, the construction of the ark of the covenant, the altar and boarding of the tabernacle. Even today these trees survive in considerable numbers around `Ain Jidy and in the valleys to the south.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") : ShiTTah (= shinTah) correspond à l'arabe sant, nom actuel d'Acacia nilotica (Légumineuses), mais ce terme englobait sans doute autrefois d'autres acacias des déserts. Si une espèce précise est visée dans l'Ancien Testament, il s'agit probablement d'Acacia seyal, l'arabe seyyal, qui donne la gomme arabique bien connue. Cet arbre, aux feuilles fines, est décrit par une expression manifestement tronquée dans la source anglaise à propos de ses fleurs ; il atteint six mètres ou davantage et son tronc peut approcher soixante centimètres d'épaisseur. Il prend souvent une forme caractéristique de parasol. Son bois dense résiste bien aux insectes ; il convenait donc à la fabrication de l'arche de l'Alliance, de l'autel et des planches du tabernacle. Ces arbres subsistent encore en nombre autour d'Aïn Jidy et dans les vallées plus au sud.",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "E. W. G. Masterman",
-          "target": "",
-          "action": "pending_translation"
+          "target": "E. W. G. Masterman",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -471,77 +473,78 @@
       "source_key": "ACCESS",
       "article_id": "isbe-c01a38705dd65deec615",
       "source_article_sha256": "26aa558d154ab00a3f7fac89b76bd62a20b62782ed82559afac8399cf1213aa5",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ACCESS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ACCÈS",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ak'-ses (prosagoge, \"a leading to or toward,\" \"approach\"): Thrice used in the New Testament to indicate the acceptable way of approach to God and of admission to His favor. Jesus said, \"I am the way\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ak'-ses (prosagoge, « conduite vers », « approche ») : Ce terme figure trois fois dans le Nouveau Testament pour désigner le chemin permettant de s'approcher de Dieu et d'être admis à sa faveur. Jésus a dit : « Je suis le chemin » (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "). His blood is the \"new and living way\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Son sang est la « voie nouvelle et vivante » (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": "). Only through Him have we \"access by faith into this grace wherein we stand\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Ce n'est que par lui que nous avons « accès par la foi à cette grâce dans laquelle nous demeurons » (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "); \"Through him we both have access by one Spirit unto the Father\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; « par lui, les uns et les autres nous avons accès auprès du Père dans un même Esprit » (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " the King James Version); \"in whom we have .... access in confidence, through our faith in him\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans la King James Version) ; « en qui nous avons […] un accès plein de confiance, par notre foi en lui » (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "The goal of redemption is life in God, \"unto the Father.\" The means of redemption is the cross of Christ, \"in whom we have our redemption through his blood\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Le but de la rédemption est la vie en Dieu, « auprès du Père ». Le moyen de la rédemption est la croix du Christ, « en qui nous avons la rédemption par son sang » (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": "). The agent in redemption is the Holy Spirit, \"by one Spirit,\" \"sealed with the Holy Spirit of promise\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). L'agent de la rédemption est le Saint-Esprit : « dans un même Esprit », « scellés du Saint-Esprit de la promesse » (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": "). The human instrumentality, faith. The whole process of approach to, and abiding fellowship with, God is summed up in this brief sentence Access to the Father, through Christ, by the Spirit, by faith.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). L'instrument du côté humain est la foi. Tout le processus par lequel on s'approche de Dieu et demeure en communion avec lui se résume ainsi : accès au Père, par le Christ, dans l'Esprit, par la foi.",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "Dwight M. Pratt",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -549,98 +552,100 @@
       "source_key": "ACHISH",
       "article_id": "isbe-c8bce2cb19ed7b3b7188",
       "source_article_sha256": "f99e5a8c4c104bdcc7fa1a4059fabac253d7cd9bad2584955b768fe80d369462",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ACHISH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ACHISH",
+          "action": "preserve",
+          "reason": "Original canonical proper name retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a'-kish ('akhish): King of the city of Gath in the days of David. His father's name is given as Maoch (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a'-kish ('akhish) : Roi de Gath à l'époque de David. Son père se nomme Maoc (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "), and Maacah (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") et Maaca (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": "). David sought the protection of Achish when he first fled from Saul, and just after his visit to Nob (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). David chercha la protection d'Akish la première fois qu'il fuit Saül, juste après avoir visité Nob (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "). Fearing rough treatment or betrayal by Achish, he feigned madness. But this made him unwelcome, whereupon he fled to the Cave of Adullam (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Craignant d'être maltraité ou livré par Akish, il feignit la folie. Cela le rendit indésirable et il s'enfuit à la caverne d'Adullam (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": "). Later in his fugitive period David returned to Gath to be hospitably received by Achish (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Plus tard, pendant sa fuite, David revint à Gath et fut accueilli avec bienveillance par Akish (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " ff), who gave him the town of Ziklag for his home. A year later, when the Philistines invaded the land of Israel, in the campaign which ended so disastrously for Saul (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv.), qui lui accorda la ville de Tsiklag pour y habiter. Un an plus tard, lors de l'invasion des Philistins qui s'acheva par le désastre de Saül (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": "), Achish wished David to participate (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), Akish voulut faire participer David à la campagne (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": "), but the lords of the Philistines objected so strenuously, when they found him and his men with the forces of Achish, that Achish was compelled to send them back. Achish must have been a young man at this time, for he was still ruling forty years later at the beginning of Solomon's reign (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Mais les chefs philistins s'y opposèrent si vigoureusement en le découvrant, lui et ses hommes, dans l'armée d'Akish que celui-ci dut les renvoyer. Akish devait être jeune à l'époque, puisqu'il régnait encore quarante ans plus tard, au début du règne de Salomon (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": "). He is mentioned as Abimelech in the title of ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Il est appelé Abimélec dans le titre du ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": ". See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". Voir ",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "ABIMELECH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ABIMÉLEC",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "Edward Mack",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Edward Mack",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -648,77 +653,78 @@
       "source_key": "ACHOR",
       "article_id": "isbe-bb47d76265c2e37b0cc5",
       "source_article_sha256": "bde12dfd10aa3256b3cb15d54300daaaa959de2958ccb3b0b81f4d393f71916f",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ACHOR",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ACOR",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a'-kor (`akhor, \"trouble,\" the idea of the word being that of trouble which is serious and extreme. See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a'-kor (`akhor, « trouble », avec l'idée d'un malheur grave et extrême ; voir ",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "ACHAN",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ACAN",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "): The place where Achan was executed in the time of Joshua (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") : Lieu où Acan fut exécuté au temps de Josué (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "). In all the five places where it is mentioned it is described as the `emek, the arable valley of Achor. There is no ground in the record for the current idea that it must have been a locality with horrid and dismal physical features. It was on a higher level than the camp of Israel in the Jordan valley, and on a lower level than Debir--a different Debir from that of ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Dans les cinq passages qui le mentionnent, il est décrit comme l'`emek, vallée cultivable d'Acor. Rien dans le récit ne permet de supposer, comme on le fait souvent, que le site présentait un aspect horrible et lugubre. Il se trouvait plus haut que le camp d'Israël dans la vallée du Jourdain, mais plus bas que Debir — un Debir distinct de celui de ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": ". In a general way, as indicated by the points mentioned in the border of Judah, it was north of Betharabah, and south of Debir (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". D'après les repères de la frontière de Juda, il était au nord de Beth-Araba et au sud de Debir (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": "). Many identify it with the Wady Kelt which descends through a deep ravine from the Judean hills and runs between steep banks south of the modern Jericho to Jordan, the stream after rams becoming a foaming torrent. Possibly the name may have been applied to a region of considerable extent. In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Beaucoup l'identifient au ouadi Kelt, descendant des montagnes de Judée par une profonde gorge entre des berges abruptes, au sud de l'actuelle Jéricho, jusqu'au Jourdain ; après les pluies, le cours d'eau devient un torrent bouillonnant. Le nom a peut-être désigné une région assez vaste. En ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": " it is a region on the east side of the mountain ridge which is in some sense balanced with Sharon on the west side. By implication the thing depicted seems to be these rich agricultural localities so far recovered from desolation as to be good grounds for cattle and sheep. Hosea recognizes the comforting aspect of the dreadful affair in the valley of Achor; it was a doorway of hope to pardoned Israel (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", il s'agit d'une contrée située à l'est de la chaîne de montagnes, faisant en quelque sorte pendant à Saron, à l'ouest. L'image semble évoquer de fertiles terres agricoles suffisamment restaurées après leur désolation pour redevenir de bons pâturages de bœufs et de moutons. Osée voit une consolation dans le terrible événement de la vallée d'Acor : elle devint une porte d'espérance pour Israël pardonné (",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": ")), and he hopes for like acceptance for the Israel of his own day.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; il espère un accueil semblable pour l'Israël de son temps.",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "Willis J. Beecher",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Willis J. Beecher",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -726,91 +732,93 @@
       "source_key": "ADAIAH",
       "article_id": "isbe-c47eef26a3a823a8af78",
       "source_article_sha256": "f3586591dc19839cb1924168dbcc66c73bf33cbc6c43409cc87e3873c2920fe8",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ADAIAH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ADAIAH",
+          "action": "preserve",
+          "reason": "Original canonical proper name retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-da'-ya, a-di'-a (`adhayah, \"Yahweh hath adorned\"):",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-da'-ya, a-di'-a (`adhayah, « Yahvé a orné ») :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) Apparently the seventh of the nine sons of Shimei, who is apparently the same with Shema, who is the fifth of the sons of Elpaal, who is the second of the two sons of Shaharaim and Hushim (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Apparemment le septième des neuf fils de Shimeï ; celui-ci semble identique à Shema, cinquième fils d'Elpaal, lui-même second des deux fils de Shaharaïm et Hushim (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": "). Shaharaim and his descendants are listed with the descendants of Benjamin, though his relations to Benjamin are not stated.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Shaharaïm et ses descendants sont classés parmi ceux de Benjamin, sans indication précise de leur parenté avec Benjamin.",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "(2) A Levite; ancestor to David's singer Asaph, and a descendant of the fifth generation from Gershom (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Lévite, ancêtre d'Asaph, le chantre de David, et descendant de Guershom à la cinquième génération (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "(3) The father of Maaseiah, who was one of the captains of hundreds associated with Jehoiada the priest in making Joash king (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Père de Maaséja, l'un des chefs de centaines associés au prêtre Jehojada pour établir Joas sur le trône (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "(4) A resident of Bozkath, and father of Jedidah the mother of King Josiah (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(4) Habitant de Botskath, père de Jedida, mère du roi Josias (",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "(5) A descendant of Judah through Perez. His great-great-grandson Maaseiah resided in Jerusalem after Nehemiah had rehabilitated the city (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(5) Descendant de Juda par Pérets, dont l'arrière-arrière-petit-fils Maaséja habitait Jérusalem après que Néhémie eut restauré la ville (",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "(6) One of the men of Israel, not a priest or Levite, but \"of the sons of Bani,\" who promised Ezra that he would part with his foreign wife (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(6) Israélite, ni prêtre ni lévite, mais « des fils de Bani », qui promit à Esdras de se séparer de son épouse étrangère (",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "text",
           "source": "(7) The same man or another, in a different group of the sons of Bani (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(7) Le même homme, ou un autre, dans un groupe différent des fils de Bani (",
+          "action": "translate"
         },
         {
           "node": 17,
           "part": "text",
           "source": "(8) One of the priests of the latest Bible times, mentioned with a partial genealogy (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(8) L'un des prêtres de la dernière période biblique, mentionné avec une généalogie partielle (",
+          "action": "translate"
         },
         {
           "node": 20,
           "part": "text",
           "source": "Willis J. Beecher",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Willis J. Beecher",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
