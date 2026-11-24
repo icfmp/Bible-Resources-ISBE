@@ -40,11 +40,11 @@ class FrenchPilotDraftTests(unittest.TestCase):
                          source_hash)
         return result, target
 
-    def test_eight_real_drafts_and_all_fifty_source_identity_rows_survive(self):
+    def test_nineteen_real_drafts_and_all_fifty_source_identity_rows_survive(self):
         result, target = self.run_draft()
         self.assertEqual(result["pilot_article_count"], 50)
-        self.assertEqual(result["unreviewed_drafts"], 8)
-        self.assertEqual(result["pending"], 42)
+        self.assertEqual(result["unreviewed_drafts"], 19)
+        self.assertEqual(result["pending"], 31)
         self.assertFalse(result["publication_permitted"])
         self.assertEqual(result["human_reviewed"], 0)
         root, body = read_body(target)
