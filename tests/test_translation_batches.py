@@ -25,6 +25,7 @@ FIRST_25 = ROOT / "workspace/translations/isbe-1915/fr/batches/0003-complete-fir
 NEXT_NINE = ROOT / "workspace/translations/isbe-1915/fr/batches/0004-short-a-entries.json"
 NEW_EIGHT = ROOT / "workspace/translations/isbe-1915/fr/batches/0005-short-ab-entries.json"
 MORE_SHORT = ROOT / "workspace/translations/isbe-1915/fr/batches/0006-more-short-ab-entries.json"
+AC_SHORT = ROOT / "workspace/translations/isbe-1915/fr/batches/0007-short-ac-entries.json"
 WAVE01_ROSTER = ROOT / "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json"
 
 
@@ -231,6 +232,32 @@ class TranslationBatchTests(unittest.TestCase):
         self.assertIn("dons du Saint-Esprit", "".join(by_key_out["ABILITY"].itertext()))
         self.assertIn("Version", "".join(by_key_out["ABLE"].itertext()))
         self.assertIn("LIVRE D'ABRAHAM", "".join(by_key_out["ABRAHAM, BOOK OF"].itertext()))
+
+    def test_twenty_eight_ac_source_locked_first_drafts(self):
+        additions = json.loads(AC_SHORT.read_text(encoding="utf-8"))
+        roster = json.loads(WAVE01_ROSTER.read_text(encoding="utf-8"))
+        by_key = {row["source_key"]: row for row in roster["entries"]}
+        self.assertEqual(len(additions["articles"]), 28)
+        self.assertEqual(additions["source_sha256"], SOURCE_SHA256)
+        self.assertEqual(additions["language"], "fr")
+        self.assertFalse(additions["publication_permitted"])
+        self.assertEqual(len({row["source_key"] for row in additions["articles"]}), 28)
+        for article in additions["articles"]:
+            self.assertEqual(article["article_id"], by_key[article["source_key"]]["article_id"])
+            self.assertLessEqual(by_key[article["source_key"]]["index"], 1000)
+            self.assertEqual(len(article["units"]), len({
+                (u["node"], u["part"]) for u in article["units"]
+            }))
+        proof, index, body = self._apply([AC_SHORT])
+        self.assertEqual(proof["excerpt_entries"], 28)
+        self.assertEqual(proof["complete_unreviewed_drafts"], 28)
+        self.assertEqual(proof["partial_unreviewed_drafts"], 0)
+        self.assertEqual(proof["human_reviewed"], 0)
+        self.assertFalse(proof["publication_permitted"])
+        by_key_out = {key: article for (_, key), article in zip(index, body)}
+        self.assertIn("roi d'Israël", "".join(by_key_out["ACHAZ"].itertext()))
+        self.assertIn("documents d'État", "".join(by_key_out["ACTS OF SOLOMON"].itertext()))
+        self.assertEqual(self.source_hash, sha256(SOURCE))
 
     def test_wrong_master_wrong_entry_or_duplicate_is_rejected(self):
         with tempfile.TemporaryDirectory() as root:

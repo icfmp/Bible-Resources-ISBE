@@ -16,6 +16,7 @@ FLAGS = ROOT / "workspace/pilots/isbe-1915-fr/SOURCE_REVIEW_FLAGS.json"
 NEW = ROOT / "workspace/translations/isbe-1915/fr/batches/0004-short-a-entries.json"
 NEW_EIGHT = ROOT / "workspace/translations/isbe-1915/fr/batches/0005-short-ab-entries.json"
 MORE_SHORT = ROOT / "workspace/translations/isbe-1915/fr/batches/0006-more-short-ab-entries.json"
+AC_SHORT = ROOT / "workspace/translations/isbe-1915/fr/batches/0007-short-ac-entries.json"
 
 
 class TranslationReviewCorpusTests(unittest.TestCase):
@@ -60,6 +61,21 @@ class TranslationReviewCorpusTests(unittest.TestCase):
             self.assertEqual(len(list((folder / "proofs").glob("isbe-*.md"))), 25)
             index = (folder / "proofs" / "INDEX.md").read_text(encoding="utf-8")
             for key in ("ABIHUD", "ABILITY", "ABIRON", "ABJECT", "ABUBUS"):
+                self.assertIn(key, index)
+
+    def test_twenty_eight_ac_source_locked_previews(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            report = build(SOURCE, [AC_SHORT], folder / "proofs",
+                           folder / "audit.json")
+            self.assertEqual(report["selected_complete_unreviewed_drafts"], 28)
+            self.assertEqual(report["batch_drafts_count"], 28)
+            self.assertEqual(report["human_editorially_approved"], 0)
+            self.assertEqual(report["article_checkboxes_marked_complete"], 0)
+            self.assertFalse(report["publication_permitted"])
+            self.assertEqual(len(list((folder / "proofs").glob("isbe-*.md"))), 28)
+            index = (folder / "proofs" / "INDEX.md").read_text(encoding="utf-8")
+            for key in ("ACCARON", "ACHAZ", "ACTS OF PILATE", "ACUB"):
                 self.assertIn(key, index)
 
     def test_all_50_first_pilot_drafts_are_readable_and_unreviewed(self):
