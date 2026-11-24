@@ -24,6 +24,19 @@ def inline_text(element: ET.Element) -> str:
     return "".join(element.itertext())
 
 
+def flatten_article_blocks(article: ET.Element):
+    """Walk nested TEI divisions without changing or discarding source blocks."""
+    for child in article:
+        if child.tag == TEI + "div":
+            if (child.text or "").strip():
+                raise ValueError("Unexpected prose directly inside a TEI div")
+            yield from flatten_article_blocks(child)
+            if (child.tail or "").strip():
+                raise ValueError("Unexpected prose after a TEI div")
+        else:
+            yield child
+
+
 def render_article(article: ET.Element, *, draft_status: str) -> str:
     if draft_status != "complete_unreviewed_draft":
         raise ValueError("An incomplete article cannot masquerade as a full French preview")
@@ -64,11 +77,32 @@ def render_article(article: ET.Element, *, draft_status: str) -> str:
     # Source paragraphs sometimes embed an indexed section <hi> at the END
     # of the preceding prose <p>. Split only *presentation*, never alter XML.
     # Detect semantic numbered headings generically, not by article identity.
-    for node in article:
+    for node in flatten_article_blocks(article):
         if node.tag == TEI + "head":
+            if node is first_head:
+                continue
+            heading = SPACE.sub(" ", inline_text(node)).strip()
+            if heading:
+                level = "##" if ROMAN_HEADING.match(heading) else "###"
+                lines.extend([level + " " + heading, ""])
+                is_first_paragraph = False
+            continue
+        if node.tag == TEI + "list":
+            append_prose(node.text or "")
+            for item in node:
+                if item.tag != TEI + "item":
+                    raise ValueError(f"Unexpected TEI list child in {article.get('n')}: {item.tag}")
+                text = SPACE.sub(" ", inline_text(item)).strip()
+                if text:
+                    lines.extend(["- " + text, ""])
+                    is_first_paragraph = False
+                append_prose(item.tail or "")
+            continue
+        if node.tag in {TEI + "note", TEI + "bibl", TEI + "quote", TEI + "ab"}:
+            append_prose(inline_text(node))
             continue
         if node.tag != TEI + "p":
-            raise ValueError("Unknown article block: cannot silently drop source content")
+            raise ValueError(f"Unknown article block in {article.get('n')}: {node.tag}")
         buffer = node.text or ""
         for child in node:
             content = SPACE.sub(" ", inline_text(child)).strip()
