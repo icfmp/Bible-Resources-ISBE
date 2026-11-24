@@ -97,7 +97,7 @@ class CleanSourceTreeTests(unittest.TestCase):
         self.assertFalse(rights["further_legal_review_required_for_publication"])
         self.assertFalse(rights["independent_jurisdictional_legal_review_completed"])
         self.assertIsNone(rights["derivatives_cleared"])
-        self.assertFalse(validation["publication_permitted"])
+        self.assertFalse(read_json(folder/"SOURCE_VALIDATION.json")["rights_cleared"])
 
     def test_no_active_script_or_workflow_uses_retired_paths(self):
         disallowed=("cleaned/en/","sources/crosswire/","sources/print/","modern/en/")
