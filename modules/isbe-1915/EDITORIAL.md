@@ -18,7 +18,7 @@ The generic `scripts/export_tei_dictionary_for_sword.py` translates the reviewed
 
 **Link adapter (explicit transformation of compiled copy, not source):**
 
-- 5,919 internal TEI `#xml:id` references become native SWORD `self:<original article key>` targets. Their exact original selectors are preserved in `corresp`.
+- 5,919 internal TEI `#xml:id` references become native SWORD `BRISBE1915:<original article key>` targets. Their exact original selectors are preserved in `corresp`.
 - 93,164 biblical reference elements acquire a SWORD `osisRef` equal to their original source `cRef`; original reference markup and displayed text remain unchanged.
 - 80 links to a *section* within another article now address its parent article, without guaranteed precise intra-article scroll targeting. This loss is documented; source selectors remain intact.
 - 29 nested `div` elements are retained without destructive flattening; actual GUI rendering/interaction with these structures still needs review.

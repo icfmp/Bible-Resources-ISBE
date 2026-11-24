@@ -44,11 +44,13 @@ jobs:
             --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
             --expected-sha256 5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c \
             --expected-count 9380 \
+            --module-id BRISBE1915 \
             --output workspace/tmp/dict-import.xml \
             --report workspace/tmp/dict-import-report.json
           python3 scripts/select_isbe_internal_link_samples.py \
             --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
             --adapted workspace/tmp/dict-import.xml \
+            --module-id BRISBE1915 \
             --output workspace/tmp/gui-internal-link-samples.json
           python3 -m unittest discover -s tests -p 'test_isbe_internal_link_samples.py' -v
           mkdir -p workspace/tmp/gui-module/modules/lexdict/zld/brisbe1915

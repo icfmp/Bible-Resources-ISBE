@@ -62,6 +62,22 @@ exact passage, and record success or failure separately. Recalibrate any
 coordinates after a client UI/layout change; do not weaken the assertion.
 Intra-encyclopedia hyperlink clicks are still a distinct acceptance gate.
 
+### Verified native TEI dictionary link behavior
+
+The CrossWire [TEI Dictionary guide](https://wiki.crosswire.org/TEI_Dictionaries)
+documents `target="self:key"` for same-dictionary references, but the
+SWORD 1.9 [TEIHTMLHREF implementation](https://crosswire.org/svn/sword/trunk/src/modules/filters/teihtmlhref.cpp)
+splits targets at the first colon and treats the left component as a literal
+module ID. Hence `self:key` renders as `sword://self/key`, which Xiphos
+could not open during [real-click run #45343687175](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45343687175).
+The native adapter now takes an **explicit installed SWORD module ID** and
+rewrites original `#xml:id` references to `BRISBE1915:key`; the exact
+original selector remains in `corresp`. This maps to the standard
+`sword://BRISBE1915/key` URL in the SWORD TEI renderer, even for dictionary
+keys that contain a colon. The historical TEI source is not altered.
+**Both real-reader click destinations must be reconfirmed on the rebuilt
+candidate before declaring compatibility.**
+
 ### Internal encyclopedia hyperlink fixture inventory
 
 The reusable `scripts/select_isbe_internal_link_samples.py` independently

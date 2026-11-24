@@ -19,11 +19,11 @@ def fixture(path,adapted=False,corrupt=None):
             ET.SubElement(div,N+"head").text="Third part"
         else:
             paragraph=ET.SubElement(entry,N+"p")
-            a=ET.SubElement(paragraph,N+"ref",{"target":("self:ABIDE" if adapted else "#b"),
+            a=ET.SubElement(paragraph,N+"ref",{"target":("TESTLD:ABIDE" if adapted else "#b"),
                                               **({"corresp":"#b"} if adapted else {})})
             a.text="ABIDE"
             b=ET.SubElement(paragraph,N+"ref",{"type":"section",
-                       "target":("self:ABIDE" if adapted else "#b_section"),
+                       "target":("TESTLD:ABIDE" if adapted else "#b_section"),
                        **({"corresp":"#b_section"} if adapted else {})})
             b.text="Third part"
             c=ET.SubElement(paragraph,N+"ref",{"cRef":"Exod.6.20",
@@ -31,7 +31,7 @@ def fixture(path,adapted=False,corrupt=None):
             c.text="Ex 6:20"
     if corrupt=="target":
         for r in root.iter(N+"ref"):
-            if r.get("type")=="section":r.set("target","self:AARON")
+            if r.get("type")=="section":r.set("target","TESTLD:AARON")
     if corrupt=="bible":
         for r in root.iter(N+"ref"):
             if r.get("cRef"):r.set("osisRef","Exod.6.21")
@@ -46,7 +46,7 @@ class NavigationAuditTests(unittest.TestCase):
     def test_complete_section_and_biblical_provenance(self):
         with TemporaryDirectory() as tempdir:
             orig,adapter,report=self.prepare(Path(tempdir))
-            value=analyze(orig,adapter,report)
+            value=analyze(orig,adapter,report,"TESTLD")
             self.assertEqual(value["source_article_count"],2)
             self.assertEqual(value["internal_dictionary_refs"],2)
             self.assertEqual(value["article_target_refs"],1)
@@ -63,12 +63,12 @@ class NavigationAuditTests(unittest.TestCase):
         with TemporaryDirectory() as tempdir:
             orig,adapter,report=self.prepare(Path(tempdir),"target")
             with self.assertRaisesRegex(ValueError,"attributes changed"):
-                analyze(orig,adapter,report)
+                analyze(orig,adapter,report,"TESTLD")
     def test_corrupt_biblical_target_is_rejected(self):
         with TemporaryDirectory() as tempdir:
             orig,adapter,report=self.prepare(Path(tempdir),"bible")
             with self.assertRaisesRegex(ValueError,"attributes changed"):
-                analyze(orig,adapter,report)
+                analyze(orig,adapter,report,"TESTLD")
 
 if __name__=="__main__":
     unittest.main()

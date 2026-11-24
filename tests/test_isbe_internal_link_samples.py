@@ -17,7 +17,7 @@ def fixture(path,adapter=False,wrong=False):
         if key=="INTRO":
             p.text="Read "
             link=ET.SubElement(p,TEI+"ref",{"target":(
-                "self:INTRO" if wrong else "self:NEXT"
+                "TESTLD:INTRO" if wrong else "TESTLD:NEXT"
             ) if adapter else "#next",**({"corresp":"#next"} if adapter else {})})
             link.text="NEXT"
             link.tail=" for background."
@@ -30,7 +30,7 @@ class SelectedLinksTests(unittest.TestCase):
             src,out,rep=(Path(d)/x for x in ("source.xml","native.xml","links.json"))
             fixture(src)
             fixture(out,adapter=True)
-            result=analyse(src,out,rep)
+            result=analyse(src,out,rep,module_id="TESTLD")
             self.assertEqual(result["source_article_count"],2)
             self.assertEqual(result["cross_article_reference_count"],1)
             self.assertEqual(result["articles_with_cross_article_references"],1)
@@ -45,12 +45,12 @@ class SelectedLinksTests(unittest.TestCase):
             src,out,rep=(Path(d)/x for x in ("source.xml","native.xml","links.json"))
             fixture(src);fixture(out,adapter=True,wrong=True)
             with self.assertRaisesRegex(ValueError,"not correctly mapped"):
-                analyse(src,out,rep)
+                analyse(src,out,rep,module_id="TESTLD")
     def test_offset_counts_nested_link_text_once(self):
         root=ET.Element(TEI+"entryFree")
         p=ET.SubElement(root,TEI+"p")
         p.text="Hello "
-        r=ET.SubElement(p,TEI+"ref",{"target":"self:NEXT"})
+        r=ET.SubElement(p,TEI+"ref",{"target":"TESTLD:NEXT"})
         ET.SubElement(r,TEI+"hi").text="NEXT"
         r.tail=" after"
         self.assertEqual(ref_offsets(root)[0][0],6)
