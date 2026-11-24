@@ -1,0 +1,626 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AJALON",
+      "article_id": "isbe-064b87cec781ed85bd2e",
+      "source_article_sha256": "536acb83a7839ca13d7661a2d1c515c2d62d90289b5079b7e16f83b365ddbb59",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AJALON",
+          "target": "AJALON",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "aj'-a-lon. See ",
+          "target": "aj'-a-lon. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AIJALON",
+          "target": "AIJALON",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ALAMOTH",
+      "article_id": "isbe-c10e4596512a0ad2cf70",
+      "source_article_sha256": "a0c6b9b278ed885608555d6adb2e1238da960cca411965998905c91572096b80",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALAMOTH",
+          "target": "ALAMOTH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-a-moth. See ",
+          "target": "al'-a-moth. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "MUSIC",
+          "target": "MUSIQUE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALEPPO",
+      "article_id": "isbe-9167461214640b379e98",
+      "source_article_sha256": "4d897c80e006df24c434ae37a5e2acb5f660ec06d829213530c62edaa61d080d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALEPPO",
+          "target": "ALEP",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-lep'-o. See ",
+          "target": "a-lep'-o. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BEREA",
+          "target": "BÉRÉE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALLELUIA",
+      "article_id": "isbe-1fc90dfdeccbf03d3626",
+      "source_article_sha256": "b6afe6282b7457a27e2b540e426c15b5e7a67d56d33050655bddcaa4f92838f7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALLELUIA",
+          "target": "ALLÉLUIA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al-e-loo'-ya. See ",
+          "target": "al-e-loo'-ya. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "HALLELUJAH",
+          "target": "ALLÉLUIA",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMATHEIS",
+      "article_id": "isbe-5dfe0743c81239461860",
+      "source_article_sha256": "a86579221f27cd6b79fae714720a532d715a0dcfd0100381fd3e47a36c9fed22",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMATHEIS",
+          "target": "AMATHEIS",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am-a-the'-is. See ",
+          "target": "am-a-the'-is. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "EMATHEIS",
+          "target": "EMATHEIS",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "AMBER",
+      "article_id": "isbe-cb4bbac4effc3d074c82",
+      "source_article_sha256": "fcde77270d738f165b61c0ba39521ff6fd2046f52f879b7c57842acd5559fc03",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMBER",
+          "target": "AMBRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am'-ber. See ",
+          "target": "am'-ber. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "STONES, PRECIOUS",
+          "target": "PIERRES PRÉCIEUSES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMETHYST",
+      "article_id": "isbe-3cb670f7a0733f613c6f",
+      "source_article_sha256": "23580d35a071ed1f875df402aa80e1ca1173e85fcdab7ba93d2b7bfa847b602a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMETHYST",
+          "target": "AMÉTHYSTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am'-e-thist. See ",
+          "target": "am'-e-thist. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "STONES, PRECIOUS",
+          "target": "PIERRES PRÉCIEUSES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANAK",
+      "article_id": "isbe-83e8a6e1a7a45b615187",
+      "source_article_sha256": "e08bba8c9775fb279045092893635fb6d6b8a324ac80d8fce56d0dff09db1a1c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANAK",
+          "target": "ANAK",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-nak. See ",
+          "target": "an'-nak. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ANAKIM",
+          "target": "ANAKIM",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ANCHOR",
+      "article_id": "isbe-3c80eef32f5752abb4b1",
+      "source_article_sha256": "c20ce51333760337593881f765864fc2360ac08652dfb66b8b5f146dd29b4110",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANCHOR",
+          "target": "ANCRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-ker. See ",
+          "target": "an'-ker. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SHIPS AND BOATS",
+          "target": "NAVIRES ET EMBARCATIONS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANCLE",
+      "article_id": "isbe-0939fd6c2814662bfd04",
+      "source_article_sha256": "2d05da0a3f13df677fcc2d9e4959eedbd10298954ca8a8bac5daeabd21cabc8d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANCLE",
+          "target": "CHEVILLE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-k'-l. See ",
+          "target": "an'-k'-l. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ANKLE",
+          "target": "CHEVILLE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANGEL OF GOD",
+      "article_id": "isbe-21feb6b8617101d5de80",
+      "source_article_sha256": "f276315317b1d9c6d1923272e3103af38c9341a02400a70cdf5a2c4c998ce1fd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANGEL OF GOD",
+          "target": "ANGE DE DIEU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ANGEL",
+          "target": "ANGE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANGEL OF YAHWEH",
+      "article_id": "isbe-f70ab7c12d1b0703b099",
+      "source_article_sha256": "a717fd0f4b660496d7ae5b1e7635836789da670283e509c629c65bf14a8cd5b5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANGEL OF YAHWEH",
+          "target": "ANGE DE YAHVÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ANGEL",
+          "target": "ANGE",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (II, 3).",
+          "target": " (II, 3).",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTI-LIBANUS",
+      "article_id": "isbe-3c127374d2c837569af4",
+      "source_article_sha256": "7a1098408abc248d97c59842112ec073d028b42e37468394999582784a897855",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTI-LIBANUS",
+          "target": "ANTILIBAN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an-ti-lib'-a-nus. See ",
+          "target": "an-ti-lib'-a-nus. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "LEBANON",
+          "target": "LIBAN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTIMONY",
+      "article_id": "isbe-0ce3c77046694c7d44ae",
+      "source_article_sha256": "bd2cc6c215b1c61f0001045d38ea03a44a2cdc3c63f7a62401ebe301c1f94563",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTIMONY",
+          "target": "ANTIMOINE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-ti-mo-ni. See ",
+          "target": "an'-ti-mo-ni. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "COLOR",
+          "target": "COULEUR",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTONIA",
+      "article_id": "isbe-698052c26e8cff5ae2fe",
+      "source_article_sha256": "ef24e2b7cfee53ed8d0fad09efd28cfe5553d4560945ac0784fdc70eecb74ac3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTONIA",
+          "target": "ANTONIA",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an-to'-ni-a. See ",
+          "target": "an-to'-ni-a. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "JERUSALEM",
+          "target": "JÉRUSALEM",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTOTHIJAH",
+      "article_id": "isbe-49a9235660551a04666f",
+      "source_article_sha256": "07892ef084343c7b098946262e369f9bea9cbae66ff003c773c03c6e7dd4871d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTOTHIJAH",
+          "target": "ANTOTHIJAH",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an-to-thi'-ja. See ",
+          "target": "an-to-thi'-ja. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ANTHOTHIJAH",
+          "target": "ANTHOTHIJAH",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        }
+      ]
+    },
+    {
+      "source_key": "ANUS",
+      "article_id": "isbe-f20579c7d757c16ae8d1",
+      "source_article_sha256": "5f2c1c84296e2e811f753790dfe4a65d4d1eadc3a3d5aa9fee648a529c443714",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANUS",
+          "target": "ANUS",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-nus. See ",
+          "target": "a'-nus. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ANNUS",
+          "target": "ANNUS",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Apocrypha).",
+          "target": " (livres apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "APHIK",
+      "article_id": "isbe-ea33f87d1882c8f59f5a",
+      "source_article_sha256": "e3d999e09b7540fc726ffd1f2921504b4a77dcf27405863cb6570e548c27e64a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APHIK",
+          "target": "APHIK",
+          "action": "preserve",
+          "reason": "Canonical proper name or lexical headword already suitable in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-fik: Variant of ",
+          "target": "a'-fik : Variante de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APHEK",
+          "target": "APHEK",
+          "action": "preserve",
+          "reason": "Source-linked proper name or canonical transliteration retained as a visible label"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "APOSTOLICAL CHURCH ORDINANCES",
+      "article_id": "isbe-b93cb96627b4aa97be70",
+      "source_article_sha256": "0f0a53d83d938c7bdeae1081828c43a0d8c1c1da80ab7ca52668812d94483050",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APOSTOLICAL CHURCH ORDINANCES",
+          "target": "ORDONNANCES APOSTOLIQUES DE L'ÉGLISE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "DIDACHE",
+          "target": "DIDACHÈ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "APOSTOLICAL CONSTITUTIONS",
+      "article_id": "isbe-6fd750597f2678f08128",
+      "source_article_sha256": "8b65fc415896f69e173db5766a40a5a9089f8bd1643d1827e98faea96a9839c3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APOSTOLICAL CONSTITUTIONS",
+          "target": "CONSTITUTIONS APOSTOLIQUES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "DIDACHE",
+          "target": "DIDACHÈ",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
