@@ -1094,7 +1094,7 @@
       "source_key": "ALPHA AND OMEGA",
       "article_id": "isbe-f4eeba13ec2f502d389f",
       "source_article_sha256": "f2ade8e463c5052b45bbba05b06268596293e07f67c9232b6d21cd22baa5e7c9",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
@@ -1121,8 +1121,8 @@
           "node": 4,
           "part": "tail",
           "source": " and ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et ",
+          "action": "translate"
         },
         {
           "node": 5,
@@ -1576,63 +1576,65 @@
       "source_key": "AMMIHUD",
       "article_id": "isbe-5123c9ffc343c4b50dc5",
       "source_article_sha256": "496db197ae40600a632336c7d6caf8e812e77e3f1c14b9348ee494d67351b8a5",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AMMIHUD",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AMMIHUD",
+          "action": "preserve",
+          "reason": "Original headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-mi'-hud (`ammihudh, \"my kinsman is glorious\"; variously in the Septuagint, Emioud or Semioud or Amioud): The name of several Old Testament persons.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-mi'-hud (`ammihudh, « mon parent est glorieux » ; dans la Septante, diverses formes : Emioud, Semioud ou Amioud) : Nom porté par plusieurs personnes de l'Ancien Testament.",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) Father of Elishama, who in the wilderness was head of the tribe of Ephraim (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Père d'Élishama, chef de la tribu d'Éphraïm pendant le séjour au désert (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "text",
           "source": "(2) Father of Shemuel, who was appointed by Moses from the tribe of Simeon to divide the land among the tribes after they should have entered Canaan (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Père de Shemuel, désigné par Moïse parmi les hommes de Siméon pour partager le pays entre les tribus après leur entrée en Canaan (",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "(3) Father of Pedahel, who was appointed from the tribe of Naphtali for the same purpose as the Ammihud of (2) (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Père de Pédahel, choisi dans la tribu de Nephtali pour la même mission que l'Ammihud du paragraphe 2 (",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "text",
           "source": "(4) In the King James Version and the Revised Version, margin for the Ammihur (`ammichur,\"my kinsman is noble\"), who was father of Talmai of Geshur, a little Aramaic kingdom East of the Lebanon mountains, to whom Absalom fled after the murder of his brother Amnon. The weight of evidence seems to favor the reading Ammichur (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(4) Forme adoptée par la King James Version et la note marginale de la Revised Version pour Ammihur (`ammichur, « mon parent est noble »), père de Talmaï de Gueshur, petit royaume araméen à l'est du Liban, où Absalom se réfugia après avoir tué son frère Amnon. Le poids des témoignages paraît favoriser la lecture Ammihur (",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "text",
           "source": "(5) A descendant of Judah through the line of Perez (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(5) Descendant de Juda par la lignée de Pérets (",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "text",
           "source": "Edward Mack",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Edward Mack",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -1640,105 +1642,107 @@
       "source_key": "AMMINADAB",
       "article_id": "isbe-a9ccfa0e346052110b27",
       "source_article_sha256": "e70fb107002cd4fbe67ac347f9535a1838344a47a299e8ffe670bab36132f255",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AMMINADAB",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AMMINADAB",
+          "action": "preserve",
+          "reason": "Original headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-min'-a-dab (`amminadhabh = \"my people (or my kinsman) is generous or noble\"): Three persons bearing this name are mentioned in the Old Testament.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-min'-a-dab (`amminadhabh, « mon peuple [ou mon parent] est généreux ou noble ») : L'Ancien Testament mentionne trois personnes de ce nom.",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) En ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": " and ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et en ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " Amminadab is referred to as one of David's ancestors. He was the great- grandson of Perez, a son of Judah (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", Amminadab figure parmi les ancêtres de David. Il était arrière-petit-fils de Pérets, fils de Juda (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": ") and the great-grandfather of Boaz, who again was the great- grandfather of David. Aaron's wife, Elisheba, was a daughter of Amminadab (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), et arrière-grand-père de Booz, lui-même arrière-grand-père de David. Élishéba, femme d'Aaron, était fille d'Amminadab (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": "), while one of the sons, namely, Nahshon, occupied an important position in the Judah-clan (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), tandis qu'un de ses fils, Nahshon, occupait une position importante dans le clan de Juda (",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "text",
           "source": "(2) In the first Book of Chronicles (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Dans le premier livre des Chroniques (",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "tail",
           "source": ") Amminadab is mentioned as a son of Kohath (and therefore a grandson of Levi) and the father of Korah. But in other genealogical passages (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), Amminadab est présenté comme fils de Kehath — donc petit-fils de Lévi — et père de Koré. Mais les autres généalogies (",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "tail",
           "source": ") the sons of Kohath are Amram, Izhar, Hebron and Uzziel, and in two places (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") donnent Kehath comme père d'Amram, Jitsehar, Hébron et Uziel ; et deux passages (",
+          "action": "translate"
         },
         {
           "node": 20,
           "part": "tail",
           "source": ") Izhar is mentioned as the father of Korah.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") nomment Jitsehar père de Koré.",
+          "action": "translate"
         },
         {
           "node": 21,
           "part": "text",
           "source": "(3) According to ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Selon ",
+          "action": "translate"
         },
         {
           "node": 23,
           "part": "tail",
           "source": " Amminadab was the name of a priest who took part in the removal of the ark to Jerusalem. He was the son of Uzziel, and therefore a nephew of Amminadab, son of Kohath (= Izhar).",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", Amminadab était un prêtre qui participa au transfert de l'arche à Jérusalem. Il était fils d'Uziel, donc neveu d'Amminadab, fils de Kehath (= Jitsehar).",
+          "action": "translate"
         },
         {
           "node": 24,
           "part": "text",
           "source": "Thomas Lewis",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Thomas Lewis",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -1752,85 +1756,87 @@
           "node": 1,
           "part": "text",
           "source": "AMRAM",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AMRAM",
+          "action": "preserve",
+          "reason": "Original headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "am'-ram (`amram, \"people exalted\"):",
-          "target": "",
-          "action": "pending_translation"
+          "target": "am'-ram (`amram, « peuple exalté ») :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) Father of Aaron, Moses and Miriam (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Père d'Aaron, de Moïse et de Miriam (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": "); and a son of Kohath, the son of Levi (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), et fils de Kehath, fils de Lévi (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": ", etc.). It is not certain that he was literally the son of Kohath, but rather his descendant, since there were ten generations from Joseph to Joshua (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et autres passages). Il n'est pas certain qu'il fût littéralement le fils de Kehath, plutôt que son descendant, car dix générations séparent Joseph de Josué (",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": "), while only four are actually mentioned from Levi to Moses for the corresponding period. Moreover the Kohathites at the time of the Exodus numbered 8,600 (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), tandis que quatre seulement sont mentionnées de Lévi à Moïse pour une durée correspondante. De plus, les Kehathites étaient au nombre de 8 600 lors de l'Exode (",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": "), which would therefore have been an impossibility if only two generations had lived. It seems best to regard Amram as a descendant of Kohath, and his wife Jochebed as a \"daughter of Levi\" in a general sense.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), ce qui serait impossible si seules deux générations s'étaient succédé. Il est donc préférable de voir en Amram un descendant de Kehath, et en sa femme Jokébed une « fille de Lévi » au sens large.",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "(2) One of the Bani, who in the days of Ezra had taken a foreign wife (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) L'un des fils de Bani qui, au temps d'Esdras, avaient pris une femme étrangère (",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "text",
           "source": "(3) In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) En ",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "tail",
           "source": " (the King James Version) for the properly read ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " dans la King James Version, pour le nom ",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "text",
           "source": "HAMRAN",
-          "target": "",
-          "action": "pending_translation"
+          "target": "HAMRAN",
+          "action": "preserve",
+          "reason": "Canonical reference or source author byline"
         },
         {
           "node": 16,
           "part": "tail",
           "source": " of the Revised Version (British and American) (chamran), a Horite, who in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " de la Revised Version (britannique et américaine), lecture jugée correcte (chamran) : Horite nommé ",
+          "action": "translate"
         },
         {
           "node": 17,
@@ -1843,22 +1849,24 @@
           "node": 18,
           "part": "text",
           "source": "HEMDAN",
-          "target": "",
-          "action": "pending_translation"
+          "target": "HEMDAN",
+          "action": "preserve",
+          "reason": "Canonical reference or source author byline"
         },
         {
           "node": 18,
           "part": "tail",
           "source": " (which see).",
-          "target": "",
-          "action": "pending_translation"
+          "target": " en ",
+          "action": "translate"
         },
         {
           "node": 19,
           "part": "text",
           "source": "Edward Mack",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Edward Mack",
+          "action": "preserve",
+          "reason": "Canonical reference or source author byline"
         }
       ]
     },
@@ -1866,98 +1874,101 @@
       "source_key": "ANANIAS (2)",
       "article_id": "isbe-01785e141be1b9328541",
       "source_article_sha256": "b2005842e808804c2a1abc670957b6b69cb82193c6dcd48dc8c0b53c29facf0a",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANANIAS (2)",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANANIAS (2)",
+          "action": "preserve",
+          "reason": "Original headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "(Apocrypha), an-a-ni'-as:",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(Livres apocryphes), an-a-ni'-as :",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) Ananias, the Revised Version (British and American) Annis, the Revised Version, margin, Annias (1 Esdras 5:16). See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Ananias, Annis dans la Revised Version (britannique et américaine), Annias en note (1 Esdras 5:16). Voir ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "ANNIS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANNIS",
+          "action": "preserve",
+          "reason": "Canonical reference or source author byline"
         },
         {
           "node": 5,
           "part": "text",
           "source": "(2) A son of Emmer (1 Esdras 9:21) = Hanani, son of Immer in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Fils d'Emmer (1 Esdras 9:21), correspondant à Hanani, fils d'Immer, en ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "(3) A son of Bebai (1 Esdras 9:29) = Hananiah in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Fils de Bébaï (1 Esdras 9:29), correspondant à Hanania en ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": ". The two last are mentioned in the list of priests who were found to have strange wives.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". Les deux derniers figurent dans la liste des prêtres qui avaient épousé des femmes étrangères.",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "(4) One of those who stood by Esdras while he read the law to the people (1 Esdras 9:43) = Anaiah in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(4) L'un des hommes qui entouraient Esdras lorsqu'il lisait la Loi au peuple (1 Esdras 9:43), correspondant à Anaja en ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "text",
           "source": "(5) One of the Levites who explained the law to the people (1 Esdras 9:48) = Hanan in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(5) L'un des Lévites qui expliquaient la Loi au peuple (1 Esdras 9:48), correspondant à Hanan en ",
+          "action": "translate"
         },
         {
           "node": 13,
           "part": "text",
           "source": "(6) Ananias the Great, son of Shemaiah the Great; a kinsman of Tobit, whom Raphael the angel, disguised as a man, gave out to be his father (Tobit 5:12 f).",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(6) Ananias le Grand, fils de Shemaïa le Grand, parent de Tobie, que l'ange Raphaël, déguisé en homme, prétendit avoir pour père (Tobie 5:12 et suiv.).",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "text",
           "source": "(7) Son of Gideon, mentioned as an ancestor of Judith (Judith 8:1).",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(7) Fils de Gédéon, mentionné parmi les ancêtres de Judith (Judith 8:1).",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "text",
           "source": "(8) Another Ananias is mentioned in The So of the Three Children (Azariah) (verse 66).",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(8) Un autre Ananias est cité dans le Cantique des trois jeunes gens (Azaria), verset 66.",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "text",
           "source": "D. Miall Edwards",
-          "target": "",
-          "action": "pending_translation"
+          "target": "D. Miall Edwards",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     },
@@ -1965,77 +1976,78 @@
       "source_key": "ANATHEMA",
       "article_id": "isbe-a43567954d3cbec0d236",
       "source_article_sha256": "d44842953860bdb1272f5abfec8944759205e6a4a51726cd5b455420b9f3b65c",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ANATHEMA",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ANATHÈME",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-nath'-e-ma (anathema): This word occurs only once in the King James Version, namely, in the phrase \"Let him be anathema. Maranatha\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-nath'-e-ma (anathema) : Ce mot n'apparaît qu'une fois dans la King James Version, dans « Qu'il soit anathème. Maranatha » (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "); elsewhere the King James Version renders anathema by \"accursed\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; ailleurs, la King James Version traduit anathema par « maudit » (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": "), once by \"curse\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") et une fois par « malédiction » (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": "). Both words--anathema and anathema--were originally dialectical variations and had the same connotation, namely, offering to the gods. The non-Attic form--anathema--was adopted in the Septuagint as a rendering of the Hebrew cherem (see ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Les deux mots grecs distincts dans l'usage ancien, mais transcrits de manière identique dans ce témoin source, étaient à l'origine des variantes dialectales et avaient le même sens : une offrande consacrée aux dieux. La forme non attique, anathema, fut adoptée par la Septante pour traduire l'hébreu cherem (voir ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "ACCURSED",
-          "target": "",
-          "action": "pending_translation"
+          "target": "MAUDIT",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": "), and gradually came to have the significance of the Hebrew word--\"anything devoted to destruction.\" Whereas in the Greek Fathers anathema--as cherem in rabbinic Hebrew-- came to denote excommunication from society, in the New Testament the word has its full force. In common speech it evidently became a strong expression of execration, and the term connoted more than physical destruction; it invariably implied moral worthlessness. In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), puis acquit progressivement le sens hébreu de « chose vouée à la destruction ». Alors que chez les Pères grecs anathema — comme cherem dans l'hébreu rabbinique — finit par désigner l'exclusion de la société, le Nouveau Testament conserve toute la force du terme. Dans la langue courante, il devint manifestement une forte expression de malédiction, impliquant plus que la destruction physique : il désignait aussi l'indignité morale. En ",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": " Paul does not simply mean that, for the sake of his fellow-countrymen, he is prepared to face death, but to endure the moral degradation of an outcast from the kingdom of Christ. In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", Paul ne veut pas simplement dire qu'il accepterait de mourir pour ses compatriotes, mais qu'il supporterait l'avilissement moral d'un exclu du royaume du Christ. En ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": " the expression, \"Jesus is anathema\"--with its suggestion of moral unfitness--reaches the lowest depths of depreciation, as the expression, \"Jesus is Lord,\" reaches the summit of appreciation.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", « Jésus est anathème » atteint le plus bas degré de dépréciation, par son idée d'indignité morale, comme « Jésus est Seigneur » atteint le sommet de l'affirmation.",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "Thomas Lewis",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Thomas Lewis",
+          "action": "preserve",
+          "reason": "Original author byline"
         }
       ]
     }
