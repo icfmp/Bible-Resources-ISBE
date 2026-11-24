@@ -22,6 +22,7 @@ PILOT = ROOT / "workspace/pilots/isbe-1915-fr/draft-patches.json"
 ABRAHAM = ROOT / "workspace/translations/isbe-1915/fr/batches/0001-abraham.json"
 EARLY_WAVE01 = ROOT / "workspace/translations/isbe-1915/fr/batches/0002-early-a-entries.json"
 FIRST_25 = ROOT / "workspace/translations/isbe-1915/fr/batches/0003-complete-first-25.json"
+NEXT_NINE = ROOT / "workspace/translations/isbe-1915/fr/batches/0004-short-a-entries.json"
 WAVE01_ROSTER = ROOT / "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json"
 
 
@@ -143,6 +144,36 @@ class TranslationBatchTests(unittest.TestCase):
         keys = [key for _, key in index]
         head_25 = [r["source_key"] for r in roster["entries"][:25]]
         self.assertEqual([key for key in keys if key in set(head_25)], head_25)
+        self.assertEqual(self.source_hash, sha256(SOURCE))
+
+    def test_next_nine_source_locked_short_drafts_reconstruct_without_reindexing(self):
+        additions = json.loads(NEXT_NINE.read_text(encoding="utf-8"))
+        roster = json.loads(WAVE01_ROSTER.read_text(encoding="utf-8"))
+        self.assertEqual(len(additions["articles"]), 9)
+        self.assertEqual(additions["source_sha256"], SOURCE_SHA256)
+        self.assertEqual(additions["status"], "unreviewed_drafts")
+        self.assertFalse(additions["publication_permitted"])
+        by_key = {row["source_key"]: row for row in roster["entries"]}
+        expected = {"ABEL (2)", "ABEL-CHERAMIM", "ABEL-MAIM", "ABEL-MIZRAIM",
+                    "ABEZ", "ABGAR; ABGARUS; ABAGARUS", "ABHOR",
+                    "ABI (1)", "ABIA; ABIAH"}
+        self.assertEqual({row["source_key"] for row in additions["articles"]}, expected)
+        for row in additions["articles"]:
+            self.assertEqual(row["article_id"], by_key[row["source_key"]]["article_id"])
+            self.assertEqual(len(row["units"]),
+                             len({(unit["node"], unit["part"]) for unit in row["units"]}))
+        proof, index, body = self._apply([PILOT, ABRAHAM, EARLY_WAVE01, FIRST_25, NEXT_NINE])
+        self.assertEqual(proof["excerpt_entries"], 84)
+        self.assertEqual(proof["complete_unreviewed_drafts"], 84)
+        self.assertEqual(proof["partial_unreviewed_drafts"], 0)
+        self.assertEqual(proof["human_reviewed"], 0)
+        self.assertFalse(proof["publication_permitted"])
+        self.assertEqual(len(index), len(set(index)))
+        by_key = {key: article for (_, key), article in zip(index, body)}
+        self.assertIn("ABGAR", by_key)
+        self.assertIn("légende", "".join(by_key["ABGAR; ABGARUS; ABAGARUS"].itertext()))
+        self.assertIn("King James Version", "".join(by_key["ABHOR"].itertext())
+                      + "".join(by_key["ABEZ"].itertext()))
         self.assertEqual(self.source_hash, sha256(SOURCE))
 
     def test_wrong_master_wrong_entry_or_duplicate_is_rejected(self):
