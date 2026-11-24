@@ -1,10 +1,12 @@
 """The FR pilot selects 50 *real* articles from the immutable English index."""
 import json
 import unittest
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from scripts.select_translation_pilot import (
     SOURCE_SHA256, SOURCE_COUNT, ANCHORS, PILOT_COUNT, SLOTS, select,
+    stable_xml_fingerprint,
 )
 from scripts.validate_translation_identity import sha256
 
@@ -50,6 +52,20 @@ class TranslationPilotSelectionTests(unittest.TestCase):
         self.assertEqual(json.dumps(self.selection, sort_keys=True),
                          json.dumps(rerun, sort_keys=True))
         self.assertNotIn("translation_text", json.dumps(rerun))
+
+    def test_article_fingerprint_ignores_namespace_prefixes_not_source_content(self):
+        tag = "http://www.tei-c.org/ns/1.0"
+        first = ET.fromstring(
+            f'<tei:div xmlns:tei="{tag}" type="entry" xml:id="isbe-a" n="A">'
+            '<tei:p xml:id="isbe-a-p">Hello <tei:ref target="#isbe-a">world</tei:ref>.</tei:p>'
+            '</tei:div>')
+        second = ET.fromstring(
+            f'<div xmlns="{tag}" n="A" xml:id="isbe-a" type="entry">'
+            '<p xml:id="isbe-a-p">Hello <ref target="#isbe-a">world</ref>.</p>'
+            '</div>')
+        self.assertEqual(stable_xml_fingerprint(first), stable_xml_fingerprint(second))
+        second.find("{" + tag + "}p").text = "Changed "
+        self.assertNotEqual(stable_xml_fingerprint(first), stable_xml_fingerprint(second))
 
     def test_fail_closed_on_wrong_source_hash_or_article_count(self):
         with self.assertRaisesRegex(ValueError, "source revision"):
