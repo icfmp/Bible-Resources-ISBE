@@ -643,3 +643,16 @@ Five previously undrafted full original historical articles are added as explici
 - `AUTHOR` maintains the historical writer's theological argument that `archegos` in Hebrews 12:2 can mean `leader` rather than automatically asserting this as modern exegetical consensus. `ASHKELON` source assertions about Herod's birthplace and ancient city chronology remain attributed historical claims, not independently reverified.
 
 A separate original print-witness review and independent full bilingual article collation are required before any of the five articles receives editorial approval. Original corrected English master SHA-256 remains `5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c`.
+
+## Twelfth substantive cohort — five source-locked complete French first drafts (24 November 2026)
+
+Five previously undrafted **complete original 1915 ISBE entries** now have faithful French first-pass drafts, ordered by their unchanged original source positions: #0572 `ANTIOCHUS IV; ANTIOCHUS EPIPHANES`, #0610 `APOLLONIUS`, #0768 `ARSACES`, #0818 `ASHDOD` and #0880 `ASSESSOR`.
+
+- Source-locked patch: `batches/0047-cohort-012-substantive-articles-01.json`. Frozen five-entry manifest: `cohorts/COHORT_012_5_SUBSTANTIVE_ARTICLES.json`.
+- All **43 eligible original text/tail units** represented; **10,429 eligible source English characters**, translated in full or deliberately preserved with explicit proper-name/byline reasons. Scripture reference nodes, original-language spans, canonical `@n`, `xml:id`, cross-reference destinations and entire English TEI master remain unchanged.
+- Expected upon CI-passing merge: **881/1,000** complete source-locked, **unreviewed** French drafts (88.1% by original article count), **119** still undrafted in issue #109; **926/9,380** complete first drafts across the whole ISBE source.
+- **0 independent bilingual editorial approvals; 0 checkboxes in #109; no French SWORD publication.** These article counts do not measure total source prose volume.
+
+Editorial witness flag: the source's `ANTIOCHUS IV; ANTIOCHUS EPIPHANES` says that Ptolemy VI died in 173 BC, which conflicts with the historical chronology normally given for Ptolemy VI. The French draft faithfully retains the source's wording, without presenting the historical claim as an independent verification or silently altering the English original. Authenticate the printed 1915 witness and distinguish transcription error from authorial historical error **before** accepting the article editorially. Historical opinions, biblical citations and bibliographic ascriptions in the other four entries remain attributed to the original historical ISBE authors.
+
+Reconstruct all **926** source-locked unreviewed drafts, check article and manifest uniqueness/fingerprints against the exact English master, render full readable proofs, run TEI profile/official validators and require independent bilingual review before any approval. No application code or historical source is changed by this batch.
