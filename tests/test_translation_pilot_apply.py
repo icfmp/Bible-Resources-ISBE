@@ -60,10 +60,28 @@ class FrenchPilotDraftTests(unittest.TestCase):
         ark = next(x for x in body if x.get("n") == "ARK")
         self.assertEqual(ark.find(TEI + "head").text, "ARCHE")
         self.assertEqual(ark.find(TEI + "p").find(TEI + "ref").text,
-                         "ARCHE DE JONCS")
+                         "CORBEILLE DE JONCS")
         chorbe = next(x for x in body if x.get("n") == "CHORBE")
         self.assertIn("Χορβέ", "".join(chorbe.itertext()))
         self.assertIn("Zaccaï", "".join(chorbe.itertext()))
+
+    def test_pilot_terms_are_readable_without_changing_historic_source(self):
+        result, target = self.run_draft()
+        _, body = read_body(target)
+        basket = next(x for x in body if x.get("n") == "ARK OF BULRUSHES")
+        self.assertEqual(basket.find(TEI + "head").text, "CORBEILLE DE JONCS")
+        self.assertIn("la corbeille de joncs", "".join(basket.itertext()))
+        self.assertNotIn("l'corbeille", "".join(basket.itertext()))
+        holies = next(x for x in body if x.get("n") == "HOLY OF HOLIES")
+        text = "".join(holies.itertext())
+        self.assertIn("« propitiatoire »", text)
+        # Digital source corruption remains explicitly flagged, never guessed.
+        self.assertIn("@@clothed", text)
+        laughter = next(x for x in body if x.get("n") == "LAUGHTER")
+        prose = "".join(laughter.itertext())
+        self.assertIn("« laugheth at the time to come »", prose)
+        self.assertIn("« elle rit du temps à venir »", prose)
+        self.assertFalse(result["publication_permitted"])
 
     def test_reject_stale_translation_source_text(self):
         patches = copy.deepcopy(self.patches)
