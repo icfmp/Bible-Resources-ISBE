@@ -1,4 +1,4 @@
-name: Review first fifty ISBE French drafts (no publication)
+name: Review all source-locked ISBE French drafts (no publication)
 
 on:
   push:
@@ -48,7 +48,8 @@ jobs:
           from pathlib import Path
           report=json.loads(Path('/tmp/isbe-fr-reading-review.json').read_text(encoding='utf-8'))
           assert report['selected_complete_unreviewed_drafts']==67
-          assert report['pilot_drafts_count']==66
+          assert report['pilot_drafts_count']==50
+          assert report['batch_drafts_count']==17
           assert report['markdown_previews_generated']==67
           assert report['source_flags_pending_witness_review']==12
           assert report['human_editorially_approved']==0
