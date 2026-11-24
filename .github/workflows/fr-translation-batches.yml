@@ -31,13 +31,13 @@ jobs:
         run: python3 -m unittest tests.test_translation_batches -v
       - name: Reconstruct non-publishable historical French working excerpt
         run: |
+          patches=(--patches workspace/pilots/isbe-1915-fr/draft-patches.json)
+          for file in workspace/translations/isbe-1915/fr/batches/*.json; do
+            patches+=(--patches "$file")
+          done
           python3 -m scripts.apply_translation_batches \
             --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
-            --patches workspace/pilots/isbe-1915-fr/draft-patches.json \
-            --patches workspace/translations/isbe-1915/fr/batches/0001-abraham.json \
-            --patches workspace/translations/isbe-1915/fr/batches/0002-early-a-entries.json \
-            --patches workspace/translations/isbe-1915/fr/batches/0003-complete-first-25.json \
-            --patches workspace/translations/isbe-1915/fr/batches/0004-short-a-entries.json \
+            "${patches[@]}" \
             --output /tmp/isbe-fr-working-excerpt.xml \
             --report /tmp/isbe-fr-working-report.json
       - name: Build complete Abraham reading proof without touching canonical source
@@ -56,8 +56,12 @@ jobs:
           from pathlib import Path
           report=json.loads(Path('/tmp/isbe-fr-working-report.json').read_text(encoding='utf-8'))
           assert report['master_entry_count']==9380
-          assert report['excerpt_entries']==84
-          assert report['complete_unreviewed_drafts']==84
+          drafts_dir=Path('workspace/translations/isbe-1915/fr/batches')
+          pilot=Path('workspace/pilots/isbe-1915-fr/draft-patches.json')
+          expected=sum(len(json.loads(path.read_text(encoding='utf-8'))['articles'])
+                       for path in [pilot, *sorted(drafts_dir.glob('*.json'))])
+          assert report['excerpt_entries']==expected
+          assert report['complete_unreviewed_drafts']==expected
           assert report['partial_unreviewed_drafts']==0
           assert report['human_reviewed']==0
           assert report['publication_permitted'] is False
@@ -66,7 +70,7 @@ jobs:
           for section in ('I. Le nom', 'II. La famille', 'III. La vie', 'IV. Les conditions', 'V. Le caractère', 'VI. L', 'VII. Interprétations'):
               assert section in proof, section
           assert 'J. Oscar Boyd' in proof
-          print('VERIFIED: 84 complete UNREVIEWED French drafts; canonical source intact; NOT published')
+          print(f'VERIFIED: {expected} complete UNREVIEWED French drafts; canonical source intact; NOT published')
           PY
       - name: Retain non-publishable editorial report and Abraham reading proof
         uses: actions/upload-artifact@v4
