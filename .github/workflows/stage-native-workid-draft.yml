@@ -1,0 +1,157 @@
+name: Stage corrected ISBE native module in unpublished draft
+
+on:
+  pull_request:
+    paths: [.github/workflows/stage-native-workid-draft.yml]
+  push:
+    branches: [main]
+    paths: [.github/workflows/stage-native-workid-draft.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  native-draft:
+    if: github.repository == 'icfmp/Bible-Resources-ISBE'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install native SWORD tools
+        run: |
+          set -euo pipefail
+          sudo env DEBIAN_FRONTEND=noninteractive timeout 180s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=25 update -qq
+          sudo env DEBIAN_FRONTEND=noninteractive timeout 360s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=25 -y -qq install libsword-utils diatheke
+          command -v tei2mod
+          command -v mod2imp
+      - name: Export and audit exact corrected source
+        run: |
+          set -euo pipefail
+          python3 scripts/persist_1915_cleaned_master.py --verify-only
+          mkdir -p workspace/tmp/stage
+          python3 scripts/export_tei_dictionary_for_sword.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --expected-sha256 5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c \
+            --expected-count 9380 --module-id BRISBE1915 \
+            --output workspace/tmp/stage/import.xml \
+            --report workspace/tmp/stage/import-report.json
+          echo 'bdac245cad329fdff8039d0374815ff7086b8a5f8055118f1250461b9d5f17ec  workspace/tmp/stage/import.xml' | sha256sum --check --strict
+          python3 scripts/audit_sword_reference_targets.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --adapted workspace/tmp/stage/import.xml --module-id BRISBE1915 \
+            --report workspace/tmp/stage/references.json
+          python3 scripts/select_isbe_internal_link_samples.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --adapted workspace/tmp/stage/import.xml --module-id BRISBE1915 \
+            --output workspace/tmp/stage/sample-links.json
+      - name: Compile SWORD and independently verify full native readback and links
+        run: |
+          set -euo pipefail
+          mkdir -p workspace/tmp/stage/module/modules/lexdict/zld/brisbe1915
+          mkdir -p workspace/tmp/stage/module/mods.d
+          tei2mod workspace/tmp/stage/module/modules/lexdict/zld/brisbe1915 \
+            workspace/tmp/stage/import.xml -z z -N >workspace/tmp/stage/tei2mod.log 2>&1
+          cat >workspace/tmp/stage/module/mods.d/brisbe1915.conf <<'CONF'
+          [BRISBE1915]
+          DataPath=./modules/lexdict/zld/brisbe1915/dict
+          ModDrv=zLD
+          CompressType=ZIP
+          SourceType=TEI
+          Encoding=UTF-8
+          Lang=en
+          Version=0.1.0
+          Description=International Standard Bible Encyclopedia (1915, corrected historical edition)
+          About=CrossWire Public Domain ISBE. Historical print collation and independent reader GUI acceptance remain incomplete.
+          DistributionLicense=Public Domain
+          CONF
+          export SWORD_PATH="$PWD/workspace/tmp/stage/module"
+          diatheke -b system -k modulelist | grep -q BRISBE1915
+          mod2imp BRISBE1915 >workspace/tmp/stage/readback.imp
+          python3 scripts/validate_sword_dictionary_roundtrip.py \
+            --input-tei workspace/tmp/stage/import.xml \
+            --native-imp workspace/tmp/stage/readback.imp \
+            --report workspace/tmp/stage/roundtrip.json
+          python3 scripts/audit_sword_rendered_internal_link.py \
+            --samples workspace/tmp/stage/sample-links.json \
+            --module-id BRISBE1915 \
+            --report workspace/tmp/stage/rendered-link.json
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path("workspace/tmp/stage")
+          r=json.loads((p/"roundtrip.json").read_text())
+          assert r["expected_keys"]==r["native_keys"]==9380
+          assert r["native_roundtrip_verified"] is True
+          for key in ("missing_key_count","unexpected_key_count","malformed_count",
+                      "unicode_text_mismatch_count","xml_structure_mismatch_count"):
+              assert r[key]==0,(key,r[key])
+          refs=json.loads((p/"references.json").read_text())
+          assert refs["internal_dictionary_refs"]==5919
+          assert refs["bible_osis_references"]==93164
+          assert refs["section_ref_register_count"]==80
+          assert refs["explicit_sword_work_id"]=="BRISBE1915"
+          link=json.loads((p/"rendered-link.json").read_text())["sample_result"]
+          assert link["native_sword_dictionary_link_resolves_to_expected_module"] is True
+          assert link["native_sword_href"].startswith("sword://BRISBE1915/")
+          print("SWORD native corpus and rendered dictionary link validated")
+          PY
+      - name: Package reproducible candidate evidence without public binary artifact
+        run: |
+          set -euo pipefail
+          cd workspace/tmp/stage/module
+          tar -czf ../BRISBE1915-native-workid-draft.tar.gz .
+          cd ..
+          sha256sum BRISBE1915-native-workid-draft.tar.gz | tee BRISBE1915-NATIVE-WORKID-SHA256SUMS.txt
+          # Fully consume tar output before using grep. Under pipefail,
+          # "tar -tzf ... | grep -q" can SIGPIPE when grep exits early.
+          tar -tzf BRISBE1915-native-workid-draft.tar.gz > archive-contents.txt
+          grep -Fxq './mods.d/brisbe1915.conf' archive-contents.txt
+          for ext in zdt zdx idx dat; do
+            grep -Fxq "./modules/lexdict/zld/brisbe1915/dict.$ext" archive-contents.txt
+          done
+      - name: Upload new candidate to existing unpublished draft ONLY
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_ID: '455869112'
+          TAG: isbe-1915-v0.1.0-rc.1
+        run: |
+          set -euo pipefail
+          test "$GH_REPO" = icfmp/Bible-Resources-ISBE
+          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq .draft)" = true
+          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq .prerelease)" = true
+          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq '.published_at // "null"')" = null
+          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq .tag_name)" = "$TAG"
+          if gh api "repos/$GH_REPO/releases/$RELEASE_ID/assets" --jq '.[].name' |
+             grep -Fxq BRISBE1915-native-workid-draft.tar.gz; then
+            echo "Existing work-ID draft asset: refusing to overwrite" >&2
+            exit 1
+          fi
+          root=workspace/tmp/stage
+          cp "$root/roundtrip.json" "$root/BRISBE1915-workid-roundtrip.json"
+          cp "$root/rendered-link.json" "$root/BRISBE1915-workid-rendered-link.json"
+          gh release upload "$TAG" \
+            "$root/BRISBE1915-native-workid-draft.tar.gz" \
+            "$root/BRISBE1915-NATIVE-WORKID-SHA256SUMS.txt" \
+            "$root/BRISBE1915-workid-roundtrip.json" \
+            "$root/BRISBE1915-workid-rendered-link.json" \
+            -R "$GH_REPO"
+          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq .draft)" = true
+          test "$(gh api "repos/$GH_REPO/releases/$RELEASE_ID" --jq '.published_at // "null"')" = null
+          gh api "repos/$GH_REPO/releases/$RELEASE_ID/assets" --jq '.[] | [.name,.size] | @tsv'
+          echo "New binary staged in private draft, no release published"
+      - name: Upload only diagnostics (NEVER compiled binary)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: brisbe1915-workid-draft-diagnostics
+          path: |
+            workspace/tmp/stage/import-report.json
+            workspace/tmp/stage/references.json
+            workspace/tmp/stage/roundtrip.json
+            workspace/tmp/stage/rendered-link.json
+            workspace/tmp/stage/BRISBE1915-NATIVE-WORKID-SHA256SUMS.txt
+            workspace/tmp/stage/tei2mod.log
+          if-no-files-found: warn
+          retention-days: 14
