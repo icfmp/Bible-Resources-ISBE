@@ -130,17 +130,40 @@ jobs:
           # $HOME/.bibletime/bibletimerc, Qt INI, and the exact setting
           # settings/defaults/standardBible. This is the isolated KJV test
           # fixture, NOT a resource packaged with BRISBE1915.
-          env -u SWORD_PATH diatheke -b system -k modulelist | grep -q KJV
+          # Match the MODULE ID, not the marketing name: Ubuntu's King
+          # James Version package currently identifies as engKJV2006eb,
+          # rather than KJV. Hardcoding a friendly name produced a false
+          # "standard Bible" GUI failure despite SWORD discovering the module.
+          standard_bible="$(env -u SWORD_PATH diatheke -b system -k modulelist | python3 -c '
+          import sys
+          inside = False
+          candidates = []
+          for line in sys.stdin:
+              line = line.strip()
+              if line == "Biblical Texts:":
+                  inside = True
+                  continue
+              if inside and line.endswith(":"):
+                  break
+              if inside and " : " in line:
+                  module, description = line.split(" : ", 1)
+                  if "king james" in description.casefold():
+                      candidates.append(module)
+          if len(candidates) != 1:
+              raise SystemExit(f"Expected exactly one installed test KJV module, got {candidates}")
+          print(candidates[0])
+          ')"
+          test -n "$standard_bible"
+          echo "Isolated BibleTime standard Bible module ID: $standard_bible"
           mkdir -p "$HOME/.bibletime"
-          cat >"$HOME/.bibletime/bibletimerc" <<'BIBLETIME_CONFIG'
+          cat >"$HOME/.bibletime/bibletimerc" <<BIBLETIME_CONFIG
           [General]
           btconfig_api_version=1
           [settings]
-          defaults\standardBible=KJV
+          defaults\standardBible=$standard_bible
           BIBLETIME_CONFIG
-          # Verify the expected fresh-profile config is present before GUI.
           grep -Fqx 'btconfig_api_version=1' "$HOME/.bibletime/bibletimerc"
-          grep -Fqx 'defaults\standardBible=KJV' "$HOME/.bibletime/bibletimerc"
+          grep -Fqx "defaults\\standardBible=$standard_bible" "$HOME/.bibletime/bibletimerc"
           xvfb-run -a -s '-screen 0 1440x900x24' \
             dbus-run-session -- bash -c '
               set -euo pipefail
