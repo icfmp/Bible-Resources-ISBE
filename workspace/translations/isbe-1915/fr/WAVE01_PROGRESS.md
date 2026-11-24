@@ -222,3 +222,53 @@ Source identity, every complete text unit, source-language spans, link and
 Scripture-reference parity, reconstructed French reading proofs, manifest
 uniqueness and the official TEI profile must pass in CI before merge.
 Independent editorial sign-off remains explicitly out of scope.
+
+## Third 100-article historical French first-draft cohort — 24 November 2026
+
+**Cohort 003:** exactly **100** additional complete first-pass translations from the
+original corrected English TEI, frozen in
+`cohorts/COHORT_003_100_CONCISE_ARTICLES.json`, with the original canonical
+positions, English `@n` keys, `xml:id` identifiers, stable per-article SHA-256
+fingerprints, and one exact source-locked patch reference for each entry.
+
+All 100 are the shortest **previously undrafted** English articles after the
+first two independent cohorts. Every included original entry is translated
+**in full**, retaining all source TEI cross-references, Scripture links,
+Greek/Hebrew source spans and original editing boundaries. These articles
+are increasingly varied concise historical, biographical and lexical
+notices, including the original authors' alternate readings and source
+qualifiers, not just redirects.
+
+English eligible source prose this cohort: **14,864 characters**, with
+individual entries 114–187 characters. This is an article count metric,
+not the proportion of the original encyclopedia's total prose translated.
+
+Four source-locked patch files, each with exactly 25 entries:
+- `0022-cohort-003-short-articles-01.json`
+- `0023-cohort-003-short-articles-02.json`
+- `0024-cohort-003-short-articles-03.json`
+- `0025-cohort-003-short-articles-04.json`
+
+**Updated lot 1 first drafts: 411/1,000 (41.1%); remaining undrafted:
+589. Whole source: 456/9,380 complete first drafts. Editorial sign-offs:
+0/1,000, so task checkboxes must stay unchecked. Publication: forbidden.**
+
+Notes for later independent bilingual editorial collation:
+- `ADADRIMMON` retains the original source's historical connection with
+  the death of Josiah rather than adding external modern identifications.
+- `ADDUS`, `AKKOS`, and `ASTAD` preserve the distinction between
+  English biblical manuscript editions and original person/place names.
+- `AGIA` retains the surprising source reference to descendants of
+  Abraham in 1 Esdras; the historical witness requires separate collation
+  before acceptance, not silent correction.
+- `ALLEG(E)` and `AT ONE` explain the English lexical expressions rather
+  than pretending their French equivalents have the same etymological form.
+- `ARIDAI`, `ARIDATHA`, `ALVAN`, and similar entries preserve the author's
+  tentative etymologies and manuscript variants, not modernized certainties.
+- Ancient author interpretations, even when questionable, remain historical
+  claims, not silently rewritten encyclopedic updates.
+
+Before merging, require full source-locked reconstruction, 456 article
+reading proofs, cohort uniqueness and immutable identifier checks,
+and complete official TEI validation. Independent bilingual approval is a
+separate, still-uncompleted editorial gate.
