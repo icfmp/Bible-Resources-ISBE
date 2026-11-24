@@ -13,9 +13,9 @@ This working pilot comes **directly** from the corrected 1915 historical English
 
 `roster.json` records the 50 exact source IDs selected deterministically from the SHA-256-locked historical English master. The subset includes attested difficult examples such as Greek and Hebrew, nested sections, source-authorized dictionary hyperlinks, Bible references, ordinary prose, short cross-reference articles and longer thematic articles. A selection does **not** imply any translation is complete.
 
-`draft-patches.json` begins with **eight actual source-based French drafts**, with exact original text nodes, original article hashes and source node ordinals. They have **not been independently proofread**. Historical English phonetic transcriptions are temporarily retained with explicit reasons; this is an editorial question for review, not a settled localization decision.
+`draft-patches.json` begins with **nineteen actual source-based French drafts**, with exact original text nodes, original article hashes and source node ordinals. They have **not been independently proofread**. Historical English phonetic transcriptions are temporarily retained with explicit reasons; this is an editorial question for review, not a settled localization decision.
 
-The generator never touches the English source. It emits a **temporary multilingual (EN+FR) working excerpt**, not a complete French edition. The 42 unpatched pilot entries retain their original English text and are explicitly `pending`; no false French publication, completeness or human review is claimed.
+The generator never touches the English source. It emits a **temporary multilingual (EN+FR) working excerpt**, not a complete French edition. The 31 unpatched pilot entries retain their original English text and are explicitly `pending`; no false French publication, completeness or human review is claimed.
 
 ## Reproduction
 
