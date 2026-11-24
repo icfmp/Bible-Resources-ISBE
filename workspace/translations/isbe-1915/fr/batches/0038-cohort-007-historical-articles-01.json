@@ -832,43 +832,45 @@
           "node": 1,
           "part": "text",
           "source": "ADAMANT",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ADAMANT",
+          "action": "preserve",
+          "reason": "Canonical source proper name, transliteration or pronunciation retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ad'-a-mant (shamir (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ad'-a-mant (shamir (",
+          "action": "preserve",
+          "reason": "Canonical source proper name, transliteration or pronunciation retained"
         },
         {
           "node": 4,
           "part": "tail",
           "source": ")): In the passages cited and in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ")) : Dans les passages cités et en ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": ", where it is rendered \"diamond\" the word shamir evidently refers to a hard stone. The word adamant (\"unconquerable\") is used in the early Greek writers for a hard metal, perhaps steel, later for a metal-like gold and later for the diamond. The Hebrew shamir, the Greek adamas (from which word \"diamond\" as well as \"adamant\" is derived) and the English adamant occur regularly in figurative expressions. All three are equally indefinite. Adamant may therefore be considered a good translation for shamir, though the Septuagint does not use adamas in the passages cited. There is a possible etymological identification of shamir with the Greek smyris (smeris or smiris), emery, a granular form of corundum well known to the ancients and used by them for polishing and engraving precious stones. Corundum in all its forms, including the sapphire and ruby, is in the scale of hardness next to the diamond. In English Versions of the Bible ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", où l'on traduit ce mot par « diamant », shamir désigne manifestement une pierre dure. Les premiers écrivains grecs emploient « adamant » (« invincible ») pour un métal dur, peut-être l'acier ; plus tard pour un métal semblable à l'or, puis pour le diamant. L'hébreu shamir, le grec adamas (d'où viennent « diamant » et « adamant ») et l'anglais adamant sont courants dans les expressions figurées. Tous trois restent imprécis. « Adamant » peut ainsi traduire convenablement shamir, même si la Septante n'utilise pas adamas dans les passages cités. On a proposé un rapprochement étymologique de shamir avec le grec smyris (smeris ou smiris), « émeri », une forme granuleuse de corindon bien connue des anciens qui l'utilisaient pour polir et graver les pierres précieuses. Le corindon, y compris le saphir et le rubis, vient immédiatement après le diamant sur l'échelle de dureté. Dans les versions anglaises de la Bible, en ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": ", shamir is translated \"brier\". See also ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", shamir est traduit par « ronce ». Voir également ",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "STONES, PRECIOUS",
-          "target": "",
-          "action": "pending_translation"
+          "target": "PIERRES PRÉCIEUSES",
+          "action": "translate"
         },
         {
           "node": 13,
@@ -883,56 +885,58 @@
       "source_key": "ADAMI-NEKEB",
       "article_id": "isbe-0c23497dafb031fc7aa0",
       "source_article_sha256": "ea6c8bc58a4d1e201b9d313757ecc597ae3f8f9997c71f8bd8183863895abc96",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ADAMI-NEKEB",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ADAMI-NEKEB",
+          "action": "preserve",
+          "reason": "Original proper-name headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ad'-a-mi ne'-keb 'adhami ha-neqebh, \"the ground of the piercing,\" (that is of the pass, or defile): A place mentioned in indicating the border of Naphtali (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ad'-a-mi ne'-keb ('adhami ha-neqebh, « terre du passage étroit », c'est-à-dire du col ou défilé) : Lieu mentionné dans la description de la frontière de Nephtali (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "). In the King James Version, Adami and Nekeb are given as separate names, and it is an open question which view of the matter is correct. Most of the Greek texts give the names as two. The Vulgate has \"Adami quae est Neceb.\" The Jerusalem Talmud gives two names, though instead of Hannekeb or Nekeb it has Siyadathah (Meg 1 1, or Neubauer's Geog du Talmud, 225). In the list of places conquered by Thothmes III of Egypt occurs the name NQBU (Tomkins, Rec of Past, new series, V, 47), which seems to be the same with Neqeb.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Dans la King James Version, Adami et Nékeb sont deux noms distincts ; il reste à déterminer quelle lecture est correcte. La plupart des textes grecs donnent deux noms. La Vulgate écrit « Adami quae est Neceb ». Le Talmud de Jérusalem donne deux noms, mais remplace Hannekeb ou Nékeb par Siyadathah (Meg 1,1 ; Neubauer, Géographie du Talmud, p. 225). Une liste des lieux conquis par Thoutmosis III d'Égypte contient le nom NQBU (Tomkins, Records of the Past, nouvelle série, V, p. 47), apparemment identique à Nékeb.",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "The list of names for the border of Naphtali (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "La liste des noms de la frontière de Nephtali (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": ") has no name in common with the list of cities (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") n'a aucun nom en commun avec la liste des villes (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": ") unless Adami and Adamah are the same. The PE Survey maps locate Adamah at Damieh, about seven miles northwest of the exit of the Jordan from the Lake of Galilee, and Adami at Khurbet Adamah, five or six miles south of the exit. Conder, Tomkins and others place Adami at Damieh, and identify Nekeb by its Talmudic name in the neighboring ruin Seiyadeh. Conder says (art. \"Nekeb,\" HDB) that the \"pass\" implied in the name Nekeb \"is probably one leading from the eastern precipices near Tiberias.\"",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), à moins qu'Adami et Adama soient le même lieu. Les cartes du Palestine Exploration Survey situent Adama à Damieh, à environ sept milles au nord-ouest de la sortie du Jourdain du lac de Galilée, et Adami à Khirbet Adama, à cinq ou six milles au sud de cette sortie. Conder, Tomkins et d'autres placent Adami à Damieh et identifient Nékeb à la ruine voisine de Seiyadeh, sous son nom talmudique. Conder (article « Nekeb », HDB) pense que le « défilé » impliqué par ce nom « est probablement l'un des passages qui s'ouvrent depuis les escarpements orientaux près de Tibériade ».",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "Willis J. Beecher",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Willis J. Beecher",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -946,64 +950,66 @@
           "node": 1,
           "part": "text",
           "source": "ADDER",
-          "target": "",
-          "action": "pending_translation"
+          "target": "VIPÈRE",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ad'-er (`akhshubh (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ad'-er (`akhshubh (",
+          "action": "preserve",
+          "reason": "Canonical source proper name, transliteration or pronunciation retained"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "); pethen (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; pethen (",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": "); tsiph`oni (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; tsiph`oni (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": "); shephiphon (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; shephiphon (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": "); tsepha` (King James Version margin; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; tsepha` (dans la note de la King James Version ; ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": ")): This word is used for several Hebrew originals. In each case a poisonous serpent is clearly indicated by the context. It is impossible to tell in any case just what species is meant, but it must be remembered that the English word adder is used very ambiguously. It is from the Anglo-Saxon noedre, a snake or serpent, and is the common English name for Vipera berus, L, the common viper, which is found throughout Europe and northern Asia, though not in Bible lands; but the word \"adder\" is also used for various snakes, both poisonous and non-poisonous, found in different parts of the world. In America, for instance, both the poisonous moccasin (Ancistrodon) and the harmless hog-nosed snakes (Heterodon) are called adders.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ")) : Ce mot traduit plusieurs termes hébreux. Dans chaque cas, le contexte indique clairement un serpent venimeux, mais il est impossible d'identifier précisément l'espèce. Il faut se rappeler que le mot anglais « adder » est très ambigu. Il dérive de l'anglo-saxon noedre, « serpent », et désigne habituellement Vipera berus, L., la vipère commune répandue en Europe et au nord de l'Asie, mais absente des pays bibliques. Le mot s'applique aussi à divers serpents, venimeux ou non, dans plusieurs régions du monde. En Amérique, par exemple, les mocassins venimeux (Ancistrodon) et les couleuvres à nez retroussé inoffensives (Heterodon) sont tous deux appelés adders.",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Voir ",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "SERPENT",
-          "target": "",
-          "action": "pending_translation"
+          "target": "SERPENT",
+          "action": "preserve",
+          "reason": "Canonical source proper name, transliteration or pronunciation retained"
         },
         {
           "node": 10,
@@ -1018,77 +1024,80 @@
       "source_key": "ADIN",
       "article_id": "isbe-b24bafbe5d1ae8723a7b",
       "source_article_sha256": "6c8fce109cf69e3a9504dcc40e802e819cd74aa771dbea83e8d50a60c3c5b7f7",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ADIN",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ADIN",
+          "action": "preserve",
+          "reason": "Original proper-name headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a'-din (`adhin, \"adorned\"): The name of a family, \"the sons of Adin\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a'-din (`adhin, « orné ») : Nom d'une famille, « les fils d'Adin » (",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": "; 1 Esdras 5:14; 8:32), mentioned among the returning exiles. The list in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; 1 Esdras 5:14 ; 8:32), mentionnée parmi les exilés revenus. La liste d'",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " is placed in the midst of the narrative concerning Zerubbabel, but its title and Its contents show that it also includes the later Jewish immigrants into Palestine. The list in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " est insérée dans le récit de Zorobabel, mais son titre et son contenu montrent qu'elle englobe aussi des immigrants juifs revenus plus tard en Palestine. La liste de ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": " is a duplicate of that in Ezr, but with variations; most of the variations are naturally accounted for by supposing that one copy was made later than the other and was brought up to date. In Ezr and 1 Esdras the number of the sons of Adin is said to be 454; in Ne it is 655. The 50 males, led by Ebed the son of Jonathan, who came with Ezr, may or may not have been included in the numbers just mentioned. Among the names of those who sealed the covenant along with Ne are 44 that are placed under the caption \"the chiefs of the people\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " reproduit celle d'Esdras avec des variantes. Beaucoup s'expliquent si l'une des copies fut établie plus tard et mise à jour. Esdras et 1 Esdras donnent 454 fils d'Adin, contre 655 chez Néhémie. Les cinquante hommes conduits par Ébed, fils de Jonathan, revenus avec Esdras, pouvaient être inclus ou non dans ces chiffres. Parmi les signataires de l'alliance avec Néhémie, quarante-quatre noms figurent sous le titre de « chefs du peuple » (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": "), and nearly half of these are the family names of the list in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ; près de la moitié sont des noms de familles des listes d'",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": " and ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et de ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": ". It is natural to infer that in these cases a family sealed the covenant collectively through some representative. In that case the Adin here mentioned is the same that is mentioned in the other places. See also ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ". Il est naturel de penser que chaque famille a alors scellé l'alliance par l'intermédiaire d'un représentant. L'Adin mentionné ici serait donc le même que dans les autres passages. Voir également ",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "ADINU",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ADINU",
+          "action": "preserve",
+          "reason": "Canonical source proper name, transliteration or pronunciation retained"
         },
         {
           "node": 13,
           "part": "text",
           "source": "Willis J. Beecher",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Willis J. Beecher",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
@@ -1096,63 +1105,65 @@
       "source_key": "ADINO",
       "article_id": "isbe-9eeed22c5aa5c041be0d",
       "source_article_sha256": "3a4100fcf45285bb6566e5292266df9ee4d1b8bf78ab20c84907bf09b3c2c7be",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "ADINO",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ADINO",
+          "action": "preserve",
+          "reason": "Original proper-name headword retained"
         },
         {
           "node": 2,
           "part": "text",
           "source": "ad'-i-no, a-di'-no (`adhino, \"his adorned one\"): The senior of David's \"mighty men.\" \"Josheb-basshebeth a Tahchemonite, chief of the captains; the same was Adino the Eznite, against eight hundred slain at one time\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ad'-i-no, a-di'-no (`adhino, « son orné ») : Le premier des « vaillants hommes » de David : « Josheb-Basshébeth, Tahkémonite, chef des capitaines ; c'était Adino l'Etsnite, qui frappa huit cents hommes à la fois » (",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": "). This very exact rendering makes it evident even to an English reader that the text is imperfect. Ginsburg offers a corrected form taken substantially from the parallel passage in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). Cette traduction très littérale suffit à faire comprendre même au lecteur anglais que le texte est imparfait. Ginsburg propose une forme corrigée, essentiellement tirée du passage parallèle de ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": ": \"Jashobeam a son of a Hachmonite, chief of the captains; he lifted up his spear.\" This is plausible, and is very generally accepted, and eliminates the names Adino and Eznite, which do not occur elsewhere in the Bible. Some of the facts are against this. The Septuagint has the names Adino and Eznite. The Latin finds no proper names in the passage, but so translates the words as to presuppose the Hebrew text as we have it. It may be a case for suspended judgment.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Jashobéam, fils d'un Hacmonite, chef des capitaines ; il leva sa lance. » La restitution est plausible et généralement acceptée, mais elle élimine les noms Adino et Etsnite, absents ailleurs dans la Bible. Certains faits s'y opposent : la Septante conserve ces deux noms ; la version latine ne lit aucun nom propre dans ce passage, mais sa traduction suppose le texte hébreu que nous possédons. Il convient peut-être de suspendre le jugement.",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "The texts concerning David's mighty men are fragmentary both in Samuel and in Chronicles. If they were more complete they would perhaps make it clear that the three seniors were comrades of David at Pas-dammim, Ephes- dammim (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Les textes concernant les vaillants hommes de David sont fragmentaires, tant dans Samuel que dans les Chroniques. S'ils étaient plus complets, ils montreraient peut-être que les trois principaux étaient compagnons de David à Pas-Dammim, Éphès-Dammim (",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": "); and that we have in them additional details concerning that battle. The record says that on the death of Goliath the Philistines fled and the Israelites pursued (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") et fourniraient d'autres détails sur cette bataille. Selon le récit, à la mort de Goliath, les Philistins prirent la fuite et les Israélites les poursuivirent (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": " ff), but it is not improbable that during the retreat portions of the Philistine force rallied, so that there was strenuous fighting.",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv.). Il est toutefois possible que certaines unités philistines se soient ralliées au cours de la retraite, donnant lieu à de violents combats.",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "text",
           "source": "Willis J. Beecher",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Willis J. Beecher",
+          "action": "preserve",
+          "reason": "Original author byline retained"
         }
       ]
     },
