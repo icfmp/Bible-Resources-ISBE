@@ -1,0 +1,787 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ASKELON",
+      "article_id": "isbe-b623ce1b9555fdce70f8",
+      "source_article_sha256": "f0b6700d46135ed5dc7a8ce8c1358be333b9c458a3d4a3b40b37d663fde61340",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASKELON",
+          "target": "ASKELON",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-ke-lon: the King James Version form in ",
+          "target": "as'-ke-lon : Forme employée par la King James Version en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", for ",
+          "target": " à la place de ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "ASHKELON",
+          "target": "ASHKELON",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASNAH",
+      "article_id": "isbe-6809e9541a579065955f",
+      "source_article_sha256": "9a5f7a258008781af4f2d2f4d90ce9e55e5e9b203ec63d9535582d8347a34d86",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASNAH",
+          "target": "ASNAH",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-na ('acnah, \"thornbush\"): One of the Nethinim, who returned with Zerubbabel from the exile (",
+          "target": "as'-na ('acnah, « buisson d'épines ») : L'un des Néthiniens revenus d'exil avec Zorobabel (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASOCHIS, PLAIN OF",
+      "article_id": "isbe-90aecad30bad5b8a95b4",
+      "source_article_sha256": "b747a5c65dbf836ae42f8e2a419bb9176fb3ac9cbaef8b4d69f4dd5a44e37c27",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASOCHIS, PLAIN OF",
+          "target": "PLAINE D'ASOCHIS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-so'-kis. See ",
+          "target": "a-so'-kis. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CANA, OF GALILEE",
+          "target": "CANA DE GALILÉE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASOM",
+      "article_id": "isbe-25fdf09b988d0c59ca9c",
+      "source_article_sha256": "e058191090e4504456cbfe5ddd405ffbe7fb5614f45fab33c7366329781b7c0e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASOM",
+          "target": "ASOM",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-som (H, Asom) = Hashum (",
+          "target": "a'-som (H, Asom) = Hashum (",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): The sons of Asom put away their \"strange wives\" (1 Esdras 9:33).",
+          "target": ") : Les fils d'Asom renvoyèrent leurs « épouses étrangères » (1 Esdras 9:33).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASSALIMOTH",
+      "article_id": "isbe-cb44cde9d82d4eb2609d",
+      "source_article_sha256": "64a71061492b9c2e1183870433d0153404b89efc8dc4f7fefc326ecc83e36f6c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSALIMOTH",
+          "target": "ASSALIMOTH",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-sal'-i-moth. See ",
+          "target": "a-sal'-i-moth. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SALIMOTH",
+          "target": "SALIMOTH",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Apocrypha).",
+          "target": " (livres apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASSHURIM",
+      "article_id": "isbe-b4dacf0967d1f7cd6622",
+      "source_article_sha256": "81d6deeb6c57d570dcede97381057305206e9dff469aa4861e758172dd6bcfe9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSHURIM",
+          "target": "ASSHURIM",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-shoo'-rim ('ashshurim): Mentioned among the sons of Dedan, son of Jokshah, son of Abraham by Keturah (",
+          "target": "a-shoo'-rim ('ashshurim) : Mentionnés parmi les fils de Dedan, fils de Jokshah, lui-même fils d'Abraham et de Ketura (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASSIDAEANS",
+      "article_id": "isbe-f4e4f16f8d3e92f94b26",
+      "source_article_sha256": "328ecaec8afa593f249e70105b0ca6c7ddb302970f6cfa5ae031956f0f44e843",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSIDAEANS",
+          "target": "ASSIDÉENS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as-i-de'-ans. See ",
+          "target": "as-i-de'-ans. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "HASIDAEANS",
+          "target": "HASIDAEANS",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Apocrypha).",
+          "target": " (livres apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASSUMPTION OF MOSES",
+      "article_id": "isbe-188a114ae4878331b0a3",
+      "source_article_sha256": "100ea0a0f4a663a1da60282d62d5af4ced73a9582ec7bbe6bcba01f854ca715e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSUMPTION OF MOSES",
+          "target": "ASSOMPTION DE MOÏSE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-sump'-shun. See ",
+          "target": "a-sump'-shun. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCALYPTIC LITERATURE",
+          "target": "LITTÉRATURE APOCALYPTIQUE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASSURBANIPAL",
+      "article_id": "isbe-86a5ca1a0a8dbcd97032",
+      "source_article_sha256": "393c1a1442b9e1e408bfce1837f2a86e4240f7d003355aabc1a153d74441ec34",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSURBANIPAL",
+          "target": "ASSURBANIPAL",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as-ur-ba'-ni-pal. See ",
+          "target": "as-ur-ba'-ni-pal. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASHURBANIPAL",
+          "target": "ASHURBANIPAL",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ASSYRIA AND BABYLONIA, RELIGION OF",
+      "article_id": "isbe-f61534c9366762ce467b",
+      "source_article_sha256": "4e5a23ff57e360a1eefe8281ddd9cfb3d55932cb4b669c3eb5a04e1d775dd6b8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSYRIA AND BABYLONIA, RELIGION OF",
+          "target": "RELIGION DE L'ASSYRIE ET DE LA BABYLONIE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BABYLONIA AND ASSYRIA, RELIGION OF",
+          "target": "RELIGION DE LA BABYLONIE ET DE L'ASSYRIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASSYRIAN AND BABYLONIAN LIBRARIES",
+      "article_id": "isbe-501710c44a209c5bbdc9",
+      "source_article_sha256": "334a297a417a906ead0a00fa3d8a8763c7fcae20cc39c722339c8481309a387e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASSYRIAN AND BABYLONIAN LIBRARIES",
+          "target": "BIBLIOTHÈQUES ASSYRIENNES ET BABYLONIENNES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "NINEVEH, LIBRARY OF",
+          "target": "BIBLIOTHÈQUE DE NINIVE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASTARTE; ASTORETH",
+      "article_id": "isbe-736f31de8a092306969f",
+      "source_article_sha256": "8c720e31efa5c72010bda6363b99465f46ae4f3973d1c4e8bd7291c78dfa14a2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASTARTE; ASTORETH",
+          "target": "ASTARTÉ ; ASTORETH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as-tär'tē, ASTORETH. See ",
+          "target": "as-tär'tē, ASTORETH. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASHTAROTH",
+          "target": "ASHTAROTH",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ASTATH",
+      "article_id": "isbe-9d769da7c1bed10be900",
+      "source_article_sha256": "5ae0f65f0173e76403949dac5a5253509ad82db29f8c1d3350af4c1eaee7c12e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASTATH",
+          "target": "ASTATH",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-tath (Astath):The form given in 1 Esdras 8:38 to the name which in ",
+          "target": "as'-tath (Astath) : Forme donnée en 1 Esdras 8:38 au nom qui apparaît en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " appears as Azgad. See ",
+          "target": " sous la forme Azgad. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "AZGAD",
+          "target": "AZGAD",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ASUR",
+      "article_id": "isbe-e219d9126ae8499f6efb",
+      "source_article_sha256": "70cbd63ca207fa22ca29b88cfe2bb6dce5efbca4770d091a3eb0c8f86eb06e24",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASUR",
+          "target": "ASUR",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-ur (Asour): the Revised Version (British and American) for Assur in 1 Esdras 5:31. Same as Harhur of ",
+          "target": "as'-ur (Asour) : Forme employée par la Revised Version (britannique et américaine) à la place d'Assur en 1 Esdras 5:31. Identique à Harhur en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ATAD",
+      "article_id": "isbe-4b34197880e306c07ba0",
+      "source_article_sha256": "e78dff59b7b99ddf1c48680a9c7a9746378e9142af726ad46261c5a84d1086b3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ATAD",
+          "target": "ATAD",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-tad ('aTadh, \"a thorn\"). See ",
+          "target": "a'-tad ('aTadh, « épine »). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABEL-MIZRAIM",
+          "target": "ABEL-MIZRAIM",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ATARAH",
+      "article_id": "isbe-55f10c073f6b72c2301b",
+      "source_article_sha256": "299a2c4547a89d2f5eeea190a478ac9f5511979bffdb1a3673a828a253728be3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ATARAH",
+          "target": "ATARAH",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "at'-a-ra, a-ta'-ra (`aTarah, \"crown\"): One of Jerahmeel's wives and mother of Onam (",
+          "target": "at'-a-ra, a-ta'-ra (`aTarah, « couronne ») : L'une des épouses de Jerahmeel et mère d'Onam (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ATAROTH-ADDAR",
+      "article_id": "isbe-430205568b50f5de1c3d",
+      "source_article_sha256": "4fa94e26fa93473768841397e8002cae667e554717601c70d0d26a29a1fa4d0c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ATAROTH-ADDAR",
+          "target": "ATAROTH-ADDAR",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "at'-a-roth-ad'-ar (`aTroth 'addar, \"crowns of Addar\"). See ",
+          "target": "at'-a-roth-ad'-ar (`aTroth 'addar, « couronnes d'Addar »). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ATAROTH (2)",
+          "target": "ATAROTH (2)",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ATTHARIAS; ATHARIAS",
+      "article_id": "isbe-df2af6c04def70695533",
+      "source_article_sha256": "9e6c60754c1d4224cf9b99528877757540f226c1d34ee549b6b9a3de2e7b827c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ATTHARIAS; ATHARIAS",
+          "target": "ATTHARIAS ; ATHARIAS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-tha-ri'as: 1 Esdras 5:40 = ",
+          "target": "a-tha-ri'as : 1 Esdras 5:40 = ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". See ",
+          "target": ". Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "TIRSHATHA",
+          "target": "TIRSHATHA",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        }
+      ]
+    },
+    {
+      "source_key": "AUGUSTAN; AUGUSTAN BAND",
+      "article_id": "isbe-0b29078320a221340660",
+      "source_article_sha256": "97c11c340546299bafcdff36c140f08c491aed6ccc8a6cd9719256fddfe91aed",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AUGUSTAN; AUGUSTAN BAND",
+          "target": "AUGUSTÉEN ; COHORTE AUGUSTA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "o-gus'-tan o-gus'-tus-izs See ",
+          "target": "o-gus'-tan o-gus'-tus-izs. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARMY, ROMAN",
+          "target": "ARMÉE ROMAINE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AUNT",
+      "article_id": "isbe-5dddc539e5913f272617",
+      "source_article_sha256": "e6e943f22880645cec99fa5eba6c48610419f56c0a5695dabca633cba123ba67",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AUNT",
+          "target": "TANTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ant dodhah, (\"loving\"): A father's sister (",
+          "target": "ant (dodhah, « aimante ») : Sœur du père (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); an uncle's wife (",
+          "target": ") ; épouse de l'oncle (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). See ",
+          "target": "). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "RELATIONSHIPS, FAMILY",
+          "target": "RELATIONS FAMILIALES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AUTHORITY; AUTHORITY IN GENERAL",
+      "article_id": "isbe-bca37041d85def049287",
+      "source_article_sha256": "48918f48e250a4a3a703d83a5eea7c339cb7c10370ab35c2168a13b877a5956b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AUTHORITY; AUTHORITY IN GENERAL",
+          "target": "AUTORITÉ ; AUTORITÉ EN GÉNÉRAL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "o-thor'-i-ti. See ",
+          "target": "o-thor'-i-ti. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AUTHORITY IN RELIGION",
+          "target": "AUTORITÉ EN RELIGION",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", sec. I.",
+          "target": ", section I.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AUTHORIZED VERSION",
+      "article_id": "isbe-42a47ea49788b568e688",
+      "source_article_sha256": "6820a75e8ec931e0f5612ba3cbda43ecc4eddf8be201cb2f6cbf39998ac6c9b5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AUTHORIZED VERSION",
+          "target": "VERSION AUTORISÉE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "o'-thor-iz'd. See ",
+          "target": "o'-thor-iz'd. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ENGLISH VERSIONS",
+          "target": "VERSIONS ANGLAISES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AUTRANITIS",
+      "article_id": "isbe-890278d9188bcb2eb829",
+      "source_article_sha256": "86b1546345876ddddf249325bd77ecedd165ae302af3e37f9fb82587a3cdcb41",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AUTRANITIS",
+          "target": "AUTRANITIS",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "o-ran-i'-tis: Used by Josephus for ",
+          "target": "o-ran-i'-tis : Nom employé par Josèphe pour désigner ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "HAURAN",
+          "target": "HAURAN",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AVERSE",
+      "article_id": "isbe-9e21735f680e493a6f36",
+      "source_article_sha256": "464249ea47f4c5fc10a7c52d2f9ea705b900fedde276471f6e02a690bcce0477",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AVERSE",
+          "target": "SE DÉTOURNER DE LA GUERRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-vurs' shabh, \"to turn back,\" (\"retreat\"): Quiet, peaceful wanderers (",
+          "target": "a-vurs' (shabh, « revenir en arrière », « se retirer ») : Voyageurs tranquilles et paisibles (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AZANIAH",
+      "article_id": "isbe-76874cfa3e218d02f1ca",
+      "source_article_sha256": "dacf8da379c1e31f7ca0e52aa0501d0322c4c85febc57185df82de10120438d8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZANIAH",
+          "target": "AZANIAH",
+          "action": "preserve",
+          "reason": "Historical transliteration, Greek source name, proper noun or unchanged linked headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "az-a-ni'-a 'azanyah, (\"Yahweh has given ear\"): A son of Jeshua, a Levite who signed the covenant (",
+          "target": "az-a-ni'-a ('azanyah, « Yahvé a prêté l'oreille ») : Fils de Jeshua, Lévite qui signa l'alliance (",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}

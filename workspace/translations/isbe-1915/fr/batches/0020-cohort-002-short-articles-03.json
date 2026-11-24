@@ -1,0 +1,797 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ARAB; ARABIANS",
+      "article_id": "isbe-c3567a0f2369c891a55a",
+      "source_article_sha256": "0609c3792170bea753994762a5845ff41d13aa568852961a73b8c68455016a6f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAB; ARABIANS",
+          "target": "ARABE ; ARABES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-ab, a-ra'-bi-ans. See ",
+          "target": "ar'-ab, a-ra'-bi-ans. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARABIA",
+          "target": "ARABIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARABATTINE",
+      "article_id": "isbe-51375f52fdabb58c492e",
+      "source_article_sha256": "6e1bc1db75e569d1bb7137341630e6c75fde0b89cac2a0438ff0efbee6b8c79f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARABATTINE",
+          "target": "ARABATTINE",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-a-ba-ti'-ne. See ",
+          "target": "ar-a-ba-ti'-ne. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AKRABATTINE",
+          "target": "AKRABATTINE",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Apocrypha).",
+          "target": " (livres apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARABIC GOSPEL OF THE INFANCY",
+      "article_id": "isbe-4fde503e2f6a89244e5e",
+      "source_article_sha256": "d13444ec7eff7f42836b135035223511f27c66676c2a9b1d82cf0391d0efee41",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARABIC GOSPEL OF THE INFANCY",
+          "target": "ÉVANGILE ARABE DE L'ENFANCE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCRYPHAL GOSPELS",
+          "target": "ÉVANGILES APOCRYPHES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARABIC HISTORY OF JOSEPH THE CARPENTER",
+      "article_id": "isbe-091bdb4097eda763d9c3",
+      "source_article_sha256": "a95ae6980b63937d2816cf0a4f99a620862b8d62c7ef5638d3d3b5c54dfe654a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARABIC HISTORY OF JOSEPH THE CARPENTER",
+          "target": "HISTOIRE ARABE DE JOSEPH LE CHARPENTIER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCRYPHAL GOSPELS",
+          "target": "ÉVANGILES APOCRYPHES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAM-DAMMESEK",
+      "article_id": "isbe-6882a2e9eb066bcaebd4",
+      "source_article_sha256": "25941d5559343b186161ab5a9b2ad54875662e8efa5c90ac17850cb0c0aef713",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAM-DAMMESEK",
+          "target": "ARAM-DAMMESEK",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ram-dam'-es-ek: Syria of Damascus, conquered by David (",
+          "target": "a-ram-dam'-es-ek : Syrie de Damas, conquise par David (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). See ",
+          "target": "). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "SYRIA",
+          "target": "SYRIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARARATH",
+      "article_id": "isbe-759de77080208f9e2014",
+      "source_article_sha256": "fb3f8b8177f407b9d7e3f1224f19e2e5ccee9b88808e96102f95e5ff3fc1c485",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARARATH",
+          "target": "ARARATH",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-a-rath: Same as ",
+          "target": "ar'-a-rath : Autre forme de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARARAT",
+          "target": "ARARAT",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARCHAEOLOGY OF ASIA MINOR",
+      "article_id": "isbe-8194db515671abd5b341",
+      "source_article_sha256": "1038d1899b14ce7cc7cb0327ecd442b8736bb99b525aa0fe1fc717d76cb04fbe",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARCHAEOLOGY OF ASIA MINOR",
+          "target": "ARCHÉOLOGIE DE L'ASIE MINEURE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASIA MINOR, ARCHAEOLOGY OF",
+          "target": "ASIE MINEURE, ARCHÉOLOGIE DE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARCTURUS",
+      "article_id": "isbe-5f0d726c8a33c6b98e0f",
+      "source_article_sha256": "9b31d0a5c76d34417f34bdf83985afa82946619b94701cd5e753cb382308bd54",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARCTURUS",
+          "target": "ARCTURUS",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ark-tu'-rus: The \"Plough\" or \"Charles's Wain\" is intended. See ",
+          "target": "ark-tu'-rus : Il est question du « Chariot » ou « Chariot de Charles ». Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASTRONOMY",
+          "target": "ASTRONOMIE",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", sec. II, 13.",
+          "target": ", section II, 13.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARDITES",
+      "article_id": "isbe-458927392dad3fe4cf30",
+      "source_article_sha256": "6747765d0bb2f270637d36aa9dd0ac8befe4034d8228653091add29e3a37dc12",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARDITES",
+          "target": "ARDITES",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-dits: Patronymic of ",
+          "target": "ar'-dits : Nom patronymique dérivé de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARD",
+          "target": "ARD",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", which see.",
+          "target": " ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARDON",
+      "article_id": "isbe-93d0cb83b54c88e98010",
+      "source_article_sha256": "3022c05f15f6dcd717fdcc9b9c803ff8944894c28e5a201b146a1d016236dcb7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARDON",
+          "target": "ARDON",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-don ('ardon, meaning unknown): One of the three sons of Caleb and Azubah, of the tribe of Judah (",
+          "target": "ar'-don ('ardon, de sens inconnu) : L'un des trois fils de Caleb et d'Azuba, de la tribu de Juda (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AREOPOLIS",
+      "article_id": "isbe-e01750efdc3ea4eb842a",
+      "source_article_sha256": "2ce4a254289e8f70115b9d42b00cf3e19cdf70879946bcbbb7f15b4d999a3025",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AREOPOLIS",
+          "target": "AREOPOLIS",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-e-op'-o-lis. The Greek name of ",
+          "target": "ar-e-op'-o-lis. Nom grec de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AR",
+          "target": "AR",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARK OF TESTIMONY",
+      "article_id": "isbe-98f61b567e313d9aabda",
+      "source_article_sha256": "de86c60969140cdaadd8cc39ff12c4dd6a59c2573b9faef0e290fc5d891912c2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARK OF TESTIMONY",
+          "target": "ARCHE DU TÉMOIGNAGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "test'-i-mo-ni. See ",
+          "target": "test'-i-mo-ni. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARK OF THE COVENANT",
+          "target": "ARCHE DE L'ALLIANCE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARMAGEDDON",
+      "article_id": "isbe-b80baded0885690417d0",
+      "source_article_sha256": "751344acc1a754d6b273f4663e0fbd44e869a1a4890b6663ee183fc45c576ae4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARMAGEDDON",
+          "target": "ARMAGEDDON",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-ma-ged'-on Armageddon: ",
+          "target": "ar-ma-ged'-on (Armageddon) : ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; the Revised Version (British and American) \"",
+          "target": " ; dans la Revised Version (britannique et américaine) : « ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "HAR-MAGEDON",
+          "target": "HAR-MAGEDON",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "\") (which see).",
+          "target": " » (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARNAN",
+      "article_id": "isbe-e6228b956bd37c4184bf",
+      "source_article_sha256": "4482b890fbc1e358a1279ab7d16039413cfb55f5e42e0ab89d1ca3d53c2fc4ab",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARNAN",
+          "target": "ARNAN",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-nan (`arnan, \"joyous\"): A descendant of David and founder of a family (",
+          "target": "ar'-nan (`arnan, « joyeux ») : Descendant de David et fondateur d'une famille (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The Septuagint has Orna.",
+          "target": "). La Septante porte Orna.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AROD",
+      "article_id": "isbe-b53e83cce37389c41708",
+      "source_article_sha256": "53f50da812fcecd2b25c6d1511c8863e3ad92871818a203c8b7076c5f0c25344",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AROD",
+          "target": "AROD",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-rod, ar'-od ('arodh): The sixth son of Gad (",
+          "target": "a'-rod, ar'-od ('arodh) : Sixième fils de Gad (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). His descendants are called Arodi or Arodites (",
+          "target": "). Ses descendants sont appelés Arodi ou Arodites (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AROERITE",
+      "article_id": "isbe-0731778075c473b055e6",
+      "source_article_sha256": "0d701e4f18b57f6e17a8cc41975945168029d107a38de56b45404d71b2000cd2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AROERITE",
+          "target": "AROERITE",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ro'-er-it (ha-`aro`eri): A native of Aroer. The Aroerite was Hotham, father of two of David's heroes (",
+          "target": "a-ro'-er-it (ha-`aro`eri) : Originaire d'Aroër. L'Aroérite était Hotham, père de deux des héros de David (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARREST, AND TRIAL OF JESUS",
+      "article_id": "isbe-14fb657d336025c57084",
+      "source_article_sha256": "8ba890eefcc3fa8b49962a71e8b672d147c389ea8c12852c5b1f1a315f4864f3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARREST, AND TRIAL OF JESUS",
+          "target": "ARRESTATION ET PROCÈS DE JÉSUS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-rest', see ",
+          "target": "a-rest'. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "JESUS CHRIST, THE ARREST AND TRIAL OF",
+          "target": "JÉSUS-CHRIST : ARRESTATION ET PROCÈS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ARROGANCY",
+      "article_id": "isbe-1701e13fe09245859a74",
+      "source_article_sha256": "4f3df7a0afdc45f046a641efbfd3baca628904712244d006cf19dc3ed5b240d6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARROGANCY",
+          "target": "ARROGANCE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-o-gan-si: Excessive pride, leading to boastfulness and insolence (",
+          "target": "ar'-o-gan-si : Orgueil excessif conduisant à la vantardise et à l'insolence (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASADIAS",
+      "article_id": "isbe-51c6778aaa5751a4136e",
+      "source_article_sha256": "8deee28b1fd789dd027d6b4647dd8c6913540fcac569551a0490c531b2246a94",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASADIAS",
+          "target": "ASADIAS",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as-a-di'-as (Asadias): An ancestor of Baruch (Baruch 1:1).",
+          "target": "as-a-di'-as (Asadias) : Ancêtre de Baruch (Baruch 1:1).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASAEL",
+      "article_id": "isbe-5ffc2a131c47a7bb37b4",
+      "source_article_sha256": "2ab856300d94e633dd869e4e63ffc9838c18d58e4608f3279e603f78ab2073eb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASAEL",
+          "target": "ASAEL",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-sa-el, as'-a-el. See ",
+          "target": "a'-sa-el, as'-a-el. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASIEL",
+          "target": "ASIEL",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Apocrypha).",
+          "target": " (livres apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASEAS",
+      "article_id": "isbe-a53fd67eb2b82e0c2d9a",
+      "source_article_sha256": "0b6c5aebb849e6a972bcb2f18067c501287c247a3f051db85b118d17bd88fa87",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASEAS",
+          "target": "ASEAS",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-se'-as (Asaias = Isshijah (",
+          "target": "a-se'-as (Asaias = Isshijah (",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ")) A son of Annas, who put away his \"strange wife\" (1 Esdras 9:32).",
+          "target": ")) : Fils d'Annas qui renvoya son « épouse étrangère » (1 Esdras 9:32).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASHDODITES",
+      "article_id": "isbe-6fefb93e178084524dcf",
+      "source_article_sha256": "906846c593eadd52b63aaaaa7861eb7c692ac5f268f5c6f397880a0dcfbe158d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASHDODITES",
+          "target": "ASHDODITES",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ash'-dod-its, ash'-doth-its: Inhabitants of ",
+          "target": "ash'-dod-its, ash'-doth-its : Habitants d'",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASHDOD",
+          "target": "ASHDOD",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see) (",
+          "target": " (voir cet article) (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "; the King James Version Ashdothites, ",
+          "target": " ; « Ashdothites » dans la King James Version, ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASHERITES",
+      "article_id": "isbe-10fc2b894b2c73c2d1b7",
+      "source_article_sha256": "a84cc3c056e2e5eebc7b3b375f18ed3c018aa6d77bac02493714c216dda32cc7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASHERITES",
+          "target": "ASHERITES",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ash'-er-its (ha-'asheri): The descendants of Asher, Jacob's eighth son (",
+          "target": "ash'-er-its (ha-'asheri) : Descendants d'Aser, huitième fils de Jacob (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASHKELONITES",
+      "article_id": "isbe-700d515bdde29617fcf6",
+      "source_article_sha256": "c50b1983592e18266c64ad7a69a96aebac03693ed90d44b1c3ea0185745d51aa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASHKELONITES",
+          "target": "ASHKELONITES",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ash'-ke-lon-its (",
+          "target": "ash'-ke-lon-its (",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): The people of Ashkelon, who were Philistines.",
+          "target": ") : Habitants d'Askalon, qui étaient Philistins.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ASHVATH",
+      "article_id": "isbe-a5e75781cb849877010e",
+      "source_article_sha256": "a3ff234f971bdcc8ab8245f522cfeb24454d412d7657310ebaac7428afb6b520",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASHVATH",
+          "target": "ASHVATH",
+          "action": "preserve",
+          "reason": "Historical source-linked proper name, original transliteration or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ash'-vath (`ashwath): A man of Asher, of the house of Japhlet (",
+          "target": "ash'-vath (`ashwath) : Homme de la tribu d'Aser, de la famille de Japhlet (",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}

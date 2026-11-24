@@ -174,3 +174,51 @@ source positions, fingerprint parity, exact patch files, uniqueness, and
 nonpublication state. The full reconstructed French excerpt and readable
 editorial proofs are independently exercised by the existing translation CI.
 Bilingual article-level editorial collation and acceptance are still pending.
+
+## Second 100-item source-locked French draft cohort — 24 November 2026
+
+**Cohort 002 adds exactly 100 previously undrafted, complete historical English
+source entries**, from 100 distinct `@n` keys and stable `xml:id` values. The
+canonical positions, original source article SHA-256 fingerprints and four
+25-item patch files are frozen in
+`cohorts/COHORT_002_100_SHORT_ARTICLES.json`. Only the original canonical
+worklist defines ordering or lookup; the cohort is a bounded editorial task
+record, not a new index.
+
+Selection uses the **next 100 shortest still-undrafted source entries** in
+positions #0001–#1000, with all originally present text/tail units translated
+or justified as proper-name/pronunciation preservation. This cohort includes
+substantive short *biographical and lexical notices* as well as reference
+redirects (46–112 eligible source characters apiece, **7,740 total**). Each
+translation includes the *entire* historical article as represented in the
+source TEI, never a truncated passage.
+
+Complete draft patch files:
+- `0018-cohort-002-short-articles-01.json` (25 original entries)
+- `0019-cohort-002-short-articles-02.json` (25)
+- `0020-cohort-002-short-articles-03.json` (25)
+- `0021-cohort-002-short-articles-04.json` (25)
+
+**Lot 1: 311/1,000 complete source-locked first drafts, 689 still undrafted.
+Across the full original source: 356/9,380 complete first drafts.**
+**Editorial acceptance: 0/1,000; no issue checklist boxes checked; no
+French SWORD release permitted.** The article count must not be treated as a
+percentage of total prose already translated.
+
+Historical cautions for a later independent bilingual review:
+- `AHBAN` and `AHUMAI` retain question marks qualifying the proposed name
+  etymologies.
+- `ARCTURUS` preserves the historical source's specific constellation wording
+  rather than replacing it with a newly verified astronomical assertion.
+- `ASSHURIM` retains the original unusual `Jokshah` spelling; confirm
+  against the printed English witness before any editorial correction.
+- `AVERSE` translates the source's historically conditioned lexical gloss
+  without silently rewriting its original discussion.
+- The article references to English versions, apocrypha and antiquarian source
+  terminology are display-localized as applicable, while the canonical TEI
+  source, article IDs and original destinations remain immutable.
+
+Source identity, every complete text unit, source-language spans, link and
+Scripture-reference parity, reconstructed French reading proofs, manifest
+uniqueness and the official TEI profile must pass in CI before merge.
+Independent editorial sign-off remains explicitly out of scope.
