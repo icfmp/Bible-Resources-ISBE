@@ -6,6 +6,8 @@ on:
     paths:
       - scripts/export_tei_dictionary_for_sword.py
       - scripts/validate_sword_dictionary_roundtrip.py
+      - scripts/audit_sword_dictionary_headings.py
+      - tests/test_sword_dictionary_headings.py
       - tests/test_sword_dictionary_adapter.py
       - modules/isbe-1915/**
       - sources/cleaned/encyclopedias/en/isbe-1915/**
@@ -14,6 +16,8 @@ on:
     paths:
       - scripts/export_tei_dictionary_for_sword.py
       - scripts/validate_sword_dictionary_roundtrip.py
+      - scripts/audit_sword_dictionary_headings.py
+      - tests/test_sword_dictionary_headings.py
       - tests/test_sword_dictionary_adapter.py
       - modules/isbe-1915/**
       - sources/cleaned/encyclopedias/en/isbe-1915/**
@@ -47,6 +51,14 @@ jobs:
             --output workspace/tmp/isbe-sword-import.xml \
             --report workspace/tmp/isbe-sword-import-report.json
           python3 -m unittest discover -s tests -p 'test_sword_dictionary_adapter.py' -v
+      - name: Audit preserved source headings versus dictionary labels
+        run: |
+          set -euo pipefail
+          python3 scripts/audit_sword_dictionary_headings.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --adapted workspace/tmp/isbe-sword-import.xml \
+            --report workspace/tmp/sword-heading-profile.json
+          python3 -m unittest discover -s tests -p 'test_sword_dictionary_headings.py' -v
       - name: Compile an actual independent zLD binary from the corrected edition
         shell: bash
         run: |
@@ -150,6 +162,7 @@ jobs:
             workspace/tmp/tei2mod.log
             workspace/tmp/native-module-sha256sums.txt
             workspace/tmp/diatheke-render-smoke.json
+            workspace/tmp/sword-heading-profile.json
           if-no-files-found: warn
           retention-days: 14
       # No compiled encyclopedia binary is uploaded as an Actions artifact.
