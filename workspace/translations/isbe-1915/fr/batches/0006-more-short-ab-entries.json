@@ -1,0 +1,818 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ABIHUD",
+      "article_id": "isbe-5a3f9a6fe49af73de535",
+      "source_article_sha256": "3df7c0b8ca4ddc7fa84dcbcfe9c25bd818a0587168d6cee36b775c10a52bc87c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIHUD",
+          "target": "ABIHUD",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bi'-hud ('abhihudh, \"father of majesty,\" or \"my father is majesty,\" though some regard the second part as the proper name Judah): The son of Bela the oldest son of Benjamin (",
+          "target": "a-bi'-hud ('abhihudh, « père de majesté » ou « mon père est majesté », bien que certains considèrent le second élément comme le nom propre Juda) : Fils de Béla, le fils aîné de Benjamin (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABILA",
+      "article_id": "isbe-1b5bc930269848a1a689",
+      "source_article_sha256": "f20e5535e624f4ec19493c7dbab375a6366941364234729e6b5b7a18226221cd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABILA",
+          "target": "ABILA",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab'-i-la. See ",
+          "target": "ab'-i-la. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABILENE",
+          "target": "ABILENE",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ABINOAM",
+      "article_id": "isbe-eb5a2e1299c895efc630",
+      "source_article_sha256": "4d4d26930db3db7f1645f756307fc088bfe78bcfc333128bed285ba6cc5bccd9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABINOAM",
+          "target": "ABINOAM",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bin'-o-am, ab-i-no'-am ('abhino`am, \"father of pleasantness,\" or, \"my father is pleasantness\"): A man of Kedesh-naphtali, the father of Barak who defeated the army of Jabin and Sisera (",
+          "target": "a-bin'-o-am, ab-i-no'-am ('abhino`am, « père de douceur » ou « mon père est douceur ») : Homme originaire de Kédesh, en Nephthali, père de Barak, qui vainquit l'armée de Jabin et de Sisera (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABISEI",
+      "article_id": "isbe-6183f0ecd5c5b3a0617a",
+      "source_article_sha256": "3add8c6ff2ade3c30b0ebeadb96940cfc43c0b936f5e266205cf6cfbc6880753",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABISEI",
+          "target": "ABISEI",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab-i-se'-i. See ",
+          "target": "ab-i-se'-i. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABISSEI",
+          "target": "ABISSEI",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ABISHALOM",
+      "article_id": "isbe-77cdf8fa6b9a84cfa0fc",
+      "source_article_sha256": "48a5ccc67e649321e0e49818685b858d8383a6c12bc881b0b69e6bbd40f802df",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABISHALOM",
+          "target": "ABISHALOM",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bish'-a-lom: Variant of ",
+          "target": "a-bish'-a-lom : Variante de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABSALOM",
+          "target": "ABSALOM",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", which see.",
+          "target": " ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABISHUA",
+      "article_id": "isbe-87a3548ab88b2628c308",
+      "source_article_sha256": "47c3dea0f4c339c7cbe5cf850c78dec6ab04d967772cb854b3121bd5d5f30c9a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABISHUA",
+          "target": "ABISHUA",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bish'-u-a, abi-shoo'-a ('abhishua`, uncertain, perhaps \"father of wealth,\" or \"my father is wealth\"):",
+          "target": "a-bish'-u-a, abi-shoo'-a ('abhishua`, de sens incertain, peut-être « père de richesse » ou « mon père est richesse ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A son of Bela the son of Benjamin (",
+          "target": "(1) Fils de Béla, fils de Benjamin (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) The son of Phinehas, who was grandson to Aaron (",
+          "target": "(2) Fils de Phinées, lui-même petit-fils d'Aaron (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABISHUR",
+      "article_id": "isbe-6da3e132868e45913a13",
+      "source_article_sha256": "a6abae69b21cd5dd4398472c5f845b38b21b6ca29940c595c7ceeda52dbc95fa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABISHUR",
+          "target": "ABISHUR",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bi'-shur ('abhishur, \"my father is a wall\"): Great-grandson of Jerahmeel and Atarah, Jerahmeel being great-grandson of Judah. Abishur was son of Shammai, and was the husband of Abihail, and the father of sons (",
+          "target": "a-bi'-shur ('abhishur, « mon père est une muraille ») : Arrière-petit-fils de Jerachmeel et d'Atara, Jerachmeel étant lui-même arrière-petit-fils de Juda. Abishur était fils de Shammaï, époux d'Abichaïl et père de plusieurs fils (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABISSEI",
+      "article_id": "isbe-413cc0807cda26de4368",
+      "source_article_sha256": "8a5c9d621406d1d92b8950189c957ef959521d819c15a6dfb82b3ff323dcbd73",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABISSEI",
+          "target": "ABISSEI",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bis'ē-i (AV Abisei): An ancestor of Ezra (2 Esd 1 2) = Abisue (1 Esd 8 2) and Abishua (1 Ch 6 4 ff; Ezr 7 5).",
+          "target": "a-bis'ē-i (AV : Abisei) : Ancêtre d'Esdras (2 Esd 1 2), appelé aussi Abisue (1 Esd 8 2) et Abishua (1 Ch 6 4 et suiv. ; Esd 7 5).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABISUE",
+      "article_id": "isbe-9f4e22870309d9d5b961",
+      "source_article_sha256": "921df08dcfa2900b0d91b61f5ad7f3b888f02a5ae0d732883feac47737a85851",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABISUE",
+          "target": "ABISUE",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bis'-u-e (Codex Vaticanus, Abisai; Codex Alexandrinus, Abisouai; the King James Version Abisum = Abishua (",
+          "target": "a-bis'-u-e (Codex Vaticanus : Abisai ; Codex Alexandrinus : Abisouai ; la King James Version : Abisum = Abishua (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " ff; ",
+          "target": " et suiv. ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") and Abissei (2 Esdras 1:2)): An ancestor of Ezra (1 Esdras 8:2).",
+          "target": ") et Abissei (2 Esdras 1:2)) : Ancêtre d'Esdras (1 Esdras 8:2).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABISUM",
+      "article_id": "isbe-ad21ae4fe7dea1baff45",
+      "source_article_sha256": "978a14565741acac37f6f5dae38f0201a093f7c281914832e437db87c830cfd0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABISUM",
+          "target": "ABISUM",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab'-i-sum. See ",
+          "target": "ab'-i-sum. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABISUE",
+          "target": "ABISUE",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Apocrypha).",
+          "target": " (livres apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABITAL",
+      "article_id": "isbe-7c1e0389102f579adfd7",
+      "source_article_sha256": "0364c5cae329a195258ab311efd43412df013c9609f6ccc805dd5f10daeb353e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABITAL",
+          "target": "ABITAL",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab'-i-tal, a-bi'-tal ('abhiTal, \"my father is dew\"): One of the wives of King David. In the duplicated list (",
+          "target": "ab'-i-tal, a-bi'-tal ('abhiTal, « mon père est rosée ») : L'une des femmes du roi David. Dans la liste reprise deux fois (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") in which the sons born to David in Hebron are mentioned and numbered, the fifth is said to be Shephatiah the son of Abital.",
+          "target": ") où sont mentionnés et dénombrés les fils nés de David à Hébron, le cinquième est appelé Schephatia, fils d'Abital.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABITUB",
+      "article_id": "isbe-01a574a94b609a512807",
+      "source_article_sha256": "45663322a60ed79cc82722151d516c853dfefe1064eaefc13e868fa66cd3171d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABITUB",
+          "target": "ABITUB",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab'-i-tub, a-bi'-tub ('abhiTubh, \"father of goodness,\" or, \"my father is goodness\"): In the King James Version Ahitub. A descendant of Benjamin and son of Shaharaim and Hushim, born in the field of Moab (",
+          "target": "ab'-i-tub, a-bi'-tub ('abhiTubh, « père de bonté » ou « mon père est bonté ») : Appelé Ahitub dans la King James Version. Descendant de Benjamin, fils de Shacharaïm et de Hushim, né dans les campagnes de Moab (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABIUD",
+      "article_id": "isbe-f53f2d8a5d9c33480ac4",
+      "source_article_sha256": "905b8eb5bd40a6b91e51251190a1ac8018805a74b4114df42bed5e6ab74c3c96",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIUD",
+          "target": "ABIUD",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bi'-ud ('Abioud, perhaps \"my father is majesty\"; see ",
+          "target": "a-bi'-ud ('Abioud, peut-être « mon père est majesté » ; voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABIHUD",
+          "target": "ABIHUD",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): Mentioned in the genealogy of Jesus (",
+          "target": ") : Mentionné dans la généalogie de Jésus (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " and not elsewhere) as the son of Zerubbabel. See ",
+          "target": " et nulle part ailleurs) comme fils de Zorobabel. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "GENEALOGY",
+          "target": "GÉNÉALOGIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABJECT",
+      "article_id": "isbe-06218a1830b4626e1637",
+      "source_article_sha256": "b957f3bfa2deb5949d96acb87927a95c18a2c758b1d85e3c13a9ef48356b59f8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABJECT",
+          "target": "ABJECT",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab'-jekt: Only as a noun, and but once (",
+          "target": "ab'-jekt : Employé uniquement comme substantif, et une seule fois (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") for nekheh, literally, \"smitten ones,\" i.e. \"men of the lowest grade\" (Hengstenberg, Delitzsch), \"the rabble,\" defined by the succeeding clause as those of such inferior station that they were unknown.",
+          "target": "), pour traduire nekheh, littéralement « ceux qui ont été frappés », c'est-à-dire des « hommes du rang le plus bas » (Hengstenberg, Delitzsch), la « populace » ; la proposition suivante précise qu'ils étaient d'une condition si humble qu'on ne les connaissait pas.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABLE",
+      "article_id": "isbe-dc6afcd3246a434da2b9",
+      "source_article_sha256": "5eadb67cb42a59e698b778082d468ec3d70060f5469a26dd8c7a7fce42be295b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABLE",
+          "target": "CAPABLE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-b'-l: The Greek dunamai, \"to have power,\" may refer either to inherent strength, or to the absence of in external obstacles, or to what may be allowable or permitted. The Greek ischuo, as in ",
+          "target": "a'-b'-l : Le grec dunamai, « avoir la puissance », peut désigner une force intrinsèque, l'absence d'obstacles extérieurs ou encore ce qui est possible ou permis. Le grec ischuo, comme en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", refers always to the first of the above meanings. The use of the word as an adjective the King James Version of ",
+          "target": ", renvoie toujours au premier de ces sens. Dans la King James Version, l'emploi de l'adjectif en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", is misleading, and has been properly changed in the Revised Version (British and American) into \"sufficient as ministers,\" i.e. \"hath fitted us to be ministers.\"",
+          "target": " prête à confusion ; la Revised Version (britannique et américaine) l'a justement remplacé par l'expression anglaise « sufficient as ministers », c'est-à-dire « il nous a rendus capables d'être ministres ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABODE",
+      "article_id": "isbe-bef1f984d96207ec04c1",
+      "source_article_sha256": "2c85d6f711b9c2e3d35d667ef962047dabcd32e0f41257258da93b7c8141a34f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABODE",
+          "target": "DEMEURE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bod'. See ",
+          "target": "a-bod'. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABIDE",
+          "target": "DEMEURER",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABRAHAM, BOOK OF",
+      "article_id": "isbe-b5b8bdb74c091364606c",
+      "source_article_sha256": "a9517f639c0efe510710eb806427c3aa93cb65c550b257f494eb1df5563cfaf7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABRAHAM, BOOK OF",
+          "target": "LIVRE D'ABRAHAM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCALYPTIC LITERATURE",
+          "target": "LITTÉRATURE APOCALYPTIQUE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABRAM",
+      "article_id": "isbe-7b785f035889b84fbbed",
+      "source_article_sha256": "7498dd7e091459612e2cdd33b0578f1100d255063a68f530e1eb5665aa5464b2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABRAM",
+          "target": "ABRAM",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-bram. See ",
+          "target": "a'-bram. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABRAHAM",
+          "target": "ABRAHAM",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ABROAD, SCATTERED",
+      "article_id": "isbe-e5fa0531e707d3eed02d",
+      "source_article_sha256": "f347ccb9787f7fefab8112b0421faaa612f99d9bbc79f2f85b1c6afd4a62c025",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABROAD, SCATTERED",
+          "target": "DISPERSÉS AU LOIN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "DISPERSION",
+          "target": "DISPERSION",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABRONAH",
+      "article_id": "isbe-ec42cf10e612b3e5f228",
+      "source_article_sha256": "e83c9e965e7f705fde66b8302879e6a62a32e77355a6aad74c48d2e6a1a810ce",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABRONAH",
+          "target": "ABRONAH",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bro'-na, the King James Version Ebronah (`abhronah): One of the stations of Israel in the wilderness on the march from Sinai to Kadesh--the station next before that at Ezion-geber on the eastern arm of the Red Sea (",
+          "target": "a-bro'-na, appelé Ebronah dans la King James Version (`abhronah) : L'une des étapes des Israélites dans le désert, au cours de leur marche du Sinaï vers Kadès ; elle précède immédiatement celle d'Étsjon-Guéber, sur le bras oriental de la mer Rouge (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABSALON",
+      "article_id": "isbe-3e7291583b4cfd8d7e6d",
+      "source_article_sha256": "4bedee0b43042ffd7dfa2969f8bdaac69c16f8ae557820e300ab70aa613ed84b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABSALON",
+          "target": "ABSALON",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab'-sa-lon. See ",
+          "target": "ab'-sa-lon. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABSALOM",
+          "target": "ABSALOM",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (in the Apocrypha).",
+          "target": " (dans les livres apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABUBUS",
+      "article_id": "isbe-176c5550382963d1c62b",
+      "source_article_sha256": "bd7ed2e4827f01bd0f53e24f72ae93907a617bb9104607cbb4012e166be52551",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABUBUS",
+          "target": "ABUBUS",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bu'-bus (Aboubos): The father of Ptolemy, who deceitfully slew Simon Maccabee and his sons at Dok near Jericho (1 Macc 16:11,15).",
+          "target": "a-bu'-bus (Aboubos) : Père de Ptolémée, qui tua traîtreusement Simon Maccabée et ses fils à Dok, près de Jéricho (1 Macc 16:11,15).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABUNDANCE; ABUNDANT",
+      "article_id": "isbe-588e06a282a685047299",
+      "source_article_sha256": "9a28286423847c12bba4cd4ff5a2c83d4a83023019d65441e9961d5fa97296ea",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABUNDANCE; ABUNDANT",
+          "target": "ABONDANCE ; ABONDANT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bun'-dans, a-bun'-dant. See ",
+          "target": "a-bun'-dans, a-bun'-dant. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABOUND",
+          "target": "ABONDER",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABILITY",
+      "article_id": "isbe-21f5f2ab02a986ac8a95",
+      "source_article_sha256": "aff60f9d2a69b2d2caf26f723c5aaf600d3b53b0a8843932fac33b1ab320cd02",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABILITY",
+          "target": "CAPACITÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bil'-i-ti (dunamis, or ischus): Variously used of resources, material, mental and spiritual; e.g. of wealth, \"gave after their ability\" (",
+          "target": "a-bil'-i-ti (dunamis ou ischus) : Terme employé en divers sens, pour les ressources matérielles, intellectuelles et spirituelles ; ainsi, à propos de la richesse, l'expression anglaise « gave after their ability » (« donnèrent selon leurs moyens ») (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); of mental endowment, \"ability to stand in the king's palace\" (",
+          "target": ") ; à propos des aptitudes intellectuelles, « ability to stand in the king's palace » (« capacité de servir au palais du roi ») (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); of talents and character, \"several ability\" (",
+          "target": ") ; à propos des talents et du caractère, « several ability » (« capacités respectives ») (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); of spiritual strength, \"minister, as of the ability which God giveth\" (the King James Version ",
+          "target": ") ; à propos de la force spirituelle, « minister, as of the ability which God giveth » (« servir selon la force que Dieu donne »), dans la King James Version (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). It thus may signify either possessions, native capacity, or gifts of the Holy Spirit.",
+          "target": "). Le mot peut donc désigner aussi bien les biens matériels, les aptitudes naturelles que les dons du Saint-Esprit.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ABIRON",
+      "article_id": "isbe-462b4380b759d1d183b4",
+      "source_article_sha256": "efa2899b0a1fb8d5dba2145cd861c8c3bbd52d7b4d329a03773455aa840cb59c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABIRON",
+          "target": "ABIRON",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-bi'-ron (Abeiron):",
+          "target": "a-bi'-ron (Abeiron) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) The Septuagint form (Ecclesiasticus 45:18 the King James Version) of Abiram, one of the sons of Eliab, who, with his brother Dathan, and with one of the same tribe, joined the conspiracy against Moses and Aaron (",
+          "target": "(1) Forme employée dans la Septante (Ecclésiastique 45:18, King James Version) pour Abiram, l'un des fils d'Éliab, qui participa, avec son frère Dathan et un autre homme de la même tribu, à la révolte contre Moïse et Aaron (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "(2) The eldest son of Hiel, the Bethelite, who died prematurely, thus fulfilling the doom pronounced on the posterity of him who should undertake to rebuild Jericho (",
+          "target": "(2) Fils aîné de Hiel, de Béthel, mort prématurément, accomplissant ainsi le jugement annoncé sur la descendance de celui qui entreprendrait de rebâtir Jéricho (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "). See ",
+          "target": "). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "ABIRAM",
+          "target": "ABIRAM",
+          "action": "preserve",
+          "reason": "Historical proper name or original cross-reference headword retained"
+        }
+      ]
+    }
+  ]
+}
