@@ -7,6 +7,7 @@ on:
       - 'scripts/export_translation_source.py'
       - 'scripts/render_translation_reading_copy.py'
       - 'tests/test_translation_batches.py'
+      - 'tests/test_translation_cohort_manifests.py'
       - 'workspace/translations/isbe-1915/fr/**'
       - '.github/workflows/fr-translation-batches.yml'
   pull_request:
@@ -15,6 +16,7 @@ on:
       - 'scripts/export_translation_source.py'
       - 'scripts/render_translation_reading_copy.py'
       - 'tests/test_translation_batches.py'
+      - 'tests/test_translation_cohort_manifests.py'
       - 'workspace/translations/isbe-1915/fr/**'
       - '.github/workflows/fr-translation-batches.yml'
   workflow_dispatch:
@@ -27,40 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect canonical roster for next exact 100 undrafted short articles
-        run: |
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          from scripts.apply_translation_batches import load_patches
-          from scripts.apply_translation_pilot import text_units, preserve_immutable
-          from scripts.select_translation_pilot import SOURCE_SHA256, stable_xml_fingerprint
-          from scripts.validate_translation_identity import XML_ID, read_body, sha256
-          root=Path('workspace/translations/isbe-1915/fr')
-          source=Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml')
-          assert sha256(source) == SOURCE_SHA256
-          roster=json.loads((root/'worklists/wave-01/0001-1000.json').read_text(encoding='utf8'))['entries']
-          paths=[Path('workspace/pilots/isbe-1915-fr/draft-patches.json'),*sorted((root/'batches').glob('*.json'))]
-          drafted=load_patches(paths)
-          _,body=read_body(source)
-          by_id={entry.get(XML_ID):entry for entry in body}
-          candidates=[]
-          for row in roster:
-              aid=row['article_id']
-              if aid in drafted:
-                  continue
-              article=by_id[aid]
-              units=list(text_units(article))
-              eligible=[(n,node,part,s) for n,node,part,s in units if not preserve_immutable(node,part)]
-              if not eligible: continue
-              length=sum(len(u[3]) for u in eligible)
-              candidates.append((length,row['index'],row,article,units))
-          picks=sorted(candidates)[:100]
-          selected=sorted(picks,key=lambda x:x[1])
-          print('BATCH100_META='+json.dumps({'eligible_undrafted':len(candidates),'selected':len(picks),'max_source_chars':max(x[0] for x in picks),'total_source_chars':sum(x[0] for x in picks),'source_sha256':SOURCE_SHA256}))
-          for length,index,row,article,units in selected:
-              print('BATCH100_ARTICLE='+json.dumps({'index':index,'source_key':row['source_key'],'article_id':row['article_id'],'source_article_sha256':stable_xml_fingerprint(article),'eligible_source_chars':length,'units':[{'node':n,'part':part,'tag':node.tag.split('}')[-1],'source':s,'immutable':preserve_immutable(node,part)} for n,node,part,s in units]},ensure_ascii=False))
-          PY
+      - name: Validate original-key editorial cohort manifests
+        run: python3 -m unittest tests.test_translation_cohort_manifests -v
       - name: Test source-locked batch extraction, parity and editorial gates
         run: python3 -m unittest tests.test_translation_batches -v
       - name: Reconstruct non-publishable historical French working excerpt
