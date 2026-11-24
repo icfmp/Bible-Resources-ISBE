@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five shortest previously undrafted complete original articles after cohort 011, stored in canonical source-index order with unchanged original TEI IDs and fingerprints",
+  "selection_date": "2026-11-24",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 572,
+      "source_key": "ANTIOCHUS IV; ANTIOCHUS EPIPHANES",
+      "article_id": "isbe-0ea72d85001a4924533d",
+      "source_article_sha256": "c61d450f29e3adb1a8745e9584df4cfc33bb9f0a75b6578960af80e5c4ec5f29",
+      "source_eligible_chars": 2121,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0047-cohort-012-substantive-articles-01.json"
+    },
+    {
+      "index": 610,
+      "source_key": "APOLLONIUS",
+      "article_id": "isbe-0b0143ac4f9b5c545f5c",
+      "source_article_sha256": "297ef1a27de418fd773d5b23f5eb7f16f8fd03ebc4afaf5a8ee475817686b338",
+      "source_eligible_chars": 2110,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0047-cohort-012-substantive-articles-01.json"
+    },
+    {
+      "index": 768,
+      "source_key": "ARSACES",
+      "article_id": "isbe-ec9032322e091605c590",
+      "source_article_sha256": "28328f24095940746651e555a7eeae2d8068826e62d13df7e13d42aa7cfd1dc0",
+      "source_eligible_chars": 2150,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0047-cohort-012-substantive-articles-01.json"
+    },
+    {
+      "index": 818,
+      "source_key": "ASHDOD",
+      "article_id": "isbe-32d9452bbe7a7cb8b716",
+      "source_article_sha256": "d91d32dd75e0ecfb41f2c84853d5dde1b9a22203930e80f633b60fa82f04f954",
+      "source_eligible_chars": 2040,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0047-cohort-012-substantive-articles-01.json"
+    },
+    {
+      "index": 880,
+      "source_key": "ASSESSOR",
+      "article_id": "isbe-5d7e017c54d99918ffe5",
+      "source_article_sha256": "98ddb5ad4d0f32092133d2e463a536c5e6bfd425e445276946a07f1afbde843a",
+      "source_eligible_chars": 2008,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0047-cohort-012-substantive-articles-01.json"
+    }
+  ]
+}
