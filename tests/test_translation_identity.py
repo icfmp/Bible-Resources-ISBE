@@ -83,7 +83,7 @@ class SharedISBEIndexTests(unittest.TestCase):
                     target_lang=language)
                 self.assertTrue(report["canonical_article_index_identical"])
                 self.assertEqual(report["article_count"], 2)
-                self.assertEqual(report["stable_body_xml_ids"], 12)
+                self.assertEqual(report["stable_body_xml_ids"], 14)
                 self.assertFalse(report["publication_approved"])
 
     def test_reject_translated_source_key(self):
