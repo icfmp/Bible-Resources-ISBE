@@ -33,16 +33,16 @@ articles into one excerpt using the same canonical index.
 ## First new source-locked entry
 
 `batches/0001-abraham.json` begins the full-corpus translation with **ABRAHAM**,
-canonical source `isbe-34a2976d25bc7d0f3d37`. Its section coverage is
-**I. Name through III. Career**, including source-owned references.
-It is explicitly **partial and unreviewed**, not yet a complete translation
-of the article and **not a published resource**. Work must continue with
+canonical source `isbe-34a2976d25bc7d0f3d37`. It contains **all seven sections of the original ABRAHAM article**, with all
+source-owned Scripture reference labels, internal links and text nodes retained
+in their canonical locations. It is a **complete first draft, still unreviewed**,
+not a published resource. Work must continue with
 sections IV–VII before full-article editorial review.
 
 Source SHA-256 (immutable):
 `5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c`.
 
-## Reproducible extraction and validation
+## Reproducible extraction, validation and reading proof
 
 All commands run from the repository root.
 
@@ -59,6 +59,11 @@ python3 -m scripts.apply_translation_batches \
   --output /tmp/isbe-fr-working-excerpt.xml \
   --report /tmp/isbe-fr-working-excerpt-report.json
 
+python3 -m scripts.render_translation_reading_copy \
+  --excerpt /tmp/isbe-fr-working-excerpt.xml \
+  --report /tmp/isbe-fr-working-excerpt-report.json \
+  --key ABRAHAM --output /tmp/isbe-abraham-fr-reading-copy.md
+
 python3 -m unittest tests.test_translation_batches -v
 ```
 
@@ -73,10 +78,10 @@ relabeling of the English SWORD module is authorized at this stage.
 
 - Corrected original English entries: **9,380**.
 - Existing first-pass source-locked draft entries: **50** (still unreviewed).
-- First new article begun: **ABRAHAM**, sections I–III; remainder pending.
+- First new complete first draft: **ABRAHAM**, all seven sections; editorial review pending.
 - New full French encyclopedia: **not completed / not published**.
-- Next: finish ABRAHAM sections IV–VII, run source-locked completeness tests,
-  create readable article previews from original TEI paragraphs, and begin
-  editorial proofreading of the 50 initial entries before scaling in batches.
+- Next: source-locked completeness tests, readable article previews rebuilt
+  from original TEI paragraphs, then independent bilingual editorial review
+  of ABRAHAM and the 50 initial entries before scaling in batches.
 
 Tracking: [ISBE #103](https://github.com/icfmp/Bible-Resources-ISBE/issues/103).
