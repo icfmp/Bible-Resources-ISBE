@@ -14,6 +14,8 @@ on:
       - tests/test_sword_presentation_samples.py
       - scripts/select_isbe_internal_link_samples.py
       - tests/test_isbe_internal_link_samples.py
+      - scripts/audit_sword_rendered_internal_link.py
+      - tests/test_sword_rendered_internal_link.py
       - tests/test_sword_dictionary_adapter.py
       - modules/isbe-1915/**
       - sources/cleaned/encyclopedias/en/isbe-1915/**
@@ -30,6 +32,8 @@ on:
       - tests/test_sword_presentation_samples.py
       - scripts/select_isbe_internal_link_samples.py
       - tests/test_isbe_internal_link_samples.py
+      - scripts/audit_sword_rendered_internal_link.py
+      - tests/test_sword_rendered_internal_link.py
       - tests/test_sword_dictionary_adapter.py
       - modules/isbe-1915/**
       - sources/cleaned/encyclopedias/en/isbe-1915/**
@@ -180,6 +184,16 @@ jobs:
           print(json.dumps(report,indent=2))
           PY
           python3 -m json.tool workspace/tmp/diatheke-render-smoke.json > /dev/null
+      - name: Independently verify compiled HTMLHREF has real module-key dictionary URLs
+        shell: bash
+        run: |
+          set -euo pipefail
+          export SWORD_PATH="$PWD/workspace/tmp/native-root"
+          python3 scripts/audit_sword_rendered_internal_link.py \
+            --samples workspace/tmp/sword-internal-link-samples.json \
+            --module-id BRISBE1915 \
+            --report workspace/tmp/sword-compiled-internal-link-href.json
+          python3 -m unittest discover -s tests -p 'test_sword_rendered_internal_link.py' -v
       - name: Record exact independently built native binary hashes
         if: success()
         run: |
@@ -205,6 +219,7 @@ jobs:
             workspace/tmp/sword-reference-target-register.json
             workspace/tmp/sword-gui-source-script-fixtures.json
             workspace/tmp/sword-internal-link-samples.json
+            workspace/tmp/sword-compiled-internal-link-href.json
           if-no-files-found: warn
           retention-days: 14
       # No compiled encyclopedia binary is uploaded as an Actions artifact.
