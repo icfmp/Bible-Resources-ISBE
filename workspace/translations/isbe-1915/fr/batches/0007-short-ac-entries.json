@@ -1,0 +1,922 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ABYSSINIA",
+      "article_id": "isbe-644bed9c60d6a16a5c1a",
+      "source_article_sha256": "5e6c40de912de08d6cbb5712c8d45a1d9ab798ccc43efec3d53355f3932436f7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ABYSSINIA",
+          "target": "ABYSSINIE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ab-i-sin'-i-a. See ",
+          "target": "ab-i-sin'-i-a. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ETHIOPIA.",
+          "target": "ÉTHIOPIE.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACATAN",
+      "article_id": "isbe-4546b63c90657a1e8862",
+      "source_article_sha256": "d4009a75ffb4c88bb9a20ae8431df5b9f86502de5b62a7fa8cebb50cb28eac73",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACATAN",
+          "target": "ACATAN",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-a-tan. See ",
+          "target": "ak'-a-tan. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AKATAN",
+          "target": "AKATAN",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Apocrypha).",
+          "target": " (livres apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACCAD; ACCADIANS",
+      "article_id": "isbe-91b0827f296c31bc8d0a",
+      "source_article_sha256": "457d0d5d5e7eefb40ebf90af311507968c2d25d6f1a5deede9ebef160c67ea5a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACCAD; ACCADIANS",
+          "target": "ACCAD ; ACCADIENS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-ad, ak-a'-di-ans. See ",
+          "target": "ak'-ad, ak-a'-di-ans. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BABYLONIA.",
+          "target": "BABYLONIE.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACCARON",
+      "article_id": "isbe-0de438be76533c6bfcbc",
+      "source_article_sha256": "a6b0981d41f15a9b6e2955e7bce070e4df66aed19a653ea193cddc57dcd60e3d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACCARON",
+          "target": "ACCARON",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-a-ron (Akkaron): Mentioned in 1 Macc 10:89 the King James Version; a town of the Philistines, known as Ekron (`eqron) in Old Testament, which King Alexander gave to Jonathan Maccabeus as a reward for successful military service in western Palestine. It is also mentioned in the days of the Crusades. See ",
+          "target": "ak'-a-ron (Akkaron) : Ville des Philistins mentionnée en 1 Macc 10:89 dans la King James Version, connue dans l'Ancien Testament sous le nom d'Ékron (`eqron). Le roi Alexandre la donna à Jonathan Maccabée en récompense de ses succès militaires dans l'ouest de la Palestine. Elle est également mentionnée à l'époque des croisades. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "EKRON.",
+          "target": "ÉKRON.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACCOS",
+      "article_id": "isbe-07ce306d6268b957e312",
+      "source_article_sha256": "9b4d7f9314daceb9fa51743b4fcdfdb08642b0fc7eafc0782699973be2d2ea94",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACCOS",
+          "target": "ACCOS",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-os (Hakchos): The grandfather of Eupolemus, whom Judas Maccabeus sent with others to Rome in 161 BC, to negotiate a \"league of amity and confederacy\" (1 Macc 8:17). The name occurs In the Old Testament as Hakkoz (haqqots), who was a priest in the reign of David (",
+          "target": "ak'-os (Hakchos) : Grand-père d'Eupolème, que Judas Maccabée envoya, avec d'autres, à Rome en 161 av. J.-C. pour négocier une « alliance d'amitié et de confédération » (1 Macc 8:17). Ce nom apparaît dans l'Ancien Testament sous la forme Hakkoz (haqqots), portée par un prêtre du temps de David (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACCOUNT",
+      "article_id": "isbe-2d75b76b2dcf4656014a",
+      "source_article_sha256": "a353ad4f9f01b7a94264958e01021555a925faf8778c7ded6362515f73f465e5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACCOUNT",
+          "target": "RENDRE COMPTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-kount'. See ",
+          "target": "a-kount'. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ACCOUNTABILITY",
+          "target": "RESPONSABILITÉ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACCOZ",
+      "article_id": "isbe-e8f0b53de7e72f9f8b8c",
+      "source_article_sha256": "49aa6dcf1c8b1a5b7d5f42df9f3802cc57e983357d4db807e0cb4624f22a2a81",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACCOZ",
+          "target": "ACCOZ",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-oz (Akbos; the Revised Version (British and American) ",
+          "target": "ak'-oz (Akbos ; dans la Revised Version britannique et américaine : ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AKKOS",
+          "target": "AKKOS",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", which see): 1 Esdras 5:38, head of one of the priestly families, which returned from the Exile, but was unable to prove its descent, when the register was searched. See also ",
+          "target": ", voir cet article) : En 1 Esdras 5:38, chef d'une famille sacerdotale revenue de l'exil, qui ne put toutefois établir son ascendance lorsqu'on consulta le registre. Voir aussi ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACELDAMA",
+      "article_id": "isbe-a278ef9549fe246f6aca",
+      "source_article_sha256": "477e278a279728354d977f75ef4185cbe3345a37ab1c102b9180ed627dfc033a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACELDAMA",
+          "target": "ACELDAMA",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-sel'-da-ma. See ",
+          "target": "a-sel'-da-ma. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AKELDAMA",
+          "target": "AKELDAMA",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ACHAR",
+      "article_id": "isbe-03e27dd28cd0a0ea0f92",
+      "source_article_sha256": "889d15d85a24bdc554c258a032184bd5ed4dcd0c5522450a2352b5aad46d782f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACHAR",
+          "target": "ACHAR",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-kar: Variant of ",
+          "target": "a'-kar : Variante de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ACHAN",
+          "target": "ACHAN",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", which see.",
+          "target": " ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACHAZ",
+      "article_id": "isbe-538195df5d97b7dc5887",
+      "source_article_sha256": "55f333d373119c81eeb9994a9eeed9f902ed805c2c4f29c3f2647dbcb5636d71",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACHAZ",
+          "target": "ACHAZ",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-kaz (Achaz), the King James Version (",
+          "target": "a'-kaz (Achaz), forme employée dans la King James Version (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): Greek form of Ahaz (thus the Revised Version (British and American)). The name of a King of Israel.",
+          "target": ") : Forme grecque du nom Ahaz (ainsi dans la Revised Version britannique et américaine). Nom d'un roi d'Israël.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACHIAS",
+      "article_id": "isbe-a22b1ccbe9724edcef25",
+      "source_article_sha256": "5993fe679c87f722b62925f8873c02869f8874deacd16f6653740a3c25bca621",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACHIAS",
+          "target": "ACHIAS",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-ki'-as: An ancestor of Ezra (2 Esdras 1:2). Omitted in other genealogies.",
+          "target": "a-ki'-as : Ancêtre d'Esdras (2 Esdras 1:2), omis dans les autres généalogies.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACHIM",
+      "article_id": "isbe-7249fc178c4eab3a70eb",
+      "source_article_sha256": "e53fae344bcd15918e4de470ef1f93eaec653be4f738f8d0dd96a0e36508073a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACHIM",
+          "target": "ACHIM",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-kim (Acheim): A descendant of Zerubbabel and ancestor of Jesus, mentioned only in ",
+          "target": "a'-kim (Acheim) : Descendant de Zorobabel et ancêtre de Jésus, mentionné uniquement en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACHIPHA",
+      "article_id": "isbe-db37ff646343a04004c4",
+      "source_article_sha256": "e53b2f6dacdc5ccf694616ceb0b73b4d662ff0a1e6b23d8acd0b1aabfe7a535e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACHIPHA",
+          "target": "ACHIPHA",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-i-fa; the King James Version Acipha, as'-i-fa (Achipha), in the Apocrypha (1 Esdras 5:31) head of one of the families of the temple-servants, who returned with Zerubbabel, same as the Old Testament ",
+          "target": "ak'-i-fa ; Acipha, as'-i-fa, dans la King James Version (Achipha) : Dans les livres apocryphes (1 Esdras 5:31), chef d'une famille de serviteurs du Temple revenus avec Zorobabel ; il correspond au nom de l'Ancien Testament ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "HAKUPHA",
+          "target": "HAKUPHA",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), which see.",
+          "target": ") ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACHITOB",
+      "article_id": "isbe-b2e833d693a54b943989",
+      "source_article_sha256": "513a4e79b0ca9772c130ca2a61d45ea5d14d91fd928b719411a25aa11813d188",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACHITOB",
+          "target": "ACHITOB",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-i-tob: Same as Ahitob. Used in 1 Esdras 8:2; compare 2 Esdras 1:1 the King James Version. See ",
+          "target": "ak'-i-tob : Identique à Ahitob. Nom employé en 1 Esdras 8:2 ; comparer 2 Esdras 1:1 dans la King James Version. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AHITUB",
+          "target": "AHITUB",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ACHO",
+      "article_id": "isbe-e4d7a5881cdc826354ad",
+      "source_article_sha256": "c9cc197431a5d00acda36085fb7544812abcba07c0396717eaa91f15f82236fe",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACHO",
+          "target": "ACHO",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-o. See ",
+          "target": "ak'-o. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ACCO",
+          "target": "ACCO",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ACHSA",
+      "article_id": "isbe-9874ad55e991915c08b7",
+      "source_article_sha256": "c0e7eb562fa40af7eaafab1c0c7fdcb4842012102ae13bc631fddfbcc5de78a6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACHSA",
+          "target": "ACHSA",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-sa: Used in the King James Version in ",
+          "target": "ak'-sa : Forme utilisée par la King James Version en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " for ",
+          "target": " pour ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ACHSAH",
+          "target": "ACHSAH",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", which see.",
+          "target": " ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACIPHA",
+      "article_id": "isbe-4b4feba70f84e3b199a3",
+      "source_article_sha256": "0982e8be97888dcbeddf663dbd4cf3f59941424bf7d540a1c7b3b684942aa827",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACIPHA",
+          "target": "ACIPHA",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-i-fa. See ",
+          "target": "as'-i-fa. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ACHIPHA",
+          "target": "ACHIPHA",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ACITHO; ACITHOH",
+      "article_id": "isbe-82b2253381fb8bea1a00",
+      "source_article_sha256": "fde39845865aff7a0a4e828b2813624b17b5f7a11003ec0d5675d0ee579451c1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACITHO; ACITHOH",
+          "target": "ACITHO; ACITHOH",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "as'-i-tho (variant of ",
+          "target": "as'-i-tho (variante de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AHITUB",
+          "target": "AHITUB",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): The name in the King James Version of an ancestor of Judith (Judith 8:1).",
+          "target": ") : Dans la King James Version, nom d'un ancêtre de Judith (Judith 8:1).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACRA",
+      "article_id": "isbe-11a2e4f314bde13ebf03",
+      "source_article_sha256": "2e50984eb0ded91a50d83c78f226bfe4268e8d10de278703ecaf5644bb7d141b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACRA",
+          "target": "ACRA",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-ra, a'-kra (1 Macc 1:33 the Revised Version (British and American), \"citadel\"). See ",
+          "target": "ak'-ra, a'-kra (1 Macc 1:33 dans la Revised Version britannique et américaine, « citadelle »). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "JERUSALEM",
+          "target": "JÉRUSALEM",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACRABATTENE",
+      "article_id": "isbe-5a25542def4cad7247b6",
+      "source_article_sha256": "aa7ad8530597ff151285fab2a0dc1c17e8a5f9f7f2b8f55cef04df24ea0668ea",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACRABATTENE",
+          "target": "ACRABATTENE",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak-ra-ba-te'-ne. See ",
+          "target": "ak-ra-ba-te'-ne. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AKRABATTINE",
+          "target": "AKRABATTINE",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (in the Apocrypha).",
+          "target": " (dans les livres apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACRABBIM",
+      "article_id": "isbe-8f9d4c5b1243ad587366",
+      "source_article_sha256": "d570be215966d69bb289aba81bfde208a9da706ea3ab44283208a5cea1d596d5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACRABBIM",
+          "target": "ACRABBIM",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak-rab'-im: Incorrect transliteration of `aqrabbim, of ",
+          "target": "ak-rab'-im : Transcription inexacte de `aqrabbim en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " in the King James Version. See ",
+          "target": " dans la King James Version. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "AKRABBIM",
+          "target": "AKRABBIM",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ACRE (1)",
+      "article_id": "isbe-cc21c5d9418c7588340f",
+      "source_article_sha256": "f58e582f234632557a73ea235c87d32f99feb3d7482722904d03da54a3a7d918",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACRE (1)",
+          "target": "ACRE (1)",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-ker, a'-ker. See ",
+          "target": "a'-ker, a'-ker. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ACCO",
+          "target": "ACCO",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ACTS OF PILATE",
+      "article_id": "isbe-c4162cbd4619f6dcf8d0",
+      "source_article_sha256": "1a454e5757da86082fcb5e0c7c2f4309b65b93bb7403cabeaf69526d1f684b99",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACTS OF PILATE",
+          "target": "ACTES DE PILATE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "pi'-lat, pi'-lat. See ",
+          "target": "pi'-lat, pi'-lat. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCRYPHAL GOSPELS",
+          "target": "ÉVANGILES APOCRYPHES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACTS OF SOLOMON",
+      "article_id": "isbe-9175fb5a640d338e24e5",
+      "source_article_sha256": "18b1e1fe9a83e5be84ad9b44bb89b059ca6207ccf2226985067b234fe5be862c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACTS OF SOLOMON",
+          "target": "ACTES DE SALOMON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "\"The book of the acts of Solomon\" (",
+          "target": "« Le livre des actes de Salomon » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), probably a history based on the state documents kept by the official recorder. See ",
+          "target": "), probablement un récit historique fondé sur les documents d'État conservés par l'archiviste officiel. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": ", etc.",
+          "target": ", etc.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACTS, APOCRYPHAL",
+      "article_id": "isbe-9b7ecfe2025807f44e80",
+      "source_article_sha256": "4d59a2931a27b8c91932d91f04548745b728891097ed134cf6279ed9bc6bcda6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACTS, APOCRYPHAL",
+          "target": "ACTES APOCRYPHES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-pok'-ri-fal. See ",
+          "target": "a-pok'-ri-fal. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCRYPHAL ACTS",
+          "target": "ACTES APOCRYPHES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACUA",
+      "article_id": "isbe-2056ecd03d1db8152244",
+      "source_article_sha256": "96de3054c6452b94fff22a0c1bf467d6714dc7eb040506896da48771440f674f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACUA",
+          "target": "ACUA",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-u-a. See ",
+          "target": "ak'-u-a. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ACUD",
+          "target": "ACUD",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ACUB",
+      "article_id": "isbe-d04d2e1785ae3d676d38",
+      "source_article_sha256": "522df3e4bfbc1323353498a5c58cb907d38a23cf08fad0c9838217aae1cc633b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACUB",
+          "target": "ACUB",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-kub (Codex Vaticanus, Akouph; Codex Alexandrinus, Akoum) = Bakbuk (",
+          "target": "a'-kub (Codex Vaticanus : Akouph ; Codex Alexandrinus : Akoum) = Bakbuk (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "): The descendants of Acub (temple-servants) returned with Zerubbabel to Jerusalem (1 Esdras 5:31).",
+          "target": ") : Les descendants d'Acub, serviteurs du Temple, revinrent à Jérusalem avec Zorobabel (1 Esdras 5:31).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ACUD",
+      "article_id": "isbe-a823f50e0fcad070a8b4",
+      "source_article_sha256": "be4f6edcd1a2d26aed27f168bb2cf542d6e51bb3891bf402021d1918622ee6fc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACUD",
+          "target": "ACUD",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-kud (Akoud; the King James Version Acua) = ",
+          "target": "a'-kud (Akoud ; Acua dans la King James Version) = ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AKKUB",
+          "target": "AKKUB",
+          "action": "preserve",
+          "reason": "Original proper name or historically stable cross-reference heading retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") which see; omitted in ",
+          "target": ") ; voir cet article ; omis en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ": The descendants of Acud (temple-servants) returned with Zerubbabel to Jerusalem (1 Esdras 5:30).",
+          "target": " : Les descendants d'Acud, serviteurs du Temple, revinrent à Jérusalem avec Zorobabel (1 Esdras 5:30).",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
