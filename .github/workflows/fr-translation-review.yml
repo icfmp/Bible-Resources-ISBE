@@ -29,17 +29,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate bilingual source parity and eighty-four complete reading drafts
+      - name: Validate bilingual source parity for all complete reading drafts
         run: python3 -m unittest tests.test_translation_review_corpus -v
       - name: Render all source-locked working French drafts
         run: |
+          patches=(--patches workspace/pilots/isbe-1915-fr/draft-patches.json)
+          for file in workspace/translations/isbe-1915/fr/batches/*.json; do
+            patches+=(--patches "$file")
+          done
           python3 -m scripts.render_translation_review_corpus \
             --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
-            --patches workspace/pilots/isbe-1915-fr/draft-patches.json \
-            --patches workspace/translations/isbe-1915/fr/batches/0001-abraham.json \
-            --patches workspace/translations/isbe-1915/fr/batches/0002-early-a-entries.json \
-            --patches workspace/translations/isbe-1915/fr/batches/0003-complete-first-25.json \
-            --patches workspace/translations/isbe-1915/fr/batches/0004-short-a-entries.json \
+            "${patches[@]}" \
             --flags workspace/pilots/isbe-1915-fr/SOURCE_REVIEW_FLAGS.json \
             --previews-dir /tmp/isbe-fr-reading-proofs \
             --report /tmp/isbe-fr-reading-review.json
@@ -49,21 +49,25 @@ jobs:
           import json
           from pathlib import Path
           report=json.loads(Path('/tmp/isbe-fr-reading-review.json').read_text(encoding='utf-8'))
-          assert report['selected_complete_unreviewed_drafts']==84
+          drafts_dir=Path('workspace/translations/isbe-1915/fr/batches')
+          expected_batches=sum(len(json.loads(path.read_text(encoding='utf-8'))['articles'])
+                               for path in sorted(drafts_dir.glob('*.json')))
+          expected=50 + expected_batches
+          assert report['selected_complete_unreviewed_drafts']==expected
           assert report['pilot_drafts_count']==50
-          assert report['batch_drafts_count']==34
-          assert report['markdown_previews_generated']==84
+          assert report['batch_drafts_count']==expected_batches
+          assert report['markdown_previews_generated']==expected
           assert report['source_flags_pending_witness_review']==12
           assert report['human_editorially_approved']==0
           assert report['article_checkboxes_marked_complete']==0
           assert report['publication_permitted'] is False
-          assert len(list(Path('/tmp/isbe-fr-reading-proofs').glob('isbe-*.md')))==84
-          print('84 fully reconstructed French first drafts, 0 editorial approvals, 12 witness flags')
+          assert len(list(Path('/tmp/isbe-fr-reading-proofs').glob('isbe-*.md')))==expected
+          print(f'{expected} fully reconstructed French first drafts, 0 editorial approvals, 12 witness flags')
           PY
       - name: Retain full readable French drafts and editorial review index
         uses: actions/upload-artifact@v4
         with:
-          name: isbe-fr-84-source-locked-unreviewed-proofs
+          name: isbe-fr-source-locked-unreviewed-proofs
           path: |
             /tmp/isbe-fr-reading-proofs/
             /tmp/isbe-fr-reading-review.json
