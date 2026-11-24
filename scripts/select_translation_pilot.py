@@ -33,6 +33,16 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def stable_xml_fingerprint(element):
+    """Semantic source-XML fingerprint, independent of serializer prefix choices."""
+    def tree(node):
+        return [node.tag, sorted(node.attrib.items()), node.text,
+                [tree(child) for child in node], node.tail]
+    payload = json.dumps(tree(element), ensure_ascii=False,
+                         separators=(",", ":")).encode("utf-8")
+    return digest(payload)
+
+
 def greek_or_hebrew(value):
     return any(0x370 <= ord(c) <= 0x3FF for c in value), any(
         0x590 <= ord(c) <= 0x5FF for c in value)
@@ -47,7 +57,7 @@ def record_for(article, position):
         "source_position": position,
         "source_key": key,
         "article_id": article.get(XML_ID),
-        "source_article_sha256": digest(ET.tostring(article, encoding="utf-8")),
+        "source_article_sha256": stable_xml_fingerprint(article),
         "text_chars": len(chars),
         "refs": len(ref_nodes),
         "internal_refs": sum(1 for ref in ref_nodes
@@ -132,6 +142,7 @@ def select(source, *, expected_sha=SOURCE_SHA256, expected_count=SOURCE_COUNT):
         "source_sha256": expected_sha,
         "source_article_count": expected_count,
         "source_work": "ISBE 1915, corrected historical English edition",
+        "article_fingerprint_method": "expanded_xml_names_and_complete_tree_v1",
         "translation_language": "fr",
         "pilot_article_count": PILOT_COUNT,
         "index_policy": "original_xml_ids_and_sword_source_keys_shared_by_all_languages",
