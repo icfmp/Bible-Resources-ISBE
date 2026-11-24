@@ -29,7 +29,7 @@ jobs:
           python3 -m scripts.select_translation_pilot \
             --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
             --output /tmp/isbe-1915-fr-pilot-selection.json \
-            --print-samples 8
+            --print-samples 19
       - name: Verify selection coverage and no fabricated translation
         run: |
           python3 - <<'PY'
