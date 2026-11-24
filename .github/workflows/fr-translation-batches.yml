@@ -1,0 +1,73 @@
+name: Validate source-locked French ISBE translation batches
+
+on:
+  push:
+    paths:
+      - 'scripts/apply_translation_batches.py'
+      - 'scripts/export_translation_source.py'
+      - 'scripts/render_translation_reading_copy.py'
+      - 'tests/test_translation_batches.py'
+      - 'workspace/translations/isbe-1915/fr/**'
+      - '.github/workflows/fr-translation-batches.yml'
+  pull_request:
+    paths:
+      - 'scripts/apply_translation_batches.py'
+      - 'scripts/export_translation_source.py'
+      - 'scripts/render_translation_reading_copy.py'
+      - 'tests/test_translation_batches.py'
+      - 'workspace/translations/isbe-1915/fr/**'
+      - '.github/workflows/fr-translation-batches.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-locked:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test source-locked batch extraction, parity and editorial gates
+        run: python3 -m unittest tests.test_translation_batches -v
+      - name: Reconstruct non-publishable historical French working excerpt
+        run: |
+          python3 -m scripts.apply_translation_batches \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --patches workspace/pilots/isbe-1915-fr/draft-patches.json \
+            --patches workspace/translations/isbe-1915/fr/batches/0001-abraham.json \
+            --output /tmp/isbe-fr-working-excerpt.xml \
+            --report /tmp/isbe-fr-working-report.json
+      - name: Build complete Abraham reading proof without touching canonical source
+        run: |
+          python3 -m scripts.render_translation_reading_copy \
+            --excerpt /tmp/isbe-fr-working-excerpt.xml \
+            --report /tmp/isbe-fr-working-report.json \
+            --key ABRAHAM \
+            --output /tmp/ABRAHAM-fr-reading-proof.md
+      - name: Require full draft coverage but never assert editorial approval
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path('/tmp/isbe-fr-working-report.json').read_text(encoding='utf-8'))
+          assert report['master_entry_count']==9380
+          assert report['excerpt_entries']==51
+          assert report['complete_unreviewed_drafts']==51
+          assert report['partial_unreviewed_drafts']==0
+          assert report['human_reviewed']==0
+          assert report['publication_permitted'] is False
+          assert report['all_english_canonical_keys_and_ids_unchanged'] is True
+          proof=Path('/tmp/ABRAHAM-fr-reading-proof.md').read_text(encoding='utf-8')
+          for section in ('I. Le nom', 'II. La famille', 'III. La vie', 'IV. Les conditions', 'V. Le caractère', 'VI. L', 'VII. Interprétations'):
+              assert section in proof, section
+          assert 'J. Oscar Boyd' in proof
+          print('VERIFIED: 51 complete UNREVIEWED French drafts; canonical source intact; NOT published')
+          PY
+      - name: Retain non-publishable editorial report and Abraham reading proof
+        uses: actions/upload-artifact@v4
+        with:
+          name: isbe-fr-unreviewed-abraham-proof
+          path: |
+            /tmp/ABRAHAM-fr-reading-proof.md
+            /tmp/isbe-fr-working-report.json
+          retention-days: 30
