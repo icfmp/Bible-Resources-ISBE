@@ -1,0 +1,800 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AKAN",
+      "article_id": "isbe-b378124c661e06bbdd9b",
+      "source_article_sha256": "5fa641e400f2eedd18b8c64c15c9393a7dc7fc5b87442649048816253dccb2cf",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AKAN",
+          "target": "AKAN",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-kan (`aqan, \"twisted\"): A son of Ezer, a descendant of Esau of Seir (",
+          "target": "a'-kan (`aqan, « tordu ») : Fils d'Étser, descendant d'Ésaü de Séir (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). He is called Jaakan in ",
+          "target": "). Il est appelé Jaakan en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". The King James Version margin has Jakan.",
+          "target": ". La note marginale de la King James Version porte Jakan.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AKATAN",
+      "article_id": "isbe-341d91c7405ea92ed973",
+      "source_article_sha256": "309e3078ede23ea6bf371bd7a23029af4a4088aec76667ff3a5eecd8587197d6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AKATAN",
+          "target": "AKATAN",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-a-tan (Akatan; the King James Version, Acatan = Hakkatan; ",
+          "target": "ak'-a-tan (Akatan ; Acatan dans la King James Version = Hakkatan ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): The father of Joannes who returned with Ezra to Jerusalem (1 Esdras 8:38).",
+          "target": ") : Père de Joannes, qui revint à Jérusalem avec Esdras (1 Esdras 8:38).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AKKOS",
+      "article_id": "isbe-01e972ba66aaf92215b2",
+      "source_article_sha256": "9a9b34e4700484fcb18dcd985828ec071c12a16cbc2487dd2887dec495fe0824",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AKKOS",
+          "target": "AKKOS",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-os (Akbos in 1 Esdras 5:38; the King James Version Accos, which see): The Old Testament equivalent (",
+          "target": "ak'-os (Akbos en 1 Esdras 5:38 ; Accos dans la King James Version, voir cet article) : Son équivalent dans l'Ancien Testament (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ") is ",
+          "target": ") est ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "HAKKOZ",
+          "target": "HAKKOTS",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " (haqqots), which also see.",
+          "target": " (haqqots) ; voir aussi cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AKKUB",
+      "article_id": "isbe-f80496fd2a4b3a9362af",
+      "source_article_sha256": "62904635eb225cff1e099c411109a9facc55cecbe71407d1847addab94b6430e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AKKUB",
+          "target": "AKKUB",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak'-ub (`aqqubh, \"pursuer\"):",
+          "target": "ak'-ub (`aqqubh, « poursuivant ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A son of Elioenai, a descendant of Zerubbabel (",
+          "target": "(1) Fils d'Élioénaï, descendant de Zorobabel (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) A Levite porter on duty at the east gate of the second Temple (",
+          "target": "(2) Portier lévite en service à la porte orientale du second Temple (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AKRABATTINE",
+      "article_id": "isbe-faef0ebd458d1db6fd15",
+      "source_article_sha256": "666612dce042623838d54d15e0dff389f91c0585381e38d25348548e195d0779",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AKRABATTINE",
+          "target": "AKRABATTINE",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ak-ra-ba-ti'-ne (Akrabattine; the King James Version, Arabattine): A place in Idumaea where Judas Maccabee defeated the children of Esau (1 Macc 5:3).",
+          "target": "ak-ra-ba-ti'-ne (Akrabattine ; Arabattine dans la King James Version) : Lieu d'Idumée où Judas Maccabée vainquit les descendants d'Ésaü (1 Macc 5:3).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALEXANDRIANS",
+      "article_id": "isbe-4aca383f633407ada162",
+      "source_article_sha256": "bea78de8ae06b6efbaa5c1c3f19d7e4536742518753b1e6e53eafcf6886d29d5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALEXANDRIANS",
+          "target": "ALEXANDRINS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al-eg-zan'-dri-ans (Alexandreis): Jews of Alexandria, who had, with the Libertines and Cyrenians, a synagogue in Jerusalem. They were among those who disputed with Stephen (",
+          "target": "al-eg-zan'-dri-ans (Alexandreis) : Juifs d'Alexandrie qui, avec les Affranchis et les Cyrénéens, possédaient une synagogue à Jérusalem. Ils furent parmi ceux qui discutèrent avec Étienne (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALLAMMELECH",
+      "article_id": "isbe-4ada255babe75c1e7308",
+      "source_article_sha256": "978baaec745ff68d68017f734bcd898e0d22b7a90ba21183631c99325993963c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALLAMMELECH",
+          "target": "ALLAMMELECH",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-lam'-e-lek ('allammelekh, \"oak of a king\"): A town in the tribe of Asher, the location of which is not known (",
+          "target": "a-lam'-e-lek ('allammelekh, « chêne d'un roi ») : Ville de la tribu d'Aser dont l'emplacement est inconnu (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; the King James Version Alammelech).",
+          "target": " ; Alammelech dans la King James Version).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALLEGE",
+      "article_id": "isbe-24739b34496dc62a9f7c",
+      "source_article_sha256": "f3e50646503ce58886fc1e7aae6708b9230ad36059cbf862ae760a254229fa7e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALLEGE",
+          "target": "ALLÉGUER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-lej' (\"paratithemi,\" \"to set forth,\" ",
+          "target": "a-lej' (paratithemi, « exposer », ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): It is not used in the English Bible in its more modern and usual sense, \"to assert,\" but is about equivalent to \"to prove.\"",
+          "target": ") : Dans la Bible anglaise, ce mot n'est pas employé dans son sens moderne habituel d'« affirmer », mais avec un sens voisin de « prouver ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALLOY",
+      "article_id": "isbe-d5224e525f265db04859",
+      "source_article_sha256": "2d711439e346a8ccf762e8c29ee6fa0b3e0aff263a5f6b45e252c96f7f607e02",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALLOY",
+          "target": "ALLIAGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-loi' (bedhil): In ",
+          "target": "a-loi' (bedhil) : En ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the Revised Version, margin; translated \"tin\" in the text. Elsewhere in both versions bedhil is translated ",
+          "target": " dans la note marginale de la Revised Version ; traduit par « étain » dans le corps du texte. Ailleurs, les deux versions traduisent bedhil par ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "TIN",
+          "target": "ÉTAIN",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALUSH",
+      "article_id": "isbe-557910b0baf5c083bfa6",
+      "source_article_sha256": "1fa220cc6ac390360ec1d69affe943fa40ad5a62f6619fcef008f7b473203fdf",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALUSH",
+          "target": "ALUSH",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-lush ('alush): A desert camp of the Israelites between Dophkah and Rephidim (",
+          "target": "a'-lush ('alush) : Étape des Israélites dans le désert, entre Dophka et Rephidim (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). The situation is not certainly known. See ",
+          "target": "). Son emplacement n'est pas connu avec certitude. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "WANDERINGS OF ISRAEL",
+          "target": "PÉRÉGRINATIONS D'ISRAËL",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALVAH",
+      "article_id": "isbe-e89852a8fa034395a6b5",
+      "source_article_sha256": "8c3a33a036dba9e02bb9038e9cd0b6b249c488ba35dccf7b344f98af034ead1b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALVAH",
+          "target": "ALVAH",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-va (`alwah): A chief (the King James Version duke) of Edom (",
+          "target": "al'-va (`alwah) : Chef d'Édom (« duc » dans la King James Version) (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), called \"Aliah\" in ",
+          "target": "), appelé « Aliah » en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". Probably the same as Alvan, or Ahan, son of Shobal son of Seir (",
+          "target": ". Probablement identique à Alvan, ou Ahan, fils de Shobal, fils de Séir (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ALVAN",
+      "article_id": "isbe-bb46d8f2969eb870cf30",
+      "source_article_sha256": "3a6e9b5bac15aa254a84524fbf5ec84efbbe9ecac1597270abe011ab22695428",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALVAN",
+          "target": "ALVAN",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-van (`alwan, \"tall\"?): A son of Shobal, the Horite (",
+          "target": "al'-van (`alwan, « grand » ?) : Fils de Shobal, le Horite (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " the name is written Alian, Septuagint Olam. It is probably the same as Alvah of ",
+          "target": ", le nom est écrit Alian ; la Septante porte Olam. Il s'agit probablement du même personnage qu'Alva en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", which appears in ",
+          "target": ", dont le nom apparaît sous la forme Aliah en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " as Aliah.",
+          "target": ".",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMAD",
+      "article_id": "isbe-3dc99435a75971337ae4",
+      "source_article_sha256": "200a5694a5aeab56d370894cfd9f7e5551c07e663ad86eb14af48de9ca8d4ab4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMAD",
+          "target": "AMAD",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-mad (`am`adh): A town in northern Palestine, which fell to the tribe of Asher in the division of the land (",
+          "target": "a'-mad (`am`adh) : Ville du nord de la Palestine attribuée à la tribu d'Aser lors du partage du pays (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The modern ruin `Amud near Accho may be the site.",
+          "target": "). Les ruines modernes de `Amud, près d'Acco, pourraient correspondre à ce site.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMALEK",
+      "article_id": "isbe-76d0c3c29478db344c25",
+      "source_article_sha256": "dd1f966a349d73cddb3592d4a4a78747a8bed186c85e5a1747438a7f0dcc4584",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMALEK",
+          "target": "AMALEK",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am'-a-lek (`amaleq): The son, by his concubine Timna, of Eliphaz, the eldest son of Esau. He was one of the chiefs (the King James Version dukes) of Edom (",
+          "target": "am'-a-lek (`amaleq) : Fils d'Éliphaz, l'aîné d'Ésaü, et de sa concubine Timna. Il était l'un des chefs d'Édom (« ducs » dans la King James Version) (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). See ",
+          "target": "). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "AMALEKITE",
+          "target": "AMALÉCITE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMAM",
+      "article_id": "isbe-96a174aeb2c434395c3f",
+      "source_article_sha256": "3366538d643915484ae77ba108a1770828b218b1a8e660cebf6fc5a4a73ae916",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMAM",
+          "target": "AMAM",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-mam ('amam): An unidentified town in southern Palestine, which fell to Judah In the allotment of the land; occurs only in ",
+          "target": "a'-mam ('amam) : Ville non identifiée du sud de la Palestine, attribuée à Juda lors du partage du pays ; elle n'est mentionnée qu'en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMARIAS",
+      "article_id": "isbe-6db9491a3ad69562d03b",
+      "source_article_sha256": "64748ad2151375cade7ade56feb206a05947cd26d3345e34ac79392a4f667c7d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMARIAS",
+          "target": "AMARIAS",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am-a-ri'-as (A, Amarias; B, Amartheias) = Amariah number 3: An ancestor of Ezra (1 Esdras 8:2; 2 Esdras 1:2).",
+          "target": "am-a-ri'-as (A : Amarias ; B : Amartheias) = Amaria, troisième du nom : Ancêtre d'Esdras (1 Esdras 8:2 ; 2 Esdras 1:2).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMINADAB",
+      "article_id": "isbe-f885ad2764d51d99e9d8",
+      "source_article_sha256": "97dcae92ea576320ef62719255c3f48e0d5ec5a0e40438f26ff16f531f555431",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMINADAB",
+          "target": "AMINADAB",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-min'-a-dab (Aminadab): the King James Version: Greek form of Amminadab (which see). Thus the Revised Version (British and American) (",
+          "target": "a-min'-a-dab (Aminadab) : Forme grecque d'Amminadab dans la King James Version (voir cet article). C'est également la forme employée par la Revised Version (britannique et américaine) (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMMIHUR",
+      "article_id": "isbe-e2150d030afd9c11b999",
+      "source_article_sha256": "d7c4174103c51a4a39ff14d300e4d31ccbf7f7bb3bcb56c0fd7fe45430ac4234",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMMIHUR",
+          "target": "AMMIHUR",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-mi'-hur (the King James Version and the Revised Version, margin; `ammichur, \"my kinsman is noble\"; Emioud). See ",
+          "target": "a-mi'-hur (forme de la King James Version et de la note marginale de la Revised Version ; `ammichur, « mon parent est noble » ; Emioud). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AMMIHUD",
+          "target": "AMMIHUD",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "AMMIZABAD",
+      "article_id": "isbe-68460c9d8e55104522d9",
+      "source_article_sha256": "808db835d771792c3a8b1b03d1f39b1cd002b7163fe772213baa25565e2ef9e4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMMIZABAD",
+          "target": "AMMIZABAD",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-miz'-a-bad (`ammizabhadh, \"my kinsman has made a present\"): The son of Benaiah, one of David's captains for the third month (",
+          "target": "a-miz'-a-bad (`ammizabhadh, « mon parent a offert un présent ») : Fils de Benaja, l'un des chefs militaires de David pour le troisième mois (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMOK",
+      "article_id": "isbe-eb18b5f0a18cdf9f55a4",
+      "source_article_sha256": "83ebe778cf6631f470d6747d029f6cae6594fda16ddbc97a26e9f6ebcefaeb74",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMOK",
+          "target": "AMOK",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-mok (`amoq, \"deep\"): A chief priest who came to Jerusalem with Zerubbabel (",
+          "target": "a'-mok (`amoq, « profond ») : Chef sacerdotal qui vint à Jérusalem avec Zorobabel (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") and the forefather of Eber, who was priest in the days of Joiakim (",
+          "target": ") et ancêtre d'Éber, prêtre à l'époque de Joïakim (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMPLIAS",
+      "article_id": "isbe-c60d1e34aa5204181105",
+      "source_article_sha256": "64b0dc370cde86bdbcb2ae10d7c8906c1f34e16b631986a83014b60e0f1b5d9a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMPLIAS",
+          "target": "AMPLIAS",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am'-pli-as (Textus Receptus Amplias), the King James Version form: a contraction of AMPLIATUS (thus, the Revised Version (British and American); which see).",
+          "target": "am'-pli-as (Amplias dans le Textus Receptus), forme de la King James Version : Abréviation d'AMPLIATUS (ainsi dans la Revised Version britannique et américaine ; voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AMZI",
+      "article_id": "isbe-5e2053ddcfaf8e1136ee",
+      "source_article_sha256": "b6c37d90018d633443c8d6b822d82334cb539c715e5f378291344172f86b51f1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMZI",
+          "target": "AMZI",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "am'-zi (`amtsi, \"my strength\"):",
+          "target": "am'-zi (`amtsi, « ma force ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A Levite of the family of Merari (",
+          "target": "(1) Lévite de la famille de Merari (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) A priest of the family of Adaiah in the second temple. His father's name was Zechariah (",
+          "target": "(2) Prêtre de la famille d'Adaja dans le second Temple. Son père se nommait Zacharie (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANAEL",
+      "article_id": "isbe-c6c27c5c206abb4b6b8c",
+      "source_article_sha256": "eebcf7ac3249a1f8028a7a475b3e447ecb4d32d571efb7569eba259919c5a4b8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANAEL",
+          "target": "ANAEL",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-a-el (Anael): A brother of Tobit mentioned once only (/APC Tobit 1:21) as the father of Achiacharus, who was an official in Nineveh under Esar-haddon.",
+          "target": "an'-a-el (Anael) : Frère de Tobie, mentionné une seule fois (/APC Tobit 1:21) comme père d'Achiacharus, fonctionnaire à Ninive sous Assarhaddon.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANAN",
+      "article_id": "isbe-f09e8532418b2a845ee9",
+      "source_article_sha256": "a630eba0765130be5b993abd85d40ee32354c5649e4b8825ab663594040aadb1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANAN",
+          "target": "ANAN",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-nan (`anan, \"cloud\"):",
+          "target": "a'-nan (`anan, « nuage ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) One of those who, with Nehemiah, sealed the covenant (",
+          "target": "(1) L'un de ceux qui scellèrent l'alliance avec Néhémie (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) A returned exile (1 Esdras 5:30). He is called Hanan in ",
+          "target": "(2) Exilé revenu au pays (1 Esdras 5:30). Il est appelé Hanan en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ANANI",
+      "article_id": "isbe-1b7c89bcad3c3dcb81f4",
+      "source_article_sha256": "94d80e729389f231cc961bd0c5df141dbfd112fbe4844898cbc5cb984aaa1b3a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANANI",
+          "target": "ANANI",
+          "action": "preserve",
+          "reason": "Original proper name, manuscript label or pronunciation retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-na'-ni `anani, perhaps a shortened form of Ananiah, \"Yah has covered\"): A son of Elioenai of the house of David, who lived after the captivity (",
+          "target": "a-na'-ni (`anani, peut-être forme abrégée d'Anania, « Yah a couvert ») : Fils d'Élioénaï, de la maison de David, qui vécut après la captivité (",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
