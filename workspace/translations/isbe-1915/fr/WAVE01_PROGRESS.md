@@ -473,3 +473,81 @@ official RELAX NG plus Schematron validation. No technical CI check
 can substitute for later bilingual editorial approval. The original
 corrected English source SHA-256 remains
 `5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c`.
+
+## Seventh source-locked 100-entry French historical draft cohort — 24 November 2026
+
+**Exactly 100 complete original historical ISBE articles are translated into
+French as first drafts in this cohort**, in four patches with 25 full entries
+each. Frozen canonical selection and exact patch mappings:
+`cohorts/COHORT_007_100_HISTORICAL_ARTICLES.json`.
+
+- `0038-cohort-007-historical-articles-01.json`: 25 full entries
+- `0039-cohort-007-historical-articles-02.json`: 25 full entries
+- `0040-cohort-007-historical-articles-03.json`: 25 full entries
+- `0041-cohort-007-historical-articles-04.json`: 25 full entries
+
+Selection: **the next 100 shortest previously undrafted** original articles
+from the fixed positions 1–1000. Their **113,544 eligible English source
+characters**, 858–1,498 per original article, represent a much more
+substantial body of historical, biblical, exegetical and lexicographic
+prose than the first six cohorts. This is still not a proportion of the
+entire ISBE's English word count.
+
+Pre-CI independent source-unit audit: exactly **100 distinct original
+article IDs**, 1,050 original source text units in original order,
+**891 explicitly translated**, **159 deliberately preserved and
+justified original author names, historical pronunciations, canonical
+headwords or reference display labels**, **zero** long, unexplained
+preserved English prose units, **zero** original unit identity mismatch
+or omission, and **zero** incomplete first-draft article. Every patch
+remains labelled `unreviewed_drafts` and
+`publication_permitted: false`.
+
+**Cumulative wave-01 first drafts: 811/1,000 (81.1% by article count),
+189 undrafted. Entire original 9,380-entry ISBE: 856 complete
+first drafts. Independent bilingual editorial approvals: 0/1,000.
+Issue #109 checked boxes: 0/1,000. No French SWORD publication.**
+These metrics are *not* source-prose-volume coverage.
+
+### Source-witness collation and editorial alerts
+
+- **[Issue #127](https://github.com/icfmp/Bible-Resources-ISBE/issues/127):
+  AENON and ATARGATIS have unmistakable cross-entry splices** in the
+  existing corrected original English TEI, respectively from ADVOCATE
+  and ASYLUM. The French draft preserves the supplied fragment with an
+  explicit editorial bracket explaining the contamination; the
+  untouched English master must be collated against a scanned source
+  before any separate, reversible correction.
+- **AFFIRM; AFFIRMATIVES:** source itself reads `1Ti 17`,
+  `Isa 88:1` and `bye` in the example about affirmative and negative;
+  these are documented source errors, *not* silently repaired biblical
+  locators or text.
+- **ALEXANDER BALAS:** an incoherent transition around
+  `Demetrius was defeated by Alexander II took up the cause...`
+  needs printed-witness comparison before historical reconstruction.
+- **ALCIMUS:** the existing English narrative attributes to Simon
+  Maccabaeus actions usually associated with Judas/Jonathan; its
+  historical assertions are translated as *claims of the source*,
+  with no silent editorial substitution.
+- **ACACIA:** the original description of fine leaves and flowers is
+  evidently truncated (`finely leaves ular flowers`); translated
+  with an explicit flag rather than invented botanic terminology.
+- **ANATHEMA, ABSOLUTION, ANGELS OF THE SEVEN CHURCHES, ASLEEP, AGREE,
+  ALPHA AND OMEGA:** historically attributed doctrinal interpretations
+  are faithfully translated, including significant differences among
+  Christian interpreters, not silently rewritten to fit a new thesis.
+- **ADAMANT, ARIOCH, AENON, APHARSATHCHITES, ASARAMEL:** original
+  manuscript hypotheses and geographic identifications remain
+  conditional, with original cross-reference targets unchanged.
+
+Source master SHA-256 unchanged:
+`5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c`.
+Every original `@n`, TEI `xml:id`, reference target, historic
+editorial byline and article fingerprint remains source-locked.
+
+**Before any merge**, run source-locked reconstruction of all **856**
+first drafts, all seven frozen 100-entry cohort mapping and uniqueness
+checks, all 856 French readable article proofs, full canonical
+9,380-entry TEI regression suite and official TEI RELAX NG and
+Schematron validation. **Independent bilingual collation/acceptance**
+remains a separate, uncompleted publication gate.

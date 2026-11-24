@@ -1,0 +1,2197 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ANATHOTH",
+      "article_id": "isbe-7c8cb45a5be1fb97c3bf",
+      "source_article_sha256": "76cce2d0fab979bedd008dc7c5570b49d4b5eb811c28affecc4ce597d47133b2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANATHOTH",
+          "target": "ANATHOTH",
+          "action": "preserve",
+          "reason": "Original proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-a-thoth (`anathoth; Anathoth): A town which lay between Michmash and Jerusalem (",
+          "target": "an'-a-thoth (`anathoth ; Anathoth) : Ville située entre Mikmas et Jérusalem (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), in the territory of Benjamin, assigned to the Levites (",
+          "target": "), sur le territoire de Benjamin, attribuée aux Lévites (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). It was the native place of Abiathar (",
+          "target": "). C'était le lieu d'origine d'Abiathar (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), and of the prophet Jer (",
+          "target": ") et du prophète Jérémie (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " ff, etc.). Here lay the field which, under remarkable circumstances, the prophet purchased (",
+          "target": " et suiv.). C'est là que se trouvait le champ que le prophète acheta dans des circonstances remarquables (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " ff). Two of David's distinguished soldiers, Abiezer (",
+          "target": " et suiv.). Deux soldats éminents de David, Abiézer (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ") and Jehu (",
+          "target": ") et Jéhu (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "), also hailed from Anathoth. It was again occupied by the Benjamites after the return from the Exile (",
+          "target": "), étaient aussi originaires d'Anathoth. La ville fut de nouveau habitée par des Benjaminites après le retour d'exil (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": ", etc.). It is identified with `Anata, two and a quarter miles Northeast of Jerusalem, a small village of some fifteen houses with remains of ancient walls. There are quarries in the neighborhood from which stones are still carried to Jerusalem. It commands a spacious outlook over the uplands to the North, and especially to the Southeast, over the Jordan valley toward the Dead Sea and the mountains of Moab. There is nothing to shelter it from the withering power of the winds from the eastern deserts (",
+          "target": " et autres passages). Elle correspond à `Anata, à deux milles et quart au nord-est de Jérusalem, petit village d'une quinzaine de maisons où subsistent des vestiges de murailles anciennes. Des carrières voisines fournissent encore de la pierre à Jérusalem. Le site offre un vaste panorama sur les hauteurs au nord et surtout, vers le sud-est, sur la vallée du Jourdain, la mer Morte et les montagnes de Moab. Rien ne le protège de la puissance desséchante des vents des déserts orientaux (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": ", etc.).",
+          "target": " et autres passages).",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "W. Ewing",
+          "target": "W. Ewing",
+          "action": "preserve",
+          "reason": "Original author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "ANCIENT",
+      "article_id": "isbe-e95f000e0be57b53dac1",
+      "source_article_sha256": "14cabb63e14fd3b91b805e4420bccce31bf8f2bfdeb603cbdc02b10d9d9e414b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANCIENT",
+          "target": "ANCIEN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-shent: This word renders several Hebrew words:",
+          "target": "an'-shent : Ce mot anglais traduit plusieurs mots hébreux :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) qedhem, which denotes \"beforetime,\" \"yore\"; generally the remote past (compare ",
+          "target": "(1) qedhem, qui désigne le temps passé, « jadis », généralement un passé très éloigné (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", \"ancient mountains\"; ",
+          "target": " : « montagnes anciennes » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", Kishon, the \"ancient river\"; ",
+          "target": " : le Kishon, « fleuve ancien » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " \"ancient kings\").",
+          "target": " : « rois anciens »).",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(2) zaqen, \"old\" in years. Whereas the King James Version generally renders the word by \"old\" (or \"elders\" when the plural form is found) in six cases \"ancient\" is used and \"ancients\" in nine cases. See ",
+          "target": "(2) zaqen, « âgé », « vieux ». Si la King James Version le traduit généralement par « vieux » ou par « anciens » au pluriel, elle emploie « ancient » dans six cas et « ancients » dans neuf cas. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "ANCIENTS",
+          "target": "ANCIENS",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(3) `olam, which denotes \"long duration\" --past or future. In regard to the past it suggests remote antiquity. The connotation may be discovered in such expressions as: \"the years of ancient times\" (",
+          "target": "(3) `olam, qui signifie « longue durée », passée ou future. Pour le passé, il suggère la haute antiquité ; cette nuance apparaît dans « les années des temps anciens » (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "); \"ancient land-mark\" or \"paths\" (",
+          "target": ") ; « borne ancienne » ou « anciens sentiers » (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "); \"ancient people\" or \"nation\" (",
+          "target": ") ; « peuple ancien » ou « nation ancienne » (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "); \"ancient high places\" (",
+          "target": ") ; « anciennes hauteurs » (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "(4) `attiq. This word--really Aramaic--comes from a stem which means \"to advance,\" i.e. in age; hence old, aged (",
+          "target": "(4) `attiq, mot proprement araméen, dérivé d'une racine signifiant « avancer », notamment en âge ; d'où « vieux », « âgé » (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "(5) yashish, literally, \"weak,\" \"impotent,\" hence decrepit aged; a rare and poetical word, and found only in Job. It is rendered \"ancient\" only in one instance (",
+          "target": "(5) yashish, littéralement « faible », « impuissant », donc « décrépit », terme rare et poétique, présent seulement dans Job. Il n'est traduit par « ancien » qu'une fois (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": " the King James Version).",
+          "target": " dans la King James Version).",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "Thomas Lewis",
+          "target": "Thomas Lewis",
+          "action": "preserve",
+          "reason": "Original author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "ANCIENTS",
+      "article_id": "isbe-c4b30549c52a30e9322f",
+      "source_article_sha256": "b4f23fcf4fa6aa9f119226de6bf91a001e1ccc7326290b066bf6fd95e2eaafe3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANCIENTS",
+          "target": "ANCIENS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an-shents: This word (except in one instance) renders the Hebrew word zeqenim, (pl of zaqen), which should always be translated \"old men\" or \"elders.\" The Hebrew word never has the connotation which \"ancients\" has in modern English. The words \"I understand more than the ancients\" (",
+          "target": "an-shents : Sauf une fois, ce mot anglais traduit l'hébreu zeqenim (pluriel de zaqen), qu'il faudrait toujours rendre par « vieillards » ou « anciens ». Le terme hébreu ne possède jamais la nuance d'« ancêtres lointains » que peut avoir l'anglais moderne « ancients ». « J'ai plus d'intelligence que les anciens » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the King James Version) do not mean that the Psalmist claims greater wisdom than his distant forbears but than his contemporaries with all their age and experience. In the parallel clause \"teachers\" is the corresponding word. In such phrases as \"ancients of the people\" (",
+          "target": " dans la King James Version) ne signifie pas que le psalmiste se juge plus sage que ses ancêtres lointains, mais qu'il surpasse des contemporains plus âgés et plus expérimentés. Le membre parallèle du verset mentionne les « maîtres ». Dans des expressions comme « anciens du peuple » (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " the King James Version), \"ancients of the house of Israel\" (",
+          "target": " dans la King James Version), « anciens de la maison d'Israël » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), \"elders\" would obviously be the correct rendering, as in the Revised Version (British and American). Even in ",
+          "target": "), le mot « anciens » est manifestement juste, comme dans la Revised Version (britannique et américaine). Même en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " (\"before his ancients gloriously\" the English Revised Version) \"elders\" is the right translation (American Revised Version). The writer probably alludes to the Sinaitic; theophany witnessed by the \"seventy .... elders\" (",
+          "target": " (« glorieusement devant ses anciens », English Revised Version), « anciens » est préférable (American Revised Version). L'auteur fait probablement allusion à la théophanie du Sinaï dont furent témoins les « soixante-dix […] anciens » (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ") Generally speaking the word suggests the experience, insight and practical acquaintance with life which age ought to bring with it (",
+          "target": "). D'ordinaire, le terme évoque l'expérience, la perspicacité et la connaissance pratique de la vie qu'on devrait acquérir avec l'âge (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "). In one instance (",
+          "target": "). Dans un seul passage (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ") \"ancients\" is the right rendering for the Hebrew word qadhmonim, which means \"men of former times.\"",
+          "target": "), « ancêtres » ou « anciens d'autrefois » convient à l'hébreu qadhmonim, « hommes des temps passés ».",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "Thomas Lewis",
+          "target": "Thomas Lewis",
+          "action": "preserve",
+          "reason": "Original author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "ANDRONICUS",
+      "article_id": "isbe-9d109682b09454eb4d66",
+      "source_article_sha256": "79c7fe0f35eeed28a2517fb210787907a6beedcea41343a8355ba6a0b879751c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANDRONICUS",
+          "target": "ANDRONICUS",
+          "action": "preserve",
+          "reason": "Original proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an-dro-ni'-kus (Andronikos):",
+          "target": "an-dro-ni'-kus (Andronikos) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A deputy of Antiochus Epiphanes, who, while ruling at Antioch, excited the Jews by the murder of Onias, and, upon their formal complaint, was executed by his superior (2 Macc 4:32-38); generally distinguished from another officer of the same name, also under Antiochus (2 Macc 5:23).",
+          "target": "(1) Délégué d'Antiochos Épiphane qui, pendant qu'il gouvernait à Antioche, suscita la colère des Juifs en faisant assassiner Onias. Après leur plainte officielle, son supérieur le fit exécuter (2 Maccabées 4:32–38). On le distingue généralement d'un autre officier homonyme également au service d'Antiochos (2 Maccabées 5:23).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(2) A kinsman of Paul, residing at Rome (",
+          "target": "(2) Parent de Paul demeurant à Rome (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). He had been converted to Christianity before Paul, and, like Paul, had suffered imprisonment, although when and where can only be surmised. When he and Junias, another kinsman of Paul, are referred to as \"of note among the apostles,\" this may be interpreted as either designating the high esteem in which they were held by the Twelve, or as reckoning them in the number of apostles. The latter is the sense, if \"apostle\" be understood here in the more general meaning, used in ",
+          "target": "). Converti au christianisme avant Paul, il avait subi la prison comme lui, bien que la date et le lieu en soient inconnus. Lui et Junias, autre parent de Paul, sont qualifiés de « remarquables parmi les apôtres » ; cela peut signifier qu'ils étaient particulièrement estimés des Douze ou qu'ils appartenaient eux-mêmes au nombre des apôtres. La seconde interprétation est possible si le mot « apôtre » est pris au sens plus général qu'il possède en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " of Barnabas, in ",
+          "target": " pour Barnabas, en ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " of Titus, in ",
+          "target": " pour Tite, en ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " of Epaphroditus, and in the Didache of \"the traveling evangelists or missionaries who preached the gospel from place to place\" (Schaff, The Teaching of the Twelve Apostles, 67; see also Lightfoot on Philippians, 196). On this assumption, Andronicus was one of the most prominent and successful of the traveling missionaries of the early church.",
+          "target": " pour Épaphrodite, et dans la Didachè pour les « évangélistes itinérants ou missionnaires qui prêchaient l'Évangile de lieu en lieu » (Schaff, The Teaching of the Twelve Apostles, p. 67 ; voir aussi Lightfoot sur Philippiens, p. 196). Selon cette hypothèse, Andronicus était l'un des missionnaires itinérants les plus importants et les plus féconds de l'Église primitive.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "H. E. Jacobs",
+          "target": "H. E. Jacobs",
+          "action": "preserve",
+          "reason": "Original author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "ANGELS OF THE SEVEN CHURCHES",
+      "article_id": "isbe-708b83e3148c5be92011",
+      "source_article_sha256": "0b2d063484d1a19ef117eef1162c03353fe2cda068e732316b1c3f693ab6db6a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANGELS OF THE SEVEN CHURCHES",
+          "target": "ANGES DES SEPT ÉGLISES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "It is evident from the contexts of the various Biblical passages in which the word \"angel\" appears, that the word does not always represent the same idea. In such passages as ",
+          "target": "Les contextes des différents passages bibliques où figure le mot « ange » montrent clairement qu'il ne désigne pas toujours une même idée. Dans des textes comme ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " it would seem that the angel was generally regarded as a superhuman being whose duty it was to guard a nation or an individual, not unlike the jenei of the Arabs. However, in ",
+          "target": ", l'ange semble généralement considéré comme un être surhumain chargé de protéger une nation ou un individu, un peu comme les djinns des Arabes. Toutefois, en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " (Hebrew) the word is clearly used to represent men. In the New Testament also, there are passages, such as ",
+          "target": " (en hébreu), ce mot désigne clairement des hommes. Le Nouveau Testament comporte aussi des passages, comme ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " (Greek), in which the word seems to be applied to men. The seven angels of the seven churches (",
+          "target": " (en grec), où il semble s'appliquer à des humains. Les sept anges des sept Églises (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ") received seven letters, figurative letters, and therefore it would seem that the seven angels are also figurative and may refer to the seven bishops who presided over the seven churches of Asia. Or the angels may be regarded as the personifications of the churches.",
+          "target": ") reçurent sept lettres, symboliques ; cela pourrait indiquer que les sept anges eux aussi sont figurés et désignent les sept évêques présidant les sept Églises d'Asie. Selon une autre interprétation, les anges personnifient les Églises.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "E. J. Banks",
+          "target": "E. J. Banks",
+          "action": "preserve",
+          "reason": "Original author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "ANGER",
+      "article_id": "isbe-64576348f1971734e10a",
+      "source_article_sha256": "a8a165156da76906b19d95caf01b23c5eabb640d829723a9a0b87b2a93fda981",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANGER",
+          "target": "COLÈRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-ger: In the Old Testament, the translation of several Hebrew words, especially of 'aph (lit. \"nostril,\" \"countenance\"), which is used some 45 times of human, 177 times of Divine, anger (OHL). The word occurs rarely in the New Testament (",
+          "target": "an'-ger : Dans l'Ancien Testament, traduction de plusieurs mots hébreux, surtout 'aph (littéralement « narine », « visage »), employé environ quarante-cinq fois pour la colère humaine et cent soixante-dix-sept fois pour la colère divine (OHL). Ce mot apparaît rarement dans le Nouveau Testament (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "), its place being taken by the word \"wrath\" (see ",
+          "target": ") ; sa place y est généralement prise par « wrath », « courroux » (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "WRATH",
+          "target": "COURROUX",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "). As a translation of words denoting God's \"anger,\" the English word is unfortunate so far as it may seem to imply selfish, malicious or vindictive personal feeling. The anger of God is the response of His holiness to outbreaking sin. Particularly when it culminates in action is it rightly called Has \"wrath.\" The Old Testament doctrine of God's anger is contained in many passages in the Pentateuch, Psalms and the Prophets. In Proverbs men are dissuaded from anger (",
+          "target": "). Pour rendre la « colère » de Dieu, le terme anglais risque d'être mal compris s'il suggère un sentiment personnel égoïste, malveillant ou vindicatif. La colère divine est la réponse de sa sainteté au péché manifeste. Lorsqu'elle aboutit à l'action, elle porte avec raison le nom de « courroux ». Cet enseignement se retrouve largement dans le Pentateuque, les Psaumes et les Prophètes. Les Proverbes déconseillent la colère aux hommes (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "), and the \"slow to anger\" is commended (",
+          "target": ") et recommandent d'être « lent à la colère » (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "). Christians axe enjoined to put away the feeling of self-regarding, vindictive anger (",
+          "target": "). Les chrétiens sont exhortés à renoncer à une colère vindicative, centrée sur soi (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "), and to cherish no desire of personal revenge (",
+          "target": ") et à ne nourrir aucun désir de vengeance personnelle (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "F. K. Farr",
+          "target": "F. K. Farr",
+          "action": "preserve",
+          "reason": "Source author byline retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ANGUISH",
+      "article_id": "isbe-486d10ce5596fcac6e6f",
+      "source_article_sha256": "6196678c030a49dbf73027d37d2421b03eaa58f7701547b4f4a86f03d8fd7a06",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANGUISH",
+          "target": "ANGOISSE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-gwish: Extreme distress of body, mind or spirit; excruciating pain or suffering of soul, e.g. excessive grief, remorse, despair. Chiefly expressed in Old Testament, by four derivatives of tsuq, \"straitened,\" \"pressed,\" and tsar, and two derivatives signifying \"straitness,\" \"narrowness,\" hence distress; also shabhats, \"giddiness,\" \"confusion of mind\"; hul \"to twist\" with pain, \"writhe.\" So in the New Testament, thlipsis, \"a pressing together,\" hence affliction, tribulation, stenochoria, \"narrowness of place,\" hence extreme affliction; sunoche, \"a holding together,\" hence distress. The fundamental idea in these various terms is pressure--being straitened, compressed into a narrow place, or pain through physical or mental torture. Used of the physical agony of child-birth (",
+          "target": "an'-gwish : Détresse extrême du corps, de l'esprit ou de l'âme ; douleur atroce ou souffrance intérieure, notamment chagrin excessif, remords ou désespoir. Dans l'Ancien Testament, le terme rend surtout quatre dérivés de tsuq, « être resserré », « pressé », et de tsar, ainsi que deux dérivés exprimant l'« étroitesse », d'où la « détresse » ; également shabhats, « vertige », « confusion d'esprit », et hul, « se tordre » de douleur. De même, dans le Nouveau Testament, thlipsis, « pression », d'où « affliction », « tribulation » ; stenochoria, « manque d'espace », d'où « extrême affliction » ; sunoche, « tenir ensemble », d'où « détresse ». L'idée fondamentale est la pression : être resserré, comprimé dans un lieu étroit, ou souffrir sous une torture physique ou mentale. Le mot décrit l'agonie physique de l'accouchement (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "); of distress of soul as the result of sin and wickedness (",
+          "target": ") ; la détresse de l'âme provoquée par le péché et la méchanceté (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "); of anguish of spirit through the cruel bondage of slavery (",
+          "target": ") ; l'angoisse de l'esprit sous le joug cruel de l'esclavage (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": ") and Assyrian oppression (",
+          "target": ") et de l'oppression assyrienne (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "); of the anxiety and pain of Christian love because of the sins of fellow-disciples (",
+          "target": ") ; enfin, l'anxiété et la douleur de l'amour chrétien devant les péchés de compagnons disciples (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "Dwight M. Pratt",
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "Source author byline retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ANNUL; DISANNUL",
+      "article_id": "isbe-98baf89b729288bfb1d5",
+      "source_article_sha256": "07ae8e3813f621ce8eff40d9b350ab2db65603b63ea44359f225b98c16509539",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANNUL; DISANNUL",
+          "target": "ANNULER ; RENDRE CADUC",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-nul', dis-a-nul': God, as the Supreme Ruler, can disannul His covenant for cause (",
+          "target": "a-nul', dis-a-nul' : Dieu, souverain suprême, peut annuler son alliance pour une raison (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); man, through willfulness and transgression, as party of the second part, may break the contract and thus release Yahweh, as party of the first part (",
+          "target": ") ; l'homme, par sa rébellion et ses transgressions, peut, comme seconde partie, rompre le contrat et libérer Yahvé, première partie (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), though there are some purposes and laws which the Almighty will carry out in spite of ungodly rage and ravings (",
+          "target": "), bien que le Tout-Puissant poursuive certains desseins et applique certaines lois malgré les fureurs des impies (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " the King James Version); or an old law or covenant might be conceived as disannulled by a new one (",
+          "target": " dans la King James Version). Une ancienne loi ou alliance peut aussi être considérée comme abrogée par une nouvelle (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "), or because of its becoming obsolete and ineffective (",
+          "target": "), ou devenir caduque et inefficace (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). For the first idea, the Hebrew employs kaphar = \"to cover,\" \"to expiate,\" \"condone,\" \"placate,\" \"cancel,\" \"cleanse,\" \"disannul,\" \"purge,\" \"put off\" (",
+          "target": "). Pour la première idée, l'hébreu emploie kaphar, « couvrir », « expier », « pardonner », « apaiser », « annuler », « purifier », « abroger », « ôter » (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "); and the Greek (",
+          "target": ") ; le grec atheteo, en ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "), atheteo = \"to set aside,\" \"disesteem,\" \"neutralize,\" \"violate,\" \"frustrate.\" One covenant disannulling another by \"conflict of laws\" is expressed by akuroo, \"to invalidate,\" \"disannul,\" \"make of no effect.\" Atheteo is employed to express also the disannulling through age and disuse (",
+          "target": ", signifie « écarter », « déprécier », « neutraliser », « violer », « mettre en échec ». Pour l'annulation d'une alliance par une autre dans un « conflit de lois », on utilise akuroo, « invalider », « abroger », « rendre sans effet ». Atheteo exprime aussi l'abrogation par l'ancienneté et le défaut d'usage (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "Frank E. Hirsch",
+          "target": "Frank E. Hirsch",
+          "action": "preserve",
+          "reason": "Source author byline retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ANOINT; ANOINTED",
+      "article_id": "isbe-2c9fbf66df19e35e6fe5",
+      "source_article_sha256": "948f9729ca5ccb8c846c38c46676b1139ff0f8d32ce361ac7adb14566dbf1f18",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANOINT; ANOINTED",
+          "target": "OINDRE ; OINT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-noint', a-noint'-ed (aleipho, chrio): Refers to a very general practice in the East. It originated from the relief from the effect of the sun that was experienced in rubbing the body with oil or grease. Among rude people the common vegetable or animal fat was used. As society advanced and refinement became a part of civilization, delicately perfumed ointments were used for this purpose. Other reasons soon obtained for this practice than that stated above. Persons were anointed for health (",
+          "target": "a-noint', a-noint'-ed (aleipho, chrio) : Pratique très répandue en Orient, née du soulagement que procurait l'application d'huile ou de graisse sur le corps exposé au soleil. Chez les peuples peu raffinés, on utilisait des graisses végétales ou animales ordinaires. Lorsque les sociétés se développèrent, les onguents délicatement parfumés se répandirent. D'autres raisons vinrent s'ajouter à cet usage. L'onction était pratiquée pour la santé (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), because of the widespread belief in the healing power of oil. It was often employed as a mark of hospitality (",
+          "target": ") en raison de la croyance répandue dans le pouvoir guérisseur de l'huile ; comme marque d'hospitalité (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); as a mark of special honor (",
+          "target": ") ; d'honneur particulier (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); in preparation for social occasions (",
+          "target": ") ; ou pour se préparer à des rencontres sociales (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). The figurative use of this word (chrio) has reference strictly to the coming of the Holy Spirit upon the individual (",
+          "target": "). Au sens figuré, chrio se rapporte proprement à la venue du Saint-Esprit sur une personne (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "). In this sense it is God who anoints (",
+          "target": "). C'est alors Dieu qui oint (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "). The thought is to appoint, or qualify for a special dignity, function or privilege. It is in this sense that the word is applied to Christ (",
+          "target": "). L'idée est de désigner ou qualifier quelqu'un pour une dignité, une fonction ou un privilège particulier. Le mot s'applique ainsi au Christ (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": " m; ",
+          "target": " en note ; ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "See also ",
+          "target": "Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "ANOINTING",
+          "target": "ONCTION",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "Jacob W. Kapp",
+          "target": "Jacob W. Kapp",
+          "action": "preserve",
+          "reason": "Source author byline retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ANSWER",
+      "article_id": "isbe-36d2f95ead934474c7ee",
+      "source_article_sha256": "f30ea544c286cee08177bc7dcf2ea47b68968bf957ccc8d55b94d06673ab51be",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANSWER",
+          "target": "RÉPONDRE ; RÉPONSE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-ser: In our English Bible the word \"answer\" does not always mean a simple reply to a question.",
+          "target": "an'-ser : Dans la Bible anglaise, « answer » ne signifie pas toujours une simple réponse à une question.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "1. In the Old Testament:",
+          "target": "1. Dans l'Ancien Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Six different words are translated by answer.",
+          "target": "Six mots différents sont traduits par « répondre ».",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(1) It is frequently used where no question has been asked and in such cases it means a word, a statement.",
+          "target": "(1) Le mot apparaît fréquemment sans qu'aucune question ait été posée : il signifie alors « parole » ou « déclaration ».",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) It also means a response (",
+          "target": "(2) Il signifie aussi « réplique » (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(3) It often means a declaration or proclamation from God where no question has been asked. See the many passages that read: \"The Lord answered and said.\"",
+          "target": "(3) Souvent, il désigne une déclaration ou une proclamation de Dieu sans question préalable. Voir les nombreux passages où l'on lit : « Le Seigneur répondit et dit ».",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(4) The other words translated \"answer\" or \"answered\" in the Old Testament are unimportant shadings and variations.",
+          "target": "(4) Les autres termes de l'Ancien Testament traduits par « réponse » ou « répondit » ne présentent que des nuances secondaires.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "2. In the New Testament:",
+          "target": "2. Dans le Nouveau Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "The words translated \"answer\" are not so varied.",
+          "target": "Les termes traduits par « répondre » sont moins variés.",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "(1) It sometimes means an apology, a defense (",
+          "target": "(1) Parfois, il signifie « apologie », « défense » (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "(2) It may mean simply \"to say\" (",
+          "target": "(2) Il peut signifier simplement « dire » (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "(3) It may mean a revelation from God (",
+          "target": "(3) Il peut désigner une révélation venant de Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(4) It is also used to apply to unspoken thoughts of the heart, especially in the sayings of Jesus; also by Peter to Sapphira (",
+          "target": "(4) Il s'applique aussi aux pensées non exprimées du cœur, notamment dans les paroles de Jésus ; et dans l'intervention de Pierre auprès de Saphira (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "G. H. Gerberding",
+          "target": "G. H. Gerberding",
+          "action": "preserve",
+          "reason": "Source author byline retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ANTIOCHUS VI",
+      "article_id": "isbe-3bbe556e54b47d845186",
+      "source_article_sha256": "ca2821b96d7cbbd6a68016688ea47a2c3741765d583aaa3b28003bf29632c555",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANTIOCHUS VI",
+          "target": "ANTIOCHUS VI",
+          "action": "preserve",
+          "reason": "Canonical original name"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "(Surnamed Theos (Theos), or, according to coins, Dionysus Epiphanes): Was the son of Alexander Balas, who claimed to be the son of Antiochus Epiphanes. Alexander left the throne to his son in 146 BC. The young king retired to Arabia--perhaps through compulsion. The shrewd diplomatist and skillful general, Tryphon, succeeded first in winning over to his side the two leaders of the Jews, Jonathan and Simon, and then, by force of arms, in making the Syrians recognize his protege. As soon as the monarchy had been firmly established, Tryphon unmasked his projects: he had been ambitious only for himself; Antiochus had been only an instrument in his hands. In 143; after a reign of a little more than three years, Antiochus was assassinated by Tryphon, who ascended the throne himself (1 Macc 13:31; Ant, XIII, vii, 1; Livy Epit. 55).",
+          "target": "(Surnommé Théos, ou, d'après les monnaies, Dionysos Épiphane) : Fils d'Alexandre Balas, qui prétendait être fils d'Antiochos Épiphane. Alexandre laissa le trône à son fils en 146 av. J.-C. Le jeune roi se retira en Arabie, peut-être sous la contrainte. Le diplomate habile et général compétent Tryphon réussit d'abord à gagner les deux chefs juifs, Jonathan et Simon, puis força les Syriens, par les armes, à reconnaître son protégé. Dès que la monarchie fut solidement établie, Tryphon révéla ses projets : il n'avait d'ambition que pour lui-même et Antiochos n'avait été qu'un instrument entre ses mains. En 143, après un règne d'un peu plus de trois ans, Antiochos fut assassiné par Tryphon, qui monta lui-même sur le trône (1 Maccabées 13:31 ; Antiquités judaïques, XIII, vii, 1 ; Tite-Live, Abrégé 55).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "J. E. Harry",
+          "target": "J. E. Harry",
+          "action": "preserve",
+          "reason": "Original author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "APE",
+      "article_id": "isbe-9be93b7bb92d900ed237",
+      "source_article_sha256": "24372e237b5610bdfd0e2e1457032e359791b630d3e97888b790b604635f56cc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APE",
+          "target": "SINGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ap (qoph): The word occurs only in the two parallel passages (",
+          "target": "ap (qoph) : Ce mot n'apparaît que dans les deux passages parallèles (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") in which the magnificence of Solomon is illustrated by the things which are brought to him from foreign countries. Apes are mentioned with gold, silver, ivory and peacocks. Peacocks are natives of India and Ceylon. Apes and ivory may have been brought from India or Africa. Gold and silver may have come from these or other quarters. An Indian origin may be inferred from the fact that the Hebrew qoph, the Greek kebos and the English \"ape\" are akin to the Sanskrit \"kapi\", which is referred to the root kap, kamp, \"to tremble\"; but the question of the source of these imports depends upon what is understood by ",
+          "target": ") où la splendeur de Salomon est illustrée par les objets importés de pays étrangers. Les singes sont mentionnés avec l'or, l'argent, l'ivoire et les paons. Les paons sont originaires d'Inde et de Ceylan ; singes et ivoire pouvaient venir d'Inde ou d'Afrique ; l'or et l'argent de ces régions ou d'autres encore. On peut supposer une origine indienne parce que l'hébreu qoph, le grec kebos et l'anglais « ape » sont apparentés au sanskrit kapi, qu'on rattache aux racines kap ou kamp, « trembler ». Mais la provenance des importations dépend de ce qu'on entend par ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "TARSHISH",
+          "target": "TARSIS",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "OPHIR",
+          "target": "OPHIR",
+          "action": "preserve",
+          "reason": "Original proper name or byline retained"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " (which see). Canon Cheyne in Encyclopedia Biblica (s.v. \"Peacock\") proposes a reading which would give \"gold, silver, ivory and precious stones\" instead of \"gold, silver, ivory, apes and peacocks.\" Assuming, however, that animals are here referred to, the word ape should be understood to mean some kind of monkey. The word \"ape\" is sometimes used for the tail-less apes or anthropoids such as the gorilla, the chimpanzee and the orangutang, as opposed to the tailed kinds, but this distinction is not strictly held to, and the usage seems formerly to have been freer than now.",
+          "target": " (voir ces articles). Le chanoine Cheyne propose dans Encyclopedia Biblica (article « Peacock ») une lecture donnant « or, argent, ivoire et pierres précieuses », à la place de « or, argent, ivoire, singes et paons ». Si l'on admet la présence d'animaux, « ape » désigne une espèce de singe. En anglais, le mot peut qualifier les grands singes dépourvus de queue, comme le gorille, le chimpanzé et l'orang-outan, par opposition aux singes à queue. Cette distinction n'est pourtant pas strictement observée, et son usage semble avoir été autrefois plus large.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "Alfred Ely Day",
+          "target": "Alfred Ely Day",
+          "action": "preserve",
+          "reason": "Original author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "APHARSATHCHITES; APHARSACHITES",
+      "article_id": "isbe-6f72d2cf3ec9e3e73dd8",
+      "source_article_sha256": "62cace1d70114642db8766dff2209b58bc885d37d7f28fdfdebe6b76f2717c5c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APHARSATHCHITES; APHARSACHITES",
+          "target": "APHARSATHCHITES ; APHARSACHITES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "af-ar-sath'-kits, a-far'-sak-its ('apharcathkhaye'): A tribe living in Samaria that protested against the rebuilding of the Temple, and brought their complaint to Darius (",
+          "target": "af-ar-sath'-kits, a-far'-sak-its ('apharcathkhaye) : Tribu établie en Samarie qui protesta contre la reconstruction du Temple et adressa sa plainte à Darius (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). The tribe has not yet been recognized with any certainty in the inscriptions. Rawlinson identifies them with the Persians; other scholars deny that any Assyrian king was ever so situated as to have been able to obtain colonists from Persia. Some maintain with Marquardt that the term is not the name of a tribe, but the title of certain officers under Darius. Fred. Delitzsch suggests the inhabitants of one of the two great Medean towns \"Partakka\" and \"Partukka\" mentioned in Esarhaddon's inscriptions. Andreas plausibly connects it with the Assyrian suparsak (Muss-Arnolt, Assyrian Dict., 1098), saqu (3) \"general\"; Scheft takes it from an old Iranian word aparasarka, \"lesser ruler.\"",
+          "target": "). Cette tribu n'a pas été identifiée avec certitude dans les inscriptions. Rawlinson l'assimile aux Perses ; d'autres chercheurs nient qu'un roi assyrien ait pu disposer de colons venus de Perse. Certains, avec Marquardt, estiment que ce terme n'est pas un ethnonyme mais le titre de fonctionnaires au service de Darius. Friedrich Delitzsch propose les habitants de l'une des deux grandes villes mèdes « Partakka » et « Partukka » citées dans les inscriptions d'Assarhaddon. Andreas le rapproche avec vraisemblance de l'assyrien suparsak (Muss-Arnolt, Assyrian Dictionary, p. 1098), saqu (3), « général » ; Scheft le fait venir de l'ancien iranien aparasarka, « gouverneur subalterne ».",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "H. J. Wolf",
+          "target": "H. J. Wolf",
+          "action": "preserve",
+          "reason": "Original author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "APOLLONIA",
+      "article_id": "isbe-0ad456d96e59337148b3",
+      "source_article_sha256": "5157fbde69f6d31cc89a2c742f3885b20dec72a3749eb8fa2395bc3aacf77a32",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APOLLONIA",
+          "target": "APOLLONIA",
+          "action": "preserve",
+          "reason": "Canonical original name"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ap-o-lo'-ni-a (Apollonia): A town in Mygdonia, a district in Macedonia. It was situated a little to the south of Lake Bolbe, on the Via Egnatia, the great Roman road leading from the coast of the Adriatic to the river Hebrus (Maritza), one of the main military and commercial highways of the empire: it lay between Amphipolis and Thessalonica, a day's journey (Livy xlv.28) or about 30 Roman miles from the former and 38 from the latter. The foundation of the town may perhaps be attributed to about 432 BC; in any case, coins are extant which attest its existence in the 4th century BC (Head, Historia Numorum, 181). Paul and Silas passed through the town on their journey from Philippi to Thessalonica, but do not appear to have stayed there (",
+          "target": "ap-o-lo'-ni-a (Apollonia) : Ville de Mygdonie, région de Macédoine. Elle se trouvait un peu au sud du lac Bolbé, sur la Via Egnatia, grande voie romaine reliant la côte adriatique au fleuve Hèbre (Maritsa), l'un des principaux axes militaires et commerciaux de l'Empire. Située entre Amphipolis et Thessalonique, elle était à une journée de marche (Tite-Live, XLV, 28), soit quelque trente milles romains de la première et trente-huit de la seconde. Sa fondation pourrait remonter à 432 av. J.-C. environ ; des monnaies attestent au moins son existence au IVe siècle av. J.-C. (Head, Historia Numorum, p. 181). Paul et Silas traversèrent la ville entre Philippes et Thessalonique, sans semble-t-il s'y arrêter (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The name seems to have survived in the modern Pollina (Leake, Northern Greece, III, 458; Cousinery, Voyage dans la Macedoine, I, 115).",
+          "target": "). Le nom paraît subsister dans celui de l'actuelle Pollina (Leake, Northern Greece, III, p. 458 ; Cousinery, Voyage dans la Macédoine, I, p. 115).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Marcus N. Tod",
+          "target": "Marcus N. Tod",
+          "action": "preserve",
+          "reason": "Original author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "APPAREL",
+      "article_id": "isbe-7e7c39d1a8f64c463302",
+      "source_article_sha256": "fe9d05768749c3b02531f11004ddb0bf0d0ce8bcefe5154cb1ee776f0334c5f9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APPAREL",
+          "target": "VÊTEMENT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-par'-el: The English equivalent of six Hebrew and three Greek words, variously signifying all kinds of raiment, chiefly garments costly and beautiful: ornamental (",
+          "target": "a-par'-el : Équivalent anglais de six mots hébreux et de trois mots grecs désignant différentes sortes d'habits, principalement des vêtements précieux et magnifiques : d'ornement (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); royal, as of Ahasuerus (",
+          "target": ") ; royaux, comme ceux d'Assuérus (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), of Herod (",
+          "target": "), d'Hérode (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", esthes); of kings' daughters (",
+          "target": " ; esthes), ou des filles des rois (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "); priestly (",
+          "target": ") ; sacerdotaux (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "); also mourning (",
+          "target": ") ; mais aussi de deuil (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " \"apparel\" replaces \"armor\" of King James Version: \"Saul clad David with his apparel,\" probably some close-fitting garment worn under the armor, or sometimes without it. Severe judgment was pronounced on Jewish princes who clothed themselves with \"strange\" (the King James Version), i.e. \"with foreign apparel\" (Ze 1:8; compare ",
+          "target": ", « vêtement » remplace l'« armure » de la King James Version : « Saül revêtit David de ses vêtements », probablement un habit ajusté porté sous l'armure, ou parfois sans celle-ci. Un jugement sévère fut prononcé contre les princes de Juda portant des habits « étrangers » (King James Version), c'est-à-dire « de mode étrangère » (Sophonie 1:8 ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "). \"Modest apparel\" as against \"costly raiment\" is commended as suited to Christians (",
+          "target": "). La « tenue modeste », opposée aux « vêtements coûteux », est recommandée aux chrétiens (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "; himatismos, and katastole). Angels are robed in white apparel (",
+          "target": " ; himatismos et katastole). Les anges sont vêtus de blanc (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": ", \"dazzling\"). Fig. of the glorious and red (suggestive of the wine-press) apparel of the Messiah (",
+          "target": " : « éclatants »). Le vêtement glorieux et rouge du Messie (rappelant le pressoir) constitue un emploi figuré (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "), and of \"a meek and quiet spirit\" (",
+          "target": ") ; de même l'« esprit doux et paisible » (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "Dwight M. Pratt",
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "Original author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "APPEAR",
+      "article_id": "isbe-be483cd3c9680ae27ac4",
+      "source_article_sha256": "15d3ecc5aecd1e98260dbec5e259fe5ecca964df9ddb16f83868b980a7343a61",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APPEAR",
+          "target": "APPARAÎTRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-per': Of eight Hebrew originals the chief is ra'ah, \"to be seen.\" Used mainly of God's self-revelations in person and in dreams and visions: \"Yahweh appeared unto Abram\" (",
+          "target": "a-per' : Parmi huit termes hébreux, le principal est ra'ah, « être vu ». S'emploie surtout pour les révélations personnelles de Dieu, les rêves et les visions : « Yahvé apparut à Abram » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); to Moses (",
+          "target": ") ; à Moïse (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); to Solomon (",
+          "target": ") ; à Salomon (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). All originals used of Nature's processes, of the appearing, i.e. coming of the morning (",
+          "target": "). Les différents mots s'appliquent aussi aux phénomènes naturels : apparition, c'est-à-dire arrivée, du matin (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "); stars (",
+          "target": ") ; des étoiles (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "); flowers, flocks of goats, tender grapes (",
+          "target": ") ; des fleurs, des troupeaux de chèvres et des raisins naissants (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": " m; ",
+          "target": " en note ; ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " margin). So New Testament ophthen, passive of horao, \"I see,\" \"to be seen\" used especially of angelic revelations and visions: as on the Mount of Transfiguration (",
+          "target": " en note). Dans le Nouveau Testament, ophthen, passif de horao, « voir », « être vu », désigne surtout les révélations et visions angéliques : sur la montagne de la transfiguration (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "); an angel (",
+          "target": ") ; un ange (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "); the risen Lord (",
+          "target": ") ; le Seigneur ressuscité (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "); cloven tongues at Pentecost (",
+          "target": ") ; les langues divisées à la Pentecôte (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "); vision to Paul (",
+          "target": ") ; une vision accordée à Paul (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": "); a great wonder in heaven (",
+          "target": ") ; un grand signe dans le ciel (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": ", the King James Version). opiano, in ",
+          "target": " dans la King James Version). Opiano, en ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": ", of Christ appearing after his suffering; phainomai, \"to shine,\" like the above with the added thought of a resplendent, luminous revelation, as of the Bethlehem star (",
+          "target": ", désigne les manifestations du Christ après sa passion ; phainomai, « briller », ajoute l'idée d'une révélation lumineuse et resplendissante, comme celle de l'étoile de Bethléem (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "); the bringing to light of sin (",
+          "target": ") ou la mise en lumière du péché (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": ", the King James Version). Also phaneroo, \"to make manifest,\" used exclusively of the post-resurrection appearances and second coming of Christ and of the disclosures of the great judgment day. See ",
+          "target": " dans la King James Version). Enfin, phaneroo, « manifester », s'emploie exclusivement, selon l'auteur, pour les apparitions du Christ après sa résurrection, sa seconde venue et les révélations du grand jour du jugement. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": " and seven other passages the King James Version.",
+          "target": " et sept autres passages dans la King James Version.",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "Dwight M. Pratt",
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "Original author byline retained"
+        }
+      ]
+    },
+    {
+      "source_key": "APPETITE",
+      "article_id": "isbe-f1c2b3bbdf9f2d260a8a",
+      "source_article_sha256": "edcc6861e6097240bdaa82dc142beb6fbb1a698d27fa66b7336aaf158695dfe9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APPETITE",
+          "target": "APPÉTIT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ap'-e-tit (chai, nephesh): This word occurs four times in Old Testament text and once in the King James Version margin. Once (",
+          "target": "ap'-e-tit (chai, nephesh) : Ce mot apparaît quatre fois dans le texte de l'Ancien Testament et une fois dans la note marginale de la King James Version. Une fois (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") it is a translation of chai, \"life\"; \"Canst thou .... satisfy the appetite (life) of the young lions?\" Twice (",
+          "target": "), il traduit chai, « vie » : « Peux-tu […] rassasier l'appétit (la vie) des lionceaux ? » Deux fois (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "; also ",
+          "target": " ; voir également ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", the King James Version margin) it is a translation of nephesh: ",
+          "target": " dans la note de la King James Version), il traduit nephesh : ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ", ba`al nephesh \"a man given to appetite\"; ",
+          "target": " : ba`al nephesh, « homme porté à l'appétit » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ", \"the nephesh is not filled.\" In ",
+          "target": " : « le nephesh n'est pas rassasié ». En ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", \"strong of nephesh\" is translated \"greedy.\" Nephesh means originally \"breath,\" hence \"the soul,\" psuche, \"the vital principle,\" \"life\"; therefore in certain expressions referring to the sustaining of life the nephesh hungers (",
+          "target": ", « fort en nephesh » est rendu par « avide ». À l'origine, nephesh signifie « souffle », puis « âme », psuche, « principe vital », « vie ». Dans certaines expressions se rapportant à la conservation de la vie, le nephesh a faim (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "), thirsts (",
+          "target": "), soif (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "), fasts (",
+          "target": "), ou jeûne (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "). Nephesh then comes to mean the seat of the senses, affections, emotions, and to it is ascribed love, joy, desire (compare ",
+          "target": "). Nephesh vient ensuite à désigner le siège des sens, des affections et des émotions : l'amour, la joie et le désir lui sont attribués (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": " the Revised Version, margin; ",
+          "target": " dans la note de la Revised Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": ", where the nephesh \"desires\"). The idea of desire or appetite of the nephesh may include all forms of longing; e.g. lust (",
+          "target": ", où le nephesh « désire »). Le désir du nephesh englobe toutes les formes d'aspiration : la convoitise (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "; \"her desire\" is literally \"the desire of her nephesh\"), the appetite for revenge (",
+          "target": " ; « son désir » est littéralement « le désir de son nephesh »), ou la soif de vengeance (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": ", \"the will of his enemies\" is literally \"the nephesh,\" etc.). The next step is to identify the nephesh with its desire, hence in the cases above nephesh is translated \"appetite.\" In the 4th case (",
+          "target": " ; « la volonté de ses ennemis » traduit littéralement « le nephesh », etc.). On en vient ensuite à identifier nephesh à son désir, d'où « appétit » dans les cas précédents. Dans le quatrième cas (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": ") \"His soul hath appetite\" is a free translation of naphsho shoqeqah, literally \"His soul runneth to and fro.\"",
+          "target": "), « son âme a de l'appétit » traduit librement naphsho shoqeqah, littéralement « son âme court çà et là ».",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "S. F. Hunter",
+          "target": "S. F. Hunter",
+          "action": "preserve",
+          "reason": "Original author byline retained"
+        }
+      ]
+    },
+    {
+      "source_key": "APPLES OF SODOM",
+      "article_id": "isbe-1ff9bd72c83914571335",
+      "source_article_sha256": "7db9ea0c6ae9aefd88f7ff27e73ac954c629c4d879068c9b6f310626999ecc3c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APPLES OF SODOM",
+          "target": "POMMES DE SODOME",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "sod'-um: Josephus (BJ, IV, viii, 4) says that \"the traces (or shadows) of the five cities (of the plain) are still to be seen, as well as the ashes growing in their fruits, which fruits have a color as if they were fit to be eaten; but if you pluck them with your hands they dissolve into smoke and ashes.\" What this \"Dead Sea fruit\" is, is uncertain. The name \"Dead Sea apples\" is often given to the fruit of the Solanum Sodomaean \"a prickly shrub with fruit not unlike a small yellow tomato.\" Cheyne thinks that the fruits referred to by Josephus (compare Tacitus Hist. v.37) may be either",
+          "target": "sod'-um : Josèphe (Guerre des Juifs, IV, viii, 4) dit qu'on « voit encore les traces ou ombres des cinq villes de la Plaine, ainsi que des cendres croissant dans leurs fruits. Ceux-ci présentent une couleur qui les fait paraître comestibles, mais lorsqu'on les cueille, ils se dissolvent en fumée et en cendres. » L'identité de ce « fruit de la mer Morte » est incertaine. Le nom de « pommes de la mer Morte » est souvent appliqué aux fruits du Solanum sodomaean, « arbuste épineux aux fruits semblables à de petites tomates jaunes ». Cheyne estime que les fruits évoqués par Josèphe (comparer Tacite, Histoires, V, 37) pourraient être :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) those of the `osher tree (`usar, Calotropis procera, described by Hasselquist (Travels, 1766)), found in abundance about Jericho and near the Dead Sea, which are filled with dust when they have been attacked by an insect, leaving the skin only entire, and of a beautiful color. Tristram describes the fruit as being \"as large as an apple of average size, of a bright yellow color, hanging three or four together close to the stem\"; or as suggested by Tristram",
+          "target": "(1) Ceux de l'arbre `osher (`usar, Calotropis procera, décrit par Hasselquist dans ses Voyages, 1766), abondant autour de Jéricho et de la mer Morte. Une fois attaqués par un insecte, ces fruits ne conservent que leur enveloppe de belle couleur, l'intérieur étant rempli de poussière. Tristram les décrit comme « aussi grands qu'une pomme moyenne, d'un jaune vif, pendant par groupes de trois ou quatre près de la tige ». Ou bien, comme le suggère également Tristram :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(2) those of the wild colocynth; the fruit is fair of aspect with a pulp which dries up into a bitter powder (EB, article \"Sodom,\" col. 4669, note 2). This colocynth is supposed to be the \"wild vine\" mentioned ",
+          "target": "(2) Ceux de la coloquinte sauvage, d'aspect agréable mais dont la pulpe sèche en une poudre amère (Encyclopedia Biblica, article « Sodom », col. 4669, note 2). Cette coloquinte serait la « vigne sauvage » mentionnée en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ". The \"vine of Sodom\" of ",
+          "target": ". On a supposé que la « vigne de Sodome » de ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " has been supposed to bear the \"Dead Sea fruit\"; but most modern writers regard the passage as figurative.",
+          "target": " portait ce « fruit de la mer Morte », mais la plupart des auteurs modernes considèrent ce passage comme figuré.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "W. L. Walker",
+          "target": "W. L. Walker",
+          "action": "preserve",
+          "reason": "Original author byline retained"
+        }
+      ]
+    },
+    {
+      "source_key": "APPOINT",
+      "article_id": "isbe-2b21543aa871dbd830b6",
+      "source_article_sha256": "06c48eb08a3a0875c766f5b4b5368f1b0230d9ff77f960042a3e0c1e729130b7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APPOINT",
+          "target": "DÉSIGNER ; ÉTABLIR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-point': This word is used for the expression of a large variety of ideas and the translation of almost as many words. naqabh = \"stipulate\" (",
+          "target": "a-point' : Ce mot sert à exprimer une grande variété d'idées et à traduire presque autant de mots. naqabh signifie « stipuler » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). paqadh = \"put into office\" (",
+          "target": ") ; paqadh, « établir dans une fonction » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "); \"select\" (",
+          "target": ") ; « choisir » (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "); \"put in charge\" (",
+          "target": ") ; « charger de » (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "); \"assign\" (",
+          "target": ") ; « attribuer » (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "); \"send\" (",
+          "target": ") ; « envoyer » (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "); \"designate,\" \"select\" (",
+          "target": ") ; « désigner », « choisir » (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "); \"single out\" (",
+          "target": ") ; « distinguer une personne » (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": "). nathan = \"designate,\" \"select\" (",
+          "target": "). nathan signifie « désigner », « choisir » (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": " the King James Version; ",
+          "target": " dans la King James Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": " the King James Version; ",
+          "target": " dans la King James Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": "); \"set aside\" (",
+          "target": ") ; « mettre à part » (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": "). shith = \"designate,\" \"select\" (",
+          "target": "). shith, « désigner », « choisir » (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": "). So also `amadh (",
+          "target": "). De même `amadh (",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": "); so shalach (",
+          "target": ") ; shalach (",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": "); qarah (",
+          "target": ") ; qarah (",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": "). tsawah = \"choose\" (",
+          "target": "). tsawah, « choisir » (",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": "). bachar = \"select\" (",
+          "target": "). bachar, « sélectionner » (",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": " the King James Version). 'amar = \"command\" (",
+          "target": " dans la King James Version). 'amar, « ordonner » (",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "tail",
+          "source": " the King James Version). tithemi = \"designate,\" \"select\" (",
+          "target": " dans la King James Version). tithemi, « désigner », « sélectionner » (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": "). A careful reading of the above passages will bring to mind the doctrine that with reference to the world's work, God Himself calls men into office, selecting them from among the multitude and setting them aside for His special purposes; and that He calls to His assistance not only men but also events and forces of Nature (",
+          "target": "). Une lecture attentive de ces passages fera penser à cet enseignement : pour l'œuvre du monde, Dieu lui-même appelle les hommes à des fonctions, les choisit parmi la multitude et les met à part pour ses desseins particuliers ; il appelle à son service non seulement des hommes, mais aussi des événements et des forces de la nature (",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "Frank E. Hirsch",
+          "target": "Frank E. Hirsch",
+          "action": "preserve",
+          "reason": "Original author byline retained"
+        }
+      ]
+    },
+    {
+      "source_key": "APPROVE",
+      "article_id": "isbe-cc2c8cf33925246ead85",
+      "source_article_sha256": "966a2ac99991d3cad10830a1e27f5f4a6eeab0ceddce102fda5a4d99deeda334",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APPROVE",
+          "target": "APPROUVER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-proov': This word, as ordinarily used, means \"to entertain a favorable opinion concerning\" (",
+          "target": "a-proov' : Dans son emploi ordinaire, ce mot signifie « avoir une opinion favorable de » (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). Its Biblical and archaic use conveys a much stronger meaning and is equivalent to its use in legal formalities of today, \"to approve a bill,\" i.e. by some act, generally a signature, to express approval. In New Testament, a number of times, for Greek dokimazo, \"to test, try, make proof of,\" and its derivative, dokimos, \"tested,\" \"tried.\" The word will, in almost every ease, imply that the proof is victoriously demonstrated, the proved is also approved, just as in English we speak of \"tried men\" (Trench, Greek Synonyms of New Testament). It is the word most frequently used for the testing of ores. That which does not stand the test is adokimos, \"reprobate.\" Compare ",
+          "target": "). Son emploi biblique et ancien est bien plus fort : il rejoint les formalités juridiques modernes, « approuver un projet de loi », c'est-à-dire manifester son accord par un acte, généralement une signature. Dans le Nouveau Testament, on le trouve plusieurs fois pour le grec dokimazo, « tester », « éprouver », « mettre à l'essai », et son dérivé dokimos, « éprouvé ». Le mot suppose presque toujours une épreuve victorieusement surmontée : ce qui a été éprouvé est donc approuvé, comme dans « hommes éprouvés » (Trench, Greek Synonyms of the New Testament). Il était très employé pour vérifier les minerais. Ce qui ne réussit pas l'épreuve est adokimos, « réprouvé ». Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " King James Version: \"reprobate silver.\" That which stands the test is dokimos, \"approved.\" \"Salute Apelles the approved in Christ\" (",
+          "target": " dans la King James Version : « argent réprouvé ». Ce qui passe l'épreuve est dokimos, « approuvé ». « Saluez Apellès, approuvé en Christ » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "); \"they that are approved\" (",
+          "target": ") ; « ceux qui sont approuvés » (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "); \"Present thyself approved unto God\" (",
+          "target": ") ; « Présente-toi devant Dieu comme un homme approuvé » (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "); when he hath been \"approved\" (",
+          "target": ") ; « lorsqu'il aura été approuvé » (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "). See also ",
+          "target": "). Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "H. E. Jacobs",
+          "target": "H. E. Jacobs",
+          "action": "preserve",
+          "reason": "Original author byline retained"
+        }
+      ]
+    },
+    {
+      "source_key": "APRON",
+      "article_id": "isbe-bec35402bab96089be52",
+      "source_article_sha256": "7224bacb050304374c919e34037a7964ce47f638cfd807bb056958fcb5ef74bb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APRON",
+          "target": "TABLIER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-prun: Appears only in ",
+          "target": "a'-prun : Ce terme n'apparaît que dans ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " English Versions. English na-prun, North of England nap-peon, from Low Latin, through French nape, nappe, \"napkin.\" The \"n\" was dropped owing to false division of the article a from the noun; thus \"a napron\" became \"an apron:\" In ",
+          "target": " dans les versions anglaises. Le mot anglais vient de na-prun, ou nap-peon dans le nord de l'Angleterre, par le bas latin et le français nape, « nappe », « serviette ». Le « n » a disparu par une division erronée de l'article : « a napron » devint « an apron ». En ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " it is used to translate a Hebrew word rendered \"girdles\" in Revised Version margin: \"And they sewed fig-leaves together and made themselves aprons.\" In ",
+          "target": ", il traduit un mot hébreu rendu par « ceintures » dans la note marginale de la Revised Version : « Ils cousirent des feuilles de figuier et s'en firent des tabliers. » En ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " simikinthia, stands for semicinctia, which is really a Latin word meaning \"half-girdle,\" i.e. girdles going only half round the body and covering the front of the person: \"Unto the sick were carried away from his (Paul's) body handkerchiefs (soudaria, rendered \"napkins\" ",
+          "target": ", simikinthia vient du latin semicinctia, littéralement « demi-ceinture », c'est-à-dire une ceinture ne faisant qu'à moitié le tour du corps et couvrant sa partie antérieure : « On portait aux malades, après les avoir pris sur son corps [celui de Paul], des mouchoirs » (soudaria, traduit par « serviettes » en ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ") or aprons.\" The word denotes here, probably, a workman's apron, perhaps those of Paul himself; though it seems more natural to suppose that the people brought their own \"handkerchiefs\" or \"aprons\" to Paul to secure the miraculous effect desired. The garments, at any rate, were such as could be easily removed and carried back and forth. (See Rich, Dict. of Roman and Greek Ant, under the word, for illust.; also Pope's Lexicon, under the word).",
+          "target": ") « ou des tabliers ». Il s'agit probablement de tabliers d'artisans, peut-être ceux de Paul ; cependant, il paraît plus naturel que les gens aient apporté leurs propres « mouchoirs » ou « tabliers » à Paul pour obtenir l'effet miraculeux souhaité. Ces vêtements étaient en tout cas assez faciles à enlever et à transporter (voir Rich, Dictionary of Roman and Greek Antiquities, à cet article, pour des illustrations ; également le Lexicon de Pope).",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "George B. Eager",
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Source author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "ARAD",
+      "article_id": "isbe-2ec11aaed0d4dae42374",
+      "source_article_sha256": "1060549ec74ecc996ed2504c9d27d8e98cef504167eaafba694bbf21d37e8fb9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAD",
+          "target": "ARAD",
+          "action": "preserve",
+          "reason": "Original canonical headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-rad (`aradh; Arad):",
+          "target": "a'-rad (`aradh ; Arad) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A city mentioned four times in the Old Testament. In the King James Version it is twice mistakenly rendered as the name of a king (",
+          "target": "(1) Ville mentionnée quatre fois dans l'Ancien Testament. La King James Version la prend deux fois, à tort selon l'auteur, pour le nom d'un roi (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). Three times it is spoken of as in the South Country, one mention using the phrase `the wilderness of Judah which is in the South Country of Arad' (",
+          "target": "). À trois reprises, elle est située dans le pays du Sud ; un passage parle du « désert de Juda dans le pays du Sud d'Arad » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "), that is, the part of the wilderness of Judah which is in the South Country near Arad. It was situated near the frontier of Judah and Simeon, being grouped with Debir, Hormah, Makkedah, etc. (",
+          "target": "), c'est-à-dire la partie du désert de Juda proche d'Arad. Elle se trouvait près de la frontière de Juda et Siméon, dans un groupe comprenant Debir, Horma, Makkéda, etc. (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "). Arad and other cities joined in attacking Israel in the fortieth year of the sojourn in the wilderness (",
+          "target": "). Arad et d'autres villes participèrent à l'attaque contre Israël lors de la quarantième année au désert (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "), and Israel vowed to \"make their cities a devoted thing.\" In the case of Zephath, one of the cities, this vow was fulfilled after the death of Joshua (",
+          "target": ") ; Israël fit alors le vœu de « vouer leurs villes à l'interdit ». Pour Tsephath, l'une de ces villes, ce vœu fut accompli après la mort de Josué (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "). The Kenite relatives of Moses had their inheritance near Arad (",
+          "target": "). Les parents kénites de Moïse reçurent un héritage près d'Arad (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "). In the form a-ru-da the city is mentioned by Shishak of Egypt as among the places which he conquered in Palestine. The identification of the site with Tel Arad, about 17 miles South of Hebron, seems to be generally accepted.",
+          "target": "). Sous la forme a-ru-da, la ville figure parmi les lieux palestiniens conquis par Shishak d'Égypte. Son identification à Tel Arad, à environ dix-sept milles au sud d'Hébron, est généralement admise.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(2) One of the descendants of Elpaal the son of Shaharaim, mentioned among the descendants of Benjamin (",
+          "target": "(2) Descendant d'Elpaal, fils de Shaharaïm, mentionné parmi la postérité de Benjamin (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "Willis J. Beecher",
+          "target": "Willis J. Beecher",
+          "action": "preserve",
+          "reason": "Source author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "ARIOCH",
+      "article_id": "isbe-f5e19b1c232012789266",
+      "source_article_sha256": "9c107ab7e74bb6cfd5c293dc60ca2862747c860c0ec12a6d83ceb8287bcb0d1c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARIOCH",
+          "target": "ARIOCH",
+          "action": "preserve",
+          "reason": "Original canonical headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-i-ok: ('aryokh):",
+          "target": "ar'-i-ok ('aryokh) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) The name of the vassal king of Ellasar, under Chedorlaomer, king of Elam, and Amraphel, king of Shinar (Babylonia), who took part in the expedition against Sodom, Gomorrah and other states (",
+          "target": "(1) Nom d'un roi vassal d'Ellasar, dépendant de Kedorlaomer, roi d'Élam, et d'Amraphel, roi de Shinéar (Babylonie), qui prit part à l'expédition contre Sodome, Gomorrhe et d'autres cités (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). Assyriologists generally, and probably rightly, identify Arioch with Eri-Aku (which see), king of Larsa, Ellasar being for Al-Larsa (now Sinqara in central Babylonia).",
+          "target": "). Les assyriologues identifient généralement, et probablement à juste titre selon cette notice ancienne, Arjoc à Eri-Aku (voir cet article), roi de Larsa ; Ellasar représenterait Al-Larsa, actuellement Sinqara, en Babylonie centrale.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "Texts Referring to the Reign of Arioch:",
+          "target": "Textes relatifs au règne d'Arjoc :",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "For an account of the expedition see ",
+          "target": "Pour le récit de l'expédition, voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "AMRAPHEL",
+          "target": "AMRAPHEL",
+          "action": "preserve",
+          "reason": "Original canonical proper name or author byline"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ", and for the Babylonian texts bearing upon the reign, see ",
+          "target": " ; pour les textes babyloniens se rapportant au règne, voir ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "ERI-AKU",
+          "target": "ERI-AKU",
+          "action": "preserve",
+          "reason": "Original canonical proper name or author byline"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ". In ",
+          "target": ". En ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": ", where the names of the allied kings who marched against the Cities of the Plain are given, that of Arioch follows his more immediate suzerain, Amraphel, and not Chedorlaomer, who, however, appears to have been the real overlord (verse 4), which agrees with the indications of the Bah records. No details of the expedition are available from Babylonian sources. Besides Larsa, Eri-Aku's inscriptions inform us that Ur (Muqayyar, Mugheir) was in the principality of which Larsa was the capital.",
+          "target": ", dans la liste des rois alliés ayant marché contre les villes de la Plaine, Arjoc est nommé après son suzerain le plus direct, Amraphel, et non Kedorlaomer, qui paraît pourtant avoir été le véritable souverain dominant (verset 4), ce qui concorde avec les indications des documents de Bah. Les sources babyloniennes ne donnent aucun détail de l'expédition. Les inscriptions d'Eri-Aku montrent qu'outre Larsa, Ur (Mouqayyar, Mugheir) faisait partie de la principauté dont Larsa était la capitale.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "(2) The Arioch of ",
+          "target": "(2) L'Arjoc de ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": " was captain of the bodyguard of King Nebuchadnezzar. Nothing else is known about him except that it was he who was commanded to slay the \"wise men\" who failed to repeat to the king his dream and its interpretation; and who communicated to his royal master that Daniel had undertaken the task.",
+          "target": " était capitaine de la garde du corps du roi Nabuchodonosor. On ne sait rien d'autre sur lui, sinon qu'il reçut l'ordre de tuer les « sages » incapables de rappeler au roi son songe et son interprétation, et qu'il informa le souverain que Daniel acceptait cette tâche.",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "T. G. Pinches",
+          "target": "T. G. Pinches",
+          "action": "preserve",
+          "reason": "Source author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "ARISTARCHUS",
+      "article_id": "isbe-40e205cf33324c2d4ee9",
+      "source_article_sha256": "d243129709a9bfeb1a46bc2ac7b6802646c0c199d31c56685f413ca25fbadd0f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARISTARCHUS",
+          "target": "ARISTARQUE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-is-tar'-kus (Aristarchos, \"best ruler\"): He was one of those faithful companions of the apostle Paul who shared with him his labors and sufferings. He is suddenly mentioned along with Gaius as having been seized by the excited Ephesians during the riot stirred up by the silversmiths (",
+          "target": "ar-is-tar'-kus (Aristarchos, « meilleur dirigeant ») : L'un des fidèles compagnons de l'apôtre Paul, qui partagea ses travaux et ses souffrances. Il est mentionné soudain avec Gaïus, tous deux saisis par les Éphésiens en colère lors de l'émeute suscitée par les orfèvres (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). They are designated \"men of Macedonia, Paul's companions in travel.\" We learn later that he was a native of Thessalonica (",
+          "target": "). Ils sont appelés « Macédoniens, compagnons de voyage de Paul ». On apprend ensuite qu'Aristarque venait de Thessalonique (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). They were probably seized to extract from them information about their leader Paul, but when they could tell nothing, and since they were Greeks, nothing further was done to them.",
+          "target": "). Ils furent probablement arrêtés dans l'espoir d'obtenir des informations sur Paul, mais comme ils ne purent rien révéler et qu'ils étaient Grecs, on ne leur fit rien de plus.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "When Aristarchus attached himself to Paul we do not know, but he seems ever after the Ephesian uproar to have remained in Paul's company. He was one of those who accompanied Paul from Greece via Macedonia (",
+          "target": "On ignore quand Aristarque s'attacha à Paul ; il semble être resté auprès de lui depuis les troubles d'Éphèse. Il faisait partie de ceux qui accompagnèrent Paul de Grèce en passant par la Macédoine (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "). Having preceded Paul to Troas, where they waited for him, they traveled with him to Palestine. He is next mentioned as accompanying Paul to Rome (",
+          "target": "). L'ayant précédé à Troas où ils l'attendirent, ils voyagèrent avec lui jusqu'en Palestine. Il est ensuite cité comme compagnon de Paul vers Rome (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). There he attended Paul and shared his imprisonment. He is mentioned in two of the letters of the Roman captivity, in the Epistle to the church at ",
+          "target": "). Là, il assista Paul et partagea sa captivité. Il figure dans deux lettres de cette captivité : l'épître à l'Église de ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", and in the Epistle to Phm (",
+          "target": " et l'épître à Philémon (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "), in both of which he sends greetings. In the former Paul calls him \"my fellow-prisoner.\" According to tradition he was martyred during the persecution of Nero.",
+          "target": "). Dans les deux, il adresse ses salutations ; dans la première, Paul le nomme « mon compagnon de captivité ». Selon la tradition, il aurait subi le martyre sous la persécution de Néron.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "S. F. Hunter",
+          "target": "S. F. Hunter",
+          "action": "preserve",
+          "reason": "Source author byline"
+        }
+      ]
+    },
+    {
+      "source_key": "ARM",
+      "article_id": "isbe-316dddc5a44e6bf78986",
+      "source_article_sha256": "7889a62b945f68b54771f12deaa7679cd96edba358c2b177e8e30c28e014c6d8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARM",
+          "target": "BRAS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "arm (zeroa`, 'ezroa`, dera`; brachion; chotsen, katheph): The usual form is zeroa` from the root zara`, \"to spread.\" The arm may be \"stretched out.\" 'Ezroa` is this form with prosthetic 'aleph (",
+          "target": "arm (zeroa`, 'ezroa`, dera` ; brachion ; chotsen, katheph) : La forme habituelle est zeroa`, de la racine zara`, « étendre ». Le bras peut être « étendu ». 'Ezroa` est la même forme avec un aleph prosthétique (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), and dera` is the Aramaic form. Chotsen is really \"bosom,\" thus the Revised Version (British and American) (",
+          "target": ") ; dera` est sa forme araméenne. Chotsen signifie en fait « sein » ou « poitrine », ce que donne la Revised Version (britannique et américaine) (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); and katheph is \"shoulder,\" thus the Revised Version (British and American) (",
+          "target": ") ; katheph signifie « épaule », comme dans la Revised Version (britannique et américaine) (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). Compare cheir, also, in ",
+          "target": "). Comparer également cheir en ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "Figurative: The arm denotes influence, power, means of support or conquest. The arms of Moab (",
+          "target": "Au figuré : Le bras représente l'influence, la puissance, les moyens de soutien ou de conquête. Les bras de Moab (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ") and of Pharaoh (",
+          "target": ") et de Pharaon (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " ff) are broken. The arm of Eli and the arm of his father's house are to be cut off (",
+          "target": " et suiv.) sont brisés. Le bras d'Éli et celui de la maison de son père doivent être coupés (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "). Because the arm wielded the sword it signified \"oppression\" (",
+          "target": "). Parce qu'il brandit l'épée, le bras symbolise l'« oppression » (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "). The arms are the means of support, therefore to refuse to aid the fatherless is to break their arms (",
+          "target": "). Le bras soutient ; ainsi, refuser de secourir les orphelins, c'est leur briser le bras (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "Applied anthropomorphically to God, the arm denotes also His power, power to deliver, support, conquer. His \"outstretched arm\" delivered Israel from Egypt (",
+          "target": "Appliqué à Dieu de manière anthropomorphique, le bras désigne sa puissance pour délivrer, soutenir et vaincre. Son « bras étendu » délivra Israël de l'Égypte (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": ", etc.). They support: \"Underneath are the everlasting arms\" (",
+          "target": " et autres passages). Il soutient : « Au-dessous de toi sont les bras éternels » (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "). His arm protects (",
+          "target": "). Son bras protège (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "). Yahweh is sometimes likened to a warrior and smites with His arm (",
+          "target": "). Yahvé est parfois comparé à un guerrier qui frappe de son bras (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "). The arm of Yahweh is holy (",
+          "target": "). Le bras de Yahvé est saint (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": "). Many other passages of Scripture might be quoted showing how the power of God to redeem, judge, protect, punish is expressed by the idea of \"the arm of Yahweh.\"",
+          "target": "). Bien d'autres passages montreraient comment le « bras de Yahvé » exprime sa puissance pour racheter, juger, protéger et punir.",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "S. F. Hunter",
+          "target": "S. F. Hunter",
+          "action": "preserve",
+          "reason": "Source author byline"
+        }
+      ]
+    }
+  ]
+}
