@@ -1,0 +1,33 @@
+name: Temporary French pilot source inspection (remove before merge)
+on:
+  push:
+    paths:
+      - '.github/workflows/fr-pilot-source-inspection.yml'
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Expose immutable source spans for remaining pilot entries
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts.select_translation_pilot import select
+          from scripts.apply_translation_pilot import text_units, preserve_immutable
+          from scripts.validate_translation_identity import read_body
+          source=Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml')
+          roster=select(source)
+          existing=json.loads(Path('workspace/pilots/isbe-1915-fr/draft-patches.json').read_text(encoding='utf-8'))
+          completed={x['article_id'] for x in existing['articles']}
+          _,body=read_body(source)
+          for row in roster['articles']:
+              if row['article_id'] in completed: continue
+              article=body[row['source_position']]
+              units=list(text_units(article))
+              print('SOURCE_ARTICLE='+json.dumps({'key':row['source_key'],'id':row['article_id'],'sha':row['source_article_sha256'],'units':len(units)},ensure_ascii=False))
+              for n,node,part,value in units:
+                  print('SOURCE_NODE='+json.dumps({'key':row['source_key'],'n':n,'part':part,'tag':node.tag.split('}')[-1],'value':value,'immutable':preserve_immutable(node,part)},ensure_ascii=False))
+          PY
