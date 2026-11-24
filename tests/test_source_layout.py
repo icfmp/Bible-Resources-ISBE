@@ -87,7 +87,17 @@ class CleanSourceTreeTests(unittest.TestCase):
                                 "compiled_candidate_in_unpublished_actions_artifact")
         if distribution.get("temporary_actions_binary_deleted"):
             self.assertNotIn("actions_artifact",distribution["status"])
-        self.assertFalse(record["rights"]["redistribution_allowed"])
+        # 2026-11-24 owner policy: CrossWire declared PD is the accepted
+        # project distribution basis. The independent legal audit was waived,
+        # not falsely represented as completed. Release still unpublished.
+        rights=record["rights"]
+        self.assertEqual(rights["upstream_declared_license"],"Public Domain")
+        self.assertTrue(rights["redistribution_allowed"])
+        self.assertTrue(rights["owner_distribution_basis_accepted"])
+        self.assertFalse(rights["further_legal_review_required_for_publication"])
+        self.assertFalse(rights["independent_jurisdictional_legal_review_completed"])
+        self.assertIsNone(rights["derivatives_cleared"])
+        self.assertFalse(read_json(folder/"SOURCE_VALIDATION.json")["rights_cleared"])
 
     def test_no_active_script_or_workflow_uses_retired_paths(self):
         disallowed=("cleaned/en/","sources/crosswire/","sources/print/","modern/en/")

@@ -94,7 +94,10 @@ Do not add guessed content to make a GUI test pass.
 
 ## Release boundary
 
-Successful native SWORD validation and two-reader GUI checks do not grant
-copyright or redistribution clearance. Keep publication and catalog changes
-blocked until the source-specific rights review and owner sign-off are
-completed. Preserve original source and corrected historical master bytes.
+For **ISBE 1915**, the owner has explicitly accepted CrossWire's declared
+Public Domain status and the historical edition as the project's distribution
+basis; no further jurisdiction-specific rights audit is a release prerequisite.
+This is not a claim that one was carried out. Publication and catalogue changes
+still require completion or documented acceptance of outstanding technical and
+editorial reader limitations, and owner authorization of the actual release.
+Preserve original source and corrected historical master bytes.
