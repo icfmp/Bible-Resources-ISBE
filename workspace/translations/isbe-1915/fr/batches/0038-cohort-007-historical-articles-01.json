@@ -3,7 +3,7 @@
   "source_work": "ISBE 1915 — corrected historical English master",
   "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "language": "fr",
-  "status": "translation_in_progress",
+  "status": "unreviewed_drafts",
   "publication_permitted": false,
   "articles": [
     {
@@ -1556,42 +1556,43 @@
       "source_key": "AEON",
       "article_id": "isbe-5b32d2f819b8e0ef2b8a",
       "source_article_sha256": "72a2eb8c8116b37d83f53077c64784748f08d0efba212b302ba07934f5588ed4",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AEON",
-          "target": "",
-          "action": "pending_translation"
+          "target": "ÉON",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "e'-on: This word originally meant \"duration,\" \"dispensation.\" In the philosophy of Plato and Aristotle the word is aion, from which this word is transliterated. In the Gnostic philosophy it has a special meaning and is there used to solve the problem of the world order. In the infinite separation between God and the world, it was taught, there must of necessity be mediating powers. These powers are the eons and are the successive emanations from God from eternity. They are spiritual, existing as distinct entities. They constituted the Divine fullness or the Divine Pleroma. The name was applied to these beings for two reasons: because they were thought to partake of the eternal existence of God and because they were supposed to govern the various ages. The idea of the eons in various forms may be found in nearly all oriental philosophy that attempted to deal with the problem of the world order. It appears in the writings of Philo, in Shintoism, in the old Zoroastrian religion.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "e'-on : À l'origine, ce mot désignait une « durée » ou une « dispensation ». Chez Platon et Aristote, on trouve le terme aion, dont « éon » est la transcription. La philosophie gnostique lui donne un sens spécial pour traiter le problème de l'ordre du monde. Selon cette doctrine, la séparation infinie entre Dieu et le monde exige nécessairement l'existence de puissances médiatrices. Ces puissances, appelées « éons », sont des émanations successives de Dieu depuis l'éternité. Entités spirituelles distinctes, elles forment la plénitude divine, ou Plérôme. Leur nom s'explique de deux manières : on leur attribuait une participation à l'existence éternelle de Dieu et le gouvernement des différents âges. Sous diverses formes, cette conception se retrouve dans presque toutes les philosophies orientales cherchant à expliquer l'ordre du monde. Elle apparaît chez Philon, dans le shintoïsme et dans l'ancienne religion zoroastrienne.",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "See ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Voir ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "GNOSTICISM",
-          "target": "",
-          "action": "pending_translation"
+          "target": "GNOSTICISME",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "Jacob W. Kapp",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Jacob W. Kapp",
+          "action": "preserve",
+          "reason": "Original author, proper name or historical transliteration retained"
         }
       ]
     },
@@ -1599,70 +1600,71 @@
       "source_key": "AFFIRM; AFFIRMATIVES",
       "article_id": "isbe-be23e7dcdae0a93287dc",
       "source_article_sha256": "4612023c82cbdee31bdec1df567aa3e95d6dd1a725cf7a7ca499d584205abe60",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AFFIRM; AFFIRMATIVES",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AFFIRMER ; FORMULES AFFIRMATIVES",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-fur'-ma-tivs (diischurizomai). The verb \"affirm\" occurs in several passages of the New Testament in the sense of \"assert\" ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-fur'-ma-tivs (diischurizomai) : Le verbe « affirmer » figure dans plusieurs passages du Nouveau Testament au sens de « soutenir » ou « déclarer » : ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": " pha-sko; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " phasko ; ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " phemi; 1Ti 17, ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " phemi ; 1Ti 17 [référence ainsi imprimée dans le texte source], ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "tail",
           "source": " diabebaioomai. The Hebrew does not employ affirmative particles, but gives a positive reply by either repeating the word in question or by substituting the first person in the reply for the second person in the question, or by employing the formula: \"Thou hast said\" or \"Thou hast rightly said.\" The Saviour used this idiom (su eipas) when answering Judas and Caiaphas (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " diabebaioomai. L'hébreu n'emploie pas de particules d'affirmation : pour répondre positivement, on répète le terme de la question, on substitue dans la réponse la première personne à la deuxième de la question, ou l'on utilise la formule « Tu l'as dit » ou « Tu as dit justement ». Le Sauveur a employé cet idiome (su eipas) en répondant à Judas et à Caïphe (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": "). A peculiar elegance occasionally attaches to the interpretation of the Scriptures because of their use of an affirmative and a negative together, rendering the sense more emphatic; sometimes the negative occurs first, as in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). La combinaison d'une affirmation et d'une négation peut donner à l'Écriture une vigueur particulière. La négation vient parfois en premier, comme en ",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": ": \"I shall not die, but live\"; sometimes the affirmative precedes, as in Isa 88:1: \"Thou shalt die, and not bye\" ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « Je ne mourrai pas, mais je vivrai » ; parfois l'affirmation précède, comme en Ésaïe 88:1 [référence de la source anglaise] : « Tu mourras et ne bye » [texte manifestement altéré dans la source]. En ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": " is made peculiarly emphatic because of the negative placed between two affirmatives: \"And he confessed, and denied not; and he confessed, I am not the Christ.\"",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", le propos est particulièrement marqué par une négation placée entre deux affirmations : « Il confessa et ne nia pas ; il confessa : Je ne suis pas le Christ. »",
+          "action": "translate"
         },
         {
           "node": 12,
           "part": "text",
           "source": "Frank E. Hirsch",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Frank E. Hirsch",
+          "action": "preserve",
+          "reason": "Original author, proper name or historical transliteration retained"
         }
       ]
     },
@@ -1670,63 +1672,64 @@
       "source_key": "AFRESH",
       "article_id": "isbe-3719af81f8028d02fb39",
       "source_article_sha256": "dd7b877b8668317de459eb8f358f76201614b1f34e030421e69928987e90eb28",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AFRESH",
-          "target": "",
-          "action": "pending_translation"
+          "target": "DE NOUVEAU",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-fresh': Only in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-fresh' : Se trouve uniquement en ",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "tail",
           "source": ", \"seeing they crucify to themselves the Son of God afresh,\" where it stands for the prefix of the Greek anastaurountas. It has been disputed whether in this word ana has the reiterative force (\"again,\" \"anew\"). In classical Greek anastauroo has always the simple sense of \"to crucify,\" (ie. \"to rinse up on a cross,\" ana being merely \"up\"). So some would render it here (eg. Cremer, Lexicon of New Testament Greek). Against this it is argued",
-          "target": "",
-          "action": "pending_translation"
+          "target": " : « puisqu'ils crucifient pour eux-mêmes le Fils de Dieu de nouveau », où il traduit le préfixe du grec anastaurountas. On discute la question de savoir si ana possède ici une valeur de répétition (« encore », « de nouveau »). En grec classique, anastauroo a toujours le sens simple de « crucifier », c'est-à-dire « élever sur une croix », ana n'indiquant que « vers le haut ». Certains proposent donc ce sens en Hébreux (par exemple Cremer, Lexicon of New Testament Greek). On objecte :",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "text",
           "source": "(1) that the classical writers had no occasion for the idea of crucifying anew (compare Winer, De verb. Comp., etc., Pt III, 9 ff, Leipzig, 1843);",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) Que les auteurs classiques n'avaient guère l'occasion d'envisager l'idée de crucifier quelqu'un une seconde fois (comparer Winer, De verbis compositis, III, § 9 et suiv., Leipzig, 1843).",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "text",
           "source": "(2) that in many compounds ana signifies both \"up\" and \"again,\" as in anablepo, which means \"to recover sight\" as well as \"to look up\";",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) Que, dans de nombreux verbes composés, ana signifie à la fois « vers le haut » et « de nouveau », comme anablepo, qui veut dire « retrouver la vue » aussi bien que « lever les yeux ».",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "text",
           "source": "(3) that the rendering \"crucify afresh\" suits the context;",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) Que « crucifier de nouveau » convient au contexte.",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "(4) that the Greek expositors (eg. Chrysostom) take it so without questioning. (So also Bleek, Lunemann, Alford, Westcott; compare the Vulgate's rursum crucifigentes.)",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(4) Que les commentateurs grecs, Chrysostome par exemple, comprennent ainsi le mot sans soulever de difficulté ; de même Bleek, Lünemann, Alford et Westcott (comparer le rursum crucifigentes de la Vulgate).",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "D. Miall Edwards",
-          "target": "",
-          "action": "pending_translation"
+          "target": "D. Miall Edwards",
+          "action": "preserve",
+          "reason": "Original author, proper name or historical transliteration retained"
         }
       ]
     },
@@ -1734,70 +1737,71 @@
       "source_key": "AGREE",
       "article_id": "isbe-04b7bc89ad244127a277",
       "source_article_sha256": "2ba5723ce493a1e29d4be18db99cbcaa8a1acaf624350474f486b88049f32394",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AGREE",
-          "target": "",
-          "action": "pending_translation"
+          "target": "S'ACCORDER",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a-gre' (sumphoneo, \"to be of the same mind,\" \"to come to a mutual understanding\"): This is the sense of the word in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a-gre' (sumphoneo, « être du même avis », « parvenir à une entente mutuelle ») : Tel est le sens du mot en ",
+          "action": "translate"
         },
         {
           "node": 4,
           "part": "tail",
           "source": ", and other passages. In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et ailleurs. En ",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": " the word is isos and has the thought not only that their words did not agree, but also that the testimony was not in agreement with or equal to what the law required in such a case. The thought of being equal occurs also in  ",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", le mot grec est isos ; il exprime non seulement la discordance de leurs paroles, mais aussi le fait que les témoignages n'étaient pas conformes ni équivalents à ce que la Loi exigeait en pareil cas. La notion d'égalité se retrouve en ",
+          "action": "translate"
         },
         {
           "node": 7,
           "part": "text",
           "source": "The figurative use of the word in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "L'emploi figuré du mot en ",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "tail",
           "source": " makes it of special interest. The word there is sumphoneo, from which comes our word symphony, meaning a harmonious blending. This agreement therefore is complete. Three persons are introduced: two human beings and the Father. They are in perfect agreement on the subject or purpose under consideration. It is therefore an inward unity produced by the Holy Spirit leading the two into such an agreement with the Father. There will follow then, as a matter of course, what is promised in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " est particulièrement intéressant. Le verbe est sumphoneo, à l'origine du mot « symphonie », qui signifie mélange harmonieux. L'accord est donc complet. Trois personnes interviennent : deux êtres humains et le Père. Elles sont en parfaite harmonie quant au sujet ou au but considéré. Il s'agit d'une unité intérieure produite par le Saint-Esprit, conduisant les deux personnes à s'accorder avec le Père. Ce qui est promis en ",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "tail",
           "source": ". In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " se réalise alors naturellement. En ",
+          "action": "translate"
         },
         {
           "node": 11,
           "part": "tail",
           "source": " it sets forth the justice of Peter in dealing in the same manner in both cases. Ananias and Sapphira were in perfect agreement and equally guilty (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", le mot souligne la justice avec laquelle Pierre traite les deux situations de la même manière. Ananias et Saphira s'étaient pleinement accordés et étaient également coupables (",
+          "action": "translate"
         },
         {
           "node": 14,
           "part": "text",
           "source": "Jacob W. Kapp",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Jacob W. Kapp",
+          "action": "preserve",
+          "reason": "Original author, proper name or historical transliteration retained"
         }
       ]
     },
@@ -1805,133 +1809,134 @@
       "source_key": "AH; AHA",
       "article_id": "isbe-2662154c51ba6d78fcb6",
       "source_article_sha256": "c37bbb5e6ad45aafc4a35c5e8f318e8be811457991b662c1e238f5ec487f28fc",
-      "editorial_status": "translation_in_progress",
+      "editorial_status": "complete_unreviewed_draft",
       "units": [
         {
           "node": 1,
           "part": "text",
           "source": "AH; AHA",
-          "target": "",
-          "action": "pending_translation"
+          "target": "AH ! ; AHA !",
+          "action": "translate"
         },
         {
           "node": 2,
           "part": "text",
           "source": "a, a-ha': Interjections of frequent occurrence in the Old Testament, representing different Hebrew words and different states of feeling.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "a, a-ha' : Interjections fréquentes dans l'Ancien Testament, représentant plusieurs mots hébreux et divers sentiments.",
+          "action": "translate"
         },
         {
           "node": 3,
           "part": "text",
           "source": "(1) 'ahah, expressing complaint and found in the phrase \"Ah, Lord Yahweh\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(1) 'ahah exprime la plainte ; il apparaît dans « Ah ! Seigneur Yahvé ! » (",
+          "action": "translate"
         },
         {
           "node": 5,
           "part": "tail",
           "source": " etc.; ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv. ; ",
+          "action": "translate"
         },
         {
           "node": 6,
           "part": "tail",
           "source": " etc.). Elsewhere the word is translated \"alas!\" (",
-          "target": "",
-          "action": "pending_translation"
+          "target": " et suiv.). Ailleurs, le mot est traduit « hélas ! » (",
+          "action": "translate"
         },
         {
           "node": 8,
           "part": "text",
           "source": "(2) 'ach, occurs once (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(2) 'ach se rencontre une seule fois (",
+          "action": "translate"
         },
         {
           "node": 9,
           "part": "tail",
           "source": "), expressing grief in contemplating Israel's destruction.",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), pour exprimer le chagrin à l'idée de la destruction d'Israël.",
+          "action": "translate"
         },
         {
           "node": 10,
           "part": "text",
           "source": "(3) he'ach, usually expresses malicious joy over the reverses of an enemy, and is introduced by the verb \"to say\" (Brown-Driver-Briggs' Lexicon); so in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(3) he'ach exprime habituellement la joie malveillante devant les revers d'un ennemi, et est introduit par le verbe « dire » (lexique Brown-Driver-Briggs) ; ainsi en ",
+          "action": "translate"
         },
         {
           "node": 15,
           "part": "tail",
           "source": "; in the repeated Psalm 40:15; 70:3. It expresses satiety in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; dans les psaumes répétés 40:15 et 70:3. Il marque la satisfaction en ",
+          "action": "translate"
         },
         {
           "node": 16,
           "part": "tail",
           "source": "; and represents the neighing of a horse in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": " ; et représente le hennissement d'un cheval en ",
+          "action": "translate"
         },
         {
           "node": 18,
           "part": "text",
           "source": "(4) hoy, expresses grief or pain, (",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(4) hoy exprime la douleur ou le deuil (",
+          "action": "translate"
         },
         {
           "node": 20,
           "part": "tail",
           "source": "). In ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "). En ",
+          "action": "translate"
         },
         {
           "node": 21,
           "part": "tail",
           "source": " it is translated \"alas!\" More frequently it is used to indicate that a threat of judgment is to follow (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", il est traduit « hélas ! ». Plus souvent, il annonce une menace de jugement (",
+          "action": "translate"
         },
         {
           "node": 23,
           "part": "tail",
           "source": "); or to direct attention to some important announcement (",
-          "target": "",
-          "action": "pending_translation"
+          "target": ") ou attire l'attention sur une proclamation importante (",
+          "action": "translate"
         },
         {
           "node": 24,
           "part": "tail",
           "source": "), where the Hebrew word is translated \"Ho.\"",
-          "target": "",
-          "action": "pending_translation"
+          "target": "), où l'hébreu est rendu par « Holà ! ».",
+          "action": "translate"
         },
         {
           "node": 25,
           "part": "text",
           "source": "(5) Greek oua, in ",
-          "target": "",
-          "action": "pending_translation"
+          "target": "(5) Le grec oua, en ",
+          "action": "translate"
         },
         {
           "node": 26,
           "part": "tail",
           "source": ", used by those who mocked Jesus, as He hung upon the cross. All of these words are evidently imitative of the natural sounds, which spontaneously give expression to these emotions of complaint, grief, pain, exultation, etc.",
-          "target": "",
-          "action": "pending_translation"
+          "target": ", est employé par ceux qui se moquaient de Jésus sur la croix. Tous ces mots imitent manifestement les sons naturels exprimant spontanément plainte, peine, douleur, triomphe, etc.",
+          "action": "translate"
         },
         {
           "node": 27,
           "part": "text",
           "source": "Edward Mack",
-          "target": "",
-          "action": "pending_translation"
+          "target": "Edward Mack",
+          "action": "preserve",
+          "reason": "Original author, proper name or historical transliteration retained"
         }
       ]
     }
