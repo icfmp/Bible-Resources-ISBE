@@ -16,6 +16,12 @@ class SwordRenderedLinkTests(unittest.TestCase):
         self.assertEqual(result["native_sword_href"],"sword://BRISBE1915/ARK%20OF%20BULRUSHES")
         self.assertTrue(result["native_sword_dictionary_link_resolves_to_expected_module"])
         self.assertFalse(result["gui_reader_click_verified"])
+    def test_crosswire_encodes_spaces_as_plus_not_percent20(self):
+        html='<a href="sword://BRISBE1915/ARK+OF+BULRUSHES">ARK OF BULRUSHES</a>'
+        result=verify(SAMPLE,"BRISBE1915",html)
+        self.assertEqual(result["native_sword_href"],"sword://BRISBE1915/ARK+OF+BULRUSHES")
+    def test_plus_literal_requires_percent_encoding(self):
+        self.assertTrue(matches_sword_key("sword://BRISBE1915/A%2BB+C","BRISBE1915","A+B C"))
     def test_rejects_original_invalid_self_work(self):
         html='<a href="sword://self/ARK%20OF%20BULRUSHES">ARK OF BULRUSHES</a>'
         with self.assertRaisesRegex(ValueError,"cannot navigate"):

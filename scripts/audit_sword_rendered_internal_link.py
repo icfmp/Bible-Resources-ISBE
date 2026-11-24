@@ -10,7 +10,7 @@ from html.parser import HTMLParser
 import json
 from pathlib import Path
 import subprocess
-from urllib.parse import unquote, urlsplit
+from urllib.parse import unquote_plus, urlsplit
 
 class HrefReader(HTMLParser):
     def __init__(self):
@@ -31,7 +31,7 @@ def matches_sword_key(href,module_id,key):
     parsed=urlsplit(href)
     return (parsed.scheme.lower()=="sword"
             and parsed.netloc==module_id
-            and unquote(parsed.path.lstrip("/"))==key
+            and unquote_plus(parsed.path.lstrip("/"))==key
             and not parsed.query and not parsed.fragment)
 
 def verify(sample,module_id,rendered_html):
