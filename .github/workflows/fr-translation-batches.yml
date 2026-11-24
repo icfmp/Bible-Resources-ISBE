@@ -44,6 +44,17 @@ jobs:
             --report /tmp/isbe-fr-working-report.json \
             --key ABRAHAM \
             --output /tmp/ABRAHAM-fr-reading-proof.md
+      - name: Inspect generated reading proof for checked-in editorial view (temporary)
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          content=Path('/tmp/ABRAHAM-fr-reading-proof.md').read_text(encoding='utf-8')
+          for offset in range(0, len(content), 3000):
+              print('ISBE_READING_PROOF_CHUNK=' + json.dumps({
+                  'index': offset // 3000, 'value': content[offset:offset + 3000]
+              }, ensure_ascii=False))
+          PY
       - name: Require full draft coverage but never assert editorial approval
         run: |
           python3 - <<'PY'
