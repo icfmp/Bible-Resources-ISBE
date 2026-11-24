@@ -180,3 +180,23 @@ The **latest unpublished draft candidate** (`BRISBE1915-native-workid-draft.tar.
 crosslinks, rebuilt and verified by [run #45346863700](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45346863700).
 The earlier superseded draft binary, retained for provenance, still has the
 old `self:<key>` links and must not be used for eventual publication.
+
+## Additional public-candidate presentation samples (2026-11-24)
+
+The source-attested [script/structure census](../scripts/audit_sword_presentation_samples.py) selects **CHORBE** (Greek characters at source text offset 15), **AMNON** (pointed Hebrew at offset 14) and **ELKOSHITE** (one nested TEI division) from the locked corrected master. The graphical workflow makes real dictionary lookups of all three keys in *both* independent clients and retains six separately named screenshots. Each lookup is cross-checked against the source inventory before execution; an image file is evidence of a real opened UI, not an automatic certification of correct script glyphs or nested section rendering. Independent screenshot review is required and is recorded separately.
+
+Historical original print glyph restoration is still not claimed: the census tests preservation of characters **present in the corrected digital witness**, not the completeness of the 1915 print transcription. The original TEI remains immutable.
+
+### Independent review of six reader screenshots — 2026-11-24
+
+[GUI run #45349111541](https://github.com/icfmp/Bible-Resources-ISBE/actions/runs/45349111541), artifact `BRISBE1915-Xiphos-BibleTime-reader-diagnostics` (ID `14899706367`) includes **six actual screenshots** of the native candidate built from the SHA-pinned corrected TEI master. The images were independently inspected after the runner successfully opened and looked up each article:
+
+| Attested source sample | Xiphos | BibleTime | Limit |
+| --- | --- | --- | --- |
+| `CHORBE` (Greek `Χορβέ`, source offset 15) | Original Greek glyphs visible in dictionary pane | Original Greek glyphs visible in main lexicon pane | Only script actually present in the corrected digital source verified |
+| `AMNON` (pointed Hebrew, source offset 14) | Hebrew glyphs and vocalization visible; article prose legible | Hebrew glyphs and vocalization visible; article prose legible | No claim of exhaustive right-to-left typographic or printed-edition parity |
+| `ELKOSHITE` (nested TEI division) | Article prose and numbered internal subsections visible | Article prose and numbered internal subsections visible | Single representative nested article, not all 29 |
+
+The Greek and Hebrew text is readable in both independent readers; the nested example retains its (1)–(3) and (a)–(c) subsection markers in the displayed prose. Headwords may appear duplicated because readers display their own key adjacent to the author's preserved article heading; BibleTime often displays neighboring dictionary articles in the same document. These are reader presentation choices, **not permission to delete original headings**.
+
+The complete source-to-native census independently verifies exactly **11 articles containing Greek codepoints, 10 containing Hebrew codepoints, and 29 containing nested divisions** in the corrected digital witness; all source-attested Unicode characters and nested TEI elements survive the import. This is **not** evidence that every Greek/Hebrew form present in the printed 1915 volumes was recovered from the upstream digitization. Remaining client-specific Bible-reference navigation and Xiphos Book View limitations are described above and should be disclosed in the eventual release.

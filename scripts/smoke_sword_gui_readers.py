@@ -185,7 +185,7 @@ def attempt_scripture_link(reader_name, outdir, result):
     result["scripture_link_click_probe"] = probe
     return probe
 
-def test_reader(reader,outdir,lookup_key,internal_link_key=None,click_fixture=None):
+def test_reader(reader,outdir,lookup_key,internal_link_key=None,click_fixture=None,presentation_fixtures=None):
     name=reader["name"]
     log=outdir/(name+".log")
     env=os.environ.copy()
@@ -379,6 +379,34 @@ def test_reader(reader,outdir,lookup_key,internal_link_key=None,click_fixture=No
             # Diagnostic only: actual pointer event and post-click screenshot.
             # Never infer navigation correctness from process exit or PNG size.
             attempt_scripture_link(name,outdir,result)
+            # Independent real GUI lookups of historically attested Greek,
+            # Hebrew and nested-section source examples. The screenshots are
+            # evidence for visual inspection, NOT self-grading OCR or a claim
+            # of full 1915 printed-script reconstruction.
+            if presentation_fixtures:
+                result["presentation_lookup_probes"]=[]
+                for category,key in presentation_fixtures.items():
+                    if name=="xiphos":
+                        click_at(window,820,420)
+                    else:
+                        click_at_origin(result["window_client_origin"],405,80)
+                    command(["xdotool","key","--clearmodifiers","ctrl+a"],timeout=10)
+                    command(["xdotool","type","--clearmodifiers","--delay","65",key],timeout=15)
+                    command(["xdotool","key","Return"],timeout=10)
+                    time.sleep(3)
+                    path=outdir/(name+"-presentation-"+category+".png")
+                    screen=command(["scrot",str(path)],timeout=15)
+                    captured=(screen.returncode==0 and path.is_file() and path.stat().st_size>1000)
+                    if captured:
+                        result["screenshots"].append(path.name)
+                    result["presentation_lookup_probes"].append({
+                        "category":category,
+                        "source_attested_article_key":key,
+                        "actual_lookup_issued":True,
+                        "screenshot":path.name if captured else None,
+                        "glyphs_or_nested_layout_visually_verified":False,
+                        "requires_independent_image_review":True
+                    })
             if name=="xiphos":
                 result["blocking_first_run_dialog"]=bool(
                     named_window("Welcome to Xiphos") or
@@ -409,6 +437,8 @@ def main():
                         help="Source article containing an early internal link")
     parser.add_argument("--internal-link-click-fixture",default=None,
                         help="Pinned actual screen coordinates grounded in GUI screenshots")
+    parser.add_argument("--presentation-fixtures",default=None,
+                        help="Source-attested article-key set for real Greek Hebrew and nested GUI samples")
     args=parser.parse_args()
     if not os.getenv("DISPLAY") or not os.getenv("SWORD_PATH"):
         raise SystemExit("Require active X display and isolated SWORD_PATH")
@@ -441,12 +471,20 @@ def main():
             point=click_fixture["coordinates"][reader["name"]]
             if not (0<=point["x"]<1440 and 0<=point["y"]<900):
                 raise SystemExit("Invalid pinned Xvfb point for "+reader["name"])
-    readers=[test_reader(r,out,args.lookup_key,args.internal_link_key,click_fixture) for r in READERS]
+    presentations=None
+    if args.presentation_fixtures:
+        presentations=json.loads(Path(args.presentation_fixtures).read_text(encoding="utf-8"))
+        if (not isinstance(presentations,dict) or
+            set(presentations)!={"greek","hebrew","nested"} or
+            any(not isinstance(key,str) or len(key)<3 for key in presentations.values())):
+            raise SystemExit("Presentation fixtures must contain three valid source article keys")
+    readers=[test_reader(r,out,args.lookup_key,args.internal_link_key,click_fixture,presentations) for r in READERS]
     report={
        "schema_version":1,"module":args.module_id,"lookup_key":args.lookup_key,
        "internal_link_candidate_lookup_key":args.internal_link_key,
        "interactive_dictionary_to_dictionary_link_verified":False,
        "internal_encyclopedia_link_click_attempted_in_both_readers":bool(click_fixture),
+       "presentation_lookups_attempted":bool(presentations),
        "scope":"visible_GUI_launch_headword_lookup_and_scripture_pointer_probe",
        "independent_gui_readers":readers,
        "visible_reader_window_count":sum(bool(r["window_found"]) for r in readers),
@@ -470,6 +508,15 @@ def main():
     for reader in readers:
         if not required[reader["name"]].issubset(set(reader["screenshots"])):
             raise SystemExit("Missing readable GUI screenshot for "+reader["name"])
+    if presentations:
+        for reader in readers:
+            probes=reader.get("presentation_lookup_probes",[])
+            if len(probes)!=len(presentations):
+                raise SystemExit("Missing actual presentation lookups for "+reader["name"])
+            for probe in probes:
+                if (probe["source_attested_article_key"]!=presentations[probe["category"]] or
+                    not probe["screenshot"]):
+                    raise SystemExit("Missing source-attested presentation screenshot for "+reader["name"])
     for reader in readers:
         probe = reader.get("scripture_link_click_probe", {})
         # Strictly assert a real UI event and screenshot were produced, but

@@ -27,10 +27,17 @@ jobs:
         run: |
           python scripts/audit_editorial_notices.py workspace/witnesses/crosswire-2.2/ISBE.xml \
             --profile paratext --report workspace/tmp/editorial-paratext.json
+          # Independently check the corrected historical master as well as
+          # the retained original digitization; no text is deleted here.
+          python scripts/audit_editorial_notices.py sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --profile paratext \
+            --expected-sha256 5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c \
+            --report workspace/tmp/editorial-paratext-cleaned.json
       - uses: actions/upload-artifact@v4
         with:
           name: isbe-editorial-notices
           path: |
             workspace/tmp/editorial-notices.json
             workspace/tmp/editorial-paratext.json
+            workspace/tmp/editorial-paratext-cleaned.json
           if-no-files-found: error

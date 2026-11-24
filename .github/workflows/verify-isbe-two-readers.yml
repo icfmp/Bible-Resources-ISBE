@@ -8,6 +8,7 @@ on:
       - scripts/select_isbe_internal_link_samples.py
       - tests/test_isbe_internal_link_samples.py
       - tests/fixtures/isbe-gui-internal-link-click.json
+      - tests/fixtures/isbe-sword-presentation-gui.json
   workflow_dispatch:
 
 permissions:
@@ -47,6 +48,23 @@ jobs:
             --module-id BRISBE1915 \
             --output workspace/tmp/dict-import.xml \
             --report workspace/tmp/dict-import-report.json
+          python3 scripts/audit_sword_presentation_samples.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --adapted workspace/tmp/dict-import.xml \
+            --report workspace/tmp/gui-presentation-source-inventory.json
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          registry=json.loads(Path("workspace/tmp/gui-presentation-source-inventory.json").read_text())
+          fixtures=json.loads(Path("tests/fixtures/isbe-sword-presentation-gui.json").read_text())
+          for kind,key in fixtures.items():
+              candidates={item["key"] for item in registry["gui_candidate_samples"][kind]}
+              if key not in candidates:
+                  raise SystemExit("Presentation sample lacks source provenance: "+kind+"/"+key)
+          assert registry["greek_character_article_count"]==11
+          assert registry["hebrew_character_article_count"]==10
+          assert registry["nested_division_article_count"]==29
+          PY
           python3 scripts/select_isbe_internal_link_samples.py \
             --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
             --adapted workspace/tmp/dict-import.xml \
@@ -207,6 +225,7 @@ jobs:
                 --lookup-key AARON \
                 --internal-link-key "$ISBE_INTERNAL_SAMPLE_KEY" \
                 --internal-link-click-fixture tests/fixtures/isbe-gui-internal-link-click.json \
+                --presentation-fixtures tests/fixtures/isbe-sword-presentation-gui.json \
                 --output-dir workspace/tmp/gui-reader-review
             '
       - name: Upload only GUI launch evidence and strict native validation (NOT full binary)
@@ -217,6 +236,7 @@ jobs:
           path: |
             workspace/tmp/gui-reader-review/GUI_SMOKE.json
             workspace/tmp/gui-internal-link-samples.json
+            workspace/tmp/gui-presentation-source-inventory.json
             workspace/tmp/gui-reader-review/*.log
             workspace/tmp/gui-reader-review/*.png
             workspace/tmp/GUI_NATIVE_VALIDATION.json
