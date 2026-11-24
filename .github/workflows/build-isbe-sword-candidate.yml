@@ -10,6 +10,8 @@ on:
       - tests/test_sword_dictionary_headings.py
       - scripts/audit_sword_reference_targets.py
       - tests/test_sword_reference_targets.py
+      - scripts/audit_sword_presentation_samples.py
+      - tests/test_sword_presentation_samples.py
       - tests/test_sword_dictionary_adapter.py
       - modules/isbe-1915/**
       - sources/cleaned/encyclopedias/en/isbe-1915/**
@@ -22,6 +24,8 @@ on:
       - tests/test_sword_dictionary_headings.py
       - scripts/audit_sword_reference_targets.py
       - tests/test_sword_reference_targets.py
+      - scripts/audit_sword_presentation_samples.py
+      - tests/test_sword_presentation_samples.py
       - tests/test_sword_dictionary_adapter.py
       - modules/isbe-1915/**
       - sources/cleaned/encyclopedias/en/isbe-1915/**
@@ -71,6 +75,14 @@ jobs:
             --adapted workspace/tmp/isbe-sword-import.xml \
             --report workspace/tmp/sword-reference-target-register.json
           python3 -m unittest discover -s tests -p 'test_sword_reference_targets.py' -v
+      - name: Identify source-attested Greek Hebrew and nested GUI fixtures
+        run: |
+          set -euo pipefail
+          python3 scripts/audit_sword_presentation_samples.py \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --adapted workspace/tmp/isbe-sword-import.xml \
+            --report workspace/tmp/sword-gui-source-script-fixtures.json
+          python3 -m unittest discover -s tests -p 'test_sword_presentation_samples.py' -v
       - name: Compile an actual independent zLD binary from the corrected edition
         shell: bash
         run: |
@@ -176,6 +188,7 @@ jobs:
             workspace/tmp/diatheke-render-smoke.json
             workspace/tmp/sword-heading-profile.json
             workspace/tmp/sword-reference-target-register.json
+            workspace/tmp/sword-gui-source-script-fixtures.json
           if-no-files-found: warn
           retention-days: 14
       # No compiled encyclopedia binary is uploaded as an Actions artifact.
