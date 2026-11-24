@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "status": "unreviewed_drafts",
+  "articles": [
+    {
+      "article_id": "isbe-386e0601d9af04930c62",
+      "source_key": "ARK",
+      "source_article_sha256": "6ec0a37bf74660fb5ad98e6138c9c8c4f30311fd0a6b738fa24264e85eb5c377",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARK",
+          "target": "ARCHE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "see ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARK OF BULRUSHES",
+          "target": "ARCHE DE JONCS",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARK OF THE COVENANT",
+          "target": "ARCHE DE L'ALLIANCE",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ARK OF NOAH",
+          "target": "ARCHE DE NOÉ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-6d308b347ae2acddca24",
+      "source_key": "BUL",
+      "source_article_sha256": "33f483fafdfc701b763601625aad8ba131c3747f9c913ce23b198c6746916727",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUL",
+          "target": "BUL",
+          "action": "preserve",
+          "reason": "Historical month name remains unchanged"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bul (bul): Name of the 8th month of the Jewish year (",
+          "target": "bul (bul) : nom du huitième mois de l'année juive (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). It is of Phoenician origin and signifies the month of rain, the beginning of the rainy season.",
+          "target": "). Ce nom est d'origine phénicienne et signifie « mois de la pluie » ; il marque le début de la saison des pluies.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "CALENDAR",
+          "target": "CALENDRIER",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-5adc37c1c33ed6b144e4",
+      "source_key": "CHORBE",
+      "source_article_sha256": "b30c26d5c3e390f13b3d689b8cfc4b8005426eacc862a2d3351a49f92753227c",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHORBE",
+          "target": "CHORBÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kôr'bē (Χορβέ, Chorbē; AV Corbe): Head of a family which returned with Zerubbabel (1 Esd 5 12). The name apparently corresponds to Zaccai in Ezr 2 9 and Neh 7 14.",
+          "target": "kôr'bē (Χορβέ, Chorbē ; AV : Corbe) : chef d'une famille revenue avec Zorobabel (1 Esd 5,12). Le nom correspond apparemment à Zaccaï en Esd 2,9 et Ne 7,14.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-05ca3642d537f78f0e97",
+      "source_key": "DINHABAH",
+      "source_article_sha256": "5f3c97ce92730a83c3238d1ea74b38215635669cc9855f41872a1c0b3c61f744",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "DINHABAH",
+          "target": "DINHABAH",
+          "action": "preserve",
+          "reason": "Historical place name retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "din'-ha-ba, din-ha'-ba (dinhabhah): The royal city of Bela, son of Beor; king of Edom (",
+          "target": "din'-ha-ba, din-ha'-ba (dinhabhah) : cité royale de Béla, fils de Béor, roi d'Édom (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). There may be a resemblance in the name of Hodbat et-Teneib. about 8 miles East of Heshbon; but this is in the land of Moab, and probably much too far to the North. No satisfactory identification has been proposed.",
+          "target": "). Il existe peut-être une ressemblance avec le nom de Hodbat et-Teneib, situé à environ huit milles à l'est de Hesbon ; mais ce lieu se trouve au pays de Moab, probablement beaucoup trop au nord. Aucune identification satisfaisante n'a été proposée.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-855796d27a40ce781770",
+      "source_key": "FERRY-BOAT",
+      "source_article_sha256": "4f90ddecef66237d5be3f474798ea553c26bf11ea4125bc048f3013ca723ed52",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "FERRY-BOAT",
+          "target": "BAC",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "fer'-i-bot (",
+          "target": "fer'-i-bot (",
+          "action": "preserve",
+          "reason": "Historical English pronunciation preserved pending editorial policy"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "SHIPS AND BOATS",
+          "target": "NAVIRES ET EMBARCATIONS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-81c7fff74ef76004b870",
+      "source_key": "FORTUNE",
+      "source_article_sha256": "0504030da1321f83831f69b1e6c42d18817b7c6c206716b54c613be1d6122fe2",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "FORTUNE",
+          "target": "FORTUNE",
+          "action": "preserve",
+          "reason": "French cognate retains source headword"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "for'-tun (Gad): A god of Good Luck, possibly the Hyades.",
+          "target": "for'-tun (Gad) : un dieu de la Chance, peut-être les Hyades.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ASTROLOGY, 10.",
+          "target": "Voir ASTROLOGIE, 10.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-31cb3869faff49e0a75c",
+      "source_key": "IDBASH",
+      "source_article_sha256": "140c81f22024b142909773b0241b64d90bc053aa46ce3afc1e88c86ac0d56a24",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "IDBASH",
+          "target": "IDBASH",
+          "action": "preserve",
+          "reason": "Historical proper name retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "id'-bash (yidhbash, \"honeysweet\"(?)): A man of Judah, one of the sons of the father of Etam (",
+          "target": "id'-bash (yidhbash, « doux comme le miel » [?]) : homme de Juda, l'un des fils du père d'Étam (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; Septuagint \"sons of Etam\").",
+          "target": " ; Septante : « fils d'Étam »).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "article_id": "isbe-04ca4e3de0bae83fcf98",
+      "source_key": "JAVELIN",
+      "source_article_sha256": "dc43c68be7e2497fe432cc3f3bab430496550d902036e35073043fc58b52d252",
+      "editorial_status": "unreviewed_machine_assisted_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "JAVELIN",
+          "target": "JAVELOT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "jav'-lin, jav'-e-lin.",
+          "target": "jav'-lin, jav'-e-lin.",
+          "action": "preserve",
+          "reason": "Historical English pronunciation preserved pending editorial policy"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARMOR",
+          "target": "ARMURE",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ARMS",
+          "target": "ARMES",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
