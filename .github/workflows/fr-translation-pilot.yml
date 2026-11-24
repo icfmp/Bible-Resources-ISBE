@@ -64,10 +64,10 @@ jobs:
           from pathlib import Path
           proof=json.loads(Path('/tmp/isbe-fr-partial-draft-report.json').read_text(encoding='utf-8'))
           assert proof['pilot_article_count']==50
-          assert proof['unreviewed_drafts']==19
-          assert proof['pending']==31
+          assert proof['unreviewed_drafts']==50
+          assert proof['pending']==0
           assert proof['human_reviewed']==0
           assert proof['publication_permitted'] is False
           assert proof['canonical_article_index_preserved'] is True
-          print('Source-locked pilot: 19 unreviewed FR drafts + 31 English pending; NOT publishable.')
+          print('Source-locked pilot: 50 unreviewed FR drafts + 0 English pending; NOT publishable.')
           PY
