@@ -15,7 +15,7 @@ from scripts.select_translation_pilot import SOURCE_SHA256
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKLIST_DIR = ROOT / "workspace/translations/isbe-1915/fr/worklists/wave-01"
-BATCH_DIR = ROOT / "workspace/translations/isbe-1915/fr/batches"
+COHORT_DIR = ROOT / "workspace/translations/isbe-1915/fr/cohorts"
 BATCH_PREFIX = "workspace/translations/isbe-1915/fr/batches/"
 
 
@@ -26,7 +26,7 @@ class TranslationCohortManifestTests(unittest.TestCase):
         work_by_id = {row["article_id"]: row for row in worklist["entries"]}
         self.assertEqual(len(work_by_id), len(worklist["entries"]))
 
-        manifests = sorted(WORKLIST_DIR.glob("COHORT_*.json"))
+        manifests = sorted(COHORT_DIR.glob("COHORT_*.json"))
         self.assertTrue(manifests, "At least one frozen translation cohort expected")
         all_members = set()
         cached_batches = {}
