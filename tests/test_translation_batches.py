@@ -20,6 +20,9 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml"
 PILOT = ROOT / "workspace/pilots/isbe-1915-fr/draft-patches.json"
 ABRAHAM = ROOT / "workspace/translations/isbe-1915/fr/batches/0001-abraham.json"
+EARLY_WAVE01 = ROOT / "workspace/translations/isbe-1915/fr/batches/0002-early-a-entries.json"
+FIRST_25 = ROOT / "workspace/translations/isbe-1915/fr/batches/0003-complete-first-25.json"
+WAVE01_ROSTER = ROOT / "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json"
 
 
 class TranslationBatchTests(unittest.TestCase):
@@ -90,6 +93,57 @@ class TranslationBatchTests(unittest.TestCase):
         self.assertEqual([key for _, key in index],
                          sorted([key for _, key in index]))
         self.assertFalse(proof["publication_permitted"])
+
+    def test_first_wave_entries_are_exactly_source_locked_and_unduplicated(self):
+        new_batch = json.loads(EARLY_WAVE01.read_text(encoding="utf-8"))
+        roster = json.loads(WAVE01_ROSTER.read_text(encoding="utf-8"))
+        by_id = {row["article_id"]: row for row in roster["entries"]}
+        self.assertEqual(new_batch["source_sha256"], SOURCE_SHA256)
+        self.assertEqual(new_batch["language"], "fr")
+        self.assertEqual(new_batch["status"], "unreviewed_drafts")
+        self.assertFalse(new_batch["publication_permitted"])
+        self.assertEqual(len(new_batch["articles"]), 16)
+        for article in new_batch["articles"]:
+            canonical = by_id[article["article_id"]]
+            self.assertEqual(article["source_key"], canonical["source_key"])
+            self.assertLessEqual(canonical["index"], 1000)
+            self.assertTrue(article["units"])
+            self.assertEqual(len(article["units"]),
+                             len({(u["node"], u["part"]) for u in article["units"]}))
+
+    def test_first_wave_entries_rebuild_complete_bilingual_preview_without_reindexing(self):
+        proof, index, body = self._apply([PILOT, ABRAHAM, EARLY_WAVE01])
+        self.assertEqual(proof["excerpt_entries"], 67)
+        self.assertEqual(proof["complete_unreviewed_drafts"], 67)
+        self.assertEqual(proof["partial_unreviewed_drafts"], 0)
+        self.assertEqual(proof["human_reviewed"], 0)
+        self.assertFalse(proof["publication_permitted"])
+        self.assertEqual(len(index), len(set(index)))
+        by_key = {key: article for (_, key), article in zip(index, body)}
+        self.assertIn("BÂTON D'AARON", "".join(by_key["AARON'S ROD"].itertext()))
+        self.assertIn("Dans les citations anglaises", "".join(by_key["ABIDE"].itertext()))
+        self.assertIn("dames du palais", "".join(by_key["ARK OF BULRUSHES"].itertext()))
+        self.assertEqual(self.source_hash, sha256(SOURCE))
+
+    def test_first_25_canonical_entries_all_have_complete_drafts(self):
+        initial = json.loads(FIRST_25.read_text(encoding="utf-8"))
+        roster = json.loads(WAVE01_ROSTER.read_text(encoding="utf-8"))
+        self.assertEqual(len(initial["articles"]), 8)
+        self.assertEqual(initial["source_sha256"], SOURCE_SHA256)
+        self.assertFalse(initial["publication_permitted"])
+        self.assertEqual({a["source_key"] for a in initial["articles"]},
+                         {"AB (1)", "ABADDON", "ABANAH", "ABARIM",
+                          "ABASE", "ABBA", "ABDON (1)", "ABED-NEGO"})
+        proof, index, _ = self._apply([PILOT, ABRAHAM, EARLY_WAVE01, FIRST_25])
+        self.assertEqual(proof["excerpt_entries"], 75)
+        self.assertEqual(proof["complete_unreviewed_drafts"], 75)
+        self.assertEqual(proof["partial_unreviewed_drafts"], 0)
+        self.assertEqual(proof["human_reviewed"], 0)
+        self.assertFalse(proof["publication_permitted"])
+        keys = [key for _, key in index]
+        head_25 = [r["source_key"] for r in roster["entries"][:25]]
+        self.assertEqual([key for key in keys if key in set(head_25)], head_25)
+        self.assertEqual(self.source_hash, sha256(SOURCE))
 
     def test_wrong_master_wrong_entry_or_duplicate_is_rejected(self):
         with tempfile.TemporaryDirectory() as root:
