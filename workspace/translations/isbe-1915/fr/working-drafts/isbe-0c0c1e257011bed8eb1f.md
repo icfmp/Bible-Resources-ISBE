@@ -1,4 +1,4 @@
-<!-- ISBE-TRANSLATION-V1 {"article_id": "isbe-0c0c1e257011bed8eb1f", "language": "fr", "preserve": {"186:text": "Preserve the original historical author attribution verbatim"}, "publication_permitted": false, "schema_version": 1, "source_article_sha256": "e7ed89245a0c105344621875e72dd2f23b32a04de285e41217f729583301b7d5", "source_key": "ATONEMENT", "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c", "status": "unreviewed_drafts"} -->
+<!-- ISBE-TRANSLATION-V1 {"article_id": "isbe-0c0c1e257011bed8eb1f", "language": "fr", "preserve": {"180:text": "PROPITIATION is identical in French and English as a technical cross-reference title", "182:text": "SACRIFICE is identical in French and English as a technical cross-reference title", "186:text": "Preserve original historical author attribution verbatim"}, "publication_permitted": false, "schema_version": 1, "source_article_sha256": "e7ed89245a0c105344621875e72dd2f23b32a04de285e41217f729583301b7d5", "source_key": "ATONEMENT", "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c", "status": "unreviewed_drafts"} -->
 
 <!-- ISBE-BLOCK:1 -->
 # EXPIATION
