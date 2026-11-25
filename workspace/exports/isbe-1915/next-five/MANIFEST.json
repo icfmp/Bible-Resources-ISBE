@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "kind": "next_isbe_source_locked_french_markdown_templates",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "translation_language": "fr",
+  "wave_01_original_count": 1000,
+  "drafted_wave_01": 941,
+  "pending_wave_01": 59,
+  "templates_prepared": 5,
+  "human_editorial_approvals": 0,
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_position": 41,
+      "source_key": "ABIATHAR",
+      "article_id": "isbe-23b7c0611d3c5a56d1e3",
+      "source_text_unit_chars": 8334,
+      "source_article_sha256": "a25a448c728f9ad6d4443bfd1fc918286d40c975884953acd182d00652d2c30e",
+      "source_paragraphs": 18,
+      "template": "isbe-23b7c0611d3c5a56d1e3.md",
+      "template_sha256": "b6b8a10fe4aefaefc5b76a314cc65afd1707e5fd31d214901cc2f9f6b6579079",
+      "translation_status": "english_source_template_only"
+    },
+    {
+      "source_position": 120,
+      "source_key": "ACCOUNTABILITY",
+      "article_id": "isbe-23e1906abb68351bec0a",
+      "source_text_unit_chars": 8041,
+      "source_article_sha256": "8a8e74e51268e12adbe260ebf49a4dee4ff8e969c518325cf1aca1b34d37ce9c",
+      "source_paragraphs": 12,
+      "template": "isbe-23e1906abb68351bec0a.md",
+      "template_sha256": "57ad43d9fe97b03e1fa86e7b22c3774776241aae652aef0402dfcf0c77087ef3",
+      "translation_status": "english_source_template_only"
+    },
+    {
+      "source_position": 268,
+      "source_key": "AGAPE",
+      "article_id": "isbe-5ecea0fdfe14d3a860bf",
+      "source_text_unit_chars": 7961,
+      "source_article_sha256": "83c7cff9b4e036967382dc9a214fb3d49acc7941babede12cd08a959472f7379",
+      "source_paragraphs": 15,
+      "template": "isbe-5ecea0fdfe14d3a860bf.md",
+      "template_sha256": "05758eb71e7b6fd56c9bf1fd3fd8a882f8ba8174956d49f56fb89f98f450b04a",
+      "translation_status": "english_source_template_only"
+    },
+    {
+      "source_position": 659,
+      "source_key": "ARABIC LANGUAGE",
+      "article_id": "isbe-e2e8938d9414475a9e9f",
+      "source_text_unit_chars": 8022,
+      "source_article_sha256": "0e3c5d61fd588cfab50aa3e8da83c6573df1e318ed1c616b421c06a3b86cbd22",
+      "source_paragraphs": 14,
+      "template": "isbe-e2e8938d9414475a9e9f.md",
+      "template_sha256": "eae4189b49f7999e35bc8d7e62ef3303b57c79592df836f5d5162751ab5e0b18",
+      "translation_status": "english_source_template_only"
+    },
+    {
+      "source_position": 737,
+      "source_key": "ARMENIAN VERSIONS, OF THE BIBLE",
+      "article_id": "isbe-41d3f7fed6ac3c2137e6",
+      "source_text_unit_chars": 8488,
+      "source_article_sha256": "95b9cc246dcac12183907f7c17a7abbfc38870e31b05acb3dcfb3db2bde2138b",
+      "source_paragraphs": 39,
+      "template": "isbe-41d3f7fed6ac3c2137e6.md",
+      "template_sha256": "3eada87457b1b5733a5438f43f7c362bed69fbca318b0e4e5871431c5d4a4c31",
+      "translation_status": "english_source_template_only"
+    }
+  ]
+}
