@@ -1,0 +1,909 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ARMOR; ARMS",
+      "article_id": "isbe-b38dd2a60d9d538b7677",
+      "source_article_sha256": "789c9d068a906c067778fb4480524269130aa3b22ada8d655a57d5dad02a030a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARMOR; ARMS",
+          "target": "ARMURES ; ARMES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-mer, arms.",
+          "target": "ar'-mer, arms.",
+          "action": "preserve",
+          "reason": "Retain original historical pronunciation guide"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "I. ARMOR IN GENERAL--OLD TESTAMENT",
+          "target": "I. LES ARMURES EN GÉNÉRAL — ANCIEN TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "II. IN THE NEW TESTAMENT; POLYBIUS",
+          "target": "II. DANS LE NOUVEAU TESTAMENT ; POLYBE",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "III. OFFENSIVE WEAPONS",
+          "target": "III. ARMES OFFENSIVES",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "1. Rod",
+          "target": "1. Le bâton",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "2. Sling",
+          "target": "2. La fronde",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "3. Bow and Arrows",
+          "target": "3. L'arc et les flèches",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "4. Spear--Javelin",
+          "target": "4. La lance et le javelot",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "5. Sword",
+          "target": "5. L'épée",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "IV. DEFENSIVE WEAPONS",
+          "target": "IV. ARMES DÉFENSIVES",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "1. Shield",
+          "target": "1. Le bouclier",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "2. Helmet",
+          "target": "2. Le casque",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "3. Coat of Mail",
+          "target": "3. La cotte de mailles",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "4. Greaves",
+          "target": "4. Les jambières",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "5. Girdle",
+          "target": "5. La ceinture",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "I. Armor in General--Old Testament.",
+          "target": "I. Les armures en général — Ancien Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "(maddim; ",
+          "target": "(maddim ; ",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "tail",
+          "source": " the Revised Version (British and American) ",
+          "target": ", la Revised Version britannique et américaine : ",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "APPAREL",
+          "target": "VÊTEMENT",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": "; nesheq, ",
+          "target": " ; nesheq, ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": "; kelim; ta hopla): Under this head it may be convenient to notice the weapons of attack and defense in use among the Hebrews, mentioned in Scripture. There are no such descriptions given by the sacred writers as are to be found in Homer, who sets forth in detail the various pieces of armor worn by an Achilles or a Patroclus, and the order of putting them on. There is an account of the armor offensive and defensive of the Philistine Goliath (",
+          "target": " ; kelim ; ta hopla) : sous ce titre, nous pouvons examiner les armes d'attaque et de défense dont se servaient les Hébreux et que mentionnent les Écritures. Les auteurs sacrés ne donnent pas de descriptions semblables à celles d'Homère, qui expose en détail les différentes pièces d'armure portées par Achille ou Patrocle et l'ordre dans lequel elles étaient revêtues. Nous possédons cependant une description de l'armement offensif et défensif de Goliath, le Philistin (",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": "); and from a much later time we read of shields and spears and helmets and habergeons, or coats of mail, and bows and slings with which Uzziah provided his soldiers (",
+          "target": "). À une époque beaucoup plus tardive, nous lisons qu'Ozias fournit à ses soldats des boucliers, des lances, des casques, des cuirasses ou des cottes de mailles, des arcs et des frondes (",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": "). In Jeremiah's ode of triumph over the defeat of Pharaoh-neco, there is mention of the arms of the Egyptians: \"Prepare ye the buckler and shield, and draw near to battle. Harness the horses, and get up, ye horsemen, and stand forth with your helmets; furbish the spears, put on the coats of mail\" (",
+          "target": "). Dans son chant de victoire sur la défaite du pharaon Néco, Jérémie mentionne les armes des Égyptiens : « Préparez le petit et le grand bouclier et avancez pour le combat. Attelez les chevaux et montez, cavaliers ! Présentez-vous avec vos casques, fourbissez les lances, revêtez les cuirasses » (",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "tail",
+          "source": "). Of the arms of Assyrian, Chaldean, Egyptian and Hittite soldiery there have come down to us sculptured representations from their ancient monuments, which throw light upon the battlepieces of the Hebrew historians and prophets.",
+          "target": "). Des représentations sculptées sur les monuments anciens nous sont parvenues de l'armement des soldats assyriens, chaldéens, égyptiens et hittites. Elles éclairent les récits de bataille des historiens et des prophètes hébreux.",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "II. In the New Testament; Polybius.",
+          "target": "II. Dans le Nouveau Testament ; Polybe.",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "In the New Testament, Paul describes the panoply of the Christian soldier, naming the essential pieces of the Roman soldier's armor--the girdle, the breastplate, the footgear, the shield, the helmet, the sword--although it is to be noticed that his most characteristic weapon, the pilum or spear, is omitted (",
+          "target": "Dans le Nouveau Testament, Paul décrit l'armure complète du soldat chrétien et en nomme les éléments essentiels, empruntés à l'équipement du soldat romain : ceinture, cuirasse, chaussures, bouclier, casque et épée. Il faut toutefois remarquer que son arme la plus caractéristique, le pilum ou la lance, n'est pas mentionnée (",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "tail",
+          "source": "). In a similar context the same apostle speaks of \"the armor\" of light (",
+          "target": "). Dans un contexte analogue, le même apôtre parle des « armes » de la lumière (",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": "), \"of righteousness on the right hand and on the left\" (",
+          "target": "), ainsi que des armes « de la justice, offensives et défensives » (",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "tail",
+          "source": "). Of the equipment of the Roman soldier in detail, the most useful illustration is the account given by Polybius (vi.23): \"The Roman panoply consists in the first place of a shield (thureos). .... Along with the shield is a sword (machaira). .... Next come two javelins (hussoi) and a helmet (perikephalaia), and a greave (knemis). ..... Now the majority, when they have further put on a bronze plate, measuring a span every way, which they wear on their breasts and call a heart-guard (kardiophulax), are completely armed, but those citizens who are assessed at more than 10,000 drachmae wear instead, together with the other arms, cuirasses made of chain mail (halusidotous thorakas).\"",
+          "target": "). Pour connaître en détail l'équipement du soldat romain, la description de Polybe (VI, 23) est particulièrement utile : « L'armement complet du Romain comprend d'abord un bouclier (thureos). [...] Avec le bouclier, il porte une épée (machaira). [...] Viennent ensuite deux javelots (hussoi), un casque (perikephalaia) et une jambière (knemis). [...] La plupart des soldats, ayant en outre revêtu une plaque de bronze mesurant un empan de côté, qu'ils portent sur la poitrine et appellent protège-cœur (kardiophulax), sont complètement armés. Mais les citoyens dont la fortune est évaluée à plus de dix mille drachmes portent à la place, avec leurs autres armes, des cuirasses de mailles (halusidotous thorakas). »",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "III. Offensive Weapons.",
+          "target": "III. Armes offensives.",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "1. Rod:",
+          "target": "1. Le bâton :",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "The commonest weapon in the hands of the shepherd youth of Palestine today is the rod (shebheT; rhabdos), a stick loaded at one end, which he carries in his hand, or wears attached to his wrist by a loop of string, ready for use. It is of considerable weight and is a formidable weapon whether used in self-defense or in attacking a foe. With such a weapon David may well have overcome the lion and the bear that invaded the fold. This shepherd's rod, while used for guidance, or comfort, or for numbering the flock (",
+          "target": "À l'époque de l'auteur, l'arme la plus courante aux mains des jeunes bergers de Palestine est le bâton (shebheT ; rhabdos), alourdi à une extrémité. Le berger le tient à la main ou le porte attaché au poignet par une boucle de corde, prêt à s'en servir. Assez lourd, ce bâton constitue une arme redoutable aussi bien pour se défendre que pour attaquer un adversaire. David a très bien pu vaincre avec une telle arme le lion et l'ours qui pénétrèrent dans son troupeau. Le bâton du berger, qui servait à guider, à rassurer ou à dénombrer les bêtes (",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "tail",
+          "source": "), was also a weapon with which to strike and punish (",
+          "target": "), servait aussi à frapper et à châtier (",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "tail",
+          "source": "). In this sense it has for a synonym maTTeh (",
+          "target": "). En ce sens, il a pour synonyme maTTeh (",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": "), and both came to have the derived meaning of spearheads (shebheT, ",
+          "target": "), et les deux termes finirent par prendre le sens dérivé de pointes de lances (shebheT, ",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": "; maTTeh, ",
+          "target": " ; maTTeh, ",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "tail",
+          "source": "). They may have been the original of the maul or hammer (mephits, ",
+          "target": "). Ces armes auraient été à l'origine de la masse ou du marteau (mephits, ",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": ", where Cyrus, as God's battle-axe, is to shatter Babylon and its inhabitants for the wrongs they have done to His people Israel).",
+          "target": ", où Cyrus, hache de guerre de Dieu, doit briser Babylone et ses habitants pour les torts qu'ils ont infligés à Israël, son peuple).",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "2. Sling:",
+          "target": "2. La fronde :",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "Scarcely less common and equally homely is the sling (qela`; sphendone) (",
+          "target": "À peine moins répandue, et tout aussi simple, est la fronde (qela' ; sphendone) (",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "tail",
+          "source": "). It consists of plaited thongs, or of one strip of leather, made broad at the middle to form a hollow or pocket for the stone or other contents, the ends being held firmly in the hand as it is whirled loaded round the head, and one of them being at length let go, so that the stone may take its flight. It is used by the shepherd still to turn the straying sheep, and it can also be used with deadly effect as a weapon of war. The slingers (ha-qalla`im, ",
+          "target": "). Elle se compose de lanières tressées ou d'une seule bande de cuir, élargie au milieu pour former une poche accueillant la pierre ou un autre projectile. On tient fermement les deux extrémités dans la main pendant que la fronde chargée tournoie autour de la tête ; on lâche ensuite l'une des extrémités et la pierre est projetée. Aujourd'hui encore, le berger s'en sert pour ramener les brebis qui s'égarent, et elle peut aussi constituer une arme de guerre mortelle. Les frondeurs (ha-qalla'im, ",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "tail",
+          "source": ") belonged to the light infantry, like the archers. The Benjamites were specially skilled in the use of the sling, which they could use as well with their left hand as the right (",
+          "target": ") appartenaient, comme les archers, à l'infanterie légère. Les Benjaminites étaient particulièrement habiles au maniement de la fronde, de la main gauche aussi bien que de la droite (",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "tail",
+          "source": "). The sling was a weapon in use in the armies of Egypt and Babylonia, and Jeremiah in a powerful figure makes the Lord say to Jerusalem in a time of impending calamity: \"Behold, I will sling out the inhabitants of the land at this time\" (",
+          "target": "). La fronde était utilisée dans les armées égyptiennes et babyloniennes. Par une image puissante, Jérémie fait dire au Seigneur, s'adressant à Jérusalem à l'approche d'une calamité : « Voici, je vais lancer au loin les habitants du pays, cette fois » (",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "3. Bow and Arrows:",
+          "target": "3. L'arc et les flèches :",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "A very important offensive weapon in the wars of Israel was the bow (qesheth) and arrows (chitstsim), and the archers whether mounted or on foot formed a powerful element of the fighting forces of the Philistines, Egyptians and Assyrians (s.v. ",
+          "target": "Dans les guerres d'Israël, l'arc (qesheth) et les flèches (chitstsim) constituaient des armes offensives très importantes. Les archers, montés ou à pied, représentaient une force considérable dans les armées philistines, égyptiennes et assyriennes (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "ARCHERY",
+          "target": "TIR À L'ARC",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "BOW",
+          "target": "ARC",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "4. Spear--Javelin:",
+          "target": "4. La lance et le javelot :",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "The spear has various words to represent it.",
+          "target": "Différents mots servent à désigner la lance.",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "(1) The chanith had a wooden staff or shaft of varying size and length with a head, or blade, of bronze, or, at a later time, of iron (",
+          "target": "(1) La chanith possédait une hampe de bois dont la taille et la longueur variaient, avec une pointe ou une lame de bronze, puis de fer à une époque plus tardive (",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "tail",
+          "source": "). In the King James Version it is sometimes translated \"javelin,\" but in the Revised Version (British and American) \"spear\" (see ",
+          "target": "). Dans la King James Version, le terme est parfois traduit par « javelot », mais par « lance » dans la Revised Version britannique et américaine (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "tail",
+          "source": "). Saul's spear, stuck in the ground, betokened the abode of the king for the time, just as today the spear in front of his tent marks the halting-place of the Bedouin Sheikh (",
+          "target": "). La lance de Saül, plantée dans le sol, signalait sa résidence temporaire, de même qu'à l'époque de l'auteur, une lance placée devant la tente d'un cheikh bédouin indique le lieu où celui-ci s'est arrêté (",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "tail",
+          "source": "). Nahum, describing the arms of the Assyrians, joins together the flashing sword and the glittering spear (",
+          "target": "). Nahum, décrivant les armes des Assyriens, évoque ensemble l'épée étincelante et la lance brillante (",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "tail",
+          "source": "). The bearers of the chanith belonged to the heavy-armed troops.",
+          "target": "). Les porteurs de la chanith appartenaient aux troupes lourdement armées.",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "(2) The romach, also translated in the King James Version \"javelin,\" was of the character of a lance. It does not appear to have differed much from the chanith--they appear as synonyms in ",
+          "target": "(2) La romach, également traduite par « javelot » dans la King James Version, ressemblait à une lance. Elle ne paraît pas avoir beaucoup différé de la chanith : les deux termes semblent synonymes en ",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "tail",
+          "source": ", where romach is used, and in ",
+          "target": ", qui emploie romach, et en ",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "tail",
+          "source": " where chanith is used, of spears beaten into pruning hooks. It describes the Egyptian spear in ",
+          "target": ", qui emploie chanith, à propos de lances transformées en serpes. La romach désigne la lance égyptienne en ",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "tail",
+          "source": ". The bearers of the romach also belonged to the heavy-armed troops.",
+          "target": ". Ses porteurs appartenaient eux aussi aux troupes lourdement armées.",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "(3) The kidhon was lighter than either of the preceding and more of the nature of a javelin (gaison in the Septuagint, ",
+          "target": "(3) La kidhon était plus légère que les deux précédentes et ressemblait davantage à un javelot (gaison dans la Septante, ",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "tail",
+          "source": " and Polybius vi.39, 3; ",
+          "target": " et Polybe, VI, 39, 3 ; ",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "tail",
+          "source": "). (4) In the New Testament the word \"spear\" occurs only once and is represented by the Greek logche, the equivalent no doubt of chanith as above (",
+          "target": "). (4) Dans le Nouveau Testament, le mot « lance » n'apparaît qu'une seule fois et correspond au grec logche, qui désigne sans aucun doute l'équivalent de la chanith décrite ci-dessus (",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "5. Sword:",
+          "target": "5. L'épée :",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "The sword (cherebh) is by far the most frequently mentioned weapon in Scripture, whether offensive or defensive. The blade was of iron (",
+          "target": "L'épée (cherebh) est de loin l'arme la plus fréquemment mentionnée dans les Écritures, qu'elle soit offensive ou défensive. Sa lame était en fer (",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "tail",
+          "source": "). It was hung from the girdle on the left side, and was used both to cut and to thrust. Ehud's sword (",
+          "target": "). On la portait suspendue à la ceinture, sur le côté gauche, et elle servait aussi bien à trancher qu'à frapper d'estoc. L'épée d'Éhud (",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "tail",
+          "source": ") was double-edged and a cubit in length, and, as he was left-handed, was worn on his right thigh under his clothes. The sword was kept in a sheath (",
+          "target": ") était à deux tranchants, mesurait une coudée et, parce qu'il était gaucher, se portait sous ses vêtements contre la cuisse droite. L'épée était conservée dans un fourreau (",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "tail",
+          "source": "); to draw the sword was the signal for war (",
+          "target": ") ; tirer son épée donnait le signal de la guerre (",
+          "action": "translate"
+        },
+        {
+          "node": 89,
+          "part": "tail",
+          "source": "). Soldiers are \"men who draw the sword.\" It is the flashing sword (",
+          "target": "). Les soldats étaient « des hommes qui tirent l'épée ». On trouve l'épée étincelante (",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "tail",
+          "source": "); the oppressing sword (",
+          "target": "), l'épée oppressive (",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "tail",
+          "source": "); the devouring sword (",
+          "target": "), l'épée dévorante (",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "tail",
+          "source": "); the sword which drinks its fill of blood (",
+          "target": "), l'épée qui se rassasie de sang (",
+          "action": "translate"
+        },
+        {
+          "node": 95,
+          "part": "tail",
+          "source": "). The sword of the Lord executes God's judgments (",
+          "target": "). L'épée du Seigneur exécute les jugements de Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "Figurative: In the highly metaphorical language of the prophets it stands for war and its attendant calamities (",
+          "target": "Sens figuré : dans le langage profondément métaphorique des prophètes, l'épée représente la guerre et les calamités qui l'accompagnent (",
+          "action": "translate"
+        },
+        {
+          "node": 102,
+          "part": "text",
+          "source": "In the New Testament machaira is employed for sword in its natural meaning (",
+          "target": "Dans le Nouveau Testament, machaira désigne l'épée dans son sens ordinaire (",
+          "action": "translate"
+        },
+        {
+          "node": 107,
+          "part": "tail",
+          "source": "). Paul calls the Word of God the sword of the Spirit (",
+          "target": "). Paul appelle la Parole de Dieu « l'épée de l'Esprit » (",
+          "action": "translate"
+        },
+        {
+          "node": 108,
+          "part": "tail",
+          "source": "); and in the Epistle to Hebrews the Word of God is said to be sharper than any two-edged sword (",
+          "target": "), et l'épître aux Hébreux affirme qu'elle est plus tranchante qu'aucune épée à deux tranchants (",
+          "action": "translate"
+        },
+        {
+          "node": 109,
+          "part": "tail",
+          "source": "). As a synonym the word rhomphaia is used in the Apocrypha alone of the New Testament books, save for ",
+          "target": "). Comme synonyme, le terme rhomphaia apparaît, parmi les livres du Nouveau Testament, dans les apocryphes seulement, à l'exception de ",
+          "action": "translate"
+        },
+        {
+          "node": 110,
+          "part": "tail",
+          "source": ". It was the Thracian sword with large blade, and is classed by the ancients rather as a spear. The word is used frequently in the Septuagint like machaira to translate cherebh. In ",
+          "target": ". Il s'agissait de l'épée thrace à large lame, que les anciens classaient plutôt parmi les lances. Ce mot est fréquemment employé dans la Septante, comme machaira, pour traduire cherebh. En ",
+          "action": "translate"
+        },
+        {
+          "node": 111,
+          "part": "tail",
+          "source": " the sharp two-edged sword of judgment, rhomphaia is seen in vision proceeding out of the mouth of the glorified Lord (compare ",
+          "target": ", rhomphaia désigne l'épée aiguë à deux tranchants du jugement, qui apparaît dans la vision comme sortant de la bouche du Seigneur glorifié (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 112,
+          "part": "tail",
+          "source": "). Xiphos is still another word for sword, but it is found only in the Septuagint, and not in the New Testament.",
+          "target": "). Xiphos est un autre mot pour « épée », mais il se rencontre seulement dans la Septante, non dans le Nouveau Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 113,
+          "part": "text",
+          "source": "IV. Defensive Weapons.",
+          "target": "IV. Armes défensives.",
+          "action": "translate"
+        },
+        {
+          "node": 114,
+          "part": "text",
+          "source": "1. Shield:",
+          "target": "1. Le bouclier :",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "text",
+          "source": "The most ancient and universal weapon of defense is the shield. The two chief varieties are",
+          "target": "Le bouclier est la plus ancienne et la plus universelle des armes défensives. Il en existe deux grandes variétés :",
+          "action": "translate"
+        },
+        {
+          "node": 116,
+          "part": "text",
+          "source": "(1) the tsinnah, Latin scutum, the large shield, worn by heavy-armed infantry, adapted to the form of the human body, being made oval or in the shape of a door; hence, its Greek name, thureos, from thura, a door; and",
+          "target": "(1) la tsinnah, en latin scutum, grand bouclier porté par l'infanterie lourdement armée et adapté à la forme du corps humain, de forme ovale ou rappelant une porte ; d'où son nom grec thureos, dérivé de thura, « porte » ;",
+          "action": "translate"
+        },
+        {
+          "node": 117,
+          "part": "text",
+          "source": "(2) the maghen, Latin clypeus, the light, round hand-buckler, to which pelte is the Greek equivalent. The two are often mentioned together (",
+          "target": "(2) le maghen, en latin clypeus, petit bouclier léger et rond, dont l'équivalent grec est pelte. Les deux termes sont souvent mentionnés ensemble (",
+          "action": "translate"
+        },
+        {
+          "node": 121,
+          "part": "text",
+          "source": "The tsinnah was the shield of the heavy-armed (",
+          "target": "La tsinnah était le bouclier des soldats lourdement armés (",
+          "action": "translate"
+        },
+        {
+          "node": 122,
+          "part": "tail",
+          "source": "); and of Goliath we read that his shield was borne by a man who went before him (",
+          "target": "). On apprend que Goliath avait un porteur de bouclier qui marchait devant lui (",
+          "action": "translate"
+        },
+        {
+          "node": 124,
+          "part": "tail",
+          "source": ") The maghen could be borne by bowmen, for we read of men of Benjamin in Asa's army that bare shields and drew bows (",
+          "target": "). Le maghen pouvait être porté par les archers : il est ainsi dit des Benjaminites de l'armée d'Asa qu'ils portaient des boucliers et tiraient à l'arc (",
+          "action": "translate"
+        },
+        {
+          "node": 125,
+          "part": "tail",
+          "source": "). The ordinary material of which shields were made was wood, or wicker-work overlaid with leather. The wood-work of the shields and other weapons of Gog's army were to serve Israel for fuel for seven years (",
+          "target": "). Les boucliers étaient ordinairement fabriqués en bois ou en vannerie recouverte de cuir. Le bois des boucliers et des autres armes de l'armée de Gog devait servir de combustible à Israël pendant sept ans (",
+          "action": "translate"
+        },
+        {
+          "node": 126,
+          "part": "tail",
+          "source": "). The anointing of the shield (",
+          "target": "). L'onction du bouclier (",
+          "action": "translate"
+        },
+        {
+          "node": 128,
+          "part": "tail",
+          "source": ") was either to protect it from the weather, or, more probably, was part of the consecration of the warrior and his weapons for the campaign. Solomon in his pride of wealth had 200 shields (tsinnoth) of beaten gold, and 300 targets (maghinnim) of beaten gold made for himself, and hung in the house of the forest of Lebanon (",
+          "target": ") était destinée soit à le protéger des intempéries, soit, plus probablement, à participer à la consécration du guerrier et de ses armes pour la campagne. Salomon, dans l'orgueil de sa richesse, fit fabriquer deux cents grands boucliers (tsinnoth) en or battu et trois cents boucliers plus petits (maghinnim) également en or battu, qu'il suspendit dans la maison de la forêt du Liban (",
+          "action": "translate"
+        },
+        {
+          "node": 130,
+          "part": "tail",
+          "source": "). They were only for show, and when Shishak of Egypt came up against Rehoboam and carried them off, Rehoboam replaced them with others of bronze (",
+          "target": "). Ils n'avaient qu'une fonction décorative. Lorsque Schischak d'Égypte attaqua Roboam et les emporta, le roi les remplaça par d'autres en bronze (",
+          "action": "translate"
+        },
+        {
+          "node": 131,
+          "part": "tail",
+          "source": "). On the march, the shield was strapped over the shoulder and kept in a cover, which was removed before the battle (",
+          "target": "). Pendant les marches, le bouclier était suspendu par une courroie sur l'épaule et conservé dans une housse que l'on retirait avant le combat (",
+          "action": "translate"
+        },
+        {
+          "node": 132,
+          "part": "tail",
+          "source": "). Both words are used of the mechanical device known to the Romans as the testudo employed by the besiegers of a city against the darts and stones and blazing torches thrown out by the besieged (",
+          "target": "). Les deux termes sont employés pour désigner le dispositif militaire connu des Romains sous le nom de testudo, ou tortue, utilisé par les assiégeants pour se protéger des flèches, des pierres et des torches enflammées lancées par les défenseurs d'une ville (",
+          "action": "translate"
+        },
+        {
+          "node": 135,
+          "part": "text",
+          "source": "Figurative: Yahweh is spoken of as the Shield and Protector of His people--of Abraham (",
+          "target": "Sens figuré : Yahvé est appelé le bouclier et le protecteur de son peuple : d'Abraham (",
+          "action": "translate"
+        },
+        {
+          "node": 136,
+          "part": "tail",
+          "source": "); of Israel (",
+          "target": "), d'Israël (",
+          "action": "translate"
+        },
+        {
+          "node": 137,
+          "part": "tail",
+          "source": "); of the Psalmist (",
+          "target": "), du psalmiste (",
+          "action": "translate"
+        },
+        {
+          "node": 139,
+          "part": "tail",
+          "source": ", and many other passages). In his description of the panoply of the Christian soldier, Paul introduces faith as the thureos, the large Greek-Roman shield, a defense by which he may quench all the fiery darts of the evil one.",
+          "target": ", et bien d'autres passages). Dans sa description de l'armure complète du soldat chrétien, Paul présente la foi comme le thureos, le grand bouclier gréco-romain, qui lui permet d'éteindre tous les traits enflammés du Malin.",
+          "action": "translate"
+        },
+        {
+          "node": 140,
+          "part": "text",
+          "source": "2. Helmet:",
+          "target": "2. Le casque :",
+          "action": "translate"
+        },
+        {
+          "node": 141,
+          "part": "text",
+          "source": "The helmet, qobha` or kobha`, seems to have been originally in the form of a skull-cap, and it is thus figured in representations of Hittites on the walls of Karnak in Egypt. In the earliest times it is found worn only by outstanding personages like kings and commanders. When King Saul armed David with his own armor he put a helmet of brass upon his head (",
+          "target": "Le casque, qobha' ou kobha', semble avoir eu à l'origine la forme d'une calotte, ainsi qu'il est représenté sur les figures de Hittites sculptées sur les murs de Karnak, en Égypte. Dans les temps les plus reculés, seuls les personnages éminents, comme les rois et les chefs militaires, semblent l'avoir porté. Lorsque Saül revêtit David de son armure, il plaça sur sa tête un casque de bronze (",
+          "action": "translate"
+        },
+        {
+          "node": 142,
+          "part": "tail",
+          "source": "). Uzziah at a later time provided his soldiers with helmets, as part of their equipment (",
+          "target": "). À une époque plus tardive, Ozias fournit des casques à ses soldats (",
+          "action": "translate"
+        },
+        {
+          "node": 143,
+          "part": "tail",
+          "source": "). The men of Pharaoh-neco's army also wore helmets (",
+          "target": "). Les hommes de l'armée du pharaon Néco en portaient également (",
+          "action": "translate"
+        },
+        {
+          "node": 144,
+          "part": "tail",
+          "source": "), and the mercenaries in the armies of Tyre had both shield and helmet to hang up within her (",
+          "target": "), et les mercenaires des armées de Tyr avaient des boucliers et des casques à suspendre dans la ville (",
+          "action": "translate"
+        },
+        {
+          "node": 145,
+          "part": "tail",
+          "source": "). The materials of the helmet were at first of wood, linen, felt, or even of rushes; leather was in use until the Seleucid period when it was supplanted by bronze (1 Macc 6:35); the Greek and Roman helmets both of leather and brass were well known in the Herodian period.",
+          "target": "). Les casques furent d'abord faits de bois, de lin, de feutre, voire de roseaux. Le cuir fut utilisé jusqu'à la période séleucide, où le bronze le remplaça (1 Maccabées 6:35). Les casques grecs et romains en cuir et en bronze étaient bien connus à l'époque hérodienne.",
+          "action": "translate"
+        },
+        {
+          "node": 146,
+          "part": "text",
+          "source": "Figurative: Paul has the helmet, perikephalaia, for his Christian soldier (",
+          "target": "Sens figuré : Paul donne au soldat chrétien un casque, perikephalaia (",
+          "action": "translate"
+        },
+        {
+          "node": 148,
+          "part": "tail",
+          "source": "). In the Septuagint perikephalaia occurs eleven times as the equivalent of the Hebrew term.",
+          "target": "). Dans la Septante, ce terme grec est utilisé onze fois comme équivalent du mot hébreu.",
+          "action": "translate"
+        },
+        {
+          "node": 149,
+          "part": "text",
+          "source": "3. Coat of Mail:",
+          "target": "3. La cotte de mailles :",
+          "action": "translate"
+        },
+        {
+          "node": 150,
+          "part": "text",
+          "source": "Body armor for the protection of the person in battle is mentioned in the Old Testament and is well known in representations of Egyptian, Persian and Parthian warriors. The shiryon, translated \"habergeon\" in the King James Version, rendered in the Revised Version (British and American) \"coat of mail,\" is part of the armor of Nehemiah's workers (",
+          "target": "L'armure corporelle destinée à protéger le combattant est mentionnée dans l'Ancien Testament et bien connue grâce aux représentations de guerriers égyptiens, perses et parthes. Le shiryon, rendu par « cuirasse » dans la King James Version et par « cotte de mailles » dans la Revised Version britannique et américaine, fait partie de l'équipement des ouvriers de Néhémie (",
+          "action": "translate"
+        },
+        {
+          "node": 151,
+          "part": "tail",
+          "source": "), and one of the pieces of armor supplied by King Uzziah to his soldiers. (",
+          "target": "), ainsi que des armes fournies par le roi Ozias à ses soldats (",
+          "action": "translate"
+        },
+        {
+          "node": 152,
+          "part": "tail",
+          "source": "). Goliath was armed with a shiryon, and when Saul clad David in his own armor to meet the Philistine champion he put on him a coat of mail, his shiryon (",
+          "target": "). Goliath était revêtu d'un shiryon ; lorsque Saül équipa David de sa propre armure pour affronter le champion philistin, il lui mit une cotte de mailles, son shiryon (",
+          "action": "translate"
+        },
+        {
+          "node": 154,
+          "part": "tail",
+          "source": "). Such a piece of body armor Ahab wore in the fatal battle of Ramoth-gilead (",
+          "target": "). Achab portait une telle armure lors de la bataille fatale de Ramoth en Galaad (",
+          "action": "translate"
+        },
+        {
+          "node": 155,
+          "part": "tail",
+          "source": "). In the battle of Bethsura in the Maccabean struggle the Syrian war-elephants were protected with breastplates, the word for which, thorax, represents the shiryon in the Septuagint (1 Macc 6:43).",
+          "target": "). À la bataille de Bethsour, durant les guerres maccabéennes, les éléphants de guerre syriens étaient protégés par des cuirasses, désignées par le mot thorax, qui traduit shiryon dans la Septante (1 Maccabées 6:43).",
+          "action": "translate"
+        },
+        {
+          "node": 156,
+          "part": "text",
+          "source": "Figurative: Isaiah in a striking figure describes Yahweh as putting on righteousness for a coat of mail and salvation as a helmet, where thorax and perikephalaia are the Greek words of the Septuagint to render shiryon and kobha`. It is from this passage (",
+          "target": "Sens figuré : Ésaïe, par une image saisissante, décrit Yahvé se revêtant de justice comme d'une cotte de mailles et du salut comme d'un casque. La Septante emploie ici thorax et perikephalaia pour traduire shiryon et kobha'. C'est de ce passage (",
+          "action": "translate"
+        },
+        {
+          "node": 157,
+          "part": "tail",
+          "source": ") that Paul obtains his \"breastplate of righteousness\" (",
+          "target": ") que Paul tire l'expression « cuirasse de la justice » (",
+          "action": "translate"
+        },
+        {
+          "node": 159,
+          "part": "text",
+          "source": "4. Greaves:",
+          "target": "4. Les jambières :",
+          "action": "translate"
+        },
+        {
+          "node": 160,
+          "part": "text",
+          "source": "Greaves (mitschah; knemides) are mentioned once in Scripture as part of the armor of Goliath (",
+          "target": "Les jambières (mitschah ; knemides) ne sont mentionnées qu'une seule fois dans les Écritures, comme élément de l'armure de Goliath (",
+          "action": "translate"
+        },
+        {
+          "node": 161,
+          "part": "tail",
+          "source": "). They were of brass or leather, fastened by thongs round the leg and above the ankles.",
+          "target": "). Elles étaient faites de bronze ou de cuir et fixées par des lanières autour de la jambe, au-dessus des chevilles.",
+          "action": "translate"
+        },
+        {
+          "node": 162,
+          "part": "text",
+          "source": "5. Girdle:",
+          "target": "5. La ceinture :",
+          "action": "translate"
+        },
+        {
+          "node": 163,
+          "part": "text",
+          "source": "The girdle (chaghorah; Greek zone) was of leather studded with nails, and was used for supporting the sword (",
+          "target": "La ceinture (chaghorah ; grec zone) était faite de cuir garni de clous et servait à soutenir l'épée (",
+          "action": "translate"
+        },
+        {
+          "node": 165,
+          "part": "tail",
+          "source": "). See ",
+          "target": "). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 166,
+          "part": "text",
+          "source": "GIRDLE",
+          "target": "CEINTURE",
+          "action": "translate"
+        },
+        {
+          "node": 167,
+          "part": "text",
+          "source": "Figurative: For figurative uses see under the separate weapons.",
+          "target": "Sens figuré : pour les emplois figurés, voir les articles consacrés aux diverses armes.",
+          "action": "translate"
+        },
+        {
+          "node": 169,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 170,
+          "part": "text",
+          "source": "Nowack, Hebraische Archaeologie, I, 359-67; Benzinger, Herzog, RE, article \"Kriegswesen bei den Hebraern\"; McCurdy, HPM, I, II; Woods and Powell, The Hebrew Prophets for English Readers, I, II; G. M. Mackie, Bible Manners and Customs; Browne, Hebrew Antiquities, 40-46; corresponding articles in Kitto, Hastings, and other Bible dictionaries.",
+          "target": "Nowack, Hebraische Archaeologie, I, p. 359–367 ; Benzinger, Herzog, RE, article « Kriegswesen bei den Hebraern » ; McCurdy, HPM, I, II ; Woods et Powell, The Hebrew Prophets for English Readers, I, II ; G. M. Mackie, Bible Manners and Customs ; Browne, Hebrew Antiquities, p. 40–46 ; articles correspondants chez Kitto, Hastings et dans d'autres dictionnaires bibliques.",
+          "action": "translate"
+        },
+        {
+          "node": 171,
+          "part": "text",
+          "source": "T. Nicol.",
+          "target": "T. Nicol.",
+          "action": "preserve",
+          "reason": "Retain author attribution verbatim"
+        }
+      ]
+    }
+  ]
+}
