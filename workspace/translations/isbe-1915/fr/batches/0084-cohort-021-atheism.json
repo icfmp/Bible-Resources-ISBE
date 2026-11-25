@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ATHEISM",
+      "article_id": "isbe-5e32a288c0b6606df1cd",
+      "source_article_sha256": "9e4c278ba0f30ae9b02a7f6999f4ab825d2a899f0637124c1e59c1b99b3d9f6a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ATHEISM",
+          "target": "ATHÉISME",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-the-iz'-m (atheos, \"without God\" (",
+          "target": "a'-the-iz'-m (atheos, « sans Dieu » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ")): Ordinarily this word is interpreted to mean a denial of the existence of God, a disbelief in God, the opposite of theism. But it seems better that we should consider it under four heads, in order to obtain a clear idea of the different meanings in which it has been used.",
+          "target": ")) : Ce terme désigne ordinairement la négation de l'existence de Dieu, l'incroyance en Dieu, à l'opposé du théisme. Mais pour saisir clairement les différents sens qui lui ont été donnés, il paraît préférable de les examiner sous quatre aspects.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(1) The classical.",
+          "target": "(1) Sens classique.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "In this sense it does not mean a denial of the existence of a Divine Being, but the denial of the existence or reality of the god of a particular nation. Thus the Christians were repeatedly charged with atheism, because of their disbelief in the gods of heathenism. It was not charged that they did not believe in any god, but that they denied the existence and reality of the gods worshipped, and before whom the nation hitherto had bowed. This was considered so great a crime, so dangerous a thing to the nation, that it was felt to be a just cause for most cruel and determined persecutions. Socrates' teaching cast a shadow on the reality of the existence of the gods, and this charge was brought against him by his contemporaries. Cicero also uses the word in this sense in his charge against Diagoras of Athens. Indeed, such use of it is common in all classical literature.",
+          "target": "Dans ce sens, le mot ne désigne pas la négation de l'existence d'un être divin, mais celle de l'existence ou de la réalité du dieu d'une nation particulière. Ainsi, les chrétiens furent accusés à maintes reprises d'athéisme parce qu'ils ne croyaient pas aux dieux du paganisme. On ne leur reprochait pas de ne croire en aucun dieu, mais de nier l'existence et la réalité des divinités auxquelles la nation avait jusque-là rendu un culte. Cela passait pour un crime si grave, et pour un danger si grand pour la nation, qu'on y voyait une juste cause de persécutions particulièrement cruelles et acharnées. L'enseignement de Socrate jetait un doute sur la réalité de l'existence des dieux, et ses contemporains portèrent contre lui cette accusation. Cicéron emploie également le terme en ce sens dans son accusation contre Diagoras d'Athènes. Cet emploi est d'ailleurs courant dans toute la littérature classique.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) Philosophic.",
+          "target": "(2) Sens philosophique.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "It is not meant that the various philosophic systems to which this term is applied actually deny the existence of a Divine Being or of a First Cause, but that they are atheistic in their teaching, and tend to unsettle the faith of mankind in the existence of God. There is indeed a belief in a first cause, in force, in motion, in a certain aggregation of materials producing life, but the Divine Being as taught by theism is absolutely denied. This is true of the Idealism of Fichte, of the Ideal Pantheism of Spinoza, the Natural Pantheism of Schelling, and similar forms of thought. In applying the word atheism to the teaching here given, theism does not intend to assail them as wholly without a belief in a Divine Being; but it affirms that God is a person, a self- conscious Being, not merely a first cause or force. To deny this fundamental affirmation of theism is to make the teaching atheistic, a denial of that which is essential to theism (",
+          "target": "Il ne s'agit pas de dire que les divers systèmes philosophiques auxquels on applique ce terme nient effectivement l'existence d'un être divin ou d'une cause première, mais que leur enseignement est athée et tend à ébranler la foi des hommes en l'existence de Dieu. Ils admettent certes une cause première, une force, un mouvement, ou un certain assemblage de matières qui produit la vie ; mais ils nient absolument l'être divin tel que le conçoit le théisme. C'est le cas de l'idéalisme de Fichte, du panthéisme idéal de Spinoza, du panthéisme naturel de Schelling et de courants analogues. En qualifiant ces doctrines d'athées, le théisme n'entend pas les accuser de toute croyance en un être divin ; il affirme cependant que Dieu est une personne, un être conscient de lui-même, et non pas seulement une cause première ou une force. Nier cette affirmation fondamentale du théisme, c'est rendre une doctrine athée en rejetant ce qui est essentiel au théisme (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(3) Dogmatic.",
+          "target": "(3) Sens dogmatique.",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "It absolutely denies the existence of God. It has often been held that this is, in fact, impossible. Cousin has said, \"It is impossible, because the existence of God is implied in every assertion.\" It is true, however, that in all ages there have been persons who declared themselves absolute atheists. Especially is this true of the 18th century a period of widespread skepticism--when not a few, particularly in France, professed themselves atheists. In many cases, however, it resulted from a loose use of the word, careless definition, and sometimes from the spirit of boastfulness.",
+          "target": "Dans ce sens, l'athéisme nie absolument l'existence de Dieu. On a souvent soutenu qu'une telle position était en réalité impossible. Cousin a déclaré : « C'est impossible, puisque l'existence de Dieu est impliquée dans toute affirmation. » Il est pourtant vrai qu'à toutes les époques des personnes se sont déclarées absolument athées. Ce fut particulièrement le cas au XVIIIe siècle, période de scepticisme largement répandu, où un nombre non négligeable de personnes, notamment en France, se proclamaient athées. Bien souvent, cependant, cela provenait d'un emploi imprécis du terme, d'une définition négligée et parfois d'un esprit de bravade.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(4) Practical atheism.",
+          "target": "(4) Athéisme pratique.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "It has nothing at all to do with belief. Indeed it accepts the affirmations of theism. It has reference wholly to the mode of life. It is to live as though there was no God.",
+          "target": "Il ne concerne nullement les croyances. Il accepte même les affirmations du théisme. Il se rapporte exclusivement à la manière de vivre : c'est vivre comme si Dieu n'existait pas.",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "It takes the form often of complete indifference to the claims of the Divine Being or again of outbroken and defiant wickedness (",
+          "target": "Il prend souvent la forme d'une indifférence complète aux exigences de l'être divin, ou encore d'une méchanceté ouverte et provocatrice (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "). That this form of atheism is widely prevalent is well known. It is accompanied in many cases with some form of unbelief or prejudice or false opinion of the church or Christianity. Dogmatic atheism is no longer a menace or even a hindrance to the progress of Christianity, but practical atheism is widespread in its influence and a dangerous element in our modern life (compare ",
+          "target": "). Il est bien connu que cette forme d'athéisme est largement répandue. Elle s'accompagne, dans de nombreux cas, d'une certaine incrédulité, de préjugés ou d'opinions erronées sur l'Église ou le christianisme. L'athéisme dogmatique n'est plus une menace, ni même un obstacle au progrès du christianisme ; mais l'athéisme pratique exerce une influence étendue et constitue un élément dangereux de notre vie moderne (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": "). Whatever the form, whether it be that of religious agnosticism, denying that we can know that God exists, or critical atheism, denying that the evidence to prove His existence is sufficient, or dogmatic, or practical atheism, it is always a system of negation and as such tears down and destroys. It destroys the faith upon which all human relations are built. Since there is no God, there is no right nor wrong, and human action is neither good nor bad, but convenient or inconvenient. It leaves human society without a basis for order and human government without foundation (",
+          "target": "). Quelle qu'en soit la forme — agnosticisme religieux, qui nie que nous puissions savoir si Dieu existe ; athéisme critique, qui juge insuffisantes les preuves de son existence ; athéisme dogmatique ou pratique —, il demeure toujours un système de négation qui, à ce titre, abat et détruit. Il détruit la foi sur laquelle reposent toutes les relations humaines. S'il n'y a pas de Dieu, il n'y a ni bien ni mal, et les actions humaines ne sont ni bonnes ni mauvaises, mais seulement avantageuses ou désavantageuses. Il laisse la société humaine sans principe d'ordre et le gouvernement des hommes sans fondement (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": "). All is hopeless, all is wretchedness, all is tending to the grave and the grave ends all.",
+          "target": "). Tout est sans espérance, tout est misère ; tout tend vers la tombe, et la tombe met fin à tout.",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "Arguments against atheism may be summarized as follows:",
+          "target": "Les arguments contre l'athéisme peuvent se résumer ainsi :",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "(1) It is contrary to reason. History has shown again and again how impossible it is to bring the mind to rest in this doctrine. Although Buddhism is atheistic in its teaching, idolatry is widespread in the lands where it prevails. While the Positive Philosophy of Auguste Comte was based on a denial of the existence of God, his attempt to found the new religion of humanity with rites and ceremonies of worship reveals how the longing for worship cannot be suppressed. It is a revelation of the fact so often seen in the history of human thought, that the mind cannot rest in the tenets of atheism.",
+          "target": "(1) Il est contraire à la raison. L'histoire a montré maintes fois combien il est impossible à l'esprit de trouver le repos dans cette doctrine. Bien que le bouddhisme soit athée dans son enseignement, l'idolâtrie est très répandue dans les pays où il domine. Si la philosophie positive d'Auguste Comte reposait sur une négation de l'existence de Dieu, sa tentative de fonder une nouvelle religion de l'humanité, avec rites et cérémonies de culte, révèle combien le besoin d'adoration ne saurait être étouffé. C'est une manifestation de ce fait, si souvent constaté dans l'histoire de la pensée humaine : l'esprit ne peut trouver le repos dans les principes de l'athéisme.",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "(2) It is contrary to human experience. All history testifies that there are deep religious instincts within the human breast. To regard these as deceptive and unreasonable would itself be utterly unreasonable and unscientific. But the fact of such spiritual longing implies also that there is a Being who is responsive to and can satisfy the cry of the heart (",
+          "target": "(2) Il est contraire à l'expérience humaine. Toute l'histoire témoigne de l'existence de profonds instincts religieux au cœur de l'homme. Les considérer comme trompeurs et déraisonnables serait en soi parfaitement déraisonnable et contraire à l'esprit scientifique. Mais l'existence de pareilles aspirations spirituelles implique aussi celle d'un être capable de répondre à l'appel du cœur et de le satisfaire (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": "). In his Bampton Lectures Reville has said on this subject: \"It would be irrational in the last degree to lay down the existence of such a need and such a tendency, and yet believe that the need corresponds to nothing, that the tendency has no goal.\"",
+          "target": "). Dans ses conférences de Bampton, Reville a déclaré à ce sujet : « Il serait irrationnel au plus haut point de reconnaître l'existence d'un tel besoin et d'une telle tendance, tout en croyant que ce besoin ne correspond à rien et que cette tendance n'a aucun but. »",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "(3) It fails to account for the evidence of design in the universe.",
+          "target": "(3) Il n'explique pas les preuves d'un dessein dans l'univers.",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "COSMOLOGY",
+          "target": "COSMOLOGIE",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "(4) It fails to account for the existence of man and the world in general. Here is the universe: how did it come to be? Here is man: how is he to be accounted for? To these and like questions, atheism and atheistic philosophy have no adequate answer to give. See also ",
+          "target": "(4) Il n'explique pas l'existence de l'homme et du monde en général. Voici l'univers : comment est-il venu à l'existence ? Voici l'homme : comment rendre compte de son existence ? À ces questions et à d'autres semblables, l'athéisme et la philosophie athée n'apportent aucune réponse satisfaisante. Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "COSMOLOGY",
+          "target": "COSMOLOGIE",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "CREATION; GOD",
+          "target": "CRÉATION ; DIEU",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "Jacob W. Kapp",
+          "target": "Jacob W. Kapp",
+          "action": "preserve",
+          "reason": "Original author byline retained verbatim"
+        }
+      ]
+    }
+  ]
+}
