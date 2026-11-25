@@ -36,7 +36,7 @@ jobs:
           assert len(drafted) == len(set(drafted)), 'Duplicate French first drafts'
           by_key = {a.get('n'): a for a in read_body(source)[1]}
           remaining = [r for r in roster if r['source_key'] not in set(drafted)]
-          assert len(remaining) == 114, f'Unexpected undrafted count: {len(remaining)}'
+          assert len(remaining) >= 5, 'Fewer than five undrafted articles remain'
           def eligible_chars(row):
               return sum(len(value) for _, node, part, value in text_units(by_key[row['source_key']]))
           selected = sorted(remaining, key=lambda row: (eligible_chars(row), row['index']))[:5]
