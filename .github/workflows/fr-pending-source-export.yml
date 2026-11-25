@@ -1,0 +1,65 @@
+name: Export bounded pending French ISBE source articles
+
+on:
+  push:
+    paths:
+      - 'workspace/translations/isbe-1915/fr/batches/**'
+      - '.github/workflows/fr-pending-source-export.yml'
+  pull_request:
+    paths:
+      - 'workspace/translations/isbe-1915/fr/batches/**'
+      - '.github/workflows/fr-pending-source-export.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select five shortest undrafted wave-01 originals and export complete source units
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts.apply_translation_pilot import text_units
+          from scripts.export_translation_source import extract
+          from scripts.select_translation_pilot import SOURCE_SHA256
+          from scripts.validate_translation_identity import read_body, sha256
+
+          root = Path('workspace/translations/isbe-1915/fr')
+          source = Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml')
+          assert sha256(source) == SOURCE_SHA256, 'Historical master changed'
+          roster = json.loads((root / 'worklists/wave-01/0001-1000.json').read_text(encoding='utf-8'))['entries']
+          patch_files = [Path('workspace/pilots/isbe-1915-fr/draft-patches.json'),
+                         *sorted((root / 'batches').glob('*.json'))]
+          drafted = []
+          for patch in patch_files:
+              drafted.extend(a['source_key'] for a in json.loads(patch.read_text(encoding='utf-8'))['articles'])
+          assert len(drafted) == len(set(drafted)), 'Duplicate French first drafts'
+          by_key = {a.get('n'): a for a in read_body(source)[1]}
+          remaining = [r for r in roster if r['source_key'] not in set(drafted)]
+          
+          def eligible_chars(row):
+              return sum(len(value) for _, node, part, value in text_units(by_key[row['source_key']]))
+          selected = sorted(remaining, key=lambda row: (eligible_chars(row), row['index']))[:5]
+          selected.sort(key=lambda row: row['index'])
+          rows = extract(source, [row['source_key'] for row in selected], limit=200) if selected else []
+          assert all(len(row['units']) == row['unit_count'] for row in rows), 'Truncated source'
+          export = {'schema_version': 1, 'status': 'source_only_no_translations',
+                    'source_sha256': SOURCE_SHA256, 'remaining_before': len(remaining),
+                    'selected': [{**r, 'source_eligible_chars': eligible_chars(r)} for r in selected],
+                    'articles': rows}
+          out = Path('/tmp/isbe-fr-next-five-source.json')
+          out.write_text(json.dumps(export, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print('ISBE_NEXT_FIVE_META=' + json.dumps(export['selected'], ensure_ascii=False))
+          for row in rows:
+              print('ISBE_NEXT_FIVE_ARTICLE=' + json.dumps(row, ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isbe-fr-next-five-original-source
+          path: /tmp/isbe-fr-next-five-source.json
+          retention-days: 14
