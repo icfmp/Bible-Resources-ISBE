@@ -1,0 +1,120 @@
+name: Build and retain reusable ISBE Markdown corpus
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/export_tei_markdown_corpus.py'
+      - 'tests/test_export_tei_markdown_corpus.py'
+      - '.github/workflows/export-isbe-markdown.yml'
+      - 'docs/isbe-markdown-export.md'
+      - 'workspace/translations/isbe-1915/fr/batches/**'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/export_tei_markdown_corpus.py'
+      - 'tests/test_export_tei_markdown_corpus.py'
+      - '.github/workflows/export-isbe-markdown.yml'
+      - 'docs/isbe-markdown-export.md'
+      - 'workspace/translations/isbe-1915/fr/batches/**'
+      - 'workspace/pilots/isbe-1915-fr/draft-patches.json'
+      - 'sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml'
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test source-map fidelity and deterministic archive
+        run: python3 -m unittest tests.test_export_tei_markdown_corpus -v
+      - name: Generate all 9,380 original English Markdown articles and French proofs
+        shell: bash
+        run: |
+          set -euo pipefail
+          patches=(--patches workspace/pilots/isbe-1915-fr/draft-patches.json)
+          for path in workspace/translations/isbe-1915/fr/batches/*.json; do
+            patches+=(--patches "$path")
+          done
+          mkdir -p /tmp/isbe-markdown
+          python3 -m scripts.export_tei_markdown_corpus \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --output /tmp/isbe-markdown/ISBE-1915-markdown-workspace.zip \
+            --report /tmp/isbe-markdown/REPORT.json \
+            "${patches[@]}"
+      - name: Verify complete, immutable source export and pending French state
+        run: |
+          python3 - <<'PY'
+          import json
+          import zipfile
+          from pathlib import Path
+          root = Path('/tmp/isbe-markdown')
+          report = json.loads((root/'REPORT.json').read_text(encoding='utf-8'))
+          files = sorted(Path('workspace/translations/isbe-1915/fr/batches').glob('*.json'))
+          expected_fr = 50 + sum(len(json.loads(p.read_text(encoding='utf-8'))['articles']) for p in files)
+          with zipfile.ZipFile(root/'ISBE-1915-markdown-workspace.zip') as z:
+              manifest = json.loads(z.read('MANIFEST.json'))
+              assert z.testzip() is None, 'Archive member CRC corruption'
+              assert len(z.namelist()) == len(set(z.namelist())), 'Duplicate archive names'
+              assert manifest['canonical_article_count'] == 9380
+              assert len(manifest['articles']) == 9380
+              assert manifest['french_unreviewed_draft_count'] == expected_fr
+              assert len(manifest['french_drafts']) == expected_fr
+              assert manifest['human_editorial_approvals'] == 0
+              assert manifest['publication_permitted'] is False
+              assert manifest['source_maps_lossless'] is True
+              assert all(a['source_map'].startswith('en/maps/') for a in manifest['articles'])
+              assert len([name for name in z.namelist() if name.startswith('en/articles/')]) == 9380
+              assert len([name for name in z.namelist() if name.startswith('en/maps/')]) == 9380
+          assert report['archive_sha256'] and report['canonical_article_count'] == 9380
+          assert report['french_unreviewed_drafts'] == expected_fr
+          print(f'Validated 9,380 English views/maps and {expected_fr} unreviewed French proofs')
+          PY
+      - name: Keep verifiable workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: isbe-1915-reusable-markdown-corpus
+          path: /tmp/isbe-markdown/
+          retention-days: 90
+          if-no-files-found: error
+
+  retain:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: export
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: isbe-1915-reusable-markdown-corpus
+          path: /tmp/isbe-markdown
+      - name: Permanently retain ZIP and checksum report in generated branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch=generated/isbe-1915-markdown
+          if git ls-remote --exit-code --heads origin "$branch" > /dev/null; then
+            git fetch origin "$branch"
+            git switch -c "$branch" FETCH_HEAD
+          else
+            git switch -c "$branch"
+          fi
+          directory=workspace/exports/isbe-1915
+          mkdir -p "$directory"
+          cp /tmp/isbe-markdown/ISBE-1915-markdown-workspace.zip "$directory/"
+          cp /tmp/isbe-markdown/REPORT.json "$directory/"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$directory"
+          if git diff --cached --quiet; then
+            echo "Archive is already retained, no new commit"
+          else
+            git commit -m "chore(export): retain pinned ISBE Markdown source and French drafts"
+            git push origin "HEAD:refs/heads/$branch"
+          fi
