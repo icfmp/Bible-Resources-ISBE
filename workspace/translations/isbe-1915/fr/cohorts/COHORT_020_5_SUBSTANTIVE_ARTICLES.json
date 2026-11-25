@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five shortest previously undrafted complete original wave-01 articles following cohort 019, frozen in unchanged original source-index order",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 395,
+      "source_key": "ALLEGORY",
+      "article_id": "isbe-43544a26c3f1a2fa90ac",
+      "source_article_sha256": "9c7b12c6397537ae506460fa39ccb446ceb51a567edfdfc9d4d06513f8c58e85",
+      "source_eligible_chars": 4910,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0079-cohort-020-allegory.json"
+    },
+    {
+      "index": 504,
+      "source_key": "ANANIAS (1)",
+      "article_id": "isbe-fbd19b799777b064c8c9",
+      "source_article_sha256": "d81628173cc9713995429a70c6836b4335dd44d9e10a661c6c92c971c389cb70",
+      "source_eligible_chars": 4960,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0080-cohort-020-ananias-1.json"
+    },
+    {
+      "index": 547,
+      "source_key": "ANOINTING",
+      "article_id": "isbe-41919ede3ce9cb3e635b",
+      "source_article_sha256": "0e8b568d7e79b0f218a0366fcfdf0bc17add55386688b94c4298e69256b042b4",
+      "source_eligible_chars": 5072,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0081-cohort-020-anointing.json"
+    },
+    {
+      "index": 840,
+      "source_key": "ASHURBANIPAL",
+      "article_id": "isbe-f2e5a1599fa6edbf5a7a",
+      "source_article_sha256": "2990da1fef33f2a55deb3b5f2e79d6e80bba0c033a1648e7a30ee64e228b4b9d",
+      "source_eligible_chars": 5112,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0082-cohort-020-ashurbanipal.json"
+    },
+    {
+      "index": 926,
+      "source_key": "ATHALIAH",
+      "article_id": "isbe-0a596cfbc572d1bed18d",
+      "source_article_sha256": "75c5d202ea350d42abab45a0e5a82642fc46dece25504462d777f9f69c5129b3",
+      "source_eligible_chars": 4939,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0083-cohort-020-athaliah.json"
+    }
+  ]
+}
