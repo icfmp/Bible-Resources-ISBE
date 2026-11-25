@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five shortest previously undrafted complete historical ISBE entries after cohort 016, frozen in canonical source-index order",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 564,
+      "source_key": "ANTIOCH, IN SYRIA",
+      "article_id": "isbe-43a950c52e2e3e305a39",
+      "source_article_sha256": "72f7c6d164a30efe10f714ad0b59de2614f3bb27c7f1a13425c62b1d6da369b6",
+      "source_eligible_chars": 3841,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0064-cohort-017-antioch-syria.json"
+    },
+    {
+      "index": 612,
+      "source_key": "APOLLOS",
+      "article_id": "isbe-34381c8d2e1fa08173ce",
+      "source_article_sha256": "42481617b5a6c06614a6f4b38f87e457921ab227c9495f9ad70d3ecf57f52171",
+      "source_eligible_chars": 3890,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0065-cohort-017-apollos.json"
+    },
+    {
+      "index": 614,
+      "source_key": "APOSTASY; APOSTATE",
+      "article_id": "isbe-3b98400ed8e1eee3fbe1",
+      "source_article_sha256": "7caedbd300657a0649cfcc05d5876aa3b9bba5fd52df90bd3d721167bfc6d318",
+      "source_eligible_chars": 3766,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0066-cohort-017-apostasy.json"
+    },
+    {
+      "index": 640,
+      "source_key": "APPLE; APPLE-TREE",
+      "article_id": "isbe-e8d3e544cf35ec6b0e86",
+      "source_article_sha256": "91a1b2fbd0c9942de5c0d7f6ffd6d726da4e1eb8ca55d4314097041f34aad210",
+      "source_eligible_chars": 3866,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0067-cohort-017-apple-tree.json"
+    },
+    {
+      "index": 771,
+      "source_key": "ARTAXERXES",
+      "article_id": "isbe-21d04e94c7d3c8ee5c3f",
+      "source_article_sha256": "6ccc11d21815df8419a657647092392659f17e8e0a0fdb1abed1576117f1e14b",
+      "source_eligible_chars": 3861,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0068-cohort-017-artaxerxes.json"
+    }
+  ]
+}
