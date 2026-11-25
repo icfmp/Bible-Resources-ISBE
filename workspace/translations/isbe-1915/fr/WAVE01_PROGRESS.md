@@ -680,3 +680,22 @@ Source/witness and editorial review notes:
 - `ARBELA`: preserve the historical author's rival route identifications and uncertainty; do not silently turn them into present-day geographical assertions.
 
 Next technical gate: reconstruct all **936** source-locked drafts; verify complete mutable unit coverage, immutable identity and reference parity, all 14 cohort manifest uniqueness checks, regenerated French reading proofs, regression suite and official TEI RELAX NG/Schematron. No editorial acceptance or public release is implied by a green CI.
+
+## Fifteenth substantive cohort — five complete French historical drafts (25 November 2026)
+
+After independently verified and merged cohort 014, the recurring source-locked exporter selected the **five shortest still-undrafted whole originals** from the unchanged first-1,000-item canonical roster, in original index order: **#0571 ANTIOCHUS III**, **#0607 APOCRYPHAL EPISTLES**, **#0780 ARVAD; ARVADITES**, **#0787 ASAHEL**, and **#0823 ASHERAH**. These are full historical articles, not abstracts or article fragments.
+
+- Exact source-locked patches: `batches/0054-cohort-015-antiochus-iii.json` through `batches/0058-cohort-015-asherah.json`; original index, `@n`, `xml:id`, article fingerprints and patch filenames frozen in `cohorts/COHORT_015_5_SUBSTANTIVE_ARTICLES.json`.
+- **16,585 original eligible English characters**, in **104 extracted TEI source text/tail units** (77 eligible translation/preservation units, 27 immutable source references and other nodes). All mutable units are accounted for with source-original spans; all existing immutable Scripture references remain untouched.
+- No changes to corrected historical English TEI or its source SHA-256, canonical SWORD index, Scripture `cRef` and link targets, original Greek/Hebrew, or any other preexisting French article.
+- After full CI-gated merge, projected first 1,000: **896/1,000 complete UNREVIEWED French first drafts, 104 originals undrafted**. Full source: **941/9,380 complete unreviewed first drafts**. Article count does not measure original prose word-count coverage.
+- **0 independent per-article bilingual editorial acceptances**, all issue #109 boxes intentionally remain unchecked, **no French SWORD build or public release**.
+
+Historical/source witness issues for independent review, not silent fixes:
+- `ANTIOCHUS III`: the original has the spelling `Calchis`, chronological and geopolitical assertions, and a mixed bibliography; the French draft remains historically attributable to its author. Verify against the 1915 printed witness when reviewing.
+- `APOCRYPHAL EPISTLES`: the English source has `Apocryphal Ac of Paul` (apparently truncated for `Acts`) and says that the Laodicean letter is `graven` in Lightfoot's work. French expresses the apparent intended meaning without modifying the English source; verify the historical witness before editorial approval. Maintain the original distinction between genuine Pauline writings and texts it describes as spurious.
+- `ARVAD; ARVADITES`: the English `Tell el-Amarna Lettersas` and `Tripolis(ib 484)` show likely transcription/spacing defects; French is readable, original remains frozen. Historical place identifications and dates belong to the 1915 source.
+- `ASAHEL`: the English phrase `Abner knew that he could outright Asahel, though he could not outrun him` appears to contain a digital-text defect (likely `outfight`). Its link labeled `2Sa 2:3` at Asahel's death is suspect (context points to 2 Samuel 2:23), but that original TEI Scripture locator was **not changed or silently corrected**. Print-witness comparison and subsequent source-correction issue are needed before independent sign-off.
+- `ASHERAH`: the source's assertion about Assyrian origin reflects early-twentieth-century scholarship. French faithfully represents it as the author's claim, not as an independently verified contemporary conclusion. The original source also has obvious `war- god` and `city of. Assur` spacing/punctuation defects, retained in source.
+
+Mandatory technical merge gate: full source-fingerprint/parity and nonpublication checks, frozen-manifest uniqueness/complete units, all French reading proofs, existing regression suite and official TEI P5 RELAX NG/Schematron validation. Independent bilingual approval is **separate and not granted by these tests**.
