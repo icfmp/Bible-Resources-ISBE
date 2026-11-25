@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five shortest previously undrafted complete original historical ISBE articles after merged cohort 018, in unchanged canonical source order",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 170,
+      "source_key": "ADAM IN THE OLD TESTAMENT AND THE APOCRYPHA",
+      "article_id": "isbe-5533a167f62b1cd0d3d4",
+      "source_article_sha256": "a3bdb224fc4e0344f6284062055a6066f638bc1d0d1bb12070699b4df7422c3c",
+      "source_eligible_chars": 4848,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0074-cohort-019-adam-old-testament.json"
+    },
+    {
+      "index": 215,
+      "source_key": "ADONIJAH",
+      "article_id": "isbe-eae186228b9ecadb1630",
+      "source_article_sha256": "40b5decc04dc960fafc3eedda9a83189c2f93eef6ca327b3d5f5f6f13ea81851",
+      "source_eligible_chars": 4793,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0075-cohort-019-adonijah.json"
+    },
+    {
+      "index": 231,
+      "source_key": "ADULLAM",
+      "article_id": "isbe-5f35d41f62c7060b214f",
+      "source_article_sha256": "44e6d69a9b95af51f4e3b3e1cabade4fb7e25537a021a6f989703ca4ece815ce",
+      "source_eligible_chars": 4897,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0076-cohort-019-adullam.json"
+    },
+    {
+      "index": 541,
+      "source_key": "ANNAS",
+      "article_id": "isbe-bace04f041a33ca7d995",
+      "source_article_sha256": "aa22c27a7f953faa77081c67ef25b58db6c790472c1ecb3758b2e4094ec82cb6",
+      "source_eligible_chars": 4617,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0077-cohort-019-annas.json"
+    },
+    {
+      "index": 835,
+      "source_key": "ASHTAROTH; ASHTEROTH-KARNAIM; BEESHTERAH",
+      "article_id": "isbe-45776c72963f2e4b1e82",
+      "source_article_sha256": "d1c94ce5b8f29f3c0b854d98eddd82d550dac7570c6e85daa1a0a30d03ed7caf",
+      "source_eligible_chars": 4664,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0078-cohort-019-ashtaroth.json"
+    }
+  ]
+}
