@@ -661,3 +661,22 @@ Reconstruct all **926** source-locked unreviewed drafts, check article and manif
 ## Thirteenth substantive cohort — five complete French first drafts (25 November 2026)
 
 APPEAL, ARABIC VERSIONS, ARISTOBULUS, ASHAMED and AX (AXE); AX-HEAD: 90 mutable units, 11,696 source characters. Batch 0048 and cohort 013 preserve canonical identity and source references. Expected after successful CI and merge: 886/1,000 first drafts, 114 remaining; 931/9,380 corpus-wide. No independent editorial approvals or publication. Source witness concerns: retain the stray CR in ARISTOBULUS and the spelling Sasdish in ARABIC VERSIONS pending printed-source collation; retain historical assertions as authored.
+
+## Fourteenth substantive cohort — five complete historical French drafts (25 November 2026)
+
+After merged cohort 013, the source-locked read-only selection chose the five shortest remaining original entries in wave 01 (ordered here by their unchanged canonical source positions): **#0686 ARBELA, #0712 ARETAS, #0739 ARMENIAN; ARYAN; RELIGION, #0784 ASA and #0908 ASUNDER**. These are complete original articles, not excerpts or cross-reference-only notices.
+
+- Five separate, bounded source-locked patches: `batches/0049-cohort-014-arbela.json` through `batches/0053-cohort-014-asunder.json`; one immutable five-article identity manifest: `cohorts/COHORT_014_5_SUBSTANTIVE_ARTICLES.json`.
+- **14,571 eligible source English characters** (2,639–3,111 per entry). **119** original source text/tail units were extracted, including **78 mutable units** faithfully translated or explicitly preserved and **41 immutable Scripture and original-source units** left in the canonical TEI.
+- Each patch is pinned to the exact original English article fingerprint and the unchanged master source SHA-256. The original English TEI, 9,380 canonical keys, `xml:id`, Scripture `cRef`, Greek/Hebrew spans and internal link destinations were not edited.
+- Expected after all technical tests and merge: **891/1,000** complete **unreviewed** first drafts (89.1% of the first 1,000 original articles), **109** still undrafted; **936/9,380** corpus-wide. These are *article counts*, not the percentage of source prose translated.
+- **0 independent bilingual editorial approvals, 0 issue task boxes checked; no French SWORD module/publication authorized.** The five new texts still require paragraph-by-paragraph independent editorial collation.
+
+Source/witness and editorial review notes:
+- `ARETAS`: the historical English source contains apparent spacing/digital-corruption forms `Herodins`, `w ar`, `Are tas` and `Damascu s`. The French draft renders the apparent meaning while preserving the exact English source units. Verify against the printed 1915 witness before editorial acceptance. The historical argument for Paul's conversion chronology remains attributed to its author, not endorsed as modern certainty.
+- `ASA`: the English source ends the second biographical notice after an opening parenthesis before `1Ch 9:16`, with no closing parenthesis in the extracted units. Do not silently invent the missing punctuation or amend its chronology (including the thirty-sixth year) without witness collation.
+- `ARMENIAN; ARYAN; RELIGION`: transliterations `HaurvataT` and `AmeretaT`, among other historical mythological terms, remain source-spelled and need verification before sign-off. Historical religious claims are translated as statements of the 1915 author.
+- `ASUNDER` is explicitly an English KJV/RV lexical study. Preserve significant English headwords and historical wording in the French explanation rather than falsely attributing the same vocabulary to a French Bible edition.
+- `ARBELA`: preserve the historical author's rival route identifications and uncertainty; do not silently turn them into present-day geographical assertions.
+
+Next technical gate: reconstruct all **936** source-locked drafts; verify complete mutable unit coverage, immutable identity and reference parity, all 14 cohort manifest uniqueness checks, regenerated French reading proofs, regression suite and official TEI RELAX NG/Schematron. No editorial acceptance or public release is implied by a green CI.
