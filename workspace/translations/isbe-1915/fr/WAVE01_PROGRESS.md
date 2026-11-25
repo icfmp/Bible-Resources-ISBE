@@ -737,3 +737,24 @@ Separate original-source witness/review flags for eventual independent collation
 - `ARTAXERXES` preserves historical hypotheses on dating, the identification of kings and the Septuagint/Josephus variant names without converting the 1915 author's uncertainties into modern certainties.
 
 Technical review gate is still outstanding until actual CI passes: reconstruct **951** complete French reading drafts, validate exact master SHA, original article hashes, all translation-unit source locks, 17 frozen cohort manifests, SWORD key/ID/Scripture reference parity, regression tests and official TEI RELAX NG/Schematron. Passing these tests is **not** a per-article independent bilingual editorial approval, nor permission to release the French edition.
+
+## Eighteenth substantive cohort — five further full French first drafts (25 November 2026)
+
+Following the successfully merged #143 (cohort 017), five distinct next-shortest still-undrafted original 1915 ISBE entries are reused from the overlapping proposal #144 **without duplicating any of the five already merged**. Original wave-01 canonical positions: #0566 `ANTIOCHIANS`, #0613 `APOLLYON`, #0714 `ARGOB (2)`, #0821 `ASHER (1)`, #0838 `ASHTORETH`.
+
+- **Five complete, source-locked historical French first drafts** are preserved verbatim from the proposed ten-article work, in separate non-duplicating patches `batches/0069-cohort-018-antiochians.json` through `batches/0073-cohort-018-ashtoreth.json`.
+- New frozen manifest: `cohorts/COHORT_018_5_SUBSTANTIVE_ARTICLES.json`, with only five previously undrafted original keys, exact positions, `xml:id`, per-article source fingerprint and patch path. Historical corrected English master fingerprint stays `5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c`.
+- **21,539 original eligible English characters** (3,983–4,523 per article), selected and fully exported from the canonical TEI. **147 extracted original text/tail units** comprise **103 mutable units** translated or explicitly source-preserved, and **44 immutable original/Scripture units**, left untouched. All five original whole articles are covered; none is an excerpt.
+- Expected **after technical validation and merge**: **911/1,000** complete *unreviewed* French first drafts (91.1% of original wave-01 article count); **89** original articles undrafted. Full unchanged 9,380-entry ISBE: **956 complete first drafts**. These figures do not represent a percentage of total original prose volume.
+- **Independent editorial bilingual acceptances: 0/1,000; issue checkboxes: 0/1,000.** No French SWORD build, catalog publication or redistribution authorized.
+
+Historical source/witness warnings requiring printed-original comparison and separate editorial acceptance:
+- `ANTIOCHIANS`: the account of forced Hellenization, the Samaritan appeal, and the attributed motives/characterizations are those of the 1915 author and quoted ancient sources; do not silently recast them as modern historical certainties.
+- `APOLLYON`: distinguish the ancient Greek/Hebrew word studies, apocalyptic imagery, and the historical author's interpretation rather than conflating them with an independently affirmed identification.
+- `ARGOB (2)`: preserve the author's treatment of `De 3:14` as corrupt, competing geographical identifications, and his explicit uncertainty; his judgments remain those of the source and are not silent revisions of the Hebrew or biblical history.
+- `ASHER (1)`: the original English includes suspicious truncated or damaged readings (notably `Da`, `Jerus`); source witness collation must precede individual editorial approval.
+- `ASHTORETH`: ancient religion etymologies and cult descriptions are translated as early twentieth-century scholarship, not asserted as newly established facts.
+
+The overlapping original #144 must not be merged as-is because its first five canonical articles already exist on main from #143. This clean cohort reuses only the five new originals; no original English source, existing cohort 017 translation, original SWORD key, reference target, Scripture `cRef` or Greek/Hebrew source span is modified.
+
+Before merging, require source-fingerprint exact reconstruction, full-unit coverage, all 18 cohort manifest identity/uniqueness checks, complete 956-article French readable proof corpus, translation regression tests and official TEI RELAX NG/Schematron validation. No technical check constitutes independent editorial review.
