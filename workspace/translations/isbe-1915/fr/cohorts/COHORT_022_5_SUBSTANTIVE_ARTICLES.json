@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five previously undrafted substantial English wave-01 entries, in original canonical source-index order, following merged cohort 021",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 233,
+      "source_key": "ADULTERY",
+      "article_id": "isbe-ff2460f7aa7c3e061b8e",
+      "source_article_sha256": "568de8439baba3334a3e7b8aecfb2ec8d15960ae6d71988a8803f181cdbebb4d",
+      "source_eligible_chars": 6208,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0093-cohort-022-adultery.json"
+    },
+    {
+      "index": 411,
+      "source_key": "ALMOST",
+      "article_id": "isbe-b3ab1a23d4e099dc1263",
+      "source_article_sha256": "3ad5e21d41ad2840b5ebc3d75f52ad0326f30fb51f1a631e10e858a511289e2a",
+      "source_eligible_chars": 6099,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0092-cohort-022-almost.json"
+    },
+    {
+      "index": 449,
+      "source_key": "AMAZIAH",
+      "article_id": "isbe-8553daac85d148bddba1",
+      "source_article_sha256": "f5f9ba753272d4df5ec02fa3565d1a4b06fc79b2aeb1ae8ee0ab64e09fe79d59",
+      "source_eligible_chars": 5991,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0091-cohort-022-amaziah.json"
+    },
+    {
+      "index": 458,
+      "source_key": "AMERICAN REVISED VERSION",
+      "article_id": "isbe-42dd49cf25b5365d8d2d",
+      "source_article_sha256": "dc5862db5f45d0beb0d64883010611a5d78e844ddf92a147da4f7729d87d26d9",
+      "source_eligible_chars": 6176,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0090-cohort-022-american-revised-version.json"
+    },
+    {
+      "index": 709,
+      "source_key": "AREOPAGUS",
+      "article_id": "isbe-b2c346c69bbcdecb0abd",
+      "source_article_sha256": "a5bb95b755d2c1ad78812374c36bfb5076de7efa25832b0f3acd66878e83533d",
+      "source_eligible_chars": 6112,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0089-cohort-022-areopagus.json"
+    }
+  ]
+}
