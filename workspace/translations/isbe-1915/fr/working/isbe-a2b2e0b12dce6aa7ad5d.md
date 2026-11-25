@@ -1,4 +1,4 @@
-<!-- ISBE-TRANSLATION-V1 {"article_id": "isbe-a2b2e0b12dce6aa7ad5d", "language": "fr", "preserve": {"1:text": "Retain accepted French and English headword which is the same", "123:text": "Preserve original author attribution"}, "publication_permitted": false, "schema_version": 1, "source_article_sha256": "44a9da7253e23ea6df47b1d4e336c6873cb2e02d8f18ce6c5fd1b1df77c7ae3c", "source_key": "ADORATION", "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c", "status": "unreviewed_drafts"} -->
+<!-- ISBE-TRANSLATION-V1 {"article_id": "isbe-a2b2e0b12dce6aa7ad5d", "language": "fr", "preserve": {"1:text": "Retain accepted French and English headword which is the same", "63:text": "ATTITUDES is unchanged as a French cross-reference label", "123:text": "Preserve original author attribution"}, "publication_permitted": false, "schema_version": 1, "source_article_sha256": "44a9da7253e23ea6df47b1d4e336c6873cb2e02d8f18ce6c5fd1b1df77c7ae3c", "source_key": "ADORATION", "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c", "status": "unreviewed_drafts"} -->
 
 <!-- ISBE-BLOCK:1 -->
 # ADORATION
