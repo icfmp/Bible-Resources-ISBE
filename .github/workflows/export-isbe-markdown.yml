@@ -4,6 +4,9 @@ on:
   pull_request:
     paths:
       - 'scripts/export_tei_markdown_corpus.py'
+      - 'scripts/prepare_isbe_markdown_queue.py'
+      - 'scripts/translation_markdown_layout.py'
+      - 'scripts/markdown_translation_bridge.py'
       - 'tests/test_export_tei_markdown_corpus.py'
       - '.github/workflows/export-isbe-markdown.yml'
       - 'docs/isbe-markdown-export.md'
@@ -12,6 +15,9 @@ on:
     branches: [main]
     paths:
       - 'scripts/export_tei_markdown_corpus.py'
+      - 'scripts/prepare_isbe_markdown_queue.py'
+      - 'scripts/translation_markdown_layout.py'
+      - 'scripts/markdown_translation_bridge.py'
       - 'tests/test_export_tei_markdown_corpus.py'
       - '.github/workflows/export-isbe-markdown.yml'
       - 'docs/isbe-markdown-export.md'
@@ -44,6 +50,44 @@ jobs:
             --output /tmp/isbe-markdown/ISBE-1915-markdown-workspace.zip \
             --report /tmp/isbe-markdown/REPORT.json \
             "${patches[@]}"
+      - name: Prepare the next five editable French Markdown article templates
+        shell: bash
+        run: |
+          set -euo pipefail
+          patches=(--patches workspace/pilots/isbe-1915-fr/draft-patches.json)
+          for path in workspace/translations/isbe-1915/fr/batches/*.json; do
+            patches+=(--patches "$path")
+          done
+          python3 -m scripts.prepare_isbe_markdown_queue \
+            --archive /tmp/isbe-markdown/ISBE-1915-markdown-workspace.zip \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --roster workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json \
+            --output /tmp/isbe-markdown/next-five \
+            "${patches[@]}"
+      - name: Verify source-identified Markdown template queue is complete and unpublished
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          folder = Path('/tmp/isbe-markdown/next-five')
+          manifest = json.loads((folder / 'MANIFEST.json').read_text(encoding='utf-8'))
+          assert manifest['source_sha256'] == '5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c'
+          assert manifest['wave_01_original_count'] == 1000
+          assert manifest['pending_wave_01'] + manifest['drafted_wave_01'] == 1000
+          expected = min(5, manifest['pending_wave_01'])
+          assert manifest['templates_prepared'] == expected
+          assert manifest['publication_permitted'] is False
+          assert manifest['human_editorial_approvals'] == 0
+          assert len({a['article_id'] for a in manifest['articles']}) == expected
+          assert [a['source_position'] for a in manifest['articles']] == sorted(a['source_position'] for a in manifest['articles'])
+          for row in manifest['articles']:
+              content = (folder / row['template']).read_text(encoding='utf-8')
+              assert content.startswith('<!-- ISBE-TRANSLATION-V1 ')
+              assert f'<!-- ISBE-BLOCK:' in content
+              assert f'<!-- ISBE-END:' in content
+              assert row['article_id'] in content
+          print('READY:', [(a['source_key'], a['article_id']) for a in manifest['articles']])
+          PY
       - name: Verify complete, immutable source export and pending French state
         run: |
           python3 - <<'PY'
@@ -94,7 +138,7 @@ jobs:
         with:
           name: isbe-1915-reusable-markdown-corpus
           path: /tmp/isbe-markdown
-      - name: Permanently retain ZIP and checksum report in generated branch
+      - name: Permanently retain ZIP, checksum report and next-five Markdown templates
         shell: bash
         run: |
           set -euo pipefail
@@ -109,6 +153,8 @@ jobs:
           mkdir -p "$directory"
           cp /tmp/isbe-markdown/ISBE-1915-markdown-workspace.zip "$directory/"
           cp /tmp/isbe-markdown/REPORT.json "$directory/"
+          rm -rf "$directory/next-five"
+          cp -R /tmp/isbe-markdown/next-five "$directory/next-five"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "$directory"
