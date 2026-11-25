@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ADORATION",
+      "article_id": "isbe-a2b2e0b12dce6aa7ad5d",
+      "source_article_sha256": "44a9da7253e23ea6df47b1d4e336c6873cb2e02d8f18ce6c5fd1b1df77c7ae3c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ADORATION",
+          "target": "ADORATION",
+          "action": "preserve",
+          "reason": "Retain accepted French and English headword which is the same"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ad-o-ra'-shun: Though this word never occurs in English Versions, it represents aspects of worship which are very prominent in the Bible.",
+          "target": "ad-o-ra'-shun : Bien que ce mot ne figure dans aucune des versions anglaises de la Bible, il désigne des aspects du culte qui y occupent une place très importante.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "I. Etymology.",
+          "target": "I. Étymologie.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "The word is derived from Latin adorare =",
+          "target": "Le mot vient du latin adorare, qui signifie :",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(1) \"to speak to,\"",
+          "target": "(1) « parler à » ;",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(2) \"to beseech,\" \"entreat,\"",
+          "target": "(2) « supplier », « implorer » ;",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(3) \"to do homage,\" \"to worship\"; from the Latin, os (oris), mouth.",
+          "target": "(3) « rendre hommage », « adorer » ; il dérive du latin os (oris), « bouche ».",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "Some have supposed that the root os points to the Roman practice of applying the hand to the mouth, i.e. kissing the hand to (a person or thing), as a token of homage.",
+          "target": "Certains ont supposé que la racine os renvoyait à la coutume romaine de porter la main à la bouche, autrement dit d'envoyer un baiser de la main à une personne ou à un objet, en signe d'hommage.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "II. Meaning.",
+          "target": "II. Sens.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "Adoration is intense admiration culminating in reverence and worship, together with the outward acts and attitudes which accompany such reverence. It thus includes both the subjective sentiments, or feelings of the soul, in the presence of some superior object or person, and the appropriate physical expressions of such sentiments in outward acts of homage or of worship. In its widest sense it includes reverence to beings other than God, especially to monarchs, who in oriental countries were regarded with feelings of awe. But it finds its highest expression in religion. Adoration is perhaps the highest type of worship, involving the reverent and rapt contemplation of the Divine perfections and prerogatives, the acknowledgment of them in words of praise, together with the visible symbols and postures that express the adoring attitude of the creature in the presence of his Creator. It is the expression of the soul's mystical realization of God's presence in His transcendent greatness, holiness and lovingkindness. As a form of prayer, adoration is to be distinguished from other forms, such as petition, thanksgiving, confession and intercession.",
+          "target": "L'adoration est une admiration intense culminant dans la révérence et le culte, avec les actes et les attitudes extérieures qui accompagnent cette révérence. Elle comprend donc à la fois les sentiments subjectifs, les émotions de l'âme en présence d'un objet ou d'une personne qui lui est supérieur, et les manifestations corporelles appropriées de ces sentiments dans des actes d'hommage ou de culte. Au sens le plus large, elle comprend la révérence accordée à d'autres êtres que Dieu, particulièrement aux monarques, qui inspiraient un profond respect dans les pays orientaux. Mais c'est dans la religion qu'elle trouve son expression la plus élevée. L'adoration représente peut-être la forme suprême du culte : elle implique une contemplation recueillie et émerveillée des perfections et des prérogatives divines, leur reconnaissance par des paroles de louange ainsi que les gestes et les postures visibles qui expriment l'attitude d'adoration de la créature devant son Créateur. Elle traduit la perception mystique que l'âme a de la présence de Dieu dans sa grandeur transcendante, sa sainteté et sa bonté aimante. En tant que forme de prière, l'adoration doit être distinguée des autres formes, telles que la demande, l'action de grâces, la confession et l'intercession.",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "III. Outward Postures.",
+          "target": "III. Les postures extérieures.",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "In the Old Testament and New Testament, these are similar to those which prevailed in all oriental countries, as amply illustrated by the monuments of Egypt and Assyria, and by the customs still in use among the nations of the East. The chief attitudes referred to in the Bible are the following:",
+          "target": "Dans l'Ancien et le Nouveau Testament, celles-ci ressemblent aux attitudes répandues dans tous les pays orientaux, comme l'illustrent abondamment les monuments de l'Égypte et de l'Assyrie ainsi que les coutumes encore pratiquées parmi les peuples de l'Orient. Les principales postures mentionnées dans la Bible sont les suivantes :",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "1. Prostration:",
+          "target": "1. La prosternation :",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "Among the Orientals, especially Persians, prostration (i.e. falling upon the knees, then gradually inclining the body, until the forehead touched the ground) was common as an expression of profound reverence and humility before a superior or a benefactor. It was practiced in the worship of Yahweh (",
+          "target": "Chez les Orientaux, particulièrement les Perses, la prosternation, qui consistait à tomber à genoux puis à incliner progressivement le corps jusqu'à ce que le front touche le sol, était une expression courante de profond respect et d'humilité devant un supérieur ou un bienfaiteur. Elle se pratiquait dans le culte rendu à Yahvé (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": ", Jesus in Gethsemane; ",
+          "target": ", Jésus à Gethsémané ; ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "), and of idols (",
+          "target": ") comme dans celui rendu aux idoles (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": "), but was by no means confined to religious exercises. It was the formal method of supplicating or doing obeisance to a superior (eg ",
+          "target": "), mais elle n'était nullement réservée aux pratiques religieuses. C'était la manière formelle de supplier un supérieur ou de lui rendre hommage (par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": " f; ",
+          "target": " et suiv. ; ",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "2. Kneeling:",
+          "target": "2. La génuflexion :",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "A substitute for prostration was kneeling, a common attitude in worship, frequently mentioned in Old Testament and New Testament (eg ",
+          "target": "On pouvait remplacer la prosternation par le fait de se mettre à genoux, attitude courante de la prière, fréquemment mentionnée dans l'Ancien et le Nouveau Testament (par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "tail",
+          "source": ", Christ in Gethsemane; ",
+          "target": ", le Christ à Gethsémané ; ",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "tail",
+          "source": "). The same attitude was sometimes adopted in paying homage to a fellow-creature, as in ",
+          "target": "). On adoptait parfois la même attitude pour honorer une autre créature, comme en ",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "tail",
+          "source": ". \"Sitting\" as an attitude of prayer (only ",
+          "target": ". La position « assise » pour prier (mentionnée seulement en ",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": " parallel ",
+          "target": " et dans le parallèle ",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": ") was probably a form of kneeling, as in Mahometan worship.",
+          "target": ") était probablement une forme de génuflexion, comme dans le culte musulman.",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "3. Standing:",
+          "target": "3. La position debout :",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "This was the most usual posture in prayer, like that of modern Jews in public worship. Abraham \"stood before Yahweh (Yahweh)\" when he interceded for Sodom (",
+          "target": "C'était la posture la plus courante pour prier, comme chez les Juifs modernes pendant le culte public. Abraham « se tenait devant Yahvé » lorsqu'il intercédait pour Sodome (",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": "). Compare ",
+          "target": "). Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "tail",
+          "source": ". The Pharisee in the parable \"stood and prayed\" (",
+          "target": ". Le pharisien de la parabole « se tenait debout et priait » (",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "tail",
+          "source": "), and the hypocrites are said to \"pray standing in the synagogues, and in the corners of the streets\" (",
+          "target": "), tandis qu'il est dit des hypocrites qu'ils « aiment à prier debout dans les synagogues et aux coins des rues » (",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "tail",
+          "source": " the King James Version).",
+          "target": ", King James Version).",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "4. The Hands:",
+          "target": "4. Les mains :",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "The above postures were accompanied by various attitudes of the hands, which were either lifted up toward heaven (",
+          "target": "Les postures précédentes s'accompagnaient de diverses positions des mains, soit élevées vers le ciel (",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "tail",
+          "source": "), or outspread (",
+          "target": "), soit étendues (",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "tail",
+          "source": "), or both (",
+          "target": "), soit dans une attitude combinant les deux gestes (",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "5. Kiss of Adoration:",
+          "target": "5. Le baiser d'adoration :",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "The heathen practice of kissing hands to the heavenly bodies as a sign of adoration is referred to in ",
+          "target": "La coutume païenne d'envoyer des baisers de la main aux corps célestes en signe d'adoration est évoquée en ",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": ", and of kissing the idol in ",
+          "target": ", et celle d'embrasser une idole en ",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "tail",
+          "source": ". The kiss of homage is mentioned in ",
+          "target": ". Le baiser d'hommage est mentionné en ",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "tail",
+          "source": ", if the text there be correct. Kissing hands to the object of adoration was customary among the Romans (Pliny xxviii.5). The New Testament word for \"worship\" (proskuneo) literally means to kiss (the hand) to (one).",
+          "target": ", si le texte de ce passage est correct. Le geste d'envoyer un baiser de la main à l'objet de son adoration était habituel chez les Romains (Pline, XXVIII, 5). Le terme du Nouveau Testament traduit par « adorer » (proskuneo) signifie littéralement, selon l'auteur, envoyer un baiser de la main à quelqu'un.",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "See also ",
+          "target": "Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "ATTITUDES",
+          "target": "ATTITUDES",
+          "action": "preserve",
+          "reason": "ATTITUDES is unchanged as a French cross-reference label"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "IV. Objects of Adoration.",
+          "target": "IV. Les objets de l'adoration.",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "The only adequate object of adoration is the Supreme Being. He only who is the sum of all perfections can fully satisfy man's instincts of reverence, and elicit the complete homage of his soul.",
+          "target": "Le seul objet adéquat de l'adoration est l'Être suprême. Lui seul, qui réunit en lui toutes les perfections, peut pleinement satisfaire les aspirations humaines à la révérence et susciter l'hommage complet de l'âme.",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "1. Fellow-Creatures:",
+          "target": "1. Les autres créatures :",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "Yet, as already suggested, the crude beginnings of religious adoration are to be found in the respect paid to created beings regarded as possessing superior claims and powers, especially to kings and rulers. As instances we may mention the woman of Tekoa falling on her face to do obeisance to king David (",
+          "target": "Pourtant, comme nous l'avons déjà suggéré, les premières formes rudimentaires de l'adoration religieuse apparaissent dans le respect témoigné à des êtres créés auxquels on attribuait une autorité ou des pouvoirs supérieurs, particulièrement aux rois et aux dirigeants. On peut citer la femme de Tekoa qui se jeta face contre terre pour rendre hommage au roi David (",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "tail",
+          "source": "), and the king's servants bowing down to do reverence to Haman (",
+          "target": ") et les serviteurs du roi qui se prosternèrent devant Haman pour l'honorer (",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "tail",
+          "source": "). Compare ",
+          "target": "). Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "2. Material Objects:",
+          "target": "2. Les objets matériels :",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "text",
+          "source": "On a higher plane, as involving some recognition of divinity, is the homage paid to august and mysterious objects in Nature, or to phenomena in the physical world which were supposed to have some divine significance. To give reverence to material objects themselves is condemned as idolatry throughout the Old Testament. Such an example is the case with the worship of \"the host of heaven\" (the heavenly bodies) sometimes practiced by the Hebrews (",
+          "target": "À un niveau supérieur, puisqu'il implique une certaine reconnaissance du divin, se situe l'hommage rendu à des objets imposants et mystérieux de la nature ou à des phénomènes physiques auxquels on attribuait une signification divine. Accorder de la révérence aux objets matériels eux-mêmes est condamné comme de l'idolâtrie dans tout l'Ancien Testament. C'est le cas, par exemple, du culte rendu à « l'armée des cieux », c'est-à-dire aux astres, parfois pratiqué par les Hébreux (",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "tail",
+          "source": "). So Job protests that he never proved false to God by kissing hands to the sun and moon in token of adoration (",
+          "target": "). Job déclare ainsi qu'il n'a jamais été infidèle à Dieu en envoyant des baisers de la main au soleil et à la lune comme signes d'adoration (",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "tail",
+          "source": "). We have reference in the Old Testament to acts of homage paid to an idol or an image, such as falling down before it (",
+          "target": "). L'Ancien Testament mentionne des actes d'hommage rendus à une idole ou à une image, tels que se prosterner devant elle (",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "tail",
+          "source": "), or kissing it (",
+          "target": ") ou l'embrasser (",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "tail",
+          "source": "). All such practices are condemned in uncompromising terms. But when material things produce a reverential attitude, not to themselves, but to the Deity whose presence they symbolize, then they are regarded as legitimate aids to devotion; eg. fire as a manifestation of the Divine presence is described as causing the spectator to perform acts of reverence (eg. ",
+          "target": "). Toutes ces pratiques sont condamnées sans compromis. Cependant, lorsque des réalités matérielles suscitent un sentiment de révérence non envers elles-mêmes, mais envers la divinité dont elles symbolisent la présence, elles sont considérées comme des aides légitimes à la piété. Ainsi, le feu, comme manifestation de la présence divine, est décrit comme incitant celui qui le voit à accomplir des gestes de révérence (par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "tail",
+          "source": " f). In these instances, it was Yahweh Himself that was worshipped, not the fire which revealed Him. The sacred writers are moved to religious adoration by the contemplation of the glories of Nature. To them, \"the heavens declare the glory of God, and the firmament sheweth his handiwork.\" (Compare especially the \"nature Psalms\" Ps 8; 19; 29; 104.)",
+          "target": " et suiv.). Dans ces cas, c'est Yahvé lui-même qui était adoré et non le feu qui le révélait. Les auteurs sacrés sont conduits à l'adoration religieuse par la contemplation des splendeurs de la nature. Pour eux, « les cieux racontent la gloire de Dieu, et l'étendue manifeste l'œuvre de ses mains » (comparer particulièrement les psaumes consacrés à la nature, Psaumes 8, 19, 29 et 104).",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "text",
+          "source": "3. Angels:",
+          "target": "3. Les anges :",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "text",
+          "source": "On a still higher plane is the adoration practiced in the presence of supernatural agents of the Divine will. When an angel of God appeared, men fell instinctively before him in reverence and awe (eg. ",
+          "target": "À un niveau encore supérieur se situe l'adoration pratiquée en présence des messagers surnaturels de la volonté divine. Lorsqu'un ange de Dieu apparaissait, les hommes tombaient instinctivement devant lui, saisis de respect et de crainte (par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "tail",
+          "source": "). This was not to worship the creature instead of the Creator, for the angel was regarded, not as a distract individual having an existence and character of his own, but as a theophany, a self-manifestation of God.",
+          "target": "). Il ne s'agissait pas d'adorer une créature à la place du Créateur, car l'ange était considéré non comme un individu distinct, possédant sa propre existence et son propre caractère, mais comme une théophanie, une manifestation de Dieu lui-même.",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "4. The Deity:",
+          "target": "4. La divinité :",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "text",
+          "source": "The highest form of adoration is that which is directed immediately to God Himself, His kingly attributes and spiritual excellencies being so apprehended by the soul that it is filled with rapture and praise, and is moved to do Him reverence. A classical instance is the vision that initiated Isaiah into the prophetic office, when he was so possessed with the sovereignty and sublimity of God that he was filled with wonder and self-abasement (",
+          "target": "La forme la plus élevée de l'adoration est celle qui s'adresse directement à Dieu lui-même. Ses attributs royaux et ses excellences spirituelles sont alors perçus par l'âme de telle manière qu'elle est remplie d'émerveillement et de louange, et poussée à lui rendre hommage. La vision qui inaugura le ministère prophétique d'Ésaïe en fournit un exemple classique : saisi par la souveraineté et la majesté de Dieu, il fut rempli d'étonnement et d'humilité (",
+          "action": "translate"
+        },
+        {
+          "node": 101,
+          "part": "tail",
+          "source": "). In the Old Testament, the literature of adoration reaches its high-water mark in the Psalms (compare especially the group Psalms 95-100), where the ineffable majesty, power and holiness of God are set forth in lofty strains. In the New Testament, adoration of the Deity finds its most rapturous expression in Rev, where the vision of God calls forth a chorus of praise addressed to the thrice-holy God (4:8-11; 7:11,12), with whom is associated the Redeemer-Lamb.",
+          "target": "). Dans l'Ancien Testament, la littérature d'adoration atteint son sommet dans les Psaumes (comparer particulièrement les Psaumes 95 à 100), qui célèbrent en termes élevés la majesté ineffable, la puissance et la sainteté de Dieu. Dans le Nouveau Testament, l'adoration de la divinité trouve son expression la plus enthousiaste dans l'Apocalypse, où la vision de Dieu fait surgir un chœur de louanges adressées au Dieu trois fois saint (4:8-11 ; 7:11-12), auquel est associé l'Agneau rédempteur.",
+          "action": "translate"
+        },
+        {
+          "node": 102,
+          "part": "text",
+          "source": "5. Jesus Christ:",
+          "target": "5. Jésus-Christ :",
+          "action": "translate"
+        },
+        {
+          "node": 103,
+          "part": "text",
+          "source": "How far is Jesus regarded in the New Testament as an object of adoration, seeing that adoration is befitting only to God? During our Lord's lifetime He was often the object of worship (",
+          "target": "Dans quelle mesure Jésus est-il considéré dans le Nouveau Testament comme un objet d'adoration, puisque l'adoration ne convient qu'à Dieu ? Durant sa vie terrestre, notre Seigneur reçut souvent des marques de culte (",
+          "action": "translate"
+        },
+        {
+          "node": 113,
+          "part": "tail",
+          "source": "). Some ambiguity, however, belongs to the Greek word proskunein, for while it is the usual word for \"worshipping\" God (eg. ",
+          "target": "). Le mot grec proskunein comporte toutefois une certaine ambiguïté. S'il est le terme ordinaire pour « adorer » Dieu (par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 114,
+          "part": "tail",
+          "source": "), in some contexts it means no more than paying homage to a person of superior rank by kneeling or prostration, just as the unmerciful servant is said to have `fallen down and worshipped' his master the king (",
+          "target": "), il ne signifie parfois rien de plus, selon le contexte, que rendre hommage à une personne de rang supérieur en s'agenouillant ou en se prosternant. Ainsi, il est dit du serviteur impitoyable qu'il « tomba à terre et adora » son maître, le roi (",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "tail",
+          "source": "), and as Josephus speaks of the Jewish high priests as proskunoumenoi (BJ, IV, v, 2). On the other hand, it certainly implies a consciousness, on the part of those who paid this respect to Jesus, and of Jesus Himself, of a very exceptional superiority in His person, for the same homage was refused by Peter, when offered to him by Cornelius, on the ground that he himself also was a man (",
+          "target": "), et Josèphe qualifie les grands prêtres juifs de proskunoumenoi (Guerre des Juifs, IV, V, 2). D'autre part, ces marques de respect envers Jésus témoignent assurément, chez ceux qui les lui rendaient comme chez Jésus lui-même, de la conscience de sa supériorité tout à fait exceptionnelle. En effet, Pierre refusa un hommage semblable de la part de Corneille, au motif qu'il était lui aussi un homme (",
+          "action": "translate"
+        },
+        {
+          "node": 116,
+          "part": "tail",
+          "source": " f), and even by the angel before whom John prostrated himself, on the ground that God alone was to be \"worshipped\" (",
+          "target": " et suiv.), et l'ange devant lequel Jean se prosterna le refusa également, parce que Dieu seul devait être « adoré » (",
+          "action": "translate"
+        },
+        {
+          "node": 119,
+          "part": "text",
+          "source": "Yet Jesus never repudiated such tokens of respect. But whatever about the \"days of His flesh,\" there is no doubt that after the ascension Christ became to the church the object of adoration as Divine, and the homage paid to Him was indistinguishable in character from that paid to God. This is proved not only by isolated passages, but still more by the whole tone of the Ac and epistles in relation to Him. This adoration reaches its highest expression in ",
+          "target": "Jésus, pourtant, ne repoussa jamais ces témoignages de respect. Mais quoi qu'il en soit « aux jours de sa chair », il ne fait aucun doute qu'après l'ascension, le Christ devint pour l'Église un objet d'adoration en tant qu'être divin, et que l'hommage qui lui était rendu ne se distinguait pas, par sa nature, de celui qui était rendu à Dieu. Cela est attesté non seulement par des passages isolés, mais plus encore par toute la tonalité des Actes et des épîtres à son égard. Cette adoration atteint sa plus haute expression en ",
+          "action": "translate"
+        },
+        {
+          "node": 120,
+          "part": "tail",
+          "source": ", where the Redeemer-Lamb who shares the throne of God is the subject of an outburst of adoring praise on the part of the angelic hosts. In ",
+          "target": ", où l'Agneau rédempteur, associé au trône de Dieu, est l'objet d'une explosion de louanges adoratrices de la part des armées angéliques. En ",
+          "action": "translate"
+        },
+        {
+          "node": 121,
+          "part": "tail",
+          "source": " the hymn of adoration is addressed to the Lord God Almighty, the Creator; here it is addressed to the Lamb on the ground of His redeeming work. In Re the adoration of Him \"who sitteth on the throne\" and that of \"the Lamb\" flow together into one stream of ecstatic praise (compare ",
+          "target": ", l'hymne d'adoration s'adresse au Seigneur Dieu tout-puissant, le Créateur ; ici, il est adressé à l'Agneau à cause de son œuvre rédemptrice. Dans l'Apocalypse, l'adoration de « celui qui est assis sur le trône » et celle de « l'Agneau » se rejoignent en un même flot de louanges extatiques (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 123,
+          "part": "text",
+          "source": "D. Miall Edwards",
+          "target": "D. Miall Edwards",
+          "action": "preserve",
+          "reason": "Preserve original author attribution"
+        }
+      ]
+    }
+  ]
+}
