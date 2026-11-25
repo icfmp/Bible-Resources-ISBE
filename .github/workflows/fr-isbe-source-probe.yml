@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract the ten shortest undrafted canonical entries
+      - name: Extract the 100 shortest undrafted canonical entries
         run: |
           python3 - <<'PY'
           import json
@@ -40,7 +40,7 @@ jobs:
               candidates.append((eligible,position,key,article,units))
           candidates.sort(key=lambda row:(row[0],row[1]))
           print("ISBE_STATS="+json.dumps({"drafted_all":len(drafted),"remaining":len(candidates),"next_20":[{"chars":x[0],"position":x[1],"source_key":x[2]} for x in candidates[:20]]},ensure_ascii=False))
-          for chars,position,key,article,units in candidates[:10]:
+          for chars,position,key,article,units in candidates[:100]:
               row={"source_key":key,"source_position":position,"article_id":article.get(XML_ID),"source_article_sha256":stable_xml_fingerprint(article),"source_eligible_chars":chars,
                    "units":[{"node":ordinal,"part":part,"tag":node.tag.rsplit("}",1)[-1],"source":value,"immutable":preserve_immutable(node,part)} for ordinal,node,part,value in units]}
               print("ISBE_EXTRACT="+json.dumps(row,ensure_ascii=False))
