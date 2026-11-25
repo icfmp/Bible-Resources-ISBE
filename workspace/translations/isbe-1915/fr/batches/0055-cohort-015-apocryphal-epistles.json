@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "APOCRYPHAL EPISTLES",
+      "article_id": "isbe-75931cc9c8b280b2fe43",
+      "source_article_sha256": "28951345ecb20cbc90259a6336ad90e6a7cd643ba7b0ea009074216d2ad0ea4a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APOCRYPHAL EPISTLES",
+          "target": "ÉPÎTRES APOCRYPHES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-pok'-ri-fal e-pis'-ls: A few epistles have been attributed to the Virgin Mary, but these are very late and without value. The following epistles fall to be noted as apocryphal:",
+          "target": "a-pok'-ri-fal e-pis'-ls : quelques épîtres ont été attribuées à la Vierge Marie, mais elles sont très tardives et sans valeur. Les épîtres suivantes méritent d'être mentionnées parmi les écrits apocryphes :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "1. Letter Attributed to our Lord:",
+          "target": "1. Lettre attribuée à notre Seigneur :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "The letter attributed to our Lord is given in Eusebius (Historia Ecclesiastica, I, 13) who records that in his day a copy of the letter was to be found among the archives of Edessa. Abgarus, king of Osroene, which was a small country in Mesopotamia, writes from Edessa, the capital, to our Lord, asking for healing and offering Him protection. Our Lord sends back a short letter saying that He cannot leave Palestine, but that, after His ascension, a messenger will come and heal Abgarus. The letters are obviously spurious. Osroene was actually Christianized about the beginning of the 3rd century, and the legend took shape and received official sanction in order to show that the country had received the Gospel at a much earlier date. See ",
+          "target": "La lettre attribuée à notre Seigneur est reproduite par Eusèbe (Historia Ecclesiastica, I, 13), qui rapporte qu'à son époque un exemplaire en était conservé dans les archives d'Édesse. Abgar, roi de l'Osroène, petit pays de Mésopotamie, écrit d'Édesse, sa capitale, à notre Seigneur pour demander sa guérison et lui offrir sa protection. Notre Seigneur lui répond par une courte lettre qu'il ne peut quitter la Palestine, mais qu'après son ascension un messager viendra guérir Abgar. Ces lettres sont manifestement apocryphes. En réalité, l'Osroène fut christianisée vers le début du IIIe siècle ; la légende se forma et reçut une sanction officielle afin de montrer que ce pays avait reçu l'Évangile à une époque beaucoup plus ancienne. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ABGAR",
+          "target": "ABGAR",
+          "action": "preserve",
+          "reason": "Historical named cross-reference retained unchanged"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "2. Letter Attributed to Peter:",
+          "target": "2. Lettre attribuée à Pierre :",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "The Clementine Homilies is a work of fiction attributed to Clement of Rome; it was actually written about the end of the 2nd century or the beginning of the 3rd. At the beginning of it there is set a letter of Peter to James. In it Peter counsels James not to show the book containing Peter's preaching except to a limited circle, and makes a violent attack upon the apostle Paul. It is thus evidently Ebionitic in tendency, and is, like the homilies to which it is prefixed, spurious.",
+          "target": "Les Homélies clémentines sont une œuvre de fiction attribuée à Clément de Rome ; elles furent en réalité rédigées vers la fin du IIe siècle ou le début du IIIe. À leur commencement figure une lettre de Pierre à Jacques. Pierre y conseille à Jacques de ne montrer le livre contenant ses prédications qu'à un cercle restreint et attaque violemment l'apôtre Paul. Cette lettre révèle donc manifestement une tendance ébionite et, comme les homélies auxquelles elle sert de préface, elle est apocryphe.",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "3. Letters Attributed to Paul:",
+          "target": "3. Lettres attribuées à Paul :",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(1) The Epistle from Laodicea.",
+          "target": "(1) L'Épître aux Laodicéens.",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "The mention of such an epistle in ",
+          "target": "La mention d'une telle épître en ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": " evidently tempted someone to forge a letter. It is written in Latin, and consists of 20 vs; it is a mere cento of Pauline phrases strung together. It is mentioned in the Muratorian Fragment (170 AD); and by the end of the 4th century. it had a wide circulation. It is now almost universally rejected as spurious. See ",
+          "target": " a manifestement incité quelqu'un à fabriquer une lettre. Celle-ci est écrite en latin, compte 20 versets et n'est qu'un assemblage de formules pauliniennes mises bout à bout. Elle est mentionnée dans le Fragment de Muratori (170 apr. J.-C.) et, à la fin du IVe siècle, elle était largement répandue. Elle est aujourd'hui presque universellement rejetée comme apocryphe. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "COLOSSIANS",
+          "target": "COLOSSIENS",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "EPHESIANS",
+          "target": "ÉPHÉSIENS",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "LAODICEANS, EPISTLE TO THE",
+          "target": "ÉPÎTRE AUX LAODICÉENS",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "(2) Lost Epistle to the Corinthians.",
+          "target": "(2) Épître perdue aux Corinthiens.",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "In ",
+          "target": "En ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": " a letter to the Corinthians is mentioned which appears to have been lost. In a 5th century Armenian version of the Scriptures there is inserted after 2 Corinthians a short letter from the Corinthians to Paul, and one from Paul to the Corinthians. These are also found in Syriac, and were evidently accepted in many quarters as genuine at the end of the 4th century. They formed a part of the Apocryphal Ac of Paul, and date from about 200 AD. See ",
+          "target": ", il est fait mention d'une lettre aux Corinthiens qui semble avoir été perdue. Dans une version arménienne des Écritures du Ve siècle, on trouve insérées après 2 Corinthiens une courte lettre des Corinthiens à Paul et une lettre de Paul aux Corinthiens. Ces lettres se rencontrent aussi en syriaque et furent manifestement acceptées comme authentiques dans de nombreux milieux à la fin du IVe siècle. Elles faisaient partie des Actes apocryphes de Paul et dateraient d'environ 200 apr. J.-C. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "CORINTHIANS",
+          "target": "CORINTHIENS",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "(3) An Epistle to the Alexandrines.",
+          "target": "(3) Épître aux Alexandrins.",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "This is mentioned only in the Muratorian Fragment, and has not come down to us.",
+          "target": "Elle n'est mentionnée que dans le Fragment de Muratori et ne nous est pas parvenue.",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(4) Letters of Paul to Seneca.",
+          "target": "(4) Lettres de Paul à Sénèque.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "This is a correspondence in Latin, six of the letters being attributed to Paul and eight to Seneca. Regarding this correspondence Lightfoot says: \"This correspondence was probably forged in the 4th century, either to recommend Seneca to Christian readers, or to recommend Christianity to students of Seneca.\" It had a wide circulation in the Middle Ages.",
+          "target": "Il s'agit d'une correspondance en latin, dont six lettres sont attribuées à Paul et huit à Sénèque. À son propos, Lightfoot écrit : « Cette correspondance fut probablement forgée au IVe siècle, soit pour recommander Sénèque aux lecteurs chrétiens, soit pour recommander le christianisme aux étudiants de Sénèque. » Elle circula largement au Moyen Âge.",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "See article \"Apocrypha\" in Encyclopedia Biblica and RE. For text of Peter's letter to James, see Roberts' and Donaldson's Ante-Nicene Christian Library, XVII. For the Pauline letters consult Zahn, Geschichte des New Testament Kanons, II. For Paul's Laodicean letter, see Lightfoot's Commentary on Colossians (where the text of the letter is graven); and for the letters to Seneca, Lightfoot's Commentary on Philippians, Dissertation II, with Appendix.",
+          "target": "Voir l'article « Apocrypha » dans l'Encyclopedia Biblica et la RE. Pour le texte de la lettre de Pierre à Jacques, voir la collection Ante-Nicene Christian Library de Roberts et Donaldson, XVII. Pour les lettres pauliniennes, consulter Zahn, Geschichte des New Testament Kanons, II. Sur l'épître de Paul aux Laodicéens, voir le Commentary on Colossians de Lightfoot (où figure le texte de la lettre) ; et, pour les lettres à Sénèque, son Commentary on Philippians, Dissertation II, avec appendice.",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "John Macartney Wilson",
+          "target": "John Macartney Wilson",
+          "action": "preserve",
+          "reason": "Original historical author attribution preserved verbatim"
+        }
+      ]
+    }
+  ]
+}
