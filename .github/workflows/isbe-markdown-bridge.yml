@@ -1,0 +1,80 @@
+name: Validate ISBE Markdown paragraph translation bridge
+
+on:
+  push:
+    paths:
+      - 'scripts/translation_markdown_layout.py'
+      - 'scripts/markdown_translation_bridge.py'
+      - 'tests/test_markdown_translation_bridge.py'
+      - 'tests/test_markdown_bridge_guards.py'
+      - 'tests/test_markdown_bridge_existing_batch.py'
+      - 'docs/isbe-markdown-translation-bridge.md'
+      - '.github/workflows/isbe-markdown-bridge.yml'
+  pull_request:
+    paths:
+      - 'scripts/translation_markdown_layout.py'
+      - 'scripts/markdown_translation_bridge.py'
+      - 'tests/test_markdown_translation_bridge.py'
+      - 'tests/test_markdown_bridge_guards.py'
+      - 'tests/test_markdown_bridge_existing_batch.py'
+      - 'docs/isbe-markdown-translation-bridge.md'
+      - '.github/workflows/isbe-markdown-bridge.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bridge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate anchored paragraph compilation fixture
+        run: python3 -m unittest tests.test_markdown_translation_bridge tests.test_markdown_bridge_guards tests.test_markdown_bridge_existing_batch -v
+      - name: Inspect real original TEI paragraphs for source-map compatibility
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from scripts.translation_markdown_layout import build_blocks
+          from scripts.validate_translation_identity import read_body
+          path=Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml')
+          _,body=read_body(path)
+          errors=[]
+          count=0
+          for article in body:
+              count+=1
+              try:
+                  blocks=build_blocks(article)
+                  if not blocks:
+                      errors.append((article.get('n'),'no blocks'))
+              except ValueError as exc:
+                  errors.append((article.get('n'),str(exc)))
+          print(f'Examined {count} original source entries; incompatible: {len(errors)}')
+          for row in errors[:40]:
+              print('INCOMPATIBLE SOURCE',row)
+          assert count==9380, 'Historical English source index changed'
+          assert not errors, 'Generic Markdown bridge cannot safely map all original entries'
+          PY
+      - name: Smoke-test real archived Markdown and canonical source maps
+        run: |
+          python3 - <<'PY'
+          import tempfile
+          from pathlib import Path
+          from scripts.export_tei_markdown_corpus import export
+          from scripts.translation_markdown_layout import template
+          from scripts.select_translation_pilot import SOURCE_SHA256
+          from scripts.validate_translation_identity import sha256
+          source=Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml')
+          assert sha256(source)==SOURCE_SHA256
+          with tempfile.TemporaryDirectory() as folder:
+              base=Path(folder)
+              archive=base/'workspace.zip'
+              report=export(source,archive,report=base/'report.json')
+              assert report['canonical_article_count']==9380
+              for key in ('ABRAHAM','ABLUTION','ANDREW','ATHENS',
+                          'ANTIOCH, OF PISIDIA','APOSTOLIC AGE'):
+                  md=template(archive,key)
+                  assert md.startswith('<!-- ISBE-TRANSLATION-V1 ')
+                  assert '<!-- ISBE-END:' in md
+                  print('SOURCE-LOCKED MARKDOWN READY',key,len(md))
+          PY
