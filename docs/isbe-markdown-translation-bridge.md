@@ -59,3 +59,6 @@ module, or modify the historical English source.**
 For future languages, reuse the original English archive and article IDs.
 This first bridge targets French because the existing patch application
 workflow currently validates `language: fr`.
+
+The CI also scans the complete 9,380-article historical TEI to detect
+unsupported structural patterns before a translator relies on the bridge.
