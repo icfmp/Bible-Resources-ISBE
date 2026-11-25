@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five shortest previously undrafted canonical wave-01 original English articles following merged cohort 022, frozen in source-index order",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 85,
+      "source_key": "ABOMINATION OF DESOLATION",
+      "article_id": "isbe-39052f399b914d82f21d",
+      "source_article_sha256": "021bf15b16a651985785911f20020c7d53f40710072fa5e033ae96efe7eaae27",
+      "source_eligible_chars": 6931,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0096-cohort-023-abomination-of-desolation.json"
+    },
+    {
+      "index": 115,
+      "source_key": "ACCO",
+      "article_id": "isbe-f4ab50d016b442e6355f",
+      "source_article_sha256": "c8a7bfbd1fbb9f26713dff75609e7e2801858b637cd088033dc5d8e22b155338",
+      "source_eligible_chars": 6456,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0094-cohort-023-acco.json"
+    },
+    {
+      "index": 155,
+      "source_key": "ACROSTIC",
+      "article_id": "isbe-7ce3ef030021cb7c567b",
+      "source_article_sha256": "526ce470e0e9ac8f7fbbf7e4d46022feb11b58c9e5c07f66c03ce26362c8d1e3",
+      "source_eligible_chars": 6686,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0097-cohort-023-acrostic.json"
+    },
+    {
+      "index": 933,
+      "source_key": "ATHENS",
+      "article_id": "isbe-a299d25d19b92516c53c",
+      "source_article_sha256": "29c7873ecb0e1de7c5bd79b3e8cfee4c1b4f55a749141f436b15215bd6f92e90",
+      "source_eligible_chars": 6558,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0095-cohort-023-athens.json"
+    },
+    {
+      "index": 954,
+      "source_key": "AUGURY",
+      "article_id": "isbe-e76a5b29f596197de3db",
+      "source_article_sha256": "6a6ba119a25d4cbdc9a28a26e62885ffc0d051ce9eaf8205e4d613d676b8ea9a",
+      "source_eligible_chars": 7003,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0098-cohort-023-augury.json"
+    }
+  ]
+}

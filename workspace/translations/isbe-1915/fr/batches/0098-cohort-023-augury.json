@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AUGURY",
+      "article_id": "isbe-e76a5b29f596197de3db",
+      "source_article_sha256": "6a6ba119a25d4cbdc9a28a26e62885ffc0d051ce9eaf8205e4d613d676b8ea9a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AUGURY",
+          "target": "AUGURE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "o'-gu-ri o'-gur-i: This word occurs in the Revised Version (British and American) in ",
+          "target": "o'-gu-ri, o'-gur-i : ce mot figure dans la Revised Version britannique et américaine en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", and the parallel in ",
+          "target": ", ainsi que dans le passage parallèle en ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ". In all these cases the verb \"practice augury\" is in the King James Version \"to observe times.\" The verb thus translated is `onen, which means probably to utter a low croaking sound as was done in divining. See ",
+          "target": ". Dans tous ces cas, le verbe traduit par « pratiquer l'augure » est rendu dans la version du roi Jacques par « observer les temps ». Le verbe hébreu ainsi traduit est `onen, qui signifie probablement « produire un croassement sourd », comme on le faisait lors de la divination. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "DIVINATION",
+          "target": "DIVINATION",
+          "action": "preserve",
+          "reason": "Original exact article-link headword"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "I. Definition.",
+          "target": "I. Définition.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "The derivation of \"augur\" is doubtful, but that it means strictly to divine from the flight of birds is suggested by its likeliest etymology (avis, gur) and especially from the fact that in early Latin the augur was called auspex ( = avi spex). But both words came to be applied to all forms of divining from omens.",
+          "target": "L'étymologie du mot « augure » est incertaine, mais son sens strict de « prédire par le vol des oiseaux » est suggéré par son étymologie la plus vraisemblable (avis, gur), et surtout par le fait qu'en latin ancien l'augure était appelé auspex (= avi spex). Les deux termes en vinrent cependant à désigner toutes les formes de divination par des présages.",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "II. Augury among the Romans.",
+          "target": "II. L'augure chez les Romains.",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "The Roman augur was a government official, paid to guide the councils of the nation in times of peace and of war. The principal signs from which these augurs deduced their omens were these:",
+          "target": "L'augure romain était un fonctionnaire de l'État, rémunéré pour guider les conseils de la nation en temps de paix comme en temps de guerre. Les principaux signes dont ces augures tiraient leurs présages étaient les suivants :",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "(1) celestial signs, chiefly lightning and thunder, the direction of the former (right to left a good sign, and vice versa);",
+          "target": "(1) les phénomènes célestes, principalement les éclairs et le tonnerre, et la direction des éclairs (de droite à gauche, signe favorable ; l'inverse, défavorable) ;",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "(2) signs from the flight, cries and feeding of birds;",
+          "target": "(2) le vol, les cris et la manière de se nourrir des oiseaux ;",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "(3) signs from the movements and audible sounds of animals, including serpents;",
+          "target": "(3) les mouvements et les sons des animaux, y compris les serpents ;",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "(4) signs from the examination of the entrails of animals;",
+          "target": "(4) l'examen des entrailles des animaux ;",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "(5) belomancy, or divination by arrows;",
+          "target": "(5) la bélomancie, ou divination par les flèches ;",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(6) sortilege, or divination by lot. Among the Romans as among other nations (Babylonians, etc.), a sacrifice was offered before omens were taken, so as to propitiate the gods.",
+          "target": "(6) le tirage au sort, ou divination par les lots. Chez les Romains, comme chez d'autres peuples (Babyloniens, etc.), on offrait un sacrifice avant de consulter les présages, afin de se concilier les dieux.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "III. Augury among the Greeks.",
+          "target": "III. L'augure chez les Grecs.",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "Almost the only kind of divination practiced or even known among the Romans was that by signs or omens, though Cicero (de Div. i.1 f) notices another kind which may be called divining by direct inspiration from the gods. It is this higher and more spiritual mode of divining that obtained most largely among the Greeks, whose chief word for diviner implies this. Yet the lower kind of divination known as augury was to some extent practiced among the Greeks.",
+          "target": "La divination par signes ou présages était presque la seule forme de divination pratiquée, ou même connue, chez les Romains, bien que Cicéron (De divinatione, i.1 et suiv.) mentionne une autre forme que l'on pourrait appeler divination par inspiration directe des dieux. C'est ce mode plus élevé et plus spirituel de divination qui prédominait chez les Grecs, comme le suggère leur principal terme pour désigner un devin. La forme inférieure de divination appelée augure était néanmoins pratiquée jusqu'à un certain point chez eux.",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "IV. Augury among the Hebrews",
+          "target": "IV. L'augure chez les Hébreux.",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "In general it may be said that the religion of Israel set itself steadfastly and consistently against augury; a very remarkable fact when one remembers how rife it was among the surrounding peoples--Arabs, Assyrians, Babylonians, Egyptians, etc. Surely there is in this evidence of special Divine guidance, for those ancient Hebrews are not fit to be compared with the Babylonians or Egyptians or Romans for achievements in art and general secular literature. For the attitude of the Old Testament toward augury see the passages enumerated in the opening of this article. Several kinds of augury are mentioned in the Old Testament, and in some eases without explicit condemnation.",
+          "target": "On peut dire d'une manière générale que la religion d'Israël s'est opposée fermement et constamment à l'augure. Le fait est très remarquable si l'on se souvient de sa large diffusion parmi les peuples voisins : Arabes, Assyriens, Babyloniens, Égyptiens, etc. L'auteur y voit assurément la preuve d'une direction divine particulière, car les anciens Hébreux ne sauraient, selon lui, être comparés aux Babyloniens, aux Égyptiens ou aux Romains pour leurs réalisations dans les arts et la littérature profane. Sur l'attitude de l'Ancien Testament envers l'augure, voir les passages cités au début de cet article. Plusieurs formes d'augure sont mentionnées dans l'Ancien Testament, parfois sans condamnation explicite.",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "1. Belomancy:",
+          "target": "1. La bélomancie :",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "Belomancy was a method of divination by arrows, a number of which were marked in certain ways, then mixed and drawn at random. We have a reference to this in ",
+          "target": "La bélomancie était une forme de divination par les flèches : on en marquait plusieurs de diverses façons, puis on les mélangeait et on les tirait au hasard. On y trouve une allusion en ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": ": `My people ask counsel from their wood [literally, \"tree\"] and their staff [i. e. \"arrow\"] tells them (their oracles)'; and also in ",
+          "target": " : « Mon peuple consulte son bois [littéralement, « arbre »], et son bâton [c'est-à-dire « flèche »] lui annonce ses oracles » ; ainsi qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": ": `For the king of Babylon .... used divination, shaking the arrows to and fro.' The first passage shows that belomancy was practiced by Israelites though the prophet condemned it. The second is interesting as showing how the Babylonian used his arrows. It is to be noticed that the prophet Ezekiel records the incident without making any comment on it, favorable or otherwise. He would, however, had he spoken, almost certainly have condemned it. Mohammed forbade this use of arrows as \"an abomination of Satan's work\" (Koran, Sur. 5 92).",
+          "target": " : « Car le roi de Babylone [...] pratiquait la divination, faisant aller et venir les flèches ». Le premier passage montre que des Israélites pratiquaient la bélomancie, bien que le prophète la condamnât. Le second est intéressant parce qu'il montre comment le Babylonien employait ses flèches. Il convient de noter qu'Ézéchiel rapporte l'incident sans y ajouter de commentaire favorable ou défavorable ; mais, s'il s'était prononcé, il l'aurait presque certainement condamné. Mahomet interdit cet usage des flèches comme « une abomination de l'œuvre de Satan » (Coran, sourate 5, 92).",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "2. Hydromancy:",
+          "target": "2. L'hydromancie :",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "Hydromancy, or divination by water, was practiced by Joseph (",
+          "target": "L'hydromancie, ou divination par l'eau, était pratiquée par Joseph (",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "tail",
+          "source": ") without any censure on the part of the writer. There were among the Romans and other ancient nations, as among modern Arabs, etc., many modes of divining by means of water. Generally a piece of silver or gold or a precious stone was thrown into a vessel containing water: the resulting movements of the water and the figures formed were interpreted according to certain fixed signs. See August., de Civ. Dei, vii.31; Strabo xvi.11.39; Iamblichus, de Myst., iii.4.",
+          "target": ") sans que le narrateur exprime la moindre censure. Chez les Romains et d'autres peuples anciens, comme chez les Arabes modernes, etc., il existait de nombreuses méthodes de divination au moyen de l'eau. On jetait généralement une pièce d'argent ou d'or, ou une pierre précieuse, dans un récipient rempli d'eau ; les mouvements de l'eau et les figures ainsi produites étaient interprétés selon certains signes établis. Voir Augustin, De civitate Dei, vii.31 ; Strabon, xvi.11.39 ; Jamblique, De mysteriis, iii.4.",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "3. Sortliege:",
+          "target": "3. Le sortilège :",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "Of sortliege, or divination by lot, we have instances in ",
+          "target": "Le sortilège, ou divination par tirage au sort, est attesté en ",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "tail",
+          "source": " ff; ",
+          "target": " et suiv. ; ",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": ", etc. The Urim and Thummim was simply a case of sortilege, though in this case, as in the cases enumerated above, God was supposed to control the result. A proper translation of ",
+          "target": ", etc. L'urim et le thummim étaient simplement, selon l'auteur, un cas de tirage au sort, bien que, dans ce cas comme dans les exemples précédemment cités, on supposât que Dieu en dirigeait le résultat. Une traduction appropriée de ",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": " f, based on a text corrected according to the Septuagint of Lucian, is the following: \"And Saul said, O Lord the God of Israel, why hast thou not answered thy servant this day? If the iniquity be in me or in Jonathan my son, give Urim; and if thou sayest thus, The ......\" It iniquity is in the people, give Thummim. seems almost certain that these words refer to two balls put into the high priest's ephod and drawn by him at random, the one divining one answer, and the other the contrary.",
+          "target": " et suiv., fondée sur un texte corrigé d'après la Septante de Lucien, serait la suivante : « Et Saül dit : Seigneur, Dieu d'Israël, pourquoi n'as-tu pas répondu à ton serviteur aujourd'hui ? Si la faute est en moi ou en Jonathan mon fils, donne urim ; et si tu parles ainsi, le [...] ». « La faute est dans le peuple, donne thummim ». Il paraît presque certain, selon l'auteur, que ces paroles font allusion à deux boules placées dans l'éphod du grand prêtre et tirées au hasard, l'une donnant une réponse et l'autre la réponse contraire.",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "4. Other Methods:",
+          "target": "4. Autres méthodes :",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "We meet with several other signs. The prophet Elisha directs King Joash to throw two arrows through the window in order to find out whether the king will be victorious or not (",
+          "target": "On rencontre plusieurs autres signes. Le prophète Élisée ordonne au roi Joas de lancer deux flèches par la fenêtre pour savoir si le roi remportera la victoire (",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": "). If Gideon's fleece were wet and the ground dry this was to be a sign of coming victory over the Midianites. There is nothing in the narrative disapproving of the course taken (",
+          "target": "). Si la toison de Gédéon était humide tandis que le sol restait sec, cela devait être le signe d'une victoire prochaine sur les Madianites. Le récit ne désapprouve pas la démarche entreprise (",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "tail",
+          "source": " ff Jonathan is represented as deciding whether or not he is to attack the Philistines by the words he will hear them speak. See further ",
+          "target": " et suiv., Jonathan est présenté comme décidant d'attaquer ou non les Philistins d'après les paroles qu'il leur entendra prononcer. Voir encore ",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "5. Dreams:",
+          "target": "5. Les rêves :",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "Dreams are very commonly mentioned in the Bible as a means of forecasting the future. See ",
+          "target": "Dans la Bible, les rêves sont très souvent mentionnés comme un moyen de prévoir l'avenir. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": " f (Abimelech); 31:10-13 (Jacob); 37:5; 40:3 ff (Joseph), and also ",
+          "target": " et suiv. (Abimélec) ; 31:10-13 (Jacob) ; 37:5 ; 40:3 et suiv. (Joseph), et aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "tail",
+          "source": " f; ",
+          "target": " et suiv. ; ",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "tail",
+          "source": " ff; 27:19, etc. The part of the Pentateuch ascribed by Wellhausen, etc., to Elohist abounds with accounts of such significant dreams.",
+          "target": " et suiv. ; 27:19, etc. La partie du Pentateuque attribuée par Wellhausen et d'autres à l'Élohiste abonde en récits de rêves de cette nature, porteurs d'une signification particulière.",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "6. Astrology:",
+          "target": "6. L'astrologie :",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "That omens were taken from the heavenly bodies by the Babylonians, and other ancient nations is matter of definite knowledge, but it is never countenanced in the Old Testament. Indeed the only explicit reference to it in the Hebrew Scriptures occurs in ",
+          "target": "Il est établi que les Babyloniens et d'autres peuples anciens tiraient des présages des corps célestes, mais cette pratique n'est jamais approuvée dans l'Ancien Testament. En fait, la seule référence explicite à cette pratique dans les Écritures hébraïques se trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "tail",
+          "source": " where the Exilic author mockingly urges Babylon to turn to her astrologers that they may save her from her threatened doom.",
+          "target": ", où l'auteur de l'époque de l'Exil exhorte ironiquement Babylone à se tourner vers ses astrologues pour qu'ils la sauvent de sa ruine imminente.",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "Several cuneiform inscriptions give lists of celestial omens by which Babylonian augurs prognosticated the future. In ",
+          "target": "Plusieurs inscriptions cunéiformes donnent des listes de présages célestes au moyen desquels les augures babyloniens prédisaient l'avenir. En ",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "tail",
+          "source": " the wise men received their first intimation of the birth of the child Jesus from a bright star which they saw in the East.",
+          "target": ", les mages reçurent le premier indice de la naissance de l'enfant Jésus grâce à une étoile brillante qu'ils virent à l'orient.",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "V. Higher Character of Hebrew Prophecy",
+          "target": "V. Le caractère supérieur de la prophétie hébraïque.",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "Though Old Testament prophecy in its lowest forms has features in common with heathen divination, it stands on an infinitely higher level. The prophet speaks under a strong impulse and from a sense of duty. The heathen diviner plied his calling for money. The Greek mantis worked himself into a state of frenzy, thought to imply inspiration, by music and certain drugs. The prophet believed himself directly guided by God. See ",
+          "target": "Bien que la prophétie de l'Ancien Testament, dans ses formes les plus élémentaires, présente certains traits communs avec la divination païenne, elle se situe à un niveau infiniment plus élevé. Le prophète parle sous l'effet d'une impulsion puissante et du sentiment de son devoir. Le devin païen exerce son métier pour de l'argent. Le mantis grec se plonge dans un état de frénésie, censé manifester l'inspiration, au moyen de la musique et de certaines drogues. Le prophète, lui, croit être directement guidé par Dieu. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "ASTROLOGY",
+          "target": "ASTROLOGIE",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "DIVINATION",
+          "target": "DIVINATION",
+          "action": "preserve",
+          "reason": "Original exact article-link headword"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "T. Witton Davies, Magic. Divination and Demonology among the Hebrews, 1898, 72 ff; articles on \"Divination\" in Hastings, Dictionary of the Bible (five volumes) (Jevons); Encyclopedia Biblica (T. Witton Davies), and on \"Augury\" in Jewish Encyclopedia (Blau), valuable as giving the rabbinical side as well.",
+          "target": "T. Witton Davies, Magic, Divination and Demonology among the Hebrews, 1898, p. 72 et suiv. ; articles sur « Divination » dans Hastings, Dictionary of the Bible (cinq volumes), par Jevons, et Encyclopedia Biblica, par T. Witton Davies ; article « Augury » dans Jewish Encyclopedia, par Blau, particulièrement précieux pour son exposé du point de vue rabbinique.",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "T. Witton Davies",
+          "target": "T. Witton Davies",
+          "action": "preserve",
+          "reason": "Original historical author byline"
+        }
+      ]
+    }
+  ]
+}
