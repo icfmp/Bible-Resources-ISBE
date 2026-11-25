@@ -1,11 +1,11 @@
-<!-- ISBE-TRANSLATION-V1 {"article_id": "isbe-929fbcf7fb7c7e171fcb", "language": "fr", "preserve": {"2:text": "The original English transcription of the headword is preserved as historical source data", "132:text": "AZAZEL is the original Hebrew proper name retained as a French cross-reference", "204:text": "AZAZEL is the original Hebrew proper name retained as a French cross-reference", "205:text": "The original attribution Wilhelm Moller is retained verbatim"}, "publication_permitted": false, "schema_version": 1, "source_article_sha256": "d9619f4b386b464b9289fc9c143e85b1e6b09d2ba2d93d6ea133b3a73ffaf5f2", "source_key": "ATONEMENT, DAY OF", "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c", "status": "unreviewed_drafts"} -->
+<!-- ISBE-TRANSLATION-V1 {"article_id": "isbe-929fbcf7fb7c7e171fcb", "language": "fr", "preserve": {"2:text": "Historical English pronunciation of the headword preserved", "8:text": "Unchanged technical subheading marker (a)", "10:text": "Unchanged technical subheading marker (b)", "12:text": "Unchanged technical subheading marker (c)", "14:text": "Unchanged technical subheading marker (d)", "43:tail": "Original bibliographical section locator II, 2, (1), c retained", "64:text": "Unchanged original structural marker (c)", "68:text": "Unchanged original structural marker (d)", "94:text": "Unchanged technical subsection marker (a)", "99:text": "Unchanged technical subsection marker (b)", "132:text": "AZAZEL is the original proper name retained as the technical cross-reference", "132:tail": "Unchanged technical section locator II, retained", "204:text": "AZAZEL is the original proper name retained as a cross-reference", "205:text": "Original author name and attribution preserved verbatim"}, "publication_permitted": false, "schema_version": 1, "source_article_sha256": "d9619f4b386b464b9289fc9c143e85b1e6b09d2ba2d93d6ea133b3a73ffaf5f2", "source_key": "ATONEMENT, DAY OF", "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c", "status": "unreviewed_drafts"} -->
 
 <!-- ISBE-BLOCK:1 -->
 # JOUR DES EXPIATIONS
 <!-- ISBE-END:1 -->
 
 <!-- ISBE-BLOCK:2 -->
-a-ton'-ment :
+a-ton'-ment:
 <!-- ISBE-END:2 -->
 
 <!-- ISBE-BLOCK:3 -->
@@ -277,6 +277,6 @@ Le jour des Expiations, il prenait cinq bains et procédait à dix ablutions. Il
 <!-- ISBE-END:203 -->
 
 <!-- ISBE-BLOCK:205 -->
-Wilhelm Möller
+Wilhelm Moller
 <!-- ISBE-END:205 -->
 
