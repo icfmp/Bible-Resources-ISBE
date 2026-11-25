@@ -6,12 +6,14 @@ on:
       - 'scripts/translation_markdown_layout.py'
       - 'scripts/markdown_translation_bridge.py'
       - 'tests/test_markdown_translation_bridge.py'
+      - 'tests/test_markdown_bridge_guards.py'
       - '.github/workflows/isbe-markdown-bridge.yml'
   pull_request:
     paths:
       - 'scripts/translation_markdown_layout.py'
       - 'scripts/markdown_translation_bridge.py'
       - 'tests/test_markdown_translation_bridge.py'
+      - 'tests/test_markdown_bridge_guards.py'
       - '.github/workflows/isbe-markdown-bridge.yml'
   workflow_dispatch:
 
@@ -24,7 +26,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate anchored paragraph compilation fixture
-        run: python3 -m unittest tests.test_markdown_translation_bridge -v
+        run: python3 -m unittest tests.test_markdown_translation_bridge tests.test_markdown_bridge_guards -v
       - name: Inspect real original TEI paragraphs for source-map compatibility
         run: |
           python3 - <<'PY'
@@ -33,11 +35,19 @@ jobs:
           from scripts.validate_translation_identity import read_body
           path=Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml')
           _,body=read_body(path)
-          keys={'ABRAHAM','ABLUTION','ANDREW','ANTIOCH, OF PISIDIA',
-                'APOSTOLIC AGE','ATHENS','ARABIC LANGUAGE'}
+          errors=[]
+          count=0
           for article in body:
-              if article.get('n') in keys:
+              count+=1
+              try:
                   blocks=build_blocks(article)
-                  assert blocks
-                  print(article.get('n'), 'blocks', len(blocks))
+                  if not blocks:
+                      errors.append((article.get('n'),'no blocks'))
+              except ValueError as exc:
+                  errors.append((article.get('n'),str(exc)))
+          print(f'Examined {count} original source entries; incompatible: {len(errors)}')
+          for row in errors[:40]:
+              print('INCOMPATIBLE SOURCE',row)
+          assert count==9380, 'Historical English source index changed'
+          assert not errors, 'Generic Markdown bridge cannot safely map all original entries'
           PY
