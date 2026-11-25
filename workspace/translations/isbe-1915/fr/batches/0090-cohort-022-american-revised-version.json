@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AMERICAN REVISED VERSION",
+      "article_id": "isbe-42dd49cf25b5365d8d2d",
+      "source_article_sha256": "dc5862db5f45d0beb0d64883010611a5d78e844ddf92a147da4f7729d87d26d9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AMERICAN REVISED VERSION",
+          "target": "VERSION RÉVISÉE AMÉRICAINE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-mer'-i-kan re-vizd' vur'-shun.",
+          "target": "a-mer'-i-kan re-vizd' vur'-shun.",
+          "action": "preserve",
+          "reason": "Original English pronunciation guide retained verbatim"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "1. History:",
+          "target": "1. Histoire :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "On July 7, 1870, it was moved in the Lower House of the Convocation of Canterbury that in the work of revision the cooperation of American divines be invited. This resolution was assented to, and on December 7, 1871, the arrangements were completed. Under the general presidency of Dr. Philip Schaff, an Old Testament Company of fifteen scholars was formed, with Dr. W. H. Green as chairman, and a New Testament Company of sixteen members (including Dr. Schaff), with Dr. T. D. Woolsey as chairman. Work was begun on October 4, 1872, and took the form of offering criticisms on the successive portions of the English revision as they were received. These criticisms of the American Companies were duly considered by the English Companies during the second revision and the decisions were again sent to America for criticism. The replies received were once more given consideration and, finally, the unadopted readings for which the American Companies professed deliberate preference were printed as appendices to the two Testaments as published in 1881 and 1885. These lists, however, were not regarded by the American Companies as satisfactory. In the first place, it became evident that the English Companies, on account of their instructions and for other reasons, were not willing to make changes of a certain class. Consequently the American Companies insisted on only such readings as seemed to have a real chance of being accepted. And, in the second place, the English presses hurried the last part of the work and were unwilling to allow enough time for adequate thoroughness in the preparation of the lists. But it was hoped that the first published edition of the English Revised Version would not be considered definitive and that in the future such American proposals as had stood the test of public discussion might be incorporated into the text. This hope was disappointed--the English Companies disbanded as soon as their revision was finished and their work stood as final. As a result the American Companies resolved to continue their organization. They were pledged not to issue or endorse any new revision within fourteen years after the publication of the English Revised Version, and so it was not until 1900 that the American Standard Revised Version New Testament was published. The whole Bible was issued in the following year.",
+          "target": "Le 7 juillet 1870, une motion fut présentée à la Chambre basse de la Convocation de Cantorbéry afin d'inviter des théologiens américains à collaborer aux travaux de révision. La résolution fut adoptée et les dispositions nécessaires furent arrêtées le 7 décembre 1871. Sous la présidence générale du docteur Philip Schaff, on constitua un comité pour l'Ancien Testament composé de quinze savants, présidé par le docteur W. H. Green, ainsi qu'un comité pour le Nouveau Testament de seize membres (dont le docteur Schaff), présidé par le docteur T. D. Woolsey. Le travail commença le 4 octobre 1872 et consista à formuler des observations critiques sur les sections successives de la révision anglaise à mesure qu'elles parvenaient aux Américains. Les comités anglais examinèrent dûment ces observations américaines lors de la seconde révision, puis renvoyèrent leurs décisions en Amérique pour qu'elles y soient de nouveau étudiées. Les réponses reçues furent encore prises en considération et, finalement, les leçons non retenues auxquelles les comités américains déclaraient accorder une préférence réfléchie furent imprimées en annexes des deux Testaments publiés en 1881 et 1885. Toutefois, les comités américains ne jugèrent pas ces listes satisfaisantes. D'abord, il devint évident que les comités anglais, en raison des instructions qu'ils avaient reçues et pour d'autres motifs, n'étaient pas disposés à introduire certaines catégories de modifications. Les comités américains ne maintinrent donc que les propositions qui leur semblaient avoir de réelles chances d'être acceptées. Ensuite, les imprimeurs anglais précipitèrent la dernière partie du travail et refusèrent de laisser suffisamment de temps pour préparer les listes avec toute la rigueur nécessaire. On espérait néanmoins que la première édition publiée de l'English Revised Version ne serait pas considérée comme définitive et que les propositions américaines qui auraient résisté à l'épreuve du débat public pourraient être intégrées ultérieurement au texte. Cet espoir fut déçu : les comités anglais furent dissous dès l'achèvement de leur révision, qui demeura définitive. Les comités américains décidèrent alors de poursuivre leur organisation. Ils s'étaient engagés à ne publier ni cautionner aucune nouvelle révision dans les quatorze années suivant la parution de l'English Revised Version ; le Nouveau Testament de l'American Standard Revised Version ne fut donc publié qu'en 1900. La Bible entière parut l'année suivante.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "2. Differences from English Revised Version:",
+          "target": "2. Différences avec l'English Revised Version :",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "As the complete editions of the American Standard Revised Version give a full list of the changes made, only the more prominent need be mentioned here. A few of the readings printed in the appendices to the English Revised Version were abandoned, but many new ones were introduced, including some that had been adopted while the English work was in progress but which had not been pressed. (See above.) Still, in general appearance, the American Standard Revised Version differs but slightly from the English. The most important addition is found in the page-headings. Some changes have been made in shortening the titles of the New Testament books. The printing of poetical passages in poetical form has been carried through more consistently. The paragraphs have been altered in some cases and (especially in the Old Testament) shortened. The punctuation has been simplified, especially by the more frequent use of the semi-colon. The removal of obsolete words (\"magnifical,\" \"neesings,\" etc.) has been effected fairly thoroughly, obsolete constructions (\"jealous over,\" etc.) have been modernized, particularly by the use of \"who\" or \"that\" (instead of \"which\") for persons and \"its\" (instead of \"his\") for things. In the Old Testament \"Yahweh\" has been introduced systematically for the proper Hebrew word, as has \"Sheol\" (\"Hades\" in the New Testament). Certain passages too literally rendered in the English Revised Version (\"reins,\" \"by the hand of,\" etc.) are given in modern terms. In the New Testament, the substitution of \"Holy Spirit\" for \"Holy Ghost\" was completed throughout (in the English Revised Version it is made in some twenty places), \"demons\" substituted for \"devils,\" \"Teacher\" for \"Master,\" and \"try\" for \"tempt\" when there is no direct reference to wrongdoing. And so on.",
+          "target": "Puisque les éditions complètes de l'American Standard Revised Version fournissent la liste exhaustive des changements introduits, seuls les plus notables seront mentionnés ici. Quelques leçons figurant dans les annexes de l'English Revised Version furent abandonnées, mais beaucoup de nouvelles furent introduites, y compris certaines qui avaient déjà été adoptées pendant les travaux anglais sans que les Américains aient insisté pour les faire retenir (voir ci-dessus). Dans sa présentation générale, l'American Standard Revised Version ne diffère pourtant que légèrement de l'édition anglaise. L'ajout le plus important concerne les titres courants en haut des pages. Certains titres de livres du Nouveau Testament ont été abrégés. La présentation typographique des passages poétiques sous forme de poésie a été appliquée avec davantage de constance. Les divisions en paragraphes ont été modifiées dans certains cas et, surtout dans l'Ancien Testament, raccourcies. La ponctuation a été simplifiée, notamment par un usage plus fréquent du point-virgule. Les mots archaïques tels que « magnifical » ou « neesings » ont été éliminés de manière assez systématique. Les constructions vieillies, par exemple « jealous over », ont été modernisées, en particulier par l'emploi de « who » ou « that », plutôt que « which », pour les personnes, et de « its », plutôt que « his », pour les choses. Dans l'Ancien Testament, « Yahweh » a été systématiquement employé pour rendre le nom propre hébreu, ainsi que « Sheol » (« Hades » dans le Nouveau Testament). Certains passages rendus trop littéralement dans l'English Revised Version, avec des expressions comme « reins » ou « by the hand of », ont été reformulés dans un langage moderne. Dans le Nouveau Testament, le remplacement de « Holy Ghost » par « Holy Spirit » a été effectué partout (il ne l'était que dans une vingtaine de passages de l'English Revised Version) ; « devils » a été remplacé par « demons », « Master » par « Teacher » et « tempt » par « try » lorsqu'il n'était pas directement question d'une faute morale. Et ainsi de suite.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "3. Criticism:",
+          "target": "3. Appréciation critique :",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "It may be questioned whether the differences between the two Revisions are great enough to counterbalance the annoyance and confusion resulting from the existence of two standard versions in the same language. But, accepting the American Standard Revised Version as an accomplished fact, and acknowledging a few demerits that it has or may be thought to have in comparison with the English Revised Version (a bit of pedantry in ",
+          "target": "On peut se demander si les différences entre ces deux révisions sont assez importantes pour compenser les désagréments et la confusion qu'entraîne l'existence de deux versions de référence dans une même langue. Mais, si l'on accepte l'American Standard Revised Version comme un fait accompli et que l'on reconnaisse certains défauts qu'elle présente, ou qu'on peut lui reprocher, par comparaison avec l'English Revised Version (une certaine pédanterie en ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": " or renderings of disputed passages such as ",
+          "target": " ou des traductions de passages contestés comme ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "), these demerits are altogether outweighed by the superiorities--with one exception. In the Psalter, when used liturgically, the repetition of the word \"Yahweh\" becomes wearisome and the English Revised Version which retains \"The Lord\" is much preferable. Most to be regretted in the American Standard Revised Version is its extreme conservatism in the readings of the original texts. In the Old Testament the number of marginal variants was actually reduced. In the New Testament, only trivial changes are made from the so-called Revisers' Greek Text, although this text did not represent the best scholarly opinion even in 1881, while in 1900 it was almost universally abandoned (Today--in 1914--it is obsolete.) It is very unfortunate that the American Revisers did not improve on the example of their English brethren and continue their sessions after the publication of their version, for it is only by the successive revisions of published work that a really satisfactory result can be attained.",
+          "target": "), ses qualités l'emportent de loin sur ces défauts, à une exception près. Dans le Psautier utilisé pour le culte, la répétition du mot « Yahweh » finit par devenir lassante, et l'English Revised Version, qui conserve « The Lord », est de beaucoup préférable. Ce qu'il faut surtout regretter dans l'American Standard Revised Version, c'est son extrême conservatisme à l'égard des leçons des textes originaux. Dans l'Ancien Testament, le nombre de variantes signalées en marge a même été réduit. Dans le Nouveau Testament, seules des modifications insignifiantes ont été apportées au prétendu « texte grec des réviseurs », alors même que ce texte ne représentait pas la meilleure opinion savante dès 1881 et qu'il était presque universellement abandonné en 1900 (aujourd'hui, en 1914, il est périmé). Il est très regrettable que les réviseurs américains n'aient pas amélioré l'exemple donné par leurs confrères anglais et n'aient pas poursuivi leurs séances après la publication de leur version, car ce n'est que par des révisions successives d'un travail déjà publié que l'on peut parvenir à un résultat véritablement satisfaisant.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "4. Apocrypha:",
+          "target": "4. Livres apocryphes :",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "No American Standard Revised Version Apocrypha was attempted, a particularly unfortunate fact, as the necessity for the study of the Apocrypha has become imperative and the English Revised Version Apocrypha is not a particularly good piece of work. However, copies of the American Standard Revised Version can now be obtained with the English Revised Version Apocrypha included. See ",
+          "target": "Aucune traduction des livres apocryphes propre à l'American Standard Revised Version ne fut entreprise, ce qui est particulièrement regrettable puisque l'étude de ces livres est devenue indispensable et que la traduction des apocryphes dans l'English Revised Version n'est pas d'une qualité particulièrement satisfaisante. Il est toutefois désormais possible de se procurer des exemplaires de l'American Standard Revised Version comprenant les apocryphes de l'English Revised Version. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "ENGLISH VERSIONS",
+          "target": "VERSIONS ANGLAISES",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "Burton Scott Easton",
+          "target": "Burton Scott Easton",
+          "action": "preserve",
+          "reason": "Historical original author byline retained"
+        }
+      ]
+    }
+  ]
+}
