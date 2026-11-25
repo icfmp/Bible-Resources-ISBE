@@ -17,7 +17,8 @@
           "part": "text",
           "source": "ASA",
           "target": "ASA",
-          "action": "preserve"
+          "action": "preserve",
+          "reason": "Original historical headword/proper name is unchanged in French"
         },
         {
           "node": 2,
@@ -115,7 +116,8 @@
           "part": "text",
           "source": "W. W. Davies",
           "target": "W. W. Davies",
-          "action": "preserve"
+          "action": "preserve",
+          "reason": "Historical author byline is preserved verbatim"
         }
       ]
     }
