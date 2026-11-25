@@ -1,0 +1,71 @@
+name: Compile unreviewed French ISBE Markdown articles into source-locked patches
+
+on:
+  pull_request:
+    paths:
+      - 'workspace/translations/isbe-1915/fr/working/**'
+      - '.github/workflows/fr-markdown-working.yml'
+  push:
+    paths:
+      - 'workspace/translations/isbe-1915/fr/working/**'
+      - '.github/workflows/fr-markdown-working.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reproduce pinned source maps from the original unmodified English TEI
+        run: |
+          mkdir -p /tmp/isbe-markdown-compiler
+          python3 -m scripts.export_tei_markdown_corpus \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --output /tmp/isbe-markdown-compiler/corpus.zip \
+            --report /tmp/isbe-markdown-compiler/source-report.json
+      - name: Compile full article paragraphs and print exact generated JSON patches
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts.markdown_translation_bridge import compile_draft
+          work=Path('workspace/translations/isbe-1915/fr/working')
+          output=Path('/tmp/isbe-markdown-compiler/compiled')
+          output.mkdir(parents=True,exist_ok=True)
+          candidates=sorted(work.glob('*.md'))
+          assert candidates, 'No French Markdown editorial drafts checked in'
+          observed=set()
+          for path in candidates:
+              patch, report=compile_draft(
+                  Path('/tmp/isbe-markdown-compiler/corpus.zip'),
+                  path.read_text(encoding='utf-8'))
+              article=patch['articles'][0]
+              ident=article['article_id']
+              assert path.name == ident+'.md', 'Working draft filename must use original TEI ID'
+              assert ident not in observed, 'Duplicate original TEI article ID'
+              observed.add(ident)
+              assert patch['publication_permitted'] is False
+              assert report['human_editorial_approvals'] == 0
+              assert report['translated_units']+report['explicit_preserved_units']==report['source_mutable_text_units']
+              target=output/(ident+'.json')
+              target.write_text(json.dumps(patch,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              (output/(ident+'-audit.json')).write_text(
+                  json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              print('ISBE_COMPILED_PATCH='+json.dumps(
+                  {'article_id':ident, 'source_key':article['source_key'],'patch':patch},
+                  ensure_ascii=False, separators=(',',':')))
+              print('VALIDATED',article['source_key'],report['source_mutable_text_units'],
+                    'original mutable source text/tail units; no editorial approval')
+          print('SOURCE-LOCKED_MARKDOWN_ARTICLES=',len(observed))
+          PY
+      - name: Retain the exact nonpublishable source-locked patches and audit reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: isbe-fr-markdown-compiled-unreviewed
+          path: /tmp/isbe-markdown-compiler/compiled/
+          retention-days: 30
+          if-no-files-found: error

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five shortest previously undrafted original wave-01 articles after merged cohort 024; frozen in canonical original source order, translated through anchored Markdown paragraphs",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 42,
+      "source_key": "ABIATHAR",
+      "article_id": "isbe-23b7c0611d3c5a56d1e3",
+      "source_article_sha256": "a25a448c728f9ad6d4443bfd1fc918286d40c975884953acd182d00652d2c30e",
+      "source_eligible_chars": 8105,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0105-cohort-025-abiathar.json"
+    },
+    {
+      "index": 121,
+      "source_key": "ACCOUNTABILITY",
+      "article_id": "isbe-23e1906abb68351bec0a",
+      "source_article_sha256": "8a8e74e51268e12adbe260ebf49a4dee4ff8e969c518325cf1aca1b34d37ce9c",
+      "source_eligible_chars": 7990,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0106-cohort-025-accountability.json"
+    },
+    {
+      "index": 269,
+      "source_key": "AGAPE",
+      "article_id": "isbe-5ecea0fdfe14d3a860bf",
+      "source_article_sha256": "83c7cff9b4e036967382dc9a214fb3d49acc7941babede12cd08a959472f7379",
+      "source_eligible_chars": 7844,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0104-cohort-025-agape.json"
+    },
+    {
+      "index": 660,
+      "source_key": "ARABIC LANGUAGE",
+      "article_id": "isbe-e2e8938d9414475a9e9f",
+      "source_article_sha256": "0e3c5d61fd588cfab50aa3e8da83c6573df1e318ed1c616b421c06a3b86cbd22",
+      "source_eligible_chars": 8022,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0107-cohort-025-arabic-language.json"
+    },
+    {
+      "index": 738,
+      "source_key": "ARMENIAN VERSIONS, OF THE BIBLE",
+      "article_id": "isbe-41d3f7fed6ac3c2137e6",
+      "source_article_sha256": "95b9cc246dcac12183907f7c17a7abbfc38870e31b05acb3dcfb3db2bde2138b",
+      "source_eligible_chars": 8445,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0108-cohort-025-armenian-versions.json"
+    }
+  ]
+}

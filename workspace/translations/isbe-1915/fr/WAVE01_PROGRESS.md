@@ -880,3 +880,23 @@ Canonical original source positions, unchanged SWORD keys, article `xml:id` valu
 - `APOSTOLIC AGE`: the author's interpretive claims about the Jerusalem church, the Judaizers and first-century mission are preserved as historical scholarship. Unusual original terms such as `Gentilework` and `GentileChristianity` are rendered semantically and should be independently checked against the original printed text.
 
 Before merge: require exact article source hashes and full mutable-node coverage, original-script and scripture/reference parity, unique cohort IDs, proof reconstruction, all relevant regressions, and the official TEI P5 RELAX NG and Schematron gates. Successful automation does **not** confer editorial acceptance.
+
+## Twenty-fifth substantive cohort — five complete French drafts compiled from source-anchored Markdown (25 November 2026)
+
+This cohort exercises the **new paragraph-based Markdown-to-TEI workflow** for five previously undrafted canonical originals: #0042 `ABIATHAR`, #0121 `ACCOUNTABILITY`, #0269 `AGAPE`, #0660 `ARABIC LANGUAGE` and #0738 `ARMENIAN VERSIONS, OF THE BIBLE`.
+
+Each complete bilingual article was authored as a single, readable, source-anchored Markdown document under `working/` with immutable inline Scripture/markup tokens, original TEI paragraph block boundaries and explicit reasons for any unchanged original-language attribution, original pronunciation or bibliographic entry. The GitHub Actions **Markdown compiler** rebuilt and independently verified all five documents against the pinned English TEI fingerprint and generated exact existing-contract `text`/`tail` JSON patches. No original English source or source-map was altered. Corresponding patches are `batches/0104-cohort-025-agape.json` through `batches/0108-cohort-025-armenian-versions.json`, and the frozen original-source identity manifest is `cohorts/COHORT_025_5_SUBSTANTIVE_ARTICLES.json`.
+
+Exactly **154 eligible TEI text/tail units** representing **40,406 original English mutable characters** were translated or explicitly source-preserved; **53 immutable original source units** (Scripture labels and source text) remain untouched. Canonical English source SHA-256 remains `5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c`.
+
+**Expected only after all required CI checks pass and this cohort PR is merged:** **946/1,000** full *unreviewed* French first drafts in wave 01, **54** wave-01 originals still undrafted; **991/9,380** full-corpus first drafts. No editorial review implied by source fidelity or passing tests. **0 independently approved bilingual articles, 0 issue-109 checkboxes checked, 0 French TEI/SWORD publication authorizations.**
+
+### Printed-witness and editorial review flags
+
+- `ABIATHAR`: original historical positions on the priestly genealogies and Mark 2:26 are authorial claims, not corrected to modern conclusions. The English source has visibly truncated source-reference punctuation around its early list and Anathoth reference; protected source punctuation and references are preserved rather than invented.
+- `ACCOUNTABILITY`: the source phrase `control over character and destroy` appears damaged; the French reflects the likely intended sense of character and destiny. Confirm against the printed witness before acceptance. The source's claims about inherited sin and moral responsibility are translated without confessional rewriting.
+- `AGAPE`: the original `they took there food` is anomalous English, translated for sense without modifying its source. The author's arguments on the early communal meal, Eucharist and sacerdotal development remain explicitly historical opinions rather than independent editorial verdicts.
+- `ARABIC LANGUAGE`: retain the author's historically polemical assessment of Islam and early twentieth-century Semitic linguistic classification, expressly framed as the author's position in French; neither represents a current editorial judgment. The original personal name `Abu All Isa` requires verification against its printed witness.
+- `ARMENIAN VERSIONS, OF THE BIBLE`: the author's dates for Sapor and the transfer of Armenia around 396 AD appear historically inconsistent; verify the printed original rather than silently repair chronology. Its original witness discussion of the Etchmiadzin manuscript, Mark 16:9–20 and the twenty-two-book canon remains source-faithful.
+
+Before merge, demand source-lock identity, every article's full mutable-unit coverage, original-language and TEI reference parity, no duplicated historical IDs, reconstruction of every available unreviewed French draft, tests, official TEI P5 RELAX NG and Schematron. Passing these checks is not independent semantic editorial acceptance.

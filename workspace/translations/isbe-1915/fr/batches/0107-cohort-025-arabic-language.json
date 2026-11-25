@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ARABIC LANGUAGE",
+      "article_id": "isbe-e2e8938d9414475a9e9f",
+      "source_article_sha256": "0e3c5d61fd588cfab50aa3e8da83c6573df1e318ed1c616b421c06a3b86cbd22",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARABIC LANGUAGE",
+          "target": "LANGUE ARABE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-a-bik lan'-gwaj: For the student of the Bible the Arabic language is of interest, first, as one of the members of the Semitic group of languages, to which belong the Hebrew and Aramaic tongues of the Bible; secondly, as one of the languages into which the Bible and other church literature were early translated and in which a Christian literature was produced; and thirdly, as the vernacular of Mohammed and his followers, the classical tongue of that religious system which is the offspring of a degenerate Judaism and Christianity.",
+          "target": "ar'-a-bik lan'-gwaj : Pour l'étudiant de la Bible, la langue arabe présente un triple intérêt. Premièrement, elle appartient au groupe des langues sémitiques, qui comprend aussi l'hébreu et l'araméen bibliques. Deuxièmement, elle compte parmi les langues dans lesquelles la Bible et d'autres écrits de l'Église furent traduits très tôt et dans lesquelles se développa une littérature chrétienne. Troisièmement, elle était la langue maternelle de Mahomet et de ses disciples, ainsi que la langue classique du système religieux que l'auteur considère comme issu d'un judaïsme et d'un christianisme dégénérés.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "1. Philological Characterization:",
+          "target": "1. Caractéristiques philologiques :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Scholars are generally agreed in grouping the Arabic and Ethiopic together as a South-Sem branch of the Semitic stock. For the geographical and ethnological background of the Arabic language, see ",
+          "target": "Les spécialistes s'accordent généralement à ranger l'arabe et l'éthiopien dans une branche sud-sémitique du groupe des langues sémitiques. Pour le contexte géographique et ethnologique de la langue arabe, voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ARABIA",
+          "target": "ARABIE",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ". A general characteristic of this tongue of the desert is its remarkable retention into a late historical period, of grammatical features obliterated or in process of obliteration in the other Semitic tongues at their earliest emergence in literature; so that in the period since the golden age of its literature, the Arabic has been undergoing changes in some respects analogous to those which its sister-dialects underwent in their pre-literary or earliest literary stage. Thus, for example, the case-endings of nouns, lost in Aramaic and Canaanitish (including Hebrew), all but lost in the Abyssinian dialects, beginning to be disregarded in even the early (popular) Babylonian, lost also in the dialects of modern Arabic are in full vitality throughout the classical period of Arabic literature.",
+          "target": ". Une caractéristique générale de cette langue du désert est d'avoir conservé jusqu'à une époque historique tardive des traits grammaticaux qui avaient disparu, ou étaient en voie de disparition, dans les autres langues sémitiques dès leur première apparition littéraire. Ainsi, depuis l'âge d'or de sa littérature, l'arabe a connu, sous certains rapports, des changements analogues à ceux qu'ont subis les dialectes apparentés avant l'apparition de leurs premiers textes ou au début de leur histoire littéraire. Par exemple, les désinences casuelles des noms, perdues en araméen et dans les langues cananéennes, y compris l'hébreu, presque disparues des dialectes abyssins, déjà en partie négligées dans le babylonien populaire ancien et absentes des dialectes arabes modernes, demeurèrent pleinement vivantes pendant toute la période classique de la littérature arabe.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "The Arabic language itself, ancient and modern, divides into a vast number of dialects, many of which have attained the distinction of producing a literature greater or less. But the dialect of the tribe of Koreish, to which Mohammed belonged, is the one that, naturally, by the circumstance of the Koran's composition and diffusion, has become the norm of pure Arabic. Old Arabic poems, some of them produced in \"the Ignorance,\" that is, before the days of Mohammed, are in substantially the same dialect as that of the Koran, for it appears that Bedouin tribes ranging within the limits of the Arabian desert spoke an Arabic little differentiated by tribal or geographical peculiarities. On the other hand the inhabitants of the coast of the Indian Ocean from Yemen to Oman, and of the island of Socotra off that coast, spoke an Arabic differing widely from that of the northern tribes. The various dialects of this \"South-Arabic,\" known partly through their daughter-dialects of today (Mehri, Socotri, etc.), partly from the numerous and important inscriptions (\"Minaean\" and \"Sabaean\") found in Yemen by recent travelers, notably Halevy and Glaser, show a closer affinity than do the \"North-Arabic\" with the Abyssinian dialects (Ge'ez, i.e. \"Ethiopic,\" Tigre, Tigrina, Amharic, etc.), as might indeed be expected from the admitted South Arabian origin of the Habesh-tribes or Abyssinians.",
+          "target": "L'arabe lui-même, ancien comme moderne, se répartit en un très grand nombre de dialectes, dont beaucoup ont produit une littérature plus ou moins importante. Toutefois, le dialecte de la tribu de Koreïch, à laquelle appartenait Mahomet, est devenu naturellement, du fait de la composition et de la diffusion du Coran, la norme de l'arabe considéré comme pur. Les anciens poèmes arabes, dont certains furent composés à l'époque dite de « l'Ignorance », c'est-à-dire avant Mahomet, sont rédigés dans un dialecte sensiblement identique à celui du Coran. Il semble, en effet, que les tribus bédouines qui parcouraient le désert d'Arabie parlaient un arabe peu différencié selon les particularités tribales ou géographiques. En revanche, les habitants de la côte de l'océan Indien, du Yémen à Oman, et de l'île de Socotra, située au large de cette côte, parlaient un arabe très différent de celui des tribus du Nord. Les divers dialectes de cet « arabe du Sud », connus en partie par leurs descendants actuels (mehri, socotri, etc.), en partie par les nombreuses inscriptions importantes, dites « minéennes » et « sabéennes », découvertes au Yémen par des voyageurs récents, notamment Halévy et Glaser, montrent avec les dialectes abyssins (guèze, ou « éthiopien », tigré, tigrigna, amharique, etc.) une parenté plus étroite que celle des dialectes « nord-arabes ». Cela correspondrait d'ailleurs à l'origine sud-arabique communément admise des tribus Habesh, ou Abyssins.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "For the interpretation of the Old Testament the Arabic language has been of service in a variety of ways. In the department of lexicography it has thrown light not only on many a word used but once in the Bible or too seldom for usage alone to determine its meaning, but also on words which had seemed clear enough in their Biblical setting, but which have received illustration or correction from their usage in the immense bulk and range of Arabic literature with its enormous vocabulary. For the modern scientific study of Hebrew grammar, with its genetic method, Arabic has been of the greatest value, through the comparison of its cognate forms, where, in the main, the Arabic has the simpler, fuller and more regular morphology, and through the comparison of similar constructions, for which the highly developed Arabic syntax furnishes useful rubrics.",
+          "target": "Pour l'interprétation de l'Ancien Testament, la langue arabe a rendu service de diverses manières. Dans le domaine lexicographique, elle a éclairé non seulement de nombreux mots qui n'apparaissent qu'une fois dans la Bible, ou trop rarement pour que leur seul usage en détermine le sens, mais aussi des termes dont la signification semblait assez claire dans leur contexte biblique et que l'emploi relevé dans la littérature arabe, immense et variée, dotée d'un vocabulaire considérable, a permis d'illustrer ou de préciser, parfois même de corriger. Pour l'étude scientifique moderne de la grammaire hébraïque, fondée sur une méthode génétique, l'arabe a été d'une valeur exceptionnelle grâce à la comparaison de formes apparentées, l'arabe présentant généralement une morphologie plus simple, plus complète et plus régulière, et grâce à l'étude de constructions semblables, pour lesquelles la syntaxe arabe, très développée, fournit des catégories utiles.",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "In addition to this the Arabic language plays a prominent part, perhaps the foremost part, in the determination of those laws of the mutation of sounds, which once governed the development and now reveal the mutual relationships of the various Semitic languages.",
+          "target": "En outre, l'arabe joue un rôle de premier plan, peut-être le plus important, dans l'établissement des lois de transformation des sons qui ont autrefois gouverné l'évolution des diverses langues sémitiques et qui révèlent aujourd'hui leurs relations mutuelles.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "The script which we know as Arabic script, with its numerous varieties, developed out of the vulgar Aramaic alphabet in North Arabia; diacritical points were added to many of those letters, either to distinguish Arabic sounds for which no letter existed, or to differentiate letters the forms of which had become so similar as to create confusion. In Yemen another script arose early, that of the inscriptions above mentioned, admirably clear and adapted to express probably all the chief varieties of consonantal sounds in actual use, though quite without vowels.",
+          "target": "L'écriture que nous connaissons sous le nom d'écriture arabe, avec ses nombreuses variantes, s'est développée à partir de l'alphabet araméen courant en Arabie du Nord. Des points diacritiques furent ajoutés à beaucoup de lettres, soit pour distinguer des sons arabes auxquels aucune lettre ne correspondait, soit pour différencier des caractères dont les formes étaient devenues si semblables qu'elles prêtaient à confusion. Au Yémen apparut très tôt une autre écriture, celle des inscriptions mentionnées plus haut, remarquablement claire et adaptée à l'expression de presque toutes les principales catégories de consonnes alors employées, mais entièrement dépourvue de voyelles.",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "2. Christian Arabic Literature:",
+          "target": "2. Littérature chrétienne arabe :",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "For Arabic versions of the Bible, see ",
+          "target": "Pour les traductions arabes de la Bible, voir ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "ARABIC VERSIONS",
+          "target": "VERSIONS ARABES",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": ". Outside of the Scriptures themselves there was most felt by Christian communities living in the Arabic-speaking world (primarily, though not exclusively, in Egypt and Syria) the need of a Christian literature suited to the tastes of the time and region. Apocryphal and legendary material makes up a large part, therefore, of the list of Christian Arabic literature. See ",
+          "target": ". En dehors des Écritures elles-mêmes, les communautés chrétiennes vivant dans le monde arabophone, principalement mais non exclusivement en Égypte et en Syrie, éprouvaient surtout le besoin d'une littérature chrétienne adaptée aux goûts de leur époque et de leur région. Les récits apocryphes et légendaires occupent donc une grande place dans la littérature chrétienne arabe. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "APOCRYPHAL GOSPELS",
+          "target": "ÉVANGILES APOCRYPHES",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": ". But this material was not original. With the small degree of intellectual activity in those circles it is not surprising that most of such material, and indeed of the entire literary output, consists of translations from Syriac, Greek or Coptic, and that original productions are few in number.",
+          "target": ". Toutefois, cette matière n'était pas originale. Étant donné le peu d'activité intellectuelle que l'auteur attribue à ces milieux, il n'est pas étonnant, selon lui, que la plupart de ces écrits, et même de l'ensemble de leur production littéraire, soient des traductions du syriaque, du grec ou du copte, et que les œuvres originales soient peu nombreuses.",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "Of these last the most noteworthy are the following: theological and apologetic tracts by Theodore, bishop of Haran, the same who held the famous disputation with Mohammedan scholars at the court of Caliph Al-Mamun early in the 9th century; apologetic and polemic writings of Yahya ibn Adi of Tekrit, and of his pupil Abu All Isa ibn Ishaq, both in the 10th century; the Arabic works of Bar Hebraeus, better known for his numerous Syriac compositions, but productive also of both historical and theological works in Arabic (13th century); in Egypt, but belonging to the same Jacobite or Monophysite communion as the above, the polemic and homiletic productions of Bishop Severus of Eshmunain (10th century), and, a generation earlier than Severus and belonging to the opposing or Melkite Egyptian church, the chronicle of Eutychius, patriarch of Alexandria, continued a century later by Yahya ibn Said of Antioch; large compilations of church history, church law and theological miscellany by the Coptic Christians Al-Makin, Abu Ishaq ibn Al-Assal, Abu'l-Barakat and others, the leaders in a general revival of Egyptian Christianity in the 13th century; on the soil of Nestorianism, finally, the ecclesiastical, dogmatic and exegetical writings of Abulfaraj Abdallah ibn At-Tayyib, (11 century), the apologetic compositions of his contemporary, Elias ben Shinaya, the historian, and the Nestorian church chronicle begun in the 12th century by Mari ibn Suleiman and continued two centuries later by Amr ibn Mattai and Saliba bar Johannan. After this date there is no original literature produced by Arabic-speaking Christians until the modern intellectual revival brought about by contact with European Christianity.",
+          "target": "Parmi ces dernières, les plus remarquables sont les suivantes : les traités théologiques et apologétiques de Théodore, évêque de Harrân, qui participa à la célèbre controverse avec des savants musulmans à la cour du calife Al-Mamoun, au début du IXe siècle ; les écrits apologétiques et polémiques de Yahya ibn Adi de Tekrit et de son disciple Abu All Isa ibn Ishaq, tous deux du Xe siècle ; les œuvres arabes de Bar Hebraeus, mieux connu pour ses nombreuses compositions syriaques, mais aussi auteur d'ouvrages historiques et théologiques en arabe au XIIIe siècle ; en Égypte, dans la même communion jacobite ou monophysite que les auteurs précédents, les ouvrages polémiques et homilétiques de l'évêque Sévère d'Eshmunain (Xe siècle) et, une génération avant lui, dans l'Église égyptienne rivale dite melkite, la chronique d'Eutychius, patriarche d'Alexandrie, prolongée un siècle plus tard par Yahya ibn Saïd d'Antioche ; les grandes compilations d'histoire ecclésiastique, de droit de l'Église et de questions théologiques dues aux chrétiens coptes Al-Makin, Abu Ishaq ibn Al-Assal, Abu'l-Barakat et à d'autres, acteurs d'un renouveau général du christianisme égyptien au XIIIe siècle ; enfin, dans le milieu nestorien, les écrits ecclésiastiques, dogmatiques et exégétiques d'Abulfaraj Abdallah ibn At-Tayyib (XIe siècle), les ouvrages apologétiques de son contemporain, l'historien Elias ben Shinaya, et la chronique de l'Église nestorienne commencée au XIIe siècle par Mari ibn Suleiman, puis poursuivie deux siècles plus tard par Amr ibn Mattai et Saliba bar Johannan. Selon l'auteur, aucune littérature originale ne fut ensuite produite par les chrétiens arabophones avant le renouveau intellectuel moderne provoqué par le contact avec le christianisme européen.",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "3. The Literary Vehicle of Islam:",
+          "target": "3. Langue littéraire de l'islam :",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "What Aramaic, Greek and Latin have been successively in the history of Christianity, all this, and more, Arabic has been in the history of Islam. The language of its founder and his \"helpers,\" the language of the Koran \"sent down\" from God to Mohammed by the angel Gabriel, the language therefore in which it has always been preserved by the faithful, untranslated, whithersoever it has spread in the wide world of Islam, Arabic is identified with Islam in its origin, its history, its literature and its propaganda. All the points of contact between the religion of the Bible and the religion of the Koran, literary, historical, apologetic and missionary, are alike in this, that they demand of the intelligent student of Christianity a sympathetic acquaintance with the genius and the masterpieces of the great Arabic tongue.",
+          "target": "Ce que l'araméen, le grec et le latin ont été successivement dans l'histoire du christianisme, l'arabe l'a été, et davantage encore, dans celle de l'islam. Langue de son fondateur et de ses « auxiliaires », langue du Coran que l'ange Gabriel aurait fait « descendre » de Dieu vers Mahomet, et donc langue dans laquelle les fidèles l'ont toujours conservé sans le traduire partout où l'islam s'est répandu, l'arabe s'identifie à l'islam par ses origines, son histoire, sa littérature et sa propagation. Tous les points de rencontre entre la religion de la Bible et celle du Coran — littéraires, historiques, apologétiques et missionnaires — ont en commun d'exiger de l'étudiant éclairé du christianisme une connaissance compréhensive du génie et des chefs-d'œuvre de la grande langue arabe.",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "J. Oscar Boyd",
+          "target": "J. Oscar Boyd",
+          "action": "preserve",
+          "reason": "Retain original author attribution"
+        }
+      ]
+    }
+  ]
+}
