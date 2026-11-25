@@ -1,0 +1,631 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ASIA MINOR",
+      "article_id": "isbe-29aa290c1cd23152d079",
+      "source_article_sha256": "e248b370484d1fc4cde241d7d6fe56ef2ee18e7eb1051a34b8dec459d2d44f27",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ASIA MINOR",
+          "target": "ASIE MINEURE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-shi-a mi'ner:",
+          "target": "a'-shi-a mi'ner:",
+          "action": "preserve",
+          "reason": "Original historical pronunciation retained verbatim"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "Introductory",
+          "target": "Introduction",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "I. THE COUNTRY",
+          "target": "I. LE PAYS",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "1. Position and Boundaries",
+          "target": "1. Situation et limites",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "2. General Description",
+          "target": "2. Description générale",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "3. Mountains",
+          "target": "3. Montagnes",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "4. Rivers, Lakes and Plains",
+          "target": "4. Fleuves, lacs et plaines",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "5. Roads",
+          "target": "5. Routes",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "6. Climate and Products",
+          "target": "6. Climat et productions",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "II. HISTORY",
+          "target": "II. HISTOIRE",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "1. The Hittites",
+          "target": "1. Les Hittites",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "2. Phrygian and Bithynian Immigrations",
+          "target": "2. Immigrations phrygienne et bithynienne",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "3. Lydians, Greeks and Persians",
+          "target": "3. Lydiens, Grecs et Perses",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "4. Alexander and his Successors",
+          "target": "4. Alexandre et ses successeurs",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "5. The Galatians",
+          "target": "5. Les Galates",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "6. The Romans in Asia Minor",
+          "target": "6. Les Romains en Asie Mineure",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "III. ASIA MINOR IN THE 1ST CENTURY AD",
+          "target": "III. L'ASIE MINEURE AU Ier SIÈCLE APRÈS J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "1. The Population",
+          "target": "1. La population",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "2. The Native Social System",
+          "target": "2. Le système social indigène",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "3. Emperor Worship",
+          "target": "3. Le culte impérial",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "4. The Hellenistic System",
+          "target": "4. Le système hellénistique",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "5. Roman \"Coloniae\"",
+          "target": "5. Les « colonies » romaines",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "IV. CHRISTIANITY IN ASIA MINOR",
+          "target": "IV. LE CHRISTIANISME EN ASIE MINEURE",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "Christian Inscriptions, etc.",
+          "target": "Inscriptions chrétiennes, etc.",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "Introductory:",
+          "target": "Introduction :",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "Technically, it is only on sufferance that an account of \"Asia Minor\" can find a place in a Biblical encyclopedia, for the country to which this name applies in modern times was never so called in Old Testament or New Testament times. The term first appears in Orosius, a writer of the 5th century AD, and it is now applied in most European languages to the peninsula forming the western part of Asiatic Turkey.",
+          "target": "À strictement parler, c'est seulement par tolérance qu'une présentation de l'« Asie Mineure » peut figurer dans une encyclopédie biblique, car le pays que ce nom désigne à l'époque moderne ne portait cette appellation ni à l'époque de l'Ancien ni à celle du Nouveau Testament. Le terme apparaît pour la première fois chez Orose, auteur du Ve siècle apr. J.-C., et s'applique désormais dans la plupart des langues européennes à la péninsule formant la partie occidentale de la Turquie asiatique.",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "The justification for the inclusion in this work of a summary account of Asia Minor as a whole, its geography, history, and the social and political condition of its people in New Testament times, is to be found in the following sentence of Gibbon: \"The rich provinces that extend from the Euphrates to the Ionian Sea were the principal theater on which the Apostle to the Gentiles displayed his zeal and piety\"; and no region outside the city of Rome has preserved to modern times so many records of the growth and character of its primitive Christianity.",
+          "target": "La justification de la présence, dans cet ouvrage, d'une présentation sommaire de l'Asie Mineure dans son ensemble — géographie, histoire et situation sociale et politique de sa population à l'époque du Nouveau Testament — se trouve dans cette phrase de Gibbon : « Les riches provinces qui s'étendent de l'Euphrate à la mer Ionienne furent le principal théâtre où l'Apôtre des nations déploya son zèle et sa piété. » En dehors de la ville de Rome, aucune région n'a conservé jusqu'à l'époque moderne autant de témoignages sur la croissance et le caractère de son christianisme primitif.",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "I. The Country.",
+          "target": "I. Le pays.",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "1. Position and Boundaries:",
+          "target": "1. Situation et limites :",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "Asia Minor (as the country was called to distinguish it from the continent of Asia), or Anatolia, is the name given to the peninsula which reaches out between the Black Sea (Pontus Euxinus) on the North and the Mediterranean on the South, forming an elevated land-bridge between central Asia and southeastern Europe. On the Northwest corner, the peninsula is separated from Europe by the Bosporus, the Sea of Marmora and the hellespont. On the West the peninsula borders on the Aegean Sea, whose numerous islands tempted the timid mariner of ancient times on toward Greece. The West coast, with its alternation of mountain and river-valley, is deeply indented: there is a total coast line of four times the length of a line drawn from North to South The numerous land-locked bays and harbors of this coast have made it the happy hunting-ground of Mediterranean traders in all ages. On the East it is usual to delimit Asia Minor by a line drawn from Alexandretta to Samsun, but for the purposes of New Testament history it must be remembered that part of Cilicia, Cappadocia and Pontus (Galatia) lie to the East of this line (Longitude 26 degrees to 36 degrees East; latitude 36 degrees to 42 degrees North).",
+          "target": "L'Asie Mineure — ainsi nommée pour la distinguer du continent asiatique —, ou Anatolie, est la péninsule qui s'avance entre la mer Noire (Pont-Euxin) au nord et la Méditerranée au sud, formant un haut pont terrestre entre l'Asie centrale et l'Europe du Sud-Est. À son extrémité nord-ouest, elle est séparée de l'Europe par le Bosphore, la mer de Marmara et l'Hellespont. À l'ouest, elle borde la mer Égée, dont les nombreuses îles incitaient les navigateurs timorés de l'Antiquité à s'aventurer vers la Grèce. La côte occidentale, où alternent montagnes et vallées fluviales, est profondément découpée : sa longueur totale est quatre fois supérieure à celle d'une ligne allant directement du nord au sud. Ses nombreuses baies et ses ports enclavés en firent à toutes les époques un terrain privilégié pour les commerçants méditerranéens. À l'est, on délimite habituellement l'Asie Mineure par une ligne reliant Alexandrette à Samsoun, mais, pour l'histoire du Nouveau Testament, il faut se souvenir qu'une partie de la Cilicie, de la Cappadoce et du Pont (Galatie) se situe à l'est de cette ligne (longitudes 26° à 36° est ; latitudes 36° à 42° nord).",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "2. General Description:",
+          "target": "2. Description générale :",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "There are two distinct countries, implying distinct historical development, in the Anatolian peninsula, the country of the coast, and the country of the central plateau. The latter takes its shape from that of the great mountain ranges which bound it on the West, East and North. The high central tableland is tilted down toward the North and West; the mountain ranges on these sides are not so lofty as the Taurus chain on the South and Southeast. This chain, except at its Southeast corner, rises sharply from the South coast, whose undulations it determines. On the North, the mountains of Pontus (no distinctive name), a continuation of the Armenian range, give the coast-line a similar character. On the inhospitable North coast, there is only one good harbor, that of Sinope, and no plain of any extent. The South coast can boast of the plains of Pamphylia and Cilicia, both highly fertile, the harbors of Makri and Marmariki, and the sheltered bays of Adalia and Alexandretta. On the West, the ascent from the littoral to the plateau is more gradual. A distance of over 100 miles separates the Phrygian mountains where the oriental plateau begins, from the West seaboard with its inlets and trading cities. These hundred miles are composed of river valleys, divided off by mountain ranges, and forming the channels of communication between the interior and the coast. While these two regions form part of a single country it is obvious that--in all that gives individuality to a country, their flora, fauna, climate, conditions of life and history--the one region is sharply marked off from the other. For the plateau naturally connects itself with the East In its vegetation and climate, its contrasts of temperature, its dry soil and air, it forms part of the region extending eastward to central Asia. The coast land recalls the scenery and general character of the Greek mainland and islands. It naturally looked to, it influenced and was influenced by, the populations on the other side of the Aegean Sea. At Smyrna, the traveler in all ages recognizes the bright, active life of southern Europe; at Iconium he feels the immobile and lethargic calm of the East. Asia Minor in its geographical structure as well as in its population, has been throughout history the meeting-place, whether for peaceful intermixture or for the clash in war, of the eternally contrasted systems of East and West.",
+          "target": "La péninsule anatolienne comprend deux pays distincts, dont les développements historiques diffèrent : la région côtière et celle du plateau central. Ce dernier est modelé par les grandes chaînes montagneuses qui le bordent à l'ouest, à l'est et au nord. Le haut plateau central s'abaisse vers le nord et vers l'ouest ; les montagnes de ces côtés sont moins élevées que la chaîne du Taurus au sud et au sud-est. Le Taurus, sauf à son extrémité sud-est, s'élève brusquement depuis la côte méridionale et en détermine les ondulations. Au nord, les monts du Pont, sans nom collectif distinctif et prolongeant la chaîne arménienne, donnent à la côte un caractère analogue. Sur cette côte septentrionale peu hospitalière ne se trouvent qu'un seul bon port, Sinope, et aucune plaine étendue. En revanche, la côte sud possède les plaines très fertiles de Pamphylie et de Cilicie, les ports de Makri et de Marmariki, ainsi que les baies abritées d'Adalia et d'Alexandrette. À l'ouest, la montée du littoral au plateau est plus progressive. Plus de cent milles séparent les montagnes de Phrygie, où commence le plateau oriental, du littoral occidental avec ses anses et ses villes commerçantes. Cet espace est composé de vallées fluviales séparées par des chaînes montagneuses, voies naturelles de communication entre l'intérieur et la côte. Bien que ces deux régions appartiennent à un même pays, elles se distinguent nettement par tout ce qui donne une identité à un territoire : flore, faune, climat, modes de vie et histoire. Le plateau se rattache naturellement à l'Orient. Par sa végétation et son climat, ses fortes différences de température, ses sols et son air secs, il appartient à l'ensemble qui s'étend vers l'est jusqu'à l'Asie centrale. La région côtière rappelle, par ses paysages et son caractère général, la Grèce continentale et ses îles. Elle se tournait naturellement vers les populations de l'autre rive de l'Égée, qu'elle influença et dont elle subit l'influence. À Smyrne, le voyageur de toute époque reconnaît la vie lumineuse et active de l'Europe méridionale ; à Iconium, il ressent le calme immobile et léthargique de l'Orient. Par sa géographie autant que par sa population, l'Asie Mineure a été tout au long de l'histoire le lieu de rencontre, pacifique ou guerrier, des deux systèmes éternellement opposés de l'Orient et de l'Occident.",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "3. Mountains:",
+          "target": "3. Montagnes :",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "The Armenian mountains reach westward, and fork, close to the line we have chosen as the East boundary of Asia Minor, into two ranges, the Taurus Mountains on the South, and the mountains of Pontus on the North Mount Argaeus (over 12,000 ft.) stands in the angle formed by these ranges, nearer to Taurus than to the northern system. Taurus is pierced on the northern side of the Cilician plain by the pass, easy to traverse and still more easy to defend, of the Cilician Gates, while another natural route leads from central Cappadocia to Amisus on the Black Sea. These mountain ranges (average height of Taurus 7,000 to 10,000 ft.; the North range is much lower) enfold the central Galatian and Lycaonian plains, which are bounded on the West by the Sultan Dagh and the Phrygian mountains. From the latter to the west coast extend three mountain ranges, delimiting the valleys of the Caicus, Hermus and Meander. These valleys lie East and West, naturally conducting traffic in those directions.",
+          "target": "Les montagnes d'Arménie s'étendent vers l'ouest et se divisent, près de la limite orientale choisie pour l'Asie Mineure, en deux chaînes : le Taurus au sud et les monts du Pont au nord. Le mont Argée, haut de plus de 12 000 pieds, se trouve dans l'angle formé par ces chaînes, plus près du Taurus que des montagnes septentrionales. Sur le côté nord de la plaine cilicienne, le Taurus est traversé par le passage des Portes ciliciennes, facile à franchir et plus facile encore à défendre ; une autre voie naturelle mène de la Cappadoce centrale à Amisos sur la mer Noire. Ces chaînes, dont le Taurus atteint en moyenne 7 000 à 10 000 pieds tandis que les monts du Nord sont bien moins élevés, entourent les plaines centrales de Galatie et de Lycaonie, bordées à l'ouest par le Sultan Dagh et les montagnes phrygiennes. De celles-ci jusqu'à la côte occidentale s'étendent trois chaînes qui délimitent les vallées du Caïque, de l'Hermos et du Méandre. Ces vallées sont orientées est-ouest et canalisent naturellement les échanges dans ces directions.",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "4. Rivers, Lakes and Plains:",
+          "target": "4. Fleuves, lacs et plaines :",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "The great plains of the interior, covering parts of Galatia, Lycaonia and Cappadocia, lie at an altitude of from 3,000 to 4,000 ft. Rivers enter them from the adjoining mountains, to be swallowed up in modern times in salt lakes and swamps. In ancient times much of this water was used for irrigation. Regions which now support only a few wretched villages were covered in the Roman period by numerous large cities, implying a high degree of cultivation of the naturally fertile soil. The remaining rivers cut their way through rocky gorges in the fringe of mountains around the plateau; on the West side of the peninsula their courses open into broad valleys, among which those of the Caieus, Hermus and Meander are among the most fertile in the world. Down those western valleys, and that of the Sangarius on the Northwest, ran the great highways from the interior to the seaboard. In those valleys sprang up the greatest and most prosperous of the Hellenistic and Greek-Roman cities, from which Greek education and Christianity radiated over the whole country. The longest river in Asia Minor is the Halys, which rises in Pontus, and after an enormous bend south-westward flows into the Black Sea. This, and the Iris, East of Amisus, are the only rivers of note on the North coast. The rivers on the South coast, with the exception of the Sarus and the Pyramus which rise in Cappadocia and water the Cilician plain, are mere mountain torrents, flowing immediately into the sea. A remarkable feature of Asia Minor is its duden, rivers disappearing underground in the limestone rock, to reappear as springs and heads of rivers many miles away. Mineral and thermal springs abound all over the country, and are especially numerous in the Meander valley. There are several salt lakes, the largest being Lake Tatta in Lycaonia. Fresh-water lakes, such as Karalis and the Limuae, abound in the mountains in the Southwest.",
+          "target": "Les grandes plaines de l'intérieur, couvrant une partie de la Galatie, de la Lycaonie et de la Cappadoce, se trouvent à une altitude de 3 000 à 4 000 pieds. Des fleuves y arrivent des montagnes voisines, mais disparaissent aujourd'hui dans des lacs salés et des marécages. Dans l'Antiquité, une grande partie de ces eaux servait à l'irrigation. Des régions qui ne nourrissent plus que quelques villages misérables étaient couvertes, sous la domination romaine, de nombreuses grandes villes, signe d'une culture très développée de terres naturellement fertiles. Les autres cours d'eau percent les gorges rocheuses de la couronne montagneuse entourant le plateau ; sur le versant occidental de la péninsule, ils débouchent dans de larges vallées, notamment celles du Caïque, de l'Hermos et du Méandre, parmi les plus fertiles du monde. Dans ces vallées occidentales, ainsi que dans celle du Sangarios au nord-ouest, passaient les grandes routes de l'intérieur vers la mer. C'est là que s'élevèrent les plus grandes et les plus prospères villes hellénistiques et gréco-romaines, d'où l'éducation grecque et le christianisme rayonnèrent sur tout le pays. Le plus long fleuve d'Asie Mineure est l'Halys, qui prend sa source dans le Pont et, après une immense courbe vers le sud-ouest, se jette dans la mer Noire. Avec l'Iris, à l'est d'Amisos, c'est le seul cours d'eau notable de la côte nord. Les fleuves de la côte sud, à l'exception du Saros et du Pyramos, qui naissent en Cappadoce et arrosent la plaine cilicienne, ne sont que des torrents de montagne se jetant directement à la mer. Un trait remarquable de l'Asie Mineure est la présence de düden, cours d'eau qui disparaissent sous terre dans le calcaire et réapparaissent sous forme de sources et de rivières à plusieurs milles de distance. Sources minérales et thermales abondent dans tout le pays, particulièrement dans la vallée du Méandre. Plusieurs lacs salés s'y trouvent, le plus grand étant le lac Tatta, en Lycaonie. Des lacs d'eau douce, comme Karalis et les Limnae, sont nombreux dans les montagnes du sud-ouest.",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "5. Roads",
+          "target": "5. Routes",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "The road-system of Asia Minor is marked out by Nature, and traffic has followed the same lines since the dawn of history. The traveler from the Euphrates or from Syria enters by way of Melitene and Caesarea, or by the Cilician Gates. From Caesarea he can reach the Black Sea by Zela and Amisus. If he continues westward, he must enter the Aegean area by one of the routes marked out, as indicated above, by the valleys of the Meander, Hermus or Caicus. If his destination is the Bosporus, he travels down the valley of the Sangarius. Other roads lead from the bay of Adalia to Antioch in Pisidia or to Apameia, or to Laodicea on the Lycus and thence down the Meander to Ephesus. The position of the Hittite capital at Pteria fixed the route North of the central plain in general usage for travelers from East to West, and this was the route followed by the Persian Royal Road. Later, traffic from the East took the route passing along the South side of the Axylon, North of Iconium, and Pisidian Antioch to the Lycus, Meander and Ephesus. This route coincides with that from the Cilician Gates, from a point Northeast of Iconium. The need to control the Pisidian tribes in the reign of Augustus led to the building of a series of roads in Pisidia, radiating from Antioch; one of these roads led from Antioch to Lystra, and it was the one traversed by Paul on his journey from Antioch to Iconium (",
+          "target": "La nature a tracé le réseau routier de l'Asie Mineure et, depuis l'aube de l'histoire, les échanges empruntent les mêmes axes. Celui qui vient de l'Euphrate ou de Syrie entre par Mélitène et Césarée ou par les Portes ciliciennes. De Césarée, il peut atteindre la mer Noire en passant par Zéla et Amisos. S'il poursuit vers l'ouest, il doit gagner la région égéenne en empruntant l'un des itinéraires déterminés, comme on l'a vu, par les vallées du Méandre, de l'Hermos ou du Caïque. Si sa destination est le Bosphore, il descend la vallée du Sangarios. D'autres routes mènent de la baie d'Adalia à Antioche de Pisidie ou à Apamée, ou à Laodicée du Lycos puis, en suivant le Méandre, jusqu'à Éphèse. La situation de la capitale hittite de Ptérie fixa l'itinéraire au nord de la plaine centrale comme route ordinaire des voyageurs d'est en ouest, qu'emprunta la route royale perse. Plus tard, les échanges venant d'Orient suivirent la voie passant au sud de l'Axylon, au nord d'Iconium et d'Antioche de Pisidie, jusqu'au Lycos, au Méandre et à Éphèse. Cette route rejoignait celle venant des Portes ciliciennes au nord-est d'Iconium. La nécessité de tenir les tribus pisidiennes sous contrôle pendant le règne d'Auguste conduisit à la construction de plusieurs routes rayonnant depuis Antioche. L'une reliait Antioche à Lystre : c'est celle que Paul emprunta lorsqu'il voyagea d'Antioche à Iconium (",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "6. Climate and Products:",
+          "target": "6. Climat et productions :",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "The winter on the central plateau is long and severe, the summer is short and hot: but a cool breeze from the North (the inbat) tempers the hot afternoons. The south coast in summer is hot and malarious; in winter its climate is mild. Much snow fails in the regions adjacent to the Black Sea. The climate of the west coast resembles that of southern Europe. The country contains vast mineral wealth; many of the mines were worked by the ancients. There are forests of pine, oak and fir in the mountains of the North and South. The central plateau has always been famous for its vast flocks of sheep. King Amyntas of Galatia owned enormous flocks which pastured on the Lycaonian plain. Carpets and rugs and other textile products have always been characteristic of Asia Minor. The wealth of the cities in the province of Asia depended largely on textile and dyeing industries (",
+          "target": "Sur le plateau central, l'hiver est long et rigoureux, tandis que l'été est court et chaud. Toutefois, une brise fraîche du nord, l'inbat, tempère les après-midi brûlants. En été, la côte sud est chaude et insalubre en raison du paludisme ; en hiver, son climat est doux. De fortes chutes de neige touchent les régions voisines de la mer Noire. Le climat de la côte occidentale rappelle celui de l'Europe méridionale. Le pays possède d'immenses richesses minérales, dont beaucoup de mines furent exploitées par les Anciens. Les montagnes du Nord et du Sud sont couvertes de forêts de pins, de chênes et de sapins. Le plateau central a toujours été réputé pour ses immenses troupeaux de moutons. Amyntas, roi de Galatie, possédait de très grands troupeaux qui paissaient dans la plaine lycaonienne. Tapis et autres produits textiles ont toujours caractérisé l'Asie Mineure. La richesse des villes de la province d'Asie reposait largement sur les industries du textile et de la teinture (",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "II. History.",
+          "target": "II. Histoire.",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "It follows from what has been said above that the clue to the history of Asia Minor more almost than in the case of any other country, lies in its geographical position and structure. \"Planted like a bridge between Asia and Europe,\" it has been throughout human history the meeting-place and the battle ground of the peoples of the East and those of the West. From the earliest period to which our records reach, we find it inhabited by an amalgam of races, religions and social systems, none of which has ever quite died out. And throughout history new races, religions and social systems, alike imperishable in many of their features, have poured into the peninsula to find a home there.",
+          "target": "De ce qui précède, il ressort que la clé de l'histoire de l'Asie Mineure réside, plus encore peut-être que pour tout autre pays, dans sa situation et sa structure géographiques. « Plantée comme un pont entre l'Asie et l'Europe », elle fut tout au long de l'histoire humaine le lieu de rencontre et le champ de bataille des peuples d'Orient et d'Occident. Dès l'époque la plus ancienne atteinte par nos documents, nous la trouvons habitée par un amalgame de races, de religions et de systèmes sociaux dont aucun n'a jamais entièrement disparu. Tout au long de l'histoire, de nouveaux peuples, cultes et systèmes sociaux, dont bien des caractéristiques se sont révélées durables, ont afflué dans cette péninsule pour s'y établir.",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "text",
+          "source": "1. The Hittites:",
+          "target": "1. Les Hittites :",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "At the dawn of history, Asia Minor was ruled by a non-Aryan people, the Hatti or Hittites about which knowledge is at present accumulating so fast that no final account of them can be given. See ",
+          "target": "À l'aube de l'histoire, l'Asie Mineure était gouvernée par un peuple non aryen, les Hatti ou Hittites. Les connaissances les concernant s'accumulent actuellement si rapidement qu'on ne peut encore en donner une présentation définitive. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "HITTITES",
+          "target": "HITTITES",
+          "action": "preserve",
+          "reason": "HITTITES is identical in French and English cross-reference"
+        },
+        {
+          "node": 54,
+          "part": "tail",
+          "source": ". Asia Minor is now recognized to have been the center of their civilization, as against the older view that they were a Mesopotamian people. Sculptures and hieroglyphs belonging to this people have long been known over the whole country from Smyrna to the Euphrates, and it is almost unanimously assumed that their capital was at Boghaz Keui (across the Halys from Ancyra). This site has been identified with much probability with the Pteria of Herodotus, which Croesus captured when he marched against the Persians, the inference being that the portion of the Hittite land which lay East of the Halys was at that time a satrapy of the Persian Empire. Excavations in the extensive ancient city at Boghaz Keui have recently been carried out by Winckler and Puchstcin, who have discovered remains of the royal archives. These records are written on clay tablets in cuneiform script; they are couched partly in Babylonian, partly (presumably) in the still undeciphered native language. The documents in the Babylonian tongue prove that close political relations existed between the Hatti and the eastern monarchy. In the 14th century BC the Hittites appear to have conquered a large part of Syria, and to have established themselves at Carchemish. Thenceforth, they were in close touch with Mesopotamia. From about the beginning of the first millennium, the Hittites \"were in constant relations, hostile or neutral, with the Ninevites, and thenceforward their art shows such marked Assyrian characteristics that it hardly retains its individuality.\"",
+          "target": ". L'Asie Mineure est aujourd'hui reconnue comme le centre de leur civilisation, contre l'opinion plus ancienne qui en faisait un peuple mésopotamien. Leurs sculptures et leurs hiéroglyphes sont connus depuis longtemps dans tout le pays, de Smyrne à l'Euphrate, et l'on suppose presque unanimement que leur capitale se trouvait à Boghaz Keui, de l'autre côté de l'Halys par rapport à Ancyre. Ce site a été identifié avec une grande probabilité à la Ptérie d'Hérodote, dont Crésus s'empara pendant sa campagne contre les Perses ; on en déduit que la partie du pays hittite à l'est de l'Halys appartenait alors à une satrapie de l'Empire perse. De récentes fouilles de l'immense cité antique de Boghaz Keui, conduites par Winckler et Puchstein, ont mis au jour des vestiges des archives royales. Ces documents sont inscrits sur des tablettes d'argile en écriture cunéiforme ; une partie est en babylonien, l'autre, semble-t-il, dans la langue indigène encore indéchiffrée. Les textes babyloniens montrent que les Hatti entretenaient des relations politiques étroites avec la monarchie orientale. Au XIVe siècle av. J.-C., les Hittites semblent avoir conquis une grande partie de la Syrie et s'être établis à Karkemish. Dès lors, ils restèrent en contact étroit avec la Mésopotamie. Depuis environ le début du premier millénaire, ils « furent constamment en relations, hostiles ou neutres, avec les Ninivites, et dès lors leur art révèle des traits assyriens si marqués qu'il conserve à peine son originalité ».",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "2. Phrygian and Bithynian Immigrations:",
+          "target": "2. Immigrations phrygienne et bithynienne :",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "The date of the Phrygian and Bithynian immigrations. from southeastern Europe cannot be fixed with certainty, but they had taken place by the beginning of the first millennium BC. These immigrations coincide in time with the decline of the Hittite power. After many wanderings, the Phrygians found a home at the western side of the plateau, and no power exercised such an influence on the early development of Asia Minor as the Phrygian, principally in the sphere of religion. The kings of Phrygia \"bulked more impressively in the Greek mind than any other non-Gr monarchy; their language was the original language and the speech of the goddess herself; their country was the land of great fortified cities, and their kings were the associates of the gods themselves.\" The material remains of the \"Phrygian country\"--the tomb of Midas with the fortified acropolis above it, and the many other rock-tombs around--are the most impressive in Asia Minor Inscriptions in a script like the early Ionian are cut on some of the tombs. The Phrygian language, an Indo-Germanic speech with resemblances to both Greek and the Italian languages, is proved by some seventy inscriptions (a score of them still unpublished) to have been in common use well into the Christian period. Two recently found inscriptions show that it was spoken even in Iconium, \"the furthermost city of Phrygia,\" on the Lycaonian side, until the 3rd century of our era. Those inscriptions mention the names of Ma (Cybele) and Attis, whose cult exercised a profound influence on the religions of Greece and Rome.",
+          "target": "On ne peut fixer avec certitude la date des immigrations phrygienne et bithynienne venues du sud-est de l'Europe, mais elles étaient accomplies au début du premier millénaire av. J.-C. Elles coïncident avec le déclin de la puissance hittite. Après de longues migrations, les Phrygiens trouvèrent un foyer sur le côté occidental du plateau. Aucune puissance n'exerça une influence aussi grande que la leur sur le premier développement de l'Asie Mineure, principalement dans le domaine religieux. Les rois de Phrygie « occupaient dans l'esprit grec une place plus imposante que toute autre monarchie non grecque ; leur langue était la langue originelle, celle de la déesse elle-même ; leur pays était celui de grandes villes fortifiées, et leurs rois étaient les compagnons des dieux ». Les vestiges du « pays phrygien » — tombeau de Midas, acropole fortifiée qui le domine et nombreux autres tombeaux rupestres alentour — comptent parmi les plus impressionnants d'Asie Mineure. Sur certains tombeaux figurent des inscriptions dans une écriture apparentée à l'ionien ancien. Environ soixante-dix inscriptions, dont une vingtaine sont encore inédites, attestent que le phrygien, langue indo-germanique apparentée au grec et aux langues italiques, demeura d'usage courant pendant une bonne partie de l'époque chrétienne. Deux inscriptions récemment découvertes montrent qu'on le parlait encore à Iconium, « ville la plus éloignée de la Phrygie » du côté lycaonien, jusqu'au IIIe siècle de notre ère. Elles mentionnent les noms de Ma (Cybèle) et d'Attis, dont le culte influença profondément les religions de Grèce et de Rome.",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "3. Lydians, Greeks and Persians:",
+          "target": "3. Lydiens, Grecs et Perses :",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "The next monarchy to rise in Asia Minor is that of Lydia, whose origin is obscure. The Phrygian empire had fallen before an invasion of the Cimmerii in the 9th or 8th century BC; Alyattes of Lydia, which lay between Phrygia and the Aegean, repelled a second invasion of the Cimmerii in 617 BC. Croesus, king of Lydia (both names afterward proverbial for wealth), was lord of all the country to the Halys, as well as of the Greek colonies on the coast. Those colonies--founded from hellas--had reached their zenith by the 8th century, and studded all three coasts of Asia Minor. Their inability to combine in a common cause placed them at the mercy of Croesus, and later of his conquerors, the Persians (546 BC). The Persians divided Asia Minor into satrapies, but the Greek towns were placed under Greek dynasts, who owned the suzerainty of Persia, and several of the inland races continued under the rule of their native princes. The defeat of Xerxes by Hellas set the Greek cities in Asia Minor free, and they continued free during the period of Athenian greatness. In 386 BC they were restored to the king of Persia by the selfish diplomacy of Sparta.",
+          "target": "La monarchie suivante à s'élever en Asie Mineure fut la Lydie, dont l'origine reste obscure. L'Empire phrygien s'était effondré sous une invasion des Cimmériens au IXe ou au VIIIe siècle av. J.-C. Alyatte de Lydie, située entre la Phrygie et l'Égée, repoussa une seconde invasion cimmérienne en 617 av. J.-C. Crésus, roi de Lydie — ces deux noms devenus ensuite synonymes de richesse —, était maître de tout le pays jusqu'à l'Halys, ainsi que des colonies grecques de la côte. Ces colonies, fondées depuis la Grèce, avaient atteint leur apogée au VIIIe siècle et parsemaient les trois côtes de l'Asie Mineure. Leur incapacité à s'unir pour une cause commune les livra à la merci de Crésus, puis de ses vainqueurs perses en 546 av. J.-C. Les Perses divisèrent l'Asie Mineure en satrapies, mais les cités grecques furent confiées à des dynastes grecs qui reconnaissaient la suzeraineté perse, tandis que plusieurs peuples de l'intérieur demeuraient sous la domination de leurs princes indigènes. La défaite de Xerxès face aux Grecs libéra les villes grecques d'Asie Mineure, qui restèrent libres pendant la période de grandeur athénienne. En 386 av. J.-C., la diplomatie égoïste de Sparte les restitua au roi de Perse.",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "4. Alexander and His Successors:",
+          "target": "4. Alexandre et ses successeurs :",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "When Alexander the Great crossed the Hellespont in 334 BC, a new era opened for the Asiatic Greeks. Hitherto the Greek cities in Asia Minor, apart from spasmodic efforts at combination, had been mere trading communities, independent of each other, in competition with each other, and anxious for reasons of self-interest to bring each other to ruin. These colonies had moreover been confined to the coast, and to the open river valleys of the west, The idea of a Greek empire in Asia Minor was originated by Alexander, and materialized by his successors. Henceforward the city rivalries certainly lasted on, and at a later period excited the scorn of the stolid Romans; but henceforward the Greek cities were members of a Greek empire, and were conscious of an imperial mission. It is to this period that the Hellenization or, as Mommsen would translate the term, the civilization of the interior of Asia Minor belongs. The foundations of Alexander's successors, the Attalids and Seleucids, covered the peninsula; their object was to consolidate the Greek rule over the native races, and, most important of all, to raise those races to the Greek level of civilization and education. The experiment succeeded only partially and temporarily; but such success as it and the later Roman effort in the same direction had, exercised a profound influence on the early growth of Christianity in the country (see below).",
+          "target": "Lorsque Alexandre le Grand traversa l'Hellespont en 334 av. J.-C., une ère nouvelle s'ouvrit pour les Grecs d'Asie. Jusqu'alors, les cités grecques d'Asie Mineure n'avaient été, en dehors de quelques efforts intermittents pour s'unir, que des communautés commerciales indépendantes, concurrentes et soucieuses, par intérêt, de se nuire mutuellement. Ces colonies se limitaient en outre au littoral et aux vallées fluviales ouvertes de l'ouest. L'idée d'un empire grec en Asie Mineure fut conçue par Alexandre et réalisée par ses successeurs. Les rivalités entre cités subsistèrent certes, et elles suscitèrent plus tard le mépris des Romains imperturbables ; mais, désormais, les cités grecques appartenaient à un empire grec et avaient conscience d'une mission impériale. C'est à cette époque qu'appartient l'hellénisation ou, comme Mommsen traduirait le terme, la civilisation de l'intérieur de l'Asie Mineure. Les fondations urbaines des successeurs d'Alexandre, Attalides et Séleucides, couvrirent la péninsule. Leur but était de consolider la domination grecque sur les peuples indigènes et surtout d'élever ces derniers au niveau de la civilisation et de l'instruction grecques. L'expérience ne réussit que partiellement et temporairement. Mais ce succès, ainsi que celui de l'effort romain ultérieur dans le même sens, influença profondément les débuts du christianisme dans le pays (voir ci-dessous).",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "5. The Galatians:",
+          "target": "5. Les Galates :",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "In their manner of entering and settling in the country, in the way in which they both came under the influence of the Asiatic environment, and impressed the stamp of their vigorous individuality on the culture and the history of the land, the Galatae, a Celtic nation who crossed from Europe in 278-277 BC, to establish themselves ultimately on the East of ancient Phrygia and on both sides of the Halys, recall the essential features of the Phrygian immigration of a thousand years earlier. \"The region of Galatia, at a remote period the chief seat of the oriental rule over anterior Asia, and preserving in the famed rock-sculptures of the modern Boghaz Keui, formerly the royal town of Pteria, reminiscences of an almost forgotten glory, had in the course of centuries become in language and manners a Celtic island amidst the waves of eastern peoples, and remained so in internal organization even under the (Roman) empire.\"",
+          "target": "Par leur entrée et leur implantation dans le pays, par la façon dont ils subirent l'influence du milieu asiatique tout en imprimant à la culture et à l'histoire locales la marque de leur vigoureuse personnalité, les Galates, peuple celtique qui passa d'Europe en 278-277 av. J.-C. pour s'établir finalement à l'est de l'ancienne Phrygie et des deux côtés de l'Halys, rappellent les caractéristiques essentielles de l'immigration phrygienne mille ans plus tôt. « La région de Galatie, autrefois principal siège de la domination orientale sur l'Asie antérieure et conservant dans les célèbres sculptures rupestres de l'actuel Boghaz Keui, jadis ville royale de Ptérie, le souvenir d'une gloire presque oubliée, était devenue au fil des siècles, par la langue et les mœurs, une île celtique au milieu des vagues des peuples orientaux. Elle le demeura, par son organisation interne, même sous l'Empire romain. »",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "But these Gauls came under strong oriental influence; they modified to some extent, the organization of the local religion, which they adopted; but they adopted it so completely that only one deity with a Celtic name has so far appeared on the numerous cult- inscriptions of Galatia (Anderson in Journal of Hellenistic Studies, 1910, 163 ff). Nor has a single inscription in the Galatian language been found in the country, although we know that that language was spoken by the lower classes at least as late as the 4th century AD. The Galatian appears to have superseded the Phrygian tongue in the part of Galatia which was formerly Phrygian; no Phrygian inscriptions have been found in Galatia, although they are common in the district bordering on its southern and western boundaries. But Galatian was unable to compete with Greek as the language of the educated classes, and even such among the humbler orders as could write, wrote in Greek, and Greek-Roman city-organization replaced the Celtic tribal system much earlier and much more completely in Galatia than Roman municipal organization did in Gaul. Still, the Galatians stood out in strong contrast both to the Greeks and to the Orientals. Roman diplomacy recognized and encouraged this sense of isolation, and in her struggle against the Orientals and the Greeks under Mithridates, Rome found trusty allies in the Galatians. In the Imperial period, the Galatians were considered the best soldiers in Asia Minor. See ",
+          "target": "Ces Gaulois subirent toutefois une forte influence orientale. Ils modifièrent dans une certaine mesure l'organisation de la religion locale, qu'ils adoptèrent ; mais ils l'adoptèrent si complètement qu'une seule divinité portant un nom celtique a jusqu'ici été identifiée parmi les nombreuses inscriptions cultuelles de Galatie (Anderson, Journal of Hellenistic Studies, 1910, p. 163 et suiv.). Aucune inscription en langue galate n'y a été trouvée, bien que nous sachions que cette langue était parlée par les classes populaires au moins jusqu'au IVe siècle apr. J.-C. Le galate semble avoir supplanté le phrygien dans la partie de Galatie qui avait appartenu à la Phrygie ; aucune inscription phrygienne n'a été découverte en Galatie, alors qu'elles sont courantes dans les régions situées sur ses limites méridionale et occidentale. Mais le galate ne pouvait rivaliser avec le grec comme langue des classes instruites. Même les gens modestes qui savaient écrire le faisaient en grec. L'organisation municipale gréco-romaine remplaça en Galatie les structures tribales celtiques beaucoup plus tôt et plus complètement que ne le fit l'organisation municipale romaine en Gaule. Les Galates se distinguaient toutefois fortement des Grecs comme des Orientaux. La diplomatie romaine reconnut et encouragea ce sentiment d'isolement et, dans sa lutte contre les Orientaux et les Grecs conduits par Mithridate, Rome trouva chez eux de fidèles alliés. À l'époque impériale, les Galates étaient considérés comme les meilleurs soldats d'Asie Mineure. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "GALATIA",
+          "target": "GALATIE",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "6. The Romans in Asia Minor:",
+          "target": "6. Les Romains en Asie Mineure :",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "The Romans exercised an effective control over the affairs of Asia Minor after their defeat of Antiochus the Great in 189 BC, but it was only in 133 BC, when Attalus of Pergamus bequeathed his kingdom of \"Asia\" to the Roman state, that the Roman occupation began. This kingdom formed the province Asia; a second inheritance which fell to Rome at the death of Nicomedes III in 74 BC became the province Bithynia, to which Pontus was afterward added. Cilicia, the province which gave Paul to the empire and the church, was annexed in 100 BC, and reorganized by Pompey in 66 BC.",
+          "target": "Les Romains exercèrent un contrôle effectif sur les affaires de l'Asie Mineure après leur victoire sur Antiochos le Grand en 189 av. J.-C. Toutefois, leur occupation ne commença qu'en 133 av. J.-C., lorsque Attale de Pergame légua son royaume d'« Asie » à l'État romain. Ce royaume forma la province d'Asie. Un second héritage, revenu à Rome à la mort de Nicomède III en 74 av. J.-C., devint la province de Bithynie, à laquelle on ajouta plus tard le Pont. La Cilicie, province qui donna Paul à l'Empire et à l'Église, fut annexée en 100 av. J.-C. et réorganisée par Pompée en 66 av. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "These provinces had already been organized; in other words the Roman form of government had been definitely established in them at the foundation of the empire, and, in accordance with the principle that all territory which had been thoroughly \"pacified\" should remain under the administration of the senate, while the emperor directly governed regions in which soldiers in numbers were still required, the above-mentioned provinces, with the exception of Cilicia, fell to the senate. But all territory subsequently annexed in Asia Minor remained in the emperor's hands. Several territories over which Rome had exercised a protectorate were now organized into provinces, under direct imperial rule. Such were: Galatia, to which under its last king Amyntas, part of Phrygia, Lycaonia, Pisidia and Pamphylia had been added, and which was made a Roman province at his death in 25 BC (the extension of Galatia under Amyntas to include Antioch, Iconium, Lystra and Derbe and the consequent incorporation of these cities in the province Galatia, forms the ultimate historical basis of the \"South Galatian Theory\"); Paphlagonia, annexed in 7 BC; Cappadocia, in 17 AD; Lycia, in 43 AD, and in 63 AD the part of Pontus lying between the Iris and Armenia. This formed the Roman Asia Minor of Paul's time. See ",
+          "target": "Ces provinces étaient déjà organisées lorsque l'Empire fut fondé : la forme romaine de gouvernement y était solidement établie. Selon le principe voulant que les territoires entièrement « pacifiés » demeurent administrés par le Sénat tandis que l'empereur gouverne directement les régions où des effectifs militaires importants sont encore nécessaires, les provinces mentionnées, à l'exception de la Cilicie, relevèrent du Sénat. Mais tous les territoires annexés ensuite en Asie Mineure demeurèrent entre les mains de l'empereur. Plusieurs territoires placés auparavant sous protectorat romain furent alors organisés en provinces directement soumises au pouvoir impérial. Ce fut le cas de la Galatie, à laquelle son dernier roi Amyntas avait ajouté des parties de la Phrygie, de la Lycaonie, de la Pisidie et de la Pamphylie, et qui devint province romaine à sa mort en 25 av. J.-C. L'extension de la Galatie sous Amyntas jusqu'à inclure Antioche, Iconium, Lystre et Derbe, puis l'incorporation de ces villes dans la province de Galatie, constituent la base historique définitive de la « théorie de la Galatie du Sud ». Il en fut de même de la Paphlagonie, annexée en 7 av. J.-C. ; de la Cappadoce, en 17 apr. J.-C. ; de la Lycie, en 43 ; et, en 63, de la partie du Pont située entre l'Iris et l'Arménie. Tel était le visage de l'Asie Mineure romaine au temps de Paul. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "ASIA",
+          "target": "ASIE",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "BITHYNIA",
+          "target": "BITHYNIE",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "tail",
+          "source": ", etc.",
+          "target": ", etc.",
+          "action": "preserve",
+          "reason": "Original punctuation and nontranslated etc. retained after Bithynia citation"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "III. Asia Minor in the First Century AD.",
+          "target": "III. L'Asie Mineure au Ier siècle apr. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "1. The Population:",
+          "target": "1. La population :",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "The partition of Asia Minor into Roman provinces did not correspond to its ethnological divisions, and even those divisions were not always clearly marked. As is clear from the brief historical sketch given above, the population of Asia Minor was composed of many overlying strata of races, which tended in part to lose their individuality and sink into the original Anatolian type. Answering roughly to the above-mentioned separation of Asia Minor into two countries, and to its characterization as the meeting-place of East and West, we can detach from among a medley of races and institutions two main coexistent social systems, which we may call the native system, and the hellenistic system. These systems (especially as the result of Roman government) overlap and blend with each other, but they correspond in a general way to the distinction (observed in the country by Strabo) between city-organization and life on the village system. A deep gulf separated these forms of society.",
+          "target": "Le partage de l'Asie Mineure en provinces romaines ne correspondait pas à ses divisions ethniques, lesquelles n'étaient d'ailleurs pas toujours clairement délimitées. Comme le montre le bref aperçu historique précédent, sa population était composée de nombreuses couches de peuples superposées, qui avaient tendance à perdre en partie leur individualité et à se fondre dans le type anatolien original. Conformément à la distinction géographique entre deux régions et au caractère de l'Asie Mineure comme lieu de rencontre de l'Orient et de l'Occident, on peut distinguer, parmi le mélange de peuples et d'institutions, deux systèmes sociaux majeurs coexistants : le système indigène et le système hellénistique. Ces systèmes, surtout sous l'effet du gouvernement romain, se recoupent et se mêlent, mais correspondent globalement à la distinction observée par Strabon entre l'organisation urbaine et la vie villageoise. Un fossé profond séparait ces formes de société.",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "2. The Native Social System:",
+          "target": "2. Le système social indigène :",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "Under the Roman Empire, there was a continuous tendency to raise and absorb the Anatolian natives into Greek cities and Roman citizenship. But in the Apostolic Age, this process had not gone far in the interior of the country, and the native social system was still that under which a large section of the population lived. It combined the theocratic form of government with institutions derived from a preexistent matriarchal society. The center of the native community was the temple of the god, with its great corporation of priests living on the temple revenues, and its people, who were the servants of the god (hierodouloi; compare Paul's expression, \"servant of God\"), and worked on the temple estates. The villages in which these workers lived were an inseparable adjunct of the temple, and the priests (or a single priest-dynast) were the absolute rulers of the people. A special class called hieroi performed special functions (probably for a period only) in the temple service. This included, in the ease of women, sometimes a service of chastity, sometimes one of ceremonial prostitution. A woman of Lydia, of good social position (as implied in her Roman name) boasts in an inscription that she comes of ancestors who had served before the god in this manner, and that she has done so herself. Such women afterward married in their own rank, and incurred no disgrace. Many inscriptions prove that the god (through his priests) exercised a close supervision over the whole moral life and over the whole daily routine of his people; he was their Ruler, Judge, helper and healer.",
+          "target": "Sous l'Empire romain, une tendance continue poussait à élever les Anatoliens indigènes et à les intégrer aux cités grecques ainsi qu'à la citoyenneté romaine. Mais, à l'époque apostolique, cette évolution était encore peu avancée à l'intérieur du pays, et une grande partie de la population vivait toujours sous le système social indigène. Celui-ci associait une forme théocratique de gouvernement à des institutions héritées d'une société matriarcale plus ancienne. La communauté indigène avait pour centre le temple du dieu, avec sa puissante corporation de prêtres vivant des revenus du sanctuaire et son peuple de serviteurs du dieu (hierodouloi ; comparer l'expression paulinienne « serviteur de Dieu »), qui travaillaient les domaines du temple. Les villages où vivaient ces travailleurs étaient inséparables du sanctuaire, et les prêtres, ou parfois un prêtre-dynaste unique, régnaient absolument sur la population. Une catégorie particulière, les hieroi, accomplissait certaines fonctions spéciales, probablement pour une période limitée, au service du temple. Pour les femmes, il pouvait s'agir tantôt d'un service de chasteté, tantôt de prostitution rituelle. Une femme lydienne de haut rang, comme le suggère son nom romain, se vante dans une inscription de descendre d'ancêtres qui avaient ainsi servi devant le dieu et d'avoir elle-même exercé ce service. Ces femmes se mariaient ensuite dans leur propre milieu, sans subir de déshonneur. De nombreuses inscriptions montrent que le dieu, par ses prêtres, exerçait un contrôle étroit sur la moralité et la vie quotidienne de son peuple. Il en était le souverain, le juge, le secours et le guérisseur.",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "3. Emperor Worship:",
+          "target": "3. Le culte impérial :",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "text",
+          "source": "Theocratic government received a new direction and a new meaning from the institution of emperor-worship; obedience to the god now coincided with loyalty to the emperor. The Seleucid kings and later the Roman emperors, according to a highly probable view, became heirs to the property of the dispossessed priests (a case is attested at Pisidian Antioch); and it was out of the territory originally belonging to the temples that grants of land to the new Seleucid and Roman foundations were made. On those portions of an estate not gifted to a polis or colonia, theocratic government lasted on; but alongside of the Anatolian god there now appeared the figure of the god-emperor.",
+          "target": "L'institution du culte de l'empereur donna à ce gouvernement théocratique une orientation et un sens nouveaux : obéir au dieu coïncidait désormais avec la fidélité à l'empereur. Selon une opinion très plausible, les rois séleucides, puis les empereurs romains, héritèrent des terres des prêtres dépossédés, comme l'atteste un cas à Antioche de Pisidie. C'est sur ces domaines primitivement appartenant aux temples que furent prises les concessions foncières destinées aux nouvelles fondations séleucides et romaines. Là où une portion du domaine n'avait pas été attribuée à une polis ou colonia, le gouvernement théocratique se maintint ; mais à côté du dieu anatolien apparut alors la figure de l'empereur divinisé.",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "In many places the cult of the emperor was established in the most important shrine of the neighborhood; the god-emperor succeeded to or shared the sanctity of the older god, Grecized as Zeus, Apollo, etc.; inscriptions record dedications made to the god and to the emperor jointly. Elsewhere, and especially in the cities, new temples were founded for the worship of the emperor. Asia Minor was the home of emperor-worship, and nowhere did the new institution fit so well into the existing religious system. Inscriptions have recently thrown much light on a society of Xenoi Tekmoreioi (\"Guest-Friends of the Secret Sign\") who lived on an estate which had belonged to Men Askaenos beside Antioch of Pisidia, and was now in the hands of the Roman emperor. A procurator (who was probably the chief priest of the local temple) managed the estate as the emperor's representative. This society is typical of many others whose existence in inner Asia Minor has come to light in recent years; it was those societies which fostered the cult of the emperor on its local as distinct from its provincial side (see ",
+          "target": "En de nombreux lieux, le culte de l'empereur fut établi dans le sanctuaire le plus important des environs. L'empereur divinisé succéda au dieu plus ancien, ou partagea sa sainteté, sous les noms grecs de Zeus, Apollon, etc. Des inscriptions attestent des dédicaces faites conjointement au dieu et à l'empereur. Ailleurs, surtout dans les villes, de nouveaux temples furent fondés pour le culte impérial. L'Asie Mineure fut la patrie de ce culte, et nulle part ailleurs cette institution nouvelle ne s'intégra aussi bien au système religieux préexistant. Des inscriptions récentes ont éclairé une société de Xenoi Tekmoreioi, « amis-hôtes du signe secret », qui vivaient sur un domaine ayant appartenu à Men Askaenos près d'Antioche de Pisidie et se trouvant désormais aux mains de l'empereur romain. Un procurateur, probablement aussi grand prêtre du sanctuaire local, administrait le domaine comme représentant de l'empereur. Cette société est représentative de nombreuses autres dont l'existence dans l'intérieur de l'Asie Mineure a été révélée ces dernières années. Elles favorisèrent le culte impérial sous sa forme locale, par opposition à sa dimension provinciale (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "ASIARCH",
+          "target": "ASIARQUE",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "tail",
+          "source": "), and it was chiefly those societies that set the machinery of the Roman law in operation against the Christians in the great persecutions. In the course of time the people on the imperial estates tended to pass into a condition of serfdom; but occasionally an emperor raised the whole or part of an estate to the rank of a city.",
+          "target": "). Ce sont principalement ces sociétés qui mirent en action l'appareil juridique romain contre les chrétiens lors des grandes persécutions. Au fil du temps, les habitants des domaines impériaux tendaient à devenir des serfs. Il arrivait pourtant qu'un empereur élève tout ou partie d'un domaine au rang de cité.",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "text",
+          "source": "4. The Hellenistic System:",
+          "target": "4. Le système hellénistique :",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "text",
+          "source": "Much of inner Asia Minor must originally have been governed on theocratic system; but the Greek city-state gradually encroached on the territory and privileges of the ancient temple. Several of these cities were \"founded\" by the Seleucids and Attalids; this sometimes meant a new foundation, more often the establishment of Greek city-government in an older city, with an addition of new inhabitants. These inhabitants were often Jews whom the Seleucids found trusty colonists: the Jews of Antioch in Pisidia (",
+          "target": "Une grande partie de l'intérieur de l'Asie Mineure avait probablement été gouvernée à l'origine selon le système théocratique. Mais la cité-État grecque empiéta progressivement sur les terres et les privilèges des anciens temples. Plusieurs de ces villes furent « fondées » par les Séleucides et les Attalides. Il s'agissait parfois d'une création nouvelle, mais plus souvent de l'installation d'un gouvernement urbain grec dans une ville plus ancienne, avec l'arrivée de nouveaux habitants. Ces habitants étaient fréquemment des Juifs, que les Séleucides considéraient comme des colons fiables. Les Juifs d'Antioche de Pisidie (",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "tail",
+          "source": " ff) probably belong to this class. The conscious aim of those foundations was the Hellenization of the country, and their example influenced the neighboring cities. With the oriental absolutism of the native system, the organization of the Greek and Roman cities was in sharp contrast. In the earlier centuries of the Roman Empire these cities enjoyed a liberal measure of self- government. Magistracies were elective; rich men in the same city vied with each other, and city vied with city, in erecting magnificent public buildings, in founding schools and promoting education, in furthering all that western nations mean by civilization. With the Greek cities came the Greek Pantheon, but the gods of Hellas did little more than add their names to those of the gods of the country. Wherever we have any detailed information concerning a cult in inner Anatolia, we recognize under a Greek (or Roman) disguise the essential features of the old Anatolian god.",
+          "target": " et suiv.) appartenaient probablement à cette catégorie. Ces fondations poursuivaient consciemment l'hellénisation du pays, et leur exemple influença les villes voisines. À l'absolutisme oriental du système indigène s'opposait fortement l'organisation des cités grecques et romaines. Dans les premiers siècles de l'Empire romain, ces cités jouissaient d'une large autonomie. Les magistratures étaient électives ; les hommes riches d'une même cité rivalisaient entre eux, comme les villes rivalisaient les unes avec les autres, pour édifier de magnifiques bâtiments publics, fonder des écoles, promouvoir l'instruction et développer tout ce que les peuples occidentaux appellent civilisation. Le panthéon grec arriva avec les cités grecques, mais les dieux de l'Hellade ne firent guère qu'ajouter leurs noms à ceux des divinités locales. Partout où nous disposons d'informations détaillées sur un culte de l'intérieur anatolien, nous reconnaissons, derrière son déguisement grec ou romain, les traits essentiels de l'antique dieu anatolien.",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "The Greeks had always despised the excesses of the Asiatic religion, and the more advanced education of the Anatolian Greeks could not reconcile itself to a degraded cult, which sought to perpetuate the social institutions under which it had arisen, only under their ugliest and most degraded aspects. \"In the country generally a higher type of society was maintained; whereas at the great temples the primitive social system was kept up as a religious duty incumbent on the class called Hieroi during their regular periods of service at the temple. .... The chasm that divided the religion from the educated life of the country became steadily wider and deeper. In this state of things Paul entered the country; and wherever education had already been diffused, he found converts ready and eager.\" This accounts for \"the marvelous and electrical effect that is attributed in Ac to the preaching of the Apostle in Galatia\" (Ramsay, Cities and Bishoprics of Phrygia, 96).",
+          "target": "Les Grecs avaient toujours méprisé les excès de la religion asiatique. L'instruction plus avancée des Grecs d'Anatolie ne pouvait accepter un culte dégradé qui tentait de perpétuer les institutions sociales dont il était issu, uniquement sous leurs aspects les plus laids et les plus avilis. « Dans l'ensemble du pays se maintenait un type de société plus élevé ; tandis que dans les grands temples, le système social primitif persistait comme un devoir religieux imposé à la catégorie appelée Hieroi pendant ses périodes régulières de service au sanctuaire. [...] Le fossé séparant la religion de la vie instruite du pays s'élargissait et se creusait sans cesse. C'est dans cette situation que Paul entra dans le pays ; partout où l'instruction s'était déjà répandue, il trouva des convertis prêts et désireux de l'accueillir. » Cela explique « l'effet merveilleux et fulgurant que les Actes attribuent à la prédication de l'Apôtre en Galatie » (Ramsay, Cities and Bishoprics of Phrygia, p. 96).",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "5. Roman \"Coloniae\":",
+          "target": "5. Les « colonies » romaines :",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "Under the Roman Empire, we can trace a gradual evolution in the organization of the Greek cities toward the Roman municipal type. One of the main factors in this process was the foundation over inner Asia Minor of Roman colonies, which were \"bits of Rome\" set down in the provinces. These colonies were organized entirely on the Roman model, and were usually garrisons of veterans, who kept unruly parts of the country in order. Such in New Testament time were Antioch and Lystra (Iconium, which used to be regarded as a colony of Claudius, is now recognized to have been raised to that rank by Hadrian). In the 1st century Latin was the official language in the colonies; it never ousted Greek in general usage, and Greek soon replaced it in official documents. Education was at its highest level in the Greek towns and in the Roman colonies, and it was to those exclusively that Paul addressed the gospel.",
+          "target": "Sous l'Empire romain, on observe une évolution progressive de l'organisation des cités grecques vers le modèle municipal romain. L'un des principaux facteurs fut la fondation, dans l'intérieur de l'Asie Mineure, de colonies romaines, véritables « morceaux de Rome » implantés dans les provinces. Ces colonies étaient entièrement organisées sur le modèle romain et constituaient généralement des garnisons de vétérans chargées de maintenir l'ordre dans les régions turbulentes. À l'époque du Nouveau Testament, Antioche et Lystre étaient de telles colonies. Iconium, longtemps considérée comme une colonie fondée sous Claude, est désormais reconnue comme ayant reçu ce rang sous Hadrien. Au Ier siècle, le latin était la langue officielle des colonies. Il ne supplanta cependant jamais le grec dans l'usage général, et le grec le remplaça bientôt dans les documents officiels. L'instruction atteignait son niveau le plus élevé dans les villes grecques et les colonies romaines, et c'est exclusivement à elles que Paul adressa l'Évangile.",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "text",
+          "source": "IV. Christianity in Asia Minor.",
+          "target": "IV. Le christianisme en Asie Mineure.",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "text",
+          "source": "Already in Paul's lifetime, Christianity had established itself firmly in many of the greater centers of Greek-Roman culture in Asia and Galatia. The evangelization of Ephesus, the capital of the province Asia, and the terminus of one of the great routes leading along the peninsula, contributed largely to the spread of Christianity in the inland parts of the province, and especially in Phrygia. Christianity, in accordance with the program of Paul, first took root in the cities, from which it spread over the country districts. Christian Inscriptions, etc.:",
+          "target": "Dès la vie de Paul, le christianisme s'était solidement implanté dans de nombreux grands centres de culture gréco-romaine en Asie et en Galatie. L'évangélisation d'Éphèse, capitale de la province d'Asie et terminus de l'une des grandes voies traversant la péninsule, contribua largement à la diffusion du christianisme dans l'intérieur de la province, particulièrement en Phrygie. Conformément au programme de Paul, le christianisme prit d'abord racine dans les villes, avant de se répandre dans les campagnes. Inscriptions chrétiennes, etc. :",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "text",
+          "source": "The Christian inscriptions begin earliest in Phrygia, where we find many documents dating from the end of the 2nd and beginning of the 3rd centuries AD. The main characteristic of those early inscriptions--a feature which makes them difficult to recognize--is their suppression as a rule of anything that looked overtly Christian, with the object of avoiding the notice of persons who might induce the Roman officials to take measures against their dedicators. The Lycaonian inscriptions begin almost a century later, not, we must suppose, because Christianity spread less rapidly from Iconium, Lystra, etc., than it did from the Asian cities, but because Greek education took longer to permeate the sparsely populated plains of the central plateau than the rich townships of Asia. The new religion is proved by Pliny's correspondence with Trajan (111-13 AD) to have been firmly established in Bithynia early in the 2nd century.",
+          "target": "Les inscriptions chrétiennes apparaissent le plus tôt en Phrygie, où nous trouvons de nombreux documents datant de la fin du IIe et du début du IIIe siècle apr. J.-C. Leur caractéristique principale, qui les rend difficiles à reconnaître, est qu'elles évitent généralement toute expression ouvertement chrétienne, afin de ne pas attirer l'attention de personnes susceptibles de pousser les autorités romaines à intervenir contre leurs auteurs. Les inscriptions lycaoniennes commencent presque un siècle plus tard. Cela ne signifie probablement pas que le christianisme se répandit moins vite depuis Iconium, Lystre et les autres villes qu'il ne le fit depuis les villes de la province d'Asie, mais plutôt que l'instruction grecque mit davantage de temps à pénétrer les plaines peu peuplées du plateau central que les riches centres urbains d'Asie. La correspondance de Pline avec Trajan (111-113 apr. J.-C.) montre que la nouvelle religion était solidement établie en Bithynie dès le début du IIe siècle.",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "text",
+          "source": "Farther east, where the great temples still had much influence, the expansion of Christianity was slower, but in the 4th century Cappadocia produced such men as Basil and the Gregories. The great persecutions, as is proved by literary evidence and by many inscriptions, raged with especial severity in Asia Minor. The influence of the church on Asia Minor in the early centuries of the Empire may be judged from the fact that scarcely a trace of the Mithraic religion, the principal competitor of Christianity, has been found in the whole country. From the date of the Nicene Council (325 AD) the history of Christianity in Asia Minor was that of the Byzantine Empire. Ruins of churches belonging to the Byzantine period are found all over the peninsula; they are especially numerous in the central and eastern districts. A detailed study of a Byzantine Christian town of Lycaonia, containing an exceptionally large number of churches, has been published by Sir W. M. Ramsay and Miss G. L. Bell: The Thousand and One Churches. Greek- speaking Christian villages in many parts of Asia Minor continue an unbroken connection with the Roman Empire till the present day.",
+          "target": "Plus à l'est, où les grands temples conservaient une forte influence, la progression du christianisme fut plus lente. Pourtant, au IVe siècle, la Cappadoce produisit des hommes comme Basile et les Grégoire. Les grandes persécutions sévirent avec une rigueur particulière en Asie Mineure, comme le prouvent les témoignages littéraires et de nombreuses inscriptions. L'influence de l'Église sur l'Asie Mineure pendant les premiers siècles de l'Empire peut se mesurer au fait qu'on n'y trouve presque aucune trace du mithraïsme, principal concurrent du christianisme. À partir du concile de Nicée (325 apr. J.-C.), l'histoire du christianisme en Asie Mineure se confond avec celle de l'Empire byzantin. Les ruines d'églises byzantines sont présentes dans toute la péninsule, particulièrement dans les districts centraux et orientaux. Sir W. M. Ramsay et Mlle G. L. Bell ont publié une étude détaillée d'une cité chrétienne byzantine de Lycaonie possédant un nombre exceptionnellement élevé d'églises, sous le titre The Thousand and One Churches. Des villages chrétiens de langue grecque, dans de nombreuses régions d'Asie Mineure, maintiennent jusqu'à l'époque actuelle une continuité ininterrompue avec l'Empire romain.",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "text",
+          "source": "Ramsay's numerous works on Asia Minor, especially Paul the Traveler, etc., The Church in the Roman Empire, The Cities of Paul, The Letters to the Seven Churches, and Cities and Bishoprics of Phrygia have been freely drawn upon in this account. For a fuller bibliography, see Encyclopedia Biblica (11th edition), article \"Asia Minor\" (Hogarth and Wilson).",
+          "target": "Les nombreux travaux de Ramsay sur l'Asie Mineure, notamment Paul the Traveler, etc., The Church in the Roman Empire, The Cities of Paul, The Letters to the Seven Churches et Cities and Bishoprics of Phrygia, ont été largement utilisés dans cet exposé. Pour une bibliographie plus complète, voir Encyclopaedia Britannica (11e éd.), article « Asia Minor » (Hogarth et Wilson).",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "text",
+          "source": "W. M. Calder",
+          "target": "W. M. Calder",
+          "action": "preserve",
+          "reason": "Historical author W. M. Calder preserved verbatim"
+        }
+      ]
+    }
+  ]
+}
