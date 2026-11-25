@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five previously undrafted complete historical wave-01 entries identified after merged cohort 020, frozen in unchanged original source-index order",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 84,
+      "source_key": "ABOMINATION",
+      "article_id": "isbe-d89ae564e1947e2ac42e",
+      "source_article_sha256": "c6190fbafdde4d6d9b32f48278ff2f74df6eff64f98c77c9eeb399f2df8ee72d",
+      "source_eligible_chars": 5413,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0085-cohort-021-abomination.json"
+    },
+    {
+      "index": 301,
+      "source_key": "AHAZIAH",
+      "article_id": "isbe-9d10d47900e33ab7a279",
+      "source_article_sha256": "15717faa5f1ae1a4f1752d90929e04ee3c63e5fca24eadcc92fa5122c82d89e7",
+      "source_eligible_chars": 5604,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0086-cohort-021-ahaziah.json"
+    },
+    {
+      "index": 398,
+      "source_key": "ALLIANCE",
+      "article_id": "isbe-54e3d0fb8588cbf155a3",
+      "source_article_sha256": "ddf05a4f2cb5264ce99f3f3916e6969c41583024161ced31b81222f77e97e90a",
+      "source_eligible_chars": 5303,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0087-cohort-021-alliance.json"
+    },
+    {
+      "index": 867,
+      "source_key": "ASS",
+      "article_id": "isbe-4bfdc6fd836975f3f384",
+      "source_article_sha256": "fe3a89343867e188e0772b8ead18fb30a6a140a01f892a3f0dc255bee698f96a",
+      "source_eligible_chars": 5636,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0088-cohort-021-ass.json"
+    },
+    {
+      "index": 930,
+      "source_key": "ATHEISM",
+      "article_id": "isbe-5e32a288c0b6606df1cd",
+      "source_article_sha256": "9e4c278ba0f30ae9b02a7f6999f4ab825d2a899f0637124c1e59c1b99b3d9f6a",
+      "source_eligible_chars": 5812,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0084-cohort-021-atheism.json"
+    }
+  ]
+}
