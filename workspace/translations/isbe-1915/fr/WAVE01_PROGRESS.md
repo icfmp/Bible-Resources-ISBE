@@ -699,3 +699,22 @@ Historical/source witness issues for independent review, not silent fixes:
 - `ASHERAH`: the source's assertion about Assyrian origin reflects early-twentieth-century scholarship. French faithfully represents it as the author's claim, not as an independently verified contemporary conclusion. The original source also has obvious `war- god` and `city of. Assur` spacing/punctuation defects, retained in source.
 
 Mandatory technical merge gate: full source-fingerprint/parity and nonpublication checks, frozen-manifest uniqueness/complete units, all French reading proofs, existing regression suite and official TEI P5 RELAX NG/Schematron validation. Independent bilingual approval is **separate and not granted by these tests**.
+
+## Sixteenth substantive cohort — five complete historical French first drafts (25 November 2026)
+
+The recurring source-locked read-only exporter selected the five shortest **next original whole articles** after cohort 015: canonical **#0649 AQUILA**, **#0678 ARARAT**, **#0731 ARK OF NOAH**, **#0888 ASSOS**, and **#0956 AUGUSTUS**. All titles are translated at their original `xml:id` and `@n`, with the original source order intact.
+
+- Five complete independently auditable source-locked patch files `0059`–`0063` and the original-identity cohort manifest `COHORT_016_5_SUBSTANTIVE_ARTICLES.json`.
+- **17,738 English eligible source characters** across **75 extracted source text/tail units** (**53 mutable units** completely translated or explicitly preserved with a reason; **22 immutable source/reference units** untouched).
+- Exact original source SHA-256 and per-article fingerprints, unchanged 9,380-entry historical TEI, canonical SWORD keys, Scripture `cRef`, `xml:id`, structural nodes, links and Greek/Hebrew script.
+- Projected upon CI-gated merge: **901 / 1,000 full unreviewed first drafts in issue #109 (90.1%), 99 originals without French drafts**. Source-wide: **946 / 9,380 complete unreviewed drafts**. This is an original *article-count* metric, not a prose-volume percentage.
+- **0 editorial sign-offs; 0 task checkboxes checked; French SWORD/catalog publication prohibited.**
+
+Independent bilingual/printed witness review flags:
+- `AQUILA`: the English edition dates Claudius' expulsion decree to `52 AD`, an original historical claim that requires critical review; the French translation does **not** silently replace it with a modern date. The article's original author byline sits at the end of the final paragraph, which is preserved within that same TEI text unit.
+- `ARARAT`: historical geography, speculation about the location of the ark, `170 days` and historical geological claims are translated as written, not updated. The original source's description of Van as a provincial capital is historical. No external scholarly judgment was inserted into the translated article.
+- `ARK OF NOAH`: historical interpretations and calculations about the scope of the Flood, the fauna sheltered, cubit conversion and vessel dimensions are reproduced without theological rewriting. Contrast original `Great Eastern` / `Celtic` dimensions, claims about origin of the tradition and the local-flood discussion with the complete print witness before editorial approval.
+- `ASSOS`: original `rounded by the Aeolians` is apparently a textual corruption for `founded`; French renders the intelligible sense, master remains unchanged. The claim that `Murad II` presented reliefs to France and original `Stratoricus` attribution should be checked against the print original.
+- `AUGUSTUS`: the original has `Caius Octavius Caepias`, `Dion Cass., 5316` and an unusual historical rendering of Augustus' biography; the French translation preserves the historical source evidence, without inventing a modern correction. The Latin Ovid quotation is retained.
+
+Run the full technical CI suite against the completed source-locked corpus, both French preview generators and official TEI P5 schemas; green automated tests do not grant independent editorial acceptance or publication permission.

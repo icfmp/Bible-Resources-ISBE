@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five next shortest fully undrafted original entries after cohort 015, in canonical source-index order",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 649,
+      "source_key": "AQUILA",
+      "article_id": "isbe-a336bcc591eeb6cf753d",
+      "source_article_sha256": "3c2ff8f9bc62c190c1574567608466c5fb654e3f82361dcb8028e20f2394fb7d",
+      "source_eligible_chars": 3406,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0059-cohort-016-aquila.json"
+    },
+    {
+      "index": 678,
+      "source_key": "ARARAT",
+      "article_id": "isbe-92a27d03e841632498db",
+      "source_article_sha256": "6ca7f81d74e249d0e6b35a72a233671251fa64850f0179489ac09e21a0f73084",
+      "source_eligible_chars": 3717,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0060-cohort-016-ararat.json"
+    },
+    {
+      "index": 731,
+      "source_key": "ARK OF NOAH",
+      "article_id": "isbe-7eed1533a321d79e144a",
+      "source_article_sha256": "3ba2d333bc16c88f45a080fccbd9faeae854d04c82601ab4bd59ac943828ea6d",
+      "source_eligible_chars": 3662,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0061-cohort-016-ark-of-noah.json"
+    },
+    {
+      "index": 888,
+      "source_key": "ASSOS",
+      "article_id": "isbe-d0bee6b5ed0fb3b3b2e7",
+      "source_article_sha256": "cc2c3d0d6a652041aaab8837bdc04577b3d08c35f307a67ace73e6a4396feb49",
+      "source_eligible_chars": 3437,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0062-cohort-016-assos.json"
+    },
+    {
+      "index": 956,
+      "source_key": "AUGUSTUS",
+      "article_id": "isbe-585df95ec51973c42362",
+      "source_article_sha256": "fa843e25ed8e97559de4beb90a8f0a93cba9c034a5045eea9c9d3ae617e65673",
+      "source_eligible_chars": 3516,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0063-cohort-016-augustus.json"
+    }
+  ]
+}
