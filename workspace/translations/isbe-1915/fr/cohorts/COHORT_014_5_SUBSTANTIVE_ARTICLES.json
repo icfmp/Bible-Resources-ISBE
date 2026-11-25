@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five shortest previously undrafted wave-01 complete original articles after cohort 013; exact source-index order",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 686,
+      "source_key": "ARBELA",
+      "article_id": "isbe-d1add244a7fc1192af23",
+      "source_article_sha256": "90e3634d9cb9d55a807e113fde2a0d6f75d2cc457852feb58d0c87652f40720a",
+      "source_eligible_chars": 2639,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0049-cohort-014-arbela.json"
+    },
+    {
+      "index": 712,
+      "source_key": "ARETAS",
+      "article_id": "isbe-c89ffe6980c7dfb8dc40",
+      "source_article_sha256": "bb406f6c45491306fc87cb35cef20906060d6ed66c1b5e5c228ef83b5ac819d5",
+      "source_eligible_chars": 3111,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0050-cohort-014-aretas.json"
+    },
+    {
+      "index": 739,
+      "source_key": "ARMENIAN; ARYAN; RELIGION",
+      "article_id": "isbe-8e986684dcb12d283da8",
+      "source_article_sha256": "890ae30f9acb60322a9941c934f34256d4837bd84e4f15035e08feaef7a22f55",
+      "source_eligible_chars": 3003,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0051-cohort-014-armenian-aryan-religion.json"
+    },
+    {
+      "index": 784,
+      "source_key": "ASA",
+      "article_id": "isbe-b76acf30d30db6a5430c",
+      "source_article_sha256": "66357ec4ea2f0762e5916e9abca46173eabd4709a4983763bff6c0789a37c415",
+      "source_eligible_chars": 2744,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0052-cohort-014-asa.json"
+    },
+    {
+      "index": 908,
+      "source_key": "ASUNDER",
+      "article_id": "isbe-6e5da39bb40725929f1a",
+      "source_article_sha256": "445cc8ba9b1bddba1b9ba5ad422de908045423b372b3eb64436175e850d85c29",
+      "source_eligible_chars": 3074,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0053-cohort-014-asunder.json"
+    }
+  ]
+}
