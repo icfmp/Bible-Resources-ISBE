@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five shortest previously undrafted complete original wave-01 articles following cohort 023, frozen in canonical original source order",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 80,
+      "source_key": "ABLUTION",
+      "article_id": "isbe-efddfa114d9851af1964",
+      "source_article_sha256": "afdda2f5f42b4671fb3914d3bd012f245c1d3193c378cee10541d3e229e21339",
+      "source_eligible_chars": 7250,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0101-cohort-024-ablution.json"
+    },
+    {
+      "index": 97,
+      "source_key": "ABSALOM (1)",
+      "article_id": "isbe-5fdaf5529f833286fec7",
+      "source_article_sha256": "9bf4c3463dfc40325b6ac955df2f1c7d18f0993cec56a1421de70cc6efe0bdb0",
+      "source_eligible_chars": 7230,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0100-cohort-024-absalom-1.json"
+    },
+    {
+      "index": 517,
+      "source_key": "ANDREW",
+      "article_id": "isbe-c74db3546ee5c57c63f5",
+      "source_article_sha256": "be5f74ddac6628d18a410e436d7b38451f2bbdd433154ba3c6226865dfd94f48",
+      "source_eligible_chars": 7348,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0102-cohort-024-andrew.json"
+    },
+    {
+      "index": 565,
+      "source_key": "ANTIOCH, OF PISIDIA",
+      "article_id": "isbe-e02aec93d40168db0037",
+      "source_article_sha256": "bf159c1cf34a5622e5b878d82d2ef47ee8fc524a6fb07af3576cc69ab11a81c8",
+      "source_eligible_chars": 7402,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0099-cohort-024-antioch-pisidia.json"
+    },
+    {
+      "index": 618,
+      "source_key": "APOSTOLIC AGE",
+      "article_id": "isbe-42ff5860a292fa34db3a",
+      "source_article_sha256": "ef8a9cc23db8e4a5538832c7ae4a0ab49549a0ad84df432db40c3d6e97bb1479",
+      "source_eligible_chars": 7147,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0103-cohort-024-apostolic-age.json"
+    }
+  ]
+}
