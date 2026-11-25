@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Two consecutive source-locked next-five shortest still-undrafted full original entry selections after cohort 016; canonical index order",
+  "selection_date": "2026-11-25",
+  "item_count": 10,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 564,
+      "source_key": "ANTIOCH, IN SYRIA",
+      "article_id": "isbe-43a950c52e2e3e305a39",
+      "source_article_sha256": "72f7c6d164a30efe10f714ad0b59de2614f3bb27c7f1a13425c62b1d6da369b6",
+      "source_eligible_chars": 3790,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0064-cohort-017-antioch-syria.json"
+    },
+    {
+      "index": 566,
+      "source_key": "ANTIOCHIANS",
+      "article_id": "isbe-2d1abce1807fc0040880",
+      "source_article_sha256": "363bad538519c23aa4d53d946f51d24fd1e19bf20fe463056b078b968e151bf3",
+      "source_eligible_chars": 4100,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0069-cohort-017-antiochians.json"
+    },
+    {
+      "index": 612,
+      "source_key": "APOLLOS",
+      "article_id": "isbe-34381c8d2e1fa08173ce",
+      "source_article_sha256": "42481617b5a6c06614a6f4b38f87e457921ab227c9495f9ad70d3ecf57f52171",
+      "source_eligible_chars": 3746,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0065-cohort-017-apollos.json"
+    },
+    {
+      "index": 613,
+      "source_key": "APOLLYON",
+      "article_id": "isbe-9bde96528899fad3e2dc",
+      "source_article_sha256": "8fff220c4a5418f2664912abcdcdd13a30de90d11bb84d1b6cd53c7482f0421c",
+      "source_eligible_chars": 4379,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0070-cohort-017-apollyon.json"
+    },
+    {
+      "index": 614,
+      "source_key": "APOSTASY; APOSTATE",
+      "article_id": "isbe-3b98400ed8e1eee3fbe1",
+      "source_article_sha256": "7caedbd300657a0649cfcc05d5876aa3b9bba5fd52df90bd3d721167bfc6d318",
+      "source_eligible_chars": 3429,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0066-cohort-017-apostasy-apostate.json"
+    },
+    {
+      "index": 640,
+      "source_key": "APPLE; APPLE-TREE",
+      "article_id": "isbe-e8d3e544cf35ec6b0e86",
+      "source_article_sha256": "91a1b2fbd0c9942de5c0d7f6ffd6d726da4e1eb8ca55d4314097041f34aad210",
+      "source_eligible_chars": 3828,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0067-cohort-017-apple-apple-tree.json"
+    },
+    {
+      "index": 714,
+      "source_key": "ARGOB (2)",
+      "article_id": "isbe-b61fc1eae7c849bc658d",
+      "source_article_sha256": "2d3241c3e25c3332a1a2f6fbcc0fd81d1e69ef2a744c1278bbf9747c53cfb802",
+      "source_eligible_chars": 3903,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0071-cohort-017-argob-2.json"
+    },
+    {
+      "index": 771,
+      "source_key": "ARTAXERXES",
+      "article_id": "isbe-21d04e94c7d3c8ee5c3f",
+      "source_article_sha256": "6ccc11d21815df8419a657647092392659f17e8e0a0fdb1abed1576117f1e14b",
+      "source_eligible_chars": 3847,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0068-cohort-017-artaxerxes.json"
+    },
+    {
+      "index": 821,
+      "source_key": "ASHER (1)",
+      "article_id": "isbe-3defc07ef6798637c399",
+      "source_article_sha256": "2e0d3b801a54f2b05d13b7ecfdf0f520049f67754b0f6a11d2ebb9a9a8a44ed1",
+      "source_eligible_chars": 4320,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0072-cohort-017-asher-1.json"
+    },
+    {
+      "index": 838,
+      "source_key": "ASHTORETH",
+      "article_id": "isbe-c9b817bb13c5f55f1ab1",
+      "source_article_sha256": "e49472c83baf783ff30d84c37755b793a06bfc5e9647cb41aba83d6677daf9dd",
+      "source_eligible_chars": 4491,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0073-cohort-017-ashtoreth.json"
+    }
+  ]
+}
