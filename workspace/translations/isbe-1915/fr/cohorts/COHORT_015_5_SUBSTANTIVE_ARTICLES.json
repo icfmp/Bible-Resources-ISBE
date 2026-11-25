@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five shortest still-undrafted complete original wave-01 articles after merged cohort 014, in canonical source-index order",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 571,
+      "source_key": "ANTIOCHUS III",
+      "article_id": "isbe-a5578701376d20801177",
+      "source_article_sha256": "43736b1c262c6b9b0d0137df84f5b0465f9fe68418dff85e21e54f8f8a8d8bf0",
+      "source_eligible_chars": 3152,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0054-cohort-015-antiochus-iii.json"
+    },
+    {
+      "index": 607,
+      "source_key": "APOCRYPHAL EPISTLES",
+      "article_id": "isbe-75931cc9c8b280b2fe43",
+      "source_article_sha256": "28951345ecb20cbc90259a6336ad90e6a7cd643ba7b0ea009074216d2ad0ea4a",
+      "source_eligible_chars": 3429,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0055-cohort-015-apocryphal-epistles.json"
+    },
+    {
+      "index": 780,
+      "source_key": "ARVAD; ARVADITES",
+      "article_id": "isbe-b986f2b195001e3def14",
+      "source_article_sha256": "c2805e56f1a94e83214b2acce29c237ff353a7dac5cc0fe5ddb4c965b947224e",
+      "source_eligible_chars": 3385,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0056-cohort-015-arvad-arvadites.json"
+    },
+    {
+      "index": 787,
+      "source_key": "ASAHEL",
+      "article_id": "isbe-bb532df530e145ed2b33",
+      "source_article_sha256": "0621a6665b09b699a1b05cf182a462f7cdd9aa01e5c6601661e0021f9e82fb49",
+      "source_eligible_chars": 3289,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0057-cohort-015-asahel.json"
+    },
+    {
+      "index": 823,
+      "source_key": "ASHERAH",
+      "article_id": "isbe-b462d86e4881cfae05d5",
+      "source_article_sha256": "038d1fa39a1e696a9a2f7f2e7cea01d158ed39a1c219655e6be67671e831a127",
+      "source_eligible_chars": 3330,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0058-cohort-015-asherah.json"
+    }
+  ]
+}
