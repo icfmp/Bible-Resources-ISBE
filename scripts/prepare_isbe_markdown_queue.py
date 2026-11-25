@@ -8,12 +8,13 @@ wave-01 shortlist and shortest-original-text rule.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from pathlib import Path
 
 from scripts.apply_translation_batches import load_patches
 from scripts.apply_translation_pilot import text_units
-from scripts.markdown_translation_bridge import template
+from scripts.translation_markdown_layout import read_draft, template
 from scripts.select_translation_pilot import SOURCE_COUNT, SOURCE_SHA256
 from scripts.validate_translation_identity import entries, read_body, sha256
 
@@ -33,8 +34,11 @@ def prepare(*, archive: Path, source: Path, roster: Path,
     if worklist.get("source_sha256") != SOURCE_SHA256:
         raise ValueError("Untrusted historical wave-01 source worklist")
     wave = worklist["entries"]
-    if len(wave) != 1000 or len({r["source_key"] for r in wave}) != 1000:
-        raise ValueError("Expected 1,000 distinct original wave-01 keys")
+    if (worklist.get("source_article_count") != SOURCE_COUNT
+            or worklist.get("translation_language") != "fr"
+            or worklist.get("article_count") != len(wave)
+            or not wave or len({r["source_key"] for r in wave}) != len(wave)):
+        raise ValueError("Untrusted, incomplete or duplicated original wave worklist")
     drafted = set(load_patches(patches))
     remaining = []
     _, original_body = read_body(source)
@@ -58,8 +62,10 @@ def prepare(*, archive: Path, source: Path, roster: Path,
     selected = []
     for unit_chars, pos, key, ident in chosen:
         file = f"{ident}.md"
-        content = template(archive, key)
-        if not content.startswith("<!-- ISBE-TRANSLATION-V1 "):
+        content = template(archive, key, expected_sha=SOURCE_SHA256)
+        meta, blocks = read_draft(content)
+        if (meta.get("source_key") != key or meta.get("article_id") != ident
+                or meta.get("publication_permitted") is not False or not blocks):
             raise ValueError("Invalid source-anchored translation template")
         (output / file).write_text(content, encoding="utf-8")
         selected.append({
@@ -67,7 +73,10 @@ def prepare(*, archive: Path, source: Path, roster: Path,
             "source_key": key,
             "article_id": ident,
             "source_text_unit_chars": unit_chars,
+            "source_article_sha256": meta["source_article_sha256"],
+            "source_paragraphs": len(blocks),
             "template": file,
+            "template_sha256": hashlib.sha256(content.encode("utf-8")).hexdigest(),
             "translation_status": "english_source_template_only",
         })
     manifest = {
