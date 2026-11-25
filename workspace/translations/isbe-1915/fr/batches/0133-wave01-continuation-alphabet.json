@@ -1,0 +1,511 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ALPHABET",
+      "article_id": "isbe-6f4a155cce32a191369f",
+      "source_article_sha256": "febe4f233223749e4167dbbdaf4de163db49fa82edea72f99b813ef6d1a2c346",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALPHABET",
+          "target": "ALPHABET",
+          "action": "preserve",
+          "reason": "ALPHABET is identical in French and English"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al'-fa-bet.",
+          "target": "al'-fa-bet.",
+          "action": "preserve",
+          "reason": "Historical pronunciation retained verbatim"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "1. Definition:",
+          "target": "1. Définition :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "An alphabet is a list of the elementary sounds used in any language. More strictly speaking it is that particular series, commonly known as the Phoenician or Canaanite alphabet, which was in use in the region of Palestine about 1000 BC, and which is the ancestor of nearly all modern written alphabets whether Semitic or European. It is the alphabet therefore of Old Testament Hebrew and Aramaic and New Testament Greek, of the superscription of Caesar and the Latin inscription on the cross, as well as of English through the Greek and Latin. It is an interesting fact, with many practical bearings on text and exegesis, that three sets of letters so very unlike in appearance as Hebrew, Greek and modern English should be the same in origin and alike in nature. Although the earliest surviving inscriptions must be a good deal later than the separation between the Greek and Hebrew, the records in each are more like one another than either is like its own modern printed form.",
+          "target": "Un alphabet est une liste des sons élémentaires employés dans une langue. Plus strictement, il s'agit de cette série particulière, communément appelée alphabet phénicien ou cananéen, utilisée dans la région de la Palestine vers 1000 av. J.-C. et dont descendent presque tous les alphabets écrits modernes, sémitiques ou européens. C'est donc l'alphabet de l'hébreu et de l'araméen de l'Ancien Testament, du grec du Nouveau Testament, de l'inscription de César et de l'inscription latine sur la croix, ainsi que de l'anglais par l'intermédiaire du grec et du latin. Il est intéressant, avec de nombreuses conséquences pratiques pour l'étude des textes et leur exégèse, que trois ensembles de lettres aussi différents d'aspect que les caractères hébreux, grecs et anglais modernes aient une origine commune et une nature semblable. Bien que les plus anciennes inscriptions conservées soient nécessairement bien postérieures à la séparation entre le grec et l'hébreu, les témoignages les plus anciens de chacun de ces alphabets se ressemblent davantage entre eux qu'ils ne ressemblent à leurs propres formes imprimées modernes.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "The characteristics of an alphabet are",
+          "target": "Les caractéristiques d'un alphabet sont :",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(1) the analysis of sounds into single letters rather than syllables or images,",
+          "target": "(1) l'analyse des sons en lettres individuelles plutôt qu'en syllabes ou en images ;",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(2) the fixed order of succession in the letters,",
+          "target": "(2) l'ordre de succession fixe des lettres ;",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(3) the signs for the sounds, whether names or written symbols. Of these the analysis into single letters, instead of whole words or syllables, is the characteristic element. The order of the letters may vary, as that of the Sanskrit does from the European, and yet the list remain not only alphabetic but the \"same\" alphabet, i.e. each sound represented by a similar name or written character. On the face of it, therefore, it might be imagined that the Egyptian and Babylonian, the Cypriote, the Minoan and other forms earlier than the Canaanite which are known or suspected to have had phonetic systems, may have had lists of these forms arranged in a fixed order, but these lists were not alphabetic until the final analysis into individual letters.",
+          "target": "(3) les signes correspondant aux sons, qu'il s'agisse de leurs noms ou de symboles écrits. Parmi ces caractéristiques, l'élément déterminant est l'analyse en lettres individuelles, au lieu de mots ou de syllabes entiers. L'ordre des lettres peut varier — celui du sanskrit diffère ainsi de l'ordre européen — tout en restant une liste alphabétique et même le « même » alphabet, c'est-à-dire que chaque son est représenté par un nom ou un caractère écrit semblable. À première vue, on pourrait donc imaginer que les systèmes égyptien, babylonien, chypriote, minoen et d'autres formes antérieures au cananéen, dont on sait ou soupçonne qu'ils avaient des systèmes phonétiques, possédaient des listes de signes classés dans un ordre fixe. Ces listes n'étaient toutefois pas alphabétiques tant que l'analyse finale en lettres individuelles n'avait pas eu lieu.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "2. Name:",
+          "target": "2. Nom :",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "The name alphabet comes from the fist two letters of the Greek, alpha beta, just as the old English name for the alphabet, abc or abece, is simply the first three letters of the English alphabet, and thus is merely an abbreviation for the whole alphabet. It appears that the Greeks also used the first and last letters of the alphabet (alpha and omega) as the Jews did the first and last, or the first, middle and last letters of their alphabet, as abbreviation for the whole and in the same sense that in English one says \"a to izzard.\" Alpha and beta are themselves derived from the Semitic names for the same letters ('aleph, beth) and have no meaning in the Greek.",
+          "target": "Le nom « alphabet » vient des deux premières lettres du grec, alpha et bêta, tout comme l'ancien nom anglais de l'alphabet, abc ou abece, correspond simplement aux trois premières lettres de l'alphabet anglais et n'est donc qu'une abréviation de l'ensemble. Il semble que les Grecs aient également utilisé la première et la dernière lettres de l'alphabet, alpha et oméga, comme les Juifs employaient la première et la dernière, ou la première, la médiane et la dernière, pour désigner par abréviation la totalité de l'alphabet ; c'est le même sens que l'expression anglaise « de a à izzard ». Alpha et bêta dérivent eux-mêmes des noms sémitiques des mêmes lettres ('aleph, beth), sans avoir de signification en grec.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "3. Invention:",
+          "target": "3. Invention :",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "The question of the invention of this alphabet differs from the question of the origin of the written forms of the letters with which it is often confused, and relates to the recognition of the individual letters. Alphabetical language whether written or spoken, inward or outward, is distinguished from the pictographic, hieroglyphic, and syllabic stages by this analysis into individual sounds or letters. It begins with the picture, passes to the ideogram and syllable, and from the syllable to the letter. This is best seen in writing, but it is equally true in speech. At the letter stage the alphabet begins. It is alleged by some that another stage, a consonantal writing, between syllabic and alphabetic writing, should be recognized. This would deny to the Phoenician the character of a true alphabet since, as in all Semitic languages, the vowels were in ancient times not written at all. Some go so far as to speak of it as syllabic in character, but on the other hand it may be said with equal pertinence that various syllabaries are nearly alphabetic. When a syllabic writing is reduced, as was the case with the Egyptian, the Cypriote and others, to a point where a character represents uniformly a certain consonant and a certain vowel, the vocal analysis has been made and the essential alphabet begun, although it was only later that men discovered that the consonant common to several syllables might be expressed to advantage in writing by one unvarying sign, and later still that the vowels too might be distinguished to advantage.",
+          "target": "La question de l'invention de cet alphabet diffère de celle de l'origine des formes écrites des lettres, avec laquelle on la confond souvent, car elle porte sur la reconnaissance des lettres individuelles. Le langage alphabétique, écrit ou parlé, intérieur ou extérieur, se distingue des étapes pictographique, hiéroglyphique et syllabique par cette analyse en sons ou en lettres individuels. On part de l'image, puis on passe à l'idéogramme et à la syllabe, et enfin de la syllabe à la lettre. Cela se voit le mieux dans l'écriture, mais reste vrai de la parole. L'alphabet commence au stade de la lettre. Certains prétendent qu'il faudrait reconnaître, entre les écritures syllabique et alphabétique, un autre stade : l'écriture consonantique. Cela reviendrait à refuser au phénicien la qualité de véritable alphabet puisque, comme dans toutes les langues sémitiques, les voyelles n'étaient autrefois pas écrites du tout. Certains vont jusqu'à lui attribuer un caractère syllabique ; mais on pourrait affirmer avec autant de pertinence que divers syllabaires sont presque alphabétiques. Lorsqu'une écriture syllabique se réduit, comme dans les cas de l'égyptien, du chypriote et d'autres, au point qu'un caractère représente uniformément une certaine consonne et une certaine voyelle, l'analyse vocale est accomplie et l'alphabet essentiel a commencé, même si les hommes ne découvrirent que plus tard l'avantage de représenter la consonne commune à plusieurs syllabes par un signe invariable, puis, plus tard encore, de distinguer également les voyelles.",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "4. Origin of the Letters:",
+          "target": "4. Origine des lettres :",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "Few modern questions are changing shape so rapidly as that of the historical predecessor of the Canaanite or Phoenician alphabet. For a long time it was thought that De Rouge had solved the problem by tracing the letters to the Egyptian hieratic. This is the view of most of the popular literature of the present time, but is wholly surrendered by most workers in the field now, in spite of the fact that the latest studies in hieratic show a still greater resemblance in forms (Moller, Hierat. Palaographie, 1909). Winckler and others have claimed derivation from the Cuneiform, Praetorius from the Cypriote, Sayce gets at least three letters from the Hittite, while Evans and others incline to believe that the Minoan was the direct source of the alphabet, introduced from Crete into Palestine by the Philistines who were Cretans, or at least that the two are from a common ancestor, which is also the ancestor of many other of the Mediterranean alphabets.",
+          "target": "Peu de questions modernes se transforment aussi rapidement que celle de l'ancêtre historique de l'alphabet cananéen ou phénicien. On pensa longtemps que de Rougé avait résolu le problème en faisant dériver les lettres de l'écriture hiératique égyptienne. Cette opinion demeure celle de la majeure partie de la littérature de vulgarisation de l'époque, mais la plupart des chercheurs du domaine l'ont désormais complètement abandonnée, bien que les études récentes de l'hiératique montrent des ressemblances de forme encore plus grandes (Möller, Hierat. Paläographie, 1909). Winckler et d'autres ont défendu une origine cunéiforme ; Praetorius, une origine chypriote ; Sayce fait dériver au moins trois lettres de l'écriture hittite ; Evans et d'autres penchent pour une origine directement minoenne de l'alphabet, introduit de Crète en Palestine par les Philistins, qui étaient Crétois. Selon une variante de cette hypothèse, le minoen et le phénicien auraient au moins un ancêtre commun, également à l'origine de nombreux autres alphabets méditerranéens.",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "Some, like Evans and Mosso, even suggest that, perhaps through the Minoan, the letter forms may be traced to the pictographs of the neolithic era in the caves of Europe. There is, in fact, an extraordinary resemblance between some of the letters of the Phoenician alphabet and some of the conventionalized signs of the neolithic age, and it may not be too fantastic to imagine that these early signs are the historic ancestors of the written alphabetical characters, but that they were in any sense alphabetical themselves is impossible if the invention of the alphabet was historical as here supposed, and is unlike from any point of view. If in fact the Paestos disk dates from before 1600 BC, and if Dr. Hempl's resolution of it into Ionic Greek is sound, we have another possible source or stock of characters from which the inventor of the alphabet may have chosen (Harper's Magazine, January, 1911).",
+          "target": "Certains, comme Evans et Mosso, suggèrent même que, peut-être par l'intermédiaire du minoen, les formes des lettres remontent aux pictogrammes de l'époque néolithique des grottes européennes. Il existe en effet une ressemblance extraordinaire entre certaines lettres de l'alphabet phénicien et certains signes conventionnels de l'âge néolithique. On peut imaginer sans trop de fantaisie que ces signes anciens sont les ancêtres historiques des caractères alphabétiques écrits. Mais qu'ils aient eux-mêmes été alphabétiques en quelque sens que ce soit serait impossible si l'invention historique de l'alphabet s'est déroulée comme nous l'avons supposé, et demeure improbable à tout point de vue. Si le disque de Phaistos date effectivement d'avant 1600 av. J.-C. et si le déchiffrement qu'en propose le docteur Hempl comme du grec ionien est fondé, nous disposons d'une autre source possible, ou d'un autre répertoire de caractères, parmi lesquels l'inventeur de l'alphabet aurait pu choisir (Harper's Magazine, janvier 1911).",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "5. Number of Letters:",
+          "target": "5. Nombre de lettres :",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "The ideal written alphabet contains a separate character for each sound used in any or every language. Practically in most languages the alphabet falls a good deal short of the number of recognized sounds to be expressed in that language and in pronouncing dictionaries they have to be analyzed into say a broad, a short, a open, etc., by adding diacritical marks. \"In educated English without regarding finer distinctions\" (Edmonds, Comparative Philology, 45) about 50 sounds are commonly used, but Murray distinguishes at least 96, and the number sometimes used or which maybe used is much greater, the possible number of vowel sounds alone being as many as 72. Moreover the individual letters differ in sound in different individuals, and even in the same individual in successive utterances of what would be called the same letter or the same sound. It is alleged that the average sound of the a for example, is never the same in any two languages; the a in \"father,\" even, is never the same in any two individuals, and that the same individual, even, never pronounces it twice so exactly in the same fashion that the difference may not be detected by sound photography.",
+          "target": "L'alphabet écrit idéal possède un caractère distinct pour chacun des sons employés dans n'importe quelle langue. Dans la pratique, pour la plupart des langues, l'alphabet comporte beaucoup moins de lettres que le nombre de sons reconnus qu'il doit représenter. Dans les dictionnaires de prononciation, il faut donc distinguer, par des signes diacritiques ajoutés, par exemple un a ouvert, un a bref, etc. « Dans l'anglais cultivé, sans tenir compte des distinctions les plus fines » (Edmonds, Comparative Philology, p. 45), on emploie ordinairement quelque 50 sons ; mais Murray en distingue au moins 96, et le nombre de ceux qui sont parfois utilisés ou pourraient l'être est bien plus élevé, puisque le seul nombre des sons vocaliques possibles atteint 72. En outre, la réalisation sonore des lettres varie selon les personnes, et même chez une seule personne d'une prononciation à l'autre de ce que l'on appelle la même lettre ou le même son. On prétend que le son moyen de a, par exemple, n'est jamais identique dans deux langues ; que le a de « father » n'est jamais exactement le même chez deux personnes ; et qu'une personne ne le prononce jamais deux fois d'une manière si identique qu'on ne puisse en déceler la différence par la photographie acoustique.",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "The written alphabet is always thus less than the number of sounds used. The Phoenician and the Semitic alphabets generally had 22 letters, but they omitted the vowels. English has 26, of which many have two or more sounds.",
+          "target": "L'alphabet écrit comprend donc toujours moins de caractères que le nombre des sons utilisés. Les alphabets phénicien et sémitiques comptaient généralement 22 lettres, mais omettaient les voyelles. L'anglais en compte 26, dont beaucoup correspondent à deux sons ou davantage.",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "6. Names of the Letters:",
+          "target": "6. Noms des lettres :",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "The names of the Greek alphabet are derived from the Semitic names and are meaningless in the Greek, while in the Semitic it has been pretty clearly shown that they signify for the most part some object or idea of which the earliest form of the written letter was a picture, as eg. 'aleph, the ox. The forms of the letters are apparently derived from pictures of the ox, house, etc., made linear and finally reduced to a purely conventional sign which was itself reduced to the simplest writing motion. All this has been boldly denied by Mr. Pilcher (PSBA, XXVI (1904), 168-73; XXVII (1905), 65-68), and the original forms declared to be geometric; but he does not seem to have made many converts, although he has started up rival claimants to his invention.",
+          "target": "Les noms des lettres grecques proviennent de noms sémitiques et n'ont aucune signification en grec. Dans les langues sémitiques, en revanche, il a été assez clairement démontré que la plupart désignent un objet ou une idée dont la forme écrite primitive de la lettre était une image : par exemple 'aleph, le bœuf. Les formes des lettres paraissent provenir d'images représentant un bœuf, une maison, etc., progressivement réduites à des lignes, puis à un signe purement conventionnel, simplifié à son tour jusqu'au geste d'écriture le plus élémentaire. M. Pilcher (PSBA, XXVI [1904], p. 168-173 ; XXVII [1905], p. 65-68) a hardiment nié toute cette interprétation et affirmé que les formes originales étaient géométriques ; mais il ne semble pas avoir convaincu beaucoup de monde, bien qu'il ait fait naître des prétentions rivales à son invention.",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "The names of the letters at least seem to indicate the Semitic origin of the alphabet, since the majority of them are the Semitic names for the objects which gave name to the letter, and the picture of which gives form to the written letter.",
+          "target": "Les noms des lettres semblent au moins indiquer l'origine sémitique de l'alphabet, puisque la plupart sont les appellations sémitiques des objets ayant donné leur nom aux lettres et dont les images ont donné leur forme aux caractères écrits.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "Following is Sayce's list (PSBA, XXXII (1910), 215-22) with some variants:",
+          "target": "Voici la liste de Sayce (PSBA, XXXII [1910], p. 215-222), avec quelques variantes :",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "(1) 'aleph = ox;",
+          "target": "(1) 'aleph = bœuf ;",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "(2) beth = house (tent);",
+          "target": "(2) beth = maison (tente) ;",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "(3) gimel = camel;",
+          "target": "(3) gimel = chameau ;",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "(4) daleth = door;",
+          "target": "(4) daleth = porte ;",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "(5) he = house;",
+          "target": "(5) he = maison ;",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "(6) waw = nail (Evans, tent peg);",
+          "target": "(6) waw = clou (Evans : piquet de tente) ;",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "(7) zayin = weapon;",
+          "target": "(7) zayin = arme ;",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "(8) cheth = fence;",
+          "target": "(8) cheth = clôture ;",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "(9) Teth = cake of bread (Lidzbarski, a package);",
+          "target": "(9) Teth = galette de pain (Lidzbarski : paquet) ;",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "(10) yodh = hand;",
+          "target": "(10) yodh = main ;",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "(11) kaph = palm of hand;",
+          "target": "(11) kaph = paume de la main ;",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "(12) lamedh = ox-goad;",
+          "target": "(12) lamedh = aiguillon à bœufs ;",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "(13) mem = water flowing;",
+          "target": "(13) mem = eau courante ;",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "(14) nun = fish;",
+          "target": "(14) nun = poisson ;",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "(15) camekh = ?;",
+          "target": "(15) camekh = ? ;",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "(16) `ayin = eye;",
+          "target": "(16) 'ayin = œil ;",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "(17) pe = mouth;",
+          "target": "(17) pe = bouche ;",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "(18) tsadhe = trap (others, hook or nose or steps),",
+          "target": "(18) tsadhe = piège (d'autres : crochet, nez ou marches) ;",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "(19) qoph = cage (Evans says picture is an outline head and Lidzbarski, a helmet);",
+          "target": "(19) qoph = cage (Evans estime que l'image représente le contour d'une tête ; Lidzbarski, un casque) ;",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "(20) resh = head;",
+          "target": "(20) resh = tête ;",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "(21) shin = tooth (not teeth);",
+          "target": "(21) shin = dent (et non dents) ;",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "(22) taw = mark. Not all of these meanings are, however, generally accepted (compare also Noldeke, Beitrage Strassb. (1904), 124-36; Lidzbarski, Ephemeris, II, 125-39).",
+          "target": "(22) taw = marque. Toutes ces significations ne sont cependant pas généralement acceptées (comparer aussi Nöldeke, Beiträge Strassb. [1904], p. 124-136 ; Lidzbarski, Ephemeris, II, p. 125-139).",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "7. Order of Letters:",
+          "target": "7. Ordre des lettres :",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "The order of the letters differs more or less in different languages, but it is in the main the same in all the Semitic and Western alphabets derived from the Phoenician alphabet and this is roughly the order of the English alphabet. This order is, however, full of minor variations even among the Western alphabets and in the Indian languages the letters are entirely regrouped on a different principle.",
+          "target": "L'ordre des lettres varie plus ou moins selon les langues, mais il demeure globalement le même dans tous les alphabets sémitiques et occidentaux dérivés de l'alphabet phénicien, et correspond approximativement à celui de l'alphabet anglais. Cet ordre présente néanmoins de nombreuses variations mineures, même parmi les alphabets occidentaux ; dans les langues de l'Inde, les lettres sont entièrement réorganisées selon un principe différent.",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "The conventional order of the Semitic alphabet may be traced with some certainty in the Biblical books to as early as the 6th century BC, even accepting the dates of a radical higher criticism, for there are more than a dozen passages in the Old Testament composed on the principle of the alphabetical acrostic (Pss 111; 112; 119; ",
+          "target": "L'ordre conventionnel de l'alphabet sémitique peut être suivi avec une certaine assurance dans les livres bibliques jusqu'au VIe siècle av. J.-C., même en acceptant les datations de la critique biblique radicale. Plus d'une douzaine de passages de l'Ancien Testament suivent en effet le principe de l'acrostiche alphabétique (Psaumes 111, 112, 119 ; ",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": ", etc.) and the oldest of these are of this period (see ",
+          "target": ", etc.), et les plus anciens remontent à cette période (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "ACROSTIC",
+          "target": "ACROSTICHE",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "tail",
+          "source": "). The Formello abecedarium, if it is in fact from the 7th century BC, carries the known order back a century farther still and shows it prevailing in Italy as well as Palestine. Moreover, there are those who still consider some of the alphabetical psalms older even than this.",
+          "target": "). L'abécédaire de Formello, s'il date effectivement du VIIe siècle av. J.-C., fait remonter d'un siècle supplémentaire l'ordre connu et montre qu'il prévalait aussi bien en Italie qu'en Palestine. Certains continuent d'ailleurs à considérer que plusieurs psaumes alphabétiques sont encore plus anciens.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "It must be noted, however, that while the order is in general fixed, there are local and temporary differences. In several cases eg. the order of the sixteenth and seventeenth letters of the alphabet is inverted in the alphabetical acrostics, and this would seem to point to a time or place where pe, `ayin, was the accepted order. It happens that the inversion occurs in both the passages which are counted earliest by the modern critics (G. B. Gray in HDB2, 8). Mr. Sayce too has recently altered or restored the order by relegating the original camekh to a place after shin, while Mr. Pilcher has quite reconstructed the original order on a geometrical basis, to his own taste at least, as brd; hvg; mnl; szt.",
+          "target": "Il faut toutefois remarquer que si l'ordre est généralement fixé, il existe des différences locales ou temporaires. Dans plusieurs cas, par exemple, l'ordre des seizième et dix-septième lettres est inversé dans les acrostiches alphabétiques, ce qui semble indiquer une époque ou une région où pe, 'ayin constituait l'ordre accepté. Cette inversion se rencontre précisément dans les deux passages que les critiques modernes considèrent comme les plus anciens (G. B. Gray, dans HDB2, p. 8). M. Sayce a lui aussi récemment modifié ou rétabli cet ordre en renvoyant le camekh originel à une place après shin, tandis que M. Pilcher a entièrement reconstruit l'ordre primitif selon un principe géométrique, satisfaisant au moins ses propres préférences : brd ; hvg ; mnl ; szt.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "A certain grouping together of signs according to the relationship of the objects which they represent has often been noticed, and Sayce (PSBA, XXXII (1910), 215-22) thinks that he has (after having put camekh in its right place) reduced the whole matter to a sequence of pairs of things which belong together: ox-house, camel-tent door, house-nail, weapon-fence (city wall), bread-hand, open hand-arm with goad, water-fish, eye-mouth, trap-cage, head- tooth, camekh, taw. This arranging he thinks was done by someone who knew that 'aluph was the West Semitic for \"leader\" and taw was the Cretan sign for ending--an Amorite therefore in touch with the Philistines. The final word on order seems not yet to have been spoken.",
+          "target": "On a souvent observé que certains signes étaient groupés selon les rapports entre les objets représentés. Sayce (PSBA, XXXII [1910], p. 215-222) pense avoir ramené l'ensemble, après avoir replacé camekh à son rang correct, à une succession de paires d'objets apparentés : bœuf-maison, chameau-porte de tente, maison-clou, arme-clôture (muraille), pain-main, main ouverte-bras avec aiguillon, eau-poisson, œil-bouche, piège-cage, tête-dent, camekh, taw. Il estime que cet ordre fut établi par quelqu'un qui savait que 'aluph signifiait « chef » en sémitique occidental et que taw était le signe crétois de la fin : donc un Amoréen en relation avec les Philistins. Le dernier mot sur l'ordre des lettres ne paraît pas encore avoir été dit.",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "8. The Earliest Texts:",
+          "target": "8. Les textes les plus anciens :",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "The chief North Semitic texts are",
+          "target": "Les principaux témoignages sémitiques du Nord sont :",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "(1) Moabite stone (circa 850 BC);",
+          "target": "(1) la stèle moabite (vers 850 av. J.-C.) ;",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "(2) inscriptions of Zkr, Zenjirli, etc. (circa 800 BC);",
+          "target": "(2) les inscriptions de Zkr, de Zenjirli, etc. (vers 800 av. J.-C.) ;",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "(3) Baal-Lebanon inscription (circa 750 BC);",
+          "target": "(3) l'inscription de Baal-Liban (vers 750 av. J.-C.) ;",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "(4) Siloam inscription (circa 700 BC);",
+          "target": "(4) l'inscription de Siloé (vers 700 av. J.-C.) ;",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "(5) Harvard Samaritan ostraca (time of Ahab?);",
+          "target": "(5) les ostraca samaritains de Harvard (époque d'Achab ?) ;",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "(6) Gezer tablet;",
+          "target": "(6) la tablette de Guézer ;",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "(7) various weights and seals before 600 BC. The striking fact about the earliest inscriptions is that however remote geographically, there is on the whole so little difference in the forms of the letters. This is particularly true of the North Semitic inscriptions and tends to the inference that the invention was after all not so long before the surviving inscriptions. While the total amount of the earliest Palestine inscriptions is not even yet very large, the recent discovery of the Samaritan ostraca, the Gezer tablet, and various minor inscriptions, is at least pointing to a general use of Semitic writing in Palestine at least as early as the 9th century BC.",
+          "target": "(7) différents poids et sceaux antérieurs à 600 av. J.-C. Le fait frappant au sujet des inscriptions les plus anciennes est que, malgré les grandes distances géographiques qui les séparent, les formes des lettres diffèrent si peu dans l'ensemble. C'est particulièrement vrai des inscriptions sémitiques du Nord, ce qui invite à penser que l'invention de l'alphabet n'était finalement pas si éloignée dans le temps des inscriptions conservées. Bien que la quantité totale des inscriptions palestiniennes les plus anciennes reste assez réduite, la découverte récente des ostraca samaritains, de la tablette de Guézer et de diverses petites inscriptions tend au moins à indiquer un emploi généralisé de l'écriture sémitique en Palestine dès le IXe siècle av. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "9. Changes in Letter Forms:",
+          "target": "9. Évolution des formes des lettres :",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "The tendency of letters to change form in consequence of changed environment is not peculiar to alphabetical writing but is characteristic of the transmission of all sorts of writing. The morphology of alphabetical writing has however its own history. The best source for studying this on the Semitic side is Lidzbarski's Handbuch (see below), and on the Greek side the best first source is E. S. Roberts, Introduction to Greek Epigraphy (Cambr.). The best synoptical statement of the Semitic is found in the admirable tables in the Jewish Encyclopedia, V, i, 449-53. For the later evolution of both Greek and Latin alphabets, E. M. Thompson's Introduction to Greek and Latin Paleography, Oxford, 1912, is far the best Introduction. In this he takes account of the great finds of papyri which have so revolutionized the study of the forms of Greek letters around the beginning of the Christian era, since his first Handbook was published. (See articles on the text of Old Testament and New Testament.)",
+          "target": "La tendance des lettres à changer de forme sous l'effet d'un environnement différent n'est pas propre à l'écriture alphabétique, mais caractérise la transmission de tous les types d'écriture. La morphologie de l'écriture alphabétique possède cependant sa propre histoire. Pour l'étudier du côté sémitique, la meilleure source est le Handbuch de Lidzbarski (voir ci-dessous) ; pour le grec, le meilleur ouvrage d'introduction est celui d'E. S. Roberts, Introduction to Greek Epigraphy (Cambridge). Le meilleur tableau synoptique des écritures sémitiques se trouve dans les excellentes planches de la Jewish Encyclopedia, V, i, p. 449-453. Concernant l'évolution plus tardive des alphabets grec et latin, l'Introduction to Greek and Latin Paleography d'E. M. Thompson, Oxford, 1912, est de loin la meilleure introduction. Dans cet ouvrage, l'auteur tient compte des grandes découvertes de papyrus qui, depuis la publication de son premier Handbook, ont révolutionné l'étude des formes des lettres grecques autour du début de l'ère chrétienne. Voir les articles sur le texte de l'Ancien et du Nouveau Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "In the Hebrew, the old Phoenician alphabet of the early inscriptions had in the New Testament times given way to the square Aramaic characters of the modern Hebrew which possibly came into use as early as the time of Ezra. The most comprehensive modern brief conspectus covering both Hebrew and Greek is that reproduced in this article from the little manual of Specht. See also ",
+          "target": "En hébreu, l'ancien alphabet phénicien des premières inscriptions avait, à l'époque néotestamentaire, cédé la place aux caractères carrés araméens de l'hébreu moderne, peut-être déjà entrés en usage au temps d'Esdras. Le tableau moderne, bref et le plus complet, couvrant à la fois l'hébreu et le grec, est celui qui est reproduit dans cet article d'après le petit manuel de Specht. Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "WRITING",
+          "target": "ÉCRITURE",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "Isaac Taylor's Alphabet (2nd ed., 1899) is still useful for orientation, and his article in the HDB likewise, but Edward Clodd's little Story of the Alphabet (New York, 1907), taken with Faulmann's Geschichte der Schrift and Buch der Schrift, is better for general purposes. For scientific purposes see the bibliography prefixed to Lidzbarski's Handbuch der nordsemitischen Epigraphik (1898, 2 vols) and his Ephemeris passim to date, Evans' Scripta minoa, Oxf., 1909, and the literature of the article ",
+          "target": "L'ouvrage Alphabet d'Isaac Taylor (2e éd., 1899) reste utile pour s'orienter, de même que son article dans HDB. Mais le petit livre The Story of the Alphabet d'Edward Clodd (New York, 1907), lu avec Geschichte der Schrift et Buch der Schrift de Faulmann, est préférable pour une présentation générale. Pour une étude scientifique, voir la bibliographie placée en tête du Handbuch der nordsemitischen Epigraphik de Lidzbarski (1898, deux volumes) et son Ephemeris, dans les différentes livraisons jusqu'à cette date ; Evans, Scripta minoa, Oxford, 1909 ; ainsi que la bibliographie de l'article ",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "WRITING",
+          "target": "ÉCRITURE",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "tail",
+          "source": " in this Encyclopedia. See also C. G. Ball, \"Origin of the Phoenician Alphabet,\" Proceedings of the Society of Biblical Archaeology, XV, 392-408; E. J. Pilcher, \"The Origin of the Alphabet,\" PSBA, XXVI (1904), 168-73; Franz Praetorius, \"The Origin of the Canaanite Alphabet,\" Smithsonian Rep. (1907), 595-604; S. A. Cook, \"The Old Hebrew Alphabet and the Gezer Tablet,\" PEFS (1909), 284-309. For Bible class work, H. N. Skinner's Story of the Letters and Figures (Chicago, 1905) is very admirably adapted to the purpose.",
+          "target": " de cette encyclopédie. Voir aussi C. G. Ball, « Origin of the Phoenician Alphabet », Proceedings of the Society of Biblical Archaeology, XV, p. 392-408 ; E. J. Pilcher, « The Origin of the Alphabet », PSBA, XXVI (1904), p. 168-173 ; Franz Praetorius, « The Origin of the Canaanite Alphabet », Smithsonian Report (1907), p. 595-604 ; S. A. Cook, « The Old Hebrew Alphabet and the Gezer Tablet », PEFS (1909), p. 284-309. Pour l'enseignement biblique, le Story of the Letters and Figures de H. N. Skinner (Chicago, 1905) convient remarquablement bien.",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "E. C. Richardson",
+          "target": "E. C. Richardson",
+          "action": "preserve",
+          "reason": "Original author attribution retained verbatim"
+        }
+      ]
+    }
+  ]
+}

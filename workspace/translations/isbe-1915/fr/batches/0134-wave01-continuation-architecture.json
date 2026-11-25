@@ -1,0 +1,775 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ARCHITECTURE",
+      "article_id": "isbe-5ce41bc339da446ef1cf",
+      "source_article_sha256": "4c65bf3a89cd8cfd2b5d576544f639e3821ed71df9c4ba2680783a1b8cc4f093",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARCHITECTURE",
+          "target": "ARCHITECTURE",
+          "action": "preserve",
+          "reason": "ARCHITECTURE is identical in French and English"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-ki-tek-tur:",
+          "target": "ar'-ki-tek-tur :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "I. GENERAL HISTORY",
+          "target": "I. HISTOIRE GÉNÉRALE",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "1. Plans, Estimates and Measuring",
+          "target": "1. Plans, devis et mesures",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "2. Old Testament References",
+          "target": "2. Références de l'Ancien Testament",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "II. TEMPLE AND PALACE OF SOLOMON",
+          "target": "II. TEMPLE ET PALAIS DE SALOMON",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "1. Construction and Materials",
+          "target": "1. Construction et matériaux",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "2. Style",
+          "target": "2. Style",
+          "action": "preserve",
+          "reason": "The heading 2. Style is identical in French and English"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "3. Facts",
+          "target": "3. Faits établis",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "4. Phoenician Designers",
+          "target": "4. Les concepteurs phéniciens",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "III. CONCLUSIONS FROM ACTUAL REMAINS",
+          "target": "III. CONCLUSIONS TIRÉES DES VESTIGES",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "1. Defense Walls",
+          "target": "1. Les murailles défensives",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "2. Streets",
+          "target": "2. Les rues",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "3. Absence of the \"Grand Manner\"",
+          "target": "3. L'absence de grandeur monumentale",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "4. Solomonic Detail",
+          "target": "4. Les éléments décoratifs salomoniens",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "5. Temple of Onias",
+          "target": "5. Le temple d'Onias",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "6. Comparison with Maccabean Work",
+          "target": "6. Comparaison avec les constructions maccabéennes",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "7. Painted Tombs at Marissa",
+          "target": "7. Les tombeaux peints de Marissa",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "8. Characteristic Feature",
+          "target": "8. Un trait caractéristique",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "IV. HERODIAN WORK",
+          "target": "IV. CONSTRUCTIONS HÉRODIENNES",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "V. SYNAGOGUES",
+          "target": "V. SYNAGOGUES",
+          "action": "preserve",
+          "reason": "SYNAGOGUES is identical in both languages"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "VI. FINAL",
+          "target": "VI. CONCLUSION",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "I. General History.",
+          "target": "I. Histoire générale.",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "The words \"architect\" and \"architecture\" do not occur in the Old Testament or the New Testament. As the greatness of a nation and its social elevation are reflected in the course of architectural development, so is a nation's failure to rise to firm establishment, after victory in war, reflected in the absence of such development. The latter condition was that of the Jews in Palestine; they failed so to establish themselves that their character and aims could find true expression in architecture. The country by reason of its geographical position and its broken territorial character, which exaggerat edition the tribal nature of its inhabitants, did not favor political empire (see HGHL, 10). The great difficulty of the Jews was the preservation of their own integrity. There could be no victorious expeditions to foreign lands to inspire monumental evidence of achievement in arms, nor had they the inspiration. of various gods or saints, to whose glory great and separate buildings might be raised. Their dwellings were, by force of circumstances, unpretentious, and their tombs were of the same character.",
+          "target": "Les mots « architecte » et « architecture » ne se rencontrent ni dans l'Ancien ni dans le Nouveau Testament. De même que la grandeur d'une nation et son élévation sociale se reflètent dans le développement de son architecture, l'incapacité d'un peuple à s'établir durablement après une victoire militaire se manifeste dans l'absence d'un tel développement. C'était, selon l'auteur, la condition des Juifs en Palestine : ils ne réussirent pas à s'établir d'une manière qui permît à leur caractère et à leurs aspirations de trouver dans l'architecture une expression véritable. En raison de sa position géographique et de la fragmentation de son territoire, qui accentuait le caractère tribal de ses habitants, le pays ne favorisait pas la formation d'un empire politique (voir HGHL, p. 10). La grande difficulté des Juifs était de préserver leur propre identité. Ils ne pouvaient mener dans des pays étrangers des expéditions victorieuses qui auraient inspiré des monuments célébrant leurs exploits militaires ; ils ne possédaient pas non plus la diversité de dieux ou de saints à la gloire desquels auraient pu être élevés de grands édifices distincts. Leurs habitations, par la force des circonstances, étaient modestes, et leurs tombeaux présentaient la même simplicité.",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "1. Plans, Estimates and Measuring:",
+          "target": "1. Plans, devis et mesures :",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "Although in the smaller buildings there is very little evidence of the builder having been governed by a previously drawn plan, there seems no doubt that in larger works a plan was prepared. The Tabernacle was made according to a \"pattern\" (",
+          "target": "Si les petites constructions offrent très peu d'indices d'un travail exécuté d'après un plan préalablement dessiné, il semble certain que les grands ouvrages faisaient l'objet de plans. Le Tabernacle fut réalisé selon un « modèle » (",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "tail",
+          "source": ") and Solomon's Temple was also designed and submitted for approval (",
+          "target": "), et le Temple de Salomon fut lui aussi conçu d'après des plans soumis à approbation (",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "tail",
+          "source": "). Estimated cost was also considered (",
+          "target": "). On tenait également compte de l'estimation du coût (",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": "). The equivalents to a tape line and foot rule can be identified (",
+          "target": "). Des équivalents du ruban à mesurer et de la règle graduée sont attestés (",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "The Israelites arrived in tents, and the walled cities, \"great and walled up to heaven\" (",
+          "target": "Les Israélites arrivèrent avec leurs tentes ; les villes fortifiées, « grandes et fortifiées jusqu'au ciel » (",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": " the King James Version) which they took and occupied were well fortified, unlovely shelters, covering areas of anything from 12 acres, as at Taanach and Megiddo, to about 23 acres as at Gezer (Canaan d'apres l'exploration recente). The habitations within the walls were poor structures of mud bricks or rude stone; in many cases they were rock-cut caves. True, the Jews attempted, at the outset of their full pos session, to build in beauty, and made efforts toward greater substantiality, using the best available help; the attempt, however, was doomed to failure. Their most important buildings were their fortifications. The engineering skill displayed in the construction of aqueducts and other water systems was forced out of them by sheer necessity, and proved the existence of a latent constructive power, which they never had sustained opportunity to apply to architecture. In striking contrast is the architecture of the Crusaders. In a comparatively short time of less than 200 years, during the half of which practice in the arts of peace was well-nigh impossible, they stamped their occupation by the erection of an enormous number of great and beautiful buildings, the ruins of which are among the most imposing landmarks in the country.",
+          "target": ", King James Version), qu'ils conquirent et occupèrent étaient des refuges solidement défendus, mais peu esthétiques, couvrant une surface allant d'environ douze acres à Taanac et Meguiddo à quelque vingt-trois acres à Guézer (Canaan d'après l'exploration récente). Les habitations situées à l'intérieur des remparts étaient de pauvres constructions en briques de terre crue ou en pierres grossièrement assemblées ; souvent, il s'agissait de grottes creusées dans le rocher. Certes, les Juifs entreprirent, dès le début de leur occupation complète, de bâtir avec un souci de beauté et de solidité, en faisant appel aux meilleures compétences disponibles ; mais cette tentative était vouée à l'échec. Leurs édifices les plus importants furent leurs fortifications. Le savoir-faire technique dont témoignent les aqueducs et les autres systèmes d'approvisionnement en eau leur fut imposé par la nécessité absolue. Il démontrait l'existence d'une capacité latente de construction qu'ils n'eurent jamais durablement l'occasion d'appliquer à l'architecture. L'architecture des croisés offre un contraste saisissant. En une période relativement courte, inférieure à deux cents ans, dont la moitié ne permettait pratiquement aucune activité pacifique, ils marquèrent leur présence par l'érection d'un très grand nombre d'édifices majestueux et beaux, dont les ruines comptent parmi les monuments les plus imposants du pays.",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "2. Old Testament References:",
+          "target": "2. Références de l'Ancien Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "The often-repeated references to building greatness in the Old Testament, indicate a pride out of all scale with actuality. They tell the story of a long desert pilgrimage during which the Jews, as dwellers in tents, were impressed with the walled cities which, with extraordinary fortitude, they stormed and occupied, and which, with pardonable enthusiasm, they consequently exaggerated, to the glory of God. Although references to buildings in the Old Testament are frequent, they are seldom sufficiently de tailed to convey an idea of their character. Cain built a city and named it Enoch (",
+          "target": "Les mentions répétées de grandes constructions dans l'Ancien Testament témoignent d'une fierté hors de proportion avec la réalité. Elles racontent le long pèlerinage dans le désert d'un peuple juif vivant sous des tentes, impressionné par les villes fortifiées qu'il prit d'assaut et occupa avec une ténacité remarquable, puis qu'il exagéra, dans un enthousiasme compréhensible, pour la gloire de Dieu. Bien que les édifices soient souvent mentionnés dans l'Ancien Testament, les descriptions sont rarement assez détaillées pour en donner une idée précise. Caïn bâtit une ville qu'il nomma Hénoc (",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "tail",
+          "source": "); his descendant Tubal Cain was \"an instructor of every artificer in brass and iron\" (",
+          "target": ") ; son descendant Tubal-Caïn fut « celui qui forgeait tous les instruments de cuivre et de fer » (",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": " the Revised Version, margin). The description of the plan of the ark (",
+          "target": ", note marginale de la Revised Version). Le plan de l'arche (",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": " ff) is the first detailed architectural description in the Old Testament. Asshur, a descendant of Ham, built Nineveh and other cities (",
+          "target": " et suiv.) fournit la première description architecturale détaillée de l'Ancien Testament. Assur, descendant de Cham, bâtit Ninive et d'autres villes (",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "tail",
+          "source": "). The tower of Babel was built of \"brick for stone and slime for mortar\" (",
+          "target": "). La tour de Babel fut construite avec « la brique en guise de pierre et le bitume en guise de mortier » (",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": " plan, dimensions and construction of the Tabernacle are given.",
+          "target": " sont donnés le plan, les dimensions et la construction du Tabernacle.",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "II. Temple and Palace of Solomon.",
+          "target": "II. Temple et palais de Salomon.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "The most complete architectural reference is the description of the Temple and Palace of Solomon (",
+          "target": "La description la plus complète en matière d'architecture est celle du Temple et du palais de Salomon (",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "tail",
+          "source": ") and (",
+          "target": ") et de ",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": "). These buildings are fully dealt with under TEMPLE, but a brief note is here necessary, as they are by far the greatest buildings of which there is mention in the Old Testament. It is clear that Solomon had ambition for architectural greatness, and, following the example of David (",
+          "target": ". Ces édifices sont étudiés en détail à l'article TEMPLE, mais une brève remarque est nécessaire ici, car ils sont de loin les plus grands bâtiments mentionnés dans l'Ancien Testament. Il est clair que Salomon nourrissait une ambition de grandeur architecturale et que, suivant l'exemple de David (",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "tail",
+          "source": ") he employed Phoenician designers and craftsmen to carry out the work.",
+          "target": "), il engagea des concepteurs et des artisans phéniciens pour réaliser les travaux.",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "1. Construction and Materials:",
+          "target": "1. Construction et matériaux :",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "It is known that the buildings were of stone, that the chambers surrounding the Temple were three stories high, that the Temple was roofed (presumably flat) with cedar. Fergusson's restoration shows a sloping roof, following the precedent of the sloping roof of the Tabernacle (Temples of the Jews, 26). The walls and ceilings were lined with cedar, so that \"there was no stone seen\" (",
+          "target": "Nous savons que les édifices étaient en pierre, que les chambres entourant le Temple comptaient trois étages et que celui-ci était couvert d'une toiture de cèdre, probablement plate. La reconstitution de Fergusson présente un toit incliné, suivant le modèle de la couverture inclinée du Tabernacle (Temples of the Jews, p. 26). Les murs et les plafonds étaient revêtus de cèdre, de sorte qu'« on ne voyait aucune pierre » (",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "tail",
+          "source": ") within the house. The interior was enriched with carved foliage and cherubim, and in the decorative scheme, gold was freely applied. The description of the exterior is less minutely detailed. Stones were large and, as in the buildings of Egypt, were \"sawed with saws\" \"from foundation to coping\" (",
+          "target": ") à l'intérieur de l'édifice. Celui-ci était enrichi de feuillages et de chérubins sculptés ; l'or entrait largement dans la décoration. L'extérieur est décrit avec moins de précision. Les pierres étaient grandes et, comme dans les bâtiments égyptiens, elles étaient « taillées à la scie », « des fondations jusqu'au couronnement » (",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "tail",
+          "source": "), \"foundation to the top of walls\" (3 Ki 7:9, the Douay Version). The inference therefore is that the masonry was smooth-faced: \"no sign of any hammer\" (Ant., VIII, iii, 2). Windows were \"narrow\" (",
+          "target": ") ; « des fondations jusqu'au sommet des murs » (3 Rois 7:9, version de Douay). On en déduit que les parements des maçonneries étaient lisses : « aucune trace de marteau » (Antiquités judaïques, VIII, III, 2). Les fenêtres étaient « étroites » (",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "tail",
+          "source": " the King James Version), repeatedly referred to (",
+          "target": ", King James Version) et sont mentionnées à plusieurs reprises (",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "tail",
+          "source": "). In the interior of the palace, cedar beams were carried on rows of cedar columns, and there were three rows of windows, one row to each story, directly opposite each other. Doors and posts were \"square in prospect\" (",
+          "target": "). À l'intérieur du palais, les poutres de cèdre reposaient sur des rangées de colonnes de cèdre ; il y avait trois rangées de fenêtres, une par étage, placées directement les unes en face des autres. Les portes et leurs montants étaient « carrés de face » (",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "tail",
+          "source": " the English Revised Version), i.e. square-headed. In ",
+          "target": ", English Revised Version), c'est-à-dire surmontés d'un linteau horizontal. En ",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "tail",
+          "source": " ff English Versions of the Bible arches are repeatedly mentioned but this is an error of translation. See ",
+          "target": " et suivants, les versions anglaises de la Bible mentionnent à plusieurs reprises des arcs, mais il s'agit d'une erreur de traduction. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "ARCH",
+          "target": "ARC",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "2. Style:",
+          "target": "2. Style :",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "In the description, there is very little indication of the style of architecture. The rich nature of the pillars of brass and their \"chapiters\" (",
+          "target": "La description donne très peu d'indications sur le style architectural. La richesse des colonnes de bronze et de leurs « chapiteaux » (",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "tail",
+          "source": " ff English Versions) point to some hankering after an ornate trabeated style. There is no indication, however, of such a style in constructive stone. No mention is made of a crowning feature of a distinctive kind, not even an eave, simply a \"coping.\" The use of a coping suggests that the walls were topped by parapets, \"battlement\" (",
+          "target": " et suiv., versions anglaises) suggère une certaine attirance pour un style orné à linteaux. Rien n'indique toutefois la présence d'un tel style dans les constructions de pierre. Aucun élément sommital distinctif n'est décrit, pas même un avant-toit, mais seulement un « couronnement ». L'emploi de ce dernier suggère que les murs étaient surmontés de parapets, ou de « créneaux » (",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "tail",
+          "source": " English Versions), accord ing to the law. Fergusson's restoration shows both cornice and battlements (Temples of the Jews, Frontispiece).",
+          "target": ", versions anglaises), conformément à la Loi. La reconstitution de Fergusson comporte à la fois une corniche et des créneaux (Temples of the Jews, frontispice).",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "One can only vaguely conjecture the sources of influence which guided the builders. The description clearly shows that the great columnar architecture of Egypt was not taken as a model, although certain Egyptian characteristics in detail are evident in contemporary work. Probably Phoenician intercourse with the Mediterranean, generally, showed its influence, in which case a comparatively poor result might be inferred.",
+          "target": "On ne peut que formuler de vagues conjectures quant aux influences ayant guidé les constructeurs. La description montre clairement que la grande architecture égyptienne à colonnes ne leur servit pas de modèle, bien que certaines caractéristiques égyptiennes se retrouvent dans les détails des œuvres contemporaines. Les échanges commerciaux des Phéniciens avec le monde méditerranéen en général exercèrent probablement une influence ; si tel fut le cas, on pourrait en déduire un résultat comparativement médiocre.",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "3. Facts:",
+          "target": "3. Faits établis :",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "text",
+          "source": "There remain these facts, namely, that here is described a group of buildings, of comparatively great scale; internally, at least, richly detailed and disposed in a way which shows considerable appreciation of architectural fitness, inspired by ambition for monumental greatness and dedicated, as was all that is great and spontaneous in architecture, to the glory of God. The one great flaw lay in the complete lack of a national constructive ability to respond to the call.",
+          "target": "Il reste les faits suivants : le texte décrit un ensemble de bâtiments d'une échelle relativement imposante, richement détaillés du moins à l'intérieur et disposés d'une manière témoignant d'une appréciation considérable de l'adéquation architecturale. Ils furent inspirés par une ambition de grandeur monumentale et consacrés, comme tout ce qui est grand et spontané dans l'architecture, à la gloire de Dieu. Leur seule grande faiblesse résidait dans l'absence complète de capacité nationale de construction permettant de répondre à cette ambition.",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "4. Phoenician Designers:",
+          "target": "4. Les concepteurs phéniciens :",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "The Phoenicians who were employed seem to have been indifferent builders. They took 13 years to build Solomon's house (",
+          "target": "Les Phéniciens employés paraissent avoir été des constructeurs peu habiles. Ils mirent treize ans à bâtir la maison de Salomon (",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "tail",
+          "source": ") and 7 1/2 years to build the Temple (",
+          "target": ") et sept ans et demi pour le Temple (",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "tail",
+          "source": "), and they, in all probability, found such a great work beyond their powers of adequate conception, more especially as the housement of a strange God was uninspiring. \"Shalt thou build me an house for me to dwell in?\" (",
+          "target": "). Très probablement, un ouvrage aussi considérable dépassait leur capacité à le concevoir convenablement, d'autant que l'édification d'une demeure pour un Dieu étranger ne les inspirait pas. « Me bâtiras-tu une maison pour que j'y habite ? » (",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "tail",
+          "source": " English Versions) was a command which they were only hired to fulfill.",
+          "target": ", versions anglaises) était un ordre qu'ils étaient simplement engagés pour exécuter.",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "III. Conclusions from Actual Remains.",
+          "target": "III. Conclusions tirées des vestiges.",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "There are only a very few known examples from which a knowledge of Jewish architecture can be obtained. There are none now standing, and what the spade has uncovered proves little more than a mere building craft of an inferior order. Remains of the period of the monarchy have been uncovered on several sites, notably Jerusalem, Lachish, Tel es Safi (Gath?), Gezer, Taanach, Tel es Mutesellim (Megiddo), Jericho, and these give a general idea of the building craft of the period, but give no evidence of an architectural style. It may, with good reason, be argued that there was no style, but it is too much to conclude that the Jews had no architectural instinct. Ideals were not lacking: \"Behold, I will set thy stones in fair colors, and lay thy foundations with sapphires. And I will make thy pinnacles of rubies, and thy gates of carbuncles, and all thy border of precious stones\" (",
+          "target": "Il ne subsiste qu'un très petit nombre d'exemples connus qui permettent d'étudier l'architecture juive. Aucun n'est encore debout, et ce que la bêche a mis au jour ne révèle guère plus qu'un artisanat du bâtiment d'un niveau inférieur. Des vestiges de l'époque monarchique ont été découverts sur plusieurs sites, notamment à Jérusalem, Lakis, Tell es-Safi (Gath ?), Guézer, Taanac, Tell es-Mutesellim (Meguiddo) et Jéricho. Ils donnent une idée générale des pratiques de construction de cette époque, mais ne témoignent d'aucun style architectural. On pourrait raisonnablement soutenir qu'il n'existait pas de style, mais il serait excessif d'en conclure que les Juifs ne possédaient aucun sens de l'architecture. Les idéaux ne manquaient pas : « Voici, je garnirai tes pierres de couleurs éclatantes et je poserai tes fondations sur des saphirs. Je ferai tes créneaux de rubis, tes portes d'escarboucles et toute ton enceinte de pierres précieuses » (",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "tail",
+          "source": "). Had history been different, Solomon's great example might have laid a foundation from which a national style would have been developed. The arts of peace, however, did not even bud, and the bane of internal and external conflict forced building energy to concentrate itself on fortifications.",
+          "target": "). Si l'histoire avait pris un autre cours, le grand exemple de Salomon aurait pu jeter les bases d'un style national. Cependant, les arts de la paix ne purent même pas éclore ; les conflits internes et externes contraignirent les efforts de construction à se concentrer sur les fortifications.",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "text",
+          "source": "1. Defence Walls:",
+          "target": "1. Les murailles défensives :",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "text",
+          "source": "Indeed in the great defense walls lies the building history of the Jews. They were hurriedly built and frequently destroyed. Destruction and reparation alternated so consistently, that each successive city within was little more than a temporary housement, at all times subservient to the more important work of defense. Under such conditions nothing flourished, least of all architecture. Building art became a thing of bare temporary utility.",
+          "target": "C'est en effet dans les grandes murailles défensives que réside l'histoire de l'art de bâtir chez les Juifs. Elles furent édifiées à la hâte et souvent détruites. Destruction et réparation se succédaient si constamment que chaque ville reconstruite derrière elles n'était guère plus qu'un habitat provisoire, toujours subordonné à l'œuvre plus importante de la défense. Rien ne pouvait prospérer dans ces conditions, et surtout pas l'architecture. L'art de construire se réduisit à une utilité immédiate et provisoire.",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "text",
+          "source": "2. Streets:",
+          "target": "2. Les rues :",
+          "action": "translate"
+        },
+        {
+          "node": 89,
+          "part": "text",
+          "source": "Streets were laid out without method; narrow, tortuous alleys broken into by projections, founded at the will of each individual builder, served as main thoroughfares (Bible Sidelights, 95; Excavation of Gezer, Vol I, p. 167 ff); compare similarity of conditions with streets of Mediterranean city of Philakopi (Journal RIBA, XI, 531). See ",
+          "target": "Les rues étaient aménagées sans méthode. D'étroites ruelles tortueuses, interrompues par des avancées bâties à la volonté de chaque constructeur, faisaient office d'artères principales (Bible Sidelights, p. 95 ; Excavation of Gezer, vol. I, p. 167 et suiv.). Comparer la similitude avec les rues de la cité méditerranéenne de Phylakopi (Journal RIBA, XI, p. 531). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "text",
+          "source": "CITY",
+          "target": "VILLE",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "tail",
+          "source": ". Masonry was usually of rough unhewn stones, unskillfully laid without mortar, and buildings were rarely on the square. Under these conditions the enthusiasm displayed in the description of Solomon's work can be understood.",
+          "target": ". Les maçonneries étaient généralement constituées de pierres brutes non taillées, assemblées maladroitement sans mortier, et les bâtiments étaient rarement d'équerre. Dans ces conditions, on comprend l'enthousiasme de la description des travaux de Salomon.",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "text",
+          "source": "3. Absence of the \"Grand Manner\":",
+          "target": "3. L'absence de « grandeur monumentale » :",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "text",
+          "source": "In Jerusalem the Temple area was the center of architectural grandeur, and it is possible that it may have inspired building endeavor of another nature in other cities. Palestine has as yet yielded no such parallel. Free areas, where they are found to have existed, seem to have happened so, and do not always coincide in position in successive superincumbent cities. They lay claim to no particular \"lay out\" and, in all probability, they served as space for the dump heaps of the town refuse or for the pen ning-up of cattle and sheep (",
+          "target": "À Jérusalem, le secteur du Temple était le centre de la grandeur architecturale. Il est possible qu'il ait inspiré des efforts de construction d'un autre genre dans d'autres villes, mais la Palestine n'a encore livré aucun exemple comparable. Les espaces libres, lorsqu'ils existaient, semblent l'avoir été par hasard, et leur emplacement ne correspondait pas toujours d'une ville reconstruite à la suivante sur le même site. Ils ne témoignent d'aucun « plan d'ensemble » particulier et servaient probablement de lieux où l'on déposait les ordures de la ville, ou d'enclos pour le bétail et les moutons (",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "tail",
+          "source": ", \"waste places\"). Compare the modern city of Es Salt; it gives a fairly good idea of the general appearance of an ancient Jewish city. The use of wooden shafts for porticos and roofs of large covered areas appears to have been prevalent, and these were frequently set in stone sockets which served as bases. Stone columns seem to have been sparingly used; in fact, there is no evidence whatever that a stone columnar style of architecture prevailed in the more important buildings.",
+          "target": ", « lieux dévastés »). On peut comparer la ville moderne d'Es-Salt, qui donne une assez bonne idée de l'aspect général d'une ancienne ville juive. Les poteaux de bois paraissent avoir été couramment employés pour les portiques et les toitures couvrant de grands espaces, souvent fixés dans des cavités de pierre qui servaient de bases. Les colonnes de pierre semblent avoir été peu utilisées ; en fait, il n'existe absolument aucun indice qu'un style architectural à colonnes de pierre ait prédominé dans les édifices les plus importants.",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "text",
+          "source": "4. Solomonic Detail:",
+          "target": "4. Les éléments décoratifs salomoniens :",
+          "action": "translate"
+        },
+        {
+          "node": 95,
+          "part": "text",
+          "source": "At Lachish (Lachish, 23 ff) a number of voluted low-relief slabs were discovered which were originally built into the left reveals of the doorways of a building of considerable importance. These slabs were found in conjunction with a molded lintel of Egyptian character. The discovery disclosed the only authentic examples of the architectural detail of the Solomonic period, and is particularly interesting as furnishing, perhaps, the earliest prototype of the Ionic volute. At its best it is a shoddy uncon structive adaptation of exotic features, and if it is to be taken as a key to the work of the period throughout Palestine, there can be nothing great to record.",
+          "target": "À Lakis (Lachish, p. 23 et suiv.), on découvrit plusieurs plaques à volutes en bas-relief, initialement intégrées dans les tableaux gauches des embrasures de portes d'un bâtiment d'une importance considérable. Elles furent trouvées avec un linteau mouluré de caractère égyptien. Cette découverte fournit les seuls exemples authentiques connus des détails architecturaux de l'époque de Salomon et présente un intérêt particulier parce qu'elle offre peut-être le plus ancien prototype de la volute ionique. Même dans sa forme la plus accomplie, il ne s'agirait que d'une adaptation médiocre et peu constructive d'éléments étrangers ; si elle doit servir de clé pour comprendre l'ensemble des constructions palestiniennes de l'époque, il n'y aurait rien de grand à rapporter.",
+          "action": "translate"
+        },
+        {
+          "node": 96,
+          "part": "text",
+          "source": "5. Temple of Onias:",
+          "target": "5. Le temple d'Onias :",
+          "action": "translate"
+        },
+        {
+          "node": 97,
+          "part": "text",
+          "source": "When Onias fled to Egypt from the persecution of Antiochus Epiphanes, circa 154 BC, he gained permission from Ptolemy and Cleopatra to build a temple at Leontopolis like to that at Jerusalem (Ant., XIII, iii, 3). The temple was built in fulfillment of the prophecy of Isa and modeled after the temple of Zerubbabel, but \"smaller and poorer\" and \"resembled a tower.\" Petrie recovered this temple (Hyksos, 19 ff) on an artificial mound resembling the Temple hill at Jerusalem, raised alongside the Hyksos camp, w here an influential Jewish community had established itself. It is the most complete plan of a Jewish building of monumental character yet discovered. A sort of rude Corinthian detail was used, and certain fragments point to a battlemented treatment, suggestive of Babylonian origin, and to some extent confirming the inference drawn from the description of Solomon's Temple.",
+          "target": "Lorsque Onias s'enfuit en Égypte pour échapper à la persécution d'Antiochos Épiphane, vers 154 av. J.-C., il obtint de Ptolémée et de Cléopâtre la permission de bâtir à Léontopolis un temple semblable à celui de Jérusalem (Antiquités judaïques, XIII, III, 3). L'édifice fut construit pour accomplir la prophétie d'Ésaïe et sur le modèle du Temple de Zorobabel, mais il était « plus petit et plus pauvre » et « ressemblait à une tour ». Petrie retrouva ce temple (Hyksos, p. 19 et suiv.) sur un tertre artificiel évoquant la colline du Temple de Jérusalem, élevé à proximité du camp des Hyksos, où s'était établie une communauté juive influente. C'est le plan le plus complet d'un monument juif jusqu'alors découvert. On y employait une sorte de décoration corinthienne rudimentaire ; certains fragments montrent un couronnement à créneaux, suggérant une origine babylonienne et confirmant dans une certaine mesure les déductions tirées de la description du Temple de Salomon.",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "text",
+          "source": "6. Comparison with Maccabean Work:",
+          "target": "6. Comparaison avec les constructions maccabéennes :",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "Fragments of contemporary architecture of the Maccabean dynasty throughout Palestine show a Greco-Syrian style of considerable dignity and interest, illustrating a readiness to respond to the Hellenizing influence in the arts, which at that time was characterized, in architecture, by a decadent Greek provincialism. The battlemented details, found at Hyksos, seem to indicate the use of a style antedating the Maccabean work, preserving, to some extent, Babylonian traditions.",
+          "target": "Des fragments d'architecture contemporains de la dynastie maccabéenne découverts en Palestine présentent un style gréco-syrien d'une dignité et d'un intérêt considérables. Ils illustrent la disposition à accueillir l'influence hellénisante dans les arts, qui, en architecture, se caractérisait alors par un provincialisme grec décadent. Les éléments crénelés trouvés à Hyksos semblent indiquer l'emploi d'un style antérieur aux constructions maccabéennes, conservant dans une certaine mesure les traditions babyloniennes.",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "text",
+          "source": "7. Painted Tombs at Marissa:",
+          "target": "7. Les tombeaux peints de Marissa :",
+          "action": "translate"
+        },
+        {
+          "node": 101,
+          "part": "text",
+          "source": "From the 3rd century BC up to the Christian era architecture shows a consistent Greek origin with local character in detail (see Expl. in Palestine, 18, 19) at Tel Sandahannah and Mareshah (Painted Tombs of Marissa). These Marissa tombs show most interesting decorated elevations, with painted architectural detail. The work is Phoenician (93) and the date probably 194 to 119 BC (79). Greek Ionic capitals are used, with wreath enrichments painted on the architrave over the capital, and a deep frieze of painted animals, surmounted by a representation of a \"battlement\" \"coping\" (",
+          "target": "Du IIIe siècle av. J.-C. jusqu'au début de l'ère chrétienne, l'architecture manifeste une origine grecque constante, avec des caractères locaux dans le détail (voir Expl. in Palestine, p. 18-19), à Tell Sandahannah et à Marésha (Painted Tombs of Marissa). Les tombeaux de Marissa présentent des élévations décorées particulièrement intéressantes, dont les éléments architecturaux sont peints. L'ouvrage est phénicien (p. 93) et date probablement de 194 à 119 av. J.-C. (p. 79). On y trouve des chapiteaux ioniques grecs, avec des couronnes peintes sur l'architrave au-dessus des chapiteaux, et une frise profonde d'animaux peints, surmontée de la représentation d'un « crénelage » ou « couronnement » (",
+          "action": "translate"
+        },
+        {
+          "node": 103,
+          "part": "tail",
+          "source": ") remarkably like the details found by Petrie at Hyksos. An interesting detail is the pointed head to the intercolumnar opening, a form which seems to have suggested itself universally to the primitive builder, where the handling of large lintel stones presented a difficulty. They call to mind the heads of Anglo-Saxon openings.",
+          "target": ") ressemblant remarquablement aux détails trouvés par Petrie à Hyksos. Un élément intéressant est la forme en pointe du sommet des ouvertures entre les colonnes, solution qui semble s'être imposée universellement aux bâtisseurs primitifs lorsqu'il était difficile de manier de grands linteaux de pierre. Ces ouvertures rappellent les formes des baies anglo-saxonnes.",
+          "action": "translate"
+        },
+        {
+          "node": 104,
+          "part": "text",
+          "source": "A liking for mural decoration existed throughout the whole Jewish period, as is seen from the small fragments of painted plaster discovered in the various excavated cities, but the decoration on the Marissa tombs is the most complete example, and resembles in many ways the mural decoration at Knossos and Phylakopi.",
+          "target": "Un goût pour la décoration murale exista pendant toute la période juive, comme l'attestent les petits fragments d'enduit peint découverts dans diverses villes fouillées ; mais la décoration des tombeaux de Marissa en offre l'exemple le plus complet et ressemble par de nombreux aspects aux peintures murales de Cnossos et de Phylakopi.",
+          "action": "translate"
+        },
+        {
+          "node": 105,
+          "part": "text",
+          "source": "8. Characteristic Feature:",
+          "target": "8. Un trait caractéristique :",
+          "action": "translate"
+        },
+        {
+          "node": 106,
+          "part": "text",
+          "source": "The tomb of Zechariah in the Kedron valley probably belongs to the same date as its neighbor, the tomb of James, which De Vogue, from the inscription upon it, ascribes to the time of Herod (Le Temple de Jerusalem, 46). The detail of the crowning part of the entablature is an often-recurring feature in Palestine architecture, appearing as early as the Solomonic era at Lachish. It is characteristically Egyptian, and is also seen at Persepolis (Gwilt's Encyclopedia, 22), and although neither might have been bor rowed from the other, they are not many removes from the common parent. (A curious eastern tradition mentioned (BD, \"Cities,\" 610) ascribes the building of Persepolis to Solomon.) It was a feature commonly used by the Phoenicians (Rawlinson, Hist. of Phoenician, 142), and was probably introduced by them from Egypt. It seems to have been in favor up to the time of Herod and was abandoned after the wholesale introduction of the classic entablature which in Hellenistic times was only partially incorporated into the prevailing style. The successive variations of the crowning feature of their design is an important factor in tracing the development of Jewish architecture.",
+          "target": "Le tombeau de Zacharie dans la vallée du Cédron appartient probablement à la même époque que son voisin, le tombeau de Jacques, que de Vogüé date de l'époque d'Hérode d'après son inscription (Le Temple de Jérusalem, p. 46). Le détail de la partie supérieure de l'entablement est un motif fréquent dans l'architecture palestinienne, présent dès l'époque salomonienne à Lakis. Il est typiquement égyptien et se rencontre également à Persépolis (Gwilt's Encyclopedia, p. 22). Bien que l'un n'ait pas nécessairement été emprunté à l'autre, tous deux ne sont pas éloignés d'un modèle ancestral commun. Une curieuse tradition orientale (BD, « Cities », p. 610) attribue la construction de Persépolis à Salomon. Ce motif était fréquemment employé par les Phéniciens (Rawlinson, History of Phoenician, p. 142) et fut probablement introduit par eux depuis l'Égypte. Il semble avoir été apprécié jusqu'au temps d'Hérode, puis abandonné après l'introduction massive de l'entablement classique, qui n'avait été que partiellement intégré au style dominant à l'époque hellénistique. Les variations successives du couronnement des édifices constituent un facteur important pour retracer l'évolution de l'architecture juive.",
+          "action": "translate"
+        },
+        {
+          "node": 107,
+          "part": "text",
+          "source": "IV. Herodian Work.",
+          "target": "IV. Constructions hérodiennes.",
+          "action": "translate"
+        },
+        {
+          "node": 108,
+          "part": "text",
+          "source": "The Temple of Siah (described by De Vogue in Recovery of Jerusalem, 419 ff, and Temples of the Jews, 140 ff) is an interesting example of the work of the Herodian period and is more Greek in character than one would expect. Here, local character in carving is strongly marked, foliage and figures being freely used with a certain Assyrian manner which, in spite of loose handling, betrays its origin. In fact this chord of architectural enrichment can be traced through the work of In dia, Assyria, Persia and Syria on to the Byzantine period, when the great cathedral church of Sophia in Constantinople displayed it in the most perfect harmony of all time.",
+          "target": "Le temple de Siah (décrit par de Vogüé dans Recovery of Jerusalem, p. 419 et suiv., et Temples of the Jews, p. 140 et suiv.) est un exemple intéressant des constructions de l'époque hérodienne et présente un caractère plus grec qu'on ne pourrait s'y attendre. La sculpture décorative y conserve une forte personnalité locale : feuillages et figures sont largement employés dans un style quelque peu assyrien qui, malgré une exécution peu rigoureuse, révèle son origine. Cette veine décorative peut être suivie à travers les œuvres de l'Inde, de l'Assyrie, de la Perse et de la Syrie jusqu'à l'époque byzantine, lorsque la grande église-cathédrale Sainte-Sophie de Constantinople la manifesta dans l'harmonie la plus parfaite de tous les temps.",
+          "action": "translate"
+        },
+        {
+          "node": 109,
+          "part": "text",
+          "source": "The great building period of Herod need not be detailed. Herod was an Edomite and his architecture partook of the more robust Roman style which dominated Jewish art at a time when the opportunity of national incorporation had passed.",
+          "target": "Il n'est pas nécessaire de détailler la grande période de constructions d'Hérode. Celui-ci était Édomite, et son architecture relevait du style romain plus vigoureux, qui dominait l'art juif à une époque où l'occasion d'une intégration nationale était passée.",
+          "action": "translate"
+        },
+        {
+          "node": 110,
+          "part": "text",
+          "source": "V. Synagogues.",
+          "target": "V. Synagogues.",
+          "action": "preserve",
+          "reason": "V. Synagogues is identical in French and English"
+        },
+        {
+          "node": 111,
+          "part": "text",
+          "source": "This Roman influence, however, remained in Palestine as can be seen by the important remains of synagogues in Galilee of the 3rd century AD (see Fig. 8 from Kerr Berim; Studies in Galilee, chapter vi; Memoirs of the Survey of Western Palestine, special papers, 294 ff). The many remains investigated shed light upon the plan of these post- exilic places of worship, of which there is little or no mention in the Old Testament. See ",
+          "target": "Cette influence romaine se maintint néanmoins en Palestine, comme le montrent les vestiges importants des synagogues galiléennes du IIIe siècle apr. J.-C. (voir fig. 8 de Kerr Berim ; Studies in Galilee, chapitre VI ; Memoirs of the Survey of Western Palestine, articles spéciaux, p. 294 et suiv.). Les nombreux vestiges étudiés éclairent les plans de ces lieux de culte postexiliques, peu ou pas mentionnés dans l'Ancien Testament. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 112,
+          "part": "text",
+          "source": "SYNAGOGUE",
+          "target": "SYNAGOGUE",
+          "action": "preserve",
+          "reason": "SYNAGOGUE is identical as a French cross-reference label"
+        },
+        {
+          "node": 112,
+          "part": "tail",
+          "source": ". The plans vary considerably in proportion. The example at Meiron measures 90 ft. x 44 ft. 8 inches, while that at Irbid measures 57 ft. 3 inches x 53 ft. (SWP, special papers, 299). In general arrangement the plans vary very little, consisting usually of five aisles with a triple entrance, most often facing south. The details are richly carved and \"a surprising feature common to all is the use of animal figures, especially lions, or lambs and eagles. .... In some examples human figures, usually intentionally mutilated, are found\" (Studies in Galilee, 110).",
+          "target": ". Les proportions des plans varient considérablement. Ainsi, le bâtiment de Meiron mesure 90 pieds sur 44 pieds et 8 pouces, tandis que celui d'Irbid mesure 57 pieds et 3 pouces sur 53 pieds (SWP, articles spéciaux, p. 299). Dans leur disposition générale, les plans diffèrent très peu : ils comportent habituellement cinq nefs et une triple entrée, le plus souvent tournée vers le sud. Les détails sont richement sculptés. « Une caractéristique surprenante et commune à tous est l'emploi de figures animales, particulièrement des lions, ou des agneaux et des aigles. [...] Dans certains exemples, on trouve des figures humaines, généralement mutilées intentionnellement » (Studies in Galilee, p. 110).",
+          "action": "translate"
+        },
+        {
+          "node": 113,
+          "part": "text",
+          "source": "VI. Final.",
+          "target": "VI. Conclusion.",
+          "action": "translate"
+        },
+        {
+          "node": 114,
+          "part": "text",
+          "source": "It is probable that future researches may add to our knowledge of early Jewish architecture, but it is doubtful whether there is more to discover than is constituted in the crude and unskilled use of building materials, influenced by limited knowledge of exotic features, which the Jews had neither the time nor the knowledge properly to apply. See ",
+          "target": "Il est probable que des recherches futures enrichiront notre connaissance de l'architecture juive ancienne ; mais il est douteux, selon l'auteur, qu'il reste à découvrir beaucoup plus que des témoignages d'une utilisation rudimentaire et maladroite des matériaux de construction, influencée par une connaissance limitée de motifs étrangers que les Juifs n'avaient ni le temps ni les compétences d'appliquer correctement. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "text",
+          "source": "CITY",
+          "target": "VILLE",
+          "action": "translate"
+        },
+        {
+          "node": 116,
+          "part": "text",
+          "source": "BUILDING",
+          "target": "CONSTRUCTION",
+          "action": "translate"
+        },
+        {
+          "node": 117,
+          "part": "text",
+          "source": "FORTIFICATION",
+          "target": "FORTIFICATION",
+          "action": "preserve",
+          "reason": "FORTIFICATION is identical as a French cross-reference label"
+        },
+        {
+          "node": 118,
+          "part": "text",
+          "source": "HOUSE",
+          "target": "MAISON",
+          "action": "translate"
+        },
+        {
+          "node": 119,
+          "part": "text",
+          "source": "TEMPLE",
+          "target": "TEMPLE",
+          "action": "preserve",
+          "reason": "TEMPLE is identical as a French cross-reference label"
+        },
+        {
+          "node": 121,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 122,
+          "part": "text",
+          "source": "Conder, Survey of Western Palestine; Warren, Recovery of Jerusalem; Bliss and Dickie, Excavations in Jerusalem, 1894-97; Fergusson, Temple of Jerusalem; Masterman, Studies in Galilee; Bliss and Macalister, Excavations in Palestine; Macalister, Excavations at Gezer; Petrie, Excavations at Hyksos; Rawlinson, History of Phoen; Petrie, Lachish; Sellin, Excavations at Taanach; Schumacher, Excavations at Tell Mutesellim; Macalister, Bible Sidelights; Peters and Thierch, Painted Tombs of Marissa.",
+          "target": "Conder, Survey of Western Palestine ; Warren, Recovery of Jerusalem ; Bliss et Dickie, Excavations in Jerusalem, 1894-1897 ; Fergusson, Temple of Jerusalem ; Masterman, Studies in Galilee ; Bliss et Macalister, Excavations in Palestine ; Macalister, Excavations at Gezer ; Petrie, Excavations at Hyksos ; Rawlinson, History of Phoen ; Petrie, Lachish ; Sellin, Excavations at Taanach ; Schumacher, Excavations at Tell Mutesellim ; Macalister, Bible Sidelights ; Peters et Thierch, Painted Tombs of Marissa.",
+          "action": "translate"
+        },
+        {
+          "node": 123,
+          "part": "text",
+          "source": "Arch. C. Dickie",
+          "target": "Arch. C. Dickie",
+          "action": "preserve",
+          "reason": "Original author name and professional abbreviation retained verbatim"
+        }
+      ]
+    }
+  ]
+}
