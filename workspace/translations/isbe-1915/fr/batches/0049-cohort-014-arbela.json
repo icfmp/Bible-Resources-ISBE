@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ARBELA",
+      "article_id": "isbe-d1add244a7fc1192af23",
+      "source_article_sha256": "90e3634d9cb9d55a807e113fde2a0d6f75d2cc457852feb58d0c87652f40720a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARBELA",
+          "target": "ARBELA",
+          "action": "preserve"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-be'-la (en Arbelois): This place is mentioned in 1 Macc 9:1 ff, and in Ant, XII, xi, 1, describing the march and encampment of Bacchides. The former says that \"Demetrius sent Bacchides and Alcimus into the land of Judea .... who went forth by the way that leadeth to Galgala, and pitched their tents before Masaloth, which is in Arbela, and after they had won it they slew much people.\" Josephus says that Bacchides \"marched out of Antioch and came into Judea and pitched his camp at Arbela, a city of Galilee, and having besieged and taken those that were there in caves (for many people fled into such places) he removed and made all the haste he could to Jerusalem.\" It was from the caves near the village of Arbela in Galilee that Herod dislodged the robbers (Ant., XIV, xv, 4 f; BJ, I, xvi, 2 ff). Josephus fortified the caves of Arbela in lower Galilee (Vita, 37), \"near the lake of Gennesar\" (BJ, II, xx, 6). The references in Josephus point plainly to the caves in the cliff forming the south wall of the tremendous gorge of Wady el-Chamam which opens on the plain of Gennesaret, west of the village el-Mejdel. A series of these caves, skillfully adapted to purposes of refuge and defense, is still known as Qal`at ibn Ma`an, \"fortress of the son of Ma`an.\" On the height above stand the ruins of Irbid or Irbil (both forms are heard today), which unquestionably represent the Arbela of Josephus. The army from Antioch may quite well have come this way. No name however in the least resembling Masaloth has been recovered in this district. We may mention Robinson's suggestion (BR, II, 398, note), that it may stand for the Hebrew mecilloth, \"steps, stories, terraces,\" and may apply to the fortress in the rocks.",
+          "target": "ar-be'-la (en Arbelois) : Cette localité est mentionnée en 1 Macc 9.1 et suiv., ainsi que dans les Antiquités (XII, xi, 1), à propos de la marche et du campement de Bacchidès. Le premier récit rapporte : « Démétrius envoya Bacchidès et Alcime dans le pays de Judée [...] ; ils prirent le chemin qui mène à Galgala et dressèrent leurs tentes devant Masaloth, située en Arbela ; après s'en être emparés, ils tuèrent beaucoup de gens. » Josèphe raconte que Bacchidès « partit d'Antioche, arriva en Judée et établit son camp à Arbela, ville de Galilée ; après avoir assiégé et pris ceux qui se trouvaient dans les grottes (car beaucoup de gens s'étaient réfugiés dans de tels endroits), il leva le camp et se hâta autant qu'il le put vers Jérusalem. » C'est dans les grottes proches du village d'Arbela, en Galilée, qu'Hérode délogea les brigands (Ant., XIV, xv, 4 et suiv. ; BJ, I, xvi, 2 et suiv.). Josèphe fortifia les grottes d'Arbela, en Basse-Galilée (Vita, 37), « près du lac de Génésareth » (BJ, II, xx, 6). Les indications de Josèphe désignent clairement les cavernes de la falaise qui forme la paroi sud de l'immense gorge du Wady el-Chamam, débouchant sur la plaine de Génésareth, à l'ouest du village d'el-Mejdel. Une série de ces grottes, habilement aménagées pour servir de refuge et de défense, porte encore le nom de Qal`at ibn Ma`an, « forteresse du fils de Ma`an ». Sur la hauteur qui les domine se trouvent les ruines d'Irbid ou d'Irbil (les deux formes s'entendent encore), qui représentent incontestablement l'Arbela de Josèphe. L'armée venue d'Antioche a fort bien pu emprunter cet itinéraire. Cependant, aucun nom ressemblant tant soit peu à Masaloth n'a été retrouvé dans cette région. On peut mentionner la suggestion de Robinson (BR, II, 398, note) : ce nom pourrait correspondre à l'hébreu mecilloth, « marches, étages, terrasses », et désigner la forteresse aménagée dans les rochers.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "On the other hand the writer of 1 Macc is an earlier authority than Josephus. If we accept his guidance, Bacchides must have crossed the plain of Esdraelon and followed the main highway southward through Samaria. Galgala may then be identified with Jiljilia, about 8 miles North of Bethel, and Masaloth with Meselieh, about 3 miles Southeast of Dothan. Onomasticon mentions an Arbela in the great plain, 9 miles from Legio (Lejun), but it is now unknown. The phrase en arbelois might mean that Masaloth was in the district of Arbela; but there is no trace of this name as attaching to any tract in this neighborhood.",
+          "target": "D'autre part, l'auteur de 1 Maccabées est une source plus ancienne que Josèphe. Si l'on suit son témoignage, Bacchidès a dû traverser la plaine d'Esdrelon, puis emprunter la grande route vers le sud, à travers la Samarie. Galgala pourrait alors être identifié à Jiljilia, à environ 8 milles au nord de Béthel, et Masaloth à Meselieh, à environ 3 milles au sud-est de Dothan. L'Onomasticon mentionne une Arbela dans la grande plaine, à 9 milles de Legio (Lejun), mais son emplacement est aujourd'hui inconnu. L'expression en arbelois pourrait signifier que Masaloth se trouvait dans le district d'Arbela ; toutefois, aucune trace de ce nom n'a été relevée pour désigner une région de ce voisinage.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "One or other of these routes must have been taken. While no certain decision can be reached, special weight attaches to the statement of Josephus, on account of his acquaintance with the localities in the region, and his unquestionable familiarity with the history. See also ",
+          "target": "L'un ou l'autre de ces itinéraires a nécessairement été emprunté. Sans qu'on puisse trancher avec certitude, le témoignage de Josèphe mérite un poids particulier, en raison de sa connaissance des lieux de cette région et de sa familiarité incontestable avec l'histoire. Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BETH-ARBEL",
+          "target": "BETH-ARBEL",
+          "action": "preserve"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "W. Ewing",
+          "target": "W. Ewing",
+          "action": "preserve"
+        }
+      ]
+    }
+  ]
+}
