@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AUGUSTUS",
+      "article_id": "isbe-585df95ec51973c42362",
+      "source_article_sha256": "fa843e25ed8e97559de4beb90a8f0a93cba9c034a5045eea9c9d3ae617e65673",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AUGUSTUS",
+          "target": "AUGUSTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "o-gus'-tus Augoustos:",
+          "target": "o-gus'-tus, Augoustos :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) The first Roman emperor, and noteworthy in Bible history as the emperor in whose reign the Incarnation took place (",
+          "target": "(1) Premier empereur romain, remarquable dans l'histoire biblique comme l'empereur sous le règne duquel eut lieu l'Incarnation (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). His original name was Caius Octavius Caepias and he was born in 63 BC, the year of Cicero's consulship. He was the grand-nephew of Julius Caesar, his mother Atia having been the daughter of Julia, Caesar's younger sister. He was only 19 years of age when Caesar was murdered in the Senate house (44 BC), but with a true instinct of statesmanship he steered his course through the intrigues and dangers of the closing years of the republic, and after the battle of Actium was left without a rival. Some difficulty was experienced in finding a name that would exactly define the position of the new ruler of the state. He himself declined the names of rex and dictator, and in 27 BC he was by the decree of the Senate styled Augustus. The epithet implied respect and veneration beyond what is bestowed on human things:  \"Sancta vocant augusta patres: augusta vocantur Templa sacerdotum rite dicata manu.\" --Ovid Fasti. 609; compare Dion Cass., 5316",
+          "target": "). Son nom d'origine était Caius Octavius Caepias ; il naquit en 63 av. J.-C., l'année du consulat de Cicéron. Il était petit-neveu de Jules César, sa mère Atia étant fille de Julia, la sœur cadette de César. Il n'avait que 19 ans lorsque César fut assassiné au Sénat (44 av. J.-C.). Mais, doté d'un véritable instinct d'homme d'État, il sut traverser les intrigues et les dangers des dernières années de la République ; après la bataille d'Actium, il se retrouva sans rival. On éprouva quelque difficulté à trouver un nom qui définît exactement la position du nouveau maître de l'État. Lui-même refusa les titres de rex et de dictator, et c'est en 27 av. J.-C. qu'un décret du Sénat lui conféra le titre d'Auguste. Ce qualificatif impliquait un respect et une vénération dépassant ceux que l'on accorde aux choses humaines : « Sancta vocant augusta patres: augusta vocantur Templa sacerdotum rite dicata manu. » — Ovide, Fastes, 609 ; voir aussi Dion Cassius, 5316.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "The Greeks rendered the word by Sebastos, literally, \"reverend'\" (",
+          "target": "Les Grecs rendirent ce titre par Sebastos, littéralement « vénérable » (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "). The name was connected by the Romans with augur--\"one consecrated by religion\"--and also with the verb augere. In this way it came to form one of the German imperial titles \"Mehrer des Reichs\" (extender of the empire). The length of the reign of Augustus, extending as it did over 44 years from the battle of Actium (31 BC) to his death (14 AD), doubtless contributed much to the settlement and consolidation of the new regime after the troubled times of the civil wars.",
+          "target": "). Les Romains rapprochaient ce nom d'augur, « personne consacrée par la religion », et aussi du verbe augere. C'est ainsi qu'il en vint à former l'un des titres impériaux allemands, « Mehrer des Reichs » (« celui qui agrandit l'Empire »). La durée du règne d'Auguste, qui s'étendit sur 44 ans depuis la bataille d'Actium (31 av. J.-C.) jusqu'à sa mort (14 apr. J.-C.), contribua sans doute beaucoup à établir et à consolider le nouveau régime après les troubles des guerres civiles.",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "It is chiefly through the connection of Judea and Palestine with the Roman Empire that Augustus comes in contact with early Christianity, or rather with the political and religious life of the Jewish people at the time of the birth of Christ: \"Now it came to pass in those days, there went out a decree from Caesar Augustus, that all the world should be enrolled\" (",
+          "target": "C'est principalement en raison des liens entre la Judée, la Palestine et l'Empire romain qu'Auguste entre dans l'histoire du christianisme primitif, ou plutôt dans celle de la vie politique et religieuse du peuple juif à l'époque de la naissance du Christ : « En ce temps-là parut un édit de César Auguste, ordonnant un recensement de toute la terre » (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "). During the reign of Herod the Great the government of Palestine was conducted practically without interference from Rome except, of course, as regarded the exaction of the tribute; but on the death of that astute and capable ruler (4 BC) none of his three sons among whom his kingdom was divided showed the capacity of their father.",
+          "target": "). Sous le règne d'Hérode le Grand, la Palestine fut gouvernée pratiquement sans intervention de Rome, hormis naturellement la perception du tribut. Mais à la mort de ce souverain habile et avisé (4 av. J.-C.), aucun de ses trois fils, entre lesquels le royaume fut partagé, ne montra les capacités de son père.",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "In the year 6 AD the intervention of Augustus was invited by the Jews themselves to provide a remedy for the incapacity of their ruler, Archelaus, who was deposed by the emperor from the rule of Judea; at the same time, while Caesarea was still the center of the Roman administration, a small Roman garrison was stationed permanently in Jerusalem. The city, however, was left to the control of the Jewish Sanhedrin with complete judicial and executive authority except that the death sentence required confirmation by the Roman procurator. There is no reason to believe that Augustus entertained any specially favorable appreciation of Judaism, but from policy he showed himself favorable to the Jews in Palestine and did everything to keep them from feeling the pressure of the Roman yoke. To the Jews of the eastern Diaspora he allowed great privileges. It has even been held that his aim was to render them pro-Rom, as a counterpoise in some degree to the pronounced Hellenism of the East; but in the West autonomous bodies of Jews were never allowed (see Mommsen, Provinces of the Roman Empire, chapter 11).",
+          "target": "En l'an 6 apr. J.-C., les Juifs eux-mêmes sollicitèrent l'intervention d'Auguste pour remédier à l'incapacité de leur souverain, Archélaüs. L'empereur le déposa de la direction de la Judée ; dans le même temps, bien que Césarée demeurât le centre de l'administration romaine, une petite garnison romaine fut installée en permanence à Jérusalem. La ville resta toutefois sous l'autorité du sanhédrin juif, doté de pleins pouvoirs judiciaires et exécutifs, à ceci près que les condamnations à mort devaient être confirmées par le procurateur romain. Rien ne permet de croire qu'Auguste portait au judaïsme une estime particulièrement favorable ; mais, pour des raisons politiques, il se montra bien disposé envers les Juifs de Palestine et fit tout pour leur épargner le poids du joug romain. Il accorda de grands privilèges aux Juifs de la diaspora orientale. On a même soutenu qu'il cherchait à les rendre favorables à Rome, afin de contrebalancer dans une certaine mesure le puissant hellénisme de l'Orient. En Occident, en revanche, les communautés juives ne furent jamais autorisées à former des corps autonomes (voir Mommsen, Provinces of the Roman Empire, chapitre 11).",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(2) For Augustus in ",
+          "target": "(2) Pour le titre « Auguste » en ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": " the King James Version, see ",
+          "target": " dans la King James Version, voir ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "EMPEROR.",
+          "target": "EMPEREUR.",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "J. Hutchison",
+          "target": "J. Hutchison",
+          "action": "preserve",
+          "reason": "Original historical author's byline retained verbatim"
+        }
+      ]
+    }
+  ]
+}
