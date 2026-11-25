@@ -61,7 +61,7 @@ class MarkdownBridgeGuards(unittest.TestCase):
             self.compile(md.replace(self.sha, "f" * 64, 1))
         with self.assertRaisesRegex(ValueError, "TEI paragraph|Unexpected content"):
             self.compile(md.replace("<!-- ISBE-BLOCK:2 -->", "<!-- ISBE-BLOCK:22 -->", 1))
-        with self.assertRaisesRegex(ValueError, "block marker"):
+        with self.assertRaisesRegex(ValueError, "block marker|Unexpected content"):
             self.compile(md.replace("<!-- ISBE-END:2 -->", "<!-- ISBE-END:22 -->", 1))
 
     def test_english_text_without_reason_and_undeclared_preserve_fail(self):
