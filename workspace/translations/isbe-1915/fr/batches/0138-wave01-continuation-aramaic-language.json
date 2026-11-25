@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ARAMAIC; ARAMAIC LANGUAGE",
+      "article_id": "isbe-014258eaa42e360c53be",
+      "source_article_sha256": "bd21063be98bef4b1a725fe246aee71f7789bc33a9d098930a4610cbf041aa4f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARAMAIC; ARAMAIC LANGUAGE",
+          "target": "ARAMÉEN ; LANGUE ARAMÉENNE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar-a-ma'-ik lan'-gwaj ('aramith; the King James Version Syrian, Syriac; ",
+          "target": "ar-a-ma'-ik lan'-gwaj ('aramith ; « syrien », « syriaque » dans la King James Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SYRIAN",
+          "target": "SYRIEN",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " in the Revised Version (British and American)):",
+          "target": " dans la Revised Version britannique et américaine) :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "1. Early Notices of Aramaic in Scripture",
+          "target": "1. Les premières mentions de l'araméen dans l'Écriture",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "2. Extra-Biblical Evidences of Aramaic",
+          "target": "2. Témoignages extrabibliques de l'araméen",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "3. The Script of Aramaic Inscriptions",
+          "target": "3. L'écriture des inscriptions araméennes",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "4. Dialects of Aramaic",
+          "target": "4. Les dialectes araméens",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "5. Grammatical Peculiarities",
+          "target": "5. Particularités grammaticales",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "6. Comparison of Aramaic of Sinjirli with That of Bible",
+          "target": "6. Comparaison de l'araméen de Sinjirli avec celui de la Bible",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "7. Comparison of Aramaic of Assouan with That of Daniel",
+          "target": "7. Comparaison de l'araméen d'Assouan avec celui de Daniel",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "8. Elephantine Papyri",
+          "target": "8. Les papyrus d'Éléphantine",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "9. Comparison with Aramaic of the Targums",
+          "target": "9. Comparaison avec l'araméen des Targums",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "10. Chief Differences in Latter",
+          "target": "10. Leurs principales différences",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "The name is given to a form of Semitic speech, most nearly related to Hebrew and Phoenician, but exhibiting marked peculiarities, and subsisting in different dialects. Its original home may have been in Mesopotamia (Aram), but it spread North and West, and, as below shown, became the principal tongue throughout extensive regions. After the return from the Captivity, it displaced Hebrew as the spoken language of the Jews in Palestine. In its eastern form it is known as Syriac. In its occurrence in the Old Testament, it formerly, though incorrectly, generally bore the name Chaldee. The present article deals with it chiefly in its. Old Testament relations.",
+          "target": "Ce nom désigne une forme de langue sémitique très proche de l'hébreu et du phénicien, mais présentant des particularités marquées et subsistant en plusieurs dialectes. Son berceau pourrait avoir été la Mésopotamie (Aram), mais elle se répandit au nord et à l'ouest et devint, comme on le montrera plus loin, la langue principale de vastes régions. Après le retour de la captivité, elle supplanta l'hébreu comme langue parlée par les Juifs de Palestine. Dans sa forme orientale, elle est connue sous le nom de syriaque. Dans les passages de l'Ancien Testament où elle apparaît, on l'appelait autrefois généralement, mais à tort, « chaldéen ». Le présent article l'étudie principalement dans ses rapports avec l'Ancien Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "1. Early Notices of Aramaic in Scripture:",
+          "target": "1. Les premières mentions de l'araméen dans l'Écriture :",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "If we neglect two words which occur in ",
+          "target": "Si l'on fait abstraction de deux mots apparaissant en ",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": ", the earliest notice of the use of this language in Scripture is in the request which the representatives of Hezekiah make to Rabshakeh: \"Speak, I pray thee, to thy servants in the Syriac language\" ('aramith, ",
+          "target": ", la première mention de l'emploi de cette langue dans l'Écriture se trouve dans la demande adressée au Rab-Shaké par les représentants d'Ézéchias : « Parle, je te prie, à tes serviteurs en langue syrienne » ('aramith, ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "). The narrative from which we have made this excerpt, even if it stood alone, would prove that Aramaic, \"the Syriac language,\" was so different from Hebrew, \"the Jews' language,\" that it was not understood by the inhabitants of Jerusalem. Further, it shows that Aramaic was the ordinary language of Assyrian diplomacy. We next meet with Aramaic in ",
+          "target": "). Même si le récit dont est tiré cet extrait était notre seul témoignage, il prouverait que l'araméen, la « langue syrienne », différait suffisamment de l'hébreu, la « langue des Juifs », pour n'être pas compris des habitants de Jérusalem. Il montre en outre que l'araméen était la langue ordinaire de la diplomatie assyrienne. Nous le rencontrons ensuite en ",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": " which appears to be an answer put into the mouths of the Jews as a reply to any attempt to seduce them to the worship of idols. If we assume the traditional date of Daniel to be correct, the six chapters in that book (",
+          "target": ", dans un passage qui semble constituer la réponse placée sur les lèvres des Juifs à toute tentative de les séduire pour les entraîner au culte des idoles. Si nous retenons la datation traditionnelle du livre de Daniel, les six chapitres de cet ouvrage (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": "), forming the greater part of the whole, are the next and most important occurrence of Aramaic in Scripture. There are, further, passages in ",
+          "target": "), qui en forment la plus grande partie, représentent l'occurrence suivante et la plus importante de l'araméen dans l'Écriture. D'autres passages se trouvent en ",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": ", amounting approximately to three chapters, in which Aramaic is used. In the New Testament several Aramaic words and phrases occur, modified by having passed through Greek",
+          "target": ", correspondant approximativement à trois chapitres. Le Nouveau Testament contient plusieurs mots et expressions araméens, modifiés par leur passage à travers le grec.",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "2. Extra-Biblical Evidences of Aramaic:",
+          "target": "2. Témoignages extrabibliques de l'araméen :",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "Formerly our knowledge of Aramaic earlier than the Targums and the Peshitta was restricted to the above-noticed passages of Scripture. Now, however, discoveries, still comparatively recent, have put us in a different position. In the closing decade of last century extensive inscriptions were discovered in Sibbaldia, in the neighborhood of Aleppo, dated in the reigns of Tiglathpileser and the Sargonid monarchs, and one that seems earlier. More recent has been the discovery of the Assouan papyri; these bear dates which synchronize with Ezra and Nehemiah. Earlier than these in discovery, but between them in date of origin, are weights of the reign of Sargon, with two inscriptions, one, official, in cuneiform, which not only gives the designation of the weight, but relates the name and titles of the king; the other, popular, in Aramaic, which only tells the weight. More striking is the fact that frequently, in regard to contract tablets, while the binding document is in cuneiform character and the Assyrian language, the inscription on the clay envelope which served as a docquet is in Aramaic, language and letter. This affords proof that at all events before the reign of Tiglath-pileser Aramaic was the general speech for commerce and diplomacy all over Southwest Asia.",
+          "target": "Autrefois, notre connaissance de l'araméen antérieur aux Targums et à la Peshitta se limitait aux passages scripturaires déjà signalés. Toutefois, des découvertes encore relativement récentes nous placent désormais dans une situation différente. Dans la dernière décennie du siècle précédent, on découvrit de longues inscriptions à Sibbaldia, près d'Alep, datées des règnes de Tiglath-Piléser et des souverains sargonides, ainsi qu'une inscription qui semble antérieure. La découverte des papyrus d'Assouan est plus récente encore ; leurs dates correspondent à l'époque d'Esdras et de Néhémie. D'autres objets avaient été découverts auparavant, mais datent d'une période intermédiaire : des poids du règne de Sargon portant deux inscriptions. La première, officielle, en écriture cunéiforme, indique la valeur du poids ainsi que les noms et titres du roi ; la seconde, populaire, en langue et écriture araméennes, ne donne que le poids. Plus frappant encore : pour les tablettes de contrats, il arrive fréquemment que le document juridiquement valable soit rédigé en caractères cunéiformes et en langue assyrienne, tandis que l'inscription sur l'enveloppe d'argile servant d'étiquette est en langue et en écriture araméennes. Cela prouve, à tout le moins, qu'avant le règne de Tiglath-Piléser, l'araméen était la langue généralement employée dans le commerce et la diplomatie de toute l'Asie du Sud-Ouest.",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "3. The Script of Aramaic Inscriptions:",
+          "target": "3. L'écriture des inscriptions araméennes :",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "When we come in contact with it, Aramaic is a fully formed alphabetical language, and has attained a further stage of development than the Assyrian with its cumbrous cuneiform. To the end, Assyrian was largely ideographic and hieroglyphic. The same group of symbols represented very different sounds according to circumstances, and widely differing meanings were connected with the same sound, with the consequent necessity for determinatives. The alphabet employed in Aramaic is practically that found on the Moabite Stone. It evidently stands at the end of a long process of evolution. It is probable that a hieroglyphic stood behind it; whether it is derived from the Hittite (Conder), or from Egyptian (Rouge), or Assyrian (Delitzsch), or is of independent origin (Gesenius), cannot be determined. Aramaic is, like Hebrew and Assyrian, a North Semitic tongue, standing in a manner between them. It is more regular in its formation than either of the others, a character that may to some extent be due to its use as a lingua franca over so wide a territory. Aramaic was the official language of the extensive Persian empire, as it had been to some extent that of its predecessor, the empire of Assyria. It may be regarded as having been generally understood from Asia Minor on the North, to the Cataracts of the Nile on the South, and from the mountains of Media on the East, to the Mediterranean on the West. Its history has been long; spoken, as we learn by inscriptions, from before the days of Tiglath-pileser, it is still spoken on the banks of the Tigris and the Euphrates.",
+          "target": "Lorsque nous le rencontrons, l'araméen est une langue alphabétique pleinement développée, à un stade d'évolution plus avancé que l'assyrien, avec son encombrante écriture cunéiforme. Jusqu'à la fin, l'écriture assyrienne demeura largement idéographique et hiéroglyphique. Un même groupe de symboles pouvait représenter, selon les circonstances, des sons très différents, et un même son pouvait être associé à des significations fort éloignées, rendant nécessaires des signes déterminatifs. L'alphabet employé en araméen est pratiquement celui de la stèle moabite. Il se situe manifestement à l'aboutissement d'une longue évolution. Il est probable qu'une écriture hiéroglyphique l'ait précédé ; toutefois, on ne peut déterminer s'il dérive du hittite (Conder), de l'égyptien (Rougé), de l'assyrien (Delitzsch) ou s'il possède une origine indépendante (Gesenius). L'araméen, comme l'hébreu et l'assyrien, est une langue sémitique du Nord, occupant en quelque sorte une position intermédiaire entre les deux. Sa formation est plus régulière que celle de l'un ou l'autre, caractéristique qui pourrait s'expliquer en partie par son emploi comme langue commune dans un territoire aussi vaste. L'araméen était la langue officielle de l'immense Empire perse, comme il l'avait déjà été dans une certaine mesure de l'Empire assyrien qui le précéda. On peut considérer qu'il était généralement compris depuis l'Asie Mineure au nord jusqu'aux cataractes du Nil au sud, et depuis les montagnes de Médie à l'est jusqu'à la Méditerranée à l'ouest. Son histoire est longue : parlé, comme l'attestent les inscriptions, dès avant l'époque de Tiglath-Piléser, il l'est encore sur les rives du Tigre et de l'Euphrate.",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "4. Dialects of Aramaic:",
+          "target": "4. Les dialectes araméens :",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "These extensive limits, geographical and chronological, imply dialectic differences. Means of communication were so ineffective that the distance between the eastern and western limits would require greater time to traverse, than does that which separates America from Europe, or New York from Brazil. The primary dialectic distinction was between eastern Aramaic (Syriac) and western (formerly called Chaldee). The peculiarity which most prominently distinguishes these is the preformative of the imperfect; in the western, as in Hebrew and Arabic, it is yodh (y), while in the eastern it is nun (n) or lamedh (l). Each of these has sub-dialects. In Palestine, besides the Chaldee of the Jewish Targums, there was the Samaritan Pentateuch; in it, besides many foreign elements in the vocabulary, the use of `ayin instead of waw in the preterite of `ayin-waw verbs is the most striking feature. The sub-dialect of eastern Aramaic is Mandean; it is characterized by the use of the matres lectionis instead of vowel signs. From the inscriptions and the papyri it would seem to follow that the eastern peculiarities are the more recent--changes introduced through passage of time. In eastern Aramaic the script became more cursive than in western, which retained the square character we associate with Hebrew: except the Samaritan, which used a still earlier script, less removed from the angular style of the inscriptions. The script of the Assouan papyri indicated a tendency toward the later square character.",
+          "target": "Ces vastes limites géographiques et chronologiques impliquent des différences dialectales. Les moyens de communication étaient si peu efficaces que parcourir la distance séparant les frontières orientales et occidentales exigeait plus de temps qu'il n'en faut aujourd'hui pour voyager de l'Amérique à l'Europe ou de New York au Brésil. La distinction dialectale fondamentale opposait l'araméen oriental (syriaque) à l'araméen occidental, autrefois appelé chaldéen. Le trait qui les différencie le plus nettement concerne le préfixe de l'imparfait : à l'ouest, comme en hébreu et en arabe, c'est yodh (y) ; à l'est, c'est nun (n) ou lamedh (l). Chacun possède des sous-dialectes. En Palestine, outre le chaldéen des Targums juifs, il y avait le Pentateuque samaritain. Celui-ci présente, parmi de nombreux éléments lexicaux étrangers, une particularité particulièrement frappante : l'emploi de 'ayin à la place de waw au prétérit des verbes 'ayin-waw. Un sous-dialecte de l'araméen oriental est le mandéen, caractérisé par l'emploi des matres lectionis à la place des signes vocaliques. Les inscriptions et les papyrus semblent indiquer que les particularités orientales sont plus récentes et correspondent à des changements apparus avec le temps. En araméen oriental, l'écriture devint plus cursive qu'à l'ouest, où se maintint le caractère carré associé à l'hébreu. Le samaritain fait exception : il conserva une écriture plus ancienne, plus proche de la forme anguleuse des inscriptions. L'écriture des papyrus d'Assouan révèle déjà une tendance vers le caractère carré ultérieur.",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "5. Grammatical Peculiarities:",
+          "target": "5. Particularités grammaticales :",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "Although an article like the present is not the place to give a full grammar of Aramaic, yet we may advert to some of the more prominent peculiarities, common to all branches of the language, which distinguish it from Hebrew, the best-known of north Semitic tongues. The peculiarity that most strikes the beginner in Aramaic is the want of the article, and the presence instead of the status emphaticus, which follows the syntactic rules of the Hebrew article. The next thing likely to attract attention is the use of the relative pronoun zi or di as if it were a preposition meaning \"of.\" While in Hebrew the passive voice is generally indicated in the derived conjugations by internal vocalic changes, as the pu`al from the pi`el; in Aramaic the syllable 'eth (E) or 'ith (W) is prefixed (earlier hith). Instead of the Hebrew causative hiph`il there is the 'aph`el earlier haph`el with its passive 'ethtaph`al or 'ittaph`al (earlier hoph`al). The causative had also shaph`el and taph`el forms, which occasionally are found. While in the Targums and the Old Testament Peshitta the syllable yath is the sign of the accusative (earlier vath, as in the Sinjirli inscriptions), the letter lamedh serves that purpose in Aramaic which is not a translation from Hebrew. A characteristic of later Aramaic prominent in the Peshitta of the New Testament is the facility with which it adopted words and phrases from Greek which had already largely displaced it as the common language. New Syriac shows a similar facility in regard to Arabic and Persian.",
+          "target": "Même si un article comme celui-ci n'est pas le lieu où présenter une grammaire complète de l'araméen, nous pouvons relever quelques-unes des particularités les plus notables, communes à toutes les branches de cette langue, qui la distinguent de l'hébreu, la plus connue des langues sémitiques du Nord. La caractéristique frappant le plus le débutant est l'absence d'article, remplacé par le status emphaticus, soumis aux règles syntaxiques de l'article hébreu. On remarque ensuite l'emploi du pronom relatif zi ou di comme s'il s'agissait d'une préposition signifiant « de ». Alors qu'en hébreu la voix passive est généralement indiquée dans les conjugaisons dérivées par des modifications vocaliques internes, comme le pu'al dérivé du pi'el, l'araméen ajoute en préfixe la syllabe 'eth (oriental) ou 'ith (occidental), auparavant hith. À la place du causatif hébreu hiph'il, on trouve l''aph'el, anciennement haph'el, avec son passif 'ethtaph'al ou 'ittaph'al, anciennement hoph'al. Le causatif présentait également les formes shaph'el et taph'el, parfois attestées. Tandis que dans les Targums et la Peshitta de l'Ancien Testament, la syllabe yath marque l'accusatif (autrefois vath, comme dans les inscriptions de Sinjirli), la lettre lamedh joue ce rôle dans l'araméen qui n'est pas traduit de l'hébreu. Un trait remarquable de l'araméen tardif, particulièrement visible dans la Peshitta du Nouveau Testament, est sa facilité à adopter des mots et des expressions du grec, qui l'avait déjà largement supplanté comme langue commune. Le néo-syriaque présente une facilité comparable pour les emprunts à l'arabe et au persan.",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "6. Comparison of the Aramaic of Sinjirli with That of the Bible:",
+          "target": "6. Comparaison de l'araméen de Sinjirli avec celui de la Bible :",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "A question of very considerable importance to the Biblical student is the relation in which the Aramaic of Daniel and Ezra stands to that of the Sinjirli inscriptions and that of the more nearly contemporary Assouan papyri. In making the comparison we must bear in mind that the Hebrew Massoretic Text is the result of transcriptions extending the Bible over 1,500 or 1,200 years, according as we take the traditional or the critical dates for the books in question. This implies probably a score or more of transcriptions each with its quota of variations from the original. While the variations introduced by any one transcription might be few and unimportant, they would all be in the direction of lateness, and cumulatively might easily become very great. The late Hebrew of Ecclesiastes, notwithstanding its ascription to Solomon, shows how little the idea of the chronology of style entered into the thoughts of the scribes of those days, to check this tendency to modernization. It follows that while the presence of late peculiarities proves nothing but the inaccuracy of the copyist, early grammatical forms and modes of spelling are nearly indisputable evidences of antiquity.",
+          "target": "Une question d'une très grande importance pour l'étudiant de la Bible est le rapport entre l'araméen de Daniel et d'Esdras, celui des inscriptions de Sinjirli et celui des papyrus d'Assouan, qui leur sont plus proches chronologiquement. Dans cette comparaison, nous devons nous souvenir que le texte hébreu massorétique résulte de transcriptions de la Bible s'étendant sur 1 500 ou 1 200 ans, selon que nous retenons les dates traditionnelles ou critiques des livres concernés. Cela suppose probablement vingt transcriptions ou davantage, chacune apportant sa part de variantes par rapport à l'original. Si les variantes introduites par une seule transcription pouvaient être rares et sans importance, elles iraient toutes dans le sens d'une modernisation et pourraient, en s'accumulant, devenir considérables. L'hébreu tardif de l'Ecclésiaste, malgré son attribution à Salomon, montre combien l'idée d'une chronologie des styles préoccupait peu les scribes de l'époque et ne freinait pas cette tendance à moderniser. Il en résulte que la présence de particularités tardives ne prouve rien d'autre que l'inexactitude du copiste, tandis que des formes grammaticales et des graphies anciennes témoignent presque incontestablement de l'antiquité.",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "The Sinjirli inscriptions, if we neglect the less important, are three, the Panammu inscription, the Hadad inscription and the Barrekab inscription (Bauenschrift, Sachau). The first and last of these are dated in the reign of Tiglath- pileser, the middle one is placed by Sachau in the preceding century. It ought to be noted that, when first discovered, it was a matter of doubt whether the inscriptions should not be reckoned as Hebrew, rather than Aramaic The close affinity between them and Hebrew is shown in various ways. By a relation among the north Semitic tongues similar to that among the Aryan languages expressed by Grimm's law, where letters with the s- sound appear in Hebrew, in later Aramaic we find corresponding letters with the t-sound. But in the Sinjirli inscriptions we do not find this mark of the later language; thus we have sheqel, not theqel, shelathin instead of telathin, zehabh for dhehabh, etc. That this is not due to the proximity of Hebrew is proved by the fact that on the weights in Sargon's palace we find sheqel. Thus, the Sinjirli inscriptions date from a period when Hebrew and Aramaic had not been completely differentiated. There are other points of likeness. Instead of the 'aph`el and 'ethtaph`al or 'ittaph`al of later Aramaic, there is haph`el and hoph`al; instead of the 'eth or 'ith as the sign of the passive, there is hith. The vocabularies also are nearly identical. In both, the syllable yath or wath, sign of the accusative, is present, as if a survival, only as the support of the oblique case of a pronoun (",
+          "target": "Si l'on laisse de côté les moins importantes, les inscriptions de Sinjirli sont au nombre de trois : celle de Panammu, celle de Hadad et celle de Barrekab (Bauenschrift, Sachau). La première et la dernière sont datées du règne de Tiglath-Piléser, tandis que Sachau place celle du milieu au siècle précédent. Il faut noter que, lors de leur découverte, on hésita à les considérer comme hébraïques plutôt qu'araméennes. Leur étroite parenté avec l'hébreu se manifeste de diverses manières. Selon une relation entre les langues sémitiques du Nord comparable à celle exprimée par la loi de Grimm pour les langues aryennes, là où l'hébreu présente des consonnes sifflantes de type s, l'araméen tardif possède des consonnes correspondantes de type t. Or, ces inscriptions de Sinjirli n'offrent pas cette particularité de la langue plus récente : on y lit sheqel et non theqel, shelathin au lieu de telathin, zehabh pour dhehabh, etc. Cette situation ne s'explique pas par la proximité de l'hébreu, puisque les poids du palais de Sargon portent eux aussi sheqel. Les inscriptions de Sinjirli remontent donc à une époque où l'hébreu et l'araméen n'étaient pas encore complètement différenciés. Il existe d'autres ressemblances. Au lieu de l''aph'el et de l''ethtaph'al ou 'ittaph'al de l'araméen tardif, on trouve haph'el et hoph'al ; au lieu de 'eth ou 'ith comme marque du passif, hith. Les vocabulaires sont également presque identiques. Dans les deux langues, la syllabe yath ou wath, marque de l'accusatif, ne subsiste, comme un vestige, que pour soutenir le cas oblique d'un pronom (",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": "; Sinjirli, Had 28). The pronouns exhibit a similar resemblance to Hebrew and also to Biblical Aramaic. The 1st person pronoun is 'anokh (once 'anokhi in Pan. 1.19), as in the Phoenician and Moabite dialects of Hebrew; 'anah occurs occasionally as in Daniel. The most marked differences from later Aramaic is \"z\" instead of \"dh\" in the demonstrative pronoun; here there is relation to the Hebrew zeh. Another case in frequent evidence is 'arqa' instead of 'ar`a.",
+          "target": " ; Sinjirli, Hadad, 28). Les pronoms présentent une ressemblance analogue avec l'hébreu et l'araméen biblique. Le pronom de première personne est 'anokh, une fois 'anokhi (Panammu, l. 19), comme dans les dialectes hébreux phénicien et moabite ; 'anah apparaît parfois, comme chez Daniel. La différence la plus marquée avec l'araméen tardif est l'emploi de z au lieu de dh dans le pronom démonstratif ; il y a là un rapport avec l'hébreu zeh. Un autre exemple fréquent est 'arqa' au lieu de 'ar'a.",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "7. Comparison of Aramaic of Assouan with That of Daniel:",
+          "target": "7. Comparaison de l'araméen d'Assouan avec celui de Daniel :",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "More nearly contemporary with the Aramaic of Daniel and Ezra is that of the Assouan papyri. These are carefully dated, and extend from 471 BC to 411 BC; these two dates include the whole reign of Artaxerxes I, the king whose cupbearer Nehemiah was, and who sent him as governor to Jerusalem, and a few years of his predecessor's and successor's reigns. These documents, as written with a reed pen on papyrus, and not cut with a chisel on stone, manifest a very different style of letter; as already said, there is some approximation to the later square character. The resemblance between the grammar and vocabulary of these papyri and those of Biblical Aramaic is closer than that of the latter to the Sinjirli grammar and diction. Where, in the more ancient Aramaic, we have \"z,\" in these papyri we occasionally find the later \"dh.\" It is not improbable that, as in Spain, a lisping pronunciation became prevalent; the \"dh\" pronounced as \"th\" in \"then\" would in that case represent more accurately the sound actually uttered than would \"z.\"",
+          "target": "Les papyrus d'Assouan sont chronologiquement plus proches de l'araméen de Daniel et d'Esdras. Ils sont soigneusement datés et s'échelonnent de 471 à 411 av. J.-C. ; cet intervalle comprend tout le règne d'Artaxerxès Ier, dont Néhémie était l'échanson et qui l'envoya gouverner Jérusalem, ainsi que quelques années des règnes de son prédécesseur et de son successeur. Écrits sur papyrus au calame plutôt que gravés au ciseau dans la pierre, ces documents présentent un style de lettres très différent ; comme nous l'avons déjà indiqué, ils se rapprochent par certains aspects du caractère carré tardif. Leur grammaire et leur vocabulaire présentent avec l'araméen biblique des ressemblances plus étroites que celles qui existent entre celui-ci et la grammaire ou la langue de Sinjirli. Là où l'araméen plus ancien possède z, ces papyrus présentent parfois le dh ultérieur. Il n'est pas improbable que, comme en Espagne, une prononciation zézayante soit devenue courante ; dh, prononcé comme th dans l'anglais then, représenterait alors plus exactement le son véritablement prononcé que la lettre z.",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "The word already noticed, 'arqa' which generally appears in Biblical Aramaic as 'ar`a, is a similar case. In northern Palestine the Arabic qaf is pronounced much as if it were `ain, if not even the related sound hemzeh; instances of this spelling also are found in the Assouan papyri. Both of these differences are due to frequent transcription assimilating the spelling to the pronunciation. Another peculiarity is probably due to a different cause. In Biblical Aramaic the preformative of the 3rd person singular and plural of the imperfect of the substantive verb is lamedh. Of this peculiarity Dr. Bevan gives an ingenious explanation. If the yodh preformative were used, the resulting word would have a resemblance to the sacred name: to avoid this, he thinks, the yodh was changed into a lamedh.",
+          "target": "Le mot 'arqa', déjà cité et qui apparaît généralement dans l'araméen biblique sous la forme 'ar'a, constitue un cas semblable. Dans le nord de la Palestine, le qaf arabe est prononcé à peu près comme 'ain, voire comme le son apparenté hamza ; des exemples de cette graphie se trouvent également dans les papyrus d'Assouan. Ces deux différences résultent de transcriptions répétées adaptant l'orthographe à la prononciation. Une autre particularité tient probablement à une cause différente. En araméen biblique, le préfixe de la troisième personne du singulier et du pluriel de l'imparfait du verbe « être » est lamedh. Le docteur Bevan en propose une explication ingénieuse. Si l'on employait le préfixe yodh, le mot obtenu ressemblerait au nom sacré : pour éviter cela, pense-t-il, le yodh aurait été remplacé par un lamedh.",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "Unfortunately this explains too much, therefore explains nothing. Had this been the explanation, the name \"Jehu,\" which consonantally is nearly the same as the 3rd person singular and plural of the substantive verb, would never have been written as it is. Further, if Jewish reverence for the Divine name expressed itself in this way, we should expect to find this preformative in the Targums, which, however, we do not. Hundreds of cases in proof may be found in Onkelos alone. The truth is, it is a Mandean form, which proves that the Aramaic of Daniel and Ezra is eastern. A further peculiarity is the nun compensative; as tinda` (",
+          "target": "Malheureusement, cette explication prouve trop et ne prouve donc rien. Si elle était exacte, le nom « Jéhu », qui présente presque les mêmes consonnes que la troisième personne du singulier et du pluriel du verbe « être », n'aurait jamais été écrit sous sa forme actuelle. En outre, si la révérence juive envers le nom divin s'était exprimée de cette manière, nous devrions retrouver ce préfixe dans les Targums, ce qui n'est pas le cas. Des centaines d'exemples le montrent dans le seul Targum d'Onkelos. Il s'agit en réalité d'une forme mandéenne, qui prouve que l'araméen de Daniel et d'Esdras est oriental. Une autre particularité est le nun compensatoire, comme dans tinda' (",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "tail",
+          "source": "), which regularly would be tidda`. This also is found in the Mandean; it is, however, also found in papyri of Assouan, an evidence that the Mandean characteristic was a survival from an earlier time.",
+          "target": "), là où l'on attendrait régulièrement tidda'. On trouve aussi ce trait en mandéen, mais également dans les papyrus d'Assouan : cela montre que cette particularité mandéenne était une survivance d'une époque antérieure.",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "8. Elephantine Papyri:",
+          "target": "8. Les papyrus d'Éléphantine :",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "Another interesting point of contact between the Aramaic of this period and that of Daniel is exhibited in the Elephantine papyri published by Sachau. These papyri, discovered in the island of Elephantine (opposite Assouan) in 1907, are three in number, and are dated in the 14th year of Darius II (407 BC). In the first, ll. 2, 27, 28, the second, l. 26, and the third ll. 3, 4, we have God called \"the God of heaven,\" the title given to God throughout Da 2. This is also the appellation used in the Aramaic of Ezra (5:11,12; 6:9 etc.) From the passages where it occurs it would seem that during the Babylonian and Persian rule this was the recognized governmental title of the God of the Hebrews.",
+          "target": "Les papyrus d'Éléphantine publiés par Sachau offrent un autre point de contact intéressant entre l'araméen de cette période et celui de Daniel. Découverts en 1907 sur l'île d'Éléphantine, en face d'Assouan, ces papyrus sont au nombre de trois et portent la date de la quatorzième année de Darius II (407 av. J.-C.). Dans le premier, lignes 2, 27 et 28, le deuxième, ligne 26, et le troisième, lignes 3 et 4, Dieu est appelé « le Dieu du ciel », titre donné à Dieu dans tout Daniel 2. C'est également l'appellation employée dans l'araméen d'Esdras (5:11,12 ; 6:9, etc.). Les passages concernés semblent montrer qu'à l'époque des dominations babylonienne et perse, il s'agissait du titre gouvernemental reconnu pour le Dieu des Hébreux.",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "9. Comparison with Aramaic of the Targums:",
+          "target": "9. Comparaison avec l'araméen des Targums :",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "As it is frequently asserted that the Aramaic of Daniel and Ezra is that of the Targums, it is necessary to examine the truth of this statement. In considering this question son with we must have regard to the history of these paraphrases, as only in this way can we estimate truly the chronological value of this \"great\" resemblance, should it be found to exist. According to Talmudic tradition the Targums were delivered orally, and were not committed to writing till late in the 2nd century of our era. A traditional rendering was handed on from meturgeman (interpreter) to meturgeman. In such circumstances archaic forms, words and idioms, are perpetuated. The sacred always tends to preserve the antique; in illustration we need only refer to the song of the Fratres Arvales, a college of priests dating from primitive Latin times and continuing to the days of the Gordians. This sacred song of theirs preserves to us the most ancient form of the Latin tongue, though the inscriptions, from which we learn of it, date from the classic period. Hence the Aramaic of the Targums may represent the form of the language a couple of centuries before the Christian era.",
+          "target": "Comme on affirme fréquemment que l'araméen de Daniel et d'Esdras est celui des Targums, il faut examiner la valeur de cette affirmation. Pour étudier la question, nous devons tenir compte de l'histoire de ces paraphrases : c'est seulement ainsi que nous pourrons apprécier correctement la valeur chronologique de cette « grande » ressemblance, à supposer qu'elle existe. Selon la tradition talmudique, les Targums étaient transmis oralement et ne furent mis par écrit que tard dans le IIe siècle de notre ère. Une traduction traditionnelle passait d'un meturgeman (interprète) au suivant. Dans de telles conditions, les formes, les mots et les tournures archaïques se perpétuent. Le langage sacré tend toujours à conserver l'ancien. Pour illustrer ce phénomène, il suffit de mentionner le chant des Frères arvales, collège de prêtres remontant aux premiers temps de Rome et ayant subsisté jusqu'à l'époque des Gordiens. Leur chant sacré nous conserve une forme très ancienne du latin, bien que les inscriptions qui nous le font connaître datent de l'époque classique. L'araméen des Targums peut donc représenter une forme de la langue en usage quelques siècles avant l'ère chrétienne.",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "10. Chief Differences in Latter:",
+          "target": "10. Leurs principales différences :",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "We cannot attempt to give an exhaustive summary of the differences between Biblical and Targumic Aramaic, but indicate only some of the more obvious. Account need not be taken of yath, the sign of the accusative, as it appears only as representing the Hebrew 'eth. In verbs, reference has already been made to the \"L\" preformative in the substantive verb, a peculiarity which Biblical Aramaic shares with Mandean in distinction from other forms of the language: also to the fact that the hith of the earlier verbal forms is replaced by 'ith in the more recent 'ithpe`el and 'ithpa`al. This also is the case with 'aph`el (in earlier and Biblical Aramaic haph`el), the passive of which is hoph`al, not 'ittaph`al, as in Targumic. The importance of verbal forms in determining age is readily recognized; thus in English, if the 3rd person singular of the verbs in an English writing is in eth we decide that writing to belong, in fact or feigning, to a period not later than the 17th century. In regard to pronouns, while in Biblical Aramaic, as in Sinjirli and Assouan, the 1st person singular is 'an'a, in Targumic it is 'anah: the plural in Biblical Aramaic is 'anachna' akin to 'anachnah in Assouan, whereas in the Targums it is usually 'anan, though sometimes the Biblical form appears. The 2nd person singular in Biblical Aramaic is 'ant as in Assouan, with the plural 'antum (Assouan, 'antem): in Targumic it is 'att and 'attun.",
+          "target": "Nous ne pouvons entreprendre un exposé exhaustif des différences entre l'araméen biblique et celui des Targums ; nous n'indiquerons que certaines des plus évidentes. Il n'est pas nécessaire de tenir compte de yath, signe de l'accusatif, car il n'apparaît que pour représenter l'hébreu 'eth. Concernant les verbes, nous avons déjà évoqué le préfixe l de l'imparfait du verbe « être », particularité que l'araméen biblique partage avec le mandéen, à la différence des autres formes de la langue. Nous avons également signalé que le hith des formes verbales anciennes est remplacé par 'ith dans les formes plus récentes 'ithpe'el et 'ithpa'al. Il en va de même de l''aph'el (haph'el dans l'araméen ancien et biblique), dont le passif est hoph'al, et non 'ittaph'al comme dans les Targums. On reconnaît facilement l'importance des formes verbales pour déterminer l'âge d'un texte : ainsi, en anglais, lorsqu'une troisième personne du singulier se termine par eth, nous considérons que le texte appartient, réellement ou artificiellement, au XVIIe siècle au plus tard. Quant aux pronoms, la première personne du singulier de l'araméen biblique est 'an'a, comme à Sinjirli et à Assouan, tandis que celle des Targums est 'anah. Le pluriel biblique est 'anachna', apparenté à 'anachnah à Assouan ; dans les Targums, il est généralement 'anan, même si la forme biblique apparaît parfois. La deuxième personne du singulier de l'araméen biblique est 'ant, comme à Assouan, avec le pluriel 'antum (à Assouan, 'antem) ; dans les Targums, on trouve 'att et 'attun.",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "To compare our own language, when we find \"thou\" and \"ye\" in a writing, we date it as not later than the 17th century. The ordinary vocabulary, though not without value in this respect, is not very important chronologically. Connective particles, however, are. Everyone acquainted with Hebrew knows how frequently yesh, \"is\" occurs; as frequent is 'ith in Targumic. In the Bible, the papyri, the form found is 'ithi. In the Targums 'i stands for \"if\"; in the Bible and papyri it is hen. Cognate with this, the Bible and the papyri have lahen, \"therefore\": this is not found in the Targums, which have instead `al-ken. In our own language the presence of \"eke\" in serious prose or poetry as a conjunction would prove the antiquity of the composition. The fact that the distinction between \"c\" and \"s\" has disappeared in the Targums, but is still preserved in the Bible, is a note of age that cannot be passed over. Other examples might be given, but these will suffice. Professor Bevan lightly dismisses many of these differences as mere matters of orthography; yet in French the presence of \"l\" for \"u\" or as strengthening the \"u\" in such words as alx, eulx, aultres is regarded as a note of old as distinct from modern French; yet probably the pronunciation was not different.",
+          "target": "Pour prendre un exemple dans notre propre langue, la présence de thou et ye dans un texte anglais conduit à le dater au plus tard du XVIIe siècle. Le vocabulaire ordinaire, sans être dépourvu d'intérêt sur ce point, possède une valeur chronologique limitée. En revanche, les particules de liaison sont importantes. Tout lecteur de l'hébreu sait combien yesh, « il y a », est fréquent ; dans les Targums, 'ith l'est tout autant. Dans la Bible et les papyrus, la forme attestée est 'ithi. Dans les Targums, 'i signifie « si » ; dans la Bible et les papyrus, on trouve hen. De même, la Bible et les papyrus possèdent lahen, « donc », absent des Targums, qui emploient à sa place 'al-ken. En anglais, l'emploi de eke comme conjonction dans une prose ou une poésie sérieuse prouverait l'ancienneté de la composition. Le fait que la distinction entre c et s ait disparu des Targums tout en demeurant préservée dans la Bible constitue un indice d'ancienneté qu'on ne peut négliger. On pourrait fournir d'autres exemples, mais ceux-ci suffisent. Le professeur Bevan écarte sans grande considération bon nombre de ces différences comme de simples questions d'orthographe. Pourtant, en français, l'emploi de l à la place de u ou pour renforcer cette lettre dans des mots comme alx, eulx et aultres est considéré comme un indice de français ancien plutôt que moderne, même si la prononciation n'était probablement pas différente.",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "In pursuing this part of the subject the latter portion of Pusey's first Lecture (Daniel the Prophet) is worthy of study. Pusey had not the advantage of contemporary documents with which to compare Biblical Aramaic; he could only emphasize the nature and amount of the differences which separated the language of Daniel from that of the Targums. The argument can now be supplemented by a yet stronger argument from the resemblance between the former and the contemporary papyri of Assouan, and yet the earlier Sinjirli inscriptions. See further, ",
+          "target": "Pour poursuivre l'étude du sujet, la dernière partie de la première conférence de Pusey (Daniel the Prophet) mérite l'attention. Pusey ne disposait pas de documents contemporains auxquels comparer l'araméen biblique ; il pouvait seulement souligner la nature et le nombre des différences séparant la langue de Daniel de celle des Targums. Nous pouvons maintenant compléter cet argument par un argument plus fort encore : les ressemblances de l'araméen biblique avec celui des papyrus contemporains d'Assouan, et même avec celui des inscriptions plus anciennes de Sinjirli. Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "SYRIAC VERSIONS",
+          "target": "VERSIONS SYRIAQUES",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "text",
+          "source": "LANGUAGES OF THE OLD TESTAMENT",
+          "target": "LANGUES DE L'ANCIEN TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": "; and compare the article \"Aramaic\" in Encyclopedia Biblica.",
+          "target": " ; comparer l'article « Aramaic » dans Encyclopedia Biblica.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "Numerous grammars and dictionaries of the two principal dialects of Aramaic, eastern (Syr) and western (Chaldee) may be seen in any catalogues. There is an excellent compendium of the grammar of Biblical Aramaic in Delitzsch's introduction to Baer's Text of Daniel and Ezra. For the Samaritan there is a small grammar by Nicholls, also one in the series \"Porta Linguarum Orientalium.\" Noldeke has published grammars for Mandean and New Syriac",
+          "target": "De nombreuses grammaires et de nombreux dictionnaires des deux principaux dialectes de l'araméen, oriental (syriaque) et occidental (chaldéen), figurent dans tous les catalogues. On trouvera un excellent abrégé de la grammaire de l'araméen biblique dans l'introduction de Delitzsch au texte de Daniel et d'Esdras publié par Baer. Pour le samaritain, il existe une petite grammaire de Nicholls, ainsi qu'une autre dans la collection « Porta Linguarum Orientalium ». Nöldeke a publié des grammaires du mandéen et du néo-syriaque",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "J. E. H. Thomson",
+          "target": "J. E. H. Thomson",
+          "action": "preserve",
+          "reason": "Original author attribution retained verbatim"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AHAZ",
+      "article_id": "isbe-fbc0766090ae2ce54f8e",
+      "source_article_sha256": "1ae88ac7a8ab1944b713a287764e5e7ff47000812d0e01fdaedf7f469e060695",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AHAZ",
+          "target": "AHAZ",
+          "action": "preserve",
+          "reason": "Retain canonical biblical proper name as article heading"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-haz ('achaz, \"he has grasped,\" ",
+          "target": "a'-haz ('achaz, « il a saisi » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " ff; Achaz).",
+          "target": " et suiv. ; Achaz).",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "1. Name:",
+          "target": "1. Son nom :",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "The name is the same as Jehoahaz; hence appears on Tiglath-pileser's Assyrian inscription of 732 BC as Ia-u-ha-zi. The sacred historians may have dropped the first part of the name in consequence of the character of the king.",
+          "target": "Ce nom est identique à celui de Joachaz ; il figure ainsi sous la forme Ia-u-ha-zi dans une inscription assyrienne de Tiglath-Piléser datant de 732 av. J.-C. Les historiens sacrés ont peut-être supprimé la première partie du nom à cause du caractère de ce roi.",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "2. The Accession:",
+          "target": "2. Son accession au trône :",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "Ahaz was the son of Jotham, king of Judah. He succeeded to the throne at the age of 20 years (according to another reading 25). The chronology of his reign is difficult, as his son Hezekiah is stated to have been 25 years of age when he began to reign 16 years after (",
+          "target": "Achaz était fils de Jotham, roi de Juda. Il monta sur le trône à l'âge de vingt ans (vingt-cinq ans selon une autre lecture). La chronologie de son règne est difficile à établir, puisque son fils Ézéchias aurait eu vingt-cinq ans lorsqu'il commença à régner, seize ans plus tard (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "). If the accession of Ahaz be placed as early as 743 BC, his grandfather Uzziah, long unable to perform the functions of his office on account of his leprosy (",
+          "target": "). Si l'accession d'Achaz au trône se situe dès 743 av. J.-C., son grand-père Ozias devait être encore vivant, alors qu'il était depuis longtemps incapable d'exercer ses fonctions à cause de sa lèpre (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "), must still have been alive. (Others date Ahaz later, when Uzziah, for whom Jotham had acted as regent, was already dead.)",
+          "target": "). D'autres situent le règne d'Achaz plus tard, après la mort d'Ozias, pendant la maladie duquel Jotham avait assuré la régence.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "3. Early Idolatries:",
+          "target": "3. Ses premières idolâtries :",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "Although so young, Ahaz seems at once to have struck out an independent course wholly opposed to the religious traditions of his nation. His first steps in this direction were the causing to be made and circulated of molten images of the Baalim, and the revival in the valley of Hinnom, south of the city, of the abominations of the worship of Moloch (",
+          "target": "Malgré sa jeunesse, Achaz paraît avoir aussitôt suivi une voie indépendante, radicalement contraire aux traditions religieuses de sa nation. Ses premières mesures en ce sens furent de faire fabriquer et diffuser des images fondues des Baals et de rétablir, dans la vallée de Hinnom, au sud de la ville, les abominations du culte de Moloc (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": "). He is declared to have made his own son \"pass through the fire\" (",
+          "target": "). Il est dit qu'il fit « passer son fils par le feu » (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "); the chronicler puts it even more strongly: he \"burnt his children in the fire\" (",
+          "target": ") ; le chroniqueur est encore plus explicite : « il brûla ses fils dans le feu » (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "). Other acts of idolatry were to follow.",
+          "target": "). D'autres actes d'idolâtrie suivirent.",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "4. Peril from Syria and Israel:",
+          "target": "4. Le péril venant de Syrie et d'Israël :",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "The kingdom of Judah was at this time in serious peril. Rezin, king of Damascus, and Pekah, king of Samaria, had already, in the days of Jotham, begun to harass Judah (",
+          "target": "Le royaume de Juda courait alors un grave danger. Retsin, roi de Damas, et Pékach, roi de Samarie, avaient déjà commencé à inquiéter Juda sous Jotham (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": "); now a conspiracy was formed to dethrone the young Ahaz, and set upon the throne a certain \"son of Tabeel\" (",
+          "target": "). Ils conspirèrent désormais pour détrôner le jeune Achaz et installer à sa place un certain « fils de Tabeel » (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "). An advance of the two kings was made against Jerusalem, although without success (",
+          "target": "). Les deux rois marchèrent contre Jérusalem, mais sans parvenir à leurs fins (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": "); the Jews were expelled from Elath (",
+          "target": ") ; les Juifs furent chassés d'Élath (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": "), and the country was ravaged, and large numbers taken captive (",
+          "target": "), le pays fut ravagé et de nombreux habitants emmenés en captivité (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": " ff). Consternation was universal. The heart of Ahaz \"trembled, and the heart of his people, as the trees of the forest tremble with the wind\" (",
+          "target": " et suiv.). La consternation était générale. Le cœur d'Achaz « fut agité, ainsi que le cœur de son peuple, comme les arbres de la forêt sont agités par le vent » (",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "tail",
+          "source": "). In his extremity Ahaz appealed to the king of Assyria for help (",
+          "target": "). Acculé, Achaz sollicita l'aide du roi d'Assyrie (",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "5. Isaiah's Messages to the King:",
+          "target": "5. Les messages d'Ésaïe au roi :",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "Amid the general alarm and perturbation, the one man untouched by it in Jerusalem was the prophet Isaiah. Undismayed, Isaiah set himself, apparently single-handed, to turn the tide of public opinion from the channel in which it was running, the seeking of aid from Assyria. His appeal was to both king and people. By Divine direction, meeting Ahaz \"at the end of the conduit of the upper pool, in the highway of the fuller's field,\" he bade him have no fear of \"these two tails of smoking firebrands,\" Rezin and Pekah, for, like dying torches, they would speedily be extinguished (",
+          "target": "Au milieu de l'alarme et de l'agitation générales, le prophète Ésaïe était le seul homme de Jérusalem qui ne se laissât pas troubler. Sans se décourager et, semble-t-il, presque seul, il entreprit de détourner l'opinion publique de la voie qu'elle avait prise : rechercher l'aide de l'Assyrie. Son appel s'adressait au roi aussi bien qu'au peuple. Sur l'ordre de Dieu, il rencontra Achaz « à l'extrémité de l'aqueduc de l'étang supérieur, sur la route du champ du foulon » et lui demanda de ne pas craindre « ces deux bouts de tisons fumants », Retsin et Pékach, car, pareils à des torches qui s'éteignent, ils allaient bientôt être anéantis (",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": " ff). If he would not believe this he would not be established (",
+          "target": " et suiv.). S'il ne croyait pas cette parole, il ne subsisterait pas (",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "tail",
+          "source": "). Failing to win the young king's confidence, Isaiah was sent a second time, with the offer from Yahweh of any sign Ahaz chose to ask, \"either in the depth, or in the height above,\" in attestation of the truth of the Divine word. The frivolous monarch refused the arbitrament on the hypocritical ground, \"I will not ask, neither will I tempt Yahweh\" (",
+          "target": "). N'ayant pu gagner la confiance du jeune roi, Ésaïe fut envoyé une seconde fois, chargé de lui proposer, de la part de Yahvé, de demander n'importe quel signe, « soit dans les profondeurs, soit dans les hauteurs », qui attesterait la vérité de la parole divine. Le monarque frivole refusa cette épreuve sous le prétexte hypocrite : « Je ne demanderai rien, je ne tenterai pas Yahvé » (",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "tail",
+          "source": "). Possibly his ambassadors were already dispatched to the Assyrian king. Whenever they went, they took with them a large subsidy with which to buy that ruler's favor (",
+          "target": "). Peut-être avait-il déjà envoyé ses ambassadeurs au roi d'Assyrie. En tout cas, ceux-ci emportèrent une somme considérable pour acheter les faveurs de ce souverain (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": "). It was on this occasion that Isaiah, in reply to Ahaz, gave the reassuring prophecy of Immanuel (",
+          "target": "). C'est alors qu'Ésaïe, répondant à Achaz, prononça la prophétie rassurante de l'Emmanuel (",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "tail",
+          "source": " ff).",
+          "target": " et suiv.).",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "6. Isaiah's Tablet:",
+          "target": "6. La tablette d'Ésaïe :",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "As respects the people, Isaiah was directed to exhibit on \"a great tablet\" the words \"For Maher-shalal-hash-baz\" (\"swift the spoil, speedy the prey\"). This was attested by two witnesses, one of whom was Urijah, the high priest. It was a solemn testimony that, without any action on the part of Judah, \"the riches of Damascus and the spoil of Samaria shall be carried away before the king of Assyria\" (",
+          "target": "En ce qui concernait le peuple, Ésaïe reçut l'ordre d'inscrire sur « une grande tablette » les mots « Pour Maher-Schalal-Chasch-Baz » (« vite au butin, prompt au pillage »). Deux témoins attestèrent l'inscription, dont Urie, le grand prêtre. Ce témoignage solennel annonçait que, sans aucune intervention de Juda, « les richesses de Damas et le butin de Samarie seront emportés devant le roi d'Assyrie » (",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "7. Fall of Damascus and Its Results:",
+          "target": "7. La chute de Damas et ses conséquences :",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "It was as the prophet had foretold. Damascus fell, Rezin was killed (",
+          "target": "Les événements se déroulèrent comme le prophète l'avait annoncé. Damas tomba, Retsin fut tué (",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": "), and Israel was raided (",
+          "target": ") et Israël fut attaqué (",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "tail",
+          "source": "). The action brought temporary relief to Judah, but had the effect of placing her under the heel of Assyria. Everyone then living knew that there could be no equal alliance between Judah and Assyria, and that the request for help, accompanied by the message, \"I am thy servant\" (",
+          "target": "). Cette intervention soulagea momentanément Juda, mais eut pour effet de le placer sous la domination de l'Assyrie. Tous les contemporains savaient qu'une alliance d'égal à égal entre Juda et l'Assyrie était impossible. Demander assistance en déclarant « Je suis ton serviteur » (",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": ") and by \"presents\" of gold and silver, meant the submission of Judah and the annual payment of a heavy tribute. Had Isaiah's counsel been followed, Tiglath-pileser would probably, in his own interests, have been compelled to crush the coalition, and Judah would have retained her freedom.",
+          "target": "), avec des « présents » d'or et d'argent, revenait à soumettre Juda et à lui imposer le paiement annuel d'un lourd tribut. Si l'avis d'Ésaïe avait été suivi, Tiglath-Piléser aurait probablement été contraint, dans son propre intérêt, d'écraser la coalition et Juda aurait conservé son indépendance.",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "8. Sun-Dial of Ahaz:",
+          "target": "8. Le cadran solaire d'Achaz :",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "The political storm having blown over for the present, with the final loss of the important port of Elath on the Red Sea (",
+          "target": "La tempête politique s'étant provisoirement apaisée, au prix de la perte définitive de l'important port d'Élath sur la mer Rouge (",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "tail",
+          "source": "), Ahaz turned his attention to more congenial pursuits. The king was somewhat of a dilettante in matters of art, and he set up a sun-dial, which seems to have consisted of a series of steps arranged round a short pillar, the time being indicated by the position of the shadow on the steps (compare ",
+          "target": "), Achaz se tourna vers des activités qui lui plaisaient davantage. Le roi avait certains goûts de dilettante en matière d'art ; il installa un cadran solaire qui semble avoir consisté en une série de marches disposées autour d'un petit pilier, l'heure étant indiquée par la position de l'ombre sur les marches (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": "). As it is regarded as possible for the shadow to return 10 steps, it is clear that each step did not mark an hour of the day, but some smaller period.",
+          "target": "). Puisqu'il était possible que l'ombre recule de dix marches, il apparaît que chacune ne correspondait pas à une heure entière de la journée, mais à une durée plus courte.",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "9. The Lavers and Brazen Sea:",
+          "target": "9. Les bassins et la mer de bronze :",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "Another act of the king was to remove from the elaborate ornamental bases on which they had stood (compare ",
+          "target": "Une autre mesure du roi fut de retirer les dix bassins de Salomon des socles richement ornés sur lesquels ils reposaient (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": "), the ten layers of Solomon, and also to remove Solomon's molten sea from the 12 brazen bulls which supported it (compare ",
+          "target": "), puis d'enlever la mer de fonte de Salomon des douze bœufs de bronze qui la soutenaient (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "tail",
+          "source": "), the sea being placed upon a raised platform or pavement (",
+          "target": "), pour la placer sur une plate-forme ou un dallage surélevé (",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "tail",
+          "source": "). From ",
+          "target": "). En raison de ",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "tail",
+          "source": ", where the prophet sees \"the 12 brazen bulls that were under the bases,\" it has been conjectured that the object of the change may have been to transfer the layers to the backs of the bulls.",
+          "target": ", où le prophète mentionne « les douze bœufs de bronze qui étaient sous les bases », certains ont supposé que cette modification visait à transférer les bassins sur le dos des bœufs.",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "10. The Damascus Altar:",
+          "target": "10. L'autel de Damas :",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "To this was added a yet more daring act of impiety. In 732 Ahaz was, with other vassal princes, summoned to Damascus to pay homage to Tiglath-pileser (",
+          "target": "À ces actes s'ajouta une impiété plus audacieuse encore. En 732, Achaz fut convoqué, avec d'autres princes vassaux, à Damas pour rendre hommage à Tiglath-Piléser (",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": "; his name appears in the Assyrian inscription). There he saw a heathen altar of fanciful pattern, which greatly pleased him. A model of this was sent to Urijah the high priest, with instructions to have an enlarged copy of it placed in the temple court. On the king's return to Jerusalem, he sacrificed at the new altar, but, not satisfied with its position, gave orders for a change. The altar had apparently been placed on the east side of the old altar; directions were now given for the brazen altar to be moved to the north, and the Damascus altar to be placed in line with it, in front of the temple giving both equal honor. Orders were further given to Urijah that the customary sacrifices should be offered on the new altar, now called \"the great altar,\" while the king reserved the brazen altar for himself \"to inquire by\" (",
+          "target": " ; son nom figure dans l'inscription assyrienne). Il y vit un autel païen d'un modèle original qui lui plut beaucoup. Il en envoya un plan au grand prêtre Urie, avec l'ordre d'en faire réaliser une copie agrandie dans la cour du Temple. À son retour à Jérusalem, le roi offrit des sacrifices sur le nouvel autel ; mais, mécontent de son emplacement, il ordonna un réaménagement. L'autel avait apparemment été installé à l'est de l'ancien. On donna alors des instructions pour déplacer l'autel de bronze vers le nord et aligner l'autel de Damas devant le Temple, de manière à accorder aux deux une égale dignité. Urie reçut en outre l'ordre d'offrir les sacrifices habituels sur le nouvel autel, désormais appelé « le grand autel », tandis que le roi réservait l'autel de bronze à son usage personnel « pour consulter » (",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "11. Further Impieties:",
+          "target": "11. Autres impiétés :",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "Even this did not exhaust the royal innovations. We learn from a later notice that the doors of the temple porch were shut, that the golden candlestick was not lighted, that the offering of incense was not made, and other solemnities were suspended (",
+          "target": "Ces innovations n'épuisèrent pas les initiatives du roi. Un témoignage ultérieur nous apprend que les portes du portique du Temple furent fermées, que le chandelier d'or ne fut pas allumé, que l'encens ne fut plus offert et que d'autres cérémonies solennelles furent suspendues (",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "tail",
+          "source": "). It is not improbable that it was Ahaz who set up `the horses of the sun' mentioned in ",
+          "target": "). Il n'est pas impossible que ce soit Achaz qui ait installé « les chevaux du soleil » mentionnés en ",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "tail",
+          "source": ", and gave them accommodation in the precincts of the temple. He certainly built the \"altars .... on the roof of the upper chamber of Ahaz,\" perhaps above the porch of the temple, for the adoration of the heavenly bodies (verse 12). Many other idolatries and acts of national apostasy are related regarding him (",
+          "target": " et leur ait réservé une place dans l'enceinte du Temple. Il fit assurément bâtir les « autels [...] sur le toit de la chambre haute d'Achaz », peut-être au-dessus du portique du Temple, pour adorer les astres (verset 12). De nombreux autres actes d'idolâtrie et d'apostasie nationale lui sont attribués (",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "tail",
+          "source": " ff).",
+          "target": " et suiv.).",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "12. Recurrence of Hostilities:",
+          "target": "12. La reprise des hostilités :",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "In the later years of his unhappy reign there was a recurrence of hostilities with the inhabitants of Philistia and Edom, this time with disaster to Judah (see the list of places lost in ",
+          "target": "Dans les dernières années de son règne malheureux, les hostilités reprirent avec les habitants de la Philistie et d'Édom, cette fois au détriment de Juda (voir la liste des villes perdues en ",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "tail",
+          "source": "). New appeal was made to Tiglath-pileser, whose subject Ahaz, now was, and costly presents were sent from the temple, the royal palace, and even the houses of the princes of Judah, but without avail (",
+          "target": "). Achaz sollicita de nouveau Tiglath-Piléser, dont il était désormais le sujet, et lui envoya de coûteux présents pris dans le Temple, le palais royal et même les maisons des chefs de Juda, mais sans résultat (",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "tail",
+          "source": "). The Assyrian `distressed' Ahaz, but rendered no assistance. In his trouble the wicked king only \"trespassed yet more\" (",
+          "target": "). L'Assyrien « opprima » Achaz, sans lui apporter de secours. Dans sa détresse, le méchant roi ne fit que « multiplier ses infidélités » (",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "13. Death of Ahaz:",
+          "target": "13. La mort d'Achaz :",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "Ahaz died in 728, after 16 years of misused power. The exultation with which the event was regarded is reflected in Isaiah's little prophecy written \"in the year that King Ahaz died\" (",
+          "target": "Achaz mourut en 728, après seize années d'un pouvoir mal employé. La satisfaction avec laquelle sa mort fut accueillie apparaît dans la courte prophétie qu'Ésaïe rédigea « l'année de la mort du roi Achaz » (",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "tail",
+          "source": "). The statement in ",
+          "target": "). L'affirmation de ",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "tail",
+          "source": " that Ahaz \"was buried with his fathers in the city of David\" is to be understood in the light of ",
+          "target": " selon laquelle Achaz « fut enterré avec ses pères dans la ville de David » doit être interprétée à la lumière de ",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "tail",
+          "source": ", that he was buried in Jerusalem, but that his body was not laid in the sepulchers of the kings of Israel. His name appears in the royal genealogies in ",
+          "target": " : il fut inhumé à Jérusalem, mais non dans les sépulcres des rois d'Israël. Son nom apparaît dans les généalogies royales de ",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "W. Shaw Caldecott",
+          "target": "W. Shaw Caldecott",
+          "action": "preserve",
+          "reason": "Retain original author attribution"
+        }
+      ]
+    }
+  ]
+}

@@ -21,8 +21,8 @@ from scripts.validate_translation_identity import entries, read_body, sha256
 
 def prepare(*, archive: Path, source: Path, roster: Path,
             patches: list[Path], output: Path, limit: int = 5) -> dict:
-    if not 1 <= limit <= 25:
-        raise ValueError("Bounded editorial queue must contain 1–25 articles")
+    if not 1 <= limit <= 100:
+        raise ValueError("Bounded editorial queue must contain 1–100 articles")
     if sha256(source) != SOURCE_SHA256:
         raise ValueError("Original corrected English TEI has changed")
     index = entries(read_body(source)[1])

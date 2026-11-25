@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ADOPTION",
+      "article_id": "isbe-0a00d6264efa352a7293",
+      "source_article_sha256": "e725a9e6c82e0d2ecd4ec6b1dc302db1c6f745239fc7903146acd9c31c804cb1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ADOPTION",
+          "target": "ADOPTION",
+          "action": "preserve",
+          "reason": "Canonical French headword ADOPTION is identical to source English"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-dop'-shun (huiothesia, \"placing as a son\"):  ",
+          "target": "a-dop'-shun (huiothesia, « établissement dans la condition de fils ») : ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "I. THE GENERAL LEGAL IDEA",
+          "target": "I. LA NOTION JURIDIQUE GÉNÉRALE",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "1. In the Old Testament 2. Greek 3. Roman",
+          "target": "1. Dans l'Ancien Testament 2. Chez les Grecs 3. Chez les Romains",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "II. PAUL'S DOCTRINE",
+          "target": "II. LA DOCTRINE DE PAUL",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "1. In Galatians as Liberty 2. In Romans as Deliverance from Debt",
+          "target": "1. Dans les Galates : la liberté 2. Dans les Romains : la délivrance de la dette",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "III. THE CHRISTIAN EXPERIENCE",
+          "target": "III. L'EXPÉRIENCE CHRÉTIENNE",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "1. In Relation to Justification 2. In Relation to Sanctification 3. In Relation to Regeneration",
+          "target": "1. Son rapport avec la justification 2. Son rapport avec la sanctification 3. Son rapport avec la régénération",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "IV. AS GOD'S ACT",
+          "target": "IV. EN TANT QU'ACTE DE DIEU",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "1. Divine Fatherhood 2. Its Cosmic Range  This term appears first in New Testament, and only in the epistles of Paul (",
+          "target": "1. La paternité divine 2. Sa portée cosmique. Ce terme apparaît pour la première fois dans le Nouveau Testament, et seulement dans les épîtres de Paul (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": ") who may have coined it out of a familiar Greek phrase of identical meaning. It indicated generally the legal process by which a man might bring into his family, and endow with the status and privileges of a son, one who was not by nature his son or of his kindred.",
+          "target": "). Paul l'a peut-être forgé à partir d'une expression grecque courante ayant le même sens. Il désignait généralement la procédure juridique par laquelle un homme pouvait accueillir dans sa famille une personne qui n'était ni son fils naturel ni un membre de sa parenté, en lui accordant le statut et les privilèges d'un fils.",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "I. The General Legal Idea.",
+          "target": "I. La notion juridique générale.",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "The custom prevailed among Greeks, Romans and other ancient peoples, but it does not appear in Jewish law.",
+          "target": "La coutume était répandue chez les Grecs, les Romains et d'autres peuples de l'Antiquité, mais elle ne semble pas exister dans le droit juif.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "1. In the Old Testament:",
+          "target": "1. Dans l'Ancien Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "Three cases of adoption are mentioned: of Moses (",
+          "target": "Trois cas d'adoption sont mentionnés : celui de Moïse (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": "), Genubath (",
+          "target": "), de Guenubath (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": ") and Esther (",
+          "target": ") et d'Esther (",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": "), but it is remarkable that they all occur outside of Palestine--in Egypt and Persia, where the practice of adoption prevailed. Likewise the idea appears in the New Testament only in the epistles of Paul, which were addressed to churches outside Palestine. The motive and initiative of adoption always lay with the adoptive father, who thus supplied his lack of natural offspring and satisfied the claims of affection and religion, and the desire to exercise paternal authority or to perpetuate his family. The process and conditions of adoption varied with different peoples. Among oriental nations it was extended to slaves (as Moses) who thereby gained their freedom, but in Greece and Rome it was, with rare exceptions, limited to citizens.",
+          "target": "). Il est remarquable qu'ils se produisent tous hors de Palestine, en Égypte ou en Perse, où l'adoption était pratiquée. De même, cette notion ne se rencontre dans le Nouveau Testament que dans les épîtres de Paul, adressées à des Églises situées hors de Palestine. L'initiative et le motif de l'adoption appartenaient toujours au père adoptif : il remédiait ainsi à l'absence de descendance naturelle et répondait à ses aspirations affectives et religieuses, au désir d'exercer l'autorité paternelle ou de perpétuer sa famille. La procédure et les conditions de l'adoption variaient d'un peuple à l'autre. Dans les nations orientales, elle pouvait s'étendre aux esclaves, comme Moïse, qui recevaient ainsi la liberté. En Grèce et à Rome, sauf de rares exceptions, elle était réservée aux citoyens.",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "2. Greek:",
+          "target": "2. Chez les Grecs :",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "In Greece a man might during his lifetime, or by will, to take effect after his death, adopt any male citizen into the privileges of his son, but with the invariable condition that the adopted son accepted the legal obligations and religious duties of a real son.",
+          "target": "En Grèce, un homme pouvait, de son vivant ou par un testament prenant effet après sa mort, adopter n'importe quel citoyen de sexe masculin et lui conférer les privilèges d'un fils. Une condition demeurait toutefois constante : le fils adoptif devait accepter les obligations juridiques et les devoirs religieux d'un fils véritable.",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "3. Roman:",
+          "target": "3. Chez les Romains :",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "In Rome the unique nature of paternal authority (patria potestas), by which a son was held in his father's power, almost as a slave was owned by his master, gave a peculiar character to the process of adoption. For the adoption of a person free from paternal authority (sui juris), the process and effect were practically the same in Rome as in Greece (adrogatio). In a more specific sense, adoption proper (adoptio) was the process by which a person was transferred from his natural father's power into that of his adoptive father, and it consisted in a fictitious sale of the son, and his surrender by the natural to the adoptive father.",
+          "target": "À Rome, le caractère particulier de l'autorité paternelle (patria potestas), en vertu de laquelle le fils demeurait sous le pouvoir de son père presque comme un esclave sous celui de son maître, donnait à l'adoption une physionomie spécifique. Pour une personne indépendante de toute autorité paternelle (sui juris), la procédure et ses effets étaient pratiquement les mêmes à Rome qu'en Grèce (adrogatio). Dans un sens plus précis, l'adoption proprement dite (adoptio) était la procédure transférant une personne de l'autorité de son père naturel à celle de son père adoptif. Elle consistait en une vente fictive du fils suivie de sa remise par le père naturel au père adoptif.",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "II. Paul's Doctrine.",
+          "target": "II. La doctrine de Paul.",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "As a Roman citizen the apostle would naturally know of the Roman custom, but in the cosmopolitan city of Tarsus, and again on his travels, he would become equally familiar with the corresponding customs of other nations. He employed the idea metaphorically much in the manner of Christ's parables, and, as in their case, there is danger of pressing the analogy too far in its details. It is not clear that he had any specific form of adoption in mind when illustrating his teaching by the general idea. Under this figure he teaches that God, by the manifestation of His grace in Christ, brings men into the relation of sons to Himself, and communicates to them the experience of sonship.",
+          "target": "Citoyen romain, l'apôtre connaissait naturellement la coutume de Rome. Mais dans la ville cosmopolite de Tarse, puis au cours de ses voyages, il avait dû se familiariser tout autant avec les pratiques correspondantes des autres peuples. Il employa cette notion comme une métaphore, un peu à la manière des paraboles du Christ. Comme pour ces dernières, il faut prendre garde de ne pas pousser trop loin l'analogie dans ses détails. Rien ne permet d'affirmer qu'il ait eu en vue une forme particulière d'adoption lorsqu'il utilisa cette idée générale pour illustrer son enseignement. Sous cette image, il enseigne que Dieu, en manifestant sa grâce en Christ, fait entrer les hommes dans une relation filiale avec lui et leur communique l'expérience de cette filiation.",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "1. In Galatians as Liberty:",
+          "target": "1. Dans les Galates : la liberté :",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "In Galatians, Paul emphasizes especially the liberty enjoyed by those who live by faith, in contrast to the bondage under which men are held, who guide their lives by legal ceremonies and ordinances, as the Galatians were prone to do (",
+          "target": "Dans l'épître aux Galates, Paul souligne particulièrement la liberté de ceux qui vivent par la foi, par opposition à l'asservissement de ceux qui règlent leur vie d'après les cérémonies et les prescriptions légales, comme les Galates étaient enclins à le faire (",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": "). The contrast between law and faith is first set forth on the field of history, as a contrast between both the pre-Christian and the Christian economies (",
+          "target": "). L'opposition entre la Loi et la foi apparaît d'abord sur le plan historique, comme un contraste entre les économies antérieure et postérieure à la venue du Christ (",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "tail",
+          "source": "), although in another passage he carries the idea of adoption back into the covenant relation of God with Israel (",
+          "target": "), bien qu'ailleurs Paul fasse remonter l'idée d'adoption jusqu'à l'alliance de Dieu avec Israël (",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": "). But here the historical antithesis is reproduced in the contrast between men who now choose to live under law and those who live by faith. Three figures seem to commingle in the description of man's condition under legal bondage--that of a slave, that of a minor under guardians appointed by his father's will, and that of a Roman son under the patria potestas (",
+          "target": "). Ici, cependant, l'antithèse historique se retrouve dans le contraste entre ceux qui choisissent maintenant de vivre sous la Loi et ceux qui vivent par la foi. Trois images semblent se mêler dans la description de la condition de l'homme asservi à la Loi : celle de l'esclave, celle de l'enfant mineur placé sous les tuteurs désignés par le testament de son père, et celle du fils romain soumis à la patria potestas (",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": "). The process of liberation is first of all one of redemption or buying out (Greek exagorasei) (",
+          "target": "). La libération commence par une rédemption, c'est-à-dire un rachat (en grec exagorasei ; ",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "tail",
+          "source": "). This term in itself applies equally well to the slave who is redeemed from bondage, and the Roman son whose adoptive father buys him out of the authority of his natural father. But in the latter case the condition of the son is not materially altered by the process: he only exchanges one paternal authority for another. If Paul for a moment thought of the process in terms of ordinary Roman adoption, the resulting condition of the son he conceives in terms of the more free and gracious Greek or Jewish family life. Or he may have thought of the rarer case of adoption from conditions of slavery into the status of sonship. The redemption is only a precondition of adoption, which follows upon faith, and is accompanied by the sending of \"the Spirit of his Son into our hearts, crying, Abba, Father,\" and then all bondage is done away (",
+          "target": "). En lui-même, le terme convient aussi bien à l'esclave racheté de sa servitude qu'au fils romain dont le père adoptif rachète l'autorité exercée par le père naturel. Mais, dans ce dernier cas, la situation du fils n'est pas véritablement transformée : il échange seulement une autorité paternelle contre une autre. Si Paul songea un instant à la procédure de l'adoption romaine ordinaire, il conçut l'état qui en résulte selon la vie familiale grecque ou juive, plus libre et plus généreuse. Peut-être pensait-il aussi au cas plus rare d'un esclave adopté comme fils. Le rachat n'est que la condition préalable de l'adoption. Celle-ci suit la foi, s'accompagne de l'envoi dans nos cœurs de « l'Esprit de son Fils, qui crie : Abba, Père », puis de la disparition de toute servitude (",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "2. In Romans as Deliverance from Debt:",
+          "target": "2. Dans les Romains : la délivrance de la dette :",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "In ",
+          "target": "En ",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "tail",
+          "source": " the idea of obligation or debt is coupled with that of liberty. Man is thought of as at one time under the authority and power of the flesh (",
+          "target": ", l'idée d'obligation, ou de dette, est associée à celle de liberté. L'homme est envisagé comme ayant autrefois vécu sous l'autorité et le pouvoir de la chair (",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "tail",
+          "source": "), but when the Spirit of Christ comes to dwell in him, he is no longer a debtor to the flesh but to the Spirit (",
+          "target": "). Mais lorsque l'Esprit du Christ vient habiter en lui, il n'est plus débiteur de la chair, mais de l'Esprit (",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": "), and debt or obligation to the Spirit is itself liberty. As in Galatians, man thus passes from a state of bondage into a state of sonship which is also a state of liberty. \"For as many as are led by the Spirit of God, these (and these only) are sons of God\" (",
+          "target": ") ; or la dette ou l'obligation envers l'Esprit constitue elle-même la liberté. Comme dans les Galates, l'homme passe donc de la servitude à la condition de fils, qui est aussi une condition de liberté. « Tous ceux qui sont conduits par l'Esprit de Dieu sont [et eux seuls sont] fils de Dieu » (",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "tail",
+          "source": "). The spirit of adoption or sonship stands in diametrical opposition to the spirit of bondage (",
+          "target": "). L'esprit d'adoption, ou de filiation, s'oppose diamétralement à l'esprit de servitude (",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "tail",
+          "source": "). And the Spirit to which we are debtors and by which we are led, at once awakens and confirms the experience of sonship within us (",
+          "target": "). Et l'Esprit envers lequel nous sommes débiteurs et par lequel nous sommes conduits éveille en nous l'expérience de cette filiation et la confirme (",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": "). In both places, Paul conveys under this figure, the idea of man as passing from a state of alienation from God and of bondage under law and sin, into that relation with God of mutual confidence and love, of unity of thought and will, which should characterize the ideal family, and in which all restraint, compulsion and fear have passed away.",
+          "target": "). Dans les deux épîtres, Paul exprime par cette image le passage de l'homme, éloigné de Dieu et asservi à la Loi et au péché, à une relation avec Dieu faite de confiance et d'amour réciproques, d'unité de pensée et de volonté, telle qu'elle devrait caractériser la famille idéale, où toute contrainte, toute coercition et toute peur auraient disparu.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "III. The Christian Experience.",
+          "target": "III. L'expérience chrétienne.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "As a fact of Christian experience, the adoption is the recognition and affirmation by man of his sonship toward God. It follows upon faith in Christ, by which man becomes so united with Christ that his filial spirit enters into him, and takes possession of his consciousness, so that he knows and greets God as Christ does (compare ",
+          "target": "En tant que réalité de l'expérience chrétienne, l'adoption consiste pour l'homme à reconnaître et à affirmer sa condition de fils de Dieu. Elle suit la foi en Christ, par laquelle l'homme est si étroitement uni au Christ que l'esprit filial de celui-ci entre en lui et prend possession de sa conscience, de sorte qu'il connaît Dieu et s'adresse à lui comme le fait le Christ (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "1. In Relation to Justification:  It is an aspect of the same experience that Paul describes elsewhere, under another legal metaphor, as justification by faith. According to the latter, God declares the sinner righteous and treats him as such, admits into to the experience of forgiveness, reconciliation and peace (",
+          "target": "1. Son rapport avec la justification : Il s'agit d'un aspect de la même expérience que Paul décrit ailleurs, à l'aide d'une autre métaphore juridique, comme la justification par la foi. Selon cette dernière, Dieu déclare le pécheur juste et le traite comme tel ; il l'admet à l'expérience du pardon, de la réconciliation et de la paix (",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": "). In all this the relation of father and son is undoubtedly involved, but in adoption it is emphatically expressed. It is not only that the prodigal son is welcomed home, glad to confess that he is not worthy to be called a son, and willing to be made as one of the hired servants, but he is embraced and restored to be a son as before. The point of each metaphor is, that justification is the act of a merciful Judge setting the prisoner free, but adoption is the act of a generous father, taking a son to his bosom and endowing him with liberty, favor and a heritage.",
+          "target": "). Tout cela suppose assurément la relation entre un père et son fils, mais l'adoption la met expressément au premier plan. Il ne s'agit pas seulement que le fils prodigue soit accueilli à son retour, heureux d'avouer qu'il est indigne d'être appelé fils et disposé à être traité comme l'un des salariés. Le père l'embrasse et le rétablit dans sa condition de fils comme auparavant. La distinction entre ces deux métaphores tient donc à ceci : la justification est l'acte d'un juge miséricordieux qui libère un prisonnier ; l'adoption est l'acte d'un père généreux qui accueille un fils dans ses bras et lui donne la liberté, sa faveur et un héritage.",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "2. In Relation to Sanctification:",
+          "target": "2. Son rapport avec la sanctification :",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "Besides, justification is the beginning of a process which needs for its completion a progressive course of sanctification by the aid of the Holy Spirit, but adoption is coextensive with sanctification. The sons of God are those led by the Spirit of God (",
+          "target": "En outre, la justification inaugure un processus qui, pour parvenir à son accomplissement, exige une sanctification progressive avec l'aide du Saint-Esprit. L'adoption, en revanche, s'étend à toute cette sanctification. Les fils de Dieu sont ceux qui sont conduits par l'Esprit de Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "tail",
+          "source": "); and the same spirit of God gives the experience of sonship. Sanctification describes the process of general cleansing and growth as an abstract process, but adoption includes it as a concrete relation to God, as loyalty, obedience, and fellowship with an ever-loving Father.",
+          "target": "), et ce même Esprit de Dieu leur donne l'expérience de la filiation. La sanctification décrit de manière abstraite la purification et la croissance en général ; l'adoption les comprend comme une relation concrète avec Dieu, faite de fidélité, d'obéissance et de communion avec un Père dont l'amour ne cesse jamais.",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "3. In Relation to Regeneration:",
+          "target": "3. Son rapport avec la régénération :",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "Some have identified adoption with regeneration, and therefore many Fathers and Roman Catholic theologians have identified it with baptismal regeneration, thereby excluding the essential fact of conscious sonship. The new birth and adoption are certainly aspects of the same totality of experience, but they belong to different systems of thought, and to identify them is to invite confusion. The new birth defines especially the origin and moral quality of the Christian experience as an abstract fact, but adoption expresses a concrete relation of man to God. Nor does Paul here raise the question of man's natural and original condition. It is pressing the analogy too far to infer from this doctrine of adoption that man is by nature not God's son. It would contradict Paul's teaching elsewhere (e.g. ",
+          "target": "Certains ont identifié l'adoption à la régénération. C'est pourquoi de nombreux Pères de l'Église et théologiens catholiques romains l'ont assimilée à la régénération baptismale, écartant ainsi le fait essentiel d'une filiation vécue consciemment. La nouvelle naissance et l'adoption sont assurément deux aspects d'une même expérience globale, mais elles appartiennent à des systèmes de pensée distincts ; les confondre, c'est s'exposer à la confusion. La nouvelle naissance définit surtout l'origine et la qualité morale de l'expérience chrétienne en tant que fait abstrait, tandis que l'adoption exprime une relation concrète de l'homme avec Dieu. Paul ne soulève d'ailleurs pas ici la question de la condition naturelle et originelle de l'homme. Ce serait pousser l'analogie trop loin que de déduire de cette doctrine de l'adoption que l'homme n'est pas naturellement fils de Dieu. Cela contredirait l'enseignement de Paul ailleurs (par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "tail",
+          "source": "), and he should not be convicted of inconsistency on the application of a metaphor. He conceives man outside Christ as morally an alien and a stranger from God, and the change wrought by faith in Christ makes him morally a son and conscious of his sonship; but naturally he is always a potential son because God is always a real father.",
+          "target": ") et on ne saurait l'accuser d'incohérence en se fondant sur l'application d'une métaphore. Il conçoit l'homme hors du Christ comme moralement étranger à Dieu, éloigné de lui ; le changement produit par la foi en Christ en fait moralement un fils, conscient de sa filiation. Mais, par nature, l'homme demeure toujours un fils potentiel, puisque Dieu est toujours réellement Père.",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "IV. As God's Act.",
+          "target": "IV. L'adoption comme acte de Dieu.",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "Adoption as God's act is an eternal process of His gracious love, for He \"fore-ordained us unto adoption as sons through Jesus Christ unto himself, according to the good pleasure of his will\" (",
+          "target": "En tant qu'acte divin, l'adoption est un processus éternel de l'amour bienveillant de Dieu, car il « nous a prédestinés à être adoptés comme ses fils par Jésus-Christ, pour lui-même, selon le bon plaisir de sa volonté » (",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "1. Divine Fatherhood:",
+          "target": "1. La paternité divine :",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "The motive and impulse of Fatherhood which result in adoption were eternally real and active in God. In some sense He had bestowed the adoption upon Israel (",
+          "target": "Les motifs et les impulsions de la paternité qui aboutissent à l'adoption existaient en Dieu et agissaient éternellement. Dans un certain sens, il avait déjà accordé l'adoption à Israël (",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "tail",
+          "source": "). \"Israel is my son, my first-born\" (",
+          "target": "). « Israël est mon fils, mon premier-né » (",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "tail",
+          "source": "). God could not reveal Himself at all without revealing something of His Fatherhood, but the whole revelation was as yet partial and prophetic. When \"God sent forth his Son\" to redeem them that were under the law,\" it became possible for men to receive the adoption; for to those who are willing to receive it, He sent the Spirit of the eternal Son to testify in their hearts that they are sons of God, and to give them confidence and utterance to enable them to call God their Father (",
+          "target": "). Dieu ne pouvait se révéler sans dévoiler quelque chose de sa paternité, mais cette révélation demeurait encore partielle et prophétique. Lorsque « Dieu envoya son Fils » pour racheter ceux qui étaient sous la Loi, il devint possible aux hommes de recevoir l'adoption. À ceux qui sont disposés à la recevoir, Dieu envoya l'Esprit du Fils éternel pour attester dans leurs cœurs qu'ils sont fils de Dieu et leur donner la confiance et la parole nécessaires pour appeler Dieu leur Père (",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "text",
+          "source": "2. Its Cosmic Range:",
+          "target": "2. Sa portée cosmique :",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "text",
+          "source": "But this experience also is incomplete, and looks forward to a fuller adoption in the response, not only of man's spirit, but of the whole creation, including man's body, to the Fatherhood of God (",
+          "target": "Mais cette expérience demeure elle aussi incomplète et annonce une adoption plus entière, dans laquelle non seulement l'esprit de l'homme, mais la création tout entière, y compris son corps, répondra à la paternité de Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "tail",
+          "source": "). Every filial spirit now groans, because it finds itself imprisoned in a body subjected to vanity, but it awaits a redemption of the body, perhaps in the resurrection, or in some final consummation, when the whole material creation shall be transformed into a fitting environment for the sons of God, the creation itself delivered from the bondage of corruption into the liberty of the glory of the children of God (",
+          "target": "). Tout esprit filial gémit aujourd'hui, se découvrant prisonnier d'un corps soumis à la vanité ; il attend la rédemption du corps, peut-être dans la résurrection ou lors d'un accomplissement final où l'ensemble de la création matérielle sera transformé en un cadre approprié pour les fils de Dieu. La création elle-même sera alors libérée de l'esclavage de la corruption pour entrer dans la liberté glorieuse des enfants de Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "tail",
+          "source": "). Then will adoption be complete, when man's whole personality shall be in harmony with the spirit of sonship, and the whole universe favorable to its perseverance in a state of blessedness.",
+          "target": "). L'adoption sera achevée lorsque toute la personnalité humaine sera en harmonie avec l'esprit filial et que l'univers entier favorisera la permanence de cette condition de félicité.",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "text",
+          "source": "CHILDREN OF GOD",
+          "target": "ENFANTS DE DIEU",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "text",
+          "source": "Lightfoot, Galatians; Sanday, Romans; Lidgett, Fatherhood of God; Ritschl, Justification and Reconciliation.",
+          "target": "Lightfoot, Galatians ; Sanday, Romans ; Lidgett, Fatherhood of God ; Ritschl, Justification and Reconciliation.",
+          "action": "translate"
+        },
+        {
+          "node": 89,
+          "part": "text",
+          "source": "T. Rees",
+          "target": "T. Rees",
+          "action": "preserve",
+          "reason": "Original author attribution retained verbatim"
+        }
+      ]
+    }
+  ]
+}

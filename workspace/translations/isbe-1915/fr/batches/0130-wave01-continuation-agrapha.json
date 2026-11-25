@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AGRAPHA",
+      "article_id": "isbe-70d67f13a8866b37a8ae",
+      "source_article_sha256": "075fd2e548844f84c28a6d429e31d438da361eb596f2c7e6a061aeaee38a8634",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AGRAPHA",
+          "target": "AGRAPHA",
+          "action": "preserve",
+          "reason": "AGRAPHA is the same scholarly headword in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ag'-ra-fa (agrapha).",
+          "target": "ag'-ra-fa (agrapha).",
+          "action": "preserve",
+          "reason": "Historical pronunciation and Greek lemma preserved"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "1. The Term and Its History:",
+          "target": "1. Le terme et son histoire :",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "The word agraphos of which agrapha is the neuter plural is met with in classical Greek and in Greek papyri in its primary sense of \"unwritten,\" \"unrecorded.\" In early Christian literature, especially in the writings of Clement of Alexandria, it was used of oral tradition; and in this sense it was revived by Koerner in a Leipzig Program issued in 1776 under the title De sermonibus Christi agraphois. For some time it was restricted to sayings of Christ not recorded in the Gospels and believed to have reached the sources in which they are found by means of oral tradition. As however graphe, the noun with which agrapha is connected, can have not only the general meaning \"writing,\" but the special meaning \"Scripture,\" the, adjective could signify not only \"oral\" but also uncanonical or \"non-canonical\"; and it was employed by Resch in the latter sense in the 1st edition of his great work on the subject which appeared in German in 1889 under the title, Agrapha: Extra-canonical Gospel Fragments. The term was now also extended so as to include narratives as well as sayings. In the second edition (also in German) it is further widened so as to embrace all extra-canonical sayings or passages connected with the Bible. The new title runs: Agrapha Extra-canonical Fragments of Scripture; and the volume contains a first collection of Old Testament agrapha. The term is still however used most frequently of non-canonical sayings ascribed to Jesus, and to the consideration of these this article will mainly be devoted.",
+          "target": "Le mot agraphos, dont agrapha est le pluriel neutre, se rencontre en grec classique et dans les papyrus grecs avec son sens premier de « non écrit », « non consigné ». Dans la littérature chrétienne ancienne, notamment chez Clément d'Alexandrie, il s'appliquait à la tradition orale ; c'est dans ce sens que Koerner le remit en usage, dans un programme publié à Leipzig en 1776 sous le titre De sermonibus Christi agraphois. Pendant un certain temps, son emploi fut limité aux paroles du Christ qui n'avaient pas été consignées dans les Évangiles et qui étaient censées être parvenues jusqu'aux sources les conservant par la tradition orale. Toutefois, puisque graphe, le substantif auquel se rattache agrapha, peut signifier non seulement « écrit » de façon générale, mais aussi « Écriture » dans un sens particulier, l'adjectif pouvait désigner non seulement ce qui était « oral », mais aussi ce qui était non canonique ou « extracanonique ». Resch l'employa dans ce dernier sens dans la première édition de son grand ouvrage sur le sujet, paru en allemand en 1889 sous le titre Agrapha : Fragments évangéliques extracanoniques. La portée du terme fut alors étendue aux récits aussi bien qu'aux paroles. Dans la deuxième édition, également allemande, elle fut encore élargie pour englober tous les passages ou paroles extracanoniques se rapportant à la Bible. Le nouveau titre était Agrapha : Fragments extracanoniques de l'Écriture, et l'ouvrage contenait une première collection d'agrapha de l'Ancien Testament. Le mot demeure néanmoins employé le plus souvent pour les paroles non canoniques attribuées à Jésus ; c'est principalement à celles-ci que le présent article sera consacré.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "2. Extent of Material:",
+          "target": "2. L'étendue du corpus :",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "Of the 361 agrapha and apocrypha given by Resch about 160 are directly ascribed to Christ. About 30 others can be added from Christian and Jewish sources and about 80 sayings found in Muhammadan literature (Expository Times, V, 59, 107, 177 f, 503 f, 561, etc.). The last-mentioned group, although not entirely without interest, may largely be disregarded as it is highly improbable that it represents early tradition. The others come from a variety of sources: the New Testament outside of the Gospels, Gospel manuscripts and VSS, Apocryphal Gospels and an early collection of sayings of Jesus, liturgical texts, patristic and medieval literature and the Talmud.",
+          "target": "Parmi les 361 agrapha et apocryphes recensés par Resch, environ 160 sont directement attribués au Christ. On peut y ajouter quelque 30 autres provenant de sources chrétiennes et juives, ainsi qu'environ 80 paroles présentes dans la littérature musulmane (Expository Times, V, p. 59, 107, 177 et suiv., 503 et suiv., 561, etc.). Bien que ce dernier groupe ne soit pas dépourvu de tout intérêt, on peut largement le laisser de côté, tant il est improbable qu'il représente une tradition ancienne. Les autres textes proviennent de sources variées : le Nouveau Testament en dehors des Évangiles, les manuscrits et versions des Évangiles, les Évangiles apocryphes et une ancienne collection de paroles de Jésus, les textes liturgiques, la littérature patristique et médiévale, ainsi que le Talmud.",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "3. Sayings to Be Excluded:",
+          "target": "3. Paroles à exclure :",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "Many of these sayings have no claim to be regarded as independent agrapha. At least five classes come under this category.",
+          "target": "Nombre de ces paroles ne peuvent prétendre au statut d'agrapha indépendants. Au moins cinq catégories entrent dans ce cas.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "(1) Some are mere parallels or variants, for instance: \"Pray and be not weary,\" which is evidently connected with ",
+          "target": "(1) Certaines ne sont que des parallèles ou des variantes. Par exemple : « Priez sans vous lasser », manifestement apparenté à ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "; and the saying in the Talmud: \"I, the Gospel, did not come to take away from the law of Moses but to add to the law of Moses have I come\" (Shab 116b) which is clearly a variant of ",
+          "target": " ; ou la parole talmudique : « Moi, l'Évangile, je ne suis pas venu ôter quoi que ce soit à la loi de Moïse, mais je suis venu ajouter à la loi de Moïse » (Shab. 116b), qui est clairement une variante de ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "(2) Some sayings are made up of two or more canonical texts. \"I chose you before the world was,\" for example, is a combination of ",
+          "target": "(2) Certaines paroles réunissent deux textes canoniques ou davantage. Ainsi, « Je vous ai choisis avant que le monde fût » combine ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "; and \"Abide in my love and I will give you eternal life\" of ",
+          "target": " ; « Demeurez dans mon amour et je vous donnerai la vie éternelle » réunit ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(3) Misquotation or loose quotation accounts for a number of alleged agrapha. \"Sodom is justified more than thou\" seems to be really from ",
+          "target": "(3) Plusieurs agrapha supposés proviennent de citations erronées ou approximatives. « Sodome est plus juste que toi » semble en réalité tiré de ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": " and its context. \"Let not the sun go down upon your wrath\" is of apostolic not evangelic origin (",
+          "target": " et de son contexte. « Que le soleil ne se couche pas sur votre colère » est d'origine apostolique et non évangélique (",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": "). \"Anger destroys even the prudent\" comes from Septuagint of ",
+          "target": "). « La colère détruit même les hommes prudents » vient de la Septante en ",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "(4) Some sayings must be rejected because they cannot be traced to an early source, for instance, the fine saying: \"Be brave in war, and fight with the old serpent, and ye shall receive eternal life,\" which is first met with in a text of the 12th century",
+          "target": "(4) Il faut écarter certaines paroles dont on ne peut retrouver une source ancienne. C'est le cas de cette belle sentence : « Soyez courageux dans le combat, luttez contre l'antique serpent et vous recevrez la vie éternelle », attestée pour la première fois dans un texte du XIIe siècle.",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "(5) Several sayings are suspicious by reason of their source or their character. The reference to \"my mother the Holy Spirit,\" in one of them, has no warrant in the acknowledged teaching of Christ and comes from a source of uncertain value, the Gospel according to the Hebrews. Pantheistic sayings such as \"I am thou and thou art I, and wherever thou art I am\"; \"You are I and I am you\"; and perhaps the famous saying: \"Raise the stone and thou wilt find me; cleave the wood and there am I,\" as well as the sayings reported by Epiphanius from the Gospel of the Ebionites seem to breathe an atmosphere different from that of the canonical Gospels.",
+          "target": "(5) Plusieurs paroles sont suspectes en raison de leur source ou de leur caractère. L'allusion à « ma mère, le Saint-Esprit » ne trouve aucun fondement dans l'enseignement reconnu du Christ et provient d'une source de valeur incertaine : l'Évangile selon les Hébreux. Des paroles panthéistes comme « Je suis toi et tu es moi, et partout où tu es, je suis » ; « Vous êtes moi et je suis vous » ; peut-être également la fameuse sentence « Soulève la pierre et tu me trouveras ; fends le bois et je suis là », ainsi que les paroles qu'Épiphane rapporte de l'Évangile des Ébionites, semblent respirer une atmosphère différente de celle des Évangiles canoniques.",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "4. Sayings in New Testament:",
+          "target": "4. Paroles conservées dans le Nouveau Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "When all the sayings belonging to these five classes, and a few others of liturgical origin, have been deducted there remain about thirty-five which are worthy of mention and in some cases of careful consideration. Some are dealt with in the article ",
+          "target": "Une fois retranchées toutes les paroles appartenant à ces cinq catégories et quelques autres d'origine liturgique, il en reste environ trente-cinq qui méritent d'être mentionnées et, pour certaines, étudiées attentivement. Plusieurs sont examinées dans l'article ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "LOGIA",
+          "target": "LOGIA",
+          "action": "preserve",
+          "reason": "LOGIA is an unchanged technical cross-reference label"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": " (which see). The others, which are given here, are numbered consecutively to facilitate reference. The best authenticated are of course those found in the New Testament outside of the Gospels. These are",
+          "target": " (voir cet article). Les autres, reproduites ici, sont numérotées consécutivement pour faciliter leur consultation. Les mieux attestées sont naturellement celles qui figurent dans le Nouveau Testament en dehors des Évangiles. Ce sont :",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "(1) the great saying cited by Paul at Miletus: \"It is more blessed to give than to receive\" (",
+          "target": "(1) la grande parole citée par Paul à Milet : « Il y a plus de bonheur à donner qu'à recevoir » (",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "(2) the words used in the institution of the Eucharist preserved only in ",
+          "target": "(2) les paroles de l'institution de l'eucharistie conservées seulement en ",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "tail",
+          "source": " f;",
+          "target": " et verset suivant ;",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "(3) the promise of the baptism of the Spirit (",
+          "target": "(3) la promesse du baptême de l'Esprit (",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "tail",
+          "source": "); and",
+          "target": ") ; et",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "(4) the answer to the question: \"Dost thou at this time restore the kingdom to Israel?\" (",
+          "target": "(4) la réponse à la question : « Est-ce en ce temps que tu rétabliras le royaume pour Israël ? » (",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "tail",
+          "source": " f). Less certain are",
+          "target": " et verset suivant). Sont moins certaines :",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "(5) the description of the Second Advent, said to be \"by the word of the Lord\" (",
+          "target": "(5) la description de la seconde venue, donnée comme étant « selon une parole du Seigneur » (",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": " ff); and",
+          "target": " et versets suivants) ; et",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "(6) the promise of the crown of life to them that love God (",
+          "target": "(6) la promesse de la couronne de vie à ceux qui aiment Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "5. Sayings in Manuscripts and Versions:",
+          "target": "5. Paroles dans les manuscrits et les versions :",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "Of considerable interest are some additions, in manuscripts of the Gospels and versions One of the most remarkable",
+          "target": "Certaines additions présentes dans les manuscrits et les versions des Évangiles offrent un intérêt considérable. L'une des plus remarquables",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "(7) is the comment of Jesus on a man's working on the Sabbath day inserted after ",
+          "target": "(7) est la remarque de Jésus à un homme qui travaillait le jour du sabbat, insérée après ",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "tail",
+          "source": " in Codex Bezae (D) and the Freer manuscript recently discovered in Egypt: \"If thou knowest what thou doest, O man, blessed art thou, but if thou knowest not, thou art accursed and a transgressor of the law.\" Another",
+          "target": " dans le Codex Bezae (D) et dans le manuscrit Freer récemment découvert en Égypte : « Homme, si tu sais ce que tu fais, tu es heureux ; mais si tu ne le sais pas, tu es maudit et tu transgresses la loi. » Une autre",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "(8) also found in D and in several other authorities is appended to ",
+          "target": "(8), également présente dans D et dans plusieurs autres témoins, est ajoutée à ",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": ": \"But ye seek ye from little to increase and from greater to be less.\" In the Curetonian Syriac the latter clause runs: \"and not from greater to be less.\" The new saying is noteworthy but obscure. A third passage",
+          "target": " : « Mais vous, cherchez à grandir à partir de ce qui est petit et à devenir moindres à partir de ce qui est grand. » Dans la version syriaque curétonienne, la dernière proposition se lit : « et non à devenir moindres à partir de ce qui est grand ». Cette nouvelle parole est remarquable, mais obscure. Un troisième passage",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "(9) of less value but still of interest is an insertion in the longer ending of Mark, between 16:14 and 16:15, which was referred to by Jerome as present in codices in his day but has now been met with in Greek for the first time in the above-mentioned Freer MS. (For facsimile see American Journal of Archaeology, 1908.) In reply to a complaint of the disciples about the opposition of Satan and their request: \"Therefore reveal thy righteousness even now,\" Jesus is reported to have said: \"The limit of the years of the authority of Satan is fulfilled, but other dreadful things are approaching, and in behalf of those who had sinned was I delivered unto death in order that they might return to the truth and might sin no longer, that they might inherit the spiritual and incorruptible glory of righteousness in heaven.\" This alleged utterance of the risen Lord is most probably of secondary character (compare Gregory, Das Freer Logion; Swete, Two New Gospel Fragments).",
+          "target": "(9), de moindre valeur mais néanmoins intéressant, est une insertion dans la finale longue de Marc, entre 16:14 et 16:15, que Jérôme disait présente dans des manuscrits de son temps et qui a maintenant été découverte pour la première fois en grec dans le manuscrit Freer mentionné précédemment (pour un fac-similé, voir American Journal of Archaeology, 1908). En réponse à la plainte des disciples au sujet de l'opposition de Satan, ainsi qu'à leur demande « Révèle donc dès maintenant ta justice », Jésus aurait déclaré : « La limite des années de la domination de Satan est accomplie, mais d'autres choses redoutables approchent ; et pour ceux qui avaient péché, j'ai été livré à la mort afin qu'ils reviennent à la vérité, ne pèchent plus et héritent de la gloire spirituelle et incorruptible de la justice dans le ciel. » Cette déclaration supposée du Seigneur ressuscité est très probablement secondaire (comparer Gregory, Das Freer Logion ; Swete, Two New Gospel Fragments).",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "text",
+          "source": "6. Sayings from the Fathers, etc.:",
+          "target": "6. Paroles provenant des Pères, etc. :",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "Apocryphal and patristic literature supplies some notable sayings. The first place must be given",
+          "target": "La littérature apocryphe et patristique fournit plusieurs paroles remarquables. Il faut accorder la première place",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "(10) to the great saying which in its shortest form consists of only three words: \"Be (\"become,\" \"show yourselves to be\") approved money-changers.\" Resch (Agrapha2, number 87) gives 69 references, at least 19 of which date from the 2nd and 3rd centuries, although they represent only a few authorities, all Egyptian. The saying seems to have circulated widely in the early church and may be genuine. Other early sayings of interest or value, from these sources, must be given without comment.",
+          "target": "(10) à cette grande maxime qui, sous sa forme la plus brève, ne comporte que trois mots : « Soyez [ou “devenez”, “montrez-vous”] des changeurs éprouvés. » Resch (Agrapha, 2e éd., no 87) en fournit 69 références, dont au moins 19 datent des IIe et IIIe siècles, bien qu'elles ne correspondent qu'à un petit nombre de sources, toutes égyptiennes. La sentence semble avoir beaucoup circulé dans l'Église ancienne et pourrait être authentique. Il convient de donner sans commentaire d'autres paroles anciennes qui présentent de l'intérêt ou de la valeur.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "(11) \"The heavenly Father willeth the repentance of the sinner rather than his punishment\" (Justin Martyr).",
+          "target": "(11) « Le Père céleste veut la repentance du pécheur plutôt que son châtiment » (Justin Martyr).",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "(12) \"That which is weak shall be saved by that which is strong\" (circa 300 AD).",
+          "target": "(12) « Ce qui est faible sera sauvé par ce qui est fort » (vers 300 apr. J.-C.).",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "(13) \"Come out from bonds ye who will\" (Clement of Alexandria).",
+          "target": "(13) « Sortez de vos liens, vous qui le voulez » (Clément d'Alexandrie).",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "(14) \"Be thou saved and thy soul\" (Theodotus in id).",
+          "target": "(14) « Sois sauvé, toi et ton âme » (Théodote, cité au même endroit).",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "(15) \"Blessed are they who mourn for the perdition of unbelievers\" (Didaskalia).",
+          "target": "(15) « Heureux ceux qui pleurent la perdition des incroyants » (Didaskalia).",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "(16) \"He who is near me is near the fire; he who is far from me is far from the kingdom\" (Origen).",
+          "target": "(16) « Celui qui est près de moi est près du feu ; celui qui est loin de moi est loin du royaume » (Origène).",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "(17) \"He who has not been tempted has not been approved\" (Didaskalia, etc.).",
+          "target": "(17) « Celui qui n'a pas été tenté n'a pas été approuvé » (Didaskalia, etc.).",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "(18) He who makes sad a brother's spirit is one of the greatest of criminals\" (Ev Heb).",
+          "target": "(18) Celui qui attriste l'esprit d'un frère est l'un des plus grands criminels » (Évangile des Hébreux).",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "(19) \"Never be glad except when ye have seen your brother in love\" (same place).",
+          "target": "(19) « Ne vous réjouissez jamais, sinon lorsque vous avez vu votre frère dans l'amour » (même source).",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "(20) \"Let not him who seeks cease .... until he find, and when he finds he shall be astonished; astonished he shall reach the kingdom, and when he has reached the kingdom he shall rest\" (Clement of Alexandria and Logia of Oxyrhynchus).",
+          "target": "(20) « Que celui qui cherche ne cesse pas de chercher [...] jusqu'à ce qu'il trouve ; et lorsqu'il aura trouvé, il sera étonné ; une fois étonné, il atteindra le royaume, et lorsqu'il aura atteint le royaume, il trouvera le repos » (Clément d'Alexandrie et Logia d'Oxyrhynque).",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "(21) In a fragment of a Gospel found by Grenfell and Hunt at Oxyrhynchus (O Papyri number 655) is the following non-canonical passage in a canonical context: \"He Himself will give you clothing. His disciples say unto Him: When wilt thou be manifest to us and when shall we see thee? He saith: When ye shall be stripped and not be ashamed.\" The saying or apocryphon exhibits considerable likeness to a saying cited by Clement of Alexandria from the Gospel according to the Egyptians, but the difference is great enough to make original identity doubtful. Another fragment found by the same explorers on the same site (O Papyri number 840) preserves two agrapha or apocrypha which though clearly secondary are very curious. The first",
+          "target": "(21) Un fragment d'Évangile découvert à Oxyrhynque par Grenfell et Hunt (O Papyri, no 655) présente ce passage non canonique dans un contexte canonique : « Lui-même vous donnera des vêtements. Ses disciples lui disent : Quand te manifesteras-tu à nous et quand te verrons-nous ? Il dit : Lorsque vous serez dépouillés et n'aurez pas honte. » Cette parole, ou apocryphe, présente une ressemblance considérable avec une sentence citée par Clément d'Alexandrie d'après l'Évangile selon les Égyptiens, mais la différence est assez grande pour rendre douteuse leur identité originelle. Un autre fragment découvert sur le même site par les mêmes explorateurs (O Papyri, no 840) conserve deux agrapha ou apocryphes qui, tout en étant manifestement secondaires, sont fort curieux. Le premier",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "(22) is the concluding portion of a saying about the punishment of evil-doers: \"Before a man does wrong he makes all manner of subtle excuses. But give heed lest you also suffer the same things as they for the evil-doers among men receive not their due among the living (Greek zois) only but also await punishment and much torment.\" Professor Swete (Two New Gospel Fragments), accents zoois as the plural of zoon and thus finds a contrast between the fate of animals and that of human beings. The second saying",
+          "target": "(22) constitue la dernière partie d'une parole sur le châtiment des malfaiteurs : « Avant de mal agir, un homme se cherche toutes sortes de prétextes subtils. Mais prenez garde de subir les mêmes choses, car les malfaiteurs parmi les hommes ne reçoivent pas seulement leur dû parmi les vivants (grec zois) : ils attendent aussi un châtiment et de nombreux tourments. » Le professeur Swete (Two New Gospel Fragments) accentue zoois comme le pluriel de zoon et découvre ainsi une opposition entre le sort des animaux et celui des êtres humains. La seconde parole",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "(23) is a rather lengthy reply to the complaint of a Pharisaic stickler for outward purity. The most interesting part of it as edited by Swete runs as follows: \"Woe to you blind who see not.... But I and my disciples who thou sayest have not been dipped have dipped in the waters of eternal life which come down from God out of heaven.\" All these texts from Oxyrhynchus probably date from the 2nd century. Other Egypt sources, the so-called Coptic Apocryphal Gospels (Texts and Studies Camb. IV, 2, 1896), contain several sayings which are of interest as coming from the same religious environment. The following three are the most remarkable.",
+          "target": "(23) est une réponse assez longue à la plainte d'un pharisien pointilleux quant à la pureté extérieure. Le passage le plus intéressant, tel qu'établi par Swete, se lit : « Malheur à vous, aveugles qui ne voyez pas ! [...] Mais moi et mes disciples, dont tu dis que nous n'avons pas été immergés, nous avons été plongés dans les eaux de la vie éternelle qui descendent de Dieu depuis le ciel. » Tous ces textes d'Oxyrhynque datent probablement du IIe siècle. D'autres sources égyptiennes, les prétendus Évangiles apocryphes coptes (Texts and Studies, Cambridge, IV, 2, 1896), contiennent plusieurs paroles intéressantes parce qu'elles proviennent du même milieu religieux. Les trois suivantes sont les plus remarquables.",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "(24) \"Repent, for it is better that a man find a cup of water in the age that is coming than all the riches of this world\" (130).",
+          "target": "(24) « Repentez-vous, car il vaut mieux qu'un homme trouve une coupe d'eau dans le siècle à venir que toutes les richesses de ce monde » (p. 130).",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "(25) \"Better is a single footstep in My Father's house than all the wealth of this world\" (130 f).",
+          "target": "(25) « Un seul pas dans la maison de mon Père vaut mieux que toutes les richesses de ce monde » (p. 130 et suiv.).",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "(26) \"Now therefore have faith in the love of My Father; for faith is the end of all things\" (176). As in the case of the Logia these sayings are found in association with canonical sayings and parallels. Since the Logan may well have numbered scores, if not hundreds, it is at least possible that these Coptic sayings may have been taken from the missing portions of this collection, or a recension of it, and therefore they are not unworthy of notice as conceivably early agrapha. To these sayings of Christian derivation may be added",
+          "target": "(26) « Maintenant donc, ayez foi dans l'amour de mon Père ; car la foi est la fin de toutes choses » (p. 176). Comme dans le cas des Logia, ces paroles sont associées à des paroles canoniques et à leurs parallèles. Comme les Logia pouvaient bien comporter des dizaines, voire des centaines de sentences, il est au moins possible que ces paroles coptes proviennent des parties perdues de cette collection ou d'une version remaniée de celle-ci. Elles ne sont donc pas indignes d'attention, car elles pourraient être des agrapha anciens. À ces paroles d'origine chrétienne peut s'ajouter",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "(27) one Muhammadan saying, that inscribed in Arabic on the chief gateway of the city Futteypore Sikri built by Akbar: \"The world is but a bridge, over which you must pass, but must not linger to build your dwelling\" (In the Himalayas by Miss Gordon Cumming, cited by Griffenhoofe, The Unwritten Sayings of Christ, 128).",
+          "target": "(27) une parole musulmane inscrite en arabe sur le portail principal de la ville de Fatehpur-Sikri, construite par Akbar : « Le monde n'est qu'un pont que tu dois franchir, mais ne t'y attarde pas pour y construire ta demeure » (In the Himalayas, de Mlle Gordon Cumming, cité par Griffenhoofe, The Unwritten Sayings of Christ, p. 128).",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "7. Result:",
+          "target": "7. Résultat :",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "Although the number of agrapha purporting to be sayings of Jesus which have been collected by scholars seems at first sight imposing, those which have anything like a strong claim to acceptance on the ground of early and reliable source and internal character are disappointingly few. Of those given above numbers 1-4, 7, 8, 10 which have mostly early attestation clearly take precedence of the rest. Numbers 11-20 are early enough and good enough to merit respectful consideration. Still the proportion of genuine, or possibly genuine, material is very small. Ropes is probably not far from the truth when he remarks that \"the writers of the Synoptic Gospels did their work so well that only stray bits here and there, and these but of small value, were left for the gleaners.\" On the other hand it is not necessary to follow Wellhausen in rejecting the agrapha in toto. Recent discoveries have shown that they are the remains of a considerable body of extra-canonical sayings which circulated more or less in Christian circles, especially in Egypt, in the early centuries, and the possible presence in what we possess of a sentence or two actually spoken by Jesus fully justifies research.",
+          "target": "Bien que le nombre des agrapha recueillis par les spécialistes et censés être des paroles de Jésus semble d'abord impressionnant, ceux qui présentent des titres sérieux à l'acceptation, tant par la date et la fiabilité de leur source que par leur caractère propre, sont décevants par leur rareté. Parmi ceux qui précèdent, les numéros 1 à 4, 7, 8 et 10, attestés pour la plupart à une date ancienne, ont clairement la priorité sur les autres. Les numéros 11 à 20 sont assez anciens et de qualité suffisante pour mériter un examen respectueux. Cependant, la proportion de matériaux authentiques ou peut-être authentiques demeure très faible. Ropes n'est probablement pas loin de la vérité lorsqu'il observe que « les auteurs des Évangiles synoptiques ont si bien accompli leur travail qu'ils n'ont laissé aux glaneurs que quelques fragments épars, d'une valeur d'ailleurs médiocre ». En revanche, il n'est pas nécessaire de suivre Wellhausen lorsqu'il rejette tous les agrapha en bloc. Les découvertes récentes ont montré qu'ils constituent les restes d'un corpus considérable de paroles extracanoniques qui circulèrent plus ou moins dans les milieux chrétiens, spécialement en Égypte, pendant les premiers siècles. La possibilité que l'une ou l'autre des phrases conservées ait été effectivement prononcée par Jésus suffit pleinement à justifier la recherche.",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "text",
+          "source": "8. Other Agrapha:",
+          "target": "8. Autres agrapha :",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "The second edition of the work of Resch includes 17 agrapha from manuscripts of Ac and 1 Joh most of which are from Codex Bezae (D), 31 apostolic apocrypha, and 66 agrapha and apocrypha connected with the Old Testament. 19 of the latter are largely taken from pseudepigrapha, a pseudo-Ezekiel for instance These agrapha some of which are really textual variants are of inferior interest and value.",
+          "target": "La deuxième édition de l'ouvrage de Resch comprend 17 agrapha tirés de manuscrits des Actes et de 1 Jean, la plupart provenant du Codex Bezae (D), 31 apocryphes apostoliques et 66 agrapha ou apocryphes liés à l'Ancien Testament. Parmi ces derniers, 19 proviennent largement de pseudépigraphes, par exemple d'un pseudo-Ézéchiel. Ces agrapha, dont certains sont en réalité des variantes textuelles, présentent un intérêt et une valeur moindres.",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "text",
+          "source": "The chief authorities are the German book of the American scholar J. H. Ropes, Die Spruche Jesu, die in den kanonischen Evangelien nicht uberliefert sind, and his article \"Agrapha in HDB (extra vol); and the often-mentioned work of Resch. The former has great critical value, and the latter, especially in the 2nd edition, is a veritable thesaurus of material. For a full survey of the literature up to 1905 see that work, pp. 14-17. There is much criticism in Bauer's Das Leben Jesu im Zeitalter der neutestamentlichen Apokryphen, chapter vii. Among smaller works special mention may be made of Prebendary Blomfield's Twenty-Five Agrapha (1900); and the book of Griffenhoofe, the title of which is given above. There are recent articles on the subject in HDB (1909), \"Unwritten Sayings,\" and DCG, \"Sayings (Unwritten)\"; Am. Journal of Archaeology, XII (1908), 49-55; H. A. Sanders, New manuscripts from Egypt; also ib, XIII (1909), 130.",
+          "target": "Les principaux ouvrages de référence sont le livre en allemand du savant américain J. H. Ropes, Die Spruche Jesu, die in den kanonischen Evangelien nicht uberliefert sind, et son article « Agrapha » dans HDB (volume supplémentaire), ainsi que l'ouvrage de Resch déjà cité. Le premier possède une grande valeur critique ; le second, particulièrement dans sa deuxième édition, constitue un véritable trésor de documents. Pour un panorama complet de la littérature jusqu'en 1905, voir ce dernier ouvrage, p. 14-17. L'ouvrage de Bauer, Das Leben Jesu im Zeitalter der neutestamentlichen Apokryphen, chapitre VII, contient de nombreuses critiques. Parmi les travaux plus modestes, il convient de mentionner spécialement Twenty-Five Agrapha (1900), du chanoine Blomfield, ainsi que le livre de Griffenhoofe cité plus haut. On trouvera des articles récents sur le sujet dans HDB (1909), « Unwritten Sayings », et DCG, « Sayings (Unwritten) » ; American Journal of Archaeology, XII (1908), p. 49-55 ; H. A. Sanders, New manuscripts from Egypt ; également ibid., XIII (1909), p. 130.",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "LOGIA",
+          "target": "LOGIA",
+          "action": "preserve",
+          "reason": "LOGIA is an unchanged technical cross-reference label"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "William Taylor Smith",
+          "target": "William Taylor Smith",
+          "action": "preserve",
+          "reason": "Original author attribution preserved verbatim"
+        }
+      ]
+    }
+  ]
+}

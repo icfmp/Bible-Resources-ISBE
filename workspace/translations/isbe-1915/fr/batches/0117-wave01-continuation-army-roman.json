@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ARMY, ROMAN",
+      "article_id": "isbe-3c0d1f6f1ab12d7a6aae",
+      "source_article_sha256": "db7372cd4f70f9f1e967cbf7c1f8cd015d261a5773317447c2e76c95984f904c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ARMY, ROMAN",
+          "target": "ARMÉE ROMAINE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ar'-mi, ro'-man; The treatment of this subject will be confined to",
+          "target": "ar'-mi, ro'-man : Nous limiterons l'étude de ce sujet à :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(I) a brief description of the organization of the army, and",
+          "target": "(I) une brève description de l'organisation de l'armée et",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(II) a consideration of the allusions to the Roman military establishment in the New Testament.",
+          "target": "(II) un examen des allusions à l'institution militaire romaine dans le Nouveau Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "I. Organization.",
+          "target": "I. Organisation.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "There were originally no standing forces, but the citizens performed military service like any other civic duty when summoned by the magistrates. The gradual development of a military profession and standing army culminated in the admission of the poorest class to the ranks by Marius (about 107 BC). Henceforth the Roman army was made up of a body of men whose character was essentially that of mercenaries, and whose term of continuous service varied in different divisions from 16 to 26 years.",
+          "target": "À l'origine, il n'existait pas de forces permanentes : les citoyens accomplissaient leur service militaire, comme n'importe quel autre devoir civique, lorsqu'ils étaient appelés par les magistrats. Le développement progressif d'une profession militaire et d'une armée permanente culmina avec l'admission dans les rangs des citoyens les plus pauvres par Marius, vers 107 av. J.-C. Dès lors, l'armée romaine fut composée d'hommes dont la condition ressemblait essentiellement à celle de mercenaires et dont la durée de service continu variait, selon les unités, de seize à vingt-six ans.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "The forces which composed the Roman army under the Empire may be divided into the following five groups:",
+          "target": "Les forces composant l'armée romaine sous l'Empire peuvent être réparties en cinq groupes :",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(1) the imperial guard and garrison of the capital,",
+          "target": "(1) la garde impériale et la garnison de la capitale ;",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(2) the legions,",
+          "target": "(2) les légions ;",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(3) the auxilia,",
+          "target": "(3) les auxilia ;",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(4) the numeri,",
+          "target": "(4) les numeri ;",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "(5) the fleet. We shall discuss their organization in the order mentioned.",
+          "target": "(5) la flotte. Nous examinerons leur organisation dans cet ordre.",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "1. The Imperial Guard:",
+          "target": "1. La garde impériale :",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "The imperial guard consisted of the cohortes praetoriae, which together with the cohortes urbanae and vigiles made up the garrison of Rome. In the military system as established by Augustus there were nine cohorts of the praetorian guard, three of the urban troops, and seven of the vigiles. Each cohort numbered 1,000 men, and was commanded by a tribune of equestrian rank. The praetorian prefects (praefecti praetorii), of whom there were usually two, were commanders of the entire garrison of the capital, and stood at the highest point of distinction and authority in the equestrian career.",
+          "target": "La garde impériale comprenait les cohortes prétoriennes (cohortes praetoriae), qui formaient, avec les cohortes urbaines (cohortes urbanae) et les vigiles, la garnison de Rome. Dans le système militaire établi par Auguste, on comptait neuf cohortes de la garde prétorienne, trois cohortes urbaines et sept cohortes de vigiles. Chaque cohorte comptait mille hommes et était commandée par un tribun de rang équestre. Les préfets du prétoire (praefecti praetorii), généralement au nombre de deux, commandaient l'ensemble de la garnison de la capitale et occupaient le sommet de la hiérarchie et de l'autorité accessibles au cursus équestre.",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "2. The Legions:",
+          "target": "2. Les légions :",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "There were 25 legions in 23 AD (Tacitus Annals 4, 5), which had been increased to 30 at the time of the reign of Marcus Aurelius, 160-180 AD (CIL, VI, 3492 a-b) and to 33 under Septimius Severus (Dio Cassius, iv. 23-24). Each legion was made up, ordinarily, of 6,000 men, who were divided into 10 cohorts, each cohort containing 3 maniples, and each maniple in turn 2 centuries.",
+          "target": "On comptait vingt-cinq légions en 23 apr. J.-C. (Tacite, Annales, IV, 5). Leur nombre était passé à trente sous Marc Aurèle, entre 160 et 180 apr. J.-C. (CIL, VI, 3492 a-b), puis à trente-trois sous Septime Sévère (Dion Cassius, IV, 23-24). Une légion comprenait ordinairement six mille hommes, répartis en dix cohortes. Chaque cohorte était composée de trois manipules et chaque manipule de deux centuries.",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "The legatus Augustus pro praetore, or governor of each imperial province, was chief commander of all the troops within the province. An officer of senatorial rank known as legatus Augusti legionis was entrusted with the command of each legion, together with the bodies of auxilia which were associated with it. Besides, there were six tribuni militum, officers of equestrian rank (usually sons of senators who had not yet held the quaestorship) in each legion. The centurions who commanded the centuries belonged to the plebeian class. Between the rank of common soldier and centurion there were a large number of subalterns, called principales, who correspond roughly to the non-commissioned officers and men detailed from the ranks for special duties in modern armies.",
+          "target": "Le legatus Augusti pro praetore, ou gouverneur de chaque province impériale, était le commandant en chef de toutes les troupes stationnées dans la province. Un officier de rang sénatorial, appelé legatus Augusti legionis, recevait le commandement de chaque légion ainsi que des unités auxiliaires qui lui étaient rattachées. Il y avait en outre six tribuni militum, officiers de rang équestre, généralement des fils de sénateurs qui n'avaient pas encore exercé la questure, dans chaque légion. Les centurions qui commandaient les centuries appartenaient à la classe plébéienne. Entre le simple soldat et le centurion se trouvait un grand nombre de sous-officiers ou subalternes, appelés principales, correspondant approximativement aux sous-officiers et aux hommes du rang affectés à des fonctions particulières dans les armées modernes.",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "3. The \"Auxilia\":",
+          "target": "3. Les auxilia :",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "The auxilia were organized as infantry in cohortes, as cavalry in alae, or as mixed bodies, cohortes equitatae. Some of these divisions contained approximately 1,000 men (cohortes or alae miliariae), but the greater number about 500 (cohortes or alae quingenariae). They were commanded by tribuni and praefecti of equestrian rank. The importance of the auxilia consisted originally in the diversity of their equipment and manner of fighting, since each group adhered to the customs of the nation in whose midst it had been recruited. But with the gradual Romanization of the Empire they were assimilated more and more to the character of the legionaries.",
+          "target": "Les troupes auxiliaires, ou auxilia, étaient organisées en cohortes (cohortes) pour l'infanterie, en ailes (alae) pour la cavalerie, ou en unités mixtes (cohortes equitatae). Certaines de ces unités comptaient environ mille hommes (cohortes ou alae miliariae), mais la plupart en comptaient environ cinq cents (cohortes ou alae quingenariae). Elles étaient commandées par des tribuns et des préfets de rang équestre. À l'origine, l'importance des auxilia résidait dans la diversité de leur équipement et de leurs méthodes de combat, chaque groupe conservant les coutumes du peuple au sein duquel il avait été recruté. Mais, avec la romanisation progressive de l'Empire, leur caractère se rapprocha de plus en plus de celui des légionnaires.",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "4. The \"Numeri\":",
+          "target": "4. Les numeri :",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "The numeri developed out of the provincial militia and began to appear in the 2nd century AD. They maintained their local manner of warfare. Some were bodies of infantry, others of cavalry, and they varied in strength from 300 to 90 (Mommsen, Hermes, XIX, 219 f, and XXII, 547 f). Their commanders were praepositi, praefecti or tribuni, all men of equestrian rank.",
+          "target": "Les numeri se développèrent à partir des milices provinciales et commencèrent à apparaître au IIe siècle apr. J.-C. Ils conservaient les méthodes de combat propres à leur région. Certains étaient des unités d'infanterie, d'autres de cavalerie, et leurs effectifs variaient de trois cents à quatre-vingt-dix hommes (Mommsen, Hermes, XIX, p. 219 et suiv., et XXII, p. 547 et suiv.). Leurs commandants, praepositi, praefecti ou tribuni, appartenaient tous à l'ordre équestre.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "5. The Fleet:",
+          "target": "5. La flotte :",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "The fleet was under the command of prefects (praefecti classis), who took rank among the highest officials of the equestrian class. The principal naval stations were at Misenum and Ravenna.",
+          "target": "La flotte était commandée par des préfets (praefecti classis), qui comptaient parmi les plus hauts fonctionnaires de l'ordre équestre. Les principales bases navales se trouvaient à Misène et à Ravenne.",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "6. Defensive Arrangements:",
+          "target": "6. Le dispositif défensif :",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "Augustus established the northern boundary of the Empire at the Rhine and at the Danube, throughout the greater part of its course, and bequeathed to his successors the advice that they should not extend their sovereignty beyond the limits which he had set (Tacitus Annals i.11; Agricola 13); and although this policy was departed from in many instances, such as the annexation of Thrace, Cappadocia, Mauretania, Britain, and Dacia, not to mention the more ephemeral acquisitions of Trajan, yet the military system of the Empire was arranged primarily with the view of providing for the defense of the provinces and not for carrying on aggressive warfare on a large scale. Nearly all the forces, with the exception of the imperial guard, were distributed among the provinces on the border of the Empire, and the essential feature of the disposition of the troops in these provinces was the permanent fortress in which each unit was stationed.",
+          "target": "Auguste établit la frontière septentrionale de l'Empire le long du Rhin et, sur la plus grande partie de son cours, du Danube. Il recommanda à ses successeurs de ne pas étendre leur souveraineté au-delà des limites qu'il avait fixées (Tacite, Annales, I, 11 ; Agricola, 13). Cette politique fut certes abandonnée dans de nombreux cas, comme lors des annexions de la Thrace, de la Cappadoce, de la Maurétanie, de la Bretagne et de la Dacie, sans parler des conquêtes plus éphémères de Trajan. Toutefois, l'organisation militaire de l'Empire avait été conçue avant tout pour défendre les provinces, et non pour mener de vastes guerres de conquête. Presque toutes les forces, à l'exception de la garde impériale, étaient réparties dans les provinces frontalières de l'Empire. L'élément essentiel de leur déploiement était la forteresse permanente où chaque unité tenait garnison.",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "The combination of large camps for the legions with a series of smaller forts for the alae, cohorts, and numeri is the characteristic arrangement on all the frontiers. The immediate protection of the frontier was regularly entrusted to the auxiliary troops, while the legions were usually stationed some distance to the rear of the actual boundary. Thus the army as a whole was so scattered that it was a difficult undertaking to assemble sufficient forces for carrying out any considerable project of foreign conquest, or even to cope at once with a serious invasion, yet the system was generally satisfactory in view of the conditions which prevailed, and secured for the millions of subjects of the Roman Empire the longest period of undisturbed tranquillity known to European history.",
+          "target": "Sur toutes les frontières, le dispositif caractéristique associait de grands camps destinés aux légions à une série de forts plus petits accueillant les ailes de cavalerie, les cohortes et les numeri. La protection immédiate des frontières était généralement confiée aux troupes auxiliaires, tandis que les légions se tenaient d'ordinaire quelque peu en arrière de la frontière proprement dite. L'armée, dans son ensemble, se trouvait donc si dispersée qu'il était difficile de rassembler des forces suffisantes pour entreprendre une conquête extérieure d'envergure ou même pour faire face immédiatement à une invasion grave. Dans les conditions de l'époque, ce système était pourtant généralement satisfaisant et assura aux millions de sujets de l'Empire romain la plus longue période de tranquillité ininterrompue que l'histoire européenne eût connue.",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "7. Recruiting System:",
+          "target": "7. Le système de recrutement :",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "In accordance with the arrangements of Augustus, the cohortes praetoriae and cohortes urbanae were recruited from Latium, Etruria, Umbria, and the older Roman colonies (Tacitus Annals 4, 5), the legions from the remaining portions of Italy, and the auxilia from the subject communities of the Empire (Seeck, Rheinisches Museum, XLVIII, 616).",
+          "target": "Conformément aux dispositions prises par Auguste, les cohortes prétoriennes et urbaines recrutaient au Latium, en Étrurie, en Ombrie et dans les anciennes colonies romaines (Tacite, Annales, IV, 5), les légions dans les autres régions de l'Italie et les auxilia dans les communautés soumises de l'Empire (Seeck, Rheinisches Museum, XLVIII, p. 616).",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "But in course of time the natives of Italy disappeared, first from the legions, and later from the garrison of the capital. Antoninus Plus established the rule that each body of troops should draw its recruits from the district where it was stationed. Henceforth the previous possession of Roman citizenship was no longer required for enlistment in the legions. The legionary was granted the privilege of citizenship upon entering the service, the auxiliary soldier upon being discharged (Seeck, Untergang der antiken Welt, I, 250).",
+          "target": "Avec le temps, les Italiens disparurent toutefois des rangs des légions, puis de la garnison de la capitale. Antonin le Pieux établit la règle selon laquelle chaque unité devait recruter ses hommes dans la région où elle stationnait. Désormais, la citoyenneté romaine préalable n'était plus exigée pour s'engager dans une légion. Le légionnaire recevait le privilège de la citoyenneté dès son entrée au service ; le soldat auxiliaire, lors de son congé définitif (Seeck, Untergang der antiken Welt, I, p. 250).",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "II. Allusions in the New Testament to the Roman Military Establishment.",
+          "target": "II. Allusions à l'institution militaire romaine dans le Nouveau Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "Such references relate chiefly to the bodies of troops which were stationed in Judea. Agrippa I left a military establishment of one ala and five cohorts at his death in 44 AD (Josephus, Ant, XIX, ix, 2; BJ, III, iv, 2), which he had doubtless received from the earlier Roman administration. These divisions were composed of local recruits, chiefly Samaritans (Hirschfeld, Verwaltungsbeamte, 395; Mommsen, Hermes, XIX, 217, note 1). The Ala I gemina Sebastenorum was stationed at Caesarea (Josephus, Ant, XX, 122; BJ, II, xii, 5; CIL, VIII, 9359).",
+          "target": "Ces références concernent principalement les unités stationnées en Judée. À sa mort, en 44 apr. J.-C., Agrippa Ier laissa une garnison composée d'une aile de cavalerie et de cinq cohortes (Josèphe, Antiquités judaïques, XIX, IX, 2 ; Guerre des Juifs, III, IV, 2), qu'il avait sans doute reçue de l'administration romaine précédente. Ces unités étaient constituées de recrues locales, surtout des Samaritains (Hirschfeld, Verwaltungsbeamte, p. 395 ; Mommsen, Hermes, XIX, p. 217, note 1). L'Ala I gemina Sebastenorum était stationnée à Césarée (Josèphe, Antiquités judaïques, XX, 122 ; Guerre des Juifs, II, XII, 5 ; CIL, VIII, 9359).",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "1. Augustan Band:",
+          "target": "1. La cohorte Auguste :",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "Julius, the centurion to whom Paul and other prisoners were delivered to be escorted to Rome (",
+          "target": "Julius, le centurion auquel Paul et d'autres prisonniers furent confiés pour être conduits à Rome (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": "), belonged to one of the five cohorts which was stationed at or near Caesarea. This Speira Sebaste (Westcott-Hort), \"Augustus' Band\" (the Revised Version (British and American) \"Augustan band\"; the Revised Version, margin \"cohort\"), was probably the same body of troops which is mentioned in inscriptions as Cohors I Augusta (CIL, Supp, 6687) and Speira Augouste (Lebas-Waddington 2112). Its official title may have been Cohors Augusta Sebastenorum (GVN). It will be observed that all divisions of the Roman army were divided into companies of about 100 men, each of which, in the infantry, was commanded by a centurion, in the cavalry, by a decurion.",
+          "target": "), appartenait à l'une des cinq cohortes stationnées à Césarée ou dans ses environs. Cette Speira Sebaste (Westcott-Hort), appelée « cohorte d'Auguste » dans la King James Version et « cohorte Augusta » dans la Revised Version britannique et américaine (avec « cohorte » en note marginale), était probablement la même unité que celle mentionnée dans les inscriptions sous les noms de Cohors I Augusta (CIL, supplément, 6687) et Speira Augouste (Le Bas-Waddington, 2112). Son titre officiel était peut-être Cohors Augusta Sebastenorum (GVN). On remarquera que toutes les formations de l'armée romaine étaient divisées en compagnies d'environ cent hommes, chacune commandée, dans l'infanterie, par un centurion et, dans la cavalerie, par un décurion.",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "2. Italian Band:",
+          "target": "2. La cohorte italienne :",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "There was another cohort in Caesarea, the \"Italian band\" (Cohors Italica, Vulgate) of which Cornelius was centurion (",
+          "target": "Il existait une autre cohorte à Césarée, la « cohorte italienne » (Cohors Italica dans la Vulgate), à laquelle appartenait le centurion Corneille (",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": ": ek speires tes kaloumenes Italikes). The cohortes Italicae (civium Romanorum) were made up of Roman citizens (Marquardt, Romische Staatsverwaltung, II, 467).",
+          "target": " : ek speires tes kaloumenes Italikes). Les cohortes Italicae (civium Romanorum) étaient composées de citoyens romains (Marquardt, Römische Staatsverwaltung, II, p. 467).",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "3. Praetorian Guard:",
+          "target": "3. La garde prétorienne :",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "One of the five cohorts was stationed in Jerusalem (",
+          "target": "L'une des cinq cohortes stationnait à Jérusalem (",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": "), the \"chief captain\" of which was Claudius Lysias. His title, chiliarchos in the Greek (",
+          "target": "), sous le commandement supérieur de Claude Lysias. Son titre grec, chiliarchos (",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": " the King James Version), meaning \"leader of a thousand men\" (tribunus, Vulgate), indicates that this body of soldiers was a cohors miliaria. Claudius Lysias sent Paul to Felix at Caesarea under escort of 200 soldiers, 70 horsemen, and 200 spearmen (",
+          "target": " dans la King James Version), signifie « chef de mille hommes » (tribunus dans la Vulgate) et indique que cette unité était une cohors miliaria. Claude Lysias envoya Paul à Félix, à Césarée, avec une escorte de deux cents soldats, soixante-dix cavaliers et deux cents porteurs de lance (",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": "). The latter (dexiolaboi, Westcott and Hort, The New Testament in Greek) are thought to have been a party of provincial militia. Several centurions of the cohort at Jerusalem appear during the riot and subsequent rescue and arrest of Paul (",
+          "target": "). Ces derniers (dexiolaboi, selon Westcott et Hort, The New Testament in Greek) auraient constitué un détachement de milice provinciale. Plusieurs centurions de la cohorte de Jérusalem apparaissent lors de l'émeute, puis du secours apporté à Paul et de son arrestation (",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "tail",
+          "source": "). The cohortes miliariae (of 1,000 men) contained ten centurions. A centurion, doubtless of the same cohort, was in charge of the execution of the Saviour (",
+          "target": "). Les cohortes miliariae, fortes de mille hommes, comptaient dix centurions. Un centurion, sans doute issu de la même cohorte, fut chargé de l'exécution du Sauveur (",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "tail",
+          "source": "). It was customary for centurions to be entrusted with the execution of capital penalties (Tacitus Ann. i.6; xvi.9; xvi.15; Hist. ii.85).",
+          "target": "). Il était habituel de confier aux centurions l'exécution des peines capitales (Tacite, Annales, I, 6 ; XVI, 9 ; XVI, 15 ; Histoires, II, 85).",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "The the King James Version contains the passage in ",
+          "target": "La King James Version contient en ",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "tail",
+          "source": ": \"The centurion delivered the prisoners to the captain of the guard\" (stratopedarches), which the Revised Version (British and American) omits. It has commonly been held that the expression stratopedarches was equivalent to praetorian prefect (praefectus praetorius), and that the employment of the word in the singular was proof that Paul arrived in Rome within the period 51-62 AD when Sex. Afranius Burrus was sole praetorian prefect. Mommsen (Sitzungsberichte der Berliner Akademie (1895), 491-503) believes that the sentence in question embodies an ancient tradition, but that the term stratopedarches could not mean praefectus praetorius, which is never rendered in this way in Greek. He suggests that it stands for princeps castrorum peregrinorum, who was a centurion in command of the frumentarii at Rome. These were detachments of legionary soldiers who took rank as principales. They served as military couriers between the capital and provinces, political spies, and an imperial police. It was probably customary, at least when the tradition under discussion arose, for the frumentarii to take charge of persons who were sent to Rome for trial (Marquardt, Romische Staatsverwaltung, II, 491-94).",
+          "target": " la phrase suivante : « Le centurion livra les prisonniers au commandant de la garde » (stratopedarches), que la Revised Version britannique et américaine omet. On a généralement considéré que l'expression stratopedarches équivalait à « préfet du prétoire » (praefectus praetorius) et que son emploi au singulier prouvait que Paul était arrivé à Rome entre 51 et 62 apr. J.-C., période durant laquelle Sextus Afranius Burrus était l'unique préfet du prétoire. Mommsen (Sitzungsberichte der Berliner Akademie, 1895, p. 491-503) estime que la phrase en question conserve une tradition ancienne, mais que le mot stratopedarches ne pouvait pas signifier praefectus praetorius, titre qui n'est jamais traduit ainsi en grec. Il suggère que le terme désigne le princeps castrorum peregrinorum, un centurion commandant les frumentarii à Rome. Ceux-ci formaient des détachements de soldats légionnaires ayant le rang de principales. Ils servaient de courriers militaires entre la capitale et les provinces, d'espions politiques et de police impériale. Il était probablement habituel, du moins au moment où la tradition examinée prit naissance, de charger les frumentarii de la garde des personnes envoyées à Rome pour y être jugées (Marquardt, Römische Staatsverwaltung, II, p. 491-494).",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "Comprehensive discussions of the Roman military system will be found in Marquardt, Romische Staatsverwaltung, II, 319-612, and in Pauly-Wissowa, Realencyclopadie, article \"Exercitus.\"",
+          "target": "Les études générales du système militaire romain se trouvent chez Marquardt, Römische Staatsverwaltung, II, p. 319-612, et dans Pauly-Wissowa, Realencyclopädie, à l'article « Exercitus ».",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "George H. Allen",
+          "target": "George H. Allen",
+          "action": "preserve",
+          "reason": "Retain original author attribution"
+        }
+      ]
+    }
+  ]
+}

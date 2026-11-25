@@ -46,8 +46,25 @@ jobs:
               return sum(len(value) for _, node, part, value in text_units(by_key[row['source_key']]))
           selected = sorted(remaining, key=lambda row: (eligible_chars(row), row['index']))[:5]
           selected.sort(key=lambda row: row['index'])
-          rows = extract(source, [row['source_key'] for row in selected], limit=200) if selected else []
-          assert all(len(row['units']) == row['unit_count'] for row in rows), 'Truncated source'
+          # The extraction API deliberately limits each request to 200 units.
+          # A complete article may exceed that limit; page by source-unit offset
+          # instead of silently truncating it or hard-coding article exceptions.
+          rows = []
+          for selected_row in selected:
+              key = selected_row['source_key']
+              first = extract(source, [key], start=0, limit=200)[0]
+              units = list(first['units'])
+              for start in range(200, first['unit_count'], 200):
+                  page = extract(source, [key], start=start, limit=200)[0]
+                  assert page['source_article_sha256'] == first['source_article_sha256']
+                  assert page['article_id'] == first['article_id']
+                  assert page['unit_count'] == first['unit_count']
+                  units.extend(page['units'])
+              assert len(units) == first['unit_count'], 'Truncated source'
+              assert len({(u['node'], u['part']) for u in units}) == len(units), 'Duplicate source unit'
+              first['units'] = units
+              first['limit'] = len(units)
+              rows.append(first)
           export = {'schema_version': 1, 'status': 'source_only_no_translations',
                     'source_sha256': SOURCE_SHA256, 'remaining_before': len(remaining),
                     'selected': [{**r, 'source_eligible_chars': eligible_chars(r)} for r in selected],
