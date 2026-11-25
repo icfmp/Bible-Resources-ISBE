@@ -1,0 +1,43 @@
+name: Validate ISBE Markdown paragraph translation bridge
+
+on:
+  push:
+    paths:
+      - 'scripts/translation_markdown_layout.py'
+      - 'scripts/markdown_translation_bridge.py'
+      - 'tests/test_markdown_translation_bridge.py'
+      - '.github/workflows/isbe-markdown-bridge.yml'
+  pull_request:
+    paths:
+      - 'scripts/translation_markdown_layout.py'
+      - 'scripts/markdown_translation_bridge.py'
+      - 'tests/test_markdown_translation_bridge.py'
+      - '.github/workflows/isbe-markdown-bridge.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bridge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate anchored paragraph compilation fixture
+        run: python3 -m unittest tests.test_markdown_translation_bridge -v
+      - name: Inspect real original TEI paragraphs for source-map compatibility
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from scripts.translation_markdown_layout import build_blocks
+          from scripts.validate_translation_identity import read_body
+          path=Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml')
+          _,body=read_body(path)
+          keys={'ABRAHAM','ABLUTION','ANDREW','ANTIOCH, OF PISIDIA',
+                'APOSTOLIC AGE','ATHENS','ARABIC LANGUAGE'}
+          for article in body:
+              if article.get('n') in keys:
+                  blocks=build_blocks(article)
+                  assert blocks
+                  print(article.get('n'), 'blocks', len(blocks))
+          PY
