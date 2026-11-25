@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ALEXANDRIA",
+      "article_id": "isbe-ac21ce20bce955cbb5af",
+      "source_article_sha256": "c0f9d2c53e928ffc5666aab14f89dfecb4b5db73d3d1126c40c611bf95d624e7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ALEXANDRIA",
+          "target": "ALEXANDRIE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "al-eg-zan'-dri-a (he Alexandreia).",
+          "target": "al-eg-zan'-dri-a (he Alexandreia).",
+          "action": "preserve",
+          "reason": "Original historical pronunciation and Greek article retained verbatim"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "1. History:",
+          "target": "1. Histoire :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "In 331 BC, Alexander the Great, on his way to visit the Oracle of Amon seeking divine honors, stopped at the West extremity of the Delta at the isle of Pharos the landing-place of Odysseus (Od. iv.35) His keen eye noted the strategic possibilities of the site occupied by the little Egyptian village of Rhacotis, and his decision was immediate to erect here, where it would command the gateway to the richest domain of his empire, a glorious city to be called by his own name. Deinocrates, greatest living architect, already famous as builder of the Temple of Diana, was given free hand and like a dream the most beautiful city of the ancient or modern world (with the single exception of Rome) arose with straight, parallel streets--one at least 200 feet wide--with fortresses, monuments, palaces, government buildings and parks all erected according to a perfect artistic plan. The city was about fifteen miles in circumference (Pliny), and when looked at from above represented a Macedonian cloak, such as was worn by Alexander's heroic ancestors. A colossal mole joined the island to the main land and made a double harbor, the best in all Egypt.",
+          "target": "En 331 av. J.-C., Alexandre le Grand, en route pour consulter l'oracle d'Amon dans l'espoir d'obtenir des honneurs divins, fit halte à l'extrémité occidentale du Delta, près de l'île de Pharos, lieu où Ulysse aurait abordé (Odyssée, IV, 35). Son regard pénétrant discerna les possibilités stratégiques du site occupé par le petit village égyptien de Rhacotis. Il décida aussitôt d'y élever, à l'entrée du plus riche territoire de son empire, une cité magnifique portant son nom. Deinocratès, le plus grand architecte vivant, déjà célèbre pour avoir construit le temple de Diane, reçut carte blanche. Comme dans un rêve, surgit la plus belle ville du monde antique ou moderne — à la seule exception de Rome —, avec ses rues droites et parallèles, dont l'une mesurait au moins deux cents pieds de largeur, ses forteresses, monuments, palais, édifices administratifs et parcs, tous disposés selon un plan artistique parfait. La ville avait une circonférence d'environ quinze milles (Pline) et, vue d'en haut, elle avait la forme d'une chlamyde macédonienne, telle qu'en portaient les ancêtres héroïques d'Alexandre. Une digue colossale relia l'île au continent et créa un double port, le meilleur de toute l'Égypte.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "Before Alexander died (323 BC) the future of the city as the commercial metropolis of the world was assured and here the golden casket of the conqueror was placed in a fitting mausoleum. Under the protection of the first two Ptolemies and Euergetes Alexandria reached its highest prosperity, receiving through Lake Mareotis the products of Upper Egypt, reaching by the Great Sea all the wealth of the West, while through the Red Sea its merchant vessels brought all the treasures of India and Arabia into the Alexandria docks without once being unladen.",
+          "target": "Avant la mort d'Alexandre (323 av. J.-C.), l'avenir de la ville comme métropole commerciale du monde était assuré. C'est ici que fut déposé, dans un mausolée digne de lui, le cercueil d'or du conquérant. Sous la protection des deux premiers Ptolémées et d'Évergète, Alexandrie atteignit sa prospérité maximale : elle recevait par le lac Maréotis les produits de la Haute-Égypte, par la Grande Mer toutes les richesses de l'Occident, tandis que ses navires marchands rapportaient par la mer Rouge les trésors de l'Inde et de l'Arabie jusque dans les docks d'Alexandrie sans devoir décharger leur cargaison une seule fois.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "The manufactories of Alexandria were extensive, the greatest industry however being shipbuilding, the largest merchant ships of the world and battleships capable of carrying 1,000 men, which could hurl fire with fearful effect, being constructed here. This position of supremacy was maintained during the Roman domination up to the 5th century during which Alexandria began to decline. Yet even when Alexandria was captured by the Arabs (641) under the caliph Omar, the general could report: \"I have taken a city containing 4,000 palaces and 4,000 baths and 400 theaters.\" They called it a \"city of marble\" and believed the colossal obelisks, standing on crabs of crystal, and the Pharos, that white stone tower 400 ft. high, \"wonder of the world,\" to be the creation of jinn, not of men. With oriental exaggeration they declared that one amphitheater could easily hold a million spectators and that it was positively painful to go upon the streets at night because of the glare of light reflected from the white palaces. But with the coming of the Arabs Alexandria began to decline. It sank lower when Cairo became the capital (circa 1000 AD), and received its death blow when a sea route to India was discovered by way of the Cape of Good Hope (circa 1500).",
+          "target": "Les manufactures d'Alexandrie étaient nombreuses. L'industrie principale était toutefois la construction navale : on y bâtissait les plus grands navires marchands du monde et des bâtiments de guerre capables de transporter mille hommes et de lancer le feu avec une efficacité redoutable. La ville conserva cette position dominante durant la période romaine jusqu'au Ve siècle, où elle commença à décliner. Pourtant, même lorsqu'elle fut conquise par les Arabes en 641, sous le calife Omar, le général put déclarer : « J'ai pris une ville qui contient quatre mille palais, quatre mille bains et quatre cents théâtres. » Les conquérants la surnommaient la « ville de marbre » et croyaient que les obélisques colossaux dressés sur des crabes de cristal, ainsi que le phare de Pharos, cette tour de pierre blanche haute de quatre cents pieds, « merveille du monde », étaient l'œuvre des djinns plutôt que des hommes. Avec une exagération orientale, ils affirmaient qu'un seul amphithéâtre pouvait facilement accueillir un million de spectateurs et que la lumière réfléchie par les palais blancs rendait presque douloureuse la promenade nocturne dans les rues. Mais l'arrivée des Arabes marqua le début du déclin d'Alexandrie. La ville s'enfonça davantage lorsque Le Caire devint capitale (vers l'an 1000) et reçut le coup de grâce avec la découverte de la route maritime vers l'Inde par le cap de Bonne-Espérance (vers 1500).",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "Today the ancient Alexandria lies entirely under the sea or beneath some later construction. Only one important relic remains visible, the so-called Pompey's Pillar which dates from the reign of Diocletian. Excavations by the English (1895) and Germans (1898-99) have yielded few results, though Dr. G. Botti discovered the Serapeum and some immense catacombs, and only recently (1907) some fine sphinxes. In its most flourishing period the population numbered from 600,000 to 800,000, half of whom were perhaps slaves. At the close of the 18th century. it numbered no more than 7,000. Under the khedives it has recently gained something of its old importance and numbers now 320,000, of whom 46,000 are Europeans, chiefly Greeks (Baedeker, Handbook, 1902; Murray, Handbook, 1907).",
+          "target": "Aujourd'hui, l'Alexandrie antique se trouve entièrement sous la mer ou sous des constructions postérieures. Un seul vestige majeur reste visible : la colonne dite de Pompée, datant du règne de Dioclétien. Les fouilles anglaises (1895) et allemandes (1898-1899) ont livré peu de résultats, bien que le docteur G. Botti ait découvert le Sérapéum, d'immenses catacombes et, plus récemment encore (1907), de beaux sphinx. À l'apogée de sa prospérité, la population atteignait entre 600 000 et 800 000 habitants, dont peut-être la moitié étaient des esclaves. À la fin du XVIIIe siècle, elle ne dépassait plus 7 000 personnes. Sous les khédives, la ville a récemment retrouvé une partie de son ancienne importance : elle compte désormais 320 000 habitants, dont 46 000 Européens, principalement des Grecs (Baedeker, Handbook, 1902 ; Murray, Handbook, 1907).",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "2. The Jews in Alexandria:",
+          "target": "2. Les Juifs à Alexandrie :",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "Among the private papers of Alexander it is said a sketch was found outlining his vast plan of making a Greek empire which should include all races as harmonious units. In accordance with this, Europeans, Asiatics and Africans found in Alexandria a common citizenship. Indeed in several cities, under the Ptolemies, who accepted this policy, foreigners were even given superiority to natives. Egyptians and Greeks were conciliated by the introduction of a syncretic religion in which the greatest Greek god was worshipped as Osiris, Egyptian god of the underworld, whose soul appeared visibly in the form of the Apis bull.",
+          "target": "On rapporte qu'un croquis trouvé parmi les papiers personnels d'Alexandre exposait son vaste projet d'un empire grec qui réunirait harmonieusement toutes les races. Conformément à cette idée, Européens, Asiatiques et Africains reçurent à Alexandrie une citoyenneté commune. Dans plusieurs villes, les Ptolémées, qui adoptèrent cette politique, accordèrent même aux étrangers une position supérieure à celle des indigènes. On chercha à réconcilier Égyptiens et Grecs par l'introduction d'une religion syncrétique où le plus grand dieu grec était honoré sous les traits d'Osiris, dieu égyptien du monde souterrain, dont l'âme se manifestait visiblement dans le taureau Apis.",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "This was the most popular and human form of the Egyptian worship. This new religion obtained phenomenal success. It was in furtherance of this general policy that the Jews in Alexandria were given special privileges, and though probably not possessing full civic rights, yet they \"occupied in Alexandria a more Influential position than anywhere else in the ancient world\" (Jewish Encyclopedia). To avoid unnecessary friction a separate district was given to the Jews, another to the Greeks and another to the native Egyptians. In the Greek section were situated the palaces of the Ptolemies, the Library and Museum. In the Egyptian district was the temple dedicated to Serapis (Osiris-Apis) which was only excelled in grandeur by the capitol at Rome. The Jews possessed many synagogues in their own district and in Philo's day these were not confined to any one section of the city. Some synagogues seem to have exercised the right of asylum, the same as heathen temples. One of these was so large that the chazan signaled by a flag when the congregation should give the Amen! Each district had a practically independent political government.",
+          "target": "Cette forme du culte égyptien était la plus populaire et la plus humaine. La religion nouvelle connut un succès extraordinaire. C'est dans le prolongement de cette politique générale que les Juifs d'Alexandrie reçurent des privilèges particuliers. Sans probablement jouir de tous les droits civiques, ils « occupaient à Alexandrie une position plus influente que partout ailleurs dans le monde antique » (Jewish Encyclopedia). Afin d'éviter des frictions inutiles, on attribua un quartier aux Juifs, un autre aux Grecs et un troisième aux Égyptiens autochtones. Dans le quartier grec se trouvaient les palais des Ptolémées, la Bibliothèque et le Musée. Le quartier égyptien abritait le temple consacré à Sérapis (Osiris-Apis), que seul le Capitole de Rome surpassait en grandeur. Les Juifs possédaient de nombreuses synagogues dans leur quartier et, à l'époque de Philon, celles-ci ne se limitaient plus à une seule partie de la ville. Certaines semblent avoir exercé un droit d'asile semblable à celui des temples païens. L'une était si vaste que le chazan signalait avec un drapeau le moment où l'assemblée devait répondre « Amen ! ». Chaque quartier disposait d'un gouvernement politique pratiquement autonome.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "The Jews were at first ruled by a Hebrew ethnarch. By the days of Augustus a Council of Elders (gerusia) had control, presided over by 71 archons. Because of their wealth, education and social position they reached high public office. Under Ptol. VI and Cleopatra the two generals-in-chief of the royal army were Jews. Ptol. I had 30,000 Jewish soldiers, in his army, whose barracks have only recently been discovered. It may have been a good thing that the persecution of Antiochus Epiphanes (2nd century BC) checked Jewish Hellenization. During the Roman supremacy the rights of the Jews were maintained, except during their persecution for a brief period by the insane Caligula, and the control of the most important industries, including the corn trade, came into their hands.",
+          "target": "Les Juifs furent d'abord gouvernés par un ethnarque hébreu. Sous Auguste, un Conseil des anciens (gerousia), présidé par soixante et onze archontes, exerçait l'autorité. Grâce à leur richesse, à leur instruction et à leur rang social, des Juifs accédèrent à de hautes charges publiques. Sous Ptolémée VI et Cléopâtre, les deux commandants en chef de l'armée royale étaient juifs. Ptolémée Ier comptait 30 000 soldats juifs dans son armée, dont les casernes n'ont été découvertes que récemment. La persécution d'Antiochos Épiphane (IIe siècle av. J.-C.) eut peut-être pour effet bénéfique de freiner l'hellénisation des Juifs. Sous la domination romaine, leurs droits furent maintenus, sauf pendant la brève persécution du dément Caligula, et ils prirent le contrôle des industries les plus importantes, notamment le commerce des céréales.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "When Christianity became the state religion of Egypt the Jews at once began to be persecuted. The victory of Heraclius over the Persians (629 AD) was followed by such a massacre of the Jews that the Coptics of Egypt still denominate the first week in Lent as the \"Fast of Heraclius.\" Wisdom and many other influential writings of the Jews originated in Alexandria. Doubtless numbers of the recently discovered documents from the Cairo genizah came originally from Alexandria. But the epochal importance of Alexandria is found in the teaching which prepared the Hebrew people for the reception of a gospel for the whole world, which was soon to be preached by Hebrews from Hellenized Galilee.",
+          "target": "Lorsque le christianisme devint religion d'État en Égypte, les Juifs commencèrent immédiatement à subir des persécutions. La victoire d'Héraclius sur les Perses (629 apr. J.-C.) fut suivie d'un massacre si terrible que les coptes d'Égypte appellent encore la première semaine du carême le « jeûne d'Héraclius ». Le livre de la Sagesse et beaucoup d'autres écrits juifs influents virent le jour à Alexandrie. Sans doute un grand nombre de documents récemment retrouvés dans la guéniza du Caire provenaient-ils à l'origine d'Alexandrie. Mais l'importance décisive d'Alexandrie réside dans un enseignement qui prépara le peuple hébreu à recevoir un Évangile destiné au monde entier, bientôt prêché par des Hébreux venus d'une Galilée hellénisée.",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "3. Alexandria's Influence on the Bible:",
+          "target": "3. L'influence d'Alexandrie sur la Bible :",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "(1) In ",
+          "target": "(1) En ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": " the Ptolomies of Alexandria and their wives are made a theme of prophecy. Apollos, the \"orator,\" was born in Alexandria (",
+          "target": ", les Ptolémées d'Alexandrie et leurs épouses font l'objet d'une prophétie. Apollos, l'« orateur », naquit à Alexandrie (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "). Luke twice speaks of himself and Paul sailing in \"a ship of Alexandria\" (",
+          "target": "). Luc rapporte à deux reprises que Paul et lui voyagèrent à bord d'« un navire d'Alexandrie » (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "). Stephen `disputed' in Jerusalem in the synagogue of the Alexandrians (",
+          "target": "). Étienne « discutait » à Jérusalem dans la synagogue des Alexandrins (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": "). These direct references are few, but the influence of Alexandria on the Bible was inestimable.",
+          "target": "). Ces références directes sont peu nombreuses, mais l'influence d'Alexandrie sur la Bible fut incalculable.",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(2) The Septuagint, translated in Alexandria (3rd to 2nd centuries BC), preserves a Hebrew text 1,000 years older than any now known. This translation if not used by Jesus was certainly used by Paul and other New Testament writers, as shown by their quotations. It is Egyptian even in trifles. This Greek Bible not only opened for the first time the \"Divine Oracles\" to the Gentiles and thus gave to the Old Testament an international influence, but it affected most vitally the Hebrew and Christian development.",
+          "target": "(2) La Septante, traduite à Alexandrie (du IIIe au IIe siècle av. J.-C.), conserve un texte hébreu antérieur de mille ans à tous ceux alors connus. Cette traduction, même si elle ne fut pas utilisée par Jésus, le fut assurément par Paul et d'autres auteurs du Nouveau Testament, comme le montrent leurs citations. Elle porte la marque de l'Égypte jusque dans les détails les plus infimes. Cette Bible grecque ouvrit pour la première fois les « oracles divins » aux non-Juifs et conféra ainsi à l'Ancien Testament une influence internationale ; elle influa aussi de manière décisive sur le développement juif et chrétien.",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(3) The Alexandrinus Codex (4th to 5th centuries) was the first of all the great uncials to come into the hands of modern scholars. It was obtained in Alexandria and sent as a present to the king of England (1628) by Cyrellus Lucaris, the Patriarch of Constantinople. The Sinaiticus and Vaticanus uncials with many other most important Bible manuscripts--Hebrew, Greek, Coptic and Syriac--came from Alexandria.",
+          "target": "(3) Le Codex Alexandrinus (IVe-Ve siècles) fut le premier des grands manuscrits onciaux à parvenir entre les mains des savants modernes. Obtenu à Alexandrie, il fut envoyé en 1628 comme cadeau au roi d'Angleterre par Cyrille Loukaris, patriarche de Constantinople. Les manuscrits onciaux Sinaiticus et Vaticanus, ainsi que de nombreux autres manuscrits bibliques importants — hébreux, grecs, coptes et syriaques — provenaient d'Alexandrie.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "(4) John and several other New Testament writings have justly been regarded as showing the influence of this philosophic city. Neither the phraseology nor conceptions of the Fourth Gospel could have been grasped in a world which Alexandria had not taught. Pfleiderer's statement that He \"may be termed the most finished treatise of the Alexandria philosophy\" may be doubted, but no one can doubt the fact of Alexandrian influence on the New Testament.",
+          "target": "(4) On a considéré à juste titre l'Évangile selon Jean et plusieurs autres écrits néotestamentaires comme marqués par l'influence de cette ville philosophique. Ni la formulation ni les conceptions du quatrième Évangile n'auraient pu être comprises dans un monde qui n'aurait pas reçu l'enseignement d'Alexandrie. On peut mettre en doute l'affirmation de Pfleiderer selon laquelle l'épître aux Hébreux « peut être appelée le traité le plus achevé de la philosophie alexandrine », mais personne ne peut nier l'influence d'Alexandrie sur le Nouveau Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "4. Influence of Alexandria on Culture:",
+          "target": "4. L'influence d'Alexandrie sur la culture :",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "With the founding of the University of Alexandria began the \"third great epoch in the history of civilization\" (Max Muller). It was modeled after the great school of Athens, but excelled, being preeminently the \"university of progress\" (Mahaffy). Here for the first time is seen a school of science and literature, adequately endowed and offering large facilities for definite original research. The famous library which at different eras was reported as possessing from 400,000 to 900,000 books and rolls--the rolls being as precious as the books--was a magnificent edifice connected by marble colonnades with the Museum, the \"Temple of the Muses.\" An observatory, an anatomical laboratory and large botanical and Zoological gardens were available. Celebrated scholars, members of the various faculties, were domiciled within the halls of the Museum and received stipends or salaries from the government.",
+          "target": "La fondation de l'université d'Alexandrie inaugura la « troisième grande époque de l'histoire de la civilisation » (Max Müller). Elle prit pour modèle la grande école d'Athènes, mais la surpassa, devenant avant tout l'« université du progrès » (Mahaffy). On vit ici pour la première fois une école de sciences et de lettres suffisamment dotée, offrant de vastes possibilités de recherche originale et précise. La célèbre bibliothèque, dont on rapporta à diverses époques qu'elle possédait entre 400 000 et 900 000 livres et rouleaux — ces derniers étant aussi précieux que les livres —, occupait un magnifique édifice relié par des colonnades de marbre au Musée, « temple des Muses ». Un observatoire, un laboratoire d'anatomie et de vastes jardins botaniques et zoologiques étaient disponibles. Des savants célèbres appartenant aux diverses facultés résidaient dans les salles du Musée et recevaient des allocations ou des traitements de l'État.",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "The study of mathematics, astronomy, poetry and medicine was especially favored (even vivisection upon criminals being common); Alexandrian architects were sought the world over; Alexandrian inventors were almost equally famous; the influence of Alexandrian art can still be marked in Pompeii and an Alexandrian painter was a hated rival of Apelles. Here Euclid wrote his Elements of Geometry; here Archimedes, \"that greatest mathematical and inventive genius of antiquity,\" made his spectacular discoveries in hydrostatics and hydraulics; here Eratosthenes calculated the size of the earth and made his other memorable discoveries; while Ptolemy studied here for 40 years and published an explanation of the stellar universe which was accepted by scientists for 14 centuries, and established mathematical theories which are yet the basis of trigonometry. \"Ever since this epoch the conceptions of the sphericity of the earth, its poles, axis, the equator, the arctic and antarctic circles, the equinoctial points, the solstices, the inequality of climate on the earth's surface, have been current notions among scientists. The mechanism of the lunar phases was perfectly understood, and careful though not wholly successful calculations were made of inter-sidereal distances. On the other hand literature and art flourished under the careful protection of the court. Literature and its history, philology and criticism became sciences\" (Alexandria Weber).",
+          "target": "Les études de mathématiques, d'astronomie, de poésie et de médecine y étaient particulièrement encouragées, jusqu'à pratiquer couramment la vivisection sur des criminels. Les architectes alexandrins étaient recherchés dans le monde entier, et les inventeurs de la ville jouissaient d'une renommée presque égale. L'influence de l'art alexandrin demeure visible à Pompéi ; un peintre d'Alexandrie fut même le rival détesté d'Apelle. C'est ici qu'Euclide rédigea ses Éléments de géométrie ; qu'Archimède, « le plus grand génie mathématique et inventif de l'Antiquité », fit ses découvertes spectaculaires en hydrostatique et en hydraulique ; qu'Ératosthène calcula les dimensions de la Terre et réalisa ses autres découvertes mémorables. Ptolémée étudia ici pendant quarante ans et publia une explication de l'univers stellaire, acceptée par les savants pendant quatorze siècles, tout en établissant des théories mathématiques qui constituent encore le fondement de la trigonométrie. « Depuis cette époque, les conceptions de la sphéricité de la Terre, de ses pôles, de son axe, de l'équateur, des cercles arctique et antarctique, des points équinoxiaux, des solstices et de l'inégalité des climats à sa surface font partie des notions courantes des savants. Le mécanisme des phases lunaires était parfaitement compris, et des calculs soigneux, quoique pas entièrement satisfaisants, furent entrepris sur les distances entre les astres. D'autre part, les lettres et les arts prospéraient sous l'attentive protection de la cour. La littérature et son histoire, la philologie et la critique devinrent des sciences » (Alexandria, Weber).",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "It may be claimed that in literature no special originality was displayed though the earliest \"love storms\" and pastoral poetry date from this period (Mahaffy); yet the literature of the Augustan Age cannot be understood \"without due appreciation of the character of the Alexandrian school\" (EB, 11th ed.), while in editing texts and in copying and translating manuscripts inconceivable patience and erudition were displayed. Our authorized texts of Homer and other classic writers come from Alexandria not from Athens. All famous books brought into Egypt were sent to the library to be copied.",
+          "target": "On pourrait soutenir que cette époque ne fit preuve d'aucune originalité littéraire particulière, bien que les premières « tempêtes d'amour » et la poésie pastorale en datent (Mahaffy). Pourtant, la littérature de l'époque augustéenne ne peut être comprise « sans une juste appréciation du caractère de l'école alexandrine » (Encyclopaedia Britannica, 11e éd.). En matière d'édition de textes, de copie et de traduction de manuscrits, on déploya une patience et une érudition inimaginables. Nos textes de référence d'Homère et d'autres auteurs classiques proviennent d'Alexandrie et non d'Athènes. Tous les ouvrages célèbres apportés en Égypte étaient envoyés à la bibliothèque pour y être copiés.",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "The statement of Josephus that Ptolemy Philadelphus (285-247) requested the Jews to translate the Old Testament into Greek is not incredible. It was in accordance with the custom of that era. Ptol. Euergetes is said to have sent to Athens for the works of Aeschylus, Sophocles, Euripides, etc., and when these were transcribed, sent back beautiful copies to Greece and kept the originals! No library in the world except the prophetic library in Jerusalem was ever as valuable as the two Alexandrian libraries. The story that the Arabs burned it in the 7th century is discredited and seemingly disproved (Butler). At any rate, after this period we hear of great private libraries in Alexandria, but the greatest literary wonder of the world has disappeared.",
+          "target": "L'affirmation de Josèphe selon laquelle Ptolémée Philadelphe (285-247 av. J.-C.) demanda aux Juifs de traduire l'Ancien Testament en grec n'a rien d'incroyable. Elle s'accordait avec les usages de l'époque. On rapporte que Ptolémée Évergète fit demander à Athènes les œuvres d'Eschyle, de Sophocle, d'Euripide, etc., et qu'après en avoir fait exécuter des copies, il envoya à la Grèce de magnifiques exemplaires et conserva les originaux ! Aucune bibliothèque au monde, à l'exception de la bibliothèque prophétique de Jérusalem, ne fut jamais aussi précieuse que les deux bibliothèques d'Alexandrie. Le récit selon lequel les Arabes auraient incendié la bibliothèque au VIIe siècle est discrédité et semble réfuté (Butler). En tout cas, les périodes ultérieures témoignent de l'existence d'importantes bibliothèques privées à Alexandrie, mais la plus grande merveille littéraire du monde avait disparu.",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "5. Influence on Philosophy:",
+          "target": "5. L'influence sur la philosophie :",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "Though no department of philosophy was established in the Museum, nevertheless from the 3rd century BC to the 6th century AD it was the center of gravity in the philosophic world. Here Neo-Pythagoreanism arose. Here Neo- Platonism, that contemplative and mystical reaction against the materialism of the Stoics, reached its full flower. It is difficult to overestimate the influence of the latter upon religious thought. In it the profoundest Aryan speculations were blended with the sublimest Semitic concepts. Plato was numbered among the prophets. Greece here acknowledged the Divine Unity to which the Old Testament was pledged. Here the Jew acknowledged that Athens as truly as Jerusalem had taught a vision of God. This was the first attempt to form a universal religion.",
+          "target": "Même si le Musée ne possédait aucun département de philosophie, Alexandrie constitua néanmoins, du IIIe siècle av. J.-C. au VIe siècle apr. J.-C., le centre de gravité du monde philosophique. C'est ici qu'apparut le néopythagorisme et que le néoplatonisme, réaction contemplative et mystique contre le matérialisme des stoïciens, atteignit son plein épanouissement. On peut difficilement surestimer l'influence de ce dernier courant sur la pensée religieuse. Les spéculations aryennes les plus profondes s'y mêlèrent aux conceptions sémitiques les plus élevées. Platon fut compté parmi les prophètes. La Grèce reconnut ici l'unité divine affirmée par l'Ancien Testament. Le Juif admit qu'Athènes, aussi véritablement que Jérusalem, avait enseigné une vision de Dieu. Ce fut la première tentative pour établir une religion universelle.",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "The Alexandrian philosophy was the Elijah to prepare the way for a Saviour of the world. The thought of both Sadducee and Pharisee was affected by it and much late pre-Christian Jewish literature is saturated with it. Neo- Platonism drew attention to the true relation between matter and spirit, good and evil, finite and infinite; it showed the depth of antagonism between the natural and spiritual, the real and ideal; it proclaimed the necessity of some mystic union between the human and the Divine. It stated but could not solve the problem. Its last word was escape, not reconciliation (Ed. Caird). Neo-Platonism was the \"germ out of which Christian theology sprang\" (Caird) though later it became an adverse force. Notwithstanding its dangerous teaching concerning evil, it was on the whole favorable to piety, being the forerunner of mysticism and sympathetic with the deepest, purest elements Of a spiritual religion.",
+          "target": "La philosophie alexandrine fut comme l'Élie chargé de préparer le chemin d'un Sauveur pour le monde. Elle influença la pensée des sadducéens comme des pharisiens, et imprégna une grande partie de la littérature juive tardive d'avant le christianisme. Le néoplatonisme attira l'attention sur le véritable rapport entre matière et esprit, bien et mal, fini et infini ; il révéla la profondeur de l'opposition entre naturel et spirituel, réel et idéal, et proclama la nécessité d'une union mystique entre l'humain et le divin. Il posa le problème sans pouvoir le résoudre. Son dernier mot fut la fuite, et non la réconciliation (Ed. Caird). Le néoplatonisme fut « le germe dont la théologie chrétienne est sortie » (Caird), bien qu'il devînt plus tard une force adverse. Malgré ses enseignements dangereux concernant le mal, il fut globalement favorable à la piété, précurseur du mysticisme et favorable aux éléments les plus profonds et les plus purs d'une religion spirituelle.",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "6. Christian Church in Alexandria:",
+          "target": "6. L'Église chrétienne à Alexandrie :",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "According to all tradition, Mark the evangelist, carried the gospel to Alexandria, and his body rested here until removed to Venice, 828 AD. From this city Christianity reached all Egypt and entered Nubia, Ethiopia and Abyssinia. During the 4th century, ten councils were held in Alexandria, it being theological and ecclesiastical center of Christendom. The first serious persecution of Christians by heathen occurred here under Decius (251) and was followed by many others, the one under Diocletian (303-11) being so savage that the native Coptic church still dates its era from it. When the Christians reached political power they used the same methods of controversy, wrecking the Caesarion in 366 and the Serapeum twenty-five years later. Serapis (Osiris-Apis) was the best beloved of all the native deities. His temple was built of most precious marbles and filled with priceless sculptures, while in its cloisters was a library second only to the Great Library of the Museum. When Christianity became the state religion of Egypt the native philosophers, moved by patriotism, rallied to the support of Serapis. But Theodosius (391) prohibited idolatry, and led by the bishop, the Serapeum was seized, and smitten by a soldier's battle-axe, the image--which probably represented the old heathen religion at its best--was broken to pieces, and dragged through the streets.",
+          "target": "Selon toutes les traditions, Marc l'évangéliste porta l'Évangile à Alexandrie, où son corps reposa jusqu'à son transfert à Venise en 828. Depuis cette ville, le christianisme gagna toute l'Égypte, puis la Nubie, l'Éthiopie et l'Abyssinie. Au IVe siècle, dix conciles se tinrent à Alexandrie, qui était alors un centre théologique et ecclésiastique de la chrétienté. La première persécution grave des chrétiens par les païens eut lieu ici sous Dèce (251) et fut suivie de bien d'autres. Celle de Dioclétien (303-311) fut si féroce que l'Église copte indigène date encore son ère à partir de cet événement. Lorsque les chrétiens parvinrent au pouvoir politique, ils employèrent les mêmes procédés dans les controverses, ravageant le Césaréum en 366 et le Sérapéum vingt-cinq ans plus tard. Sérapis (Osiris-Apis) était la plus aimée des divinités autochtones. Son temple, construit avec les marbres les plus précieux, était rempli de sculptures inestimables, et ses portiques abritaient une bibliothèque qui n'était surpassée que par la grande bibliothèque du Musée. Lorsque le christianisme devint religion d'État en Égypte, les philosophes indigènes se rallièrent, par patriotisme, au culte de Sérapis. Mais Théodose interdit l'idolâtrie en 391 ; sous la conduite de l'évêque, le Sérapéum fut pris et, frappée d'un coup de hache par un soldat, la statue — qui représentait probablement la religion païenne ancienne sous son meilleur jour — fut brisée en morceaux et traînée dans les rues.",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "That day, as Steindorff well puts it, \"Egyp paganism received its death blow; the Egyptian religion fell to pieces\" (History of Egypt). Thereafter heathen worship hid itself in the dens and caves of the earth. Even secret allegiance to Serapis brought persecution and sometimes death. The most appalling tragedy of this kind occurred in 415 when Hypatia, the virgin philosopher, celebrated equally for beauty, virtue and learning, was dragged by a mob to the cathedral, stripped, and torn to pieces before the altar. Some of the greatest Christian leaders used all their influence against such atrocities, but the Egyptian Christians were always noted for their excitability. They killed heretics easily, but they would themselves be killed rather than renounce the very slightest and most intangible theological tenet. It only needed the change of a word e.g. in the customary version to raise a riot (Expos, VII, 75).",
+          "target": "Ce jour-là, comme l'observe Steindorff, « le paganisme égyptien reçut son coup mortel ; la religion égyptienne se désagrégea » (History of Egypt). Dès lors, les cultes païens se réfugièrent dans les antres et les cavernes. Même une fidélité secrète à Sérapis entraînait la persécution et parfois la mort. La tragédie la plus effroyable de ce genre survint en 415, lorsque Hypatie, philosophe vierge aussi célèbre pour sa beauté, sa vertu et son savoir, fut traînée par une foule jusqu'à la cathédrale, dépouillée de ses vêtements et mise en pièces devant l'autel. Certains des plus grands responsables chrétiens usèrent de toute leur influence contre de telles atrocités, mais les chrétiens d'Égypte étaient réputés pour leur exaltation. Ils tuaient facilement les hérétiques, mais se laisseraient eux-mêmes tuer plutôt que de renoncer au plus infime et insaisissable point de doctrine théologique. Il suffisait de changer un mot, par exemple dans une version liturgique habituelle, pour susciter une émeute (Expos, VII, p. 75).",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "Some curious relics of the early Egyptian church have very recently come to light. The oldest autographic Christian letter known (3rd century) proves that at that time the church was used as a bank, and its ecclesiastics (who, whether priests or bishops, were called \"popes\") were expected to help the country merchants in their dealings with the Roman markets. Some sixty letters of the 4th century written to a Christian cavalry officer in the Egyptian army are also preserved, while papyri and ostraca from circa 600 AD show that at this time no deacon could be ordained without having first learned by heart as much as an entire Gospel or 25 Psalms and two epistles of Paul, while a letter from a bishop of this period is filled with Scripture, as he anathematizes the \"oppressor of the poor,\" who is likened unto him who spat in the face of our Lord on the cross and smote Him on the head (Adolph Deissmann, Light from the Ancient East, etc., 1910). Oppression of Jews and heretics was not, however, forbidden and during the 5th and 6th centuries. Egypt was a battle-field in which each sect persecuted every other.",
+          "target": "Quelques curieux vestiges des débuts de l'Église égyptienne ont été récemment découverts. La plus ancienne lettre chrétienne autographe connue (IIIe siècle) prouve qu'à cette époque l'Église servait de banque et que ses ecclésiastiques, qu'ils fussent prêtres ou évêques, étaient appelés « papes » et devaient aider les commerçants ruraux dans leurs transactions avec les marchés romains. On conserve aussi une soixantaine de lettres du IVe siècle adressées à un officier chrétien de cavalerie dans l'armée égyptienne. Des papyrus et des ostraca des environs de 600 apr. J.-C. montrent qu'alors aucun diacre ne pouvait être ordonné sans avoir d'abord appris par cœur l'équivalent d'un Évangile entier ou de vingt-cinq psaumes et de deux épîtres de Paul. Une lettre d'un évêque de cette époque est imprégnée de l'Écriture lorsqu'il lance l'anathème contre l'« oppresseur des pauvres », comparé à celui qui cracha au visage de notre Seigneur sur la croix et le frappa à la tête (Adolph Deissmann, Light from the Ancient East, etc., 1910). L'oppression des Juifs et des hérétiques n'était toutefois pas interdite, et pendant les Ve et VIe siècles l'Égypte fut un champ de bataille où chaque secte persécutait les autres.",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "Even when the Arabs under the caliph Omar captured the city on Good Friday (641), Easter Day was spent by the orthodox in torturing supposed heretics! The next morning the city was evacuated and Jews and Coptics received better treatment from the Arabs than they had from the Roman or Greek ecclesiastics. After the Arab conquest the Coptic church, being released from persecution, prospered and gained many converts even from the Mohammedans.",
+          "target": "Même lorsque les Arabes, sous le calife Omar, prirent la ville le Vendredi saint de 641, les orthodoxes passèrent le jour de Pâques à torturer de prétendus hérétiques ! Le lendemain, la ville fut évacuée, et Juifs et Coptes reçurent de la part des Arabes un meilleur traitement que celui des ecclésiastiques romains ou grecs. Après la conquête arabe, l'Église copte, délivrée de la persécution, prospéra et gagna de nombreux convertis, y compris parmi les musulmans.",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "But the Saracenic civilization and religion steadily displaced the old, and the native learning and native religion soon disappeared into the desert. By the 8th century, Arabic had taken the place of Greek and Coptic, not only in public documents but in common speech. Then for 1,000 years the Egyptian church remained without perceptible influence on culture or theology. But its early influence was immeasurable and can still be marked in Christian art, architecture and ritual as well as in philosophy and theology. Perhaps its most visible influence was in the encouragement of image-reverence and asceticism. It is suggestive that the first hermit (Anthony) was a native Egyptian, and the first founder of a convent (Pachomius) was a converted Egyptian (heathen) monk. Today Alexandria has again become a Christian metropolis containing Coptics, Romans, Greeks, Armenians, Maronites, Syrians, Chaldeans and Protestants. The Protestants are represented by the Anglican church, the Scotch Free church, the evangelical church of Germany and the United Presbyterian church of the U.S. (For minute divisions see Catholic Encyclopedia)",
+          "target": "Cependant, la civilisation et la religion sarrasines remplacèrent régulièrement les anciennes, et le savoir ainsi que la religion indigènes disparurent bientôt dans le désert. Au VIIIe siècle, l'arabe avait supplanté le grec et le copte non seulement dans les documents publics, mais aussi dans la langue courante. Pendant les mille années suivantes, l'Église égyptienne demeura sans influence perceptible sur la culture ou la théologie. Mais son influence primitive fut incalculable et reste visible dans l'art, l'architecture et la liturgie chrétiennes, ainsi qu'en philosophie et en théologie. Son influence la plus apparente fut peut-être l'encouragement de la vénération des images et de l'ascétisme. Il est significatif que le premier ermite, Antoine, ait été égyptien de naissance et que le premier fondateur d'un monastère, Pacôme, ait été un moine égyptien converti du paganisme. Aujourd'hui, Alexandrie est redevenue une métropole chrétienne, accueillant coptes, catholiques romains, grecs, arméniens, maronites, syriens, chaldéens et protestants. Les protestants y sont représentés par l'Église anglicane, l'Église libre d'Écosse, l'Église évangélique allemande et l'Église presbytérienne unie des États-Unis (pour les divisions détaillées, voir Catholic Encyclopedia).",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "7. Catechetical School in Alexandria:",
+          "target": "7. L'école catéchétique d'Alexandrie :",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "The first theological school of Christendom was founded in Alexandria. It was probably modeled after earlier Gnostic schools established for the study of religious philosophy. It offered a three years' course. There were no fees, the lecturers being supported by gifts from rich students. Pantaenus, a converted Stoic philosopher, was its first head (180). He was followed by Clement (202) and by Origen (232) under whom the school reached its zenith. It always stood for the philosophical vindication of Christianity. Among its greatest writers were Julius Africanus (215), Dionysius (265), Gregory (270), Eusebius (315), Athanasius (373) and Didymus (347), but Origen (185-254) was its chief glory; to him belongs the honor of defeating paganism and Gnosticism with their own weapons; he gave to the church a \"scientific consciousness,\" his threefold interpretation of Scripture affected Biblical exegesis clear down to the last century.",
+          "target": "La première école théologique de la chrétienté fut fondée à Alexandrie. Elle fut probablement modelée sur les écoles gnostiques plus anciennes consacrées à l'étude de la philosophie religieuse. Son cursus durait trois ans. L'enseignement était gratuit, les maîtres étant entretenus par les dons des étudiants riches. Pantène, ancien philosophe stoïcien converti, en fut le premier directeur (180). Il fut suivi par Clément (202), puis par Origène (232), sous lequel l'école atteignit son apogée. Elle défendit toujours une justification philosophique du christianisme. Parmi ses plus grands écrivains figurent Jules l'Africain (215), Denys (265), Grégoire (270), Eusèbe (315), Athanase (373) et Didyme (347), mais Origène (185-254) en fut la principale gloire. On lui attribue l'honneur d'avoir réfuté le paganisme et le gnosticisme avec leurs propres armes ; il donna à l'Église une « conscience scientifique », et sa triple interprétation de l'Écriture influença l'exégèse biblique jusqu'au siècle dernier.",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "Arius was a catechist in this institution, and Athanasius, the \"father of orthodoxy\" and \"theological center of the Nicene age\" (Schaff), though not officially connected with the catechetical school was greatly affected by it, having been bred and trained in Alexandria. The school was closed toward the end of the 4th century because of theological disturbances in Egypt, but its work was continued from Caesarea and other centers, affecting profoundly Western teachers like Jerome and Ambrose, and completely dominating Eastern thought. From the first there was a mystical and Docetic tendency visible, while its views of inspiration and methods of interpretation, including its constant assumption of a secret doctrine for the qualified initiate, came legitimately from Neo-Platonism. For several centuries after the school disbanded its tenets were combated by the \"school of Antioch,\" but by the 8th century the Alexandrian theology was accepted by the whole Christian world, east and west.",
+          "target": "Arius fut catéchiste dans cette institution. Athanase, le « père de l'orthodoxie » et le « centre théologique de l'époque nicéenne » (Schaff), bien que n'étant pas officiellement rattaché à l'école catéchétique, en fut profondément marqué, ayant grandi et été formé à Alexandrie. L'école fut fermée vers la fin du IVe siècle à cause des troubles théologiques en Égypte, mais son œuvre se poursuivit à Césarée et ailleurs, influençant profondément des maîtres occidentaux comme Jérôme et Ambroise et dominant entièrement la pensée orientale. Dès l'origine, une tendance mystique et docète était visible ; ses conceptions de l'inspiration et ses méthodes d'interprétation, notamment la présupposition constante d'un enseignement secret réservé aux initiés qualifiés, provenaient légitimement du néoplatonisme. Pendant plusieurs siècles après la disparition de l'école, ses principes furent combattus par l'« école d'Antioche ». Mais, au VIIIe siècle, la théologie alexandrine était acceptée par l'ensemble du monde chrétien, à l'est comme à l'ouest.",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "Besides works mentioned in the text see especially: Petrie, History of Egypt (1899), V, VI, Mahaffy, Empire of the Ptolemies (1895), Progress of Hellenism (1905); Butler, Arab Conquest of Egypt (1902); Ernst Sieglin, Ausgrabungen in Alexandrien (1908); Harnack, Lehrbuch der Dogmengeschichte (1895-1900), and in New Sch-Herz (1910); Inge, Alexandrian Theology in Encyclopedia of Religion and Ethics (1908); Ed. Caird, Evolution of Theology in the Greek Philosophers (1904); Pfleiderer, Philosophy and Development of Religion (1894); Schaff, History of Christian Church (1884-1910); Zogheb, Etudes sur l'ancienne Alexandrie (1909).",
+          "target": "Outre les travaux cités dans le corps du texte, voir particulièrement : Petrie, History of Egypt (1899), V et VI ; Mahaffy, Empire of the Ptolemies (1895), Progress of Hellenism (1905) ; Butler, Arab Conquest of Egypt (1902) ; Ernst Sieglin, Ausgrabungen in Alexandrien (1908) ; Harnack, Lehrbuch der Dogmengeschichte (1895-1900), et New Sch-Herz (1910) ; Inge, Alexandrian Theology, dans Encyclopedia of Religion and Ethics (1908) ; Ed. Caird, Evolution of Theology in the Greek Philosophers (1904) ; Pfleiderer, Philosophy and Development of Religion (1894) ; Schaff, History of Christian Church (1884-1910) ; Zogheb, Études sur l'ancienne Alexandrie (1909).",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "Camden M. Cobern",
+          "target": "Camden M. Cobern",
+          "action": "preserve",
+          "reason": "Original author attribution retained verbatim"
+        }
+      ]
+    }
+  ]
+}
