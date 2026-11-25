@@ -8,6 +8,7 @@ on:
       - 'scripts/translation_markdown_layout.py'
       - 'scripts/markdown_translation_bridge.py'
       - 'tests/test_export_tei_markdown_corpus.py'
+      - 'tests/test_prepare_isbe_markdown_queue.py'
       - '.github/workflows/export-isbe-markdown.yml'
       - 'docs/isbe-markdown-export.md'
       - 'workspace/translations/isbe-1915/fr/batches/**'
@@ -19,6 +20,7 @@ on:
       - 'scripts/translation_markdown_layout.py'
       - 'scripts/markdown_translation_bridge.py'
       - 'tests/test_export_tei_markdown_corpus.py'
+      - 'tests/test_prepare_isbe_markdown_queue.py'
       - '.github/workflows/export-isbe-markdown.yml'
       - 'docs/isbe-markdown-export.md'
       - 'workspace/translations/isbe-1915/fr/batches/**'
@@ -35,7 +37,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Test source-map fidelity and deterministic archive
-        run: python3 -m unittest tests.test_export_tei_markdown_corpus -v
+        run: python3 -m unittest tests.test_export_tei_markdown_corpus tests.test_prepare_isbe_markdown_queue -v
       - name: Generate all 9,380 original English Markdown articles and French proofs
         shell: bash
         run: |
@@ -68,6 +70,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import json
+          import hashlib
           from pathlib import Path
           folder = Path('/tmp/isbe-markdown/next-five')
           manifest = json.loads((folder / 'MANIFEST.json').read_text(encoding='utf-8'))
@@ -81,7 +84,9 @@ jobs:
           assert len({a['article_id'] for a in manifest['articles']}) == expected
           assert [a['source_position'] for a in manifest['articles']] == sorted(a['source_position'] for a in manifest['articles'])
           for row in manifest['articles']:
-              content = (folder / row['template']).read_text(encoding='utf-8')
+              raw = (folder / row['template']).read_bytes()
+              content = raw.decode('utf-8')
+              assert hashlib.sha256(raw).hexdigest() == row['template_sha256']
               assert content.startswith('<!-- ISBE-TRANSLATION-V1 ')
               assert f'<!-- ISBE-BLOCK:' in content
               assert f'<!-- ISBE-END:' in content
