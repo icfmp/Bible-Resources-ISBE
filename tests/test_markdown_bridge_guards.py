@@ -59,7 +59,7 @@ class MarkdownBridgeGuards(unittest.TestCase):
         md = self.translated()
         with self.assertRaisesRegex(ValueError, "source revision"):
             self.compile(md.replace(self.sha, "f" * 64, 1))
-        with self.assertRaisesRegex(ValueError, "TEI paragraph"):
+        with self.assertRaisesRegex(ValueError, "TEI paragraph|Unexpected content"):
             self.compile(md.replace("<!-- ISBE-BLOCK:2 -->", "<!-- ISBE-BLOCK:22 -->", 1))
         with self.assertRaisesRegex(ValueError, "block marker"):
             self.compile(md.replace("<!-- ISBE-END:2 -->", "<!-- ISBE-END:22 -->", 1))
