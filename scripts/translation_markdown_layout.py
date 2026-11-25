@@ -25,7 +25,7 @@ BLOCK_START = "<!-- ISBE-BLOCK:"
 BLOCK_END = "<!-- ISBE-END:"
 MARK = re.compile(r"(⟦ISBE:[^⟦⟧]*⟧)")
 BLOCK = re.compile(
-    r"<!-- ISBE-BLOCK:([0-9]+) -->\n(.*?)\n<!-- ISBE-END:\\1 -->\n",
+    r"<!-- ISBE-BLOCK:([0-9]+) -->\n(.*?)\n<!-- ISBE-END:\1 -->\n",
     flags=re.DOTALL,
 )
 SOURCE_WORD = re.compile(r"[^\W\d_]", re.UNICODE)
