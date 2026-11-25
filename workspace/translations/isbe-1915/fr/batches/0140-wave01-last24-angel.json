@@ -1,0 +1,1198 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ANGEL",
+      "article_id": "isbe-1020e0f51c59096b6195",
+      "source_article_sha256": "85ad72df48ac091020b0a7dad1267e925f9cf5879a9dce9312543d887357a374",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ANGEL",
+          "target": "ANGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "an'-jel (mal'akh; Septuagint and New Testament, aggelos):",
+          "target": "an'-jel (mal'akh ; Septante et Nouveau Testament, aggelos) :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "I. DEFINITION AND SCRIPTURE TERMS",
+          "target": "I. DÉFINITION ET TERMES BIBLIQUES",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "II. ANGELS IN OLD TESTAMENT",
+          "target": "II. LES ANGES DANS L'ANCIEN TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "1. Nature, Appearances and Functions",
+          "target": "1. Nature, apparitions et fonctions",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "2. The Angelic Host",
+          "target": "2. L'armée angélique",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "3. The Angel of the Theophany",
+          "target": "3. L'ange de la théophanie",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "III. ANGELS IN NEW TESTAMENT",
+          "target": "III. LES ANGES DANS LE NOUVEAU TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "1. Appearances",
+          "target": "1. Les apparitions",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "2. The Teaching of Jesus about Angels",
+          "target": "2. L'enseignement de Jésus sur les anges",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "3. Other New Testament References",
+          "target": "3. Autres références néotestamentaires",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "IV. DEVELOPMENT OF THE DOCTRINE",
+          "target": "IV. LE DÉVELOPPEMENT DE LA DOCTRINE",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "V. THE REALITY OF ANGELS",
+          "target": "V. LA RÉALITÉ DES ANGES",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "I. Definition and Scripture Terms.",
+          "target": "I. Définition et termes bibliques.",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "The word angel is applied in Scripture to an order of supernatural or heavenly beings whose business it is to act as God's messengers to men, and as agents who carry out His will. Both in Hebrew and Greek the word is applied to human messengers (",
+          "target": "Dans l'Écriture, le mot « ange » s'applique à une catégorie d'êtres surnaturels ou célestes, chargés de servir de messagers de Dieu auprès des hommes et d'accomplir sa volonté. En hébreu comme en grec, le même mot désigne aussi des messagers humains (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": "); in Hebrew it is used in the singular to denote a Divine messenger, and in the plural for human messengers, although there are exceptions to both usages. It is applied to the prophet Haggai (",
+          "target": "). En hébreu, le singulier peut désigner un messager divin et le pluriel des messagers humains, bien que les deux usages connaissent des exceptions. Le terme s'applique au prophète Aggée (",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "tail",
+          "source": "), to the priest (",
+          "target": "), au sacrificateur (",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": "), and to the messenger who is to prepare the way of the Lord (",
+          "target": ") et au messager qui doit préparer le chemin du Seigneur (",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": "). Other Hebrew words and phrases applied to angels are bene ha-'elohim (",
+          "target": "). D'autres mots et expressions hébraïques désignent les anges : bene ha-'elohim (",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "tail",
+          "source": ") and bene 'elim (",
+          "target": ") et bene 'elim (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": "), i.e. sons of the 'elohim or 'elim; this means, according to a common Hebrew usage, members of the class called 'elohim or 'elim, the heavenly powers. It seems doubtful whether the word 'elohim, standing by itself, is ever used to describe angels, although Septuagint so translates it in a few passages.",
+          "target": "), c'est-à-dire « fils des 'elohim » ou « des 'elim ». Selon un usage hébraïque courant, cette expression signifie qu'ils appartiennent à la catégorie des 'elohim ou des 'elim, les puissances célestes. Il est douteux que le mot 'elohim, employé seul, désigne jamais les anges, bien que la Septante le traduise ainsi dans quelques passages.",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "The most notable instance is ",
+          "target": "L'exemple le plus remarquable est ",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "tail",
+          "source": "; where the Revised Version (British and American) gives, \"Thou hast made him but little lower than God,\" with the English Revised Version, margin reading of \"the angels\" for \"God\" (compare ",
+          "target": ", où la Revised Version britannique et américaine traduit : « Tu l'as fait de peu inférieur à Dieu », tandis que la marge de l'English Revised Version propose « aux anges » au lieu de « à Dieu » (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "tail",
+          "source": "); qedhoshim \"holy ones\" (",
+          "target": "). On trouve aussi qedhoshim, « saints » (",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": "), a name suggesting the fact that they belong to God; `ir, `irim, \"watcher,\" \"watchers\" (",
+          "target": "), nom suggérant leur appartenance à Dieu ; et 'ir, 'irim, « veilleur », « veilleurs » (",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "tail",
+          "source": "). Other expressions are used to designate angels collectively: codh, \"council\" (",
+          "target": "). D'autres expressions désignent les anges collectivement : sodh, « conseil » (",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": "), where the reference may be to an inner group of exalted angels; `edhah and qahal, \"congregation\" (",
+          "target": "), qui peut faire allusion à un cercle intérieur d'anges élevés ; 'edhah et qahal, « assemblée » (",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "tail",
+          "source": "); and finally tsabha', tsebha'oth, \"host,\" \"hosts,\" as in the familiar phrase \"the God of hosts.\"",
+          "target": ") ; enfin, tsabha', tsebha'oth, « armée », « armées », comme dans l'expression familière « Dieu des armées ».",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "In New Testament the word aggelos, when it refers to a Divine messenger, is frequently accompanied by some phrase which makes this meaning clear, e.g. \"the angels of heaven\" (",
+          "target": "Dans le Nouveau Testament, le mot aggelos, lorsqu'il désigne un messager divin, est souvent accompagné d'une expression qui en précise le sens, par exemple « les anges du ciel » (",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": "). Angels belong to the \"heavenly host\" (",
+          "target": "). Les anges appartiennent à « l'armée céleste » (",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": "). In reference to their nature they are called \"spirits\" (",
+          "target": "). Ils sont appelés « esprits » en référence à leur nature (",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "tail",
+          "source": "). Paul evidently referred to the ordered ranks of supra-mundane beings in a group of words that are found in various combinations, namely, archai, \"principalities,\" exousiai, \"powers,\" thronoi, \"thrones,\" kuriotetes, \"dominions,\" and dunameis, also translated \"powers.\" The first four are apparently used in a good sense in ",
+          "target": "). Paul semble désigner les rangs ordonnés des êtres supramondains par une série de termes employés dans diverses combinaisons : archai, « principautés » ; exousiai, « puissances » ; thronoi, « trônes » ; kuriotetes, « dominations » ; et dunameis, également traduit « puissances ». Les quatre premiers semblent employés en un sens positif en ",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "tail",
+          "source": ", where it is said that all these beings were created through Christ and unto Him; in most of the other passages in which words from this group occur, they seem to represent evil powers. We are told that our wrestling is against them (",
+          "target": ", où il est dit que tous ces êtres ont été créés par le Christ et pour lui ; dans la plupart des autres passages où figurent des termes de cette série, ils paraissent désigner des puissances mauvaises. Nous apprenons que notre combat est dirigé contre elles (",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": "), and that Christ triumphs over the principalities and powers (",
+          "target": ") et que le Christ triomphe des principautés et des puissances (",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "tail",
+          "source": "). In two passages the word archaggelos, \"archangel\" or chief angel, occurs: \"the voice of the archangel\" (",
+          "target": "). Deux passages emploient archaggelos, « archange » ou ange en chef : « la voix d'un archange » (",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "tail",
+          "source": "), and \"Michael the archangel\" (",
+          "target": ") et « Michel l'archange » (",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "II. Angels in Old Testament.",
+          "target": "II. Les anges dans l'Ancien Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "1. Nature, Appearances and Functions:",
+          "target": "1. Nature, apparitions et fonctions :",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "Everywhere in the Old Testament the existence of angels is assumed. The creation of angels is referred to in ",
+          "target": "Partout dans l'Ancien Testament, l'existence des anges est présupposée. Leur création est évoquée en ",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "tail",
+          "source": " (compare ",
+          "target": " (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "tail",
+          "source": "). They were present at the creation of the world, and were so filled with wonder and gladness that they \"shouted for joy\" (",
+          "target": "). Ils étaient présents lors de la création du monde et furent remplis d'un tel émerveillement et d'une telle joie qu'ils « poussaient des cris de réjouissance » (",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "tail",
+          "source": "). Of their nature we are told nothing. In general they are simply regarded as embodiments of their mission. Though presumably the holiest of created beings, they are charged by God with folly (",
+          "target": "). Nous ne savons rien de leur nature. En général, ils sont simplement considérés comme les incarnations de leur mission. Bien qu'ils soient vraisemblablement les plus saints des êtres créés, Dieu leur reproche de la folie (",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "tail",
+          "source": "), and we are told that \"he putteth no trust in his holy ones\" (",
+          "target": "), et il est dit qu'« il ne se fie pas à ses saints » (",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "References to the fall of the angels are only found in the obscure and probably corrupt passage ",
+          "target": "Les références à la chute des anges ne se rencontrent que dans le passage obscur et probablement altéré de ",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "tail",
+          "source": ", and in the interdependent passages ",
+          "target": ", ainsi que dans les passages interdépendants ",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "tail",
+          "source": ", which draw their inspiration from the Apocryphal book of Enoch. Demons are mentioned (see DEMON); and although Satan appears among the sons of God (",
+          "target": ", qui s'inspirent du livre apocryphe d'Hénoch. Les démons sont mentionnés (voir DÉMON). Bien que Satan apparaisse parmi les fils de Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "tail",
+          "source": "), there is a growing tendency in later writers to attribute to him a malignity that is all his own (see ",
+          "target": "), les auteurs plus tardifs ont une tendance croissante à lui attribuer une malveillance propre (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "SATAN",
+          "target": "SATAN",
+          "action": "preserve",
+          "reason": "SATAN remains the identical original lexical cross-reference in French"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "As to their outward appearance, it is evident that they bore the human form, and could at times be mistaken for men (",
+          "target": "Concernant leur apparence extérieure, il est évident qu'ils revêtaient une forme humaine et pouvaient parfois être pris pour des hommes (",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "tail",
+          "source": "). There is no hint that they ever appeared in female form. The conception of angels as winged beings, so familiar in Christian art, finds no support in Scripture (except, perhaps ",
+          "target": "). Rien n'indique qu'ils soient jamais apparus sous une forme féminine. La représentation des anges comme des êtres ailés, si familière dans l'art chrétien, ne trouve aucun appui dans l'Écriture, sauf peut-être en ",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "tail",
+          "source": ", where angels are represented as \"flying\"). The cherubim and seraphim (see ",
+          "target": ", où les anges sont présentés « volant ». Les chérubins et les séraphins (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "text",
+          "source": "CHERUB",
+          "target": "CHÉRUBIN",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "SERAPHIM",
+          "target": "SÉRAPHINS",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "tail",
+          "source": ") are represented as winged (",
+          "target": ") sont représentés avec des ailes (",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "tail",
+          "source": "); winged also are the symbolic living creatures of Eze (",
+          "target": "), de même que les êtres vivants symboliques d'Ézéchiel (",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "text",
+          "source": "As above stated, angels are messengers and instruments of the Divine will. As a rule they exercise no influence in the physical sphere. In several instances, however, they are represented as destroying angels: two angels are commissioned to destroy Sodom (",
+          "target": "Comme nous l'avons indiqué, les anges sont des messagers et des instruments de la volonté divine. En règle générale, ils n'exercent aucune influence dans le domaine physique. Toutefois, plusieurs passages les présentent comme des anges destructeurs : deux anges reçoivent la mission de détruire Sodome (",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "tail",
+          "source": "); when David numbers the people, an angel destroys them by pestilence (",
+          "target": ") ; lorsque David dénombre le peuple, un ange le frappe par la peste (",
+          "action": "translate"
+        },
+        {
+          "node": 89,
+          "part": "tail",
+          "source": "); it is by an angel that the Assyrian army is destroyed (",
+          "target": ") ; c'est par un ange que l'armée assyrienne est détruite (",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "tail",
+          "source": "); and Ezekiel hears six angels receiving the command to destroy those who were sinful in Jerusalem (",
+          "target": ") ; Ézéchiel entend six anges recevoir l'ordre de détruire les pécheurs de Jérusalem (",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "tail",
+          "source": "). In this connection should be noted the expression \"angels of evil,\" i.e. angels that bring evil upon men from God and execute His judgments (",
+          "target": "). Il faut noter dans ce contexte l'expression « anges du mal », c'est-à-dire des anges qui apportent le malheur sur les hommes de la part de Dieu et exécutent ses jugements (",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 95,
+          "part": "tail",
+          "source": "). Angels appear to Jacob in dreams (",
+          "target": "). Des anges apparaissent à Jacob dans des rêves (",
+          "action": "translate"
+        },
+        {
+          "node": 97,
+          "part": "tail",
+          "source": "). The angel who meets Balaam is visible first to the ass, and not to the rider (",
+          "target": "). L'ange qui rencontre Balaam est d'abord visible pour l'ânesse et non pour son cavalier (",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "tail",
+          "source": "). Angels interpret God's will, showing man what is right for him (",
+          "target": "). Les anges interprètent la volonté de Dieu et montrent à l'homme ce qu'il convient de faire (",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "tail",
+          "source": "). The idea of angels as caring for men also appears (",
+          "target": "). L'idée d'anges veillant sur les hommes apparaît également (",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "tail",
+          "source": " f), although the modern conception of the possession by each man of a special guardian angel is not found in Old Testament.",
+          "target": " et suiv.), bien que la conception moderne selon laquelle chaque individu posséderait son ange gardien particulier ne se trouve pas dans l'Ancien Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 101,
+          "part": "text",
+          "source": "2. The Angelic Host:",
+          "target": "2. L'armée angélique :",
+          "action": "translate"
+        },
+        {
+          "node": 102,
+          "part": "text",
+          "source": "The phrase \"the host of heaven\" is applied to the stars, which were sometimes worshipped by idolatrous Jews (",
+          "target": "L'expression « armée des cieux » s'applique aux étoiles, parfois adorées par des Juifs idolâtres (",
+          "action": "translate"
+        },
+        {
+          "node": 105,
+          "part": "tail",
+          "source": "); the name is applied to the company of angels because of their countless numbers (compare ",
+          "target": "). Cette appellation désigne la multitude des anges en raison de leur nombre incalculable (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 106,
+          "part": "tail",
+          "source": ") and their glory. They are represented as standing on the right and left hand of Yahweh (",
+          "target": ") et de leur gloire. Ils sont représentés se tenant à la droite et à la gauche de Yahvé (",
+          "action": "translate"
+        },
+        {
+          "node": 107,
+          "part": "tail",
+          "source": "). Hence God, who is over them all, is continually called throughout Old Testament \"the God of hosts,\" \"Yahweh of hosts,\" \"Yahweh God of hosts\"; and once \"the prince of the host\" (",
+          "target": "). Dieu, qui domine sur tous, est donc constamment appelé dans l'Ancien Testament « Dieu des armées », « Yahvé des armées », « Yahvé, Dieu des armées » et, une fois, « chef de l'armée » (",
+          "action": "translate"
+        },
+        {
+          "node": 108,
+          "part": "tail",
+          "source": "). One of the principal functions of the heavenly host is to be ever praising the name of the Lord (",
+          "target": "). L'une des principales fonctions de l'armée céleste est de louer sans cesse le nom du Seigneur (",
+          "action": "translate"
+        },
+        {
+          "node": 110,
+          "part": "tail",
+          "source": " f). In this host there are certain figures that stand out prominently, and some of them are named. The angel who appears to Joshua calls himself \"prince of the host of Yahweh\" (",
+          "target": " et suiv.). Parmi cette armée se détachent plusieurs personnages remarquables, dont certains portent un nom. L'ange qui apparaît à Josué se présente comme « chef de l'armée de Yahvé » (",
+          "action": "translate"
+        },
+        {
+          "node": 111,
+          "part": "tail",
+          "source": " f). The glorious angel who interprets to Daniel the vision which he saw in the third year of Cyrus (",
+          "target": " et suiv.). L'ange glorieux qui explique à Daniel la vision de la troisième année de Cyrus (",
+          "action": "translate"
+        },
+        {
+          "node": 112,
+          "part": "tail",
+          "source": "), like the angel who interprets the vision in the first year of Belshazzar (",
+          "target": "), comme celui qui interprète la vision de la première année de Belschatsar (",
+          "action": "translate"
+        },
+        {
+          "node": 113,
+          "part": "tail",
+          "source": "), is not named; but other visions of the same prophet were explained to him by the angel Gabriel, who is called \"the man Gabriel,\" and is described as speaking with \"a man's voice\" (",
+          "target": "), ne reçoit pas de nom. En revanche, d'autres visions du même prophète lui furent expliquées par l'ange Gabriel, appelé « l'homme Gabriel » et décrit parlant avec « une voix d'homme » (",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "tail",
+          "source": " f). In Daniel we find occasional reference made to \"princes\": \"the prince of Persia,\" \"the prince of Greece\" (",
+          "target": " et suiv.). Daniel mentionne parfois des « princes » : « le prince de Perse », « le prince de Grèce » (",
+          "action": "translate"
+        },
+        {
+          "node": 116,
+          "part": "tail",
+          "source": "). These are angels to whom is entrusted the charge of, and possibly the rule over, certain peoples. Most notable among them is Michael, described as \"one of the chief princes,\" \"the great prince who standeth for the children of thy people,\" and, more briefly, \"your prince\" (",
+          "target": "). Ce seraient des anges chargés de veiller sur certains peuples et peut-être de les gouverner. Le plus remarquable est Michel, décrit comme « l'un des principaux chefs », « le grand chef qui défend les enfants de ton peuple » ou, plus brièvement, « votre chef » (",
+          "action": "translate"
+        },
+        {
+          "node": 119,
+          "part": "tail",
+          "source": "); Michael is therefore regarded as the patron-angel of the Jews. In Apocrypha Raphael, Uriel and Jeremiel are also named. Of Raphael it is said (Tobit 12:15) that he is \"one of the seven holy angels who present the prayers of the saints\" to God (compare ",
+          "target": "). Michel est donc considéré comme l'ange protecteur des Juifs. Les livres apocryphes nomment également Raphaël, Uriel et Jérémiel. Il est dit de Raphaël (Tobit 12:15) qu'il est « l'un des sept saints anges qui présentent les prières des saints » à Dieu (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 120,
+          "part": "tail",
+          "source": ", \"the seven angels that stand before God\"). It is possible that this group of seven is referred to in the above-quoted phrase, \"one of the chief princes\". Some (notably Kosters) have maintained that the expressions \"the sons of the 'elohim,\" God's \"council\" and \"congregation,\" refer to the ancient gods of the heathen, now degraded and wholly subordinated to Yahweh. This rather daring speculation has little support in Scripture; but we find traces of a belief that the patron-angels of the nations have failed in establishing righteousness within their allotted sphere on earth, and that they will accordingly be punished by Yahweh their over-Lord (",
+          "target": ", « les sept anges qui se tiennent devant Dieu »). Il est possible que le groupe des sept soit évoqué par l'expression « l'un des principaux chefs » citée précédemment. Certains auteurs, notamment Kosters, ont soutenu que les expressions « fils des 'elohim », « conseil » et « assemblée » de Dieu désignaient d'anciens dieux païens, désormais déchus et entièrement soumis à Yahvé. Cette hypothèse assez hardie trouve peu d'appui dans l'Écriture. On relève toutefois des traces de la croyance selon laquelle les anges protecteurs des nations auraient échoué à établir la justice dans le domaine terrestre qui leur était confié et seraient donc châtiés par Yahvé, leur souverain (",
+          "action": "translate"
+        },
+        {
+          "node": 122,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 123,
+          "part": "tail",
+          "source": " f the Revised Version, margin; compare ",
+          "target": " et suiv., note de la Revised Version ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 125,
+          "part": "text",
+          "source": "3. The Angel of the Theophany:",
+          "target": "3. L'ange de la théophanie :",
+          "action": "translate"
+        },
+        {
+          "node": 126,
+          "part": "text",
+          "source": "This angel is spoken of as \"the angel of Yahweh,\" and \"the angel of the presence (or face) of Yahweh.\" The following passages contain references to this angel: ",
+          "target": "Cet ange est appelé « l'ange de Yahvé » et « l'ange de la présence (ou de la face) de Yahvé ». Les passages suivants le mentionnent : ",
+          "action": "translate"
+        },
+        {
+          "node": 127,
+          "part": "tail",
+          "source": " ff--the angel and Hagar; ",
+          "target": " et suiv., l'ange et Agar ; ",
+          "action": "translate"
+        },
+        {
+          "node": 128,
+          "part": "tail",
+          "source": "--Abraham intercedes with the angel for Sodom; ",
+          "target": ", Abraham intercède auprès de l'ange pour Sodome ; ",
+          "action": "translate"
+        },
+        {
+          "node": 129,
+          "part": "tail",
+          "source": " ff--the angel interposes to prevent the sacrifice of Isaac; ",
+          "target": " et suiv., l'ange intervient pour empêcher le sacrifice d'Isaac ; ",
+          "action": "translate"
+        },
+        {
+          "node": 131,
+          "part": "tail",
+          "source": "--Abraham sends Eliezer and promises the angel's protection; ",
+          "target": ", Abraham envoie Éliézer en lui promettant la protection de l'ange ; ",
+          "action": "translate"
+        },
+        {
+          "node": 132,
+          "part": "tail",
+          "source": " ff--the angel who appears to Jacob says \"I am the God of Beth-el\"; ",
+          "target": " et suiv., l'ange apparaît à Jacob et déclare : « Je suis le Dieu de Béthel » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 133,
+          "part": "tail",
+          "source": " ff--Jacob wrestles with the angel and says, \"I have seen God face to face\"; ",
+          "target": " et suiv., Jacob lutte avec l'ange et dit : « J'ai vu Dieu face à face » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 134,
+          "part": "tail",
+          "source": " f--Jacob speaks of God and the angel as identical; ",
+          "target": " et suiv., Jacob parle de Dieu et de l'ange comme d'un seul être ; ",
+          "action": "translate"
+        },
+        {
+          "node": 135,
+          "part": "tail",
+          "source": " (compare ",
+          "target": " (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 136,
+          "part": "tail",
+          "source": " ff)--the angel appears to Moses in the burning bush; ",
+          "target": " et suiv.), l'ange apparaît à Moïse dans le buisson ardent ; ",
+          "action": "translate"
+        },
+        {
+          "node": 138,
+          "part": "tail",
+          "source": " (compare ",
+          "target": " (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 139,
+          "part": "tail",
+          "source": ")--God or the angel leads Israel out of Egypt; ",
+          "target": "), Dieu ou l'ange conduit Israël hors d'Égypte ; ",
+          "action": "translate"
+        },
+        {
+          "node": 140,
+          "part": "tail",
+          "source": " ff--the people are commanded to obey the angel; ",
+          "target": " et suiv., le peuple reçoit l'ordre d'obéir à l'ange ; ",
+          "action": "translate"
+        },
+        {
+          "node": 141,
+          "part": "tail",
+          "source": " (compare ",
+          "target": " (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 142,
+          "part": "tail",
+          "source": ")--Moses pleads for the presence of God with His people; ",
+          "target": "), Moïse implore que Dieu demeure présent au milieu de son peuple ; ",
+          "action": "translate"
+        },
+        {
+          "node": 143,
+          "part": "tail",
+          "source": "--the angel appears to Joshua; ",
+          "target": ", l'ange apparaît à Josué ; ",
+          "action": "translate"
+        },
+        {
+          "node": 144,
+          "part": "tail",
+          "source": "--the angel speaks to the people; ",
+          "target": ", l'ange parle au peuple ; ",
+          "action": "translate"
+        },
+        {
+          "node": 145,
+          "part": "tail",
+          "source": " ff--the angel appears to Gideon.",
+          "target": " et suiv., l'ange apparaît à Gédéon.",
+          "action": "translate"
+        },
+        {
+          "node": 146,
+          "part": "text",
+          "source": "A study of these passages shows that while the angel and Yahweh are at times distinguished from each other, they are with equal frequency, and in the same passages, merged into each other. How is this to be explained? It is obvious that these apparitions cannot be the Almighty Himself, whom no man hath seen, or can see. In seeking the explanation, special attention should be paid to two of the passages above cited. In ",
+          "target": "L'étude de ces passages montre que, si l'ange et Yahvé sont parfois distingués l'un de l'autre, ils sont tout aussi fréquemment identifiés, et cela dans les mêmes passages. Comment l'expliquer ? Il paraît évident que ces apparitions ne peuvent être celles du Tout-Puissant lui-même, que personne n'a vu ni ne peut voir. Pour rechercher une explication, il faut porter une attention particulière à deux des textes déjà cités. En ",
+          "action": "translate"
+        },
+        {
+          "node": 147,
+          "part": "tail",
+          "source": " ff God promises to send an angel before His people to lead them to the promised land; they are commanded to obey him and not to provoke him \"for he will not pardon your transgression: for my name is in him.\" Thus the angel can forgive sin, which only God can do, because God's name, i.e. His character and thus His authority, are in the angel. Further, in the passage ",
+          "target": " et suivants, Dieu promet d'envoyer un ange devant son peuple pour le conduire au pays promis. Le peuple reçoit l'ordre de lui obéir et de ne pas le provoquer, « car il ne pardonnera pas votre transgression, puisque mon nom est en lui ». L'ange peut donc pardonner le péché, ce que Dieu seul peut faire, parce que le nom de Dieu, c'est-à-dire son caractère et donc son autorité, est en lui. Dans ",
+          "action": "translate"
+        },
+        {
+          "node": 148,
+          "part": "tail",
+          "source": " Moses intercedes for the people after their first breach of the covenant; God responds by promising, \"Behold mine angel shall go before thee\"; and immediately after God says, \"I will not go up in the midst of thee.\" In answer to further pleading, God says, \"My presence shall go with thee, and I will give thee rest.\" Here a clear distinction is made between an ordinary angel, and the angel who carries with him God's presence. The conclusion may be summed up in the words of Davidson in his Old Testament Theology: \"In particular providences one may trace the presence of Yahweh in influence and operation; in ordinary angelic appearances one may discover Yahweh present on some side of His being, in some attribute of His character; in the angel of the Lord He is fully present as the covenant God of His people, to redeem them.\" The question still remains, Who is theophanic angel? To this many answers have been given, of which the following may be mentioned:",
+          "target": ", Moïse intercède en faveur du peuple après sa première rupture de l'alliance. Dieu répond en promettant : « Voici, mon ange ira devant toi », puis ajoute immédiatement : « Je ne monterai pas au milieu de toi. » Après de nouvelles supplications, Dieu déclare : « Ma présence ira avec toi, et je te donnerai du repos. » Une distinction nette apparaît donc entre un ange ordinaire et l'ange qui porte en lui la présence de Dieu. On peut résumer cette conclusion par les paroles de Davidson dans Old Testament Theology : « Dans les providences particulières, on peut discerner la présence de Yahvé dans son influence et son action ; dans les apparitions angéliques ordinaires, on peut reconnaître la présence de Yahvé sous un aspect de son être, un attribut de son caractère ; dans l'ange du Seigneur, il est pleinement présent comme Dieu de l'alliance de son peuple pour le racheter. » La question demeure cependant : qui est l'ange théophanique ? De nombreuses réponses ont été proposées, dont les suivantes :",
+          "action": "translate"
+        },
+        {
+          "node": 149,
+          "part": "text",
+          "source": "(1) This angel is simply an angel with a special commission;",
+          "target": "(1) cet ange est simplement un ange chargé d'une mission particulière ;",
+          "action": "translate"
+        },
+        {
+          "node": 150,
+          "part": "text",
+          "source": "(2) He may be a momentary descent of God into visibility;",
+          "target": "(2) il pourrait être une manifestation momentanée de Dieu sous une forme visible ;",
+          "action": "translate"
+        },
+        {
+          "node": 151,
+          "part": "text",
+          "source": "(3) He may be the Logos, a kind of temporary preincarnation of the second person of the Trinity. Each has its difficulties, but the last is certainly the most tempting to the mind. Yet it must be remembered that at best these are only conjectures that touch on a great mystery. It is certain that from the beginning God used angels in human form, with human voices, in order to communicate with man; and the appearances of the angel of the Lord, with his special redemptive relation to God's people, show the working of that Divine mode of self-revelation which culminated in the coming of the Saviour, and are thus a fore-shadowing of, and a preparation for, the full revelation of God in Jesus Christ. Further than this, it is not safe to go.",
+          "target": "(3) il pourrait être le Logos, une sorte de préincarnation provisoire de la deuxième personne de la Trinité. Chaque solution présente ses difficultés, mais la dernière est certainement la plus séduisante pour l'esprit. Il faut toutefois se souvenir que, même dans le meilleur des cas, il ne s'agit que de conjectures touchant un grand mystère. Il est certain que, dès le commencement, Dieu s'est servi d'anges ayant une forme et une voix humaines pour communiquer avec l'homme. Les apparitions de l'ange du Seigneur, dans sa relation particulière à la rédemption du peuple de Dieu, montrent le fonctionnement de ce mode divin de révélation de soi qui atteint son sommet dans la venue du Sauveur. Elles préfigurent ainsi la pleine révélation de Dieu en Jésus-Christ et y préparent. Il serait imprudent d'aller plus loin.",
+          "action": "translate"
+        },
+        {
+          "node": 153,
+          "part": "text",
+          "source": "III. Angels in New Testament.",
+          "target": "III. Les anges dans le Nouveau Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 154,
+          "part": "text",
+          "source": "1. Appearances:",
+          "target": "1. Les apparitions :",
+          "action": "translate"
+        },
+        {
+          "node": 155,
+          "part": "text",
+          "source": "Nothing is related of angels in New Testament which is inconsistent with the teaching of Old Testament on the subject. Just as they are specially active in the beginning of Old Testament history, when God's people is being born, so they appear frequently in connection with the birth of Jesus, and again when a new order of things begins with the resurrection. An angel appears three times in dreams to Joseph (",
+          "target": "Le Nouveau Testament ne rapporte rien au sujet des anges qui soit incompatible avec l'enseignement de l'Ancien Testament. De même qu'ils sont particulièrement actifs au début de l'histoire de l'Ancien Testament, lors de la naissance du peuple de Dieu, ils apparaissent fréquemment à l'occasion de la naissance de Jésus, puis lorsque la résurrection inaugure un ordre nouveau. Un ange apparaît trois fois en songe à Joseph (",
+          "action": "translate"
+        },
+        {
+          "node": 158,
+          "part": "tail",
+          "source": "). The angel Gabriel appears to Zacharias, and then to Mary in the annunciation (",
+          "target": "). Gabriel apparaît à Zacharie, puis à Marie lors de l'annonciation (",
+          "action": "translate"
+        },
+        {
+          "node": 159,
+          "part": "tail",
+          "source": "). An angel announces to the shepherds the birth of Jesus, and is joined by a \"multitude of the heavenly host,\" praising God in celestial song (",
+          "target": "). Un ange annonce aux bergers la naissance de Jésus ; il est rejoint par une « multitude de l'armée céleste », qui loue Dieu dans un chant venu du ciel (",
+          "action": "translate"
+        },
+        {
+          "node": 160,
+          "part": "tail",
+          "source": " ff). When Jesus is tempted, and again during the agony at Gethsemane, angels appear to Him to strengthen His soul (",
+          "target": " et suiv.). Lors de la tentation de Jésus puis de son agonie à Gethsémané, des anges lui apparaissent pour le fortifier (",
+          "action": "translate"
+        },
+        {
+          "node": 162,
+          "part": "tail",
+          "source": "). The verse which tells how an angel came down to trouble the pool (",
+          "target": "). Le verset qui raconte qu'un ange descendait agiter l'eau de la piscine (",
+          "action": "translate"
+        },
+        {
+          "node": 163,
+          "part": "tail",
+          "source": ") is now omitted from the text as not being genuine. An angel descends to roll away the stone from the tomb of Jesus (",
+          "target": ") est désormais omis du texte parce qu'il est considéré comme non authentique. Un ange descend pour rouler la pierre du tombeau de Jésus (",
+          "action": "translate"
+        },
+        {
+          "node": 164,
+          "part": "tail",
+          "source": "); angels are seen there by certain women (",
+          "target": ") ; des anges y sont vus par certaines femmes (",
+          "action": "translate"
+        },
+        {
+          "node": 165,
+          "part": "tail",
+          "source": ") and (two) by Mary Magdalene (",
+          "target": ") et deux par Marie de Magdala (",
+          "action": "translate"
+        },
+        {
+          "node": 166,
+          "part": "tail",
+          "source": "). An angel releases the apostles from prison, directs Philip, appears to Peter in a dream, frees him from prison, smites Herod with sickness, appears to Paul in a dream (",
+          "target": "). Un ange libère les apôtres de prison, dirige Philippe, apparaît à Pierre dans un rêve, le délivre de prison, frappe Hérode de maladie et apparaît à Paul dans un rêve (",
+          "action": "translate"
+        },
+        {
+          "node": 172,
+          "part": "tail",
+          "source": "). Once they appear clothed in white; they are so dazzling in appearance as to terrify beholders; hence they begin their message with the words \"Fear not\" (",
+          "target": "). Une fois, ils apparaissent vêtus de blanc ; leur aspect est si éclatant qu'il effraie les témoins. C'est pourquoi ils commencent leur message par les mots : « N'ayez pas peur » (",
+          "action": "translate"
+        },
+        {
+          "node": 174,
+          "part": "text",
+          "source": "2. The Teaching of Jesus about Angels:",
+          "target": "2. L'enseignement de Jésus sur les anges :",
+          "action": "translate"
+        },
+        {
+          "node": 175,
+          "part": "text",
+          "source": "It is quite certain that our Lord accepted the main teachings of Old Testament about angels, as well as the later Jewish belief in good and bad angels. He speaks of the \"angels in heaven\" (",
+          "target": "Il est certain que notre Seigneur acceptait les principaux enseignements de l'Ancien Testament concernant les anges, ainsi que la croyance juive postérieure en de bons et de mauvais anges. Il parle des « anges dans le ciel » (",
+          "action": "translate"
+        },
+        {
+          "node": 176,
+          "part": "tail",
+          "source": "), and of \"the devil and his angels\" (",
+          "target": ") et « du diable et de ses anges » (",
+          "action": "translate"
+        },
+        {
+          "node": 177,
+          "part": "tail",
+          "source": "). According to our Lord the angels of God are holy (",
+          "target": "). Selon notre Seigneur, les anges de Dieu sont saints (",
+          "action": "translate"
+        },
+        {
+          "node": 178,
+          "part": "tail",
+          "source": "); they have no sex or sensuous desires (",
+          "target": "), n'ont ni sexe ni désirs sensuels (",
+          "action": "translate"
+        },
+        {
+          "node": 179,
+          "part": "tail",
+          "source": "); they have high intelligence, but they know not the time of the Second Coming (",
+          "target": "), possèdent une intelligence élevée mais ignorent le moment du second avènement (",
+          "action": "translate"
+        },
+        {
+          "node": 180,
+          "part": "tail",
+          "source": "); they carry (in a parable) the soul of Lazarus to Abraham's bosom (",
+          "target": "). Dans une parabole, ils portent l'âme de Lazare dans le sein d'Abraham (",
+          "action": "translate"
+        },
+        {
+          "node": 181,
+          "part": "tail",
+          "source": "); they could have been summoned to the aid of our Lord, had He so desired (",
+          "target": "). Ils auraient pu être appelés au secours de notre Seigneur s'il l'avait voulu (",
+          "action": "translate"
+        },
+        {
+          "node": 182,
+          "part": "tail",
+          "source": "); they will accompany Him at the Second Coming (",
+          "target": "). Ils l'accompagneront à son retour (",
+          "action": "translate"
+        },
+        {
+          "node": 183,
+          "part": "tail",
+          "source": ") and separate the righteous from the wicked (",
+          "target": ") et sépareront les justes des méchants (",
+          "action": "translate"
+        },
+        {
+          "node": 185,
+          "part": "tail",
+          "source": "). They watch with sympathetic eyes the fortunes of men, rejoicing in the repentance of a sinner (",
+          "target": "). Ils observent avec sympathie le sort des hommes et se réjouissent lorsqu'un pécheur se repent (",
+          "action": "translate"
+        },
+        {
+          "node": 186,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 189,
+          "part": "tail",
+          "source": "); and they will hear the Son of Man confessing or denying those who have confessed or denied Him before men (",
+          "target": "). Ils entendront le Fils de l'homme reconnaître ou renier ceux qui l'auront reconnu ou renié devant les hommes (",
+          "action": "translate"
+        },
+        {
+          "node": 190,
+          "part": "tail",
+          "source": " f). The angels of the presence of God, who do not appear to correspond to our conception of guardian angels, are specially interested in God's little ones (",
+          "target": " et suiv.). Les anges de la présence de Dieu, qui ne paraissent pas correspondre à notre conception des anges gardiens, s'intéressent particulièrement aux petits de Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 191,
+          "part": "tail",
+          "source": "). Finally, the existence of angels is implied in the Lord's Prayer in the petition, \"Thy will be done, as in heaven, so on earth\" (",
+          "target": "). Enfin, l'existence des anges est impliquée dans la prière du Seigneur, dans la demande : « Que ta volonté soit faite sur la terre comme au ciel » (",
+          "action": "translate"
+        },
+        {
+          "node": 193,
+          "part": "text",
+          "source": "3. Other New Testament References:",
+          "target": "3. Autres références néotestamentaires :",
+          "action": "translate"
+        },
+        {
+          "node": 194,
+          "part": "text",
+          "source": "Paul refers to the ranks of angels (\"principalities, powers\" etc.) only in order to emphasize the complete supremacy of Jesus Christ. He teaches that angels will be judged by the saints (",
+          "target": "Paul ne fait référence aux rangs des anges (« principautés », « puissances », etc.) que pour souligner la suprématie absolue de Jésus-Christ. Il enseigne que les anges seront jugés par les saints (",
+          "action": "translate"
+        },
+        {
+          "node": 195,
+          "part": "tail",
+          "source": "). He attacks the incipient Gnosticism of Asia Minor by forbidding the, worship of angels (",
+          "target": "). Il s'oppose au gnosticisme naissant en Asie Mineure en interdisant le culte des anges (",
+          "action": "translate"
+        },
+        {
+          "node": 196,
+          "part": "tail",
+          "source": "). He speaks of God's angels as \"elect,\" because they are included in the counsels of Divine love (",
+          "target": "). Il parle des anges de Dieu comme d'anges « élus », parce qu'ils font partie des desseins de l'amour divin (",
+          "action": "translate"
+        },
+        {
+          "node": 197,
+          "part": "tail",
+          "source": "). When Paul commands the women to keep their heads covered in church because of the angels (",
+          "target": "). Lorsque Paul ordonne aux femmes de garder la tête couverte dans l'assemblée à cause des anges (",
+          "action": "translate"
+        },
+        {
+          "node": 198,
+          "part": "tail",
+          "source": ") he probably means that the angels, who watch all human affairs with deep interest, would be pained to see any infraction of the laws of modesty. In ",
+          "target": "), il veut probablement dire que ceux-ci, qui observent toutes les affaires humaines avec un profond intérêt, seraient attristés par toute infraction aux lois de la pudeur. En ",
+          "action": "translate"
+        },
+        {
+          "node": 199,
+          "part": "tail",
+          "source": " angels are described as ministering spirits engaged in the service of the saints. Peter also emphasizes the supremacy of our Lord over all angelic beings (",
+          "target": ", les anges sont décrits comme des esprits au service des saints. Pierre souligne lui aussi la suprématie de notre Seigneur sur tous les êtres angéliques (",
+          "action": "translate"
+        },
+        {
+          "node": 200,
+          "part": "tail",
+          "source": "). The references to angels in 2 Peter and Jude are colored by contact with Apocrypha literature. In Revelation, where the references are obviously symbolic, there is very frequent mention of angels. The angels of the seven churches (",
+          "target": "). Les références aux anges dans 2 Pierre et Jude portent l'empreinte de la littérature apocryphe. Dans l'Apocalypse, où ces mentions sont manifestement symboliques, les anges apparaissent très fréquemment. Les anges des sept Églises (",
+          "action": "translate"
+        },
+        {
+          "node": 201,
+          "part": "tail",
+          "source": ") are the guardian angels or the personifications of these churches. The worship of angels is also forbidden (",
+          "target": ") seraient les anges gardiens ou les personnifications de ces Églises. Le culte rendu aux anges y est également interdit (",
+          "action": "translate"
+        },
+        {
+          "node": 202,
+          "part": "tail",
+          "source": " f). Specially interesting is the mention of elemental angels--\"the angel of the waters\" (",
+          "target": " et suiv.). Les références aux anges des éléments sont particulièrement intéressantes : « l'ange des eaux » (",
+          "action": "translate"
+        },
+        {
+          "node": 203,
+          "part": "tail",
+          "source": "), and the angel \"that hath power over fire\" (",
+          "target": ") et l'ange « qui a autorité sur le feu » (",
+          "action": "translate"
+        },
+        {
+          "node": 204,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 206,
+          "part": "tail",
+          "source": "). Reference is also made to the \"angel of the bottomless pit,\" who is called ",
+          "target": "). On mentionne aussi « l'ange de l'abîme », appelé ",
+          "action": "translate"
+        },
+        {
+          "node": 207,
+          "part": "text",
+          "source": "ABADDON",
+          "target": "ABADDON",
+          "action": "preserve",
+          "reason": "ABADDON is the original Hebrew proper-name cross-reference in both languages"
+        },
+        {
+          "node": 207,
+          "part": "tail",
+          "source": " or ",
+          "target": " ou ",
+          "action": "translate"
+        },
+        {
+          "node": 208,
+          "part": "text",
+          "source": "APOLLYON",
+          "target": "APOLLYON",
+          "action": "preserve",
+          "reason": "APOLLYON is the identical source proper-name cross-reference"
+        },
+        {
+          "node": 208,
+          "part": "tail",
+          "source": " (which see), evidently an evil angel (",
+          "target": " (voir ces articles), manifestement un ange mauvais (",
+          "action": "translate"
+        },
+        {
+          "node": 209,
+          "part": "tail",
+          "source": " the King James Version, the Revised Version (British and American) \"abyss\"). In ",
+          "target": ", King James Version ; « abîme » dans la Revised Version britannique et américaine). En ",
+          "action": "translate"
+        },
+        {
+          "node": 210,
+          "part": "tail",
+          "source": " ff we are told that there was war between Michael with his angels and the dragon with his angels.",
+          "target": " et suivants, il est question d'une guerre entre Michel et ses anges, d'une part, et le dragon et ses anges, d'autre part.",
+          "action": "translate"
+        },
+        {
+          "node": 212,
+          "part": "text",
+          "source": "IV. Development of the Doctrine.",
+          "target": "IV. Le développement de la doctrine.",
+          "action": "translate"
+        },
+        {
+          "node": 213,
+          "part": "text",
+          "source": "In the childhood of the race it was easy to believe in God, and He was very near to the soul. In Paradise there is no thought of angels; it is God Himself who walks in the garden. A little later the thought of angels appears, but, God has not gone away, and as \"the angel of Yahweh\" He appears to His people and redeems them. In these early times the Jews believed that there were multitudes of angels, not yet divided in thought into good and bad; these had no names or personal characteristics, but were simply embodied messages. Till the time of the captivity the Jewish angelology shows little development. During that dark period they came into close contact with a polytheistic people, only to be more deeply confirmed in their monotheism thereby. They also became acquainted with the purer faith of the Persians, and in all probability viewed the tenets of Zoroastrianism with a more favorable eye, because of the great kindness of Cyrus to their nation.",
+          "target": "Dans l'enfance de l'humanité, il était facile de croire en Dieu, et Dieu se tenait tout près de l'âme. Au paradis, il n'est pas question d'anges : Dieu lui-même marche dans le jardin. Un peu plus tard apparaît la notion d'anges, mais Dieu ne s'est pas éloigné ; en tant qu'« ange de Yahvé », il se manifeste à son peuple et le rachète. En ces temps anciens, les Juifs croyaient à l'existence d'une multitude d'anges, sans les distinguer encore conceptuellement en bons et mauvais. Ils ne possédaient ni noms ni caractéristiques personnelles, mais n'étaient que des messages incarnés. Jusqu'à la captivité, l'angélologie juive connut peu de développement. Durant cette sombre période, les Juifs entrèrent en contact étroit avec un peuple polythéiste, ce qui ne fit que les affermir davantage dans leur monothéisme. Ils découvrirent aussi la foi plus pure des Perses et considérèrent probablement les doctrines du zoroastrisme avec plus de faveur en raison de la grande bienveillance de Cyrus envers leur nation.",
+          "action": "translate"
+        },
+        {
+          "node": 214,
+          "part": "text",
+          "source": "There are few direct traces of Zoroastrianism in the later angelology of the Old Testament. It is not even certain that the number seven as applied to the highest group of angels is Persian in its origin; the number seven was not wholly disregarded by the Jews. One result of the contact was that the idea of a hierarchy of the angels was more fully developed. The conception in Da of angels as \"watchers,\" and the idea of patron-princes or angel-guardians of nations may be set down to Persian influence. It is probable that contact with the Persians helped the Jews to develop ideas already latent in their minds. According to Jewish tradition, the names of the angels came from Babylon. By this time the consciousness of sin had grown more intense in the Jewish mind, and God had receded to an immeasurable distance; the angels helped to fill the gap between God and man. The more elaborate conceptions of Daniel and Zechariah are further developed in Apocrypha, especially in 2 Esdras, Tobit and 2 Macc.",
+          "target": "Les traces directes du zoroastrisme dans l'angélologie tardive de l'Ancien Testament sont peu nombreuses. Il n'est même pas certain que l'application du nombre sept à la catégorie supérieure des anges soit d'origine perse ; le chiffre sept n'était pas étranger aux Juifs. L'un des résultats de ce contact fut le développement plus complet de la notion de hiérarchie angélique. La conception des anges comme « veilleurs » dans Daniel, ainsi que l'idée de princes protecteurs ou d'anges gardiens des nations, pourraient être attribuées à une influence perse. Le contact avec les Perses a probablement aidé les Juifs à développer des idées déjà latentes dans leur pensée. Selon la tradition juive, les noms des anges vinrent de Babylone. À cette époque, la conscience du péché s'était intensifiée dans l'esprit juif et Dieu s'était éloigné à une distance incommensurable ; les anges contribuèrent à combler l'intervalle entre Dieu et l'homme. Les conceptions plus élaborées de Daniel et de Zacharie se développèrent davantage dans les livres apocryphes, notamment 2 Esdras, Tobit et 2 Maccabées.",
+          "action": "translate"
+        },
+        {
+          "node": 215,
+          "part": "text",
+          "source": "In the New Testament we find that there is little further development; and by the Spirit of God its writers were saved from the absurdly puerile teachings of contemporary Rabbinism. We find that the Sadducees, as contrasted with the Pharisees, did not believe in angels or spirits (",
+          "target": "Dans le Nouveau Testament, on constate peu de développements supplémentaires. L'Esprit de Dieu préserva ses auteurs des enseignements puérils et absurdes du rabbinisme contemporain. Nous apprenons que les sadducéens, contrairement aux pharisiens, ne croyaient ni aux anges ni aux esprits (",
+          "action": "translate"
+        },
+        {
+          "node": 216,
+          "part": "tail",
+          "source": "). We may conclude that the Sadducees, with their materialistic standpoint, and denial of the resurrection, regarded angels merely as symbolical expressions of God's actions. It is noteworthy in this connection that the great priestly document (Priestly Code, P) makes no mention of angels. The Book of Revelation naturally shows a close kinship to the books of Ezekiel and Daniel. Regarding the rabbinical developments of angelology, some beautiful, some extravagant, some grotesque, but all fanciful, it is not necessary here to speak. The Essenes held an esoteric doctrine of angels, in which most scholars find the germ of the Gnostic eons.",
+          "target": "). Nous pouvons supposer qu'en raison de leur point de vue matérialiste et de leur négation de la résurrection, les sadducéens considéraient les anges comme de simples expressions symboliques des actes de Dieu. Il est remarquable à cet égard que le grand document sacerdotal (Code sacerdotal, P) ne mentionne aucun ange. L'Apocalypse présente naturellement une étroite parenté avec Ézéchiel et Daniel. Il n'est pas nécessaire de traiter ici des développements rabbiniques de l'angélologie : certains beaux, d'autres extravagants, d'autres grotesques, mais tous imaginatifs. Les esséniens possédaient une doctrine ésotérique des anges, dans laquelle la plupart des savants voient le germe des éons gnostiques.",
+          "action": "translate"
+        },
+        {
+          "node": 218,
+          "part": "text",
+          "source": "V. The Reality of Angels.",
+          "target": "V. La réalité des anges.",
+          "action": "translate"
+        },
+        {
+          "node": 219,
+          "part": "text",
+          "source": "A belief in angels, if not indispensable to the faith of a Christian, has its place there. In such a belief there is nothing unnatural or contrary to reason. Indeed, the warm welcome which human nature has always given to this thought, is an argument in its favor. Why should there not be such an order of beings, if God so willed it? For the Christian the whole question turns on the weight to be attached to the words of our Lord. All are agreed that He teaches the existence, reality, and activity of angelic beings. Was He in error because of His human limitations? That is a conclusion which it is very hard for the Christian to draw, and we may set it aside. Did He then adjust His teaching to popular belief, knowing that what He said was not true? This explanation would seem to impute deliberate untruth to our Lord, and must equally be set aside. So we find ourselves restricted to the conclusion that we have the guaranty of Christ's word for the existence of angels; for most Christians that will settle the question.",
+          "target": "Même si la croyance aux anges n'est pas indispensable à la foi d'un chrétien, elle y possède sa place. Rien dans une telle croyance n'est contre nature ni contraire à la raison. En réalité, l'accueil chaleureux que la nature humaine a toujours réservé à cette idée constitue un argument en sa faveur. Pourquoi n'existerait-il pas une telle catégorie d'êtres, si Dieu l'avait voulu ? Pour le chrétien, toute la question dépend du poids accordé aux paroles de notre Seigneur. Tous conviennent qu'il enseigne l'existence, la réalité et l'activité des êtres angéliques. Se trompait-il en raison de ses limitations humaines ? C'est une conclusion très difficile à tirer pour un chrétien, que nous pouvons donc écarter. Aurait-il alors adapté son enseignement aux croyances populaires en sachant que ce qu'il disait n'était pas vrai ? Cette explication semblerait imputer à notre Seigneur un mensonge délibéré et doit être écartée de la même manière. Nous sommes donc conduits à cette conclusion : la parole du Christ nous garantit l'existence des anges. Pour la plupart des chrétiens, cela suffit à trancher la question.",
+          "action": "translate"
+        },
+        {
+          "node": 220,
+          "part": "text",
+          "source": "The visible activity of angels has come to an end, because their mediating work is done; Christ has founded the kingdom of the Spirit, and God's Spirit speaks directly to the spirit of man. This new and living way has been opened up to us by Jesus Christ, upon whom faith can yet behold the angels of God ascending and descending. Still they watch the lot of man, and rejoice in his salvation; still they join in the praise and adoration of God, the Lord of hosts, still can they be regarded as \"ministering spirits sent forth to do service for the sake of them that shall inherit salvation.\"",
+          "target": "L'activité visible des anges a pris fin parce que leur œuvre de médiation est achevée : le Christ a fondé le royaume de l'Esprit, et l'Esprit de Dieu parle directement à celui de l'homme. Cette voie nouvelle et vivante nous a été ouverte par Jésus-Christ, sur qui la foi peut encore contempler les anges de Dieu montant et descendant. Ils continuent pourtant à veiller sur le sort des hommes et à se réjouir de leur salut ; ils continuent à prendre part à la louange et à l'adoration de Dieu, le Seigneur des armées. Ils peuvent encore être considérés comme des « esprits au service de Dieu, envoyés pour exercer un ministère en faveur de ceux qui doivent hériter du salut ».",
+          "action": "translate"
+        },
+        {
+          "node": 222,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 223,
+          "part": "text",
+          "source": "All Old Testament and New Testament theologies contain discussions. Among the older books Oehler's Old Testament Theology and Hengstenberg's Christology of Old Testament (for \"angel of Yahweh\") and among modern ones Davidson's Old Testament Theology are specially valuable. The ablest supporter of theory that the \"sons of the Elohim\" are degraded gods is Kosters. \"Het onstaan der Angelologie onder Israel,\" TT 1876. See also articles on \"Angel\" in HDB (by Davidson), EB, DCG, Jew Encyclopedia, RE (by Cremer). Cremer's Biblico- Theological New Testament Lexicon should be consulted under the word \"aggelos.\" For Jewish beliefs see also Edersheim's Life and Times of Jesus, II, Appendix xiii. On the Pauline angelology see Everling, Die paulinische Angelologie. On the general subject see Godet, Biblical Studies; Mozley, The Word, chapter lix, and Latham, A Service of Angels.",
+          "target": "Toutes les théologies de l'Ancien et du Nouveau Testament consacrent des développements à ce sujet. Parmi les ouvrages anciens, Old Testament Theology d'Oehler et Christology of Old Testament de Hengstenberg (pour l'« ange de Yahvé »), et parmi les ouvrages modernes Old Testament Theology de Davidson, sont particulièrement précieux. Le plus habile défenseur de l'hypothèse selon laquelle les « fils des Elohim » seraient des dieux déchus est Kosters, « Het onstaan der Angelologie onder Israel », TT, 1876. Voir également les articles « Angel » dans HDB (Davidson), EB, DCG, Jewish Encyclopedia et RE (Cremer). Consulter aussi, à l'article aggelos, le Biblico-Theological New Testament Lexicon de Cremer. Pour les croyances juives, voir Life and Times of Jesus d'Edersheim, II, appendice XIII. Sur l'angélologie paulinienne, voir Everling, Die paulinische Angelologie. Pour l'ensemble du sujet, voir Godet, Biblical Studies ; Mozley, The Word, chap. LIX ; et Latham, A Service of Angels.",
+          "action": "translate"
+        },
+        {
+          "node": 224,
+          "part": "text",
+          "source": "John Macartney Wilson",
+          "target": "John Macartney Wilson",
+          "action": "preserve",
+          "reason": "Original author attribution preserved verbatim"
+        }
+      ]
+    }
+  ]
+}
