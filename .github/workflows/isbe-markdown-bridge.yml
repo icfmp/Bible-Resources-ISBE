@@ -7,6 +7,7 @@ on:
       - 'scripts/markdown_translation_bridge.py'
       - 'tests/test_markdown_translation_bridge.py'
       - 'tests/test_markdown_bridge_guards.py'
+      - 'docs/isbe-markdown-translation-bridge.md'
       - '.github/workflows/isbe-markdown-bridge.yml'
   pull_request:
     paths:
@@ -14,6 +15,7 @@ on:
       - 'scripts/markdown_translation_bridge.py'
       - 'tests/test_markdown_translation_bridge.py'
       - 'tests/test_markdown_bridge_guards.py'
+      - 'docs/isbe-markdown-translation-bridge.md'
       - '.github/workflows/isbe-markdown-bridge.yml'
   workflow_dispatch:
 
