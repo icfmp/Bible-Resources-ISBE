@@ -1,0 +1,80 @@
+name: Stage pending wave-01 ISBE Markdown sources for large-batch translation
+
+on:
+  push:
+    branches: [work/fr-isbe-wave01-remaining-md]
+    paths:
+      - 'scripts/prepare_isbe_markdown_queue.py'
+      - '.github/workflows/stage-wave01-english-sources.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Recreate checksummed corrected-English TEI source archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/isbe-stage
+          python3 -m scripts.export_tei_markdown_corpus \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --output /tmp/isbe-stage/english-and-maps.zip \
+            --report /tmp/isbe-stage/report.json
+      - name: Stage all remaining first-wave original articles (up to 100)
+        shell: bash
+        run: |
+          set -euo pipefail
+          patches=(--patches workspace/pilots/isbe-1915-fr/draft-patches.json)
+          for path in workspace/translations/isbe-1915/fr/batches/*.json; do
+            patches+=(--patches "$path")
+          done
+          python3 -m scripts.prepare_isbe_markdown_queue \
+            --archive /tmp/isbe-stage/english-and-maps.zip \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --roster workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json \
+            --output workspace/translations/isbe-1915/fr/source-queue \
+            --limit 100 \
+            "${patches[@]}"
+      - name: Verify all 54 still-untranslated originals and pinned references
+        run: |
+          python3 - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          root=Path('workspace/translations/isbe-1915/fr/source-queue')
+          manifest=json.loads((root/'MANIFEST.json').read_text(encoding='utf-8'))
+          assert manifest['source_sha256']=='5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c'
+          assert manifest['drafted_wave_01']==946
+          assert manifest['pending_wave_01']==54
+          assert manifest['templates_prepared']==54
+          assert manifest['publication_permitted'] is False
+          assert manifest['human_editorial_approvals']==0
+          ids=set()
+          for row in manifest['articles']:
+              assert row['article_id'] not in ids
+              ids.add(row['article_id'])
+              data=(root/row['template']).read_bytes()
+              assert hashlib.sha256(data).hexdigest()==row['template_sha256']
+              assert b'ISBE-BLOCK:' in data and b'ISBE-END:' in data
+          print('ORIGINAL ENGLISH SOURCES STAGED:',len(ids),'of',manifest['pending_wave_01'])
+          PY
+      - name: Commit only the immutable English working-source Markdown and manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add workspace/translations/isbe-1915/fr/source-queue/
+          if git diff --cached --quiet; then
+            echo "No source changes"
+          else
+            git commit -m "chore(fr): stage all 54 pending ISBE wave-01 English Markdown sources"
+            git push origin "HEAD:refs/heads/work/fr-isbe-wave01-remaining-md"
+          fi
