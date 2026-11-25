@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_editorial_translation_cohort",
+  "work": "ISBE 1915",
+  "source_language": "en",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "source_worklist": "workspace/translations/isbe-1915/fr/worklists/wave-01/0001-1000.json",
+  "parent_issue": 109,
+  "selection": "Five shortest previously undrafted complete original articles after cohort 012, stored in canonical source-index order",
+  "selection_date": "2026-11-25",
+  "item_count": 5,
+  "status": "complete_first_drafts_pending_bilingual_editorial_acceptance",
+  "human_editorially_approved": 0,
+  "publication_permitted": false,
+  "entries": [
+    {
+      "index": 629,
+      "source_key": "APPEAL",
+      "article_id": "isbe-0ddc335dad8f1f41d7a4",
+      "source_article_sha256": "12e7d0935bc4af5f1fb20410c301a5f6edfc78cadfd444ccfab72e18b11f61d2",
+      "source_eligible_chars": 2452,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0048-cohort-013-substantive-articles-01.json"
+    },
+    {
+      "index": 661,
+      "source_key": "ARABIC VERSIONS",
+      "article_id": "isbe-743503f454829dadae98",
+      "source_article_sha256": "dc5718d032dab11f6006749f14f44efca0e47fe0716d2fcd144f2ae15f9dd467",
+      "source_eligible_chars": 2446,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0048-cohort-013-substantive-articles-01.json"
+    },
+    {
+      "index": 726,
+      "source_key": "ARISTOBULUS",
+      "article_id": "isbe-797f846dd7007ffeb7e8",
+      "source_article_sha256": "40f23d541934f41f5c4482d01394bd021a0b41542dbf05c230d74e72ec74da6d",
+      "source_eligible_chars": 2186,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0048-cohort-013-substantive-articles-01.json"
+    },
+    {
+      "index": 813,
+      "source_key": "ASHAMED",
+      "article_id": "isbe-4dd67099228406db3bb6",
+      "source_article_sha256": "e715104ae0708458edd250db6d109a4db6b13a823cb7584a0213500b691b8a99",
+      "source_eligible_chars": 2429,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0048-cohort-013-substantive-articles-01.json"
+    },
+    {
+      "index": 984,
+      "source_key": "AX (AXE); AX-HEAD",
+      "article_id": "isbe-28bee8dc9726574c527b",
+      "source_article_sha256": "332cedf09312f37ff4987898065ede4eae5bd9117f777dee289df28a3bb79df3",
+      "source_eligible_chars": 2183,
+      "patch_file": "workspace/translations/isbe-1915/fr/batches/0048-cohort-013-substantive-articles-01.json"
+    }
+  ]
+}

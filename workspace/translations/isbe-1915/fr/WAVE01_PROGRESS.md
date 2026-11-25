@@ -656,3 +656,8 @@ Five previously undrafted **complete original 1915 ISBE entries** now have faith
 Editorial witness flag: the source's `ANTIOCHUS IV; ANTIOCHUS EPIPHANES` says that Ptolemy VI died in 173 BC, which conflicts with the historical chronology normally given for Ptolemy VI. The French draft faithfully retains the source's wording, without presenting the historical claim as an independent verification or silently altering the English original. Authenticate the printed 1915 witness and distinguish transcription error from authorial historical error **before** accepting the article editorially. Historical opinions, biblical citations and bibliographic ascriptions in the other four entries remain attributed to the original historical ISBE authors.
 
 Reconstruct all **926** source-locked unreviewed drafts, check article and manifest uniqueness/fingerprints against the exact English master, render full readable proofs, run TEI profile/official validators and require independent bilingual review before any approval. No application code or historical source is changed by this batch.
+
+
+## Thirteenth substantive cohort — five complete French first drafts (25 November 2026)
+
+APPEAL, ARABIC VERSIONS, ARISTOBULUS, ASHAMED and AX (AXE); AX-HEAD: 90 mutable units, 11,696 source characters. Batch 0048 and cohort 013 preserve canonical identity and source references. Expected after successful CI and merge: 886/1,000 first drafts, 114 remaining; 931/9,380 corpus-wide. No independent editorial approvals or publication. Source witness concerns: retain the stray CR in ARISTOBULUS and the spelling Sasdish in ARABIC VERSIONS pending printed-source collation; retain historical assertions as authored.
