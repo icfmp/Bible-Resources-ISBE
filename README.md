@@ -63,6 +63,15 @@ python3 scripts/persist_1915_cleaned_master.py --assemble
 
 The full `--assemble` workflow requires the official TEI P5 schema toolchain (including `jing`). The permanent [source-retention CI](.github/workflows/validate-retained-isbe-sources.yml) reconstructs and byte-compares the historical cleaned source from pinned evidence. The standard [CI checks](.github/workflows/validate.yml) verify the digital witness and index.
 
+## Reusable Markdown workspace for all translations
+
+The source-locked, reproducible [Markdown corpus exporter](docs/isbe-markdown-export.md)
+creates readable English copies of all **9,380 canonical articles**, with complete
+per-article TEI source maps and the existing unreviewed French reading drafts.
+Successful CI retains the verified ZIP in the dedicated
+`generated/isbe-1915-markdown` branch. Markdown is only an editorial view:
+the corrected historical TEI and original article identifiers remain authoritative.
+
 ## Modern English, translations and BRSI
 
 The future modern English edition **will be a distinct real resource**, e.g. `sources/cleaned/encyclopedias/en/isbe-modern/ISBE.xml`, with its own revision and validation. Future translations likewise belong under `sources/cleaned/encyclopedias/<language>/isbe-modern/`, not empty placeholder directories. They must preserve or explicitly map stable article IDs, so [BRSI](https://github.com/icfmp/Bible-Resources-Semantic-Index) can link biblical identities independently of presentation language.
