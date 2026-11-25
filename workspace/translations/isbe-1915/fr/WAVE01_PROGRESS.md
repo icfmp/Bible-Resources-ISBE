@@ -718,3 +718,26 @@ Independent bilingual/printed witness review flags:
 - `AUGUSTUS`: the original has `Caius Octavius Caepias`, `Dion Cass., 5316` and an unusual historical rendering of Augustus' biography; the French translation preserves the historical source evidence, without inventing a modern correction. The Latin Ovid quotation is retained.
 
 Run the full technical CI suite against the completed source-locked corpus, both French preview generators and official TEI P5 schemas; green automated tests do not grant independent editorial acceptance or publication permission.
+
+## Seventeenth substantive cohort — ten complete French first drafts, eighth group of 100 completed (25 November 2026)
+
+Two consecutive source-locked selections of five shortest still-undrafted canonical wave-01 articles yielded ten **complete original historical ISBE entries**, retaining their original indices: **#0564 ANTIOCH, IN SYRIA; #0566 ANTIOCHIANS; #0612 APOLLOS; #0613 APOLLYON; #0614 APOSTASY; APOSTATE; #0640 APPLE; APPLE-TREE; #0714 ARGOB (2); #0771 ARTAXERXES; #0821 ASHER (1); #0838 ASHTORETH**. The immutable cohort manifest `COHORT_017_10_SUBSTANTIVE_ARTICLES.json` contains all ten original `@n` and `xml:id` values, exact fingerprints and canonical index positions; source-locked French translation patch files `0064`–`0073` contain complete original text/tail coverage for each article.
+
+- **39,833 original eligible English characters**, **317 complete original text/tail units**, including **203 mutable units** translated or explicitly preserved (with source text and required reason), plus **114 immutable original units** left byte-unchanged in TEI. No source master, existing translated text, original source identifier, original-language script, Scripture `cRef` or reference destination was edited.
+- Two source export rounds automatically excluded all existing prior original source keys, including the preceding five first drafts; there are no duplicated or reordered canonical entries.
+- Projected after full technical CI success and merge: **911 / 1,000** first-wave original articles with a **complete but unreviewed** first French draft, and **89** originals still undrafted; **956 / 9,380** corpus-wide complete unreviewed first drafts. This also finishes the ten-by-ten hundred-article target begun from the 811-draft checkpoint: **100 newly added complete first drafts** across intervening cohorts, without treating rough output as accepted editorial work.
+- **0 independent bilingual editorial acceptances, 0 parent issue checklist items checked, and no public French SWORD/module publication permitted**. This stage is **draft coverage**, not proven editorial correctness.
+
+Historical witness and editorial collation flags:
+- `ANTIOCH, IN SYRIA`: original English twice has `rounded` for apparently `founded`, and `GentileChristianity` without a space. The French translates intelligible meaning, but no source repair has been made. The original contemporary description of Antakiyeh is from 1915.
+- `APOLLOS`: original dates 54, 57 and 64–67 AD are translated as the 1915 author's chronology; preserve original biblical references even if historical chronology or citation merits criticism.
+- `APOSTASY; APOSTATE`: original contextual placement of Joshua 24 before entry to the Promised Land merits examination against the historical witness; the original `1 ` plus immutable `Joh 2:19` text unit remains unchanged, and the original author's claims about apostasy and religions are not editorially rewritten.
+- `APPLE; APPLE-TREE`: historical `Pyrus malus` identification, botanical chronology and historical present-tense Palestinian horticulture remain the original writer's claims; named biblical-version interpretation is retained.
+- `ARTAXERXES`: preserves author's treatment of the rival identifications of the Persian ruler, and ancient Josephus/Septuagint tradition, without silently modernizing chronology or manuscript claims.
+- `ANTIOCHIANS`: maintains the historical 2 Maccabees interpretation and attributed quotations without inventing canon status or silently rewriting the source narrative.
+- `APOLLYON`: faithfully translates the *author's* theological argument that Apollyon is not Satan but a symbolic personification. This interpretation is not an editorial endorsement of the French project.
+- `ARGOB (2)`: source explicitly calls `De 3:14` corrupt and contains `should be tendered` and `Bashan.,` obvious English textual anomalies. These are **not source repairs**, and its geographical proposals remain tentative as in the English original.
+- `ASHER (1)`: source has `Da` for `Dan` and clipped `Jerus` in historical quotation. French renders probable full words; source remains unchanged pending print-witness verification.
+- `ASHTORETH`: early-twentieth-century religious-history model is translated as written; source abbreviations `Assyro-Bab` and `De Dca Syriac.` are preserved in provenance and require print-witness checks before review.
+
+Merge criteria: exact master/artifact SHA parity; all frozen cohort identities unique; no partial French translations; complete 956-source-draft reading proofs; original TEI and cross-reference integrity; full regression suite; official TEI P5 RELAX NG/Schematron. Passing technical checks is necessary but insufficient for editorial acceptance or publication.
