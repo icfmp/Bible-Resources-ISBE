@@ -17,7 +17,8 @@
           "part": "text",
           "source": "ARBELA",
           "target": "ARBELA",
-          "action": "preserve"
+          "action": "preserve",
+          "reason": "Original historical headword/proper name is unchanged in French"
         },
         {
           "node": 2,
@@ -45,14 +46,16 @@
           "part": "text",
           "source": "BETH-ARBEL",
           "target": "BETH-ARBEL",
-          "action": "preserve"
+          "action": "preserve",
+          "reason": "Historical proper name or cross-reference display label is already valid in French; original retained"
         },
         {
           "node": 6,
           "part": "text",
           "source": "W. Ewing",
           "target": "W. Ewing",
-          "action": "preserve"
+          "action": "preserve",
+          "reason": "Historical author byline is preserved verbatim"
         }
       ]
     }
