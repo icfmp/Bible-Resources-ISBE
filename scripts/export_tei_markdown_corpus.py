@@ -26,7 +26,7 @@ from scripts.validate_translation_identity import (
 )
 
 SAFE_ID = re.compile(r"^[A-Za-z0-9._-]+$")
-SPACE = re.compile(r"\\s+")
+SPACE = re.compile(r"\s+")
 ZIP_TIME = (1980, 1, 1, 0, 0, 0)
 
 
