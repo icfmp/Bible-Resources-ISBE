@@ -718,3 +718,22 @@ Independent bilingual/printed witness review flags:
 - `AUGUSTUS`: the original has `Caius Octavius Caepias`, `Dion Cass., 5316` and an unusual historical rendering of Augustus' biography; the French translation preserves the historical source evidence, without inventing a modern correction. The Latin Ovid quotation is retained.
 
 Run the full technical CI suite against the completed source-locked corpus, both French preview generators and official TEI P5 schemas; green automated tests do not grant independent editorial acceptance or publication permission.
+
+## Seventeenth substantive cohort — five complete source-locked first drafts (25 November 2026)
+
+The temporary bounded read-only original-source exporter selected the next five shortest **previously undrafted** canonical wave-01 articles after cohort 016: #0564 `ANTIOCH, IN SYRIA`, #0612 `APOLLOS`, #0614 `APOSTASY; APOSTATE`, #0640 `APPLE; APPLE-TREE`, #0771 `ARTAXERXES`. All full 1915 original articles are translated into clear French, including substantial historical claims, hypotheses, named biblical references, author attributions and original scholarly limitations.
+
+- Five source-locked complete first-draft patches: `batches/0064-cohort-017-antioch-syria.json` through `batches/0068-cohort-017-artaxerxes.json`.
+- Frozen canonical selection: `cohorts/COHORT_017_5_SUBSTANTIVE_ARTICLES.json`, with each unchanged source-index position, original English `@n`/SWORD key, `xml:id`, original article fingerprint, and exact patch path.
+- **19,224 eligible English characters** (3,766–3,890 per article); **170** extracted TEI text/tail units: **100 mutable units** translated or explicitly preserved with reasons and **70 immutable original/Scripture/reference units** untouched. Every original article is represented as a whole, not a partial excerpt.
+- Expected after successful technical CI and merge: **906/1,000** complete *unreviewed* source-locked French first drafts, **94 still undrafted** in issue #109; **951/9,380** first drafts source-wide. These figures count original articles, not total source prose by length.
+- Independent bilingual editorial approvals **0/1,000**; issue checkboxes **0/1,000**; no French SWORD publication authorized.
+
+Separate original-source witness/review flags for eventual independent collation:
+- `ANTIOCH, IN SYRIA` contains apparent source-text `rounded` where founding a city is meant, as well as run-together forms such as `GentileChristianity` and a historical present-tense claim describing Antakiyeh as a small poor town; the French rendering preserves the apparent historical sense and marks the town description as belonging to the author's period, without changing the historical English TEI. Verify original printed text and do not treat the 1915 descriptions as current facts.
+- `APOLLOS` contains an apparently unclosed parenthesis around an Acts 18:27 source Scripture locator. The French source-locked draft does not invent or relocate a verse reference. Historical mission chronology, Paul's and Apollos' relationship and all qualifying expressions remain authorial statements.
+- `APOSTASY; APOSTATE` discusses English Bible version terminology and includes historically framed religious judgments, retained as authorial claims rather than editorial additions. Keep original Scripture `cRef` and historically quoted version words distinct from modern French translations.
+- `APPLE; APPLE-TREE` compares early English-version translations and botanical hypotheses; the French rendering does not make unverified modern taxonomic identifications or assert that a particular French Bible uses identical fruit vocabulary. Original Arabic/Hebrew transliterations and bibliography are preserved.
+- `ARTAXERXES` preserves historical hypotheses on dating, the identification of kings and the Septuagint/Josephus variant names without converting the 1915 author's uncertainties into modern certainties.
+
+Technical review gate is still outstanding until actual CI passes: reconstruct **951** complete French reading drafts, validate exact master SHA, original article hashes, all translation-unit source locks, 17 frozen cohort manifests, SWORD key/ID/Scripture reference parity, regression tests and official TEI RELAX NG/Schematron. Passing these tests is **not** a per-article independent bilingual editorial approval, nor permission to release the French edition.
