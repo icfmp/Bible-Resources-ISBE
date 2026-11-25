@@ -88,3 +88,25 @@ contracts. Those tools continue to preserve Scripture `cRef`, internal
 **Never** re-import Markdown by heuristic paragraph matching or claim that
 a Markdown export alone is a validated TEI translation. Review and later SWORD
 publication remain separate gates.
+
+## Next five Markdown templates — readable directly on GitHub
+
+After an approved technical merge to `main`, the same export job also prepares
+the **five shortest still-undrafted source articles** in frozen wave 01,
+keeping the original source-index order. They appear alongside the ZIP in
+[`generated/isbe-1915-markdown/workspace/exports/isbe-1915/next-five/`](https://github.com/icfmp/Bible-Resources-ISBE/tree/generated/isbe-1915-markdown/workspace/exports/isbe-1915/next-five).
+
+Each Markdown file is named by its canonical `xml:id`, contains all original
+paragraphs and immutable in-line TEI anchors, and is **only an untranslated
+English template**. The adjacent `MANIFEST.json` records canonical key,
+original ID, source SHA, paragraph count and SHA-256 of the template.
+
+To translate, copy an individual Markdown file (not the original English
+source) to your working branch, translate its prose paragraph by paragraph,
+and run `scripts.markdown_translation_bridge compile` against the pinned
+archive. The converter generates the exact source-locked TEI JSON patch.
+**Never translate, rewrite or delete a protected anchor or paragraph marker.**
+The `next-five` files are periodically regenerated from pending entries;
+translated drafts, if any, belong in source-locked batches rather than this
+generated temporary queue. Preserve the original TEI and use the established
+independent review/publication gates.
