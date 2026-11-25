@@ -856,3 +856,27 @@ Historical source/editorial questions to check against the printed witness durin
 - `AUGURY`: retain the author's controversial distinction between prophecy and ancient divination, including statements about Joseph, the urim/thummim and the Elohist source theory. The original `Sortliege` spelling and a conspicuously damaged Saul/urim quotation (`It iniquity is in the people ...`) require printed-witness verification; the original English was not amended. An explanatory source-corruption note was deliberately kept **out of the translated article body**.
 
 Mandatory before merge: original TEI and each article's semantic XML fingerprint, exact complete mutable-unit source locks, all cohort identities/patch uniqueness, zero incomplete drafts, original TEI/Scripture/original-language parity, reconstruction of **981** readable complete first drafts, regression suites, official TEI P5 RELAX NG and Schematron checks. Green CI is **not** independent bilingual editorial approval.
+
+## Twenty-fourth substantive cohort — five complete source-locked historical French first drafts (25 November 2026)
+
+The next five shortest previously undrafted canonical wave-01 originals were exported from the unchanged corrected historical English TEI, then fully drafted as individual source-locked French text-unit patches:
+
+- #0080 `ABLUTION` → `batches/0101-cohort-024-ablution.json`;
+- #0097 `ABSALOM (1)` → `batches/0100-cohort-024-absalom-1.json`;
+- #0517 `ANDREW` → `batches/0102-cohort-024-andrew.json`;
+- #0565 `ANTIOCH, OF PISIDIA` → `batches/0099-cohort-024-antioch-pisidia.json`;
+- #0618 `APOSTOLIC AGE` → `batches/0103-cohort-024-apostolic-age.json`.
+
+Canonical original source positions, unchanged SWORD keys, article `xml:id` values and source SHA fingerprints are frozen in `cohorts/COHORT_024_5_SUBSTANTIVE_ARTICLES.json`. Exactly **201 mutable TEI text/tail units** comprising **36,377 source English characters** were translated or explicitly preserved with a reason. **123 immutable source text units** (Scripture labels or original language) remain untouched in the patches. No original corrected English source content, reference target, Scripture `cRef` or existing article ID was changed.
+
+**Expected after all checks pass and the PR is merged:** **941/1,000** first-wave complete *unreviewed* French drafts, **59** original first-wave entries remaining, **986/9,380** full historical-source first drafts across the encyclopedia. This counts articles, not the proportion of total original prose. **0 independently approved bilingual editorial reviews; 0 issue checkboxes checked; no French release or SWORD publication.**
+
+### Historical English source and editorial cautions for future bilingual review
+
+- `ANTIOCH, OF PISIDIA`: English `aAntiocheia` and `when he rounded Antioch` appear damaged; the French reads the likely founding sense, but neither English source nor original names/links are silently repaired. Historical geography, colonial chronology and ancient research must be collated with the printed witness.
+- `ABSALOM (1)`: the original discussion of the textual forty-year/four-year variant and its speculative historical interpretation is retained. The English phrases `by thins time` and `Thomson reforms us` appear digitally corrupt; consult the printed edition before editorial acceptance. Death and burial details are presented as the historical author's account.
+- `ABLUTION`: the author's historical account of Jewish, Roman, Greek and early-Christian washing, citations to rabbinic works and interpretations of Mark 7 are translated without turning those early-twentieth-century judgments into modern verified facts. Suspect English `layer` (presumably laver) and `eiders` (elders) require witness checking; scripture labels remain source-owned.
+- `ANDREW`: Greek identity and missionary history are framed as the original author's claims. `five sequent barley loaves` and `Gospel of Joh` look damaged in the English; readable French renders the apparent sense but requires printed witness verification. Apocryphal narratives remain explicitly attributed to their sources, not asserted as biblical history.
+- `APOSTOLIC AGE`: the author's interpretive claims about the Jerusalem church, the Judaizers and first-century mission are preserved as historical scholarship. Unusual original terms such as `Gentilework` and `GentileChristianity` are rendered semantically and should be independently checked against the original printed text.
+
+Before merge: require exact article source hashes and full mutable-node coverage, original-script and scripture/reference parity, unique cohort IDs, proof reconstruction, all relevant regressions, and the official TEI P5 RELAX NG and Schematron gates. Successful automation does **not** confer editorial acceptance.
