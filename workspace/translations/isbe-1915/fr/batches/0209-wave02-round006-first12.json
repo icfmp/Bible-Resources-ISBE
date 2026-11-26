@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AZAZIAH",
+      "article_id": "isbe-453af65d985184c74f7a",
+      "source_article_sha256": "640aa73a43adb5880f61f55abf495ee9783032fbf74f51e527d8807130158f46",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZAZIAH",
+          "target": "AZAZIA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "az-a-zi'-a (`azazyahu, \"Yahweh is strong,\" or \"strengthens\"):",
+          "target": "az-a-zi'-a (`azazyahu, « Yahvé est fort », ou « fortifie ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A Levite musician who participated in the services held on the return of the ark to Jerusalem (",
+          "target": "(1) Musicien lévite qui participa au service célébré lors du retour de l'arche à Jérusalem (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). His name is omitted from the list in ",
+          "target": "). Son nom est omis dans la liste de ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) Father of Hoshea, who was the leader of Ephraim at the time that David enumerated the people (",
+          "target": "(2) Père d'Hosée, chef d'Éphraïm à l'époque où David fit le dénombrement du peuple (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(3) A Levite who had charge of the offerings brought to the temple in the days of Hezekiah (",
+          "target": "(3) Lévite chargé des offrandes apportées au Temple du temps d'Ézéchias (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AZRIEL",
+      "article_id": "isbe-98f5c2961a5dd53a1951",
+      "source_article_sha256": "9e8470dbf1aae86fd3275bad7a16d4acc79d189433a6494f4faefefeee371805",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZRIEL",
+          "target": "AZRIEL",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "az'-ri-el (`azri'el, \"God's help\"):",
+          "target": "az'-ri-el (`azri'el, « aide de Dieu ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) One of the leading men of the half-tribe of Manasseh, East of the Jordan, who with others of his tribe was carried captive by the king of Assyria (",
+          "target": "(1) L'un des hommes principaux de la demi-tribu de Manassé à l'est du Jourdain, emmené en captivité avec d'autres membres de sa tribu par le roi d'Assyrie (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) The father of Jerimoth of the tribe of Naphtali in the reign of King David (",
+          "target": "(2) Père de Jérimoth, de la tribu de Nephtali, sous le règne du roi David (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(3) The father of Seraiah, one of the officers sent by Jehoiakim to arrest Jeremiah and Baruch (",
+          "target": "(3) Père de Seraja, l'un des fonctionnaires envoyés par Jojakim pour arrêter Jérémie et Baruch (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AZRIKAM",
+      "article_id": "isbe-247d5c835522e2b0bb8c",
+      "source_article_sha256": "7fb739589f2641f679414f054f13260323deea381dda6d40638a1e2f9ffa676e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZRIKAM",
+          "target": "AZRIKAM",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "az-ri'-kam (`azriqam, \"my help has arisen\"):",
+          "target": "az-ri'-kam (`azriqam, « mon secours s'est levé ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A descendant of King David through Zerubbabel (",
+          "target": "(1) Descendant du roi David par Zorobabel (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) A prince of Judah in the time of Ahaz. He was slain by Zichri, an Ephraimite soldier (",
+          "target": "(2) Prince de Juda au temps d'Achaz. Il fut tué par Zicri, un soldat éphraïmite (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(3) One of Azel's sons, a Benjamite, descended from King Saul (",
+          "target": "(3) L'un des fils d'Azel, Benjamite descendant du roi Saül (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(4) A Levite of the house of Merari and a resident of Jerusalem (",
+          "target": "(4) Lévite de la famille de Merari, résidant à Jérusalem (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AZZUR",
+      "article_id": "isbe-4f8669f60195d66d4e08",
+      "source_article_sha256": "d4111f2c8ebcba5bfef0a2d079ef453d77abf2a98c9f572083d89befe64aa8e6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZZUR",
+          "target": "AZZUR",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "az'-ur (`azzur, \"helpful\"):",
+          "target": "az'-ur (`azzur, « secourable ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) The father of Hananiah, a false prophet of Gibeon in the days of Zedekiah (",
+          "target": "(1) Père de Hanania, faux prophète de Gabaon du temps de Sédécias (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) One of those who, with Nehemiah, sealed the covenant on the return from Babylon (",
+          "target": "(2) L'un de ceux qui scellèrent l'Alliance avec Néhémie au retour de Babylone (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(3) The father of Jaazaniah, \"one of\" the princes of the people who gave wicked counsel to the city of Jerusalem (",
+          "target": "(3) Père de Jaazania, « l'un des » chefs du peuple qui donnaient de mauvais conseils à la ville de Jérusalem (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). the King James Version has \"Azur\" for (1) and (3), but the Hebrew form of (3) is `azur.",
+          "target": "). La King James Version donne « Azur » pour (1) et (3), mais la forme hébraïque de (3) est `azur.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAAL-GAD",
+      "article_id": "isbe-675c1091e08009c47a8a",
+      "source_article_sha256": "1df550cea97dea5c12d82532c568c92dedc395b3383b9dc602d2c96f13870bd2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAAL-GAD",
+          "target": "BAAL-GAD",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-al-gad ba`al gadh; Balagada, Balgad: Joshua in his conquest reached as far north as `Baal-gad in the valley' of Lebanon, under Mount Hermon (",
+          "target": "ba'-al-gad, ba`al gadh ; Balagada, Balgad : Lors de sa conquête, Josué atteignit au nord « Baal-Gad, dans la vallée » du Liban, sous le mont Hermon (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). This definitely locates it in the valley between the Lebanons, to the West or Northwest of Hermon. It must not be confused with Baal-hermon. Conder thinks it may be represented by `Ain Jedeideh.",
+          "target": "). Cela situe clairement ce lieu dans la vallée entre les deux chaînes du Liban, à l'ouest ou au nord-ouest de l'Hermon. Il ne faut pas le confondre avec Baal-Hermon. Conder pense qu'il pourrait correspondre à `Ain Jedeideh.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAAL-HERMON",
+      "article_id": "isbe-238c559cbe7a3c47762f",
+      "source_article_sha256": "06921720bb2a26fcea4b6b9121a4781455f6b50b5f256478fad9d1612272d1dc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAAL-HERMON",
+          "target": "BAAL-HERMON",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-al-hur'-mon ba`al chermon; Baal Ermon: Baalgad under Mount Hermon is described as \"toward the sunrising\" in ",
+          "target": "ba'-al-hur'-mon, ba`al chermon ; Baal Ermon : Baal-Gad, sous le mont Hermon, est décrit comme situé « du côté du soleil levant » en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". If Mount Lebanon proper is here intended the reading may be taken as correct. But in ",
+          "target": ". Si le mont Liban proprement dit est visé ici, la leçon peut être considérée comme correcte. Mais en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " Baal-gad is replaced by Baal-hermon. One or the other must be due to a scribal error. The Baal-hermon of ",
+          "target": ", Baal-Gad est remplacé par Baal-Hermon. L'une ou l'autre leçon doit résulter d'une erreur de copiste. Le Baal-Hermon de ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " lay somewhere East of the Jordan, near to Mount Hermon. It may possibly be identical with Banias.",
+          "target": " se trouvait quelque part à l'est du Jourdain, près du mont Hermon. Il pourrait être identique à Banias.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAAL-TAMAR",
+      "article_id": "isbe-b9f9f918fa6123b51c02",
+      "source_article_sha256": "8f6efbd4ddcd2bd57f8c61042196687f6868d4fc6750ede20b903834c03904ed",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAAL-TAMAR",
+          "target": "BAAL-TAMAR",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-al-ta'-mar ba`al tamar; Baal Thamar, (\"Baal of the palm tree\"): Evidently a seat of heathen worship (",
+          "target": "ba-al-ta'-mar, ba`al tamar ; Baal Thamar (« Baal du palmier ») : Manifestement un lieu de culte païen (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") between Bethel and Gibeah (compare ",
+          "target": ") entre Béthel et Guibea (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). The place was known to Eusebius (Onomasticon, which see), but trace of the name is now lost. Conder suggests that it may be connected with the palm tree of Deborah (",
+          "target": "). Eusèbe connaissait ce lieu (voir l'Onomasticon), mais toute trace de son nom s'est perdue. Conder propose de le rapprocher du palmier de Débora (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ") which was between Bethel and Ramah (HDB, under the word).",
+          "target": "), qui se trouvait entre Béthel et Rama (HDB, à ce mot).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAAL-ZEPHON",
+      "article_id": "isbe-56ef1165dd84ac441b6e",
+      "source_article_sha256": "23a8c9dc6fc1f2d85c310b8ddacab71f693517f7b417582a1b02f7d334f415ab",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAAL-ZEPHON",
+          "target": "BAAL-TSEPHON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-al-ze'-fon ba`al tsephon; Beelsepphon; (",
+          "target": "ba-al-ze'-fon, ba`al tsephon ; Beelsepphon (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "): The name means \"Lord of the North,\" and the place was opposite the Hebrew camp, which was between Migdol and the sea. It may have been the shrine of a Semitic deity, but the position is unknown (see ",
+          "target": ") : Ce nom signifie « Seigneur du Nord », et le lieu se trouvait en face du camp des Hébreux, établi entre Migdol et la mer. Il pouvait s'agir d'un sanctuaire d'une divinité sémitique, mais sa position est inconnue (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "EXODUS",
+          "target": "EXODE",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). Goodwin (see Brugsch, Hist. Egt., II, 363) found the name Baali-Zapuna as that of a god mentioned in an Egyptian papyrus in the British Museum.",
+          "target": "). Goodwin (voir Brugsch, Hist. Egt., II, p. 363) a trouvé le nom Baali-Zapuna attribué à un dieu mentionné dans un papyrus égyptien du British Museum.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAALATH-BEER",
+      "article_id": "isbe-2470de605938a0860009",
+      "source_article_sha256": "0ac8c1cea56d2aeef358b6df7fbf8891e8bac6c6a865d3dae4d0b6a8fbb5b5c1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAALATH-BEER",
+          "target": "BAALATH-BEER",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-a-lath-be'-er ba`alath be'er \"lady (mistress) of the well\"; (",
+          "target": "ba'-a-lath-be'-er, ba`alath be'er, « dame (maîtresse) du puits » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (in ",
+          "target": " ; Baal en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", Baal)): In Jos this place is designated \"Ramah of the South,\" i.e. of the Negeb, while in ",
+          "target": ") : Dans Josué, ce lieu est appelé « Rama du Sud », c'est-à-dire du Néguev ; en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " it is described as Ramoth of the Negeb. It must have been a prominent hill (ramah = \"height\") in the far south of the Negeb and near a well be'er. The site is unknown though Conder suggests that the shrine Kubbet el Baul may retain the old name.",
+          "target": ", il est décrit comme Ramoth du Néguev. Il devait s'agir d'une colline importante (ramah = « hauteur ») à l'extrême sud du Néguev, près d'un puits (be'er). L'emplacement est inconnu, bien que Conder suggère que le sanctuaire de Kubbet el Baul pourrait conserver l'ancien nom.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BABBLING",
+      "article_id": "isbe-95ddd91a25d821c9bd8c",
+      "source_article_sha256": "027c6719d0fa035dfdffaf340af81960190ab6f2f2f5e056803a11f672975a13",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BABBLING",
+          "target": "BAVARDAGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bab'-ling siach; the Revised Version (British and American) ",
+          "target": "bab'-ling, siach ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "COMPLAINING",
+          "target": "PLAINTE",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): The consequence of tarrying long at the wine (",
+          "target": " dans la Revised Version (britannique et américaine) : Conséquence du fait de s'attarder longuement à boire du vin (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " the King James Version); lalia, the Revised Version (British and American) \"talk\" (Ecclesiasticus 19:6; 20:5 the King James Version); kenophonia, literally, \"making an empty sound\" (",
+          "target": ", King James Version) ; lalia, « parole » dans la Revised Version (britannique et américaine) (Ecclésiastique 19.6 ; 20.5, King James Version) ; kenophonia, littéralement « produire un son vide » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " the King James Version and the Revised Version (British and American).",
+          "target": ", King James Version et Revised Version britannique et américaine).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BABYLONIANS",
+      "article_id": "isbe-14a331edadf457fba950",
+      "source_article_sha256": "41454bc4d24c529bb4b6f010c2f09a6b68308ae1422c8c9292482a243895eeb8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BABYLONIANS",
+          "target": "BABYLONIENS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bab-i-lo'-ni-anz: The inhabitants of ",
+          "target": "bab-i-lo'-ni-anz : Habitants de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BABYLONIA",
+          "target": "BABYLONIE",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see). They were among the colonists planted in Samaria by the Assyrians (",
+          "target": " (voir cet article). Ils faisaient partie des colons installés en Samarie par les Assyriens (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). \"The likeness of the Babylonians in Chaldea\" (",
+          "target": "). « L'image des Babyloniens en Chaldée » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ") refers to the pictures which were common on the walls of Babylonian palaces, and the reports of them being heard in Jerusalem, or copies of them seen there, awakened the nation's desire for these unknown lovers, which Judah had ample occasion to repent of (",
+          "target": ") désigne les représentations courantes sur les murs des palais babyloniens ; les récits qu'on en entendait à Jérusalem, ou les copies qu'on y voyait, éveillèrent dans la nation le désir de ces amants inconnus, ce dont Juda eut amplement lieu de se repentir (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAEAN",
+      "article_id": "isbe-b77d3644e2985c7b6fa0",
+      "source_article_sha256": "929584b77c1d3060d76ca9e6a54e65aa61899b62e740a13bb302935cecc9d732",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAEAN",
+          "target": "BAEAN",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-an huioi Baian; the King James Version Bean; 1 Macc 5:4: A tribe mentioned only because of its malignant hatred of the Jews. Its aggressive hostility against their religion and the rebuilding of their sanctuary duplicated the conspiracy of Sanballat and his confederates against the restoration of Jerusalem and the temple in the days of Nehemiah (compare ",
+          "target": "be'-an, huioi Baian ; Bean dans la King James Version ; 1 Maccabées 5.4 : Tribu mentionnée uniquement à cause de sa haine malveillante envers les Juifs. Son hostilité agressive contre leur religion et la reconstruction de leur sanctuaire reproduisait la conspiration de Sanballat et de ses alliés contre la restauration de Jérusalem et du Temple au temps de Néhémie (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). Utterly exterminated by Judas Maccabeus who burned alive, in towers, many of the imprisoned people. See ",
+          "target": "). Elle fut entièrement exterminée par Judas Maccabée, qui brûla vifs, dans des tours, nombre de ceux qui y étaient emprisonnés. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "MAON",
+          "target": "MAON",
+          "action": "preserve",
+          "reason": "Historical pronunciation or proper-name fragment retained"
+        }
+      ]
+    }
+  ]
+}
