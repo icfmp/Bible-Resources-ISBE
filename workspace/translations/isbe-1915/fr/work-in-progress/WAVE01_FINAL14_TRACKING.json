@@ -76,7 +76,7 @@
       "source_article_sha256": "b6a98e8f6ba341b4184f3570548eb79cab3aad191dfe4f0c1c10dd5130dfb540",
       "original_markdown_paragraphs": 206,
       "source_template_characters": 92475,
-      "working_translation_status": "original_source_only_no_french_draft"
+      "working_translation_status": "complete_draft_pending_editorial_review"
     },
     {
       "index": 608,
@@ -133,7 +133,7 @@
       "working_translation_status": "complete_draft_pending_editorial_review"
     }
   ],
-  "status_note": "Eleven complete source-locked first drafts on the active branch; three of the final fourteen remain. Work by direct commits only. Former draft PR #160 closed without merge; do not open a new translation PR after fourteen or after any 1,000-entry wave. Open a single translation PR only once the ENTIRE 9,380-article French translation is complete. Independent bilingual editorial review and publication are separate gates.",
+  "status_note": "Twelve complete source-locked unreviewed French first drafts on the translation branch; remaining two entries in this fourteen-entry cohort: APOCALYPTIC LITERATURE and ASTRONOMY. Direct commits only; no translation PR before all 9,380 French article translations have been completed. Editorial acceptance and publication are separate gates.",
   "source_flags": [
     {
       "key": "ALTAR",
@@ -508,7 +508,83 @@
       "block": 323,
       "witness": "Jusaism",
       "note": "Source apparent misspelling for Judaism; translated judaïsme, original unchanged"
+    },
+    {
+      "key": "APOCRYPHAL ACTS",
+      "block": 67,
+      "witness": "consecrated a wafer",
+      "note": "Historical ambiguous syntax; contextual French hostie consacrée, original untouched"
+    },
+    {
+      "key": "APOCRYPHAL ACTS",
+      "block": 62,
+      "witness": "Ac",
+      "note": "Truncated abbreviation for Acts, rendered Actes in French; source unchanged"
+    },
+    {
+      "key": "APOCRYPHAL ACTS",
+      "block": 106,
+      "witness": "ú",
+      "note": "Stray source OCR character after semicolon, excluded from French punctuation while original is untouched"
+    },
+    {
+      "key": "APOCRYPHAL ACTS",
+      "block": 110,
+      "witness": "miraculls",
+      "note": "Historical Latin quotation has probable source typo; retained letter-for-letter pending witness collation"
+    },
+    {
+      "key": "APOCRYPHAL ACTS",
+      "block": 127,
+      "witness": "Christian article New cycles",
+      "note": "English witness appears OCR-corrupted; contextual French reads 'art chrétien. De nouveaux cycles'; English preserved"
+    },
+    {
+      "key": "APOCRYPHAL ACTS",
+      "block": 130,
+      "witness": "14 if; Religionssgeschichtliche Volksbucher",
+      "note": "Bibliographic spelling and pagination flagged for print collation; original English preserved"
+    },
+    {
+      "key": "APOCRYPHAL ACTS",
+      "block": 156,
+      "witness": "The Apology and Ac of Apollonius ....",
+      "note": "Suspicious/truncated bibliographic title, preserved in French exactly pending witness review"
+    },
+    {
+      "key": "APOCRYPHAL ACTS",
+      "block": 141,
+      "witness": "seals",
+      "note": "Historical narrative uses 'seals' for aquatic creatures; translated phoques without modifying source"
+    },
+    {
+      "key": "APOCRYPHAL ACTS",
+      "block": 175,
+      "witness": "ascetic sprat",
+      "note": "Probable OCR for spirit; translated 'esprit ascétique' in French, original unchanged"
+    },
+    {
+      "key": "APOCRYPHAL ACTS",
+      "block": 167,
+      "witness": "very black Ethiopian woman",
+      "note": "Historical source depiction preserved in quotation-context, not endorsed or modernized"
+    },
+    {
+      "key": "APOCRYPHAL ACTS",
+      "block": 236,
+      "witness": "were edition and translated",
+      "note": "Apparent English source error for edited and translated; French is edited et traduits contextually, English unchanged"
     }
   ],
-  "pull_request_policy": "No PR during article, cohort, 14-entry or wave progression. Preserve and commit directly to the translation branch. Open one PR after all 9,380 French translations are completed, with editorial verification and publication gated separately."
+  "pull_request_policy": "No PR during article, cohort, 14-entry or wave progression. Preserve and commit directly to the translation branch. Open one PR after all 9,380 French translations are completed, with editorial verification and publication gated separately.",
+  "completed_article_records": [
+    {
+      "source_key": "APOCRYPHAL ACTS",
+      "article_id": "isbe-b863e22f3cfadfc53357",
+      "batch": "0160-wave01-last14-apocryphal-acts.json",
+      "source_blocks": 206,
+      "tei_units": 216,
+      "editorial_status": "unreviewed_draft"
+    }
+  ]
 }
