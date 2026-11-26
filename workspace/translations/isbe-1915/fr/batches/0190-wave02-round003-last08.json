@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CHAMBERS IN THE SOUTH",
+      "article_id": "isbe-d8adc8bb3e30bcfa9e9e",
+      "source_article_sha256": "986cd8a4aa5b008ba68463d2758584141fc5ff3956a7444419bc74769f633ed3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHAMBERS IN THE SOUTH",
+          "target": "CHAMBRES DU MIDI",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASTRONOMY",
+          "target": "ASTRONOMIE ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SOUTH, CHAMBERS OF THE",
+          "target": "MIDI, CHAMBRES DU",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHAPITER",
+      "article_id": "isbe-afaa26c9802379910b18",
+      "source_article_sha256": "21c91738e9c3141473846adb2e8754d90089cd016e4c8227f45ffe64e9719033",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHAPITER",
+          "target": "CHAPITEAU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "chap'-i-ter.",
+          "target": "chap'-i-ter.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARCHITECTURE",
+          "target": "ARCHITECTURE ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "JACHIN AND BOAZ",
+          "target": "JAKIN ET BOAZ ; ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "TEMPLE, II, 4",
+          "target": "TEMPLE, II, 4",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHARASHIM",
+      "article_id": "isbe-24a494e3d4eb1679274a",
+      "source_article_sha256": "7049e23be41ff80870fd37bfa84a6f9e4ef70eb5b1cba2091d2e4fdeacf7e18b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHARASHIM",
+          "target": "CHARASHIM",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar'-a-shim (charashim, \"craftsmen\").",
+          "target": "kar'-a-shim (charashim, « artisans »).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "GE-HARASHIM",
+          "target": "GUÉ-HARASHIM",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHAREA",
+      "article_id": "isbe-2a336ed00d509c588f55",
+      "source_article_sha256": "37fb14cc7bb64ba5303e706ff8d432a7cd7d60a0974d3456524d038a6dba1cec",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHAREA",
+          "target": "CHARÉA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar'-re-a (Charea): Head of a family of temple-servants (1 Esdras 5:32); called \"Harsha\" in ",
+          "target": "kar'-re-a (Charea) : chef d'une famille de serviteurs du Temple (1 Esdras 5.32) ; appelé « Harsha » en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHARRAN",
+      "article_id": "isbe-b078a84a598ef8a92304",
+      "source_article_sha256": "eea0bf98b36077b997a49af1bae2097c6be86831b265293db95cecea903bbcea",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHARRAN",
+          "target": "CHARRAN",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar'-an (Charrhan): Greek form of ",
+          "target": "kar'-an (Charrhan) : forme grecque de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "HARAN",
+          "target": "HARAN",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see) (",
+          "target": " (voir cet article) (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHASTE; CHASTITY",
+      "article_id": "isbe-865aed9458da04968d8f",
+      "source_article_sha256": "d79958cc9846accd6320b8969d027d91eebeb4d1676afa25de5292dfdf0558f6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHASTE; CHASTITY",
+          "target": "CHASTE ; CHASTETÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "chast, chas'-ti-ti.",
+          "target": "chast, chas'-ti-ti.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CRIMES",
+          "target": "CRIMES ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "MARRIAGE",
+          "target": "MARIAGE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHELAL",
+      "article_id": "isbe-45c155d5a454cf1838c8",
+      "source_article_sha256": "4053460190613caf70aa87e13c52dca8358f1549f6d196a8905216435e6dc334",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHELAL",
+          "target": "CHÉLAL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ke'-lal (kelal, \"perfection\"): One of the bene Pachath-Mo'abh who took \"strange wives\" (",
+          "target": "ke'-lal (kelal, « perfection ») : l'un des fils de Pachath-Moab qui avaient pris des « femmes étrangères » (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHELLIANS",
+      "article_id": "isbe-90c72b4b5bb96144bb65",
+      "source_article_sha256": "a2ea9cdd35fe52cc8e80a9571b90d6ec3f3b7963fe7f766ed33df501fcc75dbc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHELLIANS",
+          "target": "CHELLIENS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kel'-i-anz: The people of \"Chellus\" (Judith 2:23) (which see).",
+          "target": "kel'-i-anz : habitants de « Chellus » (Judith 2.23 ; voir cet article).",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
