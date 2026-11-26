@@ -6,6 +6,7 @@ on:
       - work/fr-isbe-full-translation
     paths:
       - .github/workflows/stage-isbe-french-sources.yml
+      - scripts/isbe_translation_jsonl.py
       - workspace/translations/isbe-1915/fr/work-in-progress/NEXT_SOURCE_QUEUE.json
   workflow_dispatch:
 
@@ -51,16 +52,19 @@ jobs:
           output=Path(config['output'])
           assert output.is_relative_to(root/'source-queue'), 'Unsafe output directory'
           assert 1 <= config['limit'] <= 100
-          assert not output.exists(), 'Refusing to overwrite an existing source queue'
+          # Existing queues may receive a verified compact export only.
           patch_files=[Path('workspace/pilots/isbe-1915-fr/draft-patches.json'),*sorted((root/'batches').glob('*.json'))]
-          manifest=prepare(
-            archive=Path('/tmp/isbe-fr-stage/english-and-maps.zip'),
-            source=Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml'),
-            roster=roster,
-            patches=patch_files,
-            output=output,
-            limit=config['limit']
-          )
+          if output.exists():
+              manifest=json.loads((output/'MANIFEST.json').read_text(encoding='utf-8'))
+          else:
+              manifest=prepare(
+                archive=Path('/tmp/isbe-fr-stage/english-and-maps.zip'),
+                source=Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml'),
+                roster=roster,
+                patches=patch_files,
+                output=output,
+                limit=config['limit']
+              )
           keys=set()
           for entry in manifest['articles']:
               assert entry['article_id'] not in keys
@@ -74,6 +78,13 @@ jobs:
           print('VERIFIED_STAGED_ENGLISH_ARTICLES:',len(keys))
           print('ORIGINAL_RANGE:',roster)
           print('OUTPUT:',output)
+          from scripts.isbe_translation_jsonl import export_queue, jsonl
+          records=export_queue(Path('/tmp/isbe-fr-stage/english-and-maps.zip'), output)
+          compact=output/'SOURCE.jsonl'
+          data=jsonl(records).encode('utf-8')
+          assert not compact.exists() or compact.read_bytes()==data, 'Existing compact source differs'
+          compact.write_bytes(data)
+          print('SOURCE_LOCKED_JSONL_ARTICLES:',len(records))
           PY
       - name: Commit only original English translation input without PR
         run: |

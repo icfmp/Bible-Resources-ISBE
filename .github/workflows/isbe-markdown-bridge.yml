@@ -5,6 +5,8 @@ on:
     paths:
       - 'scripts/translation_markdown_layout.py'
       - 'scripts/markdown_translation_bridge.py'
+      - 'scripts/isbe_translation_jsonl.py'
+      - 'tests/test_isbe_translation_jsonl.py'
       - 'tests/test_markdown_translation_bridge.py'
       - 'tests/test_markdown_bridge_guards.py'
       - 'tests/test_markdown_bridge_existing_batch.py'
@@ -14,6 +16,8 @@ on:
     paths:
       - 'scripts/translation_markdown_layout.py'
       - 'scripts/markdown_translation_bridge.py'
+      - 'scripts/isbe_translation_jsonl.py'
+      - 'tests/test_isbe_translation_jsonl.py'
       - 'tests/test_markdown_translation_bridge.py'
       - 'tests/test_markdown_bridge_guards.py'
       - 'tests/test_markdown_bridge_existing_batch.py'
@@ -30,7 +34,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate anchored paragraph compilation fixture
-        run: python3 -m unittest tests.test_markdown_translation_bridge tests.test_markdown_bridge_guards tests.test_markdown_bridge_existing_batch -v
+        run: python3 -m unittest tests.test_markdown_translation_bridge tests.test_markdown_bridge_guards tests.test_markdown_bridge_existing_batch tests.test_isbe_translation_jsonl -v
       - name: Inspect real original TEI paragraphs for source-map compatibility
         run: |
           python3 - <<'PY'
