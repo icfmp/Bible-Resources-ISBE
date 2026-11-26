@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BLOOD, ISSUE OF",
+      "article_id": "isbe-007a059312b6d7d35258",
+      "source_article_sha256": "257e50d07acb6922be8dda90a64ba9e1d87397c8fe69d2532529d6877d05cc22",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLOOD, ISSUE OF",
+          "target": "PERTE DE SANG",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ish'-u.",
+          "target": "ish'-u.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BLOODY FLUX",
+          "target": "FLUX DE SANG",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLOOD-REVENGE",
+      "article_id": "isbe-97a6d37af2533a4c3204",
+      "source_article_sha256": "63dfc54cf60c2148508001cc773909f3ca81438da4ee2b77c77ab7cb0ca0d3bf",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLOOD-REVENGE",
+          "target": "VENGEANCE DU SANG",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "blud-re-venj':",
+          "target": "blud-re-venj':",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "AVENGER",
+          "target": "VENGEUR",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLOOM; BLOSSOM",
+      "article_id": "isbe-1aa75b1e811c02c5ec50",
+      "source_article_sha256": "ffb9e2690df722ac3214eb0d0de3eb5350aae061c2a72ad3fc9d60e4655760a8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLOOM; BLOSSOM",
+          "target": "FLORAISON ; FLEURIR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bloom, blos'-um.",
+          "target": "bloom, blos'-um.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "FLOWERS",
+          "target": "FLEURS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOOK OF ABRAHAM",
+      "article_id": "isbe-a20f48b5e36a1b3ebf51",
+      "source_article_sha256": "7a0f199b0408f782e5cc161ae48dc4c79f282e18bdf71f75db91aba3afa3202e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOOK OF ABRAHAM",
+          "target": "LIVRE D'ABRAHAM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCALYPTIC LITERATURE",
+          "target": "LITTÉRATURE APOCALYPTIQUE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOOK OF ENOCH",
+      "article_id": "isbe-1efeaeba610860689067",
+      "source_article_sha256": "5afc05ac93af7c94cb3684add38dbecc20f7bcc2bf8415c870b7a0033e5677bd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOOK OF ENOCH",
+          "target": "LIVRE D'HÉNOCH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ENOCH, BOOK OF",
+          "target": "HÉNOCH, LIVRE D'",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOOK OF NOAH",
+      "article_id": "isbe-752c47ef044a2965caf2",
+      "source_article_sha256": "9e88e140f2ebd7e3d94ba0a81076460df07ce9d85189afcb0b3da4aa315e39f4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOOK OF NOAH",
+          "target": "LIVRE DE NOÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCALYPTIC LITERATURE",
+          "target": "LITTÉRATURE APOCALYPTIQUE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOOTHS, FEAST OF",
+      "article_id": "isbe-6a7be72f0a03ef891863",
+      "source_article_sha256": "04430333e308d1e7472747473c1a2d0d53c45bb948f1b7970db39ffb10d54418",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOOTHS, FEAST OF",
+          "target": "FÊTE DES TABERNACLES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "FEASTS AND FASTS, I, 2",
+          "target": "FÊTES ET JEÛNES, I, 2",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOSOM, ABRAHAM'S",
+      "article_id": "isbe-cee31ac20051b3ec7530",
+      "source_article_sha256": "dc4ddc9bea6cec15058f71479ac05a3092b0b62819e118f7501fa2a017787fc8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOSOM, ABRAHAM'S",
+          "target": "SEIN D'ABRAHAM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABRAHAM'S BOSOM",
+          "target": "SEIN D'ABRAHAM",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOUGHT (2)",
+      "article_id": "isbe-f33809475bab6f8e8d68",
+      "source_article_sha256": "230133712e3c8bc50d1c478a1656b6337cf35dd5447eb367a3d9f6579a2dac78",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOUGHT (2)",
+          "target": "ACHETÉ (2)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bot (adj. and vb.).",
+          "target": "bot (adj. et v.).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BUYING",
+          "target": "ACHAT",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOW; BOWING",
+      "article_id": "isbe-7d13230d6f2e66bd8936",
+      "source_article_sha256": "7305671e0f924af3f3e738725813603cf9986b4e08ae085d64e2e4883cf5873b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOW; BOWING",
+          "target": "SE PROSTERNER ; PROSTERNATION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bou, bou'-ing.",
+          "target": "bou, bou'-ing.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ADORATION",
+          "target": "ADORATION ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ATTITUDES",
+          "target": "ATTITUDES",
+          "action": "preserve",
+          "reason": "Unchanged historical proper-name reference label"
+        }
+      ]
+    },
+    {
+      "source_key": "BOZCATH",
+      "article_id": "isbe-ebc2551f710998ffb9e9",
+      "source_article_sha256": "e88fb0e9e46dfcc7e35ec442b6e866c6d96df6010fcc3dea8c8a152b463dd5fa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOZCATH",
+          "target": "BOZCATH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained verbatim"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "boz'-kath (botsqath).",
+          "target": "boz'-kath (botsqath).",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BOZKATH",
+          "target": "BOZKATH",
+          "action": "preserve",
+          "reason": "Unchanged historical proper-name reference label"
+        }
+      ]
+    },
+    {
+      "source_key": "BREACH OF RITUAL",
+      "article_id": "isbe-394a00a853ace8f0b636",
+      "source_article_sha256": "deffdaedbe681d970ab5d199fbfb920e00b49aaf5b50b80e2c5b4c0af0506d68",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BREACH OF RITUAL",
+          "target": "VIOLATION DU RITUEL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "rit'-u-al.",
+          "target": "rit'-u-al.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CRIMES",
+          "target": "CRIMES",
+          "action": "preserve",
+          "reason": "Unchanged historical proper-name reference label"
+        }
+      ]
+    }
+  ]
+}
