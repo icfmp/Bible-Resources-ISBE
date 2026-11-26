@@ -7,7 +7,9 @@ on:
       - '.github/workflows/fr-markdown-working.yml'
   push:
     paths:
-      - 'workspace/translations/isbe-1915/fr/working/**'
+      - 'workspace/translations/isbe-1915/fr/work-in-progress/FULL_VALIDATION.json'
+      - 'scripts/markdown_translation_bridge.py'
+      - 'scripts/translation_markdown_layout.py'
       - '.github/workflows/fr-markdown-working.yml'
   workflow_dispatch:
 

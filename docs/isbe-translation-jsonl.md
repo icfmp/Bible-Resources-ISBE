@@ -27,3 +27,16 @@ Accumulate groups in a provisional Git tree and commit the complete cohort
 and checkpoint once, verifying the starting branch head. Keep independent
 editorial review separate, leave unreviewed checkboxes unchecked, and do
 not open a translation PR before 9,380 first drafts exist.
+
+## CI cadence and source prefetch
+
+Stage up to 1,000 canonical source templates in advance. A request may list
+`reserve_queues` to exclude IDs in already staged queues without counting them
+as translated. Keep those manifests immutable. Ordinary draft pushes run one
+incremental cohort validator: global duplicate-ID check, exact compilation of
+changed manuscripts, matching committed patches, and TEI parity of the changed
+batches. Full-corpus workflows remain available on manual dispatch and pull
+requests, on their code changes, and when `work-in-progress/FULL_VALIDATION.json`
+is updated at each completed 1,000-entry ticket. The canonical TEI workflow
+also runs on non-French changes. Source-only queue preparation does not trigger
+translation validation. The legacy five-source exporter is manual only.

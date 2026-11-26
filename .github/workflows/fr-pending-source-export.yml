@@ -1,14 +1,6 @@
 name: Export bounded pending French ISBE source articles
 
 on:
-  push:
-    paths:
-      - 'workspace/translations/isbe-1915/fr/batches/**'
-      - '.github/workflows/fr-pending-source-export.yml'
-  pull_request:
-    paths:
-      - 'workspace/translations/isbe-1915/fr/batches/**'
-      - '.github/workflows/fr-pending-source-export.yml'
   workflow_dispatch:
 
 permissions:

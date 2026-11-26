@@ -53,14 +53,15 @@ class MarkdownQueueTests(unittest.TestCase):
     def save_roster(self):
         self.roster.write_text(json.dumps(self.roster_data), encoding="utf-8")
 
-    def run_prepare(self, *, output=None):
+    def run_prepare(self, *, output=None, reserved_manifests=None):
         with (patch.object(prepare_isbe_markdown_queue, "SOURCE_SHA256", self.source_hash),
               patch.object(prepare_isbe_markdown_queue, "SOURCE_COUNT", 2),
               patch.object(apply_translation_batches, "SOURCE_SHA256", self.source_hash)):
             return prepare_isbe_markdown_queue.prepare(
                 archive=self.archive, source=self.source, roster=self.roster,
                 patches=[self.patch_file],
-                output=output or (self.root / "next-five"))
+                output=output or (self.root / "next-five"),
+                reserved_manifests=reserved_manifests)
 
     def test_pending_only_original_source_identity_and_exact_checksums(self):
         result = self.run_prepare()
@@ -88,6 +89,17 @@ class MarkdownQueueTests(unittest.TestCase):
         self.save_roster()
         with self.assertRaisesRegex(ValueError, "position"):
             self.run_prepare()
+
+    def test_reserved_queue_is_excluded_without_counting_as_drafted(self):
+        first = self.run_prepare()
+        manifest = self.root / "next-five" / "MANIFEST.json"
+        second = self.run_prepare(output=self.root / "prefetch", reserved_manifests=[manifest])
+        self.assertEqual(first["templates_prepared"], 1)
+        self.assertEqual(second["templates_prepared"], 0)
+        self.assertEqual(second["drafted_wave_01"], 1)
+        self.assertEqual(second["pending_wave_01"], 1)
+        with self.assertRaisesRegex(ValueError, "duplicated reserved"):
+            self.run_prepare(output=self.root / "duplicate", reserved_manifests=[manifest, manifest])
 
     def test_never_overwrite_preexisting_editorial_files(self):
         directory = self.root / "next-five"

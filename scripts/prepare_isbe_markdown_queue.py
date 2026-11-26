@@ -20,9 +20,10 @@ from scripts.validate_translation_identity import entries, read_body, sha256
 
 
 def prepare(*, archive: Path, source: Path, roster: Path,
-            patches: list[Path], output: Path, limit: int = 5) -> dict:
-    if not 1 <= limit <= 100:
-        raise ValueError("Bounded editorial queue must contain 1–100 articles")
+            patches: list[Path], output: Path, limit: int = 5,
+            reserved_manifests: list[Path] | None = None) -> dict:
+    if not 1 <= limit <= 1000:
+        raise ValueError("Bounded editorial queue must contain 1–1,000 articles")
     if sha256(source) != SOURCE_SHA256:
         raise ValueError("Original corrected English TEI has changed")
     index = entries(read_body(source)[1])
@@ -40,6 +41,20 @@ def prepare(*, archive: Path, source: Path, roster: Path,
             or not wave or len({r["source_key"] for r in wave}) != len(wave)):
         raise ValueError("Untrusted, incomplete or duplicated original wave worklist")
     drafted = set(load_patches(patches))
+    reserved = set()
+    for path in reserved_manifests or []:
+        manifest = json.loads(path.read_text(encoding="utf-8"))
+        rows = manifest["articles"]
+        if (manifest.get("source_sha256") != SOURCE_SHA256
+                or manifest.get("publication_permitted") is not False
+                or manifest.get("templates_prepared") != len(rows)):
+            raise ValueError("Untrusted reserved source queue")
+        for row in rows:
+            key, ident = row["source_key"], row["article_id"]
+            if (by_key.get(key) != (row["source_position"], ident)
+                    or ident in reserved):
+                raise ValueError("Invalid or duplicated reserved source identity")
+            reserved.add(ident)
     remaining = []
     _, original_body = read_body(source)
     for row in wave:
@@ -54,7 +69,7 @@ def prepare(*, archive: Path, source: Path, roster: Path,
         unit_chars = sum(len(value) for _, _, _, value
                          in text_units(original_body[pos]))
         remaining.append((unit_chars, pos, key, ident))
-    chosen = sorted(remaining)[:limit]
+    chosen = sorted(row for row in remaining if row[3] not in reserved)[:limit]
     chosen.sort(key=lambda r: r[1])
     output.mkdir(parents=True, exist_ok=True)
     if any(output.iterdir()):

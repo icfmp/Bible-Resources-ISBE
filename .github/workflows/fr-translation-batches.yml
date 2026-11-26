@@ -8,7 +8,7 @@ on:
       - 'scripts/render_translation_reading_copy.py'
       - 'tests/test_translation_batches.py'
       - 'tests/test_translation_cohort_manifests.py'
-      - 'workspace/translations/isbe-1915/fr/**'
+      - 'workspace/translations/isbe-1915/fr/work-in-progress/FULL_VALIDATION.json'
       - '.github/workflows/fr-translation-batches.yml'
   pull_request:
     paths:

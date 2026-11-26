@@ -3,10 +3,13 @@
   "kind": "french_isbe_source_template_staging_request",
   "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "roster": "workspace/translations/isbe-1915/fr/worklists/wave-01/1001-2000.json",
-  "output": "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-009",
-  "limit": 100,
+  "output": "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-010",
+  "limit": 98,
   "translation_language": "fr",
   "publication_permitted": false,
   "editorial_approvals": 0,
-  "notes": "Ninth source-locked 100-article queue: select the shortest undrafted canonical English articles among 198 remaining positions 1001–2000. Exclude all committed drafts and pilots through canonical patch IDs. Export compact JSONL with exact source roundtrip. No PR/publication."
+  "notes": "Prefetch the final 98 undrafted entries outside the already staged round 009. Existing round 009 remains immutable. No translations, approvals or publication.",
+  "reserve_queues": [
+    "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-009"
+  ]
 }

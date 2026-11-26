@@ -8,7 +8,7 @@ on:
       - 'tests/test_translation_review_corpus.py'
       - 'workspace/pilots/isbe-1915-fr/draft-patches.json'
       - 'workspace/pilots/isbe-1915-fr/SOURCE_REVIEW_FLAGS.json'
-      - 'workspace/translations/isbe-1915/fr/batches/**'
+      - 'workspace/translations/isbe-1915/fr/work-in-progress/FULL_VALIDATION.json'
       - '.github/workflows/fr-translation-review.yml'
   pull_request:
     paths:

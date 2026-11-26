@@ -2,7 +2,12 @@ name: Validate canonical ISBE TEI P5
 
 on:
   push:
+    paths:
+      - '**'
+      - '!workspace/translations/isbe-1915/fr/**'
+      - 'workspace/translations/isbe-1915/fr/work-in-progress/FULL_VALIDATION.json'
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read

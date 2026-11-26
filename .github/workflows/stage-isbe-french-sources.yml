@@ -51,9 +51,14 @@ jobs:
           assert roster.is_relative_to(root/'worklists'), 'Source roster outside frozen worklists'
           output=Path(config['output'])
           assert output.is_relative_to(root/'source-queue'), 'Unsafe output directory'
-          assert 1 <= config['limit'] <= 100
+          assert 1 <= config['limit'] <= 1000
           # Existing queues may receive a verified compact export only.
           patch_files=[Path('workspace/pilots/isbe-1915-fr/draft-patches.json'),*sorted((root/'batches').glob('*.json'))]
+          reserved=[]
+          for queue_path in config.get('reserve_queues', []):
+              queue=Path(queue_path)
+              assert queue.is_relative_to(root/'source-queue') and queue != output
+              reserved.append(queue/'MANIFEST.json')
           if output.exists():
               manifest=json.loads((output/'MANIFEST.json').read_text(encoding='utf-8'))
           else:
@@ -63,7 +68,8 @@ jobs:
                 roster=roster,
                 patches=patch_files,
                 output=output,
-                limit=config['limit']
+                limit=config['limit'],
+                reserved_manifests=reserved
               )
           keys=set()
           for entry in manifest['articles']:

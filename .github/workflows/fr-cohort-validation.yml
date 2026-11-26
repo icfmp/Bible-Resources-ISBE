@@ -1,0 +1,83 @@
+name: Validate changed French ISBE cohort
+
+on:
+  push:
+    paths:
+      - 'workspace/translations/isbe-1915/fr/working/**'
+      - 'workspace/translations/isbe-1915/fr/batches/**'
+      - '.github/workflows/fr-cohort-validation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cohort:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Identify changed drafts and verify global identity uniqueness
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+          from scripts.apply_translation_batches import load_patches
+          root = Path('workspace/translations/isbe-1915/fr/')
+          all_batches = sorted((root / 'batches').glob('*.json'))
+          all_patches = load_patches([Path('workspace/pilots/isbe-1915-fr/draft-patches.json'), *all_batches])
+          assert len({a['source_key'] for a in all_patches.values()}) == len(all_patches)
+          before = os.environ.get('BEFORE', '')
+          if before and before != '0' * 40 and subprocess.run(
+                  ['git', 'cat-file', '-e', before+'^{commit}'], capture_output=True).returncode == 0:
+              changes = subprocess.check_output(['git', 'diff', '--name-status', '--no-renames', before, 'HEAD'], text=True).splitlines()
+              relevant = [(status, Path(path)) for status, path in (line.split('\t', 1) for line in changes)
+                          if path.startswith(str(root / 'working')+'/') or path.startswith(str(root / 'batches')+'/')]
+              assert all(status in ('A','M') for status, _ in relevant), 'Deletion or unsupported draft change: run full review'
+              drafts = sorted(path for _,path in relevant if path.parent == root/'working' and path.suffix=='.md')
+              batches = sorted(path for _,path in relevant if path.parent == root/'batches' and path.suffix=='.json')
+          else:
+              drafts = sorted((root/'working').glob('*.md'))
+              batches = all_batches
+          Path('/tmp/fr-cohort-plan.json').write_text(json.dumps({'drafts': list(map(str,drafts)), 'batches': list(map(str,batches))}))
+          print('Changed manuscripts:',len(drafts),'Changed batch files:',len(batches),'Globally unique articles:',len(all_patches))
+          PY
+      - name: Compile changed manuscripts and verify matching committed patches
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts.export_tei_markdown_corpus import export
+          from scripts.markdown_translation_bridge import compile_draft
+          from scripts.apply_translation_batches import load_patches, apply
+          root = Path('workspace/translations/isbe-1915/fr/')
+          source = Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml')
+          plan=json.loads(Path('/tmp/fr-cohort-plan.json').read_text())
+          drafts=[Path(p) for p in plan['drafts']]
+          batches=[Path(p) for p in plan['batches']]
+          all_patches=load_patches([Path('workspace/pilots/isbe-1915-fr/draft-patches.json'), *sorted((root/'batches').glob('*.json'))])
+          changed=load_patches(batches) if batches else {}
+          ids={p.stem for p in drafts} | set(changed)
+          if ids:
+              archive=Path('/tmp/fr-cohort-source.zip')
+              export(source,archive,report=Path('/tmp/fr-cohort-source.json'))
+              for ident in sorted(ids):
+                  path=root/'working'/(ident+'.md')
+                  # Legacy patch-only inputs are still verified through apply().
+                  if not path.exists():
+                      assert ident not in {p.stem for p in drafts}
+                      continue
+                  patch,report=compile_draft(archive,path.read_text(encoding='utf-8'))
+                  assert patch['articles'][0] == all_patches[ident], 'Manuscript/patch mismatch: '+ident
+                  assert report['human_editorial_approvals']==0 and not report['publication_permitted']
+              if batches:
+                  report=apply(source,batches,output=Path('/tmp/fr-cohort.xml'),report_path=Path('/tmp/fr-cohort-report.json'))
+                  assert report['complete_unreviewed_drafts']==len(changed)
+                  assert report['partial_unreviewed_drafts']==0
+                  assert report['all_english_canonical_keys_and_ids_unchanged'] and not report['publication_permitted']
+          print('Validated changed cohort; no editorial approval or publication.')
+          PY
