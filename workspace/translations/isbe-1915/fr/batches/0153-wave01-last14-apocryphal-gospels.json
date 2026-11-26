@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "APOCRYPHAL GOSPELS",
+      "article_id": "isbe-b1a72dff729f690f524b",
+      "source_article_sha256": "e96170a1b061b7aabf02a15640900e0cc27dfa255983ff723b4bc6415e2b6948",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APOCRYPHAL GOSPELS",
+          "target": "ÉVANGILES APOCRYPHES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-pok'-ri-fal gos'-pels:",
+          "target": "a-pok'-ri-fal gos'-pels :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "I. INTRODUCTORY",
+          "target": "I. INTRODUCTION",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "1. Early Gospels",
+          "target": "1. Les premiers évangiles",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "2. Canonical Gospels",
+          "target": "2. Les évangiles canoniques",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "3. Apocryphal Gospels",
+          "target": "3. Les évangiles apocryphes",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "4. Gospel according to the Hebrews",
+          "target": "4. L'Évangile selon les Hébreux",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "II. HERETICAL GOSPELS",
+          "target": "II. ÉVANGILES HÉRÉTIQUES",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "1. Gospel of the Ebionites",
+          "target": "1. L'Évangile des Ébionites",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "2. Gospel of the Egyptians",
+          "target": "2. L'Évangile des Égyptiens",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "3. Gospel of Marcion",
+          "target": "3. L'Évangile de Marcion",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "4. Gospel of Peter",
+          "target": "4. L'Évangile de Pierre",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "5. Gospel of the Twelve Apostles",
+          "target": "5. L'Évangile des Douze Apôtres",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "6. Gospels of Barnabas and Bartholomew",
+          "target": "6. Les évangiles de Barnabas et de Barthélemy",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "III. SUPPLEMENTARY OR LEGENDARY GOSPELS",
+          "target": "III. ÉVANGILES COMPLÉMENTAIRES OU LÉGENDAIRES",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "1. Gospels of the Nativity",
+          "target": "1. Les évangiles de la Nativité",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(a) Protevangelium of James",
+          "target": "(a) Le Protévangile de Jacques",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(b) Pseudo-Matthew",
+          "target": "(b) Le Pseudo-Matthieu",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "(c) The Nativity of Mary",
+          "target": "(c) La Nativité de Marie",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "(d) Gospel of Joseph the Carpenter",
+          "target": "(d) L'Évangile de Joseph le Charpentier",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "(e) The Passing of Mary",
+          "target": "(e) Le trépas de Marie",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "2. Gospels of the Infancy or Childhood",
+          "target": "2. Les évangiles de l'enfance",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "(a) Gospel of Thomas",
+          "target": "(a) L'Évangile de Thomas",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "(b) Arabic Gospel of the Childhood",
+          "target": "(b) L'Évangile arabe de l'enfance",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "3. Gospels of the Passion and Resurrection",
+          "target": "3. Les évangiles de la Passion et de la Résurrection",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "(a) Gospel of Peter (as above)",
+          "target": "(a) L'Évangile de Pierre (voir ci-dessus)",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "(b) Gospel of Nicodemus",
+          "target": "(b) L'Évangile de Nicodème",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "(1) Ac of Pilate",
+          "target": "(1) Les Actes de Pilate",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "(2) Descent of Jesus into the Lower World",
+          "target": "(2) La descente de Jésus aux enfers",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "(c) Other Fabrications",
+          "target": "(c) Autres fabrications",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "The apocryphal gospels form a branch of the apocryphal literature that attended the formation of the New Testament canon of Scripture. Apocryphal here means non-canonical. Besides gospels, this literature included acts, epistles and apocalypses.",
+          "target": "Les évangiles apocryphes constituent une branche de la littérature apocryphe apparue parallèlement à la formation du canon des Écritures du Nouveau Testament. « Apocryphe » signifie ici « non canonique ». Outre les évangiles, cette littérature comprenait des actes, des épîtres et des apocalypses.",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "I. Introductory.",
+          "target": "I. Introduction.",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "1. Early Gospels:",
+          "target": "1. Les premiers évangiles :",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "The introduction to the third canonical Gospel shows that in the days of the writer, when the apostles of the Lord were still living, it was a common practice to write and publish accounts of the acts and words of Jesus. It has even been maintained (S. Baring-Gould, Lost and Hostile Gospels, xxiii, London, 1874) that at the close of the 1st century, almost every church had its own gospel with which alone it was acquainted. These were probably derived, or professed to be derived, from the oral reports of those who had seen, heard, and, it may be, conversed with our Lord. It was dissatisfaction with these compositions that moved Luke to write his Gospel. Whether any of these ante-Lukan documents are among those still known to us is hardly longer doubtful. Scholars of repute--Grotius, Grabe, Mill--were in earlier times disposed to place the Gospel of the Hebrews, the Gospel of the Ebionites, and the Gospel of the Egyptians among those alluded to by Luke, some holding the Gospel of the Hebrews to be as early as just after the middle of the 1st century. More recent criticism does not allow so early an appearance for those gospels, though a fairly early date is still postulated for the Gospel of the Hebrews. The Protevangelium of James (noticed below) is still held by some as possibly falling within the 1st century (EB, I, 259).",
+          "target": "L'introduction du troisième évangile canonique montre qu'à l'époque où son auteur écrivait, alors que les apôtres du Seigneur vivaient encore, il était courant de rédiger et de publier des récits des actes et des paroles de Jésus. On a même soutenu (S. Baring-Gould, Lost and Hostile Gospels, p. XXIII, Londres, 1874) que, vers la fin du Ier siècle, presque chaque Église possédait son propre évangile et ne connaissait que celui-là. Ces récits provenaient probablement, ou prétendaient provenir, des témoignages oraux de personnes qui avaient vu et entendu notre Seigneur, et peut-être conversé avec lui. C'est le mécontentement suscité par ces compositions qui incita Luc à écrire son évangile. On ne peut guère douter davantage aujourd'hui que certains de ces documents antérieurs à Luc aient subsisté jusqu'à nous. Des savants renommés — Grotius, Grabe et Mill — étaient autrefois enclins à placer l'Évangile des Hébreux, l'Évangile des Ébionites et l'Évangile des Égyptiens parmi ceux auxquels Luc fait allusion. Certains faisaient même remonter l'Évangile des Hébreux à une date peu postérieure au milieu du Ier siècle. La critique plus récente ne permet pas d'attribuer une origine aussi ancienne à ces écrits, même si elle admet encore une date assez précoce pour l'Évangile des Hébreux. Certains considèrent toujours que le Protévangile de Jacques (examiné plus loin) pourrait dater du Ier siècle (EB, I, p. 259).",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "2. Canonical Gospels:",
+          "target": "2. Les évangiles canoniques :",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "However this may be, there can be no doubt that by the close of the 1st century and the early part of the 2nd century, opinion was practically unanimous in recognition of the authority of the four Gospels of the canonical Scriptures. Irenaeus, Bishop of Lyons (180 AD), recognizes four, and only four Gospels, as \"pillars\" of the church. The Harmonies of Theophilus, bishop of Antioch (168-80 AD), and of Tatian, and the Apology of Justin Martyr carry back the tradition to a much earlier period of the century, and, as Liddon proves at considerable length (Bampton Lectures, 2nd ed., 210-19), \"it is scarcely too much to assert that every decade of the 2nd century furnishes its share of proof that the four Gospels as a whole, and John's in particular, were to the church of that age what they are to the church of the present.\"",
+          "target": "Quoi qu'il en soit, on ne peut douter qu'à la fin du Ier siècle et au début du IIe, l'opinion ait été pratiquement unanime à reconnaître l'autorité des quatre évangiles des Écritures canoniques. Irénée, évêque de Lyon (180 apr. J.-C.), reconnaît quatre évangiles, et quatre seulement, comme « piliers » de l'Église. Les harmonies de Théophile, évêque d'Antioche (168-180 apr. J.-C.), et de Tatien, ainsi que l'Apologie de Justin Martyr, font remonter cette tradition à une période beaucoup plus ancienne du siècle. Comme Liddon le démontre longuement (Bampton Lectures, 2e éd., p. 210-219), « il n'est guère exagéré d'affirmer que chaque décennie du IIe siècle apporte sa part de preuves que les quatre évangiles pris dans leur ensemble, et celui de Jean en particulier, avaient pour l'Église de cette époque la même valeur qu'ils ont pour celle d'aujourd'hui ».",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "The recent attempt of Professor Bacon of Yale to get rid of the important authority of Irenaeus (The Fourth Gospel in Research and Debate, New York, 1910) will not succeed; it has been shown to be merely assertive where there is no evidence and agnostic where evidence is apparently demonstrative. During the last century the Gospels, as regards their composition, credibility and historicity, were subjected to the most searching and unsparing criticism which, though intimations of it were previously not wanting, may be said to have begun when Strauss, to use Liddon's words, \"shocked the conscience of all that was Christian in Europe\" by the publication of his first Life of Jesus. The methods pursued in this work consisted largely in the application to the sacred books, and especially to the Gospels, of the principles of criticism that had for forty years previously been used in estimating the structure and composition of some of the literary products of antiquity; and the controversy excited by this criticism can hardly yet be said to have subsided. This is not the place for entering upon an account of the controversy; it may be sufficient here to say that the traditional positions of the church have been ably defended, and in particular, that the claims of the canonical Gospels have been abundantly maintained.",
+          "target": "La tentative récente du professeur Bacon, de Yale, pour écarter le témoignage capital d'Irénée (The Fourth Gospel in Research and Debate, New York, 1910) ne réussira pas. On a montré qu'elle se contente d'affirmer lorsqu'il n'existe aucune preuve et d'adopter une attitude agnostique lorsque les preuves semblent manifestes. Au cours du siècle dernier, la composition, la crédibilité et l'historicité des évangiles furent soumises à une critique d'une rigueur et d'une sévérité extrêmes. Bien que cette démarche ait eu des précurseurs, on peut dire qu'elle commença lorsque Strauss, pour reprendre les termes de Liddon, « bouleversa la conscience de tout ce qui était chrétien en Europe » en publiant sa première Vie de Jésus. Les méthodes de cet ouvrage consistaient surtout à appliquer aux livres sacrés, et particulièrement aux évangiles, les principes critiques déjà employés depuis quarante ans pour évaluer la structure et la composition de certains écrits de l'Antiquité. La controverse ainsi déclenchée ne peut guère être considérée comme apaisée. Il ne nous appartient pas ici d'en retracer l'histoire ; il suffit de dire que les positions traditionnelles de l'Église ont été défendues avec compétence et, en particulier, que les prétentions des évangiles canoniques ont été largement maintenues.",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "3. Apocryphal Gospels:",
+          "target": "3. Les évangiles apocryphes :",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "Whatever was the fate of the ante-Lukan and other possible 1st-century gospels, it is with the 2nd century and the formation of an authoritative canon that the apocryphal gospels, such as we now have, for the most part begin to appear. In the days of the reproduction of documents by manuscript, of restricted communications between different localities, and when the church was only as yet forming and completing its organization, the formation and spread of such gospels would be much easier than now. The number of such gospels is very considerable, amounting to about fifty. These exist mainly in fragments and scattered notices; though some, as pointed out below, are either entire or nearly so. The apparent number has probably been increased by the use of different names for the same document. Thirty are named by Hofmann with more or less explanation in RE, I, 511; a complete hat is given in Fabricius (Cod. Apocrypha New Testament, I, 355 ff). Ebionistic and Gnostic circles were specially prolific of such gospels. \"It would be easy,\" says Salmon (Intro, 1st ed., 239) \"to make a long list of names of gospels said to have been in use in different Gnostic sects; but very little is known as to their contents, and that little is not such as to lead us to attribute to them the very slightest historical value.\"",
+          "target": "Quel qu'ait été le sort des évangiles antérieurs à Luc et des autres écrits évangéliques possibles du Ier siècle, les évangiles apocryphes tels que nous les connaissons aujourd'hui commencent, pour la plupart, à apparaître au IIe siècle, au moment où se forme un canon faisant autorité. À une époque où les documents étaient reproduits à la main, où les communications entre les lieux étaient limitées et où l'Église était encore en train de former et d'achever son organisation, la naissance et la diffusion de tels évangiles étaient beaucoup plus faciles qu'aujourd'hui. Leur nombre est considérable, de l'ordre d'une cinquantaine. Ils nous sont surtout parvenus sous forme de fragments et de mentions dispersées, bien que certains, comme on le verra, aient été conservés entièrement ou presque. L'emploi de plusieurs titres pour désigner un même document a probablement gonflé leur nombre apparent. Hofmann en cite trente, avec des explications plus ou moins développées, dans RE, I, p. 511 ; Fabricius en donne une liste complète (Cod. Apocrypha New Testament, I, p. 355 et suiv.). Les milieux ébionites et gnostiques furent particulièrement féconds dans ce domaine. « Il serait facile », écrit Salmon (Intro, 1re éd., p. 239), « de dresser une longue liste de noms d'évangiles dont on dit qu'ils furent utilisés par diverses sectes gnostiques ; mais nous savons très peu de chose sur leur contenu, et ce peu ne nous incite aucunement à leur attribuer la moindre valeur historique. »",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "Of many indeed no more is known than the names of the authors, such as the gospels of Basilides, of Cerinthus, of Apelles, of Matthias, of Barnabas, of Bartholomew, of Eve, of Philemon and many others. The scholars and authorities of the early church were quite well aware of the existence and aims of these productions. It is noteworthy also that they had no hesitation in characterizing them as they deserved. The Marcosians, according to Irenaeus, adduced \"an unspeakable number of apocryphal and spurious writings, which they themselves had forged, to bewilder the minds of the foolish\"; and Eusebius (Historia Ecclesiastica, III, 25) gives the following list of spurious and disputed books: \"That we have it in our power to know both these books (the canonical) and those that are adduced by the heretics under the name of the apostles such, namely, as compose the gospels of Peter, of Thomas, and of Matthew, and certain others beside these or such as contain the Ac of Andrew and John, and of the other apostles, of which no one of those writers in the ecclesiastical succession has condescended to make any mention in his works: and, indeed, the character of the style itself is very different from that of the apostles, and the sentiments, and the purport of these things that are advanced in them, deviating as far as possible from sound orthodoxy, evidently prove they are the fictions of heretical men: whence they are not only to be ranked among the spurious writings but are to be rejected as altogether absurd and impious.\"",
+          "target": "De beaucoup de ces écrits, nous ne connaissons guère que le nom de leur auteur supposé : évangiles de Basilide, de Cérinthe, d'Apellès, de Matthias, de Barnabas, de Barthélemy, d'Ève, de Philémon et de bien d'autres. Les savants et les autorités de l'Église ancienne connaissaient très bien l'existence et les intentions de ces productions. Il est également remarquable qu'ils n'hésitaient pas à les qualifier comme ils estimaient qu'elles le méritaient. Selon Irénée, les marcosiens invoquaient « un nombre indicible d'écrits apocryphes et falsifiés qu'ils avaient eux-mêmes forgés pour égarer les esprits simples ». Eusèbe (Historia Ecclesiastica, III, 25) donne la liste suivante des livres fallacieux et contestés : « Nous pouvons distinguer ces livres [canoniques] de ceux que les hérétiques présentent sous le nom des apôtres, comme les écrits qui portent le titre d'Évangile de Pierre, de Thomas ou de Matthieu, et quelques autres, ou qui contiennent les Actes d'André, de Jean et des autres apôtres. Aucun écrivain appartenant à la succession ecclésiastique n'a jugé bon de les mentionner dans ses ouvrages. Le style lui-même diffère entièrement de celui des apôtres, et les idées et la teneur de ce qu'ils avancent s'écartent autant que possible de la saine orthodoxie. Tout prouve manifestement que ce sont des inventions d'hommes hérétiques ; il faut donc non seulement les ranger parmi les écrits apocryphes, mais les rejeter comme tout à fait absurdes et impies. »",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "In the appendix to Westcott's Introduction to the Study of the Gospels will be found, with the exception of those recently discovered in Egypt, a complete list of the non-canonical sayings and deeds ascribed to our Lord as recorded in the patristic writings; and also a list of the quotations from the non-canonical gospels where these are only known by quotations.",
+          "target": "Dans l'appendice de l'Introduction to the Study of the Gospels de Westcott, on trouvera, à l'exception des découvertes égyptiennes récentes, une liste complète des paroles et des actes non canoniques attribués à notre Seigneur dans les écrits patristiques, ainsi qu'une liste des citations d'évangiles non canoniques lorsque ceux-ci ne sont connus que par ces citations.",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "The aim of the apocryphal gospels may be regarded as",
+          "target": "Les évangiles apocryphes peuvent avoir un objectif",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "(1) heretical or",
+          "target": "(1) hérétique, ou",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "(2) supplemental or legendary: that is to say, such as either were framed in support of some heresy or such as assume the canonical gospels and try to make additions--largely legendary--to them. Before considering these it may be well to take separate account of the Gospel according to the Hebrews.",
+          "target": "(2) complémentaire ou légendaire : autrement dit, soit ils furent composés pour soutenir une hérésie, soit ils présupposent les évangiles canoniques et cherchent à leur ajouter des éléments, en grande partie légendaires. Avant d'examiner ces écrits, il convient de considérer à part l'Évangile selon les Hébreux.",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "4. Gospel According to the Hebrews:",
+          "target": "4. L'Évangile selon les Hébreux :",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "The undoubted early date of this gospel, the character of most of its not very numerous quotations, the respect with which it is uniformly mentioned by early writers, and the esteem in which it is at present held by scholars in general, entitle the Gospel according to the Hebrews to special notice. Apart from the tradition, to which it is not necessary to attach too great importance, that represented our Lord as commanding His disciples to remain for twelve years in Jerusalem, it is reasonable to suppose that for the Christian communities resident in Jerusalem and Palestine a written gospel in their own language (Western Aramaic) would soon be a necessity, and such a gospel would naturally be used by Jewish Christians of the Diaspora. Jewish Christians, for example, settled in Alexandria, might use this gospel, while native Christians, as suggested by Harnack, might use the Gospel of the Egyptians, till of course both were superseded by the four Gospels sanctioned by the church.",
+          "target": "La date incontestablement ancienne de cet évangile, le caractère de la plupart de ses citations, assez peu nombreuses, le respect avec lequel les premiers écrivains le mentionnent constamment et l'estime dont il jouit actuellement auprès de nombreux savants justifient une étude particulière de l'Évangile selon les Hébreux. Sans accorder trop de poids à la tradition selon laquelle notre Seigneur aurait commandé à ses disciples de rester douze ans à Jérusalem, il est raisonnable de supposer que les communautés chrétiennes de Jérusalem et de Palestine eurent rapidement besoin d'un évangile écrit dans leur propre langue, l'araméen occidental, et qu'un tel texte fut naturellement utilisé aussi par les judéo-chrétiens de la diaspora. Ceux qui s'étaient établis, par exemple, à Alexandrie pouvaient employer cet évangile, tandis que les chrétiens d'origine non juive, comme le suggère Harnack, pouvaient se servir de l'Évangile des Égyptiens, jusqu'à ce que tous deux fussent remplacés par les quatre évangiles reconnus par l'Église.",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "text",
+          "source": "There is no proof however that the gospel was earlier than the Synoptics, much less that it was among the ante- Lukan gospels. Harnack, indeed, by a filiation of documents for which there seems hardly sufficient warrant, placed it as early as between 65 and 100 AD. Salmon, on the other hand (Intro, Leer X) concludes that \"the Nazarene gospel, so far from being the mother, or even the sister of one of our canonical four, can only claim to be a grand- daughter or grand-niece.\" Jerome (400 AD) knew of the existence of this gospel and says that he translated it into Greek and Lat; quotations from it are found in his works and in those of Clement of Alexandria. Its relation to the Gospel of Matthew, which by almost universal consent is declared to have been originally written in Hebrew (i.e. Aramaic), has given rise to much controversy. The prevalent view among scholars is that it was not the original of which Matthew's Gospel was a Greek translation, but still that it was a fairly early composition. Some, like Salmon and Harnack, are disposed to regard Jerome's Hebrew Gospel as to all intents a fifth gospel originally composed for Palestinian Christians, but which became of comparatively insignificant value with the development of Christianity into a world-religion. Besides two references to the baptism of Jesus and a few of his sayings, such as-- \"Never be joyful except when ye shall look upon your brother in love\"; \"Just now my Mother, the Holy Spirit, took me by one of my hairs and bore me away to the great mountain Thabor\"--it records the appearance of our Lord to James after the resurrection, adduced by Paul (",
+          "target": "Il n'est pourtant nullement prouvé que cet évangile soit antérieur aux synoptiques, encore moins qu'il fasse partie des écrits antérieurs à Luc. Harnack, par une filiation documentaire qui paraît insuffisamment fondée, l'a situé entre 65 et 100 apr. J.-C. Salmon, au contraire (Intro, leçon X), conclut que « l'évangile des Nazaréens, loin d'être la mère, ni même la sœur, de l'un de nos quatre évangiles canoniques, ne peut prétendre qu'au rang de petite-fille ou de petite-nièce ». Jérôme (400 apr. J.-C.) connaissait cet évangile et dit l'avoir traduit en grec et en latin ; des citations en figurent dans ses œuvres et dans celles de Clément d'Alexandrie. Ses rapports avec l'Évangile de Matthieu, que l'on tenait presque universellement pour avoir été rédigé primitivement en hébreu (c'est-à-dire en araméen), ont suscité de vives controverses. L'opinion dominante parmi les chercheurs veut qu'il n'ait pas été l'original dont l'Évangile de Matthieu constituerait la traduction grecque, tout en reconnaissant une composition relativement ancienne. Certains, comme Salmon et Harnack, sont disposés à voir dans l'évangile hébreu connu de Jérôme un véritable cinquième évangile composé à l'origine pour les chrétiens de Palestine, mais devenu de valeur relativement secondaire avec le développement du christianisme en religion universelle. Outre deux mentions du baptême de Jésus et quelques paroles qui lui sont attribuées, comme « Ne vous réjouissez jamais, sinon lorsque vous regardez votre frère avec amour » et « À l'instant, ma mère, l'Esprit saint, m'a saisi par l'un de mes cheveux et m'a porté sur la grande montagne du Thabor », il relate une apparition de notre Seigneur à Jacques après la résurrection, que Paul cite (",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "tail",
+          "source": ") as one of the proofs of that event; but of course Paul might have learned this from the lips of James himself as well as from ordinary tradition, and not necessarily from this gospel.",
+          "target": ") parmi les preuves de cet événement. Mais Paul pouvait naturellement avoir appris cela de la bouche de Jacques lui-même ou de la tradition ordinaire, et pas nécessairement de cet évangile.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "This indeed is the principal detail of importance which the quotations from this gospel add to what we know from the Synoptics. In other divergences from the Synoptics where the same facts are recorded, it is possible that the Gospel according to the Hebrews may relate an earlier and more reliable tradition. On the other hand, the longest quotation, which gives a version of Christ's interview with the Rich Young Ruler, would seem to show, as Westcott suggests, that the Synoptics give the simpler and therefore the earlier form of the common narrative. Many scholars, however, allow that the few surviving quotations of this gospel should be taken into account in constructing the life of Christ. The Ebionites gave the name of Gospel of the Hebrews to a mutilated gospel of Matthew. This brings us to the heretical gospels.",
+          "target": "C'est d'ailleurs le principal renseignement d'importance que les citations de cet évangile ajoutent à ce que nous savons par les synoptiques. Dans d'autres divergences, lorsque les mêmes faits sont racontés, il est possible que l'Évangile selon les Hébreux conserve une tradition plus ancienne et plus fiable. En revanche, la plus longue citation, qui présente une version de la rencontre du Christ avec le jeune homme riche, semble montrer, comme le suggère Westcott, que les synoptiques donnent la forme la plus simple, donc la plus ancienne, du récit commun. Cependant, de nombreux savants estiment que les rares citations conservées de cet évangile doivent être prises en compte pour reconstituer la vie du Christ. Les Ébionites donnaient le nom d'Évangile des Hébreux à un évangile de Matthieu mutilé. Cela nous amène aux évangiles hérétiques.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "II. Heretical Gospels.",
+          "target": "II. Évangiles hérétiques.",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "1. Gospel of the Ebionites:",
+          "target": "1. L'Évangile des Ébionites :",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "The Ebionites may be described generally as Jewish Christians who aimed at maintaining as far as possible the doctrines and practices of the Old Testament and may be taken as representing originally the extreme conservative section of the Council of Jerusalem mentioned in ",
+          "target": "On peut définir les Ébionites, dans l'ensemble, comme des chrétiens d'origine juive soucieux de conserver autant que possible les doctrines et les pratiques de l'Ancien Testament. Ils représentaient peut-être à l'origine la fraction la plus conservatrice du concile de Jérusalem mentionné en ",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": ". They are frequently mentioned in patristic literature from the 2nd to the 4th centuries, and the prolonged Gnostic controversies of those times may well have founded among them different sects or at least parties. Accordingly Jerome, a writer of the 4th century, states (Ep ad August. 122 13) that he found in Palestine Jewish Christians known as Nazarenes and Ebionites. Whether these were separate sects or simply supporters of more liberal or narrower views of the same sect cannot well be determined. Some, such as Harnack and Uhlhorn, have held that the two names are general designations for Jewish Christians; others regard the Ebionites as the most retrograde and the narrowest of Jewish Christians, while the Nazarenes were more tolerant of difference of belief and practice.",
+          "target": ". La littérature patristique du IIe au IVe siècle les mentionne fréquemment. Les longues controverses gnostiques de cette époque ont pu faire naître chez eux plusieurs sectes ou au moins plusieurs courants. Ainsi Jérôme, écrivain du IVe siècle, rapporte (Ep ad August., 122, 13) avoir rencontré en Palestine des chrétiens juifs appelés Nazaréens et Ébionites. Il est difficile de déterminer s'il s'agissait de sectes distinctes ou simplement de partisans d'opinions plus larges ou plus restrictives au sein d'une même communauté. Certains, comme Harnack et Uhlhorn, ont tenu ces deux noms pour des désignations générales des judéo-chrétiens. D'autres considèrent les Ébionites comme les plus rétrogrades et les plus rigoristes d'entre eux, tandis que les Nazaréens auraient été plus tolérants envers les différences de croyance et de pratique.",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "The Gospel of the Ebionites or the Gospel of the Twelve Apostles, as it was also called, represented along with the Gospel of the Hebrews (noticed above) this Judeo-Christian spirit. Some fragments of the Gospel of the Ebionites are preserved in Epiphanius (d 376). He speaks of the Nazarenes as \"having the Gospel according to Matthew in a most complete form, in Hebrew\" (i.e. Aramaic), though he immediately adds that he does not know whether \"they removed the genealogies from Abraham to Christ,\" that is to say, whether they accepted or rejected the virgin birth of Christ. In contrast with this statement he says that the Ebionites had a gospel \"called the Gospel according to Matthew, not entire and perfectly complete, but falsified and mutilated, which they call the Hebrew gospel.\" The extant fragments from the gospel are given in Westcott (Intro, 437 f). They \"show that its value is quite secondary and that the author has simply compiled it from the canonical, and especially from the Synoptic Gospels, adapting it at the same time to the views and practices of Gnostic Ebionism\" (DCG, I, 505).",
+          "target": "L'Évangile des Ébionites, également appelé Évangile des Douze Apôtres, représentait, avec l'Évangile des Hébreux déjà examiné, cet esprit judéo-chrétien. Quelques fragments de l'Évangile des Ébionites sont conservés chez Épiphane (mort en 376). Il parle des Nazaréens comme possédant « l'Évangile selon Matthieu dans une forme très complète, en hébreu » (c'est-à-dire en araméen), mais ajoute aussitôt qu'il ignore « s'ils ont supprimé les généalogies d'Abraham au Christ », autrement dit s'ils reconnaissaient la naissance virginale de Jésus. À l'inverse, il affirme que les Ébionites possédaient un évangile « appelé Évangile selon Matthieu, non entier ni parfaitement complet, mais falsifié et mutilé, qu'ils appellent l'évangile hébreu ». Les fragments conservés sont reproduits par Westcott (Intro, p. 437 et suiv.). Ils « montrent que sa valeur est tout à fait secondaire et que l'auteur s'est simplement servi des évangiles canoniques, particulièrement des synoptiques, en adaptant en même temps le texte aux opinions et pratiques de l'ébionisme gnostique » (DCG, I, p. 505).",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "2. Gospel of the Egyptians:",
+          "target": "2. L'Évangile des Égyptiens :",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "Three short and somewhat mystic verses are all that are left of what is known as the Gospel of the Egyptians. They occur in Book III of the Stromateis of Clement of Alexandria, who devoted that book to a refutation of Encratism, that is, the rejection, as absolutely unlawful, of the use of marriage, of flesh meat and of wine. Already in the Pauline Epistles are met parties with the cry (",
+          "target": "Trois versets courts et quelque peu mystiques sont tout ce qui subsiste de l'ouvrage connu sous le nom d'Évangile des Égyptiens. Ils figurent au livre III des Stromates de Clément d'Alexandrie, consacré à la réfutation de l'encratisme, c'est-à-dire du rejet, comme absolument illicites, du mariage, de la consommation de viande et du vin. Les épîtres pauliniennes mentionnent déjà des groupes qui proclamaient (",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "tail",
+          "source": ") \"Handle not, nor taste, nor touch,\" and (",
+          "target": ") « Ne prends pas, ne goûte pas, ne touche pas », et (",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "tail",
+          "source": ") \"forbidding to marry, and commanding to abstain from meats.\" The verses in Clement read as follows: \"When Salome asked how long will death prevail? The Lord said, As long as ye women bear children: for I have come to destroy the function of women. And Salome said to him. Did I not well then in not bearing children? And the Lord answered and said, Eat of every herb, but do not eat of that which is bitter. And when Salome asked when the things would be known about which she had inquired, the Lord said, When ye trample on the garment of shame, and when the two shall be one, and the male with the female neither male nor female.\" The words assuredly vary much from the usual character of those of our Lord. Modern writers vary as to their encratite tendency and as to how far the Gospel of the Egyptians was practical. With so little to go upon, it is not easy to form a conclusion. It may have contained other passages on account of which Origen deemed it heretical. It was used by the Naassenes and Sabellians. The date of the Gospel is between 130 and 150.",
+          "target": ") « interdisant de se marier et prescrivant de s'abstenir d'aliments ». Voici les versets cités par Clément : « Lorsque Salomé demanda combien de temps la mort prévaudrait, le Seigneur répondit : Tant que vous, les femmes, enfanterez ; car je suis venu détruire la fonction des femmes. Salomé lui dit : Ai-je donc bien fait de ne pas avoir d'enfants ? Le Seigneur répondit : Mange toute herbe, mais ne mange pas celle qui est amère. Et quand Salomé demanda à quel moment seraient connues les choses sur lesquelles elle l'avait interrogé, le Seigneur déclara : Lorsque vous foulerez aux pieds le vêtement de la honte, lorsque les deux ne feront qu'un et que l'homme avec la femme ne sera ni homme ni femme. » Ces paroles s'éloignent assurément beaucoup du caractère habituel de celles de notre Seigneur. Les auteurs modernes divergent sur leur tendance encratite et sur le degré auquel l'Évangile des Égyptiens relevait de la pratique. Avec si peu de données, il est difficile de conclure. Cet évangile contenait peut-être d'autres passages qui conduisirent Origène à le considérer comme hérétique. Les Naassènes et les Sabelliens l'utilisaient. On le date entre 130 et 150.",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "3. Gospel of Marcion:",
+          "target": "3. L'Évangile de Marcion :",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "The Gospel of Marcion would seem to have been intended as a direct counteractive to the Aramaic gospels. A native of Pontus and the son of a bishop, Marcion settled at Rome in the first half of the 2nd century and became the founder of the anti-Jewish sect that acknowledged no authoritative writings but those of Paul. This work forms a striking example of what liberties, in days before the final formation of the canon, could be taken with the most authoritative and the most revered documents of the faith, and also as showing the free and practically unlimited nature of the controversy, of which the canon as finally adopted was the result. He rejected the Old Testament entirely, and of the New Testament retained only the Gospel of Luke, as being of Pauline origin, with the omission of sections depending on the Old Testament and ten epistles of Paul, the pastoral epistles being omitted. The principal Church Fathers agree upon this corruption of Luke's Gospel by Marcion; and the main importance of his gospel is that in modern controversy it was for some time assumed to be the original gospel of which Luke's Gospel was regarded as merely an expansion. The theory was shown first in Germany and afterward independently in England to be quite untenable. It was lately revived by the author of Supernatural Religion; but Dr. Sanday's work on The Gospels in the Second Century (chapter viii) may be said to have closed the controversy. (Compare also Salmon's Intro, Lect XI.)",
+          "target": "L'Évangile de Marcion semble avoir été conçu pour s'opposer directement aux évangiles araméens. Originaire du Pont et fils d'un évêque, Marcion s'établit à Rome dans la première moitié du IIe siècle et fonda une secte antijuive qui ne reconnaissait comme autorité écrite que les œuvres de Paul. Son ouvrage illustre de manière frappante les libertés qu'on pouvait prendre, avant la constitution définitive du canon, avec les documents les plus respectés et les plus autorisés de la foi. Il montre aussi le caractère libre et pratiquement sans limites des controverses qui aboutirent à l'adoption du canon. Marcion rejetait entièrement l'Ancien Testament. Du Nouveau, il ne conservait que l'Évangile de Luc, tenu pour d'origine paulinienne, amputé des sections qui dépendaient de l'Ancien Testament, ainsi que dix épîtres de Paul, à l'exclusion des pastorales. Les principaux Pères de l'Église s'accordent à dire que Marcion avait altéré l'Évangile de Luc. La principale importance historique de son évangile tient au fait que, pendant un certain temps, certains critiques modernes l'ont considéré comme l'évangile primitif dont Luc ne serait qu'un développement. Cette théorie fut démontrée indéfendable, d'abord en Allemagne puis, indépendamment, en Angleterre. L'auteur de Supernatural Religion l'a récemment remise en avant ; mais on peut dire que l'ouvrage du Dr Sanday, The Gospels in the Second Century (chapitre VIII), a clos la controverse. (Comparer également Salmon, Intro, leçon XI.)",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "4. Gospel of Peter:",
+          "target": "4. L'Évangile de Pierre :",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "Until about a quarter of a century ago no more was known of the Gospel of Peter than of the crowd of heretical gospels referred to above. From Eusebius (Historia Ecclesiastica, VI, 12, 2) it was known that a Gospel of Peter was in use in the church of Rhossus, a town in the diocese of Antioch at the end of the 2nd century, that controversy had arisen as to its character, and that after a careful examination of it Serapion, bishop of Antioch (190-203), had condemned it as docetic. Origen (died 253 AD), in his commentary on ",
+          "target": "Il y a environ un quart de siècle, nous n'en savions pas davantage de l'Évangile de Pierre que de la multitude des évangiles hérétiques évoqués plus haut. Nous savions par Eusèbe (Historia Ecclesiastica, VI, 12, 2) qu'un Évangile de Pierre était utilisé dans l'Église de Rhossos, ville du diocèse d'Antioche, à la fin du IIe siècle ; qu'une controverse avait surgi sur son caractère ; et qu'après l'avoir examiné attentivement, Sérapion, évêque d'Antioche (190-203), l'avait condamné comme docète. Origène (mort en 253), dans son commentaire de ",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "tail",
+          "source": ", refers to the gospel as saying that \"there are certain brothers of Jesus, the sons of Joseph by a former wife, who lived with him before Mary.\" Eusebius further in Eusebius, Historia Ecclesiastica, III, 3, 2 knows nothing of the Gospel according to Peter being handed down as a catholic writing, and in Eusebius, Historia Ecclesiastica, III, 25, 6 he includes the Gospel of Peter among the forged heretical gospels. Theodoret, one of the Greek ecclesiastical historians (390-459), says that the Nazarenes used a gospel called \"according to Peter.\"",
+          "target": ", évoque cet évangile comme affirmant que « certains frères de Jésus étaient les fils que Joseph avait eus d'une précédente épouse, qui vivait avec lui avant Marie ». Eusèbe, en Historia Ecclesiastica, III, 3, 2, ne connaît aucune transmission de l'Évangile selon Pierre comme écrit de l'Église universelle ; et, au livre III, 25, 6, il le classe parmi les évangiles hérétiques falsifiés. Théodoret, historien ecclésiastique grec (390-459), affirme que les Nazaréens utilisaient un évangile intitulé « selon Pierre ».",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "The gospel is also referred to in Jerome (De Viris Illustr., chapter 1) and it is condemned by the Decretum Gelasianum (496?). Salmon (Intro, 231) remarks: \"Of the book no extracts have been preserved, and apparently it never had a wide range of circulation.\" These words were written in 1885. In the following year the French Archaeological Mission, working in upper Egypt, found in a tomb, supposed to be a monk's, at Akhmim (Panopolis), a parchment containing portions of no less than three lost Christian works, the Book of Enoch, the Gospel of Peter and the Apocalypse of Peter. These were published in 1892 and have given rise to much discussion. The gospel has been carefully reproduced in facsimile and edited by competent scholars The fragment is estimated to contain about half of the original gospel. It begins in the middle of the history of the Passion, Just after Pilate has washed his hands from all responsibility and ends in the middle of a sentence when the disciples at the end of the Feast of Unleavened Bread were betaking themselves to their homes \"But I (Simon Peter, the ostensible writer) and Andrew my brother took our nets and went to the sea; and there was with us Levi the son of Alpheus whom the Lord. ....\" Harnack (Texte und Untersuchungen, IX, 2, 2nd edition, 76) exhibits about thirty new traits contained in the Petrine account of the Passion and burial.",
+          "target": "Jérôme mentionne aussi cet évangile (De Viris Illustr., chapitre 1), et le Decretum Gelasianum (496 ?) le condamne. Salmon (Intro, p. 231) observe : « Aucun extrait de ce livre n'a été conservé et il semble qu'il n'ait jamais connu une large diffusion. » Il écrivait cela en 1885. L'année suivante, la Mission archéologique française, qui travaillait en Haute-Égypte, découvrit dans une tombe, supposée appartenir à un moine, à Akhmîm (Panopolis), un parchemin contenant des parties d'au moins trois œuvres chrétiennes perdues : le livre d'Hénoch, l'Évangile de Pierre et l'Apocalypse de Pierre. Ces textes furent publiés en 1892 et donnèrent lieu à de longues discussions. L'évangile fut soigneusement reproduit en fac-similé et édité par des spécialistes. Le fragment représenterait environ la moitié de l'œuvre originelle. Il commence au milieu du récit de la Passion, juste après que Pilate s'est lavé les mains de toute responsabilité, et s'interrompt au milieu d'une phrase où les disciples, à la fin de la fête des Pains sans levain, retournent chez eux : « Mais moi (Simon Pierre, auteur supposé du récit) et André mon frère, nous prîmes nos filets et allâmes à la mer ; et Lévi, fils d'Alphée, était avec nous, celui que le Seigneur... » Harnack (Texte und Untersuchungen, IX, 2, 2e éd., p. 76) relève environ trente traits nouveaux dans le récit pétrinien de la Passion et de l'ensevelissement.",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "These are given in detail in an additional volume of the Ante-Nicene Library: Recently Discovered manuscripts, etc., Edinburgh, 1897. But Dr. Swete (Gospel of Peter, xv, London, 1893) shows that \"even details which seem to be entirely new or which directly contradict the canonical narrative, may have been suggested by it\"; and he concludes that notwithstanding the large amount of new matter which it contains, \"there is nothing in this portion of the Petrine Gospel which compels us to assume the use of sources other than the canonical gospels.\" To Professor Orr (NT Apocryphal Writings, xix f) the Gnostic origin of the gospel seems clear in the story given of the Resurrection; and its docetic character--that is, that it proceeded from those who held that Christ had only the semblance of a body--from the statement that on the cross Jesus was silent as one who felt no pain, and from the dying cry from the cross, \"My power, my power, thou hast forsaken me,\" the really Divine Christ having departed before the crucifixion. The date of the gospel has been placed by some in the first quarter, and by others in the third quarter, of the 2nd century. For the other newly discovered \"Sayings of Jesus,\" see ",
+          "target": "Ils sont présentés en détail dans un volume supplémentaire de l'Ante-Nicene Library : Recently Discovered Manuscripts, etc., Édimbourg, 1897. Mais le Dr Swete (Gospel of Peter, p. XV, Londres, 1893) montre que « même les détails qui semblent entièrement nouveaux ou qui contredisent directement le récit canonique peuvent en avoir été inspirés ». Malgré la grande quantité d'informations nouvelles, il conclut qu'« il n'y a rien, dans cette partie de l'Évangile de Pierre, qui nous oblige à supposer l'utilisation de sources autres que les évangiles canoniques ». Pour le professeur Orr (NT Apocryphal Writings, p. XIX et suiv.), l'origine gnostique de cet évangile ressort clairement du récit de la Résurrection. Son caractère docète — c'est-à-dire issu de gens affirmant que le Christ n'avait qu'une apparence de corps — serait attesté par le silence de Jésus sur la croix, comme s'il n'éprouvait aucune douleur, et par son dernier cri : « Ma puissance, ma puissance, tu m'as abandonné », le Christ réellement divin étant parti avant la crucifixion. Certains datent cet évangile du premier quart, d'autres du troisième quart du IIe siècle. Pour les autres « Paroles de Jésus » récemment découvertes, voir ",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "LOGIA",
+          "target": "LOGIA",
+          "action": "preserve",
+          "reason": "Original scholarly LOGIA label retained as the same expression in French"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "5. Gospel of the Twelve Apostles:",
+          "target": "5. L'Évangile des Douze Apôtres :",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "A Gospel of the Twelve is mentioned by Origen (Hom. I, in Luc), and a few fragments of it are preserved by Epiphanius (Haerea, 39 13-16,22). It commenced with the baptism, and was used by the Ebionites. It was written, Zahn thinks, about 170 AD.",
+          "target": "Origène mentionne un Évangile des Douze (Hom. I, in Luc), et quelques fragments en sont conservés par Épiphane (Haerea, 39, 13-16, 22). Il commençait au baptême et était utilisé par les Ébionites. Zahn estime qu'il fut rédigé vers 170 apr. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "6. Gospel of Barnabas and Bartholomew:",
+          "target": "6. Les évangiles de Barnabas et de Barthélemy :",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "A Gospel of Barnabas and Gospel of Bartholomew are condemned in the decree of Pope Gelasius. The latter is mentioned by Jerome (Prooem ad Matt).",
+          "target": "Un Évangile de Barnabas et un Évangile de Barthélemy sont condamnés dans le décret du pape Gélase. Jérôme mentionne le second (Prooem ad Matt).",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "text",
+          "source": "III. Supplementary or Legendary Gospels.",
+          "target": "III. Évangiles complémentaires ou légendaires.",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "In all of the gospels of this class it is noteworthy that considering the desire of the writers of non-canonical gospels to multiply miracles, no notice is taken of the period in the life of Christ that intervened between his twelfth year and his thirtieth. The main reason for the omission probably is that no special dogmatic end was to be served by the narrative of this period of the Saviour's life. Where access cannot be had to these documents in their original languages, it may be useful to point out that a good and full translation of them may be found in Vol XVI of Clark's Ante-Nicene Library, Edinburgh, 1870.",
+          "target": "Dans tous les évangiles de cette catégorie, il est remarquable que, malgré la volonté des auteurs non canoniques de multiplier les miracles, aucun ne s'intéresse à la période de la vie du Christ entre sa douzième et sa trentième année. La raison principale de cette omission est probablement qu'un récit portant sur ces années de la vie du Sauveur n'aurait servi aucun objectif dogmatique particulier. Pour ceux qui n'ont pas accès aux textes dans leurs langues originales, signalons qu'une traduction complète et de qualité en figure dans le volume XVI de l'Ante-Nicene Library de Clark, Édimbourg, 1870.",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "1. Gospels of the Nativity:",
+          "target": "1. Les évangiles de la Nativité :",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "text",
+          "source": "(a) The Protevangelium of James.",
+          "target": "(a) Le Protévangile de Jacques.",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "text",
+          "source": "The earliest of these documents is the Protevangelium of James. James is supposed to be the Lord's brother. The title \"Protevangelium\" or First Gospel--a catching title which assumes much and suggests more--was given to this document by Postellus, a Frenchman, who first published it in Latin in the year 1552. In the Greek and Syriac manuscripts, it is known by various other titles, such as, The History of James concerning the Birth of the All-Holy and Ever-Virgin Mother of God and of Her Son Jesus Christ. Tischendorf in the notes to chapter i of his Evang. Apocrypha gives a long list of the names descriptive of it in the various manuscripts. In the Gelasian Decree depriving it of canonical authority it is simply styled Evangelium nomine Jacobi minoris apocryphum. In this document the birth of Mary is foretold by angelic announcement to her parents, Joachim and Anna, as was that of Jesus to Mary. It contains in twenty-five chapters the period from this announcement to the Massacre of the Innocents, including accounts of the early training of Mary in the temple, the Lukan narrative of the birth of Christ with some legendary additions, and the death of Zacharias by order of Herod for refusing to give information regarding the place of concealment of Elisabeth and the child John who, in their flight during the massacre, are miraculously saved by the opening of a mountain.",
+          "target": "Le plus ancien de ces documents est le Protévangile de Jacques, supposé être le frère du Seigneur. Le titre « Protévangile », ou « Premier Évangile », titre séduisant qui présuppose beaucoup et suggère davantage encore, fut donné à ce document par Postel, un Français qui le publia pour la première fois en latin en 1552. Les manuscrits grecs et syriaques lui attribuent plusieurs autres titres, notamment Histoire de Jacques sur la naissance de la Toute-Sainte et Toujours-Vierge Mère de Dieu et de son Fils Jésus-Christ. Dans ses notes au chapitre I des Evang. Apocrypha, Tischendorf fournit une longue liste des titres descriptifs employés dans les différents manuscrits. Le décret de Gélase qui lui refuse l'autorité canonique l'appelle simplement Evangelium nomine Jacobi minoris apocryphum. Selon ce document, la naissance de Marie fut annoncée par un ange à ses parents, Joachim et Anne, comme celle de Jésus devait l'être à Marie. En vingt-cinq chapitres, le récit va de cette annonce au massacre des Innocents. Il décrit les premières années et l'éducation de Marie au temple, reprend le récit de la naissance du Christ chez Luc avec quelques ajouts légendaires et raconte la mort de Zacharie, ordonnée par Hérode parce qu'il avait refusé d'indiquer où se cachaient Élisabeth et l'enfant Jean. Fuyant le massacre, ils auraient été miraculeusement sauvés par une montagne qui s'ouvrit devant eux.",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "text",
+          "source": "At chapter 18 a change takes place in the narrative from the third to the first person, which has been taken (NT Apocrypha Writings by Professor Orr, D.D., London, 1903) to suggest an Essenian-Ebionitic origin for the document, and at least to argue for it a composite character, which again may account for the great variety of view taken of its date. It has been assigned (EB, I, 259) to the 1st century. Zahn and Kruger place it in the first decade, many scholars in the second half of the 2nd century; while others (e.g. Harnack) place it in its present form as late as the middle of the 4th century. Good scholars (Sanday, The Gospels in the Second Century) admit references to it in Justin Martyr which would imply that possibly in some older form it was known in the first half of the 2nd century. In its latest forms the document indicates the obvious aim of the writer to promote the sanctity and veneration of the Virgin. It has been shown to contain a number of unhistorical statements. It was condemned in the western church by Popes Damasus (382), Innocent I (405) and by the Decretum Gelasianum (496?). It would seem as if the age thus deprived of the Protevangelium demanded some document of the same character to take its place.",
+          "target": "Au chapitre 18, le récit passe de la troisième à la première personne. Certains y voient un indice de l'origine essénienne ou ébionite du document (NT Apocryphal Writings du professeur Orr, Londres, 1903), ou à tout le moins de sa nature composite, ce qui pourrait aussi expliquer la grande diversité des datations proposées. On l'a situé au Ier siècle (EB, I, p. 259). Zahn et Krüger le placent dans la première décennie, de nombreux spécialistes dans la seconde moitié du IIe siècle ; d'autres, comme Harnack, font remonter sa forme actuelle jusqu'au milieu du IVe siècle. Des chercheurs compétents, tel Sanday (The Gospels in the Second Century), reconnaissent chez Justin Martyr des allusions qui pourraient indiquer qu'une forme plus ancienne en était connue dans la première moitié du IIe siècle. Dans ses versions tardives, le document montre clairement la volonté de son auteur de promouvoir la sainteté et la vénération de la Vierge. On a démontré qu'il contient plusieurs affirmations contraires à l'histoire. Il fut condamné dans l'Église occidentale par les papes Damase (382) et Innocent Ier (405), puis par le Decretum Gelasianum (496 ?). On dirait que l'époque ainsi privée du Protévangile réclamait un document du même genre pour le remplacer.",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "(b) Pseudo-Matthew.",
+          "target": "(b) Le Pseudo-Matthieu.",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "A forged correspondence between Jerome and two Italian bishops supplied a substitute in the Gospel of the Pseudo-Matthew, which Jerome was falsely represented to have rendered in Latin from the original Hebrew of Mt. The gospel is known only in Latin and, as already indicated, is not earlier than the 5th century. The Protevangelium is freely used and supplemented from some unknown (probably Gnostic) source, and further miracles especially connected with the sojourn in Egypt have been wrought into it with others added from the Childhood Gospel of Thomas. Some of the miracles recorded of Egypt are represented as fulfillments of Old Testament prophecy, as when (chapter 18) the adoration of the infant Jesus by dragons recalls the fulfillment of what was said by David the prophet: \"Praise the Lord from the earth, ye dragons: ye dragons and all ye deeps\"; or as when (chapter 19) lions and panthers adored them, showing the company the way in the desert, \"bowing their heads and wagging their tails and adoring Him with great reverence,\" which was regarded as a fulfillment of the prophecy: \"Wolves shall feed with lambs and the lions and the ox shall eat straw together.\" In this gospel, too, appears for the first time the notice of the ox and the ass adoring the child Jesus in the manger, of which much was made in Christian article The gospel is further eked out by the relation of several of the miracles connected with the Gospel of the Childhood.",
+          "target": "Une correspondance falsifiée entre Jérôme et deux évêques italiens fournit un substitut sous la forme de l'Évangile du Pseudo-Matthieu, que l'on prétendait faussement traduit par Jérôme en latin à partir de l'original hébreu de Matthieu. Cet évangile n'est connu qu'en latin et, comme nous l'avons déjà indiqué, n'est pas antérieur au Ve siècle. Il emprunte librement au Protévangile, qu'il complète à l'aide d'une source inconnue, probablement gnostique. Il y incorpore d'autres miracles, particulièrement ceux liés au séjour en Égypte, ainsi que des épisodes empruntés à l'Évangile de l'enfance selon Thomas. Certains miracles d'Égypte y sont présentés comme des accomplissements des prophéties de l'Ancien Testament. Ainsi, au chapitre 18, l'adoration de l'enfant Jésus par les dragons rappelle l'accomplissement de la parole de David : « Louez le Seigneur depuis la terre, vous les dragons, dragons et tous les abîmes. » Au chapitre 19, lions et panthères se prosternent devant eux, leur indiquent la route à travers le désert, « baissant la tête, remuant la queue et l'adorant avec une grande révérence ». L'auteur y reconnaît l'accomplissement de cette prophétie : « Les loups paîtront avec les agneaux, et les lions et les bœufs mangeront ensemble de la paille. » C'est aussi dans cet évangile qu'apparaît pour la première fois la mention du bœuf et de l'âne adorant l'enfant Jésus dans la crèche, épisode qui joua un grand rôle dans l'art chrétien. Le récit est encore enrichi de plusieurs miracles tirés de l'Évangile de l'enfance.",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "(c) The Nativity of Mary.",
+          "target": "(c) La Nativité de Marie.",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "text",
+          "source": "The Gospel of the Nativity of Mary was written in Latin. It goes over much the same ground as the earlier portion of the Pseudo-Matthew, but so differs from it as to indicate a later date and a different author. It includes more of the miraculous element and daily angelic visits to Mary during her residence in the temple. This gospel makes Mary leave the temple in her 14th year; according to the gospel next described, where the narrator is represented as the Son of Mary Himself, she left the temple in her 12th year, having lived in it nine years. It was for long held to be the work of Jerome, and from this gospel was almost entirely formed the \"Golden Legend\" which largely took the place of the Scriptures in the 13th century. throughout Europe before the invention of printing. It was among the books early printed in some countries where (as in England) it might not be safe to print the Scriptures. Its services to medieval literature and art should not blind us to the fact that it was a forgery deliberately introduced into the service of the church about the 6th century, when the worship of Mary was specially promoted in the church.",
+          "target": "L'Évangile de la Nativité de Marie fut rédigé en latin. Il couvre à peu près le même domaine que la première partie du Pseudo-Matthieu, mais s'en distingue assez pour indiquer une date plus tardive et un auteur différent. Il contient davantage d'éléments miraculeux, avec notamment des visites quotidiennes d'anges à Marie pendant son séjour au temple. D'après cet évangile, Marie quitta le temple à quatorze ans ; selon l'évangile étudié ensuite, où le narrateur est présenté comme le Fils de Marie lui-même, elle le quitta à douze ans, après y avoir vécu neuf ans. Longtemps, on attribua ce récit à Jérôme. C'est principalement sur lui que fut fondée la « Légende dorée », qui, au XIIIe siècle, prit largement la place des Écritures dans toute l'Europe, avant l'invention de l'imprimerie. Il figura parmi les premiers livres imprimés dans certains pays où, comme en Angleterre, l'impression des Écritures pouvait être dangereuse. Les services rendus par cet ouvrage à la littérature et à l'art médiévaux ne doivent pas masquer le fait qu'il s'agissait d'une falsification délibérément introduite au service de l'Église vers le VIe siècle, à une époque où l'on encourageait particulièrement le culte de Marie.",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "text",
+          "source": "(d) Gospel of Joseph the Carpenter.",
+          "target": "(d) L'Évangile de Joseph le Charpentier.",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "text",
+          "source": "To the same class of compositions belongs the Gospel of Joseph the Carpenter. Originally written in Coptic, it was translated into Arabic, in which language with a Latin version it was published in 1722. The composition is devoted to the glorification of Joseph, a cult which was specially favored by the monophysite Coptics. It dates from the 4th century. It contains in 22 chapters the whole history of Joseph and relates in the last part the circumstances of his death at the age of 111 years. These are of some importance for the history of dogma.",
+          "target": "L'Évangile de Joseph le Charpentier appartient au même groupe de compositions. Écrit à l'origine en copte, il fut traduit en arabe ; il fut publié en 1722 dans cette langue, accompagné d'une version latine. L'ouvrage est consacré à la glorification de Joseph, dont le culte était particulièrement favorisé par les Coptes monophysites. Il date du IVe siècle. Ses vingt-deux chapitres retracent toute l'histoire de Joseph et racontent, dans la dernière partie, les circonstances de sa mort à l'âge de cent onze ans. Ces éléments présentent un certain intérêt pour l'histoire des dogmes.",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "text",
+          "source": "(e) The Passing of Mary.",
+          "target": "(e) Le trépas de Marie.",
+          "action": "translate"
+        },
+        {
+          "node": 89,
+          "part": "text",
+          "source": "Transitus Mariae: although not strictly a gospel of the Nativity notice may here be taken of the account of John the Theologian of the Falling Asleep (koimesis) of the Holy Mother of God or as it is more commonly called \"the Passing of Mary\" (transitus Mariae). It was originally written in Greek, but appears also in Latin and several other languages. Two years, it seems, after the ascension of Jesus, Mary, who paid frequent visits to the, \"Holy tomb of our Lord to burn incense and pray\" was persecuted by the Jews and prayed her Son that He would take her from the earth. The archangel Gabriel brings an answer to her prayers and announces that after three days she shall go to the heavenly places to her Son, into true and everlasting life. Apostles from their graves or from their dioceses are summoned to her bedside at Bethlehem and relate how they were occupied when the summons reached them. Miracles of healing are wrought round the dying bed; and after the instantaneous transportation of Mary and the attendant apostles to Jerusalem, on the Lord's Day, amidst visions of angels Christ Himself appears and receives her soul to Himself. Her body is buried in Gethsemane and thereafter translated to Paradise. Judged by its contents which reveal an advanced stage of the worship of the Virgin and also of church ritual, the document cannot have been produced earlier than the end of the 4th or the beginning of the 5th century, and it has a place among the apocryphal documents condemned by the Gelasian Decree. By this time indeed it appears as if the writers of such documents assumed the most unrestricted license in imagining and embellishing the facts and situations regarding the gospel narrative.",
+          "target": "Transitus Mariae : bien qu'il ne s'agisse pas à proprement parler d'un évangile de la Nativité, il convient de mentionner ici le récit de Jean le Théologien concernant l'endormissement (koimesis) de la sainte Mère de Dieu, plus couramment appelé « le trépas de Marie » (transitus Mariae). Rédigé d'abord en grec, il existe également en latin et en plusieurs autres langues. Environ deux ans après l'ascension de Jésus, Marie, qui se rendait fréquemment au « saint tombeau de notre Seigneur pour brûler de l'encens et prier », aurait été persécutée par les Juifs. Elle pria son Fils de la retirer de la terre. L'archange Gabriel lui apporta la réponse à ses prières, annonçant que trois jours plus tard elle rejoindrait son Fils dans les lieux célestes, pour y entrer dans la vie véritable et éternelle. Les apôtres, qu'ils se trouvent dans leurs tombeaux ou dans leurs diocèses, sont convoqués auprès de son lit à Bethléem et racontent ce qu'ils faisaient quand l'appel leur parvint. Des guérisons miraculeuses se produisent près de la mourante. Marie et les apôtres qui l'accompagnent sont transportés instantanément à Jérusalem, où, le jour du Seigneur, au milieu de visions angéliques, le Christ apparaît lui-même et reçoit l'âme de Marie. Son corps est enseveli à Gethsémané puis transféré au paradis. À en juger par son contenu, révélant un stade avancé du culte de la Vierge et des rites ecclésiastiques, ce document ne peut être antérieur à la fin du IVe ou au début du Ve siècle. Il figure parmi les écrits apocryphes condamnés par le décret de Gélase. À cette époque, les auteurs de ces documents semblent déjà s'arroger une liberté illimitée pour imaginer et embellir les faits et les situations des récits évangéliques.",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "text",
+          "source": "2. The Gospels of the Infancy or Childhood:",
+          "target": "2. Les évangiles de l'enfance :",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "text",
+          "source": "(a) Gospel of Thomas.",
+          "target": "(a) L'Évangile de Thomas.",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "text",
+          "source": "Next to the Protevangelium the oldest and the most widely spread of the apocryphal gospels is the Gospel of Thomas. It is mentioned by Origen and Irenaeus and seems to have been used by a Gnostic sect of the Nachashenes in the middle of the 2nd century. It was docetic as regards the miracles recorded in it and on this account was also acceptable to the Manichees. The author was one of the Marcosians referred to by Irenaeus. Great variations exist in the text, of which there are only late catholic recasts, two in Greek, one in Latin and one in Syriac. One of the Greek versions is considerably longer than the other, while the Latin is somewhat larger than either. They are very largely concerned with a record of miracles wrought by Jesus before He was 12 years of age. They depict Jesus as an extraordinary but by no means a lovable child. Unlike the miracles of the canonical Gospels those recorded in this gospel are mainly of a destructive nature and are whimsical and puerile in character. It rather shocks one to read them as recorded of the Lord Jesus Christ.",
+          "target": "Après le Protévangile, le plus ancien et le plus répandu des évangiles apocryphes est l'Évangile de Thomas. Origène et Irénée le mentionnent, et il semble avoir été employé par une secte gnostique, les Nachashènes, vers le milieu du IIe siècle. Ses récits de miracles étaient docètes, ce qui le rendait également acceptable aux manichéens. Son auteur appartenait aux marcosiens évoqués par Irénée. Le texte présente de grandes variantes : nous ne possédons que des révisions catholiques tardives, deux en grec, une en latin et une en syriaque. L'une des versions grecques est beaucoup plus longue que l'autre, et le texte latin dépasse légèrement les deux. Elles sont principalement consacrées aux miracles que Jésus aurait accomplis avant l'âge de douze ans. Elles le présentent comme un enfant extraordinaire, mais nullement aimable. Contrairement aux miracles des évangiles canoniques, ceux de ce récit sont essentiellement destructeurs, capricieux et puérils. Il est plutôt choquant de les lire comme s'ils concernaient le Seigneur Jésus-Christ.",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "text",
+          "source": "The wonder-worker is described by Renan as \"un gamin omnipotent et omniscient,\" wielding the power of the Godhead with a child's waywardness and petulance. Instead of being subject to His parents He is a serious trouble to them; and instead of growing in wisdom He is represented as forward and eager to teach. His instructors, and to be omniscient from the beginning. The parents of one of the children whose death He had caused entreat Joseph, \"Take away that Jesus of thine from this place for he cannot dwell with us in this town; or at least teach him to bless and not to curse.\" Three or four miracles of a beneficent nature are mentioned; and in the Latin gospel when Jesus was in Egypt and in his third year, it is written (chapter 1), \"And seeing boys playing he began to play with them, and he took a dried fish and put it into a basin and ordered it to move about. And it began to move about. And he said again to the fish: `Throw out the salt which thou hast, and walk into the water.' And it so came to pass, and the neighbors seeing what had been done, told it to the widowed woman in whose house Mary his mother lived. And as soon as she heard it she thrust them out of her house with great haste.\"",
+          "target": "Renan décrit ce thaumaturge comme « un gamin omnipotent et omniscient », exerçant la puissance de la divinité avec les caprices et les emportements d'un enfant. Au lieu d'être soumis à ses parents, il leur cause de graves difficultés ; au lieu de grandir en sagesse, il est présenté comme prématurément hardi, impatient d'enseigner ses maîtres, et omniscient dès l'origine. Les parents d'un enfant dont il aurait causé la mort supplient Joseph : « Emmène ton Jésus d'ici, car il ne peut habiter avec nous dans cette ville ; ou, à tout le moins, apprends-lui à bénir plutôt qu'à maudire. » Trois ou quatre miracles bienfaisants sont également mentionnés. Ainsi, dans l'évangile latin, lorsque Jésus se trouve en Égypte dans sa troisième année, on lit (chapitre 1) : « Voyant des garçons jouer, il se mit à jouer avec eux, prit un poisson desséché, le posa dans un bassin et lui ordonna de bouger. Et il commença à se mouvoir. Il dit encore au poisson : Rejette le sel que tu portes et va dans l'eau. Et cela se produisit. Les voisins, voyant ce qui s'était passé, le racontèrent à la veuve dans la maison de laquelle Marie, sa mère, habitait. Dès qu'elle l'entendit, elle les chassa de chez elle à toute hâte. »",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "text",
+          "source": "As Westcott points out in his Introduction to the Study of the Gospels, 444, \"In the apocryphal miracles we find no worthy conception of the laws of providential interference; they are wrought to supply present wants or to gratify present feelings, and often are positively immoral; they are arbitrary displays of power, and without any spontaneity on our Lord's part or on that of the recipient.\" Possibly the compilers of the 1st-century narratives above mentioned had in many cases deemed it expedient to make the miraculous an essential--even a too prominent--part of their story; and this may be the reason why John in the opening of the Fourth Gospel declared all the reported miracles of the Childhood to be unauthorized by the statement that the first miracle was that performed, after the beginning of the public ministry, at the marriage at Cana of Galilee. \"This beginning of his signs did Jesus in Cana of Galilee, and manifested his glory; and his disciples believed on him\" (",
+          "target": "Comme le remarque Westcott dans son Introduction to the Study of the Gospels (p. 444), « dans les miracles apocryphes, nous ne trouvons aucune conception digne de ce nom des lois régissant l'intervention providentielle ; ils sont accomplis pour répondre à des besoins immédiats ou satisfaire des sentiments du moment, et sont souvent franchement immoraux. Ce sont des démonstrations arbitraires de puissance, sans aucun élan spontané de notre Seigneur ni de leurs bénéficiaires. » Peut-être les compilateurs des récits du Ier siècle mentionnés plus haut avaient-ils, dans de nombreux cas, jugé utile de faire du miracle une composante essentielle, voire excessivement importante, de leurs histoires. Cela expliquerait peut-être pourquoi, au début du quatrième évangile, Jean déclare dépourvus d'autorité tous les miracles supposés de l'enfance en affirmant que le premier miracle eut lieu après le début du ministère public, aux noces de Cana en Galilée : « Tel fut, à Cana de Galilée, le commencement des signes de Jésus. Il manifesta sa gloire et ses disciples crurent en lui » (",
+          "action": "translate"
+        },
+        {
+          "node": 96,
+          "part": "text",
+          "source": "(b) Arabic Gospel of the Childhood.",
+          "target": "(b) L'Évangile arabe de l'enfance.",
+          "action": "translate"
+        },
+        {
+          "node": 97,
+          "part": "text",
+          "source": "The Arabic Gospel of the Childhood is a composite production. Though first published in Arabic with a Latin translation in 1697, its Syriac origin may be inferred from the use of the era of Alexander the Great in chapter 2, from the acquaintance of the writer with oriental learning, and from that of the child Jesus, when in Egypt, with astronomy and physics. The popularity of the book among the Arabs and Coptics in Egypt may also be explained by the fact that the most important of its miracles take place during the Sojourn in Egypt. It is noteworthy also that according to this gospel (chapter 7) it was on the ground of a prophecy of Zoroaster regarding the birth of the Messiah that the Magi undertook their journey to Bethlehem. Some of its stories also appear in the Koran and in other Mohammedan writings. Chapters 1-9 are based on the canonical Gospels of Matthew and Luke and on the Protevangelium of James, while chapters 26 to the end are derived from the Gospel of Thomas. The intermediate portion of the work is thoroughly oriental in character and reads like extracts from the Arabian Nights. It is not easy to treat seriously the proposal to set productions like these on anything approaching equality with the canonical Gospels. The gospel also has much to do with the growth of the veneration of the Virgin.",
+          "target": "L'Évangile arabe de l'enfance est une composition composite. Publié pour la première fois en arabe avec une traduction latine en 1697, il paraît pourtant d'origine syriaque. On peut l'inférer de l'emploi de l'ère d'Alexandre le Grand au chapitre 2, de la connaissance des sciences orientales manifestée par son auteur et de celle de l'astronomie et de la physique attribuée à l'enfant Jésus lors de son séjour en Égypte. La popularité de ce livre chez les Arabes et les Coptes d'Égypte s'explique peut-être aussi par le fait que ses miracles les plus importants se déroulent pendant ce séjour. Il est également remarquable que, selon ce récit (chapitre 7), les mages entreprirent leur voyage à Bethléem à cause d'une prophétie de Zoroastre sur la naissance du Messie. Certaines de ces histoires figurent aussi dans le Coran et dans d'autres écrits musulmans. Les chapitres 1 à 9 reposent sur les évangiles canoniques de Matthieu et de Luc ainsi que sur le Protévangile de Jacques ; les chapitres 26 jusqu'à la fin sont empruntés à l'Évangile de Thomas. La partie intermédiaire est profondément orientale par son caractère et se lit comme un extrait des Mille et Une Nuits. Il est difficile de prendre au sérieux la proposition qui voudrait placer de telles productions presque au même rang que les évangiles canoniques. Cet évangile contribua également beaucoup au développement de la vénération de la Vierge.",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "text",
+          "source": "3. Gospels of the Passion and Resurrection:",
+          "target": "3. Les évangiles de la Passion et de la Résurrection :",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "(a) Gospel of Peter (as above).",
+          "target": "(a) L'Évangile de Pierre (voir ci-dessus).",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "text",
+          "source": "(b) Gospel of Nicodemus.",
+          "target": "(b) L'Évangile de Nicodème.",
+          "action": "translate"
+        },
+        {
+          "node": 101,
+          "part": "text",
+          "source": "The principal documents in this connection are the Gospel of Nicodemus and to some extent, as above shown, the Gospel of Peter. The Gospel of Nicodemus is a name given not earlier than the 13th century to a duplicate composition the two parts of which were",
+          "target": "Les principaux documents de ce groupe sont l'Évangile de Nicodème et, dans une certaine mesure comme nous l'avons montré, celui de Pierre. Le titre d'Évangile de Nicodème ne fut donné qu'à partir du XIIIe siècle à une composition en deux parties, à savoir",
+          "action": "translate"
+        },
+        {
+          "node": 102,
+          "part": "text",
+          "source": "(1) the Acta Pilati or Ac of Pilate and",
+          "target": "(1) les Acta Pilati, ou Actes de Pilate, et",
+          "action": "translate"
+        },
+        {
+          "node": 103,
+          "part": "text",
+          "source": "(2) the Descent of Christ to the Lower World. The document professes to be a translation into Greek from the Hebrew, and to have been made in the 17th year of the emperor Theodosius and the 6th of Valentinian. It exists in six forms, two Greek and one Latin of the Ac of Pilate, and two Latin and one Greek of the Descent to the Lower World. The general consensus of scholars places the composition in the 5th century, though Tischendorf, relying upon references in Justin and Tertullian, places it in the 2nd century, a date by which it is quite possible for the legend to have arisen. Possibly there has been some confusion between the report on the proceedings connected with the trial and crucifixion of Jesus that had to be furnished to the emperor, as required by the rules of the Roman civil service, and the extended record of the proceedings contained in the Gospel of Nicodemus. The writer was obviously a Jewish Christian. He wrote for this class and was anxious to establish his record by evidence from the mouths of the enemies of Jesus and especially of the officials connected with the events before and after the death of Jesus.",
+          "target": "(2) la Descente du Christ aux enfers. Ce document prétend avoir été traduit de l'hébreu en grec la dix-septième année du règne de l'empereur Théodose et la sixième de celui de Valentinien. Il existe sous six formes : deux grecques et une latine des Actes de Pilate, et deux latines et une grecque de la Descente aux enfers. La majorité des savants situe sa composition au Ve siècle, bien que Tischendorf, se fondant sur des références chez Justin et Tertullien, la place au IIe siècle, époque où la légende pouvait tout à fait être née. Il est possible qu'une confusion se soit produite entre le rapport sur la procédure du procès et de la crucifixion de Jésus qui devait être fourni à l'empereur selon les règles de l'administration romaine, et le long récit des événements contenu dans l'Évangile de Nicodème. L'auteur était manifestement un chrétien d'origine juive. Il écrivait pour ce milieu et s'efforçait d'établir son récit sur des témoignages provenant de la bouche même des ennemis de Jésus et surtout des fonctionnaires concernés par les événements avant et après sa mort.",
+          "action": "translate"
+        },
+        {
+          "node": 104,
+          "part": "text",
+          "source": "(1) Ac of Pilate",
+          "target": "(1) Les Actes de Pilate",
+          "action": "translate"
+        },
+        {
+          "node": 105,
+          "part": "text",
+          "source": "Pilate in particular is shown to be favorable to Jesus and--a gap that must have struck many readers of the canonical narratives--several of those on whom miracles of healing had been wrought come forward to give evidence in favor of Jesus--a most natural step for a late narrator to suppose as having taken place in a regular and formal trial, but one which, as may be gathered from the silence of the canonical writers, was omitted in the turbulent proceedings of the priestly conspiracy that ended with the crucifixion. With all the writer's acquaintance with Jewish institutions \"he shows himself in many points ignorant of the topography of Palestine; thinks, e.g. that Jesus was crucified in the garden in which he was seized (chapter 9) and places Mr. Mamilch or Malek (S. of Jerusalem) in Galilee, and confounds it with the Mount of Ascension\" (Orr, op. cit., xix).",
+          "target": "Pilate y est particulièrement présenté comme favorable à Jésus. Pour combler une lacune que de nombreux lecteurs des récits canoniques ont dû remarquer, plusieurs personnes guéries miraculeusement viennent témoigner en faveur de Jésus. C'est une démarche qu'un narrateur tardif pouvait très naturellement imaginer dans un procès régulier et officiel, mais qui, comme le laisse penser le silence des évangélistes canoniques, n'eut pas lieu au milieu des procédures tumultueuses de la conspiration sacerdotale menant à la crucifixion. Malgré sa connaissance des institutions juives, l'auteur « montre sur plusieurs points son ignorance de la topographie de la Palestine : il pense, par exemple, que Jésus fut crucifié dans le jardin où il avait été arrêté (chapitre 9), situe le mont Mamilch, ou Malek (au sud de Jérusalem), en Galilée, et le confond avec la montagne de l'Ascension » (Orr, op. cit., p. XIX).",
+          "action": "translate"
+        },
+        {
+          "node": 106,
+          "part": "text",
+          "source": "(2) Descent of Jesus into the Lower World",
+          "target": "(2) La descente de Jésus aux enfers",
+          "action": "translate"
+        },
+        {
+          "node": 107,
+          "part": "text",
+          "source": "The second part of the gospel--The Descent of Christ to the Lower World--is an account of an early and widely accepted tradition not mentioned in any canonical Gospel but based upon ",
+          "target": "La seconde partie du récit, La Descente du Christ aux enfers, rapporte une tradition ancienne et largement reçue, absente des évangiles canoniques, mais fondée sur ",
+          "action": "translate"
+        },
+        {
+          "node": 108,
+          "part": "tail",
+          "source": ": \"He went and preached unto the spirits in prison.\" Two saints who were raised at His resurrection relate how they had been confined in Hades when the Conqueror appeared at its entrance, how the gates of brass were broken and the prisoners released, Jesus taking with Him to Paradise the souls of Adam, Isaiah, John the Baptist and other holy men who had died before Him. The document is purely imaginary: its only importance is in showing how this article of the creed was regarded in the 4th century.",
+          "target": " : « Il alla prêcher aux esprits en prison. » Deux saints ressuscités lors de la résurrection du Christ racontent qu'ils étaient retenus dans l'Hadès lorsque le Vainqueur apparut à son entrée ; les portes de bronze furent brisées et les prisonniers libérés, Jésus emmenant avec lui au paradis les âmes d'Adam, d'Ésaïe, de Jean-Baptiste et d'autres saints morts avant lui. Le document est entièrement imaginaire. Son seul intérêt est de montrer comment cet article du credo était compris au IVe siècle.",
+          "action": "translate"
+        },
+        {
+          "node": 109,
+          "part": "text",
+          "source": "(c) Other Fabrications.",
+          "target": "(c) Autres fabrications.",
+          "action": "translate"
+        },
+        {
+          "node": 110,
+          "part": "text",
+          "source": "Of even less importance are some late fabrications referring to Pilate sometimes in the manuscripts attached to the Gospel of Nicodemus, such as Pilate's Letter to the emperor Tiberius; Pilate's Official Report, above referred to; the Paradoses of Pilate and the Death of Pilate, who, after condemnation to the most disgraceful death, is represented as dying by his own hand. In the Narrative of Joseph of Arimathea the writer gives a loose rein to his imagination.",
+          "target": "D'autres fabrications tardives sont d'une importance encore moindre. Certaines, qui concernent Pilate, sont parfois annexées dans les manuscrits à l'Évangile de Nicodème : la Lettre de Pilate à l'empereur Tibère, le Rapport officiel de Pilate mentionné plus haut, les Paradoses de Pilate et la Mort de Pilate, selon laquelle, après avoir été condamné à une mort particulièrement infamante, il se donna lui-même la mort. Dans le Récit de Joseph d'Arimathée, l'auteur laisse libre cours à son imagination.",
+          "action": "translate"
+        },
+        {
+          "node": 111,
+          "part": "text",
+          "source": "The study of the documents above described fully justifies the observation of the editors of the Ante-Nicene Library that while they afford us \"curious glimpses of the state of the Christian conscience, and of modes of thought in the first centuries of our era, the predominant impression which they leave on our minds is a profound sense of the immeasurable superiority, the unapproachable simplicity and majesty, of the Canonical Writings.\"",
+          "target": "L'étude des documents décrits ci-dessus justifie pleinement cette observation des éditeurs de l'Ante-Nicene Library : s'ils nous offrent « des aperçus curieux sur l'état de la conscience chrétienne et sur les modes de pensée des premiers siècles de notre ère, l'impression dominante qu'ils laissent dans notre esprit est celle de l'immense supériorité, de l'incomparable simplicité et de la majesté inaccessible des Écritures canoniques ».",
+          "action": "translate"
+        },
+        {
+          "node": 113,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 114,
+          "part": "text",
+          "source": "In addition to the books quoted above may be mentioned the following: Fabricius, Codex Apocryphus, 1719; the collections and prolegomena of Thilo (1832); Tischendorf, Gospels, 1853, Ellicott, \"On the Apocryphal Gospels\" in Cambridge Essays, 1856; Lipsius, article \"Gospels (Apocrypha)\" in Dict. of Christ. Biog.; Dr. W. Wright in Journal of Sacred Lit. (January and April, 1865) on the Syriac versions of the Protevangelium, The Gospel of Thomas, and the Transitus Mariae: Studia Sinaitica (No. XI, 1902) giving new Syriac texts of the Protevangelium and Transitus Mariae. A. F. Findlay, article \"Ac (Apocrypha),\" where will be found a very copious body of references to works, British and foreign, dealing with all branches of the subject.",
+          "target": "Outre les ouvrages déjà cités, on peut mentionner : Fabricius, Codex Apocryphus, 1719 ; les recueils et prolégomènes de Thilo (1832) ; Tischendorf, Gospels, 1853 ; Ellicott, « On the Apocryphal Gospels », dans Cambridge Essays, 1856 ; Lipsius, article « Gospels (Apocrypha) » dans Dict. of Christ. Biog. ; Dr W. Wright, dans Journal of Sacred Lit. (janvier et avril 1865), sur les versions syriaques du Protévangile, de l'Évangile de Thomas et du Transitus Mariae ; Studia Sinaitica (no XI, 1902), qui présente de nouveaux textes syriaques du Protévangile et du Transitus Mariae ; A. F. Findlay, article « Ac (Apocrypha) », contenant une bibliographie particulièrement abondante des travaux britanniques et étrangers consacrés aux divers aspects du sujet.",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "text",
+          "source": "J. Hutchison",
+          "target": "J. Hutchison",
+          "action": "preserve",
+          "reason": "Original historical author attribution retained without alteration"
+        }
+      ]
+    }
+  ]
+}
