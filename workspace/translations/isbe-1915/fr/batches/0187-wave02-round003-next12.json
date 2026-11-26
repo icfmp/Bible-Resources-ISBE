@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BIBLICAL DISCREPANCIES",
+      "article_id": "isbe-6d410dc26d9dd5d6eaf1",
+      "source_article_sha256": "028d977260f054dd9928854e20c6deb466246ff5a4d7f6341c826219e23aac9e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIBLICAL DISCREPANCIES",
+          "target": "DIVERGENCES BIBLIQUES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bib'-li-kal diskrep'-an-siz.",
+          "target": "bib'-li-kal diskrep'-an-siz.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "DISCREPANCIES, BIBLICAL",
+          "target": "DIVERGENCES BIBLIQUES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIDKAR",
+      "article_id": "isbe-ec90eb5c2bf9104eb448",
+      "source_article_sha256": "ab79086068c2158957aa2f77ab93bfdd9a2fe9f7b20ebe66824a2215154df860",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIDKAR",
+          "target": "BIDKAR",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name or lexeme title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bid'-kar (bidhqar; \"son of Deker\" (?); compare HPN, 69): A captain in the service of Jehu, formerly his fellow-officer (",
+          "target": "bid'-kar (bidhqar ; « fils de Déker » (?) ; comparer HPN, 69) : capitaine au service de Jéhu, dont il avait auparavant été le compagnon d'armes (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIKATH-AVEN",
+      "article_id": "isbe-5353b466b71c4cdd5796",
+      "source_article_sha256": "4d4cec3afb4ea67041de63f85935fb050cbc8243a3dac51068f0eb26f979fa8b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIKATH-AVEN",
+          "target": "BIKATH-AVEN",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name or lexeme title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bik-ath-a'-ven (biq`ath 'awen, \"valley of vanity\" (",
+          "target": "bik-ath-a'-ven (biq`ath 'awen, « vallée de la vanité » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " King James Version, margin)).",
+          "target": ", note marginale de la King James Version)).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "AVEN; BETH-EDEN",
+          "target": "AVEN ; BETH-ÉDEN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BILL OF DIVORCEMENT",
+      "article_id": "isbe-29fcfd33650aad2a1700",
+      "source_article_sha256": "ca8b4a535921007a923876b4b0955522a46850def899bd8c31bb5f282f7a171b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BILL OF DIVORCEMENT",
+          "target": "ACTE DE DIVORCE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "di-vors'-ment.",
+          "target": "di-vors'-ment.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "DIVORCE IN THE OLD TESTAMENT",
+          "target": "DIVORCE DANS L'ANCIEN TESTAMENT",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BILLOW",
+      "article_id": "isbe-74f3032f49dbaa8203fc",
+      "source_article_sha256": "91b035ef94b442126b16f957562fdc06dfe687db840a51aa5b83bcf7ff18d325",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BILLOW",
+          "target": "VAGUE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bil'-o (gal, \"a great rolling wave\"): Figuratively, of trouble, \"All thy waves and thy billows are gone over me\" (",
+          "target": "bil'-o (gal, « grande vague déferlante ») : au sens figuré, à propos de l'épreuve : « Toutes tes vagues et tous tes flots ont passé sur moi » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Jon 2:3",
+          "target": "Jon 2:3",
+          "action": "preserve",
+          "reason": "Original displayed Bible reference or proper-name link text retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BIMHAL",
+      "article_id": "isbe-832dac9e5cdb6a558725",
+      "source_article_sha256": "bd3db99a6c395e526e2fa080aae8289d41495b4e625e9de76badeb5d276d6101",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIMHAL",
+          "target": "BIMHAL",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name or lexeme title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bim'-hal (bimhal): A descendant of Asher (",
+          "target": "bim'-hal (bimhal) : descendant d'Aser (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BINEA",
+      "article_id": "isbe-3b8fb01abebc01207f06",
+      "source_article_sha256": "67d94be8711a92f4ccd830bd25d0e18465756202335668abc8a320145dfb782f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BINEA",
+          "target": "BINÉA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bin'-e-a (bin`ah): A name in the genealogy of Benjamin (",
+          "target": "bin'-e-a (bin`ah) : nom figurant dans la généalogie de Benjamin (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLOODSHEDDING",
+      "article_id": "isbe-ac335fcaddaa2a36257c",
+      "source_article_sha256": "cad77cffcb253a31e5a5c55efd85192579c04625ac1842018d117accc8a01160",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLOODSHEDDING",
+          "target": "EFFUSION DE SANG",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "blud'-shed-ing (haimatekchusia, ",
+          "target": "blud'-shed-ing (haimatekchusia, ",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): In this passage the indispensability of expiating sacrifice is positively set forth.",
+          "target": ") : ce passage affirme explicitement le caractère indispensable du sacrifice expiatoire.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOCCAS",
+      "article_id": "isbe-85972eb664406a9756c9",
+      "source_article_sha256": "269efb7dc6fd245d89199fb75ecea8765f1f4ecd835362d803611f24dc6172dd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOCCAS",
+          "target": "BOCCAS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name or lexeme title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bok'-as (Bokkas): A priest in the line of Ezra (1 Esdras 8:2) called Bukki in ",
+          "target": "bok'-as (Bokkas) : prêtre de la lignée d'Esdras (1 Esdras 8.2), appelé Bukki en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " and Borith in 2 Esdras 1:2.",
+          "target": " et Borith en 2 Esdras 1.2.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BODY-GUARD",
+      "article_id": "isbe-ee642ff1fcc2adc8a45e",
+      "source_article_sha256": "c2be220f2aa1901af24fc6ada93f74d5c47b7b558f2027f325db91e5b0281a53",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BODY-GUARD",
+          "target": "GARDE DU CORPS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bod'-i-gard: The expression occurs in Apocrypha (1 Esdras 3:4), \"the body-guard that kept the king's person.\"",
+          "target": "bod'-i-gard : l'expression apparaît dans les apocryphes (1 Esdras 3.4) : « la garde du corps chargée de protéger la personne du roi ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOOK OF JUBILEES",
+      "article_id": "isbe-87200739f1887daabda8",
+      "source_article_sha256": "40671d3f8d4bcc612b3a6c4c5dd82b5e5ea94aa4bc65a96589d284a054952c2f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOOK OF JUBILEES",
+          "target": "LIVRE DES JUBILÉS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCALYPTIC LITERATURE",
+          "target": "LITTÉRATURE APOCALYPTIQUE ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "APOCRYPHA",
+          "target": "APOCRYPHES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOOKS OF ADAM",
+      "article_id": "isbe-8981e2b38a1d81e3df04",
+      "source_article_sha256": "331e2b735508c7b229cd383538b4cd538a847f6d1f020489aa9e23926c12b53c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOOKS OF ADAM",
+          "target": "LIVRES D'ADAM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCALYPTIC LITERATURE",
+          "target": "LITTÉRATURE APOCALYPTIQUE ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ADAM, BOOKS OF",
+          "target": "ADAM, LIVRES D'",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
