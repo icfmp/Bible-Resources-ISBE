@@ -3,10 +3,10 @@
   "kind": "french_isbe_source_template_staging_request",
   "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "roster": "workspace/translations/isbe-1915/fr/worklists/wave-01/1001-2000.json",
-  "output": "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-001",
+  "output": "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-002",
   "limit": 100,
   "translation_language": "fr",
   "publication_permitted": false,
   "editorial_approvals": 0,
-  "notes": "Keep original English TEI canonical. No draft or publication approval. Reuse 100 shortest remaining entries in source-index range 1001–2000."
+  "notes": "Second queue: select the next 100 shortest original English articles among the 898 still undrafted in canonical source positions 1001–2000; first 100 and two pilot articles must be excluded by existing source-locked batch inventory."
 }

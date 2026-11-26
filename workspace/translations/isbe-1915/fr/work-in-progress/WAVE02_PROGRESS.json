@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "kind": "french_isbe_wave02_draft_checkpoint",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "branch": "work/fr-isbe-full-translation",
+  "wave02_issue": 110,
+  "first_wave_issue": 109,
+  "status": "100_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "publication_permitted": false,
+  "editorially_accepted": 0,
+  "translation_pr_permitted": false,
+  "source_1001_2000": {
+    "total": 1000,
+    "previous_pilot_drafts": 2,
+    "new_complete_drafts_on_branch": 100,
+    "complete_first_drafts": 102,
+    "remaining_undrafted": 898
+  },
+  "corpus": {
+    "total_original_entries": 9380,
+    "complete_first_drafts_across_main_and_current_branch": 1145
+  },
+  "source_queue": {
+    "round": "round-001",
+    "original_article_templates": 100,
+    "verified_unique_article_ids": 100,
+    "original_mutable_tei_units_covered": 360,
+    "round_path": "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-001",
+    "checks": "All original article IDs and article SHA-256 fingerprints of new first drafts matched the frozen source queue; complete independent editorial review and CI are separate."
+  },
+  "batch_files": [
+    "0163-wave02-first05-source-locked.json",
+    "0164-wave02-next05-source-locked.json",
+    "0165-wave02-next05-source-locked.json",
+    "0166-wave02-next12-source-locked.json",
+    "0167-wave02-next12-source-locked.json",
+    "0168-wave02-next12-source-locked.json",
+    "0169-wave02-next12-source-locked.json",
+    "0170-wave02-next12-source-locked.json",
+    "0171-wave02-next12-source-locked.json",
+    "0172-wave02-next13-source-locked.json"
+  ],
+  "last_translation_commit": "02774d98b010a7205289a7eee279a12f08a3a6ad",
+  "source_witness_and_display_flags": [
+    {
+      "key": "BALSAM",
+      "kind": "source_witness",
+      "detail": "English source entry holds only an author signature. French draft preserves it; no missing prose has been invented."
+    },
+    {
+      "key": "BERNICE",
+      "kind": "source_witness",
+      "detail": "English source entry holds only an author signature. French draft preserves it; no missing prose has been invented."
+    },
+    {
+      "key": "BORN",
+      "kind": "source_reference",
+      "detail": "English entry redirects to the same canonical BORN key, a possible source self-link; original internal target unchanged."
+    },
+    {
+      "key": "BAKING PAN",
+      "kind": "display",
+      "detail": "English source has consecutive internal links without a separator; French view inserts a separator inside translated label only, canonical link targets untouched."
+    },
+    {
+      "key": "BELT",
+      "kind": "display",
+      "detail": "Two adjacent English internal links without intervening punctuation; French renders a display separator inside translated label."
+    },
+    {
+      "key": "BOND",
+      "kind": "display",
+      "detail": "Three adjacent English internal links; French view adds separators within editable reference display labels; targets unchanged."
+    },
+    {
+      "key": "BULL, WILD",
+      "kind": "display",
+      "detail": "Two adjacent original reference links; localized display label gains a separator, source remains immutable."
+    },
+    {
+      "key": "CHEESE",
+      "kind": "display",
+      "detail": "Two adjacent original reference links; localized display label gains a separator, source remains immutable."
+    }
+  ],
+  "next_action": "Regenerate a separate source-locked round-002 queue using the existing source extraction workflow. No PR before all 9380 articles have French first translations."
+}
