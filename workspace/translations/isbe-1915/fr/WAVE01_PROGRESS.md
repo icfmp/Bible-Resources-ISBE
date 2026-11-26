@@ -900,3 +900,19 @@ Exactly **154 eligible TEI text/tail units** representing **40,406 original Engl
 - `ARMENIAN VERSIONS, OF THE BIBLE`: the author's dates for Sapor and the transfer of Armenia around 396 AD appear historically inconsistent; verify the printed original rather than silently repair chronology. Its original witness discussion of the Etchmiadzin manuscript, Mark 16:9–20 and the twenty-two-book canon remains source-faithful.
 
 Before merge, demand source-lock identity, every article's full mutable-unit coverage, original-language and TEI reference parity, no duplicated historical IDs, reconstruction of every available unreviewed French draft, tests, official TEI P5 RELAX NG and Schematron. Passing these checks is not independent semantic editorial acceptance.
+
+
+## Final 14 source-locked first drafts — ongoing, PR #160 (26 November 2026)
+
+The original wave-01 checklist (#109) covers 1,000 canonical English source entries. After merged #159 there are 986 complete **unreviewed** first drafts in `main`; the final 14 originals and their exact source IDs/SHA256 fingerprints are recorded in `work-in-progress/WAVE01_FINAL14_TRACKING.json`. `ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM` is **one** canonical article, not two. The remaining originals in their complete source templates total about 935,018 UTF-8 characters including source markers/metadata. Work is grouped into **one draft PR #160**; no partial article is represented as an accepted draft.
+
+### Complete unreviewed French first drafts committed on the PR branch, not yet merged
+
+- **ACCOMMODATION**: all **86/86** original editorial blocks translated; **131** mutable TEI text/tail units, of which **123 translated** and **8 deliberately source-preserved with individual reasons**. Full French Markdown `working/isbe-5787c293764e38235da0.md` and source-locked patch `batches/0149-wave01-last14-accommodation.json` are committed. Source-owned original `@n`, `xml:id`, Scripture references and inline anchor order remain protected. The original pronunciation and historical author name are retained.
+- **ASTROLOGY**: all **68/68** original blocks translated; **98** mutable units, **95 translated** and **3 source-preserved with individual reasons**. Full Markdown `working/isbe-cb90e8487204688dd11f.md` and source-locked patch `batches/0150-wave01-last14-astrology.json` are committed. Its original English witness contains suspicious `tabbins` (article block 34), `quited` (block 59), and `Loges` (block 102). The historical quoted term **Loges is deliberately retained in the French quote** until a primary printed witness is collated; the other two are rendered contextually as « rabbins » and « cité », with the original English untouched. These are **source-witness flags, not permission for silent correction**.
+
+### Completion gates still open
+
+- **12** other originals remain entirely untranslated in this issue; neither the 1,000/1,000 draft milestone nor individual editorial acceptance can be claimed yet.
+- All original French-first-draft source locks, complete-block coverage, and marker-order controls are checked in to this branch; GitHub CI establishes their formal results independently. The explicit `work-in-progress` tracking manifest is **not** a certified cohort manifest and must not be fed to its validator.
+- Independent paragraph-by-paragraph bilingual editorial review remains **0**; issue checkboxes stay unchecked; no original English TEI edit, SWORD module build, release or publication is authorized.
