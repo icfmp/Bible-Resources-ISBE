@@ -1,0 +1,469 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BATTLEMENT",
+      "article_id": "isbe-f08932725350e75365bc",
+      "source_article_sha256": "01dddcfdb163553c742bfb3392ad6f8a1de4ff9e954c1c534fd7ad954f1ff434",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BATTLEMENT",
+          "target": "CRÉNEAU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bat'-'-l-ment.",
+          "target": "bat'-'-l-ment.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "FORTIFICATION",
+          "target": "FORTIFICATION ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "HOUSE",
+          "target": "MAISON",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEATING",
+      "article_id": "isbe-4aa3ca2b06e44c6de476",
+      "source_article_sha256": "34d9dfbc71de1b6c2cf6a851f8625e4adce277c18ee02217e0c93935b3a7b8b5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEATING",
+          "target": "COUPS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bet'-ing.",
+          "target": "bet'-ing.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "PUNISHMENTS",
+          "target": "CHÂTIMENTS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEAUTIFUL GATE",
+      "article_id": "isbe-a85781a8917ce0445099",
+      "source_article_sha256": "71660f33c3149185b64514048569cb2201917bddc44a00de5a8d696df2165112",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEAUTIFUL GATE",
+          "target": "BELLE PORTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bu'-ti-fool, gat.",
+          "target": "bu'-ti-fool, gat.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "TEMPLE",
+          "target": "TEMPLE",
+          "action": "preserve",
+          "reason": "Historical author signature or canonical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BECHORATH",
+      "article_id": "isbe-27bc1ed046e961de1571",
+      "source_article_sha256": "e91d6643d1562c70a276892f3f6013a3fd52bc1ab1308e6bd11ad0a203c33010",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BECHORATH",
+          "target": "BECHORATH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-kor'-ath.",
+          "target": "be-kor'-ath.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BECORATH",
+          "target": "BECORATH",
+          "action": "preserve",
+          "reason": "Historical author signature or canonical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BEDCHAMBER",
+      "article_id": "isbe-872303347d4c1b1a1beb",
+      "source_article_sha256": "9c596da1a057a52445a6a2df4cc18fff313d8c756c6df80608df55301c6d1dad",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEDCHAMBER",
+          "target": "CHAMBRE À COUCHER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bed'-cham-ber.",
+          "target": "bed'-cham-ber.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BED",
+          "target": "LIT",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEESHTERAH",
+      "article_id": "isbe-6badad9d0ab929551bc2",
+      "source_article_sha256": "63e43b7b1b5cba00b3d4cc0ec72570cf80992e16e184dab92a90ffe7087ce178",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEESHTERAH",
+          "target": "BEESHTERAH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-esh'-te-ra (",
+          "target": "be-esh'-te-ra (",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ASHTAROTH",
+          "target": "ASHTAROTH",
+          "action": "preserve",
+          "reason": "Historical author signature or canonical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BEHEADING",
+      "article_id": "isbe-86f9ac0c82a617d26204",
+      "source_article_sha256": "378ced518b8e468da87eb07c8002d5b216d07c55f62f35580977558ccee3edc0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEHEADING",
+          "target": "DÉCAPITATION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-hed'-ing.",
+          "target": "be-hed'-ing.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "PUNISHMENTS",
+          "target": "CHÂTIMENTS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEL AND THE DRAGON",
+      "article_id": "isbe-23637d1a4aae06d65842",
+      "source_article_sha256": "d344c3455381ad5e9843ac9c76ae3f746fe8783a91cf6249ed1255dc08eb0930",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEL AND THE DRAGON",
+          "target": "BEL ET LE DRAGON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "DANIEL, BOOK OF",
+          "target": "LIVRE DE DANIEL",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", sec. X.",
+          "target": ", section X.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BELMEN; BELMON",
+      "article_id": "isbe-a5a0f64fc0bd80b055ef",
+      "source_article_sha256": "3a414c1f9a943208d51f18900ab565dec0340c68ae5b96a480302a6d44f62cca",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BELMEN; BELMON",
+          "target": "BELMEN ; BELMON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bel'-men, bel'-mon.",
+          "target": "bel'-men, bel'-mon.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BELMAIM",
+          "target": "BELMAIM",
+          "action": "preserve",
+          "reason": "Historical author signature or canonical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BELOMANCY",
+      "article_id": "isbe-c21a31099ecb071ab1dd",
+      "source_article_sha256": "31fdb5dfcc9b6a222393d12f7000f811c40c4798a297dc83409bdff4a7cc16f8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BELOMANCY",
+          "target": "BÉLOMANCIE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bel'-o-man-si.",
+          "target": "bel'-o-man-si.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "AUGURY, IV",
+          "target": "DIVINATION, IV",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BELUS, TEMPLE OF",
+      "article_id": "isbe-d0fd349f8f8a471dff9d",
+      "source_article_sha256": "2fb11ad72b9602828cec4e9822e0ef08e2ce9131afecd92333252f10d1990bf0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BELUS, TEMPLE OF",
+          "target": "TEMPLE DE BÉLUS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-lus.",
+          "target": "be'-lus.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BABEL",
+          "target": "BABEL",
+          "action": "preserve",
+          "reason": "Historical author signature or canonical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BEN-JAAKAN",
+      "article_id": "isbe-07bcd1783c5678cb6d42",
+      "source_article_sha256": "8643a7c81427081c43eddf4f645ccd8735e1562b2552d494bdf33862219bc74c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEN-JAAKAN",
+          "target": "BEN-JAAKAN",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben-ja'-a-kan.",
+          "target": "ben-ja'-a-kan.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BENE-JAAKAN",
+          "target": "BENE-JAAKAN",
+          "action": "preserve",
+          "reason": "Historical author signature or canonical proper-name reference label retained"
+        }
+      ]
+    }
+  ]
+}
