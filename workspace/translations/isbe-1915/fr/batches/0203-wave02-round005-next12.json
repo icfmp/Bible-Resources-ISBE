@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BETEN",
+      "article_id": "isbe-da8561c4ca454006d561",
+      "source_article_sha256": "f2718f7b835cc4d2335c93fc10e47a37bc3892e339b747fe4dd83c75c3a9a7d0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETEN",
+          "target": "BÉTEN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-ten (beTen; Batne): A city of Asher mentioned between Hall and Achshaph (",
+          "target": "be'-ten (beTen ; Batne) : Ville d'Aser mentionnée entre Hall et Acshaph (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). Eusebius, Onomasticon places it 8 Roman miles East of Ptolemais, giving it the name Bethseten. It may be identical with the modern village el-B`aneh, but no certainty is possible.",
+          "target": "). Eusèbe, dans l'Onomasticon, la situe à huit milles romains à l'est de Ptolémaïs, sous le nom de Bethseten. Elle pourrait être identique au village moderne d'el-B`aneh, mais aucune certitude n'est possible.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH (1)",
+      "article_id": "isbe-1dc02399cd11f9a29863",
+      "source_article_sha256": "5e58edb7de8e816114d13ceeb3b2c4d8226c108c534818598e1bf34aed435c57",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH (1)",
+          "target": "BETH (1)",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bath (b): The second letter of the Hebrew alphabet. With the daghesh it is transliterated in this dictionary as \"b,\" and, without the daghesth, as \"bh\" ( = \"v\"). It came also to be used for the number two (2) and with the dieresis for 2,000. For name, etc., see ",
+          "target": "bath (b) : Deuxième lettre de l'alphabet hébreu. Avec le daghesh, elle est transcrite dans ce dictionnaire par « b » et, sans daghesh, par « bh » (= « v »). Elle en vint aussi à représenter le nombre deux (2), et, avec le tréma, 2 000. Pour son nom, etc., voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ALPHABET",
+          "target": "ALPHABET",
+          "action": "preserve",
+          "reason": "Historical pronunciation or proper-name fragment retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BAYITH",
+          "target": "BAYITH",
+          "action": "preserve",
+          "reason": "Historical pronunciation or proper-name fragment retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-ANATH",
+      "article_id": "isbe-8cfb95a9a325ce0b5905",
+      "source_article_sha256": "3455cfda46617e8d84cc4271db6b3152d20e5e83f5e656d0421adc08c6c71bea",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-ANATH",
+          "target": "BETH-ANATH",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-a'-nath (beth`anath; Bainathath): A city in the territory of Naphtali, named with Horem and Bethshemesh (",
+          "target": "beth-a'-nath (beth`anath ; Bainathath) : Ville du territoire de Nephtali, mentionnée avec Horem et Beth-Schémesch (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). It is represented by the modern village Ainatha, about 12 miles Northwest of Cafed. The name signifies the \"house\" or \"temple\" of Anath, a goddess of the Canaanites.",
+          "target": "). On la reconnaît dans le village moderne d'Ainatha, à environ douze milles au nord-ouest de Safed. Son nom signifie « maison » ou « temple » d'Anath, déesse des Cananéens.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-EMEK",
+      "article_id": "isbe-f5b94abd26e767c7b6db",
+      "source_article_sha256": "b8d7f95b095eb94f7919c3ba1f11d6d09d8be5ae481c9d1ad5252f9367cf1c36",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-EMEK",
+          "target": "BETH-ÉMEK",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-e'-mek (beth ha-'emeq; Bethaemek, \"house of the valley\"): A town in the territory of Zebulun (",
+          "target": "beth-e'-mek (beth ha-'emeq ; Bethaemek, « maison de la vallée ») : Ville du territoire de Zabulon (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). It has not been identified, but must be sought somewhere East of Acre, not far from Kabul, the ancient Cabul.",
+          "target": "). Elle n'a pas été identifiée ; on doit cependant la chercher quelque part à l'est d'Acre, non loin de Kaboul, l'antique Cabul.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-EZEL",
+      "article_id": "isbe-28a6ad4e4daa4a32fd32",
+      "source_article_sha256": "98fb0d9d8eea3114e2bfac2a44c28ece7da97ef6991f0c0acc6dcf26a55f394a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-EZEL",
+          "target": "BETH-ÉTSEL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-e'-zel (beth ha-'etsel; oikos echomenous autes; literally, \"adjoining house\"): A place named along with other cities in the Philistine plain (",
+          "target": "beth-e'-zel (beth ha-'etsel ; oikos echomenous autes ; littéralement « maison voisine ») : Lieu mentionné parmi d'autres villes de la plaine philistine (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The site has not been identified. By some it is thought to be the same as Azel of ",
+          "target": "). Son emplacement n'a pas été identifié. Certains y voient le même lieu qu'Azel en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "; but see ",
+          "target": " ; mais voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "AZEL",
+          "target": "AZEL",
+          "action": "preserve",
+          "reason": "Historical pronunciation or proper-name fragment retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-HAGGAN",
+      "article_id": "isbe-0426d565b88f78cf1e63",
+      "source_article_sha256": "1f34b59b995ff1da4ccbc2b9813cf8b4077cb892498da8173c60c964aaa29635",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-HAGGAN",
+          "target": "BETH-HAGGAN",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-hag'-an (beth-ha-gan, \"house of the garden\"). The place where Ahaziah was slain by Jehu (",
+          "target": "beth-hag'-an (beth-ha-gan, « maison du jardin ») : Lieu où Achazia fut tué par Jéhu (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The words are rendered in English Versions of the Bible \"the garden house,\" but some take them to be a proper name. The location is doubtful.",
+          "target": "). Les versions anglaises de la Bible rendent ces mots par « la maison du jardin », mais certains les considèrent comme un nom propre. L'emplacement est incertain.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-LEBAOTH",
+      "article_id": "isbe-b5f37fc3fbaea5de232b",
+      "source_article_sha256": "e49a5be41975bb61cfcb4d5ee0b5421aadee31e23f4a5d925dfd5b583209aca9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-LEBAOTH",
+          "target": "BETH-LEBAOTH",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-le-ba'-oth, beth-leb'-aoth (beth lebha'oth; Baithalbath, \"house of lionesses\"): A town in the territory of Simeon (",
+          "target": "beth-le-ba'-oth, beth-leb'-aoth (beth lebha'oth ; Baithalbath, « maison des lionnes ») : Ville du territoire de Siméon (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " the name is given as Beth-birei: the Revised Version (British and American) ",
+          "target": ", le nom apparaît sous la forme Beth-birei ; la Revised Version (britannique et américaine) donne ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BETH-BIRI",
+          "target": "BETH-BIRI",
+          "action": "preserve",
+          "reason": "Historical pronunciation or proper-name fragment retained"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-LEHEMITE",
+      "article_id": "isbe-e29bc9eaecbff4eb2f5a",
+      "source_article_sha256": "1470277733f707b705f634cd61930d312f06a3c763264cb25abe7102313b9993",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-LEHEMITE",
+          "target": "BETHLÉHÉMITE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth'-le-hem-it (beth ha-lachmi): An inhabitant of Bethlehem, a town in Judah, 5 miles South of Jerusalem. Jesse is so named in ",
+          "target": "beth'-le-hem-it (beth ha-lachmi) : Habitant de Bethléhem, ville de Juda située à cinq milles au sud de Jérusalem. Isaï porte ce qualificatif en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", and Elhanan in ",
+          "target": ", et Elhanan en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ". The children of Bethlehem are referred to in ",
+          "target": ". Les fils de Bethléhem sont mentionnés en ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "; 1 Esdras 5:17.",
+          "target": " ; 1 Esdras 5.17.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-LOMON",
+      "article_id": "isbe-16f5f10cdbe2a79aebc1",
+      "source_article_sha256": "20534354b48d7e3aa00781e1d0000818efc9cb2df95ba290c0a737a8d7742d08",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-LOMON",
+          "target": "BETH-LOMON",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-lo'-mon (Baithlomon; Codex Vaticanus, Rhagethlomon): The inhabitants of this city are mentioned as returning with Zerubbabel from Babylon (1 Esdras 5:17). It is the city of Bethlehem in Judah, the modern Beit Lachm (",
+          "target": "beth-lo'-mon (Baithlomon ; Codex Vaticanus : Rhagethlomon) : Les habitants de cette ville sont mentionnés parmi ceux qui revinrent de Babylone avec Zorobabel (1 Esdras 5.17). Il s'agit de Bethléhem de Juda, l'actuelle Beit Lachm (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-PELET",
+      "article_id": "isbe-d353a1ed1688566286d5",
+      "source_article_sha256": "e91d01718b952ab3420aad34f43fda19fdb9fcbe014e529b136db2626dc5070d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-PELET",
+          "target": "BETH-PÉLET",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-pe'-let (beth-peleT; Baithphaleth, \"house of escape\"; the King James Version Beth-palet; ",
+          "target": "beth-pe'-let (beth-peleT ; Baithphaleth, « maison de la fuite » ; King James Version : Beth-palet ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", Beth-phelet, the King James Version ",
+          "target": ", Beth-phelet dans la King James Version en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "): One of \"the uttermost cities of the tribe of the children of Judah toward the border of Edom in the (Negeb) South\" (",
+          "target": ") : L'une des « villes les plus reculées de la tribu des fils de Juda, vers la frontière d'Édom, au sud, dans le Néguev » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). Site unknown.",
+          "target": "). Emplacement inconnu.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-SHITTAH",
+      "article_id": "isbe-5b8e35f0a038ef0c64ee",
+      "source_article_sha256": "3a655d3d40704b9e84b7cce7da9c6a6f04725571d412fe32d484f96c5a779afe",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-SHITTAH",
+          "target": "BETH-SHITTAH",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-shit'-a (beth ha-shiTTah, \"house of the acacia\"): A place on the route followed by the Midianites in their flight before Gideon (",
+          "target": "beth-shit'-a (beth ha-shiTTah, « maison de l'acacia ») : Lieu situé sur l'itinéraire emprunté par les Madianites lorsqu'ils fuyaient devant Gédéon (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). It is probably identical with the modern ShuTTa, a village in the Vale of Jezreel, about 6 miles Northwest of Beisan.",
+          "target": "). Il est probablement identique à l'actuel ShuTTa, village de la vallée de Jizréel, à environ six milles au nord-ouest de Beisan.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETHASMOTH",
+      "article_id": "isbe-0ec50d48486b979b167a",
+      "source_article_sha256": "bf049c5a2977e8859a56b2d248d373c8b527c8fbda6013cb3c93008002eab013",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETHASMOTH",
+          "target": "BETHASMOTH",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-az'-moth (the King James Version Bethsamos; Baithasmoth (1 Esdras 5:18); corresponds to Beth-azmaveth in ",
+          "target": "beth-az'-moth (King James Version : Bethsamos ; Baithasmoth [1 Esdras 5.18] ; correspond à Beth-Azmaveth en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): A town in the territory of Benjamin, and may be identified with the modern el-Hizmeh.",
+          "target": ") : Ville du territoire de Benjamin, que l'on peut identifier à l'actuel el-Hizmeh.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "AZMAVETH",
+          "target": "AZMAVETH",
+          "action": "preserve",
+          "reason": "Historical pronunciation or proper-name fragment retained"
+        }
+      ]
+    }
+  ]
+}
