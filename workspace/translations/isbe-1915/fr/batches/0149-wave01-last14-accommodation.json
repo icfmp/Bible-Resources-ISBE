@@ -1,0 +1,943 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "ACCOMMODATION",
+      "article_id": "isbe-5787c293764e38235da0",
+      "source_article_sha256": "d581a71dab74bb2af05e1345229c76dd8775c07d5903ca18094cacf55768dd13",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ACCOMMODATION",
+          "target": "ACCOMMODATION",
+          "action": "preserve",
+          "reason": "The historical technical term is also used unchanged in French"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-kom-mo-da'-shun:",
+          "target": "a-kom-mo-da'-shun:",
+          "action": "preserve",
+          "reason": "Original source pronunciation deliberately retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "I. INTRODUCTORY",
+          "target": "I. INTRODUCTION",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "1. Three Uses of the Term",
+          "target": "1. Trois sens du terme",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "2. The Importance of the Subject",
+          "target": "2. L'importance du sujet",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "II. ACCOMMODATED APPLICATION OF SCRIPTURE PASSAGES",
+          "target": "II. APPLICATION ACCOMMODÉE DES PASSAGES DE L'ÉCRITURE",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "1. Interpretation a Science",
+          "target": "1. L'interprétation, une science",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "2. Scientific Accommodation",
+          "target": "2. L'accommodation scientifique",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "III. DOUBLE REFERENCE IN SCRIPTURE",
+          "target": "III. DOUBLE PORTÉE DE L'ÉCRITURE",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "1. Allegory in Scripture",
+          "target": "1. L'allégorie dans l'Écriture",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "2. Hidden Truths of Scripture",
+          "target": "2. Les vérités cachées de l'Écriture",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "3. Prophecy and its Fulfillment",
+          "target": "3. La prophétie et son accomplissement",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "4. Conclusion",
+          "target": "4. Conclusion",
+          "action": "preserve",
+          "reason": "The heading is identical in English and French"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "IV. ACCOMMODATION IN REVELATION",
+          "target": "IV. L'ACCOMMODATION DANS LA RÉVÉLATION",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "1. General Principles",
+          "target": "1. Principes généraux",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "2. Accommodation a Feature of Progressive Revelation",
+          "target": "2. L'accommodation, caractéristique de la révélation progressive",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "3. The Limits of Revelation",
+          "target": "3. Les limites de la révélation",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "4. The Outcome of Revelation",
+          "target": "4. L'aboutissement de la révélation",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "5. The Question as to Christ's Method",
+          "target": "5. La question de la méthode du Christ",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "I. Introductory.",
+          "target": "I. Introduction.",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "1. Three Uses of the Term:",
+          "target": "1. Trois sens du terme :",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": " The term \"accommodation\" is used in three senses which demand careful discrimination and are worthy of separate treatment:",
+          "target": " Le mot « accommodation » s'emploie en trois sens qu'il importe de distinguer soigneusement et qui méritent chacun un examen particulier :",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "(1) the use or application of a Scripture reference in a sense other than the obvious and literal one which lay in the mind and intent of the writer;",
+          "target": "(1) l'emploi ou l'application d'un passage de l'Écriture dans un sens différent du sens évident et littéral que l'auteur avait à l'esprit et entendait exprimer ;",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "(2) theory that a passage, according to its original intent, may have more than one meaning or application;",
+          "target": "(2) la théorie selon laquelle un passage peut, conformément à l'intention première de son auteur, posséder plusieurs significations ou applications ;",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "(3) the general principle of adaptation on the part of God in His self-revelation to man's mental and spiritual capacity.",
+          "target": "(3) le principe général selon lequel Dieu adapte la révélation qu'il donne de lui-même aux capacités intellectuelles et spirituelles de l'être humain.",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "2. The Importance of the Subject:",
+          "target": "2. L'importance du sujet :",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": " Important issues are involved in the discussion of this subject in each of the three divisions thus naturally presented to us in the various uses of the term. These issues culminate in the supremely important principles which underlie the question of God's adaptation of His revelation to men.",
+          "target": " Chacune des trois divisions qui découlent naturellement de ces divers emplois du terme soulève des questions importantes. Celles-ci culminent dans les principes d'une importance suprême qui sous-tendent la question de l'adaptation de la révélation de Dieu aux êtres humains.",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "II. Accommodated Application of Scripture Passages.",
+          "target": "II. Application accommodée des passages de l'Écriture.",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "1. Interpretation a Science:",
+          "target": "1. L'interprétation, une science :",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "tail",
+          "source": " It is obvious that the nature of thought and of language is such as to constitute for all human writings, among which the Bible, as a document to be understood, must be placed, a science of interpretation with a definite body of laws which cannot be violated or set aside without confusion and error. This excludes the indeterminate and arbitrary exegesis of any passage It must be interpreted with precision and in accordance with recognized laws of interpretation. The first and most fundamental of these laws is that a passage is to be interpreted in accordance with the intent of the writer in so far as that can be ascertained. The obvious, literal and original meaning always has the right of way. All arbitrary twisting of a passage in order to obtain from it new and remote meanings not justified by the context is unscientific and misleading.",
+          "target": " La nature de la pensée et du langage impose manifestement, pour tous les écrits humains — au nombre desquels il faut ranger la Bible en tant que document à comprendre —, une science de l'interprétation, dotée d'un ensemble précis de règles qu'on ne saurait enfreindre ou écarter sans engendrer confusion et erreur. Cela exclut toute exégèse indéterminée et arbitraire d'un passage. Il faut l'interpréter avec précision et selon les règles reconnues de l'interprétation. La première de ces règles, et la plus fondamentale, veut qu'un passage soit interprété conformément à l'intention de son auteur, dans la mesure où celle-ci peut être établie. Le sens évident, littéral et originel doit toujours prévaloir. Toute déformation arbitraire d'un passage destinée à lui faire produire des significations nouvelles et lointaines, que son contexte ne justifie pas, est contraire à une méthode scientifique et induit en erreur.",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "2. Scientific Accommodation:",
+          "target": "2. L'accommodation scientifique :",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": " There is, however, a scientific and legitimate use of the principle of accommodation. For example, it is impossible to determine beforehand that a writer's specific application of a general principle is the only one of which it is capable. A bald and literal statement of fact may involve a general principle which is capable of broad and effective application in other spheres than that originally contemplated. It is perfectly legitimate to detach a writer's statement from its context of secondary and incidental detail and give it a harmonious setting of wider application. It will be seen from this that legitimate accommodation involves two things:",
+          "target": " Il existe toutefois un usage scientifique et légitime du principe d'accommodation. On ne peut, par exemple, décider à l'avance que l'application particulière faite par un auteur d'un principe général soit la seule possible. Un énoncé de fait, même dépouillé de toute explication et pris à la lettre, peut contenir un principe général susceptible d'applications larges et fécondes dans d'autres domaines que celui d'abord envisagé. Il est parfaitement légitime de dégager l'affirmation d'un auteur des détails secondaires et accessoires de son contexte pour lui donner un cadre plus étendu, mais conforme à son principe. On voit ainsi que l'accommodation légitime suppose deux choses :",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "(1) the acceptance of the author's primary and literal meaning;",
+          "target": "(1) reconnaître le sens premier et littéral voulu par l'auteur ;",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "(2) the extension of that meaning through the establishment of a broader context identical in principle with the original one.",
+          "target": "(2) étendre ce sens en lui donnant un contexte plus large, identique quant au principe à celui du contexte originel.",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "In the article on ",
+          "target": "L'article ",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "QUOTATIONS IN THE NEW TESTAMENT",
+          "target": "CITATIONS DANS LE NOUVEAU TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": " (which see) this use of the term accommodation, here treated in the most general terms, is dealt with in detail. See also ",
+          "target": " (voir cet article) traite en détail de cet emploi du mot « accommodation », abordé ici uniquement en termes très généraux. Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "INTERPRETATION",
+          "target": "INTERPRÉTATION",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "III. Double Reference in Scripture.",
+          "target": "III. Double portée de l'Écriture.",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "The second use of the term accommodation now emerges for discussion. Are we to infer the presence of double reference, or secondary meanings in Scripture? Here again we must distinguish between the legitimate and illegitimate application of a principle. While we wisely deprecate the tendency to look upon Scripture passages as cryptic utterances, we must also recognize that many Scripture references may have more than a single application.",
+          "target": "Nous en venons maintenant au deuxième sens du terme « accommodation ». Faut-il admettre dans l'Écriture une double portée, ou des significations secondaires ? Ici encore, il faut distinguer les applications légitimes et illégitimes d'un principe. S'il est sage de réprouver la tendance à considérer les passages de l'Écriture comme des paroles cryptiques, nous devons aussi reconnaître que de nombreux passages bibliques peuvent recevoir plus d'une application.",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "1. Allegory in Scripture:",
+          "target": "1. L'allégorie dans l'Écriture :",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "We must recognize in the Scriptures the use of allegory, the peculiar quality of which, as a form of literature, is the double reference which it contains. To interpret the story of the Bramble-King (",
+          "target": "Nous devons reconnaître que l'Écriture recourt à l'allégorie, forme littéraire dont le caractère propre réside dans sa double portée. Interpréter l'histoire du roi des arbres, le buisson d'épines (",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": ") or the Parables of our Lord without reference to the double meanings which they involve would be as false and arbitrary as any extreme of allegorizing. The double meaning is of the essence of the literary expression. This does not mean, of course, that the poetry of the Bible, even that of the Prophets and Apocalyptic writers, is to be looked upon as allegorical. On the contrary, only that writing, whether prose or poetry, is to be interpreted in any other than its natural and obvious sense, in connection with which we have definite indications of its allegorical character. Figures of speech and poetical expressions in general, though not intended to be taken literally because they belong to the poetical form, are not to be taken as having occult references and allegorical meanings. Dr. A. B. Davidson thus characterizes the prophetic style (Old Testament Prophecy, 171; see whole chapter): \"Prophecy is poetical, but it is not allegorical. The language of prophecy is real as opposed to allegorical, and poetical as opposed to real. When the prophets speak of natural objects or of lower creatures, they do not mean human things by them, or human beings, but these natural objects or creatures themselves. When Joe speaks of locusts, he means those creatures. When he speaks of the sun and moon and stars, he means those bodies.\" Allegory, therefore, which contains the double reference, in the sense of speaking of one thing while meaning another, is a definite and recognizable literary form with its own proper laws of interpretation. See ",
+          "target": "), ou les paraboles de notre Seigneur sans tenir compte du double sens qu'elles comportent serait aussi faux et arbitraire que les excès de l'interprétation allégorique. La double signification appartient à l'essence même de cette expression littéraire. Cela ne signifie évidemment pas que la poésie biblique, même celle des prophètes et des auteurs apocalyptiques, doive être tenue pour allégorique. Au contraire, seul un écrit, en prose ou en vers, pour lequel nous possédons des indications précises de son caractère allégorique, doit être interprété autrement que dans son sens naturel et évident. Les figures de style et les expressions poétiques en général, bien qu'elles ne soient pas destinées à être prises littéralement parce qu'elles relèvent de la poésie, ne doivent pas pour autant se voir attribuer des références occultes ou des significations allégoriques. Le Dr A. B. Davidson caractérise ainsi le style prophétique (Old Testament Prophecy, p. 171 ; voir l'ensemble du chapitre) : « La prophétie est poétique, mais elle n'est pas allégorique. Le langage prophétique est réel, par opposition à allégorique, et poétique, par opposition à réel. Lorsque les prophètes parlent d'objets naturels ou de créatures inférieures, ils ne désignent pas par là des réalités ou des êtres humains, mais ces objets et ces créatures eux-mêmes. Lorsque Joël parle des sauterelles, il entend ces créatures. Lorsqu'il parle du soleil, de la lune et des étoiles, il entend ces astres. » L'allégorie, qui possède donc une double portée au sens où elle parle d'une chose pour en signifier une autre, est une forme littéraire bien définie et reconnaissable, avec ses propres règles d'interprétation. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "ALLEGORY.",
+          "target": "ALLÉGORIE.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "2. Hidden Truths of Scripture:",
+          "target": "2. Les vérités cachées de l'Écriture :",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "tail",
+          "source": " There is progress in the understanding of Scripture. New reaches of truth are continually being brought to light. By legitimate and natural methods hidden meanings are being continually discovered.",
+          "target": " La compréhension de l'Écriture progresse. De nouvelles étendues de vérité apparaissent continuellement. Des méthodes légitimes et naturelles permettent de découvrir sans cesse des significations jusque-là cachées.",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "(1) It is a well-attested fact that apart from any supernatural factor a writer sometimes speaks more wisely than he knows. He is the partially unconscious agent for the expression of a great truth, not only for his own age, but for all time. It is not often given to such a really great writer or to his age to recognize all the implications of his thought. Depths of meaning hidden both from the original writer and from earlier interpreters may be disclosed by moving historical sidelights. The element of permanent value in great literature is due to the fact that the writer utters a greater truth than can exhaustively be known in any one era. It belongs to all time.",
+          "target": "(1) Il est bien établi qu'en dehors de tout facteur surnaturel, un auteur exprime parfois plus de sagesse qu'il n'en a lui-même conscience. Il sert, sans en avoir pleinement conscience, d'instrument à l'expression d'une grande vérité, valable non seulement pour son époque, mais pour tous les temps. Il est rare qu'un écrivain véritablement grand, ou son époque, puisse mesurer toutes les implications de sa pensée. De nouvelles perspectives historiques peuvent révéler des profondeurs de sens qui avaient échappé tant à l'auteur qu'à ses premiers interprètes. Ce qui donne aux grandes œuvres littéraires leur valeur durable, c'est que l'auteur énonce une vérité plus vaste que ce qu'une époque donnée peut en connaître de manière exhaustive. Elle appartient à tous les temps.",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "(2) The supernatural factor which has gone to the making of Scripture insures that no one man or group of men, that not all men together, can know it exhaustively. It partakes of the inexhaustibleness of God. It is certain, therefore, that it will keep pace with the general progress of man, exhibiting new phases of meaning as it moves along the stream of history. Improved exegetical apparatus and methods, enlarged apprehensions into widening vistas of thought and knowledge, increased insight under the tutelage of the Spirit in the growing Kingdom of God, will conspire to draw up new meanings from the depths of Scripture. The thought of God in any given expression of truth can only be progressively and approximately known by human beings who begin in ignorance and must be taught what they know.",
+          "target": "(2) Le facteur surnaturel qui a contribué à la formation de l'Écriture garantit qu'aucun homme, aucun groupe d'hommes, ni même l'humanité entière ne peut en épuiser la connaissance. Elle participe à l'inépuisable richesse de Dieu. Il est donc certain qu'elle accompagnera le progrès général de l'humanité, révélant de nouvelles facettes de sens au fil de l'histoire. Le perfectionnement des instruments et des méthodes exégétiques, l'élargissement de l'intelligence à des horizons toujours plus vastes de pensée et de savoir, ainsi que la pénétration accrue que donne l'Esprit en instruisant les hommes dans le royaume de Dieu en croissance, concourront à faire émerger de nouveaux sens des profondeurs de l'Écriture. La pensée de Dieu dans toute expression particulière de la vérité ne peut être connue par des êtres humains, d'abord ignorants et qui doivent apprendre ce qu'ils savent, que progressivement et de manière approximative.",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "(3) The supernatural factor in revelation also implies a twofold thought in every important or fundamental statement of Scripture: the thought of God uttered through His Spirit to a man or his generation, and that same thought with reference to the coming ages and to the whole truth which is to be disclosed. Every separate item belonging to an organism of truth would naturally have a twofold reference: first, its significance alone and of itself; second, its significance with reference to the whole of which it is a part. As all great Scriptural truths are thus organically related, it follows that no one of them can be fully known apart from all the others. From which it follows also that in a process of gradual revelation where truths are given successively as men are able to receive them and where each successive truth prepares the way for others which are to follow, every earlier statement will have two ranges of meaning and application--that which is intrinsic and that which flows from its connection with the entire organism of unfolding truth which finally appears.",
+          "target": "(3) Le facteur surnaturel de la révélation implique également une double pensée dans chaque déclaration importante ou fondamentale de l'Écriture : la pensée de Dieu communiquée par son Esprit à un homme ou à sa génération, et cette même pensée en rapport avec les âges à venir et avec la vérité tout entière encore à dévoiler. Chaque élément distinct appartenant à un ensemble organique de vérités possède naturellement une double portée : d'abord sa signification propre, en lui-même ; ensuite sa signification par rapport à l'ensemble dont il fait partie. Puisque toutes les grandes vérités de l'Écriture sont ainsi organiquement liées, aucune ne peut être pleinement connue indépendamment de toutes les autres. Il s'ensuit également que, dans une révélation progressive où les vérités sont données successivement à mesure que les hommes peuvent les recevoir, chacune préparant celles qui suivront, toute déclaration antérieure possède deux champs de signification et d'application : celui qui lui est intrinsèque et celui qui découle de ses liens avec l'ensemble organique de la vérité qui se dévoile et apparaît finalement.",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "3. Prophecy and Its Fulfillment:",
+          "target": "3. La prophétie et son accomplissement :",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "tail",
+          "source": " (1) The principles thus far expressed carry us a certain way toward an answer to the most important question which arises under this division of the general topic: the relation between the Old Testament and the New Testament through prophecy and its fulfillment. Four specific points of connection involving the principles of prophetic anticipation and historical realization in the career of Jesus are alleged by New Testament writers. They are of total importance, inasmuch as these four groups of interpretations involve the most important elements of the Old Testament and practically the entire New Testament interpretation of Jesus.",
+          "target": " (1) Les principes exposés jusqu'ici nous rapprochent d'une réponse à la question la plus importante de cette partie de notre sujet : le rapport entre l'Ancien et le Nouveau Testament à travers la prophétie et son accomplissement. Les auteurs du Nouveau Testament invoquent quatre points de correspondance précis, impliquant les principes de l'anticipation prophétique et de la réalisation historique dans la vie de Jésus. Leur importance est capitale, puisque ces quatre groupes d'interprétations concernent les éléments les plus importants de l'Ancien Testament et pratiquement toute l'interprétation néotestamentaire de Jésus.",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "(2) (a) The promise made to Abraham (",
+          "target": "(2) (a) La promesse faite à Abraham (",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "tail",
+          "source": ", etc.) and repeated in substance at intervals during the history of Israel (see ",
+          "target": ", etc.) et répétée en substance à divers moments de l'histoire d'Israël (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "tail",
+          "source": ", etc.) is interpreted as having reference to the distant future and as fulfilled in Christ (see ",
+          "target": ", etc.) est comprise comme se rapportant à un avenir lointain et s'accomplissant en Christ (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "tail",
+          "source": " for example of this interpretation, especially ",
+          "target": ", par exemple, notamment ",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "tail",
+          "source": "; also ",
+          "target": " ; voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "QUOTATIONS IN THE NEW TESTAMENT",
+          "target": "CITATIONS DANS LE NOUVEAU TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "(b) The Old Testament system of sacrifices is looked upon as typical and symbolic, hence, predictive and realized in the death of Christ interpreted as atonement for sin (",
+          "target": "(b) Le système sacrificiel de l'Ancien Testament est considéré comme typique et symbolique, et donc comme annonçant la mort du Christ, dans laquelle il trouve sa réalisation, cette mort étant comprise comme expiation du péché (",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "tail",
+          "source": ", etc.).",
+          "target": ", etc.).",
+          "action": "preserve",
+          "reason": "Historical punctuation and conventional 'etc.' retained after source-owned Scripture anchor"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "(c) References in the Old Testament to kings or a king of David's line whose advent and reign are spoken of are interpreted as definite predictions fulfilled in the advent and career of Jesus the Messiah (",
+          "target": "(c) Les passages de l'Ancien Testament qui parlent de rois, ou d'un roi de la lignée de David, et de leur avènement ou de leur règne, sont interprétés comme des prédictions précises accomplies dans la venue et l'œuvre de Jésus, le Messie (",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "tail",
+          "source": ", etc.).",
+          "target": ", etc.).",
+          "action": "preserve",
+          "reason": "Historical punctuation and conventional 'etc.' retained after source-owned Scripture anchor"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "(d) The prophetic conception of the servant of Yahweh (",
+          "target": "(d) La conception prophétique du serviteur de Yahvé (",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "tail",
+          "source": " f; ",
+          "target": " et suiv. ; ",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "tail",
+          "source": " f; ",
+          "target": " et suiv. ; ",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "tail",
+          "source": ") is interpreted as being an anticipatory description of the character and work of Jesus centering in His vicarious sin-bearing death.",
+          "target": ") est interprétée comme une description anticipée du caractère et de l'œuvre de Jésus, centrée sur sa mort substitutive où il porte le péché.",
+          "action": "translate"
+        },
+        {
+          "node": 89,
+          "part": "text",
+          "source": "(3) With the details of interpretation as involved in the specific use of Old Testament statements we are not concerned here (see ",
+          "target": "(3) Il n'est pas question ici d'examiner les détails des interprétations que suppose l'emploi de tel ou tel passage de l'Ancien Testament (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "text",
+          "source": "QUOTATIONS IN THE NEW TESTAMENT",
+          "target": "CITATIONS DANS LE NOUVEAU TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "tail",
+          "source": ", etc.) but only with the general principles which underlie all such uses of the Old Testament. The problem is: Can we thus interpret any passage or group of passages in the Old Testament without being guilty of what has been called \"pedantic supernaturalism\"; that is, of distorting Scripture by interpreting it without regard to its natural historical connections? Is the interpretation of the Old Testament Messianically legitimate or illegitimate accommodation?",
+          "target": ", etc.), mais seulement les principes généraux qui sous-tendent tous ces emplois. Le problème est le suivant : pouvons-nous interpréter ainsi un passage ou un ensemble de passages de l'Ancien Testament sans tomber dans ce qu'on a appelé un « surnaturalisme pédant », c'est-à-dire sans déformer l'Écriture en l'interprétant sans égard à ses liens historiques naturels ? L'interprétation messianique de l'Ancien Testament constitue-t-elle une accommodation légitime ou illégitime ?",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "text",
+          "source": "(c) It is a widely accepted canon of modern interpretation that the institutions of Old Testament worship and the various messages of the prophets had an intrinsic contemporary significance.",
+          "target": "(c) Un principe largement admis de l'interprétation moderne veut que les institutions du culte vétérotestamentaire et les divers messages des prophètes aient possédé une signification intrinsèque pour leurs contemporains.",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "text",
+          "source": "(b) But this is not to say that its meaning and value are exhausted in that immediate contemporary application. Beyond question the prophet was a man with a message to his own age, but there is nothing incompatible, in that fact, with his having a message, the full significance of which reaches beyond ins own age, even into the far distant future. It would serve to clear the air in this whole region if it were only understood that it is precisely upon its grasp of the future that the leverage of a great message for immediate moral uplift rests. The predictive element is a vital part of the contemporary value.",
+          "target": "(b) Cela ne signifie pourtant pas que leur sens et leur valeur s'épuisent dans cette application immédiate à leur époque. Le prophète était, sans conteste, un homme porteur d'un message pour son temps ; mais rien n'empêche que ce message ait une portée qui dépasse son époque, jusque dans un avenir très lointain. Bien des malentendus seraient dissipés dans ce domaine si l'on comprenait seulement que c'est précisément dans la vision de l'avenir que réside le levier qui donne à un grand message la force d'élever immédiatement la conduite morale. L'élément prédictif fait partie intégrante de sa valeur pour les contemporains.",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "text",
+          "source": "(c) The material given under the preceding analysis may be dealt with as a whole on the basis of a principle fundamental to the entire Old Testament economy, namely: that each successive age in the history of Israel is dealt with on the basis of truth common to the entire movement of which the history of Israel is but a single phase. It is further to be remembered that relationship between the earlier and later parts of the Bible is one of organic and essential unity, both doctrinal and historical. By virtue of this fact the predictive element is an essential factor in the doctrines and institutions of the earlier dispensation as originally constituted and delivered, hence forming a part of its contemporary significance and value, both pointing to the future and preparing the way for it. In like manner, the element of fulfillment is an essential element of the later dispensation as the completed outcome of the movement begun long ages before. Prediction and fulfillment are essential factors in any unified movement begun, advanced and completed according to a single plan in successive periods of time. We have now but to apply this principle in general to the Old Testament material already in hand to reach definite and satisfactory conclusions.",
+          "target": "(c) Les éléments présentés dans l'analyse précédente peuvent être envisagés ensemble à partir d'un principe fondamental de toute l'économie de l'Ancien Testament : chaque époque successive de l'histoire d'Israël est abordée sur le fondement d'une vérité commune à l'ensemble du mouvement historique dont Israël n'est qu'une phase. Il faut également se rappeler que les premières et les dernières parties de la Bible entretiennent un rapport d'unité organique et essentielle, tant sur le plan doctrinal qu'historique. De ce fait, l'élément prédictif appartient essentiellement aux doctrines et aux institutions de la première dispensation telles qu'elles furent établies et communiquées à l'origine ; il participe donc à leur signification et à leur valeur pour leurs contemporains, en orientant vers l'avenir et en en préparant la venue. De même, l'élément d'accomplissement est essentiel à la dispensation ultérieure, qui constitue l'aboutissement achevé du mouvement commencé longtemps auparavant. Prédiction et accomplissement sont des facteurs indispensables à tout mouvement unifié, commencé, développé et achevé suivant un même dessein à travers des périodes successives. Il nous suffit maintenant d'appliquer ce principe, de manière générale, aux données déjà examinées de l'Ancien Testament pour parvenir à des conclusions précises et satisfaisantes.",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "text",
+          "source": "(4) (a) The promise made to Abraham was a living message addressed directly to him in the immediate circumstances of his life upon which the delivery and acceptance of the promise made a permanent impress; but it was of vaster proportions than could be realized within the compass of a single human life; for it included himself, his posterity, and all mankind in a single circle of promised blessing. So far as the patriarch was concerned the immediate, contemporary value of the promise lay in the fact that it concerned him not alone but in relationship to the future and to mankind. A prediction was thus imbedded in the very heart of the word of God which was the object of his faith--a prediction which served to enclose his life in the plan of God for all mankind and to fasten his ambition to the service of that plan. The promise was predictive in its essence and in its contemporary meaning (see Beecher, Prophets and Promise, 213).",
+          "target": "(4) (a) La promesse faite à Abraham était un message vivant qui lui était personnellement adressé dans les circonstances immédiates de son existence, circonstances que la formulation et l'accueil de cette promesse ont marquées durablement. Mais sa portée était plus vaste que ce qui pouvait se réaliser au cours d'une seule vie humaine : elle englobait Abraham lui-même, sa descendance et l'humanité entière dans un même cercle de bénédiction promise. Pour le patriarche, la valeur immédiate et contemporaine de cette promesse tenait précisément à ce qu'elle ne le concernait pas seul, mais le situait dans un rapport avec l'avenir et avec l'humanité. Au cœur même de la parole de Dieu qui était l'objet de sa foi se trouvait donc une prédiction, inscrivant sa vie dans le dessein divin pour tous les hommes et attachant ses aspirations au service de ce dessein. La promesse était prédictive dans son essence même et dans sa signification pour l'époque (voir Beecher, Prophets and Promise, p. 213).",
+          "action": "translate"
+        },
+        {
+          "node": 95,
+          "part": "text",
+          "source": "(b) So also it is with the Messianic King. The Kingdom as an institution in Israel is described from the beginning as the perpetual mediatorial reign of God upon earth (see ",
+          "target": "(b) Il en va de même du Roi messianique. Dès l'origine, le royaume en tant qu'institution en Israël est présenté comme le règne médiateur perpétuel de Dieu sur la terre (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 97,
+          "part": "tail",
+          "source": ", etc.), and the King in whom the Kingdom centers is God's Son (",
+          "target": ", etc.), et le roi autour duquel ce royaume s'organise est le Fils de Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "tail",
+          "source": ") and earthly representative. In all this there is much that is immediately contemporaneous. The Kingdom and the Kingship are described in terms of the ideal and that ideal is used in every age as the ground of immediate appeal to loyalty and devotion on the part of the King. None the less the predictive element lies at the center of the representation. The very first recorded expression of the Messianic promise to David involves the prediction of unconditioned perpetuity to his house, and thus grasps the entire future.",
+          "target": "), son représentant terrestre. Beaucoup d'éléments revêtent ici une portée immédiate pour les contemporains. Le royaume et la royauté sont décrits en fonction d'un idéal, invoqué à chaque époque pour appeler sans délai le roi à la fidélité et au dévouement. Il n'en reste pas moins que l'élément prédictif est au cœur de cette représentation. La toute première expression conservée de la promesse messianique faite à David annonce la perpétuité inconditionnelle de sa maison et embrasse ainsi tout l'avenir.",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "text",
+          "source": "More than this, the characteristics, the functions, the dignities of the king are so described (",
+          "target": "Bien plus, les caractéristiques, les fonctions et les dignités du roi sont décrites (",
+          "action": "translate"
+        },
+        {
+          "node": 103,
+          "part": "tail",
+          "source": ") as to make it clear that the conditions of the Kingship could be met only by an uniquely endowed person coming forth from God and exercising divine functions in a worldwide spiritual empire. Such a King being described and such a Kingdom being promised, the recipients of it, of necessity, were set to judge the present and scrutinize the future for its realization. The conception is, in its original meaning and expression, essentially predictive.",
+          "target": ") de telle manière qu'il apparaît clairement que les exigences de la royauté ne pourraient être satisfaites que par une personne dotée de qualités uniques, venue de Dieu et exerçant des fonctions divines au sein d'un empire spirituel universel. Dès lors qu'un tel roi est décrit et qu'un tel royaume est promis, ceux qui reçoivent la promesse doivent nécessairement juger le présent et scruter l'avenir en vue de sa réalisation. Dans sa signification et dans sa formulation originelles, cette conception est essentiellement prédictive.",
+          "action": "translate"
+        },
+        {
+          "node": 104,
+          "part": "text",
+          "source": "(c) Very closely allied with this conception of the Messianic King is the prophetic ideal of the Servant of Yahweh. Looked at in its original context we at once discover that it is the ideal delineation of a mediatorial service to men in behalf of Yahweh--which has a certain meaning of fulfillment in any person who exhibits the Divine character by teaching the truth and ministering to human need (for application of the term see ",
+          "target": "(c) L'idéal prophétique du Serviteur de Yahvé est étroitement lié à cette conception du Roi messianique. Considéré dans son contexte originel, il apparaît d'emblée comme la représentation idéale d'un service de médiation rendu aux hommes au nom de Yahvé. Cet idéal trouve un certain accomplissement en quiconque manifeste le caractère divin en enseignant la vérité et en répondant aux besoins humains (pour l'emploi de ce terme, voir ",
+          "action": "translate"
+        },
+        {
+          "node": 108,
+          "part": "tail",
+          "source": "; especially ",
+          "target": " ; surtout ",
+          "action": "translate"
+        },
+        {
+          "node": 109,
+          "part": "tail",
+          "source": "). But the service is described in such exalted terms, the devotion exacted by it is so high, that, in the application of the ideal as a test to the present and to the nation at large, the mind is inevitably thrown into the future and centered upon a supremely endowed individual to come, who is by preeminence the Servant of Yahweh.",
+          "target": "). Mais ce service est décrit en des termes si élevés et exige un dévouement si grand que, lorsqu'on applique cet idéal au présent et à la nation tout entière pour les évaluer, la pensée se tourne inévitablement vers l'avenir et se fixe sur un individu à venir, doté au suprême degré des qualités nécessaires, qui sera par excellence le Serviteur de Yahvé.",
+          "action": "translate"
+        },
+        {
+          "node": 110,
+          "part": "text",
+          "source": "(d) The same principle may be applied with equal effectiveness to the matter of Israel's sacrificial system. In the last two instances this fact emerged: No truth and no institution can exhaustively be known until it has run a course in history. For example, the ideas embodied in the Messianic Kingship and the conception of the Servant of Yahweh could be known only in the light of history. Only in view of the actual struggles and failures of successive kings and successive generations of the people to realize such ideals could their full significance be disclosed. Moreover, only by historic process of preparation could such ideals ultimately be realized. This is preeminently true of the Old Testament sacrifices. It is clear that the New Testament conception of the significance of Old Testament sacrifice in connection with the death of Christ is based upon the belief that the idea embodied in the original institution could be fulfilled only in the voluntary sacrifice of Christ (see ",
+          "target": "(d) Le même principe s'applique tout aussi bien au système sacrificiel d'Israël. Les deux exemples précédents ont fait apparaître ce fait : aucune vérité, aucune institution ne peut être connue de manière exhaustive avant d'avoir parcouru son histoire. Ainsi, les idées qui s'incarnent dans la royauté messianique et dans la figure du Serviteur de Yahvé ne pouvaient être comprises qu'à la lumière de l'histoire. Seules les luttes et les défaillances concrètes des rois successifs et des générations successives du peuple, lorsqu'ils tentaient d'atteindre ces idéaux, pouvaient en révéler toute la portée. De plus, ces idéaux ne pouvaient parvenir à leur réalisation ultime qu'au terme d'une préparation historique. Cela est vrai au plus haut point des sacrifices de l'Ancien Testament. Il est clair que la conception néotestamentaire de leur signification par rapport à la mort du Christ repose sur la conviction que l'idée incarnée dans l'institution originelle ne pouvait s'accomplir que dans le sacrifice volontaire du Christ (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 111,
+          "part": "tail",
+          "source": "). This view is justified by the facts. Dr. Davidson (op. cit., 239) holds that the predictive element in the Old Testament sacrifices lay in their imperfection. This imperfection, while inherent, could be revealed only in experience. As they gradually deepened a sense of need which they could not satisfy, more and more clearly they pointed away from themselves to that transaction which alone could realize in fact what they express in symbol. A harmony such as obtained between Old Testament sacrifice and the death of Christ could only be the result of design. It is all one movement, one fundamental operation; historically prefigured and prepared for by anticipation, and historically realized. Old Testament sacrifice was instituted both to prefigure and to prepare the way for the sacrifice of Christ in the very process of fulfilling its natural historic function in the economy of Israel.",
+          "target": "). Cette conception est justifiée par les faits. Selon le Dr Davidson (op. cit., p. 239), l'élément prédictif des sacrifices de l'Ancien Testament résidait dans leur imperfection. Cette imperfection, bien qu'inhérente à ces sacrifices, ne pouvait se révéler qu'à travers l'expérience. En approfondissant progressivement un sentiment de besoin qu'ils étaient incapables de satisfaire, ils détournaient de plus en plus clairement l'attention d'eux-mêmes vers l'acte qui, seul, pouvait réaliser effectivement ce qu'ils exprimaient symboliquement. Une harmonie telle que celle qui existe entre les sacrifices de l'Ancien Testament et la mort du Christ ne pouvait résulter que d'un dessein. Il s'agit d'un seul et même mouvement, d'une seule opération fondamentale, préfigurée et préparée historiquement par anticipation, puis réalisée dans l'histoire. Les sacrifices de l'Ancien Testament furent institués à la fois pour préfigurer le sacrifice du Christ et lui préparer la voie, au moment même où ils remplissaient leur fonction historique naturelle dans l'économie d'Israël.",
+          "action": "translate"
+        },
+        {
+          "node": 113,
+          "part": "text",
+          "source": "4. Conclusion:",
+          "target": "4. Conclusion :",
+          "action": "translate"
+        },
+        {
+          "node": 113,
+          "part": "tail",
+          "source": " The total outcome of the discussion is this: the interpretation of these representative Old Testament ideas and institutions as referring to Christ and anticipating His advent is no illegitimate use of the principle of accommodation. The future reference which takes in the entire historical process which culminates in Christ lies within the immediate and original application and constitutes an essential element of its contemporary value. The original statement is in its very nature predictive and is one in doctrinal principle and historic continuity with that which forms its fulfillment.",
+          "target": " Voici donc le résultat d'ensemble de cette discussion : interpréter ces idées et institutions représentatives de l'Ancien Testament comme se rapportant au Christ et annonçant sa venue n'est pas faire un usage illégitime du principe d'accommodation. Leur portée future, qui embrasse tout le déroulement historique culminant en Christ, appartient à leur application immédiate et originelle et constitue un élément essentiel de leur valeur pour leurs contemporains. L'énoncé premier est prédictif par sa nature même et ne fait qu'un, par son principe doctrinal et par sa continuité historique, avec ce qui en constitue l'accomplissement.",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "text",
+          "source": "IV. Accommodation in Revelation.",
+          "target": "IV. L'accommodation dans la révélation.",
+          "action": "translate"
+        },
+        {
+          "node": 117,
+          "part": "text",
+          "source": "1. General Principles:",
+          "target": "1. Principes généraux :",
+          "action": "translate"
+        },
+        {
+          "node": 118,
+          "part": "text",
+          "source": "(1) It is evident that God's revelation to men must be conveyed in comprehensible terms and adjusted to the nature of the human understanding. That is clearly not a revelation which does not reveal. A disclosure of God's character and ways to men revolves the use and control of the human spirit in accordance with its constitution and laws. The doctrine of inspiration inseparable from that of revelation implies such a divine control of human faculties as to enable them, still freely working within their own normal sphere, to apprehend and interpret truth otherwise beyond their reach.",
+          "target": "(1) Il est évident que la révélation de Dieu aux hommes doit être communiquée en des termes compréhensibles et adaptée à la nature de l'intelligence humaine. Une révélation qui ne révèle rien n'en est manifestement pas une. Faire connaître aux hommes le caractère et les voies de Dieu suppose l'utilisation et la direction de l'esprit humain conformément à sa constitution et à ses lois. La doctrine de l'inspiration, inséparable de celle de la révélation, implique une telle action divine sur les facultés humaines qu'elles puissent, tout en s'exerçant librement dans leur domaine normal, saisir et interpréter une vérité qui, autrement, demeurerait hors de leur portée.",
+          "action": "translate"
+        },
+        {
+          "node": 119,
+          "part": "text",
+          "source": "(2) The Bible teaches that in the height and depth of His being God is unsearchable. His mind and the human mind are quantitatively incommensurable. Man cannot by searching find out God. His ways are not our ways and His thoughts are not our thoughts.",
+          "target": "(2) La Bible enseigne que Dieu est insondable dans la hauteur et la profondeur de son être. Il n'existe pas de commune mesure quantitative entre son intelligence et celle de l'homme. L'homme ne peut découvrir Dieu par ses recherches. Ses voies ne sont pas nos voies et ses pensées ne sont pas nos pensées.",
+          "action": "translate"
+        },
+        {
+          "node": 120,
+          "part": "text",
+          "source": "(3) But, on the other hand, the Bible affirms with equal emphasis the essential qualitative kinship of the divine and the human constitutions God is spirit--man is spirit also. Man is made in the image of God and made to know God. These two principles together affirm the necessity and the possibility of revelation. Revelation, considered as an exceptional order of experience due to acts of God performed with the purpose of making Himself known in personal relationship with man, is necessary because man's finite nature needs guidance. Revelation is possible because man is capable of such guidance. The Bible affirms that God's thoughts are not our thoughts, but that they may become ours because God can utter them so that we can receive them.",
+          "target": "(3) D'autre part, la Bible affirme avec autant de force une parenté essentielle, d'ordre qualitatif, entre la constitution divine et la constitution humaine. Dieu est esprit, et l'homme est également esprit. L'homme est fait à l'image de Dieu et pour connaître Dieu. Ensemble, ces deux principes affirment la nécessité et la possibilité de la révélation. Considérée comme un ordre d'expérience exceptionnel résultant d'actes de Dieu accomplis pour se faire connaître dans une relation personnelle avec l'homme, la révélation est nécessaire parce que la nature finie de l'homme a besoin d'être guidée. Elle est possible parce que l'homme est capable de recevoir une telle direction. La Bible affirme que les pensées de Dieu ne sont pas nos pensées, mais qu'elles peuvent devenir les nôtres parce que Dieu sait les exprimer de façon que nous puissions les recevoir.",
+          "action": "translate"
+        },
+        {
+          "node": 121,
+          "part": "text",
+          "source": "(4) These two principles lead to a most important conclusion. In all discussions of the principle of accommodation it is to be remembered that the capacity of the human mind to construct does not measure its capacity to receive and appropriate. The human mind can be taught what it cannot independently discover. No teacher is limited by the capacity of his pupils to deal unaided with a subject of study. He is limited only by their capacity to follow him in his processes of thought and exposition. The determining factor in revelation, which is a true educative process, is the mind of God which stamps itself upon the kindred and plastic mind of man.",
+          "target": "(4) Ces deux principes conduisent à une conclusion de la plus haute importance. Dans toute discussion du principe d'accommodation, il faut se rappeler que la capacité de l'esprit humain à élaborer une connaissance n'est pas la mesure de sa capacité à recevoir et à s'approprier cette connaissance. L'esprit humain peut apprendre ce qu'il serait incapable de découvrir par lui-même. Aucun maître n'est limité par la capacité de ses élèves à traiter seuls un sujet d'étude. Il ne l'est que par leur capacité à suivre sa pensée et ses explications. Le facteur déterminant de la révélation, qui est un véritable processus éducatif, est l'intelligence de Dieu imprimant sa marque sur l'intelligence humaine, apparentée à la sienne et capable d'être formée.",
+          "action": "translate"
+        },
+        {
+          "node": 123,
+          "part": "text",
+          "source": "2. Accommodation a Feature of Progressive Revelation:",
+          "target": "2. L'accommodation, caractéristique de la révélation progressive :",
+          "action": "translate"
+        },
+        {
+          "node": 124,
+          "part": "text",
+          "source": "(1) The beginnings of revelation. Since man's experience is organically conditioned he is under the law of growth. His entire mental and spiritual life is related to his part and lot in the kingdom of organisms. The very laws of his mind reveal themselves only upon occasion in experience. While it is true that his tendencies are innate, so that he is compelled to think and to feel in certain definite ways, yet it is true that he can neither think nor feel at all except as experience presents material for thought and applies stimulus to feeling Man must bye in order to learn. He must, therefore, learn gradually. This fact conditions all revelation. Since it must deal with men it must be progressive, and since it must be progressive it must necessarily involve, in its earlier stages, the principle of accommodation. In order to gain access to man's mind it must take him where he is and link itself with his natural aptitudes and native modes of thought. Since revelation involves the endeavor to form in the mind of man the idea of God in order that a right relationship with Him may be established, it enters both the intellectual and moral life of the human race and must accommodate itself to the humble beginnings of early human experience. The chief problem of revelation seems to have been to bring these crude beginnings within the scope of a movement the aim and end of which is perfection.",
+          "target": "(1) Les commencements de la révélation. Parce que l'expérience humaine est conditionnée de manière organique, l'homme est soumis à la loi de la croissance. Toute sa vie intellectuelle et spirituelle est liée à la place qui lui revient dans le règne des organismes. Les lois mêmes de son esprit ne se manifestent que dans les occasions offertes par l'expérience. Certes, ses tendances sont innées, si bien qu'il est contraint de penser et de sentir selon certaines voies déterminées. Mais il ne peut penser ni éprouver quoi que ce soit sans que l'expérience fournisse à sa pensée une matière et stimule ses sentiments. L'homme doit vivre pour apprendre ; il apprend donc nécessairement par étapes. Ce fait conditionne toute révélation. Puisqu'elle s'adresse aux hommes, elle doit être progressive ; et puisqu'elle est progressive, elle implique nécessairement, dans ses premières étapes, le principe de l'accommodation. Pour accéder à l'esprit humain, elle doit rejoindre l'homme là où il se trouve et s'appuyer sur ses dispositions naturelles ainsi que sur ses modes de pensée spontanés. Puisque la révélation cherche à former dans l'esprit humain une idée de Dieu afin qu'une relation juste avec lui puisse être établie, elle pénètre à la fois la vie intellectuelle et morale de l'humanité et doit s'adapter aux humbles commencements de l'expérience humaine. Le problème majeur de la révélation semble avoir été d'intégrer ces débuts rudimentaires dans un mouvement dont le but et l'aboutissement sont la perfection.",
+          "action": "translate"
+        },
+        {
+          "node": 125,
+          "part": "text",
+          "source": "The application of the principle of accommodation to early human experience with a view to progress is accomplished by doing what at first thought seems to negate the very principle upon which the mental and moral life of man must permanently rest.",
+          "target": "L'application du principe d'accommodation à la première expérience humaine, en vue de son progrès, se réalise d'une manière qui semble, à première vue, nier le principe même sur lequel la vie intellectuelle et morale de l'homme doit durablement reposer.",
+          "action": "translate"
+        },
+        {
+          "node": 126,
+          "part": "text",
+          "source": "(a) It involves the authoritative revelations of incomplete and merely tentative truths.",
+          "target": "(a) Elle implique la révélation, avec autorité, de vérités incomplètes et simplement provisoires.",
+          "action": "translate"
+        },
+        {
+          "node": 127,
+          "part": "text",
+          "source": "(b) It involves also the positive enactment of rudimentary and imperfect morality.",
+          "target": "(b) Elle implique aussi l'établissement positif d'une morale rudimentaire et imparfaite.",
+          "action": "translate"
+        },
+        {
+          "node": 128,
+          "part": "text",
+          "source": "In both these particulars Scripture has accommodated itself to crude early notions and placed the seal of authority upon principles which are outgrown and discarded within the limits of Scripture itself. But in so doing Scripture has saved the very interests it has seemed to imperil by virtue of two features of the human constitution which in themselves lay hold upon perfection and serve to bind together the crude beginnings and the mature achievements of the human race. These two principles are",
+          "target": "Dans ces deux domaines, l'Écriture s'est adaptée aux conceptions grossières des premiers temps et a revêtu de l'autorité des principes qui seront dépassés et abandonnés dans les limites de l'Écriture elle-même. Mais, ce faisant, elle a sauvegardé les intérêts mêmes qu'elle semblait compromettre, grâce à deux caractéristiques de la constitution humaine qui, par elles-mêmes, se rattachent à la perfection et servent à relier les débuts rudimentaires et les réalisations mûres de l'humanité. Ces deux principes sont :",
+          "action": "translate"
+        },
+        {
+          "node": 129,
+          "part": "text",
+          "source": "(c) the idea of truth;",
+          "target": "(c) l'idée de vérité ;",
+          "action": "translate"
+        },
+        {
+          "node": 130,
+          "part": "text",
+          "source": "(d) the idea of obligation.",
+          "target": "(d) l'idée d'obligation.",
+          "action": "translate"
+        },
+        {
+          "node": 131,
+          "part": "text",
+          "source": "(2) It is mainly due to these two factors of human nature that any progress in truth and conduct is possible to men. What is true or right in matter of specific fact varies in the judgment of different individuals and of different ages. But the august and compelling twin convictions of truth and right, as absolute, eternal, authoritative, are present from the beginning of human history to the end of it. Scripture seizes upon the fact that these great ideas may be enforced through crude human conceptions and at very rudimentary stages of culture, and enforcing them by means of revelation and imperative law brings man to the test of truth and right and fosters his advance to larger conceptions and broader applications of both fundamental principles. Canon Mozley in discussing this principle of accommodation on its moral side, its necessity and its fruitfulness, says: \"How can the law properly fulfill its object of correcting and improving the moral standard of men, unless it first maintains in obligation the standard which already exists? Those crudely delineated conceptions, which it tends ultimately to purify and raise, it must first impose\" (Ruling Ideas in Early Ages, 183; compare ",
+          "target": "(2) C'est principalement à ces deux facteurs de la nature humaine que les hommes doivent la possibilité de progresser en matière de vérité et de conduite. Ce qui est vrai ou juste dans tel fait particulier varie selon le jugement des individus et des époques. Mais les deux grandes convictions de la vérité et du bien, considérés comme absolus, éternels et faisant autorité, s'imposent avec majesté depuis le commencement de l'histoire humaine jusqu'à son terme. L'Écriture prend acte du fait que ces grandes idées peuvent être imposées au moyen de conceptions humaines grossières et à des stades culturels encore très élémentaires. En les faisant valoir par la révélation et par une loi impérative, elle place l'homme devant l'exigence du vrai et du juste et favorise sa progression vers des conceptions plus vastes et des applications plus larges de ces deux principes fondamentaux. Le chanoine Mozley, examinant ce principe d'accommodation sous son aspect moral, sa nécessité et sa fécondité, écrit : « Comment la loi pourrait-elle convenablement remplir son objet, qui est de corriger et d'élever la norme morale des hommes, si elle ne maintenait pas d'abord comme obligatoire la norme déjà existante ? Ces conceptions grossièrement dessinées, qu'elle tend finalement à purifier et à élever, elle doit d'abord les imposer » (Ruling Ideas in Early Ages, p. 183 ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 132,
+          "part": "tail",
+          "source": " with ",
+          "target": " avec ",
+          "action": "translate"
+        },
+        {
+          "node": 137,
+          "part": "text",
+          "source": "3. The Limits of Revelation:",
+          "target": "3. Les limites de la révélation :",
+          "action": "translate"
+        },
+        {
+          "node": 138,
+          "part": "text",
+          "source": "Since the chief end of revelation is to form the mind of man with reference to the purpose and will of God to the end that man may enter into fellowship with God, the question arises as to how far revelation will be accommodated by the limitation of its sphere. How far does it seek to form the mind and how far does it leave the mind to its own laws and to historical educative forces? Four foundation principles seem to be sufficiently clear:",
+          "target": "Puisque le but principal de la révélation est de former l'intelligence de l'homme relativement au dessein et à la volonté de Dieu afin de le conduire à la communion avec lui, la question se pose de savoir jusqu'où la révélation s'adapte en limitant son propre domaine. Jusqu'où cherche-t-elle à former l'intelligence, et dans quelle mesure la laisse-t-elle agir selon ses propres lois et les forces éducatives de l'histoire ? Quatre principes fondamentaux paraissent assez clairs :",
+          "action": "translate"
+        },
+        {
+          "node": 139,
+          "part": "text",
+          "source": "(a) Revelation accepts and uses at every stage of its history such materials from the common stock of human ideas as are true and of permanent worth. The superstructure of revelation rests upon a foundation of universal and fundamental human convictions. It appeals continually to the rooted instructs and regulative ideas of the human soul deeply implanted as a preparation for revelation.",
+          "target": "(a) À chaque étape de son histoire, la révélation accueille et utilise, parmi le fonds commun des idées humaines, les éléments vrais et d'une valeur permanente. L'édifice de la révélation repose sur un fondement de convictions humaines universelles et fondamentales. Elle en appelle continuellement aux instincts enracinés et aux idées directrices profondément inscrites dans l'âme humaine comme une préparation à la révélation.",
+          "action": "translate"
+        },
+        {
+          "node": 140,
+          "part": "text",
+          "source": "(b) Regard is paid in Scripture to man's nature as free and responsible. He is a rational being who must be taught through persuasion; he is a moral being who must be controlled through his conscience and will. There must be, therefore, throughout the process of revelation an element of free, spontaneous, unforced life in and through which the supernatural factors work.",
+          "target": "(b) L'Écriture tient compte de la nature libre et responsable de l'homme. Être raisonnable, il doit être instruit par la persuasion ; être moral, il doit être dirigé par sa conscience et sa volonté. Il doit donc subsister, tout au long du processus de révélation, une part de vie libre, spontanée et non contrainte, en laquelle et par laquelle agissent les facteurs surnaturels.",
+          "action": "translate"
+        },
+        {
+          "node": 141,
+          "part": "text",
+          "source": "(c) Revelation must have reference, even in its earliest phases of development, to the organism of truth as a whole. What is actually given at any time must contribute its quota to the ultimate summing up and completion of the entire process.  (d) Revelation must guard against injurious errors which trench upon essential and vital matters. In short, the consistency and integrity of the movement through which truth is brought to disclosure must sacredly be guarded; while, at the same time, since it is God and man who are coming to know each other, revelation must be set in a broad environment of human life and entrusted to the processes of history. See ",
+          "target": "(c) Dès ses premières étapes, la révélation doit se rapporter à l'ensemble organique de la vérité. Chaque élément effectivement donné à un moment déterminé doit apporter sa contribution au rassemblement et à l'achèvement ultimes du processus tout entier. (d) La révélation doit préserver des erreurs nuisibles qui touchent aux questions essentielles et vitales. Bref, il faut garder scrupuleusement la cohérence et l'intégrité du mouvement qui dévoile la vérité. Dans le même temps, puisque Dieu et l'homme apprennent à se connaître l'un l'autre, la révélation doit prendre place dans le vaste cadre de la vie humaine et être confiée au déroulement de l'histoire. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 142,
+          "part": "text",
+          "source": "REVELATION",
+          "target": "RÉVÉLATION",
+          "action": "translate"
+        },
+        {
+          "node": 144,
+          "part": "text",
+          "source": "4. The Outcome of Revelation:",
+          "target": "4. L'aboutissement de la révélation :",
+          "action": "translate"
+        },
+        {
+          "node": 144,
+          "part": "tail",
+          "source": " It is now our task briefly to notice how in Scripture these interests are safeguarded. We must notice (a) the principle of accommodation in general. It has often been pointed out that in every book of the Bible the inimitable physiognomy of the writer and the age is preserved; that the Biblical language with reference to Nature is the language of phenomena; that its doctrines are stated vividly, tropically, concretely and in the forms of speech natural to the age in which they were uttered; that its historical documents are, for the most part, artless annals of the ancient oriental type, that it contains comparatively little information concerning Nature or man which anticipates scientific discovery or emancipates the religious man who accepts it as a guide from going to school to Nature and human experience for such information. All this, of course, without touching upon disputed points or debated questions of fact, involves, from the point of view of the Divine mind to which all things are known, and of the human mind to which certain facts of Nature hidden in antiquity have been disclosed, the principles of accommodation. Over against this we must set certain contrasting facts:",
+          "target": " Il nous faut maintenant relever brièvement comment l'Écriture préserve ces intérêts. Notons d'abord (a) le principe d'accommodation en général. On a souvent fait observer que chaque livre de la Bible conserve la physionomie inimitable de son auteur et de son époque ; que le langage biblique concernant la nature est celui des phénomènes tels qu'ils se présentent ; que ses doctrines sont exprimées d'une façon vive, imagée et concrète, dans les formes de langage propres à l'époque où elles furent énoncées ; que ses documents historiques sont, pour la plupart, des annales sans apprêt du type oriental ancien ; qu'elle contient relativement peu de renseignements sur la nature ou sur l'homme qui anticipent les découvertes scientifiques ou dispensent le croyant qui la prend pour guide de s'instruire auprès de la nature et de l'expérience humaine dans ces domaines. Tout cela, bien entendu sans trancher les points contestés ni les questions de fait débattues, implique les principes de l'accommodation, si l'on considère à la fois l'intelligence divine, à laquelle tout est connu, et l'intelligence humaine, à laquelle ont été révélés certains faits de la nature ignorés dans l'Antiquité. En regard, il faut toutefois placer plusieurs faits contrastants :",
+          "action": "translate"
+        },
+        {
+          "node": 145,
+          "part": "text",
+          "source": "(b) The Scripture shows a constant tendency to transcend itself and to bring the teaching of the truth to a higher level. The simple, primitive ideas and rites of the patriarchal age are succeeded by the era of organized national life with its ideal of unity and the intensified sense of national calling and destiny under the leadership of God. The national idea of church and kingdom broadens out into the universal conception and world-wide mission of Christianity. The sacrificial symbolism of the Old Testament gives way to the burning ethical realities of the Incarnate Life. The self-limitation of the Incarnation broadens out into the world-wide potencies of the era of the Spirit who uses the letter of Scripture as the instrument of His universal ministry. It is thus seen that by the progressive method through a cumulative process God has gradually transcended the limitation of His instruments while at the same time He has continuously broadened and deepened the Spirit of man to receive His self-disclosure.",
+          "target": "(b) L'Écriture manifeste une tendance constante à se dépasser elle-même et à porter l'enseignement de la vérité à un niveau supérieur. Aux idées et aux rites simples et primitifs de l'époque patriarcale succède l'ère d'une vie nationale organisée, avec son idéal d'unité et un sens plus aigu de la vocation et de la destinée du peuple sous la conduite de Dieu. L'idée nationale de l'Église et du royaume s'élargit en la conception universelle et la mission mondiale du christianisme. Le symbolisme sacrificiel de l'Ancien Testament cède la place aux réalités éthiques brûlantes de la vie incarnée. L'autolimitation de l'Incarnation s'élargit aux puissances universelles de l'ère de l'Esprit, qui se sert de la lettre de l'Écriture comme instrument de son ministère universel. On voit ainsi que, par une méthode progressive et un processus cumulatif, Dieu a peu à peu dépassé les limites de ses instruments, tout en élargissant et en approfondissant continuellement l'esprit humain pour qu'il puisse recevoir la révélation que Dieu donne de lui-même.",
+          "action": "translate"
+        },
+        {
+          "node": 146,
+          "part": "text",
+          "source": "(c) More than this, Scripture throughout is marked by a certain distract and unmistakable quality of timelessness. It continually urges and suggests the infinite, the eternal, the unchangeable. It is part of the task of revelation to anticipate so as to guide progress. At every stage it keeps the minds of men on the stretch with a truth that they are not able at that stage easily to apprehend. The inexhaustible vastness and the hidden fullness of truth are everywhere implied. Prophets and Apostles are continually in travail with truths brought to their own ages from afar. The great fundamental verities of Scripture are stated with uncompromising fullness and finality. There is no accommodation to human weakness or error. Its ideals, its standards, its conditions are absolute and inviolate.",
+          "target": "(c) En outre, l'Écriture tout entière porte une qualité bien distincte et indéniable qui la situe au-delà du temps. Elle oriente et attire sans cesse vers l'infini, l'éternel, l'immuable. L'une des tâches de la révélation est d'anticiper afin de guider le progrès. À chaque étape, elle maintient l'intelligence humaine tendue vers une vérité qu'elle ne peut encore facilement saisir. L'immensité inépuisable et la plénitude cachée de la vérité sont partout sous-entendues. Prophètes et apôtres sont sans cesse travaillés par des vérités venues de loin jusqu'à leur époque. Les grandes vérités fondamentales de l'Écriture sont proclamées avec une plénitude et une autorité définitive qui ne souffrent aucun compromis. Il n'y a là aucune accommodation à la faiblesse ou à l'erreur humaines. Ses idéaux, ses normes et ses exigences sont absolus et inviolables.",
+          "action": "translate"
+        },
+        {
+          "node": 147,
+          "part": "text",
+          "source": "Not only has Israel certain fundamental ideas which are peculiar to herself, but there has been an organizing spirit, an \"unique spirit of inspiration\" which has modified and transformed the materials held by her in common with her Semitic kindred. Even her inherited ideas and Institutions are transformed and infused with new meanings. We note the modification of Semitic customs, as for example in blood revenge, by which savagery has been mitigated and evil associations eliminated. We note the paucity of mythological material. If the stories of Adam, Abraham, Isaac, Jacob, and Samson were originally mythological, they have ceased to be such in the Bible. They have been humanized and stripped of superhuman features. (See Fable, HGHL, 220 ff.)",
+          "target": "Non seulement Israël possède certaines idées fondamentales qui lui sont propres, mais un principe organisateur, un « esprit d'inspiration unique », a modifié et transformé les éléments qu'elle partageait avec les peuples sémitiques apparentés. Même ses idées et ses institutions héritées ont été transformées et investies de significations nouvelles. Nous constatons ainsi que des coutumes sémitiques, comme la vengeance du sang, ont été modifiées : leur sauvagerie a été atténuée et leurs associations avec le mal éliminées. Nous constatons aussi la rareté des éléments mythologiques. Si les récits d'Adam, d'Abraham, d'Isaac, de Jacob et de Samson étaient à l'origine mythologiques, ils ont cessé de l'être dans la Bible. Ils ont été humanisés et dépouillés de leurs traits surhumains (voir Fable, HGHL, p. 220 et suiv.).",
+          "action": "translate"
+        },
+        {
+          "node": 148,
+          "part": "text",
+          "source": "If we yield to the current hypothesis as to the Babylonian background of the narratives in Gen, we are still more profoundly impressed with that unique assimilative power, working in Israel, which has enabled the Biblical writers to eradicate the deep-seated polytheism of the Babylonian documents and to stamp upon them the inimitable features of their own high monotheism (see ",
+          "target": "Même si nous admettons l'hypothèse courante d'un arrière-plan babylonien aux récits de la Genèse, nous sommes plus profondément encore frappés par cette puissance d'assimilation unique, à l'œuvre en Israël, qui a permis aux écrivains bibliques d'éradiquer le polythéisme profondément enraciné dans les documents babyloniens et de leur imprimer les traits inimitables de leur propre monothéisme élevé (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 149,
+          "part": "text",
+          "source": "BABYLONlA",
+          "target": "BABYLONIE",
+          "action": "translate"
+        },
+        {
+          "node": 149,
+          "part": "tail",
+          "source": "). We note the reserve of Scripture, the constant restraint exercised upon the imagination, the chastened doctrinal sobriety in the Bible references to angels and demons, in its Apocalyptic imagery, in its Messianic promises, in its doctrines of rewards and punishments. In all these particulars the Bible stands unique by contrast, not merely with popular thought, but with the extra-canonical literature of the Jewish people (see ",
+          "target": "). Nous remarquons la retenue de l'Écriture, les limites constamment imposées à l'imagination, la sobriété doctrinale épurée des mentions bibliques des anges et des démons, de son imagerie apocalyptique, de ses promesses messianiques et de ses doctrines des récompenses et des châtiments. Sur tous ces points, la Bible se distingue de manière unique, non seulement des idées populaires, mais aussi de la littérature extracanoni­que du peuple juif (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 150,
+          "part": "text",
+          "source": "DEMON",
+          "target": "DÉMON",
+          "action": "translate"
+        },
+        {
+          "node": 150,
+          "part": "tail",
+          "source": ", etc.).",
+          "target": ", etc.).",
+          "action": "preserve",
+          "reason": "Historical punctuation and conventional 'etc.' retained after source-owned cross-reference"
+        },
+        {
+          "node": 152,
+          "part": "text",
+          "source": "5. The Question as to Christ's Method:",
+          "target": "5. La question de la méthode du Christ :",
+          "action": "translate"
+        },
+        {
+          "node": 153,
+          "part": "text",
+          "source": "We come at this point upon a most central and difficult problem. It is, of course, alleged that Christ adopted the attitude of concurrence, which was also one of accommodation, in popular views concerning angels and demons, etc. It is disputed whether this goes back to the essential accommodation involved in the self-limiting of the Incarnation so that as man He should share the views of His contemporaries, or whether, with wider knowledge, He accommodated Himself for pedagogical purposes to erroneous views of the untaught people about Him (see DCG, article \"Accommodation\"). The question is complicated by our ignorance of the facts. We cannot say that Jesus accommodated Himself to the ignorance of the populace unless we are ready to pronounce authoritatively upon the truth or falseness of the popular theory. It is not our province in this article to enter upon that discussion (see ",
+          "target": "Nous abordons ici un problème central et particulièrement difficile. On soutient, bien entendu, que le Christ a adopté une attitude d'assentiment, qui constituait aussi une accommodation, à l'égard des opinions populaires concernant les anges, les démons, etc. On débat pour savoir si cette attitude relève de l'accommodation essentielle impliquée par l'autolimitation de l'Incarnation, de sorte que, comme homme, il aurait partagé les opinions de ses contemporains ; ou si, possédant une connaissance plus étendue, il se serait adapté, à des fins pédagogiques, aux opinions erronées du peuple peu instruit qui l'entourait (voir DCG, article « Accommodation »). Notre ignorance des faits complique la question. Nous ne pouvons affirmer que Jésus se serait adapté à l'ignorance de la population sans être prêts à nous prononcer avec autorité sur la vérité ou la fausseté de l'opinion populaire. Il ne nous appartient pas, dans cet article, d'entrer dans cette discussion (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 154,
+          "part": "text",
+          "source": "INCARNATION",
+          "target": "INCARNATION",
+          "action": "preserve",
+          "reason": "Source-owned title of Incarnation entry is identical in French"
+        },
+        {
+          "node": 154,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 155,
+          "part": "text",
+          "source": "KENOSIS",
+          "target": "KÉNOSE",
+          "action": "translate"
+        },
+        {
+          "node": 155,
+          "part": "tail",
+          "source": "). We can only point out that the reserve of the New Testament and the absence of all imaginative extravagance shows that if accommodation has been applied it is most strictly limited in its scope. In this it is in harmony with the entire method of Scripture, where the ignorance of men is regarded in the presentation of God's truth, while at the same time their growing minds are protected against the errors which would lead them astray from the direct path of progress into the whole truth reserved in the Divine counsel.",
+          "target": "). Nous pouvons seulement faire remarquer que la réserve du Nouveau Testament et l'absence de toute extravagance imaginative montrent que, si l'accommodation a été employée, son domaine d'application était très strictement limité. En cela, elle s'accorde avec toute la méthode de l'Écriture, qui tient compte de l'ignorance des hommes lorsqu'elle présente la vérité divine, tout en préservant leurs intelligences en développement des erreurs qui les détourneraient du chemin direct du progrès vers la vérité entière réservée dans le conseil divin.",
+          "action": "translate"
+        },
+        {
+          "node": 157,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 157,
+          "part": "tail",
+          "source": " (a) For the first division of the subject consult standard works on Science of Interpretation and Homiletics sub loc.",
+          "target": " (a) Pour le premier volet du sujet, consulter les ouvrages de référence consacrés à la science de l'interprétation et à l'homilétique, aux entrées correspondantes.",
+          "action": "translate"
+        },
+        {
+          "node": 158,
+          "part": "text",
+          "source": "(b) For second division, among others, Dr. A. B. Davidson, Old Testament Prophecy; Dr. Willis J. Beecher, Prophets and Promise.",
+          "target": "(b) Pour le deuxième volet, voir entre autres le Dr A. B. Davidson, Old Testament Prophecy, et le Dr Willis J. Beecher, Prophets and Promise.",
+          "action": "translate"
+        },
+        {
+          "node": 159,
+          "part": "text",
+          "source": "(c) For the third division, the most helpful single work is the one quoted: Mozley, Ruling Ideas in Early Ages, published by Longmans as \"Old Testament Lectures.\"",
+          "target": "(c) Pour le troisième volet, l'ouvrage isolé le plus utile est celui déjà cité : Mozley, Ruling Ideas in Early Ages, publié par Longmans sous le titre « Old Testament Lectures ».",
+          "action": "translate"
+        },
+        {
+          "node": 160,
+          "part": "text",
+          "source": "Louis Matthews Sweet",
+          "target": "Louis Matthews Sweet",
+          "action": "preserve",
+          "reason": "Historical author's name retained without alteration"
+        }
+      ]
+    }
+  ]
+}
