@@ -94,7 +94,7 @@
       "source_article_sha256": "b5966386fb1ef81029fa5b099c19deebc628947edb47a257a5d0474b3ec71577",
       "original_markdown_paragraphs": 104,
       "source_template_characters": 49074,
-      "working_translation_status": "original_source_only_no_french_draft"
+      "working_translation_status": "complete_draft_pending_editorial_review"
     },
     {
       "index": 691,
@@ -133,7 +133,7 @@
       "working_translation_status": "original_source_only_no_french_draft"
     }
   ],
-  "status_note": "Five complete source-locked unreviewed first drafts on draft PR #160; nine further originals still untranslated; merged main remains 986/1000 until PR accepted; editorial approvals remain 0.",
+  "status_note": "Six complete source-locked unreviewed first drafts on draft PR #160; eight original articles still untranslated; main remains 986/1000 until merge; editorial approvals remain 0.",
   "source_flags": [
     {
       "key": "ALTAR",
@@ -142,6 +142,18 @@
     {
       "key": "APOCRYPHAL GOSPELS",
       "note": "Source digitization anomalies in 'Christian article', bibliographic 'Ac', and punctuation; corrected only contextually in French with English source unchanged. Historical witness collation pending."
+    },
+    {
+      "key": "ARABIA",
+      "block": 59,
+      "original": "temperature and rainfall depending not so much upon latitude as upon latitude",
+      "note": "Likely source corruption repeating latitude for altitude. Translation uses altitude from context; original English unchanged."
+    },
+    {
+      "key": "ARABIA",
+      "block": 149,
+      "original": "at tach",
+      "note": "Likely source digitization split of attach; translated naturally without changing original"
     }
   ]
 }
