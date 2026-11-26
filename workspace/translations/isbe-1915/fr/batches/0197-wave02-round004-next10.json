@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BORDERER",
+      "article_id": "isbe-e7d7c4ec463b2e6ce23c",
+      "source_article_sha256": "de47e5c879f4fce229c64adc8bf747520b25cd3af0891ccccee36d23b389fa80",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BORDERER",
+          "target": "HABITANT DES FRONTIÈRES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bor'-der-er (parakeimenous): One who dwells on the borders or confines of a country. Only in 2 Macc 9:25, \"The princes that are borderers and neighbors unto my kingdom.\"",
+          "target": "bor'-der-er (parakeimenous) : Personne qui habite à la frontière ou aux confins d'un pays. Uniquement en 2 Maccabées 9.25 : « Les princes frontaliers et voisins de mon royaume. »",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BORITH",
+      "article_id": "isbe-7c8bd40d68c3e68b8dc6",
+      "source_article_sha256": "4ea745ba954947fd5f5116bef978de2d42d18d7094f2b17045d27e23c917a327",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BORITH",
+          "target": "BORITH",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bo'-rith: Mentioned in the genealogical table which traces the descent of Esdras (Ezra) from Aaron (2 Esdras 1:2). In 1 Esdras 8:2, his name appears as ",
+          "target": "bo'-rith : Mentionné dans le tableau généalogique faisant remonter la lignée d'Esdras (Ezra) jusqu'à Aaron (2 Esdras 1.2). En 1 Esdras 8.2, son nom apparaît sous la forme ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BOCCAS",
+          "target": "BOCCAS",
+          "action": "preserve",
+          "reason": "Historical pronunciation or proper-name fragment retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see), and in ",
+          "target": " (voir ce nom), et en ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "BUKKI",
+          "target": "BUKKI",
+          "action": "preserve",
+          "reason": "Historical pronunciation or proper-name fragment retained"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir ce nom).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOSS",
+      "article_id": "isbe-012017138717015528f7",
+      "source_article_sha256": "6578932fda0c06ad00ab9b847629b9bf562d2dcecb5ef3fb0455b4a6fae3db64",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOSS",
+          "target": "BOSSE DU BOUCLIER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bos: Occurs only in the plural as a translation of gabh = \"arch,\" or \"protuberance,\" referring to the curved ornaments of a shield (",
+          "target": "bos : Ne se rencontre qu'au pluriel, comme traduction de gabh, « arc » ou « protubérance », désignant les ornements bombés d'un bouclier (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), the central knob of the buckler.",
+          "target": "), notamment le bouton central de la rondache.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRAG",
+      "article_id": "isbe-8b2a6536307a20071c50",
+      "source_article_sha256": "2ff1f03796aa3a75a60ade8e24a480687d3ab5fb2671e2e917e2e066dbffcdfa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRAG",
+          "target": "SE VANTER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "(megalaucheo, \"proud brags\"): Occurs only in the Apocrypha (2 Macc 15:32), not being sufficiently dignified to be given a place in the canonical Scriptures by the King James translators (compare Judith 16:5).",
+          "target": "(megalaucheo, « vantardises orgueilleuses ») : Se rencontre seulement dans les Apocryphes (2 Maccabées 15.32) ; les traducteurs de la King James Version ne jugeaient pas ce terme suffisamment digne pour lui donner place dans les Écritures canoniques (comparer Judith 16.5).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRIDE-CHAMBER",
+      "article_id": "isbe-31ba4bbce8b3d3b04dd9",
+      "source_article_sha256": "8ba687f0cdac7721e017ad077a4577a32d4bd80b726f563df9edf18adb91dece",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRIDE-CHAMBER",
+          "target": "CHAMBRE NUPTIALE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "brid'-cham-ber (numphon): The room in which the marriage ceremonies were held (",
+          "target": "brid'-cham-ber (numphon) : Pièce où se déroulaient les cérémonies du mariage (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "CHAMBER",
+          "target": "CHAMBRE",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "MARRIAGE",
+          "target": "MARIAGE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRINK",
+      "article_id": "isbe-5f2e649cc121e0f280ec",
+      "source_article_sha256": "b00344a51d8ea9bc5b4be6ee57b566373eb6ff8ea435b71c8c056ceabe09fd03",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRINK",
+          "target": "BORD",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "brink: saphah, or sepheth = \"the lip,\" \"margin,\" \"bank,\" \"edge\" (",
+          "target": "brink : saphah ou sepheth, « lèvre », « marge », « rive », « bord » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); qatseh, or qetseh = \"an extremity,\" \"border,\" \"brim\" (",
+          "target": ") ; qatseh ou qetseh, « extrémité », « frontière », « rebord » (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "BRIM",
+          "target": "REBORD",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BROKENFOOTED",
+      "article_id": "isbe-1dee29888675a9babaae",
+      "source_article_sha256": "898eaa3a9a6b0c459d25ead45b7831a555fec41b938656ef0a4b5f283d4876fc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROKENFOOTED",
+          "target": "AYANT UN PIED FRACTURÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bro'-k'-n-foot-ed (shebher reghel): In ",
+          "target": "bro'-k'-n-foot-ed (shebher reghel) : En ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", one of the blemishes which prevented a man of priestly descent from the execution of the priestly office.",
+          "target": ", l'une des infirmités empêchant un homme de descendance sacerdotale d'exercer les fonctions de prêtre.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BROKENHANDED",
+      "article_id": "isbe-96e3ccb32516958e1c2d",
+      "source_article_sha256": "0f4136ec650ad40093340e8c36dab88571af968f93845cb0bcf7831e7d07b64a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROKENHANDED",
+          "target": "AYANT UNE MAIN FRACTURÉE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bro'-k'-n-hand-ed (shebher yadh): In ",
+          "target": "bro'-k'-n-hand-ed (shebher yadh) : En ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " one of the blemishes which prevented a man of priestly descent from the execution of the priestly office.",
+          "target": ", l'une des infirmités empêchant un homme de descendance sacerdotale d'exercer les fonctions de prêtre.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BUCKLER",
+      "article_id": "isbe-c50bc62d62fb6a36fd64",
+      "source_article_sha256": "4823f648b74dba96ed731da33d40142dfcf9112d5c34b4ce2785f4ba04c863c1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUCKLER",
+          "target": "BOUCLIER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "buk'-ler: God is called a \"buckler\" (the Revised Version (British and American) \"shield\") to them that trust Him (",
+          "target": "buk'-ler : Dieu est appelé « bouclier » (également « bouclier » dans la Revised Version britannique et américaine) pour ceux qui mettent leur confiance en lui (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "ARMOR",
+          "target": "ARMURE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BUGEAN",
+      "article_id": "isbe-0ad30c7c20b1fc154f50",
+      "source_article_sha256": "e7454c62c68debfa8091bf72a835ba61bbe039745f6f7fa40303fef60ada4a71",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUGEAN",
+          "target": "BUGÉEN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bu-je'-an, ba'-je-an (Bougaios): An epithet given to Haman in Apocrypha, Additions to Esther 12:6, the Revised Version (British and American); the King James Version has \"Agagite\".",
+          "target": "bu-je'-an, ba'-je-an (Bougaios) : Épithète donnée à Haman dans les Apocryphes, Additions à Esther 12.6, selon la Revised Version (britannique et américaine) ; la King James Version porte « Agaguite ».",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
