@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BRANDING",
+      "article_id": "isbe-b525c8e1dcd78533ad39",
+      "source_article_sha256": "cf4c68afe831403c9d4cecbf6828b5b8164ff8512a5e001b973bd11cca0caa79",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRANDING",
+          "target": "MARQUAGE AU FER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "PUNISHMENTS",
+          "target": "CHÂTIMENTS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRASEN",
+      "article_id": "isbe-e144be7019a609dfb4d3",
+      "source_article_sha256": "0666b890f88c72117d2232cdb4f7a017bed42da311166f81f6cc344ccec7786a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRASEN",
+          "target": "AIRAIN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bra'-z'-n.",
+          "target": "bra'-z'-n.",
+          "action": "preserve",
+          "reason": "Historical 1915 pronunciation preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BRASS",
+          "target": "AIRAIN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRAZEN",
+      "article_id": "isbe-a52debcb8c1f8feff413",
+      "source_article_sha256": "7fed131fbbdc55027f6b5b58107fe89f483627d7649f065f420cd78d89b027fe",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRAZEN",
+          "target": "AIRAIN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bra'-z'-n.",
+          "target": "bra'-z'-n.",
+          "action": "preserve",
+          "reason": "Historical 1915 pronunciation preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BRASS",
+          "target": "AIRAIN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRAZEN SEA",
+      "article_id": "isbe-0166ce3e598592c7f906",
+      "source_article_sha256": "92ff34954ef8c274538ebb38b4d6afb5e046a2a97cff4153f9759af71ac1ff1c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRAZEN SEA",
+          "target": "MER D'AIRAIN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SEA, THE MOLTEN",
+          "target": "MER DE FONTE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRAZEN SERPENT",
+      "article_id": "isbe-3e2f47a8ca7119711c21",
+      "source_article_sha256": "c21bbe29312dece68fdefa900ced060af3754d2eba64db3ca856cff22c97738f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRAZEN SERPENT",
+          "target": "SERPENT D'AIRAIN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "NEHUSHTAN",
+          "target": "NEHUSHTAN",
+          "action": "preserve",
+          "reason": "Original proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BREACH OF TRUST",
+      "article_id": "isbe-bd546b809c594690e63f",
+      "source_article_sha256": "c6167dc08bc27e07fd6b46ce53d3b683a292921f986954c2b96fc9e3349a4543",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BREACH OF TRUST",
+          "target": "ABUS DE CONFIANCE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CRIMES",
+          "target": "CRIMES",
+          "action": "preserve",
+          "reason": "Original proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BRETHREN",
+      "article_id": "isbe-c87ea558a6f51b271362",
+      "source_article_sha256": "0c8ea3074aa508865a8cb4c6fd6636ccd5e278aeccf43f3c9e90895c8aee6997",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRETHREN",
+          "target": "FRÈRES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "breth'-ren.",
+          "target": "breth'-ren.",
+          "action": "preserve",
+          "reason": "Historical 1915 pronunciation preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BROTHER",
+          "target": "FRÈRE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRIDE",
+      "article_id": "isbe-2069f1ba6a67eca59542",
+      "source_article_sha256": "8f8b6334e4ede4ec262cbe970bc223b3269bf2598cb88f86cbe00b96a07428b6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRIDE",
+          "target": "MARIÉE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "brid.",
+          "target": "brid.",
+          "action": "preserve",
+          "reason": "Original proper-name reference label retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "MARRIAGE",
+          "target": "MARIAGE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRIER",
+      "article_id": "isbe-bf4984ab4abcc8b84425",
+      "source_article_sha256": "77921de01070df869e362348262038431b25694e2648794d0e4009ed84e9a323",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRIER",
+          "target": "RONCE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bri'-er.",
+          "target": "bri'-er.",
+          "action": "preserve",
+          "reason": "Historical 1915 pronunciation preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "THORNS",
+          "target": "ÉPINES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BROAD PLACE",
+      "article_id": "isbe-bd17ec0fb13a1eeb6544",
+      "source_article_sha256": "6fabbfcab393be9e5178faf74a27ab0e25e2969dba5704018be9e5d7a654f10a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROAD PLACE",
+          "target": "GRANDE PLACE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CITY",
+          "target": "VILLE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BROWN",
+      "article_id": "isbe-25cee395924a79e7bb55",
+      "source_article_sha256": "cdbbee261721b610bfc5a22b272de355fdbe7365abfe6ea06f7ff5f4d23cb62d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROWN",
+          "target": "BRUN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "COLORS",
+          "target": "COULEURS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BUD",
+      "article_id": "isbe-9fff604da448819194d4",
+      "source_article_sha256": "03694b23dceb601baeb7926ce339918f3ea877271961c087192f4ea17fb9ba8e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUD",
+          "target": "BOURGEON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "FLOWERS",
+          "target": "FLEURS",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
