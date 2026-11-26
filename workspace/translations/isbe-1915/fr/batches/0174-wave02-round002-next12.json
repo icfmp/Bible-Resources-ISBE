@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BANDS, BEAUTY AND",
+      "article_id": "isbe-b7ecbaff82ca9fa2e57d",
+      "source_article_sha256": "1bfee96064a4e12ec210d37922cedbab3e1af98e050565b6e19f7bd58b255477",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANDS, BEAUTY AND",
+          "target": "LIENS, BEAUTÉ ET",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BEAUTY AND BANDS",
+          "target": "BEAUTÉ ET LIENS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BANIAS (2)",
+      "article_id": "isbe-effab2236a5557fb8f1e",
+      "source_article_sha256": "b438bfc0fb6bda16d0bd643b5ae74bc3aec31e6b0a4b5ca2916a9d69305bdbde",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANIAS (2)",
+          "target": "BANIAS (2)",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CAESAREA, PHILIPPI",
+          "target": "CÉSARÉE DE PHILIPPE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BANISHMENT",
+      "article_id": "isbe-84cc1029126f0c9554bb",
+      "source_article_sha256": "7c2e11e88d45ab109dc9cdb6104e12c4c7f5ff7cd7515c27eba9da2c7596eb78",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANISHMENT",
+          "target": "BANNISSEMENT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ban'-ish-ment.",
+          "target": "ban'-ish-ment.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "PUNISHMENTS",
+          "target": "CHÂTIMENTS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAPTIST",
+      "article_id": "isbe-f510a3e27cf55f182290",
+      "source_article_sha256": "5bfc0279eb90272cc79366083ff285e1fc06bcefc21a96155bcb065e810c4cc9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAPTIST",
+          "target": "BAPTISTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bap'-tist.",
+          "target": "bap'-tist.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "JOHN THE BAPTIST",
+          "target": "JEAN-BAPTISTE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BARACHIAS",
+      "article_id": "isbe-1190eeebed158a747b44",
+      "source_article_sha256": "48d10ecd1f9d5c65e99bda6eaadf78056b882ab04d29dce31a53416a2e7840a5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARACHIAS",
+          "target": "BARACHIAS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bar-a-ki'-as.",
+          "target": "bar-a-ki'-as.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BARACHIAH",
+          "target": "BARACHIAH",
+          "action": "preserve",
+          "reason": "Historical author signature or proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BARHUMITE",
+      "article_id": "isbe-e1d31239d3143b43e379",
+      "source_article_sha256": "ef9e99047f9c35adc813ab601ca4829aca9652928a26172b7d6e675118f9855a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARHUMITE",
+          "target": "BARHUMITE",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bar-hu'-mit.",
+          "target": "bar-hu'-mit.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BAHARUMITE",
+          "target": "BAHARUMITE",
+          "action": "preserve",
+          "reason": "Historical author signature or proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BARNABAS, EPISTLE OF",
+      "article_id": "isbe-95fc87d5cba959fe897e",
+      "source_article_sha256": "2105e049eaa6804525992c1b5bba0904c8e0845a6606259128059870c4a4e640",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARNABAS, EPISTLE OF",
+          "target": "ÉPÎTRE DE BARNABÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCRYPHAL EPISTLES",
+          "target": "ÉPÎTRES APOCRYPHES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BARNABAS, GOSPEL OF",
+      "article_id": "isbe-bc477bf56ae5566fe131",
+      "source_article_sha256": "69cba60a82d736f41245687dcae0347158dcdc4f68682373c92d8e22273ee0ae",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARNABAS, GOSPEL OF",
+          "target": "ÉVANGILE DE BARNABÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCRYPHAL GOSPELS",
+          "target": "ÉVANGILES APOCRYPHES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BARUCH, APOCALYPSE OF",
+      "article_id": "isbe-b982c30034e56c7d7294",
+      "source_article_sha256": "8b42b3b1a894a571ecb8c8279f18c1af2e485fcfe494195005513b7f970a88aa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARUCH, APOCALYPSE OF",
+          "target": "APOCALYPSE DE BARUCH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCALYPTIC LITERATURE",
+          "target": "LITTÉRATURE APOCALYPTIQUE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BASHEMATH",
+      "article_id": "isbe-fc8a1d8db3b2df4835ab",
+      "source_article_sha256": "4b394aaaabddf24d1abc9474268dddbd245a9e5245c9cc72c11f57f5c0027a3c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BASHEMATH",
+          "target": "BASHEMATH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bash'-e-math.",
+          "target": "bash'-e-math.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BASEMATH",
+          "target": "BASEMATH",
+          "action": "preserve",
+          "reason": "Historical author signature or proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BATH-RABBIM, THE GATE OF",
+      "article_id": "isbe-8994541b385723905be2",
+      "source_article_sha256": "81eb51fd78201a0b828de68bb153caa33e12a9827bbf9afcf708c7c5c653ef57",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BATH-RABBIM, THE GATE OF",
+          "target": "PORTE DE BATH-RABBIM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "W. Ewing",
+          "target": "W. Ewing",
+          "action": "preserve",
+          "reason": "Historical author signature or proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BATTERING-RAM",
+      "article_id": "isbe-9aa9d730050f0a0b3827",
+      "source_article_sha256": "e190d1451b504eca026f2005d19f5de39290844e73e114a6f9ab8e604f8a5e5e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BATTERING-RAM",
+          "target": "BÉLIER DE SIÈGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bat'-er-ing-ram.",
+          "target": "bat'-er-ing-ram.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SIEGE",
+          "target": "SIÈGE",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
