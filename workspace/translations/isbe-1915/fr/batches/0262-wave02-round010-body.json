@@ -1,0 +1,581 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BODY",
+      "article_id": "isbe-30e7e41efab31a8beaa5",
+      "source_article_sha256": "9cc5e4f19f282e16b78f275e4f2699832532e4f545507b838315c82ec8f4b77d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BODY",
+          "target": "CORPS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bod'-i:",
+          "target": "bod'-i :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "I. PHILOLOGICAL:",
+          "target": "I. PHILOLOGIE :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Generally speaking, the Old Testament language employs no fixed term for the human body as an entire organism in exact opposition to \"soul\" or \"spirit.\" Various terms were employed, each of which denotes only one part or element of the physical nature, such as \"trunk,\" \"bones,\" \"belly,\" \"bowels,\" \"reins,\" \"flesh,\" these parts being used, by synecdoche, for the whole: etsem = \"bone,\" or \"skeleton,\" hence, \"body,\" is found in ",
+          "target": "D'une manière générale, la langue de l'Ancien Testament n'emploie aucun terme fixe pour désigner le corps humain comme un organisme entier en opposition exacte à l'« âme » ou à l'« esprit ». Divers termes étaient employés, dont chacun ne désigne qu'une partie ou un élément de la nature physique, tels que « tronc », « os », « ventre », « entrailles », « reins », « chair », ces parties étant employées, par synecdoque, pour le tout : etsem = « os » ou « squelette », d'où « corps », se trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " the King James Version; ",
+          "target": " dans la King James Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "; nephesh = \"living organism\" (",
+          "target": "; nephesh = « organisme vivant » (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "); nebhelah = \"a flabby thing,\" \"carcass\" (",
+          "target": ") ; nebhelah = « une chose flasque », « cadavre » (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "); beTen = \"womb\" (",
+          "target": ") ; beTen = « sein maternel » (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": " the King James Version; ",
+          "target": " , King James Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "tail",
+          "source": "); yarekh = \"thigh,\" \"generative parts,\" \"body\" (",
+          "target": ") ; yarekh = « cuisse », « parties génitales », « corps » (",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": "); gewiyah = \"a body, whether alive or dead\" (",
+          "target": ") ; gewiyah = « un corps, vivant ou mort » (",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": " the King James Version; ",
+          "target": " , King James Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": "); me`im, \"body\" (",
+          "target": ") ; me`im, « corps » (",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "tail",
+          "source": "); guphah = \"corpse\" (",
+          "target": ") ; guphah = « cadavre » (",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "tail",
+          "source": "); gewah = \"the back,\" i.e. (by extension) \"person\" (",
+          "target": ") ; gewah = « le dos », c'est-à-dire (par extension) « personne » (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": "); she'er = \"flesh, as living or for food,\" \"body\" (",
+          "target": ") ; she'er = « chair, vivante ou destinée à la nourriture », « corps » (",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "tail",
+          "source": "); geshem = \"a hard shower of rain\" hence, \"a body\" (",
+          "target": ") ; geshem = « une forte averse de pluie », d'où « un corps » (",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "tail",
+          "source": "); nidhneh = \"a sheath,\" hence, the receptacle of the soul, \"body\" (",
+          "target": ") ; nidhneh = « un fourreau », d'où le réceptacle de l'âme, « corps » (",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "The Greek word which is used almost exclusively for \"body\" in the New Testament is soma, Latin corpus (",
+          "target": "Le mot grec employé presque exclusivement pour « corps » dans le Nouveau Testament est soma, latin corpus (",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "tail",
+          "source": "). chros, signifying primarily the \"surface\" or \"skin,\" occurs in ",
+          "target": "). chros, qui signifie principalement « surface » ou « peau », se trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "tail",
+          "source": ". A compound word with soma, as its base, sussomos = \"a member of the same body,\" occurs in ",
+          "target": ". Un mot composé ayant soma pour base, sussomos = « membre du même corps », se trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "tail",
+          "source": ". From the above, it appears that the New Testament places the body as a whole into opposition to the spirit or the invisible nature. Paul, of course, employs the term also to designate the sublimated substance with which we are to be clothed after the resurrection when he speaks of the \"spiritual body\" (",
+          "target": ". Il ressort de ce qui précède que le Nouveau Testament oppose le corps dans son ensemble à l'esprit ou à la nature invisible. Paul, bien entendu, emploie aussi ce terme pour désigner la substance sublimée dont nous devons être revêtus après la résurrection, lorsqu'il parle du « corps spirituel » (",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "Frank E. Hirsch",
+          "target": "Frank E. Hirsch",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "II. GENERAL:",
+          "target": "II. GÉNÉRALITÉS :",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "1. In the Old Testament:",
+          "target": "1. Dans l'Ancien Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "soma, Latin corpus: The term \"body\" is not found in the Hebrew of the Old Testament in the sense in which it occurs in the Greek \"The Hebrew word for `body' is gewiyah, which is sometimes used for the `living' body (",
+          "target": "soma, latin corpus : Le terme « corps » ne se trouve pas dans l'hébreu de l'Ancien Testament au sens où il apparaît en grec. « Le mot hébreu pour “corps” est gewiyah, qui est parfois employé pour le corps “vivant” (",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "tail",
+          "source": "), `bodies of the cherubim' (",
+          "target": "), “corps des chérubins” (",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "tail",
+          "source": "), but usually for the dead body or carcass. Properly speaking the Hebrew has no term for `body.' The Hebrew term around which questions relating to the body must gather is flesh\" (Davidson, Old Testament Theology, 188). Various terms are used in the Old Testament to indicate certain elements or component parts of the body, such as \"flesh,\" \"bones,\" \"bowels,\" \"belly,\" etc., some of which have received a new meaning in the New Testament. Thus the Old Testament \"belly\" (Hebrew beTen, Greek koilia), \"Our soul is bowed down to the dust; our belly cleaveth unto the earth\" (",
+          "target": "), mais généralement pour le corps mort ou le cadavre. À proprement parler, l'hébreu n'a pas de terme pour “corps”. Le terme hébreu autour duquel doivent se grouper les questions relatives au corps est chair » (Davidson, Old Testament Theology, 188). Divers termes sont employés dans l'Ancien Testament pour désigner certains éléments ou parties constitutives du corps, tels que « chair », « os », « entrailles », « ventre », etc., dont certains ont reçu un sens nouveau dans le Nouveau Testament. Ainsi le « ventre » de l'Ancien Testament (hébreu beTen, grec koilia), « Notre âme est courbée jusqu'à la poussière ; notre ventre adhère à la terre » (",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "tail",
+          "source": " the King James Version)--as the seat of carnal appetite--has its counterpart in the New Testament: \"They serve .... their own belly\" (",
+          "target": " , King James Version), comme siège de l'appétit charnel, trouve son pendant dans le Nouveau Testament : « Ils servent ... leur propre ventre » (",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "tail",
+          "source": "). So also the word translated \"bowels\" (meim, rachamim) in the sense of compassion, as in ",
+          "target": "). De même, le mot traduit par « entrailles » (meim, rachamim), au sens de compassion, comme en ",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "tail",
+          "source": ", King James Version: \"Therefore my bowels are troubled for him,\" is found in more than one place in the New Testament. Thus in ",
+          "target": ", King James Version : « C'est pourquoi mes entrailles sont émues pour lui », se trouve en plus d'un endroit dans le Nouveau Testament. Ainsi en ",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "tail",
+          "source": " the King James Version, \"I long after you all in the bowels (splagchna) of Christ,\" and again, \"if there be any bowels (splagchna) and mercies\" (",
+          "target": " dans la King James Version : « Je soupire après vous tous dans les entrailles (splagchna) de Christ », et encore : « s'il y a quelque affection des entrailles (splagchna) et quelque compassion » (",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "tail",
+          "source": " the King James Version).",
+          "target": " , King James Version).",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "2. In the New Testament:",
+          "target": "2. Dans le Nouveau Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "text",
+          "source": "\"Body\" in the New Testament is largely used in a figurative sense, either as indicating the \"whole man\" (",
+          "target": "« Corps » est largement employé dans le Nouveau Testament au sens figuré, soit pour désigner « l'homme tout entier » (",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "tail",
+          "source": "), or as that which is morally corrupt--\"the body of this death\" (",
+          "target": "), soit pour désigner ce qui est moralement corrompu : « le corps de cette mort » (",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "tail",
+          "source": "). Hence, the expression, \"buffet my body\" (",
+          "target": "). D'où l'expression « je frappe mon corps » (",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "tail",
+          "source": ", hupopiazo, a word adopted from the prize-ring, palaestra), the body being considered as the lurking-place and instrument of evil. (Compare ",
+          "target": ", hupopiazo, mot emprunté au pugilat, palaestra), le corps étant considéré comme le repaire et l'instrument du mal. (Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "tail",
+          "source": " the King James Version \"Mortify the deeds of the body.\")",
+          "target": " , King James Version : « Faites mourir les actions du corps. »)",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "3. Other Meanings:",
+          "target": "3. Autres significations :",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "Between these two the various other meanings seem to range. On the one hand we find the church called \"the body of Christ\" (",
+          "target": "Entre ces deux significations semblent se ranger les diverses autres. D'une part, nous trouvons l'Église appelée « le corps de Christ » (",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "tail",
+          "source": "), with diversity of gifts, enjoying the \"unity of the Spirit in the bond of peace.\" On the other we read of a spiritual, incorruptible body, a resurrection-body as opposed to the natural body, which is doomed to corruption in death (",
+          "target": "), qui, dans la diversité des dons, jouit de « l'unité de l'Esprit par le lien de la paix ». D'autre part, nous lisons qu'il existe un corps spirituel, incorruptible, un corps de résurrection opposé au corps naturel, qui est voué à la corruption dans la mort (",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "tail",
+          "source": "). Not only do we find these meanings in the word itself, but also in some of its combinations. On the one hand we read in ",
+          "target": "). Nous trouvons ces significations non seulement dans le mot lui-même, mais aussi dans certains de ses composés. D'une part, nous lisons en ",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "tail",
+          "source": " of the Gentiles as \"partakers of the promise in Christ\" as \"fellow- heirs,\" and \"of the same body\" (sussoma) in corporate union with all who put their trust in the Redeemer of mankind; on the other, we read of mere \"bodily (somatic) exercises,\" which are not profitable. (",
+          "target": " que les païens sont « participants de la promesse en Christ », « cohéritiers » et « membres du même corps » (sussoma), unis en un seul corps à tous ceux qui mettent leur confiance dans le Rédempteur de l'humanité ; d'autre part, nous lisons qu'il existe de simples « exercices corporels (somatiques) », qui ne sont pas profitables (",
+          "action": "translate"
+        },
+        {
+          "node": 89,
+          "part": "tail",
+          "source": ")--where \"body\" evidently is contrasted with \"spirit.\" And again, we read of the Holy Ghost descending in \"bodily\" (somatic) shape upon the \"Son of God\" (",
+          "target": ") — où « corps » est manifestement opposé à « esprit ». Et encore, nous lisons que le Saint-Esprit descendit sous une forme « corporelle » (somatique) sur le « Fils de Dieu » (",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "tail",
+          "source": "), in whom dwelt the \"fullness of the Godhead bodily\" (somatically) (",
+          "target": "), en qui habitait « toute la plénitude de la divinité corporellement » (somatiquement) (",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "tail",
+          "source": "). So, too, the \"body\" is called a temple of the Holy Ghost: \"Know ye not that your body is a temple of the Holy Spirit?\" (",
+          "target": "). De même, le « corps » est appelé temple du Saint-Esprit : « Ne savez-vous pas que votre corps est un temple du Saint-Esprit ? » (",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "text",
+          "source": "4. The Body and Sin:",
+          "target": "4. Le corps et le péché :",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "text",
+          "source": "From all this it is apparent that the body in itself is not necessarily evil, a doctrine which is taught in Greek philosophy, but nowhere in the Old Testament and New Testament. The rigid and harsh dualism met with in Plato is absent from Paul's writings, and is utterly foreign to the whole of Scripture. Here we are distinctly taught, on the one hand, that the body is subordinated to the soul, but on the other, with equal clearness, that the human body has a dignity, originally conferred upon it by the Creator, who shaped it out of earth, and glorified it by the incarnation of Christ, the sinless One, though born of a woman. Julius Muller has well said: \"Paul denies the presence of evil in Christ, who was partaker of our fleshly nature (",
+          "target": "Il ressort manifestement de tout cela que le corps en lui-même n'est pas nécessairement mauvais, doctrine enseignée dans la philosophie grecque, mais nulle part dans l'Ancien Testament et le Nouveau Testament. Le dualisme rigide et sévère que l'on rencontre chez Platon est absent des écrits de Paul et entièrement étranger à toute l'Écriture. Ici, il nous est clairement enseigné, d'une part, que le corps est subordonné à l'âme, mais d'autre part, avec une égale clarté, que le corps humain possède une dignité qui lui fut conférée à l'origine par le Créateur, qui le façonna à partir de la terre, et le glorifia par l'incarnation de Christ, celui qui est sans péché, bien que né d'une femme. Julius Muller a dit avec justesse : « Paul nie la présence du mal en Christ, qui participait à notre nature charnelle (",
+          "action": "translate"
+        },
+        {
+          "node": 95,
+          "part": "tail",
+          "source": "), and he recognizes it in spirits who are not partakers thereof (",
+          "target": "), et la reconnaît chez les esprits qui n'y participent pas (",
+          "action": "translate"
+        },
+        {
+          "node": 96,
+          "part": "tail",
+          "source": " the King James Version, `spiritual wickedness in high places'). Is it not therefore in the highest degree probable that according to him evil does not necessarily pertain to man's sensuous nature, and that sarx (say body) denotes something different from this?\" (The Christian Doctrine of Sin, I, 321, English edition). He further shows that the derivation of sin from sense is utterly irreconcilable with the central principle of the apostle's doctrine as to the perfect holiness of the Redeemer, and that \"the doctrine of the future resurrection--even taking into account the distinction between the soma psuchikon and the soma pneumatikon (",
+          "target": " , King James Version, “méchanceté spirituelle dans les lieux élevés”). N'est-il donc pas au plus haut degré probable que, selon lui, le mal ne se rattache pas nécessairement à la nature sensible de l'homme, et que sarx (disons corps) désigne autre chose que celle-ci ? » (The Christian Doctrine of Sin, I, 321, édition anglaise). Il montre en outre que faire dériver le péché des sens est absolument inconciliable avec le principe central de la doctrine de l'apôtre quant à la parfaite sainteté du Rédempteur, et que « la doctrine de la résurrection future — même en tenant compte de la distinction entre le soma psuchikon et le soma pneumatikon (",
+          "action": "translate"
+        },
+        {
+          "node": 97,
+          "part": "tail",
+          "source": ")--is clearly at variance with the doctrine that sin springs from the corporal nature as its source\" (318).",
+          "target": ") — est clairement en contradiction avec la doctrine selon laquelle le péché découle de la nature corporelle comme de sa source » (318).",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "text",
+          "source": "5. The First Sin:",
+          "target": "5. Le premier péché :",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "The very first sin was spiritual in its origin--an act of rebellion against God--the will of the creature in opposition to the will of the Creator (",
+          "target": "Le tout premier péché était spirituel dans son origine : un acte de rébellion contre Dieu, la volonté de la créature opposée à celle du Créateur (",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "tail",
+          "source": "). It was conceived in doubt--\"Hath God said?\"; it was born in desire--\"The tree was good for food\"; it was stimulated by a rebellious hankering after equality with God: \"Ye shall be as God, knowing good and evil\"; it was introduced from without, from the spiritual world, through the agency of a mysterious, supernatural being, employing \"a beast of the field more subtle than any which Yahweh God had made.\" That the serpent in the Old Testament is not identified with Satan, and that the clearest utterance in pre-Christian times on the subject is to be found in the Book of The Wisdom of Solomon 2:24 (\"by the envy of the devil death entered into the world\"), may be true. That the narrative of the Fall is figurative or symbolical may also be granted. But the whole tendency of the early narrative is to connect the first human sin with a superhuman being, employing an agent known to man, and making that agent its representative in the \"subtlety\" of the great temptation as a prelude to the mighty fall. The New Testament is clear on this point (",
+          "target": "). Il fut conçu dans le doute : « Dieu a-t-il dit ? » ; il naquit dans le désir : « L'arbre était bon à manger » ; il fut stimulé par une aspiration rebelle à l'égalité avec Dieu : « Vous serez comme Dieu, connaissant le bien et le mal » ; il fut introduit de l'extérieur, du monde spirituel, par l'intermédiaire d'un être mystérieux et surnaturel, employant « un animal des champs plus rusé que tous ceux que Yahvé Dieu avait faits ». Que le serpent dans l'Ancien Testament ne soit pas identifié à Satan, et que l'affirmation la plus claire sur ce sujet à l'époque préchrétienne se trouve dans le livre de la Sagesse de Salomon 2:24 (« par l'envie du diable, la mort est entrée dans le monde »), peut être vrai. On peut aussi admettre que le récit de la chute soit figuratif ou symbolique. Mais toute la tendance du récit ancien consiste à rattacher le premier péché humain à un être surhumain, employant un agent connu de l'homme et faisant de cet agent son représentant dans la « ruse » de la grande tentation qui préluda à la terrible chute. Le Nouveau Testament est clair sur ce point (",
+          "action": "translate"
+        },
+        {
+          "node": 106,
+          "part": "tail",
+          "source": "). Great historic truths are imbedded in that narrative, whatever we may think of the form which that narrative has assumed. There can be no doubt that the oldest and truest traditions of the human race are to be found there. It is not denied that sin has desecrated the temple of the liv ing God, which is the body. That body indeed has become defiled and polluted by sin. Paul recognizes \"an abnormal development of the sensuous in fallen man, and regards sin as having in a special manner entrenched itself in the body, which becomes liable to death on this very account (",
+          "target": "). De grandes vérités historiques sont enchâssées dans ce récit, quelle que soit notre opinion sur la forme qu'il a revêtue. Il ne fait aucun doute que les traditions les plus anciennes et les plus vraies de l'humanité s'y trouvent. On ne nie pas que le péché ait profané le temple du Dieu vivant, qu'est le corps. Ce corps a en effet été souillé et pollué par le péché. Paul reconnaît « un développement anormal du sensible chez l'homme déchu et considère que le péché s'est retranché d'une manière particulière dans le corps, lequel devient passible de mort pour cette raison même (",
+          "action": "translate"
+        },
+        {
+          "node": 108,
+          "part": "tail",
+          "source": ")\" (Encyclopedia of Religion and Ethics, I, 761). But we may safely say that theory which connects sin with the physical body, and gives it a purely sensuous origin, is alien to the whole spirit and letter of revelation.",
+          "target": ") » (Encyclopedia of Religion and Ethics, I, 761). Mais nous pouvons affirmer sans risque que la théorie qui rattache le péché au corps physique et lui attribue une origine purement sensible est étrangère à tout l'esprit et à toute la lettre de la révélation.",
+          "action": "translate"
+        },
+        {
+          "node": 109,
+          "part": "text",
+          "source": "J. I. Marais",
+          "target": "J. I. Marais",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 110,
+          "part": "text",
+          "source": "III. FIGURATIVE:",
+          "target": "III. SENS FIGURÉ :",
+          "action": "translate"
+        },
+        {
+          "node": 111,
+          "part": "text",
+          "source": "In the New Testament (soma, \"the body\" both of men and animals) the word has a rich figurative and spiritual use:",
+          "target": "Dans le Nouveau Testament (soma, « le corps », aussi bien des hommes que des animaux), le mot a un riche emploi figuré et spirituel :",
+          "action": "translate"
+        },
+        {
+          "node": 112,
+          "part": "text",
+          "source": "(1) the temporary home of the soul (",
+          "target": "(1) la demeure temporaire de l'âme (",
+          "action": "translate"
+        },
+        {
+          "node": 114,
+          "part": "text",
+          "source": "(2) \"the temple of the Holy Spirit\" (",
+          "target": "(2) « le temple du Saint-Esprit » (",
+          "action": "translate"
+        },
+        {
+          "node": 116,
+          "part": "text",
+          "source": "(3) \"temple\" (",
+          "target": "(3) « temple » (",
+          "action": "translate"
+        },
+        {
+          "node": 118,
+          "part": "text",
+          "source": "(4) \"the old man,\" the flesh as the servant of sin or the sphere in which moral evil comes to outward expression (",
+          "target": "(4) « le vieil homme », la chair comme servante du péché ou comme sphère où le mal moral trouve son expression extérieure (",
+          "action": "translate"
+        },
+        {
+          "node": 120,
+          "part": "tail",
+          "source": "; compare Paul's use of sarx, \"flesh\");",
+          "target": "; comparer l'emploi que fait Paul de sarx, « chair ») ;",
+          "action": "translate"
+        },
+        {
+          "node": 121,
+          "part": "text",
+          "source": "(5) the \"church\" as Christ's body, the organism through which He manifests His life and in which H is spirit dwells (",
+          "target": "(5) l'« Église » comme corps de Christ, l'organisme par lequel il manifeste sa vie et dans lequel son Esprit demeure (",
+          "action": "translate"
+        },
+        {
+          "node": 124,
+          "part": "text",
+          "source": "(6) the spiritual \"unity\" of believers, one redeemed society or organism (",
+          "target": "(6) l'« unité » spirituelle des croyants, une seule société ou un seul organisme racheté (",
+          "action": "translate"
+        },
+        {
+          "node": 125,
+          "part": "tail",
+          "source": "; a corpus mysticum, ",
+          "target": "; un corpus mysticum, ",
+          "action": "translate"
+        },
+        {
+          "node": 127,
+          "part": "text",
+          "source": "(7) \"substance\" (spiritual reality or life in Christ) versus \"shadow\" (",
+          "target": "(7) la « substance » (réalité spirituelle ou vie en Christ) par opposition à l'« ombre » (",
+          "action": "translate"
+        },
+        {
+          "node": 129,
+          "part": "text",
+          "source": "(8) the ascended and glorified body of Jesus (",
+          "target": "(8) le corps de Jésus monté au ciel et glorifié (",
+          "action": "translate"
+        },
+        {
+          "node": 131,
+          "part": "text",
+          "source": "(9) the resurrection or \"spiritual\" (v. natural) body of the redeemed in heaven (",
+          "target": "(9) le corps de résurrection ou « spirituel » (par opposition au corps naturel) des rachetés dans le ciel (",
+          "action": "translate"
+        },
+        {
+          "node": 133,
+          "part": "text",
+          "source": "(10) the whole personality, e.g. the spiritual presence, power and sacrificial work of Christ, the mystical meaning of \"the body and the blood\" symbolized in the bread and cup of the sacrament (",
+          "target": "(10) la personnalité entière, par exemple la présence spirituelle, la puissance et l'œuvre sacrificielle de Christ, le sens mystique du « corps et du sang » symbolisés par le pain et la coupe du sacrement (",
+          "action": "translate"
+        },
+        {
+          "node": 135,
+          "part": "text",
+          "source": "The term body is exceptionally rich in connection with the selfgiving, sacrificial, atoning work of Christ. It was the outward sphere or manifestation of His suffering. Through the physical He revealed the extent of His redeeming and sacrificial love. He \"bare our sins in his body upon the tree\" (",
+          "target": "Le terme corps est exceptionnellement riche en rapport avec l'œuvre par laquelle Christ s'est donné lui-même en sacrifice expiatoire. C'était la sphère extérieure ou la manifestation de ses souffrances. Par le physique, il révéla l'étendue de son amour rédempteur et sacrificiel. Il « a porté nos péchés dans son corps sur le bois » (",
+          "action": "translate"
+        },
+        {
+          "node": 136,
+          "part": "tail",
+          "source": "), thus forever displacing all the ceaseless and costly sacrifices of the old dispensation (",
+          "target": "), remplaçant ainsi pour toujours tous les sacrifices incessants et coûteux de l'ancienne dispensation (",
+          "action": "translate"
+        },
+        {
+          "node": 137,
+          "part": "tail",
+          "source": "). Special terms, \"body of his flesh\" (",
+          "target": "). Termes particuliers : « corps de sa chair » (",
+          "action": "translate"
+        },
+        {
+          "node": 138,
+          "part": "tail",
+          "source": "); \"body of sin\" (",
+          "target": ") ; « corps du péché » (",
+          "action": "translate"
+        },
+        {
+          "node": 139,
+          "part": "tail",
+          "source": "); \"body of this death\" (",
+          "target": ") ; « corps de cette mort » (",
+          "action": "translate"
+        },
+        {
+          "node": 140,
+          "part": "tail",
+          "source": "); \"body of his glory\" (",
+          "target": ") ; « corps de sa gloire » (",
+          "action": "translate"
+        },
+        {
+          "node": 142,
+          "part": "text",
+          "source": "ptoma, used only of fallen, i.e. dead bodies (",
+          "target": "ptoma, employé seulement pour les corps tombés, c'est-à-dire morts (",
+          "action": "translate"
+        },
+        {
+          "node": 145,
+          "part": "text",
+          "source": "Dwight M. Pratt",
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<!-- ISBE-TRANSLATION-V1 {"article_id":"isbe-afa7dfbdc592dc38dcc9","language":"fr","preserve":{"9:text":"Historical pronunciation, cross-reference or author signature deliberately retained"},"publication_permitted":false,"schema_version":1,"source_article_sha256":"6b0032b7e7d1cd8a19040741a8227f5654b334bbc97bf07ae5b4e027b08a30cc","source_key":"CAMBYSES","source_sha256":"5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c","status":"unreviewed_drafts"} -->
+
+<!-- ISBE-BLOCK:1 -->
+# CAMBYSE
+<!-- ISBE-END:1 -->
+
+<!-- ISBE-BLOCK:2 -->
+kam-bi'-sez (aram., c-n-b-n-z-y ; perse, Kambujiya ; assyrien, Kambuzia ; égyptien, Kambythet ; susien, Kanpuziya) : Le fils aîné de Cyrus, roi de Perse. Certains ont pensé qu'il était l'Assuérus d' ⟦ISBE:KEEP:3:Ezr 4:6⟧. Cela semble fort improbable, puisque la forme hébraïque d'Assuérus est l'équivalent exact de la forme vieux-perse de Xerxès, et que nous n'avons aucune preuve que Cambyse ait jamais été appelé Xerxès.
+<!-- ISBE-END:2 -->
+
+<!-- ISBE-BLOCK:4 -->
+Les autorités anciennes divergent sur l'identité de la mère de Cambyse. On dit diversement qu'elle était Cassandane, princesse perse, Amytis, princesse mède, ou Nititis, fille d'Apriès, roi d'Égypte. Il avait un frère, Bardès ou Smerdès, qu'il fit mourir secrètement peu après son avènement, probablement à cause d'une tentative de rébellion. Cambyse organisa une expédition pour la conquête de l'Égypte, que rendirent fructueuse la trahison intérieure et l'aide des flottes phénicienne, chypriote et grecque. Pendant cette campagne, Cambyse semble avoir agi avec de bonnes qualités de général et avec clémence envers les vaincus. Après la soumission de l'Égypte, Cyrène et Barca, la Tripoli moderne, se soumirent à sa domination. Il désira alors entreprendre la conquête de Carthage, mais fut contraint d'y renoncer, parce que ses alliés phéniciens, sans les navires desquels il lui était impossible de conduire son armée en sûreté, refusèrent de participer à une attaque contre un pays qui avait été colonisé par eux. Il aurait envoyé une armée de 50 000 hommes contre l'oasis de Jupiter Ammon. Cette armée aurait péri dans les sables. Une expédition un peu moins malheureuse fut entreprise contre l'Éthiopie. Après quelques succès initiaux, Cambyse fut obligé de retourner en Égypte avec les débris de son armée mise en pièces. Il trouva les Égyptiens en révolte, conduits par leur roi Psammétique III, dont il avait précédemment épargné la vie. Cette révolte fut réprimée avec une grande rigueur, le roi égyptien étant pris et exécuté, et beaucoup de temples détruits. Peu après, Cambyse apprit qu'un certain mage, qui prétendait être son frère Smerdès, qu'il avait secrètement mis à mort, s'était établi comme roi de Perse, et que presque tous ses domaines asiatiques l'avaient reconnu comme roi. Avec les restes de son armée, il partit vers la Perse pour attaquer l'usurpateur, mais en chemin il mourut d'une blessure qu'il s'était infligée lui-même, sans qu'on sache si c'était par accident ou à dessein. Son général et cousin, Darius Hystaspe, abattit bientôt le faux Smerdès et régna à sa place.
+<!-- ISBE-END:4 -->
+
+<!-- ISBE-BLOCK:5 -->
+Pendant deux ans ou davantage, Cambyse fut roi de Babylone, tandis que son père était roi des pays. Le fils était un ivrogne sujet à des accès de passion effrénée, mais semble avoir été de bonne capacité comme général et administrateur. Beaucoup des récits qui ont été faits à son encontre furent sans doute inventés par ses ennemis, et il ne nous a laissé aucun document de sa main. Qu'il ait épousé ses propres sœurs est probable ; mais il faut se rappeler que c'était la coutume des rois égyptiens de cette époque et que cela a pu être aussi celle des rois perses. Quant à sa conduite en Égypte, la seule autorité égyptienne contemporaine dit qu'il adora devant la sainteté de Neith comme l'avaient fait tous les rois pieux, qu'il ordonna que le temple de Neith fût purifié et que ses revenus fussent rétablis tels qu'ils avaient été avant d'avoir été confisqués par Akhmes pour ses troupes grecques. Elle ajoute encore que non seulement les étrangers qui avaient établi leur demeure dans le temple de Neith furent expulsés de son sanctuaire, mais que leurs biens furent emportés et leurs maisons détruites. Darius Hystaspe, la seule autre source contemporaine de renseignements, dit de lui simplement qu'il était fils de Cyrus, de même père et de même mère que Bardès, qu'il tua secrètement quelque temps avant de partir pour sa campagne d'Égypte ; et qu'il mourut par suicide peu après avoir appris la rébellion de la Perse, de la Médie et des autres provinces contre lui, et l'établissement du mage Gaumata comme roi, sous la prétention qu'il était « Barzia, fils de Cyrus et frère de Cambyse ».
+<!-- ISBE-END:5 -->
+
+<!-- ISBE-BLOCK:6 -->
+Le nom de Cambyse se trouve dans trois des papyrus d'Éléphantine récemment publiés (septembre 1911) par le professeur Sachau de Berlin. Le fragment numéroté 59 1 est si mutilé qu'il est impossible d'en saisir le contexte ou le sens. Dans le papyrus I, on nous dit que lorsque Cambyse vint en Égypte, il trouva dans la forteresse de Yeb (Éléphantine) un temple ou synagogue ('agora'), qui avait été bâti aux jours des rois égyptiens ; et que, bien qu'il eût abattu les temples des dieux égyptiens, il n'avait permis qu'aucun mal fût fait à celui de Yahvé. Le troisième papyrus est si intéressant, en raison de sa mention de Bagoas, gouverneur perse de Jérusalem en 407 av. J.-C., qui jusqu'alors n'avait été connu que par Josèphe, et de Dalayah, fils du Sanballat qui s'opposa à la reconstruction de la muraille de Jérusalem au temps d'Esdras-Néhémie, que nous allons maintenant en donner une traduction intégrale : « Mémorial de ce que Bagoas et Dalayah m'ont dit : Tu diras en Égypte à Arsamès, au sujet de la maison de l'autel du Dieu du ciel qui fut bâtie dans la forteresse de Yeb avant le temps de Cambyse et que le maudit (?) Waidrang détruisit dans la quatorzième année du roi Darius, qu'elle sera rebâtie à sa place comme elle était auparavant, et que des offrandes de farine et des offrandes d'encens seront offertes sur cet autel comme elles avaient coutume de l'être. »
+<!-- ISBE-END:6 -->
+
+<!-- ISBE-BLOCK:7 -->
+BIBLIOGRAPHIE.
+<!-- ISBE-END:7 -->
+
+<!-- ISBE-BLOCK:8 -->
+Pour de plus amples renseignements sur l'histoire de Cambyse, voir Rawlinson, Ancient Monarchies ; Prasek, Geschichte der Meder und Perser ; l'inscription de Behistun dans les éditions des diverses recensions par Bezold, Spiegel, Weisbach, Thomson et King ; Hérodote ; Josèphe ; les papyrus de Sachau ; et Petrie, History of Egypt, III.
+<!-- ISBE-END:8 -->
+
+<!-- ISBE-BLOCK:9 -->
+R. Dick Wilson
+<!-- ISBE-END:9 -->

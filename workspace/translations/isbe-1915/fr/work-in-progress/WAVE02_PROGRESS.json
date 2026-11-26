@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "947_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "979_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 947,
-    "complete_first_drafts": 949,
-    "remaining_undrafted": 51
+    "new_complete_drafts_on_branch": 979,
+    "complete_first_drafts": 981,
+    "remaining_undrafted": 19
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1992
+    "complete_first_drafts_across_main_and_current_branch": 2024
   },
   "source_queue": {
     "rounds_completed": [
@@ -47,23 +47,23 @@
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-008",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-009"
     ],
-    "checks": "Rounds 001–009 completed. Prior 35,730-word cohort passed incremental CI. Current 24-article cohort covers round 010 lines 24–47; exact ordered source slots, canonical manuscript and batch identities, all reconstructed manuscript bodies and protected markers verified by re-reading staged Git blobs. Incremental CI pending.",
+    "checks": "Rounds 001–009 completed. Prior 48,159-word cohort passed incremental CI. Current 32-article cohort covers round 010 lines 48–79; exact ordered source slots, canonical manuscript and batch identities, all reconstructed manuscript bodies and protected markers verified by re-reading staged Git blobs. Incremental CI pending.",
     "partial_round": {
       "round": "round-010",
-      "completed_articles": 47,
+      "completed_articles": 79,
       "total_articles": 98,
       "completed_source_line_range": [
         1,
-        47
+        79
       ],
       "remaining_source_line_range": [
-        48,
+        80,
         98
       ],
-      "source_mutable_units": 2931,
-      "source_blocks": 1857,
-      "protected_keep_markers": 1468,
-      "source_words_whitespace_count": 106633
+      "source_mutable_units": 4487,
+      "source_blocks": 2723,
+      "protected_keep_markers": 2457,
+      "source_words_whitespace_count": 166399
     }
   },
   "batch_files": [
@@ -161,7 +161,21 @@
     "0254-wave02-round010-beth-horon-bethlehem.json",
     "0255-wave02-round010-bethsaida.json",
     "0256-wave02-round010-between-testaments.json",
-    "0257-wave02-round010-bible.json"
+    "0257-wave02-round010-bible.json",
+    "0258-wave02-round010-biblical-theology.json",
+    "0259-wave02-round010-birds.json",
+    "0260-wave02-round010-bishop-bithynia.json",
+    "0261-wave02-round010-bittern-blood-water.json",
+    "0262-wave02-round010-body.json",
+    "0263-wave02-round010-book.json",
+    "0264-wave02-round010-botany.json",
+    "0265-wave02-round010-bottle-bread.json",
+    "0266-wave02-round010-brethren-brook.json",
+    "0267-wave02-round010-brotherly-burden.json",
+    "0268-wave02-round010-burial-bush.json",
+    "0269-wave02-round010-buying-caesarea.json",
+    "0270-wave02-round010-cain-calendar.json",
+    "0271-wave02-round010-calf-camel.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -783,37 +797,197 @@
       "key": "BIBLE, THE",
       "kind": "source_witness",
       "detail": "Source anomalies preserved include Trent 1543, Art. VIII, Romans dated 58 BC, Jude reference 1:14,25, attribution of captivity-letter delivery to Epaphras, and missing V heading in body. Ordinary OCR-like spacing errors and abbreviated biblical book names interpreted contextually, no anchor changes. Historical canon, manuscript dating, inspiration/inerrancy and source-critical views retained without harmonizing with other articles."
+    },
+    {
+      "key": "BIBLICAL THEOLOGY",
+      "kind": "source_witness",
+      "detail": "Ordinary broken spacing and 'axe' read contextually as 'are'; anomalous bibliography forms and dates (including Boron, Richre, Kautsch and 189:5) require witness comparison. Historical accounts of criticism and theology retained."
+    },
+    {
+      "key": "BIRDS",
+      "kind": "source_witness",
+      "detail": "Historical zoological, paleontological and etymological assertions retained, including the first biblical mention claim and fossil footprints; not updated to modern scientific consensus."
+    },
+    {
+      "key": "BISHOP",
+      "kind": "source_witness",
+      "detail": "All three signed confessional accounts retained separately, without harmonization. Broken syntax and spacing interpreted contextually; review damaged wording and referents, especially the Anglican discussion of powers."
+    },
+    {
+      "key": "BITHYNIA",
+      "kind": "source_witness",
+      "detail": "Damaged Hellespont spelling interpreted contextually; chronology of ancient rulers and Ottoman-era geographical description retained."
+    },
+    {
+      "key": "BITTERN",
+      "kind": "source_witness",
+      "detail": "Historical qippodh identification, disagreement with revised translations and zoological reasoning retained; verify identification against witness, without substituting a modern species."
+    },
+    {
+      "key": "BLASPHEMY",
+      "kind": "source_witness",
+      "detail": "Author's assertions regarding eternal condemnation, divine forgiveness and kenotic interpretation retained without doctrinal adjustment; 'Holy of Spirit' read as Holy Spirit."
+    },
+    {
+      "key": "BLINDNESS",
+      "kind": "source_witness",
+      "detail": "Historical medical explanations, including hypnosis and retinal paralysis, retained as author assertions; require historical/medical contextual review, not modern medical advice."
+    },
+    {
+      "key": "BLINDNESS, JUDICIAL",
+      "kind": "source_witness",
+      "detail": "Source reference to Isaiah 3:11 in discussion of Micah retained; textual emendation proposed by the author is reported, not applied."
+    },
+    {
+      "key": "BLOOD",
+      "kind": "source_witness",
+      "detail": "Historical date 1615 and comparative anthropological claims retained; check chronology and historical terminology."
+    },
+    {
+      "key": "BLOOD AND WATER",
+      "kind": "source_witness",
+      "detail": "Historical hypothesis concerning cardiac rupture retained as the author's medical interpretation, not a verified modern diagnosis."
+    },
+    {
+      "key": "BODY",
+      "kind": "source_witness",
+      "detail": "Source references including Exodus 24:10 and the cherubim discussion retained; the three separately signed perspectives and treatment of original sin retained."
+    },
+    {
+      "key": "BOOK",
+      "kind": "source_witness",
+      "detail": "Repeated x2 in the formula retained; damaged syntax concerning amendment of translations/editions interpreted contextually. Historical psychology, textual criticism and evolutionary analogies retained."
+    },
+    {
+      "key": "BOTANY",
+      "kind": "source_witness",
+      "detail": "Ottoman-era geographical, botanical and political descriptions retained. Verify suspicious botanical forms including Argave, Azedaracht, Agnus Castris, Silex, Cypressus and Pinus pinia; damaged grammar concerning surface evaporation interpreted contextually."
+    },
+    {
+      "key": "BOTTLE",
+      "kind": "source_witness",
+      "detail": "Historical descriptions of skin vessels, regional practices and quotations retained; review English translation terminology and wording of the discussion of fermentation and smoke."
+    },
+    {
+      "key": "BREAD",
+      "kind": "source_witness",
+      "detail": "Historical bread-making terminology, dimensions, cultural generalizations and sacramental interpretation retained; check transliterations, references and bibliography."
+    },
+    {
+      "key": "BRETHREN OF THE LORD",
+      "kind": "source_witness",
+      "detail": "All three historical interpretations and the author's polemical conclusions on perpetual virginity preserved. Verify anomalous personal name Belvidius and the philological discussion of Alphaeus/Clopas and James."
+    },
+    {
+      "key": "BRICK",
+      "kind": "source_witness",
+      "detail": "Historical attribution of Pithom bricks to Hebrew laborers and contemporary archaeological assumptions retained as the author's interpretation."
+    },
+    {
+      "key": "BROOK OF EGYPT, THE",
+      "kind": "source_witness",
+      "detail": "Historical geography and arguments concerning Pentateuchal authorship retained; verify place-name transcription, measurements and source linguistic claims."
+    },
+    {
+      "key": "BROTHERLY KINDNESS; BROTHERLY LOVE",
+      "kind": "source_witness",
+      "detail": "Author's distinctions concerning sonship, universal benevolence and Christian brotherhood preserved without theological harmonization."
+    },
+    {
+      "key": "BUILD; BUILDING",
+      "kind": "source_witness",
+      "detail": "Historical archaeological descriptions, terminology and dimensions retained. Check technical French masonry vocabulary against the English witness."
+    },
+    {
+      "key": "BURDEN",
+      "kind": "source_witness",
+      "detail": "Lexical alternatives, version-specific renderings and disputed Massa readings retained as discussion rather than changes to Scripture."
+    },
+    {
+      "key": "BURIAL",
+      "kind": "source_witness",
+      "detail": "Historical and regional burial descriptions and confessional claims retained; verify quotations, chronology and terminology, including burial practices and grave stones."
+    },
+    {
+      "key": "BUSH, BURNING",
+      "kind": "source_witness",
+      "detail": "Competing plant identifications and theological interpretation retained as the author's own argument, without harmonization."
+    },
+    {
+      "key": "BUYING",
+      "kind": "source_witness",
+      "detail": "Historical ethnographic descriptions and generalizations, coinage chronology, and the designation of Friday as a Muslim Sabbath retained as source-era language; check witness."
+    },
+    {
+      "key": "CAESAR'S HOUSEHOLD",
+      "kind": "source_witness",
+      "detail": "Historical conjectures of Lightfoot and Ramsay, identification of members of imperial households and suggested Christian affiliation retained with original qualifications."
+    },
+    {
+      "key": "CAESAREA",
+      "kind": "source_witness",
+      "detail": "Historical population, port measurements, ancient and medieval chronology and place-name forms retained; not updated to current archaeological information."
+    },
+    {
+      "key": "CAIN",
+      "kind": "source_witness",
+      "detail": "Proposed textual restoration and critical hypotheses are reported as author arguments, not applied to Scripture. Verify unusual personal names and genealogical comparison."
+    },
+    {
+      "key": "CALAH",
+      "kind": "source_witness",
+      "detail": "Historical archaeological terminology, date estimates and doubtful spelling 'Bah' retained; verify royal names and site measurements."
+    },
+    {
+      "key": "CALENDAR",
+      "kind": "source_witness",
+      "detail": "Historical calendrical reconstruction and month forms retained; verify missing or external table referred to by the text, and numerical claims about intercalation and month lengths."
+    },
+    {
+      "key": "CALF, GOLDEN",
+      "kind": "source_witness",
+      "detail": "Historical comparative-religion and source-critical arguments, including the author's interpretation of Elijah's silence, retained without doctrinal adjustment; verify bibliography forms Fraser, Deteronomy and Baeth gen."
+    },
+    {
+      "key": "CAMBYSES",
+      "kind": "source_witness",
+      "detail": "Conflicting historical accounts and uncertain papyrus readings retained with their qualifications; verify names, dates, and the translated papyrus quotation against the witness."
+    },
+    {
+      "key": "CAMEL",
+      "kind": "source_witness",
+      "detail": "Historical zoological explanation, terminology and disputed domestication evidence retained; no modern zoological or archaeological corrections."
     }
   ],
-  "next_action": "Resume staged round-010 SOURCE.jsonl line 48 (BIBLICAL THEOLOGY) via GitHub contents endpoint. Use consecutive whole-article cohorts not exceeding 50000 editable English words unless a new limit is authorized. No source staging required. Verify incremental CI; at ticket completion update FULL_VALIDATION.json. No editorial approvals or translation PR.",
-  "previous_translation_commit": "cbb1f7e1ac83b9b6c09eeaaf1d507a496551a00b",
-  "last_translation_tree": "c18ae1ef4be71cccb5c6d5e719aa453c6d1b940e",
+  "next_action": "Resume staged round-010 SOURCE.jsonl at line 80 (CANAAN; CANAANITES). Continue consecutive complete articles, with a 60000 editable English word ceiling unless subsequently changed. No editorial approvals or translation PR.",
+  "previous_translation_commit": "547acfda26b5073f8f100641724486dd8287c8e3",
+  "last_translation_tree": "f92a7c9aedb56f338ee4f164a7c0d378d23079ef",
   "last_cohort_completion": {
     "kind": "word_budget_cohort",
     "source_line_ranges": [
       {
         "round": "round-010",
         "range": [
-          24,
-          47
+          48,
+          79
         ]
       }
     ],
-    "new_articles": 24,
-    "source_words_whitespace_count": 48159,
-    "word_limit": 50000,
-    "next_article": "BIBLICAL THEOLOGY",
-    "next_article_words": 4039,
-    "words_if_included": 52198,
-    "source_mutable_units": 1353,
-    "source_blocks": 810,
-    "protected_keep_markers": 695,
-    "protected_structure_markers_total": 1200,
-    "validation": "Exact ordered source slots, canonical manuscript and batch identities, all 24 reconstructed bodies and protected markers verified from staged Git blobs; incremental CI pending",
+    "new_articles": 32,
+    "source_words_whitespace_count": 59766,
+    "word_limit": 60000,
+    "next_article": "CANAAN; CANAANITES",
+    "next_article_words": 3464,
+    "words_if_included": 63230,
+    "source_mutable_units": 1556,
+    "source_blocks": 866,
+    "protected_keep_markers": 989,
+    "protected_structure_markers_total": 1819,
+    "validation": "Exact ordered source slots, canonical manuscript and batch identities, all 32 reconstructed manuscript bodies and protected markers verified from staged Git blobs; incremental CI pending",
     "editorial_approvals": 0
   },
   "cohort_policy": {
-    "source_word_limit": 50000,
+    "source_word_limit": 60000,
     "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
     "selection": "Consecutive complete articles from staged queues; stop before the next article exceeds the limit, no skipping or splitting",
     "oversized_single_article": "Standalone cohort",

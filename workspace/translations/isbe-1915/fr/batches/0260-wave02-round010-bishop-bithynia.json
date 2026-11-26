@@ -1,0 +1,1017 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BISHOP",
+      "article_id": "isbe-cdec2e6b8ba4e0891817",
+      "source_article_sha256": "c5bf5b879c716758a492201dc88eb1045a490dc18b24ced8745636bf67063fce",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BISHOP",
+          "target": "ÉVÊQUE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bish'-up: The word is evidently an abbreviation of the Greek episkopos; Latin, episcopus.",
+          "target": "bish'-up : Le mot anglais bishop est manifestement une forme abrégée du grec episkopos ; latin, episcopus.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "GENERAL",
+          "target": "GÉNÉRALITÉS",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "1. Use in the Septuagint and Classic Greek:",
+          "target": "1. Usage dans la Septante et le grec classique :",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "The Septuagint gives it the generic meaning of \"superintendency, oversight, searching\" (",
+          "target": "La Septante lui donne le sens générique de « surveillance, inspection, examen » (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ") in matters pertaining to the church, the state, and the army (",
+          "target": ") dans les affaires relatives à la communauté religieuse, à l'État et à l'armée (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "; 1 Macc 1:54; The Wisdom of Solomon 1:6). Nor is it unknown to classical Greek. Thus Homer in the Iliad applied it to the gods (xxii.255), also Plutarch, Cam., 5. In Athens the governors of conquered states were called by this name.",
+          "target": "; 1 Macc 1:54 ; Sagesse de Salomon 1:6). Il n'est pas non plus inconnu du grec classique. Ainsi Homère, dans l'Iliade, l'appliqua aux dieux (xxii.255), de même Plutarque, Cam., 5. À Athènes, les gouverneurs des États conquis portaient ce nom.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "2. New Testament Use:",
+          "target": "2. Usage dans le Nouveau Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "The word is once applied to Christ himself, \"unto the Shepherd and Bishop of your souls\" (",
+          "target": "Le mot est appliqué une fois à Christ lui-même : « vers le Berger et l'Évêque de vos âmes » (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "). It abounds in as Pauline literature, and is used as an alternative for presbuteros or elder (",
+          "target": "). Il abonde dans la littérature paulinienne et est employé comme équivalent de presbuteros, ou ancien (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": "). The earliest ecclesiastical offices instituted in the church were those of elders and deacons, or rather the reverse, inasmuch the latter office grew almost immediately out of the needs of the Christian community at Jerusalem (",
+          "target": "). Les premières charges ecclésiastiques instituées dans l'Église furent celles d'ancien et de diacre, ou plutôt dans l'ordre inverse, puisque cette dernière charge naquit presque immédiatement des besoins de la communauté chrétienne de Jérusalem (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "). The presbyteral constitution of Jerusalem must have been very old (",
+          "target": "). L'organisation presbytérale de Jérusalem devait être très ancienne (",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": ") and was distinct from the apostolate (",
+          "target": ") et était distincte de l'apostolat (",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": "). As early as 50 AD Paul appointed \"elders\" in every church, with prayer and fasting (",
+          "target": "). Dès l'an 50 apr. J.-C., Paul établit des « anciens » dans chaque Église, avec la prière et le jeûne (",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": "), referring to the Asiatic churches before established. But in writing to the Philippians (",
+          "target": "), à propos des Églises d'Asie précédemment établies. Mais en écrivant aux Philippiens (",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": ") he speaks of \"bishops\" and \"deacons.\" In the GentileChristian churches this title evidently had been adopted; and it is only in the Pastoral Epistles that we find the name \"presbyters\" applied. The name \"presbyter\" or \"elder,\" familiar to the Jews, signifies their age and place in the church; while the other term \"bishop\" refers rather to their office. But both evidently have reference to the same persons. Their office is defined as \"ruling\" (",
+          "target": "), il parle d'« évêques » et de « diacres ». Dans les Églises chrétiennes issues du paganisme, ce titre avait manifestement été adopté ; et ce n'est que dans les épîtres pastorales que nous trouvons le nom de « presbytres » appliqué. Le nom de « presbytre » ou d'« ancien », familier aux Juifs, désigne leur âge et leur place dans l'Église ; tandis que l'autre terme, « évêque », se rapporte plutôt à leur fonction. Mais tous deux désignent manifestement les mêmes personnes. Leur charge est définie comme celle de « diriger » (",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": "), \"overseeing\" (",
+          "target": "), de « surveiller » (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": "), caring for the flock of God (",
+          "target": "), de prendre soin du troupeau de Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "tail",
+          "source": "). But the word archein, \"to rule,\" in the hierarchical sense, is never used. Moreover, each church had a college of presbyter-bishops (",
+          "target": "). Mais le mot archein, « gouverner », au sens hiérarchique, n'est jamais employé. De plus, chaque Église avait un collège de presbytres-évêques (",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "tail",
+          "source": "). During Paul's lifetime the church was evidently still unaware of the distinction between presbyters and bishops.",
+          "target": "). Du vivant de Paul, l'Église ignorait manifestement encore la distinction entre presbytres et évêques.",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "Of a formal ordination, in the later hierarchical sense, there is no trace as yet. The word \"ordained\" used in the King James Version (",
+          "target": "On ne trouve encore aucune trace d'une ordination formelle, au sens hiérarchique ultérieur. Le mot « ordained » (ordonné) employé dans la King James Version (",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": ") is an unwarrantable interpolation, rightly emended in the Revised Version (British and American). Neither the word cheirotonesantes (",
+          "target": ") est une interpolation injustifiable, corrigée à juste titre dans la Revised Version (britannique et américaine). Ni le mot cheirotonesantes (",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "tail",
+          "source": ", translated \"appointed\" the American Standard Revised Version) nor katasteses (",
+          "target": ", traduit par « appointed », établi, dans l'American Standard Revised Version), ni katasteses (",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "tail",
+          "source": ", translated \"appoint\" the American Standard Revised Version) is capable of this translation. In rendering these words invaria bly by \"ordain\" the King James Version shows a vitium originis. No one doubts that the idea of ordination is extremely old in the history of the church, but the laying on of hands, mentioned in the New Testament (",
+          "target": ", traduit par « appoint », établir, dans l'American Standard Revised Version), ne sont susceptibles de cette traduction. En rendant invariablement ces mots par « ordain », la King James Version présente un vitium originis. Personne ne doute que l'idée de l'ordination soit extrêmement ancienne dans l'histoire de l'Église, mais l'imposition des mains, mentionnée dans le Nouveau Testament (",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "tail",
+          "source": "; compare ",
+          "target": "; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": ") points to the communication of a spiritual gift or to its invocation, rather than to the imparting of an official status.",
+          "target": "), indique la communication d'un don spirituel ou son invocation plutôt que la transmission d'un statut officiel.",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "3. Later Development of the Idea:",
+          "target": "3. Développement ultérieur de l'idée :",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "According to Rome, as finally expressed by the Council of Trent, and to the episcopal idea in general, the hierarchical organization, which originated in the 3rd century, existed from the beginning in the New Testament church. But besides the New Testament as above quoted, the early testimony of the church maintains the identity of \"presbyters\" and \"bishops.\" Thus, Clement of Rome (Ep. 1, chapters 42, 44, 57), the Didache, chapter 15; perhaps the Constitutions, II, 33, 34, in the use of the plural form; Irenaeus (Adv. Haer., iii.2, 3), Ambrosiaster (on ",
+          "target": "Selon Rome, telle que sa position fut finalement exprimée par le concile de Trente, et selon la conception épiscopale en général, l'organisation hiérarchique, qui prit naissance au IIIe siècle, existait dès le commencement dans l'Église du Nouveau Testament. Mais, outre le Nouveau Testament cité ci-dessus, le témoignage ancien de l'Église maintient l'identité des « presbytres » et des « évêques ». Ainsi Clément de Rome (Ep. 1, chapitres 42, 44, 57), la Didachè, chapitre 15 ; peut-être les Constitutions, II, 33, 34, par l'emploi de la forme plurielle ; Irénée (Adv. Haer., iii.2, 3), l'Ambrosiaster (sur ",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": "), Chrysostom (Hom 9 in Ep. ad Tim), in an unequivocal statement, the \"presbyters of old were called bishops .... and the bishops presbyters,\" equally unequivocally Jerome (Ad Tit, 1, 7), \"the same is the presbyter, who is also the bishop.\" Augustine and other Fathers of the 4th and 5th centuries hold this view, and even Peter Lombard, who preceded Aquinas as the great teacher of the church of the Middle Ages. Hatch of Oxford and Harnack of Berlin, in the face of all t his testimony, maintain a distinction between the presbyters, as having charge of the law and discipline of the church, and the bishops, as being charged with the pastoral care of the church, preaching and worship. This theory is built upon the argument of prevailing social conditions and institutions, as adopted and imitated by the church, rather than on sound textual proof. The distinction between presbyters and bishops can only be maintained by a forced exegesis of the Scriptures. The later and rapid growth of the hierarchical idea arose from the accession of the Ebionite Christian view of the church, as a necessary continuation of the Old Testament dispensation, which has so largely influenced the history of the inner development of the church in the first six centuries of her existence.",
+          "target": "), Chrysostome (Hom 9 in Ep. ad Tim), dans une déclaration sans équivoque : « les anciens d'autrefois étaient appelés évêques ... et les évêques, anciens » ; de manière tout aussi explicite Jérôme (Ad Tit, 1, 7) : « C'est le même qui est presbytre et qui est aussi évêque. » Augustin et d'autres Pères des IVe et Ve siècles soutiennent cette opinion, et même Pierre Lombard, qui précéda Thomas d'Aquin comme grand docteur de l'Église du Moyen Âge. Hatch, d'Oxford, et Harnack, de Berlin, malgré tous ces témoignages, maintiennent une distinction entre les presbytres, chargés de la loi et de la discipline de l'Église, et les évêques, chargés des soins pastoraux de l'Église, de la prédication et du culte. Cette théorie repose sur l'argument des conditions et des institutions sociales en vigueur, telles que les aurait adoptées et imitées l'Église, plutôt que sur de solides preuves textuelles. La distinction entre presbytres et évêques ne peut être maintenue qu'au moyen d'une exégèse forcée des Écritures. Le développement ultérieur et rapide de l'idée hiérarchique naquit de l'ascendant pris par la conception chrétienne ébionite de l'Église comme continuation nécessaire de la dispensation de l'Ancien Testament, conception qui a si largement influencé l'histoire du développement interne de l'Église au cours des six premiers siècles de son existence.",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "Henry E. Dosker",
+          "target": "Henry E. Dosker",
+          "action": "preserve",
+          "reason": "Historical pronunciation, cross-reference or author signature deliberately retained"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "ANGLICAN VIEW",
+          "target": "POINT DE VUE ANGLICAN",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "I. Episcopacy Defined.",
+          "target": "I. Définition de l'épiscopat.",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "Episcopacy is the government in the Christian church by bishops. The rule of the Orthodox churches in the East, of the Roman Catholics, and of the Anglicans is that the consecration of other bishops, and the ordination of priests and deacons can only be by a bishop; and with them, a bishop is one who claims historic descent from apostolic or sub-apostolic times.",
+          "target": "L'épiscopat est le gouvernement de l'Église chrétienne par des évêques. La règle des Églises orthodoxes d'Orient, des catholiques romains et des anglicans est que la consécration d'autres évêques et l'ordination de prêtres et de diacres ne peuvent être effectuées que par un évêque ; et, chez eux, un évêque est celui qui revendique une succession historique remontant aux temps apostoliques ou subapostoliques.",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "II. Offices in the Early Church.",
+          "target": "II. Les charges dans l'Église primitive.",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "In the New Testament, the office of bishop is not clearly defined. Indeed there appear to have been many degrees of ministry in the infant church: apostles, prophets, evangelists, teachers, presbyters or elders, bishops or overseers, and deacons.",
+          "target": "Dans le Nouveau Testament, la charge d'évêque n'est pas clairement définie. Il semble en effet qu'il y ait eu de nombreux degrés de ministère dans l'Église naissante : apôtres, prophètes, évangélistes, docteurs, presbytres ou anciens, évêques ou surveillants, et diacres.",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "Due allowance is not generally made for the mental attitude of the apostles and early Christians. They were looking for the speedy return of Christ, and consequently did not organize the church in its infancy, as it was afterward found necessary to do. For this reason, while the different persons who composed the body of Christian ministers did not overlap or infringe on each other's work, yet the relative rank or priority of each minister was not clearly defined.",
+          "target": "On ne tient généralement pas suffisamment compte de la disposition d'esprit des apôtres et des premiers chrétiens. Ils attendaient le retour prochain de Christ et, par conséquent, n'organisèrent pas l'Église naissante comme on jugea par la suite nécessaire de le faire. Pour cette raison, si les diverses personnes qui composaient le corps des ministres chrétiens n'empiétaient pas sur le travail les unes des autres, le rang relatif ou la préséance de chaque ministre n'était cependant pas clairement défini.",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "1. Apostles:",
+          "target": "1. Apôtres :",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "The apostles were undoubtedly first, and in them rested the whole authority, and they were the depository of the power committed unto them by Christ.",
+          "target": "Les apôtres occupaient sans aucun doute le premier rang, et toute l'autorité résidait en eux ; ils étaient les dépositaires du pouvoir qui leur avait été confié par Christ.",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "2. Prophets:",
+          "target": "2. Prophètes :",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "Next to the apostles in rank, and first in point of mention (",
+          "target": "Après les apôtres quant au rang, et au premier rang quant à leur mention (",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "tail",
+          "source": "), came the prophets. So important were these officers in the early church that they were sent from Jerusalem to warn the rapidly growing church at Antioch of an impending famine. Then it appears that there were resident prophets at Antioch, men of considerable importance since their names are recorded, Barnabas, Symeon, Lucius, Manaen and Saul (",
+          "target": "), venaient les prophètes. Ces ministres étaient si importants dans l'Église primitive qu'ils furent envoyés de Jérusalem pour avertir l'Église d'Antioche, qui se développait rapidement, d'une famine imminente. Puis il apparaît qu'il y avait à Antioche des prophètes résidents, des hommes d'une importance considérable puisque leurs noms sont consignés : Barnabas, Siméon, Lucius, Manaën et Saul (",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "tail",
+          "source": "). These men received a command from the Holy Spirit to \"separate me Barnabas and Saul,\" on whom they laid their hands and sent them forth on their work. The election is conducted on the same lines as the election by the eleven apostles of Matthias, and Barnabas and Paul are hereafter called apostles. It is an ordination to the highest order in the Christian ministry by \"prophets and teachers.\" Whether \"prophets and teachers\" refers to two distinct ministries, or whether they are terms used for the same one is uncertain. It may be that of the five men mentioned, some were prophets, and others teachers.",
+          "target": "). Ces hommes reçurent du Saint-Esprit l'ordre : « Mettez-moi à part Barnabas et Saul », sur lesquels ils imposèrent les mains et qu'ils envoyèrent accomplir leur œuvre. L'élection se déroule suivant les mêmes principes que l'élection de Matthias par les onze apôtres, et Barnabas et Paul sont désormais appelés apôtres. C'est une ordination à l'ordre le plus élevé du ministère chrétien par des « prophètes et docteurs ». Il est incertain que « prophètes et docteurs » désigne deux ministères distincts ou qu'il s'agisse de termes désignant le même ministère. Il se peut que, parmi les cinq hommes mentionnés, certains aient été prophètes et les autres docteurs.",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "In ",
+          "target": "En ",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "tail",
+          "source": " we have given us the names of two other prophets, Judas and Silas. Paul tells the Corinthians (",
+          "target": " nous sont donnés les noms de deux autres prophètes, Judas et Silas. Paul dit aux Corinthiens (",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "tail",
+          "source": ") that God hath set some in his church, first apostles, secondly prophets, thirdly teachers, and writing to the Ephesians he places the prophets in the same rank. \"He gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers; for the perfecting of the saints, for the work of the ministry\" (",
+          "target": ") que Dieu a établi dans son Église premièrement des apôtres, deuxièmement des prophètes, troisièmement des docteurs, et, écrivant aux Éphésiens, il place les prophètes au même rang. « Il a donné les uns comme apôtres, les autres comme prophètes, les autres comme évangélistes, les autres comme pasteurs et docteurs, pour le perfectionnement des saints, pour l'œuvre du ministère » (",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "tail",
+          "source": " the King James Version). And again, he says that the mystery of Christ is now \"revealed unto his holy apostles and prophets in the Spirit\" (",
+          "target": " , King James Version). Et encore, il dit que le mystère de Christ est maintenant « révélé à ses saints apôtres et prophètes par l'Esprit » (",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "tail",
+          "source": "). The same apostle in that wonderful imagery of Christians being built up for a habitation of God, says they are \"being built upon the foundation of the apostles and prophets, Christ Jesus himself being the chief corner stone\" (",
+          "target": "). Le même apôtre, dans cette merveilleuse image des chrétiens édifiés pour être une habitation de Dieu, dit qu'ils sont « édifiés sur le fondement des apôtres et des prophètes, Jésus-Christ lui-même étant la pierre angulaire » (",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "In the case of the ordination of Timothy, which Paul says distinctly was by his own laying on of hands and that of the presbytery, it is of great consequence to note that Paul says to Timothy that his ordination was \"according to the prophecies which went before on thee\" (",
+          "target": "Dans le cas de l'ordination de Timothée, que Paul dit expressément avoir été accomplie par sa propre imposition des mains et celle du collège des anciens, il importe grandement de remarquer que Paul dit à Timothée que son ordination était « conforme aux prophéties qui avaient précédemment été faites à ton sujet » (",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "tail",
+          "source": " the King James Version). From this it would appear that the prophets, as in the case of Paul himself, guided by the Holy Ghost, chose Timothy for the overseership or bishopric, or it may be, which is just as likely, that Timothy was set apart by the laying on of hands by some prophets, to the rank of elder or presbyter which did not carry with it the \"overseership.\" It is at any rate evident that in the selection of Timothy, Paul is insistent on pointing out that it was through the prophets (compare ",
+          "target": " , King James Version). Il semblerait d'après cela que les prophètes, comme dans le cas de Paul lui-même, guidés par le Saint-Esprit, aient choisi Timothée pour la surveillance ou l'épiscopat ; ou bien il se peut, ce qui est tout aussi vraisemblable, que Timothée ait été mis à part par l'imposition des mains de quelques prophètes au rang d'ancien ou de presbytre, qui ne comportait pas la « surveillance ». Il est en tout cas évident que, dans le choix de Timothée, Paul tient à souligner que ce fut par l'intermédiaire des prophètes (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "In Revelation, the term prophet constantly occurs as a term denoting rank equivalent to that of apostle: \"ye saints, and ye apostles, and ye prophets\" (",
+          "target": "Dans l'Apocalypse, le terme prophète apparaît constamment comme un terme désignant un rang équivalent à celui d'apôtre : « vous, les saints, et vous, les apôtres et les prophètes » (",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "tail",
+          "source": "); \"blood of prophets and of saints\" (",
+          "target": ") ; « sang des prophètes et des saints » (",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "tail",
+          "source": "). The angel calls himself \"thy fellow-servant, and of thy brethren the prophets\" (",
+          "target": "). L'ange se dit lui-même « ton compagnon de service et celui de tes frères les prophètes » (",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "tail",
+          "source": " the King James Version). The words prophesy and prophesying are used in a general sense, and it does not mean that they were in every case the formal utterances of prophets.",
+          "target": " , King James Version). Les mots prophétiser et prophétie au sens de l'action de prophétiser sont employés dans un sens général, ce qui ne signifie pas qu'ils désignent dans tous les cas les déclarations formelles de prophètes.",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "3. Elders or Presbyters:",
+          "target": "3. Anciens ou presbytres :",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "The ministry of the elders of the Christian church was modeled after that of the synagogue in which there were elders and teachers. The Christian elders or presbyters were most likely a council of advice in each local Christian ekklesia. They appear to act conjointly and not separately (",
+          "target": "Le ministère des anciens de l'Église chrétienne fut modelé sur celui de la synagogue, où il y avait des anciens et des docteurs. Les anciens ou presbytres chrétiens formaient très probablement un conseil consultatif dans chaque ekklesia chrétienne locale. Ils semblent agir conjointement et non séparément (",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "text",
+          "source": "4. Teachers:",
+          "target": "4. Docteurs :",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "text",
+          "source": "Teachers were the equivalent of those teachers or catechists of the synagogue before whom our Lord was found in the temple.",
+          "target": "Les docteurs étaient l'équivalent de ces docteurs ou catéchistes de la synagogue parmi lesquels notre Seigneur fut trouvé dans le temple.",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "text",
+          "source": "5. Evangelists:",
+          "target": "5. Évangélistes :",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "text",
+          "source": "Evangelists were persons who probably had the gift of oratory and whose function it was to preach the glad tidings. Philip was one of them (",
+          "target": "Les évangélistes étaient des personnes qui possédaient probablement le don de la parole et dont la fonction consistait à prêcher la bonne nouvelle. Philippe était l'un d'eux (",
+          "action": "translate"
+        },
+        {
+          "node": 95,
+          "part": "tail",
+          "source": "). In the instructions to Timothy he is bidden to do the work of an evangelist, that is to say, to preach the gospel. This was to be part of his work in the ministry.",
+          "target": "). Dans les instructions adressées à Timothée, il lui est enjoint de faire l'œuvre d'un évangéliste, c'est-à-dire de prêcher l'Évangile. Cela devait faire partie de son travail dans le ministère.",
+          "action": "translate"
+        },
+        {
+          "node": 96,
+          "part": "text",
+          "source": "In writing to Timothy, Paul twice says that he himself was ordained preacher, and apostle and teacher. This does not mean that he held three grades of the ministry, but that his duties as an apostle were to preach and to teach. The fact that the apostles called themselves elders does not thereby confirm the view that the bishops mentioned by them were not superior to elders, any more than the fact that the apostles called themselves teachers, or preachers, makes for the view that teachers, or preachers, were the equals of apostles.",
+          "target": "En écrivant à Timothée, Paul dit deux fois qu'il a lui-même été établi prédicateur, apôtre et docteur. Cela ne signifie pas qu'il détenait trois degrés du ministère, mais que ses devoirs en tant qu'apôtre étaient de prêcher et d'enseigner. Le fait que les apôtres se soient appelés eux-mêmes anciens ne confirme pas davantage l'opinion selon laquelle les évêques qu'ils mentionnaient n'étaient pas supérieurs aux anciens que le fait que les apôtres se soient appelés docteurs ou prédicateurs ne plaide en faveur de l'opinion selon laquelle les docteurs ou les prédicateurs étaient les égaux des apôtres.",
+          "action": "translate"
+        },
+        {
+          "node": 97,
+          "part": "text",
+          "source": "6. Bishops:",
+          "target": "6. Évêques :",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "text",
+          "source": "Bishops or overseers were probably certain elders chosen out of the body of local elders. Under the Jewish dispensation, the elders stayed at home, that is, they did no ministerial visiting, but it was soon found necessary as the Christian church grew to have someone to attend to outside work to win over by persuasion and exposition of the Scriptures those inclined to embrace Christianity. This necessitated visiting families in their own homes. Then, it became necessary to shepherd the sheep. Someone had to oversee or superintend the general work. The Jewish elders always had a head and in a large synagogue the conditions laid down for its head, or legatus, were almost identical with those laid down by Paul to Timothy. He was to be a father of a family, not rich or engaged in business, possessing a good voice, apt to teach, etc.",
+          "target": "Les évêques ou surveillants étaient probablement certains anciens choisis parmi le corps des anciens locaux. Sous la dispensation juive, les anciens restaient chez eux, c'est-à-dire qu'ils ne faisaient pas de visites dans l'exercice de leur ministère ; mais à mesure que l'Église chrétienne grandissait, on jugea bientôt nécessaire que quelqu'un se charge du travail extérieur afin de gagner par la persuasion et l'exposition des Écritures ceux qui étaient disposés à embrasser le christianisme. Cela nécessitait de visiter les familles à leur domicile. Ensuite, il devint nécessaire de prendre soin des brebis. Quelqu'un devait surveiller ou diriger l'ensemble du travail. Les anciens juifs avaient toujours un chef, et dans une grande synagogue les conditions fixées pour son chef, ou legatus, étaient presque identiques à celles fixées par Paul à Timothée. Il devait être père de famille, ni riche ni engagé dans les affaires, posséder une bonne voix, être apte à enseigner, etc.",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "The term episkopos was one with which the Hellenistic Jews and Gentiles were well acquainted; and it became thus a fitting term by which to designate the men called out of the body of elders to this special work of oversight. Then, again, the term episkopos was endeared to the early Christians as the one applied to our Lord--\"the Shepherd and Bishop of your souls\" (",
+          "target": "Le terme episkopos était bien connu des Juifs hellénistiques et des païens ; il devint ainsi un terme approprié pour désigner les hommes tirés du corps des anciens en vue de cette œuvre particulière de surveillance. En outre, le terme episkopos était cher aux premiers chrétiens comme celui qui était appliqué à notre Seigneur : « le Berger et l'Évêque de vos âmes » (",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "tail",
+          "source": "). The duties of elders, or presbyters, are not clearly defined in the New Testament.",
+          "target": "). Les devoirs des anciens, ou presbytres, ne sont pas clairement définis dans le Nouveau Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 101,
+          "part": "text",
+          "source": "In the Acts, the term is found only twice, one in reference to Judas, \"his bishopric (or overseership) let another take\" (",
+          "target": "Dans les Actes, le terme ne se trouve que deux fois, une fois à propos de Judas : « Qu'un autre prenne son épiscopat (ou sa charge de surveillance) » (",
+          "action": "translate"
+        },
+        {
+          "node": 102,
+          "part": "tail",
+          "source": " the King James Version), and in Paul's address to the elders of Ephesus, he warns them to feed the church over which they have been made overseers or bishops (",
+          "target": " , King James Version) ; et dans le discours de Paul aux anciens d'Éphèse, où il les avertit de faire paître l'Église sur laquelle ils ont été établis surveillants ou évêques (",
+          "action": "translate"
+        },
+        {
+          "node": 103,
+          "part": "tail",
+          "source": "). It is impossible to say whether this \"overseership\" refers to all the elders addressed, or to such of those elders as had been made \"overseers,\" or \"bishops.\"",
+          "target": "). Il est impossible de dire si cette « surveillance » se rapporte à tous les anciens auxquels il s'adresse, ou à ceux de ces anciens qui avaient été établis « surveillants » ou « évêques ».",
+          "action": "translate"
+        },
+        {
+          "node": 104,
+          "part": "text",
+          "source": "In the epistles, we find the church more clearly organized, and in these writings we find more definite allusions to bishops and their duties (",
+          "target": "Dans les épîtres, nous trouvons l'Église plus clairement organisée, et dans ces écrits nous trouvons des allusions plus précises aux évêques et à leurs devoirs (",
+          "action": "translate"
+        },
+        {
+          "node": 110,
+          "part": "text",
+          "source": "Paul tells Timothy, \"If a man desire the office of a bishop (or overseer) he desireth a good work.\" \"A bishop (or overseer) must be blameless\" (",
+          "target": "Paul dit à Timothée : « Si quelqu'un désire la charge d'évêque (ou de surveillant), il désire une bonne œuvre. » « Il faut qu'un évêque (ou surveillant) soit irréprochable » (",
+          "action": "translate"
+        },
+        {
+          "node": 112,
+          "part": "tail",
+          "source": " the King James Version). He tells Titus that \"he is to ordain elders in every city\" and that a \"bishop must be blameless, as the steward of God\" (",
+          "target": " , King James Version). Il dit à Tite « d'établir des anciens dans chaque ville » et qu'« il faut que l'évêque soit irréprochable, comme intendant de Dieu » (",
+          "action": "translate"
+        },
+        {
+          "node": 114,
+          "part": "tail",
+          "source": " the King James Version).",
+          "target": " , King James Version).",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "text",
+          "source": "On the other hand, there are numerous texts where elders and their duties are mentioned and where there is no reference whatever to bishopric or oversight. The epistles show that of necessity there had grown to be a more distinct organization of the ministry, and that following the custom of the synagogue to some of the elders had been committed a bishopric or oversight. At the same time the rank of a bishop, or overseer, was not yet one of the highest. Paul does not enumerate it in the order of ministry which he gives to the Ephesians--apostles, prophets, evangelists, pastors and teachers.",
+          "target": "D'autre part, il existe de nombreux textes où les anciens et leurs devoirs sont mentionnés et où il n'est fait aucune référence à l'épiscopat ou à la surveillance. Les épîtres montrent que, par nécessité, une organisation plus distincte du ministère s'était développée et que, suivant la coutume de la synagogue, un épiscopat ou une charge de surveillance avait été confié à certains des anciens. En même temps, le rang d'un évêque, ou surveillant, n'était pas encore l'un des plus élevés. Paul ne l'énumère pas dans l'ordre des ministères qu'il donne aux Éphésiens : apôtres, prophètes, évangélistes, pasteurs et docteurs.",
+          "action": "translate"
+        },
+        {
+          "node": 116,
+          "part": "text",
+          "source": "That Timothy had an oversight over the elders or presbyters is evident from the fact that Paul enjoins him to rebuke those that sin: \"Against an elder receive not an accusation, except at the mouth of two or three witnesses. Them that sin reprove in the sight of all\" (",
+          "target": "Que Timothée ait exercé une surveillance sur les anciens ou presbytres ressort du fait que Paul lui enjoint de reprendre ceux qui pèchent : « Ne reçois pas d'accusation contre un ancien, si ce n'est sur la déposition de deux ou trois témoins. Ceux qui pèchent, reprends-les devant tous » (",
+          "action": "translate"
+        },
+        {
+          "node": 118,
+          "part": "tail",
+          "source": "). This, of course, refers to a formal trial by one in authority of persons inferior to him in rank.",
+          "target": "). Cela se rapporte, bien entendu, à un jugement formel prononcé par une personne investie d'autorité sur des personnes qui lui sont inférieures en rang.",
+          "action": "translate"
+        },
+        {
+          "node": 119,
+          "part": "text",
+          "source": "It has been asserted that the terms elder and bishop in the New Testament were equivalent and denoted the same office or grade in the ministry. This assertion seems unwarranted. They do not naturally denote the same grade any more than do apostle and teacher, or angel and prophet.",
+          "target": "On a affirmé que les termes ancien et évêque dans le Nouveau Testament étaient équivalents et désignaient la même charge ou le même degré dans le ministère. Cette affirmation paraît injustifiée. Ils ne désignent pas naturellement le même degré, pas plus que les termes apôtre et docteur, ou ange et prophète.",
+          "action": "translate"
+        },
+        {
+          "node": 120,
+          "part": "text",
+          "source": "7. Deacons:",
+          "target": "7. Diacres :",
+          "action": "translate"
+        },
+        {
+          "node": 121,
+          "part": "text",
+          "source": "The deacons were the seven appointed to take charge of the temporal affairs of the church. Their appointment was perhaps suggested by the alms-collectors of the synagogue. In the New Testament they do not appear as deacons to have had any part in the sacred ministry, except, in the case of Philip the evangelist, if it be assumed that he was a deacon, which is uncertain. Nowhere is it recorded that they laid hands on anyone, or were considered as capable of bestowing any grace. In the epistles they are mentioned with the bishops--\"bishops and deacons\" (",
+          "target": "Les diacres étaient les sept hommes établis pour prendre en charge les affaires temporelles de l'Église. Leur nomination fut peut-être suggérée par les collecteurs d'aumônes de la synagogue. Dans le Nouveau Testament, ils ne semblent pas, en tant que diacres, avoir eu part au ministère sacré, sauf dans le cas de Philippe l'évangéliste, si l'on suppose qu'il était diacre, ce qui est incertain. Il n'est rapporté nulle part qu'ils aient imposé les mains à qui que ce soit, ou qu'ils aient été considérés comme capables de conférer une grâce quelconque. Dans les épîtres, ils sont mentionnés avec les évêques — « évêques et diacres » (",
+          "action": "translate"
+        },
+        {
+          "node": 122,
+          "part": "tail",
+          "source": "), thus showing the nature of their influence as the helpers of the \"bishops\" in the management of the growing funds, or properties of the church.",
+          "target": ") —, indiquant ainsi la nature de leur influence en tant qu'auxiliaires des « évêques » dans la gestion des fonds ou des biens croissants de l'Église.",
+          "action": "translate"
+        },
+        {
+          "node": 123,
+          "part": "text",
+          "source": "III. Episcopacy according to the New Testament.",
+          "target": "III. L'épiscopat selon le Nouveau Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 124,
+          "part": "text",
+          "source": "The passages where the Greek word occurs which has been translated either as bishops, or overseers, are so few that they are enumerated: ",
+          "target": "Les passages où apparaît le mot grec qui a été traduit soit par évêques, soit par surveillants, sont si peu nombreux qu'on peut les énumérer : ",
+          "action": "translate"
+        },
+        {
+          "node": 126,
+          "part": "tail",
+          "source": ": the Ephesian elders are stated to be bishops (or overseers) to feed the church; ",
+          "target": ": il est déclaré que les anciens d'Éphèse sont évêques (ou surveillants) pour faire paître l'Église ; ",
+          "action": "translate"
+        },
+        {
+          "node": 127,
+          "part": "tail",
+          "source": " the salutation of Paul and Timothy to bishops (or overseers) and deacons at Philippi; ",
+          "target": " : salutation de Paul et de Timothée aux évêques (ou surveillants) et aux diacres de Philippes ; ",
+          "action": "translate"
+        },
+        {
+          "node": 129,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 130,
+          "part": "tail",
+          "source": " give the exhortation to Timothy and Titus as holding the office of a bishop; ",
+          "target": " contiennent l'exhortation adressée à Timothée et à Tite en tant que titulaires de la charge d'évêque ; ",
+          "action": "translate"
+        },
+        {
+          "node": 131,
+          "part": "tail",
+          "source": ", where the apostle referring to Christ says, \"unto the Shepherd and Bishop of your souls.\"",
+          "target": ", où l'apôtre, se référant à Christ, dit : « vers le Berger et l'Évêque de vos âmes ».",
+          "action": "translate"
+        },
+        {
+          "node": 132,
+          "part": "text",
+          "source": "IV. The \"Didache.\"",
+          "target": "IV. La « Didachè ».",
+          "action": "translate"
+        },
+        {
+          "node": 133,
+          "part": "text",
+          "source": "Passing out of the New Testament, we come to the early Christian writing, the so-called Teaching of the Twelve Apostles. Setting aside the question for what class of Christians this document was intended, the clear fact stands out that at the date of its writing the two highest grades in the Christian ministry were still called apostles and prophets. Various dates have been assigned to this document ranging from 80 to 160 AD.",
+          "target": "Sortant du Nouveau Testament, nous en arrivons à l'écrit chrétien ancien appelé Enseignement des douze apôtres. Laissant de côté la question de savoir à quelle catégorie de chrétiens ce document était destiné, un fait ressort clairement : à la date de sa rédaction, les deux degrés les plus élevés du ministère chrétien étaient encore appelés apôtres et prophètes. Diverses dates ont été attribuées à ce document, allant de 80 à 160 apr. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 134,
+          "part": "text",
+          "source": "At the end of chapter 10, which deals with the thanksgiving or eucharist, the remark is made, \"But permit the prophets to make thanksgiving as much as they desire.\" Chapters 11 and 13 deal with apostles and prophets. They were to be treated \"according to the ordinance of the gospel.\" An apostle was not to be allowed to stay more than a couple of days at the utmost, and in no case was he to receive any money, else he was to be considered \"a false prophet.\" A prophet could beg on behalf of others, but not for himself; but a prophet could settle among a congregation, and in that case he was to receive the same first-fruits \"of money and raiment and of every possession\" as the chief priest did under the old dispensation. It is to be noted that in reality the prophets, though placed second in order, were to be treated with the greater respect. If the prophet settles down, he becomes the man of the first rank in that Christian community.",
+          "target": "À la fin du chapitre 10, qui traite de l'action de grâces ou eucharistie, cette remarque est faite : « Mais permettez aux prophètes de rendre grâces autant qu'ils le désirent. » Les chapitres 11 et 13 traitent des apôtres et des prophètes. Ils devaient être traités « selon l'ordonnance de l'Évangile ». Un apôtre ne devait pas être autorisé à rester plus de deux jours tout au plus, et il ne devait en aucun cas recevoir d'argent, sinon il devait être considéré comme « un faux prophète ». Un prophète pouvait demander pour les autres, mais non pour lui-même ; toutefois, un prophète pouvait s'établir dans une assemblée, auquel cas il devait recevoir les mêmes prémices « d'argent, de vêtements et de tout bien » que le grand prêtre sous l'ancienne dispensation. Il faut remarquer qu'en réalité les prophètes, bien que placés au deuxième rang dans l'ordre, devaient être traités avec le plus grand respect. Si le prophète s'établit, il devient l'homme de premier rang dans cette communauté chrétienne.",
+          "action": "translate"
+        },
+        {
+          "node": 135,
+          "part": "text",
+          "source": "Chapter 15 deals with bishops and deacons, and we are told that if appointed they rendered the ministry of prophets and teachers, but the warning is given, \"Despise them not, therefore, for they are your honored ones, together with the prophets and teachers.\" This shows that bishops were localized; and that while they could be appointed over a community, they were not considered as of equal rank with the prophets.",
+          "target": "Le chapitre 15 traite des évêques et des diacres, et il nous est dit que, s'ils étaient établis, ils accomplissaient le ministère des prophètes et des docteurs ; mais cet avertissement est donné : « Ne les méprisez donc pas, car ils sont ceux que vous honorez avec les prophètes et les docteurs. » Cela montre que les évêques étaient attachés à un lieu ; et que, s'ils pouvaient être établis à la tête d'une communauté, ils n'étaient pas considérés comme étant de rang égal aux prophètes.",
+          "action": "translate"
+        },
+        {
+          "node": 136,
+          "part": "text",
+          "source": "V. Clement of Rome.",
+          "target": "V. Clément de Rome.",
+          "action": "translate"
+        },
+        {
+          "node": 137,
+          "part": "text",
+          "source": "Clement of Rome in his Epistle to the Corinthians says that the apostles preaching through countries and cities appointed the first-fruits of their labors to be bishops and deacons (chapter 42). It is usually said that Clement meant elders by the term \"bishops,\" but it is much more likely that he meant what he said; that according to the tradition received by him, the apostles appointed bishops, that is, appointed bishops out of the elders--mentioned in the Acts. In chapter 44 Clement warns against the sin of ejecting from the episcopate those who have presented the offerings, and says, \"Blessed are those presbyters who have finished their course.\"",
+          "target": "Clément de Rome dit dans son Épître aux Corinthiens que les apôtres, prêchant à travers les pays et les villes, établirent les prémices de leurs travaux comme évêques et diacres (chapitre 42). On dit généralement que Clément entendait par le terme « évêques » les anciens, mais il est beaucoup plus vraisemblable qu'il entendait ce qu'il disait ; que, selon la tradition qu'il avait reçue, les apôtres établirent des évêques, c'est-à-dire choisirent des évêques parmi les anciens mentionnés dans les Actes. Au chapitre 44, Clément met en garde contre le péché qui consiste à exclure de l'épiscopat ceux qui ont présenté les offrandes, et dit : « Heureux les presbytres qui ont achevé leur course. »",
+          "action": "translate"
+        },
+        {
+          "node": 138,
+          "part": "text",
+          "source": "The reason why the terms apostles and prophets fell into desuetude was, as regards the first, not so much out of respect to the original apostles, but because the apostles in the sub-apostolic age became apparently only wandering evangelists of little standing; while the prophets lowered their great office by descending to be soothsayers, as the Shepherd of Hermas plainly intimates. With the fall of the apostles and the prophets, there rose into prominence the bishops and deacons.",
+          "target": "La raison pour laquelle les termes apôtres et prophètes tombèrent en désuétude fut, pour le premier, moins le respect envers les apôtres originels que le fait que les apôtres de l'âge subapostolique ne devinrent apparemment que des évangélistes itinérants de peu de considération ; tandis que les prophètes abaissèrent leur haute charge en descendant au rang de devins, comme le laisse clairement entendre le Pasteur d'Hermas. Avec le déclin des apôtres et des prophètes, les évêques et les diacres prirent de l'importance.",
+          "action": "translate"
+        },
+        {
+          "node": 139,
+          "part": "text",
+          "source": "VI. Bishops and Deacons.",
+          "target": "VI. Évêques et diacres.",
+          "action": "translate"
+        },
+        {
+          "node": 140,
+          "part": "text",
+          "source": "The deacons acted as secretaries and treasurers to the bishops. They were their right-hand men, representing them in all secular matters. As the numbers of Christians increased, it was found absolutely necessary for the bishops to delegate some of their spiritual authority to a second order.",
+          "target": "Les diacres faisaient fonction de secrétaires et de trésoriers des évêques. Ils étaient leurs bras droits, les représentant dans toutes les affaires séculières. À mesure que le nombre des chrétiens augmentait, il devint absolument nécessaire que les évêques délèguent une partie de leur autorité spirituelle à un deuxième ordre.",
+          "action": "translate"
+        },
+        {
+          "node": 141,
+          "part": "text",
+          "source": "VII. Bishops and Presbyters (Priests).",
+          "target": "VII. Évêques et presbytres (prêtres).",
+          "action": "translate"
+        },
+        {
+          "node": 142,
+          "part": "text",
+          "source": "Thus very slowly emerged out of the body of elders the official presbyters or priests. To them the bishop delegated the power to teach, to preach, to baptize, to celebrate the Holy Eucharist; but how slowly is evidenced by the fact that so late as 755 AD the Council of Vern forbade priests to baptize, except by distinct permission of their bishop.",
+          "target": "Ainsi émergèrent très lentement du corps des anciens les presbytres officiels ou prêtres. L'évêque leur délégua le pouvoir d'enseigner, de prêcher, de baptiser, de célébrer la sainte eucharistie ; mais la lenteur de cette évolution ressort du fait que, jusqu'en 755 apr. J.-C., le concile de Vern interdit aux prêtres de baptiser, sauf autorisation expresse de leur évêque.",
+          "action": "translate"
+        },
+        {
+          "node": 143,
+          "part": "text",
+          "source": "VIII. Ignatian Epistles on the Three Orders.",
+          "target": "VIII. Les épîtres d'Ignace sur les trois ordres.",
+          "action": "translate"
+        },
+        {
+          "node": 144,
+          "part": "text",
+          "source": "When we come to the Ignatian epistles written between 110-17 AD, we find a distinct threefold order. We have given us the names of Damas, for bishop, Bassus and Apollonius for presbyters, Zotion for deacon. Throughout these epistles there is no question that the bishop is supreme. Apostles and prophets are not even mentioned. The bishop succeeds to all the powers the apostles and prophets had. On the other hand, as with the Jewish elders, so with the Christian presbyters, they form a council with the bishop. Here we see in clear day what we had all along suspected to be the case in apostolic times: a council of presbyters with a ruler at their head and deacons to attend to money matters.",
+          "target": "Lorsque nous en arrivons aux épîtres d'Ignace, écrites entre 110 et 117 apr. J.-C., nous trouvons un triple ordre distinct. Les noms de Damas comme évêque, de Bassus et d'Apollonius comme presbytres et de Zotion comme diacre nous sont donnés. Tout au long de ces épîtres, la suprématie de l'évêque ne fait aucun doute. Les apôtres et les prophètes ne sont même pas mentionnés. L'évêque succède à tous les pouvoirs que détenaient les apôtres et les prophètes. D'autre part, comme les anciens juifs, les presbytres chrétiens forment un conseil avec l'évêque. Nous voyons ici en pleine lumière ce que nous avions soupçonné depuis le début pour les temps apostoliques : un conseil de presbytres ayant à sa tête un dirigeant et des diacres chargés des affaires d'argent.",
+          "action": "translate"
+        },
+        {
+          "node": 145,
+          "part": "text",
+          "source": "It is quite immaterial as to whether a bishop had ten or a hundred presbyter-elders under him, whether he was bishop in a small town or in a large city. The question of numbers under him would not affect his authority as has been claimed. The greatness of the city in which he exercised this rule would add dignity to his position, but nothing to his inherent authority.",
+          "target": "Il est tout à fait indifférent qu'un évêque ait eu dix ou cent presbytres-anciens sous son autorité, qu'il ait été évêque dans une petite ville ou une grande cité. Le nombre de ceux qui lui étaient soumis n'affecterait pas son autorité, comme on l'a prétendu. L'importance de la ville dans laquelle il exerçait cette autorité ajouterait de la dignité à sa position, mais rien à son autorité intrinsèque.",
+          "action": "translate"
+        },
+        {
+          "node": 146,
+          "part": "text",
+          "source": "From this time on it is admitted by all that bishops, priests and deacons have been continuously in existence. Their powers and duties have varied, have been curtailed as one order has encroached on the power of the other, but still there the three orders have been. Gradually the presbyters or priests encroached on the power of the bishop, till now, according to Anglican usage, only the power of ordaining, confirming and consecrating churches is left to them.",
+          "target": "Depuis cette époque, il est admis par tous que les évêques, les prêtres et les diacres ont existé sans interruption. Leurs pouvoirs et leurs devoirs ont varié, ont été réduits lorsque l'un des ordres a empiété sur les pouvoirs de l'autre, mais les trois ordres ont toujours existé. Progressivement, les presbytres ou prêtres empiétèrent sur le pouvoir de l'évêque, jusqu'à ce qu'aujourd'hui, selon l'usage anglican, seuls les pouvoirs d'ordonner, de confirmer et de consacrer des églises soient laissés aux évêques.",
+          "action": "translate"
+        },
+        {
+          "node": 147,
+          "part": "text",
+          "source": "IX. Views of Reformers.",
+          "target": "IX. Opinions des réformateurs.",
+          "action": "translate"
+        },
+        {
+          "node": 148,
+          "part": "text",
+          "source": "At the time of the Reformation there was a great outcry against bishops. This was caused by the fact that under feudalism the bishops had come to be great temporal lords immersed in schemes of political and material aggrandizement, and often actually leading their armies in times of war. Many of the bishops were proud and arrogant, forgetful that their duties as fathers of the children of Christ were to look after those committed to them with fatherly kindness and charity or that as pastors they had to tend the erring sheep with Divine patience and infinite love.",
+          "target": "À l'époque de la Réforme, il y eut une grande protestation contre les évêques. Cela tenait au fait que, sous la féodalité, les évêques étaient devenus de grands seigneurs temporels, absorbés par des projets d'agrandissement politique et matériel, et menant souvent eux-mêmes leurs armées en temps de guerre. Beaucoup d'évêques étaient orgueilleux et arrogants, oubliant que leurs devoirs en tant que pères des enfants de Christ consistaient à prendre soin de ceux qui leur étaient confiés avec une bonté et une charité paternelles, ou qu'en tant que pasteurs ils devaient soigner les brebis égarées avec une patience divine et un amour infini.",
+          "action": "translate"
+        },
+        {
+          "node": 149,
+          "part": "text",
+          "source": "The bulk of the adherents to the Reformed religion, looking upon the bishops as they were and as their fathers had known them, recoiled from retaining the office, although their principal men, like Calvin, deplored the loss of bishops, and hoped that bishops of the primitive order would some day be restored. The present modern Anglican bishop seems to sum up in his person and office the requirements laid down by Calvin.",
+          "target": "La masse des adeptes de la religion réformée, considérant les évêques tels qu'ils étaient et tels que leurs pères les avaient connus, répugnait à conserver la charge, bien que leurs principaux hommes, comme Calvin, déplorassent la perte des évêques et espérassent que des évêques de l'ordre primitif seraient un jour rétablis. L'évêque anglican moderne actuel semble réunir dans sa personne et sa charge les conditions énoncées par Calvin.",
+          "action": "translate"
+        },
+        {
+          "node": 150,
+          "part": "text",
+          "source": "Conclusion:",
+          "target": "Conclusion :",
+          "action": "translate"
+        },
+        {
+          "node": 151,
+          "part": "text",
+          "source": "Thus the claim put forth by the Anglicans in the preface to the Ordinal may be considered as sound: \"It is evident unto all men, diligently reading Holy Scripture and ancient Authors, that from the Apostles' time there have been these Orders of Ministers in Christ's Church--Bishops, Priests, and Deacons.\"",
+          "target": "Ainsi, la revendication formulée par les anglicans dans la préface de l'Ordinal peut être considérée comme fondée : « Il est évident pour tous ceux qui lisent avec diligence la Sainte Écriture et les auteurs anciens que, depuis le temps des apôtres, il y a eu dans l'Église de Christ ces ordres de ministres : évêques, prêtres et diacres. »",
+          "action": "translate"
+        },
+        {
+          "node": 152,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 153,
+          "part": "text",
+          "source": "Teaching of the Twelve Apostles; Clement of Rome; Shepherd of Hermas; Ignatian epistles; Muratorian Fragment; Works of John Lightfoot; Duchesne, Origines du Culte Chretien; Pellicia, Polity of the Christian Church; Bishop MacLean, Ancient Church Orders; Cheetham, Hist of the Christian Church during the First Six Centuries; Salmon, Introduction to New Testament; Elwin, The Minister of Baptism; Cruttwell, Literary History of Early Christianity; Potter, Church Government; Lowndes, Vindication of Anglican Orders; E. Hatch, The Organization of the Early Christian Churches; C. Gore, The Church and the Ministry; Thompson, Historic Episcopate (Presbyterian); Baird, Huguenots.",
+          "target": "Teaching of the Twelve Apostles ; Clément de Rome ; Shepherd of Hermas ; épîtres d'Ignace ; Fragment de Muratori ; œuvres de John Lightfoot ; Duchesne, Origines du Culte Chretien ; Pellicia, Polity of the Christian Church ; Bishop MacLean, Ancient Church Orders ; Cheetham, Hist of the Christian Church during the First Six Centuries ; Salmon, Introduction to New Testament ; Elwin, The Minister of Baptism ; Cruttwell, Literary History of Early Christianity ; Potter, Church Government ; Lowndes, Vindication of Anglican Orders ; E. Hatch, The Organization of the Early Christian Churches ; C. Gore, The Church and the Ministry ; Thompson, Historic Episcopate (presbytérien) ; Baird, Huguenots.",
+          "action": "translate"
+        },
+        {
+          "node": 154,
+          "part": "text",
+          "source": "Arthur Lowndes",
+          "target": "Arthur Lowndes",
+          "action": "preserve",
+          "reason": "Historical pronunciation, cross-reference or author signature deliberately retained"
+        },
+        {
+          "node": 155,
+          "part": "text",
+          "source": "CONGREGATIONAL VIEW:",
+          "target": "POINT DE VUE CONGRÉGATIONALISTE :",
+          "action": "translate"
+        },
+        {
+          "node": 156,
+          "part": "text",
+          "source": "1. The New Testament Church a Spiritual Democracy:",
+          "target": "1. L'Église du Nouveau Testament, une démocratie spirituelle :",
+          "action": "translate"
+        },
+        {
+          "node": 157,
+          "part": "text",
+          "source": "As a spiritual and social democracy, Congregationaliam finds no warrant or precedent in the New Testament for the episcopal conception of the words \"bishop,\" \"presbyter,\" and \"elder.\" It interprets epi-skopos, literally as overseer--not an ecclesiastical dignitary but a spiritual minister. It finds the Romanist view of Peter's primacy, founded alone on ",
+          "target": "En tant que démocratie spirituelle et sociale, le congrégationalisme ne trouve dans le Nouveau Testament ni justification ni précédent à la conception épiscopale des mots « évêque », « presbytre » et « ancien ». Il interprète epi-skopos littéralement comme surveillant — non un dignitaire ecclésiastique, mais un ministre spirituel. Il considère que la conception romaine de la primauté de Pierre, fondée uniquement sur ",
+          "action": "translate"
+        },
+        {
+          "node": 158,
+          "part": "tail",
+          "source": ", contradicted by the entire trend of Christ's teaching, as e.g. when referring to the Gentiles exercising lordship and authority Christ says, \"Not so shall it be among you\" (",
+          "target": ", est contredite par toute l'orientation de l'enseignement de Christ, comme, par exemple, lorsque, à propos des païens qui exercent domination et autorité, Christ dit : « Il n'en sera pas ainsi parmi vous » (",
+          "action": "translate"
+        },
+        {
+          "node": 159,
+          "part": "tail",
+          "source": " ff). He set the precedent of official greatness when He said \"the Son of man came not to be ministered unto, but to minister,\" and that \"whosoever would become great among you shall be your minister (servant).\" Paul's testimony confirms this in suggesting no primacy among the apostles and prophets, but making \"Christ .... himself .... the chief corner stone\" (",
+          "target": " et suiv.). Il établit le précédent de la grandeur dans l'exercice d'une charge lorsqu'il dit que « le Fils de l'homme est venu non pour être servi, mais pour servir », et que « quiconque voudra devenir grand parmi vous sera votre ministre (serviteur) ». Le témoignage de Paul confirme cela en ne suggérant aucune primauté parmi les apôtres et les prophètes, mais en faisant de « Christ ... lui-même ... la pierre angulaire » (",
+          "action": "translate"
+        },
+        {
+          "node": 160,
+          "part": "tail",
+          "source": "). The organization and history of the early Christian church establish this view of its simplicity and democracy. In ",
+          "target": "). L'organisation et l'histoire de l'Église chrétienne primitive établissent cette conception de sa simplicité et de sa démocratie. En ",
+          "action": "translate"
+        },
+        {
+          "node": 161,
+          "part": "tail",
+          "source": " the Revised Version (British and American) corrects the rendering \"bishopric\" (given by the King James translators, who were officers in the Episcopal church) to \"office,\" thus, relieving the verse of possible ecclesiastical pretensions.",
+          "target": " , la Revised Version (britannique et américaine) corrige la traduction « bishopric » (épiscopat, donnée par les traducteurs de la King James, qui étaient des ministres de l'Église épiscopale) en « office » (charge), libérant ainsi le verset d'éventuelles prétentions ecclésiastiques.",
+          "action": "translate"
+        },
+        {
+          "node": 162,
+          "part": "text",
+          "source": "The church formed on the day of Pentecost was the spontaneous coming together of the original 120 disciples and the 3,000 Christian converts, for fellowship, worship and work, under the inspiration and guidance of the Holy Spirit. Its only creed was belief in the risen Christ and the renewing power of the Holy Spirit; its only condition of membership, repentance and baptism.",
+          "target": "L'Église formée le jour de la Pentecôte fut le rassemblement spontané des 120 disciples originels et des 3 000 convertis chrétiens, pour la communion, le culte et le travail, sous l'inspiration et la direction du Saint-Esprit. Son seul credo était la foi en Christ ressuscité et dans la puissance de renouvellement du Saint-Esprit ; sa seule condition d'admission, la repentance et le baptême.",
+          "action": "translate"
+        },
+        {
+          "node": 163,
+          "part": "text",
+          "source": "2. Election of Officers by Popular Vote:",
+          "target": "2. Élection des responsables par vote populaire :",
+          "action": "translate"
+        },
+        {
+          "node": 164,
+          "part": "text",
+          "source": "The apostles naturally took leadership but, abrogating all authority, committed to the church as a whole the choice of its officers and the conduct of its temporal and spiritual affairs. Judas' place in the apostolate was not filled by succession or episcopal appointment (",
+          "target": "Les apôtres prirent naturellement la direction, mais, renonçant à toute autorité, ils confièrent à l'Église dans son ensemble le choix de ses responsables et la conduite de ses affaires temporelles et spirituelles. La place de Judas dans l'apostolat ne fut pas pourvue par succession ou par nomination épiscopale (",
+          "action": "translate"
+        },
+        {
+          "node": 165,
+          "part": "tail",
+          "source": "). The seven deacons were elected by popular vote (",
+          "target": "). Les sept diacres furent élus par vote populaire (",
+          "action": "translate"
+        },
+        {
+          "node": 166,
+          "part": "tail",
+          "source": "). One of the seven--Philip--preached and, without protest, administered the rite of baptism (",
+          "target": "). L'un des sept, Philippe, prêcha et administra sans protestation le rite du baptême (",
+          "action": "translate"
+        },
+        {
+          "node": 169,
+          "part": "text",
+          "source": "The churches in the apostolic era were independent and self-governing, and the absence of anything like a centralized ecclesiastical authority is seen by the fact that the council at Jerusalem, called to consider whether the church at Antioch should receive the uncircumcised into membership, was a delegated body, composed in part of lay members, and having only advisory power (",
+          "target": "Les Églises de l'époque apostolique étaient indépendantes et se gouvernaient elles-mêmes, et l'absence de toute autorité ecclésiastique centralisée apparaît dans le fait que le concile de Jérusalem, convoqué pour examiner si l'Église d'Antioche devait recevoir des incirconcis parmi ses membres, était un corps de délégués, composé en partie de laïcs et n'ayant qu'un pouvoir consultatif (",
+          "action": "translate"
+        },
+        {
+          "node": 171,
+          "part": "text",
+          "source": "3. The Epistles not Official Documents:",
+          "target": "3. Les épîtres ne sont pas des documents officiels :",
+          "action": "translate"
+        },
+        {
+          "node": 172,
+          "part": "text",
+          "source": "The apostolic letters, forming so large a part of the New Testament, are not official documents but letters of loving pastoral instruction and counsel. The terms bishops, elders, pastors and teachers are used synonymously and interchangeably, thus limiting the officers of the early church to two orders: pastors and deacons.",
+          "target": "Les lettres apostoliques, qui forment une si grande partie du Nouveau Testament, ne sont pas des documents officiels, mais des lettres d'instruction et de conseil pastoral empreintes d'amour. Les termes évêques, anciens, pasteurs et docteurs sont employés comme synonymes et de manière interchangeable, limitant ainsi les ministres de l'Église primitive à deux ordres : pasteurs et diacres.",
+          "action": "translate"
+        },
+        {
+          "node": 173,
+          "part": "text",
+          "source": "See also ",
+          "target": "Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 174,
+          "part": "text",
+          "source": "CHURCH GOVERNMENT",
+          "target": "GOUVERNEMENT DE L'ÉGLISE",
+          "action": "translate"
+        },
+        {
+          "node": 175,
+          "part": "text",
+          "source": "DIDACHE",
+          "target": "DIDACHÈ",
+          "action": "translate"
+        },
+        {
+          "node": 176,
+          "part": "text",
+          "source": "4. Restoration of Primitive Ideals:",
+          "target": "4. Restauration des idéaux primitifs :",
+          "action": "translate"
+        },
+        {
+          "node": 177,
+          "part": "text",
+          "source": "Under the spiritual tyrannies of the Church of England, during the reigns of Henry VIII, Edward VI, \"bloody\" Mary and 'Queen Elizabeth, the Dissenting bodies, chiefly the Congregationalists, returned to the simplicity and spiritual freedom of the primitive church. The issue was forced by two arbitrary acts of Parliament under Elizabeth: the Act of Supremacy and the Act of Uniformity. Emancipation from the intellectual and religious tyranny of these acts was won at the cost of many martyrdoms. These struggles and persecutions wrought into the successors of Robert Browne, the father of modern Congregationalism, a deep-seated and permanent resentment against all forms of autocratic power in church and state. They challenged, at the cost of life, both the Divine Right of kings, and of bishops. They believed that in Christ Jesus all believers are literally and inalienably made \"kings and priests unto God\" (",
+          "target": "Sous les tyrannies spirituelles de l'Église d'Angleterre, durant les règnes d'Henri VIII, d'Édouard VI, de Marie « la Sanglante » et de la reine Élisabeth, les communautés dissidentes, principalement les congrégationalistes, revinrent à la simplicité et à la liberté spirituelle de l'Église primitive. La question fut rendue inévitable par deux actes arbitraires du Parlement sous Élisabeth : l'Acte de suprématie et l'Acte d'uniformité. L'émancipation de la tyrannie intellectuelle et religieuse de ces actes fut obtenue au prix de nombreux martyres. Ces luttes et ces persécutions firent naître chez les successeurs de Robert Browne, père du congrégationalisme moderne, une hostilité profonde et durable envers toutes les formes de pouvoir autocratique dans l'Église et l'État. Au prix de leur vie, ils contestèrent le droit divin des rois aussi bien que celui des évêques. Ils croyaient qu'en Jésus-Christ tous les croyants sont littéralement et inaliénablement faits « rois et prêtres pour Dieu » (",
+          "action": "translate"
+        },
+        {
+          "node": 178,
+          "part": "tail",
+          "source": " the King James Version), actual spiritual sovereigns, independent of all human dictation an d control in matters of belief and worship. The Pilgrims expatriated themselves to secure this spiritual liberty; and to their inherent antagonism to inherited and self-perpetuated power, whether civil or ecclesiastical, must be credited the religious freedom and civil democracy of America.",
+          "target": " , King James Version), de véritables souverains spirituels, indépendants de toute dictée et de tout contrôle humains en matière de croyance et de culte. Les Pères pèlerins s'expatrièrent pour assurer cette liberté spirituelle ; et c'est à leur antagonisme intrinsèque envers le pouvoir héréditaire ou se perpétuant lui-même, civil ou ecclésiastique, qu'il faut attribuer la liberté religieuse et la démocratie civile de l'Amérique.",
+          "action": "translate"
+        },
+        {
+          "node": 179,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 180,
+          "part": "text",
+          "source": "For further study see Henry M. Dexter, Congregationalism, chapter ii; Dunning's Congregationalists in America, chapters i, ii: Rainy, The Ancient Catholic Church.",
+          "target": "Pour approfondir, voir Henry M. Dexter, Congregationalism, chapitre ii ; Dunning, Congregationalists in America, chapitres i, ii ; Rainy, The Ancient Catholic Church.",
+          "action": "translate"
+        },
+        {
+          "node": 181,
+          "part": "text",
+          "source": "Dwight M. Pratt",
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "Historical pronunciation, cross-reference or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BITHYNIA",
+      "article_id": "isbe-f132b84327309f759eba",
+      "source_article_sha256": "85af451c78d29a11962478c140a05aec6caca015e2bf4108ae159e68665e2b12",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BITHYNIA",
+          "target": "BITHYNIE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bi-thin'-i-a (Bithunia): A coast province in northwestern Asia Minor on the Propontis and the Euxine. Its narrowest compass included the districts on both sides of the Sangarius, its one large river, but in prosperous times its boundaries reached from the Rhyndacus on the west to and beyond the Parthenius on the east. The Mysian Olympus rose in grandeur to a height of 6,400 ft. in the southwest, and in general the face of Nature was wrinkled with rugged mountains and seamed with fertile valleys sloping toward the Black Sea.",
+          "target": "bi-thin'-i-a (Bithunia) : Province côtière du nord-ouest de l'Asie Mineure, sur la Propontide et le Pont-Euxin. Dans son étendue la plus réduite, elle comprenait les districts des deux côtés du Sangarius, son unique grand fleuve ; mais aux époques prospères, ses frontières s'étendaient du Rhyndacus à l'ouest jusqu'au Parthenius et au-delà, à l'est. L'Olympe de Mysie s'élevait majestueusement à une hauteur de 6 400 pieds au sud-ouest ; et, en général, le visage de la nature était plissé de montagnes escarpées et sillonné de vallées fertiles descendant vers la mer Noire.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "Hittites may have occupied Bithynia in the remote past, for Priam of Troy found some of his stoutest enemies among the Amazons on the upper Sangarius in Phrygia, and these may have been Hittite, and may easily have settled along the river to its mouth. The earliest discernible Bithynians, however, were Thracian immigrants from the European side of the Reliespont. The country was overcome by Croesus, and passed with Lydia under Persian control, 546 BC. After Alexander the Great, Bithynia became independent, and Nicomedes I, Prusias I and II, and Nicomedes II and III, ruled from 278 to 74 BC. The last king, weary of the incessant strife among the peoples of Asia Minor, especially as provoked by the aggressive Mithridates, bequeathed his country to Rome. Nicomedia and Prusa, or Brousa, were founded by kings whose names they bear; the other chief cities, Nicea and Chalcedon, had been built by Greek enterprise earlier. There were highways leading from Nicomedia and Nicea to Dorylaeum and to Angora (see Ramsay , Historical Geography of Asia Minor, and The Church in the Roman Empire before A. D. 170). Under Rome the Black Sea littoral as far as Amisus was more or less closely joined with Bithynia in administration.",
+          "target": "Les Hittites ont pu occuper la Bithynie dans un passé lointain, car Priam de Troie trouva parmi les Amazones du haut Sangarius, en Phrygie, certains de ses ennemis les plus redoutables ; celles-ci ont pu être hittites et avoir facilement établi des colonies le long du fleuve jusqu'à son embouchure. Les premiers Bithyniens identifiables, cependant, étaient des immigrants thraces venus de la rive européenne de l'Hellespont. Le pays fut conquis par Crésus et passa avec la Lydie sous la domination perse en 546 av. J.-C. Après Alexandre le Grand, la Bithynie devint indépendante, et Nicomède Ier, Prusias Ier et II, ainsi que Nicomède II et III, régnèrent de 278 à 74 av. J.-C. Le dernier roi, las des luttes incessantes entre les peuples d'Asie Mineure, surtout celles que provoquait l'agressif Mithridate, légua son pays à Rome. Nicomédie et Pruse, ou Brousse, furent fondées par les rois dont elles portent les noms ; les autres villes principales, Nicée et Chalcédoine, avaient été bâties antérieurement par l'initiative grecque. De grandes routes conduisaient de Nicomédie et de Nicée à Dorylée et à Angora (voir Ramsay, Historical Geography of Asia Minor et The Church in the Roman Empire before A. D. 170). Sous Rome, le littoral de la mer Noire jusqu'à Amisus fut plus ou moins étroitement rattaché à la Bithynie du point de vue administratif.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Paul and Silas essayed to go into Bithynia, but the Spirit suffered them not (",
+          "target": "Paul et Silas essayèrent d'aller en Bithynie, mais l'Esprit ne le leur permit pas (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). Other evangelists, however, must have labored there early and with marked success. Bithynia is one of the provinces addressed in ",
+          "target": "). Cependant, d'autres évangélistes ont dû y travailler de bonne heure et avec un succès marqué. La Bithynie est l'une des provinces auxquelles s'adresse ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "Internal difficulties and disorders led to the sending of Pliny, the lawyer and literary man, as governor, 111 to 113 AD. He found Christians under his jurisdiction in such numbers that the heathen temples were almost deserted, and the trade in sacrificial animals languished. A memorable correspondence followed between the Roman governor and the emperor Trajan, in which the moral character of the Christians was completely vindicated, and the repressive measures required of officials were interpreted with leniency (see E. G. Hardy, Pliny's Correspondence with Trajan, and Christianity and the Roman Government). Under this Roman policy Christianity was confirmed in strength and in public position. Subsequently the first Ecumenical Council of the church was held in Nicea, and two later councils convened in Chalcedon, a suburb of what is now Constantinople. The emperor Diocletian had fixed his residence and the seat of government for the eastern Roman Empire in Nicomedia.",
+          "target": "Des difficultés et des désordres internes conduisirent à l'envoi de Pline, juriste et homme de lettres, comme gouverneur, de 111 à 113 apr. J.-C. Il trouva sous sa juridiction des chrétiens en si grand nombre que les temples païens étaient presque déserts et que le commerce des animaux destinés aux sacrifices languissait. Il s'ensuivit une correspondance mémorable entre le gouverneur romain et l'empereur Trajan, dans laquelle le caractère moral des chrétiens fut entièrement justifié et les mesures répressives exigées des fonctionnaires furent interprétées avec clémence (voir E. G. Hardy, Pliny's Correspondence with Trajan et Christianity and the Roman Government). Sous cette politique romaine, le christianisme se trouva affermi dans sa force et sa position publique. Par la suite, le premier concile œcuménique de l'Église se tint à Nicée, et deux conciles ultérieurs se réunirent à Chalcédoine, faubourg de l'actuelle Constantinople. L'empereur Dioclétien avait fixé sa résidence et le siège du gouvernement de l'Empire romain d'Orient à Nicomédie.",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "Bithynia was for a thousand years part of the Byzantine Empire, and shared the fortunes and misfortunes of that state. On the advent of the Turks its territory was quickly overrun, and Orchan, sultan in 1326, selected Brousa as his capital, since which time this has been one .of the chief Ottoman cities.",
+          "target": "La Bithynie fit partie pendant mille ans de l'Empire byzantin et partagea les fortunes et les infortunes de cet État. À l'arrivée des Turcs, son territoire fut rapidement envahi, et Orchan, sultan en 1326, choisit Brousse pour capitale ; depuis cette époque, celle-ci est l'une des principales villes ottomanes.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "G. E. White",
+          "target": "G. E. White",
+          "action": "preserve",
+          "reason": "Historical pronunciation, cross-reference or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

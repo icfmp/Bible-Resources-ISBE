@@ -1,0 +1,1113 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BOOK",
+      "article_id": "isbe-acf179bbd4f8c0becab1",
+      "source_article_sha256": "9907f154348bddc6b2eff28d2818febdb4baf2e29bf305e546f7c734c4b1fab3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOOK",
+          "target": "LIVRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "book (cepher; he biblos):",
+          "target": "book (cepher ; he biblos) :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "1. Definition",
+          "target": "1. Définition",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "2. Inward Books",
+          "target": "2. Livres intérieurs",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "3. Publication",
+          "target": "3. Publication",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(1) Mechanical Copies",
+          "target": "(1) Copies mécaniques",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(2) Personal Copies",
+          "target": "(2) Copies personnelles",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "4. Oral Transmission",
+          "target": "4. Transmission orale",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "5. Manuscripts",
+          "target": "5. Manuscrits",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "(1) Epigraphy",
+          "target": "(1) Épigraphie",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "(2) Sphragistics",
+          "target": "(2) Sigillographie",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "(3) Numismatics",
+          "target": "(3) Numismatique",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "(4) Diplomatics",
+          "target": "(4) Diplomatique",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "(5) Paleography",
+          "target": "(5) Paléographie",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "6. Printed Books",
+          "target": "6. Livres imprimés",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "7. Variations",
+          "target": "7. Variations",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "8. Textual Criticism",
+          "target": "8. Critique textuelle",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "9. Higher Criticism",
+          "target": "9. Haute critique",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "10. Literary Criticism",
+          "target": "10. Critique littéraire",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "11. Origin of New Forms",
+          "target": "11. Origine des formes nouvelles",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "12. Survival",
+          "target": "12. Survivance",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "13. Book Collections",
+          "target": "13. Collections de livres",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "14. Early History of Books in Bible Lands",
+          "target": "14. Histoire ancienne des livres dans les pays bibliques",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "A book is any record of thought in words. It consists of a fixed form of words embodied in some kind of substance.",
+          "target": "Un livre est toute consignation de la pensée en paroles. Il consiste en une forme fixe de mots matérialisée dans une substance quelconque.",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "1. Definition:",
+          "target": "1. Définition :",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "The form of words is the main factor, but it has no existence without the record. The kind of record is indifferent; it may be carved on stone, stamped on clay, written or printed on vellum, papyrus or paper, or only stamped on the mind of author or hearer, if so be it keeps the words in fixed form. Looked on as a form of words the book is called a work, and looked on as a record it is called a volume, document, inscription, etc., as the case may be; but neither volume nor work has any real existence as book save as united.",
+          "target": "La forme des mots est le facteur principal, mais elle n'a pas d'existence sans le document qui la conserve. La nature du document est indifférente ; il peut être gravé sur la pierre, imprimé sur l'argile, écrit ou imprimé sur du vélin, du papyrus ou du papier, ou seulement imprimé dans l'esprit de l'auteur ou de l'auditeur, pourvu qu'il conserve les mots sous une forme fixe. Considéré comme une forme de mots, le livre est appelé une œuvre ; considéré comme un document, il est appelé volume, document, inscription, etc., selon le cas ; mais ni le volume ni l'œuvre n'a d'existence réelle en tant que livre, si ce n'est dans leur union.",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "The Biblical words for book, both Greek and Hebrew, oscillate in meaning (as they do in all languages) between the two elements, the form of words and the material form. The common words for book in the New Testament, from which too the word \"Bible\" comes, refer back to the papyrus plant or the material on which the book is written, just as the English word \"book\" was long supposed to be derived from the beech tree, on whose bark the book was written. The usual word in the Hebrew of the Old Testament (cepher) may possibly refer to the act of writing, just as the Greek word grammata and the English \"writings\" do, but more likely, as its other meanings of \"numbering\" and \"narration\" or even \"missive\" indicate, it refers neither to the material nor to the writing process but to the literary work itself. It suggests at least the fact that the earliest books were, indeed, books of tallies. The knot-books and various notchbook tallies are true books. In the King James' version the \"word\" (dabhar) is sometimes translated book, and, althoug h changed in these places in the Revised Version (British and American) to \"acts\" or \"deeds,\" it was nevertheless quite properly translated a book, just as the \"word\" in Greek is used for book, and indeed in English when the Bible is called the Word. Besides these terms commonly translated book in the English Versions of the Bible, various book forms are referred to in the Bible as roll or volume (which is the same in origin), tablet, and perhaps rock inscription (",
+          "target": "Les mots bibliques désignant le livre, tant grecs qu'hébreux, oscillent dans leur sens (comme ils le font dans toutes les langues) entre les deux éléments, la forme des mots et la forme matérielle. Les mots courants pour livre dans le Nouveau Testament, dont dérive aussi le mot « Bible », renvoient à la plante de papyrus ou au matériau sur lequel le livre est écrit, de même que l'on a longtemps supposé que le mot anglais « book » dérivait du hêtre (beech), sur l'écorce duquel le livre aurait été écrit. Le mot usuel dans l'hébreu de l'Ancien Testament (cepher) peut éventuellement se rapporter à l'acte d'écrire, de même que le mot grec grammata et le mot anglais « writings » (écrits) ; mais plus vraisemblablement, comme l'indiquent ses autres sens de « dénombrement » et de « narration », ou même de « missive », il ne se rapporte ni au matériau ni à l'acte d'écrire, mais à l'œuvre littéraire elle-même. Il suggère du moins le fait que les premiers livres étaient effectivement des livres de comptes. Les livres de nœuds et les divers systèmes de comptes par encoches sont de véritables livres. Dans la King James Version, le mot « parole » (dabhar) est parfois traduit par livre et, bien qu'il ait été remplacé dans ces passages de la Revised Version (britannique et américaine) par « acts » ou « deeds » (actes), il était néanmoins tout à fait approprié de le traduire par livre, de même que le mot « parole » en grec est employé pour livre, et même en anglais lorsque la Bible est appelée la Parole. Outre ces termes communément traduits par livre dans les versions anglaises de la Bible, diverses formes du livre sont mentionnées dans la Bible : rouleau ou volume (ce qui est de même origine), tablette, et peut-être inscription sur la pierre (",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "The fact that the Bible is a book, or indeed a library of many kinds of books, makes necessary that to approach its study one should have some systematic idea of the nature of the book; the origin of new forms and their survival, oral and manuscript transmission, the nature of the inward book and the various kinds of inward books. Apart from the matter of general archaeological use for historical interpretation, the questions of inspiration, the incarnate, creative, and indwelling word and many other doctrines are wholly bound up with this question of the nature of the book, and many phrases, such as the Book of Life, can hardly be understood without knowing with some degree of clearness what a book is.",
+          "target": "Le fait que la Bible soit un livre, ou même une bibliothèque de livres de diverses sortes, rend nécessaire, pour aborder son étude, d'avoir une certaine idée systématique de la nature du livre : l'origine des formes nouvelles et leur survivance, la transmission orale et manuscrite, la nature du livre intérieur et les diverses sortes de livres intérieurs. Indépendamment de la question de l'utilité générale de l'archéologie pour l'interprétation historique, les questions de l'inspiration, de la parole incarnée, créatrice et habitant en nous, et bien d'autres doctrines sont entièrement liées à cette question de la nature du livre ; et de nombreuses expressions, telles que le Livre de vie, ne peuvent guère être comprises sans savoir avec quelque clarté ce qu'est un livre.",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "The archaeology, text criticism and higher criticism of the past few years have revolutionized book history and theory in their respective fields. Above all the young science of experimental psychology has, in its short life, contributed more even than the others to an understanding of the book and The Book, the word of God and the Word of God, the Bible and Jesus Christ.",
+          "target": "L'archéologie, la critique textuelle et la haute critique des dernières années ont révolutionné l'histoire et la théorie du livre dans leurs domaines respectifs. Par-dessus tout, la jeune science de la psychologie expérimentale a, dans sa courte existence, contribué plus encore que les autres à la compréhension du livre et du Livre, de la parole de Dieu et de la Parole de Dieu, de la Bible et de Jésus-Christ.",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "2. Inward Books:",
+          "target": "2. Livres intérieurs :",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "Modern experimental psychology by its study of inward images, inward speech, inward writings and other kinds of inward book forms has, in particular, thrown on Biblical inspiration, higher criticism and text criticism and the various aspects of the doctrine of the word, an unexpected light. Inward books, it appears, are not only real, but of many kinds, visual and auditory, oral and written, sensory and motor, and these different kinds have perhaps a material basis and local habitation in different parts of the brain. At least they have real existence; they are real records which preserve a fixed form of words, to be brought out of the recesses of the mind from time to time for re-shaping, re-study or utterance. (See Dittrich, Sprachpsychologie, 1903; LeRoy, Le langage, Paris, 1905; Van Ginneken, Principes de linguistique psychol., 1907; A. Marty, Untersuch. Sprachphilosophie, 1908; Macnamara, Human Speech, 1909; the classical work is Wundt, Volkerpsychologie: Die Sprache, Leipzig, 1900.)",
+          "target": "La psychologie expérimentale moderne, par son étude des images intérieures, de la parole intérieure, des écrits intérieurs et d'autres sortes de formes intérieures du livre, a notamment jeté une lumière inattendue sur l'inspiration biblique, la haute critique, la critique textuelle et les divers aspects de la doctrine de la parole. Les livres intérieurs, semble-t-il, sont non seulement réels, mais de nombreuses sortes : visuels et auditifs, oraux et écrits, sensoriels et moteurs ; ces diverses sortes ont peut-être une base matérielle et un siège localisé dans différentes parties du cerveau. Du moins ont-elles une existence réelle ; ce sont de véritables documents qui préservent une forme fixe de mots, que l'on peut tirer de temps à autre des profondeurs de l'esprit pour la remanier, l'étudier de nouveau ou l'exprimer. (Voir Dittrich, Sprachpsychologie, 1903 ; LeRoy, Le langage, Paris, 1905 ; Van Ginneken, Principes de linguistique psychol., 1907 ; A. Marty, Untersuch. Sprachphilosophie, 1908 ; Macnamara, Human Speech, 1909 ; l'ouvrage classique est celui de Wundt, Volkerpsychologie: Die Sprache, Leipzig, 1900.)",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "Inward books may be originals or copies. Every book is, to begin with, inward. Men sometimes speak of an autograph as the \"original,\" but it is in fact only a first-hand copy of the original, which is inward, and never by any chance becomes or can become outward. Besides these originals there are also inward copies of the books of others. The fact that a book may be memorized is no new thing, but the analysis of the process is. It seems that a book may be inwardly copied through eye or ear or touch or any sense from some outward book; or again it may be copied back and forth within, from sense copy to motor copy, from visual to oral, auditory to inward writing. In reading aloud the visual image is copied over into oral; in taking dictation the auditory image is copied over into inward writing. Many men, even in reading from print, cannot understand unless they translate as they go into oral images or even move their lips. Many others either hearing or reading a French book, e.g. have to translate inwardly into English and have in the end two memory copies, one French and one English, both of which may be recalled. In whatever way they are recorded, these memory impressions are real copies of outward books, and in the case of tribal medicine men, Vedic priests, the ancient minstrels, village gossips, and professional story-tellers of all kinds, the inward collection of books may become a veritable library.",
+          "target": "Les livres intérieurs peuvent être des originaux ou des copies. Tout livre est, pour commencer, intérieur. On parle parfois d'un autographe comme de l'« original », mais ce n'est en réalité qu'une copie de première main de l'original, qui est intérieur et ne devient ni ne peut jamais devenir extérieur. Outre ces originaux, il existe aussi des copies intérieures des livres d'autrui. Le fait qu'un livre puisse être mémorisé n'est pas nouveau, mais l'analyse du processus l'est. Il semble qu'un livre puisse être copié intérieurement, par la vue, l'ouïe, le toucher ou tout autre sens, à partir de quelque livre extérieur ; ou encore qu'il puisse être copié dans un sens et dans l'autre à l'intérieur, de la copie sensorielle à la copie motrice, du visuel à l'oral, de l'auditif à l'écriture intérieure. Dans la lecture à haute voix, l'image visuelle est recopiée sous forme orale ; lorsqu'on écrit sous la dictée, l'image auditive est recopiée sous forme d'écriture intérieure. Beaucoup d'hommes, même lorsqu'ils lisent un texte imprimé, ne peuvent comprendre sans traduire au fur et à mesure en images orales ou même remuer les lèvres. Beaucoup d'autres, entendant ou lisant par exemple un livre français, doivent traduire intérieurement en anglais et possèdent à la fin deux copies mémorisées, l'une française et l'autre anglaise, qui peuvent toutes deux être rappelées à la mémoire. Quelle que soit la manière dont elles sont enregistrées, ces impressions de la mémoire sont de véritables copies de livres extérieurs ; et dans le cas des guérisseurs tribaux, des prêtres védiques, des ménestrels anciens, des commères de village et des conteurs professionnels de toutes sortes, la collection intérieure de livres peut devenir une véritable bibliothèque.",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "3. Publication:",
+          "target": "3. Publication :",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "The end for which a book is created is in general to reach another mind. This means the utterance or copying into some outward material and the re-copying by another into memory. The commonest modes of utterance are oral speech and writing; but there are many others, some appealing to eye, some to ear, some to touch: e.g. gesture language of the Indian and the deaf mute, pressure signs for the blind and deaf, signal codes, drum language, the telegraph click, etc. If the persons to be reached are few, a single oral speech or manuscript may be enough to supply all needs of publication, but if there are very many the speech or writing must somehow be multiplied. This may be done by the author himself. Blind Homer, it is alleged, repeated the Iliad in many cities; and the modern political orator may repeat the same speech several times in the same evening to different audiences. So too the author may, as many Latin writers did, copy out several autographs. If the audience is still too great to be reached by authors' utterances, the aid of heralds, minstrels, scribes and the printing- press must be called in to copy from the autographs or other author's utterances; and in case of need more help yet is called in, copies made from these copies, and copies again, and so on to perhaps hundreds of copyings. This process may be represented as x plus x1 plus x2 plus x2 plus x3 plus xn where x = an original, x1 a first-hand copy of author's utterance, x2 a second-hand copy, x3 a third-hand, etc.",
+          "target": "La fin pour laquelle un livre est créé est généralement d'atteindre un autre esprit. Cela signifie qu'il doit être exprimé ou copié dans un matériau extérieur, puis recopié par un autre dans sa mémoire. Les modes d'expression les plus courants sont la parole orale et l'écriture ; mais il en existe beaucoup d'autres, les uns s'adressant à l'œil, les autres à l'oreille, d'autres au toucher : par exemple le langage gestuel de l'Indien et du sourd-muet, les signes par pression pour les aveugles et les sourds, les codes de signaux, le langage du tambour, le cliquetis du télégraphe, etc. Si les personnes à atteindre sont peu nombreuses, un seul discours oral ou manuscrit peut suffire à tous les besoins de la publication ; mais si elles sont très nombreuses, le discours ou l'écrit doit être multiplié d'une manière ou d'une autre. Cela peut être fait par l'auteur lui-même. Homère, l'aveugle, aurait répété l'Iliade dans de nombreuses villes ; et l'orateur politique moderne peut répéter le même discours plusieurs fois dans la même soirée devant différents auditoires. De même, l'auteur peut, comme le firent beaucoup d'auteurs latins, rédiger plusieurs autographes. Si le public est encore trop considérable pour être atteint par les expressions de l'auteur, il faut faire appel aux hérauts, ménestrels, scribes et à la presse à imprimer pour copier les autographes ou les autres expressions de l'auteur ; et, en cas de besoin, on fait appel à une aide supplémentaire, des copies sont faites de ces copies, puis d'autres copies encore, et ainsi de suite jusqu'à des centaines de copies peut-être. Ce processus peut être représenté par x plus x1 plus x2 plus x2 plus x3 plus xn, où x = un original, x1 une copie de première main de l'expression de l'auteur, x2 une copie de deuxième main, x3 une copie de troisième main, etc.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "Books may thus be divided into originals, first-hand or authors' copies and re-copies. Re-copies in turn whether at second-, third-, fourth- or nth-hand, may be either mechanical or personal, according as the copy is direct from outward material to outward material or from the outward material to a human memory.",
+          "target": "Les livres peuvent ainsi être divisés en originaux, copies de première main ou copies d'auteur, et copies de copies. Ces dernières, à leur tour, qu'elles soient de deuxième, troisième, quatrième ou nième main, peuvent être mécaniques ou personnelles, selon que la copie se fait directement d'un matériau extérieur à un autre ou du matériau extérieur à une mémoire humaine.",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "(1) Mechanical Copies:",
+          "target": "(1) Copies mécaniques :",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "Mechanical copies include photographic copies of manuscripts, or of the lips in speaking, or of gesture, or any other form of utterance which may be photographed. They include also phonographic records, telegraph records, and any other mechanical records of sound or other forms of utterance. Besides photographic and phonographic processes, mechanical copies include founding, stamping by seal or die, stereographic, electrotype, stencil, gelatine pad and printing-press processes, any processes, in short, which do not pass via the human mind, but direct from copy to copy by material means. They do not include composition in movable types or by type-setting machines, typewriting machines and the like, which, like writing, require the interposition of a human mind. These mechanical copies are subject to defects of material, but are free from psychological defects and error, and defect of material is practically negligible.",
+          "target": "Les copies mécaniques comprennent les copies photographiques de manuscrits, des lèvres pendant la parole, de gestes ou de toute autre forme d'expression susceptible d'être photographiée. Elles comprennent également les enregistrements phonographiques, les enregistrements télégraphiques et tous les autres enregistrements mécaniques de sons ou d'autres formes d'expression. Outre les procédés photographiques et phonographiques, les copies mécaniques comprennent la fonte, l'impression par sceau ou matrice, les procédés stéréographiques, galvanoplastiques, au pochoir, au tampon de gélatine et à la presse à imprimer : en somme, tous les procédés qui ne passent pas par l'esprit humain, mais vont directement de copie à copie par des moyens matériels. Elles ne comprennent pas la composition en caractères mobiles ou au moyen de machines à composer, les machines à écrire et autres semblables, qui, comme l'écriture, nécessitent l'intervention d'un esprit humain. Ces copies mécaniques sont sujettes à des défauts matériels, mais sont exemptes de défauts et d'erreurs psychologiques, et les défauts matériels sont pratiquement négligeables.",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "(2) Personal Copies:",
+          "target": "(2) Copies personnelles :",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "Personal copies include inward copies, or memory books, and the re-uttered copies from these copies, to which latter class belong all copied manuscripts. The memory copy may be by eye from writing, or from the lips of a speaker in the case of the deaf. Or it may be by ear from oral speech, telegraph key, drum or other sound utterances. Or it may be again from touch, as in the case of finger-tip lip-reading or the reading of raised characters by the blind. Each of these kinds may perhaps be located in a different part of the mind or brain, and its molecular substratum may be as different from other kinds of inward record as a wave of light is different from a wave of sound, or a photograph from the wax roll of a phonograph; but whatever the form or nature, it somehow records a certain fixed form of words which is substantially equivalent to the original. This memory copy, unlike the mechanical copy, is liable to substantial error. This may arise from defects of sense or of the inward processes of record and it is nearly always present. Why this need be so is one of the mysteries of human nature, but that it is, is one of the obvious facts; and when memory copies are reuttered there is still another crop of errors, \"slips of tongue and pen,\" equally mysterious but equally inevitable. It comes to pass, therefore, that where oral or manuscript transmission exists, there is sure to be a double crop of errors between the successive outward copies. When thus a form of words is frequently re-copied or reprinted via the human mind the resulting book becomes more and more unlike the original as to its form of words, until in the late manuscript copies of early works there may often be thousands of variations from the original. Even an inspired revelation would thus be subject to at least one and perhaps two or three sets of errors from copying before it reached even the autograph stage.",
+          "target": "Les copies personnelles comprennent les copies intérieures, ou livres de mémoire, et les copies exprimées de nouveau à partir de ces copies ; à cette dernière catégorie appartiennent tous les manuscrits copiés. La copie mémorisée peut se faire par la vue, à partir d'un écrit, ou des lèvres d'un orateur dans le cas des sourds. Ou bien elle peut se faire par l'ouïe, à partir de la parole orale, de la clef du télégraphe, du tambour ou d'autres expressions sonores. Ou encore elle peut se faire par le toucher, comme dans le cas de la lecture labiale du bout des doigts ou de la lecture de caractères en relief par les aveugles. Chacune de ces sortes peut peut-être être localisée dans une partie différente de l'esprit ou du cerveau, et son substrat moléculaire peut être aussi différent des autres sortes de documents intérieurs qu'une onde lumineuse diffère d'une onde sonore, ou une photographie du cylindre de cire d'un phonographe ; mais, quelle qu'en soit la forme ou la nature, elle enregistre d'une manière ou d'une autre une certaine forme fixe de mots qui équivaut substantiellement à l'original. Cette copie mémorisée, contrairement à la copie mécanique, est sujette à des erreurs substantielles. Celles-ci peuvent provenir de défauts des sens ou des processus intérieurs d'enregistrement et sont presque toujours présentes. Pourquoi cela doit-il être ainsi ? C'est l'un des mystères de la nature humaine ; mais que cela soit ainsi, c'est l'un des faits évidents. Et lorsque les copies mémorisées sont exprimées de nouveau, il survient encore une autre moisson d'erreurs, de « lapsus de langue et de plume », tout aussi mystérieux mais tout aussi inévitables. Il en résulte donc que, là où existe une transmission orale ou manuscrite, il y a nécessairement une double moisson d'erreurs entre les copies extérieures successives. Lorsqu'ainsi une forme de mots est fréquemment recopiée ou réimprimée en passant par l'esprit humain, le livre qui en résulte devient de moins en moins semblable à l'original quant à sa forme verbale, jusqu'à ce que, dans les copies manuscrites tardives des œuvres anciennes, il puisse souvent y avoir des milliers de variantes par rapport à l'original. Même une révélation inspirée serait ainsi sujette à au moins une, et peut-être deux ou trois séries d'erreurs de copie avant d'atteindre ne serait-ce que le stade de l'autographe.",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "4. Oral Transmission:",
+          "target": "4. Transmission orale :",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "Before the knowledge of handwriting became general, oral publication was usual, and it is still not uncommon. The king's laws and proclamations, the works of poets and historians, and the sacred books were in ancient times published orally by heralds and minstrels and prophets; and these primitive publishers are survived still by town criers, actors, reciters, and Scripture readers.",
+          "target": "Avant que la connaissance de l'écriture manuscrite devînt générale, la publication orale était habituelle, et elle n'est pas rare encore. Les lois et les proclamations du roi, les œuvres des poètes et des historiens, et les livres sacrés étaient, dans l'Antiquité, publiés oralement par des hérauts, des ménestrels et des prophètes ; ces éditeurs primitifs ont encore pour successeurs les crieurs publics, les acteurs, les récitants et les lecteurs des Écritures.",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "Up to the point of the first impression on another mind, oral publication has many advantages. The impression is generally more vivid, and the voice conveys many nice shades of feeling through inflection, stress, and the delicate variations in tone quality which cannot be expressed in writing. When it comes to transmission, however, oral tradition tends to rapid deterioration with each re-copy. It is true that such transmission may be quite exact with enough painstaking and repetition; thus the modern stage affords many examples of actors with large and exact repertories, and the Vedas were, it is alleged, handed down for centuries by a rigidly trained body of memorizers. The memorizing of Confucian books by Chinese students and of the Koran by Moslem students is very exact. Nevertheless, exact transmission orally is rare, and exists only under strictly artificial conditions. Ear impressions, to begin with, tend to be less exact than eye impressions, in any event, because they depend on a brief sense impression, while in reading the eye lingers until the matter is understood. Moreover, the memory copy is not fixed and tends to fade away rapidly; unless very rigidly guarded and frequently repeated it soon breaks up its verbal form. This is readily seen by the great variety in the related legends of closely related tribes; and in modern times in the tales of village gossips and after-dinner stories, which soon lose their fixed verbal form, save as to the main point.",
+          "target": "Jusqu'au point de la première impression produite sur un autre esprit, la publication orale présente de nombreux avantages. L'impression est généralement plus vive, et la voix transmet de nombreuses nuances délicates de sentiment par l'inflexion, l'accentuation et les subtiles variations de timbre qui ne peuvent être exprimées par l'écriture. Mais lorsqu'il s'agit de transmission, la tradition orale tend à se détériorer rapidement à chaque nouvelle copie. Il est vrai qu'une telle transmission peut être tout à fait exacte avec suffisamment de soin et de répétition ; ainsi la scène moderne offre de nombreux exemples d'acteurs possédant de vastes répertoires appris exactement, et les Védas auraient, dit-on, été transmis pendant des siècles par un corps de mémorisateurs rigoureusement formés. La mémorisation des livres de Confucius par les étudiants chinois et du Coran par les étudiants musulmans est très exacte. Néanmoins, la transmission orale exacte est rare et n'existe que dans des conditions strictement artificielles. Les impressions auditives, pour commencer, tendent de toute façon à être moins exactes que les impressions visuelles, parce qu'elles dépendent d'une brève impression sensorielle, tandis que, dans la lecture, l'œil s'attarde jusqu'à ce que la chose soit comprise. De plus, la copie mémorisée n'est pas fixe et tend à s'effacer rapidement ; à moins d'être très rigoureusement préservée et fréquemment répétée, elle perd bientôt sa forme verbale. On le voit aisément à la grande variété des légendes apparentées de tribus étroitement apparentées, et aux temps modernes dans les récits des commères de village et les histoires racontées après dîner, qui perdent bientôt leur forme verbale fixe, sauf quant au point principal.",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "There is great difference of opinion as to the part which oral transmission played in the composition of the Old Testament. The prevailing theory of the higher critics of the 19th century made this the prime factor of transmission to at earliest the 8th century BC, but the recent remarkable revelations of archaeology regarding the use of written documents in Palestine at the time of the Exodus and before has changed the situation somewhat. The still more recent developments as to the Semitic character of Palestine before the invasion of the Israelites, together with the growing evidence of the prevailing use of handwriting all over Palestine by not later than the 9th century, point in the same direction. It is now even asserted (Clay, Amorites) that the Semitic wave was from the north rather than the south, in which case the only possible ground for ascribing illiteracy to the Hebrews at the time of the conquest, and therefore exclusive oral tradition, would be removed.",
+          "target": "Il existe une grande divergence d'opinions quant au rôle joué par la transmission orale dans la composition de l'Ancien Testament. La théorie prédominante des représentants de la haute critique au XIXe siècle en faisait le principal facteur de transmission jusqu'au VIIIe siècle av. J.-C. au plus tôt, mais les remarquables révélations récentes de l'archéologie au sujet de l'emploi de documents écrits en Palestine à l'époque de l'exode et auparavant ont quelque peu modifié la situation. Les découvertes plus récentes encore concernant le caractère sémitique de la Palestine avant l'invasion des Israélites, ainsi que les preuves croissantes de l'usage répandu de l'écriture dans toute la Palestine au IXe siècle au plus tard, vont dans le même sens. On affirme même maintenant (Clay, Amorites) que la vague sémitique venait du nord plutôt que du sud, auquel cas disparaîtrait le seul fondement possible pour attribuer aux Hébreux l'ignorance de l'écriture à l'époque de la conquête, et par conséquent une tradition exclusivement orale.",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "Whatever may be the facts, it may be said with some definiteness that theory which implies two sets of traditions, handed down for several centuries and retaining a considerable amount of verbal likeness, implies written tradition, not oral, for no popular tradition keeps identical verbal forms for so long a time, and there is little ground for supposing artificial transmission by professional memorizers. The schools of the prophets might, indeed, have served as such, but there is no evidence that they did; and it would have been curious if, writing being within easy reach, this should have been done. As in almost all literatures, it is far more likely that the popular traditions are derived from and refreshed by literary sources, than that literature was compiled from traditions with long oral transmission.",
+          "target": "Quels que soient les faits, on peut dire avec une certaine assurance que la théorie qui implique deux ensembles de traditions, transmis pendant plusieurs siècles et conservant une considérable ressemblance verbale, implique une tradition écrite, non orale, car aucune tradition populaire ne conserve des formes verbales identiques pendant un temps aussi long, et il y a peu de raisons de supposer une transmission artificielle par des mémorisateurs professionnels. Les écoles de prophètes auraient pu, en effet, servir à cet usage, mais rien ne prouve qu'elles l'aient fait ; et il aurait été curieux qu'on eût procédé ainsi alors que l'écriture était facilement accessible. Comme dans presque toutes les littératures, il est beaucoup plus vraisemblable que les traditions populaires soient issues de sources littéraires et renouvelées par elles, plutôt que la littérature ait été compilée à partir de traditions ayant connu une longue transmission orale.",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "Biblical references to oral publication are found in the references to heralds (see under the word), to Solomon's wisdom as \"spoken\" (",
+          "target": "Les références bibliques à la publication orale se trouvent dans les mentions de hérauts (voir à ce mot), de la sagesse de Salomon comme ayant été « prononcée » (",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "tail",
+          "source": "), proclamations and edicts, the public reading of the law in the Old Testament, and the reading in the synagogue in the New Testament. All the oracles, \"thus saith the Lord\" and \"the word of Yahweh,\" to Moses, etc., and all allusions to preaching the word, belong to this class of oral publication and transmission. A direct allusion to oral transmission is found in ",
+          "target": "), des proclamations et des édits, de la lecture publique de la loi dans l'Ancien Testament et de la lecture dans la synagogue dans le Nouveau Testament. Tous les oracles, « Ainsi parle le Seigneur » et « la parole de Yahvé », adressés à Moïse, etc., ainsi que toutes les allusions à la prédication de la parole, appartiennent à cette catégorie de publication et de transmission orales. Une allusion directe à la transmission orale se trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "tail",
+          "source": ", \"We have heard with our ears, O God, our fathers have told us.\"",
+          "target": ": « Nous avons entendu de nos oreilles, ô Dieu, nos pères nous l'ont raconté. »",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "5. Manuscripts:",
+          "target": "5. Manuscrits :",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "The distinction of handwriting as against oral utterance lies first in the permanence of the record, but it has also a curious psychological advantage over speech. The latter reaches the mind through hearing one letter at a time as uttered. With writing, on the other hand, the eye grasps three to six letters at a time, and takes in words as wholes instead of spelling them out. The ear always lags, therefore, the eye anticipates, although it may also linger if it needs to. While therefore impressions from hearing may perhaps be deeper, one may gather many more in the same time from reading.",
+          "target": "La différence de l'écriture manuscrite par rapport à l'expression orale réside d'abord dans la permanence du document, mais elle possède aussi un curieux avantage psychologique sur la parole. Celle-ci atteint l'esprit par l'audition d'une lettre à la fois, au fur et à mesure qu'elle est prononcée. Dans l'écriture, en revanche, l'œil saisit de trois à six lettres à la fois et appréhende les mots comme des ensembles au lieu de les épeler. L'oreille est donc toujours en retard, l'œil anticipe, quoiqu'il puisse aussi s'attarder au besoin. Ainsi, bien que les impressions provenant de l'ouïe puissent peut-être être plus profondes, on peut en recueillir beaucoup plus dans le même temps par la lecture.",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "When it comes to transmission, the advantage of handwriting is obvious. In the first place, even the poorest ink hardly fades as rapidly as memory. Then at best few men reach a hundred years, and therefore no memory, copy, while on the other hand the limit to the life of writing has never been reached. We have writings that have lasted 6,000 years, at least; while if the Palermo stone, e.g. had been orally transmitted it must needs have passed through some 200 copyists at least, each producing two sets of errors. The advantage of manuscript transmission over oral tradition in its permanence is thus very great. It is true, of course, that in the case of fragile material like papyrus, paper, or even leather, transmission ordinarily implies many re-copyings and corresponding corruption, but even at worst these will be very much better than the best popular oral tradition.",
+          "target": "Lorsqu'il s'agit de transmission, l'avantage de l'écriture manuscrite est évident. En premier lieu, même la plus mauvaise encre ne s'efface guère aussi rapidement que la mémoire. Ensuite, dans le meilleur des cas, peu d'hommes atteignent cent ans, et par conséquent aucune copie mémorisée ne dure davantage, tandis que, d'autre part, la limite de durée de l'écriture n'a jamais été atteinte. Nous avons des écrits qui ont duré au moins 6 000 ans ; tandis que si la pierre de Palerme, par exemple, avait été transmise oralement, elle aurait nécessairement dû passer par quelque 200 copistes au moins, chacun produisant deux séries d'erreurs. L'avantage de la transmission manuscrite sur la tradition orale quant à sa permanence est donc très grand. Il est vrai, bien entendu, que dans le cas de matériaux fragiles comme le papyrus, le papier ou même le cuir, la transmission implique ordinairement de nombreuses copies successives et une corruption correspondante ; mais même dans le pire des cas, celles-ci seront de beaucoup supérieures à la meilleure tradition orale populaire.",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "In the broad sense manuscripts include all kinds of written books without regard to material, form or instruments used. In the narrowest sense they are limited to rolls and codices, i.e. to literary manuscripts. Inscriptions are properly written matter engraved or inscribed on hard material. Documents, whether private letters or official records, are characteristically folded in pliable material. Literary works again are usually rolls or else codices, which latter is the usual form of the printed books as well. These three classes of written books have their corresponding sciences in epigraphy, diplomatics and paleography.",
+          "target": "Au sens large, les manuscrits comprennent toutes sortes de livres écrits, quels que soient le matériau, la forme ou les instruments employés. Au sens le plus restreint, ils sont limités aux rouleaux et aux codex, c'est-à-dire aux manuscrits littéraires. Les inscriptions sont à proprement parler des textes gravés ou inscrits sur des matériaux durs. Les documents, qu'il s'agisse de lettres privées ou d'actes officiels, sont typiquement pliés dans un matériau souple. Les œuvres littéraires, quant à elles, se présentent habituellement sous forme de rouleaux ou de codex, cette dernière forme étant aussi celle des livres imprimés. À ces trois catégories de livres écrits correspondent les sciences de l'épigraphie, de la diplomatique et de la paléographie.",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "(1) Epigraphy:",
+          "target": "(1) Épigraphie :",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "Epigraphy has to do primarily with inscriptions set up for record in public places. These include published laws, inscriptions, biographical memorials like the modern gravestone inscriptions and those on memorial statues, battle monuments and the like. It includes also votive inscriptions, inscriptions on gems, jewels, weights and measures, weapons, utensils, etc. Seals and coins from all points of view belong here and form another division under printing. These have their own sciences in numismatics and sphragistics. The chief Biblical reference is to the \"tables of stone\" (",
+          "target": "L'épigraphie s'occupe principalement des inscriptions établies pour être conservées dans les lieux publics. Celles-ci comprennent les lois publiées, les inscriptions, les monuments biographiques, tels que les inscriptions funéraires modernes et celles qui figurent sur les statues commémoratives, les monuments de batailles et autres semblables. Elle comprend aussi les inscriptions votives, celles qui se trouvent sur les gemmes, les bijoux, les poids et mesures, les armes, les ustensiles, etc. Les sceaux et les monnaies appartiennent à ce domaine à tous égards et constituent une autre division relevant de l'impression. Ils ont leurs sciences propres, la numismatique et la sigillographie. La principale référence biblique concerne les « tables de pierre » (",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "TABLE",
+          "target": "TABLE",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 79,
+          "part": "text",
+          "source": "ALPHABET",
+          "target": "ALPHABET",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 80,
+          "part": "text",
+          "source": "WEIGHT",
+          "target": "POIDS",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "text",
+          "source": "WRITING",
+          "target": "ÉCRITURE",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "tail",
+          "source": "; etc.",
+          "target": "; etc.",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "(See Lidzbarski, Handb. nordsemit. Epigr., 1898-.)",
+          "target": "(Voir Lidzbarski, Handb. nordsemit. Epigr., 1898-.)",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "(2) Sphragistics:",
+          "target": "(2) Sigillographie :",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "Sphragistics is the science of seals. Scripture references to the seal or signet (",
+          "target": "La sigillographie est la science des sceaux. Les références scripturaires au sceau ou à l'anneau sigillaire (",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "tail",
+          "source": "; etc.) are many.",
+          "target": "; etc.) sont nombreuses.",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 89,
+          "part": "text",
+          "source": "SEAL",
+          "target": "SCEAU",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "text",
+          "source": "SIGNET",
+          "target": "ANNEAU SIGILLAIRE",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "text",
+          "source": "(3) Numismatics:",
+          "target": "(3) Numismatique :",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "text",
+          "source": "Numismatics has to do with inscriptions on coins and medals, and is becoming one of the greatest sources of our knowledge of ancient history, especially on account of the aid derived from coins in the matter of dating, and because of the vast quantity of them discovered.",
+          "target": "La numismatique s'occupe des inscriptions sur les monnaies et les médailles, et devient l'une des plus grandes sources de notre connaissance de l'histoire ancienne, en particulier en raison de l'aide fournie par les monnaies en matière de datation, et de la quantité considérable de celles qui ont été découvertes.",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "text",
+          "source": "MONEY",
+          "target": "MONNAIE",
+          "action": "translate"
+        },
+        {
+          "node": 95,
+          "part": "text",
+          "source": "(4) Diplomatics:",
+          "target": "(4) Diplomatique :",
+          "action": "translate"
+        },
+        {
+          "node": 96,
+          "part": "text",
+          "source": "Diplomatics, or the science of documents, has to do with contracts of sale and purchase (",
+          "target": "La diplomatique, ou science des documents, s'occupe des contrats de vente et d'achat (",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "tail",
+          "source": "), bills of divorce (",
+          "target": "), des actes de divorce (",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "tail",
+          "source": ") and certificates of all sorts of the nature of those registered in the modern public records. These may be on clay tablets, as in Babylonia and the neighboring regions, or on ostraca as found especially in Egypt, but everywhere in the ancient Mediterranean world, and notably for Biblical history, in Samaria, as discovered by the Harvard expedition. Multitudes of the Egyptian papyri discovered in modern times are of this character as well as the Italian papyri until papyrus was succeeded by vellum. Many are also found on wax, gold, silver, brass, lead tablets, etc.",
+          "target": ") et des certificats de toutes sortes, de la nature de ceux qui sont inscrits dans les registres publics modernes. Ceux-ci peuvent être sur des tablettes d'argile, comme en Babylonie et dans les régions voisines, ou sur des ostraca, tels qu'on en trouve surtout en Égypte, mais partout dans le monde méditerranéen antique et notamment, pour l'histoire biblique, à Samarie, comme l'a découvert l'expédition de Harvard. Une multitude des papyrus égyptiens découverts à l'époque moderne sont de cette nature, ainsi que les papyrus italiens jusqu'à ce que le vélin succède au papyrus. On en trouve aussi beaucoup sur des tablettes de cire, d'or, d'argent, d'airain, de plomb, etc.",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 101,
+          "part": "text",
+          "source": "LETTERS",
+          "target": "LETTRES",
+          "action": "translate"
+        },
+        {
+          "node": 102,
+          "part": "text",
+          "source": "OSTRACA",
+          "target": "OSTRACA",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 103,
+          "part": "text",
+          "source": "PAPYRUS",
+          "target": "PAPYRUS",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 104,
+          "part": "text",
+          "source": "(5) Paleography:",
+          "target": "(5) Paléographie :",
+          "action": "translate"
+        },
+        {
+          "node": 105,
+          "part": "text",
+          "source": "Paleography has to do with volumes or books of considerable bulk, chiefly. It has, therefore, to do mainly with literary works of all sorts, but it shades into diplomatics when official documents, such as collections of laws (e.g. Deuteronomy), treatises, such as the famous treaty between the Hittites and Egypt, and modern leases are of such bulk as to be best transmitted in volume form. It has to do chiefly with the clay tablets, papyrus, leather, vellum and paper volumes. The clay tablet is mentioned in the Old Testament at various points (see ",
+          "target": "La paléographie s'occupe principalement des volumes ou des livres d'une certaine ampleur. Elle s'occupe donc surtout des œuvres littéraires de toutes sortes, mais elle rejoint la diplomatique lorsque les documents officiels, tels que les recueils de lois (par exemple le Deutéronome), les traités, tels que le célèbre traité entre les Hittites et l'Égypte, et les baux modernes, ont une ampleur telle qu'ils sont le mieux transmis sous forme de volumes. Elle s'occupe principalement des volumes sur tablettes d'argile, papyrus, cuir, vélin et papier. La tablette d'argile est mentionnée en divers endroits de l'Ancien Testament (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 106,
+          "part": "text",
+          "source": "TABLET",
+          "target": "TABLETTE",
+          "action": "translate"
+        },
+        {
+          "node": 106,
+          "part": "tail",
+          "source": "), the roll in both Old Testament and New Testament (see ",
+          "target": "), le rouleau dans l'Ancien et le Nouveau Testament (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 107,
+          "part": "text",
+          "source": "ROLL",
+          "target": "ROULEAU",
+          "action": "translate"
+        },
+        {
+          "node": 107,
+          "part": "tail",
+          "source": "). The leather roll is the traditional form for the Hebrew Scriptures up to the present day, although the codex or modern volume form had been invented before the conclusion of the New Testament, and the earliest extant copies are in this form. The books of the Old Testament and New Testament were all probably first written on rolls. For the different methods of producing these var ious forms--graving, casting, pressing, pen and ink, etc., see ",
+          "target": "). Le rouleau de cuir est jusqu'à ce jour la forme traditionnelle des Écritures hébraïques, bien que le codex, ou forme moderne du volume, ait été inventé avant l'achèvement du Nouveau Testament, et que les plus anciennes copies subsistantes revêtent cette forme. Les livres de l'Ancien et du Nouveau Testament furent probablement tous écrits à l'origine sur des rouleaux. Pour les différentes méthodes de production de ces diverses formes — gravure, fonte, impression par pression, plume et encre, etc., voir ",
+          "action": "translate"
+        },
+        {
+          "node": 108,
+          "part": "text",
+          "source": "WRITING",
+          "target": "ÉCRITURE",
+          "action": "translate"
+        },
+        {
+          "node": 110,
+          "part": "text",
+          "source": "6. Printed Books:",
+          "target": "6. Livres imprimés :",
+          "action": "translate"
+        },
+        {
+          "node": 111,
+          "part": "text",
+          "source": "Printing differs from writing chiefly in being executed in two dimensions. In writing, a chisel or brush or pen follows a continuous or interrupted line, while printing stamps, a letter or a part of a letter, a line, a page, or many pages at a stroke. The die, the wedge for clay tablets, seals, molds, xylographic plates, as well as the typewriter, movable type or electrotype plates, etc., belong properly to printing rather than writing. The wedge stamp, or single-letter die, the typewriter, the matrix and movable type form, however, a sort of transition between the pen point and the printing-press in that they follow letter after letter. Coins and seals, on the other hand, differ little from true printing save in the lengths of the writings; Babylonian seals and the rotary press are one in principle. Sphragistics, or the science of seals, and numismatics, or the science of coins, medals, etc., belong thus with printing from this point of view, but are more commonly and conveniently classed with epigrap hy, on the principle that they depend on the light and shade of incision or relief in one color as distinguished from the color contrasts of ink or paint. Printed books include the xylographic process of Chinese and early European printing, page and form printing from movable type, and all electrotype, stencil, gelatine pad, etc., processes.",
+          "target": "L'impression diffère principalement de l'écriture en ce qu'elle s'effectue en deux dimensions. Dans l'écriture, un ciseau, un pinceau ou une plume suit une ligne continue ou interrompue, tandis que l'impression imprime une lettre ou une partie de lettre, une ligne, une page ou plusieurs pages d'un seul coup. La matrice, le coin pour les tablettes d'argile, les sceaux, les moules, les planches xylographiques, ainsi que la machine à écrire, les caractères mobiles ou les plaques galvanoplastiques, etc., appartiennent proprement à l'impression plutôt qu'à l'écriture. Le coin servant à imprimer, ou matrice d'une seule lettre, la machine à écrire, la matrice et les caractères mobiles constituent toutefois une sorte de transition entre la pointe de la plume et la presse à imprimer, en ce qu'ils procèdent lettre après lettre. Les monnaies et les sceaux, en revanche, diffèrent peu de l'impression proprement dite, si ce n'est par la longueur des écrits ; les sceaux babyloniens et la presse rotative reposent sur le même principe. La sigillographie, ou science des sceaux, et la numismatique, ou science des monnaies, médailles, etc., relèvent donc, de ce point de vue, de l'impression ; mais elles sont plus communément et plus commodément classées avec l'épigraphie, selon le principe qu'elles reposent sur la lumière et l'ombre produites par la gravure en creux ou en relief dans une seule couleur, par opposition aux contrastes de couleur de l'encre ou de la peinture. Les livres imprimés comprennent ceux issus du procédé xylographique de l'impression chinoise et des débuts de l'impression européenne, de l'impression de pages et de formes à partir de caractères mobiles, et de tous les procédés de galvanoplastie, de pochoir, de tampon de gélatine, etc.",
+          "action": "translate"
+        },
+        {
+          "node": 112,
+          "part": "text",
+          "source": "The advantage of printing over writing is in the more rapid multiplication of copies, and still more in the accuracy of the copies. The first setting in movable type is as liable to error as any written copy, but all impressions from this are wholly without textual variations. For printed editions of the Bible see ",
+          "target": "L'avantage de l'impression sur l'écriture réside dans la multiplication plus rapide des copies et, plus encore, dans l'exactitude des copies. La première composition en caractères mobiles est aussi sujette à l'erreur que toute copie écrite, mais toutes les impressions qui en proviennent sont entièrement exemptes de variations textuelles. Pour les éditions imprimées de la Bible, voir ",
+          "action": "translate"
+        },
+        {
+          "node": 113,
+          "part": "text",
+          "source": "TEXT AND MANUSCRIPTS OF THE NEW TESTAMENT",
+          "target": "TEXTE ET MANUSCRITS DU NOUVEAU TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 114,
+          "part": "text",
+          "source": "TEXT OF THE OLD TESTAMENT",
+          "target": "TEXTE DE L'ANCIEN TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "text",
+          "source": "VERSIONS",
+          "target": "VERSIONS",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 115,
+          "part": "tail",
+          "source": ", etc.",
+          "target": ", etc.",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 117,
+          "part": "text",
+          "source": "7. Variations:",
+          "target": "7. Variations :",
+          "action": "translate"
+        },
+        {
+          "node": 118,
+          "part": "text",
+          "source": "In the natural process of transmission all reprints in movable type, manuscripts or oral repetitions accumulate variations with each re-copying. These are, in general, errors, and the process is one of degeneration. In oral transmission the average error with each generation is very great, and it is only with incredible pains that the best copies are made equal to even the average manuscript, which in turn at its best only equals the first type-set copy. The same expenditure of care on this type-set copy produces thousands of copies in printing where it produces one in manuscript. The phonograph, the typewriter, type-bar composition, photographic and electrotype methods have reduced the average error in modern books to a very low point. But even after incredible pains on the part of the authors and professional proofreaders, the offered reward of a guinea for each detected error in the Oxford revised version of the Bible brought several errors to light. This version is however about as nearly free from textual error as any large book ever made, and millions of copies of it are now printed wholly without textual variation.",
+          "target": "Dans le processus naturel de transmission, toutes les réimpressions en caractères mobiles, les copies manuscrites ou les répétitions orales accumulent des variations à chaque nouvelle copie. Ce sont généralement des erreurs, et le processus en est un de dégénérescence. Dans la transmission orale, l'erreur moyenne à chaque génération est très grande, et ce n'est qu'avec des soins incroyables que les meilleures copies parviennent à égaler même le manuscrit moyen, lequel à son tour, dans le meilleur des cas, ne fait qu'égaler la première copie composée en caractères d'imprimerie. La même dépense de soins consacrée à cette copie composée produit des milliers de copies dans l'impression, là où elle n'en produit qu'une dans l'écriture manuscrite. Le phonographe, la machine à écrire, la composition mécanique par barres de caractères, les procédés photographiques et galvanoplastiques ont réduit l'erreur moyenne dans les livres modernes à un niveau très bas. Mais même après les soins incroyables apportés par les auteurs et les correcteurs professionnels, la récompense offerte d'une guinée pour chaque erreur détectée dans la version révisée de la Bible d'Oxford en mit plusieurs au jour. Cette version est cependant à peu près aussi exempte d'erreur textuelle que n'importe quel grand livre jamais produit, et des millions de ses exemplaires sont maintenant imprimés sans aucune variation textuelle.",
+          "action": "translate"
+        },
+        {
+          "node": 119,
+          "part": "text",
+          "source": "But textual errors are not the only variations. It often happens that the author or someone else undertakes to correct the errors and makes substitutions or additions of one sort or another. The result is a revised edition, which is, in general, an improvement, or evolution upward. Variations are thus of two kinds: involuntary and intentional, corresponding pretty well with the words \"copies\" and \"editions\" of a work.",
+          "target": "Mais les erreurs textuelles ne sont pas les seules variations. Il arrive souvent que l'auteur ou quelqu'un d'autre entreprenne de corriger les erreurs et fasse des substitutions ou des additions de diverses sortes. Le résultat est une édition révisée, qui constitue généralement une amélioration, ou une évolution ascendante. Les variations sont donc de deux sortes : involontaires et intentionnelles, correspondant assez bien aux mots « copies » et « éditions » d'une œuvre.",
+          "action": "translate"
+        },
+        {
+          "node": 120,
+          "part": "text",
+          "source": "Strictly speaking, every book with intentional changes is a new work, but colloquially it is counted the \"same work\" until the changes become so great that the resemblance of the form of words to the original is hard to recognize. It is a common thing for a work to be edited and reedited under a certain author's name (Herzog), then become known by the joint name of the author and editor (Herzog-Plitt or Schaff-Herzog), and finally become known under the name of the latest editor (Hauck). In this case it is often described for a time on a title-page as \"founded\" on its predecessor, but generally the original author's name is dropped from the title-page altogether when no great portions retain the original verbal form. All editions of a work are recognized in common use in some sense as new works; and in the bookshop or library a man is careful to specify the latest edition of Smith, or Brown's edition of Smith, to avoid getting the older and outdated original work.",
+          "target": "À proprement parler, tout livre comportant des modifications intentionnelles est une œuvre nouvelle, mais dans le langage courant, on le considère comme la « même œuvre » jusqu'à ce que les modifications deviennent si considérables que la ressemblance de la forme verbale avec l'original soit difficile à reconnaître. Il est courant qu'une œuvre soit éditée et rééditée sous le nom d'un certain auteur (Herzog), puis qu'elle soit connue sous les noms réunis de l'auteur et de l'éditeur (Herzog-Plitt ou Schaff-Herzog), et enfin sous le nom du dernier éditeur (Hauck). Dans ce cas, elle est souvent décrite pendant un temps sur la page de titre comme étant « fondée » sur l'œuvre qui l'a précédée, mais généralement le nom de l'auteur original disparaît entièrement de la page de titre lorsqu'aucune partie importante ne conserve la forme verbale originale. Toutes les éditions d'une œuvre sont reconnues dans l'usage courant, en un certain sens, comme des œuvres nouvelles ; et à la librairie ou à la bibliothèque, on prend soin de demander la dernière édition de Smith, ou l'édition de Smith par Brown, afin d'éviter de recevoir l'œuvre originale, plus ancienne et dépassée.",
+          "action": "translate"
+        },
+        {
+          "node": 121,
+          "part": "text",
+          "source": "Sometimes the original work and the additions, corrections, explanations, etc., are kept quite separate and distinct-- additional matter being given in manuscripts in the margins, or between lines, and in printed books as footnotes or in brackets or parentheses. This is commonly the case with the text-and-comment editions of Biblical books and great writers. Sometimes, as often in ancient manuscripts, it happens in copying that what were marginal and interlinear notes become run in as an undistinguished part of the text and, still more often, what was indicated as quotation in an original work loses its indications and becomes an undistinguished part of the work. In the case of the paraphrase the comment is intentionally run in with the words of the text; and most editors of scientific works likewise make no attempt to distinguish between the original matter and additions by another hand, the whole responsibility being thrown forward on the editor. Sometimes the original work itself to begin with is largely made up of quotation, or is a mere compilation or collection of works in which the \"originality\" is confined to title-page or preface or even a mere title, as in the case of the Old Testament, the New Testament, and the Bible, and the order of arrangement of parts.",
+          "target": "Parfois, l'œuvre originale et les additions, corrections, explications, etc., sont maintenues bien séparées et distinctes — la matière supplémentaire étant donnée dans les manuscrits dans les marges ou entre les lignes, et dans les livres imprimés en notes de bas de page ou entre crochets ou parenthèses. C'est habituellement le cas des éditions associant texte et commentaire des livres bibliques et des grands auteurs. Parfois, comme souvent dans les manuscrits anciens, il arrive, lors de la copie, que ce qui était des notes marginales et interlinéaires soit intégré au texte sans distinction et, plus souvent encore, que ce qui était indiqué comme citation dans une œuvre originale perde ses indications et devienne une partie indistincte de l'œuvre. Dans le cas de la paraphrase, le commentaire est intentionnellement mêlé aux mots du texte ; et la plupart des éditeurs d'ouvrages scientifiques ne font pareillement aucun effort pour distinguer la matière originale des additions d'une autre main, toute la responsabilité étant reportée sur l'éditeur. Parfois, l'œuvre originale elle-même est, dès le début, composée en grande partie de citations, ou n'est qu'une compilation ou un recueil d'œuvres dont l'« originalité » se limite à la page de titre, à la préface ou même à un simple titre, comme dans le cas de l'Ancien Testament, du Nouveau Testament et de la Bible, ainsi qu'à l'ordre d'agencement des parties.",
+          "action": "translate"
+        },
+        {
+          "node": 122,
+          "part": "text",
+          "source": "Almost all books are thus composite. Even in a manuscript copy of a manuscript, or an oral repetition of an oral tale, two human minds have contributed to the net result, and the work of each may perhaps be distinguished from that of the other. In the case of a new edition by the same author, the result is still composite--a new work composed of old and new material. With all new editions by other authors the compositeness increases until, e.g. an edition of the Bible with textual variants and select comments from various writers becomes the combined work of thousands of writers, each distinguished as to his work from all the rest by his name or some symbol.",
+          "target": "Presque tous les livres sont ainsi composites. Même dans une copie manuscrite d'un manuscrit ou une répétition orale d'un récit oral, deux esprits humains ont contribué au résultat final, et le travail de chacun peut peut-être être distingué de celui de l'autre. Dans le cas d'une nouvelle édition par le même auteur, le résultat est encore composite : une nouvelle œuvre composée de matière ancienne et nouvelle. Avec toutes les nouvelles éditions réalisées par d'autres auteurs, le caractère composite s'accroît jusqu'à ce que, par exemple, une édition de la Bible avec des variantes textuelles et des commentaires choisis de divers auteurs devienne l'œuvre combinée de milliers d'auteurs, chacun étant distingué quant à son travail de tous les autres par son nom ou quelque symbole.",
+          "action": "translate"
+        },
+        {
+          "node": 123,
+          "part": "text",
+          "source": "The work proper or work unchanged, save for involuntary error, includes thus copies, translates, abridgments, selections and quotations; the revised work or work with voluntary changes includes editions and paraphrases (which are simply texts with commentary run into the text), digests, redactions, etc., and perhaps compilations.",
+          "target": "L'œuvre proprement dite, ou l'œuvre inchangée sauf pour les erreurs involontaires, comprend donc les copies, les traductions, les abrégés, les morceaux choisis et les citations ; l'œuvre révisée, ou l'œuvre avec modifications volontaires, comprend les éditions et les paraphrases (qui ne sont que des textes dans lesquels le commentaire est incorporé au texte), les condensés, les remaniements rédactionnels, etc., et peut-être les compilations.",
+          "action": "translate"
+        },
+        {
+          "node": 124,
+          "part": "text",
+          "source": "These two kinds of variations give rise to the two sciences of text-criticism and higher or historical criticism. The former distinguishes all accidental errors of transmission, the latter all the voluntary changes; the former aims to reconstruct the original, the latter to separate in any given book between the work of the original and each editor.",
+          "target": "Ces deux sortes de variations donnent naissance aux deux sciences de la critique textuelle et de la haute critique, ou critique historique. La première distingue toutes les erreurs accidentelles de transmission, la seconde tous les changements volontaires ; la première vise à reconstruire l'original, la seconde à distinguer dans un livre donné le travail de l'auteur original de celui de chaque éditeur.",
+          "action": "translate"
+        },
+        {
+          "node": 125,
+          "part": "text",
+          "source": "In this connection it must not be forgotten that the original itself may be a composite work--containing long quotations, made up wholly of selections or even made up of whole works bound together by a mere title. In these cases textual criticism restores not the original of each, but the original text of the whole, while higher criticism takes up the task of separating out the elements first of later editions and redactions of this original, then of the original itself.",
+          "target": "À ce propos, il ne faut pas oublier que l'original lui-même peut être une œuvre composite — contenant de longues citations, constituée entièrement de morceaux choisis ou même d'œuvres entières réunies par un simple titre. Dans ces cas, la critique textuelle rétablit non l'original de chacune, mais le texte original de l'ensemble, tandis que la haute critique entreprend de séparer les éléments, d'abord des éditions et remaniements ultérieurs de cet original, puis de l'original lui-même.",
+          "action": "translate"
+        },
+        {
+          "node": 127,
+          "part": "text",
+          "source": "8. Textual Criticism:",
+          "target": "8. Critique textuelle :",
+          "action": "translate"
+        },
+        {
+          "node": 128,
+          "part": "text",
+          "source": "The involuntary variations of manuscripts or oral tradition give rise to the science of text-criticism. The point of the science is to reconstruct exactly the original form of words or text. Formerly the method for this was a mere balancing of probabilities, but since Tregelles it has become a rigid logical process which traces copies to their near ancestors, and these in turn farther back, until a genealogical tree has been formed of actual descent. The law of this is in effect that \"like variations point to a common ancestor,\" the biological law of \"homology,\" and if the groupings reveal as many as three independent lines of copies from the original, the correct text can be constructed with mathematical precision, since the readings of two lines will always be right against the third--granting a very small margin of error in the psychological tendency of habit in a scribe to repeat the same error. The method proceeds",
+          "target": "Les variations involontaires des manuscrits ou de la tradition orale donnent naissance à la science de la critique textuelle. Le but de cette science est de reconstruire exactement la forme verbale originale, ou texte. Autrefois, sa méthode consistait en une simple mise en balance des probabilités, mais depuis Tregelles, elle est devenue un processus logique rigoureux qui remonte des copies à leurs ancêtres proches, et de ceux-ci, à leur tour, toujours plus loin, jusqu'à la constitution d'un arbre généalogique de filiation réelle. Sa loi revient à dire que « des variations semblables indiquent un ancêtre commun », la loi biologique de l'« homologie » ; et si les groupements révèlent jusqu'à trois lignées indépendantes de copies provenant de l'original, le texte correct peut être reconstitué avec une précision mathématique, puisque les leçons de deux lignées auront toujours raison contre la troisième — en admettant une très faible marge d'erreur dans la tendance psychologique du scribe à répéter la même erreur par habitude. La méthode procède ainsi :",
+          "action": "translate"
+        },
+        {
+          "node": 129,
+          "part": "text",
+          "source": "(1) to describe all variations of each manuscript (or equally of each oral or printed copy) from the standard text;",
+          "target": "(1) décrire toutes les variations de chaque manuscrit (ou, de même, de chaque copie orale ou imprimée) par rapport au texte de référence ;",
+          "action": "translate"
+        },
+        {
+          "node": 130,
+          "part": "text",
+          "source": "(2) to group the manuscripts which have the most pronounced variations;",
+          "target": "(2) grouper les manuscrits qui présentent les variations les plus prononcées ;",
+          "action": "translate"
+        },
+        {
+          "node": 131,
+          "part": "text",
+          "source": "(3) to unite these groups on the principle of homology into larger and larger groups until authors' utterances have been reached and through these the inward original. The results are expressed in a text and variants--the text being a corrected copy of the original, and the variants showing the exact contribution of each copyist to the manuscripts which he produced.",
+          "target": "(3) réunir ces groupes, suivant le principe de l'homologie, en groupes de plus en plus larges, jusqu'à atteindre les expressions de l'auteur et, par celles-ci, l'original intérieur. Les résultats sont exprimés dans un texte et des variantes — le texte étant une copie corrigée de l'original, et les variantes montrant la contribution exacte de chaque copiste aux manuscrits qu'il a produits.",
+          "action": "translate"
+        },
+        {
+          "node": 132,
+          "part": "text",
+          "source": "It is carefully to be remembered that text-criticism proper has only to do with a particular form of words. Every translation or edition is a separate problem complete in itself when the very words used by translator and the editor have been reconstructed. These may in turn be useful in reconstructing the original, but care must be had not to amend, translate or edition from the original, and the original in turn, when it contains quotations from other writers, must not be amended from the originals of these writers. The task of textual criticism is to set forth each man's words--each original author, each copyist, each translator, each editor, just as his words were--no more and no less.",
+          "target": "Il faut soigneusement se rappeler que la critique textuelle proprement dite ne s'occupe que d'une forme verbale particulière. Chaque traduction ou édition constitue un problème distinct, complet en lui-même lorsque les mots mêmes employés par le traducteur et l'éditeur ont été reconstruits. Ceux-ci peuvent à leur tour être utiles pour reconstruire l'original ; mais il faut prendre garde de ne pas corriger une traduction ou une édition d'après l'original, et l'original, à son tour, lorsqu'il contient des citations d'autres auteurs, ne doit pas être corrigé d'après les originaux de ces auteurs. La tâche de la critique textuelle est d'exposer les mots de chacun — chaque auteur original, chaque copiste, chaque traducteur, chaque éditeur — tels qu'étaient ses mots, ni plus ni moins.",
+          "action": "translate"
+        },
+        {
+          "node": 133,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 134,
+          "part": "text",
+          "source": "TEXT OF THE OLD TESTAMENT",
+          "target": "TEXTE DE L'ANCIEN TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 135,
+          "part": "text",
+          "source": "TEXT AND MANUSCRIPTS OF THE NEW TESTAMENT",
+          "target": "TEXTE ET MANUSCRITS DU NOUVEAU TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 137,
+          "part": "text",
+          "source": "9. Higher Criticism:",
+          "target": "9. Haute critique :",
+          "action": "translate"
+        },
+        {
+          "node": 138,
+          "part": "text",
+          "source": "Higher criticism has to do with voluntary variations or variations in subject-matter. Like text-criticism it has to do with distinguishing the share of each of several cooperators in a composite work; and like it higher criticism traces the contributions of various authors each to its source. It differs, however, in dealing with original matter. While the variations by officious scribes, or intelligent scribes who correct spelling, grammar, wrong dates and the like, come pretty closely into the region of editing, and on the other hand the redactor is sometimes little more than an officious copyist, still the line of involuntary and voluntary change holds good, whether it be the grafting into an original work by the author of many quotations, or the grafting onto the work by others of the work of themselves or of other authors. It is not the business of the textual critic to separate out either of these (it is expressly his business not to), although his work may greatly help and even furnish results which can be used automatically. The whole of this double field of composite authorship belongs to higher criticism.",
+          "target": "La haute critique s'occupe des variations volontaires, ou variations dans la matière traitée. Comme la critique textuelle, elle s'occupe de distinguer la part de chacun des divers collaborateurs à une œuvre composite ; et comme elle, la haute critique remonte à la source des contributions des divers auteurs. Elle en diffère toutefois en ce qu'elle traite de matière originale. Si les variations apportées par des scribes trop zélés, ou par des scribes intelligents qui corrigent l'orthographe, la grammaire, les dates erronées et autres semblables, touchent de très près au domaine de l'édition, et si, d'autre part, le rédacteur n'est parfois guère plus qu'un copiste trop zélé, la distinction entre changements involontaires et volontaires demeure valable, qu'il s'agisse de l'insertion par l'auteur de nombreuses citations dans une œuvre originale, ou de l'insertion dans l'œuvre, par d'autres, de leur propre travail ou de celui d'autres auteurs. Il n'appartient pas au critique textuel de séparer l'un ou l'autre de ces éléments (son rôle est expressément de ne pas le faire), quoique son travail puisse grandement aider et même fournir des résultats utilisables automatiquement. L'ensemble de ce double domaine de la composition par plusieurs auteurs appartient à la haute critique.",
+          "action": "translate"
+        },
+        {
+          "node": 139,
+          "part": "text",
+          "source": "In the case of most modern works the task of the higher critic is a simple one. Quotation marks, a growing ethical feeling against plagiarism, the mechanical conveniences of typographical display, and the like, all contribute to a careful separation of the work of each contributor. Nevertheless, in many cases as, for example, in the editing of textbooks and newspapers, this is not regarded. While the signed article in the encyclopedia is now nearly universal, the signed review more and more common, the signed editorial is still rare, and the others by no means universal. It is still a matter of interest to many to pick out by his \"style\" the author of an unsigned article, review or editorial--which is higher criticism.",
+          "target": "Dans le cas de la plupart des œuvres modernes, la tâche du représentant de la haute critique est simple. Les guillemets, le développement du sentiment moral contre le plagiat, les facilités matérielles de la mise en forme typographique et autres semblables contribuent tous à une séparation attentive du travail de chaque collaborateur. Néanmoins, dans bien des cas, comme par exemple dans l'édition des manuels et des journaux, on n'y prend pas garde. Alors que l'article signé dans l'encyclopédie est maintenant presque universel, et le compte rendu signé de plus en plus courant, l'éditorial signé est encore rare, et les autres pratiques ne sont nullement universelles. Il est encore intéressant pour beaucoup de reconnaître, à son « style », l'auteur d'un article, d'un compte rendu ou d'un éditorial non signé — ce qui relève de la haute critique.",
+          "action": "translate"
+        },
+        {
+          "node": 140,
+          "part": "text",
+          "source": "In ancient literature, where there were few such mechanical conveniences in discriminating, and little or no conscience had been developed about incorporating anything which suited the purpose of the writer in part or as a whole, the result was often a complete patchwork of verbal forms of many writers. The task of higher criticism is to sort out the original and each of its literary variants, and to trace these variants to their originals. The net result in the case of any work does not differ much from an ordinary modern work with quotation marks and footnotes referring to the sources of the quotations. It restores, so to speak, the punctuation and footnotes which the author omitted or later copyists lost. It includes many nice questions of discrimination through style and the historical connection of the fragments with the works from which they were taken; and after these have been analyzed out, many nice questions also of tracing their authorship or at least the time, place and environment of their composition. It includes thus the questions of superhuman authorship and inspiration.",
+          "target": "Dans la littérature ancienne, où il existait peu de telles facilités matérielles pour établir les distinctions, et où l'on avait peu ou pas développé de scrupules au sujet de l'incorporation de tout ce qui convenait au but de l'auteur, en partie ou en totalité, le résultat était souvent un véritable assemblage disparate des formes verbales de nombreux auteurs. La tâche de la haute critique est de distinguer l'original et chacune de ses variantes littéraires, puis de remonter de ces variantes à leurs originaux. Le résultat final, dans le cas de toute œuvre, ne diffère pas beaucoup d'une œuvre moderne ordinaire avec des guillemets et des notes renvoyant aux sources des citations. Elle rétablit, pour ainsi dire, la ponctuation et les notes de bas de page que l'auteur a omises ou que les copistes ultérieurs ont perdues. Elle comprend de nombreuses questions délicates de discernement par le style et par le rapport historique des fragments avec les œuvres dont ils ont été tirés ; et, une fois ceux-ci dégagés par l'analyse, de nombreuses questions délicates aussi concernant la recherche de leurs auteurs, ou du moins de l'époque, du lieu et du milieu de leur composition. Elle comprend donc les questions de la paternité surhumaine des écrits et de l'inspiration.",
+          "action": "translate"
+        },
+        {
+          "node": 142,
+          "part": "text",
+          "source": "10. Literary Criticism:",
+          "target": "10. Critique littéraire :",
+          "action": "translate"
+        },
+        {
+          "node": 143,
+          "part": "text",
+          "source": "Literary criticism has to do with originals as originals, or, in composite works, the original parts of originals. An original work may include quotations from others or be mainly quotations, and its \"originality\" consists in part in the way these quotations are introduced and used. By \"original,\" however, is meant in the main new verbal forms. The original work must not plagiarize nor even use stereotyped phrases, although it may introduce proverbs or idiomatic phrases. In general, however, originality means that literary food has been digested--reduced to its chemical elements of word or briefest phrase and rebuilt into a wholly new structure in the mind. The building in of old doorways and ornaments may be a part of the literary architect's originality, but they themselves were not \"original\" with him.",
+          "target": "La critique littéraire s'occupe des originaux en tant qu'originaux ou, dans les œuvres composites, des parties originales des originaux. Une œuvre originale peut comprendre des citations d'autrui ou être principalement constituée de citations, et son « originalité » consiste en partie dans la manière dont ces citations sont introduites et utilisées. Par « original », on entend toutefois principalement des formes verbales nouvelles. L'œuvre originale ne doit ni plagier ni même employer des expressions stéréotypées, bien qu'elle puisse introduire des proverbes ou des expressions idiomatiques. En général, cependant, l'originalité signifie que la nourriture littéraire a été digérée — réduite à ses éléments chimiques, le mot ou l'expression la plus brève, et reconstruite dans l'esprit en une structure entièrement nouvelle. L'incorporation d'anciens portails et ornements peut faire partie de l'originalité de l'architecte littéraire, mais eux-mêmes n'étaient pas « originaux » chez lui.",
+          "action": "translate"
+        },
+        {
+          "node": 144,
+          "part": "text",
+          "source": "The literary critic has thus to do with a man's originality--the contribution that he has made to the subject, the peculiar quality of this in its fitness to influence other minds which is effected by the \"reaction of the whole personality,\" all his learning and emotional experience, on every part of his material--what in short we call style. This involves a judgment or comparison with all other works on the same subject as to its contribution of new matter and its readability.",
+          "target": "Le critique littéraire s'occupe donc de l'originalité d'un homme — de la contribution qu'il a apportée au sujet, de la qualité particulière de cette contribution dans son aptitude à influencer d'autres esprits, produite par la « réaction de toute la personnalité », de tout son savoir et de son expérience émotionnelle, sur chaque partie de ses matériaux — ce que nous appelons, en somme, le style. Cela implique un jugement ou une comparaison avec toutes les autres œuvres sur le même sujet quant à son apport de matière nouvelle et à la facilité et à l'agrément de sa lecture.",
+          "action": "translate"
+        },
+        {
+          "node": 146,
+          "part": "text",
+          "source": "11. Origin of New Forms:",
+          "target": "11. Origine des formes nouvelles :",
+          "action": "translate"
+        },
+        {
+          "node": 147,
+          "part": "text",
+          "source": "The chief problems of book science may be described in the words of biological science as",
+          "target": "Les principaux problèmes de la science du livre peuvent être décrits dans les termes de la science biologique :",
+          "action": "translate"
+        },
+        {
+          "node": 148,
+          "part": "text",
+          "source": "(1) the origin of new forms,",
+          "target": "(1) l'origine des formes nouvelles,",
+          "action": "translate"
+        },
+        {
+          "node": 149,
+          "part": "text",
+          "source": "(2) survival.",
+          "target": "(2) la survivance.",
+          "action": "translate"
+        },
+        {
+          "node": 150,
+          "part": "text",
+          "source": "The question of the origin of a new literary work and its survival is so like that of the origin of a new species and its survival that it may be regarded less as analogy than as falling under the same laws of variations, multiplication, heredity and natural selection. The origin of variant forms of the same original through involuntary and voluntary changes has been traced above up to the point where editorial variants overwhelm the original and a new author's name takes the place of the old. After this step has been taken it is a new work, and at bottom the origin of all new works is much the same. The process is most clearly seen in treatises of some branch of science, say physics. A general treatise, say on Heat, is published, giving the state of knowledge on the subject at that time. Then monographs begin to be produced. The monograph may and generally does include, in bibliographical or historical outline, the substance of previous works, and in every event it implies the previous total. The point of the monograph itself is, however, not the summary of common knowledge but the contribution that it makes, or, in the language of natural science, the \"useful variant\" of the subject which it produces. After some accumulation of these monographs, or useful variants of previous treatises, some author gathers them together and unites them with previous treatises into a new general treatise or textbook, which is in effect the latest previous treatise with all variants developed in the meantime.",
+          "target": "La question de l'origine d'une nouvelle œuvre littéraire et de sa survivance ressemble tellement à celle de l'origine d'une nouvelle espèce et de sa survivance qu'on peut la considérer moins comme une analogie que comme relevant des mêmes lois de variation, de multiplication, d'hérédité et de sélection naturelle. On a retracé plus haut l'origine des formes variantes d'un même original par des changements involontaires et volontaires, jusqu'au point où les variantes éditoriales l'emportent sur l'original et où le nom d'un nouvel auteur prend la place de l'ancien. Une fois cette étape franchie, il s'agit d'une œuvre nouvelle, et, au fond, l'origine de toutes les œuvres nouvelles est à peu près la même. Le processus se voit le plus clairement dans les traités d'une branche quelconque de la science, par exemple la physique. Un traité général, disons sur la chaleur, est publié, exposant l'état des connaissances sur le sujet à cette époque. Puis des monographies commencent à paraître. La monographie peut comprendre, et comprend généralement, sous forme d'un aperçu bibliographique ou historique, la substance des œuvres antérieures et, en tout cas, elle présuppose l'ensemble des connaissances antérieures. Le propos de la monographie elle-même n'est toutefois pas le résumé des connaissances communes, mais la contribution qu'elle apporte ou, dans le langage des sciences naturelles, la « variante utile » du sujet qu'elle produit. Après une certaine accumulation de ces monographies, ou variantes utiles des traités précédents, un auteur les rassemble et les unit aux traités antérieurs dans un nouveau traité général ou manuel, qui est en fait le dernier traité précédent avec toutes les variantes développées dans l'intervalle.",
+          "action": "translate"
+        },
+        {
+          "node": 151,
+          "part": "text",
+          "source": "In either case a permanent new form has been produced--the old common knowledge with a difference, and the process goes on again: the new work is multiplied by publication into many like individuals; these like individuals develop each its variations; the variations in the same direction unite in some new accepted fact, idea or law, expressed in a monograph; common knowledge with this new variation forms a new general work which again is multiplied, and so on.",
+          "target": "Dans les deux cas, une nouvelle forme permanente a été produite — les anciennes connaissances communes avec une différence — et le processus recommence : l'œuvre nouvelle est multipliée par la publication en de nombreux individus semblables ; ces individus semblables développent chacun leurs variantes ; les variantes qui vont dans le même sens s'unissent en quelque fait, idée ou loi nouvelle acceptée, exprimée dans une monographie ; les connaissances communes, avec cette nouvelle variante, forment une nouvelle œuvre générale, laquelle est à nouveau multipliée, et ainsi de suite.",
+          "action": "translate"
+        },
+        {
+          "node": 152,
+          "part": "text",
+          "source": "And what is true of scientific monographs is just as true in substance of literature, of oral tradition and of the whole history of ideas. It is the perpetual putting together of variations experienced two or more times by one individual or one or more times each by two or more individuals, with the common body of our ideas, and producing thus a new fixed form. Popular proverbs, for example, and all poetry, fiction and the like, come thus to sum up a long human experience.",
+          "target": "Et ce qui est vrai des monographies scientifiques est tout aussi vrai en substance de la littérature, de la tradition orale et de toute l'histoire des idées. C'est l'association perpétuelle des variantes éprouvées deux fois ou davantage par un individu, ou une fois ou davantage par chacun de deux individus ou plus, avec le fonds commun de nos idées, produisant ainsi une nouvelle forme fixe. Les proverbes populaires, par exemple, et toute la poésie, la fiction et les autres productions semblables en viennent ainsi à résumer une longue expérience humaine.",
+          "action": "translate"
+        },
+        {
+          "node": 153,
+          "part": "text",
+          "source": "And carrying the matter still farther back, what is true of the scientific book and of poetry and of folk-literature, is true also of the inward evolution of every thought, even those phrased for conversation or indeed for self-communion--it is the result of a series of variations and integrations. The workings of the scientist's mind in producing a contribution and the workings of the farmer's mind in evolving a shrewd maxim, are alike the result of a long series of these observations, variations and integrations. Repeated observations and the union of observations which vary in the same direction is the history of the thought process all the way along from the simplest perception of the infant, up through the ordinary thinking of the average man, to the most complex concept of the philosopher.",
+          "target": "Et si l'on remonte encore plus loin, ce qui est vrai du livre scientifique, de la poésie et de la littérature populaire est vrai également de l'évolution intérieure de chaque pensée, même de celles que l'on formule pour la conversation ou pour s'entretenir avec soi-même : elle résulte d'une série de variations et d'intégrations. Le travail de l'esprit du savant qui produit une contribution et le travail de l'esprit du paysan qui élabore une maxime judicieuse résultent pareillement d'une longue série de ces observations, variations et intégrations. Les observations répétées et l'union des observations qui varient dans le même sens constituent l'histoire du processus de pensée tout au long de son parcours, depuis la perception la plus simple du nourrisson, en passant par la pensée ordinaire de l'homme moyen, jusqu'au concept le plus complexe du philosophe.",
+          "action": "translate"
+        },
+        {
+          "node": 154,
+          "part": "text",
+          "source": "Through all the processes of inward thought and outward expression thus the same process of evolution in the production of a new form holds good: it is the synthesis of all works on a given subject (i.e. any more or less narrow field of reality), the multiplication of this synthetic work, the development of new variations in it and the reunion again of all these variations in a more comprehensive work.",
+          "target": "Dans tous les processus de la pensée intérieure et de l'expression extérieure, le même processus d'évolution dans la production d'une forme nouvelle demeure donc valable : c'est la synthèse de toutes les œuvres sur un sujet donné (c'est-à-dire tout domaine plus ou moins restreint de la réalité), la multiplication de cette œuvre de synthèse, le développement de nouvelles variantes en elle et la réunion de toutes ces variantes dans une œuvre plus complète.",
+          "action": "translate"
+        },
+        {
+          "node": 156,
+          "part": "text",
+          "source": "12. Survival:",
+          "target": "12. Survivance :",
+          "action": "translate"
+        },
+        {
+          "node": 157,
+          "part": "text",
+          "source": "When it comes to the matter of the survival of a new work when it has been produced, the problem is a double one:",
+          "target": "Lorsqu'il s'agit de la survivance d'une œuvre nouvelle une fois produite, le problème est double :",
+          "action": "translate"
+        },
+        {
+          "node": 158,
+          "part": "text",
+          "source": "(1) the survival of the individual book, and",
+          "target": "(1) la survivance du livre individuel, et",
+          "action": "translate"
+        },
+        {
+          "node": 159,
+          "part": "text",
+          "source": "(2) the survival of the work, i.e. any copy of the original whose text does not vary so far that it may not be recognized as the \"same\" work.",
+          "target": "(2) la survivance de l'œuvre, c'est-à-dire de toute copie de l'original dont le texte ne varie pas au point qu'elle ne puisse être reconnue comme la « même » œuvre.",
+          "action": "translate"
+        },
+        {
+          "node": 160,
+          "part": "text",
+          "source": "The original book is in a man's mind and survives only so long as its author survives. In the same sense that the author dies, the individual book dies. No new book, therefore, survives its author. If, however, by survival is meant the existence of any copy, or copy of a copy of this original, containing much (but never quite) the same form of words, then the book survives in this world, in the same sense that the author survives, i.e. in its descendants; it is the difference between personal immortality and race immortality. At the same time, however, the survival of species depends on the individual. A work or a species is no metaphysical reality, but a sum total of individuals with, of course, their relations to one another.",
+          "target": "Le livre original est dans l'esprit d'un homme et ne survit qu'aussi longtemps que survit son auteur. Dans le même sens où meurt l'auteur, meurt le livre individuel. Aucun livre nouveau ne survit donc à son auteur. Si, toutefois, on entend par survivance l'existence de quelque copie, ou copie de copie de cet original, contenant en grande partie (mais jamais tout à fait) la même forme verbale, alors le livre survit dans ce monde au même sens que survit l'auteur, c'est-à-dire dans ses descendants ; c'est la différence entre l'immortalité personnelle et l'immortalité de la race. En même temps, toutefois, la survivance de l'espèce dépend de l'individu. Une œuvre ou une espèce n'est pas une réalité métaphysique, mais une somme d'individus, avec, bien entendu, leurs rapports mutuels.",
+          "action": "translate"
+        },
+        {
+          "node": 161,
+          "part": "text",
+          "source": "On the average, the chance of long survival for any individual copy of a book is small. Every new book enters into a struggle for existence; wind and weather, wear and tear conspire to destroy it. On the whole they succeed sooner or later. Some books live longer than others, but however durable the material, and however carefully treated they may be, an autograph rarely lasts a thousand years. If survival depended on permanence of the individual, there would be no Bible and no classics.",
+          "target": "En moyenne, la chance de longue survivance de tout exemplaire individuel d'un livre est faible. Tout livre nouveau entre dans une lutte pour l'existence ; le vent et les intempéries, l'usure et les dégradations concourent à le détruire. Dans l'ensemble, ils y parviennent tôt ou tard. Certains livres vivent plus longtemps que d'autres, mais quelque durable que soit le matériau et quelque soin qu'on leur accorde, un autographe dure rarement mille ans. Si la survivance dépendait de la permanence de l'individu, il n'y aurait ni Bible ni classiques.",
+          "action": "translate"
+        },
+        {
+          "node": 162,
+          "part": "text",
+          "source": "The average chance of an individual book for long life depends",
+          "target": "La chance moyenne d'une longue vie pour un livre individuel dépend :",
+          "action": "translate"
+        },
+        {
+          "node": 163,
+          "part": "text",
+          "source": "(1) on the intrinsic durability of its material, or its ability to resist hostile environment,",
+          "target": "(1) de la durabilité intrinsèque de son matériau, ou de son aptitude à résister à un milieu hostile,",
+          "action": "translate"
+        },
+        {
+          "node": 164,
+          "part": "text",
+          "source": "(2) on isolation.",
+          "target": "(2) de son isolement.",
+          "action": "translate"
+        },
+        {
+          "node": 165,
+          "part": "text",
+          "source": "The enemies to which books are exposed are various: wind, fire, moisture, mold, human negligence and vandalism, and human use. Some materials are naturally more durable than others. Stone and metal inscriptions survive better than wood or clay, vellum than papyrus or paper.",
+          "target": "Les ennemis auxquels les livres sont exposés sont divers : vent, feu, humidité, moisissure, négligence et vandalisme humains, et usage humain. Certains matériaux sont naturellement plus durables que d'autres. Les inscriptions sur pierre et sur métal survivent mieux que celles sur bois ou argile, le vélin mieux que le papyrus ou le papier.",
+          "action": "translate"
+        },
+        {
+          "node": 166,
+          "part": "text",
+          "source": "On the other hand, however, if isolated or protected from hostile environment, very fragile material may outlast more substantial. Papyrus has survived in the mounds of Egypt, and unbaked clay tablets in the mounds of Babylonia, while millions of stone and metal inscriptions written thousands of years later have already perished. Here the factor of isolation comes in. Fire and pillage, moth and rust and the bookworm destroy for the most part without respect of persons. It is only those books which are out of the way of destructive agencies which survive. An unbaked tablet which has survived 5,000 years under rubbish may crumble to dust in 5 years after it has been dug up and exposed to the air. This isolation may be accidental or \"natural,\" as when tablets and papyri are preserved under ruins, but it may also be artificial and the result of human care. A third factor of survival is therefore the ability of a work to procure for itself human protection, or artificial isolation. In brief this ability is the \"value\" of a book to its owner. This value may lie in the material, artistic excellence, association or rarity. Any variation in the direction of value which may be expressed financially tends to preserve. In fire or shipwreck, these are the ones saved, in pillage the ones spared. They are the ones for whom fireproof buildings and special guardians are provided. An exception to this rule is when the material is more valuable for other than book purposes. In times of war the book engraved on gold or lead or paper may be melted down for coin or bullets or torn up for cartridges, while stone and vellum books are spared. The general law is, however, that value tends to preserve, and it has been remarked that all the oldest codices which have survived in free environment are sumptuous copies.",
+          "target": "D'autre part, cependant, s'il est isolé ou protégé d'un milieu hostile, un matériau très fragile peut survivre à un matériau plus solide. Le papyrus a subsisté dans les monticules d'Égypte, et les tablettes d'argile non cuite dans les monticules de Babylonie, tandis que des millions d'inscriptions sur pierre et sur métal, écrites des milliers d'années plus tard, ont déjà péri. C'est ici qu'intervient le facteur de l'isolement. Le feu et le pillage, la teigne et la rouille, ainsi que le ver des livres, détruisent le plus souvent sans acception de personnes. Seuls survivent les livres qui se trouvent hors de portée des agents destructeurs. Une tablette non cuite qui a subsisté 5 000 ans sous les décombres peut tomber en poussière cinq ans après avoir été exhumée et exposée à l'air. Cet isolement peut être accidentel ou « naturel », comme lorsque des tablettes et des papyrus sont conservés sous des ruines ; mais il peut aussi être artificiel et résulter des soins humains. Un troisième facteur de survivance est donc l'aptitude d'une œuvre à se procurer la protection humaine, ou un isolement artificiel. En bref, cette aptitude est la « valeur » d'un livre pour son propriétaire. Cette valeur peut résider dans le matériau, l'excellence artistique, les associations ou la rareté. Toute variation dans le sens d'une valeur qui peut s'exprimer financièrement tend à préserver. Dans un incendie ou un naufrage, ce sont ces livres que l'on sauve ; dans un pillage, ceux que l'on épargne. C'est pour eux que l'on prévoit des bâtiments à l'épreuve du feu et des gardiens particuliers. Il y a exception à cette règle lorsque le matériau a davantage de valeur pour d'autres usages que celui de livre. En temps de guerre, le livre gravé sur l'or, le plomb ou le papier peut être fondu pour en faire des monnaies ou des balles, ou déchiré pour en faire des cartouches, tandis que les livres sur pierre et vélin sont épargnés. La loi générale est néanmoins que la valeur tend à préserver, et l'on a remarqué que tous les codex les plus anciens qui ont subsisté dans un milieu non protégé sont des exemplaires somptueux.",
+          "action": "translate"
+        },
+        {
+          "node": 167,
+          "part": "text",
+          "source": "Literary value on the other hand is, on the whole, a factor of destruction for the individual rather than of survival. The better a book is the more it is read, and the more it is read, the faster it wears out. The worthless book on the top shelf outlasts all the rest. In cases of fire or shipwreck an owner will save books which cannot be replaced and the books most easily replaced are those with literary value. A man will sometimes save his favorite books, and does treat them often with a certain reverent care, which tends to preservation but, on the whole, literary value tends to destruction.",
+          "target": "La valeur littéraire, d'autre part, est dans l'ensemble un facteur de destruction pour l'individu plutôt que de survivance. Plus un livre est bon, plus il est lu, et plus il est lu, plus il s'use vite. Le livre sans valeur sur le rayon du haut survit à tous les autres. En cas d'incendie ou de naufrage, le propriétaire sauvera les livres qui ne peuvent être remplacés, et les livres les plus faciles à remplacer sont ceux qui ont une valeur littéraire. Un homme sauvera parfois ses livres préférés et les traite souvent avec un certain soin respectueux, qui tend à les préserver ; mais, dans l'ensemble, la valeur littéraire tend à la destruction.",
+          "action": "translate"
+        },
+        {
+          "node": 168,
+          "part": "text",
+          "source": "When it comes to the survival of the work or race survival, matters are reversed. Literary value is the prime factor. It is the ability of a book to get itself multiplied or re-copied which counts--the quality, whatever it may be, which tends to make a man wish to replace his copy when it is worn out, and to make many men wish to read the work.",
+          "target": "Lorsqu'il s'agit de la survivance de l'œuvre, ou survivance de la race, les choses sont inversées. La valeur littéraire est le facteur primordial. C'est l'aptitude d'un livre à se faire multiplier ou recopier qui compte — la qualité, quelle qu'elle soit, qui tend à donner à un homme le désir de remplacer son exemplaire lorsqu'il est usé, et à beaucoup d'hommes le désir de lire l'œuvre.",
+          "action": "translate"
+        },
+        {
+          "node": 169,
+          "part": "text",
+          "source": "This literary interest operates first to produce a large number of copies in order to meet the demand, each of which copies has its chance of survival. It operates also by inducing men to use the very best material, paper, ink, binding, etc., which results in giving each individual book a longer time to produce a new copy.",
+          "target": "Cet intérêt littéraire agit d'abord en produisant un grand nombre de copies pour répondre à la demande, chacune de ces copies ayant sa chance de survivance. Il agit aussi en incitant les hommes à employer les meilleurs matériaux, papier, encre, reliure, etc., ce qui a pour résultat de donner à chaque livre individuel un délai plus long pour produire une copie nouvelle.",
+          "action": "translate"
+        },
+        {
+          "node": 170,
+          "part": "text",
+          "source": "The modern newspaper published in a million copies is ephemeral, in the first place, because it is printed upon paper which cannot last, save in very favorable conditions of isolation, for more than forty or fifty years. In the second place, it is very rarely reprinted save for an occasional memorial copy. Books like the Bible or Virgil, Dante or Shakespeare, on the other hand, are reprinted in multitudes of editions and in many instances in the most permanent material that art can devise.",
+          "target": "Le journal moderne publié à un million d'exemplaires est éphémère, d'abord parce qu'il est imprimé sur du papier qui ne peut durer, sauf dans des conditions très favorables d'isolement, plus de quarante ou cinquante ans. Ensuite, il est très rarement réimprimé, sauf à l'occasion d'un exemplaire commémoratif. Des livres comme la Bible ou Virgile, Dante ou Shakespeare, en revanche, sont réimprimés en une multitude d'éditions, et dans bien des cas sur les matériaux les plus durables que l'art puisse concevoir.",
+          "action": "translate"
+        },
+        {
+          "node": 171,
+          "part": "text",
+          "source": "It often happens that a book is popular for a short time, but will not survive a changed environment. The newspaper is popular for a few hours, but the time environment changes and interest is gone. It sometimes happens that a book is very popular in one country and wholly fails to interest in another. Millions of copies of Uncle Tom's Cabin and Ben Hur were required to fill the demand of one generation where a few hundreds may suffice for the next.",
+          "target": "Il arrive souvent qu'un livre soit populaire pendant un court laps de temps, mais ne survive pas à un changement de milieu. Le journal est populaire pendant quelques heures, mais les circonstances du moment changent et l'intérêt disparaît. Il arrive parfois qu'un livre soit très populaire dans un pays et ne suscite absolument aucun intérêt dans un autre. Des millions d'exemplaires de La Case de l'oncle Tom et de Ben-Hur ont été nécessaires pour répondre à la demande d'une génération, alors que quelques centaines peuvent suffire à la suivante.",
+          "action": "translate"
+        },
+        {
+          "node": 172,
+          "part": "text",
+          "source": "All the time popular taste, which is only another name for average human experience, is judging a book. A book survives because it is popular--not necessarily because it is popular with the uneducated majority, but because it appeals continually to the average human experience of some considerable class, good or bad. Survival is, therefore, natural. Skilled critics help popular judgment, and select lists aid, but in the long run the test is simply of its correspondence with human experience; in short, it is because men \"like\" it that a book survives.",
+          "target": "À tout instant, le goût populaire, qui n'est qu'un autre nom de l'expérience humaine moyenne, juge un livre. Un livre survit parce qu'il est populaire — non nécessairement parce qu'il est populaire auprès de la majorité peu instruite, mais parce qu'il fait continuellement appel à l'expérience humaine moyenne de quelque classe assez considérable, bonne ou mauvaise. La survivance est donc naturelle. Les critiques compétents aident le jugement populaire, et les listes de choix y contribuent ; mais à la longue le critère est simplement sa correspondance avec l'expérience humaine ; en bref, c'est parce que les hommes l'« aiment » qu'un livre survit.",
+          "action": "translate"
+        },
+        {
+          "node": 173,
+          "part": "text",
+          "source": "There is thus going on all the time a process of struggle and \"natural selection\" which in the end is a survival of the fittest in the true evolutionary sense, i.e. books survive because fitted to their environment of human experience or taste. There grows up, therefore, continually in every country a certain class of books which are counted classics. These are those which have survived their tests, and are being still further tested. Some have been tested from remote antiquity, and it is the books which survive the test of many periods of time, many kinds of geographical environment, and many varieties of intellectual environment, i.e. which appeal to many classes of readers, which are the true classics and which, on the other hand, show that they do correspond with the fundamental facts of human experience, simply because they have survived. In general it is the religious books which have survived in all nations, and the only books which have been tested in all lands and ages and appeal to Oriental and Western, ancient and modern alike, are those of the Christian Bible.",
+          "target": "Il se poursuit ainsi continuellement un processus de lutte et de « sélection naturelle » qui aboutit à la survivance des plus aptes au véritable sens évolutionniste, c'est-à-dire que les livres survivent parce qu'ils sont adaptés à leur milieu d'expérience ou de goût humain. Il se développe donc continuellement dans chaque pays une certaine classe de livres que l'on considère comme classiques. Ce sont ceux qui ont survécu aux épreuves qu'ils ont subies et qui continuent à être éprouvés. Certains ont été éprouvés depuis l'Antiquité la plus reculée, et ce sont les livres qui survivent à l'épreuve de nombreuses périodes, de nombreuses sortes de milieux géographiques et de nombreuses variétés de milieux intellectuels, c'est-à-dire qui font appel à de nombreuses classes de lecteurs, qui constituent les véritables classiques et qui, d'autre part, montrent qu'ils correspondent bien aux faits fondamentaux de l'expérience humaine, simplement parce qu'ils ont survécu. En général, ce sont les livres religieux qui ont subsisté dans toutes les nations, et les seuls livres qui aient été éprouvés dans tous les pays et à tous les âges et qui touchent aussi bien les Orientaux que les Occidentaux, les anciens que les modernes, sont ceux de la Bible chrétienne.",
+          "action": "translate"
+        },
+        {
+          "node": 175,
+          "part": "text",
+          "source": "13. Book Collections:",
+          "target": "13. Collections de livres :",
+          "action": "translate"
+        },
+        {
+          "node": 176,
+          "part": "text",
+          "source": "It has been noticed above that the process of forming a new work is the bringing together of all works on the same subject in order to unite all their variations in the new work. It is for this purpose that every student brings together the working library on his specialty; it is what the librarian does when he brings together all the books on a subject for the use of students. Every man who reads up on a subject is performing the same task for himself, and likewise every man who does general reading.",
+          "target": "On a remarqué plus haut que le processus de formation d'une œuvre nouvelle consiste à rassembler toutes les œuvres sur le même sujet afin d'unir toutes leurs variantes dans l'œuvre nouvelle. C'est à cette fin que tout étudiant rassemble la bibliothèque de travail de sa spécialité ; c'est ce que fait le bibliothécaire lorsqu'il rassemble tous les livres sur un sujet à l'usage des étudiants. Tout homme qui approfondit un sujet par la lecture accomplit pour lui-même la même tâche, et de même tout homme qui se livre à des lectures générales.",
+          "action": "translate"
+        },
+        {
+          "node": 177,
+          "part": "text",
+          "source": "There are few libraries, however, which attempt to get together all the books on a subject. Most libraries are select libraries containing the best books on the subject: by this is meant all books which have anything new or in short have a useful variation. This is an artificial process of the critical human mind, but in humanity in general it is going on all the time as a natural process. Men are perpetually at work choosing their \"five-foot shelves,\" the collections of the very \"best of best books.\" The reason for this lies in the fact that the average human mind can read and hold only a limited number of books; an unconscious process is all the time going on tending to pick out the small number of books which on the whole contain the greatest amount of human experience to the average page. The mass of world's books, however enormous, is thus boiled down by a natural selection to a few books, which contain the essence of all the rest. The process tends to go on in every country and every language. The most universal example is the Bible, which represents a long process of natural selection through many periods of time and considerable variety of geographical influence. It unites the quintessence of Semitic ideas with the corresponding quintessence of Indo-European ideas, each embodied in a correspondingly perfect language--for language itself is in the last analysis the quintessence of the experience of any people in its likeness and unlikeness to other peoples. It is therefore by the mere fact o f \"survival\" and \"natural selection\" proved to be the \"fittest\" to survive, i.e. that which corresponds most nearly to universal human experience. Councils do not form the canon of Scripture: they simply set a seal upon a natural process. The Bible is thus the climax of evolution among books as man is among animals. It is as unique among books as man is unique among all living things.",
+          "target": "Il existe cependant peu de bibliothèques qui tentent de rassembler tous les livres sur un sujet. La plupart sont des bibliothèques choisies contenant les meilleurs livres sur le sujet : on entend par là tous les livres qui présentent quelque chose de nouveau ou, en bref, une variante utile. C'est un processus artificiel de l'esprit critique humain, mais dans l'humanité en général, il se poursuit continuellement comme un processus naturel. Les hommes s'emploient perpétuellement à choisir leurs « rayons de cinq pieds », les collections des « meilleurs parmi les meilleurs livres ». La raison en est que l'esprit humain moyen ne peut lire et retenir qu'un nombre limité de livres ; un processus inconscient se poursuit continuellement, tendant à sélectionner le petit nombre de livres qui, dans l'ensemble, contiennent la plus grande quantité d'expérience humaine par page moyenne. La masse des livres du monde, si énorme soit-elle, est ainsi réduite, par une sélection naturelle, à quelques livres qui contiennent l'essence de tous les autres. Ce processus tend à se poursuivre dans chaque pays et chaque langue. L'exemple le plus universel est la Bible, qui représente un long processus de sélection naturelle à travers de nombreuses périodes et une variété considérable d'influences géographiques. Elle unit la quintessence des idées sémitiques à la quintessence correspondante des idées indo-européennes, chacune incarnée dans une langue également parfaite — car la langue elle-même est, en dernière analyse, la quintessence de l'expérience d'un peuple dans ses ressemblances et ses différences avec d'autres peuples. Par le seul fait de la « survivance » et de la « sélection naturelle », il est donc prouvé qu'elle est la « plus apte » à survivre, c'est-à-dire celle qui correspond le plus étroitement à l'expérience humaine universelle. Les conciles ne forment pas le canon de l'Écriture : ils mettent simplement leur sceau sur un processus naturel. La Bible est ainsi le point culminant de l'évolution parmi les livres, comme l'homme l'est parmi les animaux. Elle est aussi unique parmi les livres que l'homme l'est parmi tous les êtres vivants.",
+          "action": "translate"
+        },
+        {
+          "node": 178,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 179,
+          "part": "text",
+          "source": "LIBRARIES",
+          "target": "BIBLIOTHÈQUES",
+          "action": "translate"
+        },
+        {
+          "node": 181,
+          "part": "text",
+          "source": "14. Early History of Books in Bible Lands:",
+          "target": "14. Histoire ancienne des livres dans les pays bibliques :",
+          "action": "translate"
+        },
+        {
+          "node": 182,
+          "part": "text",
+          "source": "The history of books begins at least with the history of writing. Some of the pictures on the cave walls of the neolithic age (Dechelette, Man: Archaeol., Prehist. (1908), 201-37) seem to have the essential characteristics of books and certainly the earliest clay tablets and inscriptions do. These seem to carry back with certainty to at least 4,200 years BC. By a thousand years later, tablet books and inscriptions were common and papyrus books seem to have been well begun. Another thousand years, or some time before Hammurabi, books of many sorts were numerous. At the time of Abraham, books were common all over Egypt, Babylonia, Palestine, and the eastern Mediterranean as far at least as Crete and Asia Minor. In the time of Moses, whenever that may have been, the alphabet had perhaps been invented, books were common among all priestly and official classes, not only in Babylonia, Assyria and Egypt, but at least in two or three scores of places in Palestine, north Syria and Cyprus. In the time of D avid not only was historical, official and religious literature common in Egypt and Assyria, but poetry and fiction had been a good deal developed in the countries round about Palestine; and very soon after, if not long before, as the Moabitic, Siloam, Zkr, Zenjirli, Baal-Lebanon, Gezer and Samaritan inscriptions show, Semitic writing was common all over Palestine and its neighborhood.",
+          "target": "L'histoire des livres commence au moins avec celle de l'écriture. Certaines des images sur les parois des grottes de l'âge néolithique (Dechelette, Man: Archaeol., Prehist. [1908], 201-37) semblent posséder les caractères essentiels des livres, et c'est certainement le cas des premières tablettes d'argile et des inscriptions. Celles-ci semblent remonter avec certitude à au moins 4 200 ans av. J.-C. Mille ans plus tard, les livres sur tablettes et les inscriptions étaient courants, et les livres de papyrus semblent avoir déjà connu un développement important. Mille ans encore, soit quelque temps avant Hammourabi, les livres de nombreuses sortes étaient nombreux. À l'époque d'Abraham, les livres étaient courants dans toute l'Égypte, la Babylonie, la Palestine et la Méditerranée orientale, au moins jusqu'à la Crète et l'Asie Mineure. À l'époque de Moïse, quelle qu'ait été cette époque, l'alphabet avait peut-être été inventé, et les livres étaient courants parmi toutes les classes sacerdotales et officielles, non seulement en Babylonie, en Assyrie et en Égypte, mais au moins dans une quarantaine ou une soixantaine d'endroits de Palestine, du nord de la Syrie et de Chypre. À l'époque de David, non seulement la littérature historique, officielle et religieuse était courante en Égypte et en Assyrie, mais la poésie et la fiction s'étaient beaucoup développées dans les pays avoisinant la Palestine ; et très peu de temps après, sinon bien auparavant, comme le montrent les inscriptions moabite, de Siloé, de Zkr, de Zenjirli, de Baal-Liban, de Guézer et de Samarie, l'écriture sémitique était courante dans toute la Palestine et ses environs.",
+          "action": "translate"
+        },
+        {
+          "node": 183,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 184,
+          "part": "text",
+          "source": "Articles by Dziatzko on \"Buch\" and \"Bibliotheken,\" in Pauly-Wissowa, Real-encyclopedia d. class. Altertumsw., V, 5, and his Antikes Buchwesen, Leipzig, 1900, are mines of material, and the bibliographical reference thorough. The rapid developments in the history of most ancient books may be followed in Hortzschansky's admirable annual volume, Bibliographie des Bibliotheks und Buchwesens, Leipzig, 1904 ff. For a first orientation the little book of O, Wiese, Schrift und Buchwesen in alter u. neuer Zeit (3rd edition, Leipzig, 1910), or in English, the respective articles in the Encyclopedia Britannica, are perhaps best. On the scientific side the best introductions are Vol I of Iwan Muller's Handb. d. klass. Altertumsw. and T. Birt's D. antike Buchwesen (Berlin, 1882). For Biblical aspects of the Book, the best of all, and very adequate indeed, is the long article of E. von Dobschutz on the \"Bible in the Church\" in the Hastings' Encyclopedia of Religion, II, 579-615, and especially on ac count of the bibliographical apparatus at the end of each section. These little bibliographies give a complete apparatus on many of the above subjects. Paragraphs with bibliographies on others of above topics will be found in the W. Sanday article on \"Bible,\" just preceding.",
+          "target": "Les articles de Dziatzko sur « Buch » et « Bibliotheken », dans Pauly-Wissowa, Real-encyclopedia d. class. Altertumsw., V, 5, et son Antikes Buchwesen, Leipzig, 1900, sont des mines de renseignements, et les références bibliographiques sont approfondies. Les rapides développements de l'histoire des livres les plus anciens peuvent être suivis dans l'admirable volume annuel de Hortzschansky, Bibliographie des Bibliotheks und Buchwesens, Leipzig, 1904 et suiv. Pour une première orientation, le petit livre d'O. Wiese, Schrift und Buchwesen in alter u. neuer Zeit (3e édition, Leipzig, 1910), ou, en anglais, les articles correspondants de l'Encyclopedia Britannica, sont peut-être les meilleurs. Du côté scientifique, les meilleures introductions sont le volume I du Handb. d. klass. Altertumsw. d'Iwan Muller et D. antike Buchwesen de T. Birt (Berlin, 1882). Pour les aspects bibliques du livre, le meilleur de tous, et fort complet en effet, est le long article d'E. von Dobschutz sur « Bible in the Church » dans l'Encyclopedia of Religion de Hastings, II, 579-615, en particulier en raison de l'appareil bibliographique à la fin de chaque section. Ces petites bibliographies fournissent un appareil complet sur beaucoup des sujets ci-dessus. Des paragraphes accompagnés de bibliographies sur d'autres des sujets ci-dessus se trouvent dans l'article de W. Sanday sur « Bible », immédiatement précédent.",
+          "action": "translate"
+        },
+        {
+          "node": 185,
+          "part": "text",
+          "source": "E. C. Richardson",
+          "target": "E. C. Richardson",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

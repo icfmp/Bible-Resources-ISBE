@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BIBLICAL THEOLOGY",
+      "article_id": "isbe-e05dab5b64293787bb57",
+      "source_article_sha256": "892976c9f9f03dcc28331913ac351c5fe90e4c5fcba9cb116be4f33ea6c582ba",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIBLICAL THEOLOGY",
+          "target": "THÉOLOGIE BIBLIQUE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bib'-li-kal the-ol'-o-ji:",
+          "target": "bib'-li-kal the-ol'-o-ji:",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "I. BIBLICAL THEOLOGY AS A SCIENCE",
+          "target": "I. LA THÉOLOGIE BIBLIQUE EN TANT QUE SCIENCE",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "1. Definition",
+          "target": "1. Définition",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "2. Relation to Dogmatics",
+          "target": "2. Rapport avec la dogmatique",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "3. Place and Method of Biblical Theology",
+          "target": "3. Place et méthode de la théologie biblique",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "4. Relation to Scientific Exegesis",
+          "target": "4. Rapport avec l'exégèse scientifique",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "II. HISTORY OF BIBLICAL THEOLOGY",
+          "target": "II. HISTOIRE DE LA THÉOLOGIE BIBLIQUE",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "1. Its Rise in Scientific Form",
+          "target": "1. Son apparition sous une forme scientifique",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "2. Patristic and Scholastic Periods",
+          "target": "2. Époques patristique et scolastique",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "3. Biblical Efforts in 17th and 18th Centuries",
+          "target": "3. Les travaux bibliques aux XVIIe et XVIIIe siècles",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "4. Old Testament Theology in First Half of 19th Century",
+          "target": "4. La théologie de l'Ancien Testament dans la première moitié du XIXe siècle",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "5. New Testament Theology in the 19th Century",
+          "target": "5. La théologie du Nouveau Testament au XIXe siècle",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "6. Old Testament Theology in Second Half of 19th Century",
+          "target": "6. La théologie de l'Ancien Testament dans la seconde moitié du XIXe siècle",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "7. Bearings of Criticism on Old Testament Theology",
+          "target": "7. Incidences de la critique sur la théologie de l'Ancien Testament",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "III. DIVISIONS OF BIBLICAL THEOLOGY",
+          "target": "III. DIVISIONS DE LA THÉOLOGIE BIBLIQUE",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "1. Divergent Views of Old Testament Divisions",
+          "target": "1. Divergences de vues sur les divisions de l'Ancien Testament",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "2. Law and Prophecy",
+          "target": "2. Loi et prophétie",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "3. Primal Prophetism and Final Judaism",
+          "target": "3. Prophétisme originel et judaïsme final",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "4. Place of Mosaism",
+          "target": "4. Place du mosaïsme",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "5. Nature of Israel's Religious Development",
+          "target": "5. Nature du développement religieux d'Israël",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "I. Biblical Theology As a Science.",
+          "target": "I. La théologie biblique en tant que science.",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "1. Definition:",
+          "target": "1. Définition :",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "Biblical theology seems best defined as the doctrine of Biblical religion. As such it works up the material contained in the Old Testament and the New Testament as the product of exegetical study. This is the modern technical sense of the term, whereby it signifies a systematic representation of Biblical religion in its primitive form.",
+          "target": "La meilleure définition de la théologie biblique semble être celle de doctrine de la religion biblique. À ce titre, elle élabore les matériaux contenus dans l'Ancien Testament et le Nouveau Testament, tels que les fournit l'étude exégétique. Tel est le sens technique moderne du terme, qui désigne ainsi une présentation systématique de la religion biblique sous sa forme primitive.",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "Biblical theology has sometimes been taken to signify not alone this science of the doctrinal declarations of the Scriptures, but the whole group of sciences Concerned with the interpretation and exposition of the Scriptures. In that wider view of Biblical theology, the term exegetical theology has been used to define and include the group of sciences already referred to. But the whole weight of preference seems, in our view, to belong to the narrower use of the term Biblical theology, as more strictly scientific.",
+          "target": "On a parfois entendu par théologie biblique non seulement cette science des affirmations doctrinales des Écritures, mais tout l'ensemble des sciences qui s'occupent de leur interprétation et de leur exposition. Dans cette conception élargie de la théologie biblique, le terme de théologie exégétique a été employé pour définir et englober l'ensemble des sciences dont il vient d'être question. Mais, à notre avis, toutes les raisons militent en faveur de l'emploi plus restreint du terme de théologie biblique, comme étant plus rigoureusement scientifique.",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "2. Relation to Dogmatics:",
+          "target": "2. Rapport avec la dogmatique :",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "This is not to confound the science of Biblical theology with that of dogmatics, for their characters are sharply distinguished. The science of dogmatics is a historico-philosophical one; that of Biblical theology is purely historic. Dogmatics declares what, for religious faith, must be regarded as truth; Biblical theology only discovers what the writers of the Old Testament and the New Testament adduce as truth. This latter merely ascertains the contents of the ideas put forward by the sacred writers, but is not concerned with their correctness or verification. It is the what of truth, in these documentary authorities, Biblical theology seeks to attain. The why, or with what right, it is so put forward as truth, belongs to the other science, that of dogmatics.",
+          "target": "Il ne s'agit pas de confondre la science de la théologie biblique avec celle de la dogmatique, car leurs caractères se distinguent nettement. La science de la dogmatique est historico-philosophique ; celle de la théologie biblique est purement historique. La dogmatique déclare ce qui doit être tenu pour vrai par la foi religieuse ; la théologie biblique découvre seulement ce que les auteurs de l'Ancien et du Nouveau Testament présentent comme vrai. Cette dernière établit simplement le contenu des idées avancées par les auteurs sacrés, sans s'occuper de leur exactitude ni de leur vérification. C'est la teneur de la vérité, dans ces documents qui font autorité, que la théologie biblique cherche à atteindre. Le pourquoi, ou la légitimité de ce qui est ainsi présenté comme vrai, relève de l'autre science, celle de la dogmatique.",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "3. Place and Method of Biblical Theology:",
+          "target": "3. Place et méthode de la théologie biblique :",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "Biblical theology is thus the more objective science; it has no need of dogmatics; dogmatics, on the other hand, cannot be without the aid of Biblical theology. The Biblical theologian should be a Christian philosopher, an exegete, and, above all, a historian. For it is in a manner purely historical that Biblical theology seeks to investigate the teaching, in whole, of each of the sacred writers. Each writing it studies in itself, in its relation to the others, and in its place in history taken as a whole. Its method is historical-genetic. The proper place of Biblical theology is at the head of historical theology, where it shines as a center of light. Its ideal as a science is to present a clear, complete and comprehensive survey of the Biblical teachings.",
+          "target": "La théologie biblique est donc la science la plus objective ; elle n'a pas besoin de la dogmatique ; la dogmatique, en revanche, ne saurait se passer de l'aide de la théologie biblique. Le théologien biblique doit être un philosophe chrétien, un exégète et, par-dessus tout, un historien. Car c'est d'une manière purement historique que la théologie biblique cherche à examiner dans son ensemble l'enseignement de chacun des auteurs sacrés. Elle étudie chaque écrit en lui-même, dans ses rapports avec les autres et à la place qu'il occupe dans l'histoire considérée comme un tout. Sa méthode est historico-génétique. La place qui revient à la théologie biblique est à la tête de la théologie historique, où elle rayonne comme un foyer de lumière. Son idéal en tant que science est de présenter un tableau clair, complet et embrassant l'ensemble des enseignements bibliques.",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "4. Relation to Scientific Exegesis:",
+          "target": "4. Rapport avec l'exégèse scientifique :",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "In pursuance of this end, Biblical theology is served by scientific exegesis, whose results it presents in ordered form so as to exhibit the organic unity and completeness of Biblical religion. The importance of Biblical theology lies in the way it directs, corrects and fructifies all moral and dogmatic theology by bringing it to the original founts of truth. Its spirit is one of impartial historical inquiry.",
+          "target": "Dans la poursuite de ce but, la théologie biblique bénéficie des services de l'exégèse scientifique, dont elle présente les résultats sous une forme ordonnée, de manière à faire apparaître l'unité organique et la plénitude de la religion biblique. L'importance de la théologie biblique réside dans la manière dont elle dirige, corrige et féconde toute la théologie morale et dogmatique en la ramenant aux sources originelles de la vérité. Elle est animée d'un esprit de recherche historique impartiale.",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "II. History of Biblical Theology.",
+          "target": "II. Histoire de la théologie biblique.",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "1. Its Rise in Scientific Form:",
+          "target": "1. Son apparition sous une forme scientifique :",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "Biblical theology, in any truly scientific form, dates only from the 18th century. Offspring as it was of German rationalism, it has yet been found deserving of cultivation and scientific study by the most orthodox theology. Indeed, Pietism, too, urged its claims as Biblical dogma, over against the too scholastic dogma of orthodoxy.",
+          "target": "La théologie biblique, sous une forme véritablement scientifique, ne date que du XVIIIe siècle. Bien qu'issue du rationalisme allemand, elle a néanmoins été jugée digne d'être cultivée et étudiée scientifiquement par la théologie la plus orthodoxe. Le piétisme, lui aussi, a fait valoir ses droits en tant que dogmatique biblique, face à la dogmatique trop scolastique de l'orthodoxie.",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "2. Patristic and Scholastic Periods:",
+          "target": "2. Époques patristique et scolastique :",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "The Patristic theology, no doubt, was Biblical, and the Alexandrian School deserves special praise. The scholastic theology of the Middle Ages leaned on the Fathers rather than on the Bible. Biblical theology, in spirit, though not in form, found a revival at the Reformation. But this was early followed by a 17th century type of scholasticism, polemical and confessional.",
+          "target": "La théologie patristique était sans doute biblique, et l'école alexandrine mérite un éloge particulier. La théologie scolastique du Moyen Âge s'appuyait sur les Pères plutôt que sur la Bible. La théologie biblique, sinon dans sa forme, du moins dans son esprit, connut un renouveau à la Réforme. Mais celui-ci fut bientôt suivi d'une forme de scolastique propre au XVIIe siècle, polémique et confessionnelle.",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "3. Biblical Efforts in 17th and 18th Centuries:",
+          "target": "3. Les travaux bibliques aux XVIIe et XVIIIe siècles :",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "Even in that century, however, efforts of a more purely Biblical character were not wanting, as witness those of Schmidt, Witsius and Vitringa. But throughout the entire 18th century there were manifest endeavors to throw off the scholastic yoke and return to Biblical simplicity. Haymann (1708), Busching (1756), Zachariae (1772) and Storr (1793), are examples of the efforts referred to. But it was from the rationalistic side that the first vindication of Biblical theology as a science of independent rank was made. This merit belonged to Gabler (1787), who urged a purely historical treatment of the Bible, and was, later, shared by his colleague, G. L. Bauer, who issued a Biblical Theology of the New Testament (Ger) in four parts (1800-1802). More independent still was the standpoint assumed by C. F. Ammon in his Biblische Theologie (2nd edition, 1801- 2). Ammon does not fail to apprehend the historical character of our science, saying that Biblical theology should deal only with the \"materials, fundamental ideas, and results of Biblical teaching, without troubling itself about the connection of the same, or weaving them into an artificial system.\"",
+          "target": "Même au cours de ce siècle, toutefois, les efforts d'un caractère plus purement biblique ne firent pas défaut, comme en témoignent ceux de Schmidt, Witsius et Vitringa. Mais tout au long du XVIIIe siècle, des efforts manifestes furent accomplis pour secouer le joug scolastique et revenir à la simplicité biblique. Haymann (1708), Busching (1756), Zachariae (1772) et Storr (1793) illustrent ces efforts. Toutefois, c'est du côté rationaliste que vint la première défense de la théologie biblique comme science à part entière. Ce mérite revient à Gabler (1787), qui préconisa un traitement purement historique de la Bible, et fut plus tard partagé par son collègue G. L. Bauer, qui publia une Théologie biblique du Nouveau Testament (en allemand) en quatre parties (1800-1802). Plus indépendant encore fut le point de vue adopté par C. F. Ammon dans sa Biblische Theologie (2e édition, 1801-1802). Ammon ne manque pas de saisir le caractère historique de notre science, déclarant que la théologie biblique ne devrait traiter que des « matériaux, des idées fondamentales et des résultats de l'enseignement biblique, sans se préoccuper des liens qui les unissent ni les agencer en un système artificiel ».",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "4. Old Testament Theology in First Half of 19th Century:",
+          "target": "4. La théologie de l'Ancien Testament dans la première moitié du XIXe siècle :",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "The influence of Schleiermacher was hardly a fortunate one, the Old Testament being sundered from the New Testament, and attention centered on the latter. Kayser (1813) and, still more, DeWette, who died in 1850, pursued the perfecting of our science, particularly in matters of method. Continuators of the work were Baumgarten-Crusius (1828), Cramer (1830) and Colln, whose work was posthumously presented by D. Schulz in 1836. It was in the second quarter of the 19th century that the Biblical theology of the Old Testament began to receive the full attention it deserved. It has been declared the merit of Hegel's philosophy to have taught men to see, in the various Biblical systems of doctrine, a complete development, and Hegel did, no doubt, exert a fertilizing influence on historical inquiry. But it must also be said that the Hegelian philosophy affected Biblical theology in a prejudicial manner, as may be seen in Vatke's a priori construction of history and doctrine in his work, Die bib. Theologie (1835), and in Bruno Bauer's Die Religion des AT (1838-39), which disputed but did not improve upon Vatke. Steudel (1840), Oehler (1845) and Havernick (1848) are worthy of particularly honorable mention in this Old Testament connection. In his Theology of the Old Testament (3rd edition, 1891; American edition, 1883) G. F. Oehler excellently maintained the close connection between the Old Testament and the New Testament, which Hengstenberg had already emphasized in 1829.",
+          "target": "L'influence de Schleiermacher ne fut guère heureuse, l'Ancien Testament étant séparé du Nouveau Testament et l'attention se concentrant sur ce dernier. Kayser (1813) et, plus encore, De Wette, mort en 1850, poursuivirent le perfectionnement de notre science, notamment en matière de méthode. Baumgarten-Crusius (1828), Cramer (1830) et Colln, dont l'œuvre fut présentée à titre posthume par D. Schulz en 1836, continuèrent ce travail. C'est au deuxième quart du XIXe siècle que la théologie biblique de l'Ancien Testament commença à recevoir toute l'attention qu'elle méritait. On a attribué à la philosophie de Hegel le mérite d'avoir appris à discerner, dans les divers systèmes doctrinaux bibliques, un développement complet, et Hegel exerça sans doute une influence féconde sur la recherche historique. Mais il faut aussi dire que la philosophie hégélienne eut une influence préjudiciable sur la théologie biblique, comme on le voit dans la construction a priori de l'histoire et de la doctrine élaborée par Vatke dans son ouvrage Die bib. Theologie (1835), et dans Die Religion des AT (1838-1839) de Bruno Bauer, qui contesta Vatke sans faire mieux que lui. Steudel (1840), Oehler (1845) et Havernick (1848) méritent une mention particulièrement honorable à propos de l'Ancien Testament. Dans sa Theology of the Old Testament (3e édition, 1891 ; édition américaine, 1883), G. F. Oehler défendit excellemment le lien étroit entre l'Ancien Testament et le Nouveau Testament, sur lequel Hengstenberg avait déjà insisté en 1829.",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "5. New Testament Theology in the 19th Century:",
+          "target": "5. La théologie du Nouveau Testament au XIXe siècle :",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "The Biblical theology of the New Testament was furthered by the memorable Neander. In 1832, he first issued his Planting and Training of the Christian Church, while his Life of Jesus first appeared in 1837. In this latter work, he summarized the doctrine of the Redeemer, while the former presented the doctrinal teaching of the apostolic writers in such wise as to show the different shades of thought peculiar to each of them, pointing out, at the same time, \"how, notwithstanding all difference, there was an essential unity beneath, unless one is deceived by the form, and how the form in its diversity is easily explained.\" C. F. Schmid improved in some respects upon Neander's work in his excellent Biblical Theology of the New Testament, issued (1853) after his death by Weizsacker (new edition, 1864). In Schmid's work, the Biblical theology of the New Testament is presented with objectivity, clearness and penetrating sympathy.",
+          "target": "La théologie biblique du Nouveau Testament fut développée par l'illustre Neander. En 1832, il publia pour la première fois son Planting and Training of the Christian Church, tandis que sa Life of Jesus parut pour la première fois en 1837. Dans ce dernier ouvrage, il résumait la doctrine du Rédempteur, tandis que le premier présentait l'enseignement doctrinal des auteurs apostoliques de manière à faire ressortir les diverses nuances de pensée propres à chacun d'eux, en montrant en même temps « comment, malgré toutes les différences, il existait au fond une unité essentielle, à moins de se laisser tromper par la forme, et comment cette forme dans sa diversité s'explique aisément ». C. F. Schmid améliora à certains égards l'œuvre de Neander dans son excellente Biblical Theology of the New Testament, publiée (1853) après sa mort par Weizsacker (nouvelle édition, 1864). Dans l'ouvrage de Schmid, la théologie biblique du Nouveau Testament est présentée avec objectivité, clarté et une compréhension pénétrante.",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "Hahn's Theology of the New Testament (1854) came short of doing justice to the diverse types of doctrinal development in the New Testament. The work of G. V. Lechler on the apostolic and post-apostolic age, was, in its improved form of 1857, much more important. E. Reuss, in 1852, issued his valuable History of the Christian Theology of the Apostolic Age, a complete and critical work, but not sufficiently objective in its treatment. The Prelections on New Testament Theology of F. C. Baur, head of the Tubingen school, exemplify both the merits and the defects of the school. They are critical, independent and suggestive, but lacking in impartiality. They were published by his son after his death (1864). A new edition of these lectures on New Testament theology was issued by Pfleiderer in 1893.",
+          "target": "La Theology of the New Testament de Hahn (1854) ne rendit pas suffisamment justice aux divers types de développement doctrinal dans le Nouveau Testament. L'ouvrage de G. V. Lechler sur l'époque apostolique et postapostolique, sous sa forme améliorée de 1857, fut beaucoup plus important. E. Reuss publia en 1852 sa précieuse History of the Christian Theology of the Apostolic Age, ouvrage complet et critique, mais dont le traitement manque d'objectivité. Les leçons sur la théologie du Nouveau Testament de F. C. Baur, chef de l'école de Tübingen, illustrent à la fois les mérites et les défauts de cette école. Elles sont critiques, indépendantes et stimulantes, mais manquent d'impartialité. Elles furent publiées par son fils après sa mort (1864). Une nouvelle édition de ces leçons de théologie du Nouveau Testament fut publiée par Pfleiderer en 1893.",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "Having first dealt with the teachings of Jesus, Baur then set out the materials of the New Testament theology in three periods, making Paul well-nigh the founder of Christianity. For him only four epistles of Paul were genuine products of the apostolic age, namely, Romans, the two Corinthians, Galatians, together with the Revelation. To the growth and history of the New Testament Baur applied the method of the Hegelian dialectic, and, though powerful and profound, displayed a lack of sane, well-balanced judgment. Yet so conservative a scholar as Weiss gave Baur the credit of having \"first made it the problem of criticism to assign to each book of the New Testament its place in the history of the development of primitive Christianity, to determine the relations to which it owes its origin, the object at which it aims, and the views it represents.\" Among Baur's followers may be noted Pfleiderer, in his Paulinism (1873).",
+          "target": "Après avoir d'abord traité des enseignements de Jésus, Baur répartit les matériaux de la théologie du Nouveau Testament en trois périodes, faisant de Paul presque le fondateur du christianisme. Pour lui, seules quatre épîtres de Paul étaient des productions authentiques de l'âge apostolique, à savoir Romains, les deux épîtres aux Corinthiens et Galates, auxquelles s'ajoutait l'Apocalypse. Baur appliqua au développement et à l'histoire du Nouveau Testament la méthode de la dialectique hégélienne et, malgré sa puissance et sa profondeur, manifesta un manque de jugement sain et équilibré. Pourtant, un savant aussi conservateur que Weiss reconnut à Baur le mérite d'avoir « le premier fait de l'attribution à chaque livre du Nouveau Testament de sa place dans l'histoire du développement du christianisme primitif un problème de critique, afin de déterminer les rapports auxquels il doit son origine, le but qu'il vise et les opinions qu'il représente ». Parmi les disciples de Baur, on peut citer Pfleiderer avec son Paulinism (1873).",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "The Theology of the New Testament, by J. J. Van Oosterzee (English edition, 1870), is a serviceable book for students, and the New Testament Theology of A. Immer (1878), already famous for his hermeneutical studies, is noteworthy. Chief among subsequent cultivators of the Biblical theology of the New Testament must be reckoned B. Weiss, whose work in two volumes (English edition, 1882-83) constitutes a most critical and complete, thorough and accurate treatment of the subject in all its details: W. Beyschlag, whose New Testament Theology (English edition, in 2 volumes, 1895) is also valuable; H. Holtzmann, whose treatise on New Testament Theology (1897) dealt in a critical fashion with the doctrinal contents of the New Testament. Holtzmann's learning and ability are great, but his work is marred by naturalistic presuppositions. The French work on Theology of the New Testament, by J. Boron (2 volumes, 1893-94) is marked by great independence, skill and fairness. The Theology of the New Testament, by W. F. Adeney (1894), and the yet more recent, and very attractively written, work with the same title, by G. B. Stevens (1899), bring us pretty well up to the present state of our science in respect of the New Testament.",
+          "target": "La Theology of the New Testament de J. J. Van Oosterzee (édition anglaise, 1870) est un ouvrage utile aux étudiants, et la New Testament Theology d'A. Immer (1878), déjà célèbre pour ses études herméneutiques, mérite d'être signalée. Parmi ceux qui ont ensuite cultivé la théologie biblique du Nouveau Testament, il faut compter au premier rang B. Weiss, dont l'ouvrage en deux volumes (édition anglaise, 1882-1883) constitue un traitement extrêmement critique et complet, approfondi et précis du sujet dans tous ses détails ; W. Beyschlag, dont la New Testament Theology (édition anglaise, en deux volumes, 1895) est également précieuse ; H. Holtzmann, dont le traité de théologie du Nouveau Testament (1897) abordait de manière critique le contenu doctrinal du Nouveau Testament. L'érudition et les capacités de Holtzmann sont grandes, mais son œuvre est entachée de présupposés naturalistes. L'ouvrage français de théologie du Nouveau Testament, par J. Boron (deux volumes, 1893-1894), se distingue par une grande indépendance, une grande habileté et beaucoup d'équité. La Theology of the New Testament de W. F. Adeney (1894) et l'ouvrage encore plus récent, d'un style très attrayant, portant le même titre, de G. B. Stevens (1899), nous conduisent à peu près jusqu'à l'état actuel de notre science en ce qui concerne le Nouveau Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "text",
+          "source": "6. Old Testament Theology in Second Half of the 19th Century:",
+          "target": "6. La théologie de l'Ancien Testament dans la seconde moitié du XIXe siècle :",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "Coming back to the Biblical theology of the Old Testament in the second half of the 19th century, we find A. Klostermann's Investigations into the Old Testament Theology, which appeared in 1868. The Old Testament theology, no less than that of the New Testament, was set forth by that great scholar, H. Ewald, in four volumes (1871-75; English edition (first part), 1888). His interest in New Testament theology was due to his strong feeling that the New Testament is really the second part of the record of Israel's revelation. A. Kuenen dealt with the Religion of Israel in two volumes (English edition, 1874-75), writing nobly but with defective insight into, and comprehension of, the higher religious ideas of Israel. F. Hitzig's Prelections (1880) deal with theology of the Old Testament, as part of their contents. H. Schultz treated of the Old Testament Theology in two volumes (1st edition, 1869; 5th edition, 1896; English edition, 1892), in a careful, mainly just, and, by comparison, well-balanced handling of the development of its religious ideas.",
+          "target": "Revenant à la théologie biblique de l'Ancien Testament dans la seconde moitié du XIXe siècle, nous trouvons les Investigations into the Old Testament Theology d'A. Klostermann, parues en 1868. La théologie de l'Ancien Testament, non moins que celle du Nouveau Testament, fut exposée par le grand savant H. Ewald, en quatre volumes (1871-1875 ; édition anglaise [première partie], 1888). Son intérêt pour la théologie du Nouveau Testament était dû à sa profonde conviction que le Nouveau Testament constitue véritablement la seconde partie du récit de la révélation d'Israël. A. Kuenen traita de la Religion of Israel en deux volumes (édition anglaise, 1874-1875), écrivant avec noblesse, mais sans pénétration ni compréhension suffisantes des idées religieuses les plus élevées d'Israël. Les leçons de F. Hitzig (1880) traitent de la théologie de l'Ancien Testament dans une partie de leur contenu. H. Schultz traita de la théologie de l'Ancien Testament en deux volumes (1re édition, 1869 ; 5e édition, 1896 ; édition anglaise, 1892), avec une étude attentive, généralement juste et, par comparaison, bien équilibrée du développement de ses idées religieuses.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "We have not touched upon writers like Smend, for example, in his History of Old Testament Religion (1893), and J. Robertson, in his Early Religion of Israel (2nd edition, 1892), who treat of the Biblical theology of the Old Testament only in a way subsidiary to the consideration of the historico-critical problems. The Conception of Revelation in the Old Testament was dealt with by F. E. Konig in 1882 in a careful and comprehensive manner, and with regard to the order and relation of the documents, revelation in Israel being taken by him in a supranaturalistic sense. Significant also for the progress of Old Testament Biblical theology was The Theological and the Historical View of the Old Testament, by C. Siegfried (1890), who insisted on the development of the higher religion of Israel being studied from the elder prophets as starting-point, instead of the law.",
+          "target": "Nous n'avons pas abordé les auteurs tels que Smend, par exemple dans sa History of Old Testament Religion (1893), et J. Robertson, dans son Early Religion of Israel (2e édition, 1892), qui ne traitent de la théologie biblique de l'Ancien Testament que de manière subordonnée à l'examen des problèmes historico-critiques. La conception de la révélation dans l'Ancien Testament fut étudiée par F. E. Konig en 1882 d'une manière attentive et exhaustive, en tenant compte de l'ordre et des rapports des documents, la révélation en Israël étant entendue par lui dans un sens supranaturaliste. The Theological and the Historical View of the Old Testament, de C. Siegfried (1890), fut également important pour le progrès de la théologie biblique de l'Ancien Testament ; il insista pour que le développement de la religion supérieure d'Israël soit étudié en prenant les anciens prophètes, plutôt que la loi, comme point de départ.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "Mention should be made of Biblical Study: Its Principles, Methods and History, by C. A. Briggs (1883; 4th edition, 1891); of the important Compendium of the Biblical Theology of the Old and the New Testament by K. Schlottmann (1889); of E. Riehm's valuable Old Testament Theology (1889); and of G. Dalman's Studies in Biblical Theology--the Divine name and its history--in 1889. Also, of the Old Testament Theology of A. Duff (1891); A. Dillmann's Handbook of Old Testament Theology, edited by Kittel (189:5); and of Marti's edition of the Theology of the Old Testament of A. Kayser (3rd edition, 1897).",
+          "target": "Il convient de mentionner Biblical Study: Its Principles, Methods and History, de C. A. Briggs (1883 ; 4e édition, 1891) ; l'important Compendium of the Biblical Theology of the Old and the New Testament de K. Schlottmann (1889) ; la précieuse Old Testament Theology d'E. Riehm (1889) ; ainsi que les Studies in Biblical Theology de G. Dalman — le nom divin et son histoire — en 1889. Citons aussi l'Old Testament Theology d'A. Duff (1891) ; le Handbook of Old Testament Theology d'A. Dillmann, édité par Kittel (189:5) ; et l'édition par Marti de la Theology of the Old Testament d'A. Kayser (3e édition, 1897).",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "Of Theology of the Old Testament, by A. B. Davidson (1904), it may be said that it does full justice to the idea of a progressive development of doctrine in the Old Testament, and is certainly divergent from the view of those who, like Cheyne, treat the Old Testament writings as so many fragments, from which no theology can be extracted. Biblical Theology of the Old Testament, by B. Stade (1905), is the work of a distinguished representative of the modern critical views, already famous for his work on the history of Israel (1887). The Theology of the Old Testament by W. H. Bennett (1906) is a clear and useful compendium of the subject.",
+          "target": "De la Theology of the Old Testament d'A. B. Davidson (1904), on peut dire qu'elle rend pleinement justice à l'idée d'un développement progressif de la doctrine dans l'Ancien Testament, et s'écarte assurément de la conception de ceux qui, comme Cheyne, traitent les écrits de l'Ancien Testament comme autant de fragments dont aucune théologie ne peut être tirée. La Biblical Theology of the Old Testament de B. Stade (1905) est l'œuvre d'un éminent représentant des conceptions critiques modernes, déjà célèbre pour son ouvrage sur l'histoire d'Israël (1887). La Theology of the Old Testament de W. H. Bennett (1906) est un exposé condensé, clair et utile du sujet.",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "7. Bearings of Criticism on Old Testament Theology:",
+          "target": "7. Incidences de la critique sur la théologie de l'Ancien Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "Recent works like The Problem of the Old Testament by James Orr (1905), Old Testament Critics by Thomas Whitelaw (1903), and Essays in Pentateuchal Criticism, by Harold M. Wiener (1909), deal with the critical questions, and do not concern us here, save to remark that they are not without bearing, in their results, upon theology of the Old Testament. Such results are, e.g. the insistences, in Orr's work, on the unity of the Old Testament, the higher than naturalistic view of Israel's religious development, the discriminate use of Divine names like Elohim and Yahweh, and so forth; and the express contention in Whitelaw's work, that the critical hypotheses are not such as can yield \"a philosophically reasonable theology\" (p. 346). Indeed, it must not be supposed that even works, like that of S. R. Driver, Introduction to the Literature of the Old Testament (first issued in 1891), axe without resultant influence on Biblical theology.",
+          "target": "Des ouvrages récents tels que The Problem of the Old Testament de James Orr (1905), Old Testament Critics de Thomas Whitelaw (1903) et Essays in Pentateuchal Criticism de Harold M. Wiener (1909) traitent des questions critiques et ne nous concernent pas ici, si ce n'est pour remarquer que leurs résultats ne sont pas sans incidence sur la théologie de l'Ancien Testament. Parmi ces résultats figurent, par exemple, les points sur lesquels insiste l'ouvrage d'Orr : l'unité de l'Ancien Testament, une conception du développement religieux d'Israël qui dépasse le naturalisme, l'emploi différencié de noms divins tels qu'Elohim et Yahvé, etc. ; et la thèse expresse défendue dans l'ouvrage de Whitelaw, selon laquelle les hypothèses critiques ne sauraient aboutir à « une théologie philosophiquement raisonnable » (p. 346). Il ne faut d'ailleurs pas supposer que même des ouvrages comme celui de S. R. Driver, Introduction to the Literature of the Old Testament (publié pour la première fois en 1891), soient sans influence sur la théologie biblique.",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "So far from that, the truth is that there is probably no result of the readjustment of the history and literature of the Old Testament so important as its bearings on the Biblical theology of the Old Testament. For the order and the method of revelation are most surely involved in the order and relation of the books or documents, and the course of the history. The progress of the revelation ran parallel with the work of God in Nature and in the growth of human society. Hence, the reconstruction of the historical theology of the Old Testament will take much time and study, that the full value of the Old Testament may be brought out as that of an independent and permanent revelation, with characteristic truths of its own. Meantime, the reality of that revelation, and the teleological character of the Old Testament, have been brought out, in the most signal manner, by theological scholars like Dorner, Dillmann, Kittel, Kautsch, Schultz and others, who feel the inadequacy of natural development or \"human reflection\" to account for Old Testament th eology, and the immediacy of God's contact with man in Old Testament times to be alone sufficient to account for a revelation so weighty, organically connected, dynamically bound together, monotheistic and progressive.",
+          "target": "Bien au contraire, il n'y a probablement aucun résultat du remaniement de l'histoire et de la littérature de l'Ancien Testament qui soit aussi important que ses incidences sur la théologie biblique de l'Ancien Testament. Car l'ordre et la méthode de la révélation sont assurément engagés dans l'ordre et les rapports des livres ou documents, ainsi que dans le cours de l'histoire. Le progrès de la révélation se déroula parallèlement à l'œuvre de Dieu dans la nature et dans le développement de la société humaine. La reconstruction de la théologie historique de l'Ancien Testament demandera donc beaucoup de temps et d'étude, afin que ressorte toute la valeur de l'Ancien Testament en tant que révélation indépendante et permanente, possédant ses propres vérités caractéristiques. Entre-temps, la réalité de cette révélation et le caractère téléologique de l'Ancien Testament ont été mis en évidence de la manière la plus remarquable par des théologiens érudits tels que Dorner, Dillmann, Kittel, Kautsch, Schultz et d'autres, qui estiment que le développement naturel ou la « réflexion humaine » sont insuffisants pour rendre compte de la théologie de l'Ancien Testament et que seul le contact immédiat de Dieu avec l'homme aux temps de l'Ancien Testament suffit à expliquer une révélation d'un tel poids, organiquement reliée, unie par une force dynamique, monothéiste et progressive.",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "III. Divisions of Biblical Theology.",
+          "target": "III. Divisions de la théologie biblique.",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "1. Divergent Views of Old Testament Divisions:",
+          "target": "1. Divergences de vues sur les divisions de l'Ancien Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "The divisions of Old Testament theology are matters of grave difficulty. For the newer criticism has practically transformed that mode of representing the process of Israel's religious development, which had been customary or traditional. On this latter view, the Patriarchal Age was succeeded by the Mosaic Age, with its law-giving under Moses, followed, after an intercalated period of Judges and monarchy, by the splendid Age of Prophecy. Then there was the Exile preparing the way, after the Return, for the new theocracy, wherein the Law of Moses was sought with more persistent endeavor, though not without darkly legalistic result. Such were the historic bases for Old Testament theology, but the modifications proposed by the new criticism are sufficiently serious. These it will be necessary to indicate, without going beyond the scope of this article and attempting criticism of either the one view or the other. It is the more necessary to do so, that finality has not been reached by criticism. We are only concerned with the difference which these divergent views make for Old Testament Biblical theology, whose reconstruction is very far from perfected.",
+          "target": "Les divisions de la théologie de l'Ancien Testament soulèvent de graves difficultés. Car la critique plus récente a pratiquement transformé la manière, jusqu'alors habituelle ou traditionnelle, de présenter le processus du développement religieux d'Israël. Selon cette dernière conception, à l'âge patriarcal succéda l'âge mosaïque, avec la promulgation de la loi sous Moïse, suivi, après une période intermédiaire de juges et de monarchie, par le splendide âge de la prophétie. Vint ensuite l'exil, préparant la voie, après le retour, à la nouvelle théocratie, dans laquelle on s'efforça de rechercher la loi de Moïse avec davantage de persévérance, non toutefois sans un sombre résultat légaliste. Tels étaient les fondements historiques de la théologie de l'Ancien Testament, mais les modifications proposées par la nouvelle critique sont suffisamment importantes. Il sera nécessaire de les signaler, sans dépasser le cadre de cet article ni entreprendre la critique de l'une ou de l'autre conception. Cela est d'autant plus nécessaire que la critique n'est pas parvenue à des conclusions définitives. Nous ne nous occupons que de la différence que produisent ces conceptions divergentes pour la théologie biblique de l'Ancien Testament, dont la reconstruction est très loin d'être achevée.",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "2. Law and Prophecy:",
+          "target": "2. Loi et prophétie :",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "That they do mean serious difference has been indicated in the historical part of this article. Most obtrusive of these differences is the proposal to invert the order of law and prophecy, and speak rather of the Prophets and the Law. For the Law is, on the newer view, taken to belong to the post-prophetic period--in short, to the period of the return from the Exile, whereas, in the traditional scheme of the order of revelation, the Law was found in full force both at the Exodus and the Return, with a dead-letter period between. The garment of legalism, the newer criticism asserts, could not have suited the Israelite nation in its early and undeveloped stage, as it does after the teachings of the prophets and the discipline of the Exile. Against this, the older scheme prefers the objection that an external and legalistic system is made the outcome of the lofty spiritual teaching of the prophets; the letter appears super-imposed upon the spirit. Criticism, however, postulates for the ritual codes of the Pentateuch an influence parallel in time with that of prophetism.",
+          "target": "On a montré dans la partie historique de cet article que ces différences ont des conséquences considérables. La plus frappante d'entre elles est la proposition d'inverser l'ordre de la loi et de la prophétie, et de parler plutôt des Prophètes et de la Loi. Car, selon la conception plus récente, la Loi appartient à la période postprophétique — en somme, à la période du retour de l'exil — alors que, dans le schéma traditionnel de l'ordre de la révélation, la Loi était pleinement en vigueur aussi bien à l'exode qu'au retour, avec une période intermédiaire où elle demeurait lettre morte. Le vêtement du légalisme, affirme la critique plus récente, n'aurait pas pu convenir à la nation israélite dans son stade primitif et peu développé comme il lui convient après les enseignements des prophètes et la discipline de l'exil. À cela, l'ancienne conception oppose l'objection qu'un système extérieur et légaliste devient ainsi le produit de l'enseignement spirituel élevé des prophètes ; la lettre semble être imposée à l'esprit. La critique postule toutefois, pour les codes rituels du Pentateuque, une influence parallèle dans le temps à celle du prophétisme.",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "3. Primal Prophetism and Final Judaism:",
+          "target": "3. Prophétisme originel et judaïsme final :",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "Besides the adjustments of prophecy and law just referred to, the critical views postulate a primal period in which the religion of the prophets, with their view of Israel's vocation, was inculcated; also, a final period of Judaism, intercalated between the Return and the Maccabees, in which are seen at work the Levitical law, and various anti-legal tendencies. It must be obvious that attempts to integrate the Old Testament theology amid the prevailing uncertainties of criticism must be far from easy or final, even if the need and importance be felt of keeping the religious interest before even the historical in Old Testament study. For the Old Testament writers, religion was primary, history secondary and incidental, we may well believe.",
+          "target": "Outre les remaniements relatifs à la prophétie et à la loi dont il vient d'être question, les conceptions critiques postulent une période originelle où fut inculquée la religion des prophètes, avec leur conception de la vocation d'Israël ; ainsi qu'une période finale du judaïsme, intercalée entre le retour et les Maccabées, où l'on voit à l'œuvre la loi lévitique et diverses tendances antilégalistes. Il doit être évident que les tentatives de construire une théologie cohérente de l'Ancien Testament au milieu des incertitudes actuelles de la critique sont loin d'être faciles ou définitives, même si l'on éprouve la nécessité et l'importance de faire passer, dans l'étude de l'Ancien Testament, l'intérêt religieux avant même l'intérêt historique. Nous pouvons bien croire que, pour les auteurs de l'Ancien Testament, la religion était primordiale, l'histoire secondaire et accessoire.",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "4. Place of Mosaism:",
+          "target": "4. Place du mosaïsme :",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "We must be content to know less of the remote beginnings and initial stages of Israel's religious development, for, as A. B. Davidson remarked, \"in matters like this we never can get at the beginning.\" J. Robertson deems criticism wrong in not allowing \"a sufficient starting-point for the development,\" by which he means that pure prophetic religion needs \"a pure pre-prophetic religion\" to explain its more than \"germinal or elementary character.\" It may be noted, too, how much greater place and importance are attached to Mosaism or Moses by critics like Reuss, Schultz, Bredenkamp and Strack, than by Wellhausen, who yet allows a certain substratum of actual and historical fact.",
+          "target": "Il faut nous contenter de connaître moins bien les origines lointaines et les premières étapes du développement religieux d'Israël, car, comme le remarquait A. B. Davidson, « en des matières de ce genre, nous ne pouvons jamais atteindre le commencement ». J. Robertson estime que la critique a tort de ne pas admettre « un point de départ suffisant pour le développement », entendant par là qu'une religion prophétique pure nécessite « une religion préprophétique pure » pour expliquer son caractère plus que « germinal ou élémentaire ». On peut également remarquer combien la place et l'importance accordées au mosaïsme ou à Moïse par des critiques comme Reuss, Schultz, Bredenkamp et Strack sont plus grandes que celles que leur accorde Wellhausen, lequel admet néanmoins un certain substrat de faits réels et historiques.",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "5. Nature of Israel's Religious Development:",
+          "target": "5. Nature du développement religieux d'Israël :",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "It may be observed, further, that no one is under any compulsion to account for such a transformation, as even Wellhausen allows, in the slow growth from very low beginnings of the idea of Yahweh up to pure and perfect monotheism--among a non- metaphysical people--by the simple supposition of naturalistic theory. Evolutionary the critical hypothesis of the religious development of Israel may be, but that development was clearly not so exclusively controlled by human elements or factors as to exclude the presence of supernatural energy or power of revelation. It had God within it--had, in Dorner's phrase, \"teleology as its soul.\" Thus, as even Gunkel declares, \"Israel is, and remains, the people of revelation.\" This is why Israel was able to make--despite all retrograde tendencies--rectilinear progress toward a predestined goal--the goal of being what Ewald styled a \"purely immortal and spiritual Israel.\" Old Testament theology does not seem to have sufficiently realized that the Old Testament really presents us with theologies rather than a theology--with the progressive development of a religion rather than with theological ideas resting on one historic plane.",
+          "target": "On peut observer en outre que nul n'est contraint de rendre compte d'une transformation telle que Wellhausen lui-même l'admet, dans le lent développement de l'idée de Yahvé, depuis des commencements très humbles jusqu'à un monothéisme pur et parfait — chez un peuple non métaphysicien —, par la seule hypothèse d'une théorie naturaliste. L'hypothèse critique du développement religieux d'Israël peut être évolutionniste, mais ce développement ne fut manifestement pas régi si exclusivement par des éléments ou facteurs humains qu'il faille exclure la présence d'une énergie surnaturelle ou d'une puissance de révélation. Dieu y était présent ; il avait, selon l'expression de Dorner, « la téléologie pour âme ». Ainsi, comme le déclare même Gunkel, « Israël est et demeure le peuple de la révélation ». C'est pourquoi Israël fut capable de progresser en ligne droite, malgré toutes les tendances rétrogrades, vers un but prédestiné : celui de devenir ce qu'Ewald appelait un « Israël purement immortel et spirituel ». La théologie de l'Ancien Testament ne semble pas avoir suffisamment compris que l'Ancien Testament nous présente en réalité des théologies plutôt qu'une théologie — le développement progressif d'une religion plutôt que des idées théologiques situées sur un même plan historique.",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "I. Old Testament Literature:",
+          "target": "I. Bibliographie de l'Ancien Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "B. Stade, Biblische Theologie des A T, 1905; H. Schultz, A T Theologie, 5th edition, 1896; English edition, 1892; H. Ewald, Revelation: Its Nature and Record, English edition, 1884; G F. Oehler, Theology of the Old Testament, English edition, 1874; A. Kuenen, The Religion of Israel to the Fall of the Jewish State, English edition, 1875; E. Riehm, AT Theologie, 1889; S. R. Driver, An Introduction to the Literature of the Old Testament, 1st edition, 1891, A. B. Davidson, Theology the Old Testament, 1904; J. Orr, The Problem of the Old Testament, 1905; A. Duff, Old Testament Theology, 1891; J. Robertson, Early Religion of Israel, 2nd edition, 1892; W. R. Smith, The Old Testament in the Jewish Church, new edition, 1892; W. H. Bennett; The Theology of the Old Testament, 1896; T. K. Cheyne, Founders of Old Testament Criticism, 1893; T. Whitelaw, Old Testament Critics, 1903; W. G. Jordan, Biblical Criticism and Modern Thought, 1909; H. M. Wiener, Essays in Pentateuchal Crit icism, 1909; E. C. Bissell, The Pentateuch: Its Origin and Structure, 1885; D. K. V. Orelli, The Old Testament Prophecy, Amer. edition, 1885, English edition, 1893; B. Duhm, Die Theologogie der Propheten, 1875; E. Richre, Messianic Prophecy, 2nd English edition, 1891; C. I. Bredenkamp, Gesetz und Propheten, 1881; W. R. Smith, The Prophets of Israel, 1882; D. K. Schlottmann, Kompendium der biblischen Theologie des A. u. N. Testaments, 1889; A. T. Kirkpatrick, The Divine Library of the Old Testament, 1891; J. Lindsay, The Significance of the Old Testament for Modern Theology, 1896; R. Kittel, Scientific Study of the Old Testament, English edition, 1910.",
+          "target": "B. Stade, Biblische Theologie des A T, 1905 ; H. Schultz, A T Theologie, 5e édition, 1896 ; édition anglaise, 1892 ; H. Ewald, Revelation: Its Nature and Record, édition anglaise, 1884 ; G F. Oehler, Theology of the Old Testament, édition anglaise, 1874 ; A. Kuenen, The Religion of Israel to the Fall of the Jewish State, édition anglaise, 1875 ; E. Riehm, AT Theologie, 1889 ; S. R. Driver, An Introduction to the Literature of the Old Testament, 1re édition, 1891 ; A. B. Davidson, Theology the Old Testament, 1904 ; J. Orr, The Problem of the Old Testament, 1905 ; A. Duff, Old Testament Theology, 1891 ; J. Robertson, Early Religion of Israel, 2e édition, 1892 ; W. R. Smith, The Old Testament in the Jewish Church, nouvelle édition, 1892 ; W. H. Bennett, The Theology of the Old Testament, 1896 ; T. K. Cheyne, Founders of Old Testament Criticism, 1893 ; T. Whitelaw, Old Testament Critics, 1903 ; W. G. Jordan, Biblical Criticism and Modern Thought, 1909 ; H. M. Wiener, Essays in Pentateuchal Crit icism, 1909 ; E. C. Bissell, The Pentateuch: Its Origin and Structure, 1885 ; D. K. V. Orelli, The Old Testament Prophecy, édition américaine, 1885, édition anglaise, 1893 ; B. Duhm, Die Theologogie der Propheten, 1875 ; E. Richre, Messianic Prophecy, 2e édition anglaise, 1891 ; C. I. Bredenkamp, Gesetz und Propheten, 1881 ; W. R. Smith, The Prophets of Israel, 1882 ; D. K. Schlottmann, Kompendium der biblischen Theologie des A. u. N. Testaments, 1889 ; A. T. Kirkpatrick, The Divine Library of the Old Testament, 1891 ; J. Lindsay, The Significance of the Old Testament for Modern Theology, 1896 ; R. Kittel, Scientific Study of the Old Testament, édition anglaise, 1910.",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "II. New Testament Literature:",
+          "target": "II. Bibliographie du Nouveau Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "W. Beyschlag, New Testament Theology, 2nd edition, 1896; English edition, 1895; H. Holtzmann, Lehrbuch der N T Theologie, 1897; B. Weiss, Lehrbuch der biblischen Theologie des New Testament, 7th edition, 1903; English edition, 1883; J. J. V. Oosterzee, Die Theologie des New Testament, 2nd edition, 1886; English edition, 1870; J. Boron, Theologie du Nouveau Testament, 1893-94; C. F. Schmid, Biblische Theologie des New Testament, new edition, 1864; G. B. Stevens, The Theology of the New Testament, 1899; F. C. Baur, Vorlesungen uber New Testament Theologie, 1864; W. F. Adeney, The Theology of the New Testament, 1894; A. C. McGiffert, A History of Christianity in the Apostolic Age, 1897; E. Reuss, History of Christian Theology in the Apostolic Age, English edition, 1872; H. H. Wendt, The Teaching of Jesus, English edition, 1892; A. B. Bruce, The Kingdom of God, 1890; J. Moorhouse, The Teaching of Christ, 1891; O. Pfleiderer, Der Paulinismus, 2nd edition, 1890; 2nd English edition, 1891; A. Sabatier, The Apostle Paul, English edition, 1891; G. B. Stevens, The Pauline Theology, 2nd edition, 1897; G. Matheso n, The Spiritual Development of Paul, 1890; E. Riehm, Der Lehrbegriff des Hebraerbriefs, 1867; B. Weiss, Der petrinische Lehrbegriff, 1855; G. B. Stevens, The Johannine Theology, 1894; B. Weiss, Der johanneische Lehrbegriff in seinen Grundzugen untersucht, 1862.",
+          "target": "W. Beyschlag, New Testament Theology, 2e édition, 1896 ; édition anglaise, 1895 ; H. Holtzmann, Lehrbuch der N T Theologie, 1897 ; B. Weiss, Lehrbuch der biblischen Theologie des New Testament, 7e édition, 1903 ; édition anglaise, 1883 ; J. J. V. Oosterzee, Die Theologie des New Testament, 2e édition, 1886 ; édition anglaise, 1870 ; J. Boron, Theologie du Nouveau Testament, 1893-1894 ; C. F. Schmid, Biblische Theologie des New Testament, nouvelle édition, 1864 ; G. B. Stevens, The Theology of the New Testament, 1899 ; F. C. Baur, Vorlesungen uber New Testament Theologie, 1864 ; W. F. Adeney, The Theology of the New Testament, 1894 ; A. C. McGiffert, A History of Christianity in the Apostolic Age, 1897 ; E. Reuss, History of Christian Theology in the Apostolic Age, édition anglaise, 1872 ; H. H. Wendt, The Teaching of Jesus, édition anglaise, 1892 ; A. B. Bruce, The Kingdom of God, 1890 ; J. Moorhouse, The Teaching of Christ, 1891 ; O. Pfleiderer, Der Paulinismus, 2e édition, 1890 ; 2e édition anglaise, 1891 ; A. Sabatier, The Apostle Paul, édition anglaise, 1891 ; G. B. Stevens, The Pauline Theology, 2e édition, 1897 ; G. Matheso n, The Spiritual Development of Paul, 1890 ; E. Riehm, Der Lehrbegriff des Hebraerbriefs, 1867 ; B. Weiss, Der petrinische Lehrbegriff, 1855 ; G. B. Stevens, The Johannine Theology, 1894 ; B. Weiss, Der johanneische Lehrbegriff in seinen Grundzugen untersucht, 1862.",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "text",
+          "source": "James Lindsay",
+          "target": "James Lindsay",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}
