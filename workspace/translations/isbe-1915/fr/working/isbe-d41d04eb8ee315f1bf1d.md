@@ -1,0 +1,14 @@
+<!-- ISBE-TRANSLATION-V1 {"article_id":"isbe-d41d04eb8ee315f1bf1d","language":"fr","preserve":{"1:text":"Historical headword, pronunciation, reference label or author signature deliberately retained","18:text":"Historical headword, pronunciation, reference label or author signature deliberately retained"},"publication_permitted":false,"schema_version":1,"source_article_sha256":"934f4749670036324df95ef46103a7bf85e6815d6580cb6390830fd34891bb4d","source_key":"BILDAD","source_sha256":"5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c","status":"unreviewed_drafts"} -->
+
+<!-- ISBE-BLOCK:1 -->
+# BILDAD
+<!-- ISBE-END:1 -->
+
+<!-- ISBE-BLOCK:2 -->
+bil'-dad (bildadh, « Bel a aimé ») : Le deuxième des trois amis de Job qui, venant de régions lointaines, conviennent ensemble d'aller lui témoigner leur sympathie et le consoler dans son affliction (⟦ISBE:KEEP:3:Job 2:11⟧). Il est de Schuach, lieu inconnu quelque part dans les pays à l'est et au sud-est de la Palestine (ou la désignation Schuchite peut se rapporter à son ancêtre Schuach, l'un des fils d'Abraham par Ketura, ⟦ISBE:KEEP:4:Ge 25:2⟧), et d'après son nom (composé avec Bel, nom d'une divinité babylonienne), il semble représenter la sagesse de l'Orient lointain. Ses trois discours sont contenus en ⟦ISBE:KEEP:5:Job 8⟧⟦ISBE:FIX:5:tail⟧⟦ISBE:KEEP:6:18⟧ ; quant au fond, ils sont en grande partie un écho de ce qu'Éliphaz a soutenu, mais chargés d'une véhémence quelque peu accrue (comparer ⟦ISBE:KEEP:7:Job 8:2⟧⟦ISBE:FIX:7:tail⟧⟦ISBE:KEEP:8:18:3⟧⟦ISBE:FIX:8:tail⟧⟦ISBE:KEEP:9:4⟧), parce qu'il juge les paroles de Job si impies et irritées. Il est le premier à attribuer le malheur de Job à une méchanceté réelle ; mais il y arrive indirectement en accusant ses enfants (qui furent détruits, ⟦ISBE:KEEP:10:Job 1:19⟧) d'un péché justifiant leur châtiment (⟦ISBE:KEEP:11:Job 8:4⟧). Pour apporter sa contribution au débat, il fait appel à la tradition (⟦ISBE:KEEP:12:Job 8:8-10⟧), et reprenant l'indication d'Éliphaz concernant la cause et l'effet (⟦ISBE:KEEP:13:Job 8:11⟧), il donne, manifestement d'après les trésors littéraires de la sagesse, une description de la condition précaire du méchant, à laquelle il oppose, avec tout ce que cela implique, la condition heureuse du juste (⟦ISBE:KEEP:14:Job 8:11-22⟧). Son deuxième discours est une description accentuée des malheurs du méchant, faite comme pour correspondre à la description par Job de sa propre situation désespérée (comparer ⟦ISBE:KEEP:15:Job 18:5-21⟧ avec ⟦ISBE:KEEP:16:Job 16:6-22⟧), identifiant ainsi tacitement Job avec le méchant réprouvé. Son troisième discours (⟦ISBE:KEEP:17:Job 25⟧), qui est la dernière parole des amis, est bref, d'un ton atténué, et quant au fond une sorte de flèche du Parthe, répétant l'idée de dépravation d'Éliphaz, la doctrine qui résiste le plus à disparaître. Ce discours marque le silence définitif des amis.
+<!-- ISBE-END:2 -->
+
+<!-- ISBE-BLOCK:18 -->
+John Franklin Genung
+<!-- ISBE-END:18 -->
+

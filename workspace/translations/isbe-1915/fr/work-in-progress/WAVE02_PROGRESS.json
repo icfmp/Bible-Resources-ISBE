@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "820_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "862_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 820,
-    "complete_first_drafts": 822,
-    "remaining_undrafted": 178
+    "new_complete_drafts_on_branch": 862,
+    "complete_first_drafts": 864,
+    "remaining_undrafted": 136
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1865
+    "complete_first_drafts_across_main_and_current_branch": 1907
   },
   "source_queue": {
     "rounds_completed": [
@@ -45,23 +45,23 @@
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-007",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-008"
     ],
-    "checks": "Rounds 001–008 completed. Round 008 full CI passed. Round 009 and round 010 are staged with 100 and 98 distinct entries and no overlap. Round 009 first 20 drafts are committed; incremental CI pending. Remaining 80 are not counted.",
+    "checks": "Rounds 001–008 completed. Round 009 lines 1–20 passed incremental CI. Lines 21–62 constitute a completed word-budget cohort; all 42 canonical manuscript IDs and slot counts checked. Incremental CI pending. Round 010 remains staged with 98 distinct entries, zero overlap with round 009.",
     "partial_round": {
       "round": "round-009",
-      "completed_articles": 20,
+      "completed_articles": 62,
       "total_articles": 100,
       "completed_source_line_range": [
         1,
-        20
+        62
       ],
       "remaining_source_line_range": [
-        21,
+        63,
         100
       ],
-      "source_mutable_units": 299,
-      "source_blocks": 127,
-      "protected_keep_markers": 237,
-      "source_words_whitespace_count": 6858
+      "source_mutable_units": 999,
+      "source_blocks": 396,
+      "protected_keep_markers": 906,
+      "source_words_whitespace_count": 21643
     }
   },
   "batch_files": [
@@ -127,7 +127,12 @@
     "0222-wave02-round008-next20.json",
     "0223-wave02-round008-last20.json",
     "0224-wave02-round009-first10.json",
-    "0225-wave02-round009-next10.json"
+    "0225-wave02-round009-next10.json",
+    "0226-wave02-round009-next10.json",
+    "0227-wave02-round009-next10.json",
+    "0228-wave02-round009-next10.json",
+    "0229-wave02-round009-next6.json",
+    "0230-wave02-round009-next6.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -429,21 +434,85 @@
       "key": "BEELZEBUB",
       "kind": "source_witness",
       "detail": "Author's collective phrasing and historical terminology retained; no modern doctrinal adjustment."
+    },
+    {
+      "key": "BEGOTTEN",
+      "kind": "source_witness",
+      "detail": "Source phrase 'of the new birth the Holy Spirit' lacks a preposition; translated as 'par le Saint-Esprit', flag for witness review."
+    },
+    {
+      "key": "BEHEMOTH",
+      "kind": "source_witness",
+      "detail": "Source scientific spelling 'Hippopotamus arnphibius' retained."
+    },
+    {
+      "key": "BENAIAH",
+      "kind": "source_witness",
+      "detail": "Source contains misplaced 'm; month' and ends a clause with '3rd' before reference; retained for witness review."
+    },
+    {
+      "key": "BEROEA",
+      "kind": "source_witness",
+      "detail": "Source spelling 'Pydba' and bibliographic '290 if' retained."
+    },
+    {
+      "key": "BETHANY",
+      "kind": "source_witness",
+      "detail": "Source distance '15 furlongs' rendered '15 stades'; historical unit equivalence requires editorial check."
+    },
+    {
+      "key": "BITTER; BITTERNESS",
+      "kind": "source_witness",
+      "detail": "Source says three domains but lists four; retained."
+    },
+    {
+      "key": "BODY, SPIRITUAL",
+      "kind": "source_witness",
+      "detail": "Source appears to interchange soma psuchikon and soma pneumatikon; both retained in their original positions. Signature 'William Charles Morro' retained."
+    },
+    {
+      "key": "BOIL (1)",
+      "kind": "source_witness",
+      "detail": "Historical disease identifications and unusual spelling 'Biskra batton' retained, not modern medical advice."
+    },
+    {
+      "key": "BRACELET",
+      "kind": "source_witness",
+      "detail": "Stray character 'ú' treated as punctuation and duplicated 'the' translated once; witness review required."
+    },
+    {
+      "key": "BRANCH ;BOUGH",
+      "kind": "source_witness",
+      "detail": "Source stibos (= stoibas) retained."
     }
   ],
-  "next_action": "Resume staged round-009 SOURCE.jsonl lines 21–100; first 20 already committed. Third group was not saved and must be redone. No source staging required. Round 010 already staged (98). Verify incremental CI before acceptance; no editorial approvals.",
-  "previous_translation_commit": "3bf2cd5ae2f02c94b4afcfcb044877b966ccc336",
-  "last_translation_tree": "4c12d2ceca4e8f83453b025c6f47a0f2cbcaae92",
+  "next_action": "Resume staged round-009 SOURCE.jsonl lines 63–100, then round-010 lines 1–98 as appropriate. Use consecutive whole-article cohorts not exceeding 15000 editable English words. No source staging required. Verify incremental CI; at ticket completion update FULL_VALIDATION.json. No editorial approvals or translation PR.",
+  "previous_translation_commit": "4df2b533bf87816364c2067bcda907392f0a4551",
+  "last_translation_tree": "a77a6195f5366a39955c2261f7d7488fcc26843b",
   "last_cohort_completion": {
-    "round": "round-008",
-    "new_articles": 100,
-    "previous_articles": 0,
-    "total_articles": 100,
-    "source_mutable_units": 969,
-    "source_words_whitespace_count": 17044,
-    "source_blocks": 452,
-    "protected_keep_markers": 794,
-    "validation": "Ordered source slot count and Git tree coverage verified; full TEI and bridge CI pending",
+    "round": "round-009",
+    "kind": "word_budget_cohort",
+    "source_line_range": [
+      21,
+      62
+    ],
+    "new_articles": 42,
+    "source_words_whitespace_count": 14785,
+    "word_limit": 15000,
+    "next_article": "BREASTPLATE OF THE HIGH PRIEST",
+    "next_article_words": 316,
+    "words_if_included": 15101,
+    "source_mutable_units": 700,
+    "source_blocks": 269,
+    "protected_keep_markers": 669,
+    "validation": "Ordered slot counts and canonical manuscript IDs verified; incremental CI pending",
     "editorial_approvals": 0
+  },
+  "cohort_policy": {
+    "source_word_limit": 15000,
+    "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
+    "selection": "Consecutive complete articles from staged queue; stop before the next article exceeds the limit, no skipping or splitting",
+    "oversized_single_article": "Standalone cohort",
+    "commit_policy": "One commit and incremental validation per completed cohort"
   }
 }
