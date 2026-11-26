@@ -103,7 +103,7 @@
       "source_article_sha256": "5cb9e24334a84b1a4fffedfc0596e3386095c7cc1798821ab24cae4a19fdcfc8",
       "original_markdown_paragraphs": 126,
       "source_template_characters": 61007,
-      "working_translation_status": "original_source_only_no_french_draft"
+      "working_translation_status": "complete_draft_pending_editorial_review"
     },
     {
       "index": 905,
@@ -133,7 +133,7 @@
       "working_translation_status": "complete_draft_pending_editorial_review"
     }
   ],
-  "status_note": "Eight complete source-locked unreviewed French first drafts on draft PR #160; six original source entries remain untranslated. Main remains 986/1000 until merge; independent editorial approvals remain zero.",
+  "status_note": "Nine complete source-locked unreviewed first drafts on draft PR #160. Five originals still untranslated. Merged main remains 986/1000 wave-01 until PR merge. Independent bilingual approvals: 0.",
   "source_flags": [
     {
       "key": "ALTAR",
@@ -238,6 +238,102 @@
       "block": 429,
       "witness": "Asia Minor Fairbairn",
       "note": "Likely corrupted author initials, kept exactly as original in French bibliography pending collation"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 20,
+      "witness": "historianic",
+      "note": "Unclear historical source adjective, translated contextually as historique; witness collation needed"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 20,
+      "witness": "ye t",
+      "note": "Apparent historical English OCR split of yet, no original change"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 8,
+      "witness": "bibliography ,",
+      "note": "Extraneous source whitespace preserved in English but normalized in French"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 30,
+      "witness": "byfacts",
+      "note": "Likely word boundary corruption, translated contextually"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 43,
+      "witness": "Th ey",
+      "note": "Likely split source word they, translated naturally"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 48,
+      "witness": "after except",
+      "note": "English syntactic anomaly, contextual translation; source unchanged"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 64,
+      "witness": "definitely of substantiated",
+      "note": "Source anomaly; context rendered as définitivement établie, original untouched"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 79,
+      "witness": "historianic",
+      "note": "Historical English adjective unclear; translated historiques contextually, source unchanged"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 83,
+      "witness": "exac t",
+      "note": "Apparent English OCR split, French rendered contextually"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 85,
+      "witness": "ot her; Leps ius",
+      "note": "English transcription artifacts; names in bibliography preserved contextually"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 87,
+      "witness": "Palestine estinian; re ligion",
+      "note": "English OCR word splits, restored in French context only"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 112,
+      "witness": "theori es; t he",
+      "note": "Historical English broken word spacing, contextual French translation without altering source"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 114,
+      "witness": "aH",
+      "note": "Apparent OCR for all; translated 'toutes' contextually, original English unchanged"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 116,
+      "witness": "o f",
+      "note": "Apparent English source word split, natural French interpretation"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 123,
+      "witness": "Bern and Birsha",
+      "note": "Source possibly corrupted Bera to Bern; retained Bern in quoted French pending printed witness"
+    },
+    {
+      "key": "ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM",
+      "block": 132,
+      "witness": "more especially ...",
+      "note": "Historical author's quotation preserved as a distinct claim, no modern updates"
     }
   ]
 }
