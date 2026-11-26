@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BOAT",
+      "article_id": "isbe-b6656d7d0012d1d9183e",
+      "source_article_sha256": "8342031260c0ec7f12f4e6c8e9cbb659a6b765a76a0bae688cc2007204cf3f45",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOAT",
+          "target": "BATEAU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bot.",
+          "target": "bot.",
+          "action": "preserve",
+          "reason": "Historical proper-name reference label retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SHIPS AND BOATS",
+          "target": "NAVIRES ET BATEAUX",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOND",
+      "article_id": "isbe-cc8d372f1b1ada5b9909",
+      "source_article_sha256": "c1abf11c201c0b3270cbd7945cf7d7b8bb599fac7d7574f47bd919b10ebe1c93",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOND",
+          "target": "LIEN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BAND",
+          "target": "BANDE ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BILL",
+          "target": "ACTE ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "CHAIN",
+          "target": "CHAÎNE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BORN",
+      "article_id": "isbe-0956d6550519bdc25fd5",
+      "source_article_sha256": "dfb6466a181bd1bf7b3df67c9c32f13fbd2c77c1110f4d66668b50a77248be96",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BORN",
+          "target": "NÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BORN",
+          "target": "NÉ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BORN AGAIN",
+      "article_id": "isbe-012ccae48f2a9ddc6ab2",
+      "source_article_sha256": "be3e4273a67109133616d00f79b3b6f95732a00949e8a2f4f5f5e51dcda26739",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BORN AGAIN",
+          "target": "NÉ DE NOUVEAU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "REGENERATION",
+          "target": "RÉGÉNÉRATION",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BORNE",
+      "article_id": "isbe-097e7df8bbbb9defd615",
+      "source_article_sha256": "6f6cd4f724341fcefd7b0daf77d905f11bca11132472cbdf58ea527a19d324d1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BORNE",
+          "target": "BORNE",
+          "action": "preserve",
+          "reason": "Historical biblical proper name or source-form variant retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BORN",
+          "target": "NÉ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOSCATH",
+      "article_id": "isbe-e5bfa3e097574f50fbaf",
+      "source_article_sha256": "7a3bb0dca2d08db714d74345c84a1ddeaa8822f639d5a714499b3e8e28f8a3e9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOSCATH",
+          "target": "BOSCATH",
+          "action": "preserve",
+          "reason": "Historical biblical proper name or source-form variant retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bos'-kath.",
+          "target": "bos'-kath.",
+          "action": "preserve",
+          "reason": "Historical original pronunciation transcribed without alteration"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BOZKATH",
+          "target": "BOZKATH",
+          "action": "preserve",
+          "reason": "Historical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BOTCH",
+      "article_id": "isbe-f9dc6858a29463b8af7a",
+      "source_article_sha256": "fd18d82d9ca5aa05fd3754e72e72333c94a2e937975c107254e3d22f6fd205e4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOTCH",
+          "target": "ULCÈRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BOIL",
+          "target": "FURONCLE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOUGH",
+      "article_id": "isbe-4f1e6917626b2523faa2",
+      "source_article_sha256": "9233771cdf9b82faa7dcd5d899771b62d467d6b290021f74c4283900b26fff37",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOUGH",
+          "target": "BRANCHE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bou.",
+          "target": "bou.",
+          "action": "preserve",
+          "reason": "Historical proper-name reference label retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BRANCH",
+          "target": "BRANCHE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOUND",
+      "article_id": "isbe-d8165406503f7578ce08",
+      "source_article_sha256": "76a9cc0990387cebd911b643ac93d462650a144d357b81695d25c2ceb5f0fd9f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOUND",
+          "target": "LIÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BIND",
+          "target": "LIER",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOW",
+      "article_id": "isbe-01a43f67344f897d61b5",
+      "source_article_sha256": "abad1f7268e4e0a6c8d44dae2e3b7ffa08e544e97f4b5b879769d35bbdcd8180",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOW",
+          "target": "ARC",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bo.",
+          "target": "bo.",
+          "action": "preserve",
+          "reason": "Historical proper-name reference label retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARCHERY",
+          "target": "TIR À L'ARC",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOXING",
+      "article_id": "isbe-7bbd44e11ae4ca999450",
+      "source_article_sha256": "e95704a2817d0f7928884677878ec49986c3e038771da02872da95170e8572f3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOXING",
+          "target": "BOXE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "GAMES",
+          "target": "JEUX",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRAMBLE",
+      "article_id": "isbe-38ee0c09102a76e86a1e",
+      "source_article_sha256": "58624728163b55df5007e0dae84a8786764e59eaa6a622d396ad92e85d8e4ee3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRAMBLE",
+          "target": "RONCE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bram'-b'-l.",
+          "target": "bram'-b'-l.",
+          "action": "preserve",
+          "reason": "Historical original pronunciation transcribed without alteration"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "THORNS",
+          "target": "ÉPINES",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
