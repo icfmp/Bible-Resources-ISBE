@@ -1,0 +1,499 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CHANNEL",
+      "article_id": "isbe-597c1159ea4c1b646da8",
+      "source_article_sha256": "02eee3bc8e57fe59ed8a2176eceb12044ee86b3bb7d7be2832700cedbfa53609",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHANNEL",
+          "target": "CHENAL ; CANAL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "chan'-el ('aphiq (root 'aphaq, \"to hold or contain,\" \"to be strong\"; compare Arabic 'afaq \"to overcome\" and 'afiq, \"preeminent\"); shibboleth (shabhal, \"to go,\" \"to go up or grow,\" \"to flow\"; compare Arabic 'asbal, \"to flow,\" \"to rain,\" \"to put forth ears\"; sabalat, \"an ear of grain\"; sabil, \"a road,\" \"a public fountain\")): In ",
+          "target": "chan'-el ('aphiq [racine 'aphaq, « tenir ou contenir », « être fort » ; comparer l'arabe 'afaq, « vaincre », et 'afiq, « prééminent »] ; shibboleth [shabhal, « aller », « monter ou croître », « couler » ; comparer l'arabe 'asbal, « couler », « pleuvoir », « produire des épis » ; sabalat, « un épi de grain » ; sabil, « une route », « une fontaine publique »]) : En ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " we have 'aphiq in the sense of \"strong\" (but compare 40:18, the Revised Version (British and American) \"tubes\" (of brass)). Elsewhere it is translated \"river,\" \"brook,\" \"stream,\" \"channel\" or \"watercourse.\" Shibboleth (in the dialect of Ephraim cibboleth (",
+          "target": " nous avons 'aphiq au sens de « fort » (mais comparer 40.18, Revised Version [britannique et américaine] : « tubes » [d'airain]). Ailleurs il est traduit par « fleuve », « torrent », « courant », « chenal » ou « cours d'eau ». Shibboleth (dans le dialecte d'Éphraïm cibboleth (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ")) means \"an ear of grain\" (",
+          "target": ")) signifie « un épi de grain » (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " ff; ",
+          "target": " et suivants ; ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ") or \"a flood of water\" (",
+          "target": ") ou « un flot d'eau » (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": " (compare ",
+          "target": " (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": ") we have:  \"Then the channels of the sea appeared, The foundations of the world were laid bare, By the rebuke of Yahweh, At the blast of the breath of his nostrils.\"  This is reminiscent of \"fountains of the deep\" (",
+          "target": ") nous avons : « Alors les chenaux de la mer apparurent, les fondements du monde furent mis à nu, par la réprimande de Yahvé, au souffle de la respiration de ses narines. » Cela rappelle les « sources de l'abîme » (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "). It is a question how far we should attribute to these ancient writers a share in modern notions of oceanography, but the idea seems to be that of a withdrawal of the water of the ocean, and the laying bare of submarine declivities and channels such as we know to exist as the result of erosion during a previous period of elevation, when the given portion of ocean floor was dry land.",
+          "target": "). Il est permis de se demander dans quelle mesure nous devrions attribuer à ces auteurs anciens une part des notions modernes d'océanographie, mais l'idée semble être celle d'un retrait de l'eau de l'océan et de la mise à nu des pentes et chenaux sous-marins, tels que nous savons en exister par suite de l'érosion durant une période antérieure de soulèvement, lorsque la partie considérée du fond océanique était une terre sèche.",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "The fact that many streams of Palestine flow only during the rainy season seems to be referred to in ",
+          "target": "Le fait que de nombreux cours d'eau de Palestine ne coulent que durant la saison des pluies semble être évoqué en ",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": "; and perhaps also in ",
+          "target": " ; et peut-être aussi en ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "BROOK",
+          "target": "TORRENT ; RUISSEAU",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "RIVER",
+          "target": "FLEUVE",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "Alfred Ely Day",
+          "target": "Alfred Ely Day",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHARGE; CHARGEABLE",
+      "article_id": "isbe-42c070be7e89b14219d2",
+      "source_article_sha256": "08a77598b9fb19b07e16e62aca4d8dcbba31d670b835c769a1efd68eff4de4b6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHARGE; CHARGEABLE",
+          "target": "CHARGE ; À CHARGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "charj, char'-ja-b'-l (from Latin carrus, \"a wagon,\" hence, \"to lay or put a load on or in,\" \"to burden, or be a burden\"):",
+          "target": "charj, char'-ja-b'-l (du latin carrus, « un chariot », d'où « poser ou mettre une charge sur ou dans », « charger ou être une charge ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "Figurative:",
+          "target": "Au figuré :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(1) of a special duty mishmereth, (\"thing to be watched\"), \"the charge of Yahweh\" (",
+          "target": "(1) d'un devoir particulier, mishmereth (« chose à surveiller »), « la charge de Yahvé » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), the injunctions given in ",
+          "target": "), les prescriptions données en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "; \"the charge of the tabernacle\" (",
+          "target": " ; « la charge du tabernacle » (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "); \"the charge of the sons of Getshon\" (",
+          "target": ") ; « la charge des fils de Getshon » (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(2) of the burden of expense (kabhedh, \"to be, or make heavy\"; adapanos, \"without expense\"), \"lest we be chargeable unto thee\" (",
+          "target": "(2) du fardeau de la dépense (kabhedh, « être ou rendre lourd » ; adapanos, « sans dépense »), « de peur que nous ne vous soyons à charge » (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " the King James Version, the Revised Version (British and American) \"burdensome\"); \"The former governors .... were charge unto the people\" (",
+          "target": " King James Version, Revised Version [britannique et américaine] : « burdensome », pesants) ; « Les anciens gouverneurs… étaient à charge au peuple » (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": " margin \"laid burdens upon\"); \"that .... I may make the gospel without charge\" (",
+          "target": " en marge : « imposaient des fardeaux à ») ; « afin que… j'annonce l'Évangile sans frais » (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "; see ",
+          "target": " ; voir ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "CHARGES",
+          "target": "FRAIS",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "(3) of oversight, care, custody, \"Who gave him a charge over the earth?\" (",
+          "target": "(3) de la surveillance, du soin, de la garde : « Qui lui a donné la charge de la terre ? » (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": "); \"to have the charge of the gate\" (",
+          "target": ") ; « avoir la charge de la porte » (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "); \"charge of the vessels of service\" (",
+          "target": ") ; « charge des ustensiles du service » (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "); \"cause ye them that have charge (pequddoth, \"inspectors\") over the city\" (",
+          "target": ") ; « Faites venir ceux qui ont la charge (pequddoth, “inspecteurs”) de la ville » (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "); \"who had the charge of all her treasure\" (",
+          "target": ") ; « qui avait la charge de tout son trésor » (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": " the King James Version, the Revised Version (British and American) \"was over\");",
+          "target": " King James Version, Revised Version [britannique et américaine] : « était préposé à ») ;",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(4) of a command, injunction, requirement, \"He gave him a charge\" (",
+          "target": "(4) d'un ordre, d'une prescription, d'une exigence : « Il lui donna un ordre » (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "); \"His father charged the people with the oath\" (",
+          "target": ") ; « Son père imposa au peuple le serment » (",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": "); \"Jesus strictly (m \"sternly\") charged them\" (",
+          "target": ") ; « Jésus leur ordonna strictement (en marge, “sévèrement”) » (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": "); \"I charge you by the Lord\" (",
+          "target": ") ; « Je vous en donne l'ordre par le Seigneur » (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": " the King James Version, the Revised Version (British and American) \"adjure\"); \"having received such a charge\" (",
+          "target": " King James Version, Revised Version [britannique et américaine] : « adjure », adjure) ; « ayant reçu un tel ordre » (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": ", paraggelia, \"private or extra message\"); \"This charge I commit unto thee\" (",
+          "target": ", paraggelia, « message particulier ou supplémentaire ») ; « Je te confie cette charge » (",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "(5) of blame, responsibility, reckoning, \"Lord, lay not this sin to their charge\" (",
+          "target": "(5) du blâme, de la responsabilité, de l'imputation : « Seigneur, ne leur impute pas ce péché » (",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": "); \"nothing laid to his charge\" (",
+          "target": ") ; « rien qui lui soit imputé » (",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": "); \"Who shall lay anything to the charge of God's elect?\" (",
+          "target": ") ; « Qui mettra quoi que ce soit à la charge des élus de Dieu ? » (",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "M. O. Evans",
+          "target": "M. O. Evans",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHEER; CHEERFULNESS",
+      "article_id": "isbe-a4e2d40860597807805b",
+      "source_article_sha256": "16250662ddce6da5f974569caaeb29f2065793287f2ffdad07380532662ff971",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHEER; CHEERFULNESS",
+          "target": "RÉCONFORT ; JOIE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "cher, cher'-fool-nes: The English word \"cheer\" meant:",
+          "target": "cher, cher'-fool-nes : Le mot anglais « cheer » signifiait :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) originally face, countenance (Greek kara, \"head,\" through Old French, chere, \"face\"),",
+          "target": "(1) à l'origine le visage, la physionomie (grec kara, « tête », par l'intermédiaire de l'ancien français chere, « visage »),",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(2) then the expression on the face, especially",
+          "target": "(2) puis l'expression du visage, particulièrement",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(3) the expression of good spirits, and finally",
+          "target": "(3) l'expression de la bonne humeur, et enfin",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(4) good spirits, without any reference to the facial expression.",
+          "target": "(4) la bonne humeur, sans aucune référence à l'expression du visage.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "The noun \"cheer\" in English Versions of the Bible is only found with adjective \"good\" (except 1 Esdras 9:54, \"great cheer\"), the word not having quite lost its earlier neutral character (any face expression, whether joyous or otherwise). In Old Testament, Tobh, is translated \"cheer,\" \"let thy heart cheer thee\" (see ",
+          "target": "Le substantif « cheer » dans les versions anglaises de la Bible ne se trouve qu'avec l'adjectif « good » (sauf 1 Esdras 9.54, « great cheer »), le mot n'ayant pas tout à fait perdu son caractère neutre antérieur (toute expression du visage, qu'elle soit joyeuse ou non). Dans l'Ancien Testament, Tobh est traduit par « cheer » : « que ton cœur te réjouisse » (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "GOOD",
+          "target": "BON",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "); sameach, \"to rejoice\" is so translated in ",
+          "target": ") ; sameach, « se réjouir », est ainsi traduit en ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", \"shall cheer his wife\" (the King James Version \"cheer up his wife\"), and ",
+          "target": ", « réjouira sa femme » (King James Version : « cheer up his wife »), et en ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ", \"wine, which cheereth God ('elohim) and man.\" The phrase \"of good cheer\" occurs in Old Testament in ",
+          "target": ", « le vin, qui réjouit Dieu ('elohim) et l'homme ». L'expression « of good cheer » (bon courage) apparaît dans l'Ancien Testament en ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": " (the King James Version \"comfort\"); in Apocrypha, 1 Esdras 9:54; The Wisdom of Solomon 18:6; Baruch 4:5,30; Sirach 18:32 the King James Version (the Revised Version (British and American) \"luxury\"); in New Testament for Greek euthumeo, euthumos, in ",
+          "target": " (King James Version : « comfort », réconfort) ; dans les apocryphes, 1 Esdras 9.54 ; Sagesse de Salomon 18.6 ; Baruc 4.5, 30 ; Siracide 18.32 King James Version (Revised Version [britannique et américaine] : « luxury », luxe) ; dans le Nouveau Testament pour le grec euthumeo, euthumos, en ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": ", and for tharseo in ",
+          "target": ", et pour tharseo en ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": ". (the King James Version \"comfort\"); ",
+          "target": " (King James Version : « comfort ») ; ",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": " (RV; \"comfort\" in the King James Version); ",
+          "target": " (RV ; « comfort » dans la King James Version) ; ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": ". \"Cheer\" as verb transitive occurs in ",
+          "target": ". « Cheer » comme verbe transitif apparaît en ",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "Cheerful occurs in ",
+          "target": "Cheerful (joyeux) apparaît en ",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": " (the King James Version \"merry\"); ",
+          "target": " (King James Version : « merry ») ; ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": " the King James Version; Sirach 30:25; ",
+          "target": " King James Version ; Siracide 30.25 ; ",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "Cheerfully, ",
+          "target": "Cheerfully (joyeusement), ",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "Cheerfulness, ",
+          "target": "Cheerfulness (joie), ",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "D. Miall Edwards",
+          "target": "D. Miall Edwards",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "862_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "903_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 862,
-    "complete_first_drafts": 864,
-    "remaining_undrafted": 136
+    "new_complete_drafts_on_branch": 903,
+    "complete_first_drafts": 905,
+    "remaining_undrafted": 95
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1907
+    "complete_first_drafts_across_main_and_current_branch": 1948
   },
   "source_queue": {
     "rounds_completed": [
@@ -30,11 +30,12 @@
       "round-005",
       "round-006",
       "round-007",
-      "round-008"
+      "round-008",
+      "round-009"
     ],
-    "original_article_templates": 800,
-    "verified_unique_article_ids": 800,
-    "original_mutable_tei_units_covered": 4026,
+    "original_article_templates": 900,
+    "verified_unique_article_ids": 900,
+    "original_mutable_tei_units_covered": 5684,
     "round_paths": [
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-001",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-002",
@@ -43,25 +44,26 @@
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-005",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-006",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-007",
-      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-008"
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-008",
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-009"
     ],
-    "checks": "Rounds 001–008 completed. Round 009 lines 1–20 passed incremental CI. Lines 21–62 constitute a completed word-budget cohort; all 42 canonical manuscript IDs and slot counts checked. Incremental CI pending. Round 010 remains staged with 98 distinct entries, zero overlap with round 009.",
+    "checks": "Rounds 001–009 completed. Prior 14,785-word cohort passed incremental CI. Current 41-manuscript cohort spans round 009 lines 63–100 and round 010 lines 1–3, all canonical IDs and slot counts checked. Incremental CI pending. Oversized round 010 JSONL is readable via GitHub contents endpoint; no extra staging needed.",
     "partial_round": {
-      "round": "round-009",
-      "completed_articles": 62,
-      "total_articles": 100,
+      "round": "round-010",
+      "completed_articles": 3,
+      "total_articles": 98,
       "completed_source_line_range": [
         1,
-        62
+        3
       ],
       "remaining_source_line_range": [
-        63,
-        100
+        4,
+        98
       ],
-      "source_mutable_units": 999,
-      "source_blocks": 396,
-      "protected_keep_markers": 906,
-      "source_words_whitespace_count": 21643
+      "source_mutable_units": 134,
+      "source_blocks": 72,
+      "protected_keep_markers": 74,
+      "source_words_whitespace_count": 3990
     }
   },
   "batch_files": [
@@ -132,7 +134,13 @@
     "0227-wave02-round009-next10.json",
     "0228-wave02-round009-next10.json",
     "0229-wave02-round009-next6.json",
-    "0230-wave02-round009-next6.json"
+    "0230-wave02-round009-next6.json",
+    "0231-wave02-round009-next5.json",
+    "0232-wave02-round009-next10.json",
+    "0233-wave02-round009-next10.json",
+    "0234-wave02-round009-next10.json",
+    "0235-wave02-round009-last3.json",
+    "0236-wave02-round010-first3.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -484,34 +492,95 @@
       "key": "BRANCH ;BOUGH",
       "kind": "source_witness",
       "detail": "Source stibos (= stoibas) retained."
+    },
+    {
+      "key": "BREASTPLATE OF THE HIGH PRIEST",
+      "kind": "source_witness",
+      "detail": "Malformed phrase 'which were called in the priestly pouch' retained literally; check printed witness."
+    },
+    {
+      "key": "BREECHES",
+      "kind": "source_witness",
+      "detail": "Incomplete clause beginning 'In Targum and Talmud' retained; no missing predicate supplied."
+    },
+    {
+      "key": "BUILDER",
+      "kind": "source_witness",
+      "detail": "Original numbering jumps from (4) to (6); preserved."
+    },
+    {
+      "key": "CALNEH",
+      "kind": "source_witness",
+      "detail": "Unrelated, truncated fragment starting 'athers and burned C.' is retained in translation; verify witness."
+    },
+    {
+      "key": "CANDLE; CANDLESTICK",
+      "kind": "source_witness",
+      "detail": "Closing sentence is displaced across the author's signature; order preserved; requires source witness repair."
+    },
+    {
+      "key": "CATHOLIC EPISTLES",
+      "kind": "source_witness",
+      "detail": "Source calls heretical epistles' teaching 'in harmony with Christian truth'; translated as written, not silently harmonized."
+    },
+    {
+      "key": "CHAMOIS",
+      "kind": "source_witness",
+      "detail": "Unusual spelling 'kamelopdrdalis' retained; illustration reference retained even if not available in module."
+    },
+    {
+      "key": "AZAZEL",
+      "kind": "source_witness",
+      "detail": "Malformed 'entirely II' retained as 'entièrement II'; source also has 'one be lot', rendered as 'un sort'; verify printed witness."
+    },
+    {
+      "key": "BAAL (1)",
+      "kind": "source_witness",
+      "detail": "Source 'Can Baal' expanded to 'Baal cananéen' by context; unusual forms Beelinda, Hermort, aischane retained."
+    },
+    {
+      "key": "BABEL, BABYLON (1)",
+      "kind": "source_witness",
+      "detail": "Historical assertion that Alexander was murdered is preserved, without modernization; Annnit preserved exactly. Typo in draft proper name corrected before commit."
     }
   ],
-  "next_action": "Resume staged round-009 SOURCE.jsonl lines 63–100, then round-010 lines 1–98 as appropriate. Use consecutive whole-article cohorts not exceeding 15000 editable English words. No source staging required. Verify incremental CI; at ticket completion update FULL_VALIDATION.json. No editorial approvals or translation PR.",
-  "previous_translation_commit": "4df2b533bf87816364c2067bcda907392f0a4551",
-  "last_translation_tree": "a77a6195f5366a39955c2261f7d7488fcc26843b",
+  "next_action": "Resume staged round-010 SOURCE.jsonl line 4 using the GitHub contents endpoint (the fetch_file range endpoint returns empty content for this >1 MB JSONL). Use consecutive whole-article cohorts not exceeding 20000 editable English words. No source staging required. Verify incremental CI; at ticket completion update FULL_VALIDATION.json. No editorial approvals or translation PR.",
+  "previous_translation_commit": "b795c79bcbb9a5bb7ed9d61ed82e1db31a3a480f",
+  "last_translation_tree": "0a594bc793a1ca1161ce3ca883756c3edac4cbe7",
   "last_cohort_completion": {
-    "round": "round-009",
     "kind": "word_budget_cohort",
-    "source_line_range": [
-      21,
-      62
+    "source_line_ranges": [
+      {
+        "round": "round-009",
+        "range": [
+          63,
+          100
+        ]
+      },
+      {
+        "round": "round-010",
+        "range": [
+          1,
+          3
+        ]
+      }
     ],
-    "new_articles": 42,
-    "source_words_whitespace_count": 14785,
-    "word_limit": 15000,
-    "next_article": "BREASTPLATE OF THE HIGH PRIEST",
-    "next_article_words": 316,
-    "words_if_included": 15101,
-    "source_mutable_units": 700,
-    "source_blocks": 269,
-    "protected_keep_markers": 669,
+    "new_articles": 41,
+    "source_words_whitespace_count": 16891,
+    "word_limit": 20000,
+    "next_article": "BABEL, BABYLON (2)",
+    "next_article_words": 6240,
+    "words_if_included": 23131,
+    "source_mutable_units": 793,
+    "source_blocks": 342,
+    "protected_keep_markers": 719,
     "validation": "Ordered slot counts and canonical manuscript IDs verified; incremental CI pending",
     "editorial_approvals": 0
   },
   "cohort_policy": {
-    "source_word_limit": 15000,
+    "source_word_limit": 20000,
     "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
-    "selection": "Consecutive complete articles from staged queue; stop before the next article exceeds the limit, no skipping or splitting",
+    "selection": "Consecutive complete articles from staged queues; stop before the next article exceeds the limit, no skipping or splitting",
     "oversized_single_article": "Standalone cohort",
     "commit_policy": "One commit and incremental validation per completed cohort"
   }

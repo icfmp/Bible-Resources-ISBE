@@ -1,0 +1,978 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AZAZEL",
+      "article_id": "isbe-be947c7a0866cc52d42c",
+      "source_article_sha256": "a818838a2047b3e0af7a33455db8f368f04cbfc5e22326f0604d981e740aa697",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZAZEL",
+          "target": "AZAZEL",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-za'-zel (`aza'zel apopompaios; the King James Version Scapegoat, the Revised Version, margin \"removal\"):",
+          "target": "a-za'-zel (`aza'zel apopompaios ; King James Version : « Scapegoat », bouc émissaire ; marge de la Revised Version : « removal », éloignement) :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "I. THE MEANING OF THE WORD",
+          "target": "I. LE SENS DU MOT",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "1. The Passages to Be Considered",
+          "target": "1. Les passages à examiner",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "2. The Proposed Interpretations",
+          "target": "2. Les interprétations proposées",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(1) The Etymology",
+          "target": "(1) L'étymologie",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(2) The Explanation",
+          "target": "(2) L'explication",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "II. WHAT IS DONE IN CONNECTION WITH AZAZEL",
+          "target": "II. CE QUI EST FAIT EN RAPPORT AVEC AZAZEL",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "1. The Significance of This Action",
+          "target": "1. La signification de cet acte",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "2. The Jewish Liturgy",
+          "target": "2. La liturgie juive",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "I. The Meaning of the Word",
+          "target": "I. Le sens du mot",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "1. The Passages to Be Considered:",
+          "target": "1. Les passages à examiner :",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "This word is found in connection with the ceremony of the Day of Atonement (which see). According to ",
+          "target": "Ce mot se rencontre en rapport avec la cérémonie du jour des Expiations (voir cet article). Selon ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": ", Aaron is to cast lots upon the two goats which on the part of the congregation are to serve as a sin offering (",
+          "target": ", Aaron doit tirer au sort les deux boucs qui doivent servir, de la part de l'assemblée, de sacrifice pour le péché (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "), \"one be lot for Yahweh, and the other lot for Azazel.\" In ",
+          "target": "), « un sort pour Yahvé et l'autre sort pour Azazel ». En ",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": ", after the first goat has been set apart as a sin offering for Yahweh, we read: \"But the goat, on which the lot fell for Azazel, shall be set alive before Yahweh, to make atonement for him, to send him away for Azazel into the wilderness.\" In ",
+          "target": ", après que le premier bouc a été mis à part comme sacrifice pour le péché destiné à Yahvé, nous lisons : « Mais le bouc sur lequel est tombé le sort pour Azazel sera placé vivant devant Yahvé, afin de faire l'expiation pour lui, pour l'envoyer au désert pour Azazel. » En ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": " we read: \"And he that letteth go the goat for Azazel shall wash his clothes, and bathe his flesh in water.\" Before this, in ",
+          "target": " nous lisons : « Celui qui laisse aller le bouc pour Azazel lavera ses vêtements et baignera sa chair dans l'eau. » Auparavant, en ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": " mention had been made of what should be done with the goat. After the purification of the (inner) sanctuary, of the tent of meeting, and of the altar, the living goat is to brought, \"and Aaron shall lay both his hands upon the head of the live goat, and confess over him all .... their sins; and he shall put them upon the head of the goat, and shall send him away by the hand of a man that is in readiness into the wilderness: and the goat shall bear upon him all their iniquities unto a solitary land: and he shall let go the goat in the wilderness.\" But in this last mentioned and most important passage the term under consideration is not found.",
+          "target": ", il avait été mentionné ce qui devait être fait du bouc. Après la purification du sanctuaire (intérieur), de la tente d'assignation et de l'autel, le bouc vivant doit être amené, « et Aaron posera ses deux mains sur la tête du bouc vivant, et confessera sur lui tous… leurs péchés ; il les mettra sur la tête du bouc et l'enverra au désert par la main d'un homme qui se tient prêt ; et le bouc portera sur lui toutes leurs iniquités dans une terre solitaire ; et il laissera aller le bouc dans le désert ». Mais dans ce dernier passage, le plus important, le terme à l'étude ne se trouve pas.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "2. The Proposed Interpretations:",
+          "target": "2. Les interprétations proposées :",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "(1) The Etymology.",
+          "target": "(1) L'étymologie.",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "Some have derived the word from `az plus 'azal (fortis abiens, \"passing away in his strength\" or from an intentional alteration of 'el plus `azaz, robur Dei, \"strength of God\"; compare below the angel of the Book of Enoch); while others have regarded the word as a broken plural of a substantive in the Arabic `azala, and translated it as \"lonesomeness,\" \"desert.\" Now there is an inclination to regard it as a reduplication from `azalzel, derived from the root `azal. If we accept this view, although it is without certainty and an exact analogue cannot be found, we could conclude from the way in which this noun has been formed that we have before us not an abstract term (remotio, \"removal,\" or abitus, \"departure\"), but a concrete noun, or an adjective, longe remotus (\"far removed\") or porro abiens (\"going far away\").",
+          "target": "Certains ont fait dériver le mot de `az plus 'azal (fortis abiens, « s'éloignant dans sa force », ou d'une modification intentionnelle de 'el plus `azaz, robur Dei, « force de Dieu » ; comparer plus bas l'ange du Livre d'Hénoch) ; tandis que d'autres ont considéré le mot comme un pluriel brisé d'un substantif arabe, `azala, et l'ont traduit par « solitude », « désert ». On incline maintenant à le considérer comme un redoublement de `azalzel, dérivé de la racine `azal. Si nous acceptons cette opinion, quoique celle-ci soit incertaine et qu'on ne puisse trouver d'analogue exact, nous pourrions conclure de la façon dont ce nom a été formé que nous avons devant nous non un terme abstrait (remotio, « éloignement », ou abitus, « départ »), mais un nom concret ou un adjectif, longe remotus (« éloigné au loin ») ou porro abiens (« s'en allant au loin »).",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "(2) The Explanation.",
+          "target": "(2) L'explication.",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "In ",
+          "target": "En ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": ", we would have an acceptable sense, if we regarded this word as expressive of a distinct locality in the wilderness. But this interpretation is impossible, since the law in ",
+          "target": ", nous aurions un sens acceptable si nous considérions ce mot comme désignant un lieu déterminé dans le désert. Mais cette interprétation est impossible, puisque la loi de ",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": " was given during the wanderings in the wilderness and accordingly presupposed a constant change in the encampment, even if this should be regarded only as the historical background. By the use of the same preposition le- in connection with Yahweh and Azazel, it seems natural to regard the expressions as entirely II and to think of some personal being. Some interpret this word as referring to a demon of the wilderness (compare ",
+          "target": " fut donnée durant les pérégrinations dans le désert et présupposait par conséquent un changement constant de campement, même si cela ne devait être considéré que comme le cadre historique. Par l'emploi de la même préposition le- en rapport avec Yahvé et Azazel, il paraît naturel de considérer les expressions comme entièrement II et de penser à quelque être personnel. Certains interprètent ce mot comme désignant un démon du désert (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "tail",
+          "source": ") and explain the term as \"one who has separated himself from God,\" or \"he who has separated himself,\" or \"he who misleads others.\" But a demon of this kind could not possibly be placed in contrast to Yahweh in this way; and as in the Book of Enoch 6:6; 8:1 ff; 9:6; 10:4 ff; 13:1 ff; 69:2 one of the most prominent of the fallen angels who taught mankind the arts of war and luxury, revealed secrets to them, and is now bound in the wilderness, and is there preserved for the final judgment, because he was mainly responsible for the presence of evil in the world, is called Azael (also Azazel, or Azalzel), it is highly probable that this name was taken from ",
+          "target": ") et expliquent le terme comme « celui qui s'est séparé de Dieu », ou « celui qui s'est séparé », ou « celui qui égare les autres ». Mais un démon de cette sorte ne pourrait nullement être opposé à Yahvé de cette manière ; et puisque dans le Livre d'Hénoch 6.6 ; 8.1 et suivants ; 9.6 ; 10.4 et suivants ; 13.1 et suivants ; 69.2, l'un des plus éminents des anges déchus qui enseignèrent à l'humanité les arts de la guerre et du luxe, lui révélèrent des secrets, et qui est maintenant lié dans le désert, où il est gardé pour le jugement final parce qu'il était principalement responsable de la présence du mal dans le monde, est appelé Azael (aussi Azazel ou Azalzel), il est hautement probable que ce nom a été tiré de ",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": ". In later times the word Azazel was by many Jews and also by Christian theologians, such as Origen, regarded as that Satan himself who had fallen away from God. In this interpretation the contrast found in ",
+          "target": ". Plus tard, le mot Azazel fut considéré par de nombreux Juifs et aussi par des théologiens chrétiens, tels qu'Origène, comme désignant Satan lui-même, qui s'était détourné de Dieu. Dans cette interprétation, le contraste trouvé en ",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": ", in case it is to be regarded as a full parallelism, would be perfectly correct. But it must be acknowledged that in Holy Scripture, Satan is nowhere called by the name of Azazel, and just as little is the wilderness regarded as his permanent place of abode. Against these last two interpretations we must also recall that in the most significant passage, namely, ",
+          "target": ", au cas où il faudrait le considérer comme un parallélisme complet, serait parfaitement correct. Mais il faut reconnaître que dans les Saintes Écritures, Satan n'est nulle part appelé du nom d'Azazel, et que le désert n'est pas davantage considéré comme son lieu de séjour permanent. Contre ces deux dernières interprétations, il faut aussi rappeler que dans le passage le plus significatif, à savoir ",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "tail",
+          "source": " ff, the term Azazel is not found at all. The same is true in the case of the ceremony in connection with the purification of leprous people and houses (",
+          "target": " et suivants, le terme Azazel ne se trouve pas du tout. Il en va de même dans le cas de la cérémonie concernant la purification des personnes et des maisons lépreuses (",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": "), which throughout suggests ",
+          "target": "), qui rappelle d'un bout à l'autre ",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "tail",
+          "source": ". In this place we have also the sevenfold sprinkling (compare ",
+          "target": ". En cet endroit, nous avons aussi l'aspersion septuple (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "tail",
+          "source": " with ",
+          "target": " avec ",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "tail",
+          "source": "); and in addition two animals, in this case birds, are used, of which the one is to be slain for the purpose of sprinkling the blood, but the other, after it has been dipped into the blood of the one that has been slain, is to be allowed to fly away. In this way the essential thought in ",
+          "target": ") ; et de plus, deux animaux, dans ce cas des oiseaux, sont employés, dont l'un doit être immolé en vue de l'aspersion du sang, mais l'autre, après avoir été plongé dans le sang de celui qui a été immolé, doit être laissé libre de s'envoler. Ainsi, la pensée essentielle en ",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": " as also in ",
+          "target": " comme en ",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": " seems to be the removal of the animal in either case, and it is accordingly advisable to interpret Azazel adjectively, i.e. to forego finding a complete parallelism in ",
+          "target": " semble être l'éloignement de l'animal dans les deux cas, et il convient par conséquent d'interpréter Azazel comme adjectif, c'est-à-dire de renoncer à trouver un parallélisme complet en ",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "tail",
+          "source": ", and to regard the preposition in connection with Yahweh as used differently from its use with Azazel, and to translate as follows: \"And Aaron shall cast lots over both goats, the one lot [i.e. for the one goat] for Yahweh, and one lot for the goat that is destined to go far away.\" On the preposition le- used with the second Azazel in ",
+          "target": ", de considérer que la préposition en rapport avec Yahvé est employée différemment de son emploi avec Azazel, et de traduire comme suit : « Et Aaron tirera au sort les deux boucs, l'un des sorts [c'est-à-dire pour l'un des boucs] pour Yahvé, et un sort pour le bouc qui est destiné à s'en aller au loin. » Sur la préposition le- employée avec le second Azazel en ",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "tail",
+          "source": ", compare ",
+          "target": ", comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": ". With this interpretation a certain hardness yet remains for our linguistic sense, because we cannot find a good translation for the adjective. But in favor of this interpretation and against the personal interpretation we can appeal also to the feeling of the Septuagint translators who translate apopompaios, diestalmenos, and also to that of Aquilos, who translates tragos apoluomenos, apolelumenos, kekrataiomenos, and of Symmachus who translates aperchomenos, aphiemenos. (The general idea expressed by all these words is \"removal,\" \"sending away,\" \"releasing\" or \"dismissal.\") It is true that the Septuagint in one place translates eis ten apopompen, which however could be also an abstract circumlocution for a conception that, though used elsewhere, is yet awkward. In the Vulgate, we have caper emissarius and Luther says \"der ledige Bock,\" which are probably based on a wrong etymology, since `ez signifies only a goat or perhaps this word \"Bock\" is here only supplied from the connection, and that quite correctly, so that Luther and the Vulgate can also be cited in favor of our interpretation.",
+          "target": ". Avec cette interprétation, une certaine rudesse demeure encore pour notre sens de la langue, parce que nous ne pouvons trouver une bonne traduction de l'adjectif. Mais en faveur de cette interprétation et contre l'interprétation personnelle, nous pouvons aussi en appeler au sentiment linguistique des traducteurs de la Septante, qui traduisent apopompaios, diestalmenos, et aussi à celui d'Aquila, qui traduit tragos apoluomenos, apolelumenos, kekrataiomenos, et de Symmaque, qui traduit aperchomenos, aphiemenos. (L'idée générale exprimée par tous ces mots est celle d'« éloignement », de « renvoi », de « libération » ou de « congé ».) Il est vrai que la Septante traduit en un endroit eis ten apopompen, qui pourrait cependant être aussi une périphrase abstraite pour une notion qui, quoique employée ailleurs, demeure pourtant embarrassante. Dans la Vulgate, nous avons caper emissarius, et Luther dit « der ledige Bock », qui reposent probablement sur une étymologie erronée, puisque `ez désigne seulement un bouc, ou peut-être que ce mot « Bock » est ici simplement suppléé d'après le contexte, et cela tout à fait correctement, de sorte que Luther et la Vulgate peuvent aussi être cités en faveur de notre interprétation.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "II. What Is Done in Connection with Azazel.",
+          "target": "II. Ce qui est fait en rapport avec Azazel.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "1. The Significance of This Action:",
+          "target": "1. La signification de cet acte :",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "Both goats, according to ",
+          "target": "Les deux boucs, selon ",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "tail",
+          "source": ", are to be regarded as a single sin-sacrifice, even should we interpret Azazel as demon or Satan, and we are accordingly not at all to understand that a sacrifice was brought to these beings. This too is made impossible by the whole tenor of the Old Testament in general, as of ",
+          "target": ", doivent être considérés comme un seul sacrifice pour le péché, même si nous interprétions Azazel comme démon ou Satan, et nous ne devons donc nullement comprendre qu'un sacrifice fut offert à ces êtres. Cela aussi est rendu impossible par toute la teneur de l'Ancien Testament en général, comme de ",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": " in particular, so that in 16:8 the two members introduced by the preposition le- would not at all be beings of exactly the same importance. Both goats, so to say, represent two sides of the same thing. The second is necessary to make clear what the first one, which has been slain, can no longer represent, namely, the removal of the sin, and accordingly has quite often aptly been called the hircus redivivus. But what is to be represented finds its expression in the ceremony described in ",
+          "target": " en particulier, de sorte qu'en 16.8 les deux membres introduits par la préposition le- ne seraient nullement des êtres d'une importance exactement égale. Les deux boucs représentent, pour ainsi dire, deux aspects de la même chose. Le second est nécessaire pour rendre clair ce que le premier, qui a été immolé, ne peut plus représenter, à savoir l'éloignement du péché, et a par conséquent été assez souvent appelé avec justesse le hircus redivivus. Mais ce qui doit être représenté trouve son expression dans la cérémonie décrite en ",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "tail",
+          "source": ". Whatever may be the significance of the laying on of hands in other connections, whether the emphasis is placed more on the disposal or on the appropriation of the property, at this place it certainly is only a symbol of the transfer of guilt, which is confessed over the goat and is then carried into the wilderness by the goat upon which it has been laid. In order to make this transfer all the more impressive, both the hands are here brought into action, while e.g. in ",
+          "target": ". Quelle que soit la signification de l'imposition des mains dans d'autres contextes, que l'accent soit mis davantage sur la cession ou sur l'appropriation du bien, en cet endroit elle n'est certainement qu'un symbole du transfert de la culpabilité, qui est confessée sur le bouc et est ensuite emportée au désert par le bouc sur lequel elle a été placée. Afin de rendre ce transfert d'autant plus saisissant, les deux mains sont ici employées, tandis que, par exemple, en ",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "tail",
+          "source": " only one hand is used. The fact that the goat is accompanied by somebody and that it is to be taken to an uninhabited place is to indicate the absolute impossibility of its return, i.e. the guilt has been absolutely forgiven and erased, a deep thought made objectively evident in a transparent manner and independently of the explanation of Azazel, which is even yet not altogether certain. In the personal interpretation, we could have, in addition to the idea of the removal of the guilt, also a second idea, namely, that Azazel can do no harm to Israel, but must be content with his claim to a goat which takes Israel's place.",
+          "target": " une seule main est employée. Le fait que le bouc soit accompagné de quelqu'un et qu'il doive être emmené dans un lieu inhabité doit indiquer l'impossibilité absolue de son retour, c'est-à-dire que la culpabilité a été absolument pardonnée et effacée, pensée profonde rendue objectivement manifeste d'une manière transparente et indépendamment de l'explication d'Azazel, qui n'est pas encore entièrement certaine. Dans l'interprétation personnelle, nous pourrions avoir, outre l'idée de l'éloignement de la culpabilité, aussi une seconde idée, à savoir qu'Azazel ne peut faire aucun mal à Israël, mais doit se contenter de son droit sur un bouc qui prend la place d'Israël.",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "2. The Jewish Liturgy:",
+          "target": "2. La liturgie juive :",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "The actions in connection with Azazel, as was also the case with the Day of Atonement, were interpreted more fully by the Talmud and the traditions based on it (compare ",
+          "target": "Les actes en rapport avec Azazel, comme c'était aussi le cas du jour des Expiations, furent interprétés plus en détail par le Talmud et les traditions fondées sur lui (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "ATONEMENT, DAY OF",
+          "target": "JOUR DES EXPIATIONS",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "tail",
+          "source": ", sec. III, 2). The lots could be made of different materials; in later times they were made of gold. The manner of casting the lots was described in full. The goat that was to be sent into the wilderness was designated by a black mark on the head, the other by one on the neck. On the way from Jerusalem to the wilderness, huts were erected. From a distance it was possible to see how the goat was hurled backward from a certain cliff, called Beth-Hadudu (Beth-chadedun, 12 miles East of Jerusalem). By means of signals made with garments, news was at once sent to Jerusalem when the wilderness had been reached.",
+          "target": ", section III, 2). Les sorts pouvaient être faits de diverses matières ; plus tard ils furent faits d'or. La manière de tirer au sort fut décrite en détail. Le bouc qui devait être envoyé au désert était désigné par une marque noire sur la tête, l'autre par une marque sur le cou. Sur le chemin de Jérusalem au désert, des huttes étaient dressées. De loin, il était possible de voir comment le bouc était précipité en arrière du haut d'une certaine falaise, appelée Beth-Hadudu (Beth-chadedun, à 12 milles à l'est de Jérusalem). Au moyen de signaux faits avec des vêtements, la nouvelle était aussitôt transmise à Jérusalem lorsque le désert avait été atteint.",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "Wilhelm Moller",
+          "target": "Wilhelm Moller",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BAAL (1)",
+      "article_id": "isbe-aa129a30edcc782f9006",
+      "source_article_sha256": "2169922be98ce78c1babdf1f112158cf89df7c698404fd09f1e6e13b81ec2230",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAAL (1)",
+          "target": "BAAL (1)",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-al: (ba`al; or Baal): The Babylonian Belu or Bel, \"Lord,\" was the title of the supreme god among the Canaanites.",
+          "target": "ba'-al : (ba`al ; ou Baal) : Le babylonien Belu ou Bel, « Seigneur », était le titre du dieu suprême chez les Cananéens.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "I. NAME AND CHARACTER OF BAAL",
+          "target": "I. NOM ET CARACTÈRE DE BAAL",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "II. ATTRIBUTES OF BAAL",
+          "target": "II. ATTRIBUTS DE BAAL",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "III. BAAL-WORSHIP",
+          "target": "III. CULTE DE BAAL",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "IV. TEMPLES, ETC.",
+          "target": "IV. TEMPLES, ETC.",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "V. USE OF THE NAME",
+          "target": "V. EMPLOI DU NOM",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "VI. FORMS OF BAAL",
+          "target": "VI. FORMES DE BAAL",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "1. Baal-berith",
+          "target": "1. Baal-Berith",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "2. Baal-gad",
+          "target": "2. Baal-Gad",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "3. Baal-hamon",
+          "target": "3. Baal-Hamon",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "4. Baal-hermon",
+          "target": "4. Baal-Hermon",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "5. Baal-peor",
+          "target": "5. Baal-Peor",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "6. Baal-zebub",
+          "target": "6. Baal-Zebub",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "I. Name and Character of Baal:",
+          "target": "I. Nom et caractère de Baal :",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "In Babylonia it was the title specially applied to Merodach of Babylon, which in time came to be used in place of his actual name. As the word in Hebrew also means \"possessor,\" it has been supposed to have originally signified, when used in a religious sense, the god of a particular piece of land or soil. Of this, however, there is no proof, and the sense of \"possessor\" is derived from that of \"lord.\" The Babylonian Bel-Merodach was a Sun-god, and so too was the Can Baal whose full title was Baal-Shemaim, \"lord of heaven.\" The Phoenician writer Sanchuniathon (Philo Byblius, Fragmenta II) accordingly says that the children of the first generation of mankind \"in time of drought stretched forth their hands to heaven toward the sun; for they regarded him as the sole Lord of heaven, and called him Beel-samen, which means `Lord of Heaven' in the Phoenician language and is equivalent to Zeus in Greek\" Baal-Shemaim had a temple at Umm el-Awamid between Acre and Tyre, and his name is found in inscriptions from the Phoenician colonies of Sardinia and Carthage.",
+          "target": "En Babylonie, c'était le titre spécialement appliqué à Mérodac de Babylone, qui avec le temps en vint à être employé à la place de son nom propre. Comme le mot en hébreu signifie aussi « possesseur », on a supposé qu'à l'origine, lorsqu'il était employé dans un sens religieux, il signifiait le dieu d'une parcelle de terre ou de sol particulière. De cela, cependant, il n'y a aucune preuve, et le sens de « possesseur » dérive de celui de « seigneur ». Le Bel-Mérodac babylonien était un dieu solaire, de même que le Baal cananéen dont le titre complet était Baal-Shemaim, « seigneur du ciel ». L'auteur phénicien Sanchuniathon (Philon de Byblos, Fragmenta II) dit en conséquence que les enfants de la première génération de l'humanité « en temps de sécheresse étendaient leurs mains vers le ciel, vers le soleil ; car ils le regardaient comme le seul Seigneur du ciel, et l'appelaient Beel-samen, ce qui signifie “Seigneur du ciel” dans la langue phénicienne et équivaut à Zeus en grec ». Baal-Shemaim avait un temple à Umm el-Awamid entre Acre et Tyr, et son nom se trouve dans des inscriptions des colonies phéniciennes de Sardaigne et de Carthage.",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "II. Attributes of Baal:",
+          "target": "II. Attributs de Baal :",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "As the Sun-god, Baal was worshipped under two aspects, beneficent and destructive. On the one hand he gave light and warmth to his worshippers; on the other hand the fierce heats of summer destroyed the vegetation he had himself brought into being. Hence, human victims were sacrificed to him in order to appease his anger in time of plague or other trouble, the victim being usually the first-born of the sacrificer and being burnt alive. In the Old Testament this is euphemistically termed \"passing\" the victim \"through the fire\" (",
+          "target": "En tant que dieu solaire, Baal était adoré sous deux aspects, bienfaisant et destructeur. D'une part, il donnait lumière et chaleur à ses adorateurs ; d'autre part, les chaleurs ardentes de l'été détruisaient la végétation à laquelle il avait lui-même donné naissance. Aussi lui sacrifiait-on des victimes humaines afin d'apaiser sa colère en temps de peste ou d'autre malheur, la victime étant ordinairement le premier-né de celui qui offrait le sacrifice et étant brûlée vive. Dans l'Ancien Testament, cela est désigné par l'euphémisme « faire passer » la victime « par le feu » (",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": "). The forms under which Baal was worshipped were necessarily as numerous as the communities which worshipped him. Each locality had its own Baal or divine \"Lord\" who frequently took his name from the city or place to which he belonged. Hence, there was a Baal-Zur, \"Baal of Tyre\"; Baal-hermon, \"Baal of Hermon\" (",
+          "target": "). Les formes sous lesquelles Baal était adoré étaient nécessairement aussi nombreuses que les communautés qui l'adoraient. Chaque localité avait son propre Baal ou « Seigneur » divin, qui prenait fréquemment son nom de la ville ou du lieu auquel il appartenait. Il y avait ainsi un Baal-Zur, « Baal de Tyr » ; Baal-Hermon, « Baal de l'Hermon » (",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": "); Baal-Lebanon, \"Baal of Lebanon\"; Baal-Tarz, \"Baal of Tarsus.\" At other times the title was attached to the name of an individual god; thus we have Bel-Merodach, \"the Lord Merodach\" (or \"Bel is Merodach\") at Babylon, Baal-Melkarth at Tyre, Baal-gad (",
+          "target": ") ; Baal-Lebanon, « Baal du Liban » ; Baal-Tarz, « Baal de Tarse ». D'autres fois, le titre était rattaché au nom d'un dieu individuel ; ainsi nous avons Bel-Mérodac, « le Seigneur Mérodac » (ou « Bel est Mérodac ») à Babylone, Baal-Melkarth à Tyr, Baal-Gad (",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": ") in the north of Palestine. Occasionally the second element was noun as in Baal-Shemaim, \"lord of heaven,\" Baalzebub (",
+          "target": ") dans le nord de la Palestine. Parfois le second élément était un substantif, comme dans Baal-Shemaim, « seigneur du ciel », Baal-Zebub (",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": "), \"Lord of flies,\" Baal-Hamman, usually interpreted \"Lord of heat,\" but more probably \"Lord of the sunpillar,\" the tutelary deity of Carthage. All these various forms of the Sun-god were collectively known as the Baalim or \"Baals\" who took their place by the side of the female Ashtaroth and Ashtrim. At Carthage the female consort of Baal was termed Pene-Baal, \"the face\" or \"reflection of Baal.\"",
+          "target": "), « seigneur des mouches », Baal-Hamman, habituellement interprété comme « seigneur de la chaleur », mais plus probablement « seigneur de la colonne solaire », divinité tutélaire de Carthage. Toutes ces diverses formes du dieu solaire étaient collectivement connues sous le nom de Baalim ou « Baals », qui prenaient place à côté des Ashtaroth et Ashtrim féminines. À Carthage, la parèdre de Baal était appelée Pene-Baal, « la face » ou « le reflet de Baal ».",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "III. Baal-Worship:",
+          "target": "III. Culte de Baal :",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "In the earlier days of Hebrew history the title Baal, or \"Lord,\" was applied to the national God of Israel, a usage which was revived in later times, and is familiar to us in the King James Version. Hence both Jonathan and David had sons called Merib-baal (",
+          "target": "Dans les premiers temps de l'histoire hébraïque, le titre Baal, ou « Seigneur », était appliqué au Dieu national d'Israël, usage qui fut repris plus tard et qui nous est familier dans la King James Version. Ainsi Jonathan et David eurent tous deux des fils appelés Merib-Baal (",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "tail",
+          "source": ") and Beeliada (",
+          "target": ") et Beeliada (",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": "). After the time of Ahab, however, the name became associated with the worship and rites of the Phoenician deity introduced into Samaria by Jezebel, and its idolatrous associations accordingly caused it to fall into disrepute. ",
+          "target": "). Après l'époque d'Achab, cependant, le nom fut associé au culte et aux rites de la divinité phénicienne introduite à Samarie par Jézabel, et ses associations idolâtres le firent par conséquent tomber en discrédit. ",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "tail",
+          "source": " declares that henceforth the God of Israel should no longer be called Baali, \"my Baal,\" and personal names like Esh-baal (",
+          "target": " déclare que désormais le Dieu d'Israël ne devait plus être appelé Baali, « mon Baal », et les noms personnels tels qu'Esch-Baal (",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": "), and Beelinda into which it entered were changed in form, Baal being turned into bosheth which in Heb at any rate conveyed the sense of \"shame.\"",
+          "target": "), et Beelinda, dans lesquels il entrait, furent modifiés dans leur forme, Baal étant changé en bosheth, qui en hébreu tout au moins exprimait le sens de « honte ».",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "IV. Temples, etc.:",
+          "target": "IV. Temples, etc. :",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "Temples of Baal at Samaria and Jerusalem are mentioned in ",
+          "target": "Des temples de Baal à Samarie et à Jérusalem sont mentionnés en ",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": "; where they had been erected at the time when the Ahab dynasty endeavored to fuse Israelites and Jews and Phoenicians into a single people under the same national Phoenician god. Altars on which incense was burned to Baal were set up in all the streets of Jerusalem according to Jeremiah (11:13), apparently on the flat roofs of the houses (",
+          "target": " ; ils y avaient été érigés à l'époque où la dynastie d'Achab s'efforçait de fondre Israélites, Juifs et Phéniciens en un seul peuple sous le même dieu national phénicien. Des autels sur lesquels on brûlait de l'encens à Baal furent dressés dans toutes les rues de Jérusalem selon Jérémie (11.13), apparemment sur les toits plats des maisons (",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "tail",
+          "source": "); and the temple of Baal contained an image of the god in the shape of a pillar or Bethel (",
+          "target": ") ; et le temple de Baal contenait une image du dieu sous la forme d'une colonne ou Béthel (",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "tail",
+          "source": "). In the reign of Ahab, Baal was served in Israel by 450 priests (",
+          "target": "). Sous le règne d'Achab, Baal était servi en Israël par 450 prêtres (",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": "), as well as by prophets (",
+          "target": "), ainsi que par des prophètes (",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": "), and his worshippers wore special vestments when his ritual was performed (",
+          "target": "), et ses adorateurs portaient des vêtements particuliers lorsque son rituel était accompli (",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "tail",
+          "source": "). The ordinary offering made to the god consisted of incense (",
+          "target": "). L'offrande ordinaire faite au dieu consistait en encens (",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "tail",
+          "source": ") and burnt sacrifices; on extraordinary occasions the victim was human (",
+          "target": ") et en sacrifices consumés par le feu ; lors d'occasions extraordinaires, la victime était humaine (",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": "). At times the priests worked themselves into a state of ecstasy, and dancing round the altar slashed themselves with knives (",
+          "target": "). Parfois les prêtres se mettaient dans un état d'extase et, dansant autour de l'autel, se tailladaient avec des couteaux (",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "tail",
+          "source": "), like certain dervish orders in modern Islam.",
+          "target": "), comme certains ordres de derviches dans l'islam moderne.",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "V. Use of the Name.",
+          "target": "V. Emploi du nom.",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "In accordance with its signification the name of Baal is generally used with the definite art.; in the Septuagint this often takes the feminine form, aischane \"shame\" being intended to be read. We find the same usage in ",
+          "target": "Conformément à sa signification, le nom de Baal est généralement employé avec l'article défini ; dans la Septante, celui-ci prend souvent la forme féminine, aischane, « honte », étant destiné à être lu. Nous trouvons le même usage en ",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": ". The feminine counterpart of Baal was Baalah or Baalath which is found in a good many of the local names (see Baethgen, Beltrage zur semitischen Religionsgeschichte, 1888).",
+          "target": ". Le correspondant féminin de Baal était Baalah ou Baalath, que l'on trouve dans bon nombre de noms de localités (voir Baethgen, Beltrage zur semitischen Religionsgeschichte, 1888).",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "VI. Forms of Baal.",
+          "target": "VI. Formes de Baal.",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "1. Baal-berith:",
+          "target": "1. Baal-Berith :",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "Baal-berith ba`al berith; Baalberith, \"Covenant Baal,\" was worshipped at Shechem after the death of Gideon (",
+          "target": "Baal-Berith, ba`al berith ; Baalberith, « Baal de l'alliance », était adoré à Sichem après la mort de Gédéon (",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "tail",
+          "source": " the name is replaced by El-berith, \"Covenant-god.\" The covenant was that made by the god with his worshippers, less probably between the Israelites and the native Canaanites.",
+          "target": ", le nom est remplacé par El-Berith, « Dieu de l'alliance ». L'alliance était celle que le dieu avait conclue avec ses adorateurs, moins probablement celle qui avait été conclue entre les Israélites et les Cananéens indigènes.",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "2. Baal-gad:",
+          "target": "2. Baal-Gad :",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "Baal-gad ba`al gadh; Balagada, \"Baal [lord] of good luck\" (or \"Baal is Gad\") was the god of a town called after his name in the north of Palestine, which has often been identified with Baalbek. The god is termed simply Gad in ",
+          "target": "Baal-Gad, ba`al gadh ; Balagada, « Baal [seigneur] de la bonne fortune » (ou « Baal est Gad »), était le dieu d'une ville appelée de son nom dans le nord de la Palestine, qui a souvent été identifiée à Baalbek. Le dieu est simplement appelé Gad en ",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "tail",
+          "source": " the Revised Version, margin; where he is associated with Meni, the Assyrian Manu (King James Version \"troop\" and \"number\").",
+          "target": " dans la marge de la Revised Version, où il est associé à Meni, le Manu assyrien (King James Version : « troop », troupe, et « number », nombre).",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "3. Baal-hamon:",
+          "target": "3. Baal-Hamon :",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "Baal-hamon ba`al hamon; Beelamon is known only from the fact that Solomon had a garden at a place of that name (",
+          "target": "Baal-Hamon, ba`al hamon ; Beelamon, n'est connu que par le fait que Salomon avait un jardin dans un lieu de ce nom (",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "tail",
+          "source": "). The name is usually explained to mean \"Baal of the multitude,\" but the cuneiform tablets of the Tell el-Amarna age found in Palestine show that the Egyptian god Amon was worshipped in Canaan and identified there with the native Baal. We are therefore justified in reading the name Baal-Amon, a parallel to the Babylonian Bel-Merodach. The name has no connection with that of the Carthaginian deity Baal-hamman.",
+          "target": "). On explique habituellement le nom comme signifiant « Baal de la multitude », mais les tablettes cunéiformes de l'époque de Tell el-Amarna trouvées en Palestine montrent que le dieu égyptien Amon était adoré en Canaan et y était identifié au Baal indigène. Nous sommes donc fondés à lire le nom Baal-Amon, parallèle au Bel-Mérodac babylonien. Le nom n'a aucun rapport avec celui de la divinité carthaginoise Baal-Hamman.",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "4. Baal-hermon:",
+          "target": "4. Baal-Hermon :",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "Baal-hermon ba`al chermon; Balaermon is found in the name of \"the mountain of Baal-hermon\" (",
+          "target": "Baal-Hermon, ba`al chermon ; Balaermon, se trouve dans le nom de « la montagne de Baal-Hermon » (",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "tail",
+          "source": "), which also bore the names of Hermort, Sirion and Shenir (Saniru in the Assyrian inscriptions), the second name being applied to it by the Phoenicians and the third by the Amorites (",
+          "target": "), qui portait aussi les noms de Hermort, Sirion et Schenir (Saniru dans les inscriptions assyriennes), le deuxième nom lui étant appliqué par les Phéniciens et le troisième par les Amoréens (",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "tail",
+          "source": "). Baal-hermon will consequently be a formation similar to Baal-Lebanon in an inscription from Cyprus; according to the Phoenician writer Sanchuniathon (Philo Byblius, Fragmenta II) the third generation of men \"begat sons of surprising size and stature, whose names were given to the mountains of which they had obtained possession.\"",
+          "target": "). Baal-Hermon sera par conséquent une formation semblable à Baal-Lebanon dans une inscription de Chypre ; selon l'auteur phénicien Sanchuniathon (Philon de Byblos, Fragmenta II), la troisième génération des hommes « engendra des fils d'une taille et d'une stature surprenantes, dont les noms furent donnés aux montagnes dont ils avaient pris possession ».",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "5. Baal-peor:",
+          "target": "5. Baal-Peor :",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "Baal-peor ba`al pe`or; Beelphegor was god of the Moabite mountains, who took his name from Mount Peor (",
+          "target": "Baal-Peor, ba`al pe`or ; Beelphegor, était le dieu des montagnes moabites, qui tirait son nom du mont Peor (",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "tail",
+          "source": "), the modern Fa`ur, and was probably a form of Chemosh (Jerome, Comm., ",
+          "target": "), l'actuel Fa`ur, et était probablement une forme de Kemosch (Jérôme, Comm., ",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "tail",
+          "source": "). The sensual rites with which he was worshipped (",
+          "target": "). Les rites sensuels selon lesquels il était adoré (",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "tail",
+          "source": ") indicate his connection with the Phoenician Baal.",
+          "target": ") indiquent son rapport avec le Baal phénicien.",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "6. Baal-zebub:",
+          "target": "6. Baal-Zebub :",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "Baal-zebub ba`al zebhubh; Baalmuia Theos (\"Baal the fly god\") was worshipped at Ekron where he had famous oracle (",
+          "target": "Baal-Zebub, ba`al zebhubh ; Baalmuia Theos (« Baal le dieu-mouche »), était adoré à Ékron où il avait un oracle célèbre (",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "tail",
+          "source": "). The name is generally translated \"the Lord of flies,\" the Sun-god being associated with the flies which swarm in Palestine during the earlier summer months. It is met with in Assyrian inscriptions. In the New Testament the name assumes the form of Beelzebul Beelzeboul, in King James Version: ",
+          "target": "). Le nom est généralement traduit par « le Seigneur des mouches », le dieu solaire étant associé aux mouches qui pullulent en Palestine durant les premiers mois de l'été. On le rencontre dans les inscriptions assyriennes. Dans le Nouveau Testament, le nom prend la forme de Béelzébul, Beelzeboul, dans la King James Version : ",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "text",
+          "source": "BEELZEBUB",
+          "target": "BÉELZÉBUB",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "text",
+          "source": "A. H. Sayce",
+          "target": "A. H. Sayce",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BABEL, BABYLON (1)",
+      "article_id": "isbe-4bf2f680122c9d9b9841",
+      "source_article_sha256": "c46984092a872fd7f0d8fd489dbe9faa7d2ef949e62b78bfe32e806c1b3ee714",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BABEL, BABYLON (1)",
+          "target": "BABEL, BABYLONE (1)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-bel, bab'-i-lon (Topographical): Babylon was the Greek name of the city written in the cuneiform script of the Babylonians, bab-ili, which means in Semitic, \"the gate of god.\" The Hebrews called the country, as well as the city, Babhel. This name they considered came from the' root, balal, \"to confound\" (",
+          "target": "ba'-bel, bab'-i-lon (topographie) : Babylone était le nom grec de la ville appelée, dans l'écriture cunéiforme des Babyloniens, bab-ili, qui signifie en sémitique « la porte du dieu ». Les Hébreux appelaient le pays aussi bien que la ville Babhel. Ils considéraient que ce nom venait de la racine balal, « confondre » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The name in Sumerian ideographs was written Din-tir, which means \"life of the forest,\" and yet ancient etymologists explained it as meaning \"place of the seat of life\" (shubat balaTe). Ka-ding'irra, which also means \"gate of god,\" was another form of the name in Sumerian. It was also called Su-anna (which is of uncertain meaning) and Uru-azagga, \"the holy city.\"",
+          "target": "). Le nom en idéogrammes sumériens s'écrivait Din-tir, qui signifie « vie de la forêt », et pourtant les anciens étymologistes l'expliquaient comme signifiant « lieu du siège de la vie » (shubat balaTe). Ka-ding'irra, qui signifie aussi « porte du dieu », était une autre forme du nom en sumérien. On l'appelait aussi Su-anna (dont le sens est incertain) et Uru-azagga, « la ville sainte ».",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Herodotus, the Greek historian, has given us a picture of Babylon in his day. He says that the city was a great square, 42 miles in circuit. Ctesias makes it 56 miles. This, he writes, was surrounded by a moat or rampart 300 ft. high, and 75 ft. broad. The earliest mention of Babylon is in the time of Sargon I, about 2700 BC. That monarch laid the foundations of the temple of Annnit, and also those of the temple of Amal. In the time of Dungi we learn that the place was sacked. The city evidently played a very unimportant part in the political history of Babylonia of the early period, for besides these references it is almost unknown until the time of Hammurabi, when its rise brought about a new epoch in the history of Babylonia. The seat of power was then transferred permanently from the southern states. This resulted in the closing of the political history of the Sumerians. The organization of the empire by Hammurabi, with Babylon as its capital, placed it in a position from which it was never dislodged dur ing the remaining history of Babylonia.",
+          "target": "Hérodote, l'historien grec, nous a donné un tableau de Babylone à son époque. Il dit que la ville était un grand carré de 42 milles de circonférence. Ctésias lui en donne 56. Celui-ci écrit qu'elle était entourée d'un fossé ou rempart de 300 pieds de haut et 75 pieds de large. La première mention de Babylone remonte à l'époque de Sargon Ier, vers 2700 av. J.-C. Ce monarque posa les fondements du temple d'Annnit, et aussi ceux du temple d'Amal. Au temps de Dungi, nous apprenons que le lieu fut mis à sac. La ville joua manifestement un rôle très peu important dans l'histoire politique de la Babylonie de la première période, car à part ces mentions, elle est presque inconnue jusqu'à l'époque de Hammurabi, où son ascension inaugura une nouvelle époque dans l'histoire de la Babylonie. Le siège du pouvoir fut alors transféré définitivement des États méridionaux. Cela eut pour résultat de mettre un terme à l'histoire politique des Sumériens. L'organisation de l'empire par Hammurabi, avec Babylone comme capitale, la plaça dans une position dont elle ne fut jamais délogée durant le reste de l'histoire de la Babylonie.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "The mounds covering the ancient city have frequently been explored, but systematic excavations of the city were not undertaken until 1899, when Koldewey, the German excavator, began to uncover its ancient ruins in a methodical manner. In spite of what ancient writers say, certain scholars maintain that they grossly exaggerated the size of the city, which was comparatively small, especially when considered in connection with large cities of the present era.",
+          "target": "Les tertres recouvrant la ville antique ont fréquemment été explorés, mais les fouilles systématiques de la ville ne furent entreprises qu'en 1899, lorsque Koldewey, le fouilleur allemand, commença à mettre au jour ses ruines antiques d'une manière méthodique. En dépit de ce que disent les auteurs anciens, certains savants soutiennent qu'ils ont considérablement exagéré la taille de la ville, qui était comparativement petite, surtout lorsqu'on la considère par rapport aux grandes villes de l'époque actuelle.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "In the northern part of the city there was situated what is called the North Palace on the east side of the Euphrates, which passed through the city. A little distance below this point the Arakhtu canal left the Euphrates, and passing through the southern wall rejoined the river. There was also a Middle and Southern Palace. Near the latter was located the Ishtar gate. The temple E-makh was close to the east side of the gate. Other canals in the city were called Merodach and Libilkhegala. In the southern portion of the city was located the famous temple E-sag-ila. This temple was called by the Greek historian, \"the temple of Belus.\" Marduk or Merodach (as written in the Old Testament), the patron deity of the city, received from Enlil, as Hammurabi informs us, after he had driven the Elamites out of Babylonia, the title \"bel matate,\" \"lord of lands,\" not the name which Enlil of Nippur had possessed. In the past there has been a confusion. The idcogram Enlil or Ellil had been incorrectly read Bel. This necessitated speaking of the old Bel and the young Bel. Beyond being called bel, \"lord,\" as all other gods were called; Enlil's name was not Bel. Marduk is the Bel of the Old Testament, as well as the god called Bel in the Assyrian and Babylonian inscriptions.",
+          "target": "Dans la partie nord de la ville se trouvait ce qu'on appelle le palais du Nord, sur la rive orientale de l'Euphrate, qui traversait la ville. Un peu en aval de ce point, le canal Arakhtu quittait l'Euphrate et, traversant la muraille méridionale, rejoignait le fleuve. Il y avait aussi un palais du Milieu et un palais du Sud. Près de ce dernier se trouvait la porte d'Ishtar. Le temple E-makh était tout près du côté est de la porte. D'autres canaux de la ville s'appelaient Mérodac et Libilkhegala. Dans la partie méridionale de la ville se trouvait le célèbre temple E-sag-ila. Ce temple était appelé par l'historien grec « le temple de Bélus ». Marduk ou Mérodac (comme on l'écrit dans l'Ancien Testament), divinité protectrice de la ville, reçut d'Enlil, comme nous l'apprend Hammurabi, après que celui-ci eut chassé les Élamites de Babylonie, le titre « bel matate », « seigneur des pays », et non le nom qu'Enlil de Nippur avait possédé. Dans le passé, il y a eu confusion. L'idéogramme Enlil ou Ellil avait été lu à tort Bel. Cela obligeait à parler du vieux Bel et du jeune Bel. En dehors du fait qu'il était appelé bel, « seigneur », comme l'étaient tous les autres dieux, le nom d'Enlil n'était pas Bel. Marduk est le Bel de l'Ancien Testament, aussi bien que le dieu appelé Bel dans les inscriptions assyriennes et babyloniennes.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "The temple area included an outer, central and inner court. The shrine of Ishtar and Zamama occupied the central court, and the ziggurrat the inner court. In the temple proper, the shrine Ekua was located, in which stood the golden image of Marduk. This, the ancient writers say, was 40 ft. high. On the topmost stage there was a shrine dedicated to Marduk. It is assumed that it was 50 ft. long by 70 ft. broad and 50 ft. in height. Nabopolassar rebuilt the temple and its tower. Nebuchadrezzar enlarged and embellished the sanctuary. He raised the tower so that \"its head was in the heavens,\" an expression found in the story of the Tower of Babel in Gen, as well as in many of the building inscriptions. See Clay, LOTB, Babel, 121 ff, and the article on ",
+          "target": "L'enceinte du temple comprenait une cour extérieure, une cour centrale et une cour intérieure. Le sanctuaire d'Ishtar et de Zamama occupait la cour centrale, et la ziggourat la cour intérieure. Dans le temple proprement dit se trouvait le sanctuaire Ekua, où se dressait l'image d'or de Marduk. Celle-ci, disent les auteurs anciens, mesurait 40 pieds de haut. Sur l'étage le plus élevé se trouvait un sanctuaire consacré à Marduk. On suppose qu'il mesurait 50 pieds de long sur 70 pieds de large et 50 pieds de hauteur. Nabopolassar rebâtit le temple et sa tour. Nebucadnetsar agrandit et embellit le sanctuaire. Il éleva la tour de sorte que « sa tête était dans les cieux », expression que l'on trouve dans le récit de la tour de Babel dans la Genèse, ainsi que dans de nombreuses inscriptions de construction. Voir Clay, LOTB, Babel, 121 et suivants, et l'article sur ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "BABEL, TOWER OF",
+          "target": "TOUR DE BABEL",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ". One of the chief works of Nebuchadrezzar was the building of Aiburshabu, the famous procession street of the city, which extended from the Ishtar gate to E-sag-ila. It was a great and magnificent causeway, built higher than the houses. Walls lined it on either side, which were decorated with glazed tiles, portraying lions, life size in relief. The pavement was laid with blocks of stone brought from the mountains. This procession street figured prominently on the New Year's festal day, when the procession of the gods took place.",
+          "target": ". L'une des principales œuvres de Nebucadnetsar fut la construction d'Aiburshabu, la célèbre voie processionnelle de la ville, qui s'étendait de la porte d'Ishtar à E-sag-ila. C'était une grande et magnifique chaussée, construite plus haut que les maisons. Des murs la bordaient de chaque côté, décorés de carreaux vernissés représentant des lions grandeur nature en relief. Le pavement était fait de blocs de pierre apportés des montagnes. Cette voie processionnelle jouait un rôle important le jour de la fête du Nouvel An, lorsque la procession des dieux avait lieu.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "A knowledge of the work Nebuchadrezzar did serves as a fitting commentary to the passage in ",
+          "target": "La connaissance de l'œuvre accomplie par Nebucadnetsar sert de commentaire approprié au passage en ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ": \"Is not this great Babylon, which I have built?\" He had made the city one of the wonders of the world.",
+          "target": ": « N'est-ce pas là la grande Babylone que j'ai bâtie ? » Il avait fait de la ville l'une des merveilles du monde.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "The two sieges by Darius Hystaspes and the one by Xerxes destroyed much of the beauty of the city. Alexander desired to make it again a great center and to build an immense fortress in the city; but in the midst of this undertaking he was murdered, while living in the palace of Nebuchadrezzar. The temple, though frequently destroyed, was in existence in the time of the Seleucids, but the city had long since ceased to be of any importance.",
+          "target": "Les deux sièges de Darius Hystaspe et celui de Xerxès détruisirent une grande partie de la beauté de la ville. Alexandre désirait en faire de nouveau un grand centre et construire une immense forteresse dans la ville ; mais au milieu de cette entreprise, il fut assassiné, alors qu'il résidait dans le palais de Nebucadnetsar. Le temple, quoique fréquemment détruit, existait à l'époque des Séleucides, mais la ville avait depuis longtemps cessé d'avoir quelque importance.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "See also ",
+          "target": "Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "BABYLONIA",
+          "target": "BABYLONIE",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "A. T. Clay",
+          "target": "A. T. Clay",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

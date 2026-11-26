@@ -1,0 +1,1454 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BROTHER",
+      "article_id": "isbe-8ec7b7d86be4a6d9fb34",
+      "source_article_sha256": "94c9383cfebdd4e3be5468d070d6767f0ec38126b0e07e2c19514739b752cfcf",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROTHER",
+          "target": "FRÈRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bruth'-er ('ach; adelphos = kin by birth, from the same parents or parent): Used extensively in both Old Testament and New Testament of other relations and relationships, and expanding under Christ's teaching to include the universal brotherhood of man. Chiefly employed in the natural sense, as of Cain and Abel (",
+          "target": "bruth'-er ('ach ; adelphos = parent par naissance, issu des mêmes parents ou du même parent) : Employé abondamment dans l'Ancien comme dans le Nouveau Testament à propos d'autres liens et relations, et s'élargissant sous l'enseignement du Christ jusqu'à inclure la fraternité universelle des hommes. Principalement employé au sens naturel, comme de Caïn et Abel (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); of Joseph and his brethren (",
+          "target": ") ; de Joseph et de ses frères (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); of Peter and Andrew, of James and John (",
+          "target": ") ; de Pierre et André, de Jacques et Jean (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). Of other relationships:",
+          "target": "). À propos d'autres relations :",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(1) Abram's nephew, Lot, is termed \"brother\" (",
+          "target": "(1) Lot, neveu d'Abram, est appelé « frère » (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(2) Moses' fellow-countrymen are \"brethren\" (",
+          "target": "(2) Les compatriotes de Moïse sont ses « frères » (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "(3) a member of the same tribe (",
+          "target": "(3) un membre de la même tribu (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "(4) an ally (",
+          "target": "(4) un allié (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": "), or an allied or cognate people (",
+          "target": "), ou un peuple allié ou apparenté (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "(5) used of common discipleship or the kinship of humanity (",
+          "target": "(5) employé pour désigner le fait d'être disciples ensemble ou la parenté humaine (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "(6) of moral likeness or kinship (",
+          "target": "(6) la ressemblance ou la parenté morale (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(7) of friends (",
+          "target": "(7) des amis (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "(8) an equal in rank or office (",
+          "target": "(8) un égal en rang ou en fonction (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "(9) one of the same faith (",
+          "target": "(9) quelqu'un de la même foi (",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "(10) a favorite oriental metaphor used to express likeness or similarity (",
+          "target": "(10) une métaphore orientale favorite employée pour exprimer la ressemblance ou la similitude (",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": ", \"I am a brother to jackals\");",
+          "target": ", « Je suis un frère des chacals ») ;",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "(11) a fellow-priest or office-bearer (",
+          "target": "(11) un collègue dans le sacerdoce ou dans une charge (",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": "); Paul called Sosthenes \"brother\" (",
+          "target": ") ; Paul appelait Sosthène « frère » (",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "tail",
+          "source": ") and Timothy his spiritual son and associate (",
+          "target": ") et Timothée son fils spirituel et son collaborateur (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "(12) a brother-man, any member of the human family (",
+          "target": "(12) un frère en humanité, tout membre de la famille humaine (",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "(13) signifies spiritual kinship (",
+          "target": "(13) signifie la parenté spirituelle (",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "(14) a term adopted by the early disciples and Christians to express their fraternal love for each other in Christ, and universally adopted as the language of love and brotherhood in His kingdom in all subsequent time (",
+          "target": "(14) terme adopté par les premiers disciples et chrétiens pour exprimer leur amour fraternel réciproque en Christ, et universellement adopté comme langage de l'amour et de la fraternité dans son royaume à toutes les époques ultérieures (",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "The growing conception of mankind as a brotherhood is the outcome of this Christian view of believers as a household, a family (",
+          "target": "La conception croissante de l'humanité comme une fraternité est le résultat de cette vision chrétienne des croyants comme une maisonnée, une famille (",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "tail",
+          "source": "). Jesus has made \"neighbor\" equivalent to \"brother,\" and the sense of fraternal affection and obligation essential to vital Christianity, and coextensive with the world. The rabbis distinguished between \"brother\" and \"neighbor,\" applying \"brother\" to Israelites by blood, \"neighbor\" to proselytes, but allowing neither title to the Gentiles. Christ and the apostles gave the name \"brother\" to all Christians, and \"neighbor\" to all the world (",
+          "target": "). Jésus a fait du « prochain » l'équivalent du « frère », et du sentiment de l'affection et du devoir fraternels un élément essentiel du christianisme vivant, qui s'étend au monde entier. Les rabbins distinguaient entre « frère » et « prochain », appliquant « frère » aux Israélites par le sang, « prochain » aux prosélytes, mais n'accordant aucun de ces titres aux Gentils. Le Christ et les apôtres ont donné le nom de « frère » à tous les chrétiens, et celui de « prochain » au monde entier (",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": " ff). The missionary passion and aggressiveness of the Christian church is the natural product of this Christian conception of man's true relation to man.",
+          "target": " et suivants). La passion et le dynamisme missionnaires de l'Église chrétienne sont le produit naturel de cette conception chrétienne de la véritable relation de l'homme avec l'homme.",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "See also ",
+          "target": "Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "FAMILY RELATIONSHIPS",
+          "target": "RELATIONS FAMILIALES",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "Dwight M. Pratt",
+          "target": "Dwight M. Pratt",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BROTHER'S WIFE",
+      "article_id": "isbe-00013d99bce0a120b464",
+      "source_article_sha256": "4a51911a922c3d27cf415ffccb2397e4e8df5dc2b9e5136243a8001864202478",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROTHER'S WIFE",
+          "target": "FEMME DU FRÈRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "(yebhemeth = \"a sister-in-law,\" \"brother's wife\" (",
+          "target": "(yebhemeth = « une belle-sœur », « femme du frère » (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); 'ishshah = \"a woman,\" \"wife\"; `esheth 'ach = \"brother's wife\" (",
+          "target": ") ; 'ishshah = « une femme », « épouse » ; `esheth 'ach = « femme du frère » (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "); he gune tou adelphou = \"the brother's wife\" (",
+          "target": ") ; he gune tou adelphou = « la femme du frère » (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ")): A brother's wife occupies a unique position in Hebrew custom and law, by virtue of the institution of the Levirate. The widow had no hereditary rights in her husband's property, but was considered a part of the estate, and the surviving brother of the deceased was considered the natural heir. The right to inherit the widow soon became a duty to marry her if the deceased had left no sons, and in case there was no brother-in-law, the duty of marriage devolved on the father-in-law or the agnate who inherited, whoever this might be. The first son of the Levirate marriage was regarded as the son of the deceased. This institution is found chiefly among people who hold to ancestral worship (Indians, Persians, Afghans, etc.), from which circumstances Benzinger (New Sch-Herz, IV, 276) derives th e explanation of this institution in Israel. The Levirate marriage undoubtedly existed as a custom before the Israelite settlement in Canaan, but after this received special significance because of the succession to the property of the first son of the marriage, since he was reckoned to the deceased, inherited from his putative, not from his real father, thus preventing the disintegration of property and its acquirement by strangers, at the same time perpetuating the family to which it belonged. While the law limited the matrimonial duty to the brother and permitted him to decline to marry the widow, such a course was attended by public disgrace (",
+          "target": ")) : La femme d'un frère occupe une position unique dans la coutume et la loi hébraïques, en vertu de l'institution du lévirat. La veuve n'avait aucun droit héréditaire sur les biens de son mari, mais était considérée comme une partie du patrimoine, et le frère survivant du défunt était considéré comme l'héritier naturel. Le droit d'hériter de la veuve devint bientôt un devoir de l'épouser si le défunt n'avait pas laissé de fils, et dans le cas où il n'y avait pas de beau-frère, le devoir de mariage incombait au beau-père ou au parent par la lignée masculine qui héritait, quel qu'il fût. Le premier fils du mariage léviratique était considéré comme le fils du défunt. Cette institution se rencontre principalement chez des peuples qui pratiquent le culte des ancêtres (Indiens, Perses, Afghans, etc.), circonstances dont Benzinger (New Sch-Herz, IV, 276) tire l'explication de cette institution en Israël. Le mariage léviratique existait sans aucun doute comme coutume avant l'établissement des Israélites en Canaan, mais après celui-ci, il acquit une signification particulière à cause de la succession aux biens du premier fils issu du mariage : puisqu'il était compté comme appartenant au défunt, il héritait de son père putatif, et non de son père réel, empêchant ainsi le morcellement du patrimoine et son acquisition par des étrangers, tout en perpétuant la famille à laquelle il appartenait. Si la loi limitait le devoir matrimonial au frère et lui permettait de refuser d'épouser la veuve, une telle conduite entraînait un déshonneur public (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " ff). By the law of ",
+          "target": " et suivants). Par la loi de ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": ", daughters were given the right to inherit, in order that the family estate might be preserved, and the Levirate became limited to cases where the deceased had left no children at all.",
+          "target": ", les filles reçurent le droit d'hériter, afin que le patrimoine familial pût être préservé, et le lévirat se trouva limité aux cas où le défunt n'avait laissé aucun enfant.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "Frank E. Hirsch",
+          "target": "Frank E. Hirsch",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BUILDER",
+      "article_id": "isbe-6c3beaa7177c6b239162",
+      "source_article_sha256": "b782e9382c9d462540ca95f52c05828221d1afdbb206af1f043389b5b8b502eb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUILDER",
+          "target": "BÂTISSEUR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bild'-er (banah; oikodomeo, technites): \"To build,\" \"builder,\" ete, are in the Old Testament commonly the translation of banah, \"to build,\" occurring very frequently; see ",
+          "target": "bild'-er (banah ; oikodomeo, technites) : « Bâtir », « bâtisseur », etc., traduisent couramment dans l'Ancien Testament banah, « bâtir », qui apparaît très fréquemment ; voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BUILD, BUILDING",
+          "target": "BÂTIR ; CONSTRUCTION",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". The literal significance leads also to several figurative applications, especially to God as Divine Builder:",
+          "target": ". Le sens littéral conduit aussi à plusieurs applications figurées, particulièrement à Dieu comme divin Bâtisseur :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(1) as establishing, e.g. the nation (",
+          "target": "(1) comme établissant, par exemple la nation (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "), the throne of David (",
+          "target": "), le trône de David (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "), Jerusalem (",
+          "target": "), Jérusalem (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(2) in restoration--rebuilding (",
+          "target": "(2) dans le rétablissement — la reconstruction (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(3) as establishing in prosperity (",
+          "target": "(3) comme établissant dans la prospérité (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": " the Revised Version, margin, Hebrew, \"be builded by her\");",
+          "target": " marge de la Revised Version, hébreu : « être édifiée par elle ») ;",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "(4) the firm establishment of the Divine attributes (",
+          "target": "(4) l'affermissement des attributs divins (",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "(5) Divine opposition (",
+          "target": "(5) l'opposition divine (",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": ", \"He hath builded against me\"); compare ",
+          "target": ", « Il a bâti contre moi ») ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "(6) the choosing of a corner-stone which the builders rejected (",
+          "target": "(6) le choix d'une pierre angulaire que les bâtisseurs avaient rejetée (",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "tail",
+          "source": "; quoted by Christ (",
+          "target": " ; cité par le Christ (",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "tail",
+          "source": "); by Peter (",
+          "target": ") ; par Pierre (",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "In the New Testament Christians are represented as being:",
+          "target": "Dans le Nouveau Testament, les chrétiens sont représentés comme étant :",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "(1) built by God (",
+          "target": "(1) édifiés par Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": ") on Christ as the one foundation (",
+          "target": ") sur le Christ comme unique fondement (",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "tail",
+          "source": ", on Jesus as the Christ; ",
+          "target": ", sur Jésus en tant que Christ ; ",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": " the Revised Version, margin; ",
+          "target": " marge de la Revised Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": " (epoikodomo); ",
+          "target": " (epoikodomo) ; ",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "(2) as being continuously and progressively built up in their faith and life (",
+          "target": "(2) comme étant continuellement et progressivement édifiés dans leur foi et leur vie (",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": " the Revised Version, margin, \"buildeth up\"; ",
+          "target": " marge de la Revised Version : « édifie » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "tail",
+          "source": " margin, Greek \"build up\"; ",
+          "target": " en marge, grec « édifier » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "tail",
+          "source": " m; ",
+          "target": " en marge ; ",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "(3) they are \"builded togethe r\" (sunoikodomeo) in Christ (",
+          "target": "(3) ils sont « édifiés ensemble » (sunoikodomeo) en Christ (",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "tail",
+          "source": " (epoikodomeo); compare ",
+          "target": " (epoikodomeo) ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "(4) \"builded up\" is used in a bad sense (",
+          "target": "(4) « édifié » est employé en mauvaise part (",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "tail",
+          "source": " the King James Version and the Revised Version (British and American), \"emboldened,\" the Revised Version, margin \"be builded up\");",
+          "target": " King James Version et Revised Version [britannique et américaine] : « emboldened », enhardi ; marge de la Revised Version : « être édifié ») ;",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "(6) in ",
+          "target": "(6) en ",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "tail",
+          "source": " God is represented as the Builder (establisher) of all things, the Revised Version, margin \"established,\" and in 11:10 as the Builder (technites), of the New Jerusalem; in ",
+          "target": " Dieu est représenté comme le Bâtisseur (celui qui établit) de toutes choses, marge de la Revised Version : « établi », et en 11.10 comme le Bâtisseur (technites) de la nouvelle Jérusalem ; en ",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "tail",
+          "source": " for \"building\" the Revised Version (British and American) has \"creation\" (ktisis);",
+          "target": ", pour « building », la Revised Version (britannique et américaine) donne « création » (ktisis) ;",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "(7) in ",
+          "target": "(7) en ",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "tail",
+          "source": ", building represents constructing a system of teaching; Paul speaks of himself as \"a wise master-builder\" (sophos architekton).",
+          "target": ", bâtir représente la construction d'un système d'enseignement ; Paul parle de lui-même comme d'« un sage maître d'œuvre » (sophos architekton).",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "W. L. Walker",
+          "target": "W. L. Walker",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BUSH",
+      "article_id": "isbe-460ef73c2ea4ac22453a",
+      "source_article_sha256": "2be46784e727cf1f3c036d78de1eb9b06431ceba983293c2af4e76a49c75f0a8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUSH",
+          "target": "BUISSON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "(1) (ceneh, ",
+          "target": "(1) (ceneh, ",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "; batos, ",
+          "target": " ; batos, ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", \"bramble bush\"; 20:37; ",
+          "target": ", « buisson de ronces » ; 20.37 ; ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ". All the Old Testament references and the New Testament references, except ",
+          "target": ". Toutes les références de l'Ancien Testament et celles du Nouveau Testament, sauf ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", are to the same \"bush,\" namely, Moses' \"burning bush\"). From its etymology ceneh clearly denotes a \"thorny\" plant, as does the corresponding batos in the Septuagint and New Testament. In the Latin versions rubus, i.e. \"bramble,\" is used as equivalent. Several varieties of bramble flourish in Palestine, of which the most common is Rubus discolor, but this is not an indigenous plant in Sinai. It is stated by Post that a bush of this plant has been planted by the monks of the Convent of Catherine at Sinai to the rear of the \"Chapel of the Burning Bush.\" In spite of tradition there is but little doubt that Moses' \"burning bush\" must actually have been a shrub of one of the various thorny acacias, or allied plants, indigenous in the Sinaitic peninsula.",
+          "target": ", se rapportent au même « buisson », à savoir le « buisson ardent » de Moïse.) D'après son étymologie, ceneh désigne clairement une plante « épineuse », comme le terme correspondant batos dans la Septante et le Nouveau Testament. Dans les versions latines, rubus, c'est-à-dire « ronce », est employé comme équivalent. Plusieurs variétés de ronces prospèrent en Palestine, dont la plus commune est Rubus discolor, mais ce n'est pas une plante indigène du Sinaï. Post indique qu'un buisson de cette plante a été planté par les moines du couvent de Sainte-Catherine au Sinaï, derrière la « chapelle du Buisson ardent ». En dépit de la tradition, il ne fait guère de doute que le « buisson ardent » de Moïse devait en réalité être un arbuste de l'une des diverses espèces d'acacias épineux ou de plantes apparentées, indigènes de la péninsule du Sinaï.",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(2) (siach \"plant,\" ",
+          "target": "(2) (siach « plante », ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "; \"shrub,\" ",
+          "target": " ; « arbuste », ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "; \"bush,\" ",
+          "target": " ; « buisson », ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "). In the first reference any kind of plant may be meant, but in the other passages the reference is to the low bushes or scrub, such as are found in the desert.",
+          "target": "). Dans la première référence, il peut s'agir de n'importe quelle sorte de plante, mais dans les autres passages, il est question de buissons bas ou de broussailles, tels qu'on en trouve dans le désert.",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "(3) (nahalolim, the King James Version bushes, the Revised Version (British and American) ",
+          "target": "(3) (nahalolim, King James Version : « bushes », buissons ; Revised Version [britannique et américaine] : ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "PASTURE",
+          "target": "PÂTURAGE",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": ", margin \"bushes,\" ",
+          "target": ", en marge « buissons », ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "). The meaning appears to be rather a place for watering flocks, the corresponding Arabic root nahal, having the meaning \"to quench one's thirst,\" and the corresponding noun of place, manhal, meaning a watering-place in the desert.",
+          "target": "). Le sens paraît plutôt être celui d'un lieu d'abreuvement des troupeaux, la racine arabe correspondante nahal ayant le sens d'« étancher sa soif », et le nom de lieu correspondant, manhal, signifiant un point d'eau dans le désert.",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "E. W. G. Masterman",
+          "target": "E. W. G. Masterman",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BUSINESS",
+      "article_id": "isbe-8eb6a764bc6f20a33477",
+      "source_article_sha256": "4c87058a5866db6b5eb33af7e64491e65eabacf7107878c6c16873a2053c0b20",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUSINESS",
+          "target": "AFFAIRES ; OCCUPATION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "biz'-nes: Is the rendering of four Hebrew words:",
+          "target": "biz'-nes : Traduit quatre mots hébreux :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) mela'khah, in ",
+          "target": "(1) mela'khah, en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (the American Standard Revised Version \"work\"); ",
+          "target": " (American Standard Revised Version : « work », travail) ; ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " (the American Standard Revised Version \"in their work\"); 17:13 (the American Standard Revised Version \"many works\"); ",
+          "target": " (American Standard Revised Version : « in their work », dans leur travail) ; 17.13 (American Standard Revised Version : « many works », de nombreux travaux) ; ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " (the American Standard Revised Version \"in his work\"); ",
+          "target": " (American Standard Revised Version : « in his work », dans son travail) ; ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "(2) dabhar, literally \"a word,\" is so translated in ",
+          "target": "(2) dabhar, littéralement « une parole », est ainsi traduit en ",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": " (the American Standard Revised Version \"dealings\"); ",
+          "target": " (American Standard Revised Version : « dealings », relations d'affaires) ; ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": " (the American Standard Revised Version \"dealings\"); ",
+          "target": " (American Standard Revised Version : « dealings ») ; ",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "(3) ma`aseh, \"an action\" (",
+          "target": "(3) ma`aseh, « une action » (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "(4) `inyan, \"employment\" (",
+          "target": "(4) `inyan, « occupation » (",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "In the New Testament \"business\" in ",
+          "target": "Dans le Nouveau Testament, « business » en ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": " is the rendering of the phrase ἐν τοῖς τοῦ πατρός μου, en tois tou patros mou, literally \"in the things of my Father,\" which the American Standard Revised Version renders \"in my Father's house,\" with \"about my Father's business\" as the marginal reading. \"Business\" is also used in the translation of chreia, literally \"need,\" of ",
+          "target": " traduit l'expression ἐν τοῖς τοῦ πατρός μου, en tois tou patros mou, littéralement « dans les choses de mon Père », que l'American Standard Revised Version rend par « dans la maison de mon Père », avec « occupé des affaires de mon Père » comme leçon marginale. « Business » est aussi employé dans la traduction de chreia, littéralement « besoin », de ",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": "; as the translation of spoude, literally \"haste\" of ",
+          "target": " ; comme traduction de spoude, littéralement « hâte », de ",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": " (the American Standard Revised Version \"diligence\"); of pragma, literally \"thing done,\" of ",
+          "target": " (American Standard Revised Version : « diligence », zèle) ; de pragma, littéralement « chose accomplie », de ",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "tail",
+          "source": " (the American Standard Revised Version \"matter\"); of prassein ta idia, literally \"tend to one's own business,\" of ",
+          "target": " (American Standard Revised Version : « matter », affaire) ; de prassein ta idia, littéralement « s'occuper de ses propres affaires », de ",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "tail",
+          "source": ". In ",
+          "target": ". En ",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "tail",
+          "source": " in Paul's account of the riot in Ephesus, ergasia, literally \"working,\" \"performing,\" is translated \"little business\" in ",
+          "target": ", dans le récit de Paul concernant l'émeute à Éphèse, ergasia, littéralement « travailler », « accomplir », est traduit par « little business » en ",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "tail",
+          "source": " (the King James Version \"small gain\"), and \"by this business\" in ",
+          "target": " (King James Version : « small gain », petit gain), et « by this business » en ",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": " (the King James Version \"by this craft\").",
+          "target": " (King James Version : « by this craft », par ce métier).",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "Arthur J. Kinsella",
+          "target": "Arthur J. Kinsella",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CAGE",
+      "article_id": "isbe-5892f999f80ce1998d24",
+      "source_article_sha256": "32a5d919e1cf8dc1d0e93273e741deb7c149037e5c1aed5d499db8293579ada7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAGE",
+          "target": "CAGE",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kaj (kelubh; phulake): The earliest known form of cage made to confine a bird, for the pleasure of its song or the beauty of its coloring, was a crude affair of willows or other pliable twigs. Later cages were made of pottery, and now they are mostly made of wire. References in the Bible make it very clear that people were accustomed to confine in cages such birds as they especially prized for pets, or to detain them for market purposes. James indicated that cages were common when he wrote (",
+          "target": "kaj (kelubh ; phulake) : La forme la plus ancienne connue de cage destinée à enfermer un oiseau, pour le plaisir de son chant ou la beauté de ses couleurs, était un objet rudimentaire fait d'osier ou d'autres rameaux souples. Plus tard, on fabriqua des cages en terre cuite, et maintenant elles sont principalement faites de fil métallique. Les mentions dans la Bible montrent très clairement que les gens avaient coutume d'enfermer dans des cages les oiseaux qu'ils appréciaient particulièrement comme animaux familiers, ou de les y retenir en vue de la vente. Jacques indiquait que les cages étaient courantes lorsqu'il écrivit (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): \"For every kind of beasts and birds .... is tamed, and hath been tamed by mankind.\" In Job (",
+          "target": ") : « Car toute espèce de bêtes et d'oiseaux… est domptée et a été domptée par l'humanité. » Dans Job (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") we find these lines  \"Wilt thou play with him as with a bird? Or wilt thou bind him for thy maidens?\"  The only way to play with a bird is to confine it so that it grows accustomed to you and thus loses fear. Jeremiah compared the civil state of Judah to a \"cage (crate) full of birds\" (",
+          "target": ") nous trouvons ces lignes : « Joueras-tu avec lui comme avec un oiseau ? Ou l'attacheras-tu pour tes jeunes filles ? » La seule manière de jouer avec un oiseau consiste à l'enfermer afin qu'il s'habitue à vous et perde ainsi sa crainte. Jérémie compara l'état civil de Juda à une « cage (panier) pleine d'oiseaux » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), \"the houses of the rich being stuffed with craftily-obtained wealth and articles of luxury\" (HDB). The sale of sparrows as an article of food still continues in the eastern markets. Jesus referred to this (",
+          "target": "), « les maisons des riches étant remplies de richesses et d'objets de luxe obtenus par ruse » (HDB). La vente des moineaux comme aliment se poursuit encore sur les marchés orientaux. Jésus y fit allusion (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ") and it was He who entered the temple and overthrew \"the seats of them that sold the doves\" (",
+          "target": ") et c'est lui qui entra dans le Temple et renversa « les sièges de ceux qui vendaient les colombes » (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " we find a reference to \"a hold (the King James Version \"cage\") of every unclean and hateful bird.\" See also Ecclesiasticus 11:30.",
+          "target": " nous trouvons une mention d'un « repaire (King James Version : “cage”) de tout oiseau impur et odieux ». Voir aussi Ecclésiastique 11.30.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "Gene Stratton-Porter",
+          "target": "Gene Stratton-Porter",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CAIAPHAS",
+      "article_id": "isbe-59f40c9e12b07eaef55a",
+      "source_article_sha256": "373704b1ee2ec784bda80476b5a32fe3cafe2c4c1b1b57304035f660f4a9227f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAIAPHAS",
+          "target": "CAÏPHE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka'-a-fas, ki'-a-fas (Kaiaphas; Caiaphas = Kephas (compare Dods in Expositor's Greek Test, I, 803), and has also been interpreted as meaning \"depression\"): Caiaphas was the surname of Joseph, a son-in-law of Annas (compare ",
+          "target": "ka'-a-fas, ki'-a-fas (Kaiaphas ; Caïphe = Kephas [comparer Dods dans Expositor's Greek Test, I, 803], et a aussi été interprété comme signifiant « dépression ») : Caïphe était le surnom de Joseph, gendre d'Anne (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), who filled th e post of high priest from about 18-36 AD, when he was deposed by Vitellius (compare Josephus, Ant, XVIII, ii, 2; iv, 3). He is mentioned by Luke as holding office at the time of John the Baptist's preaching in the wilderness (",
+          "target": "), qui occupa la charge de souverain sacrificateur d'environ 18 à 36 apr. J.-C., lorsqu'il fut destitué par Vitellius (comparer Josèphe, Ant., XVIII, ii, 2 ; iv, 3). Luc le mentionne comme étant en charge au temps où Jean-Baptiste prêchait dans le désert (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "Caiaphas took a leading part in the trial and condemnation of Jesus. It was in his court or palace that the chief priests (Sadducees) and Pharisees, who together constituted the Sanhedrin, assembled \"that they might take Jesus by subtlety, and kill him\" (compare ",
+          "target": "Caïphe joua un rôle de premier plan dans le procès et la condamnation de Jésus. C'est dans sa cour ou son palais que les principaux sacrificateurs (sadducéens) et les pharisiens, qui constituaient ensemble le sanhédrin, s'assemblèrent « afin de saisir Jésus par ruse et de le tuer » (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). The regal claims of the new Messiah and the growing fame of His works had made them to dread both the vengeance of imperial Rome upon their nation, and the loss of their own personal authority and prestige (compare ",
+          "target": "). Les prétentions royales du nouveau Messie et la renommée croissante de ses œuvres leur avaient fait craindre à la fois la vengeance de la Rome impériale sur leur nation et la perte de leur autorité et de leur prestige personnels (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "). But Caiaphas pointed a way out of their dilemma: let them bide their time till the momentary enthusiasm of the populace was spent (compare ",
+          "target": "). Mais Caïphe indiqua une issue à leur dilemme : qu'ils attendent que l'enthousiasme momentané du peuple se soit dissipé (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "), and then by the single sacrifice of Jesus they could at once get rid of a dangerous rival and propitiate the frowns of Rome (compare ",
+          "target": "), et alors, par le seul sacrifice de Jésus, ils pourraient tout à la fois se débarrasser d'un rival dangereux et apaiser le courroux de Rome (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "). The commentary of John upon this (",
+          "target": "). Le commentaire de Jean à ce sujet (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": ") indicates how the death of Jesus was indeed to prove a blessing not only for Israel but also for all the children of God; but not in the manner which the cold-blooded statecraft of Caiaphas intended. The advice of the high priest was accepted by the Sanhedrin (",
+          "target": ") indique comment la mort de Jésus devait effectivement se révéler une bénédiction, non seulement pour Israël, mais aussi pour tous les enfants de Dieu ; cependant, non de la manière qu'envisageait la froide politique de Caïphe. Le conseil du souverain sacrificateur fut accepté par le sanhédrin (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "), and they succeeded in arresting Jesus. After being led \"to Annas first\" (",
+          "target": "), et ils réussirent à arrêter Jésus. Après avoir été conduit « d'abord à Anne » (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "), Jesus was conducted thence in bonds to Caiaphas (",
+          "target": "), Jésus fut emmené de là, lié, chez Caïphe (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "), According to Mt He was led immediately upon His arrest to Caiaphas (",
+          "target": "). Selon Matthieu, il fut conduit immédiatement après son arrestation chez Caïphe (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": "). Mr and Lu do not refer to Caiaphas by name. His conduct at this preliminary trial of Jesus (",
+          "target": "). Marc et Luc ne mentionnent pas Caïphe par son nom. Sa conduite lors de ce procès préliminaire de Jésus (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": "), its time and its procedure, were almost entirely illegal from the standpoint of then existing Jewish law (compare ",
+          "target": "), l'heure et la procédure de celui-ci étaient presque entièrement illégales du point de vue de la loi juive alors en vigueur (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "JESUS CHRIST, THE ARREST AND TRIAL OF",
+          "target": "JÉSUS-CHRIST, SON ARRESTATION ET SON PROCÈS",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "; and A. Taylor Innes, The Trial of Jesus Christ). False witnesses were first called, and when Jesus refused to reply to their charges, Caiaphas asked of Him if He were \"the Christ, the Son of God \" (",
+          "target": " ; et A. Taylor Innes, The Trial of Jesus Christ). De faux témoins furent d'abord appelés, et lorsque Jésus refusa de répondre à leurs accusations, Caïphe lui demanda s'il était « le Christ, le Fils de Dieu » (",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": "). Upon our Lord's answering \"Thou hast said\" (",
+          "target": "). Notre Seigneur ayant répondu : « Tu l'as dit » (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": "), Caiaphas \"rent his garments, saying, He hath spoken blasphemy: what further need have we of witnesses? behold, now ye have heard the blasphemy\" (",
+          "target": "), Caïphe « déchira ses vêtements, disant : Il a blasphémé ; qu'avons-nous encore besoin de témoins ? Voici, vous venez d'entendre le blasphème » (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": "). Upon this charge was Jesus found \"worthy of death\" (",
+          "target": "). C'est sur cette accusation que Jésus fut déclaré « digne de mort » (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": "). Caiaphas is also mentioned in ",
+          "target": "). Caïphe est aussi mentionné en ",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "tail",
+          "source": " as being among those who presided over the trial of Peter and John.",
+          "target": " parmi ceux qui présidèrent au procès de Pierre et Jean.",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "C. M. Kerr",
+          "target": "C. M. Kerr",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CALEB",
+      "article_id": "isbe-28a714e0418808155141",
+      "source_article_sha256": "76eb24087461c844cafed7cca9c0a770fb8a5a747d450759ee025190bfb9a53f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CALEB",
+          "target": "CALEB",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka'-leb (kalebh; in the light of the cognate Syriac and Arabic words, the meaning is not \"dog,\" which is kelebh, in Hebrew, but \"raging with canine madness\"; Chaleb): As a person, Caleb, the son of Jephunneh, occurs in the story of the spies (",
+          "target": "ka'-leb (kalebh ; à la lumière des mots apparentés syriaques et arabes, le sens n'est pas « chien », qui est kelebh en hébreu, mais « enragé d'une rage canine » ; Chaleb) : En tant que personne, Caleb, fils de Jephunné, apparaît dans le récit des espions (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). He represents the tribe of Judah as its prince (",
+          "target": "). Il représente la tribu de Juda comme son prince (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). While the majority of the men sent out by Moses bring back evil report, Caleb and Hoshea, or Joshua, the son of Nun, are the only ones to counsel the invasion of the promised land (",
+          "target": "). Alors que la majorité des hommes envoyés par Moïse rapportent de mauvaises nouvelles, Caleb et Hosée, ou Josué, fils de Nun, sont les seuls à conseiller l'invasion de la terre promise (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " ff). Accordingly, these two alone are permitted to survive (",
+          "target": " et suivants). En conséquence, eux seuls sont autorisés à survivre (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "). Upon the conquest and distribution of the land by Joshua, Caleb reminds the leader of the promise made by God through Moses, and so he receives Hebron as an inheritance for himself and his descendants (",
+          "target": "). Lors de la conquête et de la répartition du pays par Josué, Caleb rappelle au chef la promesse faite par Dieu par l'intermédiaire de Moïse, et reçoit ainsi Hébron comme héritage pour lui-même et ses descendants (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "), after driving out from thence the Anakim who were in possession of the city (",
+          "target": "), après en avoir chassé les Anakim qui occupaient la ville (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "). In the parallel account in ",
+          "target": "). Dans le récit parallèle en ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": " ff, the dispossession of the Canaanite inhabitants of Hebron is ascribed to Judah (",
+          "target": " et suivants, la dépossession des habitants cananéens d'Hébron est attribuée à Juda (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "). Both accounts agree in mentioning Othniel, a younger brother of Caleb, as the conqueror of Kiriath-sepher or Debir; as his reward he receives the hand of Achsah, Caleb's daughter. Achsah is given by her father a portion of the Southland; but, upon request, she obtains a more fruitful locality with upper and nether springs (",
+          "target": "). Les deux récits s'accordent pour mentionner Othniel, un frère cadet de Caleb, comme conquérant de Kirjath-Sépher ou Debir ; en récompense il reçoit la main d'Acsa, fille de Caleb. Acsa reçoit de son père une portion du pays du Sud ; mais, sur sa demande, elle obtient un lieu plus fertile, avec les sources supérieures et inférieures (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "In ",
+          "target": "En ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": " Caleb is undoubtedly the name of a clan which is, moreover, differentiated from Judah. Modern scholars therefore assume that Caleb was originally an independent clan which in historical times merged with Judah. As Caleb is called the son f Kenaz (",
+          "target": " Caleb est incontestablement le nom d'un clan qui est, en outre, distingué de Juda. Les savants modernes supposent donc que Caleb était à l'origine un clan indépendant qui, aux temps historiques, fusionna avec Juda. Puisque Caleb est appelé fils de Kenaz (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": ") or the Kenizzite (",
+          "target": ") ou Kenizien (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": "), it is further believed that the Calebites were originally associated with an Edomite clan named Kenaz (",
+          "target": "), on croit en outre que les Calébites étaient à l'origine associés à un clan édomite nommé Kenaz (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": "), and that they entered their future homes in the southern part of Palestine from the south. Their migration up north would then be reflected in the story of the spies.",
+          "target": "), et qu'ils pénétrèrent par le sud dans leurs futures demeures dans la partie méridionale de la Palestine. Leur migration vers le nord se refléterait alors dans le récit des espions.",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "In the genealogical tables (",
+          "target": "Dans les tableaux généalogiques (",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": "), Caleb is made a descendant of Judah through his father Hezron. He is the brother of Jerahmeel, and the \"father\" of Hebron and of other towns in Judah. (Chelubai, ",
+          "target": "), Caleb est présenté comme un descendant de Juda par son père Hetsron. Il est le frère de Jerachmeel, et le « père » d'Hébron et d'autres villes de Juda. (Chelubaï, ",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": ", is apparently identical with Caleb.)",
+          "target": ", est apparemment identique à Caleb.)",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "Nabal, with whom David had an encounter, is called a Calebite, i.e. one belonging to the house of Caleb (",
+          "target": "Nabal, avec qui David eut une rencontre, est appelé un Calébite, c'est-à-dire quelqu'un appartenant à la maison de Caleb (",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "Max. L. Margolis",
+          "target": "Max. L. Margolis",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CALLING",
+      "article_id": "isbe-73e101caef0073bff324",
+      "source_article_sha256": "42a595a2967fd8ca064537595dc10c87651dde4035f531f774ff88fcc54f353d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CALLING",
+          "target": "APPEL ; VOCATION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kol'-ing (klesis, from kaleo, \"I call\"): Is a New Testament expression. The word is used chiefly by Paul, though the idea and term are found also elsewhere. It has a definite, technical sense, the invitation given to men by God to accept salvation in His kingdom through Jesus Christ. This invitation is given outwardly by the preaching of the gospel, inwardly by the work of the Holy Spirit. With reference to Israel, it is on the part of God irrevocable, not repented of. Having in His eternal counsel called this people, He entrusted them with great gifts, and because He did thus enrich them, He also, in the course of time, summoned them to fulfill the task of initiating the world into the way of salvation, and of preparing salvation for the world. Therefore, He will not desert His people, for He Will not revoke that call (",
+          "target": "kol'-ing (klesis, de kaleo, « j'appelle ») : Expression du Nouveau Testament. Le mot est principalement employé par Paul, quoique l'idée et le terme se trouvent aussi ailleurs. Il a un sens technique précis : l'invitation adressée aux hommes par Dieu à accepter le salut dans son royaume par Jésus-Christ. Cette invitation est donnée extérieurement par la prédication de l'Évangile, intérieurement par l'œuvre du Saint-Esprit. En ce qui concerne Israël, elle est de la part de Dieu irrévocable, sans repentance. Ayant appelé ce peuple dans son dessein éternel, il lui confia de grands dons, et parce qu'il l'avait ainsi enrichi, il l'appela aussi, au cours du temps, à accomplir la tâche d'initier le monde à la voie du salut et de préparer le salut pour le monde. Par conséquent, il n'abandonnera pas son peuple, car il ne révoquera pas cet appel (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). This calling is high or upward, in Christ, that is, made in heaven by God on account of Christ and calling man to heaven (",
+          "target": "). Cet appel est élevé, ou dirigé vers le haut, en Christ, c'est-à-dire fait au ciel par Dieu à cause du Christ et appelant l'homme au ciel (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). Similarly it is a heavenly calling (",
+          "target": "). De même, c'est un appel céleste (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); also a holy calling, holy in aim, means, and end (",
+          "target": ") ; c'est aussi un saint appel, saint dans son but, ses moyens et sa fin (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). Christians are urged to walk worthy of this calling (",
+          "target": "). Les chrétiens sont exhortés à marcher d'une manière digne de cet appel (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ") (the American Standard Revised Version and the Revised Version (British and American), but the King James Version has \"vocation\"). In it there is hope; it is the inspirer of hope, and furnishes for hope its supreme object (",
+          "target": ") (American Standard Revised Version et Revised Version [britannique et américaine], mais la King James Version donne « vocation »). En lui réside l'espérance ; il inspire l'espérance et lui fournit son objet suprême (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). Men are exhorted so to live that God will count them worthy of their calling (",
+          "target": "). Les hommes sont exhortés à vivre de telle manière que Dieu les juge dignes de leur appel (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "). They are also urged to make their calling and election sure (",
+          "target": "). Ils sont aussi exhortés à affermir leur appel et leur élection (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "). See ",
+          "target": "). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "ELECTION",
+          "target": "ÉLECTION",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": ". There is a somewhat peculiar use of the word in ",
+          "target": ". Il existe un emploi quelque peu particulier du mot en ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": " and ",
+          "target": " et en ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": ", namely, that condition of life in which men were when God called them, not many of them wise after the flesh, not many mighty, not many noble, some circumcised, some uncircumcised, some bond, some free, some male, some female, some married, some unmarried.",
+          "target": ", à savoir la condition de vie dans laquelle les hommes se trouvaient lorsque Dieu les appela : peu d'entre eux sages selon la chair, peu puissants, peu nobles, les uns circoncis, les autres incirconcis, les uns esclaves, les autres libres, les uns hommes, les autres femmes, les uns mariés, les autres non mariés.",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "George Henry Trever",
+          "target": "George Henry Trever",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CALNEH",
+      "article_id": "isbe-b4c476e7c765a8ad8743",
+      "source_article_sha256": "a0869ace1b7593d63e18523822ce28548b5b61c48ed13f0e0a08cc771799eb81",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CALNEH",
+          "target": "CALNÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kal'-ne (kalneh; Chalanne): The name of the fourth city of Nimrod's kingdom (",
+          "target": "kal'-ne (kalneh ; Chalanne) : Nom de la quatrième ville du royaume de Nimrod (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), the three preceding it being Babel, Erech, and Accad, i.e. the capital of the realm of Babylonia and the chief cities of three of the principal states. The meaning of the name is unknown, and many regard the identification as uncertain athers and burned C. who had fled into an outhouse with others who had set the sacred gates on fire, \"the meet reward of their impiety\" (2 Macc 8:33).",
+          "target": "), les trois qui la précèdent étant Babel, Érec et Accad, c'est-à-dire la capitale du royaume de Babylonie et les villes principales de trois des principaux États. Le sens du nom est inconnu, et beaucoup considèrent son identification comme incertaine ; « athers » et brûlèrent C. qui s'était enfui dans une dépendance avec d'autres qui avaient mis le feu aux portes sacrées, « la juste récompense de leur impiété » (2 Maccabées 8.33).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "1. Identified with Nippur:",
+          "target": "1. Identification à Nippur :",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "G. Rawlinson thought it to be the modern Niffer (or Noufar), comparing the Talmudic (compare Yoma') Nopher, which is said to be the same as Calneh. What place-name Calneh corresponds with in cuneiform is doubtful. Fried. Delitzsch (Wo lag das Paradies?) compared it with Kul-unu, but as we are told to pronounce this group as Kullaba, it seems unlikely that there is any connection between the two. The identification proposed by G. Rawlinson, however, may be regarded as being supported by the bilingual Creation-legend, in which Merodach (= Nimrod) is made the founder of Babylon, Erech and Nippur, which would in that case be three of the four cities mentioned in ",
+          "target": "G. Rawlinson pensait qu'il s'agissait de l'actuelle Niffer (ou Noufar), la comparant à la Nopher talmudique (comparer Yoma'), que l'on dit identique à Calné. Il est douteux de savoir à quel nom de lieu cunéiforme correspond Calné. Fried. Delitzsch (Wo lag das Paradies?) la comparait à Kul-unu, mais comme on nous dit de prononcer ce groupe Kullaba, il paraît improbable qu'il existe un rapport entre les deux. L'identification proposée par G. Rawlinson peut toutefois être considérée comme appuyée par la légende bilingue de la Création, dans laquelle Mérodac (= Nimrod) est présenté comme le fondateur de Babylone, Érec et Nippur, qui seraient alors trois des quatre villes mentionnées en ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "2. Nippur's Importance:",
+          "target": "2. Importance de Nippur :",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "The inscriptions reveal to us Nippur as a city with a glorious past. Sargon of Agade, Sur-Engur, Dungi and all the more prominent kings of Babylonia in its larger sense interested themselves in the rebuilding and restoration of its renowned temples, so as to gain the favor of their great divinities.",
+          "target": "Les inscriptions nous révèlent Nippur comme une ville au passé glorieux. Sargon d'Agade, Sur-Engur, Dungi et tous les rois les plus éminents de la Babylonie au sens large s'intéressèrent à la reconstruction et à la restauration de ses temples renommés, afin de gagner la faveur de ses grandes divinités.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "3. Its Deities and Their Legends:",
+          "target": "3. Ses divinités et leurs légendes :",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "The city's earlier divine patrons were Enlil and Ninlil, the older Bel and Beltis, whose shrines were at the great temple-tower called E-kura, \"the house of the land,\" and a poetical legend in Sumerian (dialectical) recording their visit to the city, and enumerating its sacred places, still exists (PSBA, March, 1911, 85 ff). Later, the chief deities of the city seem to have been Ninip, the son of Enlil, and his spouse Nin-Nipri, \"the lady of Nippur.\" These two divine beings likewise evoked the muse of the city-scribes, who dealt with the glories of the god in a composition extending over several tablets, in which his favor to his spouse Nin-Nipri is extolled; and to whom a career very similar to that of Merodach, the head of the Babylonian pantheon, is attributed (PSBA, December, 1906, 270 ff).",
+          "target": "Les premiers protecteurs divins de la ville furent Enlil et Ninlil, les anciens Bel et Beltis, dont les sanctuaires se trouvaient dans la grande tour-temple appelée E-kura, « la maison du pays », et une légende poétique en sumérien (dialectal) relatant leur visite à la ville et énumérant ses lieux sacrés existe encore (PSBA, mars 1911, 85 et suivants). Plus tard, les principales divinités de la ville semblent avoir été Ninip, fils d'Enlil, et son épouse Nin-Nipri, « la dame de Nippur ». Ces deux êtres divins inspirèrent également la muse des scribes de la ville, qui traitèrent des gloires du dieu dans une composition s'étendant sur plusieurs tablettes, où sa faveur envers son épouse Nin-Nipri est exaltée ; on lui attribue une carrière très semblable à celle de Mérodac, chef du panthéon babylonien (PSBA, décembre 1906, 270 et suivants).",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "4. Its Ruins Today:",
+          "target": "4. Ses ruines aujourd'hui :",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "The great temple-tower of Niffer, which was dedicated to the god Enlil, was a very striking object among the buildings and temples of the city, and the lower stages are still in an extremely perfect condition. Most interesting, also, are the remains of streets and houses which enable the general conditions of life in ancient Babylonia to be estimated, and suggest that they are similar to those subsisting even at the present day. Our knowledge of the city is almost entirely due to the American excavations at Niffer, inaugurated by J. P. Peters, which have been most fruitful and have shed quite a new light on the city's history. See Peters' Nippur (2 volumes, 1887); the many volumes written or edited by Professor H. V. Hilprecht under the general title The Babylonian Expedition of the University of Pennsylvania; and Professor A. T. Clay's Light on the Old Testament from Babel (Philadelphia, 1907).",
+          "target": "La grande tour-temple de Niffer, qui était dédiée au dieu Enlil, constituait un objet très remarquable parmi les bâtiments et les temples de la ville, et les étages inférieurs sont encore dans un état extrêmement parfait. Très intéressants aussi sont les vestiges des rues et des maisons, qui permettent d'estimer les conditions générales de vie dans l'ancienne Babylonie et suggèrent qu'elles sont semblables à celles qui subsistent même aujourd'hui. Notre connaissance de la ville est presque entièrement due aux fouilles américaines de Niffer, inaugurées par J. P. Peters, qui ont été des plus fructueuses et ont jeté une lumière toute nouvelle sur l'histoire de la ville. Voir Nippur de Peters (2 volumes, 1887) ; les nombreux volumes écrits ou édités par le professeur H. V. Hilprecht sous le titre général The Babylonian Expedition of the University of Pennsylvania ; et Light on the Old Testament from Babel du professeur A. T. Clay (Philadelphie, 1907).",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "T. G. Pinches",
+          "target": "T. G. Pinches",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}
