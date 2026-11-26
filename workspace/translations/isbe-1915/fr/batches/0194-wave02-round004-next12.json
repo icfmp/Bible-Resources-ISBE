@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BELEMUS",
+      "article_id": "isbe-5812a53f4c2acb3cbe40",
+      "source_article_sha256": "41bbf5b48230e8ef75426013918df2b69121083bcd31a6eec7ac361f5f687d5e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BELEMUS",
+          "target": "BÉLÉMUS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bel'-e-mus (Belemos; Balsamus): An officer of King Artaxerxes in Palestine associated with Beeltethmus in hindering the rebuilding of the temple (1 Esdras 2:16): called Bishlam in ",
+          "target": "bel'-e-mus (Belemos ; Balsamus) : officier du roi Artaxerxès en Palestine, associé à Beeltethmus pour empêcher la reconstruction du Temple (1 Esdras 2.16) ; appelé Bishlam en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BELTESHAZZAR",
+      "article_id": "isbe-e03c86200bc7c7f6f85e",
+      "source_article_sha256": "4e5b979fd2d6fea5da1e22bc86a6cc36e4b7614bebd82ef4d27cbd4ecf394b16",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BELTESHAZZAR",
+          "target": "BELTESHATSAR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bel-te-shaz'-ar (belTsha'tstsar Babylonian BalaT-sharucur \"protect his life\"; ",
+          "target": "bel-te-shaz'-ar (belTsha'tstsar, babylonien BalaT-sharucur, « protège sa vie » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): The Bah name given to Daniel (",
+          "target": ") : nom Bah donné à Daniel (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). Not to be confounded with Belshazzar.",
+          "target": "). À ne pas confondre avec Belshatsar.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEN",
+      "article_id": "isbe-dc1813c6b54ade95acef",
+      "source_article_sha256": "2308caf66352fa66b73b7968227b1c97f31ec924677102ef2688dbb0c847eb9e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEN",
+          "target": "BEN",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben (ben, \"son\"): A Levite appointed to assist as musician in the temple service (",
+          "target": "ben (ben, « fils ») : Lévite désigné pour contribuer au service musical du Temple (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The text seems to be doubtful, since the name is omitted in ",
+          "target": "). Le texte paraît douteux, car le nom est omis en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " and not mentioned at all in the Septuagint.",
+          "target": " et n'apparaît pas du tout dans la Septante.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEN-HAIL",
+      "article_id": "isbe-50d8afa33e565c6c7936",
+      "source_article_sha256": "5d3edd370ae4825493e19bda04395f5bdbd5d0e59fad23e0d0d1f87c4ef9f9bf",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEN-HAIL",
+          "target": "BEN-HAÏL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben-ha'-il (ben-chayil, \"son of strength\"; compare HPN, 65, 231): One of the princes who was sent by Jehoshaphat \"to teach in the cities of Judah\" (",
+          "target": "ben-ha'-il (ben-chayil, « fils de la force » ; comparer HPN, p. 65, 231) : l'un des chefs que Josaphat envoya « enseigner dans les villes de Juda » (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEN-HESED",
+      "article_id": "isbe-bd95c9b6c7032adf356b",
+      "source_article_sha256": "5da96f4627a5e89b21d50f965eac82d0e8b3904e44d12bad1fcc8d844d133aff",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEN-HESED",
+          "target": "BEN-HÉSED",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben-he'-sed (ben-checedh, \"son of Hesed\"; the King James Version son of Hesed; the word is derived from a Hebrew root meaning \"to be kind\"): A commissariat officer in the service of Solomon (",
+          "target": "ben-he'-sed (ben-checedh, « fils de Hésed » ; « fils de Hésed » dans la King James Version ; le mot dérive d'une racine hébraïque signifiant « faire preuve de bonté ») : intendant au service de Salomon (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEN-HUR",
+      "article_id": "isbe-8ec2a53d01db4429225c",
+      "source_article_sha256": "46915aaaeb8c7e74139d841cda93cc769f89c0ab938be7103085718c81f74bbb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEN-HUR",
+          "target": "BEN-HUR",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben-hur' (ben-chur, \"son of Hur\"; the King James Version son of Hur; from a Hebrew root meaning \"to be white.\" Compare HPN, 69, note 3): One of the twelve commissariat officers in the service of Solomon (",
+          "target": "ben-hur' (ben-chur, « fils de Hur » ; « fils de Hur » dans la King James Version ; issu d'une racine hébraïque signifiant « être blanc ». Comparer HPN, p. 69, note 3) : l'un des douze intendants au service de Salomon (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEN-ONI",
+      "article_id": "isbe-b47ceba429dae9abf487",
+      "source_article_sha256": "df1d5e652dfe514c8833325f14b1878d0afffffb4a12252c2892df6e0e06e2c0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEN-ONI",
+          "target": "BEN-ONI",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben-o'-ni (ben-'oni; huios odunes mou, \"son of my sorrow\"): The name given by the dying Rachel to her new-born son; changed by his father Jacob to ",
+          "target": "ben-o'-ni (ben-'oni ; huios odunes mou, « fils de ma douleur ») : nom que Rachel mourante donna à son fils nouveau-né ; son père Jacob le changea en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BENJAMIN",
+          "target": "BENJAMIN",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") which see.",
+          "target": ") ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEN-ZOHETH",
+      "article_id": "isbe-8d24c8270987bf4bf9e9",
+      "source_article_sha256": "6d463cd5712c4f3644cbbaf0fd9a740b6e7631708d850582035281a3fe0ba531",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEN-ZOHETH",
+          "target": "BEN-ZOHETH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben-zo'-heth (ben-zoheth, \"son of Zoheth,\" from a Hebrew root meaning \"to be strong(?)\"): A son of Ishi of the house of Judah (",
+          "target": "ben-zo'-heth (ben-zoheth, « fils de Zoheth », dérivé d'une racine hébraïque signifiant « être fort » (?)) : fils d'Ishi, de la maison de Juda (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BENE-BERAK",
+      "article_id": "isbe-9809a890446ce07bef71",
+      "source_article_sha256": "bd306d2925d38c88a130e07aba0a4bc084a561247aabe0cfbb9de2f8101ca983",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BENE-BERAK",
+          "target": "BENÉ-BÉRAK",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben-e-be'-rak (bene beraq; Banebarak): A town in the territory of Da (",
+          "target": "ben-e-be'-rak (bene beraq ; Banebarak) : ville du territoire de Da (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), represented by the modern village Ibn Ibraq, about an hour Southeast of Jaffa.",
+          "target": "), représentée par le village moderne d'Ibn Ibraq, à environ une heure au sud-est de Jaffa.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BERED (1)",
+      "article_id": "isbe-8da63673a871da37df26",
+      "source_article_sha256": "1d55f85b927d137877578f99e278907f2e88d948e253c3e80c63c28345dfeec0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERED (1)",
+          "target": "BÉRED (1)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-red (beredh, \"hail,\" from a Hebrew root meaning \"to be cold\"): The son of Shuthelah of the house of Ephraim (",
+          "target": "be'-red (beredh, « grêle », issu d'une racine hébraïque signifiant « être froid ») : fils de Shuthéla, de la maison d'Éphraïm (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). Compare ",
+          "target": "). Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BECHER",
+          "target": "BÉKER",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BERRIES",
+      "article_id": "isbe-9550b23aab2d8d471032",
+      "source_article_sha256": "30da70eb271c6745569efcfd9025802ca74e171260b430dade4c42496ce17710",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERRIES",
+          "target": "BAIES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ber'-is: Occurs in ",
+          "target": "ber'-is : le mot apparaît en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (the King James Version) in the phrase \"olive berries\" (elaiai). The Revised Version (British and American) reads simply \"olives.\"",
+          "target": " dans la King James Version, dans l'expression « olive berries » (« baies d'olivier » ; elaiai). La Revised Version britannique et américaine emploie simplement « olives ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BESAI",
+      "article_id": "isbe-14e83672a92fb90fc240",
+      "source_article_sha256": "96cc7583736df570f4a43d25c395641155d66b2f30607540248a517a70739ca7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BESAI",
+          "target": "BÉSAÏ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-si (becay, \"downtrodden\"): The descendants of Besai (Nethinim) returned with Zerubbabel to Jerusalem (",
+          "target": "be'-si (becay, « foulé aux pieds ») : les descendants de Bésaï (Nethiniens) revinrent avec Zorobabel à Jérusalem (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " = Basthai, 1 Esdras 5:31).",
+          "target": " = Basthai, 1 Esdras 5.31).",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
