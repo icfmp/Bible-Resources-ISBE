@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BUFFALO",
+      "article_id": "isbe-ecce1f93e8647a427d9a",
+      "source_article_sha256": "b7377fe57c60ff46f0802fd0f9969986abcad56b92b0f90f384f7f848e30311f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUFFALO",
+          "target": "BUFFLE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "buf'-a-lo.",
+          "target": "buf'-a-lo.",
+          "action": "preserve",
+          "reason": "Historical 1915 pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CATTLE",
+          "target": "BÉTAIL",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BULL, WILD",
+      "article_id": "isbe-430a9bc0e9f28394fdfe",
+      "source_article_sha256": "82d0ba5329b47dffba1c558acaff64250eb2dcf88adb05c37ee1dec6c3a54fc7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BULL, WILD",
+          "target": "TAUREAU SAUVAGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ANTELOPE",
+          "target": "ANTILOPE ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CATTLE",
+          "target": "BÉTAIL",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BULRUSH",
+      "article_id": "isbe-f6e7c9c7e6c2e7d9d578",
+      "source_article_sha256": "117934bf81b2ce93615a65884dae4a9399445fbb4528003edcd5ce81a41f07e2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BULRUSH",
+          "target": "JONC",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bool'-rush.",
+          "target": "bool'-rush.",
+          "action": "preserve",
+          "reason": "Historical 1915 pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "REED",
+          "target": "ROSEAU",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BURNT SACRIFICE",
+      "article_id": "isbe-a2c67bdffaf116326eab",
+      "source_article_sha256": "a3d4758d8ceadf2cbc5d6d6ccd9ebb75266bd512a98d15d0a3c1faa104f48dc8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BURNT SACRIFICE",
+          "target": "HOLOCAUSTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SACRIFICE",
+          "target": "SACRIFICE",
+          "action": "preserve",
+          "reason": "Historical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BUTTER",
+      "article_id": "isbe-e65a613dcc3c5455d067",
+      "source_article_sha256": "9c6b7d9a2ba99206c4cbf4d1b9ff97386797aa686895400d4dc7a0198572cc5d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUTTER",
+          "target": "BEURRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "FOOD",
+          "target": "ALIMENTATION",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BYBLUS",
+      "article_id": "isbe-36e0ab106dd24d91ce87",
+      "source_article_sha256": "dcfff15e004b32d604a72b85af5115a59ddac4e054890c56025a6e171ca1fe19",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BYBLUS",
+          "target": "BYBLOS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bib'-lus.",
+          "target": "bib'-lus.",
+          "action": "preserve",
+          "reason": "Historical 1915 pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "GEBAL",
+          "target": "GUÉBAL",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BYPATHS",
+      "article_id": "isbe-74fe9d23365c84801034",
+      "source_article_sha256": "a5398bdaf532050198765c8cbf7e897ecee47932f305f98d9e5de9b5d99330e7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BYPATHS",
+          "target": "CHEMINS DE TRAVERSE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bi'-pathz.",
+          "target": "bi'-pathz.",
+          "action": "preserve",
+          "reason": "Historical 1915 pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BYWAY",
+          "target": "CHEMIN DE TRAVERSE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BYSSUS",
+      "article_id": "isbe-9279380db8f4d9246465",
+      "source_article_sha256": "da86b38a8353684460c2ded9932d0f7dfca931a05ec93c093d606bbddcab5f3c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BYSSUS",
+          "target": "BYSSUS",
+          "action": "preserve",
+          "reason": "Historical biblical or lexical headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bis'-us.",
+          "target": "bis'-us.",
+          "action": "preserve",
+          "reason": "Historical 1915 pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "LINEN",
+          "target": "LIN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CAB",
+      "article_id": "isbe-362d88818ef27ef22e88",
+      "source_article_sha256": "d31e74612e0cf53cfb50c20f4bb53c0f1984d40bdb055a6bae238307a9c7e8ee",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAB",
+          "target": "CAB",
+          "action": "preserve",
+          "reason": "Historical biblical or lexical headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "KAB",
+          "target": "KAB",
+          "action": "preserve",
+          "reason": "Historical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CADDIS",
+      "article_id": "isbe-1c3a3e9b28b4fc4ad109",
+      "source_article_sha256": "ad4cc346e735bc67f3e1746a02750517bc9f3cf8e1066fe1adff6e4d393a80da",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CADDIS",
+          "target": "CADDIS",
+          "action": "preserve",
+          "reason": "Historical biblical or lexical headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kad'-is.",
+          "target": "kad'-is.",
+          "action": "preserve",
+          "reason": "Historical 1915 pronunciation retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "GADDIS",
+          "target": "GADDIS",
+          "action": "preserve",
+          "reason": "Historical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CAKE",
+      "article_id": "isbe-8c38b376fdf45f4a7ca5",
+      "source_article_sha256": "1d404b7181b27d945bc4adb5b3c649173bbc3330fcceffa1b5b21acab0f063a5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAKE",
+          "target": "GALETTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BREAD",
+          "target": "PAIN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CALAMUS",
+      "article_id": "isbe-1438aaf9870c386d890c",
+      "source_article_sha256": "b9c9f2d8125926e97b834880d5b85cf0c97782f9ace0e7339202f638bf10ab8b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CALAMUS",
+          "target": "CALAME",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kal'-a-mus.  See ",
+          "target": "kal'-a-mus.  Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "REED",
+          "target": "ROSEAU",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
