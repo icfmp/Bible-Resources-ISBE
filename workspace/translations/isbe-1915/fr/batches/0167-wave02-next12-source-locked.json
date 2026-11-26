@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BENJAMIN, GATE OF",
+      "article_id": "isbe-0a413b88a1c06fd15011",
+      "source_article_sha256": "3a0d7a751f5b3a3e0a72b8a0ac72d63eb4befc5a4acaefee7b80159189655e42",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BENJAMIN, GATE OF",
+          "target": "PORTE DE BENJAMIN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "JERUSALEM",
+          "target": "JÉRUSALEM",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEREA",
+      "article_id": "isbe-b5ccc6e349690ebecbf1",
+      "source_article_sha256": "94f79d6f1078f4df46e13afb426c476f3ecaccd4c0c22ecdddd538d459c953c4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEREA",
+          "target": "BÉRÉE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-re'-a.",
+          "target": "be-re'-a.",
+          "action": "preserve",
+          "reason": "Historical original phonetic note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BEROEA",
+          "target": "BÉRÉE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BERENICE",
+      "article_id": "isbe-9bd094662454babe0b0e",
+      "source_article_sha256": "60235f402f84ecf180f6080891a38960f0ba70247adca25c6bc2b3c545d89152",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERENICE",
+          "target": "BÉRÉNICE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ber'-e-nes.",
+          "target": "ber'-e-nes.",
+          "action": "preserve",
+          "reason": "Historical original phonetic note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BERNICE",
+          "target": "BÉRÉNICE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BERNICE",
+      "article_id": "isbe-ae1af5a5e281d89c6cc5",
+      "source_article_sha256": "37685da477a4c2026d756218882dea0819fb87ed4b5a263f1d0f550b21be1d37",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERNICE",
+          "target": "BÉRÉNICE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "Henry E. Dosker",
+          "target": "Henry E. Dosker",
+          "action": "preserve",
+          "reason": "Historical author signature or proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BESIEGE",
+      "article_id": "isbe-6cb211007351a5f075de",
+      "source_article_sha256": "fd1eab4102c4a5064d7de2065c692695dead379e0786ed448a7b17e0c2539163",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BESIEGE",
+          "target": "ASSIÉGER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-sej'.",
+          "target": "be-sej'.",
+          "action": "preserve",
+          "reason": "Historical original phonetic note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SIEGE",
+          "target": "SIÈGE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIRTH, NEW",
+      "article_id": "isbe-8f705ebe645184c3a1aa",
+      "source_article_sha256": "63f03766859bdcbc4b11ce21bc97464e72e6019f0990fd68f37dc9fcb4d78906",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIRTH, NEW",
+          "target": "NOUVELLE NAISSANCE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "REGENERATION",
+          "target": "RÉGÉNÉRATION",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIRTH, VIRGIN",
+      "article_id": "isbe-d6dd02e2ae6c2c9e5c70",
+      "source_article_sha256": "67ce4a8f5bfb3894de8b8e77328c34817a09e09725002d8f77dd24452bfd19be",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIRTH, VIRGIN",
+          "target": "NAISSANCE VIRGINALE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "VIRGIN BIRTH",
+          "target": "NAISSANCE VIRGINALE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BITUMEN",
+      "article_id": "isbe-23d8c8acb6e26d852c4d",
+      "source_article_sha256": "12539b508614b52eb9272bc9ed787f49732db0f68979c23c1b10e67fdd969dc3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BITUMEN",
+          "target": "BITUME",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bi-tu'-men.",
+          "target": "bi-tu'-men.",
+          "action": "preserve",
+          "reason": "Historical original phonetic note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SLIME",
+          "target": "BITUME",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLACK",
+      "article_id": "isbe-5d1d1c000f66504af11c",
+      "source_article_sha256": "36352918c612dd120fcc1eb622dd50ff6afad111bd44745c2cab18076b782969",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLACK",
+          "target": "NOIR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "COLORS",
+          "target": "COULEURS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLESSING, VALLEY OF",
+      "article_id": "isbe-6d3c5d4f6e38cb9a7f55",
+      "source_article_sha256": "6da5b3a4384e03d38cf0395a855f53ba91beff5c8f0b15b7b534210502dbf6b3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLESSING, VALLEY OF",
+          "target": "VALLÉE DE LA BÉNÉDICTION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BERACAH",
+          "target": "BERACAH",
+          "action": "preserve",
+          "reason": "Historical author signature or proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BLOOD, AVENGER OF",
+      "article_id": "isbe-aa81d271e6d7f3c448c4",
+      "source_article_sha256": "3ea9cd129c26fb267443004664d33f7c76fd2aa1f0711f759d9eb6d823b99ff7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLOOD, AVENGER OF",
+          "target": "VENGEUR DU SANG",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AVENGER",
+          "target": "VENGEUR",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLUE",
+      "article_id": "isbe-24a866f4940f1b00083a",
+      "source_article_sha256": "87744e7c3b0fa930c0207b1f9a7677cbbe7446341ff1c190eca3eba2a20cfdd4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLUE",
+          "target": "BLEU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bloo.",
+          "target": "bloo.",
+          "action": "preserve",
+          "reason": "Historical proper-name reference label retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "COLORS",
+          "target": "COULEURS",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
