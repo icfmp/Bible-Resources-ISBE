@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BARODIS",
+      "article_id": "isbe-4f3dd55513ae930aec89",
+      "source_article_sha256": "f5630986bf151f54849341ddfc14d0823a3dc9c5e9a142eaa9c346d1a269927a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARODIS",
+          "target": "BARODIS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-ro'-dis (Barodeis, 1 Esdras 5:34): The descendants of Barodis (sons of the servants of Solomon) returned with Zerubbabel to Jerusalem. Omitted in ",
+          "target": "ba-ro'-dis (Barodeis, 1 Esdras 5.34) : les descendants de Barodis (fils des serviteurs de Salomon) revinrent avec Zorobabel à Jérusalem. Ils ne sont pas mentionnés en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " and ",
+          "target": " ni en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BASALOTH",
+      "article_id": "isbe-64362b51ca565c791d32",
+      "source_article_sha256": "fa945281afb1371be2e85d74d30d13c6e3cf4aefff0666aa3f66ff166e6fece6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BASALOTH",
+          "target": "BASALOTH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bas'-a-loth (A, Baaloth; B, Basalem; 1 Esdras 5:31 = Bazluth (",
+          "target": "bas'-a-loth (A : Baaloth ; B : Basalem ; 1 Esdras 5.31 = Bazluth (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") and Bazlith (",
+          "target": ") et Bazlith (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ")): The descendants of Basaloth (temple-servants) returned with Zerubbabel to Jerusalem.",
+          "target": ")) : les descendants de Basaloth (serviteurs du Temple) revinrent avec Zorobabel à Jérusalem.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BASCAMA",
+      "article_id": "isbe-cbb765b2a6ce495353ca",
+      "source_article_sha256": "e5fe66a13dcbaa0c98870b016d1182dc4ccd29a18513f5f78de1fd5a5d6b5604",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BASCAMA",
+          "target": "BASCAMA",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bas'-ka-ma (Baskama (1 Macc 13:23)): A town located in the country of Gilead, where Tryphon slew Jonathan, the son of Absalom. Compare ",
+          "target": "bas'-ka-ma (Baskama (1 Maccabées 13.23)) : ville du pays de Galaad où Tryphon tua Jonathan, fils d'Absalom. Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "JONATHAN",
+          "target": "JONATHAN",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Apocrypha).",
+          "target": " (Apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BASSAI",
+      "article_id": "isbe-6087eaa76257ada83965",
+      "source_article_sha256": "404eeee4dff7a141db59620eb3af347d2af7394709e97ef7b9bd995b84869dae",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BASSAI",
+          "target": "BASSAI",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bas'-a-i, bas'-i (Bassai, Bassa; the King James Version Bassa; 1 Esdras 5:16; Bezai (",
+          "target": "bas'-a-i, bas'-i (Bassai, Bassa ; Bassa dans la King James Version ; 1 Esdras 5.16 ; Bezaï (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ")): The sons of Bassai returned with Zerubbabel to Jerusalem.",
+          "target": ")) : les fils de Bassai revinrent avec Zorobabel à Jérusalem.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BASTHAI",
+      "article_id": "isbe-f78491f7480f6df0358c",
+      "source_article_sha256": "0e4dbf5075b2a09c56cfb36377ac8e91dbe90ceec1803c4b0cfd64e1cd239d51",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BASTHAI",
+          "target": "BASTHAI",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bas'-tha-i, bas'-thi (Basthai; the King James Version Bastai; 1 Esdras 5:31 = Besai (",
+          "target": "bas'-tha-i, bas'-thi (Basthai ; Bastai dans la King James Version ; 1 Esdras 5.31 = Bésaï (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ")): The descendants of Basthai (temple-servants) returned with Zerubbabel to Jerusalem.",
+          "target": ")) : les descendants de Basthai (serviteurs du Temple) revinrent avec Zorobabel à Jérusalem.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAY (2)",
+      "article_id": "isbe-e140c049d881474279e2",
+      "source_article_sha256": "82bcef653a1e09d5e9b3f04dbb9d9630d9cc6f337c397b879eabbc33b5da560e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAY (2)",
+          "target": "BAIE (2)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba (lashon, literally \"tongue\"; kolpos): The word occurs in the sense of inlet of the sea in the Old Testament only in ",
+          "target": "ba (lashon, littéralement « langue » ; kolpos) : dans l'Ancien Testament, le mot ne désigne une échancrure de la mer qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", and in New Testament only in ",
+          "target": ", et dans le Nouveau Testament qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " (of Malta, the King James Version \"creek\").",
+          "target": " (à propos de Malte ; « creek », « crique », dans la King James Version).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAY TREE",
+      "article_id": "isbe-42918647393d0accc202",
+      "source_article_sha256": "8ef0d18ceae22e5dea4e3b934961819c017e776c1188684c8bbb93a7db15f7a6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAY TREE",
+          "target": "LAURIER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-tre' (the King James Version only; ",
+          "target": "ba'-tre' (dans la seule King James Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; 'ezrach): The word means \"native,\" \"indigenous,\" and the Revised Version (British and American) translations \"a green tree in its native soil.\"",
+          "target": " ; 'ezrach) : le mot signifie « natif », « indigène » ; la Revised Version britannique et américaine traduit par « un arbre verdoyant dans sa terre natale ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAZLITH; BAZLUTH",
+      "article_id": "isbe-8de25c4f92f22438c0af",
+      "source_article_sha256": "ad939231853c5c8771a2e4dca87dd3b1b0242ed11d33eb50fb2baee12a127238",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAZLITH; BAZLUTH",
+          "target": "BAZLITH ; BAZLUTH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "baz'-lith, baz'-luth (batslith, ",
+          "target": "baz'-lith, baz'-luth (batslith, ",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; batsluth, ",
+          "target": " ; batsluth, ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "; Basaloth, 1 Esdras 5:31, \"asking\"): The descendants of Bazlith (temple-servants) returned with Zerubbabel to Jerusalem.",
+          "target": " ; Basaloth, 1 Esdras 5.31, « demandant ») : les descendants de Bazlith (serviteurs du Temple) revinrent avec Zorobabel à Jérusalem.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BECAUSE",
+      "article_id": "isbe-a83c4cece0f5bb8c9b1a",
+      "source_article_sha256": "c3fef6d8d0741547e8eb8d8b19cb30f1921e46ce6bf9d97100dc36ee34847b7e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BECAUSE",
+          "target": "PARCE QUE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-kos' (hina, \"in order that\"): \"The multitude rebuked them, because (AV; the Revised Version (British and American) \"that\") they should hold their peace\" (",
+          "target": "be-kos' (hina, « afin que ») : « La foule les réprimandait, parce qu'ils devaient garder le silence » (because, « parce que », dans l'Authorized Version ; that, « afin que », dans la Revised Version britannique et américaine) (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BECHER",
+      "article_id": "isbe-6bbca4d87f54f02e9759",
+      "source_article_sha256": "106dc1fb89a43a50e818ccbb865f8e87c8c3bd42c148186bf6bc516a4fc368ca",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BECHER",
+          "target": "BÉKER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "(1) Son of Benjamin (",
+          "target": "(1) Fils de Benjamin (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) Son of Ephraim whose family is called Becherites (the King James Version \"Bachrites\"), ",
+          "target": "(2) Fils d'Éphraïm, dont la famille est appelée les Békérites (« Bachrites » dans la King James Version), ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " called Bered). Compare ",
+          "target": ", où il est appelé Béred). Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "BERED",
+          "target": "BÉRED",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEELSARUS",
+      "article_id": "isbe-cf341460786c013ed262",
+      "source_article_sha256": "6caf91b0c04ec1b0f44952c0db924fde2298525904d010ee21e3157a278a1584",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEELSARUS",
+          "target": "BEELSARUS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-el'-sa-rus, be-el-sa'-rus (Beelsaros): One who accompanied Zerubbabel in the return from the captivity (1 Esdras 5:8), called Bilshan in ",
+          "target": "be-el'-sa-rus, be-el-sa'-rus (Beelsaros) : l'un de ceux qui accompagnèrent Zorobabel lors du retour de la captivité (1 Esdras 5.8), appelé Bilshan en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " and ",
+          "target": " et en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEERAH",
+      "article_id": "isbe-1df6caac5ecf148c7a0a",
+      "source_article_sha256": "21b6d7b718194f8cd2ab9de59982c4d03594e712cd7c66e55aa8843f6b4863d8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEERAH",
+          "target": "BEÉRA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-e'-ra, be'-er-a (be'erah; \"expounder\"): A prince of the house of Reuben whom Tiglath-pileser carried away captive (",
+          "target": "be-e'-ra, be'-er-a (be'erah, « interprète ») : chef de la maison de Ruben que Tiglath-Piléser emmena en captivité (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). Compare ",
+          "target": "). Comparer ",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
