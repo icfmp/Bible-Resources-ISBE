@@ -33,13 +33,18 @@ targets are canonical **across languages**. No new BRSI per-language identity.
    typography. An independent editorial review is a **separate gate**.
    A source-damaged passage remains flagged and cannot silently be guessed.
 5. **Verify and commit**: run source-fingerprint, full-node coverage, TEI
-   parity, content and regression tests, then commit the reviewed article and
-   its review record in a bounded PR. Keep a reversible explanation for each
-   correction.
+   parity, content and regression tests, then commit the article and its
+   available review evidence directly on the active translation branch.
+   Keep a reversible explanation for each correction. **Do not open a PR for
+   individual articles, cohorts, 1,000-entry waves, or the 14-entry completion.**
+   Open one translation PR only after **all 9,380 French articles have their
+   complete first translations**, subject to subsequent full-corpus review
+   and publication gates. The draft and editorial acceptance states remain
+   distinct.
 6. **Check the GitHub issue checkbox only now**: one original source key
    corresponds to one checked item **only after actual reviewed acceptance**.
    Draft translation, automated proof, CI success and article acceptance are
-   distinct states. Record the article's commit/PR and gate evidence, so work
+   distinct states. Record the article's commit and gate evidence, so work
    resumes after interruption without trusting a checkbox alone.
 7. **Publication is a different decision**: the full French TEI needs 9,380
    entries, final source parity, official schema, native SWORD roundtrip, real
