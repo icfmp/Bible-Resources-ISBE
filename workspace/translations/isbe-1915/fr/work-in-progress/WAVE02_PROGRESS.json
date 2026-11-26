@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "500_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "512_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 500,
-    "complete_first_drafts": 502,
-    "remaining_undrafted": 498
+    "new_complete_drafts_on_branch": 512,
+    "complete_first_drafts": 514,
+    "remaining_undrafted": 486
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1545
+    "complete_first_drafts_across_main_and_current_branch": 1557
   },
   "source_queue": {
     "rounds_completed": [
@@ -39,7 +39,15 @@
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-004",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-005"
     ],
-    "checks": "Five source-locked 100-article cohorts completed as Markdown drafts and TEI patches. Round 005 contains 100 distinct original canonical IDs and 411 mutable TEI text/tail units; all match the exact English source manifest. Original source may contain witness anomalies; editable translation status is unreviewed and publication is prohibited."
+    "checks": "Five source-locked 100-article cohorts completed as Markdown drafts and TEI patches. Round 005 contains 100 distinct original canonical IDs and 411 mutable TEI text/tail units; all match the exact English source manifest. Original source may contain witness anomalies; editable translation status is unreviewed and publication is prohibited.",
+    "partial_round": {
+      "round": "round-006",
+      "english_templates_staged": 100,
+      "unreviewed_first_drafts_completed": 12,
+      "mutable_tei_units_translated": 63,
+      "source_locked_batch": "0209-wave02-round006-first12.json",
+      "publication_permitted": false
+    }
   },
   "batch_files": [
     "0163-wave02-first05-source-locked.json",
@@ -87,9 +95,10 @@
     "0205-wave02-round005-next10.json",
     "0206-wave02-round005-next10.json",
     "0207-wave02-round005-next10.json",
-    "0208-wave02-round005-last10.json"
+    "0208-wave02-round005-last10.json",
+    "0209-wave02-round006-first12.json"
   ],
-  "last_translation_commit": "279dfece86916c61248be110a8a290bd601bbf3f",
+  "last_translation_commit": "216d8d8ccbe8c2907383d56f2caf336fe467973e",
   "source_witness_and_display_flags": [
     {
       "key": "BALSAM",
@@ -187,5 +196,5 @@
       "detail": "Protected original biblical references display 'Joe' rather than Joel in multiple entries; links and cRef were retained exactly for source audit."
     }
   ],
-  "next_action": "Stage sixth 100-entry source-locked English queue (round-006) among 498 undrafted original article keys in positions 1001–2000; translate each complete source article into French with traceable Markdown and TEI patches, direct commits, no translation PR until all 9,380 first drafts exist."
+  "next_action": "Continue sixth cohort round-006 by translating the remaining 88 complete English originals; only five previous source queues are fully translated. Direct commits, no translation PR before all 9,380 first drafts; independent bilingual audits separate."
 }
