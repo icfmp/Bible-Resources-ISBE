@@ -85,7 +85,7 @@
       "source_article_sha256": "e96170a1b061b7aabf02a15640900e0cc27dfa255983ff723b4bc6415e2b6948",
       "original_markdown_paragraphs": 102,
       "source_template_characters": 44662,
-      "working_translation_status": "original_source_only_no_french_draft"
+      "working_translation_status": "complete_draft_pending_editorial_review"
     },
     {
       "index": 656,
@@ -133,11 +133,15 @@
       "working_translation_status": "original_source_only_no_french_draft"
     }
   ],
-  "status_note": "Four source-locked complete unreviewed drafts on draft PR #160 (ACCOMMODATION, ALTAR, AMOS (1), ASTROLOGY); ten source templates still untranslated. main remains 986/1000 until merge; individual editorial approvals 0.",
+  "status_note": "Five complete source-locked unreviewed first drafts on draft PR #160; nine further originals still untranslated; merged main remains 986/1000 until PR accepted; editorial approvals remain 0.",
   "source_flags": [
     {
       "key": "ALTAR",
       "note": "Two distinct historical contributions retained with original headings and both author attributions. Source may contain English transcription issues (e.g. second while, Be hold, twice 'Ark' for altar transport), no English original modifications."
+    },
+    {
+      "key": "APOCRYPHAL GOSPELS",
+      "note": "Source digitization anomalies in 'Christian article', bibliographic 'Ac', and punctuation; corrected only contextually in French with English source unchanged. Historical witness collation pending."
     }
   ]
 }
