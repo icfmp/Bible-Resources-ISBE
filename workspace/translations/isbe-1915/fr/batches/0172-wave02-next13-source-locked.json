@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CASDIM",
+      "article_id": "isbe-e140505c7079c494699c",
+      "source_article_sha256": "dcc7d643ecea9415192f0bfbc098a306d59f9de68e1c99982e642bf7a66309e7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CASDIM",
+          "target": "CASDIM",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kaz'-dim",
+          "target": "kaz'-dim",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CHESED",
+          "target": "CHESED",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CASEMENT",
+      "article_id": "isbe-67e3293dc6700f18212f",
+      "source_article_sha256": "bcb2c753d211cbd315bf4dd6c1e2f2dd5a2b40acb7a9098fed2b00c108b8f5cc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CASEMENT",
+          "target": "CHÂSSIS DE FENÊTRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kas'-ment.",
+          "target": "kas'-ment.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "HOUSE",
+          "target": "MAISON",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CASPHON",
+      "article_id": "isbe-073cd7d8fbec9686e9b8",
+      "source_article_sha256": "aa8957ac3dc2e56960c733df58439e15afe4005acf5d13caebd157acbafe7d42",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CASPHON",
+          "target": "CASPHON",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kas'-fon.",
+          "target": "kas'-fon.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CASPHOR",
+          "target": "CASPHOR",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CEDRON",
+      "article_id": "isbe-3f2314bc1e0fcbe80142",
+      "source_article_sha256": "1d2f524e80346d794c442d44bb7fb0024c7d387ec7b168878ca717c7e18135ce",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CEDRON",
+          "target": "CÉDRON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "se'-dron.",
+          "target": "se'-dron.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "KIDRON",
+          "target": "CÉDRON",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CEILAN",
+      "article_id": "isbe-8267e97b7fdd8be35892",
+      "source_article_sha256": "d6db3b539317bad991a14d1d996d6f47708a76021bcd1af988e0492fc67f773c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CEILAN",
+          "target": "CEILAN",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "se'-lan.",
+          "target": "se'-lan.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "KILAN",
+          "target": "KILAN",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CETAB",
+      "article_id": "isbe-1e605beb87ccee55502e",
+      "source_article_sha256": "ecf3be4a7d83bc42a851ed1aa4c448cfbf1d38f4e5d6f1e819f1ad11603ef8fb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CETAB",
+          "target": "CETAB",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "se'-tab.",
+          "target": "se'-tab.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "KETAB",
+          "target": "KETAB",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHALCOL",
+      "article_id": "isbe-4a4dd3679b0047114c84",
+      "source_article_sha256": "e57b183220f3252fef3705e746db6e8632299ca4927eb3b7d02a4ce54efc1dc0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHALCOL",
+          "target": "CHALCOL",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kal'-kol.",
+          "target": "kal'-kol.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CALCOL",
+          "target": "CALCOL",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHAMBER, ROOF",
+      "article_id": "isbe-54d42b8bf141103e01b7",
+      "source_article_sha256": "be429dfad1df70ab37107d2da04960e1a73629535f0a19ad128e9b83fec4bbed",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHAMBER, ROOF",
+          "target": "CHAMBRE SUR LE TOIT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CHAMBER",
+          "target": "CHAMBRE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHARACA",
+      "article_id": "isbe-a0dd117f000421f00a61",
+      "source_article_sha256": "3cc7c68c99a5757c8c1a6c4cb60d1524e05e21d1bc25a4fb9d109635f1df8655",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHARACA",
+          "target": "CHARACA",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar'-a-ka.",
+          "target": "kar'-a-ka.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CHARAX",
+          "target": "CHARAX",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHARCHUS",
+      "article_id": "isbe-5fc46ea3330ad0af8788",
+      "source_article_sha256": "6fbe7a621f7b13fc2fae8f46dd9e9e7ce1e6a4ccdd270e40ec4512e554085c65",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHARCHUS",
+          "target": "CHARCHUS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar'-kus.",
+          "target": "kar'-kus.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BARCHUS",
+          "target": "BARCHUS",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHASE",
+      "article_id": "isbe-123531ac9646f17e3096",
+      "source_article_sha256": "7ce454f1438f72b92324ceb3d73b9174eb15dca995a7d032ca8334d11a57ce08",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHASE",
+          "target": "CHASSE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "chas.",
+          "target": "chas.",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "HUNTING",
+          "target": "CHASSE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHEESE",
+      "article_id": "isbe-4914135a0ad16ece6318",
+      "source_article_sha256": "b439c79c9c57e47321ae39150edeaa2139a8a825728b606309cdf51f57335c3a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHEESE",
+          "target": "FROMAGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "chez.",
+          "target": "chez.",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "FOOD",
+          "target": "ALIMENTATION ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "MILK",
+          "target": "LAIT",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHELLUH",
+      "article_id": "isbe-cc61981b41ce107afdfa",
+      "source_article_sha256": "03c4b6007a550bfa67210637efd78e6a1bec927ef879d4167058a4ec5a22e3a9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHELLUH",
+          "target": "CHELLUH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kel'-u.",
+          "target": "kel'-u.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CHELUHI",
+          "target": "CHELUHI",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label retained"
+        }
+      ]
+    }
+  ]
+}
