@@ -1,0 +1,89 @@
+name: Stage canonical English ISBE article templates for French translation
+
+on:
+  push:
+    branches:
+      - work/fr-isbe-full-translation
+    paths:
+      - .github/workflows/stage-isbe-french-sources.yml
+      - workspace/translations/isbe-1915/fr/work-in-progress/NEXT_SOURCE_QUEUE.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Rebuild original English article maps from verified TEI source
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/isbe-fr-stage
+          python3 -m scripts.export_tei_markdown_corpus \
+            --source sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml \
+            --output /tmp/isbe-fr-stage/english-and-maps.zip \
+            --report /tmp/isbe-fr-stage/report.json
+      - name: Stage bounded, source-locked French translation input using existing generic queue tool
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+          from scripts.prepare_isbe_markdown_queue import prepare
+          from scripts.select_translation_pilot import SOURCE_SHA256
+
+          root=Path('workspace/translations/isbe-1915/fr')
+          config=json.loads((root/'work-in-progress/NEXT_SOURCE_QUEUE.json').read_text(encoding='utf-8'))
+          assert config['schema_version']==1
+          assert config['kind']=='french_isbe_source_template_staging_request'
+          assert config['source_sha256']==SOURCE_SHA256
+          assert config['publication_permitted'] is False
+          assert config['editorial_approvals']==0
+          assert config['translation_language']=='fr'
+          roster=Path(config['roster'])
+          assert roster.is_relative_to(root/'worklists'), 'Source roster outside frozen worklists'
+          output=Path(config['output'])
+          assert output.is_relative_to(root/'source-queue'), 'Unsafe output directory'
+          assert 1 <= config['limit'] <= 100
+          assert not output.exists(), 'Refusing to overwrite an existing source queue'
+          patch_files=[Path('workspace/pilots/isbe-1915-fr/draft-patches.json'),*sorted((root/'batches').glob('*.json'))]
+          manifest=prepare(
+            archive=Path('/tmp/isbe-fr-stage/english-and-maps.zip'),
+            source=Path('sources/cleaned/encyclopedias/en/isbe-1915/ISBE.xml'),
+            roster=roster,
+            patches=patch_files,
+            output=output,
+            limit=config['limit']
+          )
+          keys=set()
+          for entry in manifest['articles']:
+              assert entry['article_id'] not in keys
+              keys.add(entry['article_id'])
+              content=(output/entry['template']).read_bytes()
+              assert hashlib.sha256(content).hexdigest()==entry['template_sha256']
+              assert b'ISBE-BLOCK:' in content and b'ISBE-END:' in content
+          assert len(keys)==manifest['templates_prepared']
+          assert manifest['human_editorial_approvals']==0
+          assert manifest['publication_permitted'] is False
+          print('VERIFIED_STAGED_ENGLISH_ARTICLES:',len(keys))
+          print('ORIGINAL_RANGE:',roster)
+          print('OUTPUT:',output)
+          PY
+      - name: Commit only original English translation input without PR
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add workspace/translations/isbe-1915/fr/source-queue/
+          if git diff --cached --quiet; then
+            echo "No new source queue content to commit"
+          else
+            git commit -m "chore(fr): stage source-locked wave-02 English articles"
+            git push origin "HEAD:refs/heads/${GITHUB_REF_NAME}"
+          fi
