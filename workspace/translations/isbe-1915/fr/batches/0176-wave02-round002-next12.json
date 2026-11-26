@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BEON",
+      "article_id": "isbe-70a9b8b69d05f7b4819c",
+      "source_article_sha256": "9c5743ce46ac81933aaf744ca7e11806834ed017e712f729205464714e3ca261",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEON",
+          "target": "BEON",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-on (",
+          "target": "be'-on (",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription and source textual note retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BAAL-MEON",
+          "target": "BAAL-MEON",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BERACHIAH",
+      "article_id": "isbe-8207f4e14e10187c3437",
+      "source_article_sha256": "4dd1e749e3084b4a70e5d49253feea285b86945a52edd023884c0fbe8347305d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERACHIAH",
+          "target": "BERACHIAH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ber-a-ki'-a.",
+          "target": "ber-a-ki'-a.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription and source textual note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BERECHIAH",
+          "target": "BERECHIAH",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BEROTH",
+      "article_id": "isbe-c0b62a59d632c45aaa90",
+      "source_article_sha256": "e37b3f2a63e26b88d6e5a294252696efc8e8da955df8149f015c585caa83210b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEROTH",
+          "target": "BEROTH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-roth (1 Esdras 5:19).  See ",
+          "target": "be'-roth (1 Esdras 5:19).  Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BEEROTH",
+          "target": "BEEROTH",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BEROTHITE",
+      "article_id": "isbe-c8f6b6e5fe24b78caae5",
+      "source_article_sha256": "97a311e708f6fe21341c456dcef659730809060f6a3d76173d40c6a685f4e967",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEROTHITE",
+          "target": "BEROTHITE",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-roth-it.",
+          "target": "be'-roth-it.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription and source textual note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BEEROTHITE",
+          "target": "BEEROTHITE",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BERYL",
+      "article_id": "isbe-e4269a63b04419056a03",
+      "source_article_sha256": "0a2acc06facaf97567afb77da474dd93539855305be7b46fcfcf2162581e4710",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERYL",
+          "target": "BÉRYL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ber'-il.",
+          "target": "ber'-il.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription and source textual note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "STONES, PRECIOUS",
+          "target": "PIERRES PRÉCIEUSES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BERZELUS",
+      "article_id": "isbe-ef84d7e8e56112f8aab2",
+      "source_article_sha256": "46d73cab7fc71df4ee8b499c87e3fc865cba535a0fb9262670d07129c3f3cabc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERZELUS",
+          "target": "BERZELUS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ber-ze'-lus.",
+          "target": "ber-ze'-lus.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription and source textual note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ZORZELLEUS",
+          "target": "ZORZELLEUS",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BESTIALITY",
+      "article_id": "isbe-c181b685426f658a494d",
+      "source_article_sha256": "da483b7ca3801c1bd7bb6e010bc47e009afc2d97d1e8c872459b313670f4c329",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BESTIALITY",
+          "target": "BESTIALITÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bes-ti-al'-i-ti.",
+          "target": "bes-ti-al'-i-ti.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription and source textual note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CRIMES",
+          "target": "CRIMES",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BETAH",
+      "article_id": "isbe-7b08812838654188502f",
+      "source_article_sha256": "5241a419ff95a13c841b1c6417ef5870ccf7c568f38bd7e1753e7c6b40b43c4d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETAH",
+          "target": "BETAH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-ta (",
+          "target": "be'-ta (",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription and source textual note retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "TIBHATH",
+          "target": "TIBHATH",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-MAACAH",
+      "article_id": "isbe-66c2a3def5b81d64a0dd",
+      "source_article_sha256": "68882f0e83929d9b8fec4b0886021fc0a8dccbbf49fd1b204d7ac7e8e9828578",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-MAACAH",
+          "target": "BETH-MAACAH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-ma'-a-ka.",
+          "target": "beth-ma'-a-ka.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription and source textual note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ABEL-BETH-MAACAH",
+          "target": "ABEL-BETH-MAACAH",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-MILLO",
+      "article_id": "isbe-4016b4c4964ecb5091e0",
+      "source_article_sha256": "5438960460b69275fd49f6469e2a5e1e77159b7f66ba6c1440da4c39df946619",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-MILLO",
+          "target": "BETH-MILLO",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-mil'-o.",
+          "target": "beth-mil'-o.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription and source textual note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "JERUSALEM",
+          "target": "JÉRUSALEM",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-PALET",
+      "article_id": "isbe-c40bea006f266cb6085c",
+      "source_article_sha256": "a23f4d3238a8bdcb63ca014f4d9a7db5fd1617a955cf6565eb616d2819ab884b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-PALET",
+          "target": "BETH-PALET",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-pa'-let.",
+          "target": "beth-pa'-let.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription and source textual note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BETH-PELET",
+          "target": "BETH-PELET",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-PHELET",
+      "article_id": "isbe-fe39738fdc4fa1787570",
+      "source_article_sha256": "31e48523cbaa420d77f04ec988a7037ee529811daf5d8dcc68b1b12ef13f07a6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-PHELET",
+          "target": "BETH-PHELET",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-fe'-let.",
+          "target": "beth-fe'-let.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription and source textual note retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BETH-PELET",
+          "target": "BETH-PELET",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name reference label or source punctuation retained"
+        }
+      ]
+    }
+  ]
+}
