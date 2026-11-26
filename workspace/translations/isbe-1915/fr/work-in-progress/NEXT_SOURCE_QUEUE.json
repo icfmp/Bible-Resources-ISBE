@@ -3,10 +3,10 @@
   "kind": "french_isbe_source_template_staging_request",
   "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "roster": "workspace/translations/isbe-1915/fr/worklists/wave-01/1001-2000.json",
-  "output": "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-005",
+  "output": "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-006",
   "limit": 100,
   "translation_language": "fr",
   "publication_permitted": false,
   "editorial_approvals": 0,
-  "notes": "Fifth reproducible source-locked queue. Select 100 shortest undrafted canonical English articles among 598 still missing first drafts in positions 1001–2000. All preceding 400 branch first drafts and the two earlier pilots must be excluded through source-locked patches. Never publish or open a PR."
+  "notes": "Sixth reproducible source-locked queue. Select 100 shortest undrafted canonical English articles among 498 still missing first drafts in positions 1001–2000. All preceding 500 branch first drafts and the two earlier pilots must be excluded via source-locked patches. No PR/publication."
 }
