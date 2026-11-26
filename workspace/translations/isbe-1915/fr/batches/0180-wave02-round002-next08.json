@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CANAANITESS",
+      "article_id": "isbe-272c6dee0945e2d67654",
+      "source_article_sha256": "28734f5e7a49196c92aa037d776b8ba035d7fb9031d4cb235b0a1f236f620ed2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CANAANITESS",
+          "target": "CANANÉENNE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka'-nan-it-es.",
+          "target": "ka'-nan-it-es.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SHUA",
+          "target": "SHUA ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BATHSHUA",
+          "target": "BATHSHUA",
+          "action": "preserve",
+          "reason": "Historical name or cross-reference display retained verbatim"
+        }
+      ]
+    },
+    {
+      "source_key": "CANTICLES",
+      "article_id": "isbe-6ed3eeaa8b893ca7b49c",
+      "source_article_sha256": "f8627439391c1dd0ae2b05cdc222c54db0598bb8c3e4691fcd0fc797c8e404b0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CANTICLES",
+          "target": "CANTIQUE DES CANTIQUES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kan'-ti-k'-lz.",
+          "target": "kan'-ti-k'-lz.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SONG OF SONGS",
+          "target": "CANTIQUE DES CANTIQUES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CAPHENATHA",
+      "article_id": "isbe-41ec3052fe693c5313a6",
+      "source_article_sha256": "4445b429caa5643f22a1fce714a77ca07703d9f1b9331064547d15d9e1f29d17",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAPHENATHA",
+          "target": "CAPHENATHA",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword unchanged"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka-fen'-a-tha.",
+          "target": "ka-fen'-a-tha.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CHAPHENATHA",
+          "target": "CHAPHENATHA",
+          "action": "preserve",
+          "reason": "Historical name or cross-reference display retained verbatim"
+        }
+      ]
+    },
+    {
+      "source_key": "CAPTIVITY EPISTLES",
+      "article_id": "isbe-623298b51c80c4b75469",
+      "source_article_sha256": "a71ee6d2d4f50e58be58bf7edd49a23fd5867d56ca91d9587dd8342d74875a9e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAPTIVITY EPISTLES",
+          "target": "ÉPÎTRES DE LA CAPTIVITÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "PHILEMON",
+          "target": "PHILÉMON",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CARAVANSARY",
+      "article_id": "isbe-bc5deedd6ec57647cada",
+      "source_article_sha256": "2a6a9950990faace895c8bed4f1e87413087f31e54600d2c54fe7892d2bb0685",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CARAVANSARY",
+          "target": "CARAVANSÉRAIL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar-a-van'-sa-ri.",
+          "target": "kar-a-van'-sa-ri.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "INN",
+          "target": "HÔTELLERIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CARBUNCLE",
+      "article_id": "isbe-88c10bd0a54a6b406711",
+      "source_article_sha256": "9326e5e9fa59f539fc8ee50fb84908b2a7651700e4fc2cc94c7f66d214f4b653",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CARBUNCLE",
+          "target": "ESCARBOUCLE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar'-bun-k'-l.",
+          "target": "kar'-bun-k'-l.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "STONES, PRECIOUS",
+          "target": "PIERRES PRÉCIEUSES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CARMANIANS",
+      "article_id": "isbe-cd12c9ef85c8b3179197",
+      "source_article_sha256": "98d58fac03efb4fd007872eec8594f53a5ffa1e3e0666caf053f066f19a36592",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CARMANIANS",
+          "target": "CARMANIENS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar-ma'-ni-anz.",
+          "target": "kar-ma'-ni-anz.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CARMONIANS",
+          "target": "CARMONIENS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CASPIN; CASPIS",
+      "article_id": "isbe-c0eebca26c64dfbe88a5",
+      "source_article_sha256": "6d9351b9115544e63baf816fdaab82343bdf089a0890d8104c8f29a649629c75",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CASPIN; CASPIS",
+          "target": "CASPIN ; CASPIS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kas'-pin, kas'-pis.",
+          "target": "kas'-pin, kas'-pis.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CASPHOR",
+          "target": "CASPHOR",
+          "action": "preserve",
+          "reason": "Historical name or cross-reference display retained verbatim"
+        }
+      ]
+    }
+  ]
+}
