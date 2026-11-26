@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AZUR",
+      "article_id": "isbe-53178224ab818c86798d",
+      "source_article_sha256": "a3d1a74ff7f7d9eaf7356df837c7f69b9d1558cadc6b42cbe447f27bf5d407aa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZUR",
+          "target": "AZUR",
+          "action": "preserve",
+          "reason": "Original biblical proper-name headword unchanged"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-zur. See ",
+          "target": "a'-zur. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AZZUR",
+          "target": "AZZUR",
+          "action": "preserve",
+          "reason": "Original proper-name reference label intentionally retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BACHRITE",
+      "article_id": "isbe-97edcdda48ce6233af8c",
+      "source_article_sha256": "23d90df2dc79157278f2d0364308a40ca162875d391dffc05aac0fa718eba756",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BACHRITE",
+          "target": "BACHRITE",
+          "action": "preserve",
+          "reason": "Original biblical proper-name headword unchanged"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bak'-rit. See ",
+          "target": "bak'-rit. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BECHER",
+          "target": "BÉKER",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BACKSIDE",
+      "article_id": "isbe-f4e409c5ea140135066a",
+      "source_article_sha256": "3fa71afb5461bd00fafabcefdcceb75f54adf8f1aedacdab568caba2453cf3db",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BACKSIDE",
+          "target": "PARTIE ARRIÈRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bak'sid': See ",
+          "target": "bak'sid': Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BACK",
+          "target": "DOS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAJITH",
+      "article_id": "isbe-1bfacd02ce37cbeb89fb",
+      "source_article_sha256": "7b100abae3ec9bb406b36ec5c6ea76f0fd319e35b14b7a0a174bcbc4a6567149",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAJITH",
+          "target": "BAJITH",
+          "action": "preserve",
+          "reason": "Original biblical proper-name headword unchanged"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-jith.",
+          "target": "ba'-jith.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BAYITH",
+          "target": "BAYITH",
+          "action": "preserve",
+          "reason": "Original proper-name reference label intentionally retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BAKING",
+      "article_id": "isbe-ced9be51233608884230",
+      "source_article_sha256": "1a823fa02936b48ea4b0c282920edfc26cb405c35d2709955472fb31599a3292",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAKING",
+          "target": "CUISSON AU FOUR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bak'-ing.",
+          "target": "bak'-ing.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BREAD",
+          "target": "PAIN",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
