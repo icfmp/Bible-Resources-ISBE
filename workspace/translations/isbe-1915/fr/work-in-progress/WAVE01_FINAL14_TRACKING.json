@@ -49,7 +49,7 @@
       "source_article_sha256": "e5ea488ff742619daf9298fb35a3ec5c54407280b26df1157a95fa6f2725ba0f",
       "original_markdown_paragraphs": 131,
       "source_template_characters": 67876,
-      "working_translation_status": "original_source_only_no_french_draft"
+      "working_translation_status": "complete_draft_pending_editorial_review"
     },
     {
       "index": 604,
@@ -133,7 +133,7 @@
       "working_translation_status": "complete_draft_pending_editorial_review"
     }
   ],
-  "status_note": "Nine complete source-locked unreviewed first drafts on draft PR #160. Five originals still untranslated. Merged main remains 986/1000 wave-01 until PR merge. Independent bilingual approvals: 0.",
+  "status_note": "Ten complete source-locked unreviewed French first drafts on draft PR #160, four originals still untranslated. Main remains 986/1000 until merge; independent bilingual editorial approvals 0.",
   "source_flags": [
     {
       "key": "ALTAR",
@@ -334,6 +334,48 @@
       "block": 132,
       "witness": "more especially ...",
       "note": "Historical author's quotation preserved as a distinct claim, no modern updates"
+    },
+    {
+      "key": "ANTHROPOLOGY",
+      "block": 62,
+      "witness": "Neither shall a man (gebher) put on a woman's garment",
+      "note": "Source quote connected to Deut 22:5 but may be paraphrased or mismatched; preserved wording in French and English source unchanged"
+    },
+    {
+      "key": "ANTHROPOLOGY",
+      "block": 122,
+      "witness": "personably, linking into to",
+      "note": "Source appears corrupted for personality/linking him; contextual French 'personnalité' used, English unchanged"
+    },
+    {
+      "key": "ANTHROPOLOGY",
+      "block": 122,
+      "witness": "1 Joh 3:2",
+      "note": "Possible source reference anomaly; 1 prefix and original Scripture cRef preserved exactly in French"
+    },
+    {
+      "key": "ANTHROPOLOGY",
+      "block": 133,
+      "witness": "as has lust been seen",
+      "note": "Likely source typo for just; translated contextually sans modifier l'original."
+    },
+    {
+      "key": "ANTHROPOLOGY",
+      "block": 182,
+      "witness": "pre-adamitism / dark-colored races",
+      "note": "Historically dated racial theory translated as a claim attributed to past theorists, not present-day scientific or editorial endorsement."
+    },
+    {
+      "key": "ANTHROPOLOGY",
+      "block": 260,
+      "witness": "savage",
+      "note": "Pejorative historical term of source rendered as quoted historical appellation; no endorsement of period's anthropology"
+    },
+    {
+      "key": "ANTHROPOLOGY",
+      "block": 251,
+      "witness": "12,000 to 15,000 years",
+      "note": "Dated chronological estimate from 1915 retained verbatim without editorial updating"
     }
   ]
 }
