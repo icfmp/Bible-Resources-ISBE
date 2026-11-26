@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CASTLE",
+      "article_id": "isbe-267a620ee71e02ed3136",
+      "source_article_sha256": "ec4d4cf038d27e8f61843bf66290e292ba0047a4acdb0e46a318fe1bbb33dd0e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CASTLE",
+          "target": "CHÂTEAU FORT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kas'-'-l.",
+          "target": "kas'-'-l.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "FORTIFICATION",
+          "target": "FORTIFICATION",
+          "action": "preserve",
+          "reason": "Historical name or cross-reference display retained verbatim"
+        }
+      ]
+    },
+    {
+      "source_key": "CELOSYRIA",
+      "article_id": "isbe-860d726f6b463279c672",
+      "source_article_sha256": "bc8364fbe60c29be8ff0fe86a84a746e629ca520d6ebb18fcbdb16967b3dac7b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CELOSYRIA",
+          "target": "CŒLÉSYRIE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "se-lo-sir'-i-a.",
+          "target": "se-lo-sir'-i-a.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "COELE-SYRIA",
+          "target": "CŒLÉSYRIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CENSUS",
+      "article_id": "isbe-8095ff6d38d9d4cc85d1",
+      "source_article_sha256": "b8ce75fb0f73e38260a2e5b5207350953aed7a58f7f6852da8df964fb9a10f04",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CENSUS",
+          "target": "RECENSEMENT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "sen'-sus.",
+          "target": "sen'-sus.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "DAVID",
+          "target": "DAVID ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "QUIRINIUS",
+          "target": "QUIRINIUS",
+          "action": "preserve",
+          "reason": "Historical name or cross-reference display retained verbatim"
+        }
+      ]
+    },
+    {
+      "source_key": "CEPHAS",
+      "article_id": "isbe-fc19f98231abac9ffceb",
+      "source_article_sha256": "6bdb86e8a020c1adafbb9f2059242653c64daf28e79a3792ff6bcb52a439fc56",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CEPHAS",
+          "target": "CÉPHAS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "se'-fas.",
+          "target": "se'-fas.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "PETER (SIMON)",
+          "target": "PIERRE (SIMON)",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHAIR",
+      "article_id": "isbe-ca14f38c2d0051252c05",
+      "source_article_sha256": "3d8b1f25b3c4a8b14394eb7b902f5f648aff026b5ab6af33e40ba2d26cf4bae8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHAIR",
+          "target": "SIÈGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "char.",
+          "target": "char.",
+          "action": "preserve",
+          "reason": "Historical name or cross-reference display retained verbatim"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SEAT",
+          "target": "SIÈGE ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "SEATS, CHIEF",
+          "target": "PLACES D'HONNEUR",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHANGE OF RAIMENT",
+      "article_id": "isbe-870de265c56724902767",
+      "source_article_sha256": "81d8d7d125b45dbcc73524044c7beda7cc80b7cf3becb8e6d967346b1d9c9ed7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHANGE OF RAIMENT",
+          "target": "VÊTEMENTS DE RECHANGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ra'-ment.",
+          "target": "ra'-ment.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "DRESS",
+          "target": "HABILLEMENT",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHARCHEMISH",
+      "article_id": "isbe-76256e056b57f9767db3",
+      "source_article_sha256": "28bcdf39bcc06e0121f02c021be768748b6d4bf4dd6de583d4b98ed21cd95dd2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHARCHEMISH",
+          "target": "KARKÉMISH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar'-ke-mish.",
+          "target": "kar'-ke-mish.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CARCHEMISH",
+          "target": "KARKÉMISH",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHELCIAS",
+      "article_id": "isbe-68e986221d698ccc7f7e",
+      "source_article_sha256": "4436df707061eb8026fa9f9f585bb52060f7791a6460b22706b6bcb32dfe2997",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHELCIAS",
+          "target": "CHELCIAS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword unchanged"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kel'-si-as.",
+          "target": "kel'-si-as.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "HELKIAS",
+          "target": "HELKIAS ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "HILKIAH",
+          "target": "HILKIA",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
