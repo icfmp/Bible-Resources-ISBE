@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CALF IMAGE",
+      "article_id": "isbe-9633bb0c80379a215e62",
+      "source_article_sha256": "0e30f5e5ec2661e0414b79bf8230781dbcf233c45840cfc140d9adc8632e23e3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CALF IMAGE",
+          "target": "IMAGE DU VEAU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "IMAGES",
+          "target": "IMAGES",
+          "action": "preserve",
+          "reason": "Reference display is a canonical name or identical in French"
+        }
+      ]
+    },
+    {
+      "source_key": "CALPHI",
+      "article_id": "isbe-71f63fcb86ef85db9aec",
+      "source_article_sha256": "d851a36d5e677c4370a417e136c81fd48426a196985b93c7179fd9d69a873dac",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CALPHI",
+          "target": "CALPHI",
+          "action": "preserve",
+          "reason": "Original headword is a proper name or also a valid French word"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kal'-fi",
+          "target": "kal'-fi",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CHALPHI.",
+          "target": "CHALPHI.",
+          "action": "preserve",
+          "reason": "Reference display is a canonical name or identical in French"
+        }
+      ]
+    },
+    {
+      "source_key": "CAMP",
+      "article_id": "isbe-1879f84bfc3e6acfcf16",
+      "source_article_sha256": "9c66b6970585887d83dcd88d35078c3183dbcd2e3a6a7cb41fe7d180097006c9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAMP",
+          "target": "CAMP",
+          "action": "preserve",
+          "reason": "Original headword is a proper name or also a valid French word"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "WAR",
+          "target": "GUERRE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CAMPHIRE",
+      "article_id": "isbe-46f361b9eca6ccb543bb",
+      "source_article_sha256": "d68d4fa0ae074165a649372fc39be2e5b25b04a7afbd39adbadf655735f77c20",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAMPHIRE",
+          "target": "HENNÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kam'-fir.",
+          "target": "kam'-fir.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "HENNA",
+          "target": "HENNÉ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CANE",
+      "article_id": "isbe-720202b1fb68e551879a",
+      "source_article_sha256": "776a6568da52433bf409565f674648496c9927ef939feaad5d92f09b277a993d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CANE",
+          "target": "CANNE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kan.",
+          "target": "kan.",
+          "action": "preserve",
+          "reason": "Reference display is a canonical name or identical in French"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "REED",
+          "target": "ROSEAU",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CANKER",
+      "article_id": "isbe-7a780c36e2cf39deef36",
+      "source_article_sha256": "bcb00b9b74e8d0c8478b21601ef6cf828007a3cb8b887e983bf5f3a655106627",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CANKER",
+          "target": "GANGRÈNE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kan'-ker.",
+          "target": "kan'-ker.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "GANGRENE",
+          "target": "GANGRÈNE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CAPH",
+      "article_id": "isbe-16b9f0fc6e4d2e902d4d",
+      "source_article_sha256": "e2558d55f54aeb484804c8a79bcb04f4d11acb468577729fa03aac9cca35fee0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAPH",
+          "target": "CAPH",
+          "action": "preserve",
+          "reason": "Original headword is a proper name or also a valid French word"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "KAPH",
+          "target": "KAPH",
+          "action": "preserve",
+          "reason": "Reference display is a canonical name or identical in French"
+        }
+      ]
+    },
+    {
+      "source_key": "CAR",
+      "article_id": "isbe-1c0d3a3a646a99cf5c25",
+      "source_article_sha256": "c606a7ba83d7f73d0fac8c138dbbd8af258cbc9c6e721f6a14a73aa27ccac50f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAR",
+          "target": "PALANQUIN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "PALANQUIN",
+          "target": "PALANQUIN",
+          "action": "preserve",
+          "reason": "Reference display is a canonical name or identical in French"
+        }
+      ]
+    },
+    {
+      "source_key": "CAREAH",
+      "article_id": "isbe-7dd8edd5b6f642b86d4a",
+      "source_article_sha256": "8eba21bf3113b69ed970364a6f07d5c97d409cba344958433a95678d18ead8b3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAREAH",
+          "target": "CAREAH",
+          "action": "preserve",
+          "reason": "Original headword is a proper name or also a valid French word"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka-re'-a.",
+          "target": "ka-re'-a.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "KAREAH",
+          "target": "KAREAH",
+          "action": "preserve",
+          "reason": "Reference display is a canonical name or identical in French"
+        }
+      ]
+    },
+    {
+      "source_key": "CAREFUL; CAREFULNESS",
+      "article_id": "isbe-d1918842f16fb79cb30c",
+      "source_article_sha256": "3503f5971a0001f86be060d1fab0ef0d8d761f8466543f72c1b91002f7e28e8a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAREFUL; CAREFULNESS",
+          "target": "ATTENTIF ; ATTENTION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CARE",
+          "target": "SOIN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CARME",
+      "article_id": "isbe-a43e3178907fb2b6087e",
+      "source_article_sha256": "e0c33264d5946e7a6867015397dfde59a6d6b8993bb3d00e774c04626d673b5b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CARME",
+          "target": "CARME",
+          "action": "preserve",
+          "reason": "Original headword is a proper name or also a valid French word"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CHARME",
+          "target": "CHARME",
+          "action": "preserve",
+          "reason": "Reference display is a canonical name or identical in French"
+        }
+      ]
+    },
+    {
+      "source_key": "CARNION",
+      "article_id": "isbe-c7702029ccec0ebc379a",
+      "source_article_sha256": "da8a501bcdae71f942cd139c37ce6b8dd3fecc7c74dd378cab1b972ed1ffa9e7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CARNION",
+          "target": "CARNION",
+          "action": "preserve",
+          "reason": "Original headword is a proper name or also a valid French word"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar'-ni-on.",
+          "target": "kar'-ni-on.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CARNAIM",
+          "target": "CARNAIM",
+          "action": "preserve",
+          "reason": "Reference display is a canonical name or identical in French"
+        }
+      ]
+    }
+  ]
+}
