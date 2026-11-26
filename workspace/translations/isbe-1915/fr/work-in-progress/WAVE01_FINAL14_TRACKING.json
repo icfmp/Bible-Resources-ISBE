@@ -67,7 +67,7 @@
       "source_article_sha256": "671b5a4a3fca05814a740c2a34e5c5392a5f1b1bb233ca83a0c64403dd77c58a",
       "original_markdown_paragraphs": 210,
       "source_template_characters": 47328,
-      "working_translation_status": "original_source_only_no_french_draft"
+      "working_translation_status": "complete_draft_pending_editorial_review"
     },
     {
       "index": 606,
@@ -133,7 +133,7 @@
       "working_translation_status": "original_source_only_no_french_draft"
     }
   ],
-  "status_note": "Six complete source-locked unreviewed first drafts on draft PR #160; eight original articles still untranslated; main remains 986/1000 until merge; editorial approvals remain 0.",
+  "status_note": "Seven complete full source-locked first drafts on PR #160, remaining seven originals untranslated. No independently approved entries; main 986/1000.",
   "source_flags": [
     {
       "key": "ALTAR",
@@ -154,6 +154,36 @@
       "block": 149,
       "original": "at tach",
       "note": "Likely source digitization split of attach; translated naturally without changing original"
+    },
+    {
+      "key": "APOCRYPHA",
+      "block": 81,
+      "witness": "Jewish and Christian canons",
+      "note": "Historical phrasing is possibly an erroneous reading for writings; preserved contextually in French pending printed witness"
+    },
+    {
+      "key": "APOCRYPHA",
+      "block": 90,
+      "witness": "New Testament Apocrypha",
+      "note": "Source label seems inconsistent with following Old Testament list; French introduces Old Testament list on its evident contents, no English source changed"
+    },
+    {
+      "key": "APOCRYPHA",
+      "block": 134,
+      "witness": "The Ac of Paul",
+      "note": "Source likely truncated Acts; contextual French Actes; witness collation pending"
+    },
+    {
+      "key": "APOCRYPHA",
+      "block": 189,
+      "witness": "The So of the Three Holy Children",
+      "note": "Apparent abbreviated Song, contextual French Cantique, original unchanged"
+    },
+    {
+      "key": "APOCRYPHA",
+      "block": 156,
+      "witness": "final destruction of Jerusalem in 71 AD",
+      "note": "Historical date and Jamnia canon account are left as source's claims; no modern historical correction"
     }
   ]
 }
