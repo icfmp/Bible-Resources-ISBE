@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BIDE",
+      "article_id": "isbe-7c224e8ca2bd650cfb1a",
+      "source_article_sha256": "6c46e853ad327893d1df2cfe1f13ac2f6a41495fdec2e0f79a7e337ad10596b5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIDE",
+          "target": "BIDE",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bid: A variant of \"abide\" (which see); is the rendering of perimeno, in The Wisdom of Solomon 8:12 (the Revised Version (British and American) \"they shall wait for me\"). In ",
+          "target": "bid : Variante de « abide » (« demeurer » ; voir ce terme) ; traduit perimeno dans la Sagesse de Salomon 8.12 (la Revised Version, britannique et américaine, donne « ils m'attendront »). En ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the same word is translated \"wait for.\"",
+          "target": ", le même mot est rendu par « attendre ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BILHAH (2)",
+      "article_id": "isbe-7086db15e379c31ebd46",
+      "source_article_sha256": "f615a975d36df033e144c0423f2043fd2318e6d07de3b644152e2c77ee2c4047",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BILHAH (2)",
+          "target": "BILHA (2)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bil'-ha (place) (bilhah; Codex Alexandrinus, Balaa; Codex Vaticanus, Abella): A city in Simeon (",
+          "target": "bil'-ha (lieu) (bilhah ; Codex Alexandrinus, Balaa ; Codex Vaticanus, Abella) : Ville de Siméon (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") = Baalah (",
+          "target": ") = Baala (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), Balah (",
+          "target": "), Bala (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), and Baalath (",
+          "target": ") et Baalath (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). Unidentified.",
+          "target": "). Non identifiée.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BILHAN (3)",
+      "article_id": "isbe-e8fe2d0743cf769974ed",
+      "source_article_sha256": "2aa0a1c588c7d453fc79f4bb48a20944c85aea6f26361a2f2d23b0c45e99e7b5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BILHAN (3)",
+          "target": "BILHAN (3)",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bil'-han (bilhan; Balaan) :",
+          "target": "bil'-han (bilhan ; Balaan) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A Horite chief, son of Ezer (",
+          "target": "(1) Chef horite, fils d'Étser (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) A descendant of Benjamin, son of Jediael, father of seven sons who were heads of houses in their tribes (",
+          "target": "(2) Descendant de Benjamin, fils de Jediaël et père de sept fils, chefs de familles dans leurs tribus (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BISHOPRICK",
+      "article_id": "isbe-64d3afb1d4a28c2f0061",
+      "source_article_sha256": "590271cf2405c9e063a86d6e8a1489693e24de0cdb100a838834b715429c1064",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BISHOPRICK",
+          "target": "CHARGE ÉPISCOPALE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bish'-up-rik (episkope; ",
+          "target": "bish'-up-rik (episkope ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the King James Version, quoted from ",
+          "target": " dans la King James Version, cité d'après ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "): the Revised Version (British and American) \"office,\" margin, \"overseership.\"",
+          "target": ") : la Revised Version (britannique et américaine) rend le terme par « fonction », avec en note « charge de surveillance ».",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "BISHOP",
+          "target": "ÉVÊQUE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIZTHA",
+      "article_id": "isbe-5db36016028c337bc04e",
+      "source_article_sha256": "5de2ff8f5bcb4cb52346303e0be64ccd9b4034b3fbd1379543759491ccf13a14",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIZTHA",
+          "target": "BIZTHA",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "biz'-tha (Septuagint Mazan; also Bazan and Bazea): One of the seven eunuchs or chamberlains of King Ahasuerus (Xerxes). It is possible that the name is derived from the Persian besteh, \"bound,\" hence, \"eunuch\" (",
+          "target": "biz'-tha (Septante : Mazan ; également Bazan et Bazea) : L'un des sept eunuques ou chambellans du roi Assuérus (Xerxès). Il est possible que le nom dérive du persan besteh, « lié », d'où « eunuque » (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLAZE",
+      "article_id": "isbe-037f0479b84750ba248b",
+      "source_article_sha256": "227af9f03436f7104aaa8e50aa4cd769db7fbe25a7ca5761dcbd7115bd216cba",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLAZE",
+          "target": "PROCLAMER PUBLIQUEMENT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "blaz (\"to publish\"): Found only in the King James Version of ",
+          "target": "blaz (« publier ») : Se rencontre seulement dans la King James Version en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", for Greek diaphemizein, translated by the Revised Version (British and American) \"spread abroad,\" as in ",
+          "target": ", pour le grec diaphemizein, que la Revised Version (britannique et américaine) traduit par « répandre au loin », comme en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLOODTHIRSTY",
+      "article_id": "isbe-f5d5b2f477599d852928",
+      "source_article_sha256": "31154424d77c10e955001fdf8e49b9327bc72a42ad87542dae909c77835bfd7e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLOODTHIRSTY",
+          "target": "ASSOIFFÉ DE SANG",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "blud'-thurs-ti ('anshe damim, \"men of blood\"): This occurs in the King James Version only in ",
+          "target": "blud'-thurs-ti ('anshe damim, « hommes de sang ») : Cette expression se trouve dans la King James Version uniquement en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; in the Revised Version (British and American), ",
+          "target": " ; dans la Revised Version (britannique et américaine), elle figure en ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "BLOODY",
+          "target": "SANGLANT",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOCHERU",
+      "article_id": "isbe-e855c1631ee038765433",
+      "source_article_sha256": "d696b233d582e3a2091d141f227fc98bc342ed21206fd568c25e9863bd87f7c7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOCHERU",
+          "target": "BOKERU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bo'-ke-roo (bokheru): A son of Azrikam, Saul's descendant (",
+          "target": "bo'-ke-roo (bokheru) : Fils d'Azrikam, descendant de Saül (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). For the ending (\"-u\"), compare the forms gashmu (",
+          "target": "). Pour la terminaison « -u », comparer les formes gashmu (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ") and melikhu (",
+          "target": ") et melikhu (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " the King James Version and the Revised Version, margin).",
+          "target": ", King James Version et note marginale de la Revised Version).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOLLED",
+      "article_id": "isbe-f4a5be3076bc83874700",
+      "source_article_sha256": "5c024ee4b5ff13f18dc0773b6582afae6d515218921a08191c445c45741436a7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOLLED",
+          "target": "EN FLEUR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bold (gibh`ol, \"the calyx of flowers\"): Hence, \"in bloom,\" and so rendered, in the Revised Version (British and American), of flowering flax (",
+          "target": "bold (gibh`ol, « calice des fleurs ») : Signifie donc « en fleur », sens retenu par la Revised Version (britannique et américaine) à propos du lin en fleurs (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOOZ",
+      "article_id": "isbe-b9337bd31d8625fce17a",
+      "source_article_sha256": "e8e0eed151d9e372a38a0432199e8ee5865075e4110c9ad224ed2719f96de06e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOOZ",
+          "target": "BOOZ",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bo'-oz (TR, Booz; Westcott and Hort, The New Testament in Greek, Boes): the King James Version, Greek form of Boaz (thus, the Revised Version (British and American)) (",
+          "target": "bo'-oz (Texte reçu : Booz ; Westcott et Hort, The New Testament in Greek : Boes) : Forme grecque de Boaz dans la King James Version, tandis que la Revised Version (britannique et américaine) donne Boaz (",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
