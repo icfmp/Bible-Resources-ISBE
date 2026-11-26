@@ -6,34 +6,36 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "200_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "300_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 200,
-    "complete_first_drafts": 202,
-    "remaining_undrafted": 798
+    "new_complete_drafts_on_branch": 300,
+    "complete_first_drafts": 302,
+    "remaining_undrafted": 698
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1245
+    "complete_first_drafts_across_main_and_current_branch": 1345
   },
   "source_queue": {
     "rounds_completed": [
       "round-001",
-      "round-002"
+      "round-002",
+      "round-003"
     ],
-    "original_article_templates": 200,
-    "verified_unique_article_ids": 200,
-    "original_mutable_tei_units_covered": 734,
+    "original_article_templates": 300,
+    "verified_unique_article_ids": 300,
+    "original_mutable_tei_units_covered": 1094,
     "round_paths": [
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-001",
-      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-002"
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-002",
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-003"
     ],
-    "checks": "100/100 complete drafts in each of two source-locked rounds. SHA-256 article identity and TEI patch-unit inventory verified; independent editorial review remains a separate gate."
+    "checks": "100/100 complete drafts in each of three source-locked 100-entry rounds. Canonical source article IDs and article SHA-256 fingerprints of new first drafts matched original queues, with no duplicate ID across rounds; independent bilingual editorial acceptance and publication remain separate."
   },
   "batch_files": [
     "0163-wave02-first05-source-locked.json",
@@ -54,9 +56,18 @@
     "0178-wave02-round002-next12.json",
     "0179-wave02-round002-next12.json",
     "0180-wave02-round002-next08.json",
-    "0181-wave02-round002-last08.json"
+    "0181-wave02-round002-last08.json",
+    "0182-wave02-round003-first12.json",
+    "0183-wave02-round003-next12.json",
+    "0184-wave02-round003-next12.json",
+    "0185-wave02-round003-next12.json",
+    "0186-wave02-round003-next12.json",
+    "0187-wave02-round003-next12.json",
+    "0188-wave02-round003-next12.json",
+    "0189-wave02-round003-next08.json",
+    "0190-wave02-round003-last08.json"
   ],
-  "last_translation_commit": "e80c68b49e82f442ec10ee8ac9680c8f5420bcd9",
+  "last_translation_commit": "39b5b556795b842328fa9ce956fde258f98f9d7b",
   "source_witness_and_display_flags": [
     {
       "key": "BALSAM",
@@ -107,7 +118,17 @@
       "key": "CENSUS; CHAIR; CANAANITESS",
       "kind": "display",
       "detail": "Consecutive historical internal references lack visible punctuation; French renders separators only inside editable link display slots, without changing original targets or canonical keys."
+    },
+    {
+      "key": "BEERA",
+      "kind": "source_witness",
+      "detail": "English original contains a Bible reference 1 Ch 7 37 without conventional colon; the citation digits and ancient Hebrew script are preserved."
+    },
+    {
+      "key": "CANANAEAN; CANAANITE",
+      "kind": "editorial_review",
+      "detail": "Distinguish historical Cananaean epithet (Simon) from Canaanite ethnicity at independent bilingual review; original internal link target and canonical key remain unchanged."
     }
   ],
-  "next_action": "Prepare a fresh round-003 queue for the next 100 undrafted originals from canonical source positions 1001–2000; keep original English immutable and save complete source-locked French first drafts by direct commits only. No PR until all 9,380 are drafted."
+  "next_action": "Prepare the next independent 100-article original English source queue (round-004) among the 698 still-undrafted canonical article keys 1001–2000; translate full originals with source-locked patches, direct commits, no PR."
 }
