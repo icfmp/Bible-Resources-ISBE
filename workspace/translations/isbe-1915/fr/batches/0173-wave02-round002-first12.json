@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AZEPHURITH",
+      "article_id": "isbe-7b33cadde8fa0c82e37e",
+      "source_article_sha256": "4e75e1996b4c63a599fefd76d772af6cd9dbbc8af64a560c61e4e04c2307c025",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZEPHURITH",
+          "target": "AZEPHURITH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "az-e-fu'-rith. See ",
+          "target": "az-e-fu'-rith. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARSIPHURITH",
+          "target": "ARSIPHURITH",
+          "action": "preserve",
+          "reason": "Original proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "AZURAN",
+      "article_id": "isbe-aad2577490b8078d0d1f",
+      "source_article_sha256": "33a68111be1f951c3345b23d0e4d5caa6b00419817801d20f9dc6fc66550e1a7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZURAN",
+          "target": "AZURAN",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "az'-u-ran, a-zu'-ran. See ",
+          "target": "az'-u-ran, a-zu'-ran. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AZARU",
+          "target": "AZARU",
+          "action": "preserve",
+          "reason": "Original proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BAAL (3)",
+      "article_id": "isbe-2e4b876d139712321f3e",
+      "source_article_sha256": "38e09eabf91856736323e33c804fc11f82631da8f692d441b282cf9e0d18b219",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAAL (3)",
+          "target": "BAAL (3)",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba`al; Baal ",
+          "target": "ba`al; Baal ",
+          "action": "preserve",
+          "reason": "Original proper-name reference label or source punctuation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". See ",
+          "target": ". Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BAALATH-BEER",
+          "target": "BAALATH-BEER",
+          "action": "preserve",
+          "reason": "Original proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BAAL-HAMON",
+      "article_id": "isbe-4caa99cbe2a46e915b8e",
+      "source_article_sha256": "492ba427a5167ca2bc8b87d18e997c95d8ef4d9123b0ab761341636b26301626",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAAL-HAMON",
+          "target": "BAAL-HAMON",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-al-ha'-mon. See ",
+          "target": "ba-al-ha'-mon. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BAAL (1)",
+          "target": "BAAL (1)",
+          "action": "preserve",
+          "reason": "Original proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BAAL-PEOR",
+      "article_id": "isbe-8e976a533ceface7e82e",
+      "source_article_sha256": "92b7acb2dd66524811cc4b9fbfade11461f99f48bd3dd86806c4246ee48ae140",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAAL-PEOR",
+          "target": "BAAL-PEOR",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-al-pe'-or. See ",
+          "target": "ba-al-pe'-or. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BAAL. (1)",
+          "target": "BAAL. (1)",
+          "action": "preserve",
+          "reason": "Original proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BAALBEK",
+      "article_id": "isbe-f479bdcf56cfe4cd11d9",
+      "source_article_sha256": "9487cb712593cb41c312c174db32f5f6c25a651fc3ca0323b88c541834c7202f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAALBEK",
+          "target": "BAALBEK",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bal'-bek, bal-bek'. See ",
+          "target": "bal'-bek, bal-bek'. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AVEN; ON",
+          "target": "AVEN; ON",
+          "action": "preserve",
+          "reason": "Original proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BAALE-JUDAH",
+      "article_id": "isbe-5c8f3af6738b4e09b126",
+      "source_article_sha256": "adfe5864816098d649658b90b47ad7504fa628bc6d11dea02fe7fe036b853cd9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAALE-JUDAH",
+          "target": "BAALÉ-JUDA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-al-e-joo'-da. See ",
+          "target": "ba'-al-e-joo'-da. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "KIRIATH-JEARIM",
+          "target": "KIRIATH-JEARIM",
+          "action": "preserve",
+          "reason": "Original proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BAANIAS",
+      "article_id": "isbe-907e1f4469179b290e35",
+      "source_article_sha256": "8a5704e72f1216e98f83a5b1a29d64589f2d8eacd9511097863f851e7e041c9f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAANIAS",
+          "target": "BAANIAS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-a-ni'as. See ",
+          "target": "ba-a-ni'as. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BANNEAS",
+          "target": "BANNEAS",
+          "action": "preserve",
+          "reason": "Original proper-name reference label or source punctuation retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Apocrypha).",
+          "target": " (Apocryphes).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BABYLON IN THE OLD TESTAMENT",
+      "article_id": "isbe-bdf95a1c7b0e4335ff2a",
+      "source_article_sha256": "c6ace87cb3a15d10a3e3987b44b81bfedec3467ff2f146881e54988c0b89377b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BABYLON IN THE OLD TESTAMENT",
+          "target": "BABYLONE DANS L'ANCIEN TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BABEL",
+          "target": "BABEL ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BABYLON",
+          "target": "BABYLONE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BABYLONIAN CAPTIVITY",
+      "article_id": "isbe-29775f8c50cd3ebbd78b",
+      "source_article_sha256": "f9388800ac3cd06ac7b23534be8e3610e26feb6ddef553ef0e527f8a5d280602",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BABYLONIAN CAPTIVITY",
+          "target": "CAPTIVITÉ BABYLONIENNE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CAPTIVITY",
+          "target": "CAPTIVITÉ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BALASAMUS",
+      "article_id": "isbe-94c84d6c137884834eb9",
+      "source_article_sha256": "bf083783e1d330344b809aea5243a11a7d51e5d369871573b2b02c17c266de13",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BALASAMUS",
+          "target": "BALASAMUS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-las'-a-mus.",
+          "target": "ba-las'-a-mus.",
+          "action": "preserve",
+          "reason": "Historical original pronunciation or canonical transliteration retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BAALSAMUS",
+          "target": "BAALSAMUS",
+          "action": "preserve",
+          "reason": "Original proper-name reference label or source punctuation retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BALD LOCUST",
+      "article_id": "isbe-d63ce5c2c90e004b5ed1",
+      "source_article_sha256": "a4de1da0f3fe08132251073cc816916be1c1636c2669b0ae4208fffdb8630204",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BALD LOCUST",
+          "target": "SAUTERELLE CHAUVE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bold lo'kust.",
+          "target": "bold lo'kust.",
+          "action": "preserve",
+          "reason": "Historical original pronunciation or canonical transliteration retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "LOCUST",
+          "target": "SAUTERELLE",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
