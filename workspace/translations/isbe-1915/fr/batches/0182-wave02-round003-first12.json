@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "AZAZ",
+      "article_id": "isbe-9fd3dd454e912a3ea9aa",
+      "source_article_sha256": "907b9d52c993ffec6bbb5bbbaa09fb44c3172fd0d62ac0cb14f05d4bd19b7b74",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZAZ",
+          "target": "AZAZ",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-zaz `azaz, (\"powerful\"): A descendant of Reuben (",
+          "target": "a'-zaz `azaz (« puissant ») : descendant de Ruben (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AZBUK",
+      "article_id": "isbe-388db5106ec6c14552c6",
+      "source_article_sha256": "19e5d3645e942f33f52b789c2dc2c3fad09a732f041c2bc77fcac4b3996264e2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZBUK",
+          "target": "AZBUK",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "az'-buk `azbuk: The father of a certain Nehemiah--not the great governor of the same name, though a contemporary (",
+          "target": "az'-buk `azbuk : père d'un certain Néhémie, qu'il ne faut pas confondre avec le grand gouverneur du même nom, bien qu'il ait été son contemporain (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AZEM",
+      "article_id": "isbe-84d21f93260776b0657f",
+      "source_article_sha256": "96e37cbe1ecf0a538a63775c12e545de6d7cf01a26944c2ffdbd4969888bb1ea",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZEM",
+          "target": "AZEM",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-zem: the King James Version form for Ezem (thus the Revised Version (British and American)) (",
+          "target": "a'-zem : forme employée dans la King James Version pour Ézem, nom retenu par la Revised Version (britannique et américaine) (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AZIEI",
+      "article_id": "isbe-1b4c600a8bc2bd9496b3",
+      "source_article_sha256": "af990a712487a27e592d90a5180205076a144365041ae06cd520840a86c46739",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZIEI",
+          "target": "AZIEI",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-zi'-e-i: An ancestor of Ezra (2 Esdras 1:2). Compare Azariah (",
+          "target": "a-zi'-e-i : ancêtre d'Esdras (2 Esdras 1.2). Comparer Azaria (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") and Ozias (1 Esdras 8:2; the King James Version Ezias).",
+          "target": ") et Ozias (1 Esdras 8.2 ; Ezias dans la King James Version).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AZOR",
+      "article_id": "isbe-7fc3839ee91f4f394606",
+      "source_article_sha256": "7d16c51bcb04c217b14a2fe30c388fbf424b84577d0ecd3bf26fedf47ac4048f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZOR",
+          "target": "AZOR",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a'-zor Azor, \"help\"(?): An ancestor of Jesus Christ (",
+          "target": "a'-zor Azor, « secours » (?) : ancêtre de Jésus-Christ (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AZOTUS",
+      "article_id": "isbe-42541464274947dc5e22",
+      "source_article_sha256": "60eea355b4c6f8313b29ef9f604fa883cda46b4761ae1248dc7573eea64cd8e4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZOTUS",
+          "target": "AZOTUS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-zo'-tus. See ",
+          "target": "a-zo'-tus. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASHDOD",
+          "target": "ASDOD",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (1 Macc 9:15; ",
+          "target": " (1 Maccabées 9.15 ; ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "AZZAH",
+      "article_id": "isbe-c0ab73cc0e9e3fd097da",
+      "source_article_sha256": "7c0839aa654b687959fa31b0d42c9c851fa27f07cdce9e36f25973faa9b7f84d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "AZZAH",
+          "target": "AZZAH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "az'-a (`azzah, \"strong\"): the King James Version form (",
+          "target": "az'-a (`azzah, « forte ») : forme employée dans la King James Version (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ") for the Revised Version (British and American) \"Gaza.\"",
+          "target": ") là où la Revised Version (britannique et américaine) donne « Gaza ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAALIM",
+      "article_id": "isbe-4700620a20a2b1848aa0",
+      "source_article_sha256": "4aea010f969bcc7ad878ed1de5f399bfc0b82dbc21d42f52886b6aa85d3ae869",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAALIM",
+          "target": "BAALIM",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-a-lim ha-be`alim: Plur. of ",
+          "target": "ba'-a-lim ha-be`alim : pluriel de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BAAL",
+          "target": "BAAL",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAARA",
+      "article_id": "isbe-71da1a4cd88ffb09e562",
+      "source_article_sha256": "ee5abec639b14039e70f735040add5aa963c7911898e28328e303dfc8d8e0abd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAARA",
+          "target": "BAARA",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-a-ra ba`ara', (\"the burning one\"): A wife of the Benjamite Shaharaim (",
+          "target": "ba'-a-ra ba`ara' (« celle qui brûle ») : épouse de Shaharaïm, de la tribu de Benjamin (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BABYLONISH GARMENT",
+      "article_id": "isbe-dbd73476fc67f13ed8b7",
+      "source_article_sha256": "8a2bc9d820348b5aeb52f68931a772a76a1242b8e2b1e638e5a03a89d9255558",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BABYLONISH GARMENT",
+          "target": "VÊTEMENT BABYLONIEN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bab-i-lo'-nish gar'ment: In the King James Version, ",
+          "target": "bab-i-lo'-nish gar'ment : expression employée par la King James Version en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", for ",
+          "target": " pour ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BABYLONISH MANTLE",
+          "target": "MANTEAU BABYLONIEN",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", which see.",
+          "target": " ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BACCHURUS",
+      "article_id": "isbe-2bbd7bb4f6ffef8e260d",
+      "source_article_sha256": "54cea8a94c38f23c3245aef6387c54c466907e4697877a28160a71f35e3ed8a4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BACCHURUS",
+          "target": "BACCHURUS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-ka'-rus: Bakchouros: One of the \"holy singers\" who put away his \"strange wife\" (1 Esdras 9:24). Omitted in ",
+          "target": "ba-ka'-rus : Bakchouros, l'un des « chantres sacrés » qui renvoyèrent leur « femme étrangère » (1 Esdras 9.24). Il ne figure pas en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAHARUMITE; BARHUMITE",
+      "article_id": "isbe-f490b0f8ae8c36c29e00",
+      "source_article_sha256": "92ef00de523ad25ed6fe98ab8fed917658b1e2ba65c8cea483fb04b238bb0d3b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAHARUMITE; BARHUMITE",
+          "target": "BAHARUMITE ; BARHUMITE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-ha'-rum-it; bar-hu'-mit (",
+          "target": "ba-ha'-rum-it ; bar-hu'-mit (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "): A native of ",
+          "target": ") : habitant de ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BAHURIM",
+          "target": "BAHURIM",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
