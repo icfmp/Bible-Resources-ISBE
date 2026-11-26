@@ -1,0 +1,1112 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BISHLAM",
+      "article_id": "isbe-e7c5ad1235c00fbf5964",
+      "source_article_sha256": "ae9dee8768889287ed8ac3835d48976c4cb300ec80d277e71560f586c19f533a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BISHLAM",
+          "target": "BISCHLAM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bish'-lam (bishlam, \"peaceful\" (?)): One of three foreign colonists who wrote a letter of complaint against the Jews to Artaxerxes (",
+          "target": "bish'-lam (bishlam, « paisible » (?)) : L'un des trois colons étrangers qui adressèrent à Artaxerxès une lettre de plainte contre les Juifs (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " = 1 Esdras 2:16). In 1 Esdras the reading is \"Belemus.\" \"And in the days of Artaxerxes wrote Bishlam, Mithredath, Tabeel, and the rest of his companions, unto Artaxerxes, king of Persia,\" etc. (",
+          "target": " = 1 Esdras 2.16). Dans 1 Esdras, la leçon est « Belemus ». « Au temps d'Artaxerxès, Bischlam, Mithredath, Thabeel et le reste de ses compagnons écrivirent à Artaxerxès, roi de Perse », etc. (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). The Septuagint renders Bishlam as en eirene, \"in peace,\" as though it were a phrase rather than a proper name; this is clearly an error.",
+          "target": "). La Septante rend Bischlam par en eirene, « en paix », comme s'il s'agissait d'une expression plutôt que d'un nom propre ; c'est manifestement une erreur.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BITHRON",
+      "article_id": "isbe-27641830c2021fd0d7e4",
+      "source_article_sha256": "0e54962107b7d46a87980fe1e837b5c3b6b353852d9328a97e5cfa2e42649298",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BITHRON",
+          "target": "BITHRON",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bith'-ron (ha-bithron; holen ten parateinousan, literally \"the entire (land) extending\"; ",
+          "target": "bith'-ron (ha-bithron ; holen ten parateinousan, littéralement « tout le [territoire] qui s'étend » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", \"the Bithron,\" i.e. the gorge or groove): Does not seem to be a proper name; rather it indicates the gorge by which Abner approached Mahanaim. Buhl (GAP, 121) favors identification with Wady `Ajlun, along which in later times a Ro road connected `Ajlun and Mahanaim. Others (Guthe, Kurz. bib. Worterbuch, under the word) incline to Wady esh Sha`ib.",
+          "target": ", « le Bithron », c'est-à-dire la gorge ou le ravin) : Il ne semble pas s'agir d'un nom propre ; il désigne plutôt la gorge par laquelle Abner s'approcha de Mahanaïm. Buhl (GAP, 121) préfère l'identification avec le Wady `Ajlun, le long duquel, à une époque ultérieure, une route « Ro » reliait `Ajlun et Mahanaïm. D'autres (Guthe, Kurz. bib. Worterbuch, à ce mot) penchent pour le Wady esh Sha`ib.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLESSED",
+      "article_id": "isbe-ccfe8f2867fe841e0bd4",
+      "source_article_sha256": "6b7762efab89938d22eb119a525f46d903645e86809dfdb924f054b0d37b79dd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLESSED",
+          "target": "BÉNI ; HEUREUX (BLESSED)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bles'-ed (barukh): Where God is referred to, this word has the sense of \"praise,\" as in ",
+          "target": "bles'-ed (barukh) : Lorsqu'il s'agit de Dieu, ce mot a le sens de « louer », comme en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", \"Blessed be Yahweh, the God of Israel.\" But where man is in mind it is used in the sense of \"happy\" or \"favored,\" and most frequently so in the Psalms and the Gospels, as for example, \"Blessed is the man that walketh not in the counsel of the wicked\" (",
+          "target": ", « Béni soit Yahvé, le Dieu d'Israël. » Mais lorsqu'il s'agit de l'homme, il est employé au sens de « heureux » ou « favorisé », le plus souvent dans les Psaumes et les Évangiles, par exemple : « Heureux l'homme qui ne marche pas selon le conseil des méchants » (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); \"Blessed art thou among women\" (",
+          "target": ") ; « Tu es bénie entre les femmes » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); \"Blessed are the poor in spirit\" (",
+          "target": ") ; « Heureux les pauvres en esprit » (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "BEATITUDES",
+          "target": "BÉATITUDES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLESSEDNESS",
+      "article_id": "isbe-204ad5434d3e442c9a8e",
+      "source_article_sha256": "bdfda5501a7ae9ec3a66056e428305efd4fb8d2e1f0a35e25a4996b46073be6d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLESSEDNESS",
+          "target": "BÉATITUDE (BLESSEDNESS)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bles'-ed-nes: This translation of makarismos (a word signifying \"beatification\" or \"the ascription of blessing\"), is used but three times, in ",
+          "target": "bles'-ed-nes : Cette traduction de makarismos (mot signifiant « béatification » ou « proclamation de bénédiction ») n'est employée que trois fois, en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", and ",
+          "target": ", et en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", in the King James Version only. In the first two instances it refers to the happy state or condition of a man to whom Christ's righteousness is imputed by faith, and in the last to a man's experience of that condition.",
+          "target": ", uniquement dans la King James Version. Dans les deux premiers cas, elle désigne l'état heureux de l'homme auquel la justice du Christ est imputée par la foi ; dans le dernier, l'expérience que fait l'homme de cet état.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "HAPPINESS",
+          "target": "BONHEUR",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLESSING, CUP OF",
+      "article_id": "isbe-45db857e7b3060ddeb62",
+      "source_article_sha256": "9ee8fc6379c147542bb98c8aa34e497fc847da76691db43521a9dd626afb85cb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLESSING, CUP OF",
+          "target": "COUPE DE BÉNÉDICTION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "(to poterion tes eulogias, \"the consecrated cup,\" ",
+          "target": "(to poterion tes eulogias, « la coupe consacrée », ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): A technical term from the Jewish liturgy transferred to the Lord's Supper, and signifying the cup of wine upon which a blessing was pronounced. The suggestion that it carries with it a higher significance, as a cup that brings blessing, is not without force. The succeeding words, \"we bless,\" are equivalent to \"for which we give thanks.\" It was consecrated by thanksgiving and prayer.",
+          "target": ") : Terme technique de la liturgie juive, transposé à la cène du Seigneur, qui désigne la coupe de vin sur laquelle était prononcée une bénédiction. L'idée qu'elle revête une signification plus haute, celle d'une coupe qui apporte la bénédiction, n'est pas sans fondement. Les mots suivants, « que nous bénissons », équivalent à « pour laquelle nous rendons grâces ». Elle était consacrée par l'action de grâces et la prière.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See also ",
+          "target": "Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "CUP",
+          "target": "COUPE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLOODGUILTINESS",
+      "article_id": "isbe-ecdae6e2e20f21016939",
+      "source_article_sha256": "bd683d6b025a6fa90d6ea2a7fb03c6a2ff1462f6bebbd053ed75a15f1e2cb1aa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLOODGUILTINESS",
+          "target": "CULPABILITÉ DE SANG (BLOODGUILTINESS)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "blud-gilt'-i-nes: Found in the King James Version only in ",
+          "target": "blud-gilt'-i-nes : Ne se trouve dans la King James Version qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". The Revised Version (British and American) adds ",
+          "target": ". La Revised Version (britannique et américaine) ajoute ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " seems to indicate that the phrase does not necessarily signify bloodshed, but any grievous sin which, if it remains, will block God's favor to His land and people (compare ",
+          "target": " semble indiquer que l'expression ne désigne pas nécessairement une effusion de sang, mais tout péché grave qui, s'il subsiste, empêchera la faveur de Dieu de s'exercer envers son pays et son peuple (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": " is to be interpreted in this light.",
+          "target": " doit être interprété sous cet éclairage.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLOW",
+      "article_id": "isbe-603012b35e0ebd405d8a",
+      "source_article_sha256": "3d3a7042c0249b23c69bccc01fe2d9800ef0a0d846e07b09e433cb70d6ce59f3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLOW",
+          "target": "SOUFFLER ; COUP (BLOW)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "blo (nashaph): Used with reference to the wind (",
+          "target": "blo (nashaph) : Employé à propos du vent (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "; pneo, \"to breathe,\" ",
+          "target": " ; pneo, « respirer », ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "); taqa`, with reference to trumpet sound (",
+          "target": ") ; taqa`, à propos du son de la trompette (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " the King James Version; ",
+          "target": " dans la King James Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": "); puach, with reference to the strong expulsion of the breath (",
+          "target": ") ; puach, à propos de l'expulsion vigoureuse du souffle (",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": "); nashaph, with reference to a forcible slap or stroke with hand or an instrument (",
+          "target": ") ; nashaph, à propos d'une gifle ou d'un coup violent donné avec la main ou un instrument (",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": " the King James Version).",
+          "target": " dans la King James Version).",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "Frank E. Hirsch",
+          "target": "Frank E. Hirsch",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BODY OF HEAVEN",
+      "article_id": "isbe-a6017fb0c196de3bf938",
+      "source_article_sha256": "6d0fa74cc4e8f2f805c51276e975e37e06d051d336326fe41968e8ac6d2fa694",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BODY OF HEAVEN",
+          "target": "CORPS DU CIEL (BODY OF HEAVEN)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "The King James Version translates the Hebrew idiom, etsem ha-shamayim, by \"the body of heaven\" (",
+          "target": "La King James Version traduit l'expression idiomatique hébraïque etsem ha-shamayim par « the body of heaven » (le corps du ciel) (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). A more correct rendering is given in the Revised Version (British and American), \"the very heaven,\" taking the word `etsem in its idiomatic use as an intensive, which is derived from its literal meaning, \"bone,\" as \"strength,\" \"substance,\" and then as \"self\" (compare ",
+          "target": "). La Revised Version (britannique et américaine) donne une traduction plus exacte, « the very heaven » (le ciel même), en prenant le mot `etsem dans son emploi idiomatique comme intensif, issu de son sens littéral, « os », puis « force », « substance » et enfin « soi-même » (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); the substance of the blue, unclouded sky, hence, the clear sky itself.",
+          "target": ") ; il s'agit de la substance du ciel bleu, sans nuages, donc du ciel limpide lui-même.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BONDSERVANT",
+      "article_id": "isbe-fa16ac2ca6a403efdaa7",
+      "source_article_sha256": "6d56f8b1daf7e47207fb676a9f0da8c3c74799b0b9d6001b4a160712fa73a7d7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BONDSERVANT",
+          "target": "SERVITEUR ESCLAVE (BONDSERVANT)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bond'-sur-vant: Appears only once in the King James Version (",
+          "target": "bond'-sur-vant : Ne figure qu'une seule fois dans la King James Version (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") where it translates `ebhedh, \"a slave\": \"Thou shalt not cause him to render the service of a bondservant\" or slave. the Revised Version (British and American) frequently uses bondservant (doulos) instead of the word \"servant\" of the King James Version (",
+          "target": ") où il traduit `ebhedh, « un esclave » : « Tu ne lui feras pas accomplir le service d'un bondservant », c'est-à-dire d'un esclave. La Revised Version (britannique et américaine) emploie fréquemment « bondservant » (doulos) au lieu du mot « servant » (serviteur) de la King James Version (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "SLAVERY",
+          "target": "ESCLAVAGE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOOT",
+      "article_id": "isbe-9b1b03b57528e8923f73",
+      "source_article_sha256": "dfe235834b45227539a26eb90fbdc2e66e4f31fffcd9906e44d00d9d6cf535c4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOOT",
+          "target": "BOTTE (BOOT)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "boot (ce'on; the King James Version battle; the American Standard Revised Version \"armor\"; the American Revised Version, margin \"boot\"): The word ce'on, found only in ",
+          "target": "boot (ce'on ; « battle » [bataille] dans la King James Version ; « armor » [armure] dans l'American Standard Revised Version ; « boot » [botte] en marge de l'American Revised Version) : Le mot ce'on, qui ne se trouve qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Hebrew 9:4), is probably a loanword from the Assyrian senu, meaning \"shoe,\" \"sandal.\" The root has the same meaning in Aramaic and Ethiopic. The passage should be translated \"every boot of the booted warrior.\"",
+          "target": " (hébreu 9.4), est probablement un emprunt à l'assyrien senu, signifiant « chaussure », « sandale ». La racine a le même sens en araméen et en éthiopien. Le passage devrait être traduit : « toute botte du guerrier chaussé de bottes ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOSOR",
+      "article_id": "isbe-fb035c809e246851efb1",
+      "source_article_sha256": "23788d4e34c99f4951c24fd81b761515247e878ab203330fa43545d4ff41fa61",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOSOR",
+          "target": "BOSOR",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bo'-sor (Bosor):",
+          "target": "bo'-sor (Bosor) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A city named among those taken by Judas Maccabeus \"in the land of Gilead\" (1 Macc 5:26,36). From the towns named it is evident that this phrase is elastic, covering territory beyond what is usually called the land of Gilead. Possibly therefore Bosor may be identical with Bucr el-Chariri, in the Luchf, Southeast of el-Leja'.",
+          "target": "(1) Ville nommée parmi celles que prit Judas Maccabée « au pays de Galaad » (1 Maccabées 5.26, 36). D'après les villes citées, il est évident que cette expression a un sens assez large, englobant un territoire au-delà de ce qu'on appelle ordinairement le pays de Galaad. Bosor pourrait donc être identique à Bucr el-Chariri, dans le Luchf, au sud-est d'el-Leja'.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(2) In ",
+          "target": "(2) En ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " the King James Version, the Greek form of ",
+          "target": " dans la King James Version, forme grecque de ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "BEOR",
+          "target": "BEOR",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOTRYS",
+      "article_id": "isbe-3f273d3296eb71daa176",
+      "source_article_sha256": "512709777c51558759ecae1f82f765b1866fa585f219ea2c52bf75f6a2ea6d81",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOTRYS",
+          "target": "BOTRYS",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bot'-ris (Botrus; modern Batrun): A town of Phoenicia on the coast some miles North of Gebal (Byblus) on the southern side of the bold promontory called in classic times Theoprosopon. It is said to have been founded by Ithobal (Ethbaal), king of Tyre, whose daughter married Ahab (Josephus, Ant, VIII, xiii, 2). The town is not mentioned in Scripture.",
+          "target": "bot'-ris (Botrus ; aujourd'hui Batrun) : Ville de Phénicie, sur la côte, à quelques milles au nord de Guebal (Byblos), du côté méridional du promontoire escarpé appelé Theoprosopon à l'époque classique. Elle aurait été fondée par Ithobal (Ethbaal), roi de Tyr, dont la fille épousa Achab (Josèphe, Ant, VIII, xiii, 2). La ville n'est pas mentionnée dans l'Écriture.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BOUNDS",
+      "article_id": "isbe-649160644ec2460ddef8",
+      "source_article_sha256": "ee132ea3f76eac21a847f5a09efa2d3c38ce3599e5328f75c2297bd0fef44b30",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BOUNDS",
+          "target": "LIMITES (BOUNDS)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "boundz: gabhal = \"to twist\" (as a rope), \"to make an enclosure\" (as by a line) occurs in ",
+          "target": "boundz : gabhal = « tordre » (comme une corde), « former une enceinte » (comme au moyen d'une ligne), se rencontre en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "; gebhul = \"a cord,\" hence, \"a boundary,\" \"territory\" (",
+          "target": " ; gebhul = « corde », d'où « frontière », « territoire » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " the King James Version), with its feminine form gebhulah (",
+          "target": " dans la King James Version), avec sa forme féminine gebhulah (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "); choq = \"enactment,\" \"appointment\" (of time, space, quantity, labor, or usage), hence, \"commandment,\" \"decree,\" \"ordinance\" (",
+          "target": ") ; choq = « prescription », « fixation » (de temps, d'espace, de quantité, de travail ou d'usage), d'où « commandement », « décret », « ordonnance » (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " the King James Version); in the Greek, horothesia, in the sense of \"a limit,\" \"boundary line,\" occurs in ",
+          "target": " dans la King James Version) ; en grec, horothesia, au sens de « limite », « ligne de démarcation », se rencontre en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRAWLER",
+      "article_id": "isbe-e3935231871d183fb516",
+      "source_article_sha256": "ab4b799a871c0ce0b8317e8cdfd2ce2208a0fa725072224f0430283b36f8ed42",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRAWLER",
+          "target": "QUERELLEUR (BRAWLER)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "brol'-er (Qere midhyanim; Kethibh midhwanim, \"quarrelsomeness\"; amachos, \"not fighting\"): Spoken of the quarrelsome woman; \"a contentious (the King James Version \"brawling\") woman\" (",
+          "target": "brol'-er (Qere midhyanim ; Kethibh midhwanim, « esprit querelleur » ; amachos, « qui ne se bat pas ») : Se dit de la femme querelleuse : « une femme contestataire » (« brawling » [querelleuse] dans la King James Version) (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). He who seeks the office of a bishop should be \"no brawler\" (paroinos the King James Version \"given to wine,\" ",
+          "target": "). Celui qui aspire à la charge d'évêque ne doit pas être « querelleur » (paroinos, « given to wine » [adonné au vin] dans la King James Version, ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); \"not contentious\" (the King James Version \"not a brawler,\" ",
+          "target": ") ; il doit être « exempt d'esprit de dispute » (« not a brawler » [non querelleur] dans la King James Version, ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BREADTH",
+      "article_id": "isbe-3bb0eb1fd9515dce6181",
+      "source_article_sha256": "3580584cb0d6c0205ab8d693ff3c98c59869e2bc7e10e618ff651318125f9be7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BREADTH",
+          "target": "LARGEUR (BREADTH)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bredth (rochabh, the root idea being to make wide, spacious): A term of expanse or measurement used of the ark (",
+          "target": "bredth (rochabh, l'idée fondamentale étant de rendre large, spacieux) : Terme d'étendue ou de mesure employé à propos de l'arche (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); of the tabernacle (",
+          "target": ") ; du tabernacle (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); of Solomon's temple (",
+          "target": ") ; du temple de Salomon (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). platos, \"breadth,\" as of the celestial city (",
+          "target": "). platos, « largeur », par exemple celle de la cité céleste (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). Figuratively, of the comprehensiveness of God's law (",
+          "target": "). Au figuré, l'étendue de la loi de Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "); of the heart (",
+          "target": ") ; la largeur du cœur (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ", rendered \"largeness of heart\" English Versions); of God's immeasurable love (",
+          "target": ", rendue par « largeness of heart » [grandeur de cœur] dans les versions anglaises) ; l'amour incommensurable de Dieu (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRIDE-CHAMBER, SONS (CHILDREN) OF THE",
+      "article_id": "isbe-09304b7f1574ad35ac5b",
+      "source_article_sha256": "013c35ca07ae2ba0489892c8ccfcbeb951e35fc541325a4438bee97a15bd4c55",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRIDE-CHAMBER, SONS (CHILDREN) OF THE",
+          "target": "FILS (ENFANTS) DE LA CHAMBRE NUPTIALE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "(hoi huioi tou numphonos): These were friends or companions of the bridegroom and were usually very numerous (",
+          "target": "(hoi huioi tou numphonos) : C'étaient les amis ou compagnons de l'époux, généralement très nombreux (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). Any wedding guest might be included in the expression, or anyone who took part in the bridal procession and remained for the wedding-feast (see ",
+          "target": "). Tout invité aux noces pouvait être compris dans l'expression, ou quiconque participait au cortège nuptial et restait pour le festin de noces (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "MARRIAGE",
+          "target": "MARIAGE",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). In the above passages \"the sons of the bride-chamber\" are the disciples of Christ.",
+          "target": "). Dans les passages ci-dessus, « les fils de la chambre nuptiale » sont les disciples du Christ.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRIM",
+      "article_id": "isbe-ff36adfd2383a930b27c",
+      "source_article_sha256": "0742e352151a51042137228ab9085e1d196eaccc53c7c43462b69c301d0132e9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRIM",
+          "target": "BORD (BRIM)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "qatseh or qetseh = \"an extremity\" (in a variety of applications and idioms), \"border,\" \"edge,\" \"side,\" \"shore\" (",
+          "target": "qatseh ou qetseh = « extrémité » (dans diverses applications et expressions idiomatiques), « bordure », « bord », « côté », « rive » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the King James Version; the Revised Version (British and American) \"brink\"); also saphah or sepheth = \"edge,\" \"lip\" (",
+          "target": " dans la King James Version ; la Revised Version [britannique et américaine] donne « brink » [bord]) ; aussi saphah ou sepheth = « bord », « lèvre » (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", the adverb ano, is used to emphasize the verb egemisan = \"to fill,\" thus giving the idea of \"filling to the top.\"",
+          "target": ", l'adverbe ano est employé pour renforcer le verbe egemisan = « remplir », donnant ainsi l'idée de « remplir jusqu'en haut ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BROIDERED",
+      "article_id": "isbe-39899028700693d068f4",
+      "source_article_sha256": "e0e86f80a9aad932d00cf78ffd52515f80c6d46da5cc4560af15540a27449feb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROIDERED",
+          "target": "BRODÉ (BROIDERED)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "broid'-erd:",
+          "target": "broid'-erd:",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) riqmah, \"variegation of color\" (",
+          "target": "(1) riqmah, « diversité de couleurs » (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(2) tashbets, \"checkered stuff\" (as reticulated). The high priest's garments consisted of \"a breastplate, and an ephod, and a robe, and a broidered coat (",
+          "target": "(2) tashbets, « tissu à carreaux » (comme un réseau). Les vêtements du grand prêtre comprenaient « un pectoral, un éphod, une robe, une tunique brodée (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": " the King James Version; the Revised Version (British and American) \"a coat of checker work\"), a miter, and a girdle\";",
+          "target": " dans la King James Version ; la Revised Version [britannique et américaine] donne « a coat of checker work » [une tunique à carreaux]), une mitre et une ceinture » ;",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "(3) plegma, \"twined or plaited work\" (",
+          "target": "(3) plegma, « ouvrage torsadé ou tressé » (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": " the King James Version).",
+          "target": " dans la King James Version).",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "BRAIDED",
+          "target": "TRESSÉ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "EMBROIDERY",
+          "target": "BRODERIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BROKENHEARTED",
+      "article_id": "isbe-513326de186a0ca5e2be",
+      "source_article_sha256": "472c6b21163a5c9f0f093ceeae550dd0ec5ef5345e0e2b433eac1fe10c6e162e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROKENHEARTED",
+          "target": "CŒUR BRISÉ (BROKENHEARTED)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bro'-k'-n-har-ted (shabhar lebh; suntetrimmenoi ten kardian; ",
+          "target": "bro'-k'-n-har-ted (shabhar lebh ; suntetrimmenoi ten kardian ; ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " the King James Version; \"of a broken heart,\" ",
+          "target": " dans la King James Version ; « of a broken heart » [qui a le cœur brisé], ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "; \"broken in heart,\" ",
+          "target": " ; « broken in heart » [brisés de cœur], ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "): People who feel their spiritual bankruptcy and helplessness, and who long for the help and salvation of God. Such people are in the right condition to be met and blessed by God. Compare \"of contrite spirit\" (",
+          "target": ") : Personnes qui ressentent leur faillite et leur impuissance spirituelles et aspirent au secours et au salut de Dieu. De telles personnes sont dans la disposition voulue pour que Dieu vienne à leur rencontre et les bénisse. Comparer « qui a l'esprit contrit » (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BROTH",
+      "article_id": "isbe-791dd8a472ce896f021c",
+      "source_article_sha256": "7fe83cf3a1640a90a8a10c1e7ab06b4b66b46012f2ab3b34432a5a3810b9b7cf",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROTH",
+          "target": "BOUILLON (BROTH)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "broth (maraq): Equivalent to our \"soup.\" When Gideon (",
+          "target": "broth (maraq) : Équivalent de notre « soupe ». Lorsque Gédéon (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") made ready a kid, \"the flesh he put in a basket,\" but, it is added, \"he put the broth in a pot\"; and he is told by the angel to \"pour out the broth\" (",
+          "target": ") prépara un chevreau, « il mit la chair dans une corbeille », mais, est-il ajouté, « il mit le bouillon dans un pot » ; l'ange lui dit de « répandre le bouillon » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " makes Yahweh speak of rebellious Israel as \"a people that provoke me to my face continually sacrificing in gardens,\" and adds in description \"that eat swine's flesh, and broth of abominable things is in their vessels\" (maraq, paraq).",
+          "target": " fait dire à Yahvé, au sujet d'Israël rebelle, qu'il est « un peuple qui me provoque en face continuellement, sacrifiant dans des jardins », et ajoute dans sa description : « qui mange de la chair de porc et dont les vases contiennent du bouillon de choses abominables » (maraq, paraq).",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "FOOD",
+          "target": "NOURRITURE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BROTHERLY",
+      "article_id": "isbe-72d0ecf23411ea8e27da",
+      "source_article_sha256": "3b50624f44f66ecdc3efa41210b04c5b4f6a60c3fa1bd116bc792402d63a73e2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROTHERLY",
+          "target": "FRATERNEL (BROTHERLY)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bruth'-er-li ('ach, \"brother\"; philadelphia, \"brotherly love\"): Like a brother in all the large human relationships indicated above; e.g. the early friendly and fraternal alliance between Tyre and Israel as illustrated by \"brotherly covenant\" between David and Solomon, and Hiram, king of Tyre (",
+          "target": "bruth'-er-li ('ach, « frère » ; philadelphia, « amour fraternel ») : Comme un frère dans toutes les vastes relations humaines indiquées ci-dessus ; par exemple, l'ancienne alliance amicale et fraternelle entre Tyr et Israël, illustrée par « l'alliance fraternelle » entre David et Salomon d'une part, et Hiram, roi de Tyr, d'autre part (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), and repudiated in a later generation by the treachery of Tyre (",
+          "target": "), et reniée à une génération ultérieure par la trahison de Tyr (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "BROTHERLY KINDNESS (LOVE)",
+          "target": "AFFECTION FRATERNELLE (AMOUR)",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BROW",
+      "article_id": "isbe-aaa0583e2ec4dca58f40",
+      "source_article_sha256": "a3c9680ba9bde14043ff4078b521be26d64222b56ca61e39c28ca9498d78ec63",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROW",
+          "target": "FRONT ; ESCARPEMENT (BROW)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "brou: Is found in ",
+          "target": "brou : Se trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", \"thy brow brass\" as the translation of metsch, meaning \"to be clear,\" i.e. conspicuous. In ",
+          "target": ", « ton front est d'airain », comme traduction de metsch, signifiant « être clair », c'est-à-dire apparent. En ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " \"led him unto the brow of the hill\" is the rendering of ophras, literally \"the eyebrow,\" but used throughout Greek literature as any prominent point or projection of land (compare use of supercilium in Verg. Georg. i.108).",
+          "target": " « led him unto the brow of the hill » (ils le menèrent au bord escarpé de la colline) traduit ophras, littéralement « le sourcil », mais employé dans toute la littérature grecque pour désigner tout point saillant ou avancée de terrain (comparer l'emploi de supercilium dans Virgile, Georg. i.108).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRUIT",
+      "article_id": "isbe-e4a3ec2340980961862f",
+      "source_article_sha256": "5b664fb2023c357474b3f0ab0ebb3f96d91d2bf97454ed3371b43c43f3c02fe9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRUIT",
+          "target": "RUMEUR (BRUIT)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "broot (shema`): A word no longer in common use (marked \"archaic\" and \"obsolete\" by Murray), signifying a rumor or report. The word occurs in the King James Version ",
+          "target": "broot (shema`) : Mot qui n'est plus d'usage courant (qualifié d'« archaïque » et d'« obsolète » par Murray), signifiant une rumeur ou une nouvelle. Le mot se rencontre dans la King James Version en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (the Revised Version (British and American) \"rumour\"; the American Standard Revised Version \"tidings\") and the King James Version ",
+          "target": " (la Revised Version [britannique et américaine] donne « rumour » [rumeur] ; l'American Standard Revised Version « tidings » [nouvelles]) et dans la King James Version en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (the Revised Version (British and American) \"bruit,\" appendix. \"report\"; the American Standard Revised Version \"report\").",
+          "target": " (la Revised Version [britannique et américaine] donne « bruit », appendice « report » [nouvelle] ; l'American Standard Revised Version « report »).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BUKKI",
+      "article_id": "isbe-8902effb65ac9052681b",
+      "source_article_sha256": "f2529c61bd2beabc5dac440e0162c7c19b360c301b8c193a94f07ad5d095db4b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUKKI",
+          "target": "BUKKI",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "buk'-i (buqqi, \"mouth of Jah\"):",
+          "target": "buk'-i (buqqi, « bouche de Jah ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A Danite, son of the tribal prince Jogli (",
+          "target": "(1) Danite, fils de Jogli, prince de la tribu (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); he was one of the representative chiefs who assisted in the division of the land.",
+          "target": ") ; il était l'un des chefs représentants qui participèrent au partage du pays.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) Son of Abishua and father of Izzi, a priest, fourth in descent from Aaron, in the line of Eleazar (",
+          "target": "(2) Fils d'Abischua et père d'Izzi, prêtre, quatrième descendant d'Aaron, dans la lignée d'Éléazar (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "), and ancestor of Ezra (",
+          "target": "), et ancêtre d'Esdras (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). In 2 Esdras 1:2 the name appears as Borith, and in 1 Esdras 8:2 as Boccas.",
+          "target": "). Dans 2 Esdras 1.2, le nom apparaît sous la forme Borith, et dans 1 Esdras 8.2 sous la forme Boccas.",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}

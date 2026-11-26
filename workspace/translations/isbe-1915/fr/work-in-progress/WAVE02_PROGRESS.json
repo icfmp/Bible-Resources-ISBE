@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "512_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "600_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 512,
-    "complete_first_drafts": 514,
-    "remaining_undrafted": 486
+    "new_complete_drafts_on_branch": 600,
+    "complete_first_drafts": 602,
+    "remaining_undrafted": 398
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1557
+    "complete_first_drafts_across_main_and_current_branch": 1645
   },
   "source_queue": {
     "rounds_completed": [
@@ -27,27 +27,21 @@
       "round-002",
       "round-003",
       "round-004",
-      "round-005"
+      "round-005",
+      "round-006"
     ],
-    "original_article_templates": 500,
-    "verified_unique_article_ids": 500,
-    "original_mutable_tei_units_covered": 1848,
+    "original_article_templates": 600,
+    "verified_unique_article_ids": 600,
+    "original_mutable_tei_units_covered": 2332,
     "round_paths": [
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-001",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-002",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-003",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-004",
-      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-005"
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-005",
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-006"
     ],
-    "checks": "Five source-locked 100-article cohorts completed as Markdown drafts and TEI patches. Round 005 contains 100 distinct original canonical IDs and 411 mutable TEI text/tail units; all match the exact English source manifest. Original source may contain witness anomalies; editable translation status is unreviewed and publication is prohibited.",
-    "partial_round": {
-      "round": "round-006",
-      "english_templates_staged": 100,
-      "unreviewed_first_drafts_completed": 12,
-      "mutable_tei_units_translated": 63,
-      "source_locked_batch": "0209-wave02-round006-first12.json",
-      "publication_permitted": false
-    }
+    "checks": "Six completed 100-article cohorts. Round 006 contains 100 distinct source-locked manuscripts, 484 mutable units (63 previously committed, 421 in this cohort completion). Local transport slot-count and Git tree filename checks passed; full independent CI on the completion commit pending. No editorial approval."
   },
   "batch_files": [
     "0163-wave02-first05-source-locked.json",
@@ -96,9 +90,12 @@
     "0206-wave02-round005-next10.json",
     "0207-wave02-round005-next10.json",
     "0208-wave02-round005-last10.json",
-    "0209-wave02-round006-first12.json"
+    "0209-wave02-round006-first12.json",
+    "0210-wave02-round006-next20.json",
+    "0211-wave02-round006-next20.json",
+    "0212-wave02-round006-next24.json",
+    "0213-wave02-round006-last24.json"
   ],
-  "last_translation_commit": "216d8d8ccbe8c2907383d56f2caf336fe467973e",
   "source_witness_and_display_flags": [
     {
       "key": "BALSAM",
@@ -194,7 +191,61 @@
       "key": "CATERPILLAR; CHEEK TEETH",
       "kind": "source_reference",
       "detail": "Protected original biblical references display 'Joe' rather than Joel in multiple entries; links and cRef were retained exactly for source audit."
+    },
+    {
+      "key": "BELIE",
+      "kind": "source_witness",
+      "detail": "English witness reads 'belle'; retained explicitly."
+    },
+    {
+      "key": "BELLOWS",
+      "kind": "source_witness",
+      "detail": "English quotation reads 'the leads is of the fire'; retained verbatim with literal French explanation; witness collation required."
+    },
+    {
+      "key": "BERECHIAH",
+      "kind": "source_witness",
+      "detail": "English witness reads 'a Levee' and cites Zec 11:7 for the father of Zechariah; retained, requires witness review."
+    },
+    {
+      "key": "BITHRON",
+      "kind": "source_witness",
+      "detail": "English witness reads 'a Ro road'; anomalous token Ro retained."
+    },
+    {
+      "key": "CASTAWAY",
+      "kind": "source_witness",
+      "detail": "Source derives adokimos but gives positive gloss 'approved after being tested'; preserved rather than silently corrected."
+    },
+    {
+      "key": "CARNAIM",
+      "kind": "source_witness",
+      "detail": "Source reads 'Camion' at 2 Macc 12:21; retained."
+    },
+    {
+      "key": "BLOODGUILTINESS",
+      "kind": "source_witness",
+      "detail": "Source punctuation around Eze 18:13 and Ps 51 appears damaged; protected reference anchors and source sequence retained."
+    },
+    {
+      "key": "BLOW",
+      "kind": "source_witness",
+      "detail": "Protected source reference displays Joe 2:1, retained."
     }
   ],
-  "next_action": "Continue sixth cohort round-006 by translating the remaining 88 complete English originals; only five previous source queues are fully translated. Direct commits, no translation PR before all 9,380 first drafts; independent bilingual audits separate."
+  "next_action": "Stage round-007 of 100 shortest undrafted canonical articles within the 398 remaining positions 1001–2000; use compact JSONL source transport and grouped translation, one cohort commit. Verify independent CI before any acceptance; no PR before all 9380 first drafts.",
+  "previous_translation_commit": "216d8d8ccbe8c2907383d56f2caf336fe467973e",
+  "last_translation_tree": "70ce436d6ac3776abbb8ab7296bcdc1308df2222",
+  "last_cohort_completion": {
+    "round": "round-006",
+    "new_articles": 88,
+    "previous_articles": 12,
+    "total_articles": 100,
+    "source_mutable_units": 421,
+    "source_words_whitespace_count": 5933,
+    "source_blocks": 231,
+    "protected_keep_markers": 302,
+    "validation": "Ordered source slot count and Git tree coverage verified; full TEI and bridge CI pending",
+    "editorial_approvals": 0
+  }
 }

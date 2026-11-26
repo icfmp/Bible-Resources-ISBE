@@ -1,0 +1,816 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BETH-ANOTH",
+      "article_id": "isbe-4f4d91758629b6cf44c0",
+      "source_article_sha256": "5ebe6a257bb93421e76ef2d2fa5a700128d3fc7108536c81d56766ece0edbf09",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-ANOTH",
+          "target": "BETH-ANOTH",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-a'-noth (beth`anoth; Baithanam, probably \"House of Anath\"--a god; ",
+          "target": "beth-a'-noth (beth`anoth ; Baithanam, probablement « maison d'Anath » — un dieu ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): The ruin of Beit `Ainun, 1 1/2 miles Southeast of Halhul, in the neighborhood also of Bethzur and Gedor--places mentioned in association with it as towns in the hill country of Judah--appears to be a probable site. The present surface ruins belong to later ages.",
+          "target": ") : Les ruines de Beit `Ainun, à 1 mille et demi au sud-est de Halhul, également dans le voisinage de Beth-Tsur et de Guedor — lieux mentionnés avec cette ville parmi les villes de la région montagneuse de Juda — semblent constituer un emplacement probable. Les ruines actuellement visibles en surface datent d'époques plus tardives.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-ARABAH",
+      "article_id": "isbe-76ff700333c597dab99f",
+      "source_article_sha256": "ac9ad38d1dd632b2242c9fd82743ebb94a7a92f7f8cc3f40c9d570ba711066dc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-ARABAH",
+          "target": "BETH-ARABA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-ar'-a-ba (beth ha-`arabhah; Baitharaba, \"place of the Arabah\"):",
+          "target": "beth-ar'-a-ba (beth ha-`arabhah ; Baitharaba, « lieu de l'Araba ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) One of the 6 cities of Judah \"in the wilderness\" (",
+          "target": "(1) L'une des six villes de Juda « dans le désert » (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), on the borders of Benjamin and Judah (",
+          "target": "), aux frontières de Benjamin et de Juda (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " Septuagint). \"The wilderness of Judah\" is the barren land West of the Dead Sea. Beth-arabah is not yet identified.",
+          "target": " Septante). Le « désert de Juda » est le territoire aride à l'ouest de la mer Morte. Beth-Araba n'a pas encore été identifiée.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(2) One of the cities of Benjamin (",
+          "target": "(2) L'une des villes de Benjamin (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). Septuagint (Codex Vaticanus) reads Baithabara, and this may be correct. The names are early confounded.",
+          "target": "). La Septante (Codex Vaticanus) porte Baithabara, ce qui pourrait être exact. Les noms ont été confondus de bonne heure.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "BETHABARA",
+          "target": "BETHABARA",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-AVEN",
+      "article_id": "isbe-db0c51bbe2c59de72aa3",
+      "source_article_sha256": "2bc617182b3e1349ce856d7b7e146c6ed3639f3ec9d386547fdf14d734c96c2d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-AVEN",
+          "target": "BETH-AVEN",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-a'-ven (beth 'awen; Baithon, Baithaun): A place on the northern boundary of the territory of Benjamin (",
+          "target": "beth-a'-ven (beth 'awen ; Baithon, Baithaun) : Lieu situé à la frontière septentrionale du territoire de Benjamin (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") East of Bethel, near Ai (",
+          "target": ") à l'est de Béthel, près d'Aï (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), West of Michmash (",
+          "target": "), à l'ouest de Micmasch (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). Beth-aven, \"house of vanity,\" i.e. \"idolatry,\" may possibly represent an original beth-'on, \"house of wealth.\" Wilson (PEFS, 1869, 126) suggests Khirbet An, West of Michmash. The name is used in mockery for Bethel by Hosea (4:15; 10:5,8, etc.; compare ",
+          "target": "). Beth-Aven, « maison de vanité », c'est-à-dire « d'idolâtrie », pourrait représenter un beth-'on primitif, « maison de richesse ». Wilson (PEFS, 1869, 126) propose Khirbet An, à l'ouest de Micmasch. Osée emploie ce nom par dérision pour Béthel (4.15 ; 10.5, 8, etc. ; comparer ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-CAR",
+      "article_id": "isbe-ff16d76a668431b5225f",
+      "source_article_sha256": "5ef428de603627b91a405a3c3cffda5052acfbe0d8f968c30020eaf4b5e3d6aa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-CAR",
+          "target": "BETH-CAR",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth'-kar (beth-kar; Baithchor, Belchor): \"And the men of Israel went out of Mizpah, and pursued the Philistines, and smote them, Until they came under Beth-car\" (",
+          "target": "beth'-kar (beth-kar ; Baithchor, Belchor) : « Les hommes d'Israël sortirent de Mitspa, poursuivirent les Philistins et les frappèrent jusqu'à ce qu'ils arrivent au-dessous de Beth-Car » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). `Ain Karem has been suggested; if Mizpah is nebi Samwil then this identification is probable, as the pursuit would be along the deep Wady beit Hannineh--a natural line of retreat for the Philistines to take.",
+          "target": "). `Ain Karem a été proposé ; si Mitspa est nebi Samwil, cette identification est probable, car la poursuite aurait suivi le profond Wady beit Hannineh, voie naturelle de retraite pour les Philistins.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BETH-HACCHEREM",
+          "target": "BETH-HACCHEREM",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-DIBLATHAIM",
+      "article_id": "isbe-b7da8b68a6213f8413cd",
+      "source_article_sha256": "232dda3afd56492ecc844262e749c262656caabfe54bf9fbb4c76de40f77ec7a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-DIBLATHAIM",
+          "target": "BETH-DIBLATHAÏM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-dib-la-tha'-im (beth dibhlathayim; oikos Deblaithaim, literally, \"house of Diblathaim\"): A town in Moab mentioned with Dibon and Nebo (",
+          "target": "beth-dib-la-tha'-im (beth dibhlathayim ; oikos Deblaithaim, littéralement « maison de Diblathaïm ») : Ville de Moab mentionnée avec Dibon et Nebo (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). It is probably identical with Almondiblathaim (",
+          "target": "). Elle est probablement identique à Almon-Diblathaïm (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " f). Mesha claims to have fortified it along with Mehedeba and Ba`al-me`on (see ",
+          "target": " et suivant). Mésha affirme l'avoir fortifiée avec Mehedeba et Ba`al-me`on (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "MOABITE STONE",
+          "target": "STÈLE DE MOAB",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). The place is not yet identified.",
+          "target": "). Le lieu n'a pas encore été identifié.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-GAMUL",
+      "article_id": "isbe-26ae8dcac97ad682a824",
+      "source_article_sha256": "bb742b5e68493198ce3ab942362c8645da8ea3d261710f0e612ea83a65b4b302",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-GAMUL",
+          "target": "BETH-GAMUL",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-ga'-mul (beth gamul; oikos Gaimol; Codex Sinaiticus, Gamola): A city in Moab named with Dibon, Kiriathaim and Beth-meon (",
+          "target": "beth-ga'-mul (beth gamul ; oikos Gaimol ; Codex Sinaiticus, Gamola) : Ville de Moab nommée avec Dibon, Kirjathaïm et Beth-Meon (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). Conder places it at Umm el-Jamal, toward East of the plateau, S. of Medeba (HDB, under the word). Others (Guthe, Kurz. bib. Worterbuch, under the word; Buhl, GAP, 268, etc.) favor Jemeil, a site 6 miles East of Dhiban. Since the town is not mentioned among the cities of Israel Buhl doubts if it should be sought North of the Arnon.",
+          "target": "). Conder la situe à Umm el-Jamal, vers l'est du plateau, au sud de Medeba (HDB, à ce mot). D'autres (Guthe, Kurz. bib. Worterbuch, à ce mot ; Buhl, GAP, 268, etc.) préfèrent Jemeil, site situé à 6 milles à l'est de Dhiban. Comme cette ville ne figure pas parmi les villes d'Israël, Buhl doute qu'il faille la chercher au nord de l'Arnon.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-LEAPHRAH",
+      "article_id": "isbe-2cd11a767f9c0ba0ba68",
+      "source_article_sha256": "1fc6d5f32fa4b7bee606d6a64bf783055580db94c91bd37182aa2137d2092b12",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-LEAPHRAH",
+          "target": "BETH-LEAPHRA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-le-af'-ra (beth le`aphrah; Septuagint ex oikou kata gelota, \"house of dust\"): The name of a place found only in ",
+          "target": "beth-le-af'-ra (beth le`aphrah ; Septante ex oikou kata gelota, « maison de poussière ») : Nom d'un lieu qui ne se trouve qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". From the connection in which it is used it was probably in the Philistine plain. There seems to be a play upon the name in the sentence, \"at Beth le-`apharah have I rolled myself in the dust,\" `aphrah meaning \"dust,\" and possibly another on Philistine in rolled, hith-palldshithi (see G. A. Smith, The Book of the Twelve Prophets, called Minor, in the place cited.).",
+          "target": ". D'après le contexte dans lequel il est employé, ce lieu se situait probablement dans la plaine philistine. Il semble y avoir un jeu de mots sur le nom dans la phrase « à Beth le-`apharah je me suis roulé dans la poussière », `aphrah signifiant « poussière », et peut-être un autre jeu de mots sur « Philistin » dans le verbe « se rouler », hith-palldshithi (voir G. A. Smith, The Book of the Twelve Prophets, called Minor, au passage cité).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-MERHAK",
+      "article_id": "isbe-0cff2c23b83c19b445bd",
+      "source_article_sha256": "88ade5df6573dd5db4d5b8304d42d0bed93a51a64f5d3a3f4efb9d3cfa5b7cdf",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-MERHAK",
+          "target": "BETH-MERHAK",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-mer'-hak (beth ha-merchaq; en oiko to makran, literally \"a place (house) that was far off\" (",
+          "target": "beth-mer'-hak (beth ha-merchaq ; en oiko to makran, littéralement « un lieu [une maison] qui était éloigné » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the Revised Version, margin \"the Far House\")): A place mentioned in the account of David's flight from Absalom. No town of this name is known on the route which he followed. Some scholars think the name denotes simply the outermost of the houses of the city.",
+          "target": " ; marge de la Revised Version : « la maison éloignée »)) : Lieu mentionné dans le récit de la fuite de David devant Absalom. Aucune ville de ce nom n'est connue sur l'itinéraire qu'il suivit. Certains savants pensent que le nom désigne simplement la plus éloignée des maisons de la ville.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-NIMRAH",
+      "article_id": "isbe-de9b9f2aab772843dfd4",
+      "source_article_sha256": "4d94f410b2ecaaf2a5b1fefd0dff0654c006a984e440e9424095ac163a3fface",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-NIMRAH",
+          "target": "BETH-NIMRA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-nim'-ra (beth nimrah, \"house of leopard,\" ",
+          "target": "beth-nim'-ra (beth nimrah, « maison du léopard », ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", but in verse ",
+          "target": ", mais au verset ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " it is simply Nimrah): In ",
+          "target": " il est simplement écrit Nimra) : En ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " the full name appears. In ",
+          "target": " figure le nom complet. En ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " the name appears as Nimrim, identified as Tell Nimrim, between Jericho and the mountains on the east, where there is a fountain of large size. The city was assigned to Gad. In the 4th century AD it was located as five Roman miles North of Livias. Eusebius calls it Bethamnaram (SEP, I, Tell Nimrin).",
+          "target": " le nom apparaît sous la forme Nimrim, identifié à Tell Nimrim, entre Jéricho et les montagnes à l'est, où se trouve une source abondante. La ville fut attribuée à Gad. Au IVe siècle apr. J.-C., elle était située à cinq milles romains au nord de Livias. Eusèbe l'appelle Bethamnaram (SEP, I, Tell Nimrin).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-ZACHARIAS",
+      "article_id": "isbe-d4952b6760718bc631ee",
+      "source_article_sha256": "0b2ab68883918aeb07e5a31b9fc4733293ff11b776294169a5a5d10bde469ac3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-ZACHARIAS",
+          "target": "BETH-ZACHARIAS",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-zak-a-ri'-as (Baith-zacharia): Here Judas Maccabeus failed in battle with Antiochus Eupator, and his brother Eleazar fell in conflict with an elephant (1 Macc 6:32 ff; the King James Version \"Bathzacharias\"). It was a position of great strength, crowning a promontory which juts out between two deep valleys. It still bears the ancient name with little change, Beit Zakaria. It lies about 4 miles Southwest of Bethlehem (BR, III, 283 ff; Ant, XII, ix, 4).",
+          "target": "beth-zak-a-ri'-as (Baith-zacharia) : C'est là que Judas Maccabée échoua dans la bataille contre Antiochus Eupator, et que son frère Éléazar tomba en combattant un éléphant (1 Maccabées 6.32 et suivants ; « Bathzacharias » dans la King James Version). C'était une position très forte, couronnant un promontoire qui s'avance entre deux vallées profondes. Le lieu porte encore, à peu de chose près, son ancien nom, Beit Zakaria. Il se situe à environ 4 milles au sud-ouest de Bethléhem (BR, III, 283 et suivants ; Ant, XII, ix, 4).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETHER",
+      "article_id": "isbe-96b5e0eec34d2d44da0c",
+      "source_article_sha256": "74fca40e63716c1e82f5e39c729d4c74e597d8d04530eab122cb3659fad509ba",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETHER",
+          "target": "BÉTHER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-ther (bether): In ",
+          "target": "be'-ther (bether) : En ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " mention is made of \"the mountains of Bether.\" It is doubtful if a proper name is intended. The Revised Version, margin has, \"perhaps, the spice malobathron.\" A Bether is prominent in late Jewish history as the place where the Jews resisted Hadrian under Bar Cochba in 135 AD. Its identity with Bittir, 7 miles Southwest of Jerusalem, is attested by an inscription.",
+          "target": " il est question des « montagnes de Béther ». Il est douteux qu'il s'agisse d'un nom propre. La marge de la Revised Version porte « peut-être l'aromate malobathron ». Un lieu nommé Béther tient une place importante dans l'histoire juive tardive : c'est là que les Juifs, sous Bar Cochba, résistèrent à Hadrien en 135 apr. J.-C. Son identification avec Bittir, à 7 milles au sud-ouest de Jérusalem, est attestée par une inscription.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETHINK",
+      "article_id": "isbe-ec6341de7f7e503e56bd",
+      "source_article_sha256": "ca197883039f8fdd28cc0f4d0951b1e1b698953558f383a8f669a51f3403e702",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETHINK",
+          "target": "REVENIR À SOI (BETHINK)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-think' (heshibh 'el lebh, \"to lay to heart,\" hence, \"recall to mind\"): Anglo-Saxon word used only in seventh petition of Solomon's prayer at the dedication of the Temple. If the people, carried into captivity, because of sin, should \"take it to heart,\" then God (he prayed) would hear and forgive (",
+          "target": "be-think' (heshibh 'el lebh, « prendre à cœur », d'où « se rappeler ») : Mot anglo-saxon employé seulement dans la septième demande de la prière de Salomon lors de la dédicace du Temple. Si le peuple, emmené en captivité à cause de son péché, devait « prendre la chose à cœur », alors Dieu, pria-t-il, écouterait et pardonnerait (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). A choice illustration of the mental and heart process in reflection, repentance and conversion.",
+          "target": "). Bel exemple du processus de l'esprit et du cœur dans la réflexion, la repentance et la conversion.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETOMESTHAIM; BETOMASTHAIM",
+      "article_id": "isbe-2a20026e4eb389ac2eda",
+      "source_article_sha256": "9468d96d1dc3365595588787c55d064c3113e569e20e1b9470e6fb87e7807127",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETOMESTHAIM; BETOMASTHAIM",
+          "target": "BETOMESTHAÏM ; BETOMASTHAÏM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-to-mes'-tha-im, be-to-mes'-tham the King James Version Betomestham, (Betomesthaim (Judith 4:6)): the King James Version Betomasthem (Baitornasthaim (Judith 15:4)): The place is said to have been \"over against Jezreel, in the face of (i. e eastward of) the plain that is near Dothan\" It can hardly be Deir Massin, which lies West of the plain. The district is clearly indicated, but no identification is yet possible.",
+          "target": "be-to-mes'-tha-im, be-to-mes'-tham, Betomestham dans la King James Version (Betomesthaim, Judith 4.6) ; Betomasthem dans la King James Version (Baitornasthaim, Judith 15.4) : Le lieu aurait été « en face de Jizreel, devant (c'est-à-dire à l'est de) la plaine qui est près de Dothan ». Il ne peut guère s'agir de Deir Massin, situé à l'ouest de la plaine. La région est clairement indiquée, mais aucune identification n'est encore possible.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETROTH",
+      "article_id": "isbe-18579625c999a2523f19",
+      "source_article_sha256": "0660244cb9e2c59519c25b98fc278b4dbee312027ea197735f142686016e9b9d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETROTH",
+          "target": "FIANCER (BETROTH)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-troth', be-troth' ('dras): On betrothal as a social custom see ",
+          "target": "be-troth', be-troth' ('dras) : Sur les fiançailles en tant que coutume sociale, voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "MARRIAGE",
+          "target": "MARIAGE",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". Hosea, in his great parable of the prodigal wife, surpassed only by a greater Teacher's parable of the Prodigal Son, uses betrothal as the symbol of Yahweh's pledge of His love and favor to penitent Israel (",
+          "target": ". Osée, dans sa grande parabole de l'épouse prodigue, que seule dépasse la parabole du fils prodigue d'un Maître plus grand, emploie les fiançailles comme symbole de l'engagement de Yahvé à témoigner son amour et sa faveur à Israël repentant (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " the Revised Version (British and American) renders \"espouse\" for the \"betroth\" of the King James Version, the context implying the actual marriage relation.",
+          "target": " la Revised Version (britannique et américaine) rend par « espouse » (épouser) le « betroth » (fiancer) de la King James Version, le contexte impliquant le lien conjugal effectif.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEWAIL",
+      "article_id": "isbe-746818c776f865597bf3",
+      "source_article_sha256": "82c0004a77a05a4db2e111330aaafa2cde3962afe28e08dc337ea3bd7978cf65",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEWAIL",
+          "target": "SE LAMENTER (BEWAIL)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-wal' (kopto): In the middle voice, this word has the thought of striking on the breast and of loud lamentation, so common among oriental people in time of great sorrow. It is used to express the most intense grief, a sorrow that compels outward demonstration (",
+          "target": "be-wal' (kopto) : À la voix moyenne, ce mot évoque le fait de se frapper la poitrine et de se lamenter à grands cris, si courant chez les peuples orientaux dans les moments de grande douleur. Il sert à exprimer le chagrin le plus intense, une douleur qui impose une manifestation extérieure (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). A striking instance of this grief is that of the daughter of Jephthah (",
+          "target": "). Un exemple frappant de ce chagrin est celui de la fille de Jephthé (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "BURIAL, IV",
+          "target": "SÉPULTURE, IV",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "GRIEF",
+          "target": "CHAGRIN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEZALEL",
+      "article_id": "isbe-9fd494d64617b9523227",
+      "source_article_sha256": "48211e7ece5ee4d738374999923f36cf41d248a1de15fb56d60bcceed340bf67",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEZALEL",
+          "target": "BETSALEEL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bez'-a-lel (betsal'el, \"in the shadow (protection) of 'El (God)\"; Beseleel; the King James Version Bezaleel):",
+          "target": "bez'-a-lel (betsal'el, « à l'ombre [sous la protection] de 'El [Dieu] » ; Beseleel ; Bezaleel dans la King James Version) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A master workman under Moses; son of Uri, son of Hur, of the tribe of Judah. Yahweh gave him especial wisdom and skill for his task, which was, with the aid of Oholiab of the tribe of Dan, to superintend the making of the tabernacle and its furniture (",
+          "target": "(1) Maître artisan sous Moïse, fils d'Uri, fils de Hur, de la tribu de Juda. Yahvé lui donna une sagesse et une habileté particulières pour sa tâche, qui consistait, avec l'aide d'Oholiab de la tribu de Dan, à diriger la fabrication du tabernacle et de son mobilier (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "(2) An Israelite of the time of Ezra who put away a foreign wife (",
+          "target": "(2) Israélite du temps d'Esdras qui renvoya une épouse étrangère (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "F. K. Farr",
+          "target": "F. K. Farr",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BIGTHAN; BIGTHANA",
+      "article_id": "isbe-fa335cd6fc8a3b9ce30b",
+      "source_article_sha256": "43f41e69a585faf21d4a1f7ad4aedf0d25d600ff7272bfeeb029d5c7f0744b8d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIGTHAN; BIGTHANA",
+          "target": "BIGTHAN ; BIGTHANA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "big'-than big-tha'-na (bighethan, bighethana'; Septuagint omits name): One of the two chamberlains or eunuchs of Xerxes on (\"Ahasuerus\") who conspired against the king's life, the conspiracy being detected by Mordecai and the culprits hanged (",
+          "target": "big'-than big-tha'-na (bighethan, bighethana' ; la Septante omet le nom) : L'un des deux chambellans ou eunuques de Xerxès (« Assuérus ») qui conspirèrent contre la vie du roi ; le complot fut découvert par Mardochée et les coupables furent pendus (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). Possibly these men had been partially superseded by the degradation of Vashti and were thus prompted to take revenge Xerxes.",
+          "target": "). Il se peut que ces hommes aient été partiellement évincés par la disgrâce de Vasthi et qu'ils aient ainsi été poussés à se venger de Xerxès.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIGVAI",
+      "article_id": "isbe-67d126d0195e09ec5add",
+      "source_article_sha256": "09fed16d595b5ba7447ad68624d22678d211e985b2b863daa8921124ad26130e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIGVAI",
+          "target": "BIGVAÏ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "big'-va-i (bighway; Baogei, Bagoua):",
+          "target": "big'-va-i (bighway ; Baogei, Bagoua) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) The head of one of the families who returned from Babylon with Zerubbabel (",
+          "target": "(1) Chef de l'une des familles revenues de Babylone avec Zorobabel (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), having a large number of his retainers (2,056, according to ",
+          "target": "), accompagné d'un grand nombre de ses gens (2 056, selon ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "; 2,067, according to ",
+          "target": " ; 2 067, selon ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "), besides 72 males later under Ezra (",
+          "target": "), outre 72 hommes revenus plus tard sous Esdras (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(2) One of those who subscribed the covenant with Nehemiah (",
+          "target": "(2) L'un de ceux qui souscrivirent à l'alliance avec Néhémie (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BILGAH; BILGAI",
+      "article_id": "isbe-a2ae0ed413acb044034d",
+      "source_article_sha256": "4241a1992cf1921adcf1d93ad9cf4cb99144b20403645f2418bc1b051cf57c74",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BILGAH; BILGAI",
+          "target": "BILGA ; BILGAÏ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bil'-ga bil'-ga-i (bilgah; bilgay, \"cheerfulness\"): A priest or priestly family in the time of the Return (",
+          "target": "bil'-ga bil'-ga-i (bilgah ; bilgay, « gaieté ») : Prêtre ou famille sacerdotale à l'époque du retour (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), and (under the form of \"Bilgai,\" ",
+          "target": "), et (sous la forme « Bilgai », ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") in the time of Nehemiah. According to ",
+          "target": ") au temps de Néhémie. D'après ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", Bilgah is the 15th of the 24 divisions of the priests who officiated in the Temple. In the Septuagint, the names read Belgai, Belga and Balgas. The traditional explanation of the name is \"rejuvenation\"; modern exegetes explain it as \"cheerfulness.\"",
+          "target": ", Bilga est la quinzième des vingt-quatre classes de prêtres qui officiaient dans le Temple. Dans la Septante, les noms se lisent Belgai, Belga et Balgas. L'explication traditionnelle du nom est « rajeunissement » ; les exégètes modernes l'expliquent par « gaieté ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIRTH-STOOL",
+      "article_id": "isbe-6413ea30d761250e7417",
+      "source_article_sha256": "52c2364f41de788de9700412c9c137991bdd3bf20695436c0dbb1fc617497a77",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIRTH-STOOL",
+          "target": "SIÈGE D'ACCOUCHEMENT (BIRTH-STOOL)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "burth'-stool: Found only in ",
+          "target": "burth'-stool : Ne se trouve qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", in connection with Hebrew women in Egypt when oppressed by Pharaoh. The Hebrew ('obhnayim) here rendered \"birth-stool\" is used in ",
+          "target": ", à propos des femmes hébraïques en Égypte, lorsqu'elles étaient opprimées par Pharaon. Le mot hébreu ('obhnayim), rendu ici par « birth-stool » (siège d'accouchement), est employé en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", and is there rendered \"potter's wheel.\" The word is used in both places in the dual form, which points, no doubt, to the fact that the potter's wheel was composed of two discs, and suggests that the birth-stool was similarly double.",
+          "target": ", où il est rendu par « potter's wheel » (tour du potier). Dans les deux passages, le mot est employé au duel, ce qui indique sans doute que le tour du potier était composé de deux disques et laisse supposer que le siège d'accouchement était également double.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "STOOL",
+          "target": "TABOURET",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
