@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BASMATH",
+      "article_id": "isbe-d7e1bc36ae09fb497739",
+      "source_article_sha256": "b1acf86612be89f05552fbd922681015213569ac83b73adf39c5b6ef9d7c133a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BASMATH",
+          "target": "BASMATH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name or lexeme headword preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bas'-math.",
+          "target": "bas'-math.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BASEMATH",
+          "target": "BASEMATH",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name link label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BASON",
+      "article_id": "isbe-4529227061c6048211ba",
+      "source_article_sha256": "2b2bdc32864202277391b857dc7b1ddd73872300566b8fb89ab5bdde218043a7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BASON",
+          "target": "BASON",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name or lexeme headword preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-s'-n.",
+          "target": "ba'-s'-n.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BASIN",
+          "target": "BASSIN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BASSA",
+      "article_id": "isbe-05d529ffcf7f7b70b129",
+      "source_article_sha256": "8aca7bdf6a57245e3e435918586d86f9efa05c535d51c37c961e750fdc08436a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BASSA",
+          "target": "BASSA",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name or lexeme headword preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bas'-a.",
+          "target": "bas'-a.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BASSAI",
+          "target": "BASSAI",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name link label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BASTAI",
+      "article_id": "isbe-732208020d33c87e2c51",
+      "source_article_sha256": "76e91edb0d281e1da41899dd74e8ebe887a75b0930216c55cdeb0bb64bea62bc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BASTAI",
+          "target": "BASTAI",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name or lexeme headword preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bas'-ta-i.",
+          "target": "bas'-ta-i.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription preserved"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BASTHAI",
+          "target": "BASTHAI",
+          "action": "preserve",
+          "reason": "Canonical historical proper-name link label retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BATTLE",
+      "article_id": "isbe-abdad3609e33ec53bb32",
+      "source_article_sha256": "a68433d59a917d10179e9339b56cd48706ebfa3da544825d824ad5fd1191fb2d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BATTLE",
+          "target": "BATAILLE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "WAR",
+          "target": "GUERRE",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
