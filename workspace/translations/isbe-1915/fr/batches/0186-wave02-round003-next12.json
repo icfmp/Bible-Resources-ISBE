@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BERITH",
+      "article_id": "isbe-39931d223f26fa0e93ed",
+      "source_article_sha256": "af46ce0ed162f641e1519e9441ce61aa275af6b51cd396c34b7c87b0c7674789",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERITH",
+          "target": "BERITH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-rith (berith, \"covenant\").",
+          "target": "be'-rith (berith, « alliance »).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BAAL-BERITH",
+          "target": "BAAL-BERITH",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BERODACH-BALADAN",
+      "article_id": "isbe-fc91e4d00cb4bfb2214b",
+      "source_article_sha256": "436432b56b9ef772a28b1d919015222f92703d89cc8a07535d6c981c65cbda7b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERODACH-BALADAN",
+          "target": "BERODAC-BALADAN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-ro'-dak-bal'-a-dan.",
+          "target": "be-ro'-dak-bal'-a-dan.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "MERODACH-BALADAN",
+          "target": "MERODAC-BALADAN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-AZMAVETH",
+      "article_id": "isbe-d8de22f1f6b35e8c4ff6",
+      "source_article_sha256": "607591f1294b8975a1ac2d4e0a2ec15945d680b967b146512b49adc03b42cdf9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-AZMAVETH",
+          "target": "BETH-AZMAVETH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-az-ma'-veth (",
+          "target": "beth-az-ma'-veth (",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "AZMAVETH",
+          "target": "AZMAVETH",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-BAAL-MEON",
+      "article_id": "isbe-a0301c8568bd615ebdef",
+      "source_article_sha256": "139735f515dbfcc54d42e535078e9858215c05966c1a18d1c92508817cf55cba",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-BAAL-MEON",
+          "target": "BETH-BAAL-MEON",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-ba-al-me'-on (",
+          "target": "beth-ba-al-me'-on (",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BAAL-MEON",
+          "target": "BAAL-MEON",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-EDEN",
+      "article_id": "isbe-7ba6a8ee8763db7e2ecc",
+      "source_article_sha256": "9dc2e8e2b82b3e00cd8d5c1706fb323534842b97f54115279eb69fd470be89ef",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-EDEN",
+          "target": "BETH-ÉDEN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-e'-den (",
+          "target": "beth-e'-den (",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " King James Version, margin; English Versions of the Bible \"house of Eden\").",
+          "target": ", note marginale de la King James Version ; « house of Eden », « maison d'Éden », dans les versions anglaises de la Bible).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "CHILDREN OF EDEN",
+          "target": "ENFANTS D'ÉDEN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-HANAN; ELON-BETH-HANAN",
+      "article_id": "isbe-ed865a022c2eab3918b7",
+      "source_article_sha256": "8895a0c6fd40f939e803b64de98d6f8042bfda61220f5a09da25218e836cdeda",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-HANAN; ELON-BETH-HANAN",
+          "target": "BETH-HANAN ; ÉLON-BETH-HANAN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-ha'-nan (",
+          "target": "beth-ha'-nan (",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ELON",
+          "target": "ÉLON",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-HARAN",
+      "article_id": "isbe-68e294f8663b603db46d",
+      "source_article_sha256": "ef1e204f16cf0895d2266e2274e2373fc4bb5fb077a8ef5211984424493c5f2f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-HARAN",
+          "target": "BETH-HARAN",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-ha'-ran (beth haran): A fenced city East of the Jordan (",
+          "target": "beth-ha'-ran (beth haran) : ville fortifiée à l'est du Jourdain (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") identical with ",
+          "target": "), identique à ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BETH-HARAM",
+          "target": "BETH-HARAM",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", which see.",
+          "target": " ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-MEON",
+      "article_id": "isbe-da79ba4d005a90c23d05",
+      "source_article_sha256": "ff505d1759b33b38a0fcbe439a2d839cce74b51eae8c44c9bc3f8e99d8a33bea",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-MEON",
+          "target": "BETH-MEON",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-me'-on: A city of Moab (",
+          "target": "beth-me'-on : ville de Moab (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), identical with ",
+          "target": "), identique à ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BAAL-MEON",
+          "target": "BAAL-MEON",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-SHEMITE",
+      "article_id": "isbe-50e911fcc54728065c6c",
+      "source_article_sha256": "36e5f96d0d9b04919d4186b714eda547307b36f780ec7c45808838cbdbdb7bcd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-SHEMITE",
+          "target": "BETH-SHÉMITE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-she'-mit beth-shimshi (",
+          "target": "beth-she'-mit beth-shimshi (",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "): An inhabitant of Beth-shemesh in Judah (compare ",
+          "target": ") : habitant de Beth-Shémesh en Juda (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BETH-SHEMESH 1",
+          "target": "BETH-SHÉMESH 1",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETHELITE",
+      "article_id": "isbe-1b457fae330be5306cb5",
+      "source_article_sha256": "4c454a3a5d2ea9b200704698e31406b5611b626283a3f7f8ae1ff6d526000252",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETHELITE",
+          "target": "BÉTHÉLITE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth'-el-it: The term applied to a man who in the days of Ahab rebuilt Jericho (",
+          "target": "beth'-el-it : terme appliqué à un homme qui, au temps d'Achab, rebâtit Jéricho (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "HIEL",
+          "target": "HIEL",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BETHUL",
+      "article_id": "isbe-3e5101d2c1aba61224b8",
+      "source_article_sha256": "e561cde9d722c14898a0aa416ac688c08f87808e5a9444576ce4368b2b4c9d2a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETHUL",
+          "target": "BETHUL",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth'-ul, be'-thul (bethul):",
+          "target": "beth'-ul, be'-thul (bethul) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BETHUEL; CHESIL",
+          "target": "BÉTHUEL ; CHÉSIL",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEZAANANNIM",
+      "article_id": "isbe-6ea47bca1de0d762e645",
+      "source_article_sha256": "47a7b4c1fb7691f53fc93184f6ba41123b0f5f2dfdd52695154b72089624198b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEZAANANNIM",
+          "target": "BEZAANANNIM",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-za-an-an'-im (",
+          "target": "be-za-an-an'-im (",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the Revised Version, margin).",
+          "target": ", note marginale de la Revised Version).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ZAANANNIM",
+          "target": "ZAANANNIM",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        }
+      ]
+    }
+  ]
+}
