@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BETHEL, MOUNT",
+      "article_id": "isbe-feb62805c54bd3ce3508",
+      "source_article_sha256": "752c56a7168da83f460408056a0c97927f1fce55d17a16b5c47ccc5f0cdac0dd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETHEL, MOUNT",
+          "target": "MONT DE BÉTHEL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "(har beth-'el; Baithel louza (",
+          "target": "(har beth-'el ; Baithel louza [",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", the Revised Version (British and American) \"the mount of Bethel\"; ",
+          "target": ", « mont de Béthel » dans la Revised Version britannique et américaine ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ")): The hill which stretches from the North of the town to Tell `Acur. The road to Shechem lies along the ridge. An army in possession of these heights easily commanded the route from north to south.",
+          "target": "]) : Colline qui s'étend du nord de la ville jusqu'à Tell `Acur. La route de Sichem suit la crête. Une armée qui tenait ces hauteurs dominait facilement l'itinéraire du nord au sud.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETOLION",
+      "article_id": "isbe-f254fd1e9f4eaab9b84f",
+      "source_article_sha256": "323ffc9bb52871ac138028872f0e0ed6994d07fb58c5b9abc24b942c10f1632a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETOLION",
+          "target": "BÉTOLION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-to'-li-on (Betolio (Codex Alexandrinus), or (Codex Vaticanus) Betolio; the King James Version Betolius, be-to'-li-us): A town the people of which to the number of 52 returned from Babylon with Zerubbabel (1 Esdras 5:21). It corresponds to Bethel in ",
+          "target": "be-to'-li-on (Betolio [Codex Alexandrinus] ou [Codex Vaticanus] Betolio ; King James Version : Betolius, be-to'-li-us) : Ville dont cinquante-deux habitants revinrent de Babylone avec Zorobabel (1 Esdras 5.21). Elle correspond à Béthel en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETRAYERS",
+      "article_id": "isbe-7375833a0a1554878d5b",
+      "source_article_sha256": "48a4564ba42f66999bcbcb51e8d5d17d5313e49bef943421677ca13bb8282d51",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETRAYERS",
+          "target": "TRAÎTRES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-tra'-ers (prodotai, \"betrayers,\" \"traitors\"): Stephen charged the Jews with being betrayers of the Righteous One (",
+          "target": "be-tra'-ers (prodotai, « ceux qui trahissent », « traîtres ») : Étienne reprocha aux Juifs d'avoir trahi le Juste (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") i.e. as having made Judas' act their own; compare ",
+          "target": "), c'est-à-dire de s'être associés à l'acte de Judas ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ": \"Judas Iscariot, who became a traitor;\" ",
+          "target": " : « Judas Iscariot, qui devint traître » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", \"traitors.\"",
+          "target": " : « traîtres ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEULAH",
+      "article_id": "isbe-c0dff76df88908ca7d2a",
+      "source_article_sha256": "5cf31d91f6f1e4db79ac7b3900130ba5935a41350d94a2f17916d59e1bd0786f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEULAH",
+          "target": "BEULA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bu'-la (be`ulah \"married\"): A name symbolically applied to Israel: \"Thy land (shall be called) Beulah .... thy land shall be married. .... so shall thy sons marry thee\" (",
+          "target": "bu'-la (be`ulah, « mariée ») : Nom appliqué symboliquement à Israël : « Ton pays [sera appelé] Beula [...] ton pays sera marié [...] tes fils t'épouseront » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " f). In this figure, frequently used since Hosea, the prophet wishes to express the future prosperity of Israel. The land once desolate shall again be populated.",
+          "target": " et suiv.). Par cette image, fréquemment employée depuis Osée, le prophète veut exprimer la prospérité future d'Israël. Le pays autrefois dévasté sera de nouveau peuplé.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEZETHA",
+      "article_id": "isbe-5b8b00e6d68fa9594b44",
+      "source_article_sha256": "7cc2d9a0cd3631ded15de5f746fb9990c46d9c2828637b12083695ff24029158",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEZETHA",
+          "target": "BÉZÉTHA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-ze'-tha: Also called by Josephus the \"New City\" (BJ, V, iv, 2), certain suburbs of Jerusalem, North of the Temple, which were outside the second but included within the third wall. ",
+          "target": "be-ze'-tha : Également appelés par Josèphe « la Ville neuve » (Guerre des Juifs, V, iv, 2), certains faubourgs de Jérusalem, au nord du Temple, qui se trouvaient à l'extérieur de la deuxième muraille, mais à l'intérieur de la troisième. ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BEZETH",
+          "target": "BÉZETH",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see) may be the same place.",
+          "target": " (voir cet article) pourrait être le même endroit.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "JERUSALEM",
+          "target": "JÉRUSALEM",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIATAS",
+      "article_id": "isbe-814aaf75f038e004842e",
+      "source_article_sha256": "edc97507645184365b34b8535258edbbebbfe2986a4be3195fb2b86d8e0b3510",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIATAS",
+          "target": "BIATAS",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bi'-a-tas (Phalias; Codex Alexandrinus, Phiathas): the Revised Version (British and American) \"Phalias,\" one of the Levites (1 Esdras 9:48) who \"taught (the people) the law of the Lord, making them withal to understand it.\" Called Pelaiah in ",
+          "target": "bi'-a-tas (Phalias ; Codex Alexandrinus : Phiathas) : « Phalias » dans la Revised Version (britannique et américaine), l'un des Lévites (1 Esdras 9.48) qui « enseignaient [au peuple] la loi du Seigneur, en la lui faisant aussi comprendre ». Appelé Pélaja en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIGTHA",
+      "article_id": "isbe-d33169b800dd9ed2a4a8",
+      "source_article_sha256": "ffce71f675069ecf80f51c97e282a67ea66adcd70938d9812257eb3f2ccc453c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIGTHA",
+          "target": "BIGTHA",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "big'-tha (bighetha'; Septuagint Barazi; Codex Vaticanus, Boraze; Codex Alexandrinus, Oareboa): One of the seven eunuchs or chamberlains having charge of the harem of King Xerxes (\"Ahasuerus\") and commanded to bring Vashti to the king's banquet (",
+          "target": "big'-tha (bighetha' ; Septante : Barazi ; Codex Vaticanus : Boraze ; Codex Alexandrinus : Oareboa) : L'un des sept eunuques ou chambellans chargés du harem du roi Xerxès (« Assuérus »), à qui il fut ordonné de faire venir Vasthi au banquet royal (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BILEAM",
+      "article_id": "isbe-78c6648d557f13a76af8",
+      "source_article_sha256": "b6680619d063b68fac8cce126ce89f64b857e3cee07b3df4c2680b50e4bcb72c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BILEAM",
+          "target": "BILÉAM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bil'-e-am (bil`am; Iblaam): A town in the territory of Manasseh assigned to the Kohathite Levites (",
+          "target": "bil'-e-am (bil`am ; Iblaam) : Ville du territoire de Manassé attribuée aux Lévites kehathites (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), probably the same as Ibleam (",
+          "target": "), probablement identique à Ibléam (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", etc.), and identical with the modern Bel`ameh, half a mile South of Jenin.",
+          "target": ", etc.) et au Bel`ameh moderne, situé à un demi-mille au sud de Jénine.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BILHAH (1)",
+      "article_id": "isbe-97a0ced11b0ad0c78c86",
+      "source_article_sha256": "fadaaf56567dec60d4858b0cca267c544998b67d4450f6dc5d0154a56c947062",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BILHAH (1)",
+          "target": "BILHA (1)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bil'-ha (person) (bilhah; Balla): A slave girl whom Laban gave to Rachel (",
+          "target": "bil'-ha (personne) (bilhah ; Balla) : Servante que Laban donna à Rachel (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), and whom the latter gave to Jacob as a concubine (",
+          "target": "), et que celle-ci donna à Jacob comme concubine (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); the mother of Da and Naphtali (",
+          "target": ") ; mère de Da et de Nephtali (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "); guilty of incest with Reuben (",
+          "target": ") ; elle se rendit coupable d'inceste avec Ruben (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIRSHA",
+      "article_id": "isbe-f79b0cfb9f452971bde1",
+      "source_article_sha256": "f368d29a47584288972e5a76c4c886eb4ff98c1f643fccf3e78b88192cdab8a2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIRSHA",
+          "target": "BIRSHA",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bur'-sha (birsha`): King of Gomorrah (",
+          "target": "bur'-sha (birsha`) : Roi de Gomorrhe (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), who joined the league against Chedorlaomer. The name is probably corrupt; some have tried to explain it as beresha`, \"with wickedness,\" a name purposely used by the writer in referring to this king.",
+          "target": "), qui se joignit à la coalition contre Kedorlaomer. Le nom est probablement corrompu ; certains ont tenté de l'expliquer par beresha`, « avec méchanceté », nom que l'auteur aurait délibérément employé en parlant de ce roi.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIRZAITH",
+      "article_id": "isbe-05b6eeeaf0facbd4acca",
+      "source_article_sha256": "7665bc7e79611bcc1b9863c6d868bfd319fbb3ede71a7e0dbb0f7b78ba703f12",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIRZAITH",
+          "target": "BIRZAÏTH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bur-za'-ith, bur-za'-vith the King James Version Birzavith, (birzawith or birzayith; Bezaith, or Berzaie): The name of a town in Asher founded by Malchiel (",
+          "target": "bur-za'-ith, bur-za'-vith ; Birzavith dans la King James Version (birzawith ou birzayith ; Bezaith ou Berzaie) : Nom d'une ville d'Aser fondée par Malkiel (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). It probably corresponds to the modern Bir ez-Zait, \"well of olive oil,\" near Tyre.",
+          "target": "). Elle correspond probablement au Bir ez-Zait moderne, « puits d'huile d'olive », près de Tyr.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLAINS",
+      "article_id": "isbe-04788299e62c3c4ec3f3",
+      "source_article_sha256": "b6b2130f07c64d9857c7322abec47010a6a55835a71d0e21e8dc932a5d772f73",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLAINS",
+          "target": "PUSTULES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "blanz (abha`bu`ah: only in ",
+          "target": "blanz (abha`bu`ah ; uniquement en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "): Pustules containing fluid around a boil or inflamed sore. It is an Old English word \"bleyen,\" used sometimes as a synonym for boil. Wyclif (1382) uses the expression \"stinkende bleyne\" for Job's sores. The Hebrew word is from a root which means that which bubbles up.",
+          "target": ") : Pustules contenant du liquide, autour d'un furoncle ou d'une plaie enflammée. Il s'agit d'un vieux mot anglais, « bleyen », parfois employé comme synonyme de furoncle. Wyclif (1382) utilise l'expression « stinkende bleyne » pour les plaies de Job. Le mot hébreu provient d'une racine désignant ce qui fait des bulles.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "BOIL",
+          "target": "FURONCLE",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
