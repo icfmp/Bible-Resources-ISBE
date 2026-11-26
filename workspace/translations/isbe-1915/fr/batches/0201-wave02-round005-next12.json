@@ -1,0 +1,484 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BALANCINGS",
+      "article_id": "isbe-d3126f0006fde7afd469",
+      "source_article_sha256": "f7681bcd6a7fcb5bb67c264d7a318a0c44f599d8cc720a5a851429cca8f2936b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BALANCINGS",
+          "target": "ÉQUILIBRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bal'-ans-ins: \"The balancings of the clouds\" (",
+          "target": "bal'-ans-ins : « L'équilibre des nuages » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), the manner in which they are poised and supported in the air, alike with their mysterious spreadings and motions, challenge the strongest intellect to explain.",
+          "target": "), c'est-à-dire la manière dont ils demeurent en suspension et se maintiennent dans l'air, ainsi que leurs déploiements et leurs mouvements mystérieux, défient les plus puissantes intelligences qui tentent de les expliquer.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BALL",
+      "article_id": "isbe-69a99fd1baf0097fcafb",
+      "source_article_sha256": "c871f74ae117d40c81a2c2402cf9c0d568180c32b363e60f1b72e0b9962d0552",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BALL",
+          "target": "BALLE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bol (dur): A rare Hebrew word used in this sense only in ",
+          "target": "bol (dur) : Mot hébreu rare, employé dans ce sens seulement en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", and correctly rendered in the American Standard Revised Version \"He will surely wind thee round and round, and toss thee like a ball into a large country.\" De Or, Bottcher, Jastrow, following Talmud, regard the noun as kaddur, but perhaps incorrectly.",
+          "target": ", et traduit correctement dans l'American Standard Revised Version : « Il t'enroulera certainement sur toi-même et te lancera comme une balle dans un vaste pays. » De Or, Böttcher et Jastrow, suivant le Talmud, considèrent que le nom est kaddur, mais peut-être à tort.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See also ",
+          "target": "Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "GAMES",
+          "target": "JEUX",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BANIAS (1)",
+      "article_id": "isbe-a958ff90ede67d1f1185",
+      "source_article_sha256": "febcabf441409f2b97d9473f4de3296408d434bca3d006fbec2873bb66aed8e3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANIAS (1)",
+          "target": "BANIAS (1)",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-ni'-as (B, Banias; A, Bani; the King James Version Banid (1 Esdras 8:36)): An ancestor of Salimoth. The descendants of Banias returned with Ezra to Jerusalem. The name is omitted (",
+          "target": "ba-ni'-as (B : Banias ; A : Bani ; King James Version : Banid [1 Esdras 8.36]) : Ancêtre de Salimoth. Les descendants de Banias revinrent à Jérusalem avec Esdras. Ce nom est omis en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), perhaps due to the oversight of a copyist or a mistaken reading of bene, \"sons of,\" for bani.",
+          "target": ", peut-être à cause d'un oubli du copiste ou d'une lecture erronée de bene, « fils de », à la place de bani.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BANNAS",
+      "article_id": "isbe-eae678fe7df38aceda42",
+      "source_article_sha256": "eb64e613b23ac02bdd7d333a3460bc95f6d1798aa91252b7a21d4d536a3695c6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANNAS",
+          "target": "BANNAS",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ban'-as (Bannos; the King James Version, Banuas): A name occurring in the list of those who returned from the captivity with Zerubbabel (1 Esdras 5:26). Bannas and Sudias are represented by Hoodaviah in the lists of Ezra and Nehemiah.",
+          "target": "ban'-as (Bannos ; King James Version : Banuas) : Nom figurant dans la liste des personnes revenues de captivité avec Zorobabel (1 Esdras 5.26). Bannas et Sudias correspondent à Hoodaviah dans les listes d'Esdras et de Néhémie.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BARCHUS",
+      "article_id": "isbe-d61f3ce38124dfddd8c9",
+      "source_article_sha256": "ce591865a21ab8e70c6e1f73392c1c7a89587b1fde8b57bd7497c42f8cfefc8e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARCHUS",
+          "target": "BARCHUS",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bar'-kus (Codex Vaticanus, Bachous; Codex Alexandrinus, Barchoue; the King James Version Charchus, from Aldine edition, Charkous; 1 Esdras 5:32 = Barkos (",
+          "target": "bar'-kus (Codex Vaticanus : Bachous ; Codex Alexandrinus : Barchoue ; King James Version : Charchus, d'après l'édition aldine Charkous ; 1 Esdras 5.32 = Barkos [",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ")): The descendants of Barchus (temple-servants) returned with Zerubbabel to Jerusalem.",
+          "target": "]) : Les descendants de Barchus, serviteurs du Temple, revinrent à Jérusalem avec Zorobabel.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BATHSHUA",
+      "article_id": "isbe-ce3cf570553aefc6a176",
+      "source_article_sha256": "8ef85979c94aaed7cbb95eca3ff5a392f09eaf76fb4abe13c338404974e41693",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BATHSHUA",
+          "target": "BATH-SHUA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bath'-shu-a (bath-shua`, \"the daughter of opulence\" or \"the daughter of Shua\"; compare ",
+          "target": "bath'-shu-a (bath-shua`, « fille de l'abondance » ou « fille de Shua » ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BATH-SHEBA",
+          "target": "BATH-SHÉBA",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; for derivation see HPN, 67, 69, note 3):",
+          "target": " ; pour l'étymologie, voir HPN, p. 67 et 69, note 3) :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(1) In ",
+          "target": "(1) En ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", where the name is translated \"Shua's daughter,\" the wife of Judah.",
+          "target": ", où le nom est traduit par « fille de Shua », l'épouse de Juda.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(2) In ",
+          "target": "(2) En ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ", the daughter of Ammiel and wife of David.",
+          "target": ", la fille d'Ammiel et l'épouse de David.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "BATH-SHEBA",
+          "target": "BATH-SHÉBA",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEACON",
+      "article_id": "isbe-7b433a9708d38066858f",
+      "source_article_sha256": "ab910bd5ba41c6bcd04c0baefedc8ba8f66d93c473fbdade57d9c3164b5c8c5a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEACON",
+          "target": "SIGNAL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-k'-n. The translation of the Hebrew toren, which usually means \"mast\" (compare ",
+          "target": "be'-k'-n : Traduction de l'hébreu toren, qui signifie généralement « mât » (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), but in ",
+          "target": "), mais qui, en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " being used in parallelism with \"ensign\" the meaning may be \"signal-staff\" (",
+          "target": ", étant employé en parallèle avec « étendard », pourrait signifier « mât de signalisation » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " the American Revised Version, margin \"pole\").",
+          "target": " ; la note marginale de l'American Revised Version donne « perche »).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BECTILETH",
+      "article_id": "isbe-2f10e2c6c274d735cdf7",
+      "source_article_sha256": "32565a8c844ad4e17b5f62f6ff547cf1195f7de435b3a240a275360ab3e7121e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BECTILETH",
+          "target": "BECTILETH",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bek'-ti-leth (to pedion Baikteilaith): A plain which is defined as \"near the mountain which is at the left hand of the upper Cilicia\" (Judith 2:21). The name in Syriac is Beth QeTilath, \"house of slaughter.\" So far there is no clue to its identification.",
+          "target": "bek'-ti-leth (to pedion Baikteilaith) : Plaine située, selon le texte, « près de la montagne qui se trouve à gauche de la haute Cilicie » (Judith 2.21). Le nom syriaque est Beth QeTilath, « maison du massacre ». Aucun indice ne permet encore de l'identifier.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEDAN",
+      "article_id": "isbe-7b9d63faaf6c06534161",
+      "source_article_sha256": "d4c50bb10aa182732f266a306fc41d6543e4233acccd3719594e9caf6cbf7ce4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEDAN",
+          "target": "BEDAN",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-dan (bedhan, \"son of judgment\" (?)):",
+          "target": "be'-dan (bedhan, « fils du jugement » [?]) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) One of the leaders in Israel who with Jerubbaal, Jephthah and Samuel is mentioned as a deliverer of the nation (",
+          "target": "(1) L'un des chefs d'Israël, mentionné avec Jerubbaal, Jephthé et Samuel comme libérateur de la nation (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). The text is questioned because the Septuagint, Syriac, and Arabic read \"Barak\" instead.",
+          "target": "). Le texte est contesté, car la Septante, le syriaque et l'arabe portent plutôt « Barak ».",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) A son of Ulam of the house of Manasseh (",
+          "target": "(2) Fils d'Ulam, de la maison de Manassé (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEELTETHMUS",
+      "article_id": "isbe-0ebbe75ce193059167a0",
+      "source_article_sha256": "0f062ad53bea2594c115adb4e2aa47a59c6b5e69c453bc903d70bfbd8ebb118a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEELTETHMUS",
+          "target": "BEELTETHMUS",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-el-teth'-mus (Beeltethmos; Balthemus): One of the officers of King Artaxerxes in Palestine (1 Esdras 2:16,25). According to Professor Sayce, the name by etymology means \"lord of official intelligence\" or \"postmaster.\" Rendered \"chancellor\" in ",
+          "target": "be-el-teth'-mus (Beeltethmos ; Balthemus) : L'un des fonctionnaires du roi Artaxerxès en Palestine (1 Esdras 2.16, 25). Selon le professeur Sayce, l'étymologie du nom signifie « maître des renseignements officiels » ou « directeur des postes ». Traduit par « chancelier » en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " and \"story-writer\" in 1 Esdras 2:17.",
+          "target": " et par « rédacteur du récit » en 1 Esdras 2.17.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEER-ELIM",
+      "article_id": "isbe-4b230f88a8efe8466daa",
+      "source_article_sha256": "c0c370d278e4e111b4382d58bdaa04b7b3db616992f468746800de024fc87a92",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEER-ELIM",
+          "target": "BEER-ÉLIM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-er-e'-lim (be'er 'elim; phrear tou Aileim, literally \"well of Elim\"): Probably lay to the North of Moab, answering to Eglaim in the South (",
+          "target": "be-er-e'-lim (be'er 'elim ; phrear tou Aileim, littéralement « puits d'Élim ») : Se trouvait probablement au nord de Moab, en correspondance avec Églaïm au sud (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). It may possibly be identical with ",
+          "target": "). Ce lieu pourrait éventuellement être identique à ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BEER (1)",
+          "target": "BEER (1)",
+          "action": "preserve",
+          "reason": "Historical pronunciation or proper-name fragment retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "; but there is no certainty.",
+          "target": ", mais rien n'est certain.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEEROTH BENE-JAAKAN",
+      "article_id": "isbe-544ecdb4a97c9c22b95d",
+      "source_article_sha256": "4e92781eb2a7ac7bb527aabda1b9a4ffe469f73fa14c56eaed9c75d694086dc1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEEROTH BENE-JAAKAN",
+          "target": "BEÉROTH-BENÉ-JAAKAN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben'-e-ja'-a-kan (be'eroth bene ya`aqan; the Revised Version, margin \"the wells of the children of Jaakan\"): A desert camp of the Israelites mentioned before Moserah (",
+          "target": "ben'-e-ja'-a-kan (be'eroth bene ya`aqan ; note marginale de la Revised Version : « les puits des fils de Jaakan ») : Campement des Israélites dans le désert, mentionné avant Moséra (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " the name is given simply \"Bene-jaakan,\" and the situation after Moseroth.",
+          "target": ", le lieu est appelé simplement « Bené-Jaakan » et se trouve placé après Moséroth.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "WANDERINGS OF ISRAEL",
+          "target": "PÉRÉGRINATIONS D'ISRAËL",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
