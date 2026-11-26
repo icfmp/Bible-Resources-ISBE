@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "903_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "907_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 903,
-    "complete_first_drafts": 905,
-    "remaining_undrafted": 95
+    "new_complete_drafts_on_branch": 907,
+    "complete_first_drafts": 909,
+    "remaining_undrafted": 91
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1948
+    "complete_first_drafts_across_main_and_current_branch": 1952
   },
   "source_queue": {
     "rounds_completed": [
@@ -47,23 +47,23 @@
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-008",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-009"
     ],
-    "checks": "Rounds 001–009 completed. Prior 14,785-word cohort passed incremental CI. Current 41-manuscript cohort spans round 009 lines 63–100 and round 010 lines 1–3, all canonical IDs and slot counts checked. Incremental CI pending. Oversized round 010 JSONL is readable via GitHub contents endpoint; no extra staging needed.",
+    "checks": "Rounds 001–009 completed. Prior 16,891-word cohort passed incremental CI. Current four-article cohort covers round 010 lines 4–7; all canonical manuscript and batch identities and source slot counts checked. Incremental CI pending.",
     "partial_round": {
       "round": "round-010",
-      "completed_articles": 3,
+      "completed_articles": 7,
       "total_articles": 98,
       "completed_source_line_range": [
         1,
-        3
+        7
       ],
       "remaining_source_line_range": [
-        4,
+        8,
         98
       ],
-      "source_mutable_units": 134,
-      "source_blocks": 72,
-      "protected_keep_markers": 74,
-      "source_words_whitespace_count": 3990
+      "source_mutable_units": 645,
+      "source_blocks": 543,
+      "protected_keep_markers": 117,
+      "source_words_whitespace_count": 22744
     }
   },
   "batch_files": [
@@ -140,7 +140,10 @@
     "0233-wave02-round009-next10.json",
     "0234-wave02-round009-next10.json",
     "0235-wave02-round009-last3.json",
-    "0236-wave02-round010-first3.json"
+    "0236-wave02-round010-first3.json",
+    "0237-wave02-round010-babylon2.json",
+    "0238-wave02-round010-tower-nt.json",
+    "0239-wave02-round010-babylonia.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -542,43 +545,81 @@
       "key": "BABEL, BABYLON (1)",
       "kind": "source_witness",
       "detail": "Historical assertion that Alexander was murdered is preserved, without modernization; Annnit preserved exactly. Typo in draft proper name corrected before commit."
+    },
+    {
+      "key": "BABEL, BABYLON (2)",
+      "kind": "source_witness",
+      "detail": "Section 9 names Nabonidus as Nebuchadrezzar's father while other sections name Nabopolassar; retained. Source forms Nitoeris, Zeus Boles and Areran retained; check printed witness."
+    },
+    {
+      "key": "BABEL, BABYLON (2)",
+      "kind": "source_witness",
+      "detail": "Section 18 omits the numerical value in 'about miles (2 kilometers)'; rendered with ellipsis rather than inventing a value. Section 19 gives area as '1.8 miles'; original unit retained."
+    },
+    {
+      "key": "BABEL, BABYLON (2)",
+      "kind": "source_witness",
+      "detail": "Section 17 corrupt 'unbaked city' interpreted as unbaked earth from context; witness verification required. Architectural dimensions and plan references retained."
+    },
+    {
+      "key": "BABEL, TOWER OF",
+      "kind": "source_witness",
+      "detail": "Section 10 gives 3 1/2 gar as 60 feet, inconsistent with the conversion elsewhere; retained as written. Unusual baldlu and Bclus retained."
+    },
+    {
+      "key": "BABYLON IN THE NEW TESTAMENT",
+      "kind": "source_witness",
+      "detail": "Author's interpretations of Rome and Peter preserved without confessional harmonization."
+    },
+    {
+      "key": "BABYLONIA",
+      "kind": "source_witness",
+      "detail": "Corrupt phrases 'pro-Christian', 'Aramaic Under Biblical', 'Babylonian ylonia' and 'history of article' rendered by contextual readings; verify printed witness."
+    },
+    {
+      "key": "BABYLONIA",
+      "kind": "source_witness",
+      "detail": "Dynasty headings ISIS versus Isin, unusual names and incomplete dates retained. Bibliography years 1002 and 1007 retained; possible witness errors."
+    },
+    {
+      "key": "BABYLONIA",
+      "kind": "source_witness",
+      "detail": "Historical statement that Sennacherib besieged Babylon during the revolt of Shamash-shum-ukin retained as written; chronological discrepancy requires witness review."
+    },
+    {
+      "key": "BABYLONIA",
+      "kind": "source_witness",
+      "detail": "All historical chronologies and dynastic reign lengths retained without modern harmonization, including 604–568 for Nebuchadrezzar II; source claims are historical scholarship, not editorial corrections."
     }
   ],
-  "next_action": "Resume staged round-010 SOURCE.jsonl line 4 using the GitHub contents endpoint (the fetch_file range endpoint returns empty content for this >1 MB JSONL). Use consecutive whole-article cohorts not exceeding 20000 editable English words. No source staging required. Verify incremental CI; at ticket completion update FULL_VALIDATION.json. No editorial approvals or translation PR.",
-  "previous_translation_commit": "b795c79bcbb9a5bb7ed9d61ed82e1db31a3a480f",
-  "last_translation_tree": "0a594bc793a1ca1161ce3ca883756c3edac4cbe7",
+  "next_action": "Resume staged round-010 SOURCE.jsonl line 8 via GitHub contents endpoint. Use consecutive whole-article cohorts not exceeding 25000 editable English words. No source staging required. Verify incremental CI; at ticket completion update FULL_VALIDATION.json. No editorial approvals or translation PR.",
+  "previous_translation_commit": "3c36af6490cb1b4e9c1b0e1123a306029519d6e0",
+  "last_translation_tree": "e0ffdd8bef22da6d444d38764ae7406ef44a9a57",
   "last_cohort_completion": {
     "kind": "word_budget_cohort",
     "source_line_ranges": [
       {
-        "round": "round-009",
-        "range": [
-          63,
-          100
-        ]
-      },
-      {
         "round": "round-010",
         "range": [
-          1,
-          3
+          4,
+          7
         ]
       }
     ],
-    "new_articles": 41,
-    "source_words_whitespace_count": 16891,
-    "word_limit": 20000,
-    "next_article": "BABEL, BABYLON (2)",
-    "next_article_words": 6240,
-    "words_if_included": 23131,
-    "source_mutable_units": 793,
-    "source_blocks": 342,
-    "protected_keep_markers": 719,
-    "validation": "Ordered slot counts and canonical manuscript IDs verified; incremental CI pending",
+    "new_articles": 4,
+    "source_words_whitespace_count": 18754,
+    "word_limit": 25000,
+    "next_article": "BABYLONIA AND ASSYRIA, RELIGION OF",
+    "next_article_words": 7886,
+    "words_if_included": 26640,
+    "source_mutable_units": 511,
+    "source_blocks": 471,
+    "protected_keep_markers": 43,
+    "validation": "Ordered slot counts and canonical manuscript and batch IDs verified; incremental CI pending",
     "editorial_approvals": 0
   },
   "cohort_policy": {
-    "source_word_limit": 20000,
+    "source_word_limit": 25000,
     "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
     "selection": "Consecutive complete articles from staged queues; stop before the next article exceeds the limit, no skipping or splitting",
     "oversized_single_article": "Standalone cohort",
