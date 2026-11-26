@@ -121,7 +121,7 @@
       "source_article_sha256": "380b33f60d2dce80e9132fccb32df163fbdeae9185c3f6c162d1266e6b48dd7e",
       "original_markdown_paragraphs": 255,
       "source_template_characters": 110699,
-      "working_translation_status": "original_source_only_no_french_draft"
+      "working_translation_status": "complete_draft_pending_editorial_review"
     },
     {
       "index": 961,
@@ -133,7 +133,7 @@
       "working_translation_status": "complete_draft_pending_editorial_review"
     }
   ],
-  "status_note": "Twelve complete source-locked unreviewed French first drafts on the translation branch; remaining two entries in this fourteen-entry cohort: APOCALYPTIC LITERATURE and ASTRONOMY. Direct commits only; no translation PR before all 9,380 French article translations have been completed. Editorial acceptance and publication are separate gates.",
+  "status_note": "Thirteen of the final fourteen original wave-one articles have complete source-locked unreviewed first drafts on the translation branch. APOCALYPTIC LITERATURE remains. Direct commits only; no PR until all 9,380 original ISBE articles are completely translated. Editorial and publication gates remain separate.",
   "source_flags": [
     {
       "key": "ALTAR",
@@ -574,6 +574,120 @@
       "block": 236,
       "witness": "were edition and translated",
       "note": "Apparent English source error for edited and translated; French is edited et traduits contextually, English unchanged"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 81,
+      "witness": "words of Joe (2:7)",
+      "note": "Likely source OCR error for Joel; French renders Joël contextually, source untouched"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 112,
+      "witness": "Bah creation poem",
+      "note": "Unclear historical poem name possibly transcription error; retained as 'Bah' in French pending source witness verification"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 115,
+      "witness": "James (1:17) transliterated parallage trope",
+      "note": "Technical Greek transliterations kept while explaining in French; biblical ref is untagged in source"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 127,
+      "witness": "great modern discovery",
+      "note": "Scientific claim is historical 1915 author's wording, not updated to current science"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 166,
+      "witness": "Joe refers to them twice",
+      "note": "Likely English OCR for Joel; translated Joël, original source unchanged"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 166,
+      "witness": "glowing discovered",
+      "note": "Likely corruption for disc, translated disque lumineux and flagged; English original unchanged"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 172,
+      "witness": "ring or discovered with wings",
+      "note": "Likely corruption for disc, translated disque ailé with contextual evidence and source flag"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 202,
+      "witness": "Meton received cycle from Jewish sources",
+      "note": "Historical author's unverified conjecture, faithfully translated without asserting current scholarly consensus"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 205,
+      "witness": "Exilic chronology inference",
+      "note": "Historical critical argument preserved as 1915 author's conclusion, not endorsed or modernized"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 207,
+      "witness": "840,057 days etc.",
+      "note": "Historical astronomical/prophetic numerology values retained exactly; not independently validated as current calculations"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 264,
+      "witness": "Joe 2:30 in Scripture link",
+      "note": "Original cross-reference appears erroneous abbreviation for Joel; source-locked KEEP marker retained exactly; verify original witness"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 254,
+      "witness": "pedestal of Diana's image",
+      "note": "Historical conjecture of source author preserved, not independently established"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 301,
+      "witness": "Da",
+      "note": "Source appears OCR truncation of Dan; contextual French renders Dan and original source unchanged"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 272,
+      "witness": "Babylonian astronomical reconstruction",
+      "note": "Historical author's archaeoastronomical dating and speculative constellations hypotheses preserved without present-day endorsement"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 337,
+      "witness": "Nimrod/Marduk etymology",
+      "note": "Historical etymological hypothesis retained as argument attributed to Pinches; requires editorial verification before acceptance"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 357,
+      "witness": "700 BC adoption of equal zodiac signs",
+      "note": "Historical scholarly chronology claim translated as dated source position, no present-day verification"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 386,
+      "witness": "Assyrian and Bah conquests",
+      "note": "Likely digital-text corruption of Babylonian; kept Bah in French pending print witness collation"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 414,
+      "witness": "Ge 16",
+      "note": "Original reference likely meant Genesis 1:6; kept exact protected cRef 'Ge 16', no silent correction"
+    },
+    {
+      "key": "ASTRONOMY",
+      "block": 443,
+      "witness": "Tehom etymological onomatopoeia",
+      "note": "Historical speculative etymology preserved, pending independent philological review"
     }
   ],
   "pull_request_policy": "No PR during article, cohort, 14-entry or wave progression. Preserve and commit directly to the translation branch. Open one PR after all 9,380 French translations are completed, with editorial verification and publication gated separately.",
@@ -584,6 +698,14 @@
       "batch": "0160-wave01-last14-apocryphal-acts.json",
       "source_blocks": 206,
       "tei_units": 216,
+      "editorial_status": "unreviewed_draft"
+    },
+    {
+      "source_key": "ASTRONOMY",
+      "article_id": "isbe-35ac1588087957ad18a9",
+      "batch": "0161-wave01-last14-astronomy.json",
+      "source_blocks": 255,
+      "tei_units": 391,
       "editorial_status": "unreviewed_draft"
     }
   ]
