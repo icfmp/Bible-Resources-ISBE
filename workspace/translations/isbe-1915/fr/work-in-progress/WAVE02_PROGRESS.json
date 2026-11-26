@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "700_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "800_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 700,
-    "complete_first_drafts": 702,
-    "remaining_undrafted": 298
+    "new_complete_drafts_on_branch": 800,
+    "complete_first_drafts": 802,
+    "remaining_undrafted": 198
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1745
+    "complete_first_drafts_across_main_and_current_branch": 1845
   },
   "source_queue": {
     "rounds_completed": [
@@ -29,11 +29,12 @@
       "round-004",
       "round-005",
       "round-006",
-      "round-007"
+      "round-007",
+      "round-008"
     ],
-    "original_article_templates": 700,
-    "verified_unique_article_ids": 700,
-    "original_mutable_tei_units_covered": 3057,
+    "original_article_templates": 800,
+    "verified_unique_article_ids": 800,
+    "original_mutable_tei_units_covered": 4026,
     "round_paths": [
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-001",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-002",
@@ -41,9 +42,10 @@
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-004",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-005",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-006",
-      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-007"
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-007",
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-008"
     ],
-    "checks": "Seven completed 100-article cohorts. Round 007 contains 100 distinct source-locked manuscripts, 725 mutable units. Ordered slot-count and Git tree coverage checks passed; full independent CI on the completion commit pending. No editorial approval."
+    "checks": "Eight completed 100-article cohorts. Round 007: all five post-commit workflows succeeded. Round 008 contains 100 distinct source-locked manuscripts, 969 mutable units. Ordered slot-count and Git tree coverage checks passed; full CI on the completion commit pending. No editorial approval."
   },
   "batch_files": [
     "0163-wave02-first05-source-locked.json",
@@ -101,7 +103,12 @@
     "0215-wave02-round007-next20.json",
     "0216-wave02-round007-next20.json",
     "0217-wave02-round007-next20.json",
-    "0218-wave02-round007-last20.json"
+    "0218-wave02-round007-last20.json",
+    "0219-wave02-round008-first20.json",
+    "0220-wave02-round008-next20.json",
+    "0221-wave02-round008-next20.json",
+    "0222-wave02-round008-next20.json",
+    "0223-wave02-round008-last20.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -308,20 +315,75 @@
       "key": "CHEBAR",
       "kind": "source_witness",
       "detail": "Source anomalous 'rood.' before shaTT en-Nil; retained."
+    },
+    {
+      "key": "BABBLER",
+      "kind": "source_witness",
+      "detail": "Source has stray '20' in gloss '20 seed'; retained."
+    },
+    {
+      "key": "BACCHIDES",
+      "kind": "source_witness",
+      "detail": "Source ends with disconnected fragment 'less importance than some modern scholars have attempted to demonstrate'; translated without omission. Source name Aleimus retained."
+    },
+    {
+      "key": "BAHURIM",
+      "kind": "source_witness",
+      "detail": "Source contains broken wording 'Ale, math' and 'was a of Bahurim'; French supplies a generic grammatical noun (homme), not a specific missing ethnonym. Check historical witness and editorial boundary at signature."
+    },
+    {
+      "key": "BARTHOLOMEW",
+      "kind": "source_witness",
+      "detail": "Duplicated alternative Tolmai or Tolmai preserved."
+    },
+    {
+      "key": "BETHPHAGE",
+      "kind": "source_witness",
+      "detail": "Duplicated form Bethphage or Bethphage preserved."
+    },
+    {
+      "key": "BEROTHAH",
+      "kind": "source_witness",
+      "detail": "Malformed cross-reference display BEROTHAH #2Sa 8:8 retained."
+    },
+    {
+      "key": "BETIMES",
+      "kind": "source_witness",
+      "detail": "Source reads 'the mourning' at 1 Macc 5:30; retained in English as quoted."
+    },
+    {
+      "key": "BOOTH",
+      "kind": "source_witness",
+      "detail": "Source has apparently incomplete Isa 18 reference; protected marker retained."
+    },
+    {
+      "key": "BOWMAN",
+      "kind": "source_witness",
+      "detail": "Source cites 2Sa 1:5,7 for a statement attributed to Hosea; retained."
+    },
+    {
+      "key": "CASTANETS",
+      "kind": "source_witness",
+      "detail": "Source anomalous spelling 'sialrum' retained."
+    },
+    {
+      "key": "BOWELS",
+      "kind": "source_witness",
+      "detail": "Historical medical diagnosis differs from BLOODY FLUX; both authors' claims retained without harmonization."
     }
   ],
-  "next_action": "Stage round-008 of 100 shortest undrafted canonical articles within the 298 remaining positions 1001–2000; grouped JSONL translation and one cohort commit. Verify independent CI before any acceptance; no PR before all 9380 first drafts.",
-  "previous_translation_commit": "f16895e3aa1ed2fd573610c56061a95908e4f5b8",
-  "last_translation_tree": "a9daf480dab53a7c3030e851f5810046e96a6c78",
+  "next_action": "Stage round-009 of 100 shortest undrafted canonical articles within the 198 remaining positions 1001–2000; grouped JSONL translation and one cohort commit. Verify independent CI before any acceptance; no PR before all 9380 first drafts.",
+  "previous_translation_commit": "3e8df4cc989ac99d937b096a3bfb1983aa38a6fd",
+  "last_translation_tree": "7144d9d3bf3dc7ae97bc9f37a1af189fe87d91a1",
   "last_cohort_completion": {
-    "round": "round-007",
+    "round": "round-008",
     "new_articles": 100,
     "previous_articles": 0,
     "total_articles": 100,
-    "source_mutable_units": 725,
-    "source_words_whitespace_count": 10494,
-    "source_blocks": 358,
-    "protected_keep_markers": 554,
+    "source_mutable_units": 969,
+    "source_words_whitespace_count": 17044,
+    "source_blocks": 452,
+    "protected_keep_markers": 794,
     "validation": "Ordered source slot count and Git tree coverage verified; full TEI and bridge CI pending",
     "editorial_approvals": 0
   }
