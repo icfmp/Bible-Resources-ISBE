@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "923_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "947_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 923,
-    "complete_first_drafts": 925,
-    "remaining_undrafted": 75
+    "new_complete_drafts_on_branch": 947,
+    "complete_first_drafts": 949,
+    "remaining_undrafted": 51
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1968
+    "complete_first_drafts_across_main_and_current_branch": 1992
   },
   "source_queue": {
     "rounds_completed": [
@@ -47,23 +47,23 @@
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-008",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-009"
     ],
-    "checks": "Rounds 001–009 completed. Prior 18,754-word cohort passed incremental CI. Current 16-article cohort covers round 010 lines 8–23; all canonical manuscript and batch identities, exact source slot content and counts verified. Incremental CI pending.",
+    "checks": "Rounds 001–009 completed. Prior 35,730-word cohort passed incremental CI. Current 24-article cohort covers round 010 lines 24–47; exact ordered source slots, canonical manuscript and batch identities, all reconstructed manuscript bodies and protected markers verified by re-reading staged Git blobs. Incremental CI pending.",
     "partial_round": {
       "round": "round-010",
-      "completed_articles": 23,
+      "completed_articles": 47,
       "total_articles": 98,
       "completed_source_line_range": [
         1,
-        23
+        47
       ],
       "remaining_source_line_range": [
-        24,
+        48,
         98
       ],
-      "source_mutable_units": 1578,
-      "source_blocks": 1047,
-      "protected_keep_markers": 773,
-      "source_words_whitespace_count": 58474
+      "source_mutable_units": 2931,
+      "source_blocks": 1857,
+      "protected_keep_markers": 1468,
+      "source_words_whitespace_count": 106633
     }
   },
   "batch_files": [
@@ -152,7 +152,16 @@
     "0245-wave02-round010-baptist-baptism.json",
     "0246-wave02-round010-baptism-dead-spirit.json",
     "0247-wave02-round010-baptismal-regeneration.json",
-    "0248-wave02-round010-barber-barefoot-barnabas.json"
+    "0248-wave02-round010-barber-barefoot-barnabas.json",
+    "0249-wave02-round010-baruch-book.json",
+    "0250-wave02-round010-bashan-beard.json",
+    "0251-wave02-round010-beatitudes-begging.json",
+    "0252-wave02-round010-bel-dragon.json",
+    "0253-wave02-round010-belshazzar-benjamin.json",
+    "0254-wave02-round010-beth-horon-bethlehem.json",
+    "0255-wave02-round010-bethsaida.json",
+    "0256-wave02-round010-between-testaments.json",
+    "0257-wave02-round010-bible.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -669,36 +678,142 @@
       "key": "BARNABAS",
       "kind": "source_witness",
       "detail": "Source statement placing violence against Paul at Iconium and claim of Paul proceeding alone on second journey preserved; verify historical and textual witness, no silent correction."
+    },
+    {
+      "key": "BARUCH, BOOK OF",
+      "kind": "source_witness",
+      "detail": "Source corruption includes 'Goal' (interpreted as God), obscure 'Um', anomalous dates and references, incomplete enumeration and repeated material in the language section. Repetition and anchor positions retained; verify against printed witness. Some damaged syntax interpreted contextually."
+    },
+    {
+      "key": "BASHAN",
+      "kind": "source_witness",
+      "detail": "'Hermen' read as Hermon; verify printed witness."
+    },
+    {
+      "key": "BASIN; BASON",
+      "kind": "source_witness",
+      "detail": "Damaged 'Enoch glish Versions' and 'accustom edition to' interpreted contextually; unusual 'n izein' and wording of the ewer quotation retained."
+    },
+    {
+      "key": "BASKET",
+      "kind": "source_witness",
+      "detail": "Damaged spacing restored; 'of Kreugel' interpreted as cf. Kreugel; historical terminology for offerings retained."
+    },
+    {
+      "key": "BATH; BATHING",
+      "kind": "source_witness",
+      "detail": "Suspicious Herod date (40–44 BC) retained rather than silently corrected."
+    },
+    {
+      "key": "BEARD",
+      "kind": "source_witness",
+      "detail": "Source calls Mephibosheth son of Saul and attributes guilt; retained for witness verification."
+    },
+    {
+      "key": "BEATITUDES",
+      "kind": "source_witness",
+      "detail": "Historical source-critical hypotheses and disputed references retained; no harmonization with other theological positions."
+    },
+    {
+      "key": "BEAUTY",
+      "kind": "source_witness",
+      "detail": "Damaged 'finish beautiful' and 'of of spine' interpreted contextually; historical scientific language about ether retained."
+    },
+    {
+      "key": "BED; BEDCHAMBER; BEDSTEAD",
+      "kind": "source_witness",
+      "detail": "'King of Og' and Greek 'koitte' retained as source anomalies."
+    },
+    {
+      "key": "BEERSHEBA",
+      "kind": "source_witness",
+      "detail": "'Da' interpreted as Dan; unusual 'el`Avish' retained; period descriptions not updated."
+    },
+    {
+      "key": "BEG; BEGGAR; BEGGING",
+      "kind": "source_witness",
+      "detail": "'Let me wander' retained despite possible omitted negative. Period judgments about Jewish communities are the author's, not modern editorial assertions."
+    },
+    {
+      "key": "BEL AND THE DRAGON",
+      "kind": "source_witness",
+      "detail": "Damaged song title and 'east' interpreted contextually; anomalous verse 57, codex name, Caster, 'obolus' and chronological statements preserved for witness verification; confessional positions not harmonized."
+    },
+    {
+      "key": "BELSHAZZAR",
+      "kind": "source_witness",
+      "detail": "Damaged Nabonidus and Harran spellings normalized; author's historical hypotheses retained."
+    },
+    {
+      "key": "BENEDICTION",
+      "kind": "source_witness",
+      "detail": "Damaged 'fight' and 'portion' interpreted as right and position; confessional evaluations retained."
+    },
+    {
+      "key": "BEN-HADAD",
+      "kind": "source_witness",
+      "detail": "Corrupt sentence about Ahab and Dad'idri interpreted contextually; 'Marl' read as Mari; 53 horsemen retained as written; historical chronologies not updated."
+    },
+    {
+      "key": "BENJAMIN",
+      "kind": "source_witness",
+      "detail": "'fight hand', 'plans', damaged geographical names and syntax interpreted contextually; 'no details in Israel' retained literally as doubtful; discontinuous numbering preserved."
+    },
+    {
+      "key": "BETH-HORON, THE BATTLE OF",
+      "kind": "source_witness",
+      "detail": "Astronomical reconstruction, dates, distances, and interpretation of the miracle preserved as author's position. Source poetic formatting and anchor markers retained."
+    },
+    {
+      "key": "BETHLEHEM",
+      "kind": "source_witness",
+      "detail": "Source etymology 'house of David' preserved for verification rather than corrected to house of bread; period population and descriptions retained."
+    },
+    {
+      "key": "BETHSAIDA",
+      "kind": "source_witness",
+      "detail": "Competing site identifications and obsolete geographical terminology retained; no modern archaeological updating."
+    },
+    {
+      "key": "BETWEEN THE TESTAMENTS",
+      "kind": "source_witness",
+      "detail": "Source chronology, Egyptian dynasty numbering, historical and confessional judgments and period descriptions of Jewish groups retained; verify damaged names and doubtful dates (notably Egyptian period dates and Onias identification)."
+    },
+    {
+      "key": "BIBLE, THE",
+      "kind": "source_witness",
+      "detail": "Source anomalies preserved include Trent 1543, Art. VIII, Romans dated 58 BC, Jude reference 1:14,25, attribution of captivity-letter delivery to Epaphras, and missing V heading in body. Ordinary OCR-like spacing errors and abbreviated biblical book names interpreted contextually, no anchor changes. Historical canon, manuscript dating, inspiration/inerrancy and source-critical views retained without harmonizing with other articles."
     }
   ],
-  "next_action": "Resume staged round-010 SOURCE.jsonl line 24 via GitHub contents endpoint. Use consecutive whole-article cohorts not exceeding 40000 editable English words unless a new limit is authorized. No source staging required. Verify incremental CI; at ticket completion update FULL_VALIDATION.json. No editorial approvals or translation PR.",
-  "previous_translation_commit": "addeebec53347c86e531708a47591028cbbcc403",
-  "last_translation_tree": "3e61c4e0cf18497fdfd337bf3650be83655aa3be",
+  "next_action": "Resume staged round-010 SOURCE.jsonl line 48 (BIBLICAL THEOLOGY) via GitHub contents endpoint. Use consecutive whole-article cohorts not exceeding 50000 editable English words unless a new limit is authorized. No source staging required. Verify incremental CI; at ticket completion update FULL_VALIDATION.json. No editorial approvals or translation PR.",
+  "previous_translation_commit": "cbb1f7e1ac83b9b6c09eeaaf1d507a496551a00b",
+  "last_translation_tree": "c18ae1ef4be71cccb5c6d5e719aa453c6d1b940e",
   "last_cohort_completion": {
     "kind": "word_budget_cohort",
     "source_line_ranges": [
       {
         "round": "round-010",
         "range": [
-          8,
-          23
+          24,
+          47
         ]
       }
     ],
-    "new_articles": 16,
-    "source_words_whitespace_count": 35730,
-    "word_limit": 40000,
-    "next_article": "BARUCH, BOOK OF",
-    "next_article_words": 4388,
-    "words_if_included": 40118,
-    "source_mutable_units": 933,
-    "source_blocks": 504,
-    "protected_keep_markers": 656,
-    "validation": "Exact ordered source slots, canonical manuscript and batch IDs verified; incremental CI pending",
+    "new_articles": 24,
+    "source_words_whitespace_count": 48159,
+    "word_limit": 50000,
+    "next_article": "BIBLICAL THEOLOGY",
+    "next_article_words": 4039,
+    "words_if_included": 52198,
+    "source_mutable_units": 1353,
+    "source_blocks": 810,
+    "protected_keep_markers": 695,
+    "protected_structure_markers_total": 1200,
+    "validation": "Exact ordered source slots, canonical manuscript and batch identities, all 24 reconstructed bodies and protected markers verified from staged Git blobs; incremental CI pending",
     "editorial_approvals": 0
   },
   "cohort_policy": {
-    "source_word_limit": 40000,
+    "source_word_limit": 50000,
     "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
     "selection": "Consecutive complete articles from staged queues; stop before the next article exceeds the limit, no skipping or splitting",
     "oversized_single_article": "Standalone cohort",

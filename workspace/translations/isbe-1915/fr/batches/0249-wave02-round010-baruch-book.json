@@ -1,0 +1,854 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BARUCH, BOOK OF",
+      "article_id": "isbe-3ec7cda3c149f1414dc5",
+      "source_article_sha256": "e21a35e8309f757867f17951cd00589a6c9091e710925be81c6a65a686a0bc66",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARUCH, BOOK OF",
+          "target": "LIVRE DE BARUCH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "One of the Apocryphal or Deutero-canonical books, standing between Jeremiah and Lamentations in the Septuagint, but in the Vulgate (Jerome's Latin Bible, 390-405 A. D.) after these two books.",
+          "target": "L'un des livres apocryphes ou deutérocanoniques, placé entre Jérémie et les Lamentations dans la Septante, mais après ces deux livres dans la Vulgate (Bible latine de Jérôme, 390-405 apr. J.-C.).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "I. Name.",
+          "target": "I. Nom.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See under ",
+          "target": "Voir à l'article ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BARUCH",
+          "target": "BARUCH",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " for the meaning of the word and for the history of the best-known Biblical. personage bearing the name. Though Jewish traditions link this book with Jeremiah's amanuensis and loyal friend as author, it is quite certain that it was not written or compiled for hundreds of years after the death of this Baruch. According to ",
+          "target": " pour la signification du mot et l'histoire du personnage biblique le plus connu qui porte ce nom. Bien que les traditions juives attribuent ce livre au secrétaire et ami fidèle de Jérémie, il est tout à fait certain qu'il n'a été écrit ni compilé avant plusieurs siècles après la mort de ce Baruch. D'après ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " it was in the 4th year (604 BC) of the reign of Jehoiakim (608-597 BC) that Baruch wrote down Jeremiah's words in a book and read them in the ears of the nobles (English Versions, \"princes,\" but king's sons are not necessarily meant; ",
+          "target": " c'est dans la quatrième année (604 av. J.-C.) du règne de Jojakim (608-597 av. J.-C.) que Baruch consigna les paroles de Jérémie dans un livre et les lut aux oreilles des notables (versions anglaises : « princes », mais il ne s'agit pas nécessairement de fils du roi ; ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "). The Book of Baruch belongs in its present form to the latter half of the 1st century of our era; yet some modern Roman Catholic scholars vigorously maintain that it is the work of Jeremiah's friend and secretary.",
+          "target": "). Dans sa forme actuelle, le livre de Baruch appartient à la seconde moitié du Ier siècle de notre ère ; cependant, certains érudits catholiques romains modernes soutiennent vigoureusement qu'il est l'œuvre de l'ami et secrétaire de Jérémie.",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "II. Contents.",
+          "target": "II. Contenu.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "This book and also the Epistle of Jeremy have closer affinities with the canonical Book of Jer than any other part of the Apocrypha. It is probably to this fact that they owe their name and also their position in the Septuagint and in the Vulgate (Jerome's Latin Bible, 390-405 A. D.) The book is apparently made up of four separate parts by independent writers, brought together by an editor, owing it is very likely to a mere accident--each being too small to occupy the space on one roll they were all four written on one and the same roll. The following is a brief analysis of the four portions of the book:",
+          "target": "Ce livre, ainsi que l'Épître de Jérémie, présente avec le livre canonique de Jérémie des affinités plus étroites que toute autre partie des Apocryphes. C'est probablement à ce fait qu'ils doivent leur nom ainsi que leur place dans la Septante et dans la Vulgate (Bible latine de Jérôme, 390-405 apr. J.-C.). Le livre se compose apparemment de quatre parties distinctes, dues à des auteurs indépendants et réunies par un rédacteur, très vraisemblablement par un simple hasard : chacune étant trop courte pour occuper un rouleau, toutes quatre furent écrites sur un seul et même rouleau. Voici une brève analyse des quatre parties du livre :",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "1. Historical Introduction:",
+          "target": "1. Introduction historique :",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "Historical Introduction, giving an account of the origin and purpose of the book (Baruch 1:1-14). Baruch 1:1 f tell us that Baruch wrote this book at Babylon \"in the fifth month (not \"year\" as the Septuagint) in the seventh day of the month, what time as the Chaldeans took Jerusalem, and burnt it with fire\" (see ",
+          "target": "Introduction historique, donnant un exposé de l'origine et du but du livre (Baruch 1:1-14). Baruch 1:1 et suivant nous apprennent que Baruch écrivit ce livre à Babylone « le cinquième mois (et non la cinquième “année” comme dans la Septante), le septième jour du mois, au temps où les Chaldéens prirent Jérusalem et la brûlèrent par le feu » (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": " ff). Fritzsche and others read: \"In the fifth year, in the month Sivan (see 1:8), in the seventh day of the month,\" etc. Um gives the date of the feast Pentecost, and the supposition is that the party who made a pilgrimage to Jerusalem did so in order to observe that feast. According to 1:3-14, Baruch read his book to King Jehoiachin and his court by the (unidentified) river Sud. King and people on hearing the book fell to weeping, fasting and praying. As a result money was collected and sent, together with Baruch's book, to the high priest Jehoiakim, (NOTE: So spelled in the canonical books; but it is Joacim or Joachim in Apocrypha the King James Version, and in the Apocrypha the Revised Version (British and American) it is invariably Joakim.) to the priests and to the people at Jerusalem. The money is to be used in order to make it possible to carry on the services of the temple, and in particular that prayers may be offered in the temple for the king and his family and also for the superior lord King Nebuchadnezzar and his son Baltasar (= the Belshazzar of Da 5).",
+          "target": " et suivants). Fritzsche et d'autres lisent : « La cinquième année, au mois de Sivan (voir 1:8), le septième jour du mois », etc. Um donne la date de la fête de la Pentecôte, et l'on suppose que ceux qui firent le pèlerinage à Jérusalem le firent pour observer cette fête. Selon 1:3-14, Baruch lut son livre au roi Jojakin et à sa cour, près du fleuve Sud (non identifié). En entendant le livre, le roi et le peuple se mirent à pleurer, à jeûner et à prier. En conséquence, on recueillit de l'argent, que l'on envoya, avec le livre de Baruch, au grand prêtre Jojakim (NOTE : telle est l'orthographe dans les livres canoniques ; mais on trouve Joacim ou Joachim dans les Apocryphes de la King James Version, et invariablement Joakim dans ceux de la Revised Version britannique et américaine), aux prêtres et au peuple de Jérusalem. L'argent doit servir à permettre la poursuite du service du temple, et en particulier à y faire offrir des prières pour le roi et sa famille, ainsi que pour leur suzerain, le roi Nebucadnetsar, et son fils Baltasar (= le Belschatsar de Daniel 5).",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "2. Confession and Prayer:",
+          "target": "2. Confession et prière :",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "Confession and prayer (Baruch 1:15-3:8) (1) of the Palestinian remnant (Baruch 1:15-2:15). The speakers are resident in Judah not in Babylon (Baruch 1:15; compare 2:4), as J. T. Marshall and R. H. Charles rightly hold. This section follows throughout the arrangement and phraseology of a prayer contained in ",
+          "target": "Confession et prière (Baruch 1:15-3:8), (1) du reste demeuré en Palestine (Baruch 1:15-2:15). Ceux qui parlent résident en Juda et non à Babylone (Baruch 1:15 ; comparer 2:4), comme le soutiennent à juste titre J. T. Marshall et R. H. Charles. Cette section suit d'un bout à l'autre la disposition et la phraséologie d'une prière contenue en ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": ". It is quite impossible to think of Daniel as being based on Baruch, for the writer of the former is far more original than the author or authors of Baruch. But in the present section the original passage in Da is altered in a very significant way. Thus in ",
+          "target": ". Il est tout à fait impossible de considérer Daniel comme fondé sur Baruch, car le rédacteur du premier est beaucoup plus original que l'auteur ou les auteurs de Baruch. Mais dans la présente section, le passage original de Daniel est modifié de manière très significative. Ainsi, en ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": " the writer describes those for whom he wrote as `the men of Judah and the inhabitants of Jerusalem and all Israel(ites): those near and those far off, in all the lands (countries) whither thou hast driven them on account of their unfaithfulness toward thee.' The italicized words are omitted from Baruch 1:15, though the remaining part of ",
+          "target": " , l'auteur décrit ceux pour lesquels il écrivait comme « les hommes de Juda et les habitants de Jérusalem et tout Israël (les Israélites) : ceux qui sont proches et ceux qui sont éloignés, dans tous les pays (contrées) où tu les as chassés à cause de leur infidélité envers toi ». Les mots en italiques sont omis en Baruch 1:15, bien que le reste de ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": " is added. Why this difference? It is evident, as Marshall has ably pointed out, that the editor of the section intends to put the confession and prayer of Baruch 1:15-2:5 into the mouths of Jews who had not been removed into exile. Ewald (History, V, 208, 6) holds that ",
+          "target": " soit ajouté. Pourquoi cette différence ? Il est évident, comme Marshall l'a fort bien montré, que le rédacteur de la section entend mettre la confession et la prière de Baruch 1:15-2:5 dans la bouche de Juifs qui n'avaient pas été emmenés en exil. Ewald (History, V, 208, 6) soutient que ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": " is dependent on Baruch 1:15-2:17. The section may thus be analyzed:",
+          "target": " dépend de Baruch 1:15-2:17. On peut ainsi analyser la section :",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "(a) Baruch 1:15-22: Confession of the sins of the nation from the days of Moses down to the exile. The principle of solidarity (see Century Bible, \"Psalms,\" II, 21, 195, 215) so governed the thoughts of the ancient Israelites that the iniquities of their forefathers were in effect their own.",
+          "target": "(a) Baruch 1:15-22 : Confession des péchés de la nation depuis l'époque de Moïse jusqu'à l'exil. Le principe de solidarité (voir Century Bible, « Psalms », II, 21, 195, 215) régissait à tel point la pensée des anciens Israélites que les iniquités de leurs ancêtres étaient en fait les leurs.",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(b) Baruch 2:1-5: God's righteous judgment on the nation in humbling and scattering them.",
+          "target": "(b) Baruch 2:1-5 : Le juste jugement de Dieu sur la nation, qu'il humilie et disperse.",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "Confession and prayer (2) of the exiles in Babylon Baruch 2:16-3:8. That the words in this section are supposed to be uttered by Babylonian exiles appears from 2:13 f; 3:7 f and from the general character of the whole. This portion of the book is almost as dependent on older Scriptures as the foregoing. Three sources seem in particular to have been used.",
+          "target": "Confession et prière (2) des exilés à Babylone, Baruch 2:16-3:8. Que les paroles de cette section soient censées être prononcées par des exilés à Babylone ressort de 2:13 et suivant ; 3:7 et suivant, ainsi que du caractère général de l'ensemble. Cette partie du livre dépend presque autant des Écritures antérieures que la précédente. Trois sources semblent notamment avoir été utilisées.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "(a) The Book of Jeremiah has been freely drawn upon.",
+          "target": "(a) On a largement puisé dans le livre de Jérémie.",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "(b) Deuteronomic phrases occur frequently, especially in the beginning and end. These are perhaps taken second-hand from Jeremiah, a book well known to the author of these verses and deeply loved by him.",
+          "target": "(b) Des expressions deutéronomiques reviennent fréquemment, particulièrement au début et à la fin. Elles sont peut-être empruntées de seconde main à Jérémie, livre que l'auteur de ces versets connaissait bien et aimait profondément.",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "(c) Solomon's prayer as recorded in ",
+          "target": "(c) La prière de Salomon, telle qu'elle est rapportée en ",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": " is another quarry from which our author appears to have dug. This section may be thus divided:",
+          "target": " , est une autre carrière où notre auteur paraît avoir puisé. On peut diviser cette section de la manière suivante :",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "(i.) Baruch 2:6-12: Confession, opening as the former (see 1:15) with words extracted from ",
+          "target": "(i.) Baruch 2:6-12 : Confession, commençant comme la précédente (voir 1:15) par des paroles tirées de ",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "(ii.) Baruch 2:13-3:8: Prayer for restoration. Baruch 3:1-8 shows more independence than the rest, for the author at this point makes use of language not borrowed from any original known to us. As such these verses are important as a clue to the writer's position, views and character.",
+          "target": "(ii.) Baruch 2:13-3:8 : Prière pour le rétablissement. Baruch 3:1-8 manifeste davantage d'indépendance que le reste, car l'auteur emploie ici un langage qui n'est emprunté à aucun original que nous connaissions. À ce titre, ces versets sont importants comme indice de la situation, des opinions et du caractère de l'auteur.",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "In Baruch 3:4 we have the petition: \"Hear now the prayer of the dead Israelites,\" etc., words which as they stand involve the doctrine that the dead (Solomon, Daniel, etc.) are still alive and make intercession to Goal on behalf of the living. But this teaching is in opposition to 2:17 which occurs in the same context. Without making any change in the Hebrew consonants we can and should read for \"dead (methe) Israelites\" \"the men of (methe) Israel.\" The Septuagint confuses the same words in ",
+          "target": "En Baruch 3:4, nous avons cette supplication : « Écoute maintenant la prière des Israélites morts », etc. ; prises telles quelles, ces paroles impliquent la doctrine selon laquelle les morts (Salomon, Daniel, etc.) sont encore vivants et intercèdent auprès de Dieu en faveur des vivants. Mais cet enseignement s'oppose à 2:17, qui figure dans le même contexte. Sans modifier les consonnes hébraïques, nous pouvons et devons lire, à la place des « Israélites morts (methe) », « les hommes (methe) d'Israël ». La Septante confond les mêmes mots en ",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "3. The Praise of Wisdom:",
+          "target": "3. L'éloge de la sagesse :",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "The praise of \"Wisdom,\" for neglecting which Israel is now in a strange land. God alone is the author of wisdom, and He bestows it not upon the great and mighty of this world, but upon His own chosen people, who however have spurned the Divine gift and therefore lost it (Baruch 3:9-4:4).",
+          "target": "Éloge de la « sagesse », dont la négligence vaut à Israël d'être maintenant en terre étrangère. Dieu seul est l'auteur de la sagesse, et il ne l'accorde pas aux grands et aux puissants de ce monde, mais à son propre peuple élu, qui cependant a dédaigné le don divin et l'a donc perdu (Baruch 3:9-4:4).",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "The passage, Baruch 3:10-13 (Israel's rejection of \"Wisdom\" the cause of her exile), goes badly with the context and looks much like an interpolation. The dominant idea in the section is that God has made Israel superior to all other nations by the gift of \"wisdom,\" which is highly extolled. Besides standing apart from the context these four verses lack the rhythm which characterize the other verses. What is so cordially commended is described in three ways, each showing up a different facet, as do the eight synonyms for the Divine word in each of the 22 strophes in ",
+          "target": "Le passage Baruch 3:10-13 (le rejet de la « sagesse » par Israël, cause de son exil) s'accorde mal avec le contexte et ressemble fort à une interpolation. L'idée dominante de la section est que Dieu a rendu Israël supérieur à toutes les autres nations par le don de la « sagesse », qui y reçoit de grands éloges. Outre qu'ils se détachent du contexte, ces quatre versets sont dépourvus du rythme qui caractérise les autres. Ce qui est si chaleureusement recommandé est décrit de trois manières, chacune en présentant une facette différente, comme le font les huit synonymes de la parole divine dans chacune des 22 strophes du ",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": " (see Century Bible, \"Psalms,\" II, 254).",
+          "target": " (voir Century Bible, « Psalms », II, 254).",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "(1) It is called most frequently \"Wisdom.\"",
+          "target": "(1) Le plus souvent, on l'appelle « sagesse ».",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "(2) In Baruch 4:1 it is described as the Commandments of God and as the Law or more correctly as authoritative instruction. The Hebrew word for this last (torah) bears in this connection, it is probable, the technical meaning of the Pentateuch, a sense which it never has in the Old Testament. Compare ",
+          "target": "(2) En Baruch 4:1, elle est décrite comme les commandements de Dieu et comme la loi, ou plus exactement comme l'instruction donnée avec autorité. Le mot hébreu désignant cette dernière (torah) revêt probablement ici le sens technique de Pentateuque, sens qu'il n'a jamais dans l'Ancien Testament. Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": ", where the keeping of the commandments is said to be \"wisdom\" and understanding.",
+          "target": ", où l'observation des commandements est dite être « sagesse » et intelligence.",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "4. The Dependence of This Wisdom Section:",
+          "target": "4. Les sources de cette section sur la sagesse :",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "(1) The line of thought here resembles closely that pursued in ",
+          "target": "(1) Le cheminement de la pensée ressemble de près à celui de ",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": ", which modern scholars rightly regard as a later interpolation. Wisdom, the most valuable of possessions, is beyond the unaided reach of man. God only can give it--that is what is taught in these parts of both Baruch and Job with the question \"Where shall wisdom be found?\" (",
+          "target": ", que les érudits modernes considèrent à juste titre comme une interpolation tardive. La sagesse, le plus précieux des biens, est hors de portée de l'homme livré à ses seules ressources. Dieu seul peut la donner : voilà ce qui est enseigné dans ces parties de Baruch comme de Job, avec la question « Où trouver la sagesse ? » (",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": "; compare Baruch 3:14 f, where a similar question forms the basis of the greater portion of the section of ",
+          "target": "; comparer Baruch 3:14 et suivant, où une question analogue forme la base de la majeure partie de la section de ",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "tail",
+          "source": " f). Wisdom is not here as in Proverbs hypostatized, and the same is true of ",
+          "target": " et suivant). La sagesse n'est pas ici hypostasiée comme dans les Proverbes, et il en est de même de ",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "tail",
+          "source": ". This in itself is a sign of early date, for the personifying of \"wisdom\" is a later development (compare Philo, ",
+          "target": ". Cela constitue en soi un indice d'ancienneté, car la personnification de la « sagesse » est un développement ultérieur (comparer Philon, ",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "(2) The language in this section is modeled largely on that of Deuteronomy, perhaps however through Jeremiah, which is also especially after chapter 10 Deuteronomic in thought and phraseology. See ante II, 2 (2 1b).",
+          "target": "(2) Le langage de cette section est en grande partie modelé sur celui du Deutéronome, peut-être cependant par l'intermédiaire de Jérémie, qui lui aussi, particulièrement après le chapitre 10, est deutéronomique dans sa pensée et sa phraséologie. Voir plus haut II, 2 (2 1b).",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "The most original part of this division of the book is where the writer enumerates the various classes of the world's great ones to whom God had not given \"wisdom\": princes of the heathen, wealthy men, silversmiths, merchants, theologians, philosophers, etc. (Baruch 3:16 ff).",
+          "target": "La partie la plus originale de cette division du livre est celle où l'auteur énumère les diverses catégories de grands de ce monde auxquels Dieu n'avait pas donné la « sagesse » : princes des nations païennes, hommes riches, orfèvres travaillant l'argent, marchands, théologiens, philosophes, etc. (Baruch 3:16 et suivants).",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "WISDOM",
+          "target": "SAGESSE",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "5. Words of Cheer to Israel:",
+          "target": "5. Paroles d'encouragement adressées à Israël :",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "The general thought that pervades the section, Baruch 4:5-5:9, is words of cheer to Israel (i.e. Judah) in exile, but we have here really, according to Rothstein, a compilation edited so skillfully as to give it the appearance of a unity which is not real. Earlier Biblical writings have throughout been largely drawn upon. Rothstein (Kautzsch, Die Apokryphen, etc., 213-15) divides the section in the following manner:",
+          "target": "La pensée générale qui traverse la section Baruch 4:5-5:9 consiste en des paroles d'encouragement à Israël (c'est-à-dire Juda) en exil, mais nous avons réellement ici, selon Rothstein, une compilation rédigée avec assez d'habileté pour lui donner l'apparence d'une unité qui n'est pas réelle. On a largement puisé partout dans les écrits bibliques antérieurs. Rothstein (Kautzsch, Die Apokryphen, etc., 213-15) divise la section de la manière suivante :",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "(1) Baruch 4:5-9a: Introductory section, giving the whole its keynote--\"Be of good cheer,\" etc.; 4:7 f follows ",
+          "target": "(1) Baruch 4:5-9a : Section introductive, donnant à l'ensemble son thème dominant : « Prenez courage », etc. ; 4:7 et suivant suit ",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "(2) Baruch 4:9b-29: A song, divisible into two parts.",
+          "target": "(2) Baruch 4:9b-29 : Un chant, divisible en deux parties.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "(a) Personified Jerusalem deplores the calamities of Israel in exile (Baruch 4:9b-16).",
+          "target": "(a) Jérusalem personnifiée déplore les malheurs d'Israël en exil (Baruch 4:9b-16).",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "(b) She urges her unfortunate children to give themselves to hope and prayer, amending their ways so that God may bring about their deliverance (Baruch 4:17-29).",
+          "target": "(b) Elle exhorte ses enfants malheureux à se consacrer à l'espérance et à la prière, en réformant leur conduite afin que Dieu puisse opérer leur délivrance (Baruch 4:17-29).",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "(c) Baruch 4:30-5:9: A second song, beginning as the first with the words, \"Be of good cheer,\" and having the same general aim, to comfort exiled and oppressed Israel.",
+          "target": "(c) Baruch 4:30-5:9 : Un second chant, commençant comme le premier par les mots « Prenez courage » et ayant le même but général : consoler Israël exilé et opprimé.",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "In all three parts earlier Scriptures have been largely used, and in particular Deutero-Isaiah has had much influence upon the author. But there do not seem to the present writer reasons cogent enough for concluding, with Rothstein, that these three portions are by as many different writers. There is throughout the same recurring thought \"Be of good cheer,\" and there is nothing in the style to suggest divergent authorship.",
+          "target": "Dans les trois parties, les Écritures antérieures ont été largement utilisées ; le Deutéro-Ésaïe, en particulier, a exercé une grande influence sur l'auteur. Mais le présent auteur ne voit pas de raisons assez convaincantes pour conclure, avec Rothstein, que ces trois parties sont dues à autant d'auteurs différents. On y retrouve partout la même pensée récurrente : « Prenez courage », et rien dans le style ne suggère des auteurs différents.",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "(3) The Relation between Baruch 4:36-5:9 and Psalter of Solomon 11. It was perhaps Ewald (Geschichte, IV, 498) who first pointed out the similarity of language and viewpoint between Baruch 4:36-5:9 and Psalter of Solomon 11, especially 11:3-8. The only possible explanation is that which makes Baruch 4:36 ff an imitation of Psalter of Solomon 11. So Ewald (op. cit.); Ryle and James (",
+          "target": "(3) Rapport entre Baruch 4:36-5:9 et le Psaume 11 du Psautier de Salomon. Ce fut peut-être Ewald (Geschichte, IV, 498) qui le premier signala la similitude de langage et de point de vue entre Baruch 4:36-5:9 et le Psaume 11 du Psautier de Salomon, particulièrement 11:3-8. La seule explication possible est celle qui fait de Baruch 4:36 et suivants une imitation du Psaume 11 du Psautier de Salomon. Ainsi Ewald (op. cit.) ; Ryle et James (",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "tail",
+          "source": " ff).",
+          "target": " et suivants).",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "Ps Sol were written originally in Hebrew, and references to Pompey (died 48 BC) and to the capture of Jerusalem (63 BC) show that this pseudepigraphical Psalter must have been written in the first half of the 1st century BC. Bar, as will be shown, is of much later date than this. Besides it is now almost certain that the part of Baruch under discussion was written in Greek (see below, IV) and that it never had a Hebrew original. Now it is exceedingly unlikely that a writer of a Hebrew psalm would copy a Greek original, though the contrary supposition is a very likely one.",
+          "target": "Les Psaumes de Salomon furent écrits à l'origine en hébreu, et les allusions à Pompée (mort en 48 av. J.-C.) et à la prise de Jérusalem (63 av. J.-C.) montrent que ce psautier pseudépigraphe dut être écrit dans la première moitié du Ier siècle av. J.-C. Baruch, comme on le montrera, est de date beaucoup plus tardive. En outre, il est maintenant presque certain que la partie de Baruch en question fut écrite en grec (voir plus bas, IV) et qu'elle n'eut jamais d'original hébreu. Or il est extrêmement improbable qu'un auteur de psaume hébreu ait copié un original grec, alors que l'hypothèse inverse est fort vraisemblable.",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "On the other hand A. Geiger (Psalt. Sol., XI, 137-39, 1811), followed by W. B. Stevenson (Temple Bible), and many others argue for the priority of Baruch, using this as a reason for giving Baruch an earlier date than is usually done. It is possible, of course, that the Pseudo-Solomon and the Pseudo-Baruch have been digging in the same quarry; and that the real original used by both is lost.",
+          "target": "En revanche, A. Geiger (Psalt. Sol., XI, 137-39, 1811), suivi par W. B. Stevenson (Temple Bible) et beaucoup d'autres, défend l'antériorité de Baruch, en tirant argument pour lui attribuer une date plus ancienne qu'on ne le fait habituellement. Il est évidemment possible que le Pseudo-Salomon et le Pseudo-Baruch aient puisé à la même source, et que le véritable original utilisé par tous deux soit perdu.",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "III. Language.",
+          "target": "III. Langue.",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "For our present purpose the book must be divided into two principal parts:",
+          "target": "Pour notre propos actuel, le livre doit être divisé en deux parties principales :",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "(1) Baruch 1-3:8;",
+          "target": "(1) Baruch 1-3:8 ;",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "There is general agreement among the best recent scholars from Ewald downward that the first portion of the book at least was written originally in Hebrew.",
+          "target": "Il existe un accord général parmi les meilleurs érudits récents, depuis Ewald, sur le fait qu'au moins la première partie du livre fut écrite à l'origine en hébreu.",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "(1) In the Syro-Hex. text there are margin notes to 1:17 and 2:3 to the effect that these verses are lacking in the Hebrew, i.e. in the original Hebrew text.",
+          "target": "(1) Dans le texte syro-hexaplaire figurent des notes marginales à 1:17 et 2:3 indiquant que ces versets manquent dans l'hébreu, c'est-à-dire dans le texte hébreu original.",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "(2) There are many linguistic features in this first part which are best explained on the supposition that the Greek text is from a Hebrew original. In Baruch 2:25 the Septuagint English Versions of the Bible apostole at the end of the verse means \"a sending of.\" The English Versions of the Bible (\"pestilence\") renders a Hebrew word which, without the vowel signs (introduced late) is written alike for both meanings (d-b-r). The mistake can be explained only on the assumption of a Hebrew original. Similarly the reading \"dead Israelites\" for \"men of Israel\" (= Israelites) in 3:4 arose through reading wrong vowels with the same consonants, which last were alone written until the 7th and 8th centuries of our era. off, in all the lands (countries) whither thou hast driven them on account of their unfaithfulness toward thee.' The italicized words are omitted from Baruch 1:15, though the remaining part of ",
+          "target": "(2) Il existe dans cette première partie de nombreuses particularités linguistiques qui s'expliquent le mieux en supposant que le texte grec provient d'un original hébreu. En Baruch 2:25, le terme apostole, à la fin du verset dans la Septante (versions anglaises de la Bible), signifie « un envoi de ». La traduction des versions anglaises de la Bible (« pestilence ») rend un mot hébreu qui, sans les signes vocaliques (introduits tardivement), s'écrit de la même façon pour les deux sens (d-b-r). L'erreur ne peut s'expliquer qu'en supposant un original hébreu. De même, en 3:4, la lecture « Israélites morts » au lieu de « hommes d'Israël » (= Israélites) est née de la lecture de voyelles erronées avec les mêmes consonnes, lesquelles seules étaient écrites jusqu'aux VIIe et VIIIe siècles de notre ère. éloignés, dans tous les pays (contrées) où tu les as chassés à cause de leur infidélité envers toi ». Les mots en italiques sont omis en Baruch 1:15, bien que le reste de ",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "tail",
+          "source": " is added. Why this difference? It is evident, as Marshall has ably pointed out, that the editor of the section intends to put the confession and prayer of Baruch 1:15-2:5 into the mouths of Jews who had not been removed into exile. Ewald (History, V, 208, 6) holds that ",
+          "target": " soit ajouté. Pourquoi cette différence ? Il est évident, comme Marshall l'a fort bien montré, que le rédacteur de la section entend mettre la confession et la prière de Baruch 1:15-2:5 dans la bouche de Juifs qui n'avaient pas été emmenés en exil. Ewald (History, V, 208, 6) soutient que ",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "tail",
+          "source": " is dependent on Baruch 1:15-2:17. The section may thus be analyzed:",
+          "target": " dépend de Baruch 1:15-2:17. On peut ainsi analyser la section :",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "Frequently, as in Hebrew, sentences begin with Greek kai (= \"and\") which, without somewhat slavish copying of the Hebrew, would not be found. The construction called parataxis characterizes Hebrew; in good Greek we meet with hypotaxis.",
+          "target": "Fréquemment, comme en hébreu, les phrases commencent par le grec kai (= « et »), qui, sans une imitation quelque peu servile de l'hébreu, ne s'y trouverait pas. La construction appelée parataxe caractérise l'hébreu ; en bon grec, nous rencontrons l'hypotaxe.",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "The Hebrew way of expressing \"where\" is put literally into the Greek of this book (Baruch 2:4,13,29; 3:8). Many other Hebrew idioms, due, it is probable, to the translator's imitations of his original, occur: in \"to speak in the ears of\" (Baruch 1:3); the word \"man\" (anthropos) in the sense \"everyone\" (Baruch 2:3); \"spoken by thy servants the prophets\" is in Greek by \"the hand of the servants,\" which is good Hebrew but bad Greek Many other such examples could be added.",
+          "target": "La manière hébraïque d'exprimer « où » est transposée littéralement dans le grec de ce livre (Baruch 2:4,13,29 ; 3:8). Beaucoup d'autres expressions idiomatiques hébraïques, dues probablement aux imitations de son original par le traducteur, se rencontrent : dans « parler aux oreilles de » (Baruch 1:3) ; le mot « homme » (anthropos) au sens de « chacun » (Baruch 2:3) ; « prononcé par tes serviteurs les prophètes » se dit en grec « par la main des serviteurs », ce qui est du bon hébreu, mais du mauvais grec. On pourrait ajouter beaucoup d'autres exemples de ce genre.",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "There is much less agreement among scholars as to the original language or languages of the second part of the book (Baruch 3:9-5:9). That this part too was written in Hebrew, so that in that case the whole book appeared first in that language, is the position held and defended by Ewald (op. cit.), Kneucker (op. cit.), Konig (Ein), Rothstein (op. cit.) and Bissell (Lange). It is said by these writers that this second part of Baruch equally with the first carries with it marks of being a translation from the Hebrew. But one may safely deny this statement. It must be admitted by anyone who has examined the text of the book that the most striking Hebraisms and the largest number of them occur in the first part of the book. Bissell writes quite fully and warmly in defense of the view that the whole book was at first written in Hebrew, but the Hebraisms which he cites are all with one solitary exception taken from the first part of the book. This one exception is in Baruch 4:15 where the Greek conjunction holi is used for the relative ho, the Hebrew 'asher having the meaning of both. There seems to be a Hebraism in 4:21: \"He shall deliver thee from .... the hand of your enemies,\" and there are probably others. But there are Hebraisms in Hellenistic Greek always--the present writer designates them \"Hebraisms\" or \"Semiticisms\" notwithstanding what Deismann, Thumb and Moulton say. In the first part of this book it is their overwhelming number and their striking character that tell so powerfully in favor of a Hebrew original.",
+          "target": "L'accord est beaucoup moins grand entre les érudits quant à la langue ou aux langues originales de la seconde partie du livre (Baruch 3:9-5:9). Que cette partie ait aussi été écrite en hébreu, de sorte que le livre tout entier serait d'abord paru dans cette langue, telle est la position soutenue et défendue par Ewald (op. cit.), Kneucker (op. cit.), Konig (Ein), Rothstein (op. cit.) et Bissell (Lange). Ces auteurs affirment que cette seconde partie de Baruch porte autant que la première les marques d'une traduction de l'hébreu. Mais on peut sans risque contester cette affirmation. Quiconque a examiné le texte du livre doit reconnaître que les hébraïsmes les plus frappants et les plus nombreux se trouvent dans la première partie. Bissell s'étend longuement et chaleureusement sur la défense de l'opinion selon laquelle le livre entier fut d'abord écrit en hébreu, mais les hébraïsmes qu'il cite sont tous, à une seule exception près, tirés de la première partie du livre. Cette unique exception se trouve en Baruch 4:15, où la conjonction grecque holi est employée pour le relatif ho, l'hébreu 'asher ayant les deux sens. Il semble y avoir un hébraïsme en 4:21 : « Il te délivrera de ... la main de vos ennemis », et il y en a probablement d'autres. Mais il y a toujours des hébraïsmes dans le grec hellénistique : le présent auteur les désigne comme « hébraïsmes » ou « sémitismes », quoi qu'en disent Deismann, Thumb et Moulton. Dans la première partie de ce livre, c'est leur nombre écrasant et leur caractère frappant qui plaident si puissamment en faveur d'un original hébreu.",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "(3) The following writers maintain that the second part of the book was written first of all in Greek: Fritzsche, Hilgenfeld, Reuss, Schurer, Gifford, Cornill and R. H. Charles, though they agree that the first part had a Hebrew original. This is probably the likeliest view, though much may be written in favor of a Hebrew original for the whole book and there is nothing quite decisively against it. J. Turner Marshall (Hastings Dictionary of the Bible, I, 253) tries to prove that Baruch 3:9-4:4 was written first in Aramaic, the rest of the book (4:5-5:9) in Greek But though he defends his case with great ability he does not appear to the present writer to have proved his thesis. Ewald (op. cit.), Hitzig (Psalmen2, II, 119), Dillmann, Ruetschi, Fritzsche and Bissell were so greatly impressed by the close likeness between the Greek of Baruch and that of the Septuagint of Jeremiah, that they came to the conclusion that both books were translated by the same person. Subsequently Hitzig decided that Baruch was not written until after 70 AD, and therefore abandoned his earlier opinion in favor of this one--that the translator of Baruch was well acquainted with the Septuagint of Jeremiah and was strongly influenced by it.",
+          "target": "(3) Les auteurs suivants soutiennent que la seconde partie du livre fut d'abord écrite en grec : Fritzsche, Hilgenfeld, Reuss, Schurer, Gifford, Cornill et R. H. Charles, bien qu'ils s'accordent à reconnaître que la première partie avait un original hébreu. C'est probablement l'opinion la plus vraisemblable, bien qu'on puisse écrire beaucoup en faveur d'un original hébreu pour tout le livre et que rien ne s'y oppose de façon absolument décisive. J. Turner Marshall (Hastings Dictionary of the Bible, I, 253) cherche à prouver que Baruch 3:9-4:4 fut d'abord écrit en araméen, le reste du livre (4:5-5:9) en grec. Mais, bien qu'il défende sa position avec une grande habileté, il ne paraît pas au présent auteur avoir démontré sa thèse. Ewald (op. cit.), Hitzig (Psalmen2, II, 119), Dillmann, Ruetschi, Fritzsche et Bissell furent à ce point frappés par l'étroite ressemblance du grec de Baruch avec celui de la Septante de Jérémie qu'ils conclurent que les deux livres avaient été traduits par la même personne. Hitzig décida par la suite que Baruch n'avait été écrit qu'après 70 apr. J.-C., et abandonna donc son opinion antérieure en faveur de celle-ci : le traducteur de Baruch connaissait bien la Septante de Jérémie et avait été fortement influencé par elle.",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "IV. Date or Dates.",
+          "target": "IV. Date ou dates.",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "text",
+          "source": "It is important to distinguish between the date of the completion of the entire book in its present form and the dates of the several parts which in some or all cases may be much older than that of the whole as such.",
+          "target": "Il importe de distinguer la date d'achèvement du livre entier dans sa forme actuelle des dates des diverses parties, lesquelles, dans certains cas ou dans tous, peuvent être beaucoup plus anciennes que celle de l'ensemble comme tel.",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "1. The Historical Introduction:",
+          "target": "1. L'introduction historique :",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "Baruch 1:1-14 was written after the completion of the book expressly to form a prologue or historical explanation of the circumstances under which the rest of the book came to be written. To superficial readers it could easily appear that the whole book was written by one man, but a careful examination shows that the book is a compilation. One may conclude that the introduction was the last part of the book to be composed and that therefore its date is that of the completion of the book. Reasons will be given (see below) for believing that 4:5-5:9 belongs to a time subsequent to the destruction of Jerusalem and its temple in 70 AD. This is still more true of this introduction intended as a foreword to the whole book.",
+          "target": "Baruch 1:1-14 fut écrit après l'achèvement du livre, expressément pour servir de prologue ou d'explication historique des circonstances dans lesquelles le reste du livre avait été écrit. Des lecteurs superficiels pourraient facilement croire que le livre entier fut écrit par un seul homme, mais un examen attentif montre qu'il s'agit d'une compilation. On peut conclure que l'introduction fut la dernière partie du livre à être composée et que sa date est donc celle de l'achèvement du livre. On donnera des raisons (voir plus bas) de croire que 4:5-5:9 appartient à une époque postérieure à la destruction de Jérusalem et de son temple en 70 apr. J.-C. Cela est encore plus vrai de cette introduction destinée à servir d'avant-propos au livre entier.",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "text",
+          "source": "2. Confession and Prayer:",
+          "target": "2. Confession et prière :",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "text",
+          "source": "The following points bear on the date of the section Baruch 1:15-3:8, assuming it to have one date:",
+          "target": "Les points suivants concernent la date de la section Baruch 1:15-3:8, à supposer qu'elle ait une date unique :",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "text",
+          "source": "(1) The generation of Israelites to which the writer belonged were suffering for the sins of their ancestors; see especially Baruch 3:1-8.",
+          "target": "(1) La génération d'Israélites à laquelle appartenait l'auteur souffrait pour les péchés de ses ancêtres ; voir particulièrement Baruch 3:1-8.",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "(2) The second temple was in existence in the writer's day. Baruch 2:26 must (with the best scholars) be translated as follows: \"And thou hast made the house over which thy name is called as it is this day,\" i.e. the temple--still in being--is shorn of its former glory. Moreover though ",
+          "target": "(2) Le second temple existait à l'époque de l'auteur. Baruch 2:26 doit (avec les meilleurs érudits) être traduit comme suit : « Et tu as rendu la maison sur laquelle ton nom est invoqué telle qu'elle est en ce jour », c'est-à-dire que le temple, encore debout, est dépouillé de son ancienne gloire. De plus, bien que ",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "tail",
+          "source": " is largely quoted in Baruch 1:15-2:12, the prayer for the sanctuary and for Jerusalem in ",
+          "target": " soit largement cité en Baruch 1:15-2:12, la prière pour le sanctuaire et pour Jérusalem en ",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "tail",
+          "source": " is omitted, because the temple is not now in ruins.",
+          "target": " est omise, parce que le temple n'est pas alors en ruines.",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "text",
+          "source": "(3) Though it is implied (see above II, 2, (1)) that there are Jews in Judah who have never left their land there are a large number in foreign lands, and nothing is said that they were servants of the Babylonian king.",
+          "target": "(3) Bien qu'il soit sous-entendu (voir plus haut II, 2, (1)) qu'il existe en Juda des Juifs qui n'ont jamais quitté leur pays, il y en a un grand nombre dans des pays étrangers, et rien ne dit qu'ils étaient serviteurs du roi de Babylone.",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "text",
+          "source": "(4) The dependence of Baruch 2:13-3:8 on Deuteronomy, Jer and ",
+          "target": "(4) La dépendance de Baruch 2:13-3:8 à l'égard du Deutéronome, de Jérémie et de ",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "tail",
+          "source": " (Solomon's prayer) shows that this part of the book is later than these writings, i.e. later than say 550 BC. Compare Baruch 2:13 with ",
+          "target": " (prière de Salomon) montre que cette partie du livre est postérieure à ces écrits, c'est-à-dire postérieure, disons, à 550 av. J.-C. Comparer Baruch 2:13 avec ",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "text",
+          "source": "(5) The fact that ",
+          "target": "(5) Le fait que ",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "tail",
+          "source": " has influenced Baruch 1:15-2:12 proves that a date later than Daniel must be assumed for at least this portion of Baruch. The temple is still standing, so that the book belongs somewhere between 165 BC, when Daniel was written, and 71 AD, when the temple was finally destroyed.",
+          "target": " ait influencé Baruch 1:15-2:12 prouve qu'il faut supposer une date postérieure à Daniel pour cette partie au moins de Baruch. Le temple est encore debout, de sorte que le livre se situe quelque part entre 165 av. J.-C., date de la rédaction de Daniel, et 71 apr. J.-C., date de la destruction définitive du temple.",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "text",
+          "source": "Ewald, Gifford and Marshall think that this section belongs to the period following the conquest of Jerusalem by Ptolemy I (320 BC). According to Ewald the author of Baruch 1:1-3:8 (regarded as by one hand) was a Jew living in Babylon or Persia. But Daniel had not in 320 BC been written. Fritzsche, Schrader, Keil, Toy and Charles assign the section to the Maccabean age--a quite likely date. On the other hand Hitzig, Kneucker and Schurer prefer a date subsequent to 70 AD. The last writer argues for the unity of this section, though he admits that the middle of chapter 1 comports ill with its context.",
+          "target": "Ewald, Gifford et Marshall pensent que cette section appartient à la période qui suivit la conquête de Jérusalem par Ptolémée Ier (320 av. J.-C.). Selon Ewald, l'auteur de Baruch 1:1-3:8 (considéré comme étant d'une seule main) était un Juif vivant à Babylone ou en Perse. Mais Daniel n'avait pas été écrit en 320 av. J.-C. Fritzsche, Schrader, Keil, Toy et Charles attribuent la section à l'époque des Maccabées, date tout à fait vraisemblable. En revanche, Hitzig, Kneucker et Schurer préfèrent une date postérieure à 70 apr. J.-C. Le dernier de ces auteurs défend l'unité de cette section, bien qu'il reconnaisse que le milieu du chapitre 1 s'accorde mal avec son contexte.",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "text",
+          "source": "3. The Wisdom Section Baruch 3:9-4:4:",
+          "target": "3. La section sur la sagesse, Baruch 3:9-4:4 :",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "text",
+          "source": "It has been pointed out (see above, II, 3) that Baruch 3:10-13 does not belong to this section, being manifestly a later interpolation. The dependence of this Wisdom portion on ",
+          "target": "On a signalé (voir plus haut, II, 3) que Baruch 3:10-13 n'appartient pas à cette section, étant manifestement une interpolation tardive. La dépendance de cette partie sur la sagesse à l'égard de ",
+          "action": "translate"
+        },
+        {
+          "node": 95,
+          "part": "tail",
+          "source": " and on Deuteronomy implies a post-exilic date. The identification of Wisdom with the Torah which is evidently a synonym for the Pentateuch, argues a date at any rate not earlier than 300 BC. But how much later we have no means of ascertaining. The reasons adduced by Kneucker and Marshall for a date immediately before or soon af ter the fall of Jerusalem in 70 AD have not convinced the present writer.",
+          "target": " et du Deutéronome implique une date postexilique. L'identification de la sagesse à la Torah, qui est manifestement synonyme de Pentateuque, plaide pour une date en tout cas non antérieure à 300 av. J.-C. Mais nous n'avons aucun moyen d'établir à quel point elle est plus tardive. Les raisons invoquées par Kneucker et Marshall en faveur d'une date immédiatement antérieure ou de peu postérieure à la chute de Jérusalem en 70 apr. J.-C. n'ont pas convaincu le présent auteur.",
+          "action": "translate"
+        },
+        {
+          "node": 96,
+          "part": "text",
+          "source": "4. Words of Cheer Baruch 4:5-5:9:",
+          "target": "4. Paroles d'encouragement, Baruch 4:5-5:9 :",
+          "action": "translate"
+        },
+        {
+          "node": 97,
+          "part": "text",
+          "source": "The situation implied in these words may be thus set forth:",
+          "target": "La situation que supposent ces paroles peut être exposée comme suit :",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "text",
+          "source": "(1) A great calamity has happened to Jerusalem (Baruch 4:9 f). Nothing is said proving that the whole land has shared the calamity, unless indeed this is implied in Baruch 4:5 f.",
+          "target": "(1) Un grand malheur est arrivé à Jérusalem (Baruch 4:9 et suivant). Rien n'est dit qui prouve que le pays entier ait partagé ce malheur, à moins que cela ne soit sous-entendu en Baruch 4:5 et suivant.",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "(2) A large number of Jerusalemites have been transported (Baruch 4:10).",
+          "target": "(2) Un grand nombre d'habitants de Jérusalem ont été déportés (Baruch 4:10).",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "text",
+          "source": "(3) The nation that has sacked Jerusalem and carried away many of its inhabitants is \"shameless,\" having \"a strange language, neither reverencing old men nor pitying children\" (Baruch 4:15).",
+          "target": "(3) La nation qui a mis Jérusalem à sac et emmené un grand nombre de ses habitants est « sans honte », ayant « une langue étrangère, ne respectant pas les vieillards et n'ayant pas pitié des enfants » (Baruch 4:15).",
+          "action": "translate"
+        },
+        {
+          "node": 101,
+          "part": "text",
+          "source": "(4) The present home of the Jerusalemites is a great city (Baruch 4:32-35), not the country. Now the above details do not answer to any dates in the history of the nation except these two:",
+          "target": "(4) Le lieu de résidence actuel des habitants de Jérusalem est une grande ville (Baruch 4:32-35), et non la campagne. Or les détails ci-dessus ne correspondent à aucune date de l'histoire de la nation à l'exception de ces deux dates :",
+          "action": "translate"
+        },
+        {
+          "node": 102,
+          "part": "text",
+          "source": "(a) 586 BC, when the temple was destroyed by the Babylonians;",
+          "target": "(a) 586 av. J.-C., quand le temple fut détruit par les Babyloniens ;",
+          "action": "translate"
+        },
+        {
+          "node": 103,
+          "part": "text",
+          "source": "(b) 71 AD, when the temple was finally destroyed by the Romans.",
+          "target": "(b) 71 apr. J.-C., quand le temple fut définitivement détruit par les Romains.",
+          "action": "translate"
+        },
+        {
+          "node": 104,
+          "part": "text",
+          "source": "But the date 586 BC is out of the question, and no modern scholar pleads for it. We must therefore assume for this portion of the book a date soon after 70 AD. In the time of Pompey, to which Graetz assigns the book, neither Jerusalem nor the temple was destroyed. Nor was there any destruction of either during the Maccabean war. In favor of this date is the dependence of Baruch 4:36 ff on Psalter of Solomon 11 (see above, II, 5, (3)).",
+          "target": "Mais la date de 586 av. J.-C. est hors de question, et aucun érudit moderne ne la défend. Nous devons donc supposer pour cette partie du livre une date de peu postérieure à 70 apr. J.-C. À l'époque de Pompée, à laquelle Graetz attribue le livre, ni Jérusalem ni le temple ne furent détruits. Il n'y eut pas non plus de destruction de l'un ou de l'autre pendant la guerre des Maccabées. La dépendance de Baruch 4:36 et suivants à l'égard du Psaume 11 du Psautier de Salomon plaide en faveur de cette date (voir plus haut, II, 5, (3)).",
+          "action": "translate"
+        },
+        {
+          "node": 105,
+          "part": "text",
+          "source": "Rothstein (in Kautzsch) says that in this section there are at least three parts by as many different writers. Marshall argues for four independent parts. But if either of these views is correct the editor has done his work exceedingly well, for the whole harmonizes well together.",
+          "target": "Rothstein (dans Kautzsch) affirme qu'il y a dans cette section au moins trois parties dues à autant d'auteurs différents. Marshall défend l'existence de quatre parties indépendantes. Mais si l'une ou l'autre de ces opinions est exacte, le rédacteur a fort bien accompli son travail, car l'ensemble s'harmonise bien.",
+          "action": "translate"
+        },
+        {
+          "node": 106,
+          "part": "text",
+          "source": "Kneucker, author of the fullest Commentary, endeavors to prove that the original book consisted of Baruch 1:1 f plus 3a (the heading) plus 3:9-5:9, and that it belongs to the reign of Domitian (81-96 AD). The confession and prayer in 1:15-3:8 were written, he says, somewhat earlier and certainly before 71 AD, and as a separate work, being inserted in the book by the scribe who wrote 1:4-14.",
+          "target": "Kneucker, auteur du commentaire le plus complet, s'efforce de prouver que le livre original se composait de Baruch 1:1 et suivant, plus 3a (le titre), plus 3:9-5:9, et qu'il appartient au règne de Domitien (81-96 apr. J.-C.). La confession et la prière en 1:15-3:8 furent écrites, dit-il, un peu plus tôt et certainement avant 71 apr. J.-C., comme un ouvrage distinct, inséré dans le livre par le scribe qui écrivit 1:4-14.",
+          "action": "translate"
+        },
+        {
+          "node": 108,
+          "part": "text",
+          "source": "V. Versions.",
+          "target": "V. Versions.",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 109,
+          "part": "text",
+          "source": "The most important versions are the following. It is assumed in the article that the Greek text of the book up to Baruch 3:8 is itself a translation from a Hebrew text now lost. The same remark may be true of the rest of the book or of a portion of it (see above, III).",
+          "target": "Les versions les plus importantes sont les suivantes. On suppose dans le présent article que le texte grec du livre jusqu'à Baruch 3:8 est lui-même une traduction d'un texte hébreu aujourd'hui perdu. La même remarque est peut-être vraie du reste du livre ou d'une partie de celui-ci (voir plus haut, III).",
+          "action": "translate"
+        },
+        {
+          "node": 110,
+          "part": "text",
+          "source": "1. Latin:",
+          "target": "1. Latin :",
+          "action": "translate"
+        },
+        {
+          "node": 111,
+          "part": "text",
+          "source": "There are two versions in this language:",
+          "target": "Il existe deux versions dans cette langue :",
+          "action": "translate"
+        },
+        {
+          "node": 112,
+          "part": "text",
+          "source": "(1) The Vulgate (Jerome's Latin Bible, 390-405 A. D.) which is really the Old Latin, since Jerome's revision was confined to the Hebrew Scriptures, the Apocrypha being therefore omitted in this revision. This version is a very literal one based on the Greek It is therefore for that reason the more valuable as a witness to the Greek text.",
+          "target": "(1) La Vulgate (Bible latine de Jérôme, 390-405 apr. J.-C.), qui est en réalité la Vieille Latine, puisque la révision de Jérôme se limita aux Écritures hébraïques et que les Apocryphes furent donc omis de cette révision. Cette version est très littérale et fondée sur le grec. Elle n'en est que plus précieuse à ce titre comme témoin du texte grec.",
+          "action": "translate"
+        },
+        {
+          "node": 113,
+          "part": "text",
+          "source": "(2) There is a later Latin translation, apparently a revision of the former, for its Latinity is better; in some cases it adopts different readings and in a general way it has been edited so as to bring it into harmony with the Vatican uncial (B). This Latin version was published in Rome by J. Maria Caro (died circa 1688) and was reprinted by Sabatier in parallel columns with the pre-Jeromian version noticed above (see Bibliotheca Casinensis, I, 1873).",
+          "target": "(2) Il existe une traduction latine plus tardive, apparemment une révision de la précédente, car sa latinité est meilleure ; dans certains cas, elle adopte des leçons différentes, et d'une manière générale elle a été révisée afin de la mettre en harmonie avec l'onciale du Vatican (B). Cette version latine fut publiée à Rome par J. Maria Caro (mort vers 1688) et fut réimprimée par Sabatier en colonnes parallèles avec la version antérieure à Jérôme mentionnée ci-dessus (voir Bibliotheca Casinensis, I, 1873).",
+          "action": "translate"
+        },
+        {
+          "node": 114,
+          "part": "text",
+          "source": "2. Syriac:",
+          "target": "2. Syriaque :",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "text",
+          "source": "There are also in this language two extant versions:",
+          "target": "Il existe également deux versions conservées dans cette langue :",
+          "action": "translate"
+        },
+        {
+          "node": 116,
+          "part": "text",
+          "source": "(1) The Peshitta, a very literal translation, can be seen in the London (Walton's) Polyglot and most conveniently in Lagarde's Libr. Apocrypha. Syriac., the last being a more accurate reproduction.",
+          "target": "(1) La Peshitta, traduction très littérale, peut être consultée dans la Polyglotte de Londres (de Walton) et plus commodément dans le Libr. Apocrypha. Syriac. de Lagarde, ce dernier étant une reproduction plus exacte.",
+          "action": "translate"
+        },
+        {
+          "node": 117,
+          "part": "text",
+          "source": "(2) The Hexapla Syriac translation made by Paul, bishop of Telle, near the beginning of the 7th century AD. It has been published by Ceriani with critical apparatus in his beautiful photograph-lithographed edition of the Hexapla Syriac Bible.",
+          "target": "(2) La traduction syro-hexaplaire faite par Paul, évêque de Tella, vers le début du VIIe siècle apr. J.-C. Elle a été publiée par Ceriani avec un apparat critique dans sa belle édition photolithographiée de la Bible syro-hexaplaire.",
+          "action": "translate"
+        },
+        {
+          "node": 118,
+          "part": "text",
+          "source": "3. Arabic:",
+          "target": "3. Arabe :",
+          "action": "translate"
+        },
+        {
+          "node": 119,
+          "part": "text",
+          "source": "There is a very literal translation to be found in the London Polyglot, referred to above.",
+          "target": "Il existe une traduction très littérale dans la Polyglotte de Londres mentionnée plus haut.",
+          "action": "translate"
+        },
+        {
+          "node": 120,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 121,
+          "part": "text",
+          "source": "For editions of the Greek text see under ",
+          "target": "Pour les éditions du texte grec, voir à l'article ",
+          "action": "translate"
+        },
+        {
+          "node": 122,
+          "part": "text",
+          "source": "APOCRYPHA",
+          "target": "APOCRYPHES",
+          "action": "translate"
+        },
+        {
+          "node": 122,
+          "part": "tail",
+          "source": ". Of commentaries the fullest and best is that by Kneucker, Das Buch Baruch (1879), who gives an original German rendering based on a restored Hebrew original. Other valuable commentaries are those by Fritzsche (1851); Ewald, Die Propheten2, etc. (1868), III, 251-82 (Eng. translation); The Prophets of the Old Testament, V, 108-37, by Reusch (1855); Zockler (1891) and Rothstein (op. cit.); and in English, Bissell (in Lange's series edited by D. S. Schaff, 1880); and Gifford (Speaker's Comm., 1888). The S. P. C. K. has a handy and serviceable volume published in the series of popular commentaries on the Old Testament. But this commentary, though published quite recently (my copy belongs to 1894, \"nineteenth thousand\"), needs strengthening on the side of its scholarship.",
+          "target": ". Parmi les commentaires, le plus complet et le meilleur est celui de Kneucker, Das Buch Baruch (1879), qui donne une traduction allemande originale fondée sur un original hébreu reconstitué. D'autres commentaires de valeur sont ceux de Fritzsche (1851) ; Ewald, Die Propheten2, etc. (1868), III, 251-82 (traduction anglaise) ; The Prophets of the Old Testament, V, 108-37, de Reusch (1855) ; Zockler (1891) et Rothstein (op. cit.) ; et en anglais, Bissell (dans la série de Lange éditée par D. S. Schaff, 1880) et Gifford (Speaker's Comm., 1888). La S. P. C. K. possède un volume pratique et utile publié dans la série des commentaires populaires sur l'Ancien Testament. Mais ce commentaire, bien que publié tout récemment (mon exemplaire date de 1894, « dix-neuvième mille »), mérite d'être renforcé sur le plan de l'érudition.",
+          "action": "translate"
+        },
+        {
+          "node": 123,
+          "part": "text",
+          "source": "Arts. dealing with introduction occur in the various Bible Dictionaries (Smith's Dictionary of the Bible, Westcott and Ryle; Hastings, Dictionary of the Bible (five volumes), J. T. Marshall, able and original; Encyclopedia Biblica, Bevan, rather slight). To these must be added excellent articles in Jewish Encyclopedia (G. F. Moore), and Encyclopedia Biblica (R. H. Charles).",
+          "target": "Des articles traitant des questions d'introduction figurent dans les divers dictionnaires de la Bible (Smith's Dictionary of the Bible, Westcott et Ryle ; Hastings, Dictionary of the Bible (cinq volumes), J. T. Marshall, compétent et original ; Encyclopedia Biblica, Bevan, assez sommaire). À ceux-ci doivent être ajoutés d'excellents articles dans la Jewish Encyclopedia (G. F. Moore) et dans l'Encyclopedia Biblica (R. H. Charles).",
+          "action": "translate"
+        },
+        {
+          "node": 124,
+          "part": "text",
+          "source": "T. Witton Davies",
+          "target": "T. Witton Davies",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}
