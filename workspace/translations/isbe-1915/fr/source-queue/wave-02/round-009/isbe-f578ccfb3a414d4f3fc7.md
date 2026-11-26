@@ -1,0 +1,14 @@
+<!-- ISBE-TRANSLATION-V1 {"article_id": "isbe-f578ccfb3a414d4f3fc7", "language": "fr", "preserve": {}, "publication_permitted": false, "schema_version": 1, "source_article_sha256": "4775bd169909f74ac68e8bc5857138ae096ee54cf4135c24076015d56cb3c81e", "source_key": "BONE; BONES", "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c", "status": "unreviewed_drafts"} -->
+
+<!-- ISBE-BLOCK:1 -->
+# BONE; BONES
+<!-- ISBE-END:1 -->
+
+<!-- ISBE-BLOCK:2 -->
+bon (`etsem, `otsem; Aramaic gerem, by extension used for "bony frame," "body," "strength," ⟦ISBE:KEEP:3:Ps 35:10⟧; "the whole man"; ⟦ISBE:KEEP:4:Lu 24:39⟧, "flesh and bones" = the solid and tangible framework of the body; figuratively the substance, the idea of a thing, the thing, per se): Figurative: Very often we find the use of these words in metaphorical phrases, in which a disease or a discomfort of the body denotes certain emotions or mental attitudes. Thus the expression "rottenness of the bones" (⟦ISBE:KEEP:5:Pr 12:4⟧⟦ISBE:FIX:5:tail⟧⟦ISBE:KEEP:6:14:30⟧) signifies the feelings of a man whose wife causes him shame and confusion, or is equivalent to "envy," "jealousy." The translation of the Septuagint in these passages by skolex, "worm," and ses, "maggot," "moth," is incorrect. The same phrase is used in ⟦ISBE:KEEP:7:Hab 3:16⟧ for utter dejectedness through the anticipation of approaching evil. Similarly the "shaking of the bones" (⟦ISBE:KEEP:8:Job 4:14⟧) is expressive of fear, and denotes dejection and sadness in ⟦ISBE:KEEP:9:Jer 23:9⟧. The "burning of the bones" is found as a symptom of J ob's disease (⟦ISBE:KEEP:10:Job 30:30⟧), and stands for grief, depression of spirits in ⟦ISBE:KEEP:11:Ps 102:3⟧ and ⟦ISBE:KEEP:12:La 1:13⟧, and also for the feeling of Jeremiah, when he attempted to hold back the Divine message (⟦ISBE:KEEP:13:Jer 20:9⟧), while "dryness of bones" (⟦ISBE:KEEP:14:Pr 17:22⟧) is the opposite of "good health." Other similar expressions of mental distress are the "piercing of the bones" (⟦ISBE:KEEP:15:Job 30:17⟧), the bones are "troubled" (⟦ISBE:KEEP:16:Ps 6:2⟧), "out of joint" (⟦ISBE:KEEP:17:Ps 22:14⟧), "consumed" (⟦ISBE:KEEP:18:Ps 31:10⟧ the King James Version), "wasted away" or "waxed old" (⟦ISBE:KEEP:19:Ps 32:3⟧), "broken" (⟦ISBE:KEEP:20:Ps 51:8⟧⟦ISBE:FIX:20:tail⟧⟦ISBE:KEEP:21:La 3:4⟧), "ill at rest" (⟦ISBE:KEEP:22:Ps 38:3⟧), "bone of my bones," etc. (⟦ISBE:KEEP:23:Ge 2:23⟧), having the same nature, and the nearest relation (⟦ISBE:KEEP:24:2Sa 5:1⟧) and affection (⟦ISBE:KEEP:25:Eph 5:30⟧). In the last-mentioned passage, the Revised Version (British and American) omits "of his flesh, and of his bones" as an interpolation from ⟦ISBE:KEEP:26:Ge 2:23⟧. The figs. in ⟦ISBE:KEEP:27:Mic 3:2⟧⟦ISBE:FIX:27:tail⟧⟦ISBE:KEEP:28:3⟧ are expressive of the most cruel oppression and murder.
+<!-- ISBE-END:2 -->
+
+<!-- ISBE-BLOCK:29 -->
+H. L. E. Luering
+<!-- ISBE-END:29 -->
+

@@ -1,0 +1,18 @@
+<!-- ISBE-TRANSLATION-V1 {"article_id": "isbe-59f40c9e12b07eaef55a", "language": "fr", "preserve": {}, "publication_permitted": false, "schema_version": 1, "source_article_sha256": "373704b1ee2ec784bda80476b5a32fe3cafe2c4c1b1b57304035f660f4a9227f", "source_key": "CAIAPHAS", "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c", "status": "unreviewed_drafts"} -->
+
+<!-- ISBE-BLOCK:1 -->
+# CAIAPHAS
+<!-- ISBE-END:1 -->
+
+<!-- ISBE-BLOCK:2 -->
+ka'-a-fas, ki'-a-fas (Kaiaphas; Caiaphas = Kephas (compare Dods in Expositor's Greek Test, I, 803), and has also been interpreted as meaning "depression"): Caiaphas was the surname of Joseph, a son-in-law of Annas (compare ⟦ISBE:KEEP:3:Joh 18:13⟧), who filled th e post of high priest from about 18-36 AD, when he was deposed by Vitellius (compare Josephus, Ant, XVIII, ii, 2; iv, 3). He is mentioned by Luke as holding office at the time of John the Baptist's preaching in the wilderness (⟦ISBE:KEEP:4:Lu 3:2⟧⟦ISBE:FIX:4:tail⟧
+<!-- ISBE-END:2 -->
+
+<!-- ISBE-BLOCK:5 -->
+Caiaphas took a leading part in the trial and condemnation of Jesus. It was in his court or palace that the chief priests (Sadducees) and Pharisees, who together constituted the Sanhedrin, assembled "that they might take Jesus by subtlety, and kill him" (compare ⟦ISBE:KEEP:6:Mt 26:3⟧⟦ISBE:FIX:6:tail⟧⟦ISBE:KEEP:7:4⟧⟦ISBE:FIX:7:tail⟧⟦ISBE:KEEP:8:Joh 11:49⟧). The regal claims of the new Messiah and the growing fame of His works had made them to dread both the vengeance of imperial Rome upon their nation, and the loss of their own personal authority and prestige (compare ⟦ISBE:KEEP:9:Joh 11:48⟧). But Caiaphas pointed a way out of their dilemma: let them bide their time till the momentary enthusiasm of the populace was spent (compare ⟦ISBE:KEEP:10:Mt 26:5⟧), and then by the single sacrifice of Jesus they could at once get rid of a dangerous rival and propitiate the frowns of Rome (compare ⟦ISBE:KEEP:11:Joh 11:49⟧⟦ISBE:FIX:11:tail⟧⟦ISBE:KEEP:12:50⟧⟦ISBE:FIX:12:tail⟧⟦ISBE:KEEP:13:18:14⟧). The commentary of John upon this (⟦ISBE:KEEP:14:Joh 11:51⟧⟦ISBE:FIX:14:tail⟧⟦ISBE:KEEP:15:52⟧) indicates how the death of Jesus was indeed to prove a blessing not only for Israel but also for all the children of God; but not in the manner which the cold-blooded statecraft of Caiaphas intended. The advice of the high priest was accepted by the Sanhedrin (⟦ISBE:KEEP:16:Joh 11:53⟧), and they succeeded in arresting Jesus. After being led "to Annas first" (⟦ISBE:KEEP:17:Joh 18:13⟧), Jesus was conducted thence in bonds to Caiaphas (⟦ISBE:KEEP:18:Joh 18:24⟧), According to Mt He was led immediately upon His arrest to Caiaphas (⟦ISBE:KEEP:19:Mt 26:57⟧). Mr and Lu do not refer to Caiaphas by name. His conduct at this preliminary trial of Jesus (⟦ISBE:KEEP:20:Mt 26:57-68⟧), its time and its procedure, were almost entirely illegal from the standpoint of then existing Jewish law (compare ⟦ISBE:OPEN:21⟧JESUS CHRIST, THE ARREST AND TRIAL OF⟦ISBE:CLOSE:21⟧; and A. Taylor Innes, The Trial of Jesus Christ). False witnesses were first called, and when Jesus refused to reply to their charges, Caiaphas asked of Him if He were "the Christ, the Son of God " (⟦ISBE:KEEP:22:Mt 26:63⟧). Upon our Lord's answering "Thou hast said" (⟦ISBE:KEEP:23:Mt 26:64⟧), Caiaphas "rent his garments, saying, He hath spoken blasphemy: what further need have we of witnesses? behold, now ye have heard the blasphemy" (⟦ISBE:KEEP:24:Mt 26:65⟧). Upon this charge was Jesus found "worthy of death" (⟦ISBE:KEEP:25:Mt 26:66⟧). Caiaphas is also mentioned in ⟦ISBE:KEEP:26:Ac 4:6⟧ as being among those who presided over the trial of Peter and John.
+<!-- ISBE-END:5 -->
+
+<!-- ISBE-BLOCK:27 -->
+C. M. Kerr
+<!-- ISBE-END:27 -->
+
