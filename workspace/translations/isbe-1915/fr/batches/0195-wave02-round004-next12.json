@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BESODEIAH",
+      "article_id": "isbe-ce86df31b0cdc755af25",
+      "source_article_sha256": "45fe48d5c7fb5c8704a4481c401bd5a697465945692a0f28d35098609dde838b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BESODEIAH",
+          "target": "BESODÉIA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bes-o-de'-ya, bes-o-di'-a (becodheyah, \"in the confidence or counsel of Yah\"; compare ",
+          "target": "bes-o-de'-ya, bes-o-di'-a (becodheyah, « dans la confidence ou le conseil de Yah » ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "; and HPN, 207, 221, 286): Father of Meshullam, the builder (",
+          "target": " ; et HPN, p. 207, 221, 286) : père de Meshullam, le bâtisseur (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-BIRI",
+      "article_id": "isbe-918285f16c4a56e5e413",
+      "source_article_sha256": "1259bba88d21ee936441d61162bfec3787425a7043c0a1aaa6b39aa226d8633f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-BIRI",
+          "target": "BETH-BIRI",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-bir'-i (the King James Version Beth-birei, beth-bir'-e-i) beth bir'i; oikos Braoumseoreim; ",
+          "target": "beth-bir'-i (Beth-birei dans la King James Version, beth-bir'-e-i) beth bir'i ; oikos Braoumseoreim ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (called in ",
+          "target": " (appelé en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", Beth-lebaoth, \"abode of lions\"): A site belonging to Simeon in the Negeb--unidentified.",
+          "target": " Beth-Lebaoth, « demeure des lions ») : lieu appartenant à Siméon dans le Néguev, non identifié.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-GADER",
+      "article_id": "isbe-82b5177849f761275af8",
+      "source_article_sha256": "2cd8c88bd14f0e1fc60a237da65325a321e0b22560bb6caa49e1d2fc9fab7e30",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-GADER",
+          "target": "BETH-GADER",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-ga'-der (bethgadher; Baithgedor, or (Codex Vaticanus) Baithgaidon): The name occurs between those of Bethlehem and Kiriath-jearim in ",
+          "target": "beth-ga'-der (bethgadher ; Baithgedor ou, dans le Codex Vaticanus, Baithgaidon) : ce nom apparaît entre ceux de Bethléem et de Kirjath-Jearim en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". It is possibly identical with Geder of ",
+          "target": ". Il pourrait être identique à Guéder en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-GILGAL",
+      "article_id": "isbe-afdb2b77e6f38e019d60",
+      "source_article_sha256": "eb139289207a1d3c132c4d1e1ead50f8616be71659bf0dc1d5801f08c5e9c4a8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-GILGAL",
+          "target": "BETH-GUILGAL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-gil'-gal (beth ha-gilgal; Bethaggalgal; the King James Version house of Gilgal): The Gilgal which lay in the plain East of Jericho (",
+          "target": "beth-gil'-gal (beth ha-gilgal ; Bethaggalgal ; « maison de Guilgal » dans la King James Version) : le Guilgal situé dans la plaine à l'est de Jéricho (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "GILGAL",
+          "target": "GUILGAL",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-PAZZEZ",
+      "article_id": "isbe-ae610849f217d667c75d",
+      "source_article_sha256": "e5b8c2fe985126e8244f4b2134d512bdf6e83e2337b05dc0cdd99c3c200dfe50",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-PAZZEZ",
+          "target": "BETH-PAZZEZ",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-paz'-ez (beth patstsets; Bersaphes, Baithphrasee): A town in the territory of Issachar, named with En-gannim and En- haddah (",
+          "target": "beth-paz'-ez (beth patstsets ; Bersaphes, Baithphrasee) : ville du territoire d'Issacar, nommée avec En-Gannim et En-Hadda (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The site has not been discovered; it probably lay near the modern Jenin.",
+          "target": "). Son emplacement n'a pas été découvert ; elle se trouvait probablement près de l'actuelle Jénine.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETH-RAPHA",
+      "article_id": "isbe-bffb56a8d97eb52d0ddc",
+      "source_article_sha256": "743df3097a20e9547ca4192c8001ed1bf278916abc1d3a8ffe7fd482a446b9c0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETH-RAPHA",
+          "target": "BETH-RAPHA",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-ra'-fa (beth rapha'; B, ho Bathraia, Bathrepha): The name occurs only in the genealogical list in ",
+          "target": "beth-ra'-fa (beth rapha' ; B : ho Bathraia, Bathrepha) : ce nom n'apparaît que dans la liste généalogique de ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". It does not seem possible now to associate it with any particular place or clan.",
+          "target": ". Il ne paraît pas possible, à présent, de l'associer à un lieu ou à un clan précis.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETHSURA; BETHSURON",
+      "article_id": "isbe-ec50871619794ec5e008",
+      "source_article_sha256": "831413cfa5babb37b2f4a4d0cf1e8bf82c01fb43ecddbd8933160b201d5cac43",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETHSURA; BETHSURON",
+          "target": "BETHSURA ; BETHSURON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-su'-ra (Baithsoura (1 Macc 4:29, etc.)), (2 Macc 11:5 the Revised Version (British and American)): The Greek form of the name ",
+          "target": "beth-su'-ra (Baithsoura (1 Maccabées 4.29, etc.)), (2 Maccabées 11.5 dans la Revised Version britannique et américaine) : forme grecque du nom ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BETH-ZUR",
+          "target": "BETH-TSUR",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETHUEL (2)",
+      "article_id": "isbe-b1a45a49bd0b2d7dab93",
+      "source_article_sha256": "8c49eeb94aba2c4bf4191b5e1f013091ae4f19164fbd206df66400790ed6670e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETHUEL (2)",
+          "target": "BÉTHUEL (2)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-thu'-el, beth'-u-el (bethu'el, \"destroyed of God\"): A town of Simeon (",
+          "target": "be-thu'-el, beth'-u-el (bethu'el, « détruit par Dieu ») : ville de Siméon (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), the same as Bethul (",
+          "target": "), identique à Bethul (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), and, probably, as the Beth-el of ",
+          "target": ") et probablement au Beth-El de ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETONIM",
+      "article_id": "isbe-a95b25bf285a8d0757ed",
+      "source_article_sha256": "5be9b7e60255655910b4ee484d4a7c22377c3e4df1d17c59acefe66f6006f7e0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETONIM",
+          "target": "BÉTONIM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bet'-o-nim, be-to'-nim (beTonim; Botanei or Botanin): A town East of the Jordan in the territory of Gad (",
+          "target": "bet'-o-nim, be-to'-nim (beTonim ; Botanei ou Botanin) : ville à l'est du Jourdain, dans le territoire de Gad (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). It may be identical with BaTneh, about 3 miles Southwest of es-SalT.",
+          "target": "). Elle pourrait être identique à BaTneh, à environ trois milles au sud-ouest d'es-SalT.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEZAI",
+      "article_id": "isbe-77bc28de703940242ccc",
+      "source_article_sha256": "af7a8d2eacdf15da488d118e17dd5abeb629bcf2a9ba763fb652a681cba6f77d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEZAI",
+          "target": "BÉZAÏ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-za-i (betsay, \"shining\"(?)):",
+          "target": "be'-za-i (betsay, « brillant » (?)) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A chief who with Nehemiah sealed the covenant (",
+          "target": "(1) Chef qui scella l'alliance avec Néhémie (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) The descendants of Bezai returned with Zerubbabel to Jerusalem (323, ",
+          "target": "(2) Les descendants de Bézaï revinrent avec Zorobabel à Jérusalem (323, ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " = Bassai, 1 Esdras 5:16).",
+          "target": " = Bassai, 1 Esdras 5.16).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEZETH",
+      "article_id": "isbe-a2ba0d2b5a9653152a5f",
+      "source_article_sha256": "8ae2878ee80fa7bc40eb44b01cec9c34d68cfc10903580224f116271351299b2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEZETH",
+          "target": "BÉZETH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-zeth (Bezeth): A place in the neighborhood of Jerusalem to which Bacchides withdrew and where he slew several deserters (1 Macc 7:19). Possibly the same as Bezetha (see ",
+          "target": "be'-zeth (Bezeth) : lieu près de Jérusalem où Bacchidès se retira et fit mettre à mort plusieurs déserteurs (1 Maccabées 7.19). Peut-être identique à Bézétha (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "JERUSALEM",
+          "target": "JÉRUSALEM",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BICHRI",
+      "article_id": "isbe-584b99ce924bcd48a86a",
+      "source_article_sha256": "5fe1685e1a704fc06196b755cad32f278577c098952de20534f478de895e9e46",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BICHRI",
+          "target": "BICHRI",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bik'-ri (bikhri, \"first born\"; compare HPN, 88, 102): Father of Sheba who rebelled against David. Bichri is of the house of Benjamin and the word probably means a \"descendant of Becher\" (",
+          "target": "bik'-ri (bikhri, « premier-né » ; comparer HPN, p. 88, 102) : père de Shéba, qui se révolta contre David. Bichri appartenait à la maison de Benjamin, et son nom signifie probablement « descendant de Béker » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " ff). Compare ",
+          "target": " et suiv.). Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BECHER 1",
+          "target": "BÉKER 1",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
