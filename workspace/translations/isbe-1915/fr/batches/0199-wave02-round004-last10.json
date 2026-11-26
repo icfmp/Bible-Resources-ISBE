@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CATHUA",
+      "article_id": "isbe-3439b485ee4759f47ca4",
+      "source_article_sha256": "748808b41db05bfcfe78e79d7dcd06307f3067b3c27253bf86aef876f7b142d8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CATHUA",
+          "target": "CATHUA",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka-thu'-a (Kathoua; Codex Vaticanus, Koua): Head of a family of temple-servants who returned from the captivity with Zerubbabel (1 Esdras 5:30); corresponds to Giddel in ",
+          "target": "ka-thu'-a (Kathoua ; Codex Vaticanus : Koua) : Chef d'une famille de serviteurs du Temple revenus de captivité avec Zorobabel (1 Esdras 5.30) ; correspond à Guiddel en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHALPHI",
+      "article_id": "isbe-7051feef3527ffefb3d9",
+      "source_article_sha256": "fc7fd6e32a4936b49ce3ccffa5865d37e493e735b9c94a93be1f62026d9c97e1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHALPHI",
+          "target": "CHALPHI",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kal'-fi (Chalphi; the King James Version Calphi): Father of Judas, who, along with Mattathias, steadily supported Jonathan at the battle of Gennesar when the hosts of Demetrius' princes were routed (1 Macc 11:70).",
+          "target": "kal'-fi (Chalphi ; King James Version : Calphi) : Père de Judas qui, avec Mattathias, soutint fermement Jonathan à la bataille de Génésareth, lorsque les armées des chefs de Démétrius furent mises en déroute (1 Maccabées 11.70).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHANAAN; CHANAANITE",
+      "article_id": "isbe-39233e1332853ed16eb4",
+      "source_article_sha256": "a93228f45fc03d704d1ae9a13c4823e896f045e43af1abb174cc42b0152e4c52",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHANAAN; CHANAANITE",
+          "target": "CHANAAN ; CHANAANITE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka'-nan, ka'-na-an, ka'-nan-it (Chanaan), the King James Version in the Apocrypha (Judith 5:3,16) and New Testament (",
+          "target": "ka'-nan, ka'-na-an, ka'-nan-it (Chanaan) : Formes employées par la King James Version dans les Apocryphes (Judith 5.3, 16) et dans le Nouveau Testament (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") for the Revised Version (British and American) ",
+          "target": "), là où la Revised Version (britannique et américaine) donne ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "CANAAN, CANAANITE",
+          "target": "CANAAN, CANANÉEN",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHANUNEUS",
+      "article_id": "isbe-120c2504311b9e5a4e82",
+      "source_article_sha256": "6f1f3bb3adf64d9481063f37231c91c2cf9b62fc405fc98c5119d96b911bcd4d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHANUNEUS",
+          "target": "CHANUNEUS",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka-nun'-e-us (Chanounaios; the King James Version Channuneus): A Levite in the list of 1 Esdras 8:48, probably corresponding to \"Merari\" in ",
+          "target": "ka-nun'-e-us (Chanounaios ; King James Version : Channuneus) : Lévite figurant sur la liste de 1 Esdras 8.48, correspondant probablement à « Merari » en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHARGES",
+      "article_id": "isbe-4c8de67a05aaadb1d655",
+      "source_article_sha256": "6b2fbf74d8ef30709ca294724cbf0d2f48a338b06e0ac4b20fcf70003f7b50fb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHARGES",
+          "target": "FRAIS À PRENDRE EN CHARGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "char'-jiz (dapanao, \"to spend\"): \"Be at charges for them\" (",
+          "target": "char'-jiz (dapanao, « dépenser ») : « Prends à ta charge leurs frais » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", the King James Version \"with them\"), i.e. pay the sacrificial expenses of these poorer Nazirites (compare Josephus, Ant, XIX, xvi, 1).",
+          "target": " ; la King James Version donne « avec eux »), c'est-à-dire acquitte les dépenses liées aux sacrifices de ces nazirs plus pauvres (comparer Josèphe, Antiquités, XIX, xvi, 1).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHARMIS",
+      "article_id": "isbe-88230a65e573f2ea3221",
+      "source_article_sha256": "a0dc5baf7bde314257e52d0fc5b86e7f33027875dfd61517ade93f25723cc8f0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHARMIS",
+          "target": "CHARMIS",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kar'-mis (Charmeis, Charmeis, A, Chalmeis): The son of Melchiel, one of the three elders or rulers of the town of Bethulia (Judith 6:15; 8:10; 10:6).",
+          "target": "kar'-mis (Charmeis, Charmeis, A, Chalmeis) : Fils de Melchiel, l'un des trois anciens ou dirigeants de la ville de Béthulie (Judith 6.15 ; 8.10 ; 10.6).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHASEBA",
+      "article_id": "isbe-72a96efdf44f6b0716a8",
+      "source_article_sha256": "ce3fb91168a346ac94c11f967b8afa78dcab379895994ddb9758c532a5b59929",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHASEBA",
+          "target": "CHASEBA",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kas'-e-ba (Chaseba): The name of a family of temple-servants in the list of those who returned from Babylon (1 Esdras 5:31). The name is not given in the parallel passages in Ezra and Nehemiah.",
+          "target": "kas'-e-ba (Chaseba) : Nom d'une famille de serviteurs du Temple dans la liste de ceux qui revinrent de Babylone (1 Esdras 5.31). Ce nom ne figure pas dans les passages parallèles d'Esdras et de Néhémie.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHATTER",
+      "article_id": "isbe-21df5c753e41c175146d",
+      "source_article_sha256": "7c5d0c4cc630735b66adbf8f4e18370daa682c2de66526607a496da13de34243",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHATTER",
+          "target": "PÉPIER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "chat'-er (tsaphaph): This word, which means to \"peep,\" \"twitter\" or \"chirp,\" as small birds do, is translated \"chatter\" only in ",
+          "target": "chat'-er (tsaphaph) : Ce mot, signifiant « pépier », « gazouiller » ou « pousser de petits cris », comme le font les petits oiseaux, n'est rendu par « chatter » que dans ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", \"Like a swallow or a crane, so did I chatter.\"",
+          "target": " : « Comme l'hirondelle ou la grue, ainsi je pépiais. »",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "CHIRP",
+          "target": "GAZOUILLER",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHAVAH",
+      "article_id": "isbe-4dccf8ab4b04e3f17d06",
+      "source_article_sha256": "6bfdd71f2f72eb0c0e71e939ccc8fa78acfcd048fd2bb3a6d8464d629c406f6b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHAVAH",
+          "target": "CHAVAH",
+          "action": "preserve",
+          "reason": "Historical biblical headword deliberately preserved"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka'-va (Septuagint Zoe): A transliteration of the Hebrew chawwah or chavvah, which means \"life giver\" \"living\" and appears in our English versions as Eve (",
+          "target": "ka'-va (Septante : Zoe) : Transcription de l'hébreu chawwah ou chavvah, qui signifie « celle qui donne la vie », « vivante », et apparaît dans nos versions anglaises sous le nom d'Ève (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", see the King James Version margin).",
+          "target": " ; voir la note marginale de la King James Version).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHELUBAI",
+      "article_id": "isbe-b64cf25888129df00e12",
+      "source_article_sha256": "c720f3808c732175d45cce827e836bcc2818a13b88df187b7fc02fd8c0c03ec2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHELUBAI",
+          "target": "KELUBAÏ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ke-loo'-bi (kelubhay): Another form of Caleb used in ",
+          "target": "ke-loo'-bi (kelubhay) : Autre forme de Caleb employée en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ". Caleb is here described as the brother of Jerahmeel, and son of Hezron, a remote ancestor, instead of as the son of Jephunneh.",
+          "target": ". Caleb y est présenté comme le frère de Jerahmeël et le fils de Hetsron, ancêtre éloigné, plutôt que comme le fils de Jephunné.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "CALEB",
+          "target": "CALEB",
+          "action": "preserve",
+          "reason": "Historical pronunciation or proper-name fragment retained"
+        }
+      ]
+    }
+  ]
+}
