@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "600_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "700_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 600,
-    "complete_first_drafts": 602,
-    "remaining_undrafted": 398
+    "new_complete_drafts_on_branch": 700,
+    "complete_first_drafts": 702,
+    "remaining_undrafted": 298
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1645
+    "complete_first_drafts_across_main_and_current_branch": 1745
   },
   "source_queue": {
     "rounds_completed": [
@@ -28,20 +28,22 @@
       "round-003",
       "round-004",
       "round-005",
-      "round-006"
+      "round-006",
+      "round-007"
     ],
-    "original_article_templates": 600,
-    "verified_unique_article_ids": 600,
-    "original_mutable_tei_units_covered": 2332,
+    "original_article_templates": 700,
+    "verified_unique_article_ids": 700,
+    "original_mutable_tei_units_covered": 3057,
     "round_paths": [
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-001",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-002",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-003",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-004",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-005",
-      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-006"
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-006",
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-007"
     ],
-    "checks": "Six completed 100-article cohorts. Round 006 contains 100 distinct source-locked manuscripts, 484 mutable units (63 previously committed, 421 in this cohort completion). Local transport slot-count and Git tree filename checks passed; full independent CI on the completion commit pending. No editorial approval."
+    "checks": "Seven completed 100-article cohorts. Round 007 contains 100 distinct source-locked manuscripts, 725 mutable units. Ordered slot-count and Git tree coverage checks passed; full independent CI on the completion commit pending. No editorial approval."
   },
   "batch_files": [
     "0163-wave02-first05-source-locked.json",
@@ -94,7 +96,12 @@
     "0210-wave02-round006-next20.json",
     "0211-wave02-round006-next20.json",
     "0212-wave02-round006-next24.json",
-    "0213-wave02-round006-last24.json"
+    "0213-wave02-round006-last24.json",
+    "0214-wave02-round007-first20.json",
+    "0215-wave02-round007-next20.json",
+    "0216-wave02-round007-next20.json",
+    "0217-wave02-round007-next20.json",
+    "0218-wave02-round007-last20.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -231,20 +238,90 @@
       "key": "BLOW",
       "kind": "source_witness",
       "detail": "Protected source reference displays Joe 2:1, retained."
+    },
+    {
+      "key": "BAAL-HAZOR",
+      "kind": "source_witness",
+      "detail": "Source ends with apparent unrelated/truncated fragment 'rine Kubbet el Baul'; retained and flagged."
+    },
+    {
+      "key": "BAALATH",
+      "kind": "source_witness",
+      "detail": "Source repeats preceding BAALAH geographical paragraph and contains truncated 'Da'; retained."
+    },
+    {
+      "key": "BAALSAMUS",
+      "kind": "source_witness",
+      "detail": "Source repeats unrelated BAAL-PERAZIM material; retained."
+    },
+    {
+      "key": "BAAL-PERAZIM",
+      "kind": "source_witness",
+      "detail": "Quotation has truncated 'Philis'; retained."
+    },
+    {
+      "key": "BAMAH",
+      "kind": "source_witness",
+      "detail": "Source has literal '#2Ch 13' reference token; retained."
+    },
+    {
+      "key": "BALM OF GILEAD",
+      "kind": "source_witness",
+      "detail": "Source spelling 'Stytax officinalis' retained."
+    },
+    {
+      "key": "BENEFIT",
+      "kind": "source_witness",
+      "detail": "Source repeats 'is found'; retained."
+    },
+    {
+      "key": "BETH (2)",
+      "kind": "source_witness",
+      "detail": "Source repeats Bethphage equation; retained."
+    },
+    {
+      "key": "BETH-HOGLAH",
+      "kind": "source_witness",
+      "detail": "Source anomalous 'silt edition up'; translated with original fragment explicitly shown."
+    },
+    {
+      "key": "BETH-REHOB",
+      "kind": "source_witness",
+      "detail": "Source reads 'Laish-Da'; retained."
+    },
+    {
+      "key": "BUFFET",
+      "kind": "source_witness",
+      "detail": "Source reads 'roe' within quotation; explicit note in French draft."
+    },
+    {
+      "key": "CALITAS",
+      "kind": "source_witness",
+      "detail": "Source name 'elaiah' retained."
+    },
+    {
+      "key": "CEILED; CEILING",
+      "kind": "source_witness",
+      "detail": "Source phrase 'some doubt of the textual' incomplete; retained explicitly."
+    },
+    {
+      "key": "CHEBAR",
+      "kind": "source_witness",
+      "detail": "Source anomalous 'rood.' before shaTT en-Nil; retained."
     }
   ],
-  "next_action": "Stage round-007 of 100 shortest undrafted canonical articles within the 398 remaining positions 1001–2000; use compact JSONL source transport and grouped translation, one cohort commit. Verify independent CI before any acceptance; no PR before all 9380 first drafts.",
-  "previous_translation_commit": "216d8d8ccbe8c2907383d56f2caf336fe467973e",
-  "last_translation_tree": "70ce436d6ac3776abbb8ab7296bcdc1308df2222",
+  "next_action": "Stage round-008 of 100 shortest undrafted canonical articles within the 298 remaining positions 1001–2000; grouped JSONL translation and one cohort commit. Verify independent CI before any acceptance; no PR before all 9380 first drafts.",
+  "previous_translation_commit": "f16895e3aa1ed2fd573610c56061a95908e4f5b8",
+  "last_translation_tree": "a9daf480dab53a7c3030e851f5810046e96a6c78",
   "last_cohort_completion": {
-    "round": "round-006",
-    "new_articles": 88,
-    "previous_articles": 12,
+    "round": "round-007",
+    "new_articles": 100,
+    "previous_articles": 0,
     "total_articles": 100,
-    "source_mutable_units": 421,
-    "source_words_whitespace_count": 5933,
-    "source_blocks": 231,
-    "protected_keep_markers": 302,
+    "source_mutable_units": 725,
+    "source_words_whitespace_count": 10494,
+    "source_blocks": 358,
+    "protected_keep_markers": 554,
     "validation": "Ordered source slot count and Git tree coverage verified; full TEI and bridge CI pending",
     "editorial_approvals": 0
   }
