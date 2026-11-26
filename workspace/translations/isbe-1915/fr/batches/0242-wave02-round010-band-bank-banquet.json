@@ -1,0 +1,1049 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BAND",
+      "article_id": "isbe-52f1b54ce34b64a02f99",
+      "source_article_sha256": "f11fe12efe429fccf22fec77441cd2b457dd89149d94ddf2ac848ffec43f8777",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAND",
+          "target": "LIEN ; BANDE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "The English word has two generic meanings, each shading off into several specific meanings:",
+          "target": "Le mot anglais a deux sens génériques, chacun se nuançant en plusieurs sens particuliers :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) that which holds together, binds or encircles: a bond;",
+          "target": "(1) ce qui tient ensemble, lie ou entoure : un lien ;",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(2) a company of men. The second sense may philologically and logically have been derived from the first, men being held together by social ties. Both meanings appear in Old Testament and New Testament representing various Hebrew and Greek words.",
+          "target": "(2) une troupe d'hommes. Le second sens peut, philologiquement et logiquement, avoir dérivé du premier, les hommes étant unis par des liens sociaux. Les deux sens apparaissent dans l'Ancien Testament et le Nouveau Testament, représentant divers mots hébreux et grecs.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(1) A band",
+          "target": "(1) Un lien",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(a) ('ecur): a flaxen rope (",
+          "target": "(a) ('ecur) : une corde de lin (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "); a band of iron and brass (",
+          "target": ") ; une bande de fer et d'airain (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "); metaphorically used of a false woman's hands (",
+          "target": ") ; employé métaphoriquement à propos des mains d'une femme infidèle (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(b) (chebhel): \"The bands of the wicked have robbed me\" (the King James Version of ",
+          "target": "(b) (chebhel) : « Les bandes des méchants m'ont dépouillé » (King James Version de ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "), where \"bands\" = \"troops\" by mistr; the Revised Version (British and American) \"The cords of the wicked have wrapped me round\"; plural chobhlim = \"bands\" = the name of the prophet's symbolic staff representing the brotherhood between Judah and Israel (",
+          "target": "), où « bands » = « troupes » par erreur de traduction ; Revised Version (britannique et américaine) : « Les cordes des méchants m'ont entouré » ; le pluriel chobhlim = « liens » = nom du bâton symbolique du prophète représentant la fraternité entre Juda et Israël (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "(c) (`abhoth): \"I drew them with cords of a man, with bands of love\" (",
+          "target": "(c) (`abhoth) : « Je les tirais avec des cordes humaines, avec des liens d'amour » (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(d) (saphah): the edge of the round opening in the robe of the ephod with a band (the Revised Version (British and American) \"binding\") round about the hole of it (only in ",
+          "target": "(d) (saphah) : le bord de l'ouverture ronde de la robe de l'éphod, avec une bande (Revised Version [britannique et américaine] : « binding », bordure) autour de l'ouverture (seulement en ",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "(e) (chartsubboth): bands (the Revised Version (British and American) \"bonds\") of wickedness (",
+          "target": "(e) (chartsubboth) : liens (Revised Version [britannique et américaine] : « bonds ») de méchanceté (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": "); bands (= pains) in death (",
+          "target": ") ; liens (= douleurs) dans la mort (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": "); the Revised Version, margin (\"pangs,\" Cheyne, \"torments\").",
+          "target": ") ; marge de la Revised Version (« pangs », douleurs ; Cheyne : « torments », tourments).",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "(f) (moTah): the cross bar of oxen's yoke, holding them together (",
+          "target": "(f) (moTah) : la traverse du joug des bœufs, les tenant ensemble (",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": " the King James Version; the Revised Version (British and American) \"bars\").",
+          "target": " King James Version ; Revised Version [britannique et américaine] : « bars », barres).",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "(g) (mocer): a fetter: \"Who hath loosed the bonds of the swift ass?\" (",
+          "target": "(g) (mocer) : une entrave : « Qui a délié les liens de l'âne rapide ? » (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": "; all in the King James Version and the Revised Version (British and American)). The same Hebrew word (in ",
+          "target": " ; tous dans la King James Version et la Revised Version [britannique et américaine]). Le même mot hébreu (en ",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "tail",
+          "source": ") is translated \"bonds \" in the King James Version, and in the English Revised Version of ",
+          "target": ") est traduit par « bonds » dans la King James Version, et dans l'English Revised Version de ",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": ", and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": ", but \"bands\" in the English Revised Version of ",
+          "target": ", mais par « bands » dans l'English Revised Version de ",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": "; the American Standard Revised Version has \"bonds\" throughout. See ",
+          "target": " ; l'American Standard Revised Version donne partout « bonds ». Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "BOND",
+          "target": "LIEN",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "(h) (moshekhoth): \"Canst thou .... loose the bands of Orion?\" (only in ",
+          "target": "(h) (moshekhoth) : « Peux-tu… délier les liens d'Orion ? » (seulement en ",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "(i) (desmos, sundesmos): a fetter: that which binds together: of the chains of a lunatic or prisoner (",
+          "target": "(i) (desmos, sundesmos) : une entrave : ce qui lie ensemble : des chaînes d'un aliéné ou d'un prisonnier (",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "tail",
+          "source": " the King James Version), metaphorically of the mystic union of Christ and the church (",
+          "target": " King James Version), métaphoriquement de l'union mystique du Christ et de l'Église (",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": "). These words are often translated by \"bond\" in the King James Version and the Revised Version (British and American).",
+          "target": "). Ces mots sont souvent traduits par « bond » dans la King James Version et la Revised Version (britannique et américaine).",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "(j) (zeukteria): the rudder's bands (only in ",
+          "target": "(j) (zeukteria) : les liens des gouvernails (seulement en ",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "(2) A company of men",
+          "target": "(2) Une troupe d'hommes",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "(a) (gedhudh): a band of soldiers (",
+          "target": "(a) (gedhudh) : une bande de soldats (",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": ", the King James Version; ",
+          "target": ", King James Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "tail",
+          "source": "). So the Revised Version (British and American) (except in ",
+          "target": "). De même la Revised Version (britannique et américaine) (sauf en ",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "tail",
+          "source": ", \"troop\").",
+          "target": ", « troop », troupe).",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "(b) (ro'sh): \"head\" = \"division\": \"The Chaldeans made three bands\" (",
+          "target": "(b) (ro'sh) : « tête » = « division » : « Les Chaldéens formèrent trois bandes » (",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "tail",
+          "source": " the Revised Version (British and American) translates \"heads.\"",
+          "target": " la Revised Version [britannique et américaine] traduit par « heads », têtes.",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "(c) (chayil): \"a band of men\" the Revised Version (British and American) the \"host\" (only in ",
+          "target": "(c) (chayil) : « une bande d'hommes », Revised Version (britannique et américaine) : « host », armée (seulement en ",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "(d) ('aghappim): \"the wings of an army,\" only in Ezekiel, armies of the King of Judah (12:14; 17:21); of Gomer and of Togarmah (38:6); of Gog (the Revised Version (British and American) \"hordes\") (38:9,22; 39:4).",
+          "target": "(d) ('aghappim) : « les ailes d'une armée », seulement en Ézéchiel, armées du roi de Juda (12.14 ; 17.21) ; de Gomer et de Togarma (38.6) ; de Gog (Revised Version [britannique et américaine] : « hordes ») (38.9,22 ; 39.4).",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "(e) (machaneh): \"camp\": only in ",
+          "target": "(e) (machaneh) : « camp » : seulement en ",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "tail",
+          "source": "; the Revised Version (British and American) \"companies.\"",
+          "target": " ; Revised Version (britannique et américaine) : « companies », troupes.",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "(f) (chotsets): of locusts dividing into companies or swarms (",
+          "target": "(f) (chotsets) : des sauterelles se divisant en bandes ou essaims (",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "text",
+          "source": "(g) (speira): usually a \"cohort\" (see the Revised Version, margin) of Roman soldiers; the tenth part of a legion, about 600 men: (",
+          "target": "(g) (speira) : habituellement une « cohorte » (voir la marge de la Revised Version) de soldats romains ; la dixième partie d'une légion, environ 600 hommes : (",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "tail",
+          "source": "). A smaller detachment of soldiers (",
+          "target": "). Un détachement plus petit de soldats (",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "tail",
+          "source": "; compare 2 Macc 8:23; Judith 1:4:11).",
+          "target": " ; comparer 2 Maccabées 8.23 ; Judith 1.4.11).",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "text",
+          "source": "(h) (poiein sustrophen): \"to make a conspiracy\": \"The Jews banded together\" (",
+          "target": "(h) (poiein sustrophen) : « former une conspiration » : « Les Juifs formèrent un complot » (",
+          "action": "translate"
+        },
+        {
+          "node": 89,
+          "part": "text",
+          "source": "T. Rees",
+          "target": "T. Rees",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 91,
+          "part": "tail",
+          "source": " The Augustan Band (speira Sebaste) to which Julius, the Roman centurion who had charge of Paul as a prisoner on his voyage to Rome, belonged, was a cohort apparently stationed at Caesarea at the time (",
+          "target": " La cohorte Auguste (speira Sebaste) à laquelle appartenait Julius, le centenier romain chargé de Paul comme prisonnier durant son voyage à Rome, était une cohorte apparemment stationnée à Césarée à cette époque (",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "tail",
+          "source": "). Schurer (GJV, I3, 461 f) is of opinion that it was one of five cohorts mentioned by Josephus, recruited in Samaria and called Sebastenes from the Greek name of the city of Samaria (Sebaste). This particular cohort had in all likelihood for its full name Cohors Augusta Sebastenorum, Augusta being an honorific title of which examples are found in the case of auxiliary troops. Sir William Ramsay, following Mommsen (Paul the Traveler, 315, 348), thinks it denotes a body of legionary centurions, selected from legions serving abroad, who were employed by the emperor on confidential business between the provinces and Rome, the title Augustan being conferred upon them as a mark of favor and distinction. The grounds on which the views of Mommsen and Ramsay rest are questioned by Professor Zahn (Introduction to the New Testament, I, 551 ff), and more evidence is needed to establish them.",
+          "target": "). Schurer (GJV, I3, 461 et suivant) est d'avis qu'elle était l'une des cinq cohortes mentionnées par Josèphe, recrutées en Samarie et appelées Sébastènes d'après le nom grec de la ville de Samarie (Sébaste). Cette cohorte particulière avait selon toute vraisemblance pour nom complet Cohors Augusta Sebastenorum, Augusta étant un titre honorifique dont on trouve des exemples dans le cas des troupes auxiliaires. Sir William Ramsay, suivant Mommsen (Paul the Traveler, 315, 348), pense que le nom désigne un corps de centurions légionnaires choisis parmi les légions servant à l'étranger, qui étaient employés par l'empereur pour des affaires confidentielles entre les provinces et Rome, le titre d'Auguste leur étant conféré comme marque de faveur et de distinction. Les fondements sur lesquels reposent les opinions de Mommsen et de Ramsay sont mis en question par le professeur Zahn (Introduction to the New Testament, I, 551 et suivants), et de nouvelles preuves sont nécessaires pour les établir.",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "text",
+          "source": "ARMY (ROMAN)",
+          "target": "ARMÉE (ROMAINE)",
+          "action": "translate"
+        },
+        {
+          "node": 96,
+          "part": "tail",
+          "source": " The Italian Band (speira Italike) was a cohort composed of volunteer Roman citizens born in Italy and stationed at Caesarea at this time (",
+          "target": " La cohorte italienne (speira Italike) était une cohorte composée de citoyens romains volontaires nés en Italie et stationnée à Césarée à cette époque (",
+          "action": "translate"
+        },
+        {
+          "node": 97,
+          "part": "tail",
+          "source": "). Schurer maintains that there could have been no Roman cohort there at this time, although he accepts the testimony of inscriptions to the presence of an Italian cohort at a later time. He accordingly rejects the story of Cornelius, holding that the author of the Ac has given in this narrative conditions belonging to a later time (GJV, I3, 462 f). In reply to Schurer, Blass asks why one of the five cohorts mentioned by Josephus may not have been composed of Roman citizens living at Caesarea or Sebaste, and bearing this name (Blass, Acta Apostolorum, 124). From a recently discovered inscription, Sir W. M. Ramsay has ascertained that there was an Italian cohort stationed in Syria in 69 AD, which heightens the probability of one actually being found in Caesarea at 41-44 AD, and he shows that even if his cohort was at the time on duty elsewhere a centurion like Cornelius might well have been at Caesarea at the time mentioned (Expositor, 5th series, IV, V, with Schurer's rejoinder). The subject of detached service in the provinces of the Roman Empire is admittedly obscure, but nothing emerges in this discussion to cast doubt upon the historical character of Luke's narrative.",
+          "target": "). Schurer soutient qu'il n'aurait pu y avoir de cohorte romaine à cet endroit à cette époque, quoiqu'il accepte le témoignage des inscriptions concernant la présence d'une cohorte italienne à une époque ultérieure. En conséquence, il rejette l'histoire de Corneille, soutenant que l'auteur des Actes a donné dans ce récit des conditions appartenant à une époque postérieure (GJV, I3, 462 et suivant). En réponse à Schurer, Blass demande pourquoi l'une des cinq cohortes mentionnées par Josèphe n'aurait pas pu être composée de citoyens romains vivant à Césarée ou à Sébaste et portant ce nom (Blass, Acta Apostolorum, 124). D'après une inscription récemment découverte, Sir W. M. Ramsay a établi qu'une cohorte italienne était stationnée en Syrie en 69 apr. J.-C., ce qui augmente la probabilité qu'une telle cohorte se soit effectivement trouvée à Césarée en 41-44 apr. J.-C., et il montre que, même si sa cohorte était alors de service ailleurs, un centenier comme Corneille aurait fort bien pu se trouver à Césarée à l'époque mentionnée (Expositor, 5e série, IV, V, avec la réplique de Schurer). La question du service en détachement dans les provinces de l'Empire romain est, il faut l'admettre, obscure, mais rien ne ressort de cette discussion qui jette le doute sur le caractère historique du récit de Luc.",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "ARMY (ROMAN)",
+          "target": "ARMÉE (ROMAINE)",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "text",
+          "source": "T. Nicol.",
+          "target": "T. Nicol.",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BANK; BANKING",
+      "article_id": "isbe-35dc096dce8c0f078b9f",
+      "source_article_sha256": "7170eeae4df7b36d735528f90f5756e9164e0c76ce067b26e4d67e9a861680a2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANK; BANKING",
+          "target": "BANQUE ; ACTIVITÉ BANCAIRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "1. Introductory:",
+          "target": "1. Introduction :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "\"Banking\" in the full modern sense, of taking money on deposit and lending it out on interest, is of comparatively recent origin. A few \"banks of deposit\" were founded in Italy in the Middle Ages, but the earliest \"banks of issue,\" of the modern sort, were those of Amsterdam (1609) and Hamburg (1619), beginning in the 17th century. The law of Moses forbade Israelites to charge each other interest (",
+          "target": "L'« activité bancaire », au sens moderne complet de recevoir de l'argent en dépôt et de le prêter à intérêt, est d'origine relativement récente. Quelques « banques de dépôt » furent fondées en Italie au Moyen Âge, mais les premières « banques d'émission » de type moderne furent celles d'Amsterdam (1609) et de Hambourg (1619), au début du XVIIe siècle. La loi de Moïse interdisait aux Israélites de se réclamer mutuellement des intérêts (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "), but let them lend on interest to Gentiles (",
+          "target": "), mais leur permettait de prêter à intérêt aux Gentils (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "), though this law was often evaded or disregarded (",
+          "target": "), quoique cette loi fût souvent éludée ou méconnue (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "). Banks and banking, however, are found in operation in the Greek cities; \"moneychangers ,\" sitting at their tables (trapezai) in the market place, both changed coins and took money on deposit, giving high interest; and banking of a sort, in its incipient stages, existed among the ancient Hebrews. But the Phoenicians are now thought to have been the inventors of the money-changing, money-lending system which is found in more or less modified and developed forms among ancient peoples and in full development and operation in the palmy days of the Roman Empire. In the Greek-Roman period, without doubt, bankers both received money on deposit, paying interest, and let it out at a higher rate, or employed it in trade, as the publicani at Rome did, in farming the revenues of a province (Plumptre).",
+          "target": "). On trouve cependant des banques et une activité bancaire en fonctionnement dans les villes grecques ; les « changeurs », assis à leurs tables (trapezai) sur la place du marché, changeaient des pièces et recevaient de l'argent en dépôt, donnant des intérêts élevés ; et une sorte d'activité bancaire, à ses débuts, existait chez les anciens Hébreux. Mais on pense maintenant que les Phéniciens furent les inventeurs du système de change et de prêt d'argent que l'on trouve sous des formes plus ou moins modifiées et développées chez les peuples anciens, et en plein développement et fonctionnement aux jours florissants de l'Empire romain. À l'époque gréco-romaine, sans aucun doute, les banquiers recevaient à la fois de l'argent en dépôt, payant des intérêts, et le prêtaient à un taux plus élevé ou l'employaient dans le commerce, comme le faisaient les publicani à Rome, en prenant à ferme les revenus d'une province (Plumptre).",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "2. Banking among the Ancient Hebrews:",
+          "target": "2. L'activité bancaire chez les anciens Hébreux :",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "(1) The Hebrew money-changer, like his modern Syrian counterpart, the saraf (see PEFS, 1904, 49 ff, where the complexity of exchange in Palestine today is graphically described), changed the large coins current into those of smaller denominations, e.g. giving denarii for tetradrachms, or silver for gold, or copper for silver.",
+          "target": "(1) Le changeur hébreu, comme son homologue syrien moderne, le saraf (voir PEFS, 1904, 49 et suivants, où la complexité du change en Palestine aujourd'hui est décrite de manière vivante), changeait les grandes pièces en circulation en pièces de valeur moindre, par exemple en donnant des deniers pour des tétradrachmes, ou de l'argent pour de l'or, ou du cuivre pour de l'argent.",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "(2) But no mean part of his business was the exchanging of foreign money, and even the money of the country of a non- Phoenician standard, for shekels and half-shekels on this standard, the latter being accepted only in payment of the temple dues (see ",
+          "target": "(2) Mais une partie non négligeable de son activité consistait à échanger la monnaie étrangère, et même la monnaie du pays d'un étalon non phénicien, contre des sicles et demi-sicles de cet étalon, ces derniers étant seuls acceptés pour le paiement des redevances du Temple (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "MONEY",
+          "target": "MONNAIE",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "). The \"money-changers\" of ",
+          "target": "). Les « changeurs » de ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": ", as the Greek signifies, were men who made small change. Such men may be seen in Jerusalem now with various coins pried in slender pillars on a table (compare epi trapezan, ",
+          "target": ", comme le grec l'indique, étaient des hommes qui faisaient de la petite monnaie. On peut voir maintenant à Jérusalem de tels hommes avec diverses pièces disposées en minces colonnes sur une table (comparer epi trapezan, ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "), ready to be used in changing money for a premium into such forms, or denominations, as would be more current or more convenient for immediate use.",
+          "target": "), prêts à les employer pour changer, moyennant une prime, l'argent en formes ou valeurs qui seraient plus courantes ou plus commodes pour un usage immédiat.",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "(3) \"Usury\" in English Versions of the Bible is simply Old English for what we today call \"interest,\" i.e. the sum paid for the use of money, Latin usura; and \"interest\" should take the place of it in all passages in the Old Testament and New Testament, where it has such significance.",
+          "target": "(3) « Usury » dans les versions anglaises de la Bible est simplement le terme de vieil anglais pour ce que nous appelons aujourd'hui « intérêt », c'est-à-dire la somme payée pour l'usage de l'argent, latin usura ; et « interest » devrait le remplacer dans tous les passages de l'Ancien Testament et du Nouveau Testament où il a ce sens.",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "3. Banking in New Testament Times:",
+          "target": "3. L'activité bancaire à l'époque du Nouveau Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "The Greek word rendered (tokos), \"usury\" in the New Testament (see ",
+          "target": "Le mot grec rendu (tokos) par « usury » dans le Nouveau Testament (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": " f) means literally, \"what is born of money,\" \"what money brings forth or produces.\" \"Usury\" has come to mean \"exorbitant interest,\" but did not mean this at the time of the King James Version, 1611.",
+          "target": " et suivant) signifie littéralement « ce qui naît de l'argent », « ce que l'argent enfante ou produit ». « Usury » en est venu à signifier « intérêt exorbitant », mais n'avait pas ce sens à l'époque de la King James Version, en 1611.",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(1) In Christ's time, and immediately following, there was great need for money-changers and money-changing, especially on the part of foreign Jews whom custom forbade to put any but Jewish coins into the temple treasury (see ",
+          "target": "(1) À l'époque du Christ et immédiatement après, il y avait grand besoin de changeurs et de change de monnaie, particulièrement de la part des Juifs étrangers auxquels la coutume interdisait de mettre d'autres pièces que des pièces juives dans le trésor du Temple (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": "). It was mainly for the convenience of these Jews of the Dispersion, and because it was in order to a sacred use, that the people thought it proper to allow the money-changers to set up their tables in the outer court of the temple (see ",
+          "target": "). C'était principalement pour la commodité de ces Juifs de la Dispersion et parce que c'était en vue d'un usage sacré que le peuple jugeait convenable de permettre aux changeurs d'installer leurs tables dans le parvis extérieur du Temple (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": " ff).",
+          "target": " et suivants).",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "(2) The language of ",
+          "target": "(2) Le langage de ",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": ", `Thou oughtest to have put my money to the bankers,' etc., would seem to indicate the recognition by Christ of the custom and propriety of lending out money on interest (compare 19:23). The \"exchangers\" here are \"bankers\" (compare ",
+          "target": ", « Tu aurais dû remettre mon argent aux banquiers », etc., semblerait indiquer que le Christ reconnaissait la coutume et la convenance de prêter de l'argent à intérêt (comparer 19.23). Les « exchangers » (changeurs) sont ici des « bankers » (banquiers) (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "tail",
+          "source": "). The Greek (trapezitai) is from a word for \"bank\" or \"bench\" (trapeza), i.e. the \"table\" or \"counter\" on which the money used to be received and paid out. These \"bankers\" were clearly of a higher class than the \"small-change men\" of ",
+          "target": "). Le grec (trapezitai) vient d'un mot signifiant « banque » ou « banc » (trapeza), c'est-à-dire la « table » ou le « comptoir » sur lequel on avait coutume de recevoir et de verser l'argent. Ces « banquiers » étaient manifestement d'une classe supérieure aux « hommes de la petite monnaie » de ",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": ", etc. (compare \"changers of money,\" ",
+          "target": ", etc. (comparer « changers of money », ",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": ", and \"changers,\" ",
+          "target": ", et « changers », ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": ", English Versions). Christ upbraids the \"slothful servant\" because he had not given his pound to \"the bank\" (or \"banker,\" epi trapezan, literally, \"on a banker's table\"), who, it is implied, would have kept it safe and paid interest for it (",
+          "target": ", versions anglaises). Le Christ reproche au « serviteur paresseux » de n'avoir pas donné sa mine à « la banque » (ou au « banquier », epi trapezan, littéralement « sur la table d'un banquier »), qui, sous-entend-on, l'aurait gardée en sûreté et aurait payé un intérêt pour elle (",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": " f). It is noteworthy that the \"tenminae\" of ",
+          "target": " et suivant). Il convient de remarquer que les « dix mines » de ",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": " are those acquired by \"the good servant\" from the \"one\" which was first lent him. So these wealthier bankers even then in a way received money on deposit for investment and paid interest on it, after the fashion of the Greeks.",
+          "target": " sont celles que le « bon serviteur » avait acquises au moyen de l'« une » qui lui avait d'abord été prêtée. Ainsi ces banquiers plus riches recevaient-ils, même alors, d'une certaine manière, de l'argent en dépôt pour le placer et en payaient-ils l'intérêt, à la manière des Grecs.",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "4. Interpretations, Figurative Uses, etc.:",
+          "target": "4. Interprétations, emplois figurés, etc. :",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "(1) In Christ's parable (",
+          "target": "(1) Dans la parabole du Christ (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": " ff) \"the bank\" (literally, \"a bank,\" \"table\") is taken by some to mean \"the synagogue,\" by others to mean \"the church\" (Lange, LJ, II, 1, 414); i.e. it is thought that Christ meant to teach that the organized body, \"synagogue\" or \"church,\" might use the gifts or powers of an adherent or disciple, when he himself could not exercise them (compare DCG, article \"Bank\").",
+          "target": " et suivants), « la banque » (littéralement « une banque », « table ») est comprise par certains comme signifiant « la synagogue », par d'autres « l'Église » (Lange, LJ, II, 1, 414) ; c'est-à-dire que l'on pense que le Christ voulait enseigner que le corps organisé, « synagogue » ou « Église », pouvait employer les dons ou les capacités d'un adhérent ou d'un disciple lorsque celui-ci ne pouvait les exercer lui-même (comparer DCG, article « Bank »).",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "(2) Then some have thought that Christ was here pointing to prayer as a substitute for good works, when the disciple was unable to do such. Such views seem far-fetched and unnecessary (compare Bruce, Parabolic Teaching of Christ, 209 f).",
+          "target": "(2) Puis certains ont pensé que le Christ désignait ici la prière comme substitut des bonnes œuvres, lorsque le disciple ne pouvait en accomplir. De telles opinions semblent recherchées et inutiles (comparer Bruce, Parabolic Teaching of Christ, 209 et suivant).",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "(3) The \"money-changers,\" then as now, had ever to be on guard against false money, which gives point to the oft-quoted extra-scriptural saying (agraphon) of Jesus to His disciples: \"Be ye expert money-changers\" (Greek ginesthai trapezitai dokimoi; see Origen, in Joam, XIX), which was taken (Clem., Hom.,. III, 61) to mean, \"Be skillful in distinguishing true doctrine from false\" (HDB, 1-vol).",
+          "target": "(3) Les « changeurs », alors comme aujourd'hui, devaient toujours être sur leurs gardes contre la fausse monnaie, ce qui donne tout son sens à la parole extrabiblique (agraphon) souvent citée de Jésus à ses disciples : « Soyez des changeurs experts » (grec ginesthai trapezitai dokimoi ; voir Origène, in Joam, XIX), que l'on comprenait (Clem., Hom., III, 61) comme signifiant : « Soyez habiles à distinguer la vraie doctrine de la fausse » (HDB, 1 volume).",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "George B. Eager",
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BANQUET",
+      "article_id": "isbe-f424d16957ee202930cb",
+      "source_article_sha256": "4433bfb6619adc083afa8c1a81f14f2ccda386e2060c76ea5ef440c070d4bbf8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANQUET",
+          "target": "BANQUET",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ban'-kwet.",
+          "target": "ban'-kwet.",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "1. The Ancient Hebrew Customs:",
+          "target": "1. Les anciennes coutumes hébraïques :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(1) \"Banquet\" and \"banqueting\" in the King James Version always include and stand for wine-drinking, not simply \"feast\" or \"feasting\" in our sense. Thus (",
+          "target": "(1) « Banquet » et « banqueting » dans la King James Version comprennent et désignent toujours le fait de boire du vin, et non simplement un « festin » ou le fait de festoyer au sens où nous l'entendons. Ainsi (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), \"He brought me to the banqueting-house\" is literally, \"the house of wine,\" and ",
+          "target": "), « Il m'a fait entrer dans la maison du banquet » est littéralement « la maison du vin », et ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " has in the Hebrew \"a banquet of wine.\" In the New Testament we see a reflection of the same fact in ",
+          "target": " porte en hébreu « un banquet de vin ». Dans le Nouveau Testament, nous voyons un reflet du même fait en ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " the King James Version, \"We walked in .... excess of wine, banquetings\" (Greek \"drinkings\"; the Revised Version (British and American) \"carousings\"). Compare ",
+          "target": " King James Version : « Nous avons marché dans… les excès de vin, les banquets » (grec « beuveries » ; Revised Version [britannique et américaine] : « carousings », orgies). Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " the King James Version, \"The banquet of them that stretched themselves,\" where the reference seems to be to reclining at wine-drinkings.",
+          "target": " King James Version : « Le banquet de ceux qui s'étendaient », où il semble être question du fait de s'étendre pour boire du vin.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "MEALS",
+          "target": "REPAS",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "The Hebrew of ",
+          "target": "L'hébreu de ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": ", \"make a banquet,\" may refer to a social feast of a less objectionable sort (compare ",
+          "target": ", « faire un banquet », peut désigner un festin de société d'une sorte moins répréhensible (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": " the King James Version), though the Hebrew for \"to drink\" yayin \"wine,\" was used as synonymous with \"banquet.\"",
+          "target": " King James Version), quoique l'hébreu pour « boire » yayin, « vin », fût employé comme synonyme de « banquet ».",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "SYMPOSIUM",
+          "target": "SYMPOSIUM",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "Music, dancing and merriment usually attended all such festivities. Certainly the ancient Hebrews, like other peoples of the ancient East, were very fond of social feasting, and in Christ's day had acquired, from contact with Greeks and Romans, luxurious and bibulous habits, that often carried them to excess in their social feasts.",
+          "target": "La musique, la danse et les réjouissances accompagnaient habituellement toutes ces festivités. Assurément les anciens Hébreux, comme d'autres peuples de l'Orient ancien, aimaient beaucoup les festins de société et, aux jours du Christ, avaient acquis, au contact des Grecs et des Romains, des habitudes luxueuses et portées à la boisson, qui les entraînaient souvent à des excès dans leurs festins de société.",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "2. In Christ's Teaching and Practice:",
+          "target": "2. Dans l'enseignement et la pratique du Christ :",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "Among the Greeks the word for \"feast\" (doche) is from dechomai \"to receive\" (compare our English usage, \"to receive\" and \"reception\"). This word doche is used with poiein \"to make,\" to signify \"to make\" or \"give a feast.\" Compare ",
+          "target": "Chez les Grecs, le mot signifiant « festin » (doche) dérive de dechomai, « recevoir » (comparer notre usage anglais, « to receive » et « reception »). Ce mot doche est employé avec poiein, « faire », pour signifier « faire » ou « donner un festin ». Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": " where Levi \"made a feast.\"",
+          "target": " où Lévi « fit un festin ».",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(1) In view of existing customs and abuses, Christ taught His followers when they gave a banquet to invite the poor, etc. (",
+          "target": "(1) En considération des coutumes et abus existants, le Christ enseigna à ses disciples, lorsqu'ils donnaient un banquet, à inviter les pauvres, etc. (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "), rather than, as the fashion of the day called for, to bid the rich and influential. Much in the New Testament that has to do with banquets and banquetings will be obscure to us of the West if we do not keep in mind the many marked differences of custom between the East and the West.",
+          "target": "), plutôt que d'inviter, comme l'exigeait la mode du jour, les riches et les influents. Beaucoup de choses dans le Nouveau Testament ayant trait aux banquets et aux festins nous resteront obscures, à nous Occidentaux, si nous ne gardons pas à l'esprit les nombreuses différences marquées de coutumes entre l'Orient et l'Occident.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "(2) \"Banquets\" were usually given in the house of the host to specially invited guests (",
+          "target": "(2) Les « banquets » étaient habituellement donnés dans la maison de l'hôte pour des invités spécialement conviés (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": "), but much more freedom was accorded to the uninvited than we of the West are accustomed to, as one finds to be true everywhere in the East today. The custom of reclining at meals (see ",
+          "target": "), mais une liberté bien plus grande était accordée aux personnes non invitées que celle à laquelle nous sommes habitués en Occident, comme on constate que c'est le cas partout en Orient aujourd'hui. La coutume de s'étendre pour les repas (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "MEALS; TRICLINIUM",
+          "target": "REPAS ; TRICLINIUM",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": ", etc.) was everywhere in vogue among the well-to-do in Christ's day, even in the case of the ordinary meals, the guest leaning upon the left arm and eating with the aid of the right (compare ",
+          "target": ", etc.) était partout en vogue chez les gens aisés aux jours du Christ, même dans le cas des repas ordinaires, le convive s'appuyant sur le bras gauche et mangeant à l'aide du droit (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "tail",
+          "source": " m \"reclining,\" and ",
+          "target": " en marge, « reclining », couché, et ",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": ", \"the Lord's supper\").",
+          "target": ", « la cène du Seigneur »).",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "(3) \"Banquets\" were considered normal parts of weddings as they are now throughout the East. Jesus and His disciples were bidden to one at Cana in Galilee, and accepted the invitation (",
+          "target": "(3) Les « banquets » étaient considérés comme des parties normales des noces, comme ils le sont maintenant dans tout l'Orient. Jésus et ses disciples furent invités à l'un d'entre eux à Cana en Galilée, et acceptèrent l'invitation (",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": " ff), and wine-drinking was a part of the feast. The \"banquet\" Levi gave was in Christ's honor (",
+          "target": " et suivants), et le fait de boire du vin faisait partie du festin. Le « banquet » donné par Lévi était en l'honneur du Christ (",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": "). There were numbers present and marked gradations in the places at table (",
+          "target": "). De nombreuses personnes étaient présentes et il y avait des degrés marqués dans les places à table (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": "). Guests were invited in advance, and then, as time-pieces were scarce, specially notified when the feast was ready, which helps to explain Christ's words (",
+          "target": "). Les convives étaient invités à l'avance, puis, comme les instruments de mesure du temps étaient rares, avertis spécialement lorsque le festin était prêt, ce qui aide à expliquer les paroles du Christ (",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "tail",
+          "source": "), \"All things are ready: come to the marriage\" (compare ",
+          "target": "), « Tout est prêt : venez aux noces » (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "(4) Matthew tells us (",
+          "target": "(4) Matthieu nous dit (",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": ") that the Pharisees \"love the chief place (\"uppermost rooms\" the King James Version) at feasts.\"",
+          "target": ") que les pharisiens « aiment la première place (“uppermost rooms” dans la King James Version) dans les festins ».",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "In ",
+          "target": "En ",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "tail",
+          "source": " \"made a marriage feast,\" is rendered by some simply \"a feast,\" because Greek gamos, \"marriage,\" was used by Septuagint to translate the Hebrew for \"feast\" in ",
+          "target": ", « fit un festin de noces » est rendu par certains simplement par « un festin », parce que le grec gamos, « mariage », fut employé par la Septante pour traduire l'hébreu signifiant « festin » en ",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": ". But, as this is the only known example of such a use compare gamos, it is better to take it here in the literal sense of \"marriage feast,\" as would seem to be required by the words \"for his son\" (Messiah). The Greek is plural (gamous) to indicate the several parts or stages of the feast (Button, 23; compare English \"nuptials\").",
+          "target": ". Mais, comme c'est le seul exemple connu d'un tel emploi, comparer gamos, il vaut mieux le prendre ici dans le sens littéral de « festin de noces », comme sembleraient l'exiger les mots « pour son fils » (le Messie). Le grec est au pluriel (gamous) pour indiquer les diverses parties ou étapes du festin (Button, 23 ; comparer l'anglais « nuptials »).",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "wine was provided, superintend the drinking, etc. (compare ",
+          "target": " le vin était fourni, surveiller la consommation de boisson, etc. (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "3. A Distinction Giving Rise to a Question:",
+          "target": "3. Une distinction qui donne lieu à une question :",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "(1) In ",
+          "target": "(1) En ",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": ", \"I have made ready my dinner,\" \"dinner\" in Greek is ariston (compare ",
+          "target": ", « J'ai préparé mon dîner », « dîner » est en grec ariston (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "tail",
+          "source": "). \"Supper\" (Greek deipnon) is found in ",
+          "target": "). « Souper » (grec deipnon) se trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "tail",
+          "source": " and often in the New Testament. Both words are found in ",
+          "target": " et souvent dans le Nouveau Testament. Les deux mots se trouvent en ",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": ". The question arises, What was the distinction? Thus much may be said in answer: The ariston (English Versions \"dinner\") was a meal usually taken about the middle of the forenoon, with variations of earlier or later; the deipnon (English Versions \"supper\"), the one taken at the close of the day, often after dark. In Ant, V, iv, 2 Josephus supposes Eglon's guards (",
+          "target": ". La question se pose : quelle était la distinction ? On peut dire ceci en réponse : l'ariston (versions anglaises : « dinner », dîner) était un repas habituellement pris vers le milieu de la matinée, avec des variations le faisant prendre plus tôt ou plus tard ; le deipnon (versions anglaises : « supper », souper), celui que l'on prenait à la fin de la journée, souvent après la tombée de la nuit. Dans Ant., V, iv, 2, Josèphe suppose que les gardes d'Églon (",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "tail",
+          "source": ") were negligent about noon, \"both because of the heat and because their attention was turned to dinner\" (ariston). So the \"dinner\" (ariston) was sometimes as late as noon. Yet ",
+          "target": ") étaient négligents vers midi, « tant à cause de la chaleur que parce que leur attention était tournée vers le dîner » (ariston). Ainsi le « dîner » (ariston) était-il parfois pris aussi tard qu'à midi. Pourtant ",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "tail",
+          "source": " shows, on the other hand, that the ariston was on some occasions taken shortly after dawn.",
+          "target": " montre, d'autre part, que l'ariston était à certaines occasions pris peu après l'aube.",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "(2) Another question raised is this, Were the ancient Jews accustomed to have two or three meals a day? Vambery, quoted by Morison, gives a saying of the Turks that is in point: \"There are only two meals a day, the smaller at 10 or 11 o'clock in the morning, the second and larger after sunset.\" There seems no evidence to sustain the view, maintained by Grimm and entertained by others, that the Jews of Christ's day were accustomed to take a separate and slight meal on rising, as the later Greeks and some of the later Romans did. There is certainly no clear evidence that the Jews of that day had more than two meals a day (see DB, article \"Meals\").",
+          "target": "(2) Une autre question soulevée est celle-ci : les anciens Juifs avaient-ils coutume de prendre deux ou trois repas par jour ? Vambery, cité par Morison, donne un dicton des Turcs qui est pertinent : « Il n'y a que deux repas par jour, le plus petit à 10 ou 11 heures du matin, le second et plus important après le coucher du soleil. » Il ne semble y avoir aucune preuve à l'appui de l'opinion, soutenue par Grimm et adoptée par d'autres, que les Juifs du temps du Christ avaient coutume de prendre au lever un repas séparé et léger, comme le faisaient les Grecs des temps ultérieurs et certains des Romains des temps ultérieurs. Il n'y a certainement aucune preuve claire que les Juifs de ce temps prenaient plus de deux repas par jour (voir DB, article « Meals »).",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "(3) The marriage feast of ",
+          "target": "(3) Le festin de noces de ",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": " f was an ariston, somewhat like an English \"wedding-breakfast\"; but that in ",
+          "target": " et suivant était un ariston, quelque peu semblable à un « déjeuner de noces » anglais ; mais celui de ",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "tail",
+          "source": " f was a deipnon, which was as usual delayed till after dark (",
+          "target": " et suivant était un deipnon, qui, comme d'habitude, était retardé jusqu'à la tombée de la nuit (",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "tail",
+          "source": "). Perhaps the ariston in this case was preliminary, while the marriage with its accompanying deipnon was after dark; such things are not unheard of today (compare ",
+          "target": "). Peut-être l'ariston dans ce cas était-il préliminaire, tandis que le mariage avec son deipnon d'accompagnement avait lieu après la tombée de la nuit ; de telles choses ne sont pas inconnues aujourd'hui (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "tail",
+          "source": ", \"the Lord's deipnon\").",
+          "target": ", « le deipnon du Seigneur »).",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "George B. Eager",
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

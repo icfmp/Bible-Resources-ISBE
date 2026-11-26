@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "907_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "923_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 907,
-    "complete_first_drafts": 909,
-    "remaining_undrafted": 91
+    "new_complete_drafts_on_branch": 923,
+    "complete_first_drafts": 925,
+    "remaining_undrafted": 75
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1952
+    "complete_first_drafts_across_main_and_current_branch": 1968
   },
   "source_queue": {
     "rounds_completed": [
@@ -47,23 +47,23 @@
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-008",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-009"
     ],
-    "checks": "Rounds 001–009 completed. Prior 16,891-word cohort passed incremental CI. Current four-article cohort covers round 010 lines 4–7; all canonical manuscript and batch identities and source slot counts checked. Incremental CI pending.",
+    "checks": "Rounds 001–009 completed. Prior 18,754-word cohort passed incremental CI. Current 16-article cohort covers round 010 lines 8–23; all canonical manuscript and batch identities, exact source slot content and counts verified. Incremental CI pending.",
     "partial_round": {
       "round": "round-010",
-      "completed_articles": 7,
+      "completed_articles": 23,
       "total_articles": 98,
       "completed_source_line_range": [
         1,
-        7
+        23
       ],
       "remaining_source_line_range": [
-        8,
+        24,
         98
       ],
-      "source_mutable_units": 645,
-      "source_blocks": 543,
-      "protected_keep_markers": 117,
-      "source_words_whitespace_count": 22744
+      "source_mutable_units": 1578,
+      "source_blocks": 1047,
+      "protected_keep_markers": 773,
+      "source_words_whitespace_count": 58474
     }
   },
   "batch_files": [
@@ -143,7 +143,16 @@
     "0236-wave02-round010-first3.json",
     "0237-wave02-round010-babylon2.json",
     "0238-wave02-round010-tower-nt.json",
-    "0239-wave02-round010-babylonia.json"
+    "0239-wave02-round010-babylonia.json",
+    "0240-wave02-round010-babylonia-religion.json",
+    "0241-wave02-round010-bag-balaam-balance.json",
+    "0242-wave02-round010-band-bank-banquet.json",
+    "0243-wave02-round010-lutheran-baptism.json",
+    "0244-wave02-round010-nonimmersionist-baptism.json",
+    "0245-wave02-round010-baptist-baptism.json",
+    "0246-wave02-round010-baptism-dead-spirit.json",
+    "0247-wave02-round010-baptismal-regeneration.json",
+    "0248-wave02-round010-barber-barefoot-barnabas.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -590,36 +599,106 @@
       "key": "BABYLONIA",
       "kind": "source_witness",
       "detail": "All historical chronologies and dynastic reign lengths retained without modern harmonization, including 604–568 for Nebuchadrezzar II; source claims are historical scholarship, not editorial corrections."
+    },
+    {
+      "key": "BABYLONIA AND ASSYRIA, RELIGION OF",
+      "kind": "source_witness",
+      "detail": "Historical chronology and competing planetary identifications (Ninib and Nergal) preserved; unusual names Ann, Urn, Nanbar and Kaitaann retained. Historic comparative-religion claims and theological assertions are those of the author, not harmonized."
+    },
+    {
+      "key": "BABYLONIA AND ASSYRIA, RELIGION OF",
+      "kind": "source_witness",
+      "detail": "The malformed 'close shifting' was interpreted as 'close sifting' in French; check the printed witness. Existing inline hymn markers, line numbers and deity lists retained."
+    },
+    {
+      "key": "BAG",
+      "kind": "source_witness",
+      "detail": "Malformed 'bag holes' and 'and with' retained in the draft; verify printed witness."
+    },
+    {
+      "key": "BALAAM",
+      "kind": "source_witness",
+      "detail": "Abbreviated 'Jeh' interpreted as Jehovah. Author's account of the speaking ass and prophecy preserved without doctrinal adjustment."
+    },
+    {
+      "key": "BANK; BANKING",
+      "kind": "source_witness",
+      "detail": "Source phrase 'coins pried in slender pillars' interpreted as coins arranged in stacks; verify printed witness."
+    },
+    {
+      "key": "BANQUET",
+      "kind": "source_witness",
+      "detail": "Detached fragment 'wine was provided, superintend the drinking, etc.' retained at its original position, without inventing missing context."
+    },
+    {
+      "key": "BAPTISM (LUTHERAN DOCTRINE)",
+      "kind": "source_witness",
+      "detail": "Corrupt 'instead lent terms of baptisma' rendered according to its apparent sense; stray @@ and numbering retained. Historical textual-critical assertions and Lutheran sacramental position preserved as author's views."
+    },
+    {
+      "key": "BAPTISM (NON-IMMERSIONIST VIEW)",
+      "kind": "source_witness",
+      "detail": "Stray '16:16' in 'Holy 16:16; Spirit' retained in the same position; check source. Claims about early baptismal practice and Theckla preserved without harmonization."
+    },
+    {
+      "key": "BAPTISM (THE BAPTIST INTERPRETATION)",
+      "kind": "source_witness",
+      "detail": "Historical references and quotations retained; malformed 'exception filed' rendered contextually as 'exception formulated'. Bibliographic spelling Binghara retained."
+    },
+    {
+      "key": "BAPTISM FOR THE DEAD",
+      "kind": "source_witness",
+      "detail": "Leading underscore in heading and opus operarum retained. Author's controversial assessment of Pauline limitations preserved; no doctrinal revision."
+    },
+    {
+      "key": "BAPTISM OF THE HOLY SPIRIT",
+      "kind": "source_witness",
+      "detail": "Source 'Joe' interpreted as Joel on the basis of the adjacent explicit reference to Joel. The phrase 'word of the Spirit' and author's historical interpretation of the gift preserved."
+    },
+    {
+      "key": "BAPTISMAL REGENERATION",
+      "kind": "source_witness",
+      "detail": "Duplicated words in 'His of atoning sacrifice' and synonymous 'quickening, or vivification' rendered in French without duplication; check witness and ensure the latter is represented explicitly at editorial review. Three confessional positions preserved; stray numeral and unusual Latin forms retained."
+    },
+    {
+      "key": "BAREFOOT",
+      "kind": "source_witness",
+      "detail": "Source 'discomfort or going barefoot' interpreted as discomfort of going barefoot. Historic accounts of Jewish and Muslim practice retained as the author's period descriptions."
+    },
+    {
+      "key": "BARNABAS",
+      "kind": "source_witness",
+      "detail": "Source statement placing violence against Paul at Iconium and claim of Paul proceeding alone on second journey preserved; verify historical and textual witness, no silent correction."
     }
   ],
-  "next_action": "Resume staged round-010 SOURCE.jsonl line 8 via GitHub contents endpoint. Use consecutive whole-article cohorts not exceeding 25000 editable English words. No source staging required. Verify incremental CI; at ticket completion update FULL_VALIDATION.json. No editorial approvals or translation PR.",
-  "previous_translation_commit": "3c36af6490cb1b4e9c1b0e1123a306029519d6e0",
-  "last_translation_tree": "e0ffdd8bef22da6d444d38764ae7406ef44a9a57",
+  "next_action": "Resume staged round-010 SOURCE.jsonl line 24 via GitHub contents endpoint. Use consecutive whole-article cohorts not exceeding 40000 editable English words unless a new limit is authorized. No source staging required. Verify incremental CI; at ticket completion update FULL_VALIDATION.json. No editorial approvals or translation PR.",
+  "previous_translation_commit": "addeebec53347c86e531708a47591028cbbcc403",
+  "last_translation_tree": "3e61c4e0cf18497fdfd337bf3650be83655aa3be",
   "last_cohort_completion": {
     "kind": "word_budget_cohort",
     "source_line_ranges": [
       {
         "round": "round-010",
         "range": [
-          4,
-          7
+          8,
+          23
         ]
       }
     ],
-    "new_articles": 4,
-    "source_words_whitespace_count": 18754,
-    "word_limit": 25000,
-    "next_article": "BABYLONIA AND ASSYRIA, RELIGION OF",
-    "next_article_words": 7886,
-    "words_if_included": 26640,
-    "source_mutable_units": 511,
-    "source_blocks": 471,
-    "protected_keep_markers": 43,
-    "validation": "Ordered slot counts and canonical manuscript and batch IDs verified; incremental CI pending",
+    "new_articles": 16,
+    "source_words_whitespace_count": 35730,
+    "word_limit": 40000,
+    "next_article": "BARUCH, BOOK OF",
+    "next_article_words": 4388,
+    "words_if_included": 40118,
+    "source_mutable_units": 933,
+    "source_blocks": 504,
+    "protected_keep_markers": 656,
+    "validation": "Exact ordered source slots, canonical manuscript and batch IDs verified; incremental CI pending",
     "editorial_approvals": 0
   },
   "cohort_policy": {
-    "source_word_limit": 25000,
+    "source_word_limit": 40000,
     "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
     "selection": "Consecutive complete articles from staged queues; stop before the next article exceeds the limit, no skipping or splitting",
     "oversized_single_article": "Standalone cohort",

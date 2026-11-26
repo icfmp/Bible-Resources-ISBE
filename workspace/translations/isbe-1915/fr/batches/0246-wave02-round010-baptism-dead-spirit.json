@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BAPTISM FOR THE DEAD",
+      "article_id": "isbe-ba59d3050f1af6bdede6",
+      "source_article_sha256": "f37e65b209d74df1b4d74f5cd6bc4e62b4889d58078aa32f56a2501eff93fe10",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAPTISM FOR THE DEAD",
+          "target": "BAPTÊME POUR LES MORTS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "(baptizomai huper ton nekron).",
+          "target": "(baptizomai huper ton nekron).",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "_1. Paul's Argument:",
+          "target": "_1. L'argument de Paul :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Some of the Corinthian Christians denied the resurrection of the dead, and Paul advances three arguments to convince them that the dead will be raised:",
+          "target": "Certains chrétiens de Corinthe niaient la résurrection des morts, et Paul avance trois arguments pour les convaincre que les morts ressusciteront :",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(1) \"If there is no resurrection of the dead, neither hath Christ been raised,\" but Christ is raised (",
+          "target": "(1) « S'il n'y a pas de résurrection des morts, le Christ non plus n'a pas été ressuscité », mais le Christ est ressuscité (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(2) If the dead are not raised, why are men being baptized for the dead (",
+          "target": "(2) Si les morts ne ressuscitent pas, pourquoi des hommes se font-ils baptiser pour les morts (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(3) Why should the apostle himself wage his spiritual warfare (",
+          "target": "(3) Pourquoi l'apôtre lui-même mènerait-il son combat spirituel (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": ")? The first argument rests upon the central fact of Christianity, and the other two are appeals to the consistency of the Corinthians, and of Paul himself. Whatever \"baptism for the dead\" meant, it was, in Paul's opinion, as real, valid and legitimate a premise from which to conclude that the dead would rise as his own sufferings. The natural meaning of the words is obvious. Men in Corinth, and possibly elsewhere, were being continually baptized on behalf of others who were at the time dead, with a view to benefiting them in the resurrection, but if there be no resurrection, what shall they thus accomplish, and why do they do it? \"The only legitimate reference is to a practice .... of survivors allowing themselves to be baptized on behalf of (believing?) friends who had died without baptism\" (Alford in the place cited.).",
+          "target": ") ? Le premier argument repose sur le fait central du christianisme, et les deux autres font appel à la cohérence des Corinthiens et de Paul lui-même. Quel que fût le sens du « baptême pour les morts », c'était, de l'avis de Paul, une prémisse aussi réelle, valide et légitime que ses propres souffrances pour conclure que les morts ressusciteraient. Le sens naturel des paroles est évident. À Corinthe, et peut-être ailleurs, des hommes se faisaient continuellement baptiser en faveur d'autres personnes qui étaient alors mortes, en vue de leur procurer un bienfait lors de la résurrection ; mais s'il n'y a pas de résurrection, qu'accompliront-ils ainsi, et pourquoi le font-ils ? « La seule référence légitime est à une pratique… de survivants se laissant baptiser en faveur d'amis (croyants ?) qui étaient morts sans baptême » (Alford au passage cité).",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "2. Patristic Evidence:",
+          "target": "2. Témoignages patristiques :",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "Tertullian believed that Paul referred to a custom of vicarious baptism (Res., 48c; Adv. Marc., 5.10). There is evidence that the early church knew such a practice. Epiphanius mentions a tradition that the custom obtained among the Cerinthians (Haer., 28 6). And Chrysostom states that it prevailed among the Marcionites.",
+          "target": "Tertullien croyait que Paul faisait allusion à une coutume de baptême par substitution (Res., 48c ; Adv. Marc., 5.10). Il existe des preuves que l'Église primitive connaissait une telle pratique. Épiphane mentionne une tradition selon laquelle la coutume existait chez les cérinthiens (Haer., 28 6). Et Chrysostome déclare qu'elle prévalait chez les marcionites.",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "3. Modern Views:",
+          "target": "3. Opinions modernes :",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "But commentators have offered between thirty and forty other interpretations, more or less strained, of the passage. (For a summary of different views see T. C. Edwards and Stanley, Comms., at the place) Two of the most reasonable views from recent commentators are: \"What shall they do who receive baptism on account of the dead? i.e. with a view to the resurrection of the dead?\" and therefore to sharing in it themselves (Canon Evans, Speaker's Comm., at the place); \"that the death of Christians led to the conversion of survivors, who in the first instance `for the sake of the dead' (their beloved dead), and in the hope of reunion, turn to Christ\" (Findlay, Expositor's Greek Test., at the place). Both ideas may be true, but they are simply imported into this passage, and the latter also is quite irrelevant to the argument and makes Paul identify conversion with baptism.",
+          "target": "Mais les commentateurs ont proposé entre trente et quarante autres interprétations, plus ou moins forcées, du passage. (Pour un résumé des différentes opinions, voir T. C. Edwards et Stanley, Comms., au passage concerné.) Deux des opinions les plus raisonnables des commentateurs récents sont : « Que feront ceux qui reçoivent le baptême à cause des morts ? c'est-à-dire en vue de la résurrection des morts ? » et donc en vue d'y participer eux-mêmes (le chanoine Evans, Speaker's Comm., au passage concerné) ; « que la mort de chrétiens amena la conversion de survivants, qui en premier lieu “à cause des morts” (leurs morts bien-aimés), et dans l'espoir de les retrouver, se tournent vers le Christ » (Findlay, Expositor's Greek Test., au passage concerné). Les deux idées peuvent être vraies, mais elles sont simplement introduites dans ce passage, et la dernière est aussi tout à fait étrangère à l'argument et fait identifier par Paul la conversion au baptême.",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "4. The Difficulty:",
+          "target": "4. La difficulté :",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "But why is all this ingenuity expended to evade the natural meaning? Because",
+          "target": "Mais pourquoi déployer toute cette ingéniosité pour éluder le sens naturel ? Parce que",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "(1) such a custom would be a superstition involving the principle of opus operarum; and",
+          "target": "(1) une telle coutume serait une superstition impliquant le principe de l'opus operarum ; et",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "(2) Paul could not share or even tolerate a contemporary idea which is now regarded as superstition.",
+          "target": "(2) Paul ne pouvait partager ni même tolérer une idée contemporaine qui est maintenant considérée comme une superstition.",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "To reply (with Alford) that Paul does not approve the custom will not serve the purpose, for he would scarcely base so great an argument, even as an argumentum ad hominem, on a practice which he regarded as wholly false and superstitious. The retort of those who denied the resurrection would be too obvious. But why should it be necessary to suppose that Paul rose above all the limitations of his age? The idea that symbolic acts had a vicarious significance had sunk deeply into the Jewish mind, and it would not be surprising if it took more than twenty years for the leaven of the gospel to work all the Jew out of Paul. At least it serves the apostle's credit ill to make his argument meaningless or absurd in order to save him from sharing at all in the inadequate conceptions of his age. He made for himself no claim of infallibility.",
+          "target": "Répondre (avec Alford) que Paul n'approuve pas la coutume ne répondra pas au but recherché, car il ne fonderait guère un argument si important, même comme argumentum ad hominem, sur une pratique qu'il considérait comme entièrement fausse et superstitieuse. La réplique de ceux qui niaient la résurrection serait trop évidente. Mais pourquoi serait-il nécessaire de supposer que Paul s'élevait au-dessus de toutes les limitations de son époque ? L'idée que les actes symboliques avaient une signification par substitution avait profondément pénétré l'esprit juif, et il ne serait pas surprenant qu'il eût fallu plus de vingt ans pour que le levain de l'Évangile fasse disparaître de Paul tout ce qui était juif. Du moins rend-on un mauvais service au crédit de l'apôtre en rendant son argument dépourvu de sens ou absurde afin de le préserver de toute participation aux conceptions inadéquates de son époque. Il ne prétendait pour lui-même à aucune infaillibilité.",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "T. Rees",
+          "target": "T. Rees",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BAPTISM OF THE HOLY SPIRIT",
+      "article_id": "isbe-8b49ea746feb4e476308",
+      "source_article_sha256": "f8ff599ee664533ba851d538be4ee8ad694fbc0736b3948e3ac6952fc4d4c530",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAPTISM OF THE HOLY SPIRIT",
+          "target": "BAPTÊME DU SAINT-ESPRIT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "1. The Biblical Material:",
+          "target": "1. Les données bibliques :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "The expression \"baptism of the Holy Spirit\" is based on a number of predictions found in our four Gospels and in connection with these the record of their fulfillment in the Book of Acts. The passages in the Gospels are as follows: ",
+          "target": "L'expression « baptême du Saint-Esprit » est fondée sur un certain nombre de prédictions que l'on trouve dans nos quatre Évangiles et, en rapport avec celles-ci, sur le récit de leur accomplissement dans le livre des Actes. Les passages des Évangiles sont les suivants : ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ": \"I indeed baptize you in water unto repentance: but he that cometh after me is mightier than I, whose shoes I am not worthy to bear: he shall baptize you in the Holy Spirit and in fire.\" The last clause is autos humas baptisei en pneumati hagio kai puri. In ",
+          "target": ": « Moi, je vous baptise dans l'eau en vue de la repentance ; mais celui qui vient après moi est plus puissant que moi, et je ne suis pas digne de porter ses chaussures ; lui, il vous baptisera dans le Saint-Esprit et dans le feu. » La dernière proposition est autos humas baptisei en pneumati hagio kai puri. En ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " we have the declaration in a slightly modified form; and in ",
+          "target": " nous avons la déclaration sous une forme légèrement modifiée ; et en ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " John the Baptist declares that the descent of the Spirit upon Jesus at the baptism of the latter marked out Jesus as \"he that baptizeth in the Holy Spirit.\" Again in ",
+          "target": " Jean-Baptiste déclare que la descente de l'Esprit sur Jésus lors du baptême de ce dernier désignait Jésus comme « celui qui baptise dans le Saint-Esprit ». De nouveau, en ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": " we read: \"Now on the last day, the great day of the feast, Jesus stood and cried, saying, If any man thirst, let him come unto me and drink. He that believeth on me, as the scripture hath said, from within him shall flow rivers of living water.\" Then the evangelist adds in ",
+          "target": " nous lisons : « Or, le dernier jour, le grand jour de la fête, Jésus se tint debout et cria, disant : Si quelqu'un a soif, qu'il vienne à moi et qu'il boive. Celui qui croit en moi, comme l'a dit l'Écriture, de son sein couleront des fleuves d'eau vive. » Puis l'évangéliste ajoute en ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ": \"But this spake he of the Spirit, which they that believed on him were to receive: for the Spirit was not yet given; because Jesus was not yet glorified.\" These are the specific references in the four Gospels to the baptisms of the Holy Spirit. In Ac we find direct reference by Luke to the promised baptism in the Holy Spirit. In ",
+          "target": ": « Mais il disait cela de l'Esprit que devaient recevoir ceux qui croiraient en lui ; car l'Esprit n'était pas encore donné, parce que Jésus n'était pas encore glorifié. » Ce sont là les mentions précises, dans les quatre Évangiles, des baptêmes du Saint-Esprit. Dans les Actes, nous trouvons une allusion directe de Luc au baptême promis dans le Saint-Esprit. En ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": " Jesus, just before the ascension, contrasts John's baptism in water with the baptism in the Holy Spirit which the disciples are to receive \"not many days hence,\" and in ",
+          "target": ", Jésus, juste avant l'ascension, oppose le baptême de Jean dans l'eau au baptême dans le Saint-Esprit que les disciples doivent recevoir « dans peu de jours », et en ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": " power in witnessing for Jesus is predicted as the result of the baptism in the Holy Spirit. On the evening of the resurrection day Jesus appeared to the disciples and \"he breathed on them, and saith unto them, Receive ye the Holy Spirit\" (",
+          "target": " la puissance de témoigner pour Jésus est prédite comme résultat du baptême dans le Saint-Esprit. Le soir du jour de la résurrection, Jésus apparut aux disciples et « souffla sur eux, et leur dit : Recevez le Saint-Esprit » (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "). This was probably not a wholly symbolic act but an actual communication to the disciples, in some measure, of the gift of the Spirit, preliminary to the later complete bestowal.",
+          "target": "). Ce n'était probablement pas un acte entièrement symbolique, mais une communication effective aux disciples, dans une certaine mesure, du don de l'Esprit, préliminaire à son octroi complet ultérieur.",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "We observe next the fulfillment of these predictions as recorded in Acts. The gift of the Holy Spirit on the Day of Pentecost and the miraculous manifestations which followed are clearly the chief historical fulfillment of the prediction of the baptism of the Holy Spirit. Among the manifestations of the coming of the Spirit at Pentecost were first those which were physical, such as \"a sound as of the rushing of a mighty wind, and it filled all the house where they were sitting\" (",
+          "target": "Nous observons ensuite l'accomplissement de ces prédictions tel qu'il est rapporté dans les Actes. Le don du Saint-Esprit le jour de la Pentecôte et les manifestations miraculeuses qui suivirent constituent clairement le principal accomplissement historique de la prédiction du baptême du Saint-Esprit. Parmi les manifestations de la venue de l'Esprit à la Pentecôte, il y eut d'abord celles qui étaient physiques, telles qu'« un bruit comme celui d'un vent impétueux, et il remplit toute la maison où ils étaient assis » (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": "), and the appearance of \"tongues parting asunder, like as of fire; and it sat upon each one of them\" (",
+          "target": "), et l'apparition de « langues qui se partageaient, comme de feu ; et il s'en posa sur chacun d'eux » (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "). Secondly, there were spiritual results: \"And they were all filled with the Holy Spirit, and began to speak with other tongues, as the Spirit gave them utterance\" (",
+          "target": "). En second lieu, il y eut des résultats spirituels : « Et ils furent tous remplis du Saint-Esprit et commencèrent à parler en d'autres langues, selon que l'Esprit leur donnait de s'exprimer » (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": " ff Peter declares that this bestowment of the Holy Spirit is in fulfillment of the prediction made by the prophet Joe and he cites the words in ",
+          "target": " et suivants, Pierre déclare que ce don du Saint-Esprit accomplit la prédiction faite par le prophète Joël et cite les paroles de ",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": " ff of Joel's prophecy.",
+          "target": " et suivants de la prophétie de Joël.",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "There is one other important passage in Acts in which reference is made to the baptism of the Holy Spirit. While Peter was speaking to Cornelius (",
+          "target": "Il y a un autre passage important dans les Actes où il est fait allusion au baptême du Saint-Esprit. Tandis que Pierre parlait à Corneille (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": ") the Holy Spirit fell on all that heard the word and they of the circumcision who were with Peter \"were amazed\" \"because that on the Gentiles also was poured out the gift of the Holy Spirit.\" When giving the brethren at Jerusalem an account of his visit to Cornelius, Peter declares that this event which he had witnessed was a baptism of the Holy Spirit (",
+          "target": ") le Saint-Esprit descendit sur tous ceux qui entendaient la parole, et ceux de la circoncision qui étaient avec Pierre « furent étonnés » « de ce que le don du Saint-Esprit était répandu aussi sur les Gentils ». En rendant compte aux frères de Jérusalem de sa visite à Corneille, Pierre déclare que cet événement dont il avait été témoin était un baptême du Saint-Esprit (",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": "): \"And I remembered the word of the Lord, how he said, John indeed baptized with water; but ye shall be baptized in the Holy Spirit.\"",
+          "target": ") : « Et je me souvins de la parole du Seigneur, comment il avait dit : Jean a baptisé d'eau ; mais vous serez baptisés dans le Saint-Esprit. »",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "2. Significance of Baptism of the Holy Spirit:",
+          "target": "2. Signification du baptême du Saint-Esprit :",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "We consider next the significance of the baptism of the Holy Spirit from various points of view.",
+          "target": "Nous examinerons ensuite la signification du baptême du Saint-Esprit sous divers points de vue.",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "(1) From the Point of View of Old Testament Teaching as to the Gift of the Spirit.",
+          "target": "(1) Du point de vue de l'enseignement de l'Ancien Testament quant au don de l'Esprit.",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "The prophecy of Joe quoted by Peter indicates something extraordinary in the gift of the Spirit at Pentecost. The Spirit now comes in new forms of manifestation and with new power. The various classes mentioned as receiving the Spirit indicate the wide diffusion of the new power. In the Old Testament usually the Spirit was bestowed upon individuals; here the gift is to the group of disciples, the church. Here the gift is permanently bestowed, while in the Old Testament it was usually transient and for a special purpose. Here again the Spirit comes in fullness as contrasted with the partial bestowment in Old Testament times.",
+          "target": "La prophétie de Joël citée par Pierre indique quelque chose d'extraordinaire dans le don de l'Esprit à la Pentecôte. L'Esprit vient maintenant sous de nouvelles formes de manifestation et avec une puissance nouvelle. Les diverses catégories mentionnées comme recevant l'Esprit indiquent la large diffusion de la nouvelle puissance. Dans l'Ancien Testament, l'Esprit était ordinairement accordé à des individus ; ici, le don est fait au groupe de disciples, l'Église. Ici, le don est accordé de manière permanente, tandis que dans l'Ancien Testament il était ordinairement transitoire et dans un but particulier. Ici encore, l'Esprit vient en plénitude par opposition à l'octroi partiel aux temps de l'Ancien Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "(2) From the Point of View of the Ascended Christ.",
+          "target": "(2) Du point de vue du Christ élevé au ciel.",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "In ",
+          "target": "En ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": " Jesus commands the disciples to tarry in the city \"until ye be clothed with power from on high,\" and in ",
+          "target": " Jésus ordonne aux disciples de demeurer dans la ville « jusqu'à ce que vous soyez revêtus de la puissance d'en haut », et en ",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": " He speaks of the Comforter \"whom I will send unto you from the Father,\" \"he shall bear witness of me\"; and in ",
+          "target": " il parle du Consolateur « que je vous enverrai de la part du Père », « il rendra témoignage de moi » ; et en ",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": " Jesus declares that the Spirit when He comes shall guide the disciples into all truth, and He shall show them things to come. In this verse the Spirit is called the Spirit of truth. It was fitting that the Spirit who was to interpret truth and guide into all truth should come in fullness after, rather than before, the completion of the life-task of the Messiah. The historical manifestation of Divine truth as thus completed made necessary the gift of the Spirit in fullness. Christ Himself was the giver of the Spirit. The Spirit now takes the place of the ascended Christ, or rather takes the things of Christ and shows them to the disciples. The baptism of the Spirit at Pentecost thus becomes the great historic event signalizing the beginning of a new era in the kingdom of God in which the whole movement is lifted to the spiritual plane, and the task of evangelizing the world is formally begun.",
+          "target": " Jésus déclare que l'Esprit, lorsqu'il viendra, conduira les disciples dans toute la vérité et leur annoncera les choses à venir. Dans ce verset, l'Esprit est appelé l'Esprit de vérité. Il convenait que l'Esprit, qui devait interpréter la vérité et conduire dans toute la vérité, vînt en plénitude après, plutôt qu'avant, l'achèvement de la tâche de la vie du Messie. La manifestation historique de la vérité divine, ainsi achevée, rendait nécessaire le don de l'Esprit en plénitude. Le Christ lui-même était celui qui donnait l'Esprit. L'Esprit prend maintenant la place du Christ élevé au ciel, ou plutôt prend les choses du Christ et les montre aux disciples. Le baptême de l'Esprit à la Pentecôte devient ainsi le grand événement historique marquant le commencement d'une nouvelle ère dans le royaume de Dieu, où tout le mouvement est élevé sur le plan spirituel et où la tâche d'évangélisation du monde est formellement commencée.",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "(3) The Significance of the Baptism of the Spirit from the Point of View of the Disciples.",
+          "target": "(3) La signification du baptême de l'Esprit du point de vue des disciples.",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "It can scarcely be said with truth that Pentecost was the birthday of the church. Jesus had spoken of His church during His earthly ministry. The spiritual relation to Christ which constitutes the basis of the church existed prior to the baptism of the Holy Spirit. But that baptism established the church in several ways. First in unity. The external bond of unity now gives place to an inner spiritual bond of profound significance. Secondly, the church now becomes conscious of a spiritual mission, and theocratic ideals of the kingdom disappear. Thirdly, the church is now endued with power for its work. Among the gifts bestowed were the gift of prophecy in the large sense of speaking for God, and the gift of tongues which enabled disciples to speak in foreign tongues. The account in the second chapter of Ac admits of no other construction. There was also bestowed power in witnessing for Christ. This was indeed one of the most prominent blessings named in connection with the promise of the baptism of the Spirit. The power of working miracles was also bestowed (",
+          "target": "On ne peut guère dire avec vérité que la Pentecôte fut le jour de naissance de l'Église. Jésus avait parlé de son Église durant son ministère terrestre. La relation spirituelle avec le Christ qui constitue le fondement de l'Église existait avant le baptême du Saint-Esprit. Mais ce baptême établit l'Église de plusieurs manières. Premièrement, dans l'unité. Le lien extérieur d'unité fait maintenant place à un lien spirituel intérieur d'une profonde signification. Deuxièmement, l'Église prend maintenant conscience d'une mission spirituelle, et les idéaux théocratiques du royaume disparaissent. Troisièmement, l'Église est maintenant revêtue de puissance pour son œuvre. Parmi les dons accordés figuraient le don de prophétie au sens large de parler pour Dieu, et le don des langues qui permettait aux disciples de parler en langues étrangères. Le récit du deuxième chapitre des Actes n'admet aucune autre interprétation. Il fut également accordé une puissance pour rendre témoignage au Christ. C'était en vérité l'une des bénédictions les plus éminentes nommées en rapport avec la promesse du baptême de l'Esprit. La puissance d'opérer des miracles fut également accordée (",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "tail",
+          "source": " ff). Later in the epistles of Paul much emphasis is given to the Spirit as the sanctifying agency in the hearts of believers. In Ac the word of the Spirit is chiefly Messianic, that is, the Spirit's activity is all seen in relation to the extension of the Messianic kingdom. The occasion for the outpouring of the Spirit is Pentecost when men from all nations are assembled in Jerusalem. The symbolic representation of tongues of fire is suggestive of preaching, and the glossolalia, or speaking with tongues which followed, so that men of various nations heard the gospel in their own languages, indicates that the baptism of the Spirit had a very special relation to the task of world-wide evangelization for the bringing in of the kingdom of God.",
+          "target": " et suivants). Plus tard, dans les épîtres de Paul, une grande importance est donnée à l'Esprit comme agent sanctificateur dans le cœur des croyants. Dans les Actes, la parole de l'Esprit est principalement messianique, c'est-à-dire que toute l'activité de l'Esprit est envisagée en relation avec l'extension du royaume messianique. L'occasion de l'effusion de l'Esprit est la Pentecôte, lorsque des hommes de toutes les nations sont assemblés à Jérusalem. La représentation symbolique des langues de feu évoque la prédication, et la glossolalie, ou parler en langues, qui suivit, de sorte que des hommes de diverses nations entendirent l'Évangile dans leurs propres langues, indique que le baptême de l'Esprit avait un rapport tout particulier avec la tâche d'évangélisation du monde entier en vue de l'établissement du royaume de Dieu.",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "3. Finality of the Baptism of the Holy Spirit:",
+          "target": "3. Caractère définitif du baptême du Saint-Esprit :",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "The question is often raised whether or not the baptism of the Holy Spirit occurred once for all or is repeated in subsequent baptisms. The evidence seems to point to the former view to the extent at least of being limited to outpourings which took place in connection with events recorded in the early chapters of the Book of Acts. The following considerations favor this view:",
+          "target": "On soulève souvent la question de savoir si le baptême du Saint-Esprit eut lieu une fois pour toutes ou se répète en des baptêmes ultérieurs. Les témoignages semblent indiquer la première opinion, du moins en ce que le baptême est limité aux effusions qui eurent lieu en rapport avec les événements rapportés dans les premiers chapitres du livre des Actes. Les considérations suivantes favorisent cette opinion :",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "(1) In the first chapter of Ac Jesus predicts, according to Luke's account, that the baptism of the Holy Spirit would take place, \"not many days hence\" (",
+          "target": "(1) Dans le premier chapitre des Actes, Jésus prédit, d'après le récit de Luc, que le baptême du Saint-Esprit aurait lieu « dans peu de jours » (",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "tail",
+          "source": "). This would seem to point to a definite and specific event rather than to a continuous process.",
+          "target": "). Ceci semblerait indiquer un événement déterminé et précis plutôt qu'un processus continu.",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "(2) Again, Peter's citation in ",
+          "target": "(2) De nouveau, la citation par Pierre en ",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": " of Joel's prophecy shows that in Peter's mind the event which his hearers were then witnessing was the definite fulfillment of the words of Joel.",
+          "target": " de la prophétie de Joël montre que, dans l'esprit de Pierre, l'événement dont ses auditeurs étaient alors témoins constituait l'accomplissement déterminé des paroles de Joël.",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "(3) Notice in the third place that only one other event in the New Testament is described as the baptism of the Holy Spirit, and for special reasons this may be regarded as the completion of the Pentecostal baptism. The passage is that contained in ",
+          "target": "(3) Remarquons en troisième lieu qu'un seul autre événement dans le Nouveau Testament est décrit comme le baptême du Saint-Esprit et que, pour des raisons particulières, celui-ci peut être considéré comme l'achèvement du baptême de la Pentecôte. Le passage est celui contenu en ",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "tail",
+          "source": " in which the record is given of the following events:",
+          "target": " où est donné le récit des événements suivants :",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "(a) miraculous vision given to Peter on the housetop (",
+          "target": "(a) la vision miraculeuse donnée à Pierre sur le toit de la maison (",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "tail",
+          "source": ") indicating that the things about to occur are of unique importance;",
+          "target": ") indiquant que les choses sur le point de se produire sont d'une importance unique ;",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "(b) the speaking with tongues (",
+          "target": "(b) le parler en langues (",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "(c) Peter declares to the brethren at Jerusalem that the Holy Ghost fell on the Gentiles in this instance of Cornelius and his household \"as on us at the beginning\" (",
+          "target": "(c) Pierre déclare aux frères de Jérusalem que le Saint-Esprit descendit sur les Gentils dans ce cas de Corneille et de sa maison « comme sur nous au commencement » (",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "(d) Peter also declares that this was a fulfillment of the promise of the baptism of the Holy Spirit (",
+          "target": "(d) Pierre déclare aussi que c'était un accomplissement de la promesse du baptême du Saint-Esprit (",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "(e) the Jewish Christians who heard Peter's account of the matter acknowledged this as proof that God had also extended the privileges of the gospel to the Gentiles (",
+          "target": "(e) les chrétiens juifs qui entendirent le récit de Pierre à ce sujet reconnurent là la preuve que Dieu avait aussi étendu les privilèges de l'Évangile aux Gentils (",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "tail",
+          "source": "). The baptism of the Holy Spirit bestowed upon Cornelius and his household is thus directly linked with the first outpouring at Pentecost, and as the event which signalized the opening of the door of the gospel formally to Gentiles it is in complete harmony with the missionary significance of the first great Pentecostal outpouring. It was a turning point or crisis in the Messianic kingdom and seems designed to complete the Pentecostal gift by showing that Gentiles as well as Jews are to be embraced in all the privileges of the new dispensation.",
+          "target": "). Le baptême du Saint-Esprit accordé à Corneille et à sa maison est ainsi directement lié à la première effusion à la Pentecôte, et comme événement qui marqua l'ouverture formelle de la porte de l'Évangile aux Gentils, il est en harmonie complète avec la signification missionnaire de la première grande effusion de la Pentecôte. C'était un tournant ou une crise dans le royaume messianique et il semble destiné à compléter le don de la Pentecôte en montrant que les Gentils aussi bien que les Juifs doivent être compris dans tous les privilèges de la nouvelle dispensation.",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "(4) We observe again that nowhere in the epistles do we find a repetition of the baptism of the Spirit. This would be remarkable if it had been understood by the writers of the epistles that the baptism of the Spirit was frequently to be repeated. There is no evidence outside the Book of Ac that the baptism of the Spirit ever occurred in the later New Testament times. In ",
+          "target": "(4) Nous observons encore que nulle part dans les épîtres nous ne trouvons une répétition du baptême de l'Esprit. Ce serait remarquable si les auteurs des épîtres avaient compris que le baptême de l'Esprit devait être fréquemment répété. Il n'y a aucune preuve en dehors du livre des Actes que le baptême de l'Esprit ait jamais eu lieu aux temps ultérieurs du Nouveau Testament. En ",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "tail",
+          "source": " Paul says, \"For in one Spirit were we all baptized into one body, .... and were all made to drink of one Spirit.\" But here the reference is not to the baptism of the Spirit, but rather to a baptism into the church which is the body of Christ. We conclude, therefore, that the Pentecostal baptism taken in conjunction with the baptism of the Spirit in the case of Cornelius completes the baptism of the Holy Spirit according to the New Testament teaching. The baptism of the Spirit as thus bestowed was, however, the definite gift of the Spirit in His fullness for every form of spiritual blessing necessary in the progress of the kingdom and as the permanent and abiding gift of God to His people. In all subsequent New Testament writings there is the assumption of this presence of the Spirit and of His availability for all believers. The various commands and exhortations of the epistles are based on the assumption that the baptism of the Spirit has already taken place, and that, according to the prediction of Jesus to the disciples, the Spirit was to abide with them forever (",
+          "target": " Paul dit : « Car c'est dans un seul Esprit que nous avons tous été baptisés pour former un seul corps… et nous avons tous été abreuvés d'un seul Esprit. » Mais ici il n'est pas question du baptême de l'Esprit, mais plutôt d'un baptême dans l'Église qui est le corps du Christ. Nous concluons donc que le baptême de la Pentecôte, pris en conjonction avec le baptême de l'Esprit dans le cas de Corneille, complète le baptême du Saint-Esprit selon l'enseignement du Nouveau Testament. Le baptême de l'Esprit ainsi accordé était cependant le don définitif de l'Esprit dans sa plénitude pour toute forme de bénédiction spirituelle nécessaire au progrès du royaume et comme le don permanent et durable de Dieu à son peuple. Dans tous les écrits ultérieurs du Nouveau Testament, cette présence de l'Esprit et sa disponibilité pour tous les croyants sont supposées. Les divers commandements et exhortations des épîtres reposent sur la supposition que le baptême de l'Esprit a déjà eu lieu et que, selon la prédiction de Jésus aux disciples, l'Esprit devait demeurer avec eux pour toujours (",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": "). We should not therefore confound other forms of expression found in the New Testament with the baptism of the Holy Spirit. When Christians are enjoined to \"walk by the Spirit\" (",
+          "target": "). Nous ne devons donc pas confondre d'autres formes d'expression que l'on trouve dans le Nouveau Testament avec le baptême du Saint-Esprit. Lorsque les chrétiens sont exhortés à « marcher par l'Esprit » (",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "tail",
+          "source": ") and \"be filled with the Spirit\" (",
+          "target": ") et à « être remplis de l'Esprit » (",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "tail",
+          "source": "), or when the Spirit is described as an anointing (chrisma) as in ",
+          "target": "), ou lorsque l'Esprit est décrit comme une onction (chrisma), comme en ",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "tail",
+          "source": ", and as the \"earnest of our inheritance\" (arrabon). as in ",
+          "target": ", et comme les « arrhes de notre héritage » (arrabon), comme en ",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "tail",
+          "source": ", and when various other similar expressions are employed in the epistles of the New Testament, we are not to understand the baptism of the Holy Spirit. These expressions indicate aspects of the Spirit's work in believers or of the believer's appropriation of the gifts and blessings of the Spirit rather than the historical baptism of the Spirit.",
+          "target": ", et lorsque diverses autres expressions semblables sont employées dans les épîtres du Nouveau Testament, nous ne devons pas comprendre le baptême du Saint-Esprit. Ces expressions indiquent des aspects de l'œuvre de l'Esprit dans les croyants ou de l'appropriation par le croyant des dons et bénédictions de l'Esprit plutôt que le baptême historique de l'Esprit.",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "4. Relation of Baptism of the Spirit to Other Baptisms:",
+          "target": "4. Rapport du baptême de l'Esprit avec les autres baptêmes :",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "Three final points require brief attention, namely, the relation of the baptism of the Spirit to the baptism in water, and to the baptism in fire, and to the laying on of hands.",
+          "target": "Trois derniers points demandent une brève attention, à savoir le rapport du baptême de l'Esprit avec le baptême dans l'eau, avec le baptême dans le feu et avec l'imposition des mains.",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "(1) We note that the baptism in fire is coupled with the baptism in the Spirit in ",
+          "target": "(1) Nous remarquons que le baptême dans le feu est associé au baptême dans l'Esprit en ",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "tail",
+          "source": " and in ",
+          "target": " et en ",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "tail",
+          "source": ". These passages give the word of John the Baptist. John speaks of the coming One who \"shall baptize you in the Holy Spirit and in fire\" (",
+          "target": ". Ces passages donnent la parole de Jean-Baptiste. Jean parle de celui qui vient, qui « vous baptisera dans le Saint-Esprit et dans le feu » (",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "tail",
+          "source": "). This baptism in fire is often taken as being parallel and synonymous with the baptism in the Spirit. The context however in both Matthew and Luke seems to favor another meaning. Jesus' Messianic work will be both cleansing and destructive. The \"you\" addressed by John included the people generally and might naturally embrace both classes, those whose attitude to Jesus would be believing and those who would refuse to believe. His action as Messiah would affect all men. Some He would regenerate and purify through the Holy Ghost. Others He would destroy through the fire of punishment. This view is favored by the context in both gospels. In both the destructive energy of Christ is coupled with His saving power in other terms which admit of no doubt. The wheat He gathers into the garner and the chaff He burns with unquenchable fire.",
+          "target": "). Ce baptême dans le feu est souvent considéré comme parallèle et synonyme du baptême dans l'Esprit. Le contexte cependant, tant chez Matthieu que chez Luc, semble favoriser un autre sens. L'œuvre messianique de Jésus sera à la fois purificatrice et destructrice. Le « vous » auquel s'adresse Jean comprenait le peuple en général et pouvait naturellement embrasser les deux catégories, ceux dont l'attitude envers Jésus serait la foi et ceux qui refuseraient de croire. Son action en tant que Messie toucherait tous les hommes. Il en régénérerait et purifierait certains par le Saint-Esprit. Il en détruirait d'autres par le feu du châtiment. Cette opinion est favorisée par le contexte dans les deux Évangiles. Dans les deux, l'énergie destructrice du Christ est associée à sa puissance salvatrice en d'autres termes qui n'admettent aucun doute. Il amasse le blé dans le grenier et brûle la balle dans un feu inextinguible.",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "(2) The baptism of the Holy Spirit was not meant to supersede water baptism. This is clear from the whole of the history in the Book of Acts, where water baptism is uniformly administered to converts after the Pentecostal baptism of the Spirit, as well as from the numerous references to water baptisms in the epistles. The evidence here is so abundant that it is unnecessary to develop it in detail. See ",
+          "target": "(2) Le baptême du Saint-Esprit n'était pas destiné à remplacer le baptême d'eau. Cela ressort clairement de toute l'histoire dans le livre des Actes, où le baptême d'eau est uniformément administré aux convertis après le baptême de l'Esprit à la Pentecôte, ainsi que des nombreuses mentions des baptêmes d'eau dans les épîtres. Les preuves sont ici si abondantes qu'il est inutile de les développer en détail. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "text",
+          "source": "(3) In ",
+          "target": "(3) En ",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "tail",
+          "source": " and 19:6 the Holy Spirit is bestowed in connection with the laying on of the hands of apostles, but these are not to be regarded as instances of the baptism of the Spirit in the strict sense, but rather as instances of the reception by believers of the Spirit which had already been bestowed in fullness at Pentecost.",
+          "target": " et 19.6, le Saint-Esprit est accordé en rapport avec l'imposition des mains des apôtres, mais ces cas ne doivent pas être considérés comme des exemples du baptême de l'Esprit au sens strict, mais plutôt comme des exemples de la réception par les croyants de l'Esprit qui avait déjà été accordé en plénitude à la Pentecôte.",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "Arts. on Holy Spirit in Hastings, Dictionary of the Bible (five volumes) and Hastings, Dictionary of Christ and the Gospels; article on \"Spiritual Gifts\" in Encyclopedia Biblica; Moule, Veni Creator; Smeaton, The Doctrine of the Holy Spirit; Kuyper, The Work of the Holy Spirit.",
+          "target": "Articles sur le Saint-Esprit dans Hastings, Dictionary of the Bible (cinq volumes) et Hastings, Dictionary of Christ and the Gospels ; article sur « Spiritual Gifts » dans Encyclopedia Biblica ; Moule, Veni Creator ; Smeaton, The Doctrine of the Holy Spirit ; Kuyper, The Work of the Holy Spirit.",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "See also ",
+          "target": "Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "HOLY SPIRIT",
+          "target": "SAINT-ESPRIT",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "text",
+          "source": "E. Y. Mullins",
+          "target": "E. Y. Mullins",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

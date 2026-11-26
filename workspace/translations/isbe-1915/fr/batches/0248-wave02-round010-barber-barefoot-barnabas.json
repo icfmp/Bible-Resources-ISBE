@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BARBER",
+      "article_id": "isbe-712970d8448a18f18cf6",
+      "source_article_sha256": "f91a326827f7077dfa76d7c83815c722cbe32e83e4292ce609977b700a85915c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARBER",
+          "target": "BARBIER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bar'-ber:",
+          "target": "bar'-ber :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) The English word \"barber\" is from Latin barba, \"beard\" = a man who shaves the beard. Dressing and trimming the hair came to be added to his work. \"Barber\" is found only once English Versions of the Bible, in ",
+          "target": "(1) Le mot anglais « barber » vient du latin barba, « barbe » = un homme qui rase la barbe. La coiffure et la taille des cheveux vinrent s'ajouter à son travail. « Barber » ne se rencontre qu'une fois dans les versions anglaises de la Bible, en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", \"Take thee a sharp sword; as a barber's razor shalt thou take it unto thee, and shalt cause it to pass upon thy head and upon thy beard\" (compare Chaghigha' 4b, Shab, section 6).",
+          "target": ", « Prends une épée tranchante ; prends-la comme un rasoir de barbier, et fais-la passer sur ta tête et sur ta barbe » (comparer Chaghigha' 4b, Shab, section 6).",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) In ",
+          "target": "(2) En ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " we probably have a case of conformity to Egyptian, rather than Palestinian custom, where Joseph \"shaved himself, and changed his raiment, and came in unto Pharaoh.\" It is known that Egyptians of the higher classes shaved the beard regularly and completely (as the Hittites, Elamites and early Babylonians seem to have done), except that fashion allowed, as an exception to the rule, a small tuft, or \"goatee,\" under the chin.",
+          "target": " nous avons probablement un cas de conformité à la coutume égyptienne plutôt qu'à la coutume palestinienne, lorsque Joseph « se rasa, changea de vêtements et se présenta devant Pharaon ». On sait que les Égyptiens des classes supérieures rasaient régulièrement et complètement leur barbe (comme semblent l'avoir fait les Hittites, les Élamites et les premiers Babyloniens), sauf que la mode permettait, par exception à la règle, une petite touffe, ou « barbiche », sous le menton.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(3) We learn from various Scriptural allusions, as well as from other sources (compare W. Max Muller, Asien und Europa, 296 ff), that the business of the oriental barber included, besides ceremonial shaving, the trimming and polling of the hair and the beard. Compare ",
+          "target": "(3) Nous apprenons de diverses allusions scripturaires, ainsi que d'autres sources (comparer W. Max Muller, Asien und Europa, 296 et suivants), que le métier du barbier oriental comprenait, outre le rasage cérémoniel, la taille et la coupe des cheveux et de la barbe. Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " where it appears that the moustache (Hebrew sapham; the King James Version \"beard\") received regular trimming; and ",
+          "target": " où il apparaît que la moustache (hébreu sapham ; King James Version : « beard », barbe) était régulièrement taillée ; et ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", where the neglect of the beard is set down as a sign of madness.",
+          "target": ", où la négligence de la barbe est donnée comme un signe de folie.",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "That men wore wigs and false beards in ancient days, the latter showing the rank of the wearer, appears from Herodotus ii.36; iii.12; and Wilkinson, Anc. Egypt, II, 324, etc. Josephus, Vita, II, gives one case where false hair appears to have been used as an intentional disguise. See also Polyb. iii.78.",
+          "target": "Que les hommes portaient des perruques et de fausses barbes aux temps anciens, ces dernières indiquant le rang de celui qui les portait, ressort d'Hérodote ii.36 ; iii.12 ; et Wilkinson, Anc. Egypt, II, 324, etc. Josèphe, Vita, II, donne un cas où une fausse chevelure semble avoir été employée comme déguisement intentionnel. Voir aussi Polyb. iii.78.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(4) The business of the barber (see ",
+          "target": "(4) Le métier du barbier (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": ", \"as a barber's razor shalt thou take it unto thee, and shalt cause it to pass upon thy head and upon thy beard\"), outside of ceremonial shaving, may have consisted in trimming and polling the beard and the hair of the head. Of other nations with whom Israel of old came in contact, the Hittites and Elamites, it is now known, shaved the beard completely, as the earliest Babylonians also seem to have done.",
+          "target": ", « prends-la comme un rasoir de barbier, et fais-la passer sur ta tête et sur ta barbe »), en dehors du rasage cérémoniel, peut avoir consisté à tailler et couper la barbe et les cheveux de la tête. Parmi les autres nations avec lesquelles Israël d'autrefois entra en contact, les Hittites et les Élamites, on le sait maintenant, rasaient complètement la barbe, comme semblent également l'avoir fait les premiers Babyloniens.",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "(5) The prohibition enjoined in the Mosaic law upon \"the priests the Levites, the sons of Zadok\" (",
+          "target": "(5) L'interdiction prescrite dans la loi mosaïque aux « sacrificateurs lévites, fils de Tsadok » (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": ") forbidding either \"shaving the head,\" or \"suffering their locks to grow long,\" or shaving off the corners of their beard (",
+          "target": "), leur interdisant soit de « se raser la tête », soit de « laisser pousser leurs cheveux », ou de raser les coins de leur barbe (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "), was clearly, in a sense peculiar to the priests, etc.: \"They (the priests) shall only cut off,\" i.e. trim, not shave, \"the hair of their heads\" (",
+          "target": "), était clairement, en un sens, particulière aux sacrificateurs, etc. : « Ils (les sacrificateurs) couperont seulement », c'est-à-dire tailleront, et non raseront, « les cheveux de leur tête » (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "). But in the Apostolical Constitutions, I, 3, insistence is laid upon the Biblical prohibition as applicable to all as regards the removal of the beard (compare Clement of Alexandria, Paed., III, edition Migne, I, 580 f). Jerome on ",
+          "target": "). Mais dans les Constitutions apostoliques, I, 3, on insiste sur l'interdiction biblique comme applicable à tous en ce qui concerne la suppression de la barbe (comparer Clément d'Alexandrie, Paed., III, édition Migne, I, 580 et suivant). Jérôme, sur ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": " and some of the Jewish sages find the basis of this prohibition in the fact that God gave a beard to man to distinguish him from the woman--so, they reasoned, it is wrong thus to go against Nature (compare Bahya, on ",
+          "target": ", et certains des sages juifs trouvent le fondement de cette interdiction dans le fait que Dieu a donné à l'homme une barbe pour le distinguer de la femme — il est donc, raisonnaient-ils, mauvais d'aller ainsi contre la nature (comparer Bahya, sur ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(6) In the Palestine of the Greek period, say in the 3rd century BC, when there was a large infusion of Hellenic population and influence, clipping of the beard prevailed in some circles, being omitted only in times of mourning, etc. The common people, however, seem to have seen little distinction between clipping the beard and shaving. But see pictures of captive Jews with clipped beard in the British Museum.",
+          "target": "(6) Dans la Palestine de l'époque grecque, disons au IIIe siècle av. J.-C., lorsqu'il y eut un grand afflux de population et d'influence helléniques, la taille de la barbe prévalait dans certains milieux, n'étant omise qu'en temps de deuil, etc. Le peuple ordinaire, cependant, semble avoir vu peu de différence entre la taille de la barbe et le rasage. Mais voir les représentations de Juifs captifs à la barbe taillée au British Museum.",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "Benzinger, heb. Arch., 110; Nowack, Lehrbuch der Heb. Arch., 134; W. Max Muller, Asien und Europa, 296 ff.",
+          "target": "Benzinger, heb. Arch., 110 ; Nowack, Lehrbuch der Heb. Arch., 134 ; W. Max Muller, Asien und Europa, 296 et suivants.",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "George B. Eager",
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BAREFOOT",
+      "article_id": "isbe-31734654d00713f11f45",
+      "source_article_sha256": "30d3e82b85bf4a2965f46beca8315a7e5fdafe58b8aace21b0673aa8ab28ccc7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAREFOOT",
+          "target": "PIEDS NUS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bar'-foot.",
+          "target": "bar'-foot.",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "1. Introductory:",
+          "target": "1. Introduction :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "The word is found in the following passages: English Versions of the Bible, \"He went barefoot\" (",
+          "target": "Le mot se trouve dans les passages suivants : versions anglaises de la Bible, « Il allait pieds nus » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); \"(Isaiah) did so, walking .... barefoot\" (",
+          "target": ") ; « (Ésaïe) fit ainsi, marchant… pieds nus » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "); and like the Egyptians, \"naked and barefoot\" (",
+          "target": ") ; et comme les Égyptiens, « nus et pieds nus » (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). It seems that David in his flight before Absalom \"went barefoot,\" not to facilitate his flight, but to show his grief (",
+          "target": "). Il semble que David, dans sa fuite devant Absalom, « allait pieds nus », non pour faciliter sa fuite, mais pour manifester son chagrin (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "), and that Micah (",
+          "target": "), et que Michée (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ") makes \"going barefoot\" a sign of mourning (Septuagint: \"to be barefoot\"; the King James Version \"stripped\"). The nakedness and bare feet of the prophet Isaiah (20:2) may have been intended to symbolize and express sympathy for the forlorn condition of captives (compare ",
+          "target": ") fait du fait d'« aller pieds nus » un signe de deuil (Septante : « être pieds nus » ; King James Version : « stripped », dépouillé). La nudité et les pieds nus du prophète Ésaïe (20.2) peuvent avoir été destinés à symboliser la triste condition des captifs et à exprimer la sympathie pour eux (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": ", where the King James Version and the Revised Version (British and American) have \"spoiled,\" but some authorities give as the true translation \"barefoot\").",
+          "target": ", où la King James Version et la Revised Version [britannique et américaine] donnent « spoiled », dépouillé, mais certaines autorités donnent comme véritable traduction « pieds nus »).",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "Jastrow, in article on \"Tearing the Garments\" (Jour. of the Am. Oriental Soc., XXI, 23-39) presents a view worth considering of going barefoot as a sign of mourning and then of grief in general (compare also Jewish Encyclopedia, article \"Barefoot\"). All these passages seem to imply the discomfort or going barefoot on long journeys, over stony roads or hot sands; but then, as now, in the Orient sandals seem to have been little worn ordinarily in and around the house.",
+          "target": "Jastrow, dans l'article sur « Tearing the Garments » (Jour. of the Am. Oriental Soc., XXI, 23-39), présente une opinion digne d'examen sur le fait d'aller pieds nus comme signe de deuil, puis de chagrin en général (comparer aussi Jewish Encyclopedia, article « Barefoot »). Tous ces passages semblent impliquer l'inconfort d'aller pieds nus pendant de longs voyages, sur des chemins pierreux ou des sables brûlants ; mais alors, comme aujourd'hui, en Orient, les sandales semblent avoir été ordinairement peu portées dans la maison et autour d'elle.",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "SHOE",
+          "target": "CHAUSSURE",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "2. An Ancient Oriental Custom:",
+          "target": "2. Une ancienne coutume orientale :",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "The \"shoes\" of the ancients, as we know from many sources, were \"sandals,\" i.e. simply soles, for the most part of rawhide, tied to the feet to protect them against the gravel, stones or thorns of the road. Shoes of the modern sort, as well as socks and stockings, were unknown. In ancient times it was certainly a common custom in Bible lands to go about in and around one's house without sandals. The peasantry, indeed, like the fellaheen of today, being hardened to it, often went afield barefoot. But for a king, or a prophet, a priest or a worshipper, to go barefoot, was another matter, as it was also for a mourner, for one in great distress, to be found walking the streets of a city, or going any distance in bare feet. Here we come again to customs peculiar to the Orient, and of various significance. For instance, it was considered then, as it is now in the Moslem world, profane and shocking, nothing short of a desecration, to enter a sanctuary, or walk on \"holy ground,\" with dust-covered shoes, or unwashed feet. Moses and Joshua were commanded to take off their shoes when on \"holy ground\" (",
+          "target": "Les « chaussures » des anciens, comme nous le savons de nombreuses sources, étaient des « sandales », c'est-à-dire de simples semelles, pour la plupart de cuir brut, attachées aux pieds pour les protéger contre le gravier, les pierres ou les épines de la route. Les chaussures de type moderne, ainsi que les chaussettes et les bas, étaient inconnues. Aux temps anciens, c'était assurément une coutume courante dans les pays bibliques d'aller dans sa maison et autour d'elle sans sandales. Les paysans, en effet, comme les fellahs d'aujourd'hui, endurcis à cela, allaient souvent aux champs pieds nus. Mais pour un roi, ou un prophète, un sacrificateur ou un adorateur, aller pieds nus était une autre affaire, comme c'en était une aussi pour une personne en deuil, pour quelqu'un en grande détresse, d'être trouvé marchant dans les rues d'une ville ou parcourant quelque distance pieds nus. Nous retrouvons ici des coutumes propres à l'Orient, et de signification diverse. Par exemple, on considérait alors, comme aujourd'hui dans le monde musulman, qu'il était profane et choquant, rien de moins qu'une profanation, d'entrer dans un sanctuaire, ou de marcher sur un « sol saint », avec des chaussures couvertes de poussière ou les pieds non lavés. Moïse et Josué reçurent l'ordre d'ôter leurs chaussures lorsqu'ils se trouvaient sur un « sol saint » (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": "). \"No one was allowed to walk on the temple ground with shoes on, or with dust on his feet\" (Ber., IX, 5; compare Jamblichus, Pythagoras, section 105). No one in the East today is allowed to enter any mosque with shoes on, or without first putting slippers furnished for the purpose over his shoes. As a rule, too, the feet must be cleansed by ablution in every such case, as well as hands and feet before each meal.",
+          "target": "). « Il n'était permis à personne de marcher sur le terrain du Temple avec ses chaussures ou avec de la poussière sur ses pieds » (Ber., IX, 5 ; comparer Jamblichus, Pythagoras, section 105). Aujourd'hui, en Orient, il n'est permis à personne d'entrer dans une mosquée avec ses chaussures, ou sans avoir d'abord mis par-dessus ses chaussures les pantoufles fournies à cet effet. En règle générale, les pieds doivent aussi être purifiés par ablution en chacun de ces cas, de même que les mains et les pieds avant chaque repas.",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "3. Priests on Duty Went Barefoot:",
+          "target": "3. Les sacrificateurs en service allaient pieds nus :",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "The priests of Israel, as would seem true of the priests in general among the ancients, wore no shoes when ministering (see Silius Italicus, III, 28; compare Theodoret on ",
+          "target": "Les sacrificateurs d'Israël, comme cela semblerait vrai des sacrificateurs en général chez les anciens, ne portaient pas de chaussures lorsqu'ils officiaient (voir Silius Italicus, III, 28 ; comparer Théodoret sur ",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": ", questio 7; and Yer. Shet., 5, 48d). In ancient times, certainly the priests of Israel, when going upon the platform to serve before the ark, in Tabernacle or temple, as later in the synagogue to bless the congregation, went barefoot; though today strange to say, such ministering priests among the Jews wear stockings, and are not supposed to be barefoot (CoTah, 40a; RH, 316; Shulchan 'Arukh, 'Orach Chayyim, 128, 5; see Jewish Encyclopedia, article \"Barefoot\").",
+          "target": ", questio 7 ; et Yer. Shet., 5, 48d). Aux temps anciens, assurément, les sacrificateurs d'Israël, lorsqu'ils montaient sur l'estrade pour servir devant l'arche, dans le tabernacle ou le Temple, comme plus tard dans la synagogue pour bénir l'assemblée, allaient pieds nus ; quoique aujourd'hui, chose étrange à dire, de tels sacrificateurs officiant chez les Juifs portent des bas et ne soient pas censés être pieds nus (CoTah, 40a ; RH, 316 ; Shulchan 'Arukh, 'Orach Chayyim, 128, 5 ; voir Jewish Encyclopedia, article « Barefoot »).",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "4. Reasons for the Ancient Custom:",
+          "target": "4. Raisons de l'ancienne coutume :",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "The reason or reasons for the removal of the shoes in such cases as the above, we are not at a loss to divine; but when it comes to the removal of the shoes in times of mourning, etc., opinions differ. Some see in such customs a trace of ancestor- worship; others find simply a reversion or return to primitive modes of life; while others still, in agreement with a widely prevalent Jewish view, suggest that it was adopted as a perfectly natural symbol of humility and simplicity of life, appropriate to occasions of grief, distress and deep solemnity of feeling.",
+          "target": "Nous ne sommes pas embarrassés pour deviner la ou les raisons du retrait des chaussures dans des cas comme ceux qui précèdent ; mais quand il s'agit d'ôter les chaussures en temps de deuil, etc., les opinions diffèrent. Certains voient dans de telles coutumes une trace du culte des ancêtres ; d'autres trouvent simplement un retour aux modes primitifs de vie ; d'autres encore, en accord avec une opinion juive largement répandue, suggèrent que cette coutume fut adoptée comme un symbole parfaitement naturel d'humilité et de simplicité de vie, convenant aux occasions de chagrin, de détresse et de profonde gravité des sentiments.",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "The shoes are set aside now by many modern Jews on the Day of Atonement and on the Ninth of Ab.",
+          "target": "Aujourd'hui, de nombreux Juifs modernes mettent leurs chaussures de côté le jour des Expiations et le neuf d'Ab.",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "Winer, Robinson, Biblical Researches, under the word \"Priester und Schuhe\"; Riehm, Handworterbuch des bib. Alt., under the word \"Schuhe.\"",
+          "target": "Winer, Robinson, Biblical Researches, au mot « Priester und Schuhe » ; Riehm, Handworterbuch des bib. Alt., au mot « Schuhe ».",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "George B. Eager",
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BARNABAS",
+      "article_id": "isbe-6137788584099988f1ba",
+      "source_article_sha256": "b52d691b5e145e92a652a149033da7753e4a01ed78dab361aaa9ed65c1f8c684",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARNABAS",
+          "target": "BARNABAS",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bar'-na-bas (Barnabas, \"son of exhortation,\" or possibly \"son of Nebo\"): This name was applied to the associate of Paul, who was originally called Joses or Joseph (",
+          "target": "bar'-na-bas (Barnabas, « fils de l'exhortation », ou peut-être « fils de Nébo ») : Ce nom fut appliqué au compagnon de Paul, qui était appelé à l'origine Joses ou Joseph (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), as a testimony to his eloquence. Its literal meaning is \"son of prophecy\" (bar, \"son\"; nebhu'ah, \"prophecy\"). Compare word for prophet in ",
+          "target": "), en témoignage de son éloquence. Son sens littéral est « fils de la prophétie » (bar, « fils » ; nebhu'ah, « prophétie »). Comparer le mot signifiant prophète en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", etc. This is interpreted in ",
+          "target": ", etc. Ceci est interprété en ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " as \"son of exhortation\" the Revised Version (British and American), or \"son of consolation\" the King James Version, expressing two sides of the Greek paraklesis, that are not exclusive. The office of a prophet being more than to foretell, all these interpretations are admissible in estimating Barnabas as a preacher. Deismann (Bibelstudien, 175-78) considers Barnabas the Jewish Grecized form of Barnebous, a personal Semitic name recently discovered in Asia Minor inscriptions, and meaning \"son of Nebo\" (Standard Bible Dictionary in the place cited.).",
+          "target": " comme « fils de l'exhortation » dans la Revised Version (britannique et américaine), ou « fils de la consolation » dans la King James Version, exprimant deux aspects du grec paraklesis qui ne s'excluent pas. La fonction du prophète étant plus que celle de prédire, toutes ces interprétations sont admissibles dans l'appréciation de Barnabas comme prédicateur. Deismann (Bibelstudien, 175-78) considère Barnabas comme la forme juive grécisée de Barnebous, nom personnel sémitique récemment découvert dans des inscriptions d'Asie Mineure, et signifiant « fils de Nébo » (Standard Bible Dictionary, au passage cité).",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "He was a Levite from the island of Cyprus, and cousin, not \"nephew\" (the King James Version), of the evangelist Mark, the word anepsios (",
+          "target": "Il était un Lévite de l'île de Chypre et le cousin, non le « neveu » (King James Version), de l'évangéliste Marc, le mot anepsios (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "), being used in ",
+          "target": "), étant employé en ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ", for \"father's brothers' sons.\" When we first learn of him, he had removed to Jerusalem, and acquired property there. He sold \"a field,\" and contributed its price to the support of the poorer members of the church (",
+          "target": ", pour « les fils des frères du père ». Lorsque nous entendons parler de lui pour la première fois, il s'était établi à Jérusalem et y avait acquis des biens. Il vendit « un champ » et en donna le prix pour subvenir aux besoins des membres les plus pauvres de l'Église (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": " ff). In ",
+          "target": " et suivants). En ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": " he is described as \"a good man and full of the Holy Spirit\" (compare ",
+          "target": " il est décrit comme « un homme de bien et plein du Saint-Esprit » (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": ") \"and of faith,\" traits that gave him influence and leadership. Possibly on the ground of former acquaintanceship, interceding as Paul's sponsor and surety, he removed the distrust of the disciples at Jerusalem and secured the admission of the former persecutor into their fellowship. When the preaching of some of the countrymen of Barnabas had begun a movement toward Christianity among the Greeks at Antioch, Barnabas was sent from Jerusalem to give it encouragement and direction, and, after a personal visit, recognizing its importance and needs, sought out Paul at Tarsus, and brought him back as his associate. At the close of a year's successful work, Barnabas and Paul were sent to Jerusalem with contributions from the infant church for the famine sufferers in the older congregation (",
+          "target": ") « et de foi », traits qui lui donnaient influence et autorité. Peut-être en raison d'une connaissance antérieure, intervenant comme répondant et garant de Paul, il dissipa la défiance des disciples à Jérusalem et obtint l'admission de l'ancien persécuteur dans leur communion. Lorsque la prédication de quelques-uns des compatriotes de Barnabas eut suscité un mouvement vers le christianisme parmi les Grecs à Antioche, Barnabas fut envoyé de Jérusalem pour l'encourager et le diriger et, après une visite personnelle, reconnaissant son importance et ses besoins, rechercha Paul à Tarse et le ramena comme son collaborateur. Au terme d'une année de travail fructueux, Barnabas et Paul furent envoyés à Jérusalem avec des contributions de l'Église naissante pour les victimes de la famine dans l'assemblée plus ancienne (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "). Ordained as missionaries on their return (",
+          "target": "). Consacrés comme missionnaires à leur retour (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "), and accompanied by John Mark, they proceeded upon what is ordinarily known as the \"First Missionary Journey\" of Paul (",
+          "target": "), et accompagnés de Jean-Marc, ils entreprirent ce qui est ordinairement connu comme le « premier voyage missionnaire » de Paul (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": "). Its history belongs to Paul's life. Barnabas as well as Paul is designated \"an apostle\" (",
+          "target": "). Son histoire appartient à la vie de Paul. Barnabas aussi bien que Paul est désigné comme « un apôtre » (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": "). Up to ",
+          "target": "). Jusqu'à ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": ", the precedency is constantly ascribed to Barnabas; from that point, except in 14:14 and 15:12,25, we read \"Paul and Barnabas,\" instead of \"Barnabas and Saul.\" The latter becomes the chief spokesman. The people at Lystra named Paul, because of his fervid oratory, Mercurius, while the quiet dignity and reserved strength of Barnabas gave him the title of Jupiter (",
+          "target": ", la préséance est constamment attribuée à Barnabas ; à partir de ce point, sauf en 14.14 et 15.12,25, nous lisons « Paul et Barnabas », au lieu de « Barnabas et Saul ». Le dernier devient le principal porte-parole. Les gens de Lystre nommèrent Paul Mercure à cause de son éloquence ardente, tandis que la dignité tranquille et la force réservée de Barnabas lui valurent le titre de Jupiter (",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": "). Barnabas escaped the violence which Paul suffered at Iconium (",
+          "target": "). Barnabas échappa à la violence que subit Paul à Icone (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "Upon their return from this first missionary tour, they were sent, with other representatives of the church at Antioch, to confer with the apostles and elders of the church at Jerusalem concerning the obligation of circumcision and the ceremonial law in general under the New Testament--the synod of Jerusalem. A separation from Paul seems to begin with a temporary yielding of Barnabas in favor of the inconsistent course of Peter (",
+          "target": "À leur retour de ce premier voyage missionnaire, ils furent envoyés, avec d'autres représentants de l'Église d'Antioche, conférer avec les apôtres et les anciens de l'Église de Jérusalem concernant l'obligation de la circoncision et de la loi cérémonielle en général sous le Nouveau Testament — le synode de Jérusalem. Une séparation d'avec Paul semble commencer par une concession temporaire de Barnabas en faveur de la conduite inconséquente de Pierre (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": "). This was followed by a more serious rupture concerning Mark. On the second journey, Paul proceeded alone, while Barnabas and Mark went to Cyprus. Luther and Calvin regard ",
+          "target": "). Celle-ci fut suivie d'une rupture plus sérieuse concernant Marc. Lors du deuxième voyage, Paul continua seul, tandis que Barnabas et Marc se rendirent à Chypre. Luther et Calvin considèrent que ",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": " as meaning Barnabas by \"the brother whose praise is spread through all the churches,\" and indicating, therefore, subsequent joint work. The incidental allusions in ",
+          "target": " désigne Barnabas par « le frère dont la louange est répandue dans toutes les Églises », et indique donc une collaboration ultérieure. Les allusions incidentes en ",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": " (\"even Barnabas\") show at any rate Paul's continued appreciation of his former associate. Like Paul, he accepted no support from those to whom he ministered.",
+          "target": " (« même Barnabas ») montrent en tout cas l'estime persistante de Paul pour son ancien collaborateur. Comme Paul, il n'acceptait aucun soutien de ceux auxquels il dispensait son ministère.",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "Tertullian, followed in recent years by Grau and Zahn, regard him as the author of the Epistle to the He. The document published among patristic writings as the Epistle of Barnabas, and found in full in the Codex Sinaiticus, is universally assigned today to a later period. \"The writer nowhere claims to be the apostle Barnabas; possibly its author was some unknown namesake of 'the son of consolation' \" (Lightfoot, Apostolic Fathers, 239 f).",
+          "target": "Tertullien, suivi ces dernières années par Grau et Zahn, le considère comme l'auteur de l'épître aux Hébreux. Le document publié parmi les écrits patristiques sous le nom d'épître de Barnabas, et que l'on trouve dans son intégralité dans le Codex Sinaiticus, est universellement attribué aujourd'hui à une époque ultérieure. « L'auteur ne prétend nulle part être l'apôtre Barnabas ; peut-être son auteur était-il quelque homonyme inconnu du “fils de la consolation” » (Lightfoot, Apostolic Fathers, 239 et suivant).",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "H. E. Jacobs",
+          "target": "H. E. Jacobs",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

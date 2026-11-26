@@ -1,0 +1,859 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BABYLONIA AND ASSYRIA, RELIGION OF",
+      "article_id": "isbe-e0a809aec0d46a19d8f5",
+      "source_article_sha256": "5788d4c0d2b806cafda274afc520508b4efa85ce8a2b2404a28d9adceb9a03ae",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BABYLONIA AND ASSYRIA, RELIGION OF",
+          "target": "RELIGION DE LA BABYLONIE ET DE L'ASSYRIE",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "I. DEFINITION",
+          "target": "I. DÉFINITION",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "1. First Period",
+          "target": "1. Première période",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "2. Second Period",
+          "target": "2. Deuxième période",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "3. Third Period",
+          "target": "3. Troisième période",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "II. THE SOURCES",
+          "target": "II. LES SOURCES",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "III. THE HISTORY",
+          "target": "III. L'HISTOIRE",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "IV. THE PANTHEON",
+          "target": "IV. LE PANTHÉON",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "1. Enlil, Ellil",
+          "target": "1. Enlil, Ellil",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "2. Anu",
+          "target": "2. Anu",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "3. Ea",
+          "target": "3. Ea",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "4. Sin",
+          "target": "4. Sin",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "5. Shamash",
+          "target": "5. Shamash",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "6. Ishtar",
+          "target": "6. Ishtar",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "7. Marduk (Old Testament Merodach)",
+          "target": "7. Marduk (Mérodac dans l'Ancien Testament)",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "8. Nabu (Old Testament Nebo)",
+          "target": "8. Nabu (Nébo dans l'Ancien Testament)",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "9. Nergal, the city god of Kutu (Old Testament Guthah)",
+          "target": "9. Nergal, le dieu de la ville de Kutu (Cutha dans l'Ancien Testament)",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "10. Ninib",
+          "target": "10. Ninib",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "11. Ramman",
+          "target": "11. Ramman",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "12. Tammuz",
+          "target": "12. Tammuz",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "13. Asshur",
+          "target": "13. Asshur",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "V. HYMNS AND PRAYERS",
+          "target": "V. HYMNES ET PRIÈRES",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "VI. MAGIC",
+          "target": "VI. MAGIE",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "1. Maqlu",
+          "target": "1. Maqlu",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "2. Shurpu",
+          "target": "2. Shurpu",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "VII. THE LAST THINGS",
+          "target": "VII. LES FINS DERNIÈRES",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "VIII. MYTHS AND EPICS",
+          "target": "VIII. MYTHES ET ÉPOPÉES",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "IX. THE ASTRAL THEORY OF THE UNIVERSE",
+          "target": "IX. LA THÉORIE ASTRALE DE L'UNIVERS",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "X. THE RELATIONS WITH THE RELIGION OF ISRAEL",
+          "target": "X. LES RAPPORTS AVEC LA RELIGION D'ISRAËL",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "I. Definition.",
+          "target": "I. Définition.",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "The religion of Babylonia and Assyria is that system of belief in higher things with which the peoples of the Tigris and Euphrates valley strove to put themselves into relations, in order to live their lives. The discoveries of the past century have supplied us with a mass of information concerning this faith from which we have been able to secure a greater knowledge of it than of any other ancient oriental religion, except that of Israel. Yet the information which is thus come into our hands is embarrassing because of its very richness, and it will doubtless be a long time before it is possible to speak with certainty concerning many of the problems which now confront us. Progress in the interpretation of the literature is however so rapid that we may now give a much more intelligible account of this religion than could have been secured even so recently as five years ago.",
+          "target": "La religion de la Babylonie et de l'Assyrie est ce système de croyances relatives aux réalités supérieures avec lesquelles les peuples de la vallée du Tigre et de l'Euphrate s'efforçaient d'entrer en relation afin de mener leur existence. Les découvertes du siècle passé nous ont fourni une masse de renseignements concernant cette foi, grâce auxquels nous avons pu en acquérir une connaissance plus grande que de toute autre religion de l'Orient ancien, excepté celle d'Israël. Pourtant, les renseignements ainsi parvenus entre nos mains sont embarrassants par leur richesse même, et il faudra sans doute longtemps avant qu'il soit possible de parler avec certitude de beaucoup des problèmes qui se présentent maintenant à nous. Les progrès dans l'interprétation de la littérature sont cependant si rapides que nous pouvons maintenant donner de cette religion un exposé beaucoup plus intelligible que celui qu'il aurait été possible d'obtenir il y a seulement cinq ans.",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "For purposes of convenience, the religion of Babylonia and Assyria may be grouped into three great periods.",
+          "target": "Pour des raisons de commodité, la religion de la Babylonie et de l'Assyrie peut être divisée en trois grandes périodes.",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "1. First Period:",
+          "target": "1. Première période :",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "The first of these periods extends from the earliest times, about 3500 BC, down to the union of the Babylonian states under Hammurabi, about 2000 BC.",
+          "target": "La première de ces périodes s'étend des temps les plus anciens, vers 3500 av. J.-C., jusqu'à l'unification des États babyloniens sous Hammurabi, vers 2000 av. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "2. Second Period:",
+          "target": "2. Deuxième période :",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "The second period extends to the rise of the Chaldean empire under Nabopolassar, 625 BC, and",
+          "target": "La deuxième période s'étend jusqu'à l'avènement de l'Empire chaldéen sous Nabopolassar, en 625 av. J.-C., et",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "3. Third Period:",
+          "target": "3. Troisième période :",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "The third period embraces the brief history of this Chaldean or neo-Babylonian empire under Cyrus, 538 BC.",
+          "target": "La troisième période embrasse la brève histoire de cet Empire chaldéen ou néo-babylonien sous Cyrus, en 538 av. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "The Assyrian religion belongs to the second period, though it extends even into the third period, for Nineveh did not fall until 607 BC.",
+          "target": "La religion assyrienne appartient à la deuxième période, quoiqu'elle s'étende même jusque dans la troisième, car Ninive ne tomba qu'en 607 av. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "II. The Sources.",
+          "target": "II. Les sources.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "The primary sources of our knowledge of this religion are to be found in the distinctively religious texts, such as hymns, prayers, priestly rituals and liturgies, and in the vast mass of magical and incantation literature. The major part of this religious literature which has come down to us dates from the reign of Ashurbanipal (668-625 BC) though much of it is quite clearly either copied from or based upon much older material. If, however, we relied for our picture of the Babylonian and Assyrian religion exclusively upon these religious texts, we should secure a distorted and in some places an indefinite view. We must add to these in order to perfect the picture practically the whole of the literature of these two peoples.",
+          "target": "Les sources primaires de notre connaissance de cette religion se trouvent dans les textes proprement religieux, tels que les hymnes, les prières, les rituels et les liturgies sacerdotales, ainsi que dans la vaste masse de la littérature magique et incantatoire. La majeure partie de cette littérature religieuse qui nous est parvenue date du règne d'Assurbanipal (668-625 av. J.-C.), bien qu'une grande partie en soit manifestement soit copiée sur des matériaux beaucoup plus anciens, soit fondée sur eux. Si toutefois nous nous appuyions exclusivement sur ces textes religieux pour nous représenter la religion babylonienne et assyrienne, nous en obtiendrions une image déformée et, par endroits, indéterminée. Il nous faut y ajouter, pour compléter le tableau, pratiquement toute la littérature de ces deux peuples.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "The inscriptions upon which the kings handed down to posterity an account of their great deeds contain lists of gods whom they invoked, and these must be taken into consideration. The laws also have in large measure a religious basis, and the business inscriptions frequently invoke deities at the end. The records of the astronomers, the state dispatches of kings, the reports of general officers from the field, the handbooks of medicine, all these and many other divisions of a vast literature contribute each its share of religious material. Furthermore, as the religion was not only the faith of the king, but also the faith of the state itself, the progress of the commonwealth to greater power oftentimes carried some local god into a new relationship to other gods, or the decadence of the commonwealth deprived a god of some of his powers or attributes, so that even the distinctively political inscriptions have importance in helping us to reconstruct the ancient literature.",
+          "target": "Les inscriptions sur lesquelles les rois transmirent à la postérité le récit de leurs hauts faits contiennent des listes des dieux qu'ils invoquaient, et il faut en tenir compte. Les lois ont également, dans une large mesure, un fondement religieux, et les inscriptions commerciales invoquent fréquemment des divinités à la fin. Les documents des astronomes, les dépêches officielles des rois, les rapports des officiers généraux sur le terrain, les manuels de médecine, toutes ces divisions et bien d'autres d'une vaste littérature apportent chacune leur part de matériaux religieux. De plus, comme la religion était non seulement la foi du roi, mais aussi celle de l'État lui-même, l'accroissement de la puissance de la communauté politique amenait souvent quelque dieu local à entrer dans une nouvelle relation avec les autres dieux, ou le déclin de cette communauté privait un dieu de certains de ses pouvoirs ou attributs, de sorte que même les inscriptions proprement politiques ont leur importance pour nous aider à reconstituer la littérature ancienne.",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "III. The History.",
+          "target": "III. L'histoire.",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "The origin of the Babylonian religion is hid from our eyes in those ancient days of which we know little and can never hope to know much. In the earliest documents which have come down to us written in the Sumerian language, there are found Semitic words or constructions or both. It seems now to be definitely determined that a Sumerian people whose origin is unknown inhabited Babylonia before the coming of the Semites, whose original home was in Arabia. Of the Sumerian faith before a union was formed with the Semites, we know very little indeed. But we may perhaps safely say that among that ancient people, beneath the belief in gods there lay deep in their consciousness the belief in animism. They thought that every object, animate or inanimate, had a zi or spirit. The word seems originally to have meant life. Life manifests itself to us as motion; everything which moves has life. The power of motion separates the animate from the inanimate. All that moves possesses life, the motionless is lifeless or dead.",
+          "target": "L'origine de la religion babylonienne se dérobe à nos regards dans ces temps anciens dont nous savons peu de chose et dont nous ne pouvons jamais espérer savoir grand-chose. Dans les plus anciens documents écrits en langue sumérienne qui nous soient parvenus, on trouve des mots ou des constructions sémitiques, ou les deux. Il semble maintenant établi de façon certaine qu'un peuple sumérien d'origine inconnue habitait la Babylonie avant l'arrivée des Sémites, dont la patrie originelle était l'Arabie. De la foi sumérienne avant qu'une union se formât avec les Sémites, nous savons en vérité très peu de chose. Mais nous pouvons peut-être dire sans risque que, chez ce peuple ancien, sous la croyance aux dieux se trouvait profondément ancrée dans leur conscience la croyance à l'animisme. Ils pensaient que tout objet, animé ou inanimé, avait un zi ou esprit. Le mot semble avoir signifié à l'origine la vie. La vie se manifeste à nous par le mouvement ; tout ce qui se meut a la vie. Le pouvoir de se mouvoir sépare l'animé de l'inanimé. Tout ce qui se meut possède la vie ; ce qui est immobile est sans vie ou mort.",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "Besides this belief in animism, the early Sumerians seem to have believed in ghosts that were related to the world of the dead as the zi was related to the world of the living. The lil or ghost was a night demon of baleful influence upon men, and only to be cast out by many incantations. The lil was attended by a serving-maid (ardat lili, \"maid of night\") which in the later Semitic development was transformed into the feminine lilitu. It is most curious and interesting that this ghost demon of the Sumerians lived on through all the history of the Babylonian religion, and is mentioned even in one of the Old Testament prophets (",
+          "target": "Outre cette croyance à l'animisme, les premiers Sumériens semblent avoir cru à des fantômes qui étaient au monde des morts ce que le zi était au monde des vivants. Le lil ou fantôme était un démon nocturne exerçant une influence malfaisante sur les hommes, et que seules de nombreuses incantations pouvaient chasser. Le lil était accompagné d'une servante (ardat lili, « servante de la nuit »), qui, dans le développement sémitique ultérieur, se transforma en lilitu féminin. Il est fort curieux et intéressant que ce démon fantôme des Sumériens ait subsisté durant toute l'histoire de la religion babylonienne et soit même mentionné chez l'un des prophètes de l'Ancien Testament (",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "tail",
+          "source": "; Hebrew Lillith, translated \"night monster\"). The origin of the Semitic religion brought by the ancient Semitic people and united with this Sumerian faith is also lost in the past.",
+          "target": " ; hébreu Lillith, traduit par « monstre nocturne »). L'origine de la religion sémitique apportée par l'ancien peuple sémitique et unie à cette foi sumérienne se perd également dans le passé.",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "It seems to be quite clear that the gods and the religious ideas which these Semites brought with them from the desert had very little if any importance for the religion which they afterward professed in Babylonia. Some of the names of their gods and images of these they very probably brought with them, but the important thing, it must always be remembered, about the gods is not the names but the attributes which were ascribed to them, and these must have been completely changed during the long history which follows their first contact with the Sumerians. From the Sumerians there flowed a great stream of religious ideas, subject indeed to modifications from time to time down the succeeding centuries. In our study of the pantheon we shall see from time to time how the gods changed their places and how the ideas concerning them were modified by political and other movements. In the very earliest times, besides these ideas of spirits and ghosts, we find also numbers of local gods. Every center of human habitati on had its special patron deity and this deity is always associated with some great natural phenomenon. It was natural that the sun and moon should be made prominent among these gods, but other natural objects and forces were personified and deified, streams, stones and many others.",
+          "target": "Il semble tout à fait clair que les dieux et les idées religieuses que ces Sémites apportèrent avec eux du désert n'eurent que fort peu d'importance, s'ils en eurent, pour la religion qu'ils professèrent ensuite en Babylonie. Ils apportèrent très probablement avec eux certains des noms de leurs dieux et des images de ceux-ci, mais ce qui importe à propos des dieux, il faut toujours s'en souvenir, ce ne sont pas leurs noms, mais les attributs qu'on leur prêtait, et ceux-ci doivent avoir complètement changé durant la longue histoire qui suivit leur premier contact avec les Sumériens. Des Sumériens découla un grand courant d'idées religieuses, soumis, il est vrai, à des modifications de temps à autre au cours des siècles suivants. Dans notre étude du panthéon, nous verrons à plusieurs reprises comment les dieux changèrent de place et comment les idées à leur sujet furent modifiées par les mouvements politiques et autres. Dès les temps les plus anciens, outre ces idées concernant les esprits et les fantômes, nous trouvons aussi quantité de dieux locaux. Chaque centre d'habitation humaine avait sa divinité tutélaire particulière, et cette divinité est toujours associée à quelque grand phénomène naturel. Il était naturel que le soleil et la lune occupassent une place éminente parmi ces dieux, mais d'autres objets et forces de la nature furent personnifiés et divinisés, cours d'eau, pierres et bien d'autres.",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "Our chief source of information concerning the gods of the first period of religious development before the days of Hammurabi is found in the historical inscriptions of the early kings and rulers. Many of these describe offerings of temples and treasures made to the gods, and all of them are religious in tone and filled with ascriptions of praise to the gods. From these early texts Professor Jastrow has extricated the names of the following deities, gods and goddesses. I reproduce his list as the best yet made, but keep in mind that some of the readings are doubtful and some were certainly otherwise read by the Babylonians or Sumerians, though we do not now know how they ought to be read. The progress of Assyrian research is continually providing corrected readings for words hitherto known to us only in ideograms. It is quite to be expected that many of these strange, not to say grotesque, names will some day prove to be quite simple, and easy to utter: En-lil (Ellil, Bel) Belit, Nin-khar-sag, Nin-gir-su, wh o also appears as Dun-gur, Bau, Ga-tum-dug, Nin-dindug, Ea, Nin-a-gal, Gal- dim-zu-ab, Nin-ki, Damgal-nun-na, Nergal, Shamash, A or Malkatu, the wife of Shamash, Nannar, or Sin, Nin-Urum, Innanna, Nana, Anunit, Nina, Ishtar, Anu, Nindar-a, Gal-alim, Nin-shakh, Dun-shagga, Lugalbanda, with a consort Nin-sun, Dumu-zi-zu- ab, Dumu-zi, Lugal-Erim, Nin-e-gal and Ningal, Nin-gish-zi-da, Dun-pa-uddu, Nin-mar, Pa-sag, Nidaba, Ku(?)-anna, Shid, Nin- agid-kha-du, Ninshul-li, En-gubarra, Im-mi-khu(?), Ur-du-zi, Kadi, Nu-ku-sir-da, Ma-ma, Za-ma-ma, Za-za-ru, Impa-ud-du, Ur- e-nun-ta-ud-du-a, Khi-gir-nunna, Khi-shagga, Gur-mu, Zar-mu, Dagan, Damu, Lama, Nesu, Nun-gal, An-makh, Nin-si-na, Nin-asu. In this list great gods and goddesses and all kinds of minor deities are gathered together, and the list looks and sounds hopeless. But these are local deities, and some of them are mere duplications. Nearly every place in early times would have a sun-god or a moon-god or both, and in the political development of the country the moon-god of the conquering city displaced or absorbed the moon-god of the conquered. When we have eliminated these gods, who have practically disappeared, there remains a comparatively small number of gods who outrank all the others.",
+          "target": "Notre principale source de renseignements sur les dieux de la première période du développement religieux, avant les jours de Hammurabi, se trouve dans les inscriptions historiques des premiers rois et souverains. Beaucoup décrivent des offrandes de temples et de trésors faites aux dieux, et toutes sont de caractère religieux et remplies de louanges adressées aux dieux. De ces textes anciens, le professeur Jastrow a dégagé les noms des divinités suivantes, dieux et déesses. Je reproduis sa liste comme la meilleure établie jusqu'à présent, mais il faut garder à l'esprit que certaines lectures sont douteuses et que certaines étaient assurément lues autrement par les Babyloniens ou les Sumériens, bien que nous ne sachions pas maintenant comment il faudrait les lire. Les progrès des recherches assyriologiques fournissent continuellement des lectures corrigées de mots qui ne nous étaient connus jusqu'ici que sous forme d'idéogrammes. Il faut tout à fait s'attendre à ce que beaucoup de ces noms étranges, pour ne pas dire grotesques, se révèlent un jour fort simples et faciles à prononcer : En-lil (Ellil, Bel) Belit, Nin-khar-sag, Nin-gir-su, qui apparaît aussi sous le nom de Dun-gur, Bau, Ga-tum-dug, Nin-dindug, Ea, Nin-a-gal, Gal- dim-zu-ab, Nin-ki, Damgal-nun-na, Nergal, Shamash, A ou Malkatu, épouse de Shamash, Nannar, ou Sin, Nin-Urum, Innanna, Nana, Anunit, Nina, Ishtar, Anu, Nindar-a, Gal-alim, Nin-shakh, Dun-shagga, Lugalbanda, avec une parèdre Nin-sun, Dumu-zi-zu- ab, Dumu-zi, Lugal-Erim, Nin-e-gal et Ningal, Nin-gish-zi-da, Dun-pa-uddu, Nin-mar, Pa-sag, Nidaba, Ku(?)-anna, Shid, Nin- agid-kha-du, Ninshul-li, En-gubarra, Im-mi-khu(?), Ur-du-zi, Kadi, Nu-ku-sir-da, Ma-ma, Za-ma-ma, Za-za-ru, Impa-ud-du, Ur- e-nun-ta-ud-du-a, Khi-gir-nunna, Khi-shagga, Gur-mu, Zar-mu, Dagan, Damu, Lama, Nesu, Nun-gal, An-makh, Nin-si-na, Nin-asu. Dans cette liste sont rassemblés de grands dieux et déesses et toutes sortes de divinités mineures, et la liste semble et paraît désespérante. Mais il s'agit de divinités locales, et certaines d'entre elles sont de simples doubles. Presque chaque lieu, dans les temps anciens, avait un dieu solaire ou un dieu lunaire, ou les deux, et, dans le développement politique du pays, le dieu lunaire de la ville conquérante supplantait ou absorbait celui de la ville conquise. Lorsque nous avons éliminé ces dieux qui ont pratiquement disparu, il reste un nombre comparativement faible de dieux qui surpassent tous les autres en rang.",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "In the room of some of these gods that disappeared, others, especially in Assyria, found places. There was, however, a strong tendency to diminish the number of the gods. They are in early days mentioned by the score, but as time goes on many of these vanish away and only the few remain. As Jastrow has pointed out, Shalmaneser II (859-825 BC) had only eleven gods in his pantheon: Ashur, Anu, Bel, Ea, Sin, Shamash, Ninib, Nergal, Nusku, Belit and Ishtar. Sennacherib (704-681 BC) usually mentions only eight; namely, Ashur, Sin, Shamash, Bel (that is, Marduk), Nabu, Nergal, Ishtar of Nineveh and Ishtar of Arbela. But we must not lay much emphasis upon the smallness of this number, for in his building inscriptions at the end he invokes twenty-five deities, and even though some of these are duplicates of other gods, as Jastrow correctly explains, nevertheless the entire list is considerably increased over the eight above mentioned. In the late Babylonian period the worship seems chiefly devoted to Marduk, Nabu, Sin, Shamash and Ishtar. Often there seem little faint indications of a further step forward. Some of the hymns addressed to Shamash seem almost upon the verge of exalting him in such a way as to exclude the other deities, but the step is never taken. The Babylonians, with all their wonderful gifts, were never able to conceive of one god, of one god alone, of one god whose very existence makes logically impossible the existence of any other deity. Monotheism transcends the spiritual grasp of the Babylonian mind.",
+          "target": "À la place de certains de ces dieux disparus, d'autres, surtout en Assyrie, trouvèrent une place. Il y eut cependant une forte tendance à diminuer le nombre des dieux. Dans les premiers temps, ils sont mentionnés par vingtaines, mais avec le temps beaucoup d'entre eux disparaissent et seuls quelques-uns demeurent. Comme l'a fait remarquer Jastrow, Salmanasar II (859-825 av. J.-C.) n'avait que onze dieux dans son panthéon : Ashur, Anu, Bel, Ea, Sin, Shamash, Ninib, Nergal, Nusku, Belit et Ishtar. Sanchérib (704-681 av. J.-C.) n'en mentionne ordinairement que huit, à savoir Ashur, Sin, Shamash, Bel (c'est-à-dire Marduk), Nabu, Nergal, Ishtar de Ninive et Ishtar d'Arbèles. Mais il ne faut pas insister beaucoup sur la faiblesse de ce nombre, car, à la fin de ses inscriptions de construction, il invoque vingt-cinq divinités, et quoique certaines d'entre elles soient des doubles d'autres dieux, comme l'explique correctement Jastrow, la liste entière est néanmoins considérablement accrue par rapport aux huit mentionnées ci-dessus. Dans la période babylonienne tardive, le culte semble principalement consacré à Marduk, Nabu, Sin, Shamash et Ishtar. Souvent semblent apparaître de faibles indications d'un pas de plus. Certains des hymnes adressés à Shamash semblent presque sur le point de l'exalter de manière à exclure les autres divinités, mais le pas n'est jamais franchi. Les Babyloniens, avec tous leurs dons merveilleux, ne furent jamais capables de concevoir un dieu unique, un seul dieu, un dieu dont l'existence même rend logiquement impossible celle de toute autre divinité. Le monothéisme dépasse la capacité de compréhension spirituelle de l'esprit babylonien.",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "Amid all this company of gods, amid all these speculations and combinations, we must keep our minds clear, and fasten our eyes upon the one significant fact that stands out above all others. It is that the Babylonians were not able to rise above polytheism; that beyond them, far beyond them, lay that great series of thoughts about God that ascribe to him aloneness, to which we may add the great spiritual ideas which today may roughly be grouped under ethical monotheism. Here and there great thinkers in Babylonia grasped after higher ideas, and were able only to attain to a sort of pantheism of a speculative kind. A personal god, righteous and holy, who loved righteousness. and hated sin, this was not given to them to conceive.",
+          "target": "Au milieu de toute cette compagnie de dieux, de toutes ces spéculations et combinaisons, nous devons garder l'esprit clair et fixer les yeux sur le seul fait significatif qui ressort au-dessus de tous les autres. C'est que les Babyloniens ne furent pas capables de s'élever au-dessus du polythéisme ; qu'au-delà d'eux, bien au-delà d'eux, se trouvait ce grand ensemble de pensées au sujet de Dieu qui lui attribuent l'unicité, auxquelles nous pouvons ajouter les grandes idées spirituelles que l'on peut aujourd'hui grouper approximativement sous le nom de monothéisme éthique. Çà et là, de grands penseurs de Babylonie aspirèrent à des idées plus élevées et ne purent atteindre qu'une sorte de panthéisme de caractère spéculatif. Un dieu personnel, juste et saint, qui aimait la justice et haïssait le péché, voilà ce qu'il ne leur fut pas donné de concevoir.",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "The character of the gods changed indeed as the people who revered them changed. The Babylonians who built vast temples and composed many inscriptions emphasizing the works of peace rather than of war, naturally conceived their deities in a manner different from the Assyrians whose powers were chiefly devoted to conquests in war, but neither the Babylonians nor the Assyrians arose to any such heights as distinguish the Hebrew book of Psalms. As the influence of the Babylonians and Assyrians waned, their go ds declined in power, and none of them survived the onrush of Greek civilization in the period of Alexander.",
+          "target": "Le caractère des dieux changea effectivement à mesure que changeait le peuple qui les vénérait. Les Babyloniens, qui bâtirent de vastes temples et composèrent de nombreuses inscriptions mettant en relief les œuvres de paix plutôt que celles de guerre, concevaient naturellement leurs divinités d'une manière différente des Assyriens dont les forces étaient principalement consacrées aux conquêtes militaires ; mais ni les Babyloniens ni les Assyriens ne s'élevèrent à de telles hauteurs que celles qui distinguent le livre hébreu des Psaumes. À mesure que l'influence des Babyloniens et des Assyriens déclina, leurs dieux perdirent de leur puissance, et aucun d'eux ne survécut à l'irruption de la civilisation grecque à l'époque d'Alexandre.",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "IV. The Pantheon.",
+          "target": "IV. Le panthéon.",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "The chief gods of the Babylonian and Assyrian pantheon may now be characterized in turn.",
+          "target": "Les principaux dieux du panthéon babylonien et assyrien peuvent maintenant être caractérisés tour à tour.",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "1. Enlil, Ellil:",
+          "target": "1. Enlil, Ellil :",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "In the earliest times known to us the greatest of the gods is the god of Nippur whose name in the Sumerian texts is Enlil or Ellil. In the Semitic pantheon of later times he was identified with the god Bel, and it is as Belhe has been chiefly known. During the whole of the first epoch of Babylonian history up to the period of Hammurabi, he is the Lord of the World and the King of the Land. He was originally the hero of the Flood story, but in the form in which it has come down to us Marduk of Babylon has deprived him of these honors. In Nippur was his chief temple, called E-kur or \"mountain house.\" It was built and rebuilt by the kings of Babylonia again and again from the days of Sargon I (3800 BC) onward, and no less than twenty kings are known to us who pride themselves on their work of rebuilding this one temple. He is saluted as \"the Great Lord, the command of whose mouth cannot be altered and whose grace is steadfast.\" He would seem, judging from the name of his temple and from some of his attributes, to have been originally a god of the mountains where he must have had his original dwelling-place.",
+          "target": "Aux temps les plus anciens que nous connaissions, le plus grand des dieux est le dieu de Nippur, dont le nom dans les textes sumériens est Enlil ou Ellil. Dans le panthéon sémitique des époques ultérieures, il fut identifié au dieu Bel, et c'est sous le nom de Bel qu'il a été principalement connu. Durant toute la première époque de l'histoire babylonienne jusqu'à la période de Hammurabi, il est le Seigneur du monde et le Roi du pays. Il était à l'origine le héros du récit du Déluge, mais sous la forme où celui-ci nous est parvenu, Marduk de Babylone l'a privé de ces honneurs. À Nippur se trouvait son temple principal, appelé E-kur ou « maison de la montagne ». Il fut bâti et rebâti maintes et maintes fois par les rois de Babylonie à partir des jours de Sargon Ier (3800 av. J.-C.), et nous connaissons pas moins de vingt rois qui se glorifient de leur travail de reconstruction de ce seul temple. Il est salué comme « le Grand Seigneur, dont l'ordre de la bouche ne peut être modifié et dont la grâce est constante ». À en juger par le nom de son temple et par certains de ses attributs, il semblerait avoir été à l'origine un dieu des montagnes, où il doit avoir eu sa demeure première.",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "2. Anu:",
+          "target": "2. Anu :",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "The name of the god Anu was interpreted as meaning heaven, corresponding to the Sumerian word ana, \"heaven,\" and he came thus to be regarded as the god of heaven as over against Enlil who was the god of earth, and Ea who was the god of the waters. Anu appears first among the great gods in an inscription of Lugalsaggi, and in somewhat later times he made his way to the top of the earliest triad which consists of Ann, Enlil and Ea. His chief seat of worship was Uruk, but in the Assyrian period he was associated with the god Adad in a temple in the city of Asshur. In the myths and epics he fills an important role as the disposer of all events, but he cannot be thought of as quite equal in rank with Enlil in spite of his position in the heavens. Antu or Anatu is mentioned as the wife of Ann, but hers is a colorless figure, and she may probably be regarded as little else than a grammatical invention owing to the desire of the Semites to associate the feminine with the masculine in their languages.",
+          "target": "Le nom du dieu Anu était interprété comme signifiant ciel, correspondant au mot sumérien ana, « ciel », et il en vint ainsi à être considéré comme le dieu du ciel par opposition à Enlil, dieu de la terre, et à Ea, dieu des eaux. Anu apparaît au premier rang des grands dieux dans une inscription de Lugalsaggi, et à des époques quelque peu ultérieures, il parvint à la tête de la plus ancienne triade qui se compose d'Ann, Enlil et Ea. Son principal siège de culte était Uruk, mais à l'époque assyrienne il fut associé au dieu Adad dans un temple de la ville d'Asshur. Dans les mythes et les épopées, il remplit un rôle important comme celui qui dispose de tous les événements, mais on ne peut le considérer comme tout à fait égal en rang à Enlil, malgré sa position dans les cieux. Antu ou Anatu est mentionnée comme épouse d'Ann, mais c'est une figure sans relief, et elle peut probablement être considérée comme guère autre chose qu'une invention grammaticale due au désir des Sémites d'associer le féminin au masculin dans leurs langues.",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "3. Ea:",
+          "target": "3. Ea :",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "The reading of the name of the god Ea still remains uncertain. It may perhaps have been Ae, as the Greek Aos would seem to indicate. His chief city of worship was Eridu, which in the earliest period was situated on the Persian Gulf, near the mouths of the Euphrates and the Tigris. His temple was there called E-absu, which means \"house of the deeps,\" interpreted also as \"house of wisdom.\" He must have been a god of great importance in early times, but was left behind by the growing influence of Ellil and in a later period retained honor chiefly because he was assumed to be the. father of the god Marduk, and so was reverenced by the people of the city of Babylon. As the lord of wisdom he filled a great role in exorcisms down to the very last, and was believed to be the god who was most ready to respond to human need in direful circumstances. Ea's wife is called Damkina.",
+          "target": "La lecture du nom du dieu Ea demeure encore incertaine. C'était peut-être Ae, comme semblerait l'indiquer le grec Aos. Sa principale ville de culte était Eridu, située à la période la plus ancienne sur le golfe Persique, près des embouchures de l'Euphrate et du Tigre. Son temple y était appelé E-absu, ce qui signifie « maison des profondeurs », interprété aussi comme « maison de la sagesse ». Il doit avoir été un dieu de grande importance aux temps anciens, mais il fut laissé en arrière par l'influence croissante d'Ellil et, à une période ultérieure, conserva principalement son honneur parce qu'il était supposé être le père du dieu Marduk, et était donc vénéré par les habitants de la ville de Babylone. En tant que seigneur de la sagesse, il remplit un grand rôle dans les exorcismes jusqu'à la toute fin, et on le croyait le dieu le plus disposé à répondre aux besoins humains dans des circonstances terribles. L'épouse d'Ea est appelée Damkina.",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "4. Sin:",
+          "target": "4. Sin :",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "text",
+          "source": "Sin was the city god of Urn (Ur of the Chaldeans in the Old Testament). He was originally a local god who came early to a lofty position in the canon because he seems always to have been identified with the moon, and in Babylon the moon was always of more importance than the sun because of its use in the calendar. His temple was called E-kishshirgal, i.e. \"house of light.\" His worship was widespread, for at a very early date he had a shrine at Harran in Mesopotamia. His wife is called Ningal, the Great Lady, the Queen, and his name probably appears in Mt. Sinai. He is addressed in hymns of great beauty and was regarded as a most kindly god.",
+          "target": "Sin était le dieu de la ville d'Urn (Ur des Chaldéens dans l'Ancien Testament). C'était à l'origine un dieu local qui parvint de bonne heure à une position élevée dans le canon, parce qu'il semble avoir toujours été identifié à la lune, et qu'à Babylone la lune était toujours plus importante que le soleil à cause de son emploi dans le calendrier. Son temple était appelé E-kishshirgal, c'est-à-dire « maison de la lumière ». Son culte était largement répandu, car à une date très ancienne il avait un sanctuaire à Harran en Mésopotamie. Son épouse est appelée Ningal, la Grande Dame, la Reine, et son nom apparaît probablement dans celui du mont Sinaï. On s'adresse à lui dans des hymnes d'une grande beauté, et il était considéré comme un dieu très bienveillant.",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "5. Shamash:",
+          "target": "5. Shamash :",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "The Sun-god, Shamash, ranks next after Sin in the second or later triad, and there can be no doubt that he was from the beginning associated with the sun in the heavens. His seats of worship were Larsa in southern Babylonia and Sippar in northern Babylonia in both of which his temple was called E-bab-bar, \"shining house.\" He also is honored in magnificent hymns in which he is saluted as the enemy and the avenger of evil, but as the benignant furtherer of all good, especially of that which concerns the races of men. All legislation is ascribed to him as the supreme judge in heaven. To him the Babylonians also ascribe similar powers in war to those which the Egyptians accorded to Re. From some of the texts one might have supposed that he would have come to the top of the triad, but this appears not to have been the case, and his influence extended rather in the direction of influencing minor local deities who were judged to be characterized by attributes similar to those ascribed to him in the greater hymns.",
+          "target": "Le dieu solaire, Shamash, vient immédiatement après Sin dans la deuxième triade ou triade ultérieure, et il ne peut y avoir aucun doute qu'il ait été dès le commencement associé au soleil dans les cieux. Les sièges de son culte étaient Larsa dans le sud de la Babylonie et Sippar dans le nord de la Babylonie, dans lesquelles son temple était appelé E-bab-bar, « maison resplendissante ». Il est lui aussi honoré dans de magnifiques hymnes où il est salué comme l'ennemi et le vengeur du mal, mais comme le promoteur bienveillant de tout bien, surtout de ce qui concerne les races humaines. Toute législation lui est attribuée en tant que juge suprême dans le ciel. Les Babyloniens lui attribuent aussi dans la guerre des pouvoirs semblables à ceux que les Égyptiens accordaient à Rê. D'après certains textes, on aurait pu supposer qu'il parviendrait à la tête de la triade, mais il ne semble pas en avoir été ainsi, et son influence s'étendit plutôt dans le sens d'une influence sur les divinités locales mineures que l'on estimait caractérisées par des attributs semblables à ceux qu'on lui prêtait dans les grands hymnes.",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "text",
+          "source": "6. Ishtar:",
+          "target": "6. Ishtar:",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 80,
+          "part": "text",
+          "source": "The origin and the meaning of the name of the goddess Ishtar are still disputed, but of her rank there can be no doubt. In the very earliest inscriptions known to us she does not seem to have been associated with the planet Venus as she is in later times. She seems rather to have been a goddess of fruitfulness and of love, and in her temple at Uruk temple- prostitution was a feature. In the mythological literature she occupies a high place as the goddess of war and of the chase. Because of this later identification she became the chief goddess of the warlike Assyrians. Little by little she absorbed all the other goddesses and her name became the general word for goddess. Her chief seats of worhip were Uruk in southern Babylonia, where she was worshipped in earliest times under the name of Nana, and Akkad in northern Babylonia, where she was called Anunitu, and Nineveh and Arbela in Assyria. Some of the hymns addressed to her are among the noblest products of Babylonian and Assyrian religion and reach a considerable ethical position. This development of a sexual goddess into a goddess who severely judged the sins of men is one of the strangest phenomena in the history of this religion.",
+          "target": "L'origine et le sens du nom de la déesse Ishtar sont encore discutés, mais son rang ne saurait faire de doute. Dans les toutes premières inscriptions que nous connaissons, elle ne semble pas avoir été associée à la planète Vénus comme elle le fut aux époques ultérieures. Elle semble plutôt avoir été une déesse de la fécondité et de l'amour, et dans son temple à Uruk, la prostitution sacrée constituait un trait caractéristique. Dans la littérature mythologique, elle occupe une place élevée comme déesse de la guerre et de la chasse. En raison de cette identification ultérieure, elle devint la principale déesse des Assyriens belliqueux. Peu à peu elle absorba toutes les autres déesses et son nom devint le terme général pour désigner une déesse. Les principaux sièges de son culte étaient Uruk, dans le sud de la Babylonie, où elle était adorée aux temps les plus anciens sous le nom de Nana, et Accad, dans le nord de la Babylonie, où elle était appelée Anunitu, ainsi que Ninive et Arbèles en Assyrie. Certains des hymnes qui lui sont adressés comptent parmi les plus nobles productions de la religion babylonienne et assyrienne et atteignent un niveau moral considérable. Cette évolution d'une déesse de la sexualité en une déesse qui jugeait sévèrement les péchés des hommes est l'un des phénomènes les plus étranges de l'histoire de cette religion.",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "text",
+          "source": "7. Marduk:",
+          "target": "7. Marduk :",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "Marduk (in the Old Testament Merodach) is the city-god of Babylon where his temple was called E-sagila (\"lofty house\") and its tower E-teme nanki (\"house of the foundation of heaven and earth\"). His wife is Sarpanitu, and, as we have already seen, his father was Ea, and in later days Nabu was considered his son. The city of Babylon in the earliest period was insignificant in importance compared with Nippur and Eridu, and this city-god could not therefore lay claim to a position comparable with the gods of these cities, but after Hammurabi had made Babylon the chief city of all Babylonia its god rapidly increased in importance until he absorbed the attributes of the earlier gods and displaced them in the great myths. The speculative philosophers of the neo-Babylonian period went so far as to identify all the earlier gods with him, elevating his worship into a sort of henotheism. His proper name in the later periods was gradually displaced by the appellativc Belu \"lord,\" so that finally he was commonly spoken of as Bel, and his consort was called Belit. He shares with Ishtar and Shamash the honor of having some of the finest hymns, which have come down to us, sung to his name.",
+          "target": "Marduk (Mérodac dans l'Ancien Testament) est le dieu de la ville de Babylone, où son temple était appelé E-sagila (« maison élevée ») et sa tour E-teme nanki (« maison de la fondation du ciel et de la terre »). Son épouse est Sarpanitu et, comme nous l'avons déjà vu, son père était Ea ; à des époques ultérieures, Nabu fut considéré comme son fils. La ville de Babylone, à la période la plus ancienne, était d'une importance insignifiante comparée à Nippur et à Eridu, et ce dieu local ne pouvait donc prétendre à une position comparable à celle des dieux de ces villes. Mais après que Hammurabi eut fait de Babylone la principale ville de toute la Babylonie, son dieu prit rapidement de l'importance, jusqu'à absorber les attributs des dieux antérieurs et à les supplanter dans les grands mythes. Les philosophes spéculatifs de la période néo-babylonienne allèrent jusqu'à identifier avec lui tous les dieux antérieurs, élevant son culte à une sorte d'hénothéisme. Aux époques ultérieures, son nom propre fut graduellement remplacé par l'appellatif Belu, « seigneur », de sorte que finalement on parlait couramment de lui sous le nom de Bel, et sa parèdre était appelée Belit. Il partage avec Ishtar et Shamash l'honneur d'avoir vu chanter à son nom quelques-uns des plus beaux hymnes qui nous soient parvenus.",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "8. Nabu:",
+          "target": "8. Nabu :",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "Nabu (in the Old Testament Nebo) was the city-god of Bor-sippa. His name is clearly Semitic, and means \"speaker\" or \"announcer.\" In earlier times he seems to have been a more important god than Marduk and was worshipped as the god of vegetation. His temple in Borsippa bore the name E-zida (\"perpetual house\") with the tower E-uriminanki (\"house of the seven rulers of heaven and earth\"). In later times he was identified with the planet Mercury.",
+          "target": "Nabu (Nébo dans l'Ancien Testament) était le dieu de la ville de Bor-sippa. Son nom est clairement sémitique et signifie « celui qui parle » ou « celui qui annonce ». Aux époques antérieures, il semble avoir été un dieu plus important que Marduk et était adoré comme le dieu de la végétation. Son temple à Borsippa portait le nom d'E-zida (« maison perpétuelle »), avec la tour E-uriminanki (« maison des sept souverains du ciel et de la terre »). Aux époques ultérieures, il fut identifié à la planète Mercure.",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "text",
+          "source": "9. Nergal:",
+          "target": "9. Nergal :",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "text",
+          "source": "Nergal, the city-god of Kutu (in the Old Testament Cuthah), was the god of the underworld and his wife Eresh-kigal was the sovereign lady of the under-world. He was also the god of plague and of fever, and in later days was associated with the planet Mars, though scholars who are attached to the astral theory (see below) think that he was identified at an earlier date with Saturn. For this view no certain proof has yet been produced.",
+          "target": "Nergal, le dieu de la ville de Kutu (Cutha dans l'Ancien Testament), était le dieu du monde souterrain, et son épouse Eresh-kigal était la souveraine du monde souterrain. Il était aussi le dieu de la peste et de la fièvre et, à des époques ultérieures, fut associé à la planète Mars, bien que les savants qui adhèrent à la théorie astrale (voir plus bas) pensent qu'il avait été identifié à une date antérieure à Saturne. Aucune preuve certaine de cette opinion n'a encore été produite.",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "text",
+          "source": "10. Ninib:",
+          "target": "10. Ninib :",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "text",
+          "source": "Unfortunately the correct pronunciation of the name of the god Ninib has not yet been secured. He seems originally to have been a god of vegetation, but in the later philosophical period was associated with the planet Saturn, called Kaitaann (Kewan, Chiun, ",
+          "target": "Malheureusement, la prononciation exacte du nom du dieu Ninib n'a pas encore été établie. Il semble avoir été à l'origine un dieu de la végétation, mais à l'époque philosophique ultérieure il fut associé à la planète Saturne, appelée Kaitaann (Kewan, Chiun, ",
+          "action": "translate"
+        },
+        {
+          "node": 89,
+          "part": "tail",
+          "source": " the King James Version, the English Revised Version). As a god of vegetation he becomes also a god of healing and his wife Gula was the chief patroness of physicians. He comes also to be regarded as a mighty hero in war, and, in this capacity generally, he fills a great role in the Assyrian religion.",
+          "target": " la King James Version, l'English Revised Version). En tant que dieu de la végétation, il devient aussi un dieu de la guérison, et son épouse Gula était la principale protectrice des médecins. Il en vient aussi à être considéré comme un puissant héros à la guerre et, généralement en cette qualité, il remplit un grand rôle dans la religion assyrienne.",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "text",
+          "source": "11. Ramman:",
+          "target": "11. Ramman :",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "text",
+          "source": "Ramman is the god of storms and thunder among the Babylonians and in the Assyrian pantheon he is usually called Adad. This form of the name is doubtless connected with the Aramaic god Hadad. In the Sumerian period his name seems to have been Ishkur. His wife is called Shala.",
+          "target": "Ramman est le dieu des tempêtes et du tonnerre chez les Babyloniens, et dans le panthéon assyrien il est habituellement appelé Adad. Cette forme du nom est sans doute apparentée au dieu araméen Hadad. À la période sumérienne, son nom semble avoir été Ishkur. Son épouse est appelée Shala.",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "text",
+          "source": "12. Tammuz:",
+          "target": "12. Tammuz :",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "text",
+          "source": "The name Tammuz is derived from the Sumerian Dumuzi-zuab (\"real child of the water depths\"). He is a god of vegetation which is revived by the rains of the spring. Tammuz never became one of the great gods of the pantheon, but his popularity far exceeded that of the many gods who were regarded as greater than he. His worship is associated with that of Ishtar whose paramour he was, and the beautiful story of the descent of Ishtar to Hades was written to describe Ishtar's pursuit of him to the depths of the under-world seeking to bring him up again. His disappearance in the under-world is associated with the disappearance of vegetation under the midsummer heat which revives again when the rain comes and the god appears once more on the earth. The cult of Tammuz survived the decay of Babylonian and Assyrian civilization and made its way into the western world. It was similar in some respects to that of Osiris in Egypt, but was not so beautiful or so humane.",
+          "target": "Le nom de Tammuz dérive du sumérien Dumuzi-zuab (« véritable enfant des profondeurs des eaux »). Il est un dieu de la végétation que les pluies du printemps font revivre. Tammuz ne devint jamais l'un des grands dieux du panthéon, mais sa popularité dépassa de loin celle des nombreux dieux que l'on considérait comme plus grands que lui. Son culte est associé à celui d'Ishtar dont il était l'amant, et le beau récit de la descente d'Ishtar aux enfers fut écrit pour décrire la poursuite d'Ishtar qui le suivit jusque dans les profondeurs du monde souterrain, cherchant à le faire remonter. Sa disparition dans le monde souterrain est associée à la disparition de la végétation sous la chaleur du milieu de l'été ; celle-ci renaît lorsque vient la pluie et que le dieu paraît de nouveau sur la terre. Le culte de Tammuz survécut au déclin de la civilisation babylonienne et assyrienne et se fraya un chemin jusque dans le monde occidental. Il ressemblait à certains égards à celui d'Osiris en Égypte, mais n'était ni aussi beau ni aussi humain.",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "text",
+          "source": "13. Asshur:",
+          "target": "13. Asshur :",
+          "action": "translate"
+        },
+        {
+          "node": 95,
+          "part": "text",
+          "source": "The supreme god of Assyria, Asshur, was originally the local god of the city which bears the same name. During the whole of Assyrian history his chief role is as the god of war, but the speculative philosophers of Assyria absorbed into him many of the characteristics of Ellil and Marduk, going even so far as to ascribe to him the chief place in the conflict with the sea monster Tiamat in the creation epoch.",
+          "target": "Le dieu suprême de l'Assyrie, Asshur, était à l'origine le dieu local de la ville qui porte le même nom. Durant toute l'histoire assyrienne, son rôle principal est celui de dieu de la guerre, mais les philosophes spéculatifs de l'Assyrie firent absorber par lui nombre des caractéristiques d'Ellil et de Marduk, allant jusqu'à lui attribuer la place principale dans le combat contre le monstre marin Tiamat à l'époque de la création.",
+          "action": "translate"
+        },
+        {
+          "node": 97,
+          "part": "text",
+          "source": "V. Hymns and Prayers.",
+          "target": "V. Hymnes et prières.",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "text",
+          "source": "The religious literature of the Babylonians and Assyrians culminated in a great series of hymns to the gods. These have come down to us from almost all periods of the religious history of the people. Some of them go back to the days of the old city- kingdoms and others were composed during the reign of Nabonidus when the fall of Babylon at the hands of Cyrus was imminent. The greatest number of those that have come down to us are dedicated to Shamash, the Sun-god, but many of the finest, as we have already seen, were composed in honor of Sin, the Moon-god. None of these reached monotheism. All are polytheistic, with perhaps tendencies in the direction of pantheism or henotheism. This incapacity to reach monotheism may have been partially due to the influence of the local city whose tendency was always to hold tightly to the honor of the local god. Babylonia might struggle never so hard to lift Marduk to high and still higher position, but in spite of all its efforts he remains to the very end of the days only one god among many. And even the greatest of the Babylonian kings, Nebuchadrezzar and Nabonidus, continued to pay honor to Shamash in Sippar, whose temple they continually rebuilt and adorned with ever greater magnificence. Better than any description of the hymns is a specimen adequately to show their quality. Here are some lines taken from an ancient Sumerian hymn to the Moon-god which had been copied and preserved with an Assyrian translation in the library of Ashurbanipal: + O Lord, chief of the gods, who alone art exalted on earth and in heaven, Father Nannar, Lord, Anshar, chief of the gods, Father Nannar, Lord, great Ann, chief of the gods, Father Nannar, Lord, Sin, chief of the gods, Father Nanbar, Lord of Ur, chief of the gods, Father Nannar, Lord of E-gish-shir-gal, chief of the gods, Father Nannar, Lord of the veil, brilliant one, chief of the gods, Father Nannar, whose rule is perfect, chief of the gods, Father Nannar, who does march in great majesty, chief of the gods, O strong, young bull, with strong horns, perfect in muscles, with beard of lapis lazuli color, full of glory and perfection, Self-created, full of developed fruit, beautiful to look upon, in whose being one cannot sufficiently sate himself; Mother womb, begetter of all things, who has taken up his exalted habitation among living creatures; O merciful, gracious father, in whose hand rests the life of the whole world, O Lord, thy divinity is full of awe, like the far-off heaven and the broad ocean. O creator of the land, founder of sanctuaries, proclaimer of their names, O father, begetter of gods and men, who dost build dwellings and establish offerings, Who dost call to lordship, dost bestow the scepter, determinest destinies for far-off days. - Much of this is full of fine religious feeling, and the exaltation of Sin sounds as though the poet could scarcely acknowledge any other god, but the proof that other gods were invoked in the same terms and by the same kings is plentiful.",
+          "target": "La littérature religieuse des Babyloniens et des Assyriens culmina dans un grand ensemble d'hymnes adressés aux dieux. Ceux-ci nous sont parvenus de presque toutes les périodes de l'histoire religieuse du peuple. Certains remontent aux jours des anciennes cités-royaumes, et d'autres furent composés durant le règne de Nabonide, lorsque la chute de Babylone aux mains de Cyrus était imminente. Le plus grand nombre de ceux qui nous sont parvenus sont dédiés à Shamash, le dieu solaire, mais beaucoup des plus beaux, comme nous l'avons déjà vu, furent composés en l'honneur de Sin, le dieu lunaire. Aucun de ceux-ci n'atteignit le monothéisme. Tous sont polythéistes, avec peut-être des tendances vers le panthéisme ou l'hénothéisme. Cette incapacité à atteindre le monothéisme peut avoir été partiellement due à l'influence de la cité locale, dont la tendance était toujours de tenir fermement à l'honneur du dieu local. La Babylonie avait beau s'efforcer avec acharnement d'élever Marduk à une position haute et toujours plus haute, malgré tous ses efforts il demeure jusqu'à la toute fin des temps un seul dieu parmi beaucoup. Et même les plus grands des rois babyloniens, Nebucadnetsar et Nabonide, continuèrent à honorer Shamash à Sippar, dont ils rebâtirent et ornèrent continuellement le temple avec une magnificence toujours accrue. Mieux que toute description des hymnes, un exemple en montrera convenablement la qualité. Voici quelques lignes tirées d'un ancien hymne sumérien au dieu lunaire, qui avait été copié et conservé avec une traduction assyrienne dans la bibliothèque d'Assurbanipal : + Ô Seigneur, chef des dieux, toi seul élevé sur la terre et dans le ciel, Père Nannar, Seigneur, Anshar, chef des dieux, Père Nannar, Seigneur, grand Ann, chef des dieux, Père Nannar, Seigneur, Sin, chef des dieux, Père Nanbar, Seigneur d'Ur, chef des dieux, Père Nannar, Seigneur d'E-gish-shir-gal, chef des dieux, Père Nannar, Seigneur du voile, être resplendissant, chef des dieux, Père Nannar, dont le gouvernement est parfait, chef des dieux, Père Nannar, qui marches en grande majesté, chef des dieux, Ô jeune taureau puissant, aux cornes fortes, aux muscles parfaits, à la barbe couleur de lapis-lazuli, plein de gloire et de perfection, Créé par toi-même, plein de fruits développés, beau à contempler, dont l'être ne saurait rassasier suffisamment celui qui le contemple ; Sein maternel, générateur de toutes choses, qui a établi sa demeure élevée parmi les créatures vivantes ; Ô père miséricordieux et plein de grâce, dans la main duquel repose la vie du monde entier, Ô Seigneur, ta divinité inspire une profonde crainte, comme le ciel lointain et le vaste océan. Ô créateur du pays, fondateur des sanctuaires, proclamateur de leurs noms, Ô père, générateur des dieux et des hommes, toi qui bâtis les demeures et établis les offrandes, Qui appelles à la souveraineté, accordes le sceptre, détermines les destins pour les jours lointains. - Une grande partie de ceci est pleine de beaux sentiments religieux, et l'exaltation de Sin donne l'impression que le poète pourrait à peine reconnaître quelque autre dieu, mais les preuves abondent que d'autres dieux étaient invoqués dans les mêmes termes et par les mêmes rois.",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "Some of these hymns are connected with magical and incantation literature, for they serve to introduce passages which are intended to drive away evil demons. A very few of them on the other hand rise to very lofty conceptions in which the god is praised as a judge of righteousness. A few lines from the greatest of all the hymns addressed to Shamash, the Sun-god, will make this plain:",
+          "target": "Certains de ces hymnes se rattachent à la littérature magique et incantatoire, car ils servent à introduire des passages destinés à chasser les démons malfaisants. Quelques-uns, très peu nombreux, s'élèvent au contraire à des conceptions très hautes dans lesquelles le dieu est loué comme juge de justice. Quelques lignes du plus grand de tous les hymnes adressés à Shamash, le dieu solaire, rendront cela manifeste :",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "text",
+          "source": "COLUMN II + Who plans evil--his horn thou dost destroy, 40 Whoever in fixing boundaries annuls rights. The unjust judge thou restrainest with force. Whoever accepts a bribe, who does not judge justly--on him thou imposest sin. But he who does not accept a bribe, who has a care for the oppressed, To him Shamash is gracious, his life he prolongs. 45 The judge who renders a just decision Shall end in a palace, the place of princes shall be his dwelling. - COLUMN III + The seed of those who act unjustly shall not flourish. What their mouth declares in thy presence Thou shalt burn it up, what they purpose wilt thou annul. 15 Thou knowest their transgressions: the declaration of the wicked thou dost cast aside. Everyone, wherever he may be, is in thy care. Thou directest their judgments, the imprisoned dost thou liberate. Thou hearest, O Shamash, petition, prayer, and appeal. Humility, prostration, petitioning, and reverence. 20 With loud voice the unfortunate one cries to thee. The weak, the exhausted, the oppressed, the lowly, Mother, wife, maid appeal to thee. He who is removed from his family, he that dwelleth far from his city. - There is in this hymn no suggestion of magic or sorcery. We cannot but feel how close this poet came to an appreciation of the Sun-god as a judge of men on an ethical basis. How near he was to passing through the vale into a larger religious life!",
+          "target": "COLONNE II + Celui qui médite le mal — tu détruis sa corne, 40 Quiconque, en fixant des limites, annule des droits. Le juge injuste, tu le retiens par la force. Quiconque accepte un présent corrupteur, qui ne juge pas avec justice — sur lui tu fais peser le péché. Mais celui qui n'accepte pas de présent corrupteur, qui prend soin de l'opprimé, Envers lui Shamash est bienveillant, il prolonge sa vie. 45 Le juge qui rend une décision juste Finira dans un palais, le lieu des princes sera sa demeure. - COLONNE III + La semence de ceux qui agissent injustement ne prospérera pas. Ce que leur bouche déclare en ta présence, Tu le consumeras, ce qu'ils projettent, tu l'annuleras. 15 Tu connais leurs transgressions : la déclaration du méchant, tu la rejettes. Chacun, où qu'il soit, est l'objet de tes soins. Tu diriges leurs jugements, tu libères les prisonniers. Tu entends, ô Shamash, la supplication, la prière et l'appel. Humilité, prosternation, supplication et révérence. 20 D'une voix forte, le malheureux crie vers toi. Le faible, l'épuisé, l'opprimé, l'humble, La mère, l'épouse, la jeune fille en appellent à toi. Celui qui est éloigné de sa famille, celui qui habite loin de sa ville. - Dans cet hymne il n'y a aucune suggestion de magie ou de sorcellerie. Nous ne pouvons manquer de sentir combien ce poète était près de reconnaître le dieu solaire comme juge des hommes sur un fondement moral. Combien il était près de franchir la vallée pour entrer dans une vie religieuse plus vaste !",
+          "action": "translate"
+        },
+        {
+          "node": 101,
+          "part": "text",
+          "source": "The prayers are on the whole upon a lower plane, though some of them, notably those of Nebuchadrezzar, reach lofty conceptions. The following may serve as a sufficient example:",
+          "target": "Dans l'ensemble, les prières se situent sur un plan inférieur, bien que certaines d'entre elles, notamment celles de Nebucadnetsar, atteignent de hautes conceptions. Ce qui suit peut servir d'exemple suffisant :",
+          "action": "translate"
+        },
+        {
+          "node": 102,
+          "part": "text",
+          "source": "O eternal ruler, lord of all being, grant that the name of the king that thou lovest, whose. name thou hast proclaimed. may flourish as seems pleasing to thee. Lead him in the right way. I am the prince that obeys thee, the creature of thy hand. Thou hast created me, and hast entrusted to me dominion over mankind. According to thy mercy, O Lord, which thou bestowest upon all, may thy supreme rule be merciful! The worship of thy divinity implant in my heart! Grant me what seems good to thee, for thou art he that hast fashioned my life.",
+          "target": "Ô souverain éternel, Seigneur de tout être, accorde que le nom du roi que tu aimes, dont tu as proclamé le nom, prospère comme il te semble agréable. Conduis-le dans le droit chemin. Je suis le prince qui t'obéit, la créature de ta main. Tu m'as créé et tu m'as confié la domination sur l'humanité. Selon ta miséricorde, ô Seigneur, que tu accordes à tous, que ton gouvernement suprême soit miséricordieux ! Implante dans mon cœur le culte de ta divinité ! Accorde-moi ce qui te semble bon, car tu es celui qui a façonné ma vie.",
+          "action": "translate"
+        },
+        {
+          "node": 104,
+          "part": "text",
+          "source": "VI. Magic:",
+          "target": "VI. Magie :",
+          "action": "translate"
+        },
+        {
+          "node": 105,
+          "part": "text",
+          "source": "Next in importance to the gods in the Babylonian religion are the demons who had the power to afflict men with manifold diseases of body or mind. A large part of the religion seems to have been given up to an agonized struggle against these demons, and the gods were everywhere approached by prayer to assist men against these demons. An immense mass of incantations, supposed to have the power of driving the demons out, has come down to us. The use of these incantations lay chiefly in the hands of the priests who attached great importance to specific words or sets of words. The test of time was supposed to have shown that certain words were efficacious in certain instances. If in any case the result was not secured, it could only be ascribed to the use of the wrong formula; hence there grew up a great desire to preserve exactly the words which in some cases had brought healing. Later these incantations were gathered into groups or rituals classified according to purpose or use. Of the rituals which have come down to us, the following are the most important:",
+          "target": "Après les dieux, en importance dans la religion babylonienne, viennent les démons qui avaient le pouvoir d'affliger les hommes de multiples maladies du corps ou de l'esprit. Une grande partie de la religion semble avoir été consacrée à une lutte angoissée contre ces démons, et partout on s'adressait aux dieux par la prière pour qu'ils assistassent les hommes contre ces démons. Une immense masse d'incantations, censées avoir le pouvoir de chasser les démons, nous est parvenue. L'emploi de ces incantations était principalement entre les mains des prêtres, qui attachaient une grande importance à des mots ou ensembles de mots précis. L'épreuve du temps était censée avoir montré que certains mots étaient efficaces dans certains cas. Si, dans un cas quelconque, le résultat n'était pas obtenu, cela ne pouvait être attribué qu'à l'emploi d'une formule erronée ; de là naquit un grand désir de conserver exactement les mots qui, dans certains cas, avaient apporté la guérison. Plus tard, ces incantations furent rassemblées en groupes ou rituels classés selon leur but ou leur usage. Parmi les rituels qui nous sont parvenus, les suivants sont les plus importants :",
+          "action": "translate"
+        },
+        {
+          "node": 106,
+          "part": "text",
+          "source": "1. Maqlu:",
+          "target": "1. Maqlu:",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 107,
+          "part": "text",
+          "source": "Maqlu, i.e. \"burning,\" so called because there are in it many symbolic burnings of images or witches. This series is used in the delivering of sufferers from witches or sorcerers.",
+          "target": "Maqlu, c'est-à-dire « combustion », ainsi appelé parce qu'il contient de nombreuses combustions symboliques d'images ou de sorcières. Cette série est employée pour délivrer ceux qui souffrent de l'action des sorcières ou des sorciers.",
+          "action": "translate"
+        },
+        {
+          "node": 108,
+          "part": "text",
+          "source": "2. Shurpu:",
+          "target": "2. Shurpu :",
+          "action": "translate"
+        },
+        {
+          "node": 109,
+          "part": "text",
+          "source": "Shurpu is another word for burning, and this series also deals much in symbolic burnings and for the same purposes as the former. In these incantations we make the acquaintance of a large number of strange demons such as the rabisu, a demon that springs unawares on its victims; the labartu, which attacks women and children; and the lilu and the lilitu, to which reference has been made before, and the utuku, a strong demon.",
+          "target": "Shurpu est un autre mot désignant la combustion, et cette série fait également grand usage de combustions symboliques aux mêmes fins que la précédente. Dans ces incantations, nous faisons connaissance avec un grand nombre de démons étranges, tels que le rabisu, démon qui bondit à l'improviste sur ses victimes ; le labartu, qui attaque les femmes et les enfants ; le lilu et le lilitu, dont il a été question précédemment, et l'utuku, démon puissant.",
+          "action": "translate"
+        },
+        {
+          "node": 110,
+          "part": "text",
+          "source": "These incantations are for the most part a wretched jargon without meaning, and a sad commentary on the low position occupied by the religion which has attained such noble heights as that represented in the hymns and prayers. It is strange that the higher forms of religion were not able to drive out the lower, but these incantations continued to be carefully copied and used down to the very end of the Babylonian commonwealth.",
+          "target": "Ces incantations sont pour la plupart un misérable jargon dépourvu de sens, et un triste commentaire sur le niveau inférieur où se trouve la religion qui a atteint des hauteurs si nobles que celles représentées dans les hymnes et les prières. Il est étrange que les formes supérieures de religion n'aient pas été capables de chasser les formes inférieures, mais ces incantations continuèrent d'être soigneusement copiées et employées jusqu'à la toute fin de l'État babylonien.",
+          "action": "translate"
+        },
+        {
+          "node": 112,
+          "part": "text",
+          "source": "VII. The Last Things.",
+          "target": "VII. Les fins dernières.",
+          "action": "translate"
+        },
+        {
+          "node": 113,
+          "part": "text",
+          "source": "In Babylonia, the great question of all the ages--\"If a man die shall he live again?\"--was asked and an attempt made to answer it. The answer was usually sad and depressing. After death the souls of men were supposed to continue in existence. It can hardly be called life. The place to which they have gone is called the \"land of no return.\" There they lived in dark rooms amid the dust and the bats covered with a garment of feathers, and under the dominion of Nergal and Ereshkigal. When the soul arrived among the dead he had to pass judgment before the judges of the dead, the Annunaki, but little has been preserved for us concerning the manner of this judgment. There seems to have been at times an idea that it might be possible for the dead to return again to life, for in this underworld there was the water of life, which was used when the god Tammuz returned again to earth. The Babylonians seem not to have attached so much importance to this after-existence as did the Egyptians, but they did practice burial and not cremation, and placed often with the dead articles which might be used in his future existence. In earlier times the dead were buried in their own houses, and among the rich this custom seems to have prevailed until the very latest times. For others the custom of burying in an acropolis was adopted, and near the city of Kutha was an acropolis which was especially famous. In the future world there seem to have been distinctions made among the dead. Those who fell in battle seem to have had special favor. They received fresh water to drink, while those who had no posterity to put offerings at their graves suffered sore and many deprivations. It is to be hoped that later discoveries of religious texts may shed more light upon this phase of the religion which is still obscure.",
+          "target": "En Babylonie, la grande question de tous les siècles — « Si un homme meurt, revivra-t-il ? » — fut posée, et l'on tenta d'y répondre. La réponse était habituellement triste et déprimante. Après la mort, les âmes des hommes étaient censées continuer à exister. On peut difficilement appeler cela la vie. Le lieu où elles sont allées est appelé le « pays sans retour ». Là, elles vivaient dans des chambres obscures au milieu de la poussière et des chauves-souris, couvertes d'un vêtement de plumes, et sous la domination de Nergal et d'Ereshkigal. Lorsque l'âme arrivait parmi les morts, elle devait passer en jugement devant les juges des morts, les Annunaki, mais peu de choses nous ont été conservées concernant la manière dont ce jugement s'effectuait. Il semble qu'il y ait eu parfois l'idée qu'il pourrait être possible aux morts de revenir à la vie, car dans ce monde souterrain se trouvait l'eau de la vie, qui fut employée lorsque le dieu Tammuz revint sur terre. Les Babyloniens ne semblent pas avoir attaché autant d'importance à cette existence ultérieure que les Égyptiens, mais ils pratiquaient l'inhumation et non la crémation, et plaçaient souvent auprès du mort des objets qui pourraient lui servir dans son existence future. Aux temps anciens, les morts étaient enterrés dans leurs propres maisons, et chez les riches cette coutume semble avoir prévalu jusqu'aux époques les plus tardives. Pour les autres, la coutume d'enterrer dans une acropole fut adoptée, et près de la ville de Kutha se trouvait une acropole particulièrement célèbre. Dans le monde futur, il semble que des distinctions aient été faites entre les morts. Ceux qui tombaient au combat semblent avoir joui d'une faveur particulière. Ils recevaient de l'eau fraîche à boire, tandis que ceux qui n'avaient pas de postérité pour déposer des offrandes sur leurs tombes souffraient de graves et nombreuses privations. Il faut espérer que des découvertes ultérieures de textes religieux jetteront davantage de lumière sur cet aspect de la religion qui demeure obscur.",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "text",
+          "source": "VIII. Myths and Epics:",
+          "target": "VIII. Mythes et épopées :",
+          "action": "translate"
+        },
+        {
+          "node": 116,
+          "part": "text",
+          "source": "In ancient religions the myth fills a very important place, serving many of the functions of dogma in modern religions. These myths have come down to us associated usually with epics, or made a part of ancient stories which belong to the library of Ashurbanipal. Most of them have been copied from earlier Babylonian originals, which go back in origin to the wonderful period of intellectual and political development which began with Hammurabi. The most interesting of those which have been preserved for us are the story of Adapa and the sto ry of Gilgames. This same divine being Adapa, son of Ea, was employed in Ea's temple at Eridu supplying the ritual bread and water. One day, while fishing in the sea, the south wind swept sharply upon him, overturned his boat, and he fell into the sea, the \"house of the fishes.\" Angered by his misfortune, he broke the wings of the south wind, and for seven days it was unable to bring the comfort of the sea coolness over the hot land. And Anu said: + \"Why has the south wind for seven days not blown over the land?\" His messenger Ilabrat answered him: \"My Lord, Adapa, the son of Ea, hath broken the wing of The south wind.\" - Then Anu ordered the culprit brought before him, and before he departed to this ordeal Ea gave him instructions. He is to go up to the gatekeepers of heaven, Tammuz and Gish-zida, clad in mourning garb to excite their sympathy. When they ask why he is thus attired he is to tell them that his mourning is for two gods of earth who have disappeared (that is, themselves), and then they will intercede for him. Furthermore, he is cautioned not to eat the food or drink the water that will be set before him, for Ea fears that food and water of death will be set before him to destroy him. But exactly the opposite happened. Tammuz and Gish-zida prevailed in pleading, and Anu said: \"Bring for him food of life that he may eat it.\" They brought him food of life, but he did not eat. They brought him water of life, but he did not drink. They brought him a garment; he put it on. They brought him oil; he anointed himself with it.",
+          "target": "Dans les religions anciennes, le mythe occupe une place très importante, remplissant nombre des fonctions du dogme dans les religions modernes. Ces mythes nous sont parvenus généralement associés à des épopées, ou incorporés à des récits anciens qui appartiennent à la bibliothèque d'Assurbanipal. La plupart d'entre eux ont été copiés sur des originaux babyloniens antérieurs, dont l'origine remonte à la merveilleuse période de développement intellectuel et politique qui commença avec Hammurabi. Les plus intéressants de ceux qui nous ont été conservés sont le récit d'Adapa et celui de Gilgames. Ce même être divin, Adapa, fils d'Ea, était employé dans le temple d'Ea à Eridu pour fournir le pain et l'eau du rituel. Un jour, tandis qu'il pêchait en mer, le vent du sud fondit violemment sur lui, renversa son bateau, et il tomba dans la mer, la « maison des poissons ». Irrité par son malheur, il brisa les ailes du vent du sud, et pendant sept jours celui-ci fut incapable d'apporter le réconfort de la fraîcheur de la mer sur le pays brûlant. Et Anu dit : + « Pourquoi le vent du sud n'a-t-il pas soufflé sur le pays depuis sept jours ? » Son messager Ilabrat lui répondit : « Mon Seigneur, Adapa, fils d'Ea, a brisé l'aile du vent du sud. » - Alors Anu ordonna que le coupable fût amené devant lui, et avant son départ pour cette épreuve, Ea lui donna des instructions. Il doit monter auprès des gardiens des portes du ciel, Tammuz et Gish-zida, vêtu d'habits de deuil pour éveiller leur sympathie. Lorsqu'ils lui demanderont pourquoi il est ainsi vêtu, il doit leur dire qu'il porte le deuil de deux dieux de la terre qui ont disparu (c'est-à-dire eux-mêmes), et alors ils intercéderont pour lui. De plus, il est averti de ne pas manger la nourriture ni boire l'eau qui lui seront présentées, car Ea craint que de la nourriture et de l'eau de mort ne lui soient présentées pour le détruire. Mais c'est exactement le contraire qui arriva. Tammuz et Gish-zida obtinrent gain de cause par leurs supplications, et Anu dit : « Apportez-lui de la nourriture de vie afin qu'il en mange. » Ils lui apportèrent de la nourriture de vie, mais il ne mangea pas. Ils lui apportèrent de l'eau de vie, mais il ne but pas. Ils lui apportèrent un vêtement ; il le revêtit. Ils lui apportèrent de l'huile ; il s'en oignit.",
+          "action": "translate"
+        },
+        {
+          "node": 117,
+          "part": "text",
+          "source": "Adapa had obeyed Ea literally, and by so doing had missed the priceless boon of immortality. Some of the motives in this beautiful myth are similar to those found in Gen. Food of life seems to belong to the same category as the tree of life in Gen. The Babylonian doctrine was that man, though of Divine origin, did not share in the Divine attribute of immortality. In the Ge story Adam lost immortality because he desired to become like God. Adapa, on the other hand, was already endowed with knowledge and wisdom and failed of immortality, not because he was disobedient like Adam, but because he was obedient to Ea his creator. The legend would seem to be the Babylonian attempt to explain death.",
+          "target": "Adapa avait obéi littéralement à Ea et, ce faisant, avait manqué le don inestimable de l'immortalité. Certains des motifs de ce beau mythe ressemblent à ceux que l'on trouve dans la Genèse. La nourriture de vie semble appartenir à la même catégorie que l'arbre de vie dans la Genèse. La doctrine babylonienne était que l'homme, quoique d'origine divine, ne partageait pas l'attribut divin de l'immortalité. Dans le récit de la Genèse, Adam perdit l'immortalité parce qu'il désirait devenir comme Dieu. Adapa, au contraire, était déjà doué de connaissance et de sagesse et manqua l'immortalité, non parce qu'il fut désobéissant comme Adam, mais parce qu'il obéit à Ea, son créateur. La légende semblerait être la tentative babylonienne d'expliquer la mort.",
+          "action": "translate"
+        },
+        {
+          "node": 118,
+          "part": "text",
+          "source": "The greatest of all the Babylonian epics is the story of Gilgames, for in it the greatest of the myths seem to pour into one great stream of epic. It was written upon twelve big tablets in the library of Ashurbanipal, some of which have been badly broken. It was, however, copied from earlier tablets which go back to the First Dynasty of Babylon. The whole story is interesting and important, but its greatest significance lies in the eleventh tablet which contains a description of the great flood and is curiously parallel to the Flood story in the Book of Gen.",
+          "target": "La plus grande de toutes les épopées babyloniennes est le récit de Gilgames, car en lui les plus grands mythes semblent se déverser en un seul grand courant épique. Il était écrit sur douze grandes tablettes de la bibliothèque d'Assurbanipal, dont certaines ont été gravement brisées. Il avait cependant été copié sur des tablettes antérieures qui remontent à la première dynastie de Babylone. Le récit tout entier est intéressant et important, mais sa plus grande signification réside dans la onzième tablette, qui contient une description du grand Déluge et présente un curieux parallèle avec le récit du Déluge dans le livre de la Genèse.",
+          "action": "translate"
+        },
+        {
+          "node": 120,
+          "part": "text",
+          "source": "IX. The Astral Theory of the Universe:",
+          "target": "IX. La théorie astrale de l'univers :",
+          "action": "translate"
+        },
+        {
+          "node": 121,
+          "part": "text",
+          "source": "We have now passed in review the main features of the Babylonian and Assyrian religion. We have come all the way from a primitive animism to a higher organized polytheism with much theological speculation ending in a hope for existence after death, and we must now ask whether there is any great organizing idea which will bring all this religion and speculation into one great comprehensive system. A theory has been propounded which owes its exposition generally to Profes sor Hugo Winckler of the University of Berlin, who in a series of volumes and pamphlets has attempted to prove that the whole of the serious thinking and writing in the realm of religion among both the Babylonians and Assyrians rests down upon a Weltanschauung, a theory of the universe. This theory of Winckler's has found acceptance and propagation at the hands of Dr. Alfred Jeremias, and portions of it have been accepted by other scholars. The doctrine is extremely complicated and even those who accept it in part decline it in other parts and the exposition of it is difficult. In the form which it takes in the writings of Winckler and Jeremias, it has been still further complicated quite recently by sundry alterations which make it still more difficult. Most of these can only be regarded as efforts to shield theory from criticisms which have been successful in pointing out its weakness.",
+          "target": "Nous avons maintenant passé en revue les principaux traits de la religion babylonienne et assyrienne. Nous sommes partis d'un animisme primitif pour arriver à un polythéisme organisé supérieur, accompagné de nombreuses spéculations théologiques et aboutissant à un espoir d'existence après la mort ; et il nous faut maintenant demander s'il existe quelque grande idée organisatrice qui réunisse toute cette religion et ces spéculations en un grand système d'ensemble. Une théorie a été avancée, dont l'exposé est généralement dû au professeur Hugo Winckler de l'université de Berlin, qui, dans une série de volumes et de brochures, a tenté de prouver que toute la pensée et toute la littérature sérieuses dans le domaine religieux, tant chez les Babyloniens que chez les Assyriens, reposent sur une Weltanschauung, une théorie de l'univers. Cette théorie de Winckler a été acceptée et propagée par le Dr Alfred Jeremias, et certaines parties en ont été acceptées par d'autres savants. La doctrine est extrêmement compliquée, et même ceux qui l'acceptent en partie la rejettent en d'autres parties, et son exposé est difficile. Sous la forme qu'elle prend dans les écrits de Winckler et de Jeremias, elle a été encore compliquée tout récemment par diverses modifications qui la rendent plus difficile encore. La plupart de celles-ci ne peuvent être considérées que comme des efforts pour protéger la théorie contre des critiques qui ont réussi à en faire ressortir la faiblesse.",
+          "action": "translate"
+        },
+        {
+          "node": 122,
+          "part": "text",
+          "source": "According to Winckler and Jeremias, the Babylonians conceived of the cosmos as divided primarily into a heavenly and an earthly world, each of which is further subdivided into three parts. The heavenly world consists of",
+          "target": "Selon Winckler et Jeremias, les Babyloniens concevaient le cosmos comme divisé principalement en un monde céleste et un monde terrestre, chacun étant subdivisé à son tour en trois parties. Le monde céleste se compose de",
+          "action": "translate"
+        },
+        {
+          "node": 123,
+          "part": "text",
+          "source": "(1) the northern ocean;",
+          "target": "(1) l'océan septentrional ;",
+          "action": "translate"
+        },
+        {
+          "node": 124,
+          "part": "text",
+          "source": "(2) the zodiac;",
+          "target": "(2) le zodiaque ;",
+          "action": "translate"
+        },
+        {
+          "node": 125,
+          "part": "text",
+          "source": "(3) the heavenly ocean;",
+          "target": "(3) l'océan céleste ;",
+          "action": "translate"
+        },
+        {
+          "node": 126,
+          "part": "text",
+          "source": "while the earthly world consists of",
+          "target": "tandis que le monde terrestre se compose de",
+          "action": "translate"
+        },
+        {
+          "node": 127,
+          "part": "text",
+          "source": "(1) the heaven, i.e. the air above the earth;",
+          "target": "(1) le ciel, c'est-à-dire l'air au-dessus de la terre ;",
+          "action": "translate"
+        },
+        {
+          "node": 128,
+          "part": "text",
+          "source": "(2) the earth itself;",
+          "target": "(2) la terre elle-même ;",
+          "action": "translate"
+        },
+        {
+          "node": 129,
+          "part": "text",
+          "source": "(3) the waters beneath the earth.",
+          "target": "(3) les eaux au-dessous de la terre.",
+          "action": "translate"
+        },
+        {
+          "node": 130,
+          "part": "text",
+          "source": "These great subdivisions were ruled by the gods Anu in the heaven above, Bel in the earth and air, and Ea in the waters beneath. More important than these is the zodiac, the twelve heavenly figures which span the heavens and through which the moon passes every month, the sun once a year, and the five great planets which are visible to the naked eye have their courses. These moving stars serve as the interpreters of the Divine will while the fixed stars, so says Jeremias, are related thereto as the commentary written on the margin of the Book of Rev. The rulers of the zodiac are Sin, Shamash and Ishtar, and according to the law of correspondence, the Divine power manifested in them is identical with the power of Anu, Bel and Ea. The zodiac represents the world-cycle in the year, and also in the world-year, one of these gods may represent the total Divine power which reveals itself in the cycle. By the side of these three, Sin, Shamash and Ishtar, which represent respectively the moon, sun and Venus, there are arranged Marduk which is Jupiter, Nabu which is Mercury, Ninib which is Mars, and Nergal which is Saturn, these being the planets known to the ancients. Now upon these foundations, according to Winckler, and his school, the ancient priests of Babylonia built a closely knit and carefully thought-out world-system of an astral character, and this world-system forms the kernel of the ancient and oriental conception of the universe. This conception of the universe as a double-sided principle is of tremendous importance. First, the heavenly world with its three divisions corresponds exactly to the earthly world with its three divisions. Everything on earth corresponds to its counterpart in heaven. The heavens are a mirror of earth, and in them the gods reveal their will and purpose. Everything which has happened is only an earthly copy of the heavenly original. It is still written in the heavens above and still to be read there. All the myths and all the legends, not only of Babylonia, but of all the rest of the ancient world, are to be interpreted in accordance with this theory; nothing even in history is to be understood otherwise. \"An oriental history without consideration of the world era is unthinkable. The stars rule the changes of the times\" (Jeremias). The consequences of this theory are so overpowering that it is difficult to deal with it in fairness to its authors and in justice to the enormous labor and knowledge which they have put upon it.",
+          "target": "Ces grandes subdivisions étaient gouvernées par les dieux Anu dans le ciel supérieur, Bel dans la terre et l'air, et Ea dans les eaux inférieures. Plus important que ceux-ci est le zodiaque, les douze figures célestes qui s'étendent à travers les cieux, et par lesquelles la lune passe chaque mois, le soleil une fois par an, et les cinq grandes planètes visibles à l'œil nu accomplissent leurs courses. Ces astres mobiles servent d'interprètes de la volonté divine, tandis que les étoiles fixes, dit Jeremias, s'y rapportent comme le commentaire écrit dans la marge du livre de l'Apocalypse. Les souverains du zodiaque sont Sin, Shamash et Ishtar et, selon la loi de correspondance, la puissance divine manifestée en eux est identique à la puissance d'Anu, Bel et Ea. Le zodiaque représente le cycle du monde dans l'année, et aussi dans l'année du monde ; l'un de ces dieux peut représenter la totalité de la puissance divine qui se révèle dans le cycle. À côté de ces trois, Sin, Shamash et Ishtar, qui représentent respectivement la lune, le soleil et Vénus, sont disposés Marduk, qui est Jupiter, Nabu, qui est Mercure, Ninib, qui est Mars, et Nergal, qui est Saturne, telles étant les planètes connues des anciens. Or, sur ces fondements, selon Winckler et son école, les anciens prêtres de Babylonie édifièrent un système du monde de caractère astral, étroitement lié et soigneusement élaboré, et ce système du monde forme le noyau de la conception ancienne et orientale de l'univers. Cette conception de l'univers comme principe à deux faces est d'une importance considérable. Premièrement, le monde céleste avec ses trois divisions correspond exactement au monde terrestre avec ses trois divisions. Tout ce qui est sur terre correspond à son équivalent dans le ciel. Les cieux sont un miroir de la terre, et en eux les dieux révèlent leur volonté et leur dessein. Tout ce qui est arrivé n'est qu'une copie terrestre de l'original céleste. Cela est encore écrit dans les cieux au-dessus et peut encore y être lu. Tous les mythes et toutes les légendes, non seulement de la Babylonie, mais de tout le reste du monde ancien, doivent être interprétés conformément à cette théorie ; rien, même dans l'histoire, ne doit être compris autrement. « Une histoire orientale sans considération de l'ère du monde est inconcevable. Les astres gouvernent les changements des temps » (Jeremias). Les conséquences de cette théorie sont si écrasantes qu'il est difficile de la traiter avec équité envers ses auteurs et de rendre justice à l'immense travail et au savoir qu'ils y ont consacrés.",
+          "action": "translate"
+        },
+        {
+          "node": 131,
+          "part": "text",
+          "source": "It is impossible within the reasonable limits which are here imposed to discuss theory in detail, and for our purpose it will be sufficient to say that to the great majority of modern scholars who have carefully considered it in its details it seems to lack evidence sufficient to support so enormous a structure. That an astrological structure similar at least to this actually did arise in the Hellenistic period is not here disputed. The sole dispute is as to the antiquity of it. Now it does not appear that Winckler and Jeremias have been able to produce proof, first, that the Babylonians had enough knowledge of astronomy before the 7th century BC to have constructed such a system; and in the second place, there is no evidence that all the Babylonian gods had an astral character in the earlier period. On the contrary, there seems, as we have already attempted to show in the discussion of the pantheon, to be good reason to believe that many of the deities had no relation whatever to the stars in early times, but were rather gods of vegetation or of water or of other natural forces visible in earthly manifestations. The theory indeed may be said to have broken down by its own weight, for Winckler and Jeremias attempted to show that this theory of the universe spread to Israel, to the Greeks and to the Romans, and that it affords the only satisfactory explanation of the religion and of the history of the entire ancient world. An attempt has been made similar to previous abortive efforts to unlock all the doors of the ancient past with one key (see an interesting example cited in Rogers, Religion of Babylonia and Assyria, 224-25). Instead of gaining adherence in recent times, theory would appear to have lost, and even those who have given a tentative adherence to its claims, cautiously qualify the extent of their submission.",
+          "target": "Il est impossible, dans les limites raisonnables qui sont ici imposées, de discuter la théorie en détail, et pour notre propos il suffira de dire qu'aux yeux de la grande majorité des savants modernes qui l'ont soigneusement examinée dans ses détails, elle semble manquer de preuves suffisantes pour soutenir un édifice aussi immense. Qu'un édifice astrologique au moins semblable à celui-ci ait effectivement pris naissance à l'époque hellénistique n'est pas ici contesté. La seule contestation concerne son antiquité. Or il ne semble pas que Winckler et Jeremias aient pu produire la preuve, premièrement, que les Babyloniens possédaient assez de connaissances astronomiques avant le VIIe siècle av. J.-C. pour avoir construit un tel système ; et, en second lieu, il n'existe aucune preuve que tous les dieux babyloniens aient eu un caractère astral à la période antérieure. Au contraire, il semble, comme nous avons déjà tenté de le montrer dans la discussion du panthéon, qu'il y ait de bonnes raisons de croire que beaucoup des divinités n'avaient aucun rapport avec les étoiles aux temps anciens, mais étaient plutôt des dieux de la végétation, de l'eau ou d'autres forces naturelles visibles dans des manifestations terrestres. On peut en vérité dire que la théorie s'est effondrée sous son propre poids, car Winckler et Jeremias tentèrent de montrer que cette théorie de l'univers s'était répandue jusqu'à Israël, aux Grecs et aux Romains, et qu'elle fournit la seule explication satisfaisante de la religion et de l'histoire du monde ancien tout entier. On a fait une tentative semblable aux efforts avortés précédents pour ouvrir toutes les portes du passé ancien avec une seule clé (voir un exemple intéressant cité dans Rogers, Religion of Babylonia and Assyria, 224-25). Au lieu de gagner des adhérents récemment, la théorie semblerait en avoir perdu, et même ceux qui ont accordé une adhésion provisoire à ses prétentions limitent prudemment l'étendue de leur soumission.",
+          "action": "translate"
+        },
+        {
+          "node": 133,
+          "part": "text",
+          "source": "X. The Relations with the Religion of Israel:",
+          "target": "X. Les rapports avec la religion d'Israël :",
+          "action": "translate"
+        },
+        {
+          "node": 134,
+          "part": "text",
+          "source": "No question concerning the religion of Babylonia and Assyria is of so great interest and importance to students of the Bible as the question of the relation between this religion and the faith of Yahweh, as professed by Israel. It seems now to be clearly demonstrated that the religion of Israel has borrowed various literary materials from its more ancient neighbor. The stories of creation and of the flood, both of them, as far as the literary contents are concerned, certainly rest upon Babylonian originals. This dependence has, however, been exaggerated by some scholars into an attempt to demonstrate that Israel took these materials bodily, whereas the close shifting and comparison to which they have been subjected in the past few years would seem to demonstrate beyond peradventure that Israel stamped whatever she borrowed with her own genius and wove an entirely new fabric. Israel used these ancient narratives as a vehicle for a higher and purer religious faith. The material was borrowed, the spirit belonged to Israel, and the spirit was Divine. Words and literary materials were secured from Babylonia, but the religious and spiritual came from Israel and from Israel's God. The word Sabbath is Babylonian indeed, but the great social and religious institution which it represents in Israel is not Babylonian but distinctively Hebrew. The Divine name Yahweh appears among other peoples, passes over into Babylonia and afterward is used by Israel, but the spiritual God who bears the name in Israel is no Babylonian or Kenite deity. The Babylonians, during all their history and in all their speculations, never conceived a god like unto Him. He belongs to the Hebrews alone.",
+          "target": "Aucune question concernant la religion de la Babylonie et de l'Assyrie ne présente autant d'intérêt et d'importance pour les étudiants de la Bible que celle du rapport entre cette religion et la foi en Yahvé telle qu'elle était professée par Israël. Il semble maintenant clairement démontré que la religion d'Israël a emprunté divers matériaux littéraires à sa voisine plus ancienne. Les récits de la création et du Déluge reposent tous deux, quant à leur contenu littéraire, certainement sur des originaux babyloniens. Cette dépendance a cependant été exagérée par certains savants jusqu'à tenter de démontrer qu'Israël s'était approprié ces matériaux en bloc, alors que le tri minutieux et la comparaison auxquels ils ont été soumis au cours des dernières années sembleraient démontrer sans aucun doute qu'Israël imprima à tout ce qu'il emprunta la marque de son propre génie et en tissa une étoffe entièrement nouvelle. Israël se servit de ces récits anciens comme véhicule d'une foi religieuse plus haute et plus pure. La matière était empruntée, l'esprit appartenait à Israël, et l'esprit était divin. Les mots et les matériaux littéraires furent obtenus de la Babylonie, mais le religieux et le spirituel venaient d'Israël et du Dieu d'Israël. Le mot sabbat est effectivement babylonien, mais la grande institution sociale et religieuse qu'il représente en Israël n'est pas babylonienne, mais spécifiquement hébraïque. Le nom divin Yahvé apparaît chez d'autres peuples, passe en Babylonie et est ensuite employé par Israël, mais le Dieu spirituel qui porte ce nom en Israël n'est pas une divinité babylonienne ou kénienne. Les Babyloniens, durant toute leur histoire et dans toutes leurs spéculations, ne conçurent jamais de dieu semblable à lui. Il appartient aux seuls Hébreux.",
+          "action": "translate"
+        },
+        {
+          "node": 135,
+          "part": "text",
+          "source": "The gods of Babylonia are connected, as we have seen, with primitive animism or they are merely local deities. The God of Israel, on the other hand, is a God revealed in history. He brought Israel out of Egypt. He is continually made known to His people through the prophets as a God revealed in history. His religion is not developed out of Babylonian polytheism which existed as polytheism in the earliest periods and endured as polytheism unto the end. The religion of Israel, on the other hand, though some of its material origins are humble, moved steadily onward and upward until the great monotheistic idea found universal acceptance in Israel. The religions of Philistia and Phoenicia, Moab, and of Edom, were subject to the same play of influences from Babylonia and Egypt, but no larger faith developed out of them. In Israel alone ethical monotheism arose, and ethical monotheism has no roots in Babylonia. The study of the religion of Babylonia is indeed of the highest importance for the understanding of Israel's faith, but it is of less importance than some modern scholars have attempted to demonstrate.",
+          "target": "Les dieux de Babylonie sont liés, comme nous l'avons vu, à l'animisme primitif, ou bien ce ne sont que des divinités locales. Le Dieu d'Israël, au contraire, est un Dieu révélé dans l'histoire. Il fit sortir Israël d'Égypte. Il se fait continuellement connaître à son peuple par les prophètes comme un Dieu révélé dans l'histoire. Sa religion ne s'est pas développée à partir du polythéisme babylonien, qui existait comme polythéisme aux périodes les plus anciennes et subsista comme polythéisme jusqu'à la fin. La religion d'Israël, au contraire, bien que certaines de ses origines matérielles soient humbles, avança et s'éleva constamment jusqu'à ce que la grande idée monothéiste trouvât une acceptation universelle en Israël. Les religions de la Philistie et de la Phénicie, de Moab et d'Édom furent soumises au même jeu d'influences de Babylonie et d'Égypte, mais aucune foi plus vaste ne se développa à partir d'elles. En Israël seul naquit le monothéisme éthique, et le monothéisme éthique n'a pas de racines en Babylonie. L'étude de la religion de Babylonie est en vérité de la plus haute importance pour la compréhension de la foi d'Israël, mais elle est de moindre importance que certains savants modernes ont tenté de le démontrer.",
+          "action": "translate"
+        },
+        {
+          "node": 136,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 137,
+          "part": "text",
+          "source": "L. W. King. Babylonian Religion and Mythology, London. 1899; M. Jastrow. Jr., The Religion of Babylonia and Assyria, Boston, 1898 (completely revised by the author and translated into German under the title Die Religion Babyloniens und Assyriens, Giessen, appearing in parts, and soon to be completed. This is the standard book on the subject); Rogers, The Religion of Babylonia and Assyria, Especially in Its Relation to Israel, New York, 1908; Hermann Schneider. Kultur und Denken der Babylonier und Juden, Leipzig, 1910; R. P. Dhorme, La religion assyrio-babylonienne, Paris. 1910. Detailed literature on the separate phases of the religion will be found in these books.",
+          "target": "L. W. King. Babylonian Religion and Mythology, Londres, 1899 ; M. Jastrow, Jr., The Religion of Babylonia and Assyria, Boston, 1898 (entièrement révisé par l'auteur et traduit en allemand sous le titre Die Religion Babyloniens und Assyriens, Giessen, paraissant en fascicules et bientôt achevé. C'est l'ouvrage de référence sur le sujet) ; Rogers, The Religion of Babylonia and Assyria, Especially in Its Relation to Israel, New York, 1908 ; Hermann Schneider, Kultur und Denken der Babylonier und Juden, Leipzig, 1910 ; R. P. Dhorme, La religion assyrio-babylonienne, Paris, 1910. Une bibliographie détaillée des différents aspects de la religion se trouve dans ces ouvrages.",
+          "action": "translate"
+        },
+        {
+          "node": 138,
+          "part": "text",
+          "source": "Robert W. Rogers",
+          "target": "Robert W. Rogers",
+          "action": "preserve",
+          "reason": "Historical proper name, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

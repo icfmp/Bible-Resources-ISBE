@@ -1,0 +1,898 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BAG",
+      "article_id": "isbe-3ad8db855314d7f80432",
+      "source_article_sha256": "ddbbf88e4ada827dd4be89e9b7f1563c05d625e2b25df3d782d6cab76023b55b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAG",
+          "target": "SAC",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "Bags of various kinds are mentioned in the English Bible, but often in a way to obscure rather than tr the original.",
+          "target": "Des sacs de diverses sortes sont mentionnés dans la Bible anglaise, mais souvent d'une manière qui obscurcit plutôt qu'elle ne traduit l'original.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) \"Bag\" is used for a Hebrew word which means a shepherd's \"bag,\" rendered \"wallet\" in the Revised Version (British and American). This \"bag\" of the shepherd or \"haversack\" of the traveler was of a size sufficient for one or more days' provisions. It was made of the skin of animals, ordinarily undressed, as most of the other \"bags\" of ancient times were, and was carried slung across the shoulder. This is the \"scrip for the journey\" pera mentioned in ",
+          "target": "(1) « Bag » est employé pour un mot hébreu qui signifie le « sac » d'un berger, rendu par « wallet » (besace) dans la Revised Version (britannique et américaine). Ce « sac » du berger ou ce « havresac » du voyageur avait une taille suffisante pour contenir des provisions d'un ou de plusieurs jours. Il était fait de peau d'animaux, ordinairement non apprêtée, comme l'étaient la plupart des autres « sacs » des temps anciens, et se portait en bandoulière. C'est la « besace pour le voyage », pera, mentionnée en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " and its parallel (the King James Version). (\"Scrip\" is Old English, now obsolete.) A unique word appears in ",
+          "target": " et dans son parallèle (King James Version). (« Scrip » est un terme de vieil anglais, aujourd'hui désuet.) Un mot unique apparaît en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " which had to be explained even to Hebrew readers by the gloss, \"the shepherd's bag,\" but which is likewise rendered \"wallet\" by the American Standard Revised Version.",
+          "target": ", qu'il fallut expliquer même aux lecteurs hébreux par la glose « le sac du berger », mais qui est également rendu par « wallet » dans l'American Standard Revised Version.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(2) \"Bag\" translates also a word ballantion which stands for the more finished leather pouch, or satchel which served as a \"purse\" (see Christ's words, ",
+          "target": "(2) « Bag » traduit aussi un mot ballantion qui désigne la pochette de cuir plus soignée, ou la sacoche, qui servait de « bourse » (voir les paroles du Christ, ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " King James Version: \"Carry neither purse, nor scrip,\" and 12:33 King James Version: \"Provide yourselves bags which wax not old\"). The word rendered \"purse\" in ",
+          "target": " King James Version : « Ne portez ni bourse ni besace », et 12.33, King James Version : « Procurez-vous des sacs qui ne vieillissent pas »). Le mot rendu par « purse » (bourse) en ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ": \"Get you no gold, nor silver, nor brass in your purses\"; ",
+          "target": ": « Ne vous procurez ni or, ni argent, ni airain dans vos bourses » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ": \"No money in their purse,\" is a different word entirely zone, the true rendering of which is \"girdle\" (Revised Version, margin). The oriental \"girdle,\" though sometimes of crude leather, or woven camel's hair (see ",
+          "target": ": « Pas d'argent dans leur bourse », est un mot entièrement différent, zone, dont la véritable traduction est « ceinture » (marge de la Revised Version). La « ceinture » orientale, quoique parfois en cuir grossier ou en poil de chameau tissé (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "GIRDLE",
+          "target": "CEINTURE",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "), was often of fine material and elegant workmanship, and was either made hollow so to carry money, or when of silk or cloth, worn in folds, when the money was carried in the folds.",
+          "target": "), était souvent faite d'une matière fine et d'un travail élégant ; ou bien elle était creuse pour porter de l'argent, ou bien, lorsqu'elle était de soie ou de tissu, elle était portée en plis, et l'argent était mis dans ces plis.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "(3) The small \"merchant's bag\" often knotted in a handkerchief for carrying the weights, such as is mentioned in ",
+          "target": "(3) Le petit « sac du marchand », souvent noué dans un mouchoir pour porter les poids, tel que celui mentionné en ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": ": \"Thou shalt not have in thy bag divers weights, a great and a small,\" was another variety. This too was used as \"purse,\" as in the case of the proposed common purse of the wicked mentioned in ",
+          "target": ": « Tu n'auras pas dans ton sac divers poids, un grand et un petit », constituait une autre variété. Celui-ci servait aussi de « bourse », comme dans le cas de la bourse commune proposée par les méchants mentionnés en ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": ": \"We will all have one purse,\" and sometimes carried in the girdle (compare ",
+          "target": ": « Nous aurons tous une seule bourse », et était parfois porté dans la ceinture (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "(4) Then there was the \"bag\" tseror, rendered \"bundle\" in ",
+          "target": "(4) Il y avait ensuite le « sac » tseror, rendu par « bundle » (paquet) en ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": " which was the favorite receptacle for valuables, jewels, as well as money, used figuratively with fine effect in ",
+          "target": ", qui était le récipient préféré pour les objets de valeur, les bijoux aussi bien que l'argent, employé au figuré avec un bel effet en ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": ": \"The soul of my lord shall be bound in the bundle of life\"--\"life's jewel-case\" (see ",
+          "target": ": « L'âme de mon seigneur sera liée dans le faisceau de la vie » — « l'écrin de la vie » (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": " where the money of the temple was said to be put up \"tied up\" in bags). This was a \"bag\" that could be tied with a string: \"Behold, every man's bundle of money was in his sack,\" and with (compare ",
+          "target": " où l'argent du Temple aurait été mis en sacs « liés »). C'était un « sac » que l'on pouvait lier avec une ficelle : « Voici, le paquet d'argent de chaque homme était dans son sac », et avec (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": ") \"He hath taken a bag of money with him\" (compare ",
+          "target": ") « Il a pris avec lui un sac d'argent » (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": ": \"earneth wages to put it into a bag holes\"). A seal was sometimes put on the knot, which occasions the figure of speech used in ",
+          "target": ": « gagne un salaire pour le mettre dans un sac trous »). On mettait parfois un sceau sur le nœud, ce qui donne lieu à la figure de langage employée en ",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": ", \"Dost thou not watch over my sin? My transgression is sealed up in a bag,\" i.e. it is securely kept and reckoned against me (compare also ",
+          "target": ", « Ne veilles-tu pas sur mon péché ? Ma transgression est scellée dans un sac », c'est-à-dire qu'elle est gardée en sûreté et portée à mon compte (comparer aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": " where the Hebrew keli, is rendered by \"vessels\" and stands for receptacles for carrying food, not necessarily bags).",
+          "target": " où l'hébreu keli est rendu par « vessels » (récipients) et désigne des contenants pour porter de la nourriture, pas nécessairement des sacs).",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "(5) Another Hebrew word chariT; Arabic charitat, is used, on the one hand, for a \"bag\" large enough to hold a talent of silver (see ",
+          "target": "(5) Un autre mot hébreu, chariT ; arabe charitat, s'emploie d'une part pour un « sac » assez grand pour contenir un talent d'argent (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": ", \"bound two talents of silver in two bags\"), and on the other, for a dainty lady's satchel, such as is found in ",
+          "target": ", « lia deux talents d'argent dans deux sacs »), et d'autre part pour une délicate sacoche de dame, telle que celle que l'on trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": " (wrongly rendered \"crisping pins\" in the King James Version). This is the most adequate Hebrew word for a large bag. (6) The \"bag\" which Judas carried (see ",
+          "target": " (rendue à tort par « crisping pins », fers à friser, dans la King James Version). C'est le mot hébreu le plus approprié pour un grand sac. (6) Le « sac » que portait Judas (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": " the King James Version, \"He was a thief and had the bag\"; compare ",
+          "target": " King James Version : « Il était voleur et avait le sac » ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": ") was in reality the small \"box\" (Revised Version, margin) originally used for holding the mouthpieces of wind instruments (Kennedy, in the 1-volume HDB). The Hebrew 'argaz, (found only here) of ",
+          "target": ") était en réalité la petite « boîte » (marge de la Revised Version) originellement employée pour contenir les embouchures des instruments à vent (Kennedy, dans le HDB en un volume). L'hébreu 'argaz (que l'on ne trouve qu'ici) de ",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": ", rendered \"coffer\" in English Versions of the Bible and translated glossokomon, by Josephus, appears to stand for a small \"chest\" used to hold the gold figures sent by the Philistines as a guilt offering. It is from a word that means \"to wag,\" \"to move to and fro\"; compare the similar word in Arabic meaning a bag filled with stones hung at the side of the camel to \"preserve\" equilibrium (Gesenius). But the same word Josephus uses is found in modern Greek and means \"purse\" or \"bag\" (Hatch). Later to \"carry the bag\" came to mean to be treasurer.",
+          "target": ", rendu par « coffer » (coffre) dans les versions anglaises de la Bible et traduit par glossokomon par Josèphe, semble désigner un petit « coffre » servant à contenir les figures d'or envoyées par les Philistins comme sacrifice de culpabilité. Il vient d'un mot qui signifie « remuer », « mouvoir de-ci de-là » ; comparer le mot semblable en arabe signifiant un sac rempli de pierres, suspendu au flanc du chameau pour « maintenir » l'équilibre (Gesenius). Mais le même mot qu'emploie Josèphe se trouve en grec moderne et signifie « bourse » ou « sac » (Hatch). Plus tard, « porter le sac » en vint à signifier être trésorier.",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "George B. Eager",
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BALAAM",
+      "article_id": "isbe-2138b371013a3ea3bd51",
+      "source_article_sha256": "ed22331c4eb01aef2d263120e34ab01dc44b7b62af055e459864bd3a42f2fa74",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BALAAM",
+          "target": "BALAAM",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-lam bil`am, (\"devourer\"): The son of Beor, from a city in Mesopotamia called Pethor, a man possessing the gift of prophecy, whose remarkable history may be found in ",
+          "target": "ba'-lam bil`am, (« dévoreur ») : Fils de Beor, originaire d'une ville de Mésopotamie appelée Pethor, homme possédant le don de prophétie, dont la remarquable histoire se trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "1. History:",
+          "target": "1. Histoire :",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "When the children of Israel pitched their tents in the plains of Moab, the Moabites entered into some sort of an alliance with the Midianites. At the instigation of Balak, at that time king of the Moabites, the elders of the two nations were sent to Balaam to induce him, by means of a bribe, to pronounce a curse on the advancing hosts of the Israelites. But, in compliance with God's command Balaam, refused to go with the elders. Quite different was the result of a second request enhanced by the higher rank of the messengers and by the more alluring promises on the part of Balak. Not only did God permit Balaam to go with the men, but he actually commanded him to do so, cautioning him, however, to act according to further instructions. While on his way to Balak, this injunction was strongly impressed on the mind of Balaam by the strange behavior of his ass and by his encounter with the Angel of the Lord.",
+          "target": "Lorsque les enfants d'Israël dressèrent leurs tentes dans les plaines de Moab, les Moabites conclurent une sorte d'alliance avec les Madianites. À l'instigation de Balak, alors roi des Moabites, les anciens des deux nations furent envoyés auprès de Balaam pour l'amener, au moyen d'un présent corrupteur, à prononcer une malédiction sur les armées des Israélites qui avançaient. Mais, conformément au commandement de Dieu, Balaam refusa de partir avec les anciens. Tout différent fut le résultat d'une deuxième demande, rehaussée par le rang supérieur des messagers et par les promesses plus séduisantes de la part de Balak. Non seulement Dieu permit à Balaam d'aller avec les hommes, mais il lui commanda effectivement de le faire, l'avertissant toutefois d'agir conformément aux instructions ultérieures. Tandis qu'il se rendait auprès de Balak, cette injonction fut fortement imprimée dans l'esprit de Balaam par l'étrange comportement de son ânesse et par sa rencontre avec l'Ange du Seigneur.",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "Accompanied by Balak who had gone out to meet the prophet, Balaam came to Kiriath-huzoth. On the next morning he was brought up \"into the high places of Baal\" commanding a partial view of the camp of the Israelites. But instead of a curse he pronounced a blessing. From there he was taken to the top of Peor, yet this change of places and external views did not alter the tendency of Balaam's parables; in fact, his spirit even soared to greater heights and from his lips fell glowing words of praise and admiration, of benediction and glorious prophecy. This, of course, fully convinced Balak that all further endeavors to persuade the seer to comply with his wishes would be in vain, and the two parted.",
+          "target": "Accompagné de Balak, qui était sorti à la rencontre du prophète, Balaam arriva à Kirjath-Hutsoth. Le lendemain matin, il fut conduit « sur les hauts lieux de Baal », d'où l'on dominait une partie du camp des Israélites. Mais au lieu d'une malédiction, il prononça une bénédiction. De là, il fut emmené au sommet du Peor ; pourtant ce changement de lieu et de perspectives extérieures ne modifia pas la tendance des paraboles de Balaam ; en fait, son esprit s'éleva même à de plus grandes hauteurs et de ses lèvres tombèrent des paroles ardentes de louange et d'admiration, de bénédiction et de glorieuse prophétie. Cela convainquit naturellement Balak que tous ses efforts ultérieurs pour persuader le voyant de se conformer à ses désirs seraient vains, et les deux hommes se séparèrent.",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "Nothing else is said of Balaam, until we reach ",
+          "target": "Rien d'autre n'est dit de Balaam jusqu'à ce que nous arrivions à ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": ". Here in 31:8 we are told of his violent death at the hands of the Israelites, and in 31:16 we learn of his shameful counsel which brought disgrace and disaster into the ranks of the chosen people.",
+          "target": ". Là, en 31.8, sa mort violente aux mains des Israélites nous est rapportée, et en 31.16 nous apprenons le conseil honteux par lequel il introduisit le déshonneur et le désastre dans les rangs du peuple élu.",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "2. Problems:",
+          "target": "2. Problèmes :",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "Now, there are a number of interesting problems connected with this remarkable story. We shall try to solve at least some of the more important ones.",
+          "target": "Or, un certain nombre de problèmes intéressants se rattachent à ce récit remarquable. Nous tenterons de résoudre au moins quelques-uns des plus importants.",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(1) Was Balaam a prophet of Jeh? For an answer we must look to ",
+          "target": "(1) Balaam était-il un prophète de Jéhovah ? Pour une réponse, il nous faut nous tourner vers ",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": ". Nowhere is he called a prophet. He is introduced as the son of Beor and as a man reputed to be of great personal power (compare ",
+          "target": ". Nulle part il n'est appelé prophète. Il est présenté comme le fils de Beor et comme un homme réputé posséder une grande puissance personnelle (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": "). The cause of this is to be found in the fact that he had intercourse of some kind with God (compare ",
+          "target": "). La cause en est à chercher dans le fait qu'il avait des relations d'une certaine sorte avec Dieu (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": "). Furthermore, it is interesting to note how Balaam was enabled to deliver his parables. First it is said: \"And Yahweh put a word in Balaam's mouth\" (",
+          "target": "). En outre, il est intéressant de remarquer comment Balaam fut mis en état de prononcer ses paraboles. Il est d'abord dit : « Et Yahvé mit une parole dans la bouche de Balaam » (",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": "), a procedure seemingly rather mechanical, while nothing of the kind is mentioned in ",
+          "target": "), procédé apparemment assez mécanique, tandis que rien de semblable n'est mentionné en ",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": ". Instead we meet with the remarkable sentence: \"And when Balaam saw that it pleased Yahweh to bless Israel, he went not, as at the other times, to meet with enchantments .... \"(",
+          "target": ". Nous rencontrons plutôt la phrase remarquable : « Et lorsque Balaam vit qu'il plaisait à Yahvé de bénir Israël, il n'alla pas, comme les autres fois, à la rencontre des enchantements… » (",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "tail",
+          "source": "), and then: \"the Spirit of God came upon him\" (24:2b). All this is very noteworthy and highly instructive, especially if we compare with it 24:3 the Revised Version, margin and ",
+          "target": "), puis : « l'Esprit de Dieu vint sur lui » (24.2b). Tout cela est très digne d'attention et fort instructif, particulièrement si nous y comparons 24.3, marge de la Revised Version, et ",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "tail",
+          "source": ": \"The man whose eye is opened saith; he saith, who heareth the words of God, who seeth the vision of the Almighty,\" etc. The inference is plain enough: Balaam knew the Lord, the Yahweh of the Israelites, but his knowledge was dimmed and corrupted by heathen conceptions. He knew enough of God to obey Him, yet for a long time he hoped to win Him over to his own selfish plan (compare 23:4). Through liberal sacrifices he expected to influence God's actions. Bearing this in mind, we see the import of ",
+          "target": ": « L'homme dont l'œil est ouvert dit ; il dit, celui qui entend les paroles de Dieu, qui voit la vision du Tout-Puissant », etc. La déduction est assez claire : Balaam connaissait le Seigneur, le Yahvé des Israélites, mais sa connaissance était obscurcie et corrompue par des conceptions païennes. Il connaissait assez Dieu pour lui obéir, mais il espéra longtemps le gagner à son propre dessein égoïste (comparer 23.4). Par de généreux sacrifices, il comptait influencer les actions de Dieu. Gardant ceci à l'esprit, nous comprenons la portée de ",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": ". After fruitless efforts to cajole God into an attitude favorable to his hidden purpose, he for a time became a prophet of the Lord, yielding to the ennobling influences of His spirit. Here was a chance for his better nature to assert itself permanently and to triumph over the dark forces of paganism. Did he improve this opportunity? He did not (compare ",
+          "target": ". Après de vains efforts pour amener Dieu par la flatterie à une disposition favorable à son dessein caché, il devint pour un temps un prophète du Seigneur, cédant aux influences ennoblissantes de son Esprit. C'était une occasion pour sa meilleure nature de s'affirmer durablement et de triompher des forces obscures du paganisme. Profita-t-il de cette occasion ? Il n'en profita pas (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "(2) Is the Balaam of ",
+          "target": "(2) Le Balaam de ",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "tail",
+          "source": " identical with the person of the same name mentioned in ",
+          "target": " est-il identique au personnage du même nom mentionné en ",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "tail",
+          "source": "? Quite a number of scholars deny it, or, to be more accurate, there are according to their theory two accounts of Balaam: the one in ",
+          "target": " ? Un assez grand nombre de savants le nient, ou, pour être plus exact, il existe selon leur théorie deux récits de Balaam : celui de ",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": " being favorable to his character, and the other in ",
+          "target": " étant favorable à son caractère, et l'autre, en ",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": " being quite the reverse. It is claimed the two accounts could only be made to agree by modifying or eliminating ",
+          "target": ", tout à fait opposé. On prétend que les deux récits ne pourraient être mis en accord qu'en modifiant ou en éliminant ",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "tail",
+          "source": ". Now, we believe that ",
+          "target": ". Or, nous croyons que ",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "tail",
+          "source": " actually does modify the report of Balaam's return contained in ",
+          "target": " modifie effectivement le récit du retour de Balaam contenu en ",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": ". The children of Israel slew Balaam with the sword (",
+          "target": ". Les enfants d'Israël tuèrent Balaam par l'épée (",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "tail",
+          "source": "). Why? Because of his counsel of Num 31:16. We maintain that the author of ",
+          "target": "). Pourquoi ? À cause de son conseil de Nombres 31.16. Nous soutenons que l'auteur de ",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "tail",
+          "source": " had this fact in mind when he wrote ",
+          "target": " avait ce fait à l'esprit lorsqu'il écrivit ",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "tail",
+          "source": ": \"And .... the people began to play the harlot,\" etc. Thus, he closely connects the report of Balaam's return with the narrative contained in ",
+          "target": ": « Et… le peuple commença à se prostituer », etc. Ainsi, il relie étroitement le récit du retour de Balaam à celui contenu en ",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": ". Therefore, we regard ",
+          "target": ". Nous considérons donc ",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "tail",
+          "source": " as supplementary to ",
+          "target": " comme complémentaire de ",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "tail",
+          "source": ". But here is another question:",
+          "target": ". Mais voici une autre question :",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "text",
+          "source": "(3) Is the narrative in ",
+          "target": "(3) Le récit de ",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "tail",
+          "source": " the result of combining different traditions? In a general way, we may answer this question in the affirmative, and only in a general way we can distinguish between two main sources of tradition. But we maintain that they are not contradictory to each other, but supplementary.",
+          "target": " est-il le résultat de la combinaison de traditions différentes ? D'une manière générale, nous pouvons répondre à cette question par l'affirmative, et ce n'est que d'une manière générale que nous pouvons distinguer deux sources principales de tradition. Mais nous soutenons qu'elles ne se contredisent pas, mais se complètent.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "(4) What about the talking of the ass and the marvelous prophecies of Balaam? We would suggest the following explanation. By influencing the soul of Balaam, God caused him to interpret correctly the inarticulate sounds of the animal. God's acting on the soul and through it on the intellect and on the hearts of men--this truth must be also applied to Balaam's wonderful prophetic words. They are called meshaliym or sayings of a prophet, a diviner.",
+          "target": "(4) Qu'en est-il de la parole de l'ânesse et des merveilleuses prophéties de Balaam ? Nous proposerions l'explication suivante. En agissant sur l'âme de Balaam, Dieu lui fit interpréter correctement les sons inarticulés de l'animal. L'action de Dieu sur l'âme et par elle sur l'intelligence et sur le cœur des hommes — cette vérité doit être appliquée également aux merveilleuses paroles prophétiques de Balaam. Elles sont appelées meshaliym ou paroles d'un prophète, d'un devin.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "In the first of these \"parables\" (",
+          "target": "Dans la première de ces « paraboles » (",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "tail",
+          "source": ") he briefly states his reasons for pronouncing a blessing; in the second parable (",
+          "target": ") il expose brièvement ses raisons de prononcer une bénédiction ; dans la deuxième parabole (",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "tail",
+          "source": ") he again emphasizes the fact that he cannot do otherwise than bless the Israelites, and then he proceeds to pronounce the blessing at some greater length. In the 3rd (",
+          "target": ") il souligne de nouveau le fait qu'il ne peut faire autrement que bénir les Israélites, et il prononce ensuite la bénédiction plus longuement. Dans la troisième (",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": ") he describes the glorious state of the people, its development and irresistible power. In the last four parables (",
+          "target": ") il décrit l'état glorieux du peuple, son développement et sa puissance irrésistible. Dans les quatre dernières paraboles (",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "tail",
+          "source": ") he partly reveals the future of Israel and other nations: they are all to be destroyed, Israel's fate being included in the allusion to Eber. Now, at last, Balaam is back again in his own sphere denouncing others and predicting awful disasters. (On the \"star out of Jacob,\" ",
+          "target": ") il révèle partiellement l'avenir d'Israël et d'autres nations : toutes doivent être détruites, le sort d'Israël étant compris dans l'allusion à Héber. Enfin, Balaam est de nouveau dans sa propre sphère, dénonçant les autres et prédisant d'affreux désastres. (Sur l'« étoile qui sort de Jacob », ",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "tail",
+          "source": ", see ",
+          "target": ", voir ",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "ASTRONOMY",
+          "target": "ASTRONOMIE",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "tail",
+          "source": ", ii, 9; ",
+          "target": ", ii, 9 ; ",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "STAR OF THE MAGI",
+          "target": "ÉTOILE DES MAGES",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "3. Balaam's Character:",
+          "target": "3. Le caractère de Balaam :",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "This may furnish us a clue to his character. It, indeed, remains \"instructively composite.\" A soothsayer who might have become a prophet of the Lord; a man who loved the wages of unrighteousness, and yet a man who in one supreme moment of his life surrendered himself to God's holy Spirit; a person cumbered with superstition, covetousness and even wickedness, and yet capable of performing the highest service in the kingdom of God: such is the character of Balaam, the remarkable Old Testament type and, in a sense, the prototype of Judas Iscariot.",
+          "target": "Ceci peut nous fournir un indice de son caractère. Celui-ci demeure, en effet, « composite d'une manière instructive ». Un devin qui aurait pu devenir un prophète du Seigneur ; un homme qui aimait le salaire de l'injustice, et cependant un homme qui, en un moment suprême de sa vie, s'abandonna au Saint-Esprit de Dieu ; une personne encombrée de superstition, de convoitise et même de méchanceté, et cependant capable d'accomplir le service le plus élevé dans le royaume de Dieu : tel est le caractère de Balaam, le remarquable type de l'Ancien Testament et, en un sens, le prototype de Judas Iscariot.",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "4. Balaam as a Type:",
+          "target": "4. Balaam comme type :",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "In ",
+          "target": "En ",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "tail",
+          "source": " Balaam's example is used as a means to illustrate the pernicious influence of insincere Christian teachers. The author might have alluded to Balaam in the passage immediately preceding ",
+          "target": " l'exemple de Balaam est employé pour illustrer l'influence pernicieuse des enseignants chrétiens dépourvus de sincérité. L'auteur aurait pu faire allusion à Balaam dans le passage précédant immédiatement ",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "tail",
+          "source": " because of his abominable counsel. This is done in ",
+          "target": " à cause de son conseil abominable. C'est ce qui est fait en ",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "tail",
+          "source": ". Here, of course, Balaam is the type of a teacher of the church who attempts to advance the cause of God by advocating an unholy alliance with the ungodly and worldly, and so conforming the life of the church to the spirit of the flesh.",
+          "target": ". Ici, naturellement, Balaam est le type d'un enseignant de l'Église qui tente de faire avancer la cause de Dieu en préconisant une alliance impie avec les impies et les mondains, et qui conforme ainsi la vie de l'Église à l'esprit de la chair.",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "Butler's Sermons, \"Balaam\"; ICC, \"Numbers.\"",
+          "target": "Butler's Sermons, « Balaam » ; ICC, « Numbers ».",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "William Baur",
+          "target": "William Baur",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BALANCE",
+      "article_id": "isbe-c7a6f4baa4e6c24be070",
+      "source_article_sha256": "e3e55107ed247b5db2f22996f6b807356d5e7666843aa2b748f5e5791e5a7321",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BALANCE",
+          "target": "BALANCE",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bal'-ans The English word \"balance\" is from the Latin bilanx = \"having two scales\" (bi = \"two\" and lanx = \"plate,\" or \"scale\"). It is used to render three Hebrew words:",
+          "target": "bal'-ans Le mot anglais « balance » vient du latin bilanx = « ayant deux plateaux » (bi = « deux » et lanx = « plat », ou « plateau »). Il est employé pour rendre trois mots hébreux :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) mo'znayim (",
+          "target": "(1) mo'znayim (",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ", etc.);",
+          "target": ", etc.) ;",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(2) qaneh (",
+          "target": "(2) qaneh (",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "), and",
+          "target": "), et",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "(3) pelec (",
+          "target": "(3) pelec (",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "It is found in the sing., e.g. \"a just balance\" (",
+          "target": "Il se trouve au singulier, par exemple « une balance juste » (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "); \"a pair of balances\" (",
+          "target": ") ; « une paire de balances » (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": ", etc.), as well as in the plur., e.g. \"just balances\" (",
+          "target": ", etc.), ainsi qu'au pluriel, par exemple « des balances justes » (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "), \"weighed in the balances\" (",
+          "target": "), « pesé dans les balances » (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": ", etc.).",
+          "target": ", etc.).",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "1. Balances among the Ancient Hebrews; the Parts, etc.:",
+          "target": "1. Les balances chez les anciens Hébreux ; leurs parties, etc. :",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(1) The \"balances\" of the ancient Hebrews differed little, if at all, from those used by the Egyptians (Wilkinson, Anc. Egypt (1878), II, 246 f). They consisted, probably, of a horizontal bar, either pivoted on a perpendicular rod (see Erman, Aegypten, I, 615 for similar Egyptian balances), or suspended from a cord and held in the hand, the more primitive form. At the ends of the bar were pans, or hooks, from which the things to be weighed were suspended, sometimes in bags.",
+          "target": "(1) Les « balances » des anciens Hébreux différaient peu, si tant est qu'elles différaient, de celles qu'employaient les Égyptiens (Wilkinson, Anc. Egypt [1878], II, 246 et suivant). Elles se composaient probablement d'une barre horizontale, soit pivotant sur une tige perpendiculaire (voir Erman, Aegypten, I, 615, pour des balances égyptiennes semblables), soit suspendue à une corde et tenue à la main, forme plus primitive. Aux extrémités de la barre se trouvaient des plateaux ou des crochets auxquels étaient suspendues les choses à peser, parfois dans des sacs.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "A good description of the more developed and final form is this: A beam with its fulcrum in the middle and its arms precisely equal. From the ends of the arms were suspended two scales, the one to receive the object to be weighed, the other the counterpoise, or weight.",
+          "target": "Voici une bonne description de la forme plus perfectionnée et définitive : un fléau dont le point d'appui est au milieu et dont les bras sont précisément égaux. Aux extrémités des bras étaient suspendus deux plateaux, l'un pour recevoir l'objet à peser, l'autre le contrepoids ou poids.",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "(2) The weights were of stone at first and are so named in ",
+          "target": "(2) Les poids étaient d'abord en pierre et sont ainsi nommés en ",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": " King James Version, margin. A pair of scales (the King James Version \"a pair of balances\") is used in ",
+          "target": " marge de la King James Version. Une paire de plateaux (King James Version : « a pair of balances ») est employée en ",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": " by a figure of speech for the balance as a whole; only once is the beam so used, in ",
+          "target": " par une figure de langage pour la balance entière ; une seule fois le fléau est ainsi employé, en ",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "tail",
+          "source": ", literally, \"weigh silver in the beam.\" Abraham, we are told (",
+          "target": ", littéralement « peser de l'argent dans le fléau ». Abraham, nous est-il dit (",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": "), \"weighed the silver.\"",
+          "target": "), « pesa l'argent ».",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "2. Probably of Babylonian Origin:",
+          "target": "2. Probablement d'origine babylonienne :",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "The basis and fountain-head of all systems of weights and measurements is to be traced, it is now thought, to Babylonia; but the primitive instruments and systems were subject to many modifications as they entered other regions and passed into the derivative systems. The Roman \"balance\" is the same as our steelyard (vulgarly called \"stillyards\"). Compare the Chinese, Danish, etc.",
+          "target": "On pense maintenant que le fondement et la source de tous les systèmes de poids et de mesures remontent à la Babylonie ; mais les instruments et systèmes primitifs furent soumis à de nombreuses modifications à mesure qu'ils pénétrèrent dans d'autres régions et passèrent dans les systèmes dérivés. La « balance » romaine est identique à notre balance romaine (vulgairement appelée « stillyards »). Comparer les modèles chinois, danois, etc.",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "3. The System of Weighing Liable to Fraud:",
+          "target": "3. Le système de pesage exposé à la fraude :",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "Though the \"balances\" in ancient times were rudely constructed, the weighing could be done quite accurately, as may be seen in the use of equally primitive balances in the East today. But the system was liable to fraud. A \"false balance\" might be literally one so constructed that the arms were of unequal length, when the longer arm would be intended, of course, for the article to be weighed. The system was liable, however, to various other subtle abuses then as now; hence the importance in God's sight of \"true weights\" and a \"just balance\" is enforced again and again (see ",
+          "target": "Quoique les « balances » des temps anciens fussent de construction rudimentaire, on pouvait peser assez exactement, comme on peut le voir dans l'emploi de balances également primitives en Orient aujourd'hui. Mais le système était exposé à la fraude. Une « fausse balance » pouvait littéralement être construite de telle manière que les bras fussent de longueur inégale, le bras le plus long étant naturellement destiné à l'objet à peser. Le système était cependant exposé à divers autres abus subtils, alors comme aujourd'hui ; d'où l'importance, aux yeux de Dieu, des « poids exacts » et d'une « balance juste », soulignée à maintes reprises (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": ", etc.).",
+          "target": ", etc.).",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "4. \"Wicked Balances\" Condemned:",
+          "target": "4. Les « balances iniques » condamnées :",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "\"A false balance is an abomination to Yahweh\" (",
+          "target": "« Une fausse balance est en abomination à Yahvé » (",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": "), and \"a just balance and scales are Yahweh's\" (",
+          "target": "), et « une balance et des plateaux justes sont à Yahvé » (",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "tail",
+          "source": " condemns \"the balances of deceit\" in the hand of the wicked; ",
+          "target": " condamne « les balances de tromperie » dans la main du méchant ; ",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": " (the King James Version) cries out upon \"falsifying the balances by deceit,\" and ",
+          "target": " (King James Version) s'élève contre « la falsification des balances par tromperie », et ",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "tail",
+          "source": " denounces \"wicked balances.\" Indeed, the righteousness of a just balance and true weights, and the iniquity of false ones are everywhere emphasized by the lawmakers, prophets and moral teachers of Israel, and the preacher or teacher who would expose and denounce such things in God's name today need be at no loss for texts and precedents.",
+          "target": " dénonce les « balances iniques ». En effet, la justice d'une balance juste et de poids exacts, ainsi que l'iniquité des faux poids, sont partout soulignées par les législateurs, les prophètes et les enseignants de la morale en Israël, et le prédicateur ou l'enseignant qui voudrait exposer et dénoncer de telles choses au nom de Dieu aujourd'hui ne risque pas de manquer de textes et de précédents.",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "WEIGHTS AND MEASURES",
+          "target": "POIDS ET MESURES",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "Wilkinson, Ancient Egypt; Erman, Egypt; Lepsius, Denkmaler; and articles on \"Balance.\" etc., in Smith, DB, EB, Jewish Encyclopedia, HDB, etc.",
+          "target": "Wilkinson, Ancient Egypt ; Erman, Egypt ; Lepsius, Denkmaler ; et les articles sur « Balance », etc., dans Smith, DB, EB, Jewish Encyclopedia, HDB, etc.",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "George B. Eager",
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Historical headword, pronunciation, reference label or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}
