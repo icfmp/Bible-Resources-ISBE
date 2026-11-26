@@ -130,10 +130,10 @@
       "source_article_sha256": "611b67873ab35ac5303a3bf0abf7ea38d238def5ce8f363e7dc03ca0ebbbf28c",
       "original_markdown_paragraphs": 224,
       "source_template_characters": 66716,
-      "working_translation_status": "original_source_only_no_french_draft"
+      "working_translation_status": "complete_draft_pending_editorial_review"
     }
   ],
-  "status_note": "Seven complete full source-locked first drafts on PR #160, remaining seven originals untranslated. No independently approved entries; main 986/1000.",
+  "status_note": "Eight complete source-locked unreviewed French first drafts on draft PR #160; six original source entries remain untranslated. Main remains 986/1000 until merge; independent editorial approvals remain zero.",
   "source_flags": [
     {
       "key": "ALTAR",
@@ -184,6 +184,60 @@
       "block": 156,
       "witness": "final destruction of Jerusalem in 71 AD",
       "note": "Historical date and Jamnia canon account are left as source's claims; no modern historical correction"
+    },
+    {
+      "key": "AUTHORITY IN RELIGION",
+      "block": 79,
+      "witness": "co de",
+      "note": "Apparent source text split of 'code'; contextual French code; original unchanged"
+    },
+    {
+      "key": "AUTHORITY IN RELIGION",
+      "block": 88,
+      "witness": "disp ense",
+      "note": "Apparent source split of 'dispense'; translated contextually; original unchanged"
+    },
+    {
+      "key": "AUTHORITY IN RELIGION",
+      "block": 90,
+      "witness": "Paxmenides",
+      "note": "Likely Parmenides, rendered as Parménide contextually, English unchanged"
+    },
+    {
+      "key": "AUTHORITY IN RELIGION",
+      "block": 244,
+      "witness": "Sanhedrin in Jerus",
+      "note": "Historical quotation truncated at Jerus; French indicates interruption without silently reconstructing the missing letters or historical witness."
+    },
+    {
+      "key": "AUTHORITY IN RELIGION",
+      "block": 317,
+      "witness": "a pprehend",
+      "note": "English digitization word split; rendered 'saisir' without altering source"
+    },
+    {
+      "key": "AUTHORITY IN RELIGION",
+      "block": 389,
+      "witness": "Dean Mansol",
+      "note": "Likely source spelling for Dean Mansel, translated contextual spelling; English original unchanged"
+    },
+    {
+      "key": "AUTHORITY IN RELIGION",
+      "block": 397,
+      "witness": "prosefit revelation",
+      "note": "Probable OCR for progressive; contextual French progressive; printed-witness check pending"
+    },
+    {
+      "key": "AUTHORITY IN RELIGION",
+      "block": 401,
+      "witness": "Unam sancram",
+      "note": "Apparent corruption of Unam sanctam; contextual French sanctam, original source unchanged"
+    },
+    {
+      "key": "AUTHORITY IN RELIGION",
+      "block": 429,
+      "witness": "Asia Minor Fairbairn",
+      "note": "Likely corrupted author initials, kept exactly as original in French bibliography pending collation"
     }
   ]
 }
