@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BAKBAKKAR",
+      "article_id": "isbe-3241c0da2821099580fd",
+      "source_article_sha256": "ece9dc30958d3d36502be04e1987424e7d48a8f025c66d40bdb97dd95f9a730b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAKBAKKAR",
+          "target": "BAKBAKKAR",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bak-bak'-ar baqbaqqar, \"investigator\": A Levite (",
+          "target": "bak-bak'-ar baqbaqqar, « enquêteur » : un Lévite (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BANAIAS",
+      "article_id": "isbe-5820f0f37b32aff5d45e",
+      "source_article_sha256": "3030a7ea5d501914041499f74a81a2f1c961822ad4b16bd8aa205bef0b59768c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANAIAS",
+          "target": "BANAIAS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ban-a-i'-as (Banaias; 1 Esdras 9:35 = Benaiah (",
+          "target": "ban-a-i'-as (Banaias ; 1 Esdras 9.35 = Benaja (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ")): Banaias put away his \"strange wife.\"",
+          "target": ")) : Banaïas renvoya sa « femme étrangère ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BANID",
+      "article_id": "isbe-f204c330cce6d789d760",
+      "source_article_sha256": "2756414da436fa316d5d68a46ad352eb5a44b396127c3a58b929d7b9fa2e63cf",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANID",
+          "target": "BANID",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-nid (1 Esdras 8:36): In the Revised Version (British and American) ",
+          "target": "ba'-nid (1 Esdras 8.36) : ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BANIAS",
+          "target": "BANIAS",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", which see.",
+          "target": " dans la Revised Version (britannique et américaine) ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BANNEAS",
+      "article_id": "isbe-903b126d55e8554c8542",
+      "source_article_sha256": "adffb03b6d4f32c96a939008102762d14ec84e0b7fa34f926c579963c166c289",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANNEAS",
+          "target": "BANNEAS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ban-e'-as (Bannaias; the King James Version Baanias (1 Esdras 9:26) = Benaiah (",
+          "target": "ban-e'-as (Bannaias ; Baanias dans la King James Version (1 Esdras 9.26) = Benaja (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ")): Banneas put away his \"strange wife.\"",
+          "target": ")) : Bannéas renvoya sa « femme étrangère ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BANNUS",
+      "article_id": "isbe-321b05344d2b64846534",
+      "source_article_sha256": "9fd96bdb41262df6945de2ec110022caa87ffc6e385e940f0c2f3ac85382aaec",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANNUS",
+          "target": "BANNUS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ban'-us (Bannous (1 Esdras 9:34) = Bani or Binnui (",
+          "target": "ban'-us (Bannous (1 Esdras 9.34) = Bani ou Binnouï (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ")): The sons of Bannus put away their \"strange wives.\"",
+          "target": ")) : les fils de Bannus renvoyèrent leurs « femmes étrangères ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BANUAS",
+      "article_id": "isbe-05d40b78bd38638f1f2c",
+      "source_article_sha256": "e205880b78bf30ca94733bd3283b86273e4206103a79fa14ae3f348e67f54e68",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANUAS",
+          "target": "BANUAS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ban'-u-as (1 Esdras 5:26): A misprint for ",
+          "target": "ban'-u-as (1 Esdras 5.26) : erreur d'impression pour ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BANNAS",
+          "target": "BANNAS",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (Revised Version), which see.",
+          "target": " (Revised Version) ; voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BAPTISM, INFANT",
+      "article_id": "isbe-6ae358d01d440574ba88",
+      "source_article_sha256": "12ac7d022a1eef7a28349f564f925dfbced263db081d8b4e53b7a820a095ba64",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAPTISM, INFANT",
+          "target": "BAPTÊME DES ENFANTS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BAPTISM",
+          "target": "BAPTÊME",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (I), II; (II), III, 3, v; (III), III, 3.",
+          "target": " (I), II ; (II), III, 3, v ; (III), III, 3.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BARIAH",
+      "article_id": "isbe-b1875e285c557f091074",
+      "source_article_sha256": "f49794d89be4465a83ea5571841ef05907ee6a6e3e661b1b303c613a560618bd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARIAH",
+          "target": "BARIAH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-ri'-ah (bariach, \"fugitive\"): Bariah was a descendant of David in the line of Solomon (",
+          "target": "ba-ri'-ah (bariach, « fugitif ») : Baria était un descendant de David dans la lignée de Salomon (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BARSABAS; BARSABBAS",
+      "article_id": "isbe-e93955959fece6360fb0",
+      "source_article_sha256": "92f14207fc38cdedd50611f0ce5a44054cea510dcb199f4126c0b4945f00ca98",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARSABAS; BARSABBAS",
+          "target": "BARSABAS ; BARSABBAS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bar'-sa-bas, bar-sab'-as.",
+          "target": "bar'-sa-bas, bar-sab'-as.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "JOSEPH BARSABBAS",
+          "target": "JOSEPH BARSABBAS ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "JUDAS BARSABBAS",
+          "target": "JUDAS BARSABBAS",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BARTHOLOMEW, GOSPEL OF",
+      "article_id": "isbe-fd53094a201571a19301",
+      "source_article_sha256": "e1d06a116f32212dc64224730ba74cc27bf8d857890bbc9993267ff518d8d482",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BARTHOLOMEW, GOSPEL OF",
+          "target": "ÉVANGILE DE BARTHÉLEMY",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCRYPHAL GOSPELS",
+          "target": "ÉVANGILES APOCRYPHES ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BARTHOLOMEW",
+          "target": "BARTHÉLEMY",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BASHAN-HAVVOTH-JAIR",
+      "article_id": "isbe-54468577316b5f25ded3",
+      "source_article_sha256": "4fcd4a6c7c9acec8b742c1e49fcb20c51a0d8670492753ea8d6a869cd8107ca2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BASHAN-HAVVOTH-JAIR",
+          "target": "BASAN-HAVVOTH-JAÏR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-shan-hav'-oth-ja'-ir (bashan chawwoth ya'ir).",
+          "target": "ba'-shan-hav'-oth-ja'-ir (bashan chawwoth ya'ir).",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "HAVVOTH-JAIR",
+          "target": "HAVVOTH-JAÏR",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BATANAEA",
+      "article_id": "isbe-b050628e17fda0e75f1d",
+      "source_article_sha256": "4d39c183d2f097b0ad13ed5f57697b5279c2afb9b86ce545638d7ddc4e3939d0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BATANAEA",
+          "target": "BATANÉE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bat-a-ne'-a: The name used in Greek times for ",
+          "target": "bat-a-ne'-a : nom employé à l'époque grecque pour le ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BASHAN",
+          "target": "BASAN",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see), Josephus, Life, II; Ant, XV, x, 1; XVII, ii, 1, \"toparchy of Butanea.\"",
+          "target": " (voir cet article) ; Josèphe, Vie, II ; Antiquités, XV, x, 1 ; XVII, ii, 1, « toparchie de Butanée ».",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
