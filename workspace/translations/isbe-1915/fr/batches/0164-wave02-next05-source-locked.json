@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BAKING PAN",
+      "article_id": "isbe-e271eb8d0f9ce6858a30",
+      "source_article_sha256": "1e980d13ef9dd3228405aee541b314ed4e46aa71a9c2101391f49ee91a745a22",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BAKING PAN",
+          "target": "PLAT DE CUISSON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BREAD",
+          "target": "PAIN ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "PAN",
+          "target": "RÉCIPIENT DE CUISSON",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BALAC",
+      "article_id": "isbe-8eaa084fa6dde20968f1",
+      "source_article_sha256": "8611e3c718b973f862c9f1066501b5420d81a88ef25e0cace471cb45d56d6e06",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BALAC",
+          "target": "BALAC",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained without alteration"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba'-lak.",
+          "target": "ba'-lak.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription retained without alteration"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BALAK",
+          "target": "BALAK",
+          "action": "preserve",
+          "reason": "Original historical author signature or proper-name reference label retained without alteration"
+        }
+      ]
+    },
+    {
+      "source_key": "BALSAM",
+      "article_id": "isbe-429131938c48c311f36e",
+      "source_article_sha256": "b111b5bfcc4cd83e1c828a5d5f8cb435550fa25f1df5f7e249cfa629bdac4145",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BALSAM",
+          "target": "BAUME",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "Alex. Macalister",
+          "target": "Alex. Macalister",
+          "action": "preserve",
+          "reason": "Original historical author signature or proper-name reference label retained without alteration"
+        }
+      ]
+    },
+    {
+      "source_key": "BANDS OF RUDDER",
+      "article_id": "isbe-6fff042718d5bf280572",
+      "source_article_sha256": "2c7ce3c5115c54958035e69adffb44b65b86ff33c3d6ee7c6fe2dca51c7d450d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANDS OF RUDDER",
+          "target": "ATTACHES DU GOUVERNAIL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "RUDDER",
+          "target": "GOUVERNAIL",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BANNAIA",
+      "article_id": "isbe-42bd94e750d22493b06c",
+      "source_article_sha256": "6b8688fb4deed75427079c1e90c5cdda65ab9e8813b386436e3133532d682ebd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BANNAIA",
+          "target": "BANNAIA",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained without alteration"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ba-na'-ya.",
+          "target": "ba-na'-ya.",
+          "action": "preserve",
+          "reason": "Historical English phonetic transcription retained without alteration"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SABANNEUS",
+          "target": "SABANNEUS",
+          "action": "preserve",
+          "reason": "Original historical author signature or proper-name reference label retained without alteration"
+        }
+      ]
+    }
+  ]
+}
