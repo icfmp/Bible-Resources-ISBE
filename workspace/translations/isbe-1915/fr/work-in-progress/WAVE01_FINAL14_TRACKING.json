@@ -58,7 +58,7 @@
       "source_article_sha256": "ad38a977c0fc400c09b2fbdbf78e1cacc4724ba93026a32f8a87050e0db4ad7b",
       "original_markdown_paragraphs": 326,
       "source_template_characters": 147772,
-      "working_translation_status": "original_source_only_no_french_draft"
+      "working_translation_status": "complete_draft_pending_editorial_review"
     },
     {
       "index": 605,
@@ -133,7 +133,7 @@
       "working_translation_status": "complete_draft_pending_editorial_review"
     }
   ],
-  "status_note": "Thirteen of the final fourteen original wave-one articles have complete source-locked unreviewed first drafts on the translation branch. APOCALYPTIC LITERATURE remains. Direct commits only; no PR until all 9,380 original ISBE articles are completely translated. Editorial and publication gates remain separate.",
+  "status_note": "All fourteen remaining wave-one articles now have complete source-locked French first drafts committed directly on work/fr-isbe-wave01-last14. Drafts are NOT merged, independently reviewed, or approved for publication. The 1,000-entry first-wave draft coverage is therefore 986 in main plus 14 on this branch. The editorial checklist in issue #109 must remain unchecked until article-by-article independent bilingual approval. No PR before all 9,380 ISBE articles have complete French translations.",
   "source_flags": [
     {
       "key": "ALTAR",
@@ -688,6 +688,120 @@
       "block": 443,
       "witness": "Tehom etymological onomatopoeia",
       "note": "Historical speculative etymology preserved, pending independent philological review"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 120,
+      "witness": "apocalyptic literal",
+      "note": "Likely OCR for apocalyptic literature; French contextual rendering without English modification"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 133,
+      "witness": "Many of them axe quoted",
+      "note": "Probable OCR axe for are; translated contextually, original untouched"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 149,
+      "witness": "great masonry",
+      "note": "Likely source OCR error for great majority; translated contextual 'grande majorité', English unchanged"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 144,
+      "witness": "Essenes as authors of all apocalypses",
+      "note": "Historical author's sectarian provenance hypothesis, not a contemporary editorial conclusion"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 169,
+      "witness": "Tema, 'a word'",
+      "note": "Historical source's proposed chain of textual confusion retained verbatim; philological collation pending"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 180,
+      "witness": "impossible to date Enoch earlier than 160 BC",
+      "note": "Apparent chronological contradiction with 'older' premise; preserved exactly, flagged for source witness review"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 182,
+      "witness": "Book of Lummaries of the Heavens",
+      "note": "Apparent English OCR error for Luminaries, rendered 'Luminaires'; original untouched"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 195,
+      "witness": "Mother vision; angel Runnel",
+      "note": "Possible errors for Another vision and Ramiel; translated 'autre' and retained Rummel as displayed before exact witness collation"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 190,
+      "witness": "Arabroaian Library",
+      "note": "Likely original OCR for Ambrosian Library; French contextual rendering, original unchanged"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 216,
+      "witness": "Oregon (de Princip, iii.2)",
+      "note": "Source likely OCR for Origen; French reads Origène, original unchanged"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 225,
+      "witness": "camek (c) =60",
+      "note": "Hebrew-letter naming suspect in source; French preserves name and value pending source witness"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 230,
+      "witness": "Sere original",
+      "note": "Source likely OCR for Semitic original; French renders original sémitique; English untouched"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 245,
+      "witness": "Joe",
+      "note": "English source OCR probably Joel; translated Joël, source kept"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 253,
+      "witness": "Isa 41:2",
+      "note": "Protected biblical cRef in source seems erroneous for Ascension of Isaiah 4:2; no silent repair"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 256,
+      "witness": "Isa 41:4",
+      "note": "Protected biblical cRef in source seems erroneous for Ascension of Isaiah 4:14; no silent repair"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 266,
+      "witness": "first chapter and the last 17, 15, 16",
+      "note": "Historical source's chapter sequence unclear; numerals maintained, pending witness"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 300,
+      "witness": "Pompée death 46 BC",
+      "note": "Historical source gives 46 BC for Pompey while elsewhere it gives 48 BC; preserved source dating and flagged inconsistency"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 271,
+      "witness": "2 (4) Esdras ... 2 (4) Esdras 6:5",
+      "note": "Original Scripture marker structure includes an unusual split reference; exactly preserved"
+    },
+    {
+      "key": "APOCALYPTIC LITERATURE",
+      "block": 361,
+      "witness": "Joh 8:55; 56",
+      "note": "English source splits biblical reference in a suspicious way; protected references retained without repair"
     }
   ],
   "pull_request_policy": "No PR during article, cohort, 14-entry or wave progression. Preserve and commit directly to the translation branch. Open one PR after all 9,380 French translations are completed, with editorial verification and publication gated separately.",
@@ -706,6 +820,14 @@
       "batch": "0161-wave01-last14-astronomy.json",
       "source_blocks": 255,
       "tei_units": 391,
+      "editorial_status": "unreviewed_draft"
+    },
+    {
+      "source_key": "APOCALYPTIC LITERATURE",
+      "article_id": "isbe-f0b38afc0d791bd97559",
+      "batch": "0162-wave01-last14-apocalyptic-literature.json",
+      "source_blocks": 326,
+      "tei_units": 361,
       "editorial_status": "unreviewed_draft"
     }
   ]
