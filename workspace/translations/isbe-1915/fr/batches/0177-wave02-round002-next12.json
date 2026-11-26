@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BETHARAM",
+      "article_id": "isbe-bef4e4fb055fcc140ee4",
+      "source_article_sha256": "354ec8403cca636a64214367632f1e9858447cde27b14cbe2655109003e17aa1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETHARAM",
+          "target": "BETHARAM",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained verbatim"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-a'-ram (beth haram).",
+          "target": "beth-a'-ram (beth haram).",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BETH-HARAM",
+          "target": "BETH-HARAM",
+          "action": "preserve",
+          "reason": "Unchanged historical proper-name reference label"
+        }
+      ]
+    },
+    {
+      "source_key": "BETHLEHEM, STAR OF",
+      "article_id": "isbe-3d574ec9b3f23751f6ed",
+      "source_article_sha256": "e3b427875ace1f7fd46002b8610600ab013e920ac9d60480a0de0bcab639cd15",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETHLEHEM, STAR OF",
+          "target": "ÉTOILE DE BETHLÉEM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "STAR OF THE MAGI",
+          "target": "ÉTOILE DES MAGES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BETHSAMOS",
+      "article_id": "isbe-32bb1b5954607c962b30",
+      "source_article_sha256": "6fc10e021e734b72213636815696a843e47ff774c753c3903d6e4ec4d67b9709",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BETHSAMOS",
+          "target": "BETHSAMOS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword retained verbatim"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "beth-sa'-mos.",
+          "target": "beth-sa'-mos.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BETHASMOTH",
+          "target": "BETHASMOTH",
+          "action": "preserve",
+          "reason": "Unchanged historical proper-name reference label"
+        }
+      ]
+    },
+    {
+      "source_key": "BIBLICAL CRITICISM",
+      "article_id": "isbe-b7f3fe2fdf99a4de14e0",
+      "source_article_sha256": "58efe7be7be2a647c394ada2b466d7a17d7cd0b7707e1f5925efa81cf35a6afe",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIBLICAL CRITICISM",
+          "target": "CRITIQUE BIBLIQUE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CRITICISM OF THE BIBLE",
+          "target": "CRITIQUE DE LA BIBLE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIDDEN",
+      "article_id": "isbe-9f99caac7355aba9a14d",
+      "source_article_sha256": "9e3b9a118436a84a1923dfadc5ab48c9185f5a2a32d04ecc9a94ffac18d70f46",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIDDEN",
+          "target": "CONVIÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bid'-n: \"Called,\" \"invited\" (",
+          "target": "bid'-n : « appelé », « invité » (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIRD-CATCHER",
+      "article_id": "isbe-3753dc5a66c41641d2f7",
+      "source_article_sha256": "b8c08dd68064e1ecb8ff64886dcacc5c5f9335eb7ae3425565c78f0ef287a69c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIRD-CATCHER",
+          "target": "OISELEUR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "burd'-kach-er",
+          "target": "burd'-kach-er",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "FOWLER",
+          "target": "OISELEUR",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BIRDS OF ABOMINATION",
+      "article_id": "isbe-f5da8a7d5e7ae10d23c4",
+      "source_article_sha256": "bbfc7ae9e45845efa336f5db1f3054daa54d16642c25e87b2978691c30fbf2f0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BIRDS OF ABOMINATION",
+          "target": "OISEAUX IMPURS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ABOMINATION, BIRDS OF",
+          "target": "OISEAUX IMPURS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BISHOPS' BIBLE",
+      "article_id": "isbe-b3ee8758b5af4f34360e",
+      "source_article_sha256": "870c1e894b2763d1950fe735c03b18862bfddeb5229bc4895e4871b21f104be3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BISHOPS' BIBLE",
+          "target": "BIBLE DES ÉVÊQUES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ENGLISH VERSIONS",
+          "target": "VERSIONS ANGLAISES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BITTER WATER",
+      "article_id": "isbe-5b804307c2d92d4ac9a8",
+      "source_article_sha256": "60c08dc3f8628028a2b2d833f1950d4e580d76ffd89b515ccde032bf853bccd9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BITTER WATER",
+          "target": "EAU AMÈRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ADULTERY (2)",
+          "target": "ADULTÈRE (2) ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "MARAH",
+          "target": "MARA",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BITTERNESS",
+      "article_id": "isbe-f8008edfbc2ff4f96acd",
+      "source_article_sha256": "a073efdfa1dc3f94e49fa07cd6a861c1082e0537c29d9ee143b2dd6aa5e99aaa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BITTERNESS",
+          "target": "AMERTUME",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bit'-er-ness.",
+          "target": "bit'-er-ness.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BITTER",
+          "target": "AMER",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BITTERNESS, WATER OF",
+      "article_id": "isbe-9010c595a125d59edff0",
+      "source_article_sha256": "4915d6ce57f96d3b5bc425ea982f544e068d4a7a080139c1a0dc222ec23db147",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BITTERNESS, WATER OF",
+          "target": "EAU D'AMERTUME",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ADULTERY (2)",
+          "target": "ADULTÈRE (2)",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BLINDING",
+      "article_id": "isbe-ed417e148749c9920b6f",
+      "source_article_sha256": "2327ff6a3b3b48927b616e6b436f423cb378a8e9d25be93f0b95f6c566a2204d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BLINDING",
+          "target": "AVEUGLEMENT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "blind'-ing.",
+          "target": "blind'-ing.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "PUNISHMENTS",
+          "target": "CHÂTIMENTS",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
