@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BEEROTHITE; BEROTHITE",
+      "article_id": "isbe-3ce68dd4c3ca8ffba169",
+      "source_article_sha256": "18e1752f496b298d9d56222e1fbe522ca5521ca9153d908565ae4aafe89fd971",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEEROTHITE; BEROTHITE",
+          "target": "BEÉROTHITE ; BÉROTHITE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-e'-roth-it, be'-er-oth-it (be'erothi; ",
+          "target": "be-e'-roth-it, be'-er-oth-it (be'erothi ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "; shortened form, ",
+          "target": " ; forme abrégée, ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "BEEROTH",
+          "target": "BEÉROTH",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEEVES",
+      "article_id": "isbe-ea9a1fee742ce5ee3de8",
+      "source_article_sha256": "612927a1c035da30cf5efaf665be4e66f786db69a64241dce61e2896fe6d2f77",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEEVES",
+          "target": "BŒUFS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bevs (",
+          "target": "bevs (",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the King James Version).",
+          "target": ", dans la King James Version).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "CATTLE",
+          "target": "BÉTAIL",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BELAITES",
+      "article_id": "isbe-4b2e961913c8c17df9d1",
+      "source_article_sha256": "2dcc7efc106cf7d52e923997cfbca327bdf27ec9be1780002f25a835bc32ef61",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BELAITES",
+          "target": "BÉLAÏTES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-la-its (bal`i, \"belonging to Bela\"): The descendants of Bela (",
+          "target": "be'-la-its (bal`i, « appartenant à Béla ») : descendants de Béla (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). Compare ",
+          "target": "). Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BELA (2)",
+          "target": "BÉLA (2)",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEN-HANAN",
+      "article_id": "isbe-87a4a526e7f4ce7a35d8",
+      "source_article_sha256": "a11175727fb069dee14c92d5c6b6a00eef501e2892c5a4daab69338aa353b56e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEN-HANAN",
+          "target": "BEN-HANAN",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben-ha'-nan (ben-chanan, \"son of grace\"): A son of Shimon of the house of Judah (",
+          "target": "ben-ha'-nan (ben-chanan, « fils de la grâce ») : fils de Shimon, de la maison de Juda (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BENE-JAAKAN",
+      "article_id": "isbe-7af0e2cb80020cf76726",
+      "source_article_sha256": "797d1a8725e0ae12e041b71a300412e5d979ab235ae50e58793c1b703ad75cae",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BENE-JAAKAN",
+          "target": "BENÉ-JAAKAN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben-e-ja'-a-kan, be-ne-ja'-a-kan (bene ya`aqan: ",
+          "target": "ben-e-ja'-a-kan, be-ne-ja'-a-kan (bene ya`aqan : ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "BEEROTH BENE-JAAKAN",
+          "target": "BEÉROTH-BENÉ-JAAKAN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BENINU",
+      "article_id": "isbe-25d3c6ea7d238d469d8d",
+      "source_article_sha256": "fe618fbba44ee98df2a384725a388fd82cd0616d7d7a9e963d5f010683ef6044",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BENINU",
+          "target": "BENINU",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-ni'-nu (beninu, \"our son\"): A Levite who with Nehemiah sealed the covenant (",
+          "target": "be-ni'-nu (beninu, « notre fils ») : Lévite qui scella l'alliance avec Néhémie (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BENJAMITE",
+      "article_id": "isbe-da48c0467f8790e77b7e",
+      "source_article_sha256": "1a89830a76340f12e1e4c5688373ec65f811d4fb31e8a6fbda23aa8cfa76868f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BENJAMITE",
+          "target": "BENJAMINITE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ben'-ja-mit: One belonging to the tribe of Benjamin, such as Ehud (",
+          "target": "ben'-ja-mit : membre de la tribu de Benjamin, comme Éhud (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), Saul (",
+          "target": "), Saül (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), Sheba (",
+          "target": "), Shéba (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "), Shimei (",
+          "target": "), Shimeï (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "), etc.",
+          "target": "), etc.",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BENO",
+      "article_id": "isbe-7d3582ed832a2638dd08",
+      "source_article_sha256": "8992cc6851798dd0bc5a90fc0ff02e7e7f8d6b6bf95fb1fc9799cef390df3304",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BENO",
+          "target": "BENO",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-no (beno, \"his son\"): The son of Jaaziah of the house of Levi (",
+          "target": "be'-no (beno, « son fils ») : fils de Jaazia, de la maison de Lévi (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BERA",
+      "article_id": "isbe-6538e3578b43f475aa35",
+      "source_article_sha256": "01f202ad0373249ce4d09d211c81d28d33126e2e096acfdeafdda21941f373d8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERA",
+          "target": "BÉRA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-ra (bera`, \"gift\"(?); compare HPN, 74 note): King of Sodom (",
+          "target": "be'-ra (bera`, « don » (?) ; comparer HPN, p. 74, note) : roi de Sodome (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") who in the battle of Siddim was subdued by Chedorlaomer.",
+          "target": "), soumis par Kedorlaomer lors de la bataille de Siddim.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BERACAH",
+      "article_id": "isbe-8d95848c3538be15d674",
+      "source_article_sha256": "a708d28489fcbaec13d378dc5b48cd7d3ac26ed5207a0e27f98d7caa8e2a7b8a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERACAH",
+          "target": "BÉRACA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-ra'-ka (berakhah, \"blessing,\" the King James Version Berachah): A Benjamite who joined David at Ziklag (",
+          "target": "be-ra'-ka (berakhah, « bénédiction » ; Berachah dans la King James Version) : Benjaminite qui se rallia à David à Tsiklag (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BERAIAH",
+      "article_id": "isbe-d7d431192e79da27882d",
+      "source_article_sha256": "13f1fa20b8a526539744d548189519c928bc22ea43aa54bd97d3f68b0e14e766",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERAIAH",
+          "target": "BÉRAÏA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-ri'-a (bera'yah, \"Yah hath created\"): A son of Shimei of the house of Benjamin (",
+          "target": "be-ri'-a (bera'yah, « Yah a créé ») : fils de Shimeï, de la maison de Benjamin (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BERI",
+      "article_id": "isbe-2679a36184e6651c89c4",
+      "source_article_sha256": "067e563c3cb1e8d4bfcc614bdbca4d7b8dfa6b349176c9bb61ddfe634bd8b286",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BERI",
+          "target": "BÉRI",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-ri (beri, \"wisdom\"): A descendant of Asher (",
+          "target": "be'-ri (beri, « sagesse ») : descendant d'Aser (",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
