@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BREASTPLATE",
+      "article_id": "isbe-ebbb9aaf8389c73b9ccc",
+      "source_article_sha256": "4c2463e210bf84623b23c414d0754faa2af1ec204b4654cabba8da598de19ecb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BREASTPLATE",
+          "target": "CUIRASSE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "brest'-plat.",
+          "target": "brest'-plat.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARMOR",
+          "target": "ARMURE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BRIDLE",
+      "article_id": "isbe-3e970c08585ac879ca6c",
+      "source_article_sha256": "a4c83ec19ea19805c4ba493f48efd45fbcf309395a6af3af3f9a1dfdff42039c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BRIDLE",
+          "target": "BRIDE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bri'-d'-l.",
+          "target": "bri'-d'-l.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BIT AND BRIDLE",
+          "target": "MORS ET BRIDE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BROTHER-IN-LAW",
+      "article_id": "isbe-e5b3931c99abe14ba179",
+      "source_article_sha256": "af2760e9a5908a513dbe387dc53df01a1f0e889fb65c38f2f3abf053e4f4cf85",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BROTHER-IN-LAW",
+          "target": "BEAU-FRÈRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "RELATIONSHIPS, FAMILY",
+          "target": "LIENS DE PARENTÉ FAMILIAUX",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BUBASTIS",
+      "article_id": "isbe-dac958e0ce9524856217",
+      "source_article_sha256": "f110e622325794bcdb7b9e5f29e7d48051d8782149df85b036bf6b98d840cc61",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BUBASTIS",
+          "target": "BUBASTIS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name headword unchanged"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bu-bas'-tis.",
+          "target": "bu-bas'-tis.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "PI-BESETH",
+          "target": "PI-BÉSETH",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BULL; BULLOCK",
+      "article_id": "isbe-50903c9aa64caf2b9952",
+      "source_article_sha256": "c63c216de00e86ad8ce37695f2df61342a467a32e024832f390dce27bb5bede5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BULL; BULLOCK",
+          "target": "TAUREAU ; BŒUF",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bool, bool'-ok.",
+          "target": "bool, bool'-ok.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CATTLE",
+          "target": "BÉTAIL",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BULLS, JEROBOAM'S",
+      "article_id": "isbe-7019034b77459d571517",
+      "source_article_sha256": "cb8cac39d973a204955f8cfc6de54c2878c4dec3502f4d036a01aba549399a4b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BULLS, JEROBOAM'S",
+          "target": "TAUREAUX DE JÉROBOAM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CALF (GOLDEN)",
+          "target": "VEAU D'OR",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BULRUSHES, ARK OF",
+      "article_id": "isbe-ebb9cf5f60fce5aaa8ef",
+      "source_article_sha256": "7324d31c70082cbe6c3c9a5673acc013cd0438bce0ceae4c9de387adbdcef679",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BULRUSHES, ARK OF",
+          "target": "CORBEILLE DE JONCS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARK OF BULRUSHES",
+          "target": "CORBEILLE DE JONCS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BURGLARY",
+      "article_id": "isbe-535a8000e1a796310883",
+      "source_article_sha256": "03b11aa4d857993c34325d23d1d10ef7fd3611f52eccf60e03ebb139a6b51cb1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BURGLARY",
+          "target": "CAMBRIOLAGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bur'-gla-ri.",
+          "target": "bur'-gla-ri.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CRIMES",
+          "target": "CRIMES",
+          "action": "preserve",
+          "reason": "Historical name or cross-reference display retained verbatim"
+        }
+      ]
+    },
+    {
+      "source_key": "BURNT OFFERING",
+      "article_id": "isbe-9cab9b90bd9c5fd60640",
+      "source_article_sha256": "e552a0d40c1a7e72c31817e6dcd59afabe621d1f5157e8bb9c56a8f0c1ab811d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BURNT OFFERING",
+          "target": "HOLOCAUSTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "SACRIFICE IN THE OT AND NT",
+          "target": "SACRIFICE DANS L'ANCIEN ET LE NOUVEAU TESTAMENT",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CADES",
+      "article_id": "isbe-81239b477e52e7a55803",
+      "source_article_sha256": "151d95d9274748fa1048503ea7409d714570e3367483c7e7f3879120a61940a9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CADES",
+          "target": "CADÈS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka'-dez.",
+          "target": "ka'-dez.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "KEDESH (Apocrypha)",
+          "target": "KÉDESCH (Apocryphes)",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CALKER",
+      "article_id": "isbe-b74c5f809e2196ef57da",
+      "source_article_sha256": "b5c1d80d984cc04d490c5f16f323161af86e1bec73b336e719639a51f77b32a1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CALKER",
+          "target": "CALFATEUR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kok'-er.",
+          "target": "kok'-er.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SHIPS AND BOATS",
+          "target": "NAVIRES ET BATEAUX",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CALVARY",
+      "article_id": "isbe-bede52e7a7011167077c",
+      "source_article_sha256": "eb07e72f67f9081cc3f82a2b18ba2ab055d37f626c3aac7ec4dac7afe432e248",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CALVARY",
+          "target": "CALVAIRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kal'-va-ri.",
+          "target": "kal'-va-ri.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic form retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "GOLGOTHA.",
+          "target": "GOLGOTHA.",
+          "action": "preserve",
+          "reason": "Historical name or cross-reference display retained verbatim"
+        }
+      ]
+    }
+  ]
+}
