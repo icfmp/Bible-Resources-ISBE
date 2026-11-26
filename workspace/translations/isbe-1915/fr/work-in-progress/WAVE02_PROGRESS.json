@@ -6,38 +6,40 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "400_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "500_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 400,
-    "complete_first_drafts": 402,
-    "remaining_undrafted": 598
+    "new_complete_drafts_on_branch": 500,
+    "complete_first_drafts": 502,
+    "remaining_undrafted": 498
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 1445
+    "complete_first_drafts_across_main_and_current_branch": 1545
   },
   "source_queue": {
     "rounds_completed": [
       "round-001",
       "round-002",
       "round-003",
-      "round-004"
+      "round-004",
+      "round-005"
     ],
-    "original_article_templates": 400,
-    "verified_unique_article_ids": 400,
-    "original_mutable_tei_units_covered": 1437,
+    "original_article_templates": 500,
+    "verified_unique_article_ids": 500,
+    "original_mutable_tei_units_covered": 1848,
     "round_paths": [
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-001",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-002",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-003",
-      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-004"
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-004",
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-005"
     ],
-    "checks": "Four source-locked 100-article queues; each completed with full Markdown and TEI patches. Round 004 has 100 unique source article IDs and 343 source-owned text/tail units; all match its canonical English MANIFEST. Independent bilingual editorial acceptance and publication remain separate."
+    "checks": "Five source-locked 100-article cohorts completed as Markdown drafts and TEI patches. Round 005 contains 100 distinct original canonical IDs and 411 mutable TEI text/tail units; all match the exact English source manifest. Original source may contain witness anomalies; editable translation status is unreviewed and publication is prohibited."
   },
   "batch_files": [
     "0163-wave02-first05-source-locked.json",
@@ -76,9 +78,18 @@
     "0196-wave02-round004-next10.json",
     "0197-wave02-round004-next10.json",
     "0198-wave02-round004-next10.json",
-    "0199-wave02-round004-last10.json"
+    "0199-wave02-round004-last10.json",
+    "0200-wave02-round005-first12.json",
+    "0201-wave02-round005-next12.json",
+    "0202-wave02-round005-next12.json",
+    "0203-wave02-round005-next12.json",
+    "0204-wave02-round005-next12.json",
+    "0205-wave02-round005-next10.json",
+    "0206-wave02-round005-next10.json",
+    "0207-wave02-round005-next10.json",
+    "0208-wave02-round005-last10.json"
   ],
-  "last_translation_commit": "7d9cfc99104c2ff20d57744742054d5f7841dce7",
+  "last_translation_commit": "279dfece86916c61248be110a8a290bd601bbf3f",
   "source_witness_and_display_flags": [
     {
       "key": "BALSAM",
@@ -149,7 +160,32 @@
       "key": "BOCHERU",
       "kind": "editorial_review",
       "detail": "English source's 1 Chronicles 9:34 cross-reference may be suspect for Bocheru; kept protected original citation, no silent correction."
+    },
+    {
+      "key": "BEKA",
+      "kind": "source_witness",
+      "detail": "English original states that a beka/half-shekel was 'about 122 grams'; this figure is suspect and remains unchanged in first-draft translation until source witness comparison. Do not silently substitute a modern mass."
+    },
+    {
+      "key": "AZETAS",
+      "kind": "source_witness",
+      "detail": "English source unexpectedly repeats AZEL's proposed Wady Yasal geographical identification; likely carried-over text, preserved and needs independent witness check."
+    },
+    {
+      "key": "BILHAH (1)",
+      "kind": "source_witness",
+      "detail": "English original gives Bilhah as mother of 'Da and Naphtali'; 'Da' may be source corruption for Dan, but French draft preserves Da pending witness check."
+    },
+    {
+      "key": "BEL",
+      "kind": "source_witness",
+      "detail": "English original describes Bel as a 'Bah god'; the word Bah may be OCR truncation of Babylonian. French draft retains historical source wording pending witness collation."
+    },
+    {
+      "key": "CATERPILLAR; CHEEK TEETH",
+      "kind": "source_reference",
+      "detail": "Protected original biblical references display 'Joe' rather than Joel in multiple entries; links and cRef were retained exactly for source audit."
     }
   ],
-  "next_action": "Stage fifth 100-article canonical English queue (round-005) among 598 undrafted in positions 1001–2000; translate complete originals, source-lock every TEI text/tail unit and commit directly. No PR until all 9,380 translations complete."
+  "next_action": "Stage sixth 100-entry source-locked English queue (round-006) among 498 undrafted original article keys in positions 1001–2000; translate each complete source article into French with traceable Markdown and TEI patches, direct commits, no translation PR until all 9,380 first drafts exist."
 }
