@@ -31,7 +31,7 @@
       "source_article_sha256": "10ac04aa5e80cc957bf912d02a470411045a39b3c6b6f3112f9f8da2bf1ef12c",
       "original_markdown_paragraphs": 127,
       "source_template_characters": 43201,
-      "working_translation_status": "original_source_only_no_french_draft"
+      "working_translation_status": "complete_draft_pending_editorial_review"
     },
     {
       "index": 481,
@@ -133,5 +133,11 @@
       "working_translation_status": "original_source_only_no_french_draft"
     }
   ],
-  "status_note": "Three source-locked complete unreviewed drafts on draft PR #160 (ACCOMMODATION, ASTROLOGY, AMOS (1)); eleven full source templates still untranslated. main remains 986/1000 until merge. Editorial acceptances remain 0."
+  "status_note": "Four source-locked complete unreviewed drafts on draft PR #160 (ACCOMMODATION, ALTAR, AMOS (1), ASTROLOGY); ten source templates still untranslated. main remains 986/1000 until merge; individual editorial approvals 0.",
+  "source_flags": [
+    {
+      "key": "ALTAR",
+      "note": "Two distinct historical contributions retained with original headings and both author attributions. Source may contain English transcription issues (e.g. second while, Be hold, twice 'Ark' for altar transport), no English original modifications."
+    }
+  ]
 }
