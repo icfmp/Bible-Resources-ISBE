@@ -133,7 +133,7 @@
       "working_translation_status": "complete_draft_pending_editorial_review"
     }
   ],
-  "status_note": "Eleven full source-locked unreviewed first drafts on draft PR #160, three remaining original source entries untranslated. Main remains 986/1000 until merge. Independent bilingual editorial approval zero.",
+  "status_note": "Eleven complete source-locked first drafts on the active branch; three of the final fourteen remain. Work by direct commits only. Former draft PR #160 closed without merge; do not open a new translation PR after fourteen or after any 1,000-entry wave. Open a single translation PR only once the ENTIRE 9,380-article French translation is complete. Independent bilingual editorial review and publication are separate gates.",
   "source_flags": [
     {
       "key": "ALTAR",
@@ -509,5 +509,6 @@
       "witness": "Jusaism",
       "note": "Source apparent misspelling for Judaism; translated judaïsme, original unchanged"
     }
-  ]
+  ],
+  "pull_request_policy": "No PR during article, cohort, 14-entry or wave progression. Preserve and commit directly to the translation branch. Open one PR after all 9,380 French translations are completed, with editorial verification and publication gated separately."
 }
