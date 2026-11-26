@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CANKERED",
+      "article_id": "isbe-ea6d891269072ef0cad4",
+      "source_article_sha256": "3c62c4f2fb98e7d74576c5dbee0a24cdcbe7a6e0dd2ff2abecd85e4bc9b4e2ba",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CANKERED",
+          "target": "CORRODÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kan'-kerd (",
+          "target": "kan'-kerd (",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the Revised Version (British and American), \"rusted\").",
+          "target": " ; « rouillé » dans la Revised Version britannique et américaine).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CAPHTHORIM",
+      "article_id": "isbe-059719d652722d30e75f",
+      "source_article_sha256": "b452874b0e9ba7b39ee78a408d5ac0d07f455e0f05ba16aadc179f61c61fe950",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAPHTHORIM",
+          "target": "CAPHTHORIM",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kaf'-tho-rim (kaphtorim).",
+          "target": "kaf'-tho-rim (kaphtorim).",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CAPHTORIM",
+          "target": "CAPHTORIM",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CAREM",
+      "article_id": "isbe-57d2c2f216ae05c87edc",
+      "source_article_sha256": "6420d66ab45f00430b5375013dc92eede084f89bb9cff2cbc84c07c67c063be7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAREM",
+          "target": "CAREM",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka'-rem (Karem): A city of Judah interpolated by the Septuagint (",
+          "target": "ka'-rem (Karem) : ville de Juda ajoutée dans la Septante (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). Probably ",
+          "target": "). Probablement ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BETH-HACCHEREM",
+          "target": "BETH-HACCHEREM",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CASTOR AND POLLUX",
+      "article_id": "isbe-59974f9a212d3247bf20",
+      "source_article_sha256": "a3c468fd85a01e8faf0d4f8bfd8a97093af1f6c8ce76f65ec7d10f56877accd7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CASTOR AND POLLUX",
+          "target": "CASTOR ET POLLUX",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kas'-ter, pol'-uks.",
+          "target": "kas'-ter, pol'-uks.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "DIOSCURI",
+          "target": "DIOSCURES ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ASTRONOMY",
+          "target": "ASTRONOMIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CERAS",
+      "article_id": "isbe-aac89d85e4854a138799",
+      "source_article_sha256": "5489e7890ca7adf93cd70de8aab723d41114547098b0b6ca99f80404139f64e5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CERAS",
+          "target": "CÉRAS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "se'-ras (Keras; the Revised Version (British and American) ",
+          "target": "se'-ras (Keras ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "KERAS",
+          "target": "KÉRAS",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (which see)).",
+          "target": " dans la Revised Version britannique et américaine ; voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHABRIS",
+      "article_id": "isbe-fda88ee64edb8913e947",
+      "source_article_sha256": "fe98bc8d46fd2415977c165426aa0afc050454364f3dd05556b75cec4c4910d1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHABRIS",
+          "target": "CHABRIS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ka'-bris (Abris, Chabreis): Son of Gothoniel, one of the three rulers of Bethulia in the time of Judith (Judith 6:15; 8:10; 10:6).",
+          "target": "ka'-bris (Abris, Chabreis) : fils de Gothoniel, l'un des trois dirigeants de Béthulie à l'époque de Judith (Judith 6.15 ; 8.10 ; 10.6).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHALCEDONY",
+      "article_id": "isbe-5057c586e84eba505774",
+      "source_article_sha256": "ce326576299849fec0796a73a1df21fd670485a0d331b56cc4af41810e021dc4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHALCEDONY",
+          "target": "CALCÉDOINE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kal-sed'-o-ni, kal'-se-do-ni.",
+          "target": "kal-sed'-o-ni, kal'-se-do-ni.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "STONES, PRECIOUS",
+          "target": "PIERRES PRÉCIEUSES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CHAMBERS IN THE HEAVENS",
+      "article_id": "isbe-4f0eef258e7ff2db5567",
+      "source_article_sha256": "aac0895b81aeaa532e08045bd9f80e856d396ac67b499f9ec45838b668ddbb28",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHAMBERS IN THE HEAVENS",
+          "target": "CHAMBRES DANS LES CIEUX",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ASTRONOMY",
+          "target": "ASTRONOMIE ; ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "DIAL OF AHAZ",
+          "target": "CADRAN D'ACHAZ",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
