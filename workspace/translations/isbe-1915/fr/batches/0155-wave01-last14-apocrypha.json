@@ -1,0 +1,1582 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "APOCRYPHA",
+      "article_id": "isbe-534a9e287b206ae7941f",
+      "source_article_sha256": "671b5a4a3fca05814a740c2a34e5c5392a5f1b1bb233ca83a0c64403dd77c58a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "APOCRYPHA",
+          "target": "APOCRYPHES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "a-pok'-ri-fa:",
+          "target": "a-pok'-ri-fa :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "I. DEFINITION",
+          "target": "I. DÉFINITION",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "II. THE NAME APOCRYPHA",
+          "target": "II. LE NOM « APOCRYPHES »",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "1. Original Meanings",
+          "target": "1. Sens primitifs",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(1) Classical",
+          "target": "(1) Dans le grec classique",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(2) Hellenistic",
+          "target": "(2) À l'époque hellénistique",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(3) In the New Testament",
+          "target": "(3) Dans le Nouveau Testament",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(4) Patristic",
+          "target": "(4) Chez les Pères de l'Église",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "2. \"Esoteric\" in Greek Philosophy, etc.",
+          "target": "2. Le terme « ésotérique » dans la philosophie grecque, etc.",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "III. USAGE AS TO APOCRYPHA",
+          "target": "III. EMPLOIS DU TERME « APOCRYPHES »",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "1. Early Christian Usage",
+          "target": "1. Usage des premiers chrétiens",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "\"Apocalyptic\" Literature",
+          "target": "La littérature « apocalyptique »",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "2. The Eastern Church",
+          "target": "2. L'Église orientale",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "(1) \"Esoteric\" Literature (Clement of Alexandria, etc.)",
+          "target": "(1) La littérature « ésotérique » (Clément d'Alexandrie, etc.)",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "(2) Change to \"Religious\" Books (Origen, etc.)",
+          "target": "(2) L'évolution vers les livres « religieux » (Origène, etc.)",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(3) \"Spurious\" Books (Athanasius, Nicephorus, etc.)",
+          "target": "(3) Les livres « falsifiés » (Athanase, Nicéphore, etc.)",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(4) \"List of Sixty\"",
+          "target": "(4) La « Liste des soixante »",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "3. The Western Church",
+          "target": "3. L'Église occidentale",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "(1) The Decretum Gelasii",
+          "target": "(1) Le Decretum Gelasii",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "(2) \"Non-Canonical\" Books",
+          "target": "(2) Les livres « non canoniques »",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "4. The Reformers",
+          "target": "4. Les réformateurs",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "Separation from Canonical Books",
+          "target": "Séparation d'avec les livres canoniques",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "5. Heb Words for \"Apocrypha\"",
+          "target": "5. Les termes hébreux correspondant à « apocryphes »",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "(1) Do Such Exist?",
+          "target": "(1) De tels termes existent-ils ?",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "(2) Views of Zahn, Schurer, Porter, etc. (ganaz, genuzim)",
+          "target": "(2) Les opinions de Zahn, Schürer, Porter, etc. (ganaz, genuzim)",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "(3) Reasons for Rejection",
+          "target": "(3) Les raisons de rejeter cette interprétation",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "6. Summary",
+          "target": "6. Résumé",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "IV. CONTENTS OF THE APOCRYPHA",
+          "target": "IV. CONTENU DES APOCRYPHES",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "1. List of Books",
+          "target": "1. Liste des livres",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "2. Classification of Books",
+          "target": "2. Classification des livres",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "V. ORIGINAL LANGUAGES OF THE APOCRYPHA",
+          "target": "V. LANGUES ORIGINALES DES APOCRYPHES",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "VI. DATE OF THE APOCRYPHAL WRITINGS",
+          "target": "VI. DATE DE COMPOSITION DES ÉCRITS APOCRYPHES",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "I. Definition.",
+          "target": "I. Définition.",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "The word Apocrypha, as usually understood, denotes the collection of religious writings which the Septuagint and Vulgate (with trivial differences) contain in addition to the writings constituting the Jewish and Protestant canon. This is not the original or the correct sense of the word, as will be shown, but it is that which it bears almost exclusively in modern speech. In critical works of the present day it is customary to speak of the collection of writings now in view as \"the Old Testament Apocrypha,\" because many of the books at least were written in Hebrew, the language of the Old Testament, and because all of them are much more closely allied to the Old Testament than to the New Testament. But there is a \"New\" as well as an \"Old\" Testament Apocrypha consisting of gospels, epistles, etc. Moreover the adjective \"Apocryphal\" is also often applied in modern times to what are now generally called \"Pseudepigraphical writings,\" so designated because ascribed in the titles to authors who did not and could not have written them (eg. Enoch, Abraham, Moses, etc.). The persons thus connected with these books are among the most distinguished in the traditions and history of Israel, and there can be no doubt that the object for which such names have been thus used is to add weight and authority to these writings.",
+          "target": "Dans son acception ordinaire, le mot « apocryphes » désigne l'ensemble des écrits religieux contenus dans la Septante et dans la Vulgate (à quelques différences mineures près) en plus des livres constituant le canon juif et protestant. Comme nous le verrons, ce n'est ni son sens premier ni son sens exact ; c'est pourtant presque le seul qu'il possède dans le langage moderne. Les études critiques contemporaines parlent habituellement des « apocryphes de l'Ancien Testament », car une bonne partie au moins de ces livres furent écrits en hébreu, langue de l'Ancien Testament, et parce que tous se rattachent beaucoup plus étroitement à l'Ancien qu'au Nouveau Testament. Mais il existe aussi des « apocryphes du Nouveau Testament », composés d'évangiles, d'épîtres et d'autres écrits. En outre, l'adjectif « apocryphe » s'applique souvent aujourd'hui à des textes qu'on appelle généralement « pseudépigraphes », parce que leurs titres les attribuent à des auteurs qui ne les ont pas écrits et n'auraient pas pu les écrire (Hénoch, Abraham, Moïse, etc.). Ces personnages comptent parmi les plus illustres de la tradition et de l'histoire d'Israël, et il ne fait aucun doute que l'emploi de leur nom visait à donner à ces écrits davantage de poids et d'autorité.",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "The late Professor E. Kautzsch of Halle edited a German translation of the Old and New Testament Apocrypha, and of the Pseudepigraphical writings, with excellent introductions and valuable notes by the best German scholars. Dr. Edgar Hennecke has edited a similar work on the New Testament Apocrypha. Nothing in the English language can be compared with the works edited by Kautzsch and Hennecke in either scholarship or usefulness. (A similar English work to that edited by Kautzsch is now passing through the (Oxford) press, Dr. R. H. Charles being the editor, the writer of this article being one of the contributors.)",
+          "target": "Le regretté professeur E. Kautzsch, de Halle, a dirigé une traduction allemande des apocryphes de l'Ancien et du Nouveau Testament ainsi que des pseudépigraphes, accompagnée d'excellentes introductions et de notes précieuses rédigées par les meilleurs spécialistes allemands. Le Dr Edgar Hennecke a édité un ouvrage analogue consacré aux apocryphes du Nouveau Testament. Aucun ouvrage en langue anglaise n'égale ceux de Kautzsch et de Hennecke par sa valeur scientifique ou son utilité. (Un ouvrage anglais comparable à celui dirigé par Kautzsch est actuellement sous presse à Oxford ; il est dirigé par le Dr R. H. Charles, et l'auteur du présent article compte parmi ses collaborateurs.)",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "II. The Name Apocrypha.",
+          "target": "II. Le nom « apocryphes ».",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "The investigation which follows will show that when the word \"Apocryphal\" was first used in ecclesiastical writings it bore a sense virtually identical with \"esoteric\": so that \"apocryphal writings\" were such as appealed to an inner circle and could not be understood by outsiders. The present connotation of the term did not get fixed until the Protestant Reformation had set in, limiting the Biblical canon to its present dimensions among Protestant churches.",
+          "target": "L'étude qui suit montrera que, lors de ses premières apparitions dans les écrits ecclésiastiques, le mot « apocryphe » avait pratiquement le même sens qu'« ésotérique » : les « écrits apocryphes » s'adressaient donc à un cercle restreint et demeuraient incompréhensibles aux personnes extérieures. La connotation actuelle du terme ne s'est véritablement fixée qu'avec la Réforme protestante, lorsque le canon biblique a été ramené, dans les Églises protestantes, à ses dimensions actuelles.",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "1. Original Meanings:",
+          "target": "1. Sens primitifs :",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "(1) Classical.",
+          "target": "(1) Dans le grec classique.",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "The Greek adjective apokruphos, denotes strictly \"hidden,\" \"concealed,\" of a material object (Eurip. Here. Fur. 1070). Then it came to signify what is obscure, recondite, hard to understand (Xen. Mem. 3.5, 14). But it never has in classical Greek any other sense.",
+          "target": "L'adjectif grec apokruphos signifie au sens strict « caché », « dissimulé », à propos d'un objet matériel (Euripide, Hercule furieux, 1070). Il en vint ensuite à désigner ce qui est obscur, difficile d'accès ou difficile à comprendre (Xénophon, Mémorables, III, 5, 14). En grec classique, il n'a jamais d'autre sens.",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "(2) Hellenistic.",
+          "target": "(2) À l'époque hellénistique.",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "In Hellenistic Greek as represented by the Septuagint and the New Testament there is no essential departure from classical usage. In the Septuagint (or rather Theodotion's version) of ",
+          "target": "Dans le grec hellénistique représenté par la Septante et le Nouveau Testament, l'usage ne s'écarte pas fondamentalement du grec classique. En ",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "tail",
+          "source": " it stands for \"hidden\" as applied to gold and silver stores. But the word has also in the same text the meaning \"what is hidden away from human knowledge and understanding.\" So ",
+          "target": ", dans la Septante (ou, plus exactement, la version de Théodotion), le mot signifie « caché » à propos des réserves d'or et d'argent. Mais le même texte lui donne aussi le sens de « ce qui échappe à la connaissance et à l'intelligence humaines ». Ainsi en ",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": " (Theod.) where the apokrupha or hidden things are the meanings of Nebuchadnezzar's dream revealed to Daniel though \"hidden\" from the wise men of Babylon. The word has the same sense in Sirach 14:21; 39:3,7; 42:19; 48:25; 43:32.",
+          "target": " (Théodotion), les apokrupha, ou choses cachées, sont les significations du rêve de Nebucadnetsar révélées à Daniel, bien qu'elles demeurent « cachées » aux sages de Babylone. Le mot possède le même sens dans le Siracide, en 14.21 ; 39.3, 7 ; 42.19 ; 48.25 ; 43.32.",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "(3) In the New Testament.",
+          "target": "(3) Dans le Nouveau Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "In the New Testament the word occurs but thrice, namely, ",
+          "target": "Dans le Nouveau Testament, le terme apparaît seulement trois fois : en ",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "tail",
+          "source": " and the parallel ",
+          "target": " et dans le passage parallèle de ",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "tail",
+          "source": ". In the last passage Bishop Lightfoot thought we have in the word apokruphoi (treasures of Christ hidden) an allusion to the vaunted esoteric knowledge of the false teachers, as if Paul meant to say that it is in Christ alone we have true wisdom and knowledge and not in the secret books of these teachers. Assuming this, we have in this verse the first example of apokruphos in the sense \"esoteric.\" But the evidence is against so early a use of the term in this--soon to be its prevailing--sense. Nor does exegesis demand such a meaning here, for no writings of any kind seem intended.",
+          "target": ". À propos du dernier passage, l'évêque Lightfoot a cru discerner, dans le mot apokruphoi (les trésors cachés du Christ), une allusion au savoir ésotérique dont se vantaient les faux docteurs, comme si Paul voulait dire que la sagesse et la connaissance véritables se trouvent uniquement en Christ, et non dans les livres secrets de ces maîtres. Si telle est bien l'intention du texte, nous aurions ici le premier exemple d'apokruphos au sens d'« ésotérique ». Mais les témoignages s'opposent à l'emploi si précoce du terme dans ce sens, qui allait bientôt devenir dominant. L'exégèse ne l'exige d'ailleurs pas ici, puisque le passage ne semble viser aucun écrit d'aucune sorte.",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "(4) Patristic.",
+          "target": "(4) Chez les Pères de l'Église.",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "In patristic writings of an early period the adjective apokruphos came to be applied to Jewish and Christian writings containing secret knowledge about the future, etc., intelligible only to the small number of disciples who read them and for whom they were believed to be specially provided. To this class of writings belong in particular those designated Apocalyptic (see ",
+          "target": "Dans les premiers écrits patristiques, l'adjectif apokruphos fut appliqué à des écrits juifs et chrétiens contenant des révélations secrètes sur l'avenir, entre autres, accessibles seulement au petit nombre de disciples qui les lisaient et auxquels ils étaient censés être spécialement destinés. Les ouvrages dits « apocalyptiques » appartiennent tout particulièrement à cette catégorie (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "APOCALYPTIC LITERATURE",
+          "target": "LITTÉRATURE APOCALYPTIQUE",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "tail",
+          "source": "), and it will be seen as thus employed that apokruphos has virtually the meaning of the Greek esoterikos.",
+          "target": "). Dans cet emploi, apokruphos a pratiquement le sens du grec esoterikos.",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "2. \"Esoteric\" in Greek Philosophy, etc.:",
+          "target": "2. Le terme « ésotérique » dans la philosophie grecque, etc. :",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "A brief statement as to the doctrine in early Greek philosophy will be found helpful at this point. From quite early times the philosophers of ancient Greece distinguished between the doctrines and rites which could be taught to all their pupils, and those which could profitably be communicated only to a select circle called the initiated. The two classes of doctrines and rites--they were mainly the latter--were designated respectively \"exoteric\" and \"esoteric.\" Lucian (died 312; see Vit. Auct. 26) followed by many others referred the distinction to Aristotle, but as modern scholars agree, wrongly, for the exoterikoi logoi, of that philosopher denote popular treatises. The Pythagoreans recognized and observed these two kinds of doctrines and duties and there is good reason for believing that they created a corresponding double literature though unfortunately no explicit examples of such literature have come down to us.",
+          "target": "Un bref rappel de la doctrine des premières écoles philosophiques grecques sera utile ici. Très tôt, les philosophes de la Grèce antique distinguèrent les doctrines et les rites qu'ils pouvaient enseigner à tous leurs disciples de ceux qu'ils estimaient utile de communiquer seulement à un cercle de personnes choisies, les initiés. Ces deux catégories de doctrines et de rites — principalement les rites — étaient respectivement dites « exotériques » et « ésotériques ». Lucien (mort en 312 ; voir Vit. Auct., 26), suivi de beaucoup d'autres, attribuait cette distinction à Aristote ; mais, selon les spécialistes modernes, c'était à tort : les exoterikoi logoi de ce philosophe désignent en effet des traités populaires. Les pythagoriciens reconnaissaient et observaient ces deux sortes de doctrines et de devoirs. De bonnes raisons permettent de croire qu'ils produisirent une littérature correspondante de deux types, même si, malheureusement, aucun exemple explicite n'en est parvenu jusqu'à nous.",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "In the Greek mysteries (Orphic, Dionysiac, Eleusinian, etc.) two classes of hearers and readers are implied all through, though it is a pity that more of the literature bearing on the question has not been preserved. Among the Buddhists the Samga forms a close society open originally to monks or bhikhus admitted only after a most rigid examination; but in later years nuns (bhikshunis) also have been allowed admission, though in their case too after careful testing. The Vinaya Pitaka or \"Basket of Discipline\" contains the rules for entrance and the regulations to be observed after entrance. But this and kindred literature was and is still held to be caviare to outsiders. See translation in the Sacred Books of the East, XI (Rhys Davids and Oldenberg).",
+          "target": "Dans les mystères grecs (orphiques, dionysiaques, éleusiniens, etc.), on suppose partout deux catégories d'auditeurs et de lecteurs, même s'il est regrettable que davantage de documents relatifs à cette question n'aient pas été conservés. Chez les bouddhistes, le Samgha forme une société fermée, accessible à l'origine aux seuls moines ou bhikkhus, admis après un examen des plus rigoureux ; par la suite, des moniales (bhikkhunis) furent également admises, mais après avoir elles aussi subi une épreuve attentive. Le Vinaya Pitaka, ou « Corbeille de la discipline », contient les règles d'admission et les prescriptions à observer ensuite. Cette littérature et les écrits apparentés étaient et demeurent considérés comme inaccessibles au goût et à la compréhension des personnes extérieures. Voir la traduction dans Sacred Books of the East, XI (Rhys Davids et Oldenberg).",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "III. Usage as to Apocrypha.",
+          "target": "III. Emplois du terme « apocryphes ».",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "It must be borne in mind that the word apocrypha is really a Greek adjective in the neuter plural, denoting strictly \"things hidden.\" But almost certainly the noun biblia is understood, so that the real implication of the word is \"apocryphal books\" or \"writings.\" In this article apocrypha will be employed in the sense of this last, and apocryphal as the equivalent of the Greek apokruphos.",
+          "target": "Il ne faut pas oublier qu'apocrypha est en réalité un adjectif grec au pluriel neutre, qui signifie littéralement « choses cachées ». Mais le substantif biblia est presque certainement sous-entendu, si bien que le terme désigne en fait les « livres » ou « écrits apocryphes ». Dans le présent article, apocrypha sera employé dans ce dernier sens, et « apocryphe » comme équivalent du grec apokruphos.",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "1. Early Christian Usage:",
+          "target": "1. Usage des premiers chrétiens :",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "\"Apocalyptic\" literature.",
+          "target": "La littérature « apocalyptique ».",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "The word apocrypha was first used technically by early Christian writers for the Jewish and Christian writings usually classed under \"Apocalyptic\" (see ",
+          "target": "C'est aux écrits juifs et chrétiens habituellement classés parmi les œuvres « apocalyptiques » que les premiers écrivains chrétiens appliquèrent pour la première fois, dans un sens technique, le terme apocrypha (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "APOCALYPTIC LITERATURE",
+          "target": "LITTÉRATURE APOCALYPTIQUE",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "tail",
+          "source": "). In this sense it takes the place of the classical Greek word esoterika and bears the same general meaning, namely, writings intended for an inner circle and cap. able of being understood by no others. These writings give intimations regarding the future, the ultimate triumph of the kingdom of God, etc., beyond, it was thought, human discovery and also beyond the intelligence of the uninitiated. In this sense Gregory of Nyssa (died 395; De Ordin., II, 44) and Epiphanius (died 403; Haeres, 51 3) speak of the Apocalypse of John as \"apocryphal.\"",
+          "target": "). Il remplaçait alors le grec classique esoterika, avec le même sens général : des écrits destinés à un cercle intérieur, et que nul autre ne pouvait comprendre. Ils livraient des indications sur l'avenir, le triomphe ultime du royaume de Dieu et d'autres réalités supposées hors de portée de la découverte humaine et de l'intelligence des non-initiés. C'est en ce sens que Grégoire de Nysse (mort en 395 ; De Ordin., II, 44) et Épiphane (mort en 403 ; Haeres., 51, 3) parlent de l'Apocalypse de Jean comme d'un écrit « apocryphe ».",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "2. The Eastern Church:",
+          "target": "2. L'Église orientale :",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "Christianity itself has nothing corresponding to the idea of a doctrine for the initiated or a literature for a select few. The gospel was preached in its first days to the poor and ignorant, and the reading and studying of the sacred Scriptures have been urged by the churches (with some exceptions) upon the public at large.",
+          "target": "Le christianisme lui-même ne possède rien qui corresponde à l'idée d'un enseignement réservé aux initiés ou d'une littérature destinée à quelques privilégiés. Dès ses origines, l'Évangile fut annoncé aux pauvres et aux ignorants ; les Églises, à quelques exceptions près, ont encouragé le grand public à lire et à étudier les saintes Écritures.",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "(1) \"Esoteric\" Literature (Clement of Alexandria, etc.).",
+          "target": "(1) La littérature « ésotérique » (Clément d'Alexandrie, etc.).",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "The rise of this conception in the eastern church is easily understood. When devotees of Greek philosophy accepted the Christian faith it was natural for them to look at the new religion through the medium of the old philosophy. Many of them read into the canonical writings mystic meanings, and embodied those meanings in special books, these last becoming esoteric literature in themselves: and as in the case of apocalyptic writings, this esoteric literature was more revered than the Bible itself. In a similar way there grew up among the Jews side by side with the written law an oral law containing the teaching of the rabbis and regarded as more sacred and authoritative than the writings they profess to expound. One may find some analogy in the fact that among many Christians the official literature of the denomination to which they belong has more commanding force than the Bible itself. This movement among Greek Christians was greatly aided by Gnostic sects and the esoteric literature to which they gave rise. These Gnostics had been themselves influenced deeply by Babylonian and Persian mysticism and the corresponding literature. Clement of Alexandria (died 220) distinctly mentions esoteric books belonging to the Zoroastrian (Mazdean) religion.",
+          "target": "L'apparition de cette conception dans l'Église orientale s'explique aisément. Lorsque des adeptes de la philosophie grecque embrassèrent la foi chrétienne, ils eurent naturellement tendance à voir la nouvelle religion à travers leur ancienne philosophie. Beaucoup projetèrent des significations mystiques sur les écrits canoniques et les consignèrent dans des livres particuliers, qui devinrent à leur tour une littérature ésotérique. Comme pour les écrits apocalyptiques, cette littérature ésotérique fut parfois plus révérée que la Bible elle-même. De même, chez les Juifs, une loi orale comportant l'enseignement des rabbins se développa parallèlement à la loi écrite, et fut jugée plus sacrée et plus autorisée que les écrits qu'elle prétendait expliquer. Une analogie se trouve peut-être dans le fait que, chez beaucoup de chrétiens, la littérature officielle de leur confession exerce une autorité plus contraignante que la Bible elle-même. Ce mouvement parmi les chrétiens grecs fut fortement favorisé par les sectes gnostiques et la littérature ésotérique qu'elles produisirent. Ces gnostiques avaient eux-mêmes subi une influence profonde du mysticisme babylonien et perse et de sa littérature. Clément d'Alexandrie (mort en 220) mentionne expressément des livres ésotériques appartenant à la religion zoroastrienne, ou mazdéenne.",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "Oriental and especially Greek Christianity tended to give to philosophy the place which the New Testament and western Christianity assign the Old Testament. The preparation for the religion of Jesus was said to be in philosophy much more than in the religion of the Old Testament. It will be remembered that Marcian (died end of 2nd century AD), Thomas Morgan, the Welsh 18th-century deist (died 1743) and Friedrich Schleiermacher (died 1834) taught this very same thing.",
+          "target": "Le christianisme oriental, et particulièrement grec, tendait à donner à la philosophie la place que le Nouveau Testament et le christianisme occidental assignent à l'Ancien Testament. La préparation à la religion de Jésus se trouvait, disait-on, bien davantage dans la philosophie que dans la religion vétérotestamentaire. Rappelons que Marcion (mort à la fin du IIe siècle), Thomas Morgan, déiste gallois du XVIIIe siècle (mort en 1743), et Friedrich Schleiermacher (mort en 1834) enseignèrent cette même idée.",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "Clement of Alexandria (see above) recognized 4 (2) Esdras (to be hereafter called the Apocalypse of Ezra), the Assumption of Moses, etc., as fully canonical. In addition to this he upheld the authority and value of esoterical books, Jewish, Christian, and even heathen. But he is of most importance for our present purpose because he is probably the earliest Greek writer to use the word apocrypha as the equivalent of esoterika, for he describes the esoteric books of Zoroastrianism as apocryphal.",
+          "target": "Clément d'Alexandrie (voir plus haut) reconnaissait comme pleinement canoniques 4 (2) Esdras (appelé ci-après l'Apocalypse d'Esdras), l'Assomption de Moïse et d'autres écrits. Il défendait en outre l'autorité et la valeur des livres ésotériques juifs, chrétiens et même païens. Mais son importance particulière pour notre sujet tient à ce qu'il fut probablement le premier auteur grec à employer le mot apocrypha comme équivalent d'esoterika : il qualifie en effet d'apocryphes les livres ésotériques du zoroastrisme.",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "text",
+          "source": "But the idea of esoteric religious literature existed at an earlier time among the Jews, and was borrowed from them by Christians. It is clearly taught in the Apocalyptic Esdras (2 or 4 Esd) chapter 14, where it is said that Ezra aided by five amanuenses produced under Divine inspiration 94 sacred books, the writings of Moses and the prophets having been lost when Jerusalem and the temple were destroyed. Of this large number of sacred books 24 were to be published openly, for the unworthy as well as the worthy, these 24 books representing undoubtedly the books of the Hebrew Old Testament. The remaining 70 were to be kept for the exclusive use of the \"wise among the people\": i.e. they were of an esoteric character. Perhaps if the Greek original of this book had been preserved the word \"apocrypha\" would have been found as an epithetic attached to the 70 books. Our English versions are made from a Latin original EZRA or the ",
+          "target": "L'idée d'une littérature religieuse ésotérique existait cependant plus tôt chez les Juifs, et les chrétiens l'ont empruntée à ceux-ci. Elle est clairement enseignée dans l'Apocalypse d'Esdras (2 ou 4 Esdras), chapitre 14 : Esdras, aidé par cinq secrétaires, y aurait produit sous l'inspiration divine quatre-vingt-quatorze livres sacrés, les écrits de Moïse et des prophètes ayant été perdus lors de la destruction de Jérusalem et du temple. Parmi ces livres, vingt-quatre devaient être publiés ouvertement, pour les indignes autant que pour les dignes : ces vingt-quatre livres représentaient indubitablement ceux de l'Ancien Testament hébraïque. Les soixante-dix autres étaient réservés exclusivement aux « sages du peuple » ; ils avaient donc un caractère ésotérique. Peut-être, si l'original grec de ce livre avait été conservé, le terme « apocryphes » figurerait-il comme épithète des soixante-dix livres. Nos traductions anglaises dérivent d'un original latin d'ESDRAS, ou de l'",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "APOCALYPTIC ESDRAS",
+          "target": "APOCALYPSE D'ESDRAS",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "tail",
+          "source": ". Modern scholars agree that in its present form this book arose in the reign of Domitian 81-96 AD. So that the conception of esoteric literature existed among the Jews in the 1st century of our era, and probably still earlier.",
+          "target": ". Les chercheurs modernes s'accordent à dater sa forme actuelle du règne de Domitien (81-96 apr. J.-C.). La conception d'une littérature ésotérique existait donc chez les Juifs au Ier siècle de notre ère, probablement même auparavant.",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "It is significant of the original character of the religion of Israel that no one has been able to point to a Hebrew word corresponding to esoteric (see below). When among the Jews there arose a literature of oral tradition it was natural to apply to this last the Greek notion of esoteric, especially as this class of literature was more highly esteemed in many Jewish circles than the Old Testament Scriptures themselves.",
+          "target": "Il est révélateur du caractère premier de la religion d'Israël que personne n'ait pu identifier un terme hébreu correspondant à « ésotérique » (voir plus bas). Lorsqu'une littérature de tradition orale se développa parmi les Juifs, il devint naturel de lui appliquer la notion grecque d'ésotérisme, d'autant que ces écrits étaient tenus en plus haute estime que les Écritures de l'Ancien Testament elles-mêmes dans de nombreux milieux juifs.",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "text",
+          "source": "(2) Change to \"Religious\" Books (Origen, etc.).",
+          "target": "(2) Passage aux livres « religieux » (Origène, etc.).",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "text",
+          "source": "The next step in the history of the word \"apocrypha\" is that by which it came to denote religious books inferior in authority and worth to the Scriptures of the Old Testament and New Testament. This change of attitude toward noncanonical writings took place under the influence of two principles: (1) that no writer could be inspired who lived subsequent to the apostolic age; (2) that no writing could be recognized as canonical unless it was accepted as such by the churches in general (in Latin the principle was--quod ubique, quod semper, quod ab omnibus). Now it was felt that many if not most of the religious writings which came in the end of the 2nd century to be called \"apocryphal\" in a disparaging sense had their origin among heretical sects like the Gnostics, and that they had never commanded the approval of the great bulk of the churches. Origen (died 253) held that we ought to discriminate between books called \"apocryphal,\" some such having to be firmly rejected as teaching what is contrary to the Scriptures. More and more from the end of the 2nd century, the word \"apocrypha\" came to stand for what is spurious and untrustworthy, and especially for writings ascribed to authors who did not write them: i.e. the so-called \"Pseudepigraphical books.\"",
+          "target": "L'étape suivante de l'histoire du mot « apocryphes » est celle où il en vint à désigner des livres religieux d'une autorité et d'une valeur inférieures à celles des Écritures de l'Ancien et du Nouveau Testament. Ce changement d'attitude envers les écrits non canoniques se produisit sous l'influence de deux principes : (1) aucun auteur ayant vécu après l'époque apostolique ne pouvait être inspiré ; (2) aucun écrit ne pouvait être reconnu comme canonique s'il n'était pas accepté comme tel par les Églises en général (formule latine : quod ubique, quod semper, quod ab omnibus, « ce qui a été admis partout, toujours et par tous »). Or on estimait que beaucoup, sinon la plupart, des écrits religieux qu'on commença, à la fin du IIe siècle, à qualifier péjorativement d'« apocryphes » provenaient de sectes hérétiques comme les gnostiques et n'avaient jamais obtenu l'approbation de la grande majorité des Églises. Origène (mort en 253) considérait qu'il fallait distinguer entre les livres dits « apocryphes », certains devant être fermement rejetés parce qu'ils enseignaient des choses contraires aux Écritures. De plus en plus, à partir de la fin du IIe siècle, « apocryphes » en vint à désigner ce qui était falsifié ou indigne de confiance, surtout les œuvres attribuées à des auteurs qui ne les avaient pas écrites : les livres dits « pseudépigraphes ».",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "text",
+          "source": "Irenaeus (died 202) in opposition to Clement of Alexandria denies that esoteric writings have any claims to credence or even respect, and he uses the Greek word for \"apocryphal\" to describe all Jewish and Christian canons. To him, as later to Jerome (died 420), \"canonical\" and \"apocryphal\" were antithetic terms. Tertullian (died 230) took the same view: \"apocryphal\" to him denoted non-canonical. But both Irenaeus and Tertullian meant by apocrypha in particular the apocalyptic writings. During the Nicene period, and even earlier, sacred books were divided by Christian teachers into three classes:",
+          "target": "Irénée (mort en 202), contrairement à Clément d'Alexandrie, niait que les écrits ésotériques méritent la moindre créance ou même le moindre respect, et employait le mot grec correspondant à « apocryphe » pour décrire les canons juifs et chrétiens. Pour lui, comme plus tard pour Jérôme (mort en 420), « canonique » et « apocryphe » étaient des termes opposés. Tertullien (mort en 230) partageait cette opinion : « apocryphe » signifiait pour lui « non canonique ». Toutefois, Irénée comme Tertullien visaient particulièrement par ce mot les écrits apocalyptiques. Au temps du concile de Nicée, et même auparavant, les enseignants chrétiens répartissaient les livres sacrés en trois catégories :",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "(1) books that could be read in church;",
+          "target": "(1) ceux qui pouvaient être lus dans l'Église ;",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "(2) books that could be read privately, but not in public;",
+          "target": "(2) ceux qui pouvaient être lus en privé, mais non publiquement ;",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "(3) books that were not to be read at all. This classification is implied in the writings of Origen, Clement of Alexandria, Athanasius (died 373), and in the Muratorian Fragments (about 200 AD).",
+          "target": "(3) ceux qu'il ne fallait absolument pas lire. Cette classification est sous-entendue chez Origène, Clément d'Alexandrie, Athanase (mort en 373) et dans le Fragment de Muratori (vers 200 apr. J.-C.).",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "text",
+          "source": "(3) \"Spurious\" Books (Athanasius, Nicephorus, etc.).",
+          "target": "(3) Les livres « falsifiés » (Athanase, Nicéphore, etc.).",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "text",
+          "source": "Athanasius, however, restricted the word apocrypha to the third class, thus making the corresponding adjective synonymous with \"spurious.\" Nicephorus, patriarch of Constantinople (806-15 AD) in his chronography (belonging essentially to 500 AD according to Zahn) divides sacred books thus:",
+          "target": "Athanase réservait cependant le mot apocrypha à la troisième catégorie, rendant ainsi l'adjectif synonyme de « falsifié ». Nicéphore, patriarche de Constantinople (806-815), divisait les livres sacrés, dans sa Chronographie (qui remonterait pour l'essentiel à l'an 500 selon Zahn), de la manière suivante :",
+          "action": "translate"
+        },
+        {
+          "node": 87,
+          "part": "text",
+          "source": "(1) the canonical books of the Old Testament and New Testament;",
+          "target": "(1) les livres canoniques de l'Ancien et du Nouveau Testament ;",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "text",
+          "source": "(2) the Antilegomena of both Testaments;",
+          "target": "(2) les Antilégomènes des deux Testaments ;",
+          "action": "translate"
+        },
+        {
+          "node": 89,
+          "part": "text",
+          "source": "(3) the Apocrypha of both Testaments.",
+          "target": "(3) les Apocryphes des deux Testaments.",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "text",
+          "source": "The details of the Apocrypha of the New Testament are thus enumerated:",
+          "target": "La liste détaillée des apocryphes de l'Ancien Testament est la suivante :",
+          "action": "translate"
+        },
+        {
+          "node": 91,
+          "part": "text",
+          "source": "(1) Enoch;",
+          "target": "(1) Hénoch ;",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "text",
+          "source": "(2) The 12 Patriarchs;",
+          "target": "(2) Les douze patriarches ;",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "text",
+          "source": "(3) The Prayer of Joseph;",
+          "target": "(3) La Prière de Joseph ;",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "text",
+          "source": "(4) The Testament of Moses;",
+          "target": "(4) Le Testament de Moïse ;",
+          "action": "translate"
+        },
+        {
+          "node": 95,
+          "part": "text",
+          "source": "(5) The Assumption of Moses;",
+          "target": "(5) L'Assomption de Moïse ;",
+          "action": "translate"
+        },
+        {
+          "node": 96,
+          "part": "text",
+          "source": "(6) Abram;",
+          "target": "(6) Abram ;",
+          "action": "translate"
+        },
+        {
+          "node": 97,
+          "part": "text",
+          "source": "(7) Eldad and Modad;",
+          "target": "(7) Eldad et Modad ;",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "text",
+          "source": "(8) Elijah the Prophet;",
+          "target": "(8) Élie le prophète ;",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "(9) Zephaniah the Prophet;",
+          "target": "(9) Sophonie le prophète ;",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "text",
+          "source": "(10) Zechariah, father of John;",
+          "target": "(10) Zacharie, père de Jean ;",
+          "action": "translate"
+        },
+        {
+          "node": 101,
+          "part": "text",
+          "source": "(11) The Pseudepigrapha of Baruch, Habakkuk, Ezekiel and Daniel.",
+          "target": "(11) Les pseudépigraphes de Baruch, Habacuc, Ézéchiel et Daniel.",
+          "action": "translate"
+        },
+        {
+          "node": 102,
+          "part": "text",
+          "source": "The books of the New Testament Apocrypha are thus given:",
+          "target": "Les apocryphes du Nouveau Testament sont énumérés comme suit :",
+          "action": "translate"
+        },
+        {
+          "node": 103,
+          "part": "text",
+          "source": "(1) The Itinerary of Paul;",
+          "target": "(1) L'Itinéraire de Paul ;",
+          "action": "translate"
+        },
+        {
+          "node": 104,
+          "part": "text",
+          "source": "(2) The Itinerary of Peter;",
+          "target": "(2) L'Itinéraire de Pierre ;",
+          "action": "translate"
+        },
+        {
+          "node": 105,
+          "part": "text",
+          "source": "(3) The Itinerary of John;",
+          "target": "(3) L'Itinéraire de Jean ;",
+          "action": "translate"
+        },
+        {
+          "node": 106,
+          "part": "text",
+          "source": "(4) The Itinerary of Thomas;",
+          "target": "(4) L'Itinéraire de Thomas ;",
+          "action": "translate"
+        },
+        {
+          "node": 107,
+          "part": "text",
+          "source": "(5) The Gospel according to Thomas;",
+          "target": "(5) L'Évangile selon Thomas ;",
+          "action": "translate"
+        },
+        {
+          "node": 108,
+          "part": "text",
+          "source": "(6) The Teaching of the Apostles (the Didache);",
+          "target": "(6) L'Enseignement des apôtres (la Didachè) ;",
+          "action": "translate"
+        },
+        {
+          "node": 109,
+          "part": "text",
+          "source": "(7) and (8) The Two Epistles of Clement;",
+          "target": "(7) et (8) Les deux épîtres de Clément ;",
+          "action": "translate"
+        },
+        {
+          "node": 110,
+          "part": "text",
+          "source": "(9) Epistles of Ignatius, Polycarp and Hermas.",
+          "target": "(9) Les épîtres d'Ignace, de Polycarpe et d'Hermas.",
+          "action": "translate"
+        },
+        {
+          "node": 111,
+          "part": "text",
+          "source": "The above lists are repeated in the so-called Synopsis of Athanasius. The authors of these so-called apocryphal books being unknown, it was sought to gain respect for these writers by tacking onto them well-known names, so that, particularly in the western church, \"apocryphal\" came to be almost synonymous with \"pseudepigraphical.\" Of the Old Testament lists given above numbers 1, 2, 4, 5 are extant wholly or in part. Numbers 3, 7, 8 and 9 are lost though quoted as genuine by Origen and other eastern Fathers. They are all of them apocalypses designated apocrypha in accordance with early usage.",
+          "target": "Ces listes sont reprises dans la prétendue Synopsis d'Athanase. Les véritables auteurs de ces livres dits apocryphes étant inconnus, on chercha à leur donner du prestige en leur attribuant des noms célèbres : aussi, particulièrement dans l'Église occidentale, le mot « apocryphe » devint-il presque synonyme de « pseudépigraphe ». Parmi les ouvrages de l'Ancien Testament énumérés plus haut, les numéros 1, 2, 4 et 5 existent encore intégralement ou en partie. Les numéros 3, 7, 8 et 9 sont perdus, bien qu'Origène et d'autres Pères orientaux les aient cités comme authentiques. Tous sont des apocalypses qualifiées d'apocryphes selon l'usage ancien.",
+          "action": "translate"
+        },
+        {
+          "node": 112,
+          "part": "text",
+          "source": "(4) \"List of Sixty.\"",
+          "target": "(4) La « Liste des soixante ».",
+          "action": "translate"
+        },
+        {
+          "node": 113,
+          "part": "text",
+          "source": "In the anonymous, \"List of Sixty,\" which hails from the 7th century, we have represented probably the attitude of the eastern church. It divides sacred books into three classes:",
+          "target": "La « Liste des soixante », document anonyme du VIIe siècle, représente probablement la position de l'Église orientale. Elle classe les livres sacrés en trois groupes :",
+          "action": "translate"
+        },
+        {
+          "node": 114,
+          "part": "text",
+          "source": "(1) The sixty canonical books. Since the Protestant canon consists of but 57 books it will be seen that in this list books outside our canon are included.",
+          "target": "(1) Les soixante livres canoniques. Puisque le canon protestant n'en comprend que cinquante-sept, cette liste inclut manifestement des livres extérieurs à notre canon.",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "text",
+          "source": "(2) Books excluded from the 60, yet of superior authority to those mentioned as apocryphal in the next class. (3) Apocryphal books, the names of which are as follows:",
+          "target": "(2) Les livres exclus des soixante, mais possédant une autorité supérieure à celle des ouvrages qualifiés d'apocryphes dans la catégorie suivante. (3) Les livres apocryphes dont les titres suivent :",
+          "action": "translate"
+        },
+        {
+          "node": 116,
+          "part": "text",
+          "source": "(a) Adam;",
+          "target": "(a) Adam ;",
+          "action": "translate"
+        },
+        {
+          "node": 117,
+          "part": "text",
+          "source": "(b) Enoch;",
+          "target": "(b) Hénoch ;",
+          "action": "translate"
+        },
+        {
+          "node": 118,
+          "part": "text",
+          "source": "(c) Lamech;",
+          "target": "(c) Lamech ;",
+          "action": "translate"
+        },
+        {
+          "node": 119,
+          "part": "text",
+          "source": "(d) The 12 Patriarchs;",
+          "target": "(d) Les douze patriarches ;",
+          "action": "translate"
+        },
+        {
+          "node": 120,
+          "part": "text",
+          "source": "(e) The Prayer of Joseph;",
+          "target": "(e) La Prière de Joseph ;",
+          "action": "translate"
+        },
+        {
+          "node": 121,
+          "part": "text",
+          "source": "(f) Eldad and Modad;",
+          "target": "(f) Eldad et Modad ;",
+          "action": "translate"
+        },
+        {
+          "node": 122,
+          "part": "text",
+          "source": "(g) The Testament of Moses;",
+          "target": "(g) Le Testament de Moïse ;",
+          "action": "translate"
+        },
+        {
+          "node": 123,
+          "part": "text",
+          "source": "(h) The Assumption of Moses;",
+          "target": "(h) L'Assomption de Moïse ;",
+          "action": "translate"
+        },
+        {
+          "node": 124,
+          "part": "text",
+          "source": "(i) The Psalms of Solomon;",
+          "target": "(i) Les Psaumes de Salomon ;",
+          "action": "translate"
+        },
+        {
+          "node": 125,
+          "part": "text",
+          "source": "(j) The Apocalypse of Elijah;",
+          "target": "(j) L'Apocalypse d'Élie ;",
+          "action": "translate"
+        },
+        {
+          "node": 126,
+          "part": "text",
+          "source": "(k) The Ascension of Isaiah;",
+          "target": "(k) L'Ascension d'Ésaïe ;",
+          "action": "translate"
+        },
+        {
+          "node": 127,
+          "part": "text",
+          "source": "(l) The Apocalypse of Zephaniah (see number 9 of the Old Testament Apocrypha books mentioned in the Chronography of Nicephorus);",
+          "target": "(l) L'Apocalypse de Sophonie (voir le numéro 9 des apocryphes de l'Ancien Testament dans la Chronographie de Nicéphore) ;",
+          "action": "translate"
+        },
+        {
+          "node": 128,
+          "part": "text",
+          "source": "(m) The Apocalypse of Zechariah;",
+          "target": "(m) L'Apocalypse de Zacharie ;",
+          "action": "translate"
+        },
+        {
+          "node": 129,
+          "part": "text",
+          "source": "(n) The Apocalyptic Ezra;",
+          "target": "(n) L'Apocalypse d'Esdras ;",
+          "action": "translate"
+        },
+        {
+          "node": 130,
+          "part": "text",
+          "source": "(o) The History of James;",
+          "target": "(o) L'Histoire de Jacques ;",
+          "action": "translate"
+        },
+        {
+          "node": 131,
+          "part": "text",
+          "source": "(p) The Apocalypse of Peter;",
+          "target": "(p) L'Apocalypse de Pierre ;",
+          "action": "translate"
+        },
+        {
+          "node": 132,
+          "part": "text",
+          "source": "(q) The Itinerary and Teaching of the Apostles;",
+          "target": "(q) L'Itinéraire et l'Enseignement des apôtres ;",
+          "action": "translate"
+        },
+        {
+          "node": 133,
+          "part": "text",
+          "source": "(r) The Epistles of Barnabas;",
+          "target": "(r) Les épîtres de Barnabas ;",
+          "action": "translate"
+        },
+        {
+          "node": 134,
+          "part": "text",
+          "source": "(s) The Ac of Paul;",
+          "target": "(s) Les Actes de Paul ;",
+          "action": "translate"
+        },
+        {
+          "node": 135,
+          "part": "text",
+          "source": "(t) Apocalypse of Paul;",
+          "target": "(t) L'Apocalypse de Paul ;",
+          "action": "translate"
+        },
+        {
+          "node": 136,
+          "part": "text",
+          "source": "(u) Didascalia of Clement;",
+          "target": "(u) La Didascalie de Clément ;",
+          "action": "translate"
+        },
+        {
+          "node": 137,
+          "part": "text",
+          "source": "(v) Didascalia of Ignatius;",
+          "target": "(v) La Didascalie d'Ignace ;",
+          "action": "translate"
+        },
+        {
+          "node": 138,
+          "part": "text",
+          "source": "(w) Didascalia of Polycarp;",
+          "target": "(w) La Didascalie de Polycarpe ;",
+          "action": "translate"
+        },
+        {
+          "node": 139,
+          "part": "text",
+          "source": "(x) Gospel according to Barnabas;",
+          "target": "(x) L'Évangile selon Barnabas ;",
+          "action": "translate"
+        },
+        {
+          "node": 140,
+          "part": "text",
+          "source": "(y) Gospel according to Matthew.",
+          "target": "(y) L'Évangile selon Matthieu.",
+          "action": "translate"
+        },
+        {
+          "node": 141,
+          "part": "text",
+          "source": "The greater number of these books come under the designation \"apocryphal\" in the early sense of \"apocalyptic,\" but by this time the word had taken on a lower meaning, namely, books not good for even private reading. Yet the fact that these books are mentioned at all show that they were more highly esteemed than heathen and than even heretical Christian writings. The eastern churches down to the present day reject the meaning of \"apocrypha\" current among Protestants (see definition above), and their Bible includes the Old Testament Apocrypha, making no distinction between it and the rest of the Bible.",
+          "target": "La plupart de ces ouvrages relevaient de la catégorie « apocryphe » au sens ancien d'« apocalyptique », mais le terme avait alors acquis une acception moins favorable : il désignait des livres qu'il n'était pas bon de lire, même en privé. Leur simple présence dans la liste montre toutefois qu'ils étaient estimés davantage que les écrits païens et même que ceux des chrétiens hérétiques. Jusqu'à nos jours, les Églises orientales rejettent le sens du mot « apocryphes » courant chez les protestants (voir la définition ci-dessus), et leur Bible comprend les apocryphes de l'Ancien Testament sans les distinguer du reste des Écritures.",
+          "action": "translate"
+        },
+        {
+          "node": 142,
+          "part": "text",
+          "source": "3. The Western Church:",
+          "target": "3. L'Église occidentale :",
+          "action": "translate"
+        },
+        {
+          "node": 143,
+          "part": "text",
+          "source": "(1) The Decretum Gelasii.",
+          "target": "(1) Le Decretum Gelasii.",
+          "action": "translate"
+        },
+        {
+          "node": 144,
+          "part": "text",
+          "source": "In the western church the word apocrypha and the corresponding adjective had a somewhat different history. In general it may be said that the western church did not adopt the triple division of sacred books prevalent in the eastern church. Yet the Decretum Gelasii (6th century in its present form) has a triple. list which is almost certainly that of the Roman synod of 382 under Damasus, bishop of Rome, 366 to 384. It is as follows:",
+          "target": "Dans l'Église occidentale, le mot « apocryphes » et l'adjectif correspondant connurent une histoire quelque peu différente. D'une manière générale, on peut dire que l'Occident n'adopta pas la classification tripartite des livres sacrés courante en Orient. Le Decretum Gelasii (VIe siècle dans sa forme actuelle) présente pourtant une liste en trois catégories, qui reprend presque certainement celle du synode romain de 382, tenu sous Damase, évêque de Rome de 366 à 384. Voici ces catégories :",
+          "action": "translate"
+        },
+        {
+          "node": 145,
+          "part": "text",
+          "source": "(1) the canonical books of both Testaments;",
+          "target": "(1) les livres canoniques des deux Testaments ;",
+          "action": "translate"
+        },
+        {
+          "node": 146,
+          "part": "text",
+          "source": "(2) writings of the Fathers approved by the church;",
+          "target": "(2) les écrits des Pères approuvés par l'Église ;",
+          "action": "translate"
+        },
+        {
+          "node": 147,
+          "part": "text",
+          "source": "(3) apocryphal books rejected by the church.",
+          "target": "(3) les livres apocryphes rejetés par l'Église.",
+          "action": "translate"
+        },
+        {
+          "node": 148,
+          "part": "text",
+          "source": "Then there is added a list of miscellaneous books condemned as heretical, including even the works of Clement of Alexandria, Tertullian, and Eusebius, these works being all branded as \"apocryphal.\" On the other hand Gregory of Nyssa and Epiphanius, both writing in the 4th century, use the word \"apocrypha\" in the old sense of apocalyptic, i.e. esoteric.",
+          "target": "S'ajoute ensuite une liste disparate de livres condamnés comme hérétiques, comprenant même des œuvres de Clément d'Alexandrie, de Tertullien et d'Eusèbe, toutes qualifiées d'« apocryphes ». En revanche, Grégoire de Nysse et Épiphane, qui écrivaient tous deux au IVe siècle, employaient encore « apocryphes » au sens ancien d'« apocalyptiques », c'est-à-dire « ésotériques ».",
+          "action": "translate"
+        },
+        {
+          "node": 149,
+          "part": "text",
+          "source": "(2) \"Non-Canonical\" Books.",
+          "target": "(2) Les livres « non canoniques ».",
+          "action": "translate"
+        },
+        {
+          "node": 150,
+          "part": "text",
+          "source": "Jerome (died 420) in the Prologus Galeatus (so called because it was a defense and so resembled a helmeted warrior) or preface to his Latin version of the Bible uses the word \"Apocrypha\" in the sense of non-canonical books. His words are: Quidquid extra hos (i.e. the 22 canonical books) inter Apocrypha ponendum: \"Anything outside of these must be placed within the Apocrypha\" (when among the Fathers and rabbis the Old Testament is made to contain 22 (not 24) books, Ru and Lamentations are joined respectively to Judges and Jeremiah). He was followed in this by Rufinus (died circa 410), in turns Jerome's friend and adversary, as he had been anticipated by Irenaeus. The western church as a whole departed from Jerome's theory by including the antilegomena of both Testaments among the canonical writings: but the general custom of western Christians about this time was to make apocryphal mean non-canonical. Yet Augustine (died 430; De Civitale Dei, XV, 23) explained the \"apocrypha\" as denoting obscurity of origin or authorship, and this sense of the word became the prevailing one in the West.",
+          "target": "Jérôme (mort en 420), dans le Prologus Galeatus — ainsi nommé parce que cette défense ressemblait à un guerrier casqué —, préface de sa traduction latine de la Bible, emploie « apocryphes » au sens de livres non canoniques. Il écrit : Quidquid extra hos (c'est-à-dire les vingt-deux livres canoniques) inter Apocrypha ponendum : « Tout ce qui se trouve en dehors de ces livres doit être rangé parmi les apocryphes. » (Lorsque les Pères et les rabbins dénombrent vingt-deux livres dans l'Ancien Testament plutôt que vingt-quatre, Ruth est rattaché aux Juges et les Lamentations à Jérémie.) Rufin (mort vers 410), tour à tour ami puis adversaire de Jérôme, adopta cette position, déjà anticipée par Irénée. Dans son ensemble, l'Église occidentale s'écarta de la théorie de Jérôme en admettant parmi les écrits canoniques les Antilégomènes des deux Testaments ; cependant, vers cette époque, les chrétiens d'Occident avaient généralement coutume de faire d'« apocryphe » l'équivalent de « non canonique ». Augustin (mort en 430 ; De Civitate Dei, XV, 23) expliquait néanmoins le mot « apocryphes » par l'obscurité de l'origine ou de l'identité de l'auteur : ce sens finit par prévaloir en Occident.",
+          "action": "translate"
+        },
+        {
+          "node": 151,
+          "part": "text",
+          "source": "4. The Reformers:",
+          "target": "4. Les réformateurs :",
+          "action": "translate"
+        },
+        {
+          "node": 152,
+          "part": "text",
+          "source": "Separation from Canonical Books.",
+          "target": "Séparation d'avec les livres canoniques.",
+          "action": "translate"
+        },
+        {
+          "node": 153,
+          "part": "text",
+          "source": "But it is to the Reformers that we are indebted for the habit of using Apocrypha for a collection of books appended to the Old Testament and generally up to 1827 appended to every printed English Bible. Bodenstein of Carlstadt, usually called Carlstadt (died 1541), an early Reformer, though Luther's bitter personal opponent, was the first modern scholar to define \"Apocrypha\" quite clearly as writings excluded from the canon, whether or not the true authors of the books are known, in this, going back to Jerome's position. The adjective \"apocryphal\" came to have among Protestants more and more a disparaging sense. Protestantism was in its very essence the religion of a book, and Protestants would be sure to see to it that the sacred volume on which they based their religion, including the reforms they introduced, contained no book but those which in their opinion had the strongest claims to be regarded as authoritative.",
+          "target": "C'est toutefois aux réformateurs que nous devons l'usage de désigner par « apocryphes » un ensemble de livres placés à la suite de l'Ancien Testament et qui, jusqu'en 1827, figuraient généralement en appendice de toute Bible anglaise imprimée. Andreas Bodenstein de Carlstadt, ordinairement appelé Carlstadt (mort en 1541), l'un des premiers réformateurs et pourtant adversaire personnel acharné de Luther, fut le premier savant moderne à définir clairement les « apocryphes » comme des écrits exclus du canon, que leur auteur véritable soit connu ou non ; il retrouvait ainsi la position de Jérôme. Chez les protestants, l'adjectif « apocryphe » prit un sens de plus en plus défavorable. Le protestantisme était par essence une religion du Livre, et les protestants devaient nécessairement veiller à ce que le volume sacré sur lequel ils fondaient leur religion, réformes comprises, ne contienne aucun livre dont les titres à l'autorité ne leur parussent pas les plus solides.",
+          "action": "translate"
+        },
+        {
+          "node": 154,
+          "part": "text",
+          "source": "In the eastern and western churches under the influence of the Greek (Septuagint) and Latin (Vulgate) versions the books of the Apocrypha formed an integral part of the canon and were scattered throughout the Old Testament, they being placed generally near books with which they have affinity. Even Protestant Bibles up to 1827 included the Apocrypha, but as one collection of distinct writings at the end of the Old Testament. It will be seen from what has been said that notwithstanding the favorable attitude toward it of the eastern and western churches, from the earliest times, our Apocrypha was regarded with more or less suspicion, and the suspicion would be strengthened by the general antagonism toward it. In the Middle Ages, under the influence of Reuchlin (died 1532)--great scholar and Reformer--Hebrew came to be studied and the Old Testament read in its original language. The fact that the Apocrypha is absent from the Hebrew canon must have had some influence on the minds of the Reformers.",
+          "target": "Dans les Églises orientales et occidentales, sous l'influence des versions grecque (Septante) et latine (Vulgate), les livres apocryphes faisaient partie intégrante du canon et étaient répartis dans tout l'Ancien Testament, généralement près des livres avec lesquels ils présentaient des affinités. Même les Bibles protestantes contenaient les apocryphes jusqu'en 1827, mais regroupés à part à la fin de l'Ancien Testament. Comme on l'a vu, malgré l'attitude favorable qu'adoptèrent très tôt à leur égard les Églises d'Orient et d'Occident, les apocryphes tels que nous les entendons suscitèrent toujours plus ou moins de méfiance, renforcée par l'hostilité générale à leur endroit. Au Moyen Âge, sous l'influence de Reuchlin (mort en 1532), grand savant et réformateur, l'étude de l'hébreu se développa et l'Ancien Testament fut lu dans sa langue originale. L'absence des apocryphes du canon hébraïque dut exercer une certaine influence sur les réformateurs.",
+          "action": "translate"
+        },
+        {
+          "node": 155,
+          "part": "text",
+          "source": "Moreover in the Apocrypha there are parts inconsistent with Protestant principles, as for example the doctrines of prayers for the dead, the intercession of the saints, etc. The Jews in the early Christian centuries had really two Bibles: (1) There was the Hebrew Bible which does not include the Apocrypha, and which circulated in Palestine and Babylon; (2) there was the Greek version (Septuagint) used by Greek-speaking Jews everywhere. Until in quite early times, instigated by the use made of it by Christians against themselves, the Jews condemned this version and made the Hebrew canon their Bible, thus rejecting the books of the Apocrypha from their list of canonical writings, and departing from the custom of Christian churches which continued with isolated remonstrances to make the Greek Old Testament canon, with which the Vulgate agrees almost completely, their standard. It is known that the Reformers were careful students of the Bible, and that in Old Testament matters they were the pupils of Jewish scholars--there were no other competent teachers of Hebrew. It might therefore have been expected that the Old Testament canon of the Reformers would agree in extent with that of the Jews and not with that of the Greek and Latin Christians. Notwithstanding the doubt which Ryle (Canon of the Old Testament, 156) casts on the matter, all the evidence goes to show that the Septuagint and therefore the other great Greek versions included the Apocrypha from the first onward.",
+          "target": "Certains passages des apocryphes sont en outre incompatibles avec les principes protestants, par exemple les doctrines des prières pour les morts ou de l'intercession des saints. Les Juifs des premiers siècles chrétiens possédaient en réalité deux Bibles : (1) la Bible hébraïque, sans les apocryphes, répandue en Palestine et en Babylonie ; (2) la version grecque, la Septante, utilisée partout par les Juifs de langue grecque. À une date assez ancienne, poussés par l'emploi qu'en faisaient les chrétiens contre eux, les Juifs condamnèrent cette version et adoptèrent la Bible hébraïque comme canon, rejetant ainsi les apocryphes de la liste des écrits canoniques. Ils s'écartèrent donc de la coutume des Églises chrétiennes, qui continuèrent, malgré quelques protestations isolées, à prendre pour norme le canon grec de l'Ancien Testament, presque entièrement repris par la Vulgate. On sait que les réformateurs étudiaient attentivement la Bible et qu'en matière d'Ancien Testament ils étaient les élèves des savants juifs : il n'existait pas d'autres maîtres d'hébreu compétents. On pouvait donc s'attendre à ce que le canon de l'Ancien Testament des réformateurs coïncide en étendue avec celui des Juifs et non avec celui des chrétiens grecs et latins. Malgré les doutes exprimés par Ryle (Canon of the Old Testament, p. 156), tous les témoignages tendent à montrer que la Septante, et par conséquent les autres grandes versions grecques, comprenaient les apocryphes dès l'origine.",
+          "action": "translate"
+        },
+        {
+          "node": 156,
+          "part": "text",
+          "source": "But how comes it to be that the Greek Old Testament is more extensive than the Hebrew Old Testament? Up to the final destruction of Jerusalem in 71 AD the temple with its priesthood and ritual was the center of the religious thought and life of the nation. But with the destruction of the sanctuary and the disbanding of its officials it was needful to find some fresh binding and directing agency and this was found in the collection of sacred writings known by us as the Old Testament. By a national synod held at Jamnia, near Jaffa, in 90 AD, the Old Testament canon was practically though not finally closed, and from that date one may say that the limits of the Old Testament were once and for all fixed, no writings being included except those written in Hebrew, the latest of these being as old as 100 BC. Now the Jews of the Dispersion spoke and wrote Greek, and they continued to think and write long after their fellow-countrymen of the homeland had ceased to produce any fresh original literature. What they did produce was explanatory of what had been written and practical.",
+          "target": "Mais pourquoi l'Ancien Testament grec est-il plus étendu que l'Ancien Testament hébreu ? Jusqu'à la destruction définitive de Jérusalem, en 71 apr. J.-C., le temple, son sacerdoce et son rituel formaient le centre de la pensée et de la vie religieuse du peuple. Après la destruction du sanctuaire et la dispersion de ses desservants, il fallait trouver un autre principe d'unité et de direction : ce fut l'ensemble des écrits sacrés que nous appelons l'Ancien Testament. Lors d'un synode national réuni à Jamnia, près de Jaffa, en 90 apr. J.-C., le canon de l'Ancien Testament fut pratiquement, quoique non définitivement, clos ; on peut dire qu'à partir de cette date ses limites furent fixées une fois pour toutes, aucun écrit n'étant admis s'il n'était rédigé en hébreu, et les plus récents remontant au moins à 100 av. J.-C. Les Juifs de la diaspora, cependant, parlaient et écrivaient grec et continuèrent à réfléchir et à rédiger bien après que leurs compatriotes de Palestine eurent cessé de produire de nouvelles œuvres originales. Leurs écrits avaient surtout un caractère explicatif et pratique.",
+          "action": "translate"
+        },
+        {
+          "node": 157,
+          "part": "text",
+          "source": "The Greek Bible--the Septuagint--is that of the Jews in Egypt and of those found in other Greek-speaking countries. John Wycliffe (died 1384) puts the Apocrypha together at the end of the Old Testament and the same course was taken by Luther (1546) in his great German and by Miles Coverdale (died 1568) in his English translation.",
+          "target": "La Bible grecque, ou Septante, était celle des Juifs d'Égypte et des autres régions de langue grecque. Jean Wycliffe (mort en 1384) rassembla les apocryphes à la fin de l'Ancien Testament ; Luther (mort en 1546) suivit la même démarche dans sa grande traduction allemande, et Miles Coverdale (mort en 1568) dans sa traduction anglaise.",
+          "action": "translate"
+        },
+        {
+          "node": 158,
+          "part": "text",
+          "source": "5. Hebrew Words for \"Apocrypha\":",
+          "target": "5. Les termes hébreux correspondant à « apocryphes » :",
+          "action": "translate"
+        },
+        {
+          "node": 159,
+          "part": "text",
+          "source": "Is it quite certain that there is no Hebrew word or expression corresponding exactly to the word \"apocrypha\" as first used by Christian writers, i.e. in the sense \"esoteric\"? One may answer this by a decisive negative as regards the Old Testament and the Talmud. But in the Middle Ages qabbalah (literally, \"tradition\") came to have 'a closely allied meaning (compare our \"kabbalistic\").",
+          "target": "Est-il absolument certain qu'aucun terme ni expression hébraïque ne corresponde exactement à « apocryphes » dans son premier emploi chez les écrivains chrétiens, c'est-à-dire au sens d'« ésotérique » ? Pour l'Ancien Testament et le Talmud, on peut répondre par un non catégorique quant à l'existence d'un tel équivalent. Au Moyen Âge, toutefois, qabbalah (littéralement « tradition ») en vint à prendre un sens très voisin (comparer notre adjectif « kabbalistique »).",
+          "action": "translate"
+        },
+        {
+          "node": 160,
+          "part": "text",
+          "source": "(1) Do such exist?",
+          "target": "(1) De tels termes existent-ils ?",
+          "action": "translate"
+        },
+        {
+          "node": 161,
+          "part": "text",
+          "source": "Is there in Hebrew a word or expression denoting \"non-canonical,\" i.e. having the secondary sense acquired by \"apocrypha\"? This question does not allow of so decided an answer, and as matter of fact it has been answered in different ways.",
+          "target": "Existe-t-il en hébreu un mot ou une expression signifiant « non canonique », c'est-à-dire correspondant au sens secondaire acquis par « apocryphes » ? Ici, la réponse ne peut être aussi catégorique : des auteurs ont effectivement répondu de manières différentes.",
+          "action": "translate"
+        },
+        {
+          "node": 162,
+          "part": "text",
+          "source": "(2) Views of Zahn, Schurer, Porter, etc. (ganaz, genuzim).",
+          "target": "(2) Les opinions de Zahn, Schürer, Porter, etc. (ganaz, genuzim).",
+          "action": "translate"
+        },
+        {
+          "node": 163,
+          "part": "text",
+          "source": "Zahn (Gesch. des neutest. Kanons, I, i, 123 ff); Schurer (RE3, I, 623); Porter (HDB, I) and others maintain that the Greek word \"Apocrypha (Biblia)\" is a translation of the Hebrew Cepharim genuzim, literally, \"books stored away.\" If this view is the correct one it follows that the distinction of canonical and non-canonical books originated among the Jews, and that the Fathers in using the word apocrypha in this sense were simply copying the Jews substituting Greek words for the Hebrew equivalent. But there are decisive reasons for rejecting this view.",
+          "target": "Zahn (Gesch. des neutest. Kanons, I, i, p. 123 et suiv.), Schürer (RE³, I, p. 623), Porter (HDB, I) et d'autres soutiennent que l'expression grecque « Apocrypha (Biblia) » traduit l'hébreu Cepharim genuzim, littéralement « livres mis en réserve ». Si cette opinion était exacte, la distinction entre livres canoniques et non canoniques aurait pris naissance chez les Juifs, et les Pères qui employaient « apocryphes » dans ce sens n'auraient fait que les imiter, en substituant des mots grecs à l'expression hébraïque. Mais des raisons décisives conduisent à rejeter cette interprétation.",
+          "action": "translate"
+        },
+        {
+          "node": 164,
+          "part": "text",
+          "source": "(3) Reasons for Rejection.",
+          "target": "(3) Les raisons de rejeter cette interprétation.",
+          "action": "translate"
+        },
+        {
+          "node": 165,
+          "part": "text",
+          "source": "(a) The verb ganaz of which the passive part. occurs in the above phrase means \"to store away,\" \"to remove from view\"--of things in themselves sacred or precious. It never means to exclude as from the canon.",
+          "target": "(a) Le verbe ganaz, dont le participe passif apparaît dans l'expression citée, signifie « mettre de côté », « soustraire à la vue », à propos de choses considérées comme sacrées ou précieuses en elles-mêmes. Il ne signifie jamais « exclure », notamment du canon.",
+          "action": "translate"
+        },
+        {
+          "node": 166,
+          "part": "text",
+          "source": "(b) When employed in reference to sacred books it is only of those recognized as canonical. Thus after copies of the Pentateuch or of other parts of the Hebrew Bible had, by age and use, become unfit to be read in the home or in the synagogue they were \"buried\" in the ground as being too sacred to be burnt or cut up; and the verb denoting this burying is ganaz. But those buried books are without exception canonical.",
+          "target": "(b) Lorsqu'il s'applique à des livres sacrés, ce verbe concerne exclusivement ceux qui sont reconnus comme canoniques. Ainsi, lorsque des exemplaires du Pentateuque ou d'autres portions de la Bible hébraïque étaient devenus, par leur ancienneté et leur usage, impropres à la lecture à domicile ou à la synagogue, on les « enterrait », parce qu'ils étaient trop sacrés pour être brûlés ou découpés ; ganaz désigne précisément cette mise en terre. Or les livres ainsi enterrés étaient sans exception canoniques.",
+          "action": "translate"
+        },
+        {
+          "node": 167,
+          "part": "text",
+          "source": "(c) The Hebrew phrase in question does not once occur in either the Babylonian or the Jerusalem Talmud, but only in rabbinical writings of a much later date. The Greek apocrypha cannot therefore be a rendering of the Hebrew expression. The Hebrew for books definitely excluded from the canon is Cepharim chitsonim = \"outside\" or \"extraneous books.\" The Mishna (the text of the Gemara, both making up what we call the Talmud) or oral law with its additions came to be divided analogously into",
+          "target": "(c) L'expression hébraïque en question ne figure pas une seule fois dans les Talmuds de Babylone ou de Jérusalem, mais seulement dans des écrits rabbiniques beaucoup plus tardifs. L'expression grecque apocrypha ne peut donc pas en être la traduction. Le terme hébreu désignant les livres résolument exclus du canon est Cepharim chitsonim, « livres extérieurs » ou « étrangers ». La Michna (texte de la Guemara, qui forment ensemble ce que nous appelons le Talmud), ou loi orale et ses additions, finit par se diviser de manière analogue en :",
+          "action": "translate"
+        },
+        {
+          "node": 168,
+          "part": "text",
+          "source": "(1) The Mishna proper;",
+          "target": "(1) la Michna proprement dite ;",
+          "action": "translate"
+        },
+        {
+          "node": 169,
+          "part": "text",
+          "source": "(2) the external (chitsonah) Mishna: in Aramaic called Baraiytha'.",
+          "target": "(2) la Michna extérieure (chitsonah), appelée en araméen Baraiytha'.",
+          "action": "translate"
+        },
+        {
+          "node": 170,
+          "part": "text",
+          "source": "6. Summary:",
+          "target": "6. Résumé :",
+          "action": "translate"
+        },
+        {
+          "node": 171,
+          "part": "text",
+          "source": "What has been said may be summarized:",
+          "target": "Nous pouvons résumer ce qui précède :",
+          "action": "translate"
+        },
+        {
+          "node": 172,
+          "part": "text",
+          "source": "(1) Among the Protestant churches the word \"Apocrypha\" is used for the books included in the Septuagint and Vulgate, but absent from the Hebrew Bible. This restricted sense of the word cannot be traced farther back than the beginning of the Reformation.",
+          "target": "(1) Dans les Églises protestantes, le terme « apocryphes » désigne les livres contenus dans la Septante et la Vulgate mais absents de la Bible hébraïque. Cette acception restreinte ne remonte pas au-delà des débuts de la Réforme.",
+          "action": "translate"
+        },
+        {
+          "node": 173,
+          "part": "text",
+          "source": "(2) In classical and Hellenistic Greek the adjective apokruphos denotes \"hidden\" of visible objects, or obscure, hard to understand (of certain kinds of knowledge).",
+          "target": "(2) En grec classique et hellénistique, l'adjectif apokruphos signifie « caché », à propos d'objets visibles, ou « obscur, difficile à comprendre », à propos de certaines connaissances.",
+          "action": "translate"
+        },
+        {
+          "node": 174,
+          "part": "text",
+          "source": "(3) In early patristic Greek this adjective came into use as a synonym of the classical Greek esoterikos.",
+          "target": "(3) Dans les premiers textes patristiques grecs, cet adjectif devint synonyme du grec classique esoterikos.",
+          "action": "translate"
+        },
+        {
+          "node": 175,
+          "part": "text",
+          "source": "(4) In later patristic Greek (Irenaeus, etc.) and in Latin works beginning with Jerome, Greek apokruphos meant non-canonical, implying inferiority in subject-matter to the books in the canon.",
+          "target": "(4) Dans la littérature patristique grecque ultérieure (Irénée, etc.) et les écrits latins à partir de Jérôme, le grec apokruphos signifiait « non canonique », en impliquant une valeur doctrinale inférieure à celle des livres du canon.",
+          "action": "translate"
+        },
+        {
+          "node": 176,
+          "part": "text",
+          "source": "(4) By the Protestant Reformers the term \"apocrypha\" (\"apocryphal\" \"books\" being understood) came to stand for what is now called the \"Old Testament Apocrypha.\" But this usage is confined to Protestants, since in the eastern church and in the Roman branch of the western church the Old Testament Apocrypha is as much an integral part of the canon as Genesis or Kings or Psalms or Isaiah.",
+          "target": "(4) Chez les réformateurs protestants, le terme « apocryphes » (sous-entendu « livres » apocryphes) en vint à désigner ce qu'on appelle maintenant les « apocryphes de l'Ancien Testament ». Cet emploi reste toutefois propre aux protestants, puisque dans les Églises orientales et dans la branche romaine de l'Église occidentale, les apocryphes de l'Ancien Testament font autant partie intégrante du canon que la Genèse, les Rois, les Psaumes ou Ésaïe.",
+          "action": "translate"
+        },
+        {
+          "node": 177,
+          "part": "text",
+          "source": "(5) There are no equivalents in Hebrew for apokruphos in the sense of either \"esoteric\" or in that of \"non- canonical.\"",
+          "target": "(5) Il n'existe en hébreu aucun équivalent d'apokruphos au sens d'« ésotérique » ni à celui de « non canonique ».",
+          "action": "translate"
+        },
+        {
+          "node": 178,
+          "part": "text",
+          "source": "IV. Contents of the Apocrypha.",
+          "target": "IV. Contenu des apocryphes.",
+          "action": "translate"
+        },
+        {
+          "node": 179,
+          "part": "text",
+          "source": "1. List of Books:",
+          "target": "1. Liste des livres :",
+          "action": "translate"
+        },
+        {
+          "node": 180,
+          "part": "text",
+          "source": "The following is a list of the books in the Apocrypha in the order in which they occur in the English versions (the King James Version and the Revised Version (British and American)):",
+          "target": "Voici la liste des livres apocryphes dans l'ordre où ils figurent dans les versions anglaises (King James Version et Revised Version, britannique et américaine) :",
+          "action": "translate"
+        },
+        {
+          "node": 181,
+          "part": "text",
+          "source": "(1) 1 Esdras;",
+          "target": "(1) 1 Esdras ;",
+          "action": "translate"
+        },
+        {
+          "node": 182,
+          "part": "text",
+          "source": "(2) 2 Esdras (to be hereafter called \"The Apocalyptic Esdras\");",
+          "target": "(2) 2 Esdras (appelé ci-après « Apocalypse d'Esdras ») ;",
+          "action": "translate"
+        },
+        {
+          "node": 183,
+          "part": "text",
+          "source": "(3) Tobit;",
+          "target": "(3) Tobit ;",
+          "action": "translate"
+        },
+        {
+          "node": 184,
+          "part": "text",
+          "source": "(4) Judith;",
+          "target": "(4) Judith ;",
+          "action": "translate"
+        },
+        {
+          "node": 185,
+          "part": "text",
+          "source": "(5) The Rest of Esther;",
+          "target": "(5) Les additions au livre d'Esther ;",
+          "action": "translate"
+        },
+        {
+          "node": 186,
+          "part": "text",
+          "source": "(6) The Wisdom of Solomon;",
+          "target": "(6) La Sagesse de Salomon ;",
+          "action": "translate"
+        },
+        {
+          "node": 187,
+          "part": "text",
+          "source": "(7) Ecclesiasticus (to be hereafter called \"Sirach\");",
+          "target": "(7) L'Ecclésiastique (appelé ci-après « Siracide ») ;",
+          "action": "translate"
+        },
+        {
+          "node": 188,
+          "part": "text",
+          "source": "(8) Baruch, with the Epistle of Jeremiah;",
+          "target": "(8) Baruch, avec la Lettre de Jérémie ;",
+          "action": "translate"
+        },
+        {
+          "node": 189,
+          "part": "text",
+          "source": "(9) The So of the Three Holy Children; (10) The History of Susanna;",
+          "target": "(9) Le Cantique des trois jeunes gens ; (10) L'Histoire de Suzanne ;",
+          "action": "translate"
+        },
+        {
+          "node": 190,
+          "part": "text",
+          "source": "(11) Bel and the Dragon;",
+          "target": "(11) Bel et le Dragon ;",
+          "action": "translate"
+        },
+        {
+          "node": 191,
+          "part": "text",
+          "source": "(12) The Prayer of Manasses;",
+          "target": "(12) La Prière de Manassé ;",
+          "action": "translate"
+        },
+        {
+          "node": 192,
+          "part": "text",
+          "source": "(13) 1 Maccabees;",
+          "target": "(13) 1 Maccabées ;",
+          "action": "translate"
+        },
+        {
+          "node": 193,
+          "part": "text",
+          "source": "(14) 2 Maccabees.",
+          "target": "(14) 2 Maccabées.",
+          "action": "translate"
+        },
+        {
+          "node": 194,
+          "part": "text",
+          "source": "No. 5 in the above, \"Addition to Esther;\" as it may be called, consists of the majority (107 out of 270 verses) of the Book of Esther since it occurs in the best manuscripts of the Septuagint and in the Vulgate (Jerome's Latin Bible, 390-405 AD.) over the text in the Hebrew Bible. These additions are in the Septuagint scattered throughout the book and are intelligible in the context thus given them, but not when brought together as they are in the collected Apocrypha of our English versions and as they are to some extent in Jerome's Latin version and the Vulgate (Jerome's Latin Bible, 390-405 AD.) (see The Century Bible, Ezra, Nehemiah and Esther, 294f). Numbers 9-11 in the above enumeration are additions made in the Greek Septuagint and Vulgate versions of Daniel to the book as found in the Massoretic Text. It will be well to name them \"Additions to Daniel.\" The bringing together of the writings of the Apocrypha into an apart collection was due in a large measure to Jerome, who separated many of the apocryphal additions from their original context because he suspected their genuineness. His version influenced the Vulgate, which follows Jerome's version closely.",
+          "target": "Le numéro 5, qu'on peut appeler « Additions à Esther », comprend une grande partie du livre d'Esther, soit 107 de ses 270 versets tels qu'il figure dans les meilleurs manuscrits de la Septante et dans la Vulgate (Bible latine de Jérôme, 390-405 apr. J.-C.), en plus du texte de la Bible hébraïque. Dans la Septante, ces additions sont dispersées à travers le livre et prennent sens dans leur contexte ; il n'en va pas de même lorsqu'on les rassemble, comme dans les recueils d'apocryphes des Bibles anglaises et, dans une certaine mesure, dans la traduction latine de Jérôme et la Vulgate (voir The Century Bible, Ezra, Nehemiah and Esther, p. 294 et suiv.). Les numéros 9 à 11 de la liste correspondent à des additions grecques de la Septante et de la Vulgate au livre de Daniel tel qu'il se présente dans le texte massorétique. Il convient de les appeler « Additions à Daniel ». Le rassemblement des écrits apocryphes en un ensemble distinct fut dû pour une large part à Jérôme, qui sépara nombre de ces additions de leur contexte originel parce qu'il doutait de leur authenticité. Sa traduction exerça une influence sur la Vulgate, laquelle la suit de près.",
+          "action": "translate"
+        },
+        {
+          "node": 195,
+          "part": "text",
+          "source": "Though it is generally true that the Apocrypha is the excess of the Greek (Septuagint) and Latin (Jerome, Vulgate) over the Hebrew Bibles (the Masoretic Text), the statement needs qualification. 2 (4) Ezra, i.e. the Apocalyptic Ezra (Esdras), is absent from the Septuagint, from Jerome's version, and also from Luther's Bible, but it occurs in the Vulgate and in the English and other modern versions of the Apocrypha. On the other hand 3 and 4 Macc occur in the best manuscripts of the Septuagint, but the Vulgate, following Jerome's version, rejects both as do modern versions (English, etc.) of the Apocrypha. Moreover, it has to be pointed out that in the Vulgate proper the Prayer of Manasses and 1 (3) Esdras and the Apocalyptic Esdras are appended to the New Testament as apocryphal.",
+          "target": "Bien qu'il soit généralement exact que les apocryphes représentent ce que les Bibles grecque (Septante) et latine (Jérôme, Vulgate) possèdent en plus de la Bible hébraïque (texte massorétique), cette affirmation doit être nuancée. 2 (4) Esdras, c'est-à-dire l'Apocalypse d'Esdras, est absent de la Septante, de la traduction de Jérôme et de la Bible de Luther, mais figure dans la Vulgate ainsi que dans les recueils anglais et d'autres versions modernes des apocryphes. En revanche, les troisième et quatrième livres des Maccabées figurent dans les meilleurs manuscrits de la Septante, mais la Vulgate, suivant Jérôme, les rejette, comme le font les éditions modernes des apocryphes, notamment anglaises. Il faut encore noter que, dans la Vulgate proprement dite, la Prière de Manassé, 1 (3) Esdras et l'Apocalypse d'Esdras sont ajoutés après le Nouveau Testament en tant qu'apocryphes.",
+          "action": "translate"
+        },
+        {
+          "node": 196,
+          "part": "text",
+          "source": "2. Classification of Books:",
+          "target": "2. Classification des livres :",
+          "action": "translate"
+        },
+        {
+          "node": 197,
+          "part": "text",
+          "source": "(1) Historical.",
+          "target": "(1) Livres historiques.",
+          "action": "translate"
+        },
+        {
+          "node": 198,
+          "part": "text",
+          "source": "The books of the Apocrypha proper may be thus classified:",
+          "target": "On peut classer les apocryphes proprement dits de la façon suivante :",
+          "action": "translate"
+        },
+        {
+          "node": 199,
+          "part": "text",
+          "source": "(a) 1 and 2 (i.e. 3) Esdras;",
+          "target": "(a) 1 et 2 (c'est-à-dire 3) Esdras ;",
+          "action": "translate"
+        },
+        {
+          "node": 200,
+          "part": "text",
+          "source": "(b) 1 and 2 Maccabees;",
+          "target": "(b) 1 et 2 Maccabées ;",
+          "action": "translate"
+        },
+        {
+          "node": 201,
+          "part": "text",
+          "source": "(c) Additions to Daniel (nos. 9-11 in the above list);",
+          "target": "(c) Additions à Daniel (numéros 9 à 11 de la liste ci-dessus) ;",
+          "action": "translate"
+        },
+        {
+          "node": 202,
+          "part": "text",
+          "source": "(d) Additions to Esther;",
+          "target": "(d) Additions à Esther ;",
+          "action": "translate"
+        },
+        {
+          "node": 203,
+          "part": "text",
+          "source": "(e) The Epistle of Jeremy (usually appended to Baruch);",
+          "target": "(e) Lettre de Jérémie (habituellement jointe à Baruch) ;",
+          "action": "translate"
+        },
+        {
+          "node": 204,
+          "part": "text",
+          "source": "(f) Prayer of Manasses.",
+          "target": "(f) Prière de Manassé.",
+          "action": "translate"
+        },
+        {
+          "node": 205,
+          "part": "text",
+          "source": "(2) Legendary.",
+          "target": "(2) Livres légendaires.",
+          "action": "translate"
+        },
+        {
+          "node": 206,
+          "part": "text",
+          "source": "(a) Book of Baruch (sometimes classed with prophetic books, sometimes with Apocalypses); (b) Tobit; (c) Judith.",
+          "target": "(a) Livre de Baruch (parfois classé parmi les livres prophétiques, parfois parmi les apocalypses) ; (b) Tobit ; (c) Judith.",
+          "action": "translate"
+        },
+        {
+          "node": 207,
+          "part": "text",
+          "source": "(3) Apocalyptic.",
+          "target": "(3) Livres apocalyptiques.",
+          "action": "translate"
+        },
+        {
+          "node": 208,
+          "part": "text",
+          "source": "The Apocalyptic Esdras or 2 (4) Esdras.",
+          "target": "L'Apocalypse d'Esdras, ou 2 (4) Esdras.",
+          "action": "translate"
+        },
+        {
+          "node": 209,
+          "part": "text",
+          "source": "(4) Didactic.",
+          "target": "(4) Livres didactiques.",
+          "action": "translate"
+        },
+        {
+          "node": 210,
+          "part": "text",
+          "source": "(a) The Wisdom of Solomon; (b) Sirach (Ecclesiasticus).",
+          "target": "(a) La Sagesse de Salomon ; (b) Le Siracide (Ecclésiastique).",
+          "action": "translate"
+        },
+        {
+          "node": 211,
+          "part": "text",
+          "source": "R. H. Charles, our greatest living authority on the Apocalyptic and Apocryphal writings, embraces the following under the heading \"Hellenistic Jewish Literature,\" the rest coming under the heading \"Palestinian Jewish Literature\" (Enc Brit, 11th edition, II, 177):",
+          "target": "R. H. Charles, que l'on peut considérer comme notre plus grande autorité vivante sur les écrits apocalyptiques et apocryphes, range les ouvrages suivants sous l'appellation « littérature juive hellénistique », les autres relevant de la « littérature juive palestinienne » (Encyclopaedia Britannica, 11e éd., II, p. 177) :",
+          "action": "translate"
+        },
+        {
+          "node": 212,
+          "part": "text",
+          "source": "(1) The Additions to Daniel and Esther",
+          "target": "(1) Les additions à Daniel et à Esther ;",
+          "action": "translate"
+        },
+        {
+          "node": 213,
+          "part": "text",
+          "source": "(2) The Epistle of Jeremy;",
+          "target": "(2) La Lettre de Jérémie ;",
+          "action": "translate"
+        },
+        {
+          "node": 214,
+          "part": "text",
+          "source": "(3) 2 Macc;",
+          "target": "(3) 2 Maccabées ;",
+          "action": "translate"
+        },
+        {
+          "node": 215,
+          "part": "text",
+          "source": "(4) The Wisdom of Solomon.",
+          "target": "(4) La Sagesse de Salomon.",
+          "action": "translate"
+        },
+        {
+          "node": 216,
+          "part": "text",
+          "source": "V. Original Languages of the Apocrypha.",
+          "target": "V. Langues originales des apocryphes.",
+          "action": "translate"
+        },
+        {
+          "node": 217,
+          "part": "text",
+          "source": "The bulk of the Apocrypha was written originally in the Greek language and existed at the first in that language alone. The following books were however written in Hebrew: Tobit, Judith, Sirach, Baruch (part probably in Greek), and 1 Maccabees. In these cases some prefer regarding Aramaic as the original language in at least parts of the above books. For detailed information see under the several books.",
+          "target": "La plus grande partie des apocryphes fut rédigée à l'origine en grec et n'exista d'abord que dans cette langue. Les livres suivants furent néanmoins écrits en hébreu : Tobit, Judith, Siracide, Baruch (en partie probablement rédigé en grec) et 1 Maccabées. Certains préfèrent cependant considérer l'araméen comme la langue originale d'au moins certaines portions de ces ouvrages. Pour des renseignements détaillés, voir les articles consacrés à chacun.",
+          "action": "translate"
+        },
+        {
+          "node": 218,
+          "part": "text",
+          "source": "VI. Date of the Apocryphal Writings.",
+          "target": "VI. Date de composition des écrits apocryphes.",
+          "action": "translate"
+        },
+        {
+          "node": 219,
+          "part": "text",
+          "source": "The question of date as it applies to the separate books of the Apocrypha will be discussed in connection with the articles dealing with the several books. But a general statement regarding the extreme limits between which all the books were completed may safely be made. The oldest apocryphal book is Sirach, which in its original Hebrew form belongs to between 190-170 BC. In its Greek form the best modern scholars agree in fixing it at between 130-120 BC. None of the books can well belong to a date later than 100 AD, though some (2 Esdras, etc.) may be as late as that. The whole of the Apocrypha may with more than average certainty be said to have been written some time between 200 BC and 100 AD. It will be seen that it is an inaccurate assumption that the Apocrypha was in all its parts of later date than the latest parts of the Old Testament. The canonical Book of Daniel and many of the Psalms are of later date than Sirach and 1 Esdras, and there are cogent reasons for giving the canonical Esther a later date than any of the books named and perhaps than Judith as well (see, however, ",
+          "target": "La datation de chaque livre apocryphe sera examinée dans l'article qui lui est consacré. On peut toutefois indiquer avec assurance les limites chronologiques extrêmes entre lesquelles tous ces livres furent achevés. Le plus ancien ouvrage apocryphe est le Siracide, dont la forme hébraïque originale remonte à 190-170 av. J.-C. ; les meilleurs spécialistes modernes situent sa traduction grecque entre 130 et 120 av. J.-C. Aucun des livres ne peut vraisemblablement être postérieur à 100 apr. J.-C., bien que certains (2 Esdras, etc.) puissent être aussi tardifs. On peut donc affirmer, avec une certitude supérieure à la moyenne, que les apocryphes furent tous écrits entre 200 av. J.-C. et 100 apr. J.-C. Il serait inexact de supposer que toutes leurs parties soient postérieures aux plus récents passages de l'Ancien Testament. Le livre canonique de Daniel et plusieurs psaumes sont plus tardifs que le Siracide et 1 Esdras, et des raisons fortes invitent à dater le livre canonique d'Esther après tous ceux-ci, et peut-être après Judith également (voir toutefois ",
+          "action": "translate"
+        },
+        {
+          "node": 220,
+          "part": "text",
+          "source": "DANIEL",
+          "target": "DANIEL",
+          "action": "preserve",
+          "reason": "Canonical source book name DANIEL has the same French surface spelling"
+        },
+        {
+          "node": 221,
+          "part": "text",
+          "source": "ESTHER",
+          "target": "ESTHER",
+          "action": "preserve",
+          "reason": "Canonical source book name ESTHER has the same French spelling"
+        },
+        {
+          "node": 221,
+          "part": "tail",
+          "source": "). But it is quite certain that by far the greater part of the Apocrypha is of later date than the Old Testament; it is therefore of the utmost importance as reflecting the state of the Jews and the character of their intellectual and religious life at the various periods represented. And in later years much use has been made of it.",
+          "target": "). Il demeure cependant certain que la majeure partie des apocryphes est postérieure à l'Ancien Testament ; ces livres sont donc extrêmement importants pour éclairer la situation des Juifs et le caractère de leur vie intellectuelle et religieuse aux diverses époques qu'ils représentent. Les chercheurs en ont beaucoup tiré parti ces dernières années.",
+          "action": "translate"
+        },
+        {
+          "node": 223,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 224,
+          "part": "text",
+          "source": "The Greek text of the Apocrypha is given in the various editions of the Septuagint (except the Apocalyptic Esdras, not extant in Gr). The best editions of the Septuagint are those by Tischendorf revised by E. Nestle (1887); and Swete (1895-99 and later editions). Critical editions of the Apocrypha have been issued by A. Fabricius (Hamburg, 1722-23); Apel (ib 1804) and a very valuable edition by O. T. Fritzsche (Leipzig, 1871) which includes the Latin version of the Apocalyptic Esdras--without the missing fragment. There are several modern translations, far the best being that in German edited by E. Kautzsch, containing Introductions, general and special, and valuable notes by the best German scholars. In English besides the Revised Version (British and American) there is the useful Variorum edition, edited by C. J. Ball. An English critical edition of the Apocrypha edited by R. H. Charles, with introductory notes, is now being printed at Oxford and will be very valuable.",
+          "target": "Le texte grec des apocryphes se trouve dans les différentes éditions de la Septante (à l'exception de l'Apocalypse d'Esdras, dont le grec n'est pas conservé). Les meilleures éditions de la Septante sont celles de Tischendorf, révisée par E. Nestle (1887), et de Swete (1895-1899 et éditions ultérieures). Des éditions critiques des apocryphes ont paru sous la direction d'A. Fabricius (Hambourg, 1722-1723), d'Apel (ibid., 1804) et d'O. T. Fritzsche (Leipzig, 1871), dont l'édition particulièrement précieuse inclut la traduction latine de l'Apocalypse d'Esdras, sans le fragment manquant. Il existe plusieurs traductions modernes ; la meilleure est de loin celle dirigée en allemand par E. Kautzsch, qui comporte des introductions générales et particulières et des notes de grande valeur rédigées par les plus éminents spécialistes allemands. En anglais, outre la Revised Version (britannique et américaine), il existe l'utile édition Variorum, dirigée par C. J. Ball. Une édition critique anglaise des apocryphes, dirigée par R. H. Charles et accompagnée de notes introductives, est actuellement en cours d'impression à Oxford et promet d'être très précieuse.",
+          "action": "translate"
+        },
+        {
+          "node": 225,
+          "part": "text",
+          "source": "The best commentary is that by O. F. Fritsche and C. L. W. Grimm, Kurzgef. Exeg. Handbuch, 1851-60; but the commentary by Bissell in Lange's Series of Commentaries and that edited by Wace, in the Speaker's Bible Series, are meritorious.",
+          "target": "Le meilleur commentaire est celui d'O. F. Fritsche et C. L. W. Grimm, Kurzgef. Exeg. Handbuch, 1851-1860 ; mais le commentaire de Bissell dans la collection de Lange et celui dirigé par Wace dans la collection Speaker's Bible méritent également l'attention.",
+          "action": "translate"
+        },
+        {
+          "node": 226,
+          "part": "text",
+          "source": "Introductory matter will be found in the various Bible Dictionaries under the word: see especially H. E. Ryle in DB (1893), Schurer (RE3), but especially in the valuable Introduction to the Old Testament in Greek, by H. B. Swete (1900), Hastings, Dictionary of the Bible (five volumes) (C. F. Porter), and R. H. Charles (Enc Brit11). See also the Einleitungen by Konig, Budde (A. Bertholet has written the part dealing with the Apocrypha), and Schurer, Geschichte, III, 1898 (Eng. translation, II, iii), where much literature is specified. For monographs on the several books of the Apocrypha or discussing special points, see the special articles.",
+          "target": "On trouvera des introductions dans les différents dictionnaires bibliques à cette entrée : voir en particulier H. E. Ryle dans DB (1893), Schürer dans RE³, mais surtout la précieuse Introduction to the Old Testament in Greek de H. B. Swete (1900), Hastings, Dictionary of the Bible (cinq volumes, C. F. Porter), ainsi que R. H. Charles dans Encyclopaedia Britannica, 11e éd. Consulter également les Einleitungen de König, Budde (A. Bertholet y a rédigé la partie sur les apocryphes) et Schürer, Geschichte, III, 1898 (traduction anglaise, II, iii), qui donne une bibliographie abondante. Pour les monographies consacrées à chaque livre apocryphe ou à des points particuliers, voir les articles correspondants.",
+          "action": "translate"
+        },
+        {
+          "node": 227,
+          "part": "text",
+          "source": "Thomas Witton Davies",
+          "target": "Thomas Witton Davies",
+          "action": "preserve",
+          "reason": "Historical author attribution retained"
+        }
+      ]
+    }
+  ]
+}
