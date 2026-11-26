@@ -22,7 +22,7 @@
       "source_article_sha256": "8f1a06b44a89e6b5e4946e6755649f96acd6cc7d8a61f05ffe53808cc4121e0e",
       "original_markdown_paragraphs": 100,
       "source_template_characters": 78794,
-      "working_translation_status": "original_source_only_no_french_draft"
+      "working_translation_status": "complete_draft_pending_editorial_review"
     },
     {
       "index": 424,
@@ -133,7 +133,7 @@
       "working_translation_status": "complete_draft_pending_editorial_review"
     }
   ],
-  "status_note": "Ten complete source-locked unreviewed French first drafts on draft PR #160, four originals still untranslated. Main remains 986/1000 until merge; independent bilingual editorial approvals 0.",
+  "status_note": "Eleven full source-locked unreviewed first drafts on draft PR #160, three remaining original source entries untranslated. Main remains 986/1000 until merge. Independent bilingual editorial approval zero.",
   "source_flags": [
     {
       "key": "ALTAR",
@@ -376,6 +376,138 @@
       "block": 251,
       "witness": "12,000 to 15,000 years",
       "note": "Dated chronological estimate from 1915 retained verbatim without editorial updating"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 8,
+      "witness": "Codex the Priestly Code (P)",
+      "note": "Potential corrupted codex label, retained as source title in French pending witness collation"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 9,
+      "witness": "It is the meet; cussed directly",
+      "note": "Apparent English corrupt words, contextual 'mérite' and 'discuté', original unchanged"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 16,
+      "witness": "else",
+      "note": "Original connective ambiguous, contextual translation, English untouched"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 25,
+      "witness": "airy conceit",
+      "note": "Historical polemical quotation preserved contextually"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 27,
+      "witness": "rode of Ramsay",
+      "note": "Likely OCR for 'side'; contextual French côté only, source unchanged"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 56,
+      "witness": "Panl's epistles",
+      "note": "Apparent English OCR corruption for Paul's, translated contextually without modifying English source"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 69,
+      "witness": "Harhack; lust dues",
+      "note": "Apparent English witness errors, translated Harnack and 'ce qui lui est justement dû' contextually; collation pending"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 79,
+      "witness": "Paul (and also Philip for part of it) was a host witness",
+      "note": "Apparent English corruption host for hostile; rendered témoin hostile, printed witness collation pending"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 79,
+      "witness": "Philip, the of Paul's company",
+      "note": "Broken English phrase, translated contextual presence in Paul's company; original untouched"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 137,
+      "witness": "Gentilepropaganda",
+      "note": "Concatenated English historical word, translated fully to proclamation aux non-Juifs"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 144,
+      "witness": "Gentilecampaign",
+      "note": "Compound English word, rendered contextual œuvre auprès des non-Juifs"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 206,
+      "witness": "S. Davidson, (3rd edition, 1894)",
+      "note": "Source has no book title; bibliographic gap retained, no title fabricated"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 210,
+      "witness": "Apostolie Age",
+      "note": "Potential typo in source bibliographic title retained unaltered"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 212,
+      "witness": "Worth",
+      "note": "Source author work title may be incorrect; preserved as given pending historical collation"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 220,
+      "witness": "distract Pauline flavor",
+      "note": "Likely OCR for distinct; contextual French nettement paulinienne, original unchanged"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 233,
+      "witness": "God yanked at sin",
+      "note": "Likely corrupt OCR for winked at sin; French contextual ferme les yeux sur le péché, original unchanged"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 278,
+      "witness": "Mugs",
+      "note": "Unidentifiable regnal name in source, retained verbatim in French pending original print collation. Do not silently guess."
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 278,
+      "witness": "Todestage Pauli und Pertri",
+      "note": "Suspicious historical title, left unchanged pending printed witness"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 292,
+      "witness": "one rode",
+      "note": "Apparent OCR for 'one side', natural French d'un côté"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 293,
+      "witness": "vindicatioin",
+      "note": "Apparent English spelling typo, French réhabilitation"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 316,
+      "witness": "trustworthy 6",
+      "note": "Stray numeral in source quotation, not introduced into French quotation; original English unchanged"
+    },
+    {
+      "key": "ACTS OF THE APOSTLES",
+      "block": 323,
+      "witness": "Jusaism",
+      "note": "Source apparent misspelling for Judaism; translated judaïsme, original unchanged"
     }
   ]
 }
