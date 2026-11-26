@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "BATH-ZACHARIAS",
+      "article_id": "isbe-e53dc29a98dc5dfcb869",
+      "source_article_sha256": "48fb1ab5ae6ef5a7eb9096bff2459248638c9d3304db9e9086489ebb2446fcaa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BATH-ZACHARIAS",
+          "target": "BATH-ZACHARIAS",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bath-zak-a-ri'-as.",
+          "target": "bath-zak-a-ri'-as.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BETH-ZACHARIAS",
+          "target": "BETH-ZACHARIAS",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        }
+      ]
+    },
+    {
+      "source_key": "BATTLE-AXE",
+      "article_id": "isbe-e6f9a2d330eabd12e4d8",
+      "source_article_sha256": "8f61e7f3d071f7ca527ab826e671b40b36b400180982ca52fc31a9bbfd12f2f7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BATTLE-AXE",
+          "target": "HACHE DE GUERRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bat'-'-l-ax.",
+          "target": "bat'-'-l-ax.",
+          "action": "preserve",
+          "reason": "Historical 1915 phonetic transcription retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARMOR",
+          "target": "ARMURE ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ARMS",
+          "target": "ARMES",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", III, 1; ",
+          "target": ", III, 1 ; ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "AX",
+          "target": "HACHE",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " (AXE).",
+          "target": " (HACHE).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEACH",
+      "article_id": "isbe-6bbaa0af9ac8cf78c4cf",
+      "source_article_sha256": "bb077aef42809aecf126c7b4d43a93799642ba3723215826118d6e331fac3510",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEACH",
+          "target": "PLAGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bech (aigialos): The part of the shore washed by the tide on which the waves dash (",
+          "target": "bech (aigialos) : partie du rivage recouverte par la marée, sur laquelle déferlent les vagues (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEALIAH",
+      "article_id": "isbe-1fe6de805118d27e9f69",
+      "source_article_sha256": "4ac7a3ceb301420478685de482748a47affc425928352ae1342e0e1b24b0083b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEALIAH",
+          "target": "BEALIA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-a-li'-a (be`alyah, \"Yahweh is Lord,\" compare HPN, 144, 287): Bealiah, formerly a friend of Saul, joined David at Ziklag (",
+          "target": "be-a-li'-a (be`alyah, « Yahvé est Seigneur » ; comparer HPN, 144, 287) : Béalia, autrefois ami de Saül, se rallia à David à Tsiklag (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEALOTH",
+      "article_id": "isbe-471ca5c9de0b63fe9d45",
+      "source_article_sha256": "f731e580d471c1f046425e57dee05f795e4b930725ad12aa7d817b753753cac1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEALOTH",
+          "target": "BEALOTH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-a-loth (be`aloth; Baloth): An unidentified city of Judah in the Negeb (",
+          "target": "be'-a-loth (be`aloth ; Baloth) : ville non identifiée de Juda, située dans le Néguev (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEAR, THE (ARCTURUS)",
+      "article_id": "isbe-a5052614dc520ee84d69",
+      "source_article_sha256": "359403883a66e684722f7d5d9f2d4183bdfb7bb74df1f878800b18816d88d6d3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEAR, THE (ARCTURUS)",
+          "target": "L'OURSE (ARCTURUS)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bar. A great northern constellation.",
+          "target": "bar. Une grande constellation du ciel septentrional.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ASTRONOMY",
+          "target": "ASTRONOMIE",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", sec. II, 13.",
+          "target": ", section II, 13.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BECORATH",
+      "article_id": "isbe-51b8ec40e7d44dd91cc2",
+      "source_article_sha256": "30091bc2e631b49126a831598a4cd2d38511aab1e183d50279ecaf08566869db",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BECORATH",
+          "target": "BECORATH",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-ko'-rath (bekhorath, \"the first birth\"; the King James Version Bechorath): A forefather of Saul of the tribe of Benjamin (",
+          "target": "be-ko'-rath (bekhorath, « première naissance » ; Bechorath dans la King James Version) : ancêtre de Saül, de la tribu de Benjamin (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEDAD",
+      "article_id": "isbe-3b60c1bc7235901112b8",
+      "source_article_sha256": "c2e64d45dac0066a35d35891ee19f5b63f03e479b6f32e73370fb6b4cf66f21d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEDAD",
+          "target": "BEDAD",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be'-dad (bedhadh, \"alone\"): Father of Hadad, king of Edom \"before there reigned any king over the children of Israel\" (",
+          "target": "be'-dad (bedhadh, « seul ») : père de Hadad, roi d'Édom « avant qu'un roi régnât sur les enfants d'Israël » (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEDEIAH",
+      "article_id": "isbe-7ae655b9d72139533e44",
+      "source_article_sha256": "2b396ff4d8d22a01536f0859616ef8e470ece52f7e7513d80694d14c2bc3d558",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEDEIAH",
+          "target": "BEDEIA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-de'-ya (bedheydh, \"servant of Yah\"): A son of Bani who had married a \"strange wife\" (",
+          "target": "be-de'-ya (bedheydh, « serviteur de Yah ») : fils de Bani qui avait épousé une « femme étrangère » (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEELIADA",
+      "article_id": "isbe-3bb6222ee0f7c1242712",
+      "source_article_sha256": "b3985f5224257580ed666014f08defcbabe65b5cfb4243726ba15581b7c86217",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEELIADA",
+          "target": "BEELIADA",
+          "action": "preserve",
+          "reason": "Historical biblical proper-name title retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-e-li'-a-da (be`elyadha`, \"the Lord knows\"; ",
+          "target": "be-e-li'-a-da (be`elyadha`, « le Seigneur sait » ; ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ELIADA",
+          "target": "ELIADA",
+          "action": "preserve",
+          "reason": "Original proper-name/lexeme link text retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", which see; compare HPN, 144, 192, note 1, 202): A son of David (",
+          "target": ", voir cet article ; comparer HPN, 144, 192, note 1, 202) : fils de David (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEERA",
+      "article_id": "isbe-7b2802f1161a54c7298e",
+      "source_article_sha256": "16eae6cde3c7dc0c3dbe6401875729346df593050e5cd880a12260fff51eac67",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEERA",
+          "target": "BEÉRA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "bē-ē'ra, bē'er-a (בְּאֵרָא, be'ērā', \"expounder\"): A descendant of Asher (1 Ch 7 37).",
+          "target": "bē-ē'ra, bē'er-a (בְּאֵרָא, be'ērā', « interprète ») : descendant d'Aser (1 Ch 7 37).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "BEERI",
+      "article_id": "isbe-f73f57178462f8100a71",
+      "source_article_sha256": "62bd78d6847461fbf8a367325bbd339e40a4dd6085bd56b2c763958e4de4b4e8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "BEERI",
+          "target": "BEÉRI",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "be-e'-ri (be'eri, \"expounder\"):",
+          "target": "be-e'-ri (be'eri, « interprète ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) Father of Judith, one of Esau's wives (",
+          "target": "(1) Père de Judith, l'une des femmes d'Ésaü (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) The father of the prophet Hosea (",
+          "target": "(2) Père du prophète Osée (",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
