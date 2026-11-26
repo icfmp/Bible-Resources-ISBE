@@ -916,3 +916,24 @@ The original wave-01 checklist (#109) covers 1,000 canonical English source entr
 - **12** other originals remain entirely untranslated in this issue; neither the 1,000/1,000 draft milestone nor individual editorial acceptance can be claimed yet.
 - All original French-first-draft source locks, complete-block coverage, and marker-order controls are checked in to this branch; GitHub CI establishes their formal results independently. The explicit `work-in-progress` tracking manifest is **not** a certified cohort manifest and must not be fed to its validator.
 - Independent paragraph-by-paragraph bilingual editorial review remains **0**; issue checkboxes stay unchecked; no original English TEI edit, SWORD module build, release or publication is authorized.
+
+
+## Final 14 source-locked first drafts — seven completed on branch (26 November 2026)
+
+The single **draft PR #160** carries seven complete **first drafts** of the final fourteen canonical entries, all reconstructed from exact source-locked Markdown and JSON TEI text/tail patches. Draft-only status: no independent bilingual editorial review, no approved article, no source-English change and no release permission.
+
+| Canonical source key | Full original blocks | Mutable TEI units | Source-locked patch |
+| --- | ---: | ---: | --- |
+| ACCOMMODATION | 86 | 131 | `0149-wave01-last14-accommodation.json` |
+| ASTROLOGY | 68 | 98 | `0150-wave01-last14-astrology.json` |
+| AMOS (1) | 82 | 172 | `0151-wave01-last14-amos.json` |
+| ALTAR | 127 | 266 | `0152-wave01-last14-altar.json` |
+| APOCRYPHAL GOSPELS | 102 | 109 | `0153-wave01-last14-apocryphal-gospels.json` |
+| ARABIA | 104 | 148 | `0154-wave01-last14-arabia.json` |
+| APOCRYPHA | 210 | 223 | `0155-wave01-last14-apocrypha.json` |
+
+**Remaining seven original source entries:** ACTS OF THE APOSTLES; ANTHROPOLOGY; APOCALYPTIC LITERATURE; APOCRYPHAL ACTS; ARCHAEOLOGY; ARCHAEOLOGY AND CRITICISM (single canonical entry); ASTRONOMY; AUTHORITY IN RELIGION. Source hashes, entry positions and template sizes remain in the canonical `work-in-progress/WAVE01_FINAL14_TRACKING.json`.
+
+**Historical-source collation flags:** ARABIA block 59 has repeated English *latitude* where the context implies *altitude*; block 149 has split `at tach`. APOCRYPHA lists have suspicious `New Testament Apocrypha` heading before Old Testament names, `The Ac of Paul`, and `So of the Three Holy Children`. These are preserved as independent source-witness questions, not silently corrected in the original English TEI. All derived French interpretations need independent comparison against the actual historical printed witness before final editorial sign-off.
+
+A short preliminary attempt at the next ARCHAEOLOGY translation was **discarded without integration** because it abbreviated detailed source argumentation, contrary to the mandatory full-article fidelity standard. Its incomplete temporary map was deleted, leaving the source and the seven verified source-locked first drafts untouched. No ARCHAEOLOGY completion is claimed. Check the CI status of the exact PR head before any merge.
