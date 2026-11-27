@@ -6,29 +6,56 @@
   "branch": "work/fr-isbe-full-translation",
   "wave03_issue": 111,
   "previous_wave_issue": 110,
-  "status": "source_staging_requested",
+  "status": "100_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_2001_3000": {
     "total": 1000,
     "previous_pilot_drafts": 4,
-    "new_complete_drafts_on_branch": 0,
-    "complete_first_drafts": 4,
-    "remaining_undrafted": 996
+    "new_complete_drafts_on_branch": 100,
+    "complete_first_drafts": 104,
+    "remaining_undrafted": 896
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 2043
+    "complete_first_drafts_across_main_and_current_branch": 2143
   },
   "source_queue": {
-    "rounds_completed": [],
-    "current_round": "round-001",
-    "requested_templates": 100
+    "rounds_completed": [
+      "round-001"
+    ],
+    "original_article_templates": 100,
+    "verified_unique_article_ids": 100,
+    "original_mutable_tei_units_covered": 349,
+    "round_paths": [
+      "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-001"
+    ],
+    "current_round": "round-002",
+    "requested_templates": 300,
+    "checks": "Round 001: source identity, ordered exact source slots, nonempty targets and marker sequences checked; incremental CI pending."
   },
-  "batch_files": [],
-  "source_witness_and_display_flags": [],
-  "previous_translation_commit": "f6ecf0b47510f65aacb6a6a069b0c88674719bba",
+  "batch_files": [
+    "0291-wave03-round001-redirects.json"
+  ],
+  "source_witness_and_display_flags": [
+    {
+      "key": "CHETH",
+      "kind": "source_reference",
+      "detail": "English original redirects to the same canonical source key; original target retained."
+    },
+    {
+      "key": "CHOICE; COAT; COFFIN; DEVIL; DRAM; DRINK",
+      "kind": "display",
+      "detail": "Original adjacent internal links lack visible separators. French display adds semicolon and space within the first editable link label only; immutable link targets and TEI structure remain unchanged."
+    },
+    {
+      "key": "ELISEUS; DIVES",
+      "kind": "editorial_review",
+      "detail": "Historical alias ELISEUS rendered ÉLISÉUS, distinguishing it from ELISHA; Latin title DIVES retained without adding explanatory text."
+    }
+  ],
+  "previous_translation_commit": "79b537efeee74abb913f2d67825d4d987f5821e5",
   "cohort_policy": {
     "source_word_limit": 60000,
     "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
@@ -36,5 +63,27 @@
     "oversized_single_article": "Standalone cohort",
     "commit_policy": "One commit and incremental validation per completed cohort"
   },
-  "next_action": "Read verified round-001 SOURCE.jsonl after source staging workflow succeeds; translate consecutive complete articles."
+  "next_action": "Resume at round-002 SOURCE.jsonl once staged. Round 001 is a partial checkpoint at the available queue boundary, not a 60,000-word cohort.",
+  "last_translation_tree": "43355edff4cd1ec4991326e866e85ce15eae9c8b",
+  "last_cohort_completion": {
+    "kind": "source_queue_boundary_partial_checkpoint",
+    "source_line_ranges": [
+      {
+        "round": "round-001",
+        "range": [
+          1,
+          100
+        ]
+      }
+    ],
+    "new_articles": 100,
+    "source_words_whitespace_count": 434,
+    "word_limit": 60000,
+    "source_mutable_units": 349,
+    "source_blocks": 242,
+    "protected_keep_markers": 0,
+    "protected_structure_markers_total": 315,
+    "validation": "Source identities and exact ordered slots verified against staged batch; incremental full manuscript/TEI CI pending",
+    "editorial_approvals": 0
+  }
 }

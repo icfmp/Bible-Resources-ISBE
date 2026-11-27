@@ -3,11 +3,11 @@
   "kind": "french_isbe_source_template_staging_request",
   "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
   "roster": "workspace/translations/isbe-1915/fr/worklists/wave-01/2001-3000.json",
-  "output": "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-001",
-  "limit": 100,
+  "output": "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-002",
+  "limit": 300,
   "translation_language": "fr",
   "publication_permitted": false,
   "editorial_approvals": 0,
-  "notes": "Stage 100 shortest remaining canonical entries using the existing deterministic queue; retain original order within queue and exclude all existing pilot and batch drafts.",
+  "notes": "Stage 300 next undrafted original entries using existing deterministic queue; completed round 001 excluded by committed patches. Larger queue reduces staging overhead.",
   "reserve_queues": []
 }
