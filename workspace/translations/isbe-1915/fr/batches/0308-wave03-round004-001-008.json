@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CHEMARIM",
+      "article_id": "isbe-958a41a820bfb785674d",
+      "source_article_sha256": "2a413676475312fdbe3cff17aff20752c496bb44445a84ac6d6163b7459c40f6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHEMARIM",
+          "target": "CHEMARIM",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kem'-a-rim (kemarim, a plural whose singular komer is not found in the Old Testament): Occurs only once in the text of English Versions of the Bible (Ze 1:4, the King James Version Chemarims), though the Hebrew word is found also in ",
+          "target": "kem'-a-rim (kemarim, pluriel dont le singulier komer ne se trouve pas dans l'Ancien Testament) : Ce terme n'apparaît qu'une fois dans le texte des versions anglaises de la Bible (Ze 1:4, Chemarims dans la King James Version), bien que le mot hébreu se trouve aussi en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (English Versions \"idolatrous priests\") and ",
+          "target": " (les versions anglaises : « prêtres idolâtres ») et en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (English Versions \"priests,\" English Versions margins, however, having \"Chemarim\" in both places). Some regard the word as an interpolation in ",
+          "target": " (les versions anglaises : « prêtres », avec toutefois « Chemarim » en marge dans les deux passages). Certains considèrent ce mot comme une interpolation en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", since the Septuagint omits it and its presence disturbs the parallelism. The word, which is of Aramaic origin (kumra, priest), is used in the Old Testament only in an unfavorable sense, its origin and associations naturally suggesting Syriac affinities. In the Syriac, however, no such connotation is involved. In the Peshitta version of the Old Testament it is used indifferently of idolatrous priests and of priests of Yahweh, while in the same version of the New Testament it is used of the Levitical priests and of our Lord (e.g. ",
+          "target": ", car la Septante l'omet et sa présence perturbe le parallélisme. Ce mot, d'origine araméenne (kumra, prêtre), n'est employé dans l'Ancien Testament que dans un sens défavorable, son origine et ses associations suggérant naturellement des affinités avec le syriaque. En syriaque, cependant, il ne comporte aucune connotation de ce genre. Dans la Peshitta de l'Ancien Testament, il désigne indifféremment les prêtres idolâtres et les prêtres de Yahvé, tandis que, dans cette même version du Nouveau Testament, il s'applique aux prêtres lévitiques et à notre Seigneur (par exemple en ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", and often) and in ",
+          "target": ", et souvent ailleurs) ; en ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " it is the rendering of neokoros (the Revised Version (British and American) \"temple-keeper,\" the King James Version \"worshipper\"). The question of the root idea of the word remains unsettled. The traditional supposition, which finds some support even among modern scholars, is that the verbal form means \"to be black,\" the priests being supposed to have been clad in black. But it is doubtful whether the root had this meaning. Another conjecture takes the root to mean \"to be sad,\" the priest being a man of a sad countenance, an ascetic. Cheyne would relate the word to the Assyrian kummaru, having the sense of \"a clean vesture.\" It is at all events probable that the priests, both in Israel and in the surrounding nations, employed white vestments, rather than black, when in the performance of their official functions. According to the Mishna, Middoth, verse 4, a Levitical priest who had become disqualified for service put on black garments and departed, while the others put on white garments and went in and ministered. The reference to the Baal worship in ",
+          "target": " il traduit neokoros (la Revised Version, britannique et américaine : « temple-keeper », gardien du temple ; la King James Version : « worshipper », adorateur). La question du sens fondamental du mot demeure sans réponse. Selon l'hypothèse traditionnelle, que soutiennent même certains savants modernes, la forme verbale signifie « être noir », les prêtres étant supposés avoir été vêtus de noir. Mais il est douteux que la racine ait eu ce sens. Une autre conjecture attribue à la racine le sens d'« être triste », le prêtre étant un homme au visage triste, un ascète. Cheyne rapprocherait le mot de l'assyrien kummaru, qui signifie « un vêtement propre ». Il est en tout cas probable que les prêtres, tant en Israël que dans les nations voisines, portaient des vêtements blancs plutôt que noirs dans l'exercice de leurs fonctions officielles. Selon la Mishna, Middoth, verset 4, un prêtre lévitique devenu inapte au service revêtait des habits noirs et se retirait, tandis que les autres revêtaient des habits blancs, entraient et officiaient. La mention du culte de Baal en ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": " seems more congruous with this view; hence, probably blackrobed priests (Chemarim) of Baal and the unfaithful priests of Yahweh shall be cut off together. G. A. Smith (BTP, II, 56) reads \"the priestlings with the priests.\"",
+          "target": " paraît mieux s'accorder avec cette manière de voir ; ainsi, probablement, les prêtres de Baal vêtus de noir (Chemarim) et les prêtres infidèles de Yahvé seront retranchés ensemble. G. A. Smith (BTP, II, 56) lit « the priestlings with the priests » (les petits prêtres avec les prêtres).",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "J. R. Van Pelt",
+          "target": "J. R. Van Pelt",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHEST",
+      "article_id": "isbe-6acd9e97df272ec898fa",
+      "source_article_sha256": "ba02e153103271940cdda9675011515f19a82e78933f210c1e0a38e4d92e8f13",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHEST",
+          "target": "COFFRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "chest ('aron, genazim; kibotos):",
+          "target": "chest ('aron, genazim ; kibotos) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) The ark of the covenant in Old Testament is invariably denoted by the word 'aron, elsewhere rendered the King James Version and the Revised Version (British and American) \"chest.\"",
+          "target": "(1) L'arche de l'alliance dans l'Ancien Testament est invariablement désignée par le mot 'aron, que la King James Version et la Revised Version (britannique et américaine) rendent ailleurs par « chest » (coffre).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ARK",
+          "target": "ARCHE",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) 'Aron is also the word rendered \"coffin\" (",
+          "target": "(2) 'Aron est aussi le mot traduit par « coffin » (cercueil) (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ": \"and he was put in a coffin in E.\").",
+          "target": ": « et on le plaça dans un cercueil en Égypte »).",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "COFFIN",
+          "target": "CERCUEIL",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(3) In Kings and Chronicles (",
+          "target": "(3) Dans les livres des Rois et des Chroniques (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": ") 'aron stands uniformly for a money chest. It is the \"chest\" that Jehoiada, the priest, placed in the court \"beside the altar\" and \"bored a hole in the lid of\" that the priests might \"put therein all the money that was brought into the house of Yahweh\" (",
+          "target": ") 'aron désigne uniformément un coffre à argent. C'est le « coffre » que le prêtre Jehojada plaça dans le parvis « à côté de l'autel » et « dont il perça le couvercle d'un trou », afin que les prêtres « y mettent tout l'argent apporté dans la maison de Yahvé » (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "); and \"the chest\" that King Joash commanded to be made and set \"without at the gate of the house of Yahweh\" to receive \"the tax that Moses the servant of God laid upon Israel\" (",
+          "target": ") ; et « le coffre » que le roi Joas ordonna de fabriquer et de placer « dehors, à la porte de la maison de Yahvé », pour recevoir « l'impôt que Moïse, serviteur de Dieu, avait imposé à Israël » (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": "). One feature is common to the thing meant in all these applications--the c. was rectangular in shape, and, most probably in every instance, made of wood.",
+          "target": "). Un caractère est commun à l'objet désigné dans tous ces emplois : le coffre était de forme rectangulaire et, très probablement, en bois dans tous les cas.",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(4) Josephus (Ant., VI, 1,2) uses the equivalent of the word to denote the \"coffer\" (",
+          "target": "(4) Josèphe (Ant., VI, 1,2) emploie l'équivalent du mot pour désigner le « coffer » (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": " ff English Versions), or small chest, in which the princes of Philistia deposited the gold mice.",
+          "target": " et suivants, versions anglaises), ou petit coffre, dans lequel les princes des Philistins déposèrent les souris d'or.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "(5) In New Testament times the \"chests\" that were provided in the court of the women, in the temple of Herod, to receive the various kinds of money gifts had the exceptional shape of a trumpet (if Sheqalim, vi.5 may be trusted)--wide at the bottom and gradually narrowing toward the top, hence, called shopharoth. It was into these that the Master was watching the multitude casting in their money when He saw the poor widow cast in her two mites (",
+          "target": "(5) À l'époque du Nouveau Testament, les « coffres » disposés dans le parvis des femmes, dans le temple d'Hérode, pour recevoir les diverses sortes d'offrandes en argent, avaient la forme exceptionnelle d'une trompette (si l'on peut se fier à Sheqalim, vi.5) : larges à la base et se rétrécissant progressivement vers le sommet, d'où leur nom de shopharoth. C'est en observant la foule y déposer son argent que le Maître vit la pauvre veuve y jeter ses deux petites pièces (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "(6) In ",
+          "target": "(6) En ",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "tail",
+          "source": ", where the prophet is giving an inventory of the merchandise of Tyre, another word entirely is used (genazim), and it is rendered in the King James Version and the Revised Version (British and American) \"chests\" (\"chests of rich apparel, bound with cords and made of cedar\"). According to Cornill, Davidson, Smend and others this rendering is without sufficient support (see Smith, Dictionary of the Bible and commentary in the place cited.).",
+          "target": ", où le prophète dresse l'inventaire des marchandises de Tyr, un tout autre mot est employé (genazim), rendu dans la King James Version et la Revised Version (britannique et américaine) par « chests » (coffres) (« coffres de vêtements précieux, liés de cordes et faits de cèdre »). Selon Cornill, Davidson, Smend et d'autres, cette traduction n'est pas suffisamment fondée (voir Smith, Dictionary of the Bible et le commentaire au passage cité).",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "George B. Eager",
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHEW; CUD",
+      "article_id": "isbe-5a5b70d10bc641a78afa",
+      "source_article_sha256": "2f858aa267a42e32083e5d879a47c5ee0c115823f0d01c5ce953a14b9e9e9560",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHEW; CUD",
+          "target": "RUMINER ; RUMINATION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "choo, chu, (ma`aleh gerah, literally \"bringing up\" (American Revised Versions margin), i.e. \"chewing the cud,\" from garar, \"to roll,\" \"ruminate\"): One of the marks of cleanliness, in the sense of fitness for food, of a quadruped, given in ",
+          "target": "choo, chu (ma`aleh gerah, littéralement « faire remonter » (marge de l'American Revised Version), c'est-à-dire « ruminer », de garar, « rouler », « ruminer ») : L'un des signes de pureté d'un quadrupède, au sens de son aptitude à servir de nourriture, indiqué en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " and ",
+          "target": " et en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", is the chewing of the cud. Among the animals considered clean are therefore included the ox, the sheep, the goat, the hart, the gazelle, the roebuck, the wild goat, the pygarg, the antelope and the chamois. Several of the forbidden animals are expressly named in the passages, e.g. the camel, the rock-badger, the hare and the swine. In addition to the distinctions between clean and unclean animals mentioned in the Bible, the Talmud points out that the clean animals have no upper teeth, that their horns are either forked, or if not forked they are clear of splinters, notched with scales and round, and that certain portions of the meat of clean animals tear lengthwise as well as across. Many theories have been advanced as to the reasons for the distinctions with regard to the chewing of the cud and the cloven hoof. See the Jewish Encyclopedia under the word \"Clean.\" The most obvious is that ruminating animals and animals without claws were apparently cleaner-feeding animals than the others.",
+          "target": ", est la rumination. Parmi les animaux considérés comme purs figurent donc le bœuf, le mouton, la chèvre, le cerf, la gazelle, le chevreuil, la chèvre sauvage, le pygarg (antilope), l'antilope et le chamois. Plusieurs des animaux interdits sont expressément nommés dans ces passages, notamment le chameau, le daman des rochers, le lièvre et le porc. Outre les distinctions entre animaux purs et impurs mentionnées dans la Bible, le Talmud indique que les animaux purs n'ont pas de dents supérieures, que leurs cornes sont soit fourchues, soit, si elles ne le sont pas, dépourvues d'échardes, striées d'écailles et rondes, et que certaines parties de leur viande se déchirent aussi bien dans le sens de la longueur que dans celui de la largeur. On a avancé de nombreuses théories sur les raisons des distinctions relatives à la rumination et au sabot fendu. Voir la Jewish Encyclopedia à l'article « Clean » (pur). La plus évidente est que les ruminants et les animaux dépourvus de griffes se nourrissaient apparemment de façon plus propre que les autres.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "Nathan Isaacs",
+          "target": "Nathan Isaacs",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHICKEN",
+      "article_id": "isbe-70ab66ad310807e17aa0",
+      "source_article_sha256": "a6b03f07f1ff2c5ba7eab5abd942123afe01ec866b6df6e012f16419ce1af4f8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHICKEN",
+          "target": "POUSSIN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "chik'-'-n, chik'-in (Anglo-Saxon, cicen or cycen; Latin, Gallus ferrugineus; alektruon, masculine and fem.): A barnyard fowl of any age. The record is to be found in the books of the disciples, but Jesus is responsible for the only direct mention of chickens in the Bible. ",
+          "target": "chik'-'-n, chik'-in (anglo-saxon, cicen ou cycen ; latin, Gallus ferrugineus ; alektruon, masculin et féminin) : Volaille de basse-cour de tout âge. Le récit se trouve dans les livres des disciples, mais c'est à Jésus que l'on doit la seule mention directe des poulets dans la Bible. ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", contains this: \"O Jerusalem, Jerusalem, that killeth the prophets, and stoneth them that are sent unto her! how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!\" Luke's version of the same scene says: \"Even as a hen gathereth her own brood under her wings\" (",
+          "target": " contient ces paroles : « Jérusalem, Jérusalem, toi qui tues les prophètes et lapides ceux qui te sont envoyés ! Combien de fois ai-je voulu rassembler tes enfants, comme une poule rassemble ses poussins sous ses ailes, et vous ne l'avez pas voulu ! » La version de Luc du même épisode dit : « Comme une poule rassemble sa propre couvée sous ses ailes » (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). There is no reference to chickens in the Old Testament sufficiently clear to specify our common domestic bird. The many references to \"fatted fowl\" in these older records, in accordance with the text and the history of the other nations, were pigeons, guineas, ducks, geese and swans. The importation of peafowl by Solomon is mentioned. The cock and hen are distinctive birds and would have been equally a marvel worth recording had they been introduced at that time. From the history of the bird in other countries it is a safe estimate to place their entrance into Palestine between five and six hundred years BC. That would allow sufficient time for them to increase and spread until they would be well known and common enough to be used effectively in the ministry of Jesus Christ. Every historical fact and indication points to the capture and domestication of the red jungle fowl in Burma. The Chinese records prove that they first secured imported fowl from the West in 1400 BC. Their use for food dated from 1200 to 800 BC, in the Book of Manu, but it was specified that only those that ran wild were to be eaten. From these countries they were imported to Greece and Italy, and from there carried south into Palestine Homer ([?] 10; compare also alektruon, P 602) names a man Cock, alektor, which seems to indicate that he knew the bird. Pindar gives them slight mention; Aristophanes wrote of them as \"Persian birds,\" which indicates that they worked their way westward by importation. I cannot find them in the records of Aristotle, but Aristophanes advanced the idea that not the gods, but the birds were rulers of men in ancient times, and compared the comb of the cock with the crown of a king, and pointed out that when he \"merely crows at dawn all jump up to their work\" (Aves, 489-90). They were common in Italy in the days of Pliny, who was ten years old at the time of the crucifixion of Christ. Pliny gave many rules for raising chickens, proving that much was known of their habits in his time. Yet so credulous was he and so saturated with superstition, that, mixed with his instructions for preserving eggs, brooding and raising chickens, is the statement that on account of the fighting power of the cocks the lions feared them. He wrote that a man named Galerius in the time of the consuls, Lepidus and Catulus, owned a barnyard fowl that spoke. He names Lenius Strabo as the first man to devise a \"coupe\" to keep fowl in and \"cram\" them to fatness. He gave the laws governing the use of fowl at table and recorded that in Egypt eggs were hatched in manure beds, which is conclusive proof that birds had been carried across the Mediterranean several centuries previous. The records of Babylon, 600 BC, contain figures undoubtedly intended for cocks, and they were reproduced in marble in Lycia at that time, In all these reproductions the birds have the drooping tail of the wild, and there is no record of the date at which they erected the tail, lifted the head and assumed the upright bearing of today.",
+          "target": "). Aucune mention des poulets dans l'Ancien Testament n'est suffisamment claire pour désigner notre oiseau domestique commun. Les nombreuses mentions de « volailles engraissées » dans ces récits anciens désignaient, d'après le texte et l'histoire des autres nations, des pigeons, des pintades, des canards, des oies et des cygnes. L'importation de paons par Salomon est mentionnée. Le coq et la poule sont des oiseaux bien reconnaissables et auraient également constitué une merveille digne d'être signalée s'ils avaient été introduits à cette époque. D'après l'histoire de cet oiseau dans d'autres pays, on peut raisonnablement situer son arrivée en Palestine entre cinq et six cents ans avant J.-C. Cela lui aurait laissé assez de temps pour se multiplier et se répandre jusqu'à devenir suffisamment connu et commun pour que Jésus-Christ puisse l'évoquer efficacement dans son ministère. Tous les faits et indices historiques convergent vers la capture et la domestication du coq sauvage rouge en Birmanie. Les documents chinois prouvent que les Chinois reçurent pour la première fois des volailles importées de l'Ouest en 1400 av. J.-C. Leur usage alimentaire remonte à la période de 1200 à 800 av. J.-C., dans le Livre de Manu, mais il y était précisé que seuls les oiseaux vivant à l'état sauvage devaient être mangés. De ces pays, ils furent importés en Grèce et en Italie, puis transportés vers le sud, en Palestine. Homère ([?] 10 ; comparer aussi alektruon, P 602) donne à un homme le nom de Coq, alektor, ce qui semble indiquer qu'il connaissait cet oiseau. Pindare les mentionne brièvement ; Aristophane parle d'eux comme d'« oiseaux perses », ce qui indique qu'ils se propagèrent vers l'ouest par importation. Je n'en trouve pas trace dans les écrits d'Aristote, mais Aristophane avança l'idée que ce n'étaient pas les dieux, mais les oiseaux qui gouvernaient les hommes dans les temps anciens ; il compara la crête du coq à la couronne d'un roi et fit remarquer que, lorsqu'il « chante simplement à l'aube, tous se lèvent d'un bond pour aller travailler » (Aves, 489-90). Ils étaient communs en Italie à l'époque de Pline, qui avait dix ans au moment de la crucifixion du Christ. Pline donna de nombreuses règles pour l'élevage des poulets, preuve que leurs habitudes étaient bien connues à son époque. Pourtant, il était si crédule et si imprégné de superstition qu'au milieu de ses instructions sur la conservation des œufs, la couvaison et l'élevage des poussins figure l'affirmation que les lions craignaient les coqs en raison de leur ardeur au combat. Il écrivit qu'un homme nommé Galerius, au temps des consuls Lepidus et Catulus, possédait une volaille de basse-cour qui parlait. Il cite Lenius Strabo comme le premier homme à avoir conçu une « coupe » (cage) pour y enfermer les volailles et les « gaver » afin de les engraisser. Il exposa les lois régissant la consommation des volailles et rapporta qu'en Égypte on faisait éclore les œufs dans des couches de fumier, preuve concluante que ces oiseaux avaient traversé la Méditerranée plusieurs siècles auparavant. Les documents de Babylone, en 600 av. J.-C., contiennent des figures représentant indubitablement des coqs, et on les reproduisait dans le marbre en Lycie à cette époque. Dans toutes ces représentations, les oiseaux ont la queue retombante de l'oiseau sauvage, et rien ne permet de savoir à quelle date ils redressèrent la queue, relevèrent la tête et adoptèrent le port droit d'aujourd'hui.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "Gene Stratton-Porter",
+          "target": "Gene Stratton-Porter",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHIEF",
+      "article_id": "isbe-36c5c114198d9e655a80",
+      "source_article_sha256": "70d4b193ee2b5e89ee0812f9f58b296653a8f117c6f29683f10ebe82053233f0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHIEF",
+          "target": "CHEF",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "chef: The English word is in the King James Version of Old Testament the translation of some 17 different Hebrew words, most frequently of ro'sh, \"head,\" sar, \"prince,\" and re'shith, \"beginning.\" The principal changes made by the Revised Version (British and American) are:",
+          "target": "chef : Le mot anglais chief traduit dans la King James Version de l'Ancien Testament quelque 17 mots hébreux différents, le plus souvent ro'sh, « tête », sar, « prince », et re'shith, « commencement ». Les principales modifications introduites par la Revised Version (britannique et américaine) sont les suivantes :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) Hebrew beth'abh, \"house of a father,\" being recognized as a technical term denoting a subdivision of a tribe, ro'sh is rendered literally \"head,\" when it occurs in connection with this phrase, so that \"chief fathers\" (Num 31:26) and \"chief of the fathers\" (",
+          "target": "(1) Le mot hébreu beth'abh, « maison d'un père », étant reconnu comme un terme technique désignant une subdivision d'une tribu, ro'sh est traduit littéralement par « head » (tête) lorsqu'il est associé à cette expression, de sorte que « chief fathers » (Num 31:26) et « chief of the fathers » (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") become \"heads of fathers' houses\";",
+          "target": ") deviennent « heads of fathers' houses » (chefs des maisons paternelles) ;",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) Hebrew naghidh and nasi' are more accurately translated \"prince\" in such passages as ",
+          "target": "(2) Les mots hébreux naghidh et nasi' sont traduits plus exactement par « prince » dans des passages tels que ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(3) the misinterpretations which brought about the translation \"chief\" for 'atsilim, \"corners,\" ",
+          "target": "(3) les interprétations erronées qui avaient conduit à traduire par « chief » les mots 'atsilim, « coins », ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", and for ma`aleh, \"ascent,\" in ",
+          "target": ", et ma`aleh, « montée », en ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ", are corrected.",
+          "target": ", sont corrigées.",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "In the New Testament \"chief\" is in most of its appearances the translation of Greek protos, \"first\"; the Revised Version (British and American) reads \"first\" for the King James Version \"chief,\" \"chiefest,\" in ",
+          "target": "Dans le Nouveau Testament, « chief » traduit, dans la plupart de ses occurrences, le grec protos, « premier » ; la Revised Version (britannique et américaine) lit « first » (premier) là où la King James Version a « chief », « chiefest », en ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": ". The reading in the latter passage is a difficult one, but the King James Version \"Philippi, which is the chief city of that part of Macedonia,\" seems to imply a political authority which Philippi did not possess; the Revised Version (British and American) \"a city of Macedonia, the first of the district.\" Greek archon, \"prince,\" \"ruler,\" is rendered by the King James Version \"chief,\" by the Revised Version (British and American) \"prince,\" in ",
+          "target": ". La leçon de ce dernier passage est difficile, mais la formulation de la King James Version, « Philippi, which is the chief city of that part of Macedonia » (Philippes, qui est la principale ville de cette partie de la Macédoine), semble impliquer une autorité politique que Philippes ne possédait pas ; la Revised Version (britannique et américaine) donne « a city of Macedonia, the first of the district » (une ville de Macédoine, la première du district). Le grec archon, « prince », « dirigeant », est rendu par « chief » dans la King James Version et par « prince » dans la Revised Version (britannique et américaine), en ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": "; the King James Version \"chief Pharisees,\" the Revised Version (British and American) \"rulers of the Pharisees,\" in ",
+          "target": " ; la King James Version lit « chief Pharisees » (principaux pharisiens), et la Revised Version (britannique et américaine) « rulers of the Pharisees » (dirigeants des pharisiens), en ",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "The original meaning of \"chief\" having been weakened, the comparative and superlative were admitted into English, the latter only appearing in the King James Version or the Revised Version: ",
+          "target": "Le sens originel de « chief » s'étant affaibli, le comparatif et le superlatif furent admis en anglais, ce dernier seul apparaissant dans la King James Version ou dans la Revised Version : ",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": ", etc. On \"chief of Asia\" (",
+          "target": ", etc. Au sujet de « chief of Asia » (chef d'Asie) (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": " the King James Version) see ",
+          "target": " dans la King James Version), voir ",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "ASIARCH",
+          "target": "ASIARQUE",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "F. K. Farr",
+          "target": "F. K. Farr",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHILDREN OF EDEN",
+      "article_id": "isbe-2defa0ea780d4c06e95b",
+      "source_article_sha256": "85f9d827da7ba99baa53ec73a17973ca89b66b47d5fc226055511fe4a8d9161a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHILDREN OF EDEN",
+          "target": "FILS D'ÉDEN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-d'-n (bene `edhen): In ",
+          "target": "e'-d'-n (bene `edhen) : En ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " \"the children of Eden that were in Telassar\" are mentioned in connection with \"Gozan, and Haran, and Rezeph\" as having been destroyed by the Assyrians who were before the time of Sennacherib. The expression, \"the children of Eden that were in Telassar,\" undoubtedly referred to a tribe which inhabited a region of which Telassar was the center. Telassar means \"the hill of Asshur\" and, according to Schrader, it was a name that might have been given to any place where a temple had been built to Asshur. Inasmuch as Gozan, and Haran, and Rezeph were in Mesopotamia it would seem probable that \"the children of Eden that were in Telassar\" belonged to the same locality. The \"children of Eden\" is quite probably to be identified with the Bit `Adini of the inscriptions and this referred to a district on the middle Euphrates. According to the inscriptions Gozan, Haran, Rezeph, and Bit `Adini were destroyed by Sennacherib's forefathers, and this is in accord with the account in 2 Kings and Isaiah.",
+          "target": " « les fils d'Éden qui étaient à Telassar » sont mentionnés avec « Gozan, Haran et Réceph », comme ayant été détruits par les Assyriens antérieurs à l'époque de Sennachérib. L'expression « les fils d'Éden qui étaient à Telassar » désignait sans aucun doute une tribu habitant une région dont Telassar était le centre. Telassar signifie « la colline d'Assur » et, selon Schrader, ce nom aurait pu être donné à tout lieu où un temple avait été construit pour Assur. Puisque Gozan, Haran et Réceph se trouvaient en Mésopotamie, il paraît probable que « les fils d'Éden qui étaient à Telassar » appartenaient à la même région. Il est très probable que les « fils d'Éden » doivent être identifiés au Bit `Adini des inscriptions, qui désignait un district du moyen Euphrate. D'après les inscriptions, Gozan, Haran, Réceph et Bit `Adini furent détruits par les ancêtres de Sennachérib, ce qui concorde avec le récit de 2 Rois et d'Ésaïe.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "The \"Eden\" of ",
+          "target": "L'« Éden » d'",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " is usually taken as the name of a place in Mesopotamia with which Tyre had commercial relations, and probably belongs to the region of \"the chilrden of Eden,\" discussed above.",
+          "target": " est généralement considéré comme le nom d'un lieu de Mésopotamie avec lequel Tyr entretenait des relations commerciales, et relève probablement de la région des « fils d'Éden » dont il a été question ci-dessus.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "Some writers think the \"Beth-eden\" of ",
+          "target": "Certains auteurs pensent que le « Beth-Éden » d'",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " the Revised Version, margin (the American Standard Revised Version \"Aven\") is to be identified with the Bit `Adini of the inscriptions and hence, with \"the children of Eden,\" but this is doubtful. This was perhaps in Syria in the neighborhood of Damascus.",
+          "target": " en marge de la Revised Version (l'American Standard Revised Version donne « Aven ») doit être identifié au Bit `Adini des inscriptions et donc aux « fils d'Éden », mais cela reste douteux. Ce lieu se trouvait peut-être en Syrie, dans les environs de Damas.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "A. W. Fortune",
+          "target": "A. W. Fortune",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHILDREN OF ISRAEL",
+      "article_id": "isbe-77af0d9a970ff26b4ed5",
+      "source_article_sha256": "8339dcadda106dd1b100a074217b7803f429bc8312bf229982c6c80ed663914d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHILDREN OF ISRAEL",
+          "target": "FILS D'ISRAËL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "iz'-ra-el (bene yisra'el): A very common term in both the Old Testament and the New Testament, and it refers to the Israelites as the descendants of a common ancestor, Jacob, whose name was changed to Israel (see ",
+          "target": "iz'-ra-el (bene yisra'el) : Terme très fréquent aussi bien dans l'Ancien Testament que dans le Nouveau Testament, désignant les Israélites comme les descendants d'un ancêtre commun, Jacob, dont le nom fut changé en Israël (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). It was customary to designate the members of the various tribes as the children of the one from whom the tribe originated (see ",
+          "target": "). Il était d'usage de désigner les membres des diverses tribus comme les fils de celui dont la tribu était issue (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), and it was natural that the people who boasted of Israel as their ancestor should be designated as his children. The first reference to the descendants of Jacob is found in the account of the changing of Jacob's name to Israel, and the purpose is to connect them with the experience in Jacob's life which led to the change in his name: \"Therefore the children of Israel eat not the sinew of the hip, which is upon the hollow of the thigh, unto this day: because he touched the hollow of Jacob's thigh in the sinew of the hip.\" At the time when this was written \"the children of Israel\" was a phrase that was commonly applied to the Israelites. In ",
+          "target": "); il était donc naturel que le peuple qui se glorifiait d'avoir Israël pour ancêtre fût désigné comme ses fils. La première mention des descendants de Jacob se trouve dans le récit du changement de son nom en Israël, et vise à les rattacher à l'expérience de la vie de Jacob qui entraîna ce changement de nom : « C'est pourquoi les fils d'Israël ne mangent pas, jusqu'à ce jour, le nerf de la hanche qui est au creux de la cuisse, parce qu'il toucha le creux de la cuisse de Jacob, au nerf de la hanche. » À l'époque où cela fut écrit, « les fils d'Israël » était une expression communément appliquée aux Israélites. En ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " they are called \"the children of Jacob,\" and this occurs in connection with the account of the changing of Jacob's name to Israel and is intended to connect them closely with their father Jacob, who was favored of God.",
+          "target": " ils sont appelés « les fils de Jacob », et cela en rapport avec le récit du changement du nom de Jacob en Israël ; cette appellation vise à les rattacher étroitement à leur père Jacob, qui avait bénéficié de la faveur de Dieu.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "After a time, it is quite likely that the phrase \"children of Israel\" lost its peculiar significance and was simply one of the popular terms designating the inhabitants of Palestine, but at first it was intended to connect these people with their ancestor Jacob whose name was changed to Israel. The Jews of the New Testament times connected themselves with Abraham rather than with Jacob (see ",
+          "target": "Avec le temps, il est fort probable que l'expression « fils d'Israël » ait perdu sa signification particulière pour devenir simplement l'un des termes courants désignant les habitants de la Palestine ; mais à l'origine elle visait à rattacher ce peuple à son ancêtre Jacob, dont le nom avait été changé en Israël. Les Juifs de l'époque du Nouveau Testament se rattachaient plutôt à Abraham qu'à Jacob (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": ", tekna, or, huioi Abraam).",
+          "target": ", tekna, ou huioi Abraam).",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "A. W. Fortune",
+          "target": "A. W. Fortune",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CHILDREN OF THE EAST",
+      "article_id": "isbe-d11d451183982b4fb581",
+      "source_article_sha256": "e13339200a3a10f53e4ef9c36ea4fd3582bdabec2d1a9ba6e193cd9e73ed7e8e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHILDREN OF THE EAST",
+          "target": "FILS DE L'ORIENT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "est (bene qedhem): A term which in a general way designated the inhabitants of the country East of Palestine The Hebrews thought of their own country as occupying the central place, and of the other parts of the world in relation to this. They spoke of the \"queen of the south\" (",
+          "target": "est (bene qedhem) : Terme désignant de manière générale les habitants du pays situé à l'est de la Palestine. Les Hébreux considéraient leur propre pays comme occupant la place centrale, et les autres parties du monde par rapport à celui-ci. Ils parlaient de la « reine du midi » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), and of the \"king of the south\" (",
+          "target": ") et du « roi du midi » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). They spoke of people coming from \"the east and the west\" and sitting down with the patriarchs (",
+          "target": "). Ils parlaient de gens venant « de l'orient et de l'occident » et s'asseyant à table avec les patriarches (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "The term \"children of the east\" seems to have been applied to the inhabitants of any part of the country East of Palestine It is stated that Jacob, when he fled from Esau, \"came to the land of the children of the east\" (",
+          "target": "L'expression « fils de l'orient » semble avoir été appliquée aux habitants de toute partie du pays situé à l'est de la Palestine. Il est dit que Jacob, lorsqu'il s'enfuit loin d'Ésaü, « arriva au pays des fils de l'orient » (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "), and the place to which he came was Haran in Mesopotamia. In ",
+          "target": ") ; or le lieu où il arriva était Haran, en Mésopotamie. En ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": " the inhabitants of Kedar are called \"the children of the east,\" and in later Jewish literature, Kedar is identified with the Arabs (see ",
+          "target": " les habitants de Kédar sont appelés « les fils de l'orient », et dans la littérature juive postérieure, Kédar est identifié aux Arabes (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "KEDAR",
+          "target": "KÉDAR",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "). Job was designated as \"the greatest of all the children of the east\" (",
+          "target": "). Job est présenté comme « le plus grand de tous les fils de l'orient » (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "), and the land of Uz was mentioned as his home (",
+          "target": ") et le pays d'Uts est mentionné comme son lieu de résidence (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "). While it is impossible absolutely to locate the land of Uz, it must have been on the edge of the desert which was East of Palestine. The children of the east seem to have been famous for their wisdom. It is said that \"Solomon's wisdom excelled the wisdom of all the children of the east\" (",
+          "target": "). S'il est impossible de situer avec certitude le pays d'Uts, il devait se trouver à la lisière du désert qui s'étendait à l'est de la Palestine. Les fils de l'orient semblent avoir été renommés pour leur sagesse. Il est dit que « la sagesse de Salomon surpassait la sagesse de tous les fils de l'orient » (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "), and \"Wise-men from the east\" came to Jerusalem seeking the one that was born king of the Jews (",
+          "target": ") et des « mages venus de l'orient » arrivèrent à Jérusalem, cherchant celui qui était né roi des Juifs (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "Many of the inhabitants of the east country were regarded as descending from Abraham (see ",
+          "target": "On considérait de nombreux habitants du pays oriental comme des descendants d'Abraham (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "), and hence, they were related to Israel.",
+          "target": ") ; ils étaient donc apparentés à Israël.",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "A. W. Fortune",
+          "target": "A. W. Fortune",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

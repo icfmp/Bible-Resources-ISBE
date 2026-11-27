@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave03_issue": 111,
   "previous_wave_issue": 110,
-  "status": "700_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "716_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_2001_3000": {
     "total": 1000,
     "previous_pilot_drafts": 4,
-    "new_complete_drafts_on_branch": 700,
-    "complete_first_drafts": 704,
-    "remaining_undrafted": 296
+    "new_complete_drafts_on_branch": 716,
+    "complete_first_drafts": 720,
+    "remaining_undrafted": 280
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 2743
+    "complete_first_drafts_across_main_and_current_branch": 2759
   },
   "source_queue": {
     "rounds_completed": [
@@ -37,7 +37,7 @@
     ],
     "current_round": "round-004",
     "requested_templates": 200,
-    "checks": "Round 002 incremental CI passed (45969468248). Round 003: 300 unique IDs, all 2028 exact ordered source slots, nonempty targets, manuscript paths and marker order checked during reconstruction; 5 stored manuscript bodies independently compared to patches; full incremental manuscript/TEI CI pending."
+    "checks": "Round 003 incremental CI passed (45972881506). Round 004 partial lines 1–16: exact ordered source slots, nonempty targets, marker sequences and unique identities checked; full incremental CI pending."
   },
   "batch_files": [
     "0291-wave03-round001-redirects.json",
@@ -56,7 +56,9 @@
     "0304-wave03-round003-191-220.json",
     "0305-wave03-round003-221-250.json",
     "0306-wave03-round003-251-280.json",
-    "0307-wave03-round003-281-300.json"
+    "0307-wave03-round003-281-300.json",
+    "0308-wave03-round004-001-008.json",
+    "0309-wave03-round004-009-016.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -113,9 +115,19 @@
       "key": "round-003",
       "kind": "display",
       "detail": "24 articles contain adjacent immutable-link boundaries with no visible editable separator; flag for consistent render/editorial review."
+    },
+    {
+      "key": "CHICKEN; CHILDREN OF EDEN; CHEMARIM",
+      "kind": "source_witness_review",
+      "detail": "CHICKEN contains uncertain Homer citation '[?] 10' and 'coupe'; retained and rendered in context. CHILDREN OF EDEN contains typographical 'chilrden'; translated as intended without changing English master. CHEMARIM source has adjacent immutable reference markers; retained."
+    },
+    {
+      "key": "CHIOS; CITY, RULERS OF; CLAUDIUS LYSIAS",
+      "kind": "source_witness_review",
+      "detail": "CHIOS historical Ottoman territorial and demographic description preserved, not modernized. CITY, RULERS OF retains unusual 'archonies'. CLAUDIUS LYSIAS translates apparent 'an postor' as impostor in context; original unchanged."
     }
   ],
-  "previous_translation_commit": "d0091cd263402649fecbd54b44ccfa1948f2bd1b",
+  "previous_translation_commit": "d2e13a94ec1df92c5c5f73f989a9644bbd7b49dc",
   "cohort_policy": {
     "source_word_limit": 60000,
     "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
@@ -123,29 +135,29 @@
     "oversized_single_article": "Standalone cohort",
     "commit_policy": "One commit and incremental validation per completed cohort"
   },
-  "next_action": "Resume at round-004 SOURCE.jsonl once staged. Round 003 reached its source queue boundary with 29,246 words; 296 entries remain. Next 200 templates requested to keep source export manageable as articles grow, then the final 96. Use 60,000-word maximum per cohort.",
+  "next_action": "Resume round-004 SOURCE.jsonl at line 17 of 200; first 16 articles committed as partial checkpoint, not a finished cohort. 280 remaining undrafted in lot 3.",
   "last_translation_tree": "88628b7dfa4fb7a182c120bf2109e70cd3b8b919",
   "last_cohort_completion": {
-    "kind": "source_queue_boundary_partial_checkpoint",
+    "kind": "partial_checkpoint",
     "source_line_ranges": [
       {
-        "round": "round-003",
+        "round": "round-004",
         "range": [
           1,
-          300
+          16
         ]
       }
     ],
-    "new_articles": 300,
-    "source_words_whitespace_count": 29246,
+    "new_articles": 16,
+    "source_words_whitespace_count": 5912,
     "word_limit": 60000,
-    "source_mutable_units": 2028,
-    "translated_units": 1819,
-    "preserved_units": 209,
-    "source_blocks": 967,
-    "protected_keep_markers": 1483,
-    "protected_structure_markers_total": 2411,
-    "validation": "Ordered source identities and exact slots verified against all 11 staged batches; all marker sequences verified at construction; 5 stored manuscript bodies compared against reconstructed body; full incremental manuscript/TEI CI pending",
+    "source_mutable_units": 151,
+    "translated_units": 132,
+    "preserved_units": 19,
+    "source_blocks": 77,
+    "protected_keep_markers": 98,
+    "protected_structure_markers_total": 146,
+    "validation": "Ordered source slots, target nonemptiness and immutable marker sequences checked; full incremental CI pending",
     "editorial_approvals": 0
   }
 }
