@@ -7,14 +7,15 @@
   "source_template_blob": "247d40dceade159a45c1d5b20935b6e9c71d2b99",
   "source_queue_line": 13,
   "publication_permitted": false,
-  "completed_blocks": 49,
+  "completed_blocks": 65,
   "total_blocks": 98,
-  "last_block": 98,
-  "next_block": 99,
-  "approx_source_words": 3470,
+  "last_block": 146,
+  "next_block": 147,
+  "approx_source_words": 5283,
   "source_flags": [
     "Source dates retained as printed, including Pompey 56 BC, Shalmaneser II and dates in the intertestamental period. Apparent OCR success ions and ease translated contextually; verify against print. Missing table after block 52 not invented.",
-    "Blocks 55–87: source dates, regnal numbers, disputed two-invasion theory and 2Ki 21:23/14 anchors retained. Several announced tables absent in staged article; do not reconstruct from conjecture. Apparent OCR split words rendered in context."
+    "Blocks 55–87: source dates, regnal numbers, disputed two-invasion theory and 2Ki 21:23/14 anchors retained. Several announced tables absent in staged article; do not reconstruct from conjecture. Apparent OCR split words rendered in context.",
+    "Blocks 104–133: unusual 2Ki 23-28 plain-text citation and 2Ki 7:1 anchor retained; source chronological claims, numbers and apparent inconsistencies preserved. OCR 'justment' rendered as adjustment in context."
   ],
   "blocks": [
     {
@@ -212,6 +213,70 @@
     {
       "block": 98,
       "target": "(2) L’histoire des deux royaumes, ou du moins certaines parties de celle-ci, est relatée dans trois sources parallèles faisant autorité : les livres des Rois, des Chroniques et des Prophètes."
+    },
+    {
+      "block": 99,
+      "target": "(3) Les documents assyriens sont les plus abondants et pratiquement continus pour cette période, les listes de limu s’étendant sans interruption de 893 à 650 av. J.-C."
+    },
+    {
+      "block": 100,
+      "target": "1. Causes des divergences entre les systèmes :"
+    },
+    {
+      "block": 101,
+      "target": "Mais alors que ce domaine devrait apparemment être le plus satisfaisant pour le chronologiste, il s’est révélé impossible d’atteindre quoi que ce soit qui ressemble à une certitude, d’où des divergences considérables entre les individus et les écoles. L’une des causes de divergence est la différence entre les listes royales assyriennes et le total des chiffres de l’Ancien Testament pour cette période, ce dernier dépassant de 51 ans celui des listes assyriennes. Deux méthodes courantes ont été adoptées pour concilier cette différence :"
+    },
+    {
+      "block": 102,
+      "target": "(1) accepter comme exact le total de l’Ancien Testament et supposer que les 51 ans ont été omis des listes assyriennes (voir W. J. Beecher, Dated Events of Old Testament, 18, 19) ;"
+    },
+    {
+      "block": 103,
+      "target": "(2) concilier les chiffres de l’Ancien Testament avec les listes assyriennes en tenant compte des chevauchements entre les règnes de rois associés au trône pendant de brèves périodes."
+    },
+    {
+      "block": 104,
+      "target": "Des exemples de tels chevauchements sont la corégence d’Ozias et de Jotham en Juda (⟦ISBE:KEEP:105:2Ki 15:5⟧), et peut-être le règne de Pékach en même temps que Menahem et Pekachia en Israël (2Ki 23-28). La seconde méthode donne les résultats les plus satisfaisants et sera adoptée dans cet article. Le principal point de divergence concernera l’époque de Salomon et la pose des fondations du Temple. On peut les situer selon la première méthode en ajoutant 51 ans aux dates indiquées ci-dessous. Le fait que la méthode qui suit le total des chiffres de l’Ancien Testament doive supposer arbitrairement des omissions dans les listes assyriennes, et qu’elle doive également recourir à certains chevauchements et ajustements des chiffres tels qu’ils figurent dans le texte, constitue une raison suffisante de ne pas l’adopter. En abordant les difficultés de cette période, il faut toujours garder à l’esprit que l’Ancien Testament n’est pas simplement un livre d’annales et que les dates ne sont pas données pour l’intérêt particulier qu’elles présenteraient en elles-mêmes, mais pour mettre les événements en relation et en souligner l’importance. Ordinairement, les dates sont données par rapport à des situations locales et à des personnages contemporains, et non par rapport à quelque grand événement marquant une époque ; par exemple, le règne d’Ozias est situé non par rapport au schisme ni à la construction du Temple, mais par rapport à son contemporain israélite Jéroboam II."
+    },
+    {
+      "block": 106,
+      "target": "2. Quelques dates importantes et déterminantes :"
+    },
+    {
+      "block": 107,
+      "target": "Il existe cependant certaines dates établies en raison de leur importance internationale, sur lesquelles nous pouvons nous appuyer avec une assurance raisonnable. Telles sont la chute de Samarie (721 av. J.-C.), l’accession de Tiglath-Piléser III (745), le tribut versé à Salmanasar II par Jéhu en 842 et par Achab, ou l’un des membres de sa dynastie, en 854, et l’invasion de Juda par le pharaon Schischak dans la cinquième année de Roboam (⟦ISBE:KEEP:108:1Ki 14:25⟧). Il existe aussi certaines dates concordantes, établies avec une assez grande précision dans l’histoire parallèle des deux royaumes, qui servent à la fois de points de départ et de moyens de vérification mutuelle. Les principales sont les suivantes : le début du règne d’Ézéchias, cinq ans avant la chute de Samarie (⟦ISBE:KEEP:109:2Ki 18:10⟧) ; la contemporanéité des règnes de Jéroboam II et de Jotham (⟦ISBE:KEEP:110:1Ch 5:17⟧), l’accession de Jotham servant de base au calcul des règnes des rois israélites (⟦ISBE:KEEP:111:2Ki 15:30⟧) ; la coïncidence de la fin de la dynastie d’Omri et de la mort d’Achazia, roi de Juda (⟦ISBE:KEEP:112:2Ki 9⟧), Jéhu et Athalie commençant donc leurs règnes en même temps ; et, en premier lieu, la division du royaume et le début simultané des règnes de Jéroboam Ier et de Roboam. En utilisant ces dates établies et ces coïncidences, nous devons trouver que les totaux des règnes des rois d’Israël et de Juda entre 721, neuvième année d’Osée et sixième d’Ézéchias, et 843, début des règnes de Jéhu et d’Athalie, sont de 122 ans chacun ; de même, les totaux de 843 en remontant jusqu’au schisme doivent être identiques."
+    },
+    {
+      "block": 113,
+      "target": "3. Difficultés à résoudre :"
+    },
+    {
+      "block": 114,
+      "target": "Les difficultés les plus sérieuses se trouvent vers la fin de la période, lorsque la situation dans le royaume du Nord devenait anarchique et que, dans le royaume du Sud, se produisaient aussi des corégences manifestes, dont la durée n’est toutefois pas claire. Il est dit que Pékach régna 20 ans (⟦ISBE:KEEP:115:2Ki 15:27⟧) ; pourtant, Menahem versa un tribut à l’Assyrie en 738, et son fils Pekachia lui succéda pendant deux ans, avant que Pékach ne s’empare du royaume. Cela ne laisserait à Pékach que six ans de souveraineté. L’explication se trouve dans le contexte : dans la confusion qui suivit la mort de Jéroboam, Pékach établit son autorité sur la région située à l’est du Jourdain, et c’est à cette année-là que se rapportent les chiffres de ⟦ISBE:KEEP:116:2Ki 15:27⟧⟦ISBE:FIX:116:tail⟧⟦ISBE:KEEP:117:32⟧⟦ISBE:FIX:117:tail⟧⟦ISBE:KEEP:118:2Ki 16:1⟧. Ozias fut lépreux pendant les seize dernières années de sa vie, et son fils Jotham gouvernait le royaume (⟦ISBE:KEEP:119:2Ki 15:5⟧). La durée du règne de Jotham était précisément de seize ans, et ne s’ajoutait pas aux seize années de la corégence, car cela aboutirait à l’absurdité de le faire corégent à l’âge de neuf ans (⟦ISBE:KEEP:120:2Ki 15:33⟧). Par conséquent, presque tout son règne est compris dans les 52 ans de son père. Pour une raison quelconque, Achaz fut associé à son père Jotham avant la mort de ce dernier, puisque les seize années de son règne, ajoutées aux cinq années d’Ézéchias avant la chute de Samarie, situent son accession avant la mort d’Ozias et de Jotham, c’est-à-dire en 741. Ainsi, pendant environ six ans, les trois règnes furent contemporains. Que ces six années ne puissent être expliquées par une corégence avec Ézéchias à l’autre extrémité du règne d’Achaz ressort de l’âge d’Ézéchias lors de son accession (⟦ISBE:KEEP:121:2Ki 18:2⟧) et de la différence radicale entre les politiques des deux rois. ⟦ISBE:KEEP:122:2Ki 7:1⟧ peut suggérer qu’Ozias et Jotham moururent à peu près en même temps et qu’Achaz fut considéré comme leur ayant directement succédé à tous deux."
+    },
+    {
+      "block": 123,
+      "target": "Une autre difficulté se trouve au début du règne d’Ozias : il est dit qu’il succéda à son père Amatsia à l’âge de seize ans, mais aussi qu’il accomplit certaines actions remarquables après la mort de son père (⟦ISBE:KEEP:124:2Ki 14:21⟧⟦ISBE:FIX:124:tail⟧⟦ISBE:KEEP:125:22⟧). Il devint donc manifestement roi avant la mort d’Amatsia. Quand commença cette corégence ? Rien ne suggère de meilleur moment que la défaite ignominieuse d’Amatsia devant Joas d’Israël dans la quinzième année de son règne, après laquelle le peuple se souleva et mit Ozias à sa place, Amatsia vivant encore quinze ans (⟦ISBE:KEEP:126:2Ki 14:17⟧), de sorte que quinze des 29 années d’Amatsia furent contemporaines d’Ozias. En outre, dans les dernières années de Joas de Juda, il a pu y avoir une corégence, puisqu’il était alors « très malade » (⟦ISBE:KEEP:127:2Ch 24:25⟧). Ainsi, les totaux de 146 ans pour les règnes des rois d’Israël et de 165 ans pour ceux des rois de Juda entre 721 et 842 sont ramenés aux 121 ans réels par les chevauchements que suggère le récit lui-même."
+    },
+    {
+      "block": 128,
+      "target": "4. Chevauchements :"
+    },
+    {
+      "block": 129,
+      "target": "Pour la première subdivision de cette période, de l’avènement de Jéhu vers 843 à la division du royaume, le total des règnes des rois d’Israël est de 98 ans et celui des rois de Juda de 95 ans. Mais il doit y avoir certains chevauchements. L’intervalle entre Achab et Jéhu, d’après les mentions qui en sont faites dans les documents assyriens, est de douze ans ; mais les deux fils d’Achab régnèrent quatorze ans, Achazia deux ans et Joram douze ans. Il est évident que la dernière année d’Achab, où survint la défaite de Karkar, fut la première d’Achazia, et que la deuxième année d’Achazia, qui subit cette année-là un grave accident (⟦ISBE:KEEP:130:2Ki 1:2⟧), fut la première de Joram. Il est probable que le long règne d’Asa se termina avec Josaphat comme corégent (⟦ISBE:KEEP:131:1Ki 15:23⟧) ; il faut donc réduire quelque peu les totaux ci-dessus des deux royaumes, probablement à 90 ans, et placer le schisme du royaume vers 933 av. J.-C. Schischak, fondateur de la XXIIe dynastie, envahit la Palestine dans la cinquième année de Roboam (⟦ISBE:KEEP:132:1Ki 14:25⟧), dans la vingt et unième année de son propre règne ou peu avant celle-ci, de sorte qu’il dut devenir souverain d’Égypte vers 950 av. J.-C. Jéroboam s’enfuit en Égypte après que Salomon eut régné plus de vingt ans, comme le montre le lien de Jéroboam avec la construction du Millo ; sa fuite dut donc se produire vers le début du règne de Schischak. Cela s’accorde avec les récits de l’Ancien Testament, puisque la dynastie hostile de Schischak dut s’établir sous le règne de Salomon, la dynastie qui régnait au début de celui-ci ayant été alliée à Salomon. Nous situons donc l’accession de Schischak vers 950, son invasion de Juda en 929 et le schisme en 933 av. J.-C."
+    },
+    {
+      "block": 133,
+      "target": "Un exemple intéressant de corégence durant cette période est celui de Josaphat et de Joram : en effet, alors qu’Achazia d’Israël commença à régner dans la dix-septième année de Josaphat (⟦ISBE:KEEP:134:1Ki 22:51⟧) et mourut dans la deuxième année de Joram (⟦ISBE:KEEP:135:2Ki 1:17⟧), l’année de sa mort était aussi la dix-huitième de Josaphat, de sorte que le père et le fils régnèrent ensemble environ cinq ans. Il est évident aussi que Josaphat gouverna avant la mort de son père, puisque la durée totale de son règne est comptée à partir du début de la corégence (⟦ISBE:KEEP:136:1Ki 22:41⟧), mais certains événements sont datés à partir de son règne seul, à la mort d’Asa (⟦ISBE:KEEP:137:1Ki 22:51⟧⟦ISBE:FIX:137:tail⟧⟦ISBE:KEEP:138:2Ki 3:1⟧). Il est probable que les six années d’Athalie étaient comprises dans les quarante années du règne de Joas, roi légitime. L’âge de son fils Amatsia lors de son accession (⟦ISBE:KEEP:139:2Ch 25:1⟧) ne va pas à l’encontre de cette probabilité, puisque les souverains juifs, précoces, atteignaient leur majorité à l’âge de quinze ans (comparer ⟦ISBE:KEEP:140:2Ch 34:3⟧). La corégence de Joas et d’Amatsia pendant deux ans (⟦ISBE:KEEP:141:2Ch 24:25⟧) fait concorder exactement les totaux des années de règne des rois des deux royaumes jusqu’à l’accession de Jéroboam II, trois ans avant celle d’Ozias. Enfin, la différence de trois ans entre les totaux des règnes des deux royaumes depuis Jéhu en remontant jusqu’au schisme s’explique par le fait qu’en Israël la première année d’un roi coïncidait avec la dernière de son prédécesseur, tandis qu’en Juda, certainement au début de cette période, la première année d’un roi suivait la mort de son prédécesseur ; par exemple, alors qu’Asa commença à régner dans la vingtième année de Jéroboam (⟦ISBE:KEEP:142:1Ki 15:9⟧), Jéroboam, qui régna 22 ans, mourut trois ans plus tard dans la deuxième année d’Asa (⟦ISBE:KEEP:143:1Ki 15:25⟧). L’application de ce principe aux accessions des trois premiers rois après Jéroboam fait disparaître la différence, les chiffres élevés du règne d’Asa venant la corroborer. Le tableau précédent illustrera ces faits tirés des récits, qui permettent d’harmoniser les dates des deux royaumes contemporains."
+    },
+    {
+      "block": 144,
+      "target": "⟦ISBE:OPEN:145⟧VII. Du schisme à l’Exode.⟦ISBE:CLOSE:145⟧"
+    },
+    {
+      "block": 146,
+      "target": "La période à considérer maintenant s’étend du schisme du royaume en remontant jusqu’à l’Exode. Les raisons de réunir dans une seule période d’une telle longueur les événements bibliques compris entre ces dates si éloignées sont évidentes, à savoir :"
     }
   ]
 }
