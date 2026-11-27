@@ -1,0 +1,14 @@
+<!-- ISBE-TRANSLATION-V1 {"article_id":"isbe-91920b2c9bdceec6f12f","language":"fr","preserve":{"1:text":"Historical name, pronunciation or signature deliberately retained","20:text":"Historical name, pronunciation or signature deliberately retained","5:text":"Historical name, pronunciation or signature deliberately retained"},"publication_permitted":false,"schema_version":1,"source_article_sha256":"979ac45cd555fd767b955a6f2af1dc9231f60a25cbb38668472060b07bb0aa18","source_key":"CONTRIBUTION","source_sha256":"5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c","status":"unreviewed_drafts"} -->
+
+<!-- ISBE-BLOCK:1 -->
+# CONTRIBUTION
+<!-- ISBE-END:1 -->
+
+<!-- ISBE-BLOCK:2 -->
+kon-tri-bu'-shun (koinonia, « communion » ou « participation », ⟦ISBE:KEEP:3:Ro 15:26⟧⟦ISBE:FIX:3:tail⟧⟦ISBE:KEEP:4:2Co 9:13⟧) : Le sens de « contribution » est tiré du contexte plutôt que du mot grec. L'expression du passage cité, rendue littéralement, serait « exercer » la communion ou « mettre la communion en activité ». La koinonia qui subsiste entre les croyants en raison de leur communion intérieure avec Christ les place, avec leurs dons et leurs biens, au service les uns des autres (voir ⟦ISBE:OPEN:5⟧COMMUNION⟦ISBE:CLOSE:5⟧). Il leur est recommandé de ne pas oublier de partager (⟦ISBE:KEEP:6:Heb 13:16⟧). Être disposés à partager (koinonikoi) doit être une habitude de leur vie, le principe chrétien étant de considérer tous les biens comme un dépôt confié, à distribuer selon les besoins (⟦ISBE:KEEP:7:Ac 2:44⟧⟦ISBE:KEEP:8:f; 2Co 8:14⟧ et le verset suivant). La première occasion de mettre en pratique cette communion au moyen de « contributions » se présenta au sein de l'Église de Jérusalem, en faveur de ses membres nécessiteux (voir ⟦ISBE:OPEN:9⟧COMMUNAUTÉ DES BIENS⟦ISBE:CLOSE:9⟧). La deuxième occasion se présenta à plusieurs reprises, lorsque les jeunes Églises des nations donnèrent pour les pauvres de cette même Église (⟦ISBE:KEEP:10:Ac 11:29⟧⟦ISBE:FIX:10:tail⟧⟦ISBE:KEEP:11:Ro 15:26⟧⟦ISBE:FIX:11:tail⟧⟦ISBE:KEEP:12:2Co 8:1-4⟧⟦ISBE:FIX:12:tail⟧⟦ISBE:KEEP:13:9:2⟧) ; la communion s'élargissait ainsi de la bienfaisance au sein d'une assemblée à celle de l'Église dans son ensemble. Ces contributions étaient recueillies chaque semaine (⟦ISBE:KEEP:14:1Co 16:2⟧ et le verset suivant), proportionnées aux ressources des donateurs (⟦ISBE:KEEP:15:Ac 11:29⟧⟦ISBE:FIX:15:tail⟧⟦ISBE:KEEP:16:1Co 16:2⟧), non exigées ou prescrites de manière légaliste, mais suscitées comme offrandes volontaires de cœurs reconnaissants (⟦ISBE:KEEP:17:2Co 8:7⟧), nées de l'esprit communautaire, et envoyées à destination par des représentants accrédités des assemblées (⟦ISBE:KEEP:18:1Co 16:3⟧⟦ISBE:FIX:18:tail⟧⟦ISBE:KEEP:19:Ac 11:30⟧⟦ISBE:FIX:19:tail⟧
+<!-- ISBE-END:2 -->
+
+<!-- ISBE-BLOCK:20 -->
+H. E. Jacobs
+<!-- ISBE-END:20 -->
+

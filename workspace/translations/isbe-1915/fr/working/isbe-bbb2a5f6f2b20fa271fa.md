@@ -1,0 +1,14 @@
+<!-- ISBE-TRANSLATION-V1 {"article_id":"isbe-bbb2a5f6f2b20fa271fa","language":"fr","preserve":{"14:text":"Historical name, pronunciation or signature deliberately retained"},"publication_permitted":false,"schema_version":1,"source_article_sha256":"8e6b6813e72ec6d758a6635d2ec4e2184371d9b4d21b97b34f1839f879ccbdbb","source_key":"CLAY","source_sha256":"5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c","status":"unreviewed_drafts"} -->
+
+<!-- ISBE-BLOCK:1 -->
+# ARGILE
+<!-- ISBE-END:1 -->
+
+<!-- ISBE-BLOCK:2 -->
+kla (chomer, chacaph, TiT, meleT, `abhi, ma`abheh, abhTiT ; pelos, « argile humide », « boue ») : L'argile véritable, qui est une terre très riche en alumine, se trouve en certains endroits de la Palestine et sert à fabriquer des poteries. Cependant, les mots hébreux et grecs, tout comme le mot anglais « clay », s'appliquent au sens large à toute boue collante. Pour fabriquer des briques crues, on n'utilise pas toujours de véritable argile : on délaie de la terre ordinaire dans de l'eau, on la mélange à de la paille, on la moule et on la laisse sécher au soleil. Chomer (comparer chmar, « limon » ou « bitume ») est traduit aussi bien par « clay » (argile) que par « mortar » (mortier). TiT est rendu par « clay » (argile) ou « mire » (bourbe). En ⟦ISBE:KEEP:3:Isa 41:25⟧ nous lisons : « Il marchera sur les gouverneurs comme sur du mortier (chomer), et comme le potier foule l'argile » (TiT). En ⟦ISBE:KEEP:4:Na 3:14⟧, « Entre dans l'argile (TiT) et foule le mortier (chomer) ; consolide le four à briques » (c'est-à-dire prépare les murailles à résister à un siège). Chacaph désigne l'argile de la statue dans le songe de Nebucadnetsar (⟦ISBE:KEEP:5:Da 2:33⟧ et suivants). MeleT n'apparaît qu'en ⟦ISBE:KEEP:6:Jer 43:9⟧, où nous trouvons : dans la King James Version, « Prends de grandes pierres … et cache-les dans l'argile du four à briques » ; dans la Revised Version (britannique et américaine), « cache-les dans le mortier de la maçonnerie de briques » ; en marge de la Revised Version, « place-les avec du mortier dans le pavement ». En ⟦ISBE:KEEP:7:Hab 2:6⟧, `abhTiT (qui ne se rencontre qu'ici) est traduit dans la King James Version par « thick clay » (argile épaisse), comme s'il dérivait de `abhi et de TiT, mais la Revised Version (britannique et américaine) donne « pledges » (gages), rattachant le mot à la racine `abhaT, « donner un gage ». En ⟦ISBE:KEEP:8:1Ki 7:46⟧, ma`abheh ha-'adhamah (comparer ⟦ISBE:KEEP:9:2Ch 4:17⟧, `abhi ha-'adhamah) désigne le sol compact ou argileux de la plaine du Jourdain, entre Succoth et Tsarthan, dans lequel Hiram coula les ustensiles d'airain destinés au temple de Salomon. En ⟦ISBE:KEEP:10:Joh 9:6⟧⟦ISBE:FIX:10:tail⟧⟦ISBE:KEEP:11:11⟧⟦ISBE:FIX:11:tail⟧⟦ISBE:KEEP:12:14⟧, Thayer donne « fit de la boue avec la salive » ; en ⟦ISBE:KEEP:13:Ro 9:21⟧, « argile humide ».
+<!-- ISBE-END:2 -->
+
+<!-- ISBE-BLOCK:14 -->
+Alfred Ely Day
+<!-- ISBE-END:14 -->
+

@@ -1,0 +1,22 @@
+<!-- ISBE-TRANSLATION-V1 {"article_id":"isbe-7b51fc600a04bd4e8c8a","language":"fr","preserve":{"30:text":"Historical name, pronunciation or signature deliberately retained"},"publication_permitted":false,"schema_version":1,"source_article_sha256":"a287356b2822fbd2f12f1ab02f1419c33a542b4bf4f2823dc6a9fd554cd9c361","source_key":"CREATURE, LIVING","source_sha256":"5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c","status":"unreviewed_drafts"} -->
+
+<!-- ISBE-BLOCK:1 -->
+# ÊTRE VIVANT
+<!-- ISBE-END:1 -->
+
+<!-- ISBE-BLOCK:2 -->
+ (chayyah ; zoon) : « Être vivant » (chayyah) est la désignation de chacune des figures composites des visions d'Ézéchiel (⟦ISBE:KEEP:3:Eze 1:5⟧⟦ISBE:FIX:3:tail⟧⟦ISBE:KEEP:4:13 ff⟧⟦ISBE:FIX:4:tail⟧⟦ISBE:KEEP:5:3:13⟧⟦ISBE:FIX:5:tail⟧⟦ISBE:KEEP:6:10:15⟧⟦ISBE:FIX:6:tail⟧⟦ISBE:KEEP:7:17⟧⟦ISBE:FIX:7:tail⟧⟦ISBE:KEEP:8:20⟧) et, dans la Revised Version (britannique et américaine), des êtres semblables des visions de l'Apocalypse, au lieu de la traduction extrêmement malheureuse de zoon par « beasts » (bêtes) dans la King James Version (⟦ISBE:KEEP:9:Re 4:6 ff;⟧⟦ISBE:KEEP:10:5:6 ff;⟧⟦ISBE:KEEP:11:6:1 ff;⟧⟦ISBE:KEEP:12:7:11⟧⟦ISBE:FIX:12:tail⟧⟦ISBE:KEEP:13:14:3⟧⟦ISBE:FIX:13:tail⟧⟦ISBE:KEEP:14:15:7⟧⟦ISBE:FIX:14:tail⟧⟦ISBE:KEEP:15:19:4⟧), laquelle remonte toutefois à Wyclif, à l'époque duquel le mot n'avait pas le sens dépréciatif qu'ont pour nous « beast » et « beastly » ; ainsi, il traduit ⟦ISBE:KEEP:16:1Co 15:44⟧, « It is sowen beestli body », voulant simplement dire un corps animal (voir Trench, Select Glossary) ; dans l'Apocalypse, les « bêtes de la terre », les « bêtes » qui montèrent et la « bête » remarquable que les hommes adorèrent représentent le grec therion, « une bête sauvage ».
+<!-- ISBE-END:2 -->
+
+<!-- ISBE-BLOCK:17 -->
+Les « êtres vivants » de la vision d'Ézéchiel (⟦ISBE:KEEP:18:Eze 1:5⟧ et suivants) étaient au nombre de quatre, « ayant l'apparence générale d'un homme, mais chacun quatre faces et quatre ailes, des jambes droites et les pieds d'un bœuf. Sous leurs ailes sont des mains humaines, et ces ailes sont jointes de telle manière qu'ils n'ont jamais besoin de se retourner. La face de devant est celle d'un homme ; à droite et à gauche se trouvent les faces d'un lion et d'un bœuf, et à l'arrière celle d'un aigle … du milieu d'eux jaillissent du feu, des torches, des éclairs, et quatre roues qui peuvent tourner dans toutes les directions, appelées roues tourbillonnantes, leur sont associées (⟦ISBE:KEEP:19:Eze 10:12⟧⟦ISBE:FIX:19:tail⟧⟦ISBE:KEEP:20:13⟧). Comme les êtres vivants, elles sont vivantes, couvertes d'yeux, signe de l'intelligence ; l'esprit des êtres vivants est en elles. Le prophète découvre par la suite qu'il s'agit de chérubins » (Schultz, Old Testament Theology, II, 233). Voir ⟦ISBE:OPEN:21⟧CHÉRUBINS⟦ISBE:CLOSE:21⟧. Dans la vision d'Ézéchiel, ils semblent être les porteurs du trône et de la gloire de Dieu, les porteurs de sa présence et de sa révélation (⟦ISBE:KEEP:22:Eze 9:3⟧⟦ISBE:FIX:22:tail⟧⟦ISBE:KEEP:23:10:3⟧). Ils font aussi retentir sa louange (⟦ISBE:KEEP:24:Eze 3:12⟧⟦ISBE:FIX:24:tail⟧⟦ISBE:KEEP:25:10:2⟧). (Voir Schultz, cité ci-dessus.)
+<!-- ISBE-END:17 -->
+
+<!-- ISBE-BLOCK:26 -->
+Les quatre êtres vivants en ⟦ISBE:KEEP:27:Re 4:6⟧ ne sont pas sous le trône, mais « au milieu du trône » (en marge de l'American Revised Version, « devant » ; voir ⟦ISBE:KEEP:28:Re 7:17⟧ ; comparer ⟦ISBE:KEEP:29:Re 5:6⟧) et « autour du trône ». Ce sont aussi des chérubins, et ils semblent représenter les quatre êtres qui sont à la tête des quatre divisions de la création : parmi les animaux sauvages, le lion ; parmi le bétail, le veau ou le bœuf ; parmi les oiseaux, l'aigle ; parmi tous les êtres créés, l'homme. Cela donne « une image parfaite du véritable service, qui devrait être courageux comme le lion, patient comme le bœuf, animé de hautes aspirations comme l'aigle, intelligent comme l'homme » (Milligan, au passage cité). Ils représentent les puissances de la nature, de la création, « pleines d'yeux », indiquant qu'elle est pénétrée de la raison divine ; les ailes signifient son service constant et empressé, et la louange incessante l'accomplissement constant de la volonté de Dieu. Les images sont fondées sur Ézéchiel, tel qu'il avait été modifié dans les écrits apocalyptiques et exalté dans l'esprit du voyant de Patmos.
+<!-- ISBE-END:26 -->
+
+<!-- ISBE-BLOCK:30 -->
+W. L. Walker
+<!-- ISBE-END:30 -->
+
