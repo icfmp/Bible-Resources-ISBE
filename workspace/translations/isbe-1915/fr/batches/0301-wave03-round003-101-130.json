@@ -1,0 +1,1568 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CORONATION",
+      "article_id": "isbe-bf85801c1facdb14afe8",
+      "source_article_sha256": "73a43166cb19274fb9409faf4f3826d75c29a61fa3cd5e198121375bb2600c4e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CORONATION",
+          "target": "COURONNEMENT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kor-o-na'-shun (protoklisia): Occurs in 2 Macc 4:21 (the King James Version, the Revised Version (British and American) \"enthronement\") where Apollonius was sent into Egypt for the coronation of Ptolemy Philometor as king. The Greek word protoklisia occurs nowhere else, and its meaning is uncertain. The reading in Swete is protoklesia, and this means \"the first call.\"",
+          "target": "kor-o-na'-shun (protoklisia) : Se trouve en 2 Macc 4:21 (King James Version ; Revised Version, britannique et américaine, « enthronement », intronisation), où Apollonius fut envoyé en Égypte pour le couronnement de Ptolémée Philométor comme roi. Le mot grec protoklisia ne figure nulle part ailleurs et son sens est incertain. La leçon chez Swete est protoklesia, qui signifie « le premier appel ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CORRECTION",
+      "article_id": "isbe-b0d44dffd8aec0c5d9c3",
+      "source_article_sha256": "13d5a648e971f9232740fba1541b969f6ae26fec6b53f5bd10e8f195c7af7141",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CORRECTION",
+          "target": "CORRECTION",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ko-rek'-shun (mucar, usually rendered \"instruction,\" is translated \"correction\" in several passages): The verb from which the noun is derived signifies \"to instruct\" or \"chastise.\" The idea of chastisement was very closely connected in the Hebrew mind with that of pedagogy. See ",
+          "target": "ko-rek'-shun (mucar, généralement rendu par « instruction », est traduit par « correction » dans plusieurs passages) : Le verbe dont dérive le substantif signifie « instruire » ou « châtier ». L'idée du châtiment était très étroitement liée à celle de la pédagogie dans l'esprit hébreu. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CHASTISEMENT",
+          "target": "CHÂTIMENT",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". the Revised Version (British and American) and the American Standard Revised Version have changed \"correction\" of the King James Version to \"instruction\" in ",
+          "target": ". La Revised Version (britannique et américaine) et l'American Standard Revised Version ont changé « correction » de la King James Version en « instruction » en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", reversing the order in the margins. shebheT, rendered \"rod\" in ",
+          "target": ", inversant l'ordre dans les marges. ShebheT, rendu par « rod » (verge) en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", is unnecessarily changed to \"correction\" in 37:13. In ",
+          "target": ", est changé sans nécessité en « correction » en 37:13. En ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", epanorthosis, is translated \"correction.\" The difference between correction, discipline and instruction Was not clearly drawn in the Hebrew mind.",
+          "target": ", epanorthosis est traduit par « correction ». La distinction entre correction, discipline et instruction n'était pas clairement établie dans l'esprit hébreu.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "W. W. Davies",
+          "target": "W. W. Davies",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CORRUPTION, MOUNT OF",
+      "article_id": "isbe-c3123ea32f58c5103584",
+      "source_article_sha256": "d978561e2bbc99771631fd3785b9e1d579ac3249eb0e2d0b9cab988837d91be2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CORRUPTION, MOUNT OF",
+          "target": "CORRUPTION, MONT DE LA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "(har ha-mashchith; to oros tou Mosoath): The hill on the right hand of which Solomon built high places for Ashtoreth, Chemosh and Milcom (",
+          "target": "(har ha-mashchith ; to oros tou Mosoath) : Colline à droite de laquelle Salomon bâtit des hauts lieux pour Astarté, Kemosch et Milcom (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The mountain referred to is no doubt the Mount of Olives. The high places would, therefore, be on the southern height called in later Christian writings the \"Mount of Offence,\" and now, by the Arabs, Baten el-Hawa. Har ha-mashchith is probably only a perversion of har ha-mishchah, \"Mount of Anointing,\" a later name of the Mount of Olives.",
+          "target": "). La montagne dont il est question est sans aucun doute le mont des Oliviers. Les hauts lieux devaient donc se trouver sur la hauteur méridionale appelée dans les écrits chrétiens ultérieurs « mont du Scandale », et aujourd'hui, par les Arabes, Baten el-Hawa. Har ha-mashchith n'est probablement qu'une altération de har ha-mishchah, « mont de l'Onction », nom ultérieur du mont des Oliviers.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "W. Ewing",
+          "target": "W. Ewing",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "COTTON",
+      "article_id": "isbe-a5f1c03cd3c9dcd9aefd",
+      "source_article_sha256": "179d4676389b66088f321cbb7dcd9339fe30ab090a54d7a67df5ad8dfe1862d2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COTTON",
+          "target": "COTON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kot'-'-n (karpac is the better translation, as in the Revised Version, margin, where the King James Version and the Revised Version (British and American) have \"green\" in ",
+          "target": "kot'-'-n (« coton » est la meilleure traduction de karpac, comme en marge de la Revised Version, là où la King James Version et la Revised Version [britannique et américaine] portent « green », vert, en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): The Hebrew karpac is from the Persian kirpas and the Sanskrit karpasa, \"the cotton plant.\" The derived words originally meant \"muslin\" or \"calico,\" but in classical times the use of words allied to karpac--in Greek and Latin--was extended to include linen. The probability is in favor of \"cotton\" in ",
+          "target": ") : L'hébreu karpac vient du persan kirpas et du sanskrit karpasa, « le cotonnier ». Les mots dérivés désignaient à l'origine la « mousseline » ou le « calicot », mais à l'époque classique, l'emploi des mots apparentés à karpac, en grec et en latin, s'étendit au lin. La probabilité est en faveur de « coton » en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". This is the product of Gossypium herbaceum, a plant originally from India but now cultivated in many other lands.",
+          "target": ". C'est le produit du Gossypium herbaceum, plante originaire de l'Inde mais aujourd'hui cultivée dans beaucoup d'autres pays.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COUCH",
+      "article_id": "isbe-cc969a2e564b42e91f4a",
+      "source_article_sha256": "285672c414ef5289d5146b70129a1d1a44346b27a870fb9e2792105022a7307c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUCH",
+          "target": "COUCHE ; SE TAPIR (COUCH)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kouch (substantive.).",
+          "target": "kouch (substantif).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "BED",
+          "target": "LIT",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "Couch (verb): rabhats, \"to crouch,\" \"lurk,\" as a beast in readiness to spring on its prey. \"If thou doest not well, sin coucheth at the door\" (",
+          "target": "Se tapir (verbe) : rabhats, « s'accroupir », « se tapir », comme une bête prête à bondir sur sa proie. « Si tu n'agis pas bien, le péché se tapit à la porte » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", the King James Version \"lieth\"), waiting for it to open. Cain is warned to beware of the first temptations to evil, in his case especially a sullen and jealous disposition (compare Dante, Inferno, I, 30). See ",
+          "target": ", King James Version « lieth », est couché), attendant qu'elle s'ouvre. Caïn est averti de se garder des premières tentations au mal, dans son cas surtout d'une disposition morose et jalouse (comparer Dante, Inferno, I, 30). Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "ABEL",
+          "target": "ABEL",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "CAIN",
+          "target": "CAÏN",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ". The tribe of Judah is compared for its bravery to a recumbent lion or lioness (",
+          "target": ". La tribu de Juda est comparée pour sa bravoure à un lion ou à une lionne couchés (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " f); and Issachar to \"a strong ass, couching down between the sheepfolds\" (",
+          "target": " et suiv.) ; et Issacar à « un âne robuste, couché entre les bergeries » (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": ", the King James Version \"between two burdens\"; compare ",
+          "target": ", King James Version « between two burdens », entre deux fardeaux ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "). \"The deep that coucheth beneath\" (",
+          "target": "). « L'abîme qui repose en dessous » (",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": "), probably the springs of water, or possibly, as Driver suggests, \"the subterranean deep, pictured as a gigantic monster.\"",
+          "target": "), probablement les sources d'eau, ou peut-être, comme le suggère Driver, « l'abîme souterrain, figuré sous les traits d'un monstre gigantesque ».",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "ABYSS",
+          "target": "ABÎME",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "M. O. Evans",
+          "target": "M. O. Evans",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "COUCHING-PLACE",
+      "article_id": "isbe-bd791bfe99ac2fd60efc",
+      "source_article_sha256": "560ac934234832135b907660be8f3fb4932921ca8c15e65014e5878bc435844f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUCHING-PLACE",
+          "target": "LIEU DE REPOS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kouch'-ing-plas (marbets; once in English Versions of the Bible, ",
+          "target": "kouch'-ing-plas (marbets ; une fois dans les versions anglaises de la Bible, ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): The same Hebrew word, however, which means simply \"place of lying down\" of animals in repose, is used also in Ze 2:15 where the translation is \"a place .... to lie down in.\" The figure, a common one in Scripture (see besides, ",
+          "target": ") : Le même mot hébreu, cependant, qui signifie simplement « lieu où se coucher » pour les animaux au repos, est également employé en Soph 2:15, où la traduction est « un lieu ... pour s'y coucher ». Cette image, courante dans l'Écriture (voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), suggests desolation.",
+          "target": "), suggère la désolation.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COUNCIL; COUNCILLOR",
+      "article_id": "isbe-01300a041e17df7410a4",
+      "source_article_sha256": "c2d2d919567a2740ec3392111aa5cb9444e9729af18272b2581ea83d991d4dc9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUNCIL; COUNCILLOR",
+          "target": "CONSEIL ; MEMBRE DU CONSEIL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "koun'-sil, koun'-siler (sumboulion): An assembly of advisers (",
+          "target": "koun'-sil, koun'-siler (sumboulion) : Assemblée de conseillers (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); a body of those taking counsel (see Schurer's Jewish People in the Time of Christ, I (1), 60). Distinguished from sunedrion, the supreme court of the Jews, by being of a less formal character, i.e. less of an institution. For \"council\" in the latter sense, its most frequent use, see ",
+          "target": ") ; groupe de ceux qui délibèrent (voir Schurer, Jewish People in the Time of Christ, I [1], 60). Se distingue de sunedrion, la cour suprême des Juifs, par son caractère moins formel, c'est-à-dire moins institutionnel. Pour « conseil » dans ce dernier sens, son emploi le plus fréquent, voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SANHEDRIN",
+          "target": "SANHÉDRIN",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". A councilor (Greek bouleutes) was a member of the Sanhedrin. Applied to Joseph of Arimathea (",
+          "target": ". Un membre du conseil (grec bouleutes) était un membre du Sanhédrin. Terme appliqué à Joseph d'Arimathée (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). In the King James Version \"counsellor.\"",
+          "target": "). Dans la King James Version, « counsellor ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COUNSEL; COUNSELLOR",
+      "article_id": "isbe-4acd7c239c08aac50354",
+      "source_article_sha256": "60d88eead976e065cb94df0d698809146c905fc4a247382a8e3771d657a0a357",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUNSEL; COUNSELLOR",
+          "target": "CONSEIL ; CONSEILLER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "koun'-sel, koun'-seler (sumboulion): Ordinarily found as object of verb \"to take\" or \"to give,\" expressing, beside the idea of a practical end to be reached, that of consultation and deliberation among those united in a common cause (",
+          "target": "koun'-sel, koun'-seler (sumboulion) : Se trouve ordinairement comme complément du verbe « prendre » ou « donner », exprimant, outre l'idée d'un but pratique à atteindre, celle de la consultation et de la délibération entre des personnes unies dans une cause commune (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). A counselor (sumboulos) is a confidential adviser (",
+          "target": "). Un conseiller (sumboulos) est un conseiller de confiance (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); often in the Old Testament (",
+          "target": ") ; fréquent dans l'Ancien Testament (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ", etc.). Confounded in the King James Version with \"councillor\" (see above), the latter being an official adviser, which the former does not necessarily mean.",
+          "target": ", etc.). Confondu dans la King James Version avec « councillor » (voir ci-dessus), ce dernier terme désignant un conseiller officiel, ce que le premier n'implique pas nécessairement.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COUNT",
+      "article_id": "isbe-9a37ae78d4e49d2fb6a7",
+      "source_article_sha256": "92eaa407f1a15a6c94727515e43416d38ae0d20d82d9fe8893b32f72af140397",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUNT",
+          "target": "COMPTER (COUNT)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kount (caphar, manah; psephizo): Used of arithmetical computation \"to number\" (",
+          "target": "kount (caphar, manah ; psephizo) : Employé pour le calcul arithmétique, « dénombrer » (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); also for kathabh, \"to reckon,\" to indicate classification among or identification with, \"count for a stranger\" (",
+          "target": ") ; aussi pour kathabh, « compter », pour indiquer le classement parmi ou l'identification à, « compter comme un étranger » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); \"count for his enemy\" (",
+          "target": ") ; « compter comme son ennemi » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "). In the New Testament the arithmetical computation is less prominent, except in the sense of \"calculate,\" psephizo, sumpsephizo, \"to reckon with pebbles,\" each pebble representing a unit (",
+          "target": "). Dans le Nouveau Testament, le calcul arithmétique est moins marqué, sauf au sens de « calculer », psephizo, sumpsephizo, « compter avec des cailloux », chaque caillou représentant une unité (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "); of moral estimate, hegeomai and logizomai (",
+          "target": ") ; pour l'appréciation morale, hegeomai et logizomai (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "). The noun, from Hebrew kacath, \"a count of\" (",
+          "target": "). Le substantif, de l'hébreu kacath, « un compte de » (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": "), namely, in the arithmetical sense.",
+          "target": "), à savoir au sens arithmétique.",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "H. E. Jacobs",
+          "target": "H. E. Jacobs",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "COUNTERFEIT",
+      "article_id": "isbe-fdbea7713e02f865717a",
+      "source_article_sha256": "56494250d6100e772f9d410ea62d07153b09e93606548413b9a10be7df5540b7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUNTERFEIT",
+          "target": "CONTREFAIRE ; CONTREFAÇON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "koun'-ter-fit (kibdelos, anatupoo, homoioo): \"Counterfeit\" occurs as the translation of kibdelos, \"mixed with dross,\" \"not genuine\" (The Wisdom of Solomon 15:9, \"to make counterfeit things,\" the Revised Version (British and American) \"mouldeth counterfeits,\" \"spurious things, imitations\"); 2:16 the Revised Version (British and American) \"base metal\" (compare Septuagint ",
+          "target": "koun'-ter-fit (kibdelos, anatupoo, homoioo) : « Counterfeit » apparaît comme traduction de kibdelos, « mêlé de scories », « non authentique » (Sagesse de Salomon 15:9, « fabriquer des contrefaçons », Revised Version, britannique et américaine, « mouldeth counterfeits », moule des contrefaçons, « objets faux, imitations ») ; 2:16 Revised Version (britannique et américaine) « base metal » (métal vil) (comparer la Septante ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", \"mingled garment,\" and ",
+          "target": ", « vêtement mélangé », et ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", adokimos, \"reprobate\" (silver)). \"Counterfeit\" in the older sense of a representation occurs in The Wisdom of Solomon 14:17 (anatupoo, \"to make a likeness\"), \"counterfeit of his visage,\" the Revised Version (British and American) \"imagining the likeness from afar,\" and Ecclesiasticus 38:27 (homoioo, \"to make like\"), \"to counterfeit imagery,\" the Revised Version (British and American) \"to preserve likeness in his portraiture.\"",
+          "target": ", adokimos, « réprouvé » [argent]). « Counterfeit », dans l'ancien sens de représentation, se trouve dans la Sagesse de Salomon 14:17 (anatupoo, « faire une ressemblance »), « counterfeit of his visage » (reproduction de son visage), Revised Version (britannique et américaine) « imaginant sa ressemblance de loin », et Ecclésiastique 38:27 (homoioo, « rendre semblable »), « reproduire des images », Revised Version (britannique et américaine) « conserver la ressemblance dans son portrait ».",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "W. L. Walker",
+          "target": "W. L. Walker",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "COUNTERVAIL",
+      "article_id": "isbe-f8f90f7f2e5f50431323",
+      "source_article_sha256": "4c4766ff9a57997e826db4c58405e5b5bffe1607a0a5db4530b0d22b35337a8c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUNTERVAIL",
+          "target": "COMPENSER (COUNTERVAIL)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "koun-ter-val' (shawah, \"equalize\"): To thwart or overcome by acting against with equal force; thus, \"The enemy could not countervail the king's damage\" or loss (",
+          "target": "koun-ter-val' (shawah, « égaliser ») : Contrecarrer ou vaincre en agissant en sens inverse avec une force égale ; ainsi, « L'ennemi ne pouvait compenser le dommage » ou la perte du roi (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the American Standard Revised Version reads \"The adversary could not have compensated for the king's damage\"). \"Nothing doth countervail (the Revised Version (British and American) \"can be taken in exchange for\") a faithful friend\" (Ecclesiasticus 6:15).",
+          "target": ", l'American Standard Revised Version porte « L'adversaire n'aurait pu compenser le dommage du roi »). « Rien ne vaut en échange (Revised Version, britannique et américaine, “can be taken in exchange for”) un ami fidèle » (Ecclésiastique 6:15).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COUPLE",
+      "article_id": "isbe-05509ca594367fbe0478",
+      "source_article_sha256": "cffd68a1f01bafa38cdbaa7113cc2a1ae47027d09b28528a719752105253fab2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUPLE",
+          "target": "COUPLE ; ACCOUPLER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kup'-l:",
+          "target": "kup'-l :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) Used as a noun, indicates two objects of the same kind that are considered together. Thus we read of a couple of cakes (",
+          "target": "(1) Comme substantif, indique deux objets de même sorte considérés ensemble. Ainsi nous lisons qu'il est question d'une paire de gâteaux (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", used loosely), and a couple of asses (",
+          "target": ", terme employé au sens large), et d'une paire d'ânes (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", Hebrew tsemedh).",
+          "target": ", hébreu tsemedh).",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) Used as a verb, it means to join or fasten one thing to another. This term occurs most frequently in the description of the tabernacle (see ",
+          "target": "(2) Comme verbe, signifie joindre ou attacher une chose à une autre. Ce terme se rencontre le plus fréquemment dans la description du tabernacle (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "). Couple is used in ",
+          "target": "). Couple est employé en ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": " to describe the joining of fear to chaste behavior (Hebrew chabhar) .",
+          "target": " pour décrire l'union de la crainte à une conduite chaste (hébreu chabhar).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COUPLING",
+      "article_id": "isbe-aaafa986328b6d269daa",
+      "source_article_sha256": "91ec5134b98597240035add9d0d430a9cb7d87b5601afd328efa0cce5377d4da",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUPLING",
+          "target": "ASSEMBLAGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kup'ling: Is the FV rendering of machbereth. This Hebrew word means joining, or the place where one thing is joined to another, as of the curtains of the tabernacle (",
+          "target": "kup'ling : Traduction de machbereth dans la FV. Ce mot hébreu signifie jonction, ou lieu où une chose est jointe à une autre, comme les tentures du tabernacle (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), and of the different parts of the ephod (",
+          "target": ") et les différentes parties de l'éphod (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "It is also the English Versions of the Bible rendering of mechabberoth, and this refers more to the thing that joins the two objects, as beams of wood (",
+          "target": "C'est aussi la traduction de mechabberoth dans les versions anglaises de la Bible, ce dernier terme désignant davantage l'objet qui joint les deux choses, comme des poutres de bois (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "), or hooks of iron (",
+          "target": "), ou des crochets de fer (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COURAGE",
+      "article_id": "isbe-3294d3472c326d03d611",
+      "source_article_sha256": "7a39e7089b3b7c56bc2e99722afcaf63b2388a2d7fc83783e52e5fbb63b19a36",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COURAGE",
+          "target": "COURAGE",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kur'-aj: Hebrew chazaq, \"to show oneself strong\" (",
+          "target": "kur'-aj : Hébreu chazaq, « se montrer fort » (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "); ruach, \"spirit,\" \"animus\" (",
+          "target": ") ; ruach, « esprit », « ardeur » (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": " the King James Version); 'amats, \"to be alert\" (physically and mentally), \"to be agile,\" \"quick,\" \"energetic\" (",
+          "target": " King James Version) ; 'amats, « être alerte » (physiquement et mentalement), « être agile », « rapide », « énergique » (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": "); lebhabh, \"the heart,\" and figuratively, \"person,\" \"spirit\" (",
+          "target": ") ; lebhabh, « le cœur », et au sens figuré « personne », « esprit » (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "); Greek tharsos, \"cheer\" (",
+          "target": ") ; grec tharsos, « assurance » (",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": "). A virtue highly esteemed among all nations, one of the four chief \"natural\" (cardinal) virtues (The Wisdom of Solomon 8:7), while cowardice ranks as one of the mortal sins (Ecclesiasticus 2:12,13; ",
+          "target": "). Vertu hautement estimée parmi toutes les nations, l'une des quatre principales vertus « naturelles » (cardinales) (Sagesse de Salomon 8:7), tandis que la lâcheté compte parmi les péchés mortels (Ecclésiastique 2:12,13 ; ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COUSIN",
+      "article_id": "isbe-f583d9bc80eebb4dd13f",
+      "source_article_sha256": "9e9b2383ae45a578720687ea7162f6e6afde08889838b51442be2fbadc80939b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUSIN",
+          "target": "COUSIN",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kuz'-'-n (anepsios): Only in ",
+          "target": "kuz'-'-n (anepsios) : Seulement en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", where Mark is said to be \"cousin\" (Revised Version) to Barnabas, and not as in the King James Version, \"sister's son.\" The renderings \"cousin\" of the King James Version for suggenes, in ",
+          "target": ", où Marc est dit « cousin » (Revised Version) de Barnabas, et non, comme dans la King James Version, « fils de sa sœur ». Les traductions « cousin » de la King James Version pour suggenes, en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " were probably understood at the time of the translation, in the wider, and not in the more restricted, sense of the term, now almost universally prevalent. In view of this the renderings \"kinswoman,\" \"kinsfolk\" in the Revised Version (British and American) are preferable. As a title of honor and dignity, it occurs in 1 Esdras 4:42, etc.",
+          "target": ", étaient probablement comprises à l'époque de la traduction dans le sens large du terme, et non dans le sens plus restreint aujourd'hui presque universel. De ce point de vue, les traductions « kinswoman » (parente), « kinsfolk » (parents) de la Revised Version (britannique et américaine) sont préférables. Comme titre d'honneur et de dignité, le terme figure en 1 Esdras 4:42, etc.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "KINSMAN",
+          "target": "PARENT",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COVER; COVERING",
+      "article_id": "isbe-dac2720312a7eb6d096b",
+      "source_article_sha256": "34483da69a48073464279deb01700865da28784b94ef0eb8eb06fc52b04e8343",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COVER; COVERING",
+          "target": "COUVRIR ; COUVERTURE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kuv'-er, kuv'-er-ing: The translation of several Hebrew words. The covering of the ark (mikhceh, ",
+          "target": "kuv'-er, kuv'-er-ing : Traduction de plusieurs mots hébreux. La couverture de l'arche (mikhceh, ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ") was possibly the lid of a hatchway (compare Mitchell, World before Abraham, 215).",
+          "target": ") était peut-être le couvercle d'une écoutille (comparer Mitchell, World before Abraham, 215).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "To the sons of Kohath was assigned the task of caring for the furniture of the Tabernacle whenever the camp was moved, a suitable covering (kacah) of sealskin being designated for each of the specially sacred objects, the temple curtains also being used (",
+          "target": "Aux fils de Kehath était confiée la tâche de prendre soin du mobilier du tabernacle chaque fois que le camp se déplaçait, une couverture appropriée (kacah) en peau de phoque étant réservée à chacun des objets spécialement sacrés, les tentures du temple étant également utilisées (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": " (tsamidh) may refer to anything used as a lid or covering; ",
+          "target": " (tsamidh) peut désigner tout ce qui sert de couvercle ou de couverture ; ",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": " (kecuth) refer to clothing or bed-covering.",
+          "target": " (kecuth) désignent des vêtements ou une couverture de lit.",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "Figurative: \"Abaddon hath no covering\"; (kecuth) from God (",
+          "target": "Au sens figuré : « Abaddon n'a pas de couverture » (kecuth) devant Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "); \"He will destroy .... the face of the covering (ha-loT) that covereth all peoples\" (",
+          "target": ") ; « Il détruira ... la surface du voile (ha-loT) qui couvre tous les peuples » (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": "). The removal of the veil, often worn as a token of mourning (compare ",
+          "target": "). L'enlèvement du voile, souvent porté en signe de deuil (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "), signified the destruction of death.",
+          "target": "), signifiait la destruction de la mort.",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "W. N. Stearns",
+          "target": "W. N. Stearns",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "COVERED WAY",
+      "article_id": "isbe-d9ed61d9cd74f82eab70",
+      "source_article_sha256": "c3368f0936435a81e7b51b77aae2c7e554aefda645a9d7c7b2027a52e13b6440",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COVERED WAY",
+          "target": "PASSAGE COUVERT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kuv'-erd wa (mecakh, \"a covered walk\"): Mentioned in ",
+          "target": "kuv'-erd wa (mecakh, « passage couvert ») : Mentionné en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (the King James Version \"covert\") as a gallery belonging to the temple, concerning the purpose of which opinions differ. Some consider it to have been the place where the king stood or sat during the Sabbath services; others, a public place for teaching; others, the way by which the priest entered the sanctuary on the Sabbath.",
+          "target": " (King James Version « covert ») comme une galerie appartenant au temple, au sujet de la fonction de laquelle les avis divergent. Certains y voient le lieu où le roi se tenait debout ou assis pendant les offices du sabbat ; d'autres, un lieu public d'enseignement ; d'autres, le passage par lequel le prêtre entrait dans le sanctuaire le jour du sabbat.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COVERING, FOR THE HEAD",
+      "article_id": "isbe-03ab917a8b8868a99f6d",
+      "source_article_sha256": "150bc119db0244bfa6f5129c4cba7dd9b12c8676eee38864c0dedb809a4a8853",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COVERING, FOR THE HEAD",
+          "target": "COUVERTURE DE LA TÊTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kuv'-er-ing, (peribolaion): Mentioned in the New Testament only in ",
+          "target": "kuv'-er-ing, (peribolaion) : Mentionnée dans le Nouveau Testament seulement en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ": \"For her hair is given her for a covering,\" literally, \"something cast round,\" probably equivalent to \"veil\" (which see). Read in the light of the context: \"Every woman praying or prophesying with her head unveiled dishonoreth her head\" (verse 5). The meaning would seem to be that Nature itself, in providing women with a natural veil, has taught the lesson underlying the prevailing custom, that woman should not be unveiled in the public assemblies.",
+          "target": " : « Car sa chevelure lui est donnée pour couverture », littéralement « quelque chose jeté autour », probablement équivalent à « voile » (voir cet article). À lire à la lumière du contexte : « Toute femme qui prie ou prophétise la tête non voilée déshonore sa tête » (verset 5). Le sens semble être que la nature elle-même, en donnant aux femmes un voile naturel, a enseigné la leçon qui sous-tend la coutume dominante, à savoir que la femme ne doit pas être sans voile dans les assemblées publiques.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "George B. Eager",
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "COVERT",
+      "article_id": "isbe-debce43e74432cc782de",
+      "source_article_sha256": "27bc78d0018844d1810fad884e8ea93aa12b9d49ee9c9956bdd832dc9dfef737",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COVERT",
+          "target": "ABRI (COVERT)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kuv'-ert: Now seldom used, except for game, and then generally spelt \"cover.\" \"A covered way\" (",
+          "target": "kuv'-ert : Aujourd'hui rarement employé, sauf à propos du gibier, et alors généralement orthographié « cover ». « Un passage couvert » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the King James Version); also a shelter of any kind (",
+          "target": " King James Version) ; également un abri de toute sorte (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); \"a hiding place,\" \"a lair,\" \"a hut\" (",
+          "target": ") ; « une cachette », « un repaire », « une cabane » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); \"a place of secrecy,\" \"a secret way\" (",
+          "target": ") ; « un lieu secret », « un chemin secret » (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "tail",
+          "source": "); \"a den,\" \"a lair\" (",
+          "target": ") ; « une tanière », « un repaire » (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COVET",
+      "article_id": "isbe-d47e030a34b047168763",
+      "source_article_sha256": "4ec97a27d4968034c9f0f4d20f35978a0fcba3c47ea7b173d81508e925c9084b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COVET",
+          "target": "CONVOITER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kuv'-et ('awah; zeloo, \"to desire earnestly,\" \"to set the heart and mind upon anything\"): Used in two senses: good, simply to desire earnestly but legitimately. e.g. the King James Version ",
+          "target": "kuv'-et ('awah ; zeloo, « désirer ardemment », « fixer son cœur et son esprit sur quelque chose ») : Employé dans deux sens : bon, simplement désirer ardemment mais légitimement, par exemple King James Version ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "; bad, to desire unlawfully, or to secure illegitimately (batsa`; epithumeo, ",
+          "target": " ; mauvais, désirer illicitement ou obtenir de façon illégitime (batsa` ; epithumeo, ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", etc.); hence, called \"lust\" (",
+          "target": ", etc.) ; d'où les termes « lust » (convoitise) (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "), \"concupiscence\" (the King James Version ",
+          "target": "), « concupiscence » (King James Version ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COW; KINE",
+      "article_id": "isbe-a2a748d6714bb1c9c0b4",
+      "source_article_sha256": "3add61612270df4d8583b2e8961779551b1c58e95d824d505e633661abf6d6e5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COW; KINE",
+          "target": "VACHE ; VACHES (COW ; KINE)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kou, kin (baqar (compare Arabic baqar, \"cow\"); `eghlath baqar (",
+          "target": "kou, kin (baqar [comparer l'arabe baqar, « vache »] ; `eghlath baqar (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); parah (compare Arabic furar, \"young of a sheep, goat, or cow\"); paroth `aloth (",
+          "target": ") ; parah [comparer l'arabe furar, « petit d'une brebis, d'une chèvre ou d'une vache »] ; paroth `aloth (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), \"milch kine,\" from `ul , \"to suckle\"; 'eleph): In ",
+          "target": "), « vaches laitières », de `ul, « allaiter » ; 'eleph) : En ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", the term, \"kine of Bashan,\" is applied to the voluptuous women of Samaria. In ",
+          "target": ", l'expression « vaches de Basan » est appliquée aux femmes voluptueuses de Samarie. En ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " is the narration of Pharaoh's dream of the seven fat and seven lean kine. In Isaiah's vision (",
+          "target": " se trouve le récit du rêve de Pharaon au sujet des sept vaches grasses et des sept vaches maigres. Dans la vision d'Ésaïe (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ") we have: \"And the cow and the bear shall feed; their young ones shall lie down together.\" Cows do not seem to have been sacrificed. The sacrifice of the kine that brought the ark back from the Philistines (",
+          "target": "), nous lisons : « La vache et l'ourse paîtront ; leurs petits se coucheront ensemble. » Les vaches ne semblent pas avoir été sacrifiées. Le sacrifice des vaches qui ramenèrent l'arche de chez les Philistins (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ") was due to the exceptional circumstances.",
+          "target": ") était dû à des circonstances exceptionnelles.",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "CALF",
+          "target": "VEAU",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "CATTLE",
+          "target": "BÉTAIL",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "Alfred Ely Day",
+          "target": "Alfred Ely Day",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "COZ",
+      "article_id": "isbe-a4018e8c0c0ac0662a7f",
+      "source_article_sha256": "a87a08683c4d74326b4b6c0a17ddf9506fc51411632a94f52c38ce9528faf7aa",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COZ",
+          "target": "KOTS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "koz (kots, \"thorn\"): A man of Judah (",
+          "target": "koz (kots, « épine ») : Un homme de Juda (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). the American Standard Revised Version has added the article, making the name Hakkoz without sufficient reason. The name occurs with the article (Ha-qots) in ",
+          "target": "). L'American Standard Revised Version a ajouté l'article, donnant le nom Hakkoz sans raison suffisante. Le nom apparaît avec l'article (Ha-qots) en ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ", and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": ", but not with reference to the same person. Coz was of the tribe of Judah, while Hakkoz belonged to the family of Aaron.",
+          "target": ", mais non à propos de la même personne. Kots était de la tribu de Juda, tandis que Hakkoz appartenait à la famille d'Aaron.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CRACKNEL",
+      "article_id": "isbe-d54f3f2a8ac57375d4d9",
+      "source_article_sha256": "33656f1c454afeac76a33b9fc6a466fc0de5a66300ef65cb03c17057535b4a86",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRACKNEL",
+          "target": "BISCUIT (CRACKNEL)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "krak'nel: Occurs in ",
+          "target": "krak'nel : Se trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", where Jeroboam bids his wife go to Abijah to inquire concerning their son: \"And take with thee ten loaves and cracknels\" (King James Version margins \"cakes,\" the English Revised Version \"cracknels,\" the American Standard Revised Version \"cakes\"). The Hebrew word is niqquddim, from naqadh, \"to prick\" or \"mark\"; most probably cakes with holes pricked in them like our biscuits.",
+          "target": ", où Jéroboam ordonne à sa femme d'aller trouver Achija pour s'enquérir de leur fils : « Prends avec toi dix pains et des biscuits » (King James Version, en marge « cakes », gâteaux ; English Revised Version « cracknels » ; American Standard Revised Version « cakes »). Le mot hébreu est niqquddim, de naqadh, « piquer » ou « marquer » ; très probablement des gâteaux percés de trous comme nos biscuits.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CRAFT; CRAFTINESS; CRAFTY",
+      "article_id": "isbe-4e0e6fcbdb393d987eb6",
+      "source_article_sha256": "758cce8e8c0ba2b44506e0dbd007e7f15c0c4af2615c5c8f8b46785132249229",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRAFT; CRAFTINESS; CRAFTY",
+          "target": "RUSE ; PERFIDIE ; RUSÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kraft, kraf'-ti-nes, kraf'-ti, (panourgia), (panourgos): The original meaning is that of \"ability to do anything,\" universally applied in a bad sense to unscrupulous wickedness, that stops short of no measure, however reprehensible, in order to attain its purposes; then, in a modified form, to resourcefulness in wrong, cunning (",
+          "target": "kraft, kraf'-ti-nes, kraf'-ti, (panourgia), (panourgos) : Le sens originel est celui de « capacité de tout faire », universellement appliqué en mauvaise part à une méchanceté sans scrupules qui ne recule devant aucune mesure, aussi répréhensible soit-elle, pour atteindre ses objectifs ; puis, sous une forme atténuée, à l'ingéniosité dans le mal, à la ruse (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "; 2 Macc 12:24; the Revised Version, margin \"jugglery\"). In ",
+          "target": " ; 2 Macc 12:24 ; Revised Version, en marge « jugglery », tromperie). En ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", Jesus perceives \"the craftiness\" of His adversaries, i.e. the complicated network which they have laid to ensnare Him. The art with which a plot is concealed, and its direction to the ruin of others, are elements that enter into the meaning. Heinrici on ",
+          "target": ", Jésus perçoit « la ruse » de ses adversaires, c'est-à-dire le réseau compliqué qu'ils ont tendu pour le prendre au piège. L'art avec lequel un complot est dissimulé et son orientation vers la ruine d'autrui entrent dans le sens du terme. Heinrici, sur ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " illustrates from Plato the distinction between craftiness and wisdom. There is a touch of humor in ",
+          "target": ", illustre à partir de Platon la distinction entre la ruse et la sagesse. Il y a une pointe d'humour en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", when Paul speaks of his conduct toward the Corinthians as having been \"crafty.\"",
+          "target": ", lorsque Paul parle de sa conduite envers les Corinthiens comme ayant été « rusée ».",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "H. E. Jacobs",
+          "target": "H. E. Jacobs",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CRATES",
+      "article_id": "isbe-e0b81391882615bace0f",
+      "source_article_sha256": "606fd65308df71bbabbcf8ed5890549cf8dd68466d88a41306d24639fcf2ca62",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRATES",
+          "target": "CRATÈS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kra'-tez (Krates), governor of the Cyprians, left as deputy of Sostratus when the latter, who was governor of Jerusalem, was summoned to Antioch by Antiochus Epiphanes, in consequence of a dispute with Menelaus (2 Macc 4:29). As Cyprus was not at the time in the possession of Antiochus, the words have been generally taken to mean Krates \"who had formerly been, or afterward was, governor of the Cyprians.\" The Vulgate (Jerome's Latin Bible, 390-405 A. D.) translates the Greek into \"Sostratus autem praelatus est Cypriis.\"",
+          "target": "kra'-tez (Krates), gouverneur des Cypriotes, laissé comme lieutenant de Sostrate lorsque ce dernier, gouverneur de Jérusalem, fut convoqué à Antioche par Antiochos Épiphane à la suite d'un différend avec Ménélas (2 Macc 4:29). Comme Chypre n'était pas alors en possession d'Antiochos, on a généralement compris ces mots comme désignant Cratès « qui avait auparavant été, ou fut par la suite, gouverneur des Cypriotes ». La Vulgate (Bible latine de Jérôme, 390-405 apr. J.-C.) traduit le grec par « Sostratus autem praelatus est Cypriis ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CREATURE",
+      "article_id": "isbe-c0b1a5b702649e6b3fee",
+      "source_article_sha256": "8d761a7fb30c3c259dc524e5face3523e220f62724969eaed97e797568a253d2",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CREATURE",
+          "target": "CRÉATURE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kre'-tur: The word \"creature,\" as it occurs in the New Testament, is the translation and also the exact English equivalent of the Greek ktisis, or ktisma, from ktizo, \"to create.\" In the Old Testament, on the other hand, it stands for words which have in the original no reference to creation, but which come from other roots. Nephesh, \"living creature\" (literally, \"a breathing thing\"), occurs in the accounts of the Creation and the Flood and at the close of the lists of clean and unclean animals in ",
+          "target": "kre'-tur : Le mot « creature », tel qu'il apparaît dans le Nouveau Testament, est la traduction et aussi l'équivalent anglais exact du grec ktisis, ou ktisma, de ktizo, « créer ». Dans l'Ancien Testament, en revanche, il représente des mots qui, dans l'original, ne se rapportent nullement à la création, mais viennent d'autres racines. Nephesh, « créature vivante » (littéralement « chose qui respire »), se trouve dans les récits de la création et du déluge, et à la fin des listes d'animaux purs et impurs en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". Chay, \"living creature\" (literally, \"a living thing\"), occurs 13 times in Eze 1; 3 and 10 (see ",
+          "target": ". Chay, « créature vivante » (littéralement « chose vivante »), apparaît 13 fois dans Ézéchiel 1 ; 3 et 10 (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CREATURE, LIVING",
+          "target": "CRÉATURE VIVANTE",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). Sherets, \"moving creature\" (literally, \"a swarming thing,\" generally rendered \"creeping thing,\" which see), occurs once in ",
+          "target": "). Sherets, « créature qui se meut » (littéralement « chose qui grouille », généralement rendu par « creeping thing », animal rampant, voir cet article), apparaît une fois en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ". 'Ochim, \"doleful creatures,\" occurs once only in ",
+          "target": ". 'Ochim, « créatures lugubres », ne figure qu'une fois en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ". It appears to be an onomatopoetic word referring to the mournful sounds emitted by the animals in question. From the context it is fair to suppose that owls may be the animals referred to.",
+          "target": ". Il semble que ce soit un mot onomatopéique renvoyant aux sons plaintifs émis par les animaux en question. D'après le contexte, il est raisonnable de supposer qu'il s'agit de hiboux.",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "OWL",
+          "target": "HIBOU",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "CREATION",
+          "target": "CRÉATION",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "Alfred Ely Day",
+          "target": "Alfred Ely Day",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CREDIT",
+      "article_id": "isbe-badbe8d2477fe1250edc",
+      "source_article_sha256": "ee04e772c317e1ebc25ab5533931acf239755232ff2fdc85dbc244f1f9d10638",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CREDIT",
+          "target": "CRÉDIT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kred'-it (pisteuein; 1 Macc 10:46 the King James Version, the Revised Version (British and American) \"gave no credence\"; The Wisdom of Solomon 18:6 the King James Version, the Revised Version (British and American) \"trusted\"; 1 Macc 1:30 the King James Version, the Revised Version (British and American) \"credence\"): In the modern commercial sense the noun \"credit\" does not occur in the canonical Scriptures or in the Apocrypha.",
+          "target": "kred'-it (pisteuein ; 1 Macc 10:46, King James Version, Revised Version, britannique et américaine, « gave no credence », ne crurent pas ; Sagesse de Salomon 18:6, King James Version, Revised Version, britannique et américaine, « trusted », eurent confiance ; 1 Macc 1:30, King James Version, Revised Version, britannique et américaine, « credence », croyance) : Au sens commercial moderne, le substantif « crédit » ne figure ni dans les Écritures canoniques ni dans les apocryphes.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CREEPING THING",
+      "article_id": "isbe-012914c0f1778bd1ed8b",
+      "source_article_sha256": "7afbd2242b075554c35e45008479cbfee4ee95b290137601f2a2c3501a18a519",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CREEPING THING",
+          "target": "ANIMAL RAMPANT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "krep'-ing (remes, sherets; herpeton): Remes and sherets, with the root verbs ramas and sharats, are used without any sharp distinction for insects and other small creatures. Ramas means clearly \"to creep,\" and is used even of the beasts of the forest (",
+          "target": "krep'-ing (remes, sherets ; herpeton) : Remes et sherets, avec les verbes dont ils dérivent, ramas et sharats, sont employés sans distinction nette pour les insectes et autres petites créatures. Ramas signifie clairement « ramper » et s'emploie même à propos des bêtes de la forêt (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), while sharats is rather \"to swarm.\" But in at least one passage (",
+          "target": "), tandis que sharats signifie plutôt « grouiller ». Mais dans au moins un passage (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), we have the noun, sherets, with the verb ramas; \"with any manner of creeping thing that moveth upon the earth.\" The principal passages where these words occur are the accounts of the Creation and the Flood and the references to unclean animals in Le and in the vision of Peter. In the last we have the word herpeton as the Greek equivalent of the Hebrew words (",
+          "target": "), nous avons le substantif sherets avec le verbe ramas : « avec toute sorte d'animal rampant qui se meut sur la terre ». Les principaux passages où ces mots apparaissent sont les récits de la création et du déluge, ainsi que les mentions d'animaux impurs dans le Lévitique et dans la vision de Pierre. Dans cette dernière, le mot herpeton est l'équivalent grec des mots hébreux (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "). Winged creeping things (sherets ha-`oph, ",
+          "target": "). Les animaux rampants ailés (sherets ha-`oph, ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " ff), as well as the wingless, are unclean, but an exception is made in favor of the locusts, \"which have legs above their feet, where-with to leap upon the earth.\"",
+          "target": " et suiv.), comme ceux qui sont dépourvus d'ailes, sont impurs, mais une exception est faite en faveur des sauterelles, « qui ont au-dessus de leurs pieds des jambes avec lesquelles elles sautent sur la terre ».",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "INSECTS",
+          "target": "INSECTES",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "LOCUST",
+          "target": "SAUTERELLE",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "Alfred Ely Day",
+          "target": "Alfred Ely Day",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CRIB",
+      "article_id": "isbe-782093932cfdbe50dfe9",
+      "source_article_sha256": "d6e0e950aa60d215ac7afc2b4a84ff7e833c22ebe6da78ee0b107f7ea1aceeb5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRIB",
+          "target": "MANGEOIRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "('ebhuc): \"Crib\" translates the Hebrew word [~'ebhuc] exactly, as it denotes \"a barred receptacle for fodder used in cowsheds and foldyards; also in fields, for beasts lying out in the winter.\" The Hebrew is from a word meaning to feed ('abhac), and is used in the precise sense of the English word in ",
+          "target": "('ebhuc) : « Crib » traduit exactement le mot hébreu [~'ebhuc], puisqu'il désigne « un récipient à barreaux pour le fourrage, utilisé dans les étables et les enclos ; également dans les champs, pour les bêtes qui restent dehors en hiver ». Le mot hébreu dérive d'un mot signifiant nourrir ('abhac) et est employé au sens précis du mot anglais en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " of the \"crib\" of the wild ox, in ",
+          "target": " à propos de la « mangeoire » du bœuf sauvage, en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", \"Where no oxen are, the crib is clean,\" and in ",
+          "target": " : « Où il n'y a pas de bœufs, la mangeoire est propre », et en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", \"The ox knoweth his owner, and the ass his master's crib.\" section 23.",
+          "target": " : « Le bœuf connaît son propriétaire, et l'âne la mangeoire de son maître. » section 23.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CRIER",
+      "article_id": "isbe-3d5d92a1f077c2cd8b51",
+      "source_article_sha256": "93d649ac9172eb01a4befdd291c2fad5c13ae1d6ca17b0ca6abe3afcc620cf99",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRIER",
+          "target": "CRIEUR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kri'-er (qara'; compare boao):",
+          "target": "kri'-er (qara' ; comparer boao) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) Neither is this exact word found in English Versions of the Bible, nor a word exactly corresponding to it in the Hebrew Bible, but the character it stands for appears as \"one who cries aloud,\" i.e., proclaims mandates or gives public messages. In ",
+          "target": "(1) Ni ce mot précis dans les versions anglaises de la Bible, ni un mot lui correspondant exactement dans la Bible hébraïque ne se trouvent, mais le personnage qu'il désigne apparaît comme « celui qui crie à haute voix », c'est-à-dire qui proclame des ordres ou transmet des messages publics. En ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " it is said, \"She (Wisdom) crieth in the chief place of concourse.\" John the Baptist calls himself \"the voice of one crying in the wilderness\" (",
+          "target": ", il est dit : « Elle (la sagesse) crie au principal lieu de rassemblement. » Jean-Baptiste s'appelle lui-même « la voix de celui qui crie dans le désert » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ")--like a herald going before the king.",
+          "target": "), comme un héraut précédant le roi.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) In the East today every village even has its public crier, selected for his loud or penetrating voice, and appointed to give notice of the fresh orders or mandates of the mudir (\"governor\") or other authorities. The muezzin of the Moslems, who at the five appointed times of prayer mounts the minaret and calls the faithful to prayer, is another striking example. Something like the ancient \"heralds\" of the king were the \"heralds\" of the Middle Ages in Europe who, preceded by trumpeters, made official proclamations:",
+          "target": "(2) Dans l'Orient d'aujourd'hui, chaque village même a son crieur public, choisi pour sa voix forte ou pénétrante et chargé d'annoncer les nouveaux ordres ou mandats du mudir (« gouverneur ») ou d'autres autorités. Le muezzin des musulmans, qui, aux cinq heures fixées pour la prière, monte au minaret et appelle les fidèles à la prière, en est un autre exemple frappant. Les « hérauts » du Moyen Âge en Europe, qui, précédés de trompettes, faisaient des proclamations officielles, ressemblaient quelque peu aux anciens « hérauts » du roi :",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "George B. Eager",
+          "target": "George B. Eager",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

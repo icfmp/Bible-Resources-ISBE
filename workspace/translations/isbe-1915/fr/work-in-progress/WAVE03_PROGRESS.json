@@ -6,36 +6,38 @@
   "branch": "work/fr-isbe-full-translation",
   "wave03_issue": 111,
   "previous_wave_issue": 110,
-  "status": "400_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "700_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_2001_3000": {
     "total": 1000,
     "previous_pilot_drafts": 4,
-    "new_complete_drafts_on_branch": 400,
-    "complete_first_drafts": 404,
-    "remaining_undrafted": 596
+    "new_complete_drafts_on_branch": 700,
+    "complete_first_drafts": 704,
+    "remaining_undrafted": 296
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 2443
+    "complete_first_drafts_across_main_and_current_branch": 2743
   },
   "source_queue": {
     "rounds_completed": [
       "round-001",
-      "round-002"
+      "round-002",
+      "round-003"
     ],
-    "original_article_templates": 400,
-    "verified_unique_article_ids": 400,
-    "original_mutable_tei_units_covered": 1510,
+    "original_article_templates": 700,
+    "verified_unique_article_ids": 700,
+    "original_mutable_tei_units_covered": 3538,
     "round_paths": [
       "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-001",
-      "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-002"
+      "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-002",
+      "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-003"
     ],
-    "current_round": "round-003",
-    "requested_templates": 300,
-    "checks": "Round 001 incremental CI passed (45968174926). Round 002: 300 unique IDs, all 1161 exact ordered source slots, nonempty targets, manuscript paths and marker order checked during reconstruction; independent full manuscript/TEI CI pending."
+    "current_round": "round-004",
+    "requested_templates": 200,
+    "checks": "Round 002 incremental CI passed (45969468248). Round 003: 300 unique IDs, all 2028 exact ordered source slots, nonempty targets, manuscript paths and marker order checked during reconstruction; 5 stored manuscript bodies independently compared to patches; full incremental manuscript/TEI CI pending."
   },
   "batch_files": [
     "0291-wave03-round001-redirects.json",
@@ -43,7 +45,18 @@
     "0293-wave03-round002-056-120.json",
     "0294-wave03-round002-121-180.json",
     "0295-wave03-round002-181-240.json",
-    "0296-wave03-round002-241-300.json"
+    "0296-wave03-round002-241-300.json",
+    "0297-wave03-round003-001-020.json",
+    "0298-wave03-round003-021-040.json",
+    "0299-wave03-round003-041-070.json",
+    "0300-wave03-round003-071-100.json",
+    "0301-wave03-round003-101-130.json",
+    "0302-wave03-round003-131-160.json",
+    "0303-wave03-round003-161-190.json",
+    "0304-wave03-round003-191-220.json",
+    "0305-wave03-round003-221-250.json",
+    "0306-wave03-round003-251-280.json",
+    "0307-wave03-round003-281-300.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -80,9 +93,29 @@
       "key": "round-002",
       "kind": "display",
       "detail": "37 articles contain adjacent immutable-link boundaries with no visible editable separator; preserve original structure and flag for consistent render/editorial review rather than silently changing the source."
+    },
+    {
+      "key": "DATHEMA; DIOTREPHES",
+      "kind": "source_corruption",
+      "detail": "DATHEMA contains the repeated end of DATHAN, and DIOTREPHES the repeated end of DIOSCURI. Contamination retained in full, translated without silently repairing the English master."
+    },
+    {
+      "key": "DAM; DOEG",
+      "kind": "source_witness_review",
+      "detail": "DAM states that slaughter is enjoined before seven days with the dam (potentially reversed wording); DOEG attributes herdsmen to Samuel despite the immediate Saul context. Both source claims retained pending witness review."
+    },
+    {
+      "key": "CHESED; CHILMAD; DECLINE; DENARIUS; DALLY; DAN-JAAN; ELIEL",
+      "kind": "source_witness_review",
+      "detail": "Repeated 'Kaldu', 'Assytoprian-Babylonian', malformed '[@cur]' style, currency glyph œ, 'daily' in DALLY, 'Da', 'Elkshah'; retain doubtful readings or describe original meaning only where clear. Historical proper names Ru and other abbreviations rendered in standard French form where identifiable."
+    },
+    {
+      "key": "round-003",
+      "kind": "display",
+      "detail": "24 articles contain adjacent immutable-link boundaries with no visible editable separator; flag for consistent render/editorial review."
     }
   ],
-  "previous_translation_commit": "d064dc8e774cee36966ad11e3881a75f20d33d7e",
+  "previous_translation_commit": "d0091cd263402649fecbd54b44ccfa1948f2bd1b",
   "cohort_policy": {
     "source_word_limit": 60000,
     "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
@@ -90,13 +123,13 @@
     "oversized_single_article": "Standalone cohort",
     "commit_policy": "One commit and incremental validation per completed cohort"
   },
-  "next_action": "Resume at round-003 SOURCE.jsonl once staged. Round 002 is a partial checkpoint at the available queue boundary; not a full 60,000-word cohort.",
-  "last_translation_tree": "2e34ab90e5d211694e382f6832d5e0ba51901f62",
+  "next_action": "Resume at round-004 SOURCE.jsonl once staged. Round 003 reached its source queue boundary with 29,246 words; 296 entries remain. Next 200 templates requested to keep source export manageable as articles grow, then the final 96. Use 60,000-word maximum per cohort.",
+  "last_translation_tree": "88628b7dfa4fb7a182c120bf2109e70cd3b8b919",
   "last_cohort_completion": {
     "kind": "source_queue_boundary_partial_checkpoint",
     "source_line_ranges": [
       {
-        "round": "round-002",
+        "round": "round-003",
         "range": [
           1,
           300
@@ -104,13 +137,15 @@
       }
     ],
     "new_articles": 300,
-    "source_words_whitespace_count": 5656,
+    "source_words_whitespace_count": 29246,
     "word_limit": 60000,
-    "source_mutable_units": 1161,
-    "source_blocks": 768,
-    "protected_keep_markers": 318,
-    "protected_structure_markers_total": 1163,
-    "validation": "Ordered source identities and exact slots verified against staged batches; all marker sequences verified at construction; incremental full manuscript/TEI CI pending",
+    "source_mutable_units": 2028,
+    "translated_units": 1819,
+    "preserved_units": 209,
+    "source_blocks": 967,
+    "protected_keep_markers": 1483,
+    "protected_structure_markers_total": 2411,
+    "validation": "Ordered source identities and exact slots verified against all 11 staged batches; all marker sequences verified at construction; 5 stored manuscript bodies compared against reconstructed body; full incremental manuscript/TEI CI pending",
     "editorial_approvals": 0
   }
 }
