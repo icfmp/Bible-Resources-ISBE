@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave03_issue": 111,
   "previous_wave_issue": 110,
-  "status": "900_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "912_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_2001_3000": {
     "total": 1000,
     "previous_pilot_drafts": 4,
-    "new_complete_drafts_on_branch": 900,
-    "complete_first_drafts": 904,
-    "remaining_undrafted": 96
+    "new_complete_drafts_on_branch": 912,
+    "complete_first_drafts": 916,
+    "remaining_undrafted": 84
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 2943
+    "complete_first_drafts_across_main_and_current_branch": 2955
   },
   "source_queue": {
     "rounds_completed": [
@@ -28,19 +28,20 @@
       "round-003",
       "round-004"
     ],
-    "original_article_templates": 900,
-    "verified_unique_article_ids": 900,
+    "original_article_templates": 996,
+    "verified_unique_article_ids": 996,
     "original_mutable_tei_units_covered": 3538,
     "round_paths": [
       "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-001",
       "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-002",
       "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-003",
-      "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-004"
+      "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-004",
+      "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-005"
     ],
     "current_round": "round-005",
     "requested_templates": 96,
-    "checks": "Closing cohort lines 17–165 CI passed (46039925018). Round 004 lines 166–200 rechecked against exact ordered source slots, nonempty targets, unique identities and marker sequences at construction. Incremental CI for this checkpoint pending. Round 005 staging requested.",
-    "current_round_processed_templates": 0
+    "checks": "Round 004 final 35 drafts incremental CI and final 96-template staging succeeded (46041892344 and 46041892374). All 996 staged article IDs across five manifests are unique. Round 005 lines 1–12: exact source hashes and ordered slots rechecked; all 12 stored manuscript block IDs and protected marker sequences independently compared with source; incremental CI pending.",
+    "current_round_processed_templates": 12
   },
   "batch_files": [
     "0291-wave03-round001-redirects.json",
@@ -80,7 +81,15 @@
     "0325-wave03-round004-166-175.json",
     "0326-wave03-round004-176-185.json",
     "0327-wave03-round004-186-195.json",
-    "0328-wave03-round004-196-200.json"
+    "0328-wave03-round004-196-200.json",
+    "0329-wave03-round005-001-003.json",
+    "0330-wave03-round005-004-005.json",
+    "0331-wave03-round005-006.json",
+    "0332-wave03-round005-007-008.json",
+    "0333-wave03-round005-009.json",
+    "0334-wave03-round005-010.json",
+    "0335-wave03-round005-011.json",
+    "0336-wave03-round005-012.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -192,9 +201,34 @@
       "key": "EAST, CHILDREN OF THE; EAR; ELIHU (2); EKRON; ELIAKIM; ELIEZER",
       "kind": "source_witness_review",
       "detail": "EAST contains visibly disordered quotation, retained rather than reconstructed; EAR has unusual /APC label; ELIHU apparent denouncement for denouement rendered in context; Da, gorvernor, Eliskim, eider translated as clear intended readings. English master unchanged."
+    },
+    {
+      "key": "CHEMOSH; CHERUBIM (1); CHILD; CHILDREN; CHILDREN OF GOD; CHOOSE; CHOSEN",
+      "kind": "editorial_review",
+      "detail": "Historical archaeological claims, author-specific historical-critical and theological positions, and generalizations about ancient societies retained. Review in historical context."
+    },
+    {
+      "key": "CHRIST, OFFICES OF; CHRIST, THE EXALTATION OF",
+      "kind": "source_witness_review",
+      "detail": "Apparent source spelling and word-spacing defects rendered in context. Exaltation table of contents numbers the Second Advent V while body numbers it IV; both preserved. Historical doctrinal positions retained, including potentially ambiguous 'latter' in the ascension paragraph."
+    },
+    {
+      "key": "CHRISTIAN; CHRISTIANITY; CHRISTS, FALSE",
+      "kind": "editorial_review",
+      "detail": "CHRISTIAN contains early critical views and unusual readings. CHRISTIANITY contains polemical characterizations of other religions, dated racial and civilizational judgments and early twentieth-century demographic estimates. Retained as historical authorial material, not endorsed or modernized. Independent review and contextualization required before publication."
+    },
+    {
+      "key": "CHRONICLES, BOOKS OF",
+      "kind": "source_witness_review",
+      "detail": "Apparent OCR 'respiration' rendered as inspiration based on the immediately following parenthesis; 'sortie decades' as some decades. Historical dates, critical opinions, figures and incomplete source reference sequences retained. English master unchanged."
+    },
+    {
+      "key": "CHRONOLOGY OF THE NEW TESTAMENT",
+      "kind": "source_witness_review",
+      "detail": "Original chronological proposals and numerical inconsistencies (e.g. 751/5, 735/21), unusual inscription transliterations and James's death date retained. 'Nican' rendered as Nisan in the context of repeated month references. The second Summary of Dates heading is followed immediately by the bibliography in the staged source; no summary invented."
     }
   ],
-  "previous_translation_commit": "5fdd8daf00f870d17f8c76fa9b654247d655de66",
+  "previous_translation_commit": "d0f30f788bcff44a155f50e6598f00901dd0dae4",
   "cohort_policy": {
     "source_word_limit": 60000,
     "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
@@ -202,10 +236,10 @@
     "oversized_single_article": "Standalone cohort",
     "commit_policy": "One commit and incremental validation per completed cohort"
   },
-  "next_action": "Resume current 60,000-word cohort with round-005 SOURCE.jsonl line 1 after staging workflow completes. All 200 round-004 entries translated; 96 remaining undrafted in lot 3.",
-  "last_translation_tree": "40d246a63304d3f8675e9d21f3bd0b6f7aa1ee60",
+  "next_action": "Start next 60,000-word cohort at round-005 SOURCE.jsonl line 13 (CHRONOLOGY OF THE OLD TESTAMENT, 8,705 words). 84 undrafted articles remain, all staged. Preserve order and complete articles.",
+  "last_translation_tree": "da5b0af1187b93df97b4ea906c5038376f12be13",
   "last_cohort_completion": {
-    "kind": "partial_checkpoint",
+    "kind": "completed_word_limit_cohort",
     "source_line_ranges": [
       {
         "round": "round-004",
@@ -213,18 +247,28 @@
           166,
           200
         ]
+      },
+      {
+        "round": "round-005",
+        "range": [
+          1,
+          12
+        ]
       }
     ],
-    "new_articles": 35,
-    "source_words_whitespace_count": 11881,
+    "new_articles": 47,
+    "articles_previously_committed_in_partial_checkpoint": 35,
+    "articles_added_in_closing_commit": 12,
+    "source_words_whitespace_count": 54142,
     "word_limit": 60000,
-    "source_mutable_units": 488,
-    "translated_units": 450,
-    "preserved_units": 38,
-    "source_blocks": 238,
-    "protected_keep_markers": 453,
-    "protected_structure_markers_total": 691,
-    "validation": "Ordered source slots, source hashes and unique identities rechecked; immutable markers checked at reconstruction; full CI pending.",
+    "next_article_source_words": 8705,
+    "source_mutable_units": 1879,
+    "translated_units": 1815,
+    "preserved_units": 64,
+    "source_blocks": 984,
+    "protected_keep_markers": 1588,
+    "protected_structure_markers_total": 2590,
+    "validation": "Round 004 partial checkpoint CI passed. Round 005 all 12 source hashes and ordered source slots rechecked; all 12 stored manuscript block IDs, end IDs and immutable marker sequences rechecked. Full incremental CI pending for closing commit.",
     "editorial_approvals": 0
   }
 }

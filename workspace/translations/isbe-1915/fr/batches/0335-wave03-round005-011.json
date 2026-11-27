@@ -1,0 +1,1420 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CHRONICLES, BOOKS OF",
+      "article_id": "isbe-7ecd7d3bf7f23200659b",
+      "source_article_sha256": "970982fe7c5dac64051b6bb738d3ade76b8886df0e5f60ab7cd4abe0cd2f6bd8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHRONICLES, BOOKS OF",
+          "target": "CHRONIQUES, LIVRES DES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kron'-i-k'-ls (dibhere ha-yamim), \"The Words of the Days\"; Septuagint paraleipomenon:",
+          "target": "kron'-i-k'-ls (dibhere ha-yamim), « Les paroles des jours » ; Septante paraleipomenon :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "1. The Name",
+          "target": "1. Le nom",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "2. The Position of Chronicles in the Old Testament",
+          "target": "2. La place des Chroniques dans l'Ancien Testament",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "3. Two Books, or One?",
+          "target": "3. Deux livres ou un seul ?",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "4. The Contents",
+          "target": "4. Le contenu",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "5. Sources Biblical and Extra-Biblical",
+          "target": "5. Sources bibliques et extrabibliques",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "6. Nehemiah's Library",
+          "target": "6. La bibliothèque de Néhémie",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "7. The Way of Using the Biblical Sources",
+          "target": "7. La manière d'utiliser les sources bibliques",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "8. Additions by the Chronicler",
+          "target": "8. Les ajouts du Chroniste",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "9. Omissions by the Chronicler",
+          "target": "9. Les omissions du Chroniste",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "10. The Extra-Biblical Sources",
+          "target": "10. Les sources extrabibliques",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "11. The Object in Writing the Books of Chronicles",
+          "target": "11. Le but de la rédaction des livres des Chroniques",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "12. The Text",
+          "target": "12. Le texte",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "13. Critical Estimates",
+          "target": "13. Appréciations critiques",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "14. Date and Authorship",
+          "target": "14. Date et auteur",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "15. Evidence as to Date and Authorship",
+          "target": "15. Témoignages concernant la date et l'auteur",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "Arguments for a Later Date",
+          "target": "Arguments en faveur d'une date plus tardive",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "16. Truthfulness and Historicity",
+          "target": "16. Véracité et historicité",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "(1) Alleged Proofs of Untruthfulness",
+          "target": "(1) Prétendues preuves de manque de véracité",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "(2) Truthfulness in the Various Parts",
+          "target": "(2) Véracité des diverses parties",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "17. The Values of the Chronicles",
+          "target": "17. La valeur des Chroniques",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "1. The Name:",
+          "target": "1. Le nom :",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "The analogy of this title to such English words as diary, journal, chronicle, is obvious. The title is one which frequently appears in the Hebrew of the Old Testament. It is used to denote the records of the Medo-Persian monarchy (",
+          "target": "L'analogie de ce titre avec des mots anglais comme diary, journal, chronicle (journal, chronique) est évidente. C'est un titre qui apparaît fréquemment dans l'hébreu de l'Ancien Testament. Il sert à désigner les annales de la monarchie médo-perse (",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "tail",
+          "source": "), and to denote public records, either Persian or Jewish, made in late postexilian times (",
+          "target": "), ainsi que des archives publiques, perses ou juives, établies à une époque tardive après l'exil (",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "tail",
+          "source": "), and to denote public records of King David (",
+          "target": "), et les archives publiques du roi David (",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": "). But its most common use is to denote the Judahite and Israelite records referred to in the Books o f Kings as sources (",
+          "target": "). Mais son usage le plus courant est de désigner les annales de Juda et d'Israël auxquelles les livres des Rois renvoient comme sources (",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "tail",
+          "source": " and about 30 other places). The references in Kings are not to our present Books of Chronicles, for a large proportion of them are to matters not mentioned in these. Either directly or indirectly they refer the reader to public archives.",
+          "target": " et environ trente autres endroits). Les renvois dans les Rois ne visent pas nos livres actuels des Chroniques, car une grande proportion d'entre eux portent sur des matières qui n'y sont pas mentionnées. Directement ou indirectement, ils renvoient le lecteur à des archives publiques.",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "As applied to our present Books of Chronicles this title was certainly not intended to indicate that they are strictly copies of public documents, though it may indicate that they have a certain official character distinguishing them from other contemporary or future writings. The Greek title is Paraleipomenon, \"Of Things that have been Left Untold.\" Some copies add \"concerning the kings of Judah,\" and this is perhaps the original form of the title. That is, the Greek translators thought of Chronicles as a supplement to the other narrative Scriptural books. Jerome accepted the Greek title, but suggested that the Hebrew title would be better represented by a derivative from the Greek word chronos, and that this would fit the character of the book, which is a chronicle of the whole sacred history. Jerome's suggestion is followed in the title given to the book in the English and other languages.",
+          "target": "Appliqué à nos livres actuels des Chroniques, ce titre n'était certainement pas destiné à indiquer qu'il s'agissait à proprement parler de copies de documents publics, bien qu'il puisse indiquer qu'ils possèdent un certain caractère officiel qui les distingue d'autres écrits contemporains ou futurs. Le titre grec est Paraleipomenon, « Des choses qui n'ont pas été racontées ». Certains exemplaires ajoutent « concernant les rois de Juda », et telle est peut-être la forme originelle du titre. Autrement dit, les traducteurs grecs considéraient les Chroniques comme un supplément aux autres livres narratifs de l'Écriture. Jérôme accepta le titre grec, mais suggéra que le titre hébreu serait mieux représenté par un dérivé du mot grec chronos et que cela conviendrait au caractère du livre, qui est une chronique de toute l'histoire sacrée. La suggestion de Jérôme est suivie dans le titre donné au livre en anglais et dans d'autres langues.",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "2. The Position of Chronicles in the Old Testament:",
+          "target": "2. La place des Chroniques dans l'Ancien Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "In most of the VSS, as in the English, the Books of Chronicles are placed after the Books of Kings, as being a later account of the matters narrated in Kings; and Ezra and Nehemiah follow Chronicles as being continuations of the narrative. In the Hebrew Bibles the Books of Ezra and Nehemiah and 1 and 2 Chronicles are placed last. By common opinion, based on proof that is entirely sufficient, the three books constitute a single literary work or group of works, by one author or school of authors. It is co nvenient to use the term \"the Chronicler\" to designate the author, or the authors if there were more than one.",
+          "target": "Dans la plupart des versions, comme en anglais, les livres des Chroniques sont placés après les livres des Rois, en tant que récit ultérieur des matières relatées dans les Rois ; et Esdras et Néhémie suivent les Chroniques comme étant des continuations du récit. Dans les Bibles hébraïques, les livres d'Esdras et de Néhémie, ainsi que 1 et 2 Chroniques, sont placés en dernier. Selon l'opinion commune, fondée sur des preuves tout à fait suffisantes, les trois livres constituent une seule œuvre littéraire ou un groupe d'œuvres, d'un seul auteur ou d'une école d'auteurs. Il est commode d'employer le terme « le Chroniste » pour désigner l'auteur, ou les auteurs s'il y en eut plusieurs.",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "3. Two Books, or One?:",
+          "target": "3. Deux livres ou un seul ?",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "It is the regulation thing to say that 1 and 2 Chronicles were originally one book, which has been divided into two. The fact is that Chronicles is counted as one book in the count which regards the Old Testament as 22 or 24 books, and as two books in the count which regards the whole number of books as 39; and that both ways of counting have been in use as far back as the matter can be traced. Both ways of counting appear in the earliest Christian lists, those of Origen and Melito, for example. 1 Chronicles closes with a summary which may naturally be regarded as the closing of a book.",
+          "target": "Il est d'usage de dire que 1 et 2 Chroniques formaient à l'origine un seul livre, qui a été divisé en deux. Le fait est que les Chroniques sont comptées comme un seul livre dans le décompte qui considère l'Ancien Testament comme composé de 22 ou 24 livres, et comme deux livres dans le décompte qui considère le nombre total de livres comme étant de 39 ; et les deux manières de compter ont été en usage aussi loin que l'on puisse remonter. Les deux manières de compter apparaissent dans les premières listes chrétiennes, celles d'Origène et de Méliton, par exemple. Le premier livre des Chroniques se termine par un résumé qui peut naturellement être considéré comme la conclusion d'un livre.",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "4. The Contents:",
+          "target": "4. Le contenu :",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "With respect to their contents the Books of Chronicles are naturally divided into three parts. The first part is preliminary, consisting mostly of genealogical matters with accompanying facts and incidents (1Ch 1-9). The second part is an account of the accession and reign of David (1Ch 10-29). The third part is an account of the events under David's successors in the dynasty (2 Ch).",
+          "target": "Quant à leur contenu, les livres des Chroniques se divisent naturellement en trois parties. La première partie est préliminaire, consistant surtout en matières généalogiques avec les faits et incidents qui les accompagnent (1 Ch 1-9). La deuxième partie est un récit de l'avènement et du règne de David (1 Ch 10-29). La troisième partie est un récit des événements sous les successeurs de David dans la dynastie (2 Ch).",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "The genealogies begin with Adam (",
+          "target": "Les généalogies commencent avec Adam (",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "tail",
+          "source": ") and extend to the latest Old Testament times (",
+          "target": ") et s'étendent jusqu'aux derniers temps de l'Ancien Testament (",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "tail",
+          "source": ", and the latest names in the genealogical lines, e. g. ",
+          "target": ", ainsi que les derniers noms dans les lignées généalogiques, par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "tail",
+          "source": " ff). The events incidentally mentioned in connection with them are more numerous and of more importance than the casual reader would imagine. They are some dozens in number. Some of them are repeated from the parts of the Old Testament from which the Chronicler draws as sources--for example, such statements as that Nimrod was a mighty one, or that in the time of Peleg the earth was divided, or the details concerning the kings of Edom (",
+          "target": " et suivants). Les événements mentionnés incidemment en rapport avec elles sont plus nombreux et plus importants que ne l'imaginerait le lecteur occasionnel. Ils sont au nombre de quelques dizaines. Certains sont repris des parties de l'Ancien Testament auxquelles le Chroniste puise comme sources — par exemple, des déclarations telles que Nimrod fut un homme puissant, ou que du temps de Péleg la terre fut divisée, ou les détails concernant les rois d'Édom (",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "tail",
+          "source": " ff; compare ",
+          "target": " et suivants ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "tail",
+          "source": " ff). Others are instances which the Chronicler has taken from other sources than the Old Testament--for instance, the story of Jabez, or the accounts of the Simeonite conquests of the Meunim and of Amalek (",
+          "target": " et suivants). D'autres sont des faits que le Chroniste a empruntés à d'autres sources que l'Ancien Testament — par exemple, l'histoire de Jaebets, ou les récits des conquêtes des Meunim et d'Amalek par les Siméonites (",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "The account in Chronicles of the reign of David divides itself into three parts. The first part (1Ch 10-21) is a series of sections giving a general view, including the death of Saul, the crowning of David over the twelve tribes, his associates, his wars, the bringing of the ark to Jerusalem, the great Davidic promise, the plague that led to the purchase of the threshing-floor of Ornan the Jebusite. The second part (",
+          "target": "Le récit du règne de David dans les Chroniques se divise en trois parties. La première (1 Ch 10-21) est une série de sections donnant une vue générale, comprenant la mort de Saül, le couronnement de David sur les douze tribus, ses compagnons, ses guerres, le transfert de l'arche à Jérusalem, la grande promesse davidique, la peste qui conduisit à l'achat de l'aire d'Ornan le Jébusien. La deuxième partie (",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "tail",
+          "source": ") deals with one particular event and the preparations for it. The event is the making Solomon king, at a great public assembly (",
+          "target": ") traite d'un événement particulier et de ses préparatifs. L'événement est l'établissement de Salomon comme roi, lors d'une grande assemblée publique (",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "tail",
+          "source": " ff). The preparations for it include arrangements for the site and materials and labor for the temple that is to be built, and the organizing of Levites, priests, singers, doorkeepers, captains, for the service of the temple and the kingdom. The third part (",
+          "target": " et suivants). Les préparatifs comprennent des dispositions pour l'emplacement, les matériaux et la main-d'œuvre du temple qui doit être bâti, ainsi que l'organisation des Lévites, des prêtres, des chantres, des portiers, des chefs, pour le service du temple et du royaume. La troisième partie (",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "tail",
+          "source": ") is a brief account of Solomon's being made king \"a second time\" (compare ",
+          "target": ") est un bref récit de l'établissement de Salomon comme roi « une seconde fois » (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "tail",
+          "source": "), with a summary and references for the reign of David.",
+          "target": "), avec un résumé et des renvois concernant le règne de David.",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "text",
+          "source": "The history of the successors of David, as given in 2 Chronicles, need not here be commented upon.",
+          "target": "L'histoire des successeurs de David, telle qu'elle est donnée dans 2 Chroniques, n'a pas besoin d'être commentée ici.",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "5. Sources Biblical and Extra-Biblical:",
+          "target": "5. Sources bibliques et extrabibliques :",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "The sources of the Books of Chronicles classify themselves as Biblical and extra-Biblical. Considerably more than half the contents come from the other Old Testament books, especially from Sam and Ki. Other sources mentioned in the Books of Chronicles are the following:",
+          "target": "Les sources des livres des Chroniques se classent en sources bibliques et extrabibliques. Bien plus de la moitié du contenu provient des autres livres de l'Ancien Testament, particulièrement de Samuel et des Rois. Les autres sources mentionnées dans les livres des Chroniques sont les suivantes :",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "text",
+          "source": "(1) The Book of the Kings of Judah and Israel (",
+          "target": "(1) Le Livre des rois de Juda et d'Israël (",
+          "action": "translate"
+        },
+        {
+          "node": 90,
+          "part": "text",
+          "source": "(2) The Book of the Kings of Israel and Judah (",
+          "target": "(2) Le Livre des rois d'Israël et de Juda (",
+          "action": "translate"
+        },
+        {
+          "node": 94,
+          "part": "text",
+          "source": "(3) The Book of the Kings of Israel (",
+          "target": "(3) Le Livre des rois d'Israël (",
+          "action": "translate"
+        },
+        {
+          "node": 96,
+          "part": "text",
+          "source": "(4) The Book of the Kings (",
+          "target": "(4) Le Livre des rois (",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "text",
+          "source": "It is possible that these may be four variant forms of the same title. It is also possible that they may be references to our present Books of Ki, though in that case we must regard the formulas of reference as conventional rather than exact.",
+          "target": "Il est possible que ce soient quatre variantes du même titre. Il est également possible qu'il s'agisse de renvois à nos livres actuels des Rois, bien que dans ce cas nous devions considérer les formules de renvoi comme conventionnelles plutôt qu'exactes.",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "(5) The Book of the Kings of Israel (",
+          "target": "(5) Le Livre des rois d'Israël (",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "tail",
+          "source": "), a genealogical work.",
+          "target": "), un ouvrage généalogique.",
+          "action": "translate"
+        },
+        {
+          "node": 101,
+          "part": "text",
+          "source": "(6) The Midrash of the Book of the Kings (",
+          "target": "(6) Le Midrash du Livre des rois (",
+          "action": "translate"
+        },
+        {
+          "node": 103,
+          "part": "text",
+          "source": "(7) The Words of the Kings of Israel (",
+          "target": "(7) Les Paroles des rois d'Israël (",
+          "action": "translate"
+        },
+        {
+          "node": 104,
+          "part": "tail",
+          "source": "), referred to for details concerning Manasseh.",
+          "target": "), auquel il est renvoyé pour des détails concernant Manassé.",
+          "action": "translate"
+        },
+        {
+          "node": 105,
+          "part": "text",
+          "source": "Observe that these seven are books of Kings, and that the contents of the last three do not at all correspond with those of our Biblical books. In the seventh title and in several of the titles that are yet to be mentioned it is commonly understood that \"Words\" is the equivalent of \"acts\" or \"history\"; but it is here preferred to retain the form \"Words,\" as lending itself better than the others to the syntactical adjustments.",
+          "target": "Remarquez que ces sept ouvrages sont des livres des rois et que le contenu des trois derniers ne correspond nullement à celui de nos livres bibliques. Dans le septième titre et dans plusieurs des titres qui seront encore mentionnés, on entend communément que « Paroles » est l'équivalent d'« actes » ou d'« histoire » ; mais on préfère ici conserver la forme « Paroles », parce qu'elle se prête mieux que les autres aux ajustements syntaxiques.",
+          "action": "translate"
+        },
+        {
+          "node": 106,
+          "part": "text",
+          "source": "(8) The Words of Samuel the Man of Vision and the Words of Nathan the Prophet and the Words of Gad the Seer (",
+          "target": "(8) Les Paroles de Samuel le voyant, les Paroles de Nathan le prophète et les Paroles de Gad le voyant (",
+          "action": "translate"
+        },
+        {
+          "node": 107,
+          "part": "tail",
+          "source": ") are perhaps to be counted as one work, and identified with our Books of Judges and Samuel.",
+          "target": ") doivent peut-être être comptées comme un seul ouvrage et identifiées à nos livres des Juges et de Samuel.",
+          "action": "translate"
+        },
+        {
+          "node": 108,
+          "part": "text",
+          "source": "(9) The Words of Nathan the Prophet (",
+          "target": "(9) Les Paroles de Nathan le prophète (",
+          "action": "translate"
+        },
+        {
+          "node": 109,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 110,
+          "part": "tail",
+          "source": "). Source concerning Solomon.",
+          "target": "). Source concernant Salomon.",
+          "action": "translate"
+        },
+        {
+          "node": 111,
+          "part": "text",
+          "source": "(10) The Prophecy of Ahijah the Shilonite (",
+          "target": "(10) La Prophétie d'Achija de Silo (",
+          "action": "translate"
+        },
+        {
+          "node": 112,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 114,
+          "part": "tail",
+          "source": " ff, etc.). Solomon.",
+          "target": " et suivants, etc.). Salomon.",
+          "action": "translate"
+        },
+        {
+          "node": 115,
+          "part": "text",
+          "source": "(11) The Visions of Jedo the Seer (",
+          "target": "(11) Les Visions de Jedo le voyant (",
+          "action": "translate"
+        },
+        {
+          "node": 116,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 117,
+          "part": "tail",
+          "source": "). Solomon.",
+          "target": "). Salomon.",
+          "action": "translate"
+        },
+        {
+          "node": 118,
+          "part": "text",
+          "source": "(12) The Words of Shemaiah the Prophet (",
+          "target": "(12) Les Paroles de Schemaeja le prophète (",
+          "action": "translate"
+        },
+        {
+          "node": 119,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 120,
+          "part": "tail",
+          "source": " ff). Rehoboam.",
+          "target": " et suivants). Roboam.",
+          "action": "translate"
+        },
+        {
+          "node": 121,
+          "part": "text",
+          "source": "(13) \"Shemaiah wrote\" (",
+          "target": "(13) « Schemaeja écrivit » (",
+          "action": "translate"
+        },
+        {
+          "node": 122,
+          "part": "tail",
+          "source": "). David.",
+          "target": "). David.",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature retained"
+        },
+        {
+          "node": 123,
+          "part": "text",
+          "source": "(14) Iddo the Seer in Reckoning Genealogies (",
+          "target": "(14) Iddo le voyant dans les recensements généalogiques (",
+          "action": "translate"
+        },
+        {
+          "node": 124,
+          "part": "tail",
+          "source": "). Rehoboam.",
+          "target": "). Roboam.",
+          "action": "translate"
+        },
+        {
+          "node": 125,
+          "part": "text",
+          "source": "(15) \"The Words (The History) of Jehu the son of Hanani, which is inserted in the Book of the Kings of Israel\" (",
+          "target": "(15) « Les Paroles (l'Histoire) de Jéhu, fils de Hanani, qui sont insérées dans le Livre des rois d'Israël » (",
+          "action": "translate"
+        },
+        {
+          "node": 126,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 129,
+          "part": "tail",
+          "source": "). Jehoshaphat.",
+          "target": "). Josaphat.",
+          "action": "translate"
+        },
+        {
+          "node": 130,
+          "part": "text",
+          "source": "(16) \"The rest of the acts of Uzziah, first and last, did Isaiah the Prophet, the son of Amoz, write\" (",
+          "target": "(16) « Le reste des actes d'Ozias, les premiers et les derniers, Ésaïe le prophète, fils d'Amots, les écrivit » (",
+          "action": "translate"
+        },
+        {
+          "node": 131,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 134,
+          "part": "text",
+          "source": "(17) \"The Vision of Isaiah .... in the Book of the Kings of Judah and Israel\" (",
+          "target": "(17) « La Vision d'Ésaïe … dans le Livre des rois de Juda et d'Israël » (",
+          "action": "translate"
+        },
+        {
+          "node": 135,
+          "part": "tail",
+          "source": "; compare 2Ki 18-20; Isa 36-39, etc.). Hezekiah.",
+          "target": " ; comparer 2 R 18-20 ; Es 36-39, etc.). Ézéchias.",
+          "action": "translate"
+        },
+        {
+          "node": 136,
+          "part": "text",
+          "source": "(18) The Words of the Seers (",
+          "target": "(18) Les Paroles des voyants (",
+          "action": "translate"
+        },
+        {
+          "node": 137,
+          "part": "tail",
+          "source": " margin). Manasseh.",
+          "target": ", en marge). Manassé.",
+          "action": "translate"
+        },
+        {
+          "node": 138,
+          "part": "text",
+          "source": "(19) References to \"Lamentations,\" and to \"Jeremiah\" etc. (",
+          "target": "(19) Renvois aux « Lamentations » et à « Jérémie », etc. (",
+          "action": "translate"
+        },
+        {
+          "node": 139,
+          "part": "tail",
+          "source": "). Josiah.",
+          "target": "). Josias.",
+          "action": "translate"
+        },
+        {
+          "node": 140,
+          "part": "text",
+          "source": "(20) The Midrash of the Prophet Iddo (",
+          "target": "(20) Le Midrash du prophète Iddo (",
+          "action": "translate"
+        },
+        {
+          "node": 141,
+          "part": "tail",
+          "source": "). Abijah. These numbers, from 12 to 20, are referred to as works of prophets. At first thought there is plausibility in the idea that the references may be to the sections in Samuel and Kings where these several prophets are mentioned; but in nearly all the cases this explanation fades out on examination. The Chronicler had access to prophetic writings not now known to be in existence.",
+          "target": "). Abija. Ces numéros, de 12 à 20, sont cités comme ouvrages de prophètes. À première vue, l'idée selon laquelle ces renvois pourraient viser les sections de Samuel et des Rois où ces divers prophètes sont mentionnés a quelque vraisemblance ; mais dans presque tous les cas cette explication s'évanouit à l'examen. Le Chroniste avait accès à des écrits prophétiques dont on ne connaît plus aujourd'hui l'existence.",
+          "action": "translate"
+        },
+        {
+          "node": 142,
+          "part": "text",
+          "source": "(21) Liturgical writings of David and Solomon (",
+          "target": "(21) Écrits liturgiques de David et de Salomon (",
+          "action": "translate"
+        },
+        {
+          "node": 143,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 144,
+          "part": "tail",
+          "source": "). Josiah.",
+          "target": "). Josias.",
+          "action": "translate"
+        },
+        {
+          "node": 145,
+          "part": "text",
+          "source": "(22) Commandments of David and Gad and Nathan (",
+          "target": "(22) Commandements de David, de Gad et de Nathan (",
+          "action": "translate"
+        },
+        {
+          "node": 146,
+          "part": "tail",
+          "source": "). Hezekiah.",
+          "target": "). Ézéchias.",
+          "action": "translate"
+        },
+        {
+          "node": 147,
+          "part": "text",
+          "source": "(23) The Commandment of David and Asaph and Heman and Jeduthun (",
+          "target": "(23) Le Commandement de David, d'Asaph, de Héman et de Jeduthun (",
+          "action": "translate"
+        },
+        {
+          "node": 148,
+          "part": "tail",
+          "source": "). Josiah.",
+          "target": "). Josias.",
+          "action": "translate"
+        },
+        {
+          "node": 149,
+          "part": "text",
+          "source": "(24) Chronicles of King David (",
+          "target": "(24) Les Chroniques du roi David (",
+          "action": "translate"
+        },
+        {
+          "node": 151,
+          "part": "text",
+          "source": "(25) Last Words of David (",
+          "target": "(25) Les Dernières Paroles de David (",
+          "action": "translate"
+        },
+        {
+          "node": 153,
+          "part": "text",
+          "source": "Add to these many mentions of genealogical works, connected with particular times, those for example of David, Jotham, Jeroboam II (",
+          "target": "Ajoutez à ces nombreux renvois à des ouvrages généalogiques, liés à des époques particulières, ceux, par exemple, de David, de Jotham, de Jéroboam II (",
+          "action": "translate"
+        },
+        {
+          "node": 155,
+          "part": "tail",
+          "source": "), and mentions of matters that imply record-keeping, from Samuel and onward (e.g. ",
+          "target": "), et les mentions de matières qui impliquent la tenue d'archives, depuis Samuel et par la suite (par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 156,
+          "part": "tail",
+          "source": "). Add also the fact that the Chronicler had a habit, exhibited in Ezra and Nehemiah, of using and quoting what he represents to be public documents, for example, letters to and from Cyrus and Artaxerxes and Darius and Artaxerxes Longimanus (",
+          "target": "). Ajoutez encore le fait que le Chroniste avait l'habitude, manifestée dans Esdras et Néhémie, d'employer et de citer ce qu'il présente comme des documents publics, par exemple des lettres adressées à Cyrus, Artaxerxès, Darius et Artaxerxès Longue-Main, et provenant d'eux (",
+          "action": "translate"
+        },
+        {
+          "node": 164,
+          "part": "tail",
+          "source": "). It is no exaggeration to say that the Chronicler claims to have had a considerable library at his command.",
+          "target": "). Ce n'est pas exagérer que de dire que le Chroniste prétend avoir eu une bibliothèque considérable à sa disposition.",
+          "action": "translate"
+        },
+        {
+          "node": 166,
+          "part": "text",
+          "source": "6. Nehemiah's Library:",
+          "target": "6. La bibliothèque de Néhémie :",
+          "action": "translate"
+        },
+        {
+          "node": 167,
+          "part": "text",
+          "source": "If such a library as this existed we should perhaps expect to find some mention of it somewhere. Such a mention I think there is in the much discussed passage in 2 Macc 2:13-15. It occurs in what purports to be a letter written after 164 BC by the Maccabean leaders in Jerusalem to Aristobulus in Egypt. The letter has a good deal to say concerning Nehemiah, and among other things this: \"And how he, founding a library, gathered together the books about the kings and prophets, and the (books) of David, and letters of kings about sacred gifts.\" It says that these writings have been scattered by reason of the war, but that Judas has now gathered them again, and that they may be at the service of Aristobulus and his friends.",
+          "target": "Si une telle bibliothèque existait, nous devrions peut-être nous attendre à en trouver quelque mention quelque part. Une telle mention existe, je pense, dans le passage très discuté de 2 Maccabées 2:13-15. Elle figure dans ce qui se présente comme une lettre écrite après 164 av. J.-C. par les chefs maccabéens de Jérusalem à Aristobule en Égypte. La lettre parle beaucoup de Néhémie, et dit entre autres choses ceci : « Et comment, fondant une bibliothèque, il rassembla les livres concernant les rois et les prophètes, et les (livres) de David, et les lettres des rois concernant les dons sacrés. » Elle dit que ces écrits ont été dispersés à cause de la guerre, mais que Judas les a maintenant rassemblés de nouveau et qu'ils peuvent être mis à la disposition d'Aristobule et de ses amis.",
+          "action": "translate"
+        },
+        {
+          "node": 168,
+          "part": "text",
+          "source": "This alleged letter contains statements that seem fabulous to most modern readers, though they may not have seemed so to Judas and his compatriots. Leaving out of view, however, the intrinsic credibility of the witness, the fitting of the statement into certain other traditions and into the phenomena presented in Chronicles is a thing too remarkable to neglect. In the past, men have cited this passage as an account of the framing of a canon of Scripture--the canon of the Prophets, or of the Prophets and the Hagiographa. But it purports to be an account of a library, not of a body of Scripture; and its list of contents does not appear to be that of either the Prophets or the Hagiographa or both. But it is an exact list of the sources to which the author (or authors) of Chronicles and Ezra and Nehemiah claim to have access--\"books about the kings\" (see above, Numbers 1-7), \"and prophets\" (Numbers 8-20), \"and of David\" (Numbers 21-25 ff), \"and letters of kings about sacred gifts\" (those cited in Ezra and Nehemiah). The library attributed to Nehemiah corresponds to the one which the Chronicler claims to have used; and the two independent pieces of evidence strongly confirm each the other.",
+          "target": "Cette prétendue lettre contient des déclarations qui semblent fabuleuses à la plupart des lecteurs modernes, bien qu'elles aient pu ne pas sembler telles à Judas et à ses compatriotes. Laissant cependant de côté la crédibilité intrinsèque du témoin, la concordance de cette déclaration avec certaines autres traditions et avec les phénomènes présentés dans les Chroniques est une chose trop remarquable pour être négligée. Autrefois, on a cité ce passage comme un récit de la formation d'un canon de l'Écriture — le canon des Prophètes, ou des Prophètes et des Hagiographes. Mais il se présente comme un récit concernant une bibliothèque, non un ensemble d'Écritures ; et la liste de son contenu ne paraît être celle ni des Prophètes, ni des Hagiographes, ni des deux ensemble. Mais c'est une liste exacte des sources auxquelles l'auteur (ou les auteurs) des Chroniques, d'Esdras et de Néhémie prétend avoir accès — « livres concernant les rois » (voir ci-dessus, numéros 1-7), « et les prophètes » (numéros 8-20), « et de David » (numéros 21-25 et suivants), « et lettres des rois concernant les dons sacrés » (celles qui sont citées dans Esdras et Néhémie). La bibliothèque attribuée à Néhémie correspond à celle que le Chroniste prétend avoir employée ; et les deux témoignages indépendants se confirment fortement l'un l'autre.",
+          "action": "translate"
+        },
+        {
+          "node": 170,
+          "part": "text",
+          "source": "7. The Way of Using the Biblical Sources:",
+          "target": "7. La manière d'utiliser les sources bibliques :",
+          "action": "translate"
+        },
+        {
+          "node": 171,
+          "part": "text",
+          "source": "The method in which the Biblical sources are used in Chronicles presents certain remarkable features. As a typical instance study ",
+          "target": "La méthode selon laquelle les sources bibliques sont employées dans les Chroniques présente certains traits remarquables. Comme exemple typique, étudiez ",
+          "action": "translate"
+        },
+        {
+          "node": 172,
+          "part": "tail",
+          "source": " in comparison with ",
+          "target": " en comparaison avec ",
+          "action": "translate"
+        },
+        {
+          "node": 174,
+          "part": "tail",
+          "source": " is just a transcription, with slight changes, of the passage in Samuel. A large part of Chronicles is thus made up of passages transcribed from Samuel and Kings. The alternative is that the Chronicler transcribed from sources which had earlier been transcribed in Samuel and Kings, and this alternative may in some cases be the true one.",
+          "target": " n'est qu'une transcription, avec de légers changements, du passage de Samuel. Une grande partie des Chroniques se compose ainsi de passages transcrits de Samuel et des Rois. L'autre possibilité est que le Chroniste ait transcrit des sources qui avaient été transcrites auparavant dans Samuel et les Rois, et cette autre possibilité peut dans certains cas être la bonne.",
+          "action": "translate"
+        },
+        {
+          "node": 175,
+          "part": "text",
+          "source": "This phenomenon is interesting for many reasons. It has its bearings on the trustworthiness of the information given; a copy of an ancient document is of higher character as evidence than a mere report of the contents of the document. It has a bearing on questions concerning the text; are the texts in Kings and Chronicles to be regarded as two recensions? It is especially interesting as illustrating the literary processes in use among the writers of our Scriptures.",
+          "target": "Ce phénomène est intéressant pour bien des raisons. Il a des incidences sur la fiabilité des renseignements donnés ; une copie d'un document ancien a une valeur probante plus élevée qu'un simple compte rendu du contenu du document. Il touche à des questions concernant le texte ; les textes des Rois et des Chroniques doivent-ils être considérés comme deux recensions ? Il est particulièrement intéressant en ce qu'il illustre les procédés littéraires en usage parmi les auteurs de nos Écritures.",
+          "action": "translate"
+        },
+        {
+          "node": 176,
+          "part": "text",
+          "source": "It is sometimes said that they used their sources not by restating the contents as a modern compiler would do, but by just copying. It would be more correct to say that they do this part of the time. In ",
+          "target": "On dit parfois qu'ils employaient leurs sources non en reformulant leur contenu comme le ferait un compilateur moderne, mais en les copiant simplement. Il serait plus exact de dire qu'ils le font une partie du temps. En ",
+          "action": "translate"
+        },
+        {
+          "node": 177,
+          "part": "tail",
+          "source": " the copying process ceases with ",
+          "target": ", le procédé de copie cesse avec ",
+          "action": "translate"
+        },
+        {
+          "node": 178,
+          "part": "tail",
+          "source": ". In ",
+          "target": ". En ",
+          "action": "translate"
+        },
+        {
+          "node": 180,
+          "part": "tail",
+          "source": " the Chronicler condenses into a sentence a large part of the contents of 1 Samuel; one clause in particular is a condensation of ",
+          "target": ", le Chroniste condense en une phrase une grande partie du contenu de 1 Samuel ; une proposition en particulier est une condensation de ",
+          "action": "translate"
+        },
+        {
+          "node": 181,
+          "part": "tail",
+          "source": ". So it is with other parts. ",
+          "target": ". Il en va de même dans d'autres parties. ",
+          "action": "translate"
+        },
+        {
+          "node": 182,
+          "part": "tail",
+          "source": " is abridged from ",
+          "target": " est abrégé de ",
+          "action": "translate"
+        },
+        {
+          "node": 183,
+          "part": "tail",
+          "source": " at the rate of a name for a section; so is ",
+          "target": " à raison d'un nom pour une section ; de même ",
+          "action": "translate"
+        },
+        {
+          "node": 184,
+          "part": "tail",
+          "source": " from ",
+          "target": " est abrégé de ",
+          "action": "translate"
+        },
+        {
+          "node": 185,
+          "part": "tail",
+          "source": ". In the various parts of Chronicles we find all the methods that are used by any compiler; the differentiating fact is simply that the method of transcribing is more used than it would be by a modern compiler.",
+          "target": ". Dans les diverses parties des Chroniques nous trouvons toutes les méthodes employées par n'importe quel compilateur ; le fait distinctif est simplement que la méthode de transcription est plus employée qu'elle ne le serait par un compilateur moderne.",
+          "action": "translate"
+        },
+        {
+          "node": 186,
+          "part": "text",
+          "source": "In the transcribed passages, almost without exception, there has been a systematic editorial revision. Words and clauses have been pruned out, and grammatical roughness smoothed away. Regularly the text in Chronicles is somewhat briefer, and is more fluent than in Samuel or Kings. If we give the matter careful attention we will be sure that this revisional process took place, and that it accounts for most of the textual differences between Chronicles and the earlier writings, not leaving many to be accounted for as corruptions.",
+          "target": "Dans les passages transcrits, presque sans exception, il y a eu une révision éditoriale systématique. Des mots et des propositions ont été retranchés et des aspérités grammaticales aplanies. En règle générale, le texte des Chroniques est un peu plus bref et plus fluide que dans Samuel ou les Rois. Si nous accordons à la question une attention minutieuse, nous serons certains que ce procédé de révision eut lieu et qu'il rend compte de la plupart des différences textuelles entre les Chroniques et les écrits antérieurs, n'en laissant que peu à expliquer comme des corruptions du texte.",
+          "action": "translate"
+        },
+        {
+          "node": 188,
+          "part": "text",
+          "source": "8. Additions by the Chronicler:",
+          "target": "8. Les ajouts du Chroniste :",
+          "action": "translate"
+        },
+        {
+          "node": 189,
+          "part": "text",
+          "source": "Of course the most significant changes made by the Chronicler are those which consist in additions and omissions. It is a familiar fact that the added passages in Chronicles which bulk largest are those which deal with the temple and its Worship and its attendants--its priests, Levites, musicians, singers, doorkeepers. Witness for example the added matter in connection with the bringing of the ark to Jerusalem, the preparations for the temple, the priests' joining Rehoboam, the war between Abijah and Jeroboam, the reforms under Asa and Jehoshaphat, details concerning Uzziah, Hezekiah's passover, the reform of Manasseh, the passover of Josiah (1Ch 15-16; 22- 29; ",
+          "target": "Bien entendu, les changements les plus significatifs opérés par le Chroniste sont ceux qui consistent en ajouts et omissions. C'est un fait bien connu que les passages ajoutés dans les Chroniques qui occupent le plus de place sont ceux qui traitent du temple, de son culte et de ses serviteurs — ses prêtres, Lévites, musiciens, chantres, portiers. En témoignent, par exemple, les matières ajoutées à propos du transfert de l'arche à Jérusalem, des préparatifs du temple, du ralliement des prêtres à Roboam, de la guerre entre Abija et Jéroboam, des réformes sous Asa et Josaphat, des détails concernant Ozias, de la Pâque d'Ézéchias, de la réforme de Manassé, de la Pâque de Josias (1 Ch 15-16 ; 22-29 ; ",
+          "action": "translate"
+        },
+        {
+          "node": 190,
+          "part": "tail",
+          "source": "; 13; 14; 15; 17; 19; 20; 26:16-21; 29-31; 33:10-20; 35). It has been less noticed than it should be that while the Chronicler in these passages magnifies the ceremonial laws of Moses, he magnifies those of David yet more.",
+          "target": " ; 13 ; 14 ; 15 ; 17 ; 19 ; 20 ; 26:16-21 ; 29-31 ; 33:10-20 ; 35). On a moins remarqué qu'on ne l'aurait dû que, si le Chroniste exalte dans ces passages les lois cérémonielles de Moïse, il exalte encore davantage celles de David.",
+          "action": "translate"
+        },
+        {
+          "node": 191,
+          "part": "text",
+          "source": "Next in bulk comes the added genealogical and statistical matter, for example, the larger part of the preliminary genealogies, details as to David's followers, Rehoboam's fortified cities and family affairs with details concerning the Shishak invasion, Asa's military preparations and the invasion by Zerah, with numbers and dates, Jehoshaphat's military arrangements, with numbers, Jehoram's brothers and other details concerning him, Uzziah's army and his business enterprises (1Ch 2-9; 12; 27; ",
+          "target": "Viennent ensuite, par leur volume, les matières généalogiques et statistiques ajoutées, par exemple la plus grande partie des généalogies préliminaires, les détails concernant les compagnons de David, les villes fortifiées et les affaires familiales de Roboam, avec des détails concernant l'invasion de Schischak, les préparatifs militaires d'Asa et l'invasion de Zérach, avec des nombres et des dates, les dispositions militaires de Josaphat, avec des nombres, les frères de Joram et d'autres détails le concernant, l'armée d'Ozias et ses entreprises économiques (1 Ch 2-9 ; 12 ; 27 ; ",
+          "action": "translate"
+        },
+        {
+          "node": 199,
+          "part": "text",
+          "source": "The Chronicler is sometimes spoken of as interested in priestly affairs, and not in the prophets. That is a mistake. He takes particular pains to magnify the prophets (e.g. ",
+          "target": "On parle parfois du Chroniste comme s'intéressant aux affaires sacerdotales, et non aux prophètes. C'est une erreur. Il prend particulièrement soin d'exalter les prophètes (par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 202,
+          "part": "tail",
+          "source": "). He uses the word \"prophet\" 30 times, and the two words for \"seer\" (chozeh and ro'eh) respectively 5 and 11 times. He gives us additional information concerning many of the prophets--for example, Samuel, Gad, Nathan, Ahijah, Shemaiah, Hanani, Jehu, Elijah, Isaiah, Jeremiah. He has taken pains to preserve for us a record of many prophets concerning whom we should otherwise be ignorant--Asaph, Heman, Jeduthun, Jedo (",
+          "target": "). Il emploie le mot « prophète » 30 fois, et les deux mots pour « voyant » (chozeh et ro'eh) respectivement 5 et 11 fois. Il nous donne des renseignements supplémentaires concernant beaucoup de prophètes — par exemple Samuel, Gad, Nathan, Achija, Schemaeja, Hanani, Jéhu, Élie, Ésaïe, Jérémie. Il a pris soin de nous conserver un témoignage concernant de nombreux prophètes dont nous ignorerions autrement l'existence — Asaph, Héman, Jeduthun, Jedo (",
+          "action": "translate"
+        },
+        {
+          "node": 203,
+          "part": "tail",
+          "source": "), Iddo, the Oded of Asa's time, Jahaziel the son of Zechariah, Eliezer the son of Dodavah, two Zechariahs (",
+          "target": "), Iddo, l'Oded du temps d'Asa, Jachaziel fils de Zacharie, Éliézer fils de Dodava, deux Zacharie (",
+          "action": "translate"
+        },
+        {
+          "node": 205,
+          "part": "tail",
+          "source": "), unnamed prophets of the time of Amaziah (",
+          "target": "), des prophètes anonymes du temps d'Amatsia (",
+          "action": "translate"
+        },
+        {
+          "node": 208,
+          "part": "tail",
+          "source": "), Oded of the time of Ahaz (",
+          "target": "), Oded du temps d'Achaz (",
+          "action": "translate"
+        },
+        {
+          "node": 210,
+          "part": "text",
+          "source": "In addition, however, to the materials that can be thus classified, it is the method of the Chronicler to preserve interesting incidents of all kinds by working them into his narrative. When he reaches Jair in his genealogical list, he finds himself in possession of a bit of information not contained in the older writings, and he inserts it (",
+          "target": "En plus, cependant, des matériaux qui peuvent être ainsi classés, c'est la méthode du Chroniste que de conserver des incidents intéressants de toutes sortes en les incorporant dans son récit. Lorsqu'il arrive à Jaïr dans sa liste généalogique, il se trouve en possession d'un élément de renseignement non contenu dans les écrits plus anciens, et il l'insère (",
+          "action": "translate"
+        },
+        {
+          "node": 211,
+          "part": "tail",
+          "source": " ff). He is interested to keep alive the memory of the \"families of scribes which dwelt at Jabez\" (",
+          "target": " et suivants). Il tient à maintenir vivant le souvenir des « familles de scribes qui habitaient à Jaebets » (",
+          "action": "translate"
+        },
+        {
+          "node": 212,
+          "part": "tail",
+          "source": "). He has found items concerning craftsmen, and concerning a linen industry, and a potters' industry, and he connects these with names in his list (",
+          "target": "). Il a trouvé des renseignements concernant des artisans, une industrie du lin et une industrie de potiers, et il les rattache à des noms dans sa liste (",
+          "action": "translate"
+        },
+        {
+          "node": 215,
+          "part": "tail",
+          "source": "). He has come across a bit of a hymn in the name of Jabez, and he attaches the hymn to his list of names as an annotation (",
+          "target": "). Il a rencontré un fragment d'hymne au nom de Jaebets, et il rattache l'hymne à sa liste de noms comme annotation (",
+          "action": "translate"
+        },
+        {
+          "node": 217,
+          "part": "tail",
+          "source": "). There are matters concerning the sickness and the burial of Asa, and concerning the bad conduct of Joash after the death of Jehoiada, and concerning constructions by Hezekiah (",
+          "target": "). Il y a des faits concernant la maladie et la sépulture d'Asa, la mauvaise conduite de Joas après la mort de Jehojada et les constructions d'Ézéchias (",
+          "action": "translate"
+        },
+        {
+          "node": 221,
+          "part": "tail",
+          "source": "), that seem to the Chronicler worth preserving, though they are not recorded in the earlier writings. The fruits of the habit appear, in many scores of instances, in all parts of the Books of Chronicles.",
+          "target": "), qui semblent au Chroniste dignes d'être conservés, bien qu'ils ne soient pas rapportés dans les écrits antérieurs. Les fruits de cette habitude apparaissent, dans de très nombreux cas, dans toutes les parties des livres des Chroniques.",
+          "action": "translate"
+        },
+        {
+          "node": 223,
+          "part": "text",
+          "source": "9. Omissions by the Chronicler:",
+          "target": "9. Les omissions du Chroniste :",
+          "action": "translate"
+        },
+        {
+          "node": 224,
+          "part": "text",
+          "source": "As the Books of Chronicles thus add matters not found in the older books, so they leave out much that is contained in the Books of Samuel and Kings. Here, however, the question should rather be as to what the Chronicler has retained from his sources than as to what he has omitted. He writes for readers whom he assumes to be familiar with the earlier books, and he retains so much of the older narrative as seems to him necessary for defining the relations of his new statements of fact to that narrative. From the point where the history of David begins he has omitted everything that is not strictly connected with David or his dynasty--the history of northern Israel as such, the long narratives concerning the prophets, such distressing affairs as those of Amnon and Absalom and Adonijah and the faithlessness of Solomon, and a multitude of minor particulars. We have already noticed his systematic shortening of the passages which he transcribes.",
+          "target": "De même que les livres des Chroniques ajoutent ainsi des matières qui ne se trouvent pas dans les livres plus anciens, ils laissent de côté beaucoup de ce que contiennent les livres de Samuel et des Rois. Ici toutefois, la question devrait porter plutôt sur ce que le Chroniste a retenu de ses sources que sur ce qu'il a omis. Il écrit pour des lecteurs qu'il suppose familiers des livres antérieurs, et il retient autant de l'ancien récit qu'il lui paraît nécessaire pour définir les rapports de ses nouvelles déclarations de fait avec ce récit. À partir du point où commence l'histoire de David, il a omis tout ce qui n'est pas strictement lié à David ou à sa dynastie — l'histoire d'Israël du Nord comme telle, les longs récits concernant les prophètes, des affaires aussi affligeantes que celles d'Amnon, d'Absalom et d'Adonija, ainsi que l'infidélité de Salomon, et une multitude de détails mineurs. Nous avons déjà remarqué son raccourcissement systématique des passages qu'il transcrit.",
+          "action": "translate"
+        },
+        {
+          "node": 226,
+          "part": "text",
+          "source": "10. The Extra-Biblical Sources:",
+          "target": "10. Les sources extrabibliques :",
+          "action": "translate"
+        },
+        {
+          "node": 227,
+          "part": "text",
+          "source": "There are two marked phenomena in the parts of Chronicles which were not taken from the other canonical books. They are written in later Hebrew of a pretty uniform type; many parts of them are fragmentary. The Hebrew of the parts that were copied from Samuel and Kings is of course the classical Hebrew of those books, generally made more classical by the revision to which it has been subjected. The Hebrew of the other parts is presumably that of the Chronicler himself. The difference is unmistakable. An obvious way of accounting for it is by supposing that the Chronicler treated his Scriptural sources with especial respect, and his other sources with more freedom. We will presently consider whether this is the true account.",
+          "target": "Il existe deux phénomènes marqués dans les parties des Chroniques qui n'ont pas été empruntées aux autres livres canoniques. Elles sont écrites dans un hébreu tardif d'un type assez uniforme ; beaucoup d'entre elles sont fragmentaires. L'hébreu des parties qui ont été copiées de Samuel et des Rois est naturellement l'hébreu classique de ces livres, généralement rendu plus classique par la révision à laquelle il a été soumis. L'hébreu des autres parties est vraisemblablement celui du Chroniste lui-même. La différence est indubitable. Une manière évidente d'en rendre compte consiste à supposer que le Chroniste traita ses sources scripturaires avec un respect particulier et ses autres sources avec plus de liberté. Nous examinerons bientôt si telle est la véritable explication.",
+          "action": "translate"
+        },
+        {
+          "node": 228,
+          "part": "text",
+          "source": "There are indications that some of the non-Biblical sources were in a mutilated or otherwise fragmentary condition when the Chronicler used them. Broken sentences and passages and constructions abound. In the translations these are largely concealed, the translators having guessed the meanings into shape, but the roughnesses are palpable in the Hebrew. They appear less in the long narratives than in the genealogies and descriptive passages. They are sometimes spoken of as if they were characteristic of the later Hebrew, but there is no sense in that.",
+          "target": "Il y a des indices que certaines des sources non bibliques se trouvaient dans un état mutilé ou autrement fragmentaire lorsque le Chroniste les employa. Les phrases, passages et constructions interrompus abondent. Dans les traductions, ils sont largement dissimulés, les traducteurs ayant conjecturé les sens pour leur donner une forme suivie, mais les aspérités sont manifestes dans l'hébreu. Elles apparaissent moins dans les longs récits que dans les généalogies et les passages descriptifs. On en parle parfois comme si elles étaient caractéristiques de l'hébreu tardif, mais cela n'a aucun sens.",
+          "action": "translate"
+        },
+        {
+          "node": 229,
+          "part": "text",
+          "source": "For example, most of the genealogies are incomplete. The priestly genealogies omit some of the names that are most distinguished in the history, such names as those of Jehoiada and two Azariahs (",
+          "target": "Par exemple, la plupart des généalogies sont incomplètes. Les généalogies sacerdotales omettent quelques-uns des noms les plus distingués dans l'histoire, tels ceux de Jehojada et de deux Azaria (",
+          "action": "translate"
+        },
+        {
+          "node": 230,
+          "part": "tail",
+          "source": ", etc.; ",
+          "target": ", etc. ; ",
+          "action": "translate"
+        },
+        {
+          "node": 232,
+          "part": "tail",
+          "source": "). Many of the genealogies are given more than once, and in variant forms, but with their incompleteness still palpable. There are many breaks in the lists. We read the names of one group, and we suddenly find ourselves in the midst of names that belong to another group, and with nothing to call attention to the transition. The same phenomena appear in the sections in ",
+          "target": "). Beaucoup de généalogies sont données plus d'une fois, et sous des formes variantes, mais avec leur caractère incomplet toujours manifeste. Il y a de nombreuses ruptures dans les listes. Nous lisons les noms d'un groupe, et nous nous trouvons soudain au milieu de noms qui appartiennent à un autre groupe, sans que rien attire l'attention sur la transition. Les mêmes phénomènes apparaissent dans les sections de ",
+          "action": "translate"
+        },
+        {
+          "node": 233,
+          "part": "tail",
+          "source": ". These contain a succession of matters arranged in absolutely systematic order in classes and subclasses, while many of the statements thus arranged are so fragmentary as to be hardly intelligible. The most natural explanation of these phenomena assumes that the writer had a quantity of fragments in writing--clay tablets, perhaps, or pottery or papyrus, or what not, more or less mutilated, and that he copied them as best he could, one after another. A modern writer, doing such work, would indicate the lacunae by dots or dashes or other devices. The ancient copyist simply wrote the bits of text one after another, without such indications. In regard to many of the supposable lacunae in Chronicles scholars would differ, but there are a large number in regard to which all would agree. If someone would print a text of Chronicles in which these should be indicated, he would make an important contribution to the intelligibility of the books.",
+          "target": ". Celles-ci contiennent une succession de matières disposées dans un ordre absolument systématique, en classes et sous-classes, tandis que beaucoup des déclarations ainsi disposées sont si fragmentaires qu'elles sont à peine intelligibles. L'explication la plus naturelle de ces phénomènes suppose que l'auteur avait une quantité de fragments écrits — des tablettes d'argile, peut-être, ou des tessons, du papyrus, ou quelque autre support, plus ou moins mutilés — et qu'il les copia du mieux qu'il put, les uns après les autres. Un auteur moderne, faisant un tel travail, indiquerait les lacunes par des points, des tirets ou d'autres procédés. Le copiste ancien écrivait simplement les fragments de texte les uns après les autres, sans de telles indications. Au sujet de beaucoup des lacunes que l'on peut supposer dans les Chroniques, les savants différeraient d'avis, mais il en est un grand nombre au sujet desquelles tous seraient d'accord. Si quelqu'un imprimait un texte des Chroniques où celles-ci seraient indiquées, il apporterait une contribution importante à l'intelligibilité des livres.",
+          "action": "translate"
+        },
+        {
+          "node": 235,
+          "part": "text",
+          "source": "11. The Object in Writing the Books of Chronicles:",
+          "target": "11. Le but de la rédaction des livres des Chroniques :",
+          "action": "translate"
+        },
+        {
+          "node": 236,
+          "part": "text",
+          "source": "On the basis of these phenomena what judgment can we form as to the purposes for which the books of Chronicles were written? There are those who find the answer to this question a very simple one. They say that the interests of the writer were those of the temple priesthood, that it seemed to him that the older histories did not emphasize these interests as they ought, and that he therefore wrote a new history, putting into it the views and facts which he thought should be there. If this statement were modified so as not to impugn the good faith of the Chronicler, it would be nearly correct as a statement of part of his purpose. His purpose was to preserve what he regarded as historical materials that were in danger of being lost, materials concerning the temple-worship, but also concerning a large variety of other matters. He had the historian's instinct for laying hold of all sorts of details, and putting them into permanent form. His respiration from God (we do not here discuss the nature of that inspiration) led him this way. He wanted to save for the future that which he regarded as historical fact. The contents of the book, determined in part by his enthusiasm for the temple, were also determined in part by the nature of the materials that were providentially at his disposal. There seems also to have been present in his consciousness the idea of bringing to completion the body of sacred writings which had then been accumulating for centuries.",
+          "target": "Sur la base de ces phénomènes, quel jugement pouvons-nous former quant aux buts pour lesquels les livres des Chroniques furent écrits ? Il en est qui trouvent une réponse très simple à cette question. Ils disent que les intérêts de l'auteur étaient ceux du sacerdoce du temple, qu'il lui semblait que les histoires plus anciennes ne mettaient pas en relief ces intérêts autant qu'elles l'auraient dû, et que par conséquent il écrivit une nouvelle histoire en y mettant les vues et les faits qui, selon lui, devaient y figurer. Si cette déclaration était modifiée de manière à ne pas mettre en cause la bonne foi du Chroniste, elle serait presque exacte comme énoncé d'une partie de son but. Son but était de conserver ce qu'il considérait comme des matériaux historiques en danger de se perdre, des matériaux concernant le culte du temple, mais aussi une grande variété d'autres matières. Il avait l'instinct de l'historien pour saisir toutes sortes de détails et leur donner une forme permanente. Son inspiration venant de Dieu (nous ne discutons pas ici de la nature de cette inspiration) le conduisit dans cette voie. Il voulait sauver pour l'avenir ce qu'il considérait comme des faits historiques. Le contenu du livre, déterminé en partie par son enthousiasme pour le temple, le fut aussi en partie par la nature des matériaux qui se trouvaient providentiellement à sa disposition. Il semble aussi avoir eu présente à l'esprit l'idée de porter à son achèvement le corps des écrits sacrés qui s'accumulait alors depuis des siècles.",
+          "action": "translate"
+        },
+        {
+          "node": 237,
+          "part": "text",
+          "source": "As we have seen, the Greek translators gave to the Books of Chronicles a title which expressed the idea they had of the work. They regarded it as the presentation of matters which had been omitted in the earlier Scriptures, as written not to supersede the older books, but to supplement them, as being, along with Ezra and Nehemiah, a work that brought the Scriptures up to date, and made them complete.",
+          "target": "Comme nous l'avons vu, les traducteurs grecs donnèrent aux livres des Chroniques un titre qui exprimait l'idée qu'ils se faisaient de l'ouvrage. Ils le considéraient comme la présentation de matières qui avaient été omises dans les Écritures antérieures, comme écrit non pour remplacer les livres plus anciens, mais pour les compléter, comme étant, avec Esdras et Néhémie, un ouvrage qui mettait les Écritures à jour et les rendait complètes.",
+          "action": "translate"
+        },
+        {
+          "node": 239,
+          "part": "text",
+          "source": "12. The Text:",
+          "target": "12. Le texte :",
+          "action": "translate"
+        },
+        {
+          "node": 240,
+          "part": "text",
+          "source": "The text of the Books of Chronicles has been less carefully preserved than that of some other parts of the Old Testament. Witness for example the numbers 42 and 8 for the ages of Ahaziah and Jehoiachin (",
+          "target": "Le texte des livres des Chroniques a été moins soigneusement conservé que celui de certaines autres parties de l'Ancien Testament. En témoignent, par exemple, les nombres 42 et 8 pour les âges d'Achazia et de Jojakin (",
+          "action": "translate"
+        },
+        {
+          "node": 241,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 243,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 244,
+          "part": "tail",
+          "source": "). There is no proof, however, of important textual corruption. As we have seen, the fragmentary character of certain parts is probably in the main due to exactness in following fragmentary sources, and not to bad text; and the differences between Samuel or Kings and Chronicles, in the transcribed passages, are mostly due to intended revision rather than to text variations.",
+          "target": "). Il n'y a toutefois aucune preuve de corruption textuelle importante. Comme nous l'avons vu, le caractère fragmentaire de certaines parties est probablement dû en grande partie à l'exactitude avec laquelle des sources fragmentaires ont été suivies, et non à un mauvais texte ; et les différences entre Samuel ou les Rois et les Chroniques, dans les passages transcrits, sont pour la plupart dues à une révision intentionnelle plutôt qu'à des variantes textuelles.",
+          "action": "translate"
+        },
+        {
+          "node": 246,
+          "part": "text",
+          "source": "13. Critical Estimates:",
+          "target": "13. Appréciations critiques :",
+          "action": "translate"
+        },
+        {
+          "node": 247,
+          "part": "text",
+          "source": "In critical discussions less semblance of fair play has been accorded to Chronicles than even to most of the other Scriptures. It is not unusual to assume that the Chronicler's reference to sources is mere make-believe, that he \"has cited sources simply to produce the impression that he is writing with authority.\" Others hurry to the generalization that the Books of Kings mentioned in Chronicles (see Numbers 1-7 above) are all one work, which must therefore have been an extensive Midrash (commentary, exe getical and anecdotal) on the canonical Books of Kings; and that the references to prophetic writings are to sections in this Midrash; so that practically the Chronicler had only two sources, the canonical books and this midrashic history of Israel; and that \"it is impossible to determine\" whether he gathered any bits of information from any other sources.",
+          "target": "Dans les discussions critiques, on a accordé aux Chroniques encore moins de semblant d'équité qu'à la plupart même des autres Écritures. Il n'est pas rare de supposer que les renvois du Chroniste à ses sources sont une pure feinte, qu'il « a cité des sources simplement pour produire l'impression qu'il écrit avec autorité ». D'autres se hâtent de généraliser en affirmant que les livres des Rois mentionnés dans les Chroniques (voir numéros 1-7 ci-dessus) sont tous un seul ouvrage, qui doit donc avoir été un vaste midrash (commentaire exégétique et anecdotique) sur les livres canoniques des Rois ; et que les renvois aux écrits prophétiques visent des sections de ce midrash ; de sorte que pratiquement le Chroniste n'aurait eu que deux sources, les livres canoniques et cette histoire midrashique d'Israël ; et qu'« il est impossible de déterminer » s'il a recueilli des éléments de renseignement provenant d'autres sources.",
+          "action": "translate"
+        },
+        {
+          "node": 248,
+          "part": "text",
+          "source": "Into the critical theories concerning Chronicles enters a hypothesis of an earlier Book of Ki that was more extensive than our present canonical books. And in recent publications of such men as Buchler, Benzinger and Kittel are theories of an analysis of Chronicles into documents--for example, an earlier writing that made no distinction between priests and Levites, or an earlier writing which dealt freely with the canonical books; and the later writing of the Chronicler proper.",
+          "target": "Dans les théories critiques concernant les Chroniques entre une hypothèse d'un livre antérieur des Rois qui aurait été plus étendu que nos livres canoniques actuels. Et dans les publications récentes d'hommes tels que Buchler, Benzinger et Kittel se trouvent des théories d'une analyse des Chroniques en documents — par exemple un écrit antérieur qui ne faisait aucune distinction entre prêtres et Lévites, ou un écrit antérieur qui traitait librement les livres canoniques ; et l'écrit ultérieur du Chroniste proprement dit.",
+          "action": "translate"
+        },
+        {
+          "node": 249,
+          "part": "text",
+          "source": "What we know in the matter is that three sets of authors combined in producing the Books of Chronicles--first, the men who produced the canonical sources, second, the men who produced the other sources, and third, the man or men who directly or indirectly put the contents of these sources together into the book which we have. We have no means of knowing what most of the intermediate processes were, and it is superlatively useless to guess. It is gratuitous to say that the mention of sources in Chronicl es is not made in good faith. It is probable that among the sources were Midrashim that were nearly contemporaneous. It is exceedingly improbable that none of the sources mentioned were genuine and ancient. All probabilities agree to the effect that the returned exiles and their near descendants were likely to study the ancient history of their race, and to gather materials for that purpose. As we have seen, the phenomena of the book indicate the presence of an antiquarian motive which was sure to be interested in genuine items of evidence from the remote past.",
+          "target": "Ce que nous savons en la matière, c'est que trois groupes d'auteurs ont concouru à produire les livres des Chroniques — premièrement les hommes qui produisirent les sources canoniques, deuxièmement les hommes qui produisirent les autres sources, et troisièmement l'homme ou les hommes qui, directement ou indirectement, réunirent le contenu de ces sources dans le livre que nous avons. Nous n'avons aucun moyen de connaître la plupart des procédés intermédiaires, et il est souverainement inutile de les conjecturer. Il est gratuit de dire que la mention des sources dans les Chroniques n'est pas faite de bonne foi. Il est probable que parmi les sources se trouvaient des midrashim presque contemporains. Il est extrêmement improbable qu'aucune des sources mentionnées n'ait été authentique et ancienne. Toutes les probabilités concordent en ce sens que les exilés revenus et leurs descendants immédiats étaient susceptibles d'étudier l'histoire ancienne de leur peuple et de rassembler des matériaux à cette fin. Comme nous l'avons vu, les phénomènes du livre indiquent la présence d'un intérêt pour les antiquités qui devait nécessairement s'attacher à des témoignages authentiques du passé lointain.",
+          "action": "translate"
+        },
+        {
+          "node": 251,
+          "part": "text",
+          "source": "14. Date and Authorship:",
+          "target": "14. Date et auteur :",
+          "action": "translate"
+        },
+        {
+          "node": 252,
+          "part": "text",
+          "source": "The current opinion sixty years ago was that the Books of Chronicles and the whole Old Testament were completed about 404 BC, near the time when Artaxerxes Mnemon succeeded Darius Nothus. The statement now fashionable is that the Books of Chronicles were completed not later than about 250 BC, and this constantly degenerates into the statement that they were written about 250 BC or later. In fact, they were completed within the lifetime of Nehemiah, not later or not much later than 400 BC.",
+          "target": "L'opinion courante il y a soixante ans était que les livres des Chroniques et l'ensemble de l'Ancien Testament avaient été achevés vers 404 av. J.-C., près du moment où Artaxerxès Mnémon succéda à Darius Nothus. L'affirmation à la mode aujourd'hui est que les livres des Chroniques furent achevés au plus tard vers 250 av. J.-C., et celle-ci dégénère constamment en l'affirmation qu'ils furent écrits vers 250 av. J.-C. ou plus tard. En fait, ils furent achevés du vivant de Néhémie, pas plus tard, ou guère plus tard, que 400 av. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 253,
+          "part": "text",
+          "source": "In discussing this we cannot ignore the fact that Chronicles and Ezra and Nehemiah are one work, or, if you prefer, one series. The closing verses of 2 Chronicles duplicate the opening verses of Ezr. This is not, probably, an inadvertent repetition. The Books of Chronicles were written later than the other parts of the series. The closing verses are the Chronicler's notification to his readers that he has brought up the earlier history to the point at which he had previously begun the narrative in Ezr. The testimony concerning Ezra and the \"men of the Great Synagogue\" and Nehemiah and their work on the Scriptures does not deserve the contempt with which some persons treat it. We know nothing concerning the Great Synagogue as an organization, but we know much concerning the succession of men, from Daniel to Simon the Just, who are called the men of the Great Synagogue. The old traditions do not say that Ezra was the founder of the succession, but they make him the typical person in it. Two bits of tradition are not necessarily inconsistent if one attributes work to Ezra which the other attributes to the men of the Great Synagogue. The regulation remark that tradition attributes Biblical work to Ezra and not to Nehemiah is untrue. Nehemiah was one of the men of the Great Synagogue, and prominent as such. He is introduced to us as a handsome boy, a king's favorite, coming to Jerusalem in 444 BC. In 433 BC he returned to the king. After an unknown interval of time he came back to Judea, and presumably spent the remainder of his long life there, dying some years or sortie decades after 400 BC.",
+          "target": "En discutant de cela, nous ne pouvons ignorer le fait que les Chroniques, Esdras et Néhémie forment une seule œuvre, ou, si l'on préfère, une seule série. Les derniers versets de 2 Chroniques reproduisent les premiers versets d'Esdras. Ce n'est probablement pas une répétition involontaire. Les livres des Chroniques furent écrits plus tard que les autres parties de la série. Les derniers versets constituent l'avis que le Chroniste donne à ses lecteurs qu'il a conduit l'histoire antérieure jusqu'au point où il avait précédemment commencé le récit dans Esdras. Le témoignage concernant Esdras, les « hommes de la Grande Synagogue » et Néhémie, ainsi que leur travail sur les Écritures, ne mérite pas le mépris avec lequel certaines personnes le traitent. Nous ne savons rien concernant la Grande Synagogue en tant qu'organisation, mais nous savons beaucoup de choses concernant la succession d'hommes, de Daniel à Simon le Juste, qui sont appelés les hommes de la Grande Synagogue. Les anciennes traditions ne disent pas qu'Esdras fut le fondateur de cette succession, mais elles font de lui la personne représentative de celle-ci. Deux éléments de tradition ne sont pas nécessairement incompatibles si l'un attribue à Esdras un travail que l'autre attribue aux hommes de la Grande Synagogue. La remarque habituelle selon laquelle la tradition attribue un travail biblique à Esdras et non à Néhémie est fausse. Néhémie était l'un des hommes de la Grande Synagogue, et il y occupait une place éminente. Il nous est présenté comme un beau jeune homme, favori d'un roi, venant à Jérusalem en 444 av. J.-C. En 433 av. J.-C., il retourna auprès du roi. Après un intervalle de temps inconnu, il revint en Judée et y passa vraisemblablement le reste de sa longue vie, mourant quelques années ou quelques décennies après 400 av. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 255,
+          "part": "text",
+          "source": "15. Evidence as to Date and Authorship:",
+          "target": "15. Témoignages concernant la date et l'auteur :",
+          "action": "translate"
+        },
+        {
+          "node": 256,
+          "part": "text",
+          "source": "The placing of the work of the Chronicles at the close of the Hebrew Scriptures is in itself of the nature of testimony. The men who placed it there testify thereby to their belief that these are the latest writings of the Old Testament aggregate. We are familiar with the testimony of Babha' Bathra' to the effect that most of the later books of the Old Testament were due to the men of the Great Synagogue and to Ezra, but that Nehemiah completed the Books of Chronicles. We cannot avoid including the Chronicles among the 22 books which Josephus says were written before the death of Artaxerxes Longimanus (Apion, I, 8). Of course the limit of time here really intended by Josephus is not the death of Artaxerxes, but the lifetime of men who were contemporary with him--that of Nehemiah, for example. We have already noted the testimony concerning Nehemiah's library (2 Macc 2:13-15). The time when the library was being gathered was the most likely time for it to be used as the Chronicler has used it. Add the recapitulation in Ecclesiasticus (44-49), which m entions Nehemiah latest in its list of Old Testament worthies.",
+          "target": "Le placement de l'œuvre des Chroniques à la fin des Écritures hébraïques constitue en soi une sorte de témoignage. Les hommes qui l'y placèrent témoignent par là de leur croyance que ce sont les derniers écrits de l'ensemble de l'Ancien Testament. Nous connaissons le témoignage de Babha' Bathra' selon lequel la plupart des livres tardifs de l'Ancien Testament étaient dus aux hommes de la Grande Synagogue et à Esdras, mais que Néhémie acheva les livres des Chroniques. Nous ne pouvons éviter d'inclure les Chroniques parmi les 22 livres dont Josèphe dit qu'ils furent écrits avant la mort d'Artaxerxès Longue-Main (Apion, I, 8). Bien entendu, la limite de temps réellement entendue ici par Josèphe n'est pas la mort d'Artaxerxès, mais la durée de vie des hommes qui furent ses contemporains — celle de Néhémie, par exemple. Nous avons déjà noté le témoignage concernant la bibliothèque de Néhémie (2 Maccabées 2:13-15). L'époque où la bibliothèque était rassemblée était l'époque la plus probable pour qu'elle fût utilisée comme le Chroniste l'a utilisée. Ajoutez la récapitulation dans l'Ecclésiastique (44-49), qui mentionne Néhémie en dernier dans sa liste des personnages éminents de l'Ancien Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 257,
+          "part": "text",
+          "source": "Internal marks, also, justify the conclusion that the work of the Chronicler was complete before Nehemiah died. The abundant presence of Persian words and facts, with the absence of Greek words and facts, seems conclusive to the effect that the work was done before the conquests of Alexander rendered the Greek influence paramount. In some of the sections (e.g. ",
+          "target": "Des marques internes aussi justifient la conclusion que l'œuvre du Chroniste était achevée avant la mort de Néhémie. La présence abondante de mots et de faits perses, avec l'absence de mots et de faits grecs, semble concluante en ce sens que l'œuvre fut accomplie avant que les conquêtes d'Alexandre ne rendissent prépondérante l'influence grecque. Dans certaines sections (par exemple ",
+          "action": "translate"
+        },
+        {
+          "node": 258,
+          "part": "tail",
+          "source": " ff; Nehemiah passim) Ezra and Nehemiah speak in the first person. The whole work makes the impression of being written up to date. The latest situation in Chronicles is the same with that in Ne (",
+          "target": " et suivants ; Néhémie passim), Esdras et Néhémie parlent à la première personne. L'ensemble de l'œuvre donne l'impression d'être écrit au fur et à mesure des événements. La dernière situation dans les Chroniques est la même que celle de Néhémie (",
+          "action": "translate"
+        },
+        {
+          "node": 259,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 260,
+          "part": "tail",
+          "source": "). The latest event mentioned is the differentiating of the Samaritan schism. A certain enrollment was made (",
+          "target": "). Le dernier événement mentionné est la différenciation du schisme samaritain. Un certain recensement fut effectué (",
+          "action": "translate"
+        },
+        {
+          "node": 261,
+          "part": "tail",
+          "source": ") in the reign of Darius, up to the high-priesthood of Johanan (elsewhere called Jonathan and John), but including Jaddua the son of Johanan in the high-priestly succession. Ezra and Nehemiah were still in office (",
+          "target": ") sous le règne de Darius, jusqu'au souverain sacerdoce de Jochanan (ailleurs appelé Jonathan et Jean), mais comprenant Jaddua, fils de Jochanan, dans la succession des souverains sacrificateurs. Esdras et Néhémie étaient encore en fonction (",
+          "action": "translate"
+        },
+        {
+          "node": 262,
+          "part": "tail",
+          "source": "). This enrollment naturally connects itself with the expulsion of Jaddua's bro ther Manasseh for marrying into the family of Sanballat (",
+          "target": "). Ce recensement se rattache naturellement à l'expulsion du frère de Jaddua, Manassé, pour avoir contracté mariage dans la famille de Sanballat (",
+          "action": "translate"
+        },
+        {
+          "node": 263,
+          "part": "tail",
+          "source": "; Josephus, Ant, XI, 7-8). Jaddua belongs to the fifth generation from Jeshua, who was high priest 538 BC. Josephus says that Sanballat held a commission from Darius. He mentions a certain Bagoas, \"general of another Artaxerxes' army,\" as in relations with the high priest John.",
+          "target": " ; Josèphe, Ant., XI, 7-8). Jaddua appartient à la cinquième génération depuis Josué, qui était souverain sacrificateur en 538 av. J.-C. Josèphe dit que Sanballat détenait une commission de Darius. Il mentionne un certain Bagoas, « général de l'armée d'un autre Artaxerxès », comme étant en relations avec le souverain sacrificateur Jean.",
+          "action": "translate"
+        },
+        {
+          "node": 264,
+          "part": "text",
+          "source": "Arguments for a Later Date.",
+          "target": "Arguments en faveur d'une date plus tardive.",
+          "action": "translate"
+        },
+        {
+          "node": 265,
+          "part": "text",
+          "source": "Josephus, however, apparently regards the Darius who commissioned Sanballat as the last of the kings of that name, and says that Jaddua was contemporary with Alexander the Great, thus dating the Samaritan schism a little before 331 BC. All scholars reject these statements when they are used for dating the Samaritan schism, but some scholars eagerly accept them for the purpose of proving the late date of the last books of the Hebrew Bible. The argument never was valid, and it is completely exploded by the Aramaic papyri recently discovered in Egypt, which show that Bagoas and the high priest Johanan and the sons of Sanballat were contemporaries in 407 BC, the 17th year of Darius Nothus, and for some years earlier.",
+          "target": "Josèphe, cependant, considère apparemment le Darius qui commissionna Sanballat comme le dernier des rois de ce nom, et dit que Jaddua était contemporain d'Alexandre le Grand, datant ainsi le schisme samaritain de peu avant 331 av. J.-C. Tous les savants rejettent ces déclarations lorsqu'elles sont employées pour dater le schisme samaritain, mais certains savants les acceptent avec empressement afin de prouver la date tardive des derniers livres de la Bible hébraïque. L'argument n'a jamais été valide, et il est complètement ruiné par les papyrus araméens récemment découverts en Égypte, qui montrent que Bagoas, le souverain sacrificateur Jochanan et les fils de Sanballat étaient contemporains en 407 av. J.-C., la 17e année de Darius Nothus, et durant quelques années auparavant.",
+          "action": "translate"
+        },
+        {
+          "node": 266,
+          "part": "text",
+          "source": "Dr. Driver (LOT, edition 1897, 518) expresses an opinion very commonly held concerning the Chronicles: \"The only positive clue which the book contains as to the date at which it was composed is the genealogy in ",
+          "target": "Le Dr Driver (LOT, édition 1897, 518) exprime une opinion très communément admise concernant les Chroniques : « Le seul indice positif que contienne le livre quant à la date de sa composition est la généalogie de ",
+          "action": "translate"
+        },
+        {
+          "node": 267,
+          "part": "tail",
+          "source": ", .... carried down to the sixth generation after Zerubbabel. This would imply a date not earlier than about 350 BC.\" Turn to the passage and do your own arithmetic on it. Jeconiah was born 614 BC (",
+          "target": ", … poursuivie jusqu'à la sixième génération après Zorobabel. Cela impliquerait une date non antérieure à environ 350 av. J.-C. » Reportez-vous au passage et faites vous-même le calcul. Jéconias naquit en 614 av. J.-C. (",
+          "action": "translate"
+        },
+        {
+          "node": 268,
+          "part": "tail",
+          "source": "). If as an average each of the sons in the succession was born when his fat her was about 25 years old, that would bring the first birth in the 6th generation from Zerubbabel to about 414 BC, and not 350 BC. This is not an improbable showing.",
+          "target": "). Si, en moyenne, chacun des fils dans la succession naquit lorsque son père avait environ 25 ans, cela placerait la première naissance de la 6e génération depuis Zorobabel vers 414 av. J.-C. et non 350 av. J.-C. Ce n'est pas un résultat improbable.",
+          "action": "translate"
+        },
+        {
+          "node": 269,
+          "part": "text",
+          "source": "Dr. Driver suggests, however, that in ",
+          "target": "Le Dr Driver suggère cependant qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 270,
+          "part": "tail",
+          "source": " we should follow the Greek reading instead of the Hebrew. This would give us: \"And the sons of Hananiah: Pelatiah, and Jeshaiah his son, Rephaiah his son, Arnan his son, Obadiah his son, Shecaniah his son.\" The meaning here is ambiguous. It may be understood to be that each of the six men named after Hananiah was the son of the man named before him (compare ",
+          "target": " nous devrions suivre la leçon grecque au lieu de l'hébreu. Cela nous donnerait : « Et les fils de Hanania : Pelathia, et Ésaïe son fils, Rephaja son fils, Arnan son fils, Abdias son fils, Schecania son fils. » Le sens est ici ambigu. On peut le comprendre comme signifiant que chacun des six hommes nommés après Hanania était le fils de l'homme nommé avant lui (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 271,
+          "part": "tail",
+          "source": ", or ",
+          "target": ", ou ",
+          "action": "translate"
+        },
+        {
+          "node": 273,
+          "part": "tail",
+          "source": "); or as counting the six as the sons of Hananiah (compare ",
+          "target": ") ; ou comme comptant les six comme fils de Hanania (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 276,
+          "part": "tail",
+          "source": ", etc.). Understanding it in the first of these two ways the number of generations after Zerubbabel would be increased to eleven. So many generations before the early decades of the 4th century BC would be exceptional, though not impossible. But the statement that there were 11 generations is weak, being based on a conjectural interpretation of an unproved text emendation, and standing unconfirmed in opposition to credible proof.",
+          "target": ", etc.). En le comprenant de la première de ces deux manières, le nombre de générations après Zorobabel serait porté à onze. Tant de générations avant les premières décennies du IVe siècle av. J.-C. seraient exceptionnelles, quoique non impossibles. Mais l'affirmation qu'il y avait onze générations est faible, étant fondée sur une interprétation conjecturale d'une correction textuelle non prouvée, et demeurant sans confirmation face à des preuves crédibles.",
+          "action": "translate"
+        },
+        {
+          "node": 278,
+          "part": "text",
+          "source": "16. Truthfulness and Historicity:",
+          "target": "16. Véracité et historicité :",
+          "action": "translate"
+        },
+        {
+          "node": 279,
+          "part": "text",
+          "source": "\"The Books of Chronicles are a tendency writing of little historical value\"; \"a distorted picture in the interest of the later institutions of postexilic Judaism\"; \"some ancient facts, having trickled down through oral or written tradition, are doubtless preserved. .... They are few indeed compared with the products of the imagination, and must be sifted like kernels of wheat from a mass of chaff.\" These statements, taken at random from the book that happens to be handiest, fairly represent the opinion held by many. They regard the Chronicles as a fabrication made in the interest of a religious party, a fabrication in which the history has been intentionally falsified.",
+          "target": "« Les livres des Chroniques sont un écrit tendancieux de peu de valeur historique » ; « un tableau déformé dans l'intérêt des institutions tardives du judaïsme postexilique » ; « quelques faits anciens, ayant filtré à travers la tradition orale ou écrite, sont sans doute conservés. … Ils sont en effet peu nombreux en comparaison des produits de l'imagination, et doivent être tamisés comme des grains de blé dans une masse de balle. » Ces déclarations, prises au hasard dans le livre qui se trouve le plus à portée de main, représentent assez bien l'opinion de beaucoup. Ils considèrent les Chroniques comme une fabrication faite dans l'intérêt d'un parti religieux, fabrication dans laquelle l'histoire a été intentionnellement falsifiée.",
+          "action": "translate"
+        },
+        {
+          "node": 280,
+          "part": "text",
+          "source": "A principal motive for this opinion is to discredit the testimony of Chronicles against certain critical theories, the said testimony being more full and detailed than that in Samuel and Kings and the prophets. But on the whole question the testimony of Chronicles is to the same effect with that of the other books. The testimony of the other books supports that of the Chronicles. The discrediting of Chronicles is part of a theory which denies the historical trustworthiness of practically all parts of the Old Testament and New Testament.",
+          "target": "Un motif principal de cette opinion est de discréditer le témoignage des Chroniques contre certaines théories critiques, ledit témoignage étant plus complet et détaillé que celui de Samuel, des Rois et des prophètes. Mais sur l'ensemble de la question, le témoignage des Chroniques est dans le même sens que celui des autres livres. Le témoignage des autres livres soutient celui des Chroniques. Le discrédit jeté sur les Chroniques fait partie d'une théorie qui nie la fiabilité historique de pratiquement toutes les parties de l'Ancien Testament et du Nouveau Testament.",
+          "action": "translate"
+        },
+        {
+          "node": 281,
+          "part": "text",
+          "source": "(1) Alleged Proofs of Untruthfulness.",
+          "target": "(1) Prétendues preuves de manque de véracité.",
+          "action": "translate"
+        },
+        {
+          "node": 282,
+          "part": "text",
+          "source": "Against the Chronicles it is alleged that they sometimes contradict the older books; but nearly all the instances are capable of satisfactory solution. The large numerals in Chronicles, for example those concerning the armies of David, Abijah, Jeroboam, Asa, Zerah, Jehoshaphat, Amaziah, Uzziah, are adduced as extravagant and incredible. Most of the difficulty in connection with such numbers, whether in Chronicles or Exodus or Numbers or Judges or Samuel, disappears when we observe that they clearly belong to an artificial way of counting. These numbers are given in even thousands or even hundreds (even fifties or tens in a very few instances), which would not be the case if the hundreds and thousands were merely numerical. It is alleged that the Chronicler views the glories of the past as on a larger scale than that in which they are presented in the earlier books, but this is not uniformly the case. On the basis of these allegations the Chronicler is charged with an extravagance that is inconsistent with sober truthfulness, but this charge follows the fate of the others. It is said that the Chronicler lacked trustworthy sources, but that is a thing to be proved, not taken for granted, and we have seen that it is improbable. It is alleged that the text is in such bad shape as to render the contents unreliable. This may be balanced against the counter conjecture that, since the Books of Chronicles have not been so often copied as the Books of Ki, their text is in the transcribed passages to be preferred to that of Ki. In fine, the reasons alleged against the historicity of Chronicles dwindle on examination, though there remain some problems that cannot be so easily disposed of.",
+          "target": "On allègue contre les Chroniques qu'elles contredisent parfois les livres plus anciens ; mais presque tous les cas sont susceptibles d'une solution satisfaisante. Les grands nombres dans les Chroniques, par exemple ceux qui concernent les armées de David, d'Abija, de Jéroboam, d'Asa, de Zérach, de Josaphat, d'Amatsia, d'Ozias, sont invoqués comme extravagants et incroyables. La plus grande partie de la difficulté en rapport avec de tels nombres, que ce soit dans les Chroniques ou dans l'Exode, les Nombres, les Juges ou Samuel, disparaît lorsque nous observons qu'ils appartiennent manifestement à une manière artificielle de compter. Ces nombres sont donnés en milliers entiers ou en centaines entières (en cinquantaines ou dizaines entières dans un très petit nombre de cas), ce qui ne serait pas le cas si les centaines et les milliers étaient simplement numériques. On allègue que le Chroniste envisage les gloires du passé sur une plus grande échelle que celle sous laquelle elles sont présentées dans les livres antérieurs, mais ce n'est pas uniformément le cas. Sur la base de ces allégations, le Chroniste est accusé d'une extravagance incompatible avec une sobre véracité, mais cette accusation suit le sort des autres. On dit que le Chroniste manquait de sources dignes de confiance, mais c'est une chose à prouver, non à tenir pour acquise, et nous avons vu qu'elle est improbable. On allègue que le texte est en si mauvais état qu'il rend le contenu peu fiable. On peut mettre en balance avec cela la conjecture inverse selon laquelle, puisque les livres des Chroniques n'ont pas été aussi souvent copiés que les livres des Rois, leur texte est, dans les passages transcrits, à préférer à celui des Rois. En somme, les raisons alléguées contre l'historicité des Chroniques s'amenuisent à l'examen, bien qu'il reste certains problèmes dont on ne peut disposer aussi facilement.",
+          "action": "translate"
+        },
+        {
+          "node": 283,
+          "part": "text",
+          "source": "(2) Truthfulness in the Various Parts.",
+          "target": "(2) Véracité des diverses parties.",
+          "action": "translate"
+        },
+        {
+          "node": 284,
+          "part": "text",
+          "source": "Different parts of the Chronicles have their own separate problems of historicity. Take the genealogies, for example. If anyone had fabricated them, he would not have put them into their present fragmentary form, in which they have no story interest, and are of no direct use to anybody. On the other hand it is reasonable to account for their present form by the hypothesis that the writer used such materials as he had. This hypothesis is not derogatory to the inspiration of the writer. Deity saw fit to have these materials placed in the Scriptures, and to this end He influenced men of different generations through providential leadings and through impulses of the Spirit. No one thinks that the Spirit-guided man who put the genealogies in their final form received them as miraculous revelations. He received them as the product of effort in study--his own efforts and those of his predecessors. He is entitled to be counted as truthful if he used good judgment and fidelity in selecting and recording his materials.",
+          "target": "Les différentes parties des Chroniques ont leurs problèmes particuliers d'historicité. Prenons, par exemple, les généalogies. Si quelqu'un les avait fabriquées, il ne leur aurait pas donné leur forme fragmentaire actuelle, sous laquelle elles ne présentent aucun intérêt narratif et ne sont d'aucune utilité directe pour qui que ce soit. D'autre part, il est raisonnable de rendre compte de leur forme actuelle par l'hypothèse que l'auteur employa les matériaux dont il disposait. Cette hypothèse ne porte pas atteinte à l'inspiration de l'auteur. La divinité jugea bon que ces matériaux fussent placés dans les Écritures, et à cette fin elle influença des hommes de différentes générations par des directions providentielles et des impulsions de l'Esprit. Personne ne pense que l'homme guidé par l'Esprit qui donna aux généalogies leur forme définitive les reçut comme des révélations miraculeuses. Il les reçut comme le produit d'efforts d'étude — ses propres efforts et ceux de ses prédécesseurs. Il a droit d'être considéré comme véridique s'il fit preuve de discernement et de fidélité dans la sélection et la consignation de ses matériaux.",
+          "action": "translate"
+        },
+        {
+          "node": 285,
+          "part": "text",
+          "source": "Similar statements would be true in regard to the other statistical matter, and in regard to the many incidents that are mentioned in connection with the genealogies and other matters. To think of them as inventions by the Chronicler is not congruous with human experience. They are too brief and broken to have interest by themselves as stories. You can assign no possible reason that one could have for inventing them. They bear the marks of being genuine antiquarian discoveries. The final writer believed that he had come across facts which would be of interest if put into connection with the history as currently narrated. These matters are much more reasonably accounted for as facts than as inventions. And furthermore, a good many of them, first and last, have been corroborated by exploration. Take, for example, Manasseh's being carried to Babylon by the captains of the king of Assyria, or the account of Uzziah's military greatness (",
+          "target": "Des déclarations semblables seraient vraies au sujet des autres matières statistiques et des nombreux incidents mentionnés en rapport avec les généalogies et d'autres matières. Les considérer comme des inventions du Chroniste ne s'accorde pas avec l'expérience humaine. Ils sont trop brefs et trop fragmentaires pour présenter de l'intérêt par eux-mêmes comme récits. On ne peut assigner aucune raison possible pour laquelle on les aurait inventés. Ils portent les marques de découvertes authentiques d'antiquités. Le dernier auteur croyait avoir rencontré des faits qui présenteraient de l'intérêt s'ils étaient mis en rapport avec l'histoire telle qu'elle était couramment racontée. Ces matières s'expliquent beaucoup plus raisonnablement comme des faits que comme des inventions. Et de plus, un bon nombre d'entre elles, çà et là, ont été corroborées par l'exploration. Prenons, par exemple, le fait que Manassé fut emmené à Babylone par les chefs de l'armée du roi d'Assyrie, ou le récit de la grandeur militaire d'Ozias (",
+          "action": "translate"
+        },
+        {
+          "node": 287,
+          "part": "tail",
+          "source": " ff), or the references to industries in ",
+          "target": " et suivants), ou les mentions d'industries en ",
+          "action": "translate"
+        },
+        {
+          "node": 288,
+          "part": "tail",
+          "source": " (compare PEFS, 1905, 243, 328; or Bible Sidelights from Gezer, 150 ff).",
+          "target": " (comparer PEFS, 1905, 243, 328 ; ou Bible Sidelights from Gezer, 150 et suivants).",
+          "action": "translate"
+        },
+        {
+          "node": 289,
+          "part": "text",
+          "source": "Possibly on a different footing is such a passage as the account of Abijah and Jeroboam (",
+          "target": "Peut-être se trouve-t-il sur un autre terrain, un passage tel que le récit d'Abija et de Jéroboam (",
+          "action": "translate"
+        },
+        {
+          "node": 290,
+          "part": "tail",
+          "source": "). It says that Abijah had 400,000 men and Jeroboam 800,000, of whom 500,000 were slain in the battle. One might plausibly argue that these numbers were intended as a notice to the reader that he is to understand the story, not as fact, but as a work of the imagination, a religious parable, a midrashic narrative sermon, taken from the Midrash of Iddo (verse 22). Whether or no one finds this argument convincing, anyone can see that it does not accuse the Books of Chronicles of being untruthful. If the passage is a parable it is true in the sense in which it was intended to be understood. A similar case is the account of Jehoshaphat's peril from the invading nations and his wonderful rescue (",
+          "target": "). Il dit qu'Abija avait 400 000 hommes et Jéroboam 800 000, dont 500 000 furent tués dans la bataille. On pourrait soutenir de façon plausible que ces nombres étaient destinés à avertir le lecteur qu'il devait comprendre l'histoire non comme un fait, mais comme une œuvre d'imagination, une parabole religieuse, un sermon narratif midrashique tiré du Midrash d'Iddo (verset 22). Que l'on trouve ou non cet argument convaincant, chacun peut voir qu'il n'accuse pas les livres des Chroniques de manque de véracité. Si le passage est une parabole, il est vrai dans le sens dans lequel il était destiné à être compris. Un cas semblable est le récit du péril où se trouvait Josaphat du fait des nations envahissantes et de sa merveilleuse délivrance (",
+          "action": "translate"
+        },
+        {
+          "node": 292,
+          "part": "text",
+          "source": "On still a different footing are such narratives as those concerning the bringing up of the ark, the first making of Solomon king, the reforms under Asa, Jehoshaphat, Hezekiah, Josiah. These are sober narratives, with nothing in them to suggest flights of the imagination. Probably no one doubts that the Chronicler intended them to be understood as historical fact. If one is under bondage to the modern tradition which dates De from the time of Josiah and the priestly laws from after the exile, he must needs count these parts of Chronicles as falsified history; but if he is free from that bondage he will see no strong reason for counting them so.",
+          "target": "Sur un terrain encore différent se trouvent des récits tels que ceux qui concernent la montée de l'arche, le premier établissement de Salomon comme roi, les réformes sous Asa, Josaphat, Ézéchias, Josias. Ce sont des récits sobres, sans rien qui suggère des envolées de l'imagination. Probablement personne ne doute que le Chroniste ait voulu qu'ils fussent compris comme des faits historiques. Si l'on est asservi à la tradition moderne qui date le Deutéronome du temps de Josias et les lois sacerdotales d'après l'exil, on doit nécessairement considérer ces parties des Chroniques comme de l'histoire falsifiée ; mais si l'on est libre de cet asservissement, on ne verra aucune raison forte de les considérer ainsi.",
+          "action": "translate"
+        },
+        {
+          "node": 294,
+          "part": "text",
+          "source": "17. The Values of the Chronicles:",
+          "target": "17. La valeur des Chroniques :",
+          "action": "translate"
+        },
+        {
+          "node": 295,
+          "part": "text",
+          "source": "In fine men are correct when they say that the greatest values of the Books of Chronicles lie in their availability for vividly illustrating the great truths of religion. They are correct when they assign great value to these books as depicting the ideas of the time when they were written. But they are none the less of great value as repeating from the other Scriptures the outline of the history of the religion of Yahweh, and presenting additional material for the filling in of that outline.",
+          "target": "En somme, on a raison de dire que la plus grande valeur des livres des Chroniques réside dans la possibilité de les employer pour illustrer de manière vivante les grandes vérités de la religion. On a raison d'attribuer une grande valeur à ces livres en tant qu'ils dépeignent les idées de l'époque où ils furent écrits. Mais ils n'en ont pas moins une grande valeur en tant qu'ils reprennent des autres Écritures les grandes lignes de l'histoire de la religion de Yahvé et présentent des matériaux supplémentaires pour compléter ces grandes lignes.",
+          "action": "translate"
+        },
+        {
+          "node": 296,
+          "part": "text",
+          "source": "LITERATURE.",
+          "target": "BIBLIOGRAPHIE.",
+          "action": "translate"
+        },
+        {
+          "node": 297,
+          "part": "text",
+          "source": "Among the older commentaries on Chronicles see that of Keil in the Keil-Delitzsch series, published in English in 1872; that of Zockler in the Lange series, 1876; that of Barker in the Pulpit Commentary, after 1880. Among more recent works, from the point of view which denies the historicity of Chronicles, see R. Kittel in the Polychrome Bible, 1895, and Curtis and Masden in the International Critical Commentary, 1910. A brilliant characterization from that point of view is that by Torrey, \"The Chronicler as Editor and as Independent Narrator\" in AJSL, January, 1909, and subsequent numbers. On the other side see Beecher, Reasonable Biblical Criticism, 1911, chapters xviii and xxii; \"Is the Chronicler a Veracious Historian?\" in Bible Student (October, 1899 and subsequent numbers), is a defense of the historicity. All works on Old Testament Introduction discuss the questions concerning Chronicles. In view of the many proper names in Chronicles, such a book as Gray, Studies in Hebrew Proper Names, has its uses. For the chronological facts, especially in connection with the closing of the Old Testament history, see Beecher, Dated Events of the Old Testament, 1907. For the Egyptian papyri see Drei Aramaische Papyrusurkunden aus Elephantine, Sachau, Berlin, 1907, or the Appendix to Toffteen, Historic Exodus. Also Sprengling's article in AJSL, April, 1911. As to light on the Chronicles from explorations, see \"The Excavations of Gezer, 1902-5, and 1907-9,\" PEF; or Bible Sidelights from the Mounds of Gezer, 1906. For other books see the lists in Encyclopedia Biblica and HDB.",
+          "target": "Parmi les commentaires anciens sur les Chroniques, voir celui de Keil dans la série Keil-Delitzsch, publié en anglais en 1872 ; celui de Zockler dans la série Lange, 1876 ; celui de Barker dans le Pulpit Commentary, après 1880. Parmi les travaux plus récents, du point de vue qui nie l'historicité des Chroniques, voir R. Kittel dans la Polychrome Bible, 1895, et Curtis et Masden dans l'International Critical Commentary, 1910. Une caractérisation brillante de ce point de vue est celle de Torrey, « The Chronicler as Editor and as Independent Narrator » dans AJSL, janvier 1909 et numéros suivants. De l'autre côté, voir Beecher, Reasonable Biblical Criticism, 1911, chapitres xviii et xxii ; « Is the Chronicler a Veracious Historian? » dans Bible Student (octobre 1899 et numéros suivants), est une défense de l'historicité. Tous les ouvrages d'introduction à l'Ancien Testament discutent les questions concernant les Chroniques. Étant donné les nombreux noms propres des Chroniques, un ouvrage tel que Gray, Studies in Hebrew Proper Names, a son utilité. Pour les faits chronologiques, particulièrement en rapport avec la fin de l'histoire de l'Ancien Testament, voir Beecher, Dated Events of the Old Testament, 1907. Pour les papyrus égyptiens, voir Drei Aramaische Papyrusurkunden aus Elephantine, Sachau, Berlin, 1907, ou l'appendice à Toffteen, Historic Exodus. Également l'article de Sprengling dans AJSL, avril 1911. Quant à la lumière apportée aux Chroniques par les explorations, voir « The Excavations of Gezer, 1902-5, and 1907-9 », PEF ; ou Bible Sidelights from the Mounds of Gezer, 1906. Pour d'autres ouvrages, voir les listes dans Encyclopedia Biblica et HDB.",
+          "action": "translate"
+        },
+        {
+          "node": 298,
+          "part": "text",
+          "source": "Willis J. Beecher",
+          "target": "Willis J. Beecher",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature retained"
+        }
+      ]
+    }
+  ]
+}
