@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "kind": "french_isbe_wave03_draft_checkpoint",
+  "translation_language": "fr",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "branch": "work/fr-isbe-full-translation",
+  "wave03_issue": 111,
+  "previous_wave_issue": 110,
+  "status": "source_staging_requested",
+  "publication_permitted": false,
+  "editorially_accepted": 0,
+  "translation_pr_permitted": false,
+  "source_2001_3000": {
+    "total": 1000,
+    "previous_pilot_drafts": 4,
+    "new_complete_drafts_on_branch": 0,
+    "complete_first_drafts": 4,
+    "remaining_undrafted": 996
+  },
+  "corpus": {
+    "total_original_entries": 9380,
+    "complete_first_drafts_across_main_and_current_branch": 2043
+  },
+  "source_queue": {
+    "rounds_completed": [],
+    "current_round": "round-001",
+    "requested_templates": 100
+  },
+  "batch_files": [],
+  "source_witness_and_display_flags": [],
+  "previous_translation_commit": "f6ecf0b47510f65aacb6a6a069b0c88674719bba",
+  "cohort_policy": {
+    "source_word_limit": 60000,
+    "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
+    "selection": "Consecutive complete articles from staged queues; stop before the next article exceeds the limit, no skipping or splitting",
+    "oversized_single_article": "Standalone cohort",
+    "commit_policy": "One commit and incremental validation per completed cohort"
+  },
+  "next_action": "Read verified round-001 SOURCE.jsonl after source staging workflow succeeds; translate consecutive complete articles."
+}
