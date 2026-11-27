@@ -1,0 +1,2219 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "EDEN, CHILDREN OF",
+      "article_id": "isbe-abdee2292361ea4dac1c",
+      "source_article_sha256": "209211cf832f73eea4c812fc754199309a2ff41769a92efa32e9a04931266095",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EDEN, CHILDREN OF",
+          "target": "ÉDEN, ENFANTS D'",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "CHILDREN OF EDEN",
+          "target": "ENFANTS D'ÉDEN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EDEN, HOUSE OF",
+      "article_id": "isbe-7234fe667956d97ef08e",
+      "source_article_sha256": "f3f11d59446e6c70cb77a71a55c5d8214d5224f2a7e1f35d993cc7c58b30a0f0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EDEN, HOUSE OF",
+          "target": "ÉDEN, MAISON D'",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "AVEN; BETH-EDEN; CHILDREN OF EDEN",
+          "target": "AVEN ; BETH-ÉDEN ; ENFANTS D'ÉDEN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EDER (2)",
+      "article_id": "isbe-ba1dcb05a4541764705c",
+      "source_article_sha256": "b37b0d4cf6683b136ddf935dfe4605754a36af8575e9a98da5f7548c1367f202",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EDER (2)",
+          "target": "ÉDER (2)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-der (`edher, \"flock\").",
+          "target": "e'-der (`edher, « troupeau »).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A Merarite Levite in the days of David (",
+          "target": "(1) Lévite merarite au temps de David (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); son of Mushi.",
+          "target": ") ; fils de Muschi.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) A Benjamite (",
+          "target": "(2) Un Benjaminite (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": ", the King James Version \"Ader\").",
+          "target": ", King James Version « Ader »).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EDES",
+      "article_id": "isbe-66eb9094399bfb86552b",
+      "source_article_sha256": "8a02bd8e811fed874987a265b511b7a79b0c61d17e6c4ccf65c5c278f345f219",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EDES",
+          "target": "EDES",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-dez: the Revised Version (British and American)",
+          "target": "e'-dez : Revised Version (britannique et américaine) ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "EDOS",
+          "target": "EDOS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EDNA",
+      "article_id": "isbe-db01f5c4ed8f48746ec6",
+      "source_article_sha256": "38e14e644bd28da4b7abfd586b0837f3be78f560f73f406dfaef27cde2cd969e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EDNA",
+          "target": "EDNA",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ed'-na (Edna):",
+          "target": "ed'-na (Edna) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "Wife of Raguel and mother of Sarah who married Tobias (Tobit 7:2, etc.; 10:12; 11:1). \"Edna\" in Hebrew means \"pleasure\" and corresponds to Latin Anna.",
+          "target": "Femme de Raguel et mère de Sara, qui épousa Tobie (Tobie 7:2, etc. ; 10:12 ; 11:1). « Edna » signifie en hébreu « plaisir » et correspond au latin Anna.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EDOS",
+      "article_id": "isbe-e32f9c696cbfdd449755",
+      "source_article_sha256": "1bb7ced9b888b67a5f5c833031c5ff800add46ba196c00543b6e298f035d6ccd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EDOS",
+          "target": "EDOS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-dos (Edais; the King James Version Edes):",
+          "target": "e'-dos (Edais ; King James Version Edes) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "One who agreed to put away his foreign wife (APC 1Esdras 9:35); called Iddo, the King James Version \"Jadan,\" in ",
+          "target": "L'un de ceux qui consentirent à renvoyer leur femme étrangère (APC 1Esdras 9:35) ; appelé Iddo, « Jadan » dans la King James Version, en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EGLAH",
+      "article_id": "isbe-83c30ff1dab2fec358a5",
+      "source_article_sha256": "4cba9e0b4a8ad22063f63d8b0149ff23350fd643084279f0467881fafd4de843",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EGLAH",
+          "target": "ÉGLA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "eg'-la (`eghlah, \"heifer\"):",
+          "target": "eg'-la (`eghlah, « génisse ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "Wife of David and mother of Ithream (",
+          "target": "Femme de David et mère de Jithream (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " parallel ",
+          "target": " parallèle ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EGLAIM",
+      "article_id": "isbe-e2c28f0dd4615e3d0f93",
+      "source_article_sha256": "8f9c5ce6b439a12b43136b027b4e2db08e6ab8ecf13b3b4640f676da02c5b59b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EGLAIM",
+          "target": "ÉGLAÏM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "eg'-la-im ('eghlayim; Agaleim):",
+          "target": "eg'-la-im ('eghlayim ; Agaleim) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "A place named in ",
+          "target": "Lieu nommé en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ", possibly in the South of Moab. Eusebius (Onomasticon) identifies it with Agallim, a village 8 Roman miles South of Areopolis. It cannot now be identified.",
+          "target": ", peut-être dans le sud de Moab. Eusèbe (Onomasticon) l'identifie à Agallim, village à 8 milles romains au sud d'Aréopolis. Il ne peut plus être identifié aujourd'hui.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EGYPT, BROOK (RIVER, STREAM) OF",
+      "article_id": "isbe-6ac3987736415296e1b0",
+      "source_article_sha256": "36d2d07023c691db5821a4f4295057d02af21c0120cd0afcaf15dec86bf5ee04",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EGYPT, BROOK (RIVER, STREAM) OF",
+          "target": "ÉGYPTE, TORRENT (FLEUVE, COURS D'EAU) D'",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BROOK OF EGYPT",
+          "target": "TORRENT D'ÉGYPTE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EGYPTIAN KINGS (LATER)",
+      "article_id": "isbe-152ef87e28b5ef8017b1",
+      "source_article_sha256": "d665a99adc0d283d37a576d07f993164ba48ea1678f7ea25fa0502d7e4156564",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EGYPTIAN KINGS (LATER)",
+          "target": "ROIS D'ÉGYPTE (POSTÉRIEURS)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "PHARAOH",
+          "target": "PHARAON",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "HOPHRA",
+          "target": "HOPHRA",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "NECO",
+          "target": "NÉCO",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "SHISHAK",
+          "target": "SCHISCHAK",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "EGYPT, III",
+          "target": "ÉGYPTE, III",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EGYPTIAN VERSIONS",
+      "article_id": "isbe-5abef9c69b22d9d1946f",
+      "source_article_sha256": "8f63fea9c23c7dccbe666592997af098978a4297a86cb6f84edcfb31201a825e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EGYPTIAN VERSIONS",
+          "target": "VERSIONS ÉGYPTIENNES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "vur'-shuns.",
+          "target": "vur'-shuns.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "COPTIC VERSIONS",
+          "target": "VERSIONS COPTES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EGYPTIANS, GOSPEL ACCORDING TO THE",
+      "article_id": "isbe-095ee62f2dfde8388a8f",
+      "source_article_sha256": "aee8c801bc2454cb4a7aa8f72fae4fc75651025b96f3a17e446821fabda246e7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EGYPTIANS, GOSPEL ACCORDING TO THE",
+          "target": "ÉGYPTIENS, ÉVANGILE SELON LES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "APOCRYPHAL GOSPELS",
+          "target": "ÉVANGILES APOCRYPHES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EHI",
+      "article_id": "isbe-f87423057155e91f3e6b",
+      "source_article_sha256": "b1a95cc1ce8e8acd3fcfc07bd9dd3c90f22b6bbb8b98966c9ce7e934522d2e86",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EHI",
+          "target": "ÉHI",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-hi ('ehi):",
+          "target": "e'-hi ('ehi) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "Apparently a contracted form (",
+          "target": "Apparemment une forme contractée (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "AHIRAM",
+          "target": "AHIRAM",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "EITHER",
+      "article_id": "isbe-c6e749165da6ae1fd1df",
+      "source_article_sha256": "5aae2bc0441c2af0fa95f43e13b455134c6ca0d7deba8c9c55940c90f9aa3024",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EITHER",
+          "target": "L'UN OU L'AUTRE (EITHER)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-ther, i'-ther:",
+          "target": "e'-ther, i'-ther :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "Often in the sense still common, \"one or the other\" (",
+          "target": "Souvent au sens encore courant de « l'un ou l'autre » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", etc.), but also in the obsolete sense of \"both\" or \"each\" (",
+          "target": ", etc.), mais aussi au sens désuet de « les deux » ou « chacun » (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": "), or in place of (Revised Version) \"or\" (",
+          "target": "), ou à la place de « or » (ou) dans la Revised Version (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EKER",
+      "article_id": "isbe-f79ee98cc7a8ad2ccc1f",
+      "source_article_sha256": "92e72c8a6400c5958ad77a6540ce7e1c91846b74b73e5dab8369a28cfd9c83d3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EKER",
+          "target": "ÉKER",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-ker ('eqer, \"root\"):",
+          "target": "e'-ker ('eqer, « racine ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "A Jerahmeelite (",
+          "target": "Un Jerachmeélite (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EKREBEL",
+      "article_id": "isbe-c4835250ff2d79fb3740",
+      "source_article_sha256": "48703184ad0f4d7f84c3d51eab97526b608390d2a33bc99ed4854155a55374da",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EKREBEL",
+          "target": "EKREBEL",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ek'-re-bel (Ekrebel):",
+          "target": "ek'-re-bel (Ekrebel) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "Appears only in  /APC Judith 7:18. It lay on the brook Mochmur, South of Dothart. It is identical with Akrabbein, of which Eusebius (Onomasticon) speaks as the capital of the district of Akrabattine. It corresponds to the modern `Akrabeh, 8 miles Southeast of Nablus.",
+          "target": "Ne figure qu'en /APC Judith 7:18. Ce lieu se trouvait sur le torrent Mochmur, au sud de Dothart. Il est identique à Akrabbein, dont Eusèbe (Onomasticon) parle comme de la capitale du district d'Akrabattine. Il correspond à l'actuel `Akrabeh, à 8 milles au sud-est de Naplouse.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EL ELYON",
+      "article_id": "isbe-d5302d9dcddf6a11946c",
+      "source_article_sha256": "9491f1aba5bfc92dc2b172dc9be9494886f68c943dc8d223445a25941d4cd2f7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EL ELYON",
+          "target": "EL ELYON",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el e-li'-on.",
+          "target": "el e-li'-on.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "GOD, NAMES OF",
+          "target": "DIEU, NOMS DE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EL ROI",
+      "article_id": "isbe-a42915d5979188499a62",
+      "source_article_sha256": "a7a22461b6c1ba9da1b9b995013a445e19dcb1494c3df7222d319dab2bd357b8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EL ROI",
+          "target": "EL ROÏ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " margin).",
+          "target": " en marge).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "GOD, NAMES OF",
+          "target": "DIEU, NOMS DE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EL SHADDAI",
+      "article_id": "isbe-9f1d66325a2a2257c713",
+      "source_article_sha256": "8292aff6c87ea7f9ef0afb6b6e35fc913027d5e4679f4e1c36001cd582079968",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EL SHADDAI",
+          "target": "EL SHADDAÏ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el shad'-a-i, el shad'-i.",
+          "target": "el shad'-a-i, el shad'-i.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "GOD, NAMES OF",
+          "target": "DIEU, NOMS DE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "EL-BETH-EL",
+      "article_id": "isbe-991ba31285b038741a65",
+      "source_article_sha256": "d97ff6319437f8c868b71f64d334b1c97673e9eed78037b2830e83754c171019",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "EL-BETH-EL",
+          "target": "EL-BÉTHEL",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el-beth'-el (el beth-'el, \"God of Bethel\"; Baithel):",
+          "target": "el-beth'-el (el beth-'el, « Dieu de Béthel » ; Baithel) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "By this name Jacob called the scene of his vision at Luz, when he returned from Paddan-aram (",
+          "target": "C'est de ce nom que Jacob désigna le lieu de sa vision à Luz, à son retour de Paddan-Aram (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELA",
+      "article_id": "isbe-c9609c5e8871d4bcf524",
+      "source_article_sha256": "dba6ad4bd23b78298eae358a7c422cf98a62bd7e6c81907ee6bbc0b8296891e6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELA",
+          "target": "ÉLA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-la (Ela,  /APC 1Esdras 9:27):",
+          "target": "e'-la (Ela, /APC 1Esdras 9:27) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) Same as Elam (",
+          "target": "(1) Identique à Élam (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) Father of Shimei (",
+          "target": "(2) Père de Schimeï (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": ", the King James Version \"Elah\").",
+          "target": ", King James Version « Elah »).",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "ELAH, 2",
+          "target": "ÉLAH, 2",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELAM",
+      "article_id": "isbe-f237dc76a773d2fa4f21",
+      "source_article_sha256": "902badff05225b3f1ecb08aece6d1e9ecb96e8aaf6147e4a486329dc834e8944",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELAM",
+          "target": "ÉLAM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-lam (`elam):",
+          "target": "e'-lam (`elam) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) A son of Shem (",
+          "target": "(1) Fils de Sem (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "; see ELAMITES).",
+          "target": " ; voir ÉLAMITES).",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) A Benjamite (",
+          "target": "(2) Un Benjaminite (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "(3) A Korahite (",
+          "target": "(3) Un Koréite (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(4) Heads of families in the return (",
+          "target": "(4) Chefs de familles lors du retour (",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "tail",
+          "source": " parallel ",
+          "target": " parallèle ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": " parallel ",
+          "target": " parallèle ",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "(5) A chief of the people (",
+          "target": "(5) Un chef du peuple (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(6) A priest (",
+          "target": "(6) Un prêtre (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELASA",
+      "article_id": "isbe-d3db2f8ccaa56898667d",
+      "source_article_sha256": "a9ca849c3c1f3fdb04f4e1d0e40cccc5205b3b54f16b9818f25be4d4b2e77abd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELASA",
+          "target": "ÉLASA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el'-a-sa, ele-a'sa (Alasa; the King James Version Eleasa):",
+          "target": "el'-a-sa, ele-a'sa (Alasa ; King James Version Eleasa) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "The place where Judas pitched his camp before the battle in which he was overwhelmed and slain (APC 1Macc 9:5).",
+          "target": "Lieu où Judas établit son camp avant la bataille dans laquelle il fut vaincu et tué (APC 1Macc 9:5).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "It probably corresponds to the modern Khirbet il`asa, between the two Beth-horons.",
+          "target": "Il correspond probablement à l'actuel Khirbet il`asa, entre les deux Beth-Horon.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELASAH",
+      "article_id": "isbe-c35d57050e205350a214",
+      "source_article_sha256": "241176d4e6ef39f3ae2cb70e123be1c6c6fad56e8c1d1b5f23a5349f730553de",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELASAH",
+          "target": "ÉLASA (ELASAH)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el'-a-sa ('el`asah, \"God has made\"):",
+          "target": "el'-a-sa ('el`asah, « Dieu a fait ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) An Israelite who had married a foreign wife (",
+          "target": "(1) Un Israélite qui avait épousé une femme étrangère (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) A son of Shaphan, by whom, with Gemariah, King Zedekiah sent a message to Babylon (",
+          "target": "(2) Fils de Schaphan, par lequel, avec Guemaria, le roi Sédécias envoya un message à Babylone (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "ELEASAH",
+          "target": "ÉLÉASA",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELBERITH",
+      "article_id": "isbe-de90f92a3da27e3c8f6c",
+      "source_article_sha256": "eda6477dba8a9474af9790159df82f5b1c8fc8df07ed71f1241b4b049aa10187",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELBERITH",
+          "target": "EL-BERITH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el-be'-rith (",
+          "target": "el-be'-rith (",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BAAL-BERITH",
+          "target": "BAAL-BERITH",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ELCIA",
+      "article_id": "isbe-573cf59eb78fbcbc8818",
+      "source_article_sha256": "781d1a47cfa0defd88374f63408c6dff5b5273c09e8f1ff03429adfb674e5f6b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELCIA",
+          "target": "ELCIA",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el'-shi-a, the Revised Version (British and American)",
+          "target": "el'-shi-a, Revised Version (britannique et américaine) ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ELKIAH",
+          "target": "ELKIAH",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELDAAH",
+      "article_id": "isbe-3998e4da8e3ee49de112",
+      "source_article_sha256": "6ec72771a181e50d57143a654eb84504869d95f2bf6c709c4d632e699b7ed6ec",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELDAAH",
+          "target": "ELDAA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el-da'-a ('elda`ah, \"God has called\"?):",
+          "target": "el-da'-a ('elda`ah, « Dieu a appelé » ?) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "A son of Midian (",
+          "target": "Un fils de Madian (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELDER",
+      "article_id": "isbe-6f3754fc683d4eaaf916",
+      "source_article_sha256": "8e73c17c2d85041618c19464796dde39e93f95e26f7c0a33add4360460bafcff",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELDER",
+          "target": "ANCIEN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "see ",
+          "target": "voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ELDER IN THE OLD TESTAMENT",
+          "target": "ANCIEN DANS L'ANCIEN TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ELDER IN THE NEW TESTAMENT",
+          "target": "ANCIEN DANS LE NOUVEAU TESTAMENT",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELEAD",
+      "article_id": "isbe-017e8d5c44fcbf52c604",
+      "source_article_sha256": "46d5d1cdffce19b7594d91b927755bab84762c0f0721131202b38e38d13ee70b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELEAD",
+          "target": "ÉLEAD",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el'-e-ad ('el`adh, \"God has testified\"):",
+          "target": "el'-e-ad ('el`adh, « Dieu a témoigné ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "An Ephraimite, slain while making a raid, by the men of Gath (",
+          "target": "Un Éphraïmite, tué par les hommes de Gath lors d'une razzia (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELEADAH; ELADAH",
+      "article_id": "isbe-f15899479260cae811ef",
+      "source_article_sha256": "6869f8deeb876ff97a6cf9d14ccff5044c4a56e01a16ee87dbb9bce73fee079e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELEADAH; ELADAH",
+          "target": "ÉLEADA ; ELADA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el-e-a'-da, (the King James Version) ('el`adhah, \"God has adorned\"):",
+          "target": "el-e-a'-da, (King James Version) ('el`adhah, « Dieu a orné ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "An Ephraimite (",
+          "target": "Un Éphraïmite (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELEASAH",
+      "article_id": "isbe-080ca06a495616c687dc",
+      "source_article_sha256": "d8726c3ce253d84676af19538b3044bc9752380312c3080ec936fca6252c4aff",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELEASAH",
+          "target": "ÉLÉASA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el-e-a'-sa (in Hebrew identical with ",
+          "target": "el-e-a'-sa (en hébreu identique à ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ELASAH",
+          "target": "ÉLASA (ELASAH)",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", which see):",
+          "target": ", voir cet article) :",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "(1) A descendant of Judah (",
+          "target": "(1) Un descendant de Juda (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(2) A Benjamite, a descendant of Saul (",
+          "target": "(2) Un Benjaminite, descendant de Saül (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELEAZURUS",
+      "article_id": "isbe-beca8df06f61fd68cf87",
+      "source_article_sha256": "796f2535e344e81ce6f5ec5a1b17423e9d815ba4a46d3df25f5052d0fc955939",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELEAZURUS",
+          "target": "ELEAZURUS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el-e-a-zu'-rus, the Revised Version (British and American)",
+          "target": "el-e-a-zu'-rus, Revised Version (britannique et américaine) ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ELIASIBUS",
+          "target": "ELIASIBUS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELEPH",
+      "article_id": "isbe-db1249f24f1844750cc6",
+      "source_article_sha256": "96835d2bca386072f38f75585ec73cd00d5e29ed9b732b31736b699dd4bdd44c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELEPH",
+          "target": "ÉLEPH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-lef (ha-'eleph, \"the ox\"):",
+          "target": "e'-lef (ha-'eleph, « le bœuf ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "A place in the lot of Benjamin not far from Jerusalem (",
+          "target": "Lieu dans le lot de Benjamin, non loin de Jérusalem (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "). The name is omitted by Septuagint, unless, indeed, it is combined with that of Zelah. It may be identical with Lifta, a village W. of Jerusalem (Conder, HDB, under the word).",
+          "target": "). Le nom est omis dans la Septante, à moins qu'il ne soit effectivement combiné avec celui de Tséla. Il pourrait correspondre à Lifta, village à l'ouest de Jérusalem (Conder, HDB, à l'article correspondant).",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "Others identify Lifta with Nephtoah.",
+          "target": "D'autres identifient Lifta à Nephthoach.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELEPHANTINE",
+      "article_id": "isbe-f2863b95e86b7eb511db",
+      "source_article_sha256": "158770e90a7fb3da01e543ae97bd4b38d7fd4e2136d22f15244e89af7fd87843",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELEPHANTINE",
+          "target": "ÉLÉPHANTINE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el-e-fan-ti'-ne.",
+          "target": "el-e-fan-ti'-ne.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "SEVENEH",
+          "target": "SEVENEH",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "ELEUTHERUS",
+      "article_id": "isbe-32e69d4ca7963fa649f8",
+      "source_article_sha256": "bebc92dbfd66cfa1f701507f05c8c074636ca05bca87568a00f7da74e1a1b2e6",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELEUTHERUS",
+          "target": "ÉLEUTHÈRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-lu'-ther-us (Eleutheros;  ",
+          "target": "e-lu'-ther-us (Eleutheros ;  ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "A river separating Syria and Phoenicia.",
+          "target": "Un fleuve séparant la Syrie et la Phénicie.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELEVEN; STARS",
+      "article_id": "isbe-75f8e1ef5a0db7133ec4",
+      "source_article_sha256": "4716c8308c4af01ce20e2a4f2253a36410fcf193dea72377bfd846b55e499156",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELEVEN; STARS",
+          "target": "ONZE ; ÉTOILES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-lev'-'-n.",
+          "target": "e-lev'-'-n.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ASTRONOMY",
+          "target": "ASTRONOMIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELI, ELI, LAMA, SABACHTHANI",
+      "article_id": "isbe-695c6eb92af0abcfb9c9",
+      "source_article_sha256": "215798bd4e6554eb2e1caed8b8aea0cfcb39fdf4ec4c6f255eb928582175e467",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELI, ELI, LAMA, SABACHTHANI",
+          "target": "ÉLI, ÉLI, LAMA, SABACHTHANI",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e'-li or a'-le, la'-ma, sa-bak'-tha-ni.",
+          "target": "e'-li ou a'-le, la'-ma, sa-bak'-tha-ni.",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ELOI",
+          "target": "ÉLOÏ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIADAS",
+      "article_id": "isbe-9a7669c1b9f10f8fd1c8",
+      "source_article_sha256": "d0328b109a47d72c8a9f063213548252df5d994dac85abc473e4a0bd757166cd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIADAS",
+          "target": "ELIADAS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li'-a-das (Eliadas):",
+          "target": "e-li'-a-das (Eliadas) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "A son of Zamoth who had married a strange wife ( /APC 1Esdras 9:28); called Elioenai in ",
+          "target": "Un fils de Zamoth qui avait épousé une femme étrangère (/APC 1Esdras 9:28) ; appelé Elioénaï en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIADUN",
+      "article_id": "isbe-2e9f07a2431183cbafdb",
+      "source_article_sha256": "8d00f9c60f8fc67cf371f254fcf88452b13372bf67990bf1358b25e23c75b91d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIADUN",
+          "target": "ELIADUN",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li'-a-dun, the Revised Version (British and American)",
+          "target": "e-li'-a-dun, Revised Version (britannique et américaine) ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ILIADUN",
+          "target": "ILIADUN",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIAHBA",
+      "article_id": "isbe-5f86ddb8708e3fca7cb1",
+      "source_article_sha256": "f7ee3bcbfa3d6a2c41a116689f726e30c082a00891f8035005c617e88a1d793b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIAHBA",
+          "target": "ÉLIAHBA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li'-a-ba, e-li-a'-ba ('elyach-ba', \"God hides\"):",
+          "target": "e-li'-a-ba, e-li-a'-ba ('elyach-ba', « Dieu cache ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "One of David's 30 mighty men (",
+          "target": "Un des 30 vaillants hommes de David (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIALI",
+      "article_id": "isbe-83b10726d60c1a24c5d2",
+      "source_article_sha256": "3f07a79351dc16163ffeff4e86ff28f1ba8a677af5780566ef47bf4f06dd770a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIALI",
+          "target": "ELIALI",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li'-a-li (Elialei):",
+          "target": "e-li'-a-li (Elialei) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": " /APC 1Esdras 9:34; possibly corresponds to \"Binnui\" in ",
+          "target": " /APC 1Esdras 9:34 ; correspond peut-être à « Binnui » en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIAM",
+      "article_id": "isbe-f11935a05c488ba8834e",
+      "source_article_sha256": "ce108ed7696865be6bfeae916a5dc94b92bb7db4d177327c8806f7195813ff86",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIAM",
+          "target": "ÉLIAM",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li'-am ('eli'-am, \"people's God\"?):",
+          "target": "e-li'-am ('eli'-am, « Dieu du peuple » ?) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) Father of Bathsheba (",
+          "target": "(1) Père de Bath-Schéba (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "); in ",
+          "target": ") ; en ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " called Ammiel.",
+          "target": " appelé Ammiel.",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "(2) One of David's \"thirty,\" son of Ahithophel the Gilonite (",
+          "target": "(2) L'un des « trente » de David, fils d'Achitophel, le Guilonite (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIAONIAS",
+      "article_id": "isbe-bf3e21b257d56b6ee95c",
+      "source_article_sha256": "512ec908d96a659fc57e1f1c45f952ac3dbd9c0d780f4e57ca40ee1bbb396569",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIAONIAS",
+          "target": "ELIAONIAS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li-a-o-ni'-as (Elialonias):",
+          "target": "e-li-a-o-ni'-as (Elialonias) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "A descendant of Phaath Moab ( /APC 1Esdras 8:31); called \"Eliehoenai\" in ",
+          "target": "Descendant de Pahath-Moab (/APC 1Esdras 8:31) ; appelé « Eliehoenai » en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIASAPH",
+      "article_id": "isbe-fa04f9a3d5baf4e8b271",
+      "source_article_sha256": "9c2ff541244ad56d0cc5339d491c752561ee9ed63cfca3b5cb4e16bc147c3416",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIASAPH",
+          "target": "ÉLIASAPH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li'-a-saf ('elyacaph, \"God has added\"):",
+          "target": "e-li'-a-saf ('elyacaph, « Dieu a ajouté ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) Son of Deuel; prince of the tribe of Gad in the Exodus (",
+          "target": "(1) Fils de Déuel ; prince de la tribu de Gad lors de l'Exode (",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "(2) Son of Lael; prince of the Gershonites (",
+          "target": "(2) Fils de Laël ; prince des Guerschonites (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIASIBUS",
+      "article_id": "isbe-b983a5122837da873f40",
+      "source_article_sha256": "d7d75d695c303dba7fe53fe0c3d2879ce83ddc4b557831f7dcb279a193b6cb37",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIASIBUS",
+          "target": "ELIASIBUS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li-as'-i-bus (Eliasibos, the King James Version Eleazurus):",
+          "target": "e-li-as'-i-bus (Eliasibos, King James Version Eleazurus) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "One of the holy singers who had married a foreign wife ( /APC 1Esdras 9:24); called \"Eliashib\" in ",
+          "target": "Un des chantres sacrés qui avaient épousé une femme étrangère (/APC 1Esdras 9:24) ; appelé « Eliashib » en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIASIMUS",
+      "article_id": "isbe-ce1b3d7d8bfb66230079",
+      "source_article_sha256": "db771e717474a3750aacbb1674fabbb3e22888c86cdbc6534467f8de32447b60",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIASIMUS",
+          "target": "ELIASIMUS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li-as'-i-mus (Eliasimos; the King James Version Elisimus):",
+          "target": "e-li-as'-i-mus (Eliasimos ; King James Version Elisimus) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "One who had married a foreign wife (1 Esdras 9:28).",
+          "target": "L'un de ceux qui avaient épousé une femme étrangère (1 Esdras 9:28).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIASIS",
+      "article_id": "isbe-9dee28b03169199ce521",
+      "source_article_sha256": "6bad02cef034b9123afdc37f4c68e29e623252e57c6ac18a25fcd5034e6cc682",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIASIS",
+          "target": "ELIASIS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li'-a-sis (Eliasis):",
+          "target": "e-li'-a-sis (Eliasis) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "One who had married a foreign wife ( /APC 1Esdras 9:34); corresponds to \"Jaasu\" in ",
+          "target": "L'un de ceux qui avaient épousé une femme étrangère (/APC 1Esdras 9:34) ; correspond à « Jaasu » en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIATHAH",
+      "article_id": "isbe-8f31945852c7935c6365",
+      "source_article_sha256": "2de704fdcf10c48af3c30213d892d7b2cf73b2b2097de5082911fa45004d79be",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIATHAH",
+          "target": "ÉLIATHA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li'-a-tha ('eli'-athah, \"God has come\"):",
+          "target": "e-li'-a-tha ('eli'-athah, « Dieu est venu ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "A Hemanite, head of the twentieth division of the temple musicians (",
+          "target": "Un Hémanite, chef de la vingtième classe des musiciens du temple (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIDAD",
+      "article_id": "isbe-d340f502e4cb78ffae8b",
+      "source_article_sha256": "45fc5b8cc5a4ea36cf50a0bcdba800357afd406579d397cf182974a44be24120",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIDAD",
+          "target": "ÉLIDAD",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li'-dad ('elidhadh, \"God has loved\"):",
+          "target": "e-li'-dad ('elidhadh, « Dieu a aimé ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "Prince of Benjamin in the division of the land (",
+          "target": "Prince de Benjamin lors du partage du pays (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "perhaps the same as ",
+          "target": " peut-être le même qu'",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "ELDAD",
+          "target": "ELDAD",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " (which see).",
+          "target": " (voir cet article).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIEHOENAI",
+      "article_id": "isbe-c6d067210af81437dd66",
+      "source_article_sha256": "c85b15f5a0c87dc84956a959f9e861de1d9445dc9ad07cfd33120bd2e2cc6cdd",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIEHOENAI",
+          "target": "ELIEHOENAÏ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li-e-ho'-e-ni ('elyeho`enay, \"to Yahweh are mine eyes\"):",
+          "target": "e-li-e-ho'-e-ni ('elyeho`enay, « mes yeux sont tournés vers Yahweh ») :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) (the King James Version Elioenai) a Korahite doorkeeper (",
+          "target": "(1) (King James Version Elioenai) Un portier koréite (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "(2) (the King James Version Elihoenai) Head of a family in the Return (",
+          "target": "(2) (King James Version Elihoenai) Chef d'une famille lors du retour (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIENAI",
+      "article_id": "isbe-63d5f914e486ec0d2667",
+      "source_article_sha256": "4bd7b265caa231a0142c75597a4e2fffd7efd66e9c3b60ff0d30deb56901dfb5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIENAI",
+          "target": "ELIENAÏ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el-i-e'-na-i ('eli`enay):",
+          "target": "el-i-e'-na-i ('eli`enay) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "A Benjamite chief (",
+          "target": "Un chef benjaminite (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIHOENAI",
+      "article_id": "isbe-e40cf347208ff3ad33ad",
+      "source_article_sha256": "e4fbb7869c0cee9389a6112d369672cb963f8e3a41300b6c3febfbe86b6c62e0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIHOENAI",
+          "target": "ELIHOENAÏ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el-i-ho-e'-na-i.",
+          "target": "el-i-ho-e'-na-i.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ELIEHOENAI",
+          "target": "ELIEHOENAÏ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIHOREPH",
+      "article_id": "isbe-3dcfa12bece95c859dd7",
+      "source_article_sha256": "5dab78469d667eb1a6637ada34716a0f8770d5e13346d9257ba54fd70850067b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIHOREPH",
+          "target": "ÉLIHOREPH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el-i-ho'-ref ('elichoreph, \"God of autumn\"?):",
+          "target": "el-i-ho'-ref ('elichoreph, « Dieu de l'automne » ?) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "A scribe of Solomon and son of Shisha (",
+          "target": "Un scribe de Salomon, fils de Schischa (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIKA",
+      "article_id": "isbe-750dc6473f23899270d3",
+      "source_article_sha256": "ef8eaa2561701d879f0519223f4ae3465f8e689cea666c78390fc109d99055c5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIKA",
+          "target": "ÉLIKA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li'-ka ('eliqa', \"God is rejector(?)\"):",
+          "target": "e-li'-ka ('eliqa', « Dieu est celui qui rejette » (?)) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "The Harodite (Uradite), one of David's guard, the \"thirty\" (",
+          "target": "Le Harodite (Uradite), l'un des « trente » de la garde de David (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "Omitted from ",
+          "target": "Omis en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIOENAI",
+      "article_id": "isbe-25b6c2281f8c0be22381",
+      "source_article_sha256": "c39b2b649fcaf8a415262a9641ae81c3563d6116bd3c14d6e741ad4f52075018",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIOENAI",
+          "target": "ELIOÉNAÏ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-li-o-e'-na-i.",
+          "target": "e-li-o-e'-na-i.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ELIEHOENAI",
+          "target": "ELIEHOENAÏ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIONAS",
+      "article_id": "isbe-1e41a3468c69dc4f806f",
+      "source_article_sha256": "b3c7c885bbffcf747fc221b678b1df6403eac9a4cc2a96379f4b4850daddad24",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIONAS",
+          "target": "ELIONAS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el-i-o'-nas (Elionas, Elionais):  The name of two men who had married foreign wives (",
+          "target": "el-i-o'-nas (Elionas, Elionais) : Nom de deux hommes qui avaient épousé des femmes étrangères (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), corresponding respectively to \"Elioenai\" and \"Eliezer\" in ",
+          "target": "), correspondant respectivement à « Elioenai » et « Eliezer » en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIPHALAT",
+      "article_id": "isbe-dec0ab21ffc917427586",
+      "source_article_sha256": "294facaa4f94134f1a570d67d30be6976010738d539ee1b84762f2e0afe2e0f3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIPHALAT",
+          "target": "ELIPHALAT",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-lif'-a-lat (Eliphalet;  ",
+          "target": "e-lif'-a-lat (Eliphalet ;  ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Called \"Eliphelet\" in ",
+          "target": "Appelé « Eliphelet » en ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIPHAZ (1)",
+      "article_id": "isbe-4ba67d8e8e18195ea211",
+      "source_article_sha256": "1088a09dc0f152d0d7589aef8a3fabf7aea05f82117f2300ab68d560a0a81a66",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIPHAZ (1)",
+          "target": "ÉLIPHAZ (1)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "el'-i-faz, e-li'-faz ('eliphaz, \"God is fine gold\" (?)):",
+          "target": "el'-i-faz, e-li'-faz ('eliphaz, « Dieu est de l'or fin » (?)) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "(1) Son of Esau by Adah, and father of Teman, Kenaz and Amalek (",
+          "target": "(1) Fils d'Ésaü par Ada, et père de Théman, Kenaz et Amalek (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " f).",
+          "target": " et suiv.).",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "(2) See next article.",
+          "target": "(2) Voir l'article suivant.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIPHELEHU",
+      "article_id": "isbe-9af97e3c3fae4a72c84f",
+      "source_article_sha256": "14227035679072fe050a77592118dde78216d8da1c9858856db11491bb647549",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIPHELEHU",
+          "target": "ÉLIPHELÉHU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-lif'-e-le-hu ('eliphelehu, \"May God distinguish him,\" the King James Version Elipheleh):",
+          "target": "e-lif'-e-le-hu ('eliphelehu, « Que Dieu le distingue », King James Version Elipheleh) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "The eleventh of the fourteen doorkeepers mentioned as \"brethren of the second degree\" and as appointed in connection with the bringing up of the ark to Jerusalem by David (",
+          "target": "Le onzième des quatorze portiers mentionnés comme « frères du second rang » et désignés à l'occasion de la montée de l'arche à Jérusalem par David (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "ELIPHELET",
+      "article_id": "isbe-e9d383b9a8a422ff9da7",
+      "source_article_sha256": "784e9b799c1d09b6fb525e3eb97f5d421918c31ef5d67e9c9a846aac1514d39a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "ELIPHELET",
+          "target": "ÉLIPHÉLETH",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "e-lif'-e-let.",
+          "target": "e-lif'-e-let.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ELIPHALAT",
+          "target": "ELIPHALAT",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ELIPHAL",
+          "target": "ÉLIPHAL",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}

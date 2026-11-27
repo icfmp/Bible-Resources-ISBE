@@ -1,0 +1,2497 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CLUB",
+      "article_id": "isbe-57befefefd22cb67f781",
+      "source_article_sha256": "52c7a970a486b72a9f1bc360826a333ab18b33349ed62e09acc4b1dbf41e51b3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CLUB",
+          "target": "MASSUE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "klub.",
+          "target": "klub.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARMOR, III, 1",
+          "target": "ARMURE, III, 1",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "SHEPHERD",
+          "target": "BERGER",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "STAFF",
+          "target": "BÂTON",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COAT OF MAIL",
+      "article_id": "isbe-951c3e7a1c251ed334d7",
+      "source_article_sha256": "613b970aff307875d1ad50cc1a3e282c7646ff9a5d573193033b00a6c0a1a98b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COAT OF MAIL",
+          "target": "COTTE DE MAILLES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "mal.",
+          "target": "mal.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARMOR, ARMS",
+          "target": "ARMURE, ARMES",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BRIGANDINE",
+          "target": "BRIGANDINE",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "COCK-CROWING",
+      "article_id": "isbe-0eb8cf49f7e01f0bfecf",
+      "source_article_sha256": "3a67b33e5daa469301b7bb317f9142b1bf64a6896d6282a7b79b3da212d32238",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COCK-CROWING",
+          "target": "CHANT DU COQ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kok'-kro-ing (alektorophonia): An indefinite hour of the night between midnight and morning (",
+          "target": "kok'-kro-ing (alektorophonia) : Heure indéterminée de la nuit entre minuit et le matin (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), referred to by all the evangelists in their account of Peter's denial (",
+          "target": "), à laquelle tous les évangélistes font allusion dans leur récit du reniement de Pierre (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "). It is derived from the habit of the cock to crow especially toward morning.",
+          "target": "). L'expression provient de l'habitude du coq de chanter surtout vers le matin.",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "COCK",
+          "target": "COQ",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COCKER",
+      "article_id": "isbe-5dda21ab2f853176bc7f",
+      "source_article_sha256": "b669aea43fb78ebd97b11d52027546e9d50dd83dd34d4cf115135458cb44cb46",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COCKER",
+          "target": "DORLOTER (COCKER)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kok'-er (titheneo, \"to nurse,\" \"coddle,\" \"pamper\"): Occurs only in Ecclesiasticus 30:9 with the meaning \"to pamper\": \"Cocker thy child, and he shall make thee afraid\"; so Shakespeare, \"a cockered silken wanton\"; now seldom used; Jean Ingelow, \"Poor folks cannot afford to cocker themselves.\"",
+          "target": "kok'-er (titheneo, « nourrir », « choyer », « dorloter ») : Ce mot ne figure qu'en Ecclésiastique 30:9, au sens de « dorloter » : « Dorlote ton enfant, et il te fera peur » ; de même Shakespeare parle d'une « dévergondée vêtue de soie et choyée » ; ce mot est maintenant rarement employé ; Jean Ingelow écrit : « Les pauvres gens ne peuvent se permettre de se dorloter. »",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CODE OF HAMMURABI",
+      "article_id": "isbe-4530eb8ad93fed62ab9d",
+      "source_article_sha256": "635c8c847da5de6d2a034d21d5a2d89a3d22e0104ee7a61c007003b3a9a6e3c3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CODE OF HAMMURABI",
+          "target": "CODE DE HAMMURABI",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "HAMMURABI, CODE OF",
+          "target": "HAMMURABI, CODE DE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COFFER",
+      "article_id": "isbe-7fa49f92bb9b5bda8d2c",
+      "source_article_sha256": "ef1ee81255ae8fb48167f45d62a0fb03eef89bbb208c8b9fb219c081d7ec51c1",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COFFER",
+          "target": "COFFRET",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kof'-er ('argaz): A small box such as that in which the Philistines placed their golden mice and other offerings in returning the Ark (",
+          "target": "kof'-er ('argaz) : Petite boîte semblable à celle dans laquelle les Philistins placèrent leurs souris d'or et leurs autres offrandes en renvoyant l'arche (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COGITATION",
+      "article_id": "isbe-5c6ca71f1e079b03551e",
+      "source_article_sha256": "3043a5eedb8738ee5caf579d17695b71070a12efb03ddd5c681993dabf1d256d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COGITATION",
+          "target": "PENSÉE (COGITATION)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "koj-i-ta'-shun, ra`yon, \"the act of thinking or reflecting,\" as in ",
+          "target": "koj-i-ta'-shun, ra`yon, « l'action de penser ou de réfléchir », comme en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", \"my cogitations much troubled me\" (the Revised Version (British and American) \"my thoughts\").",
+          "target": " : « mes pensées me troublèrent beaucoup » (la Revised Version, britannique et américaine, porte « my thoughts »).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COL-HOZEH",
+      "article_id": "isbe-41522dc42f0b5d1825c5",
+      "source_article_sha256": "98de35864d80075e0005adc6bfbc7ef996b5e4ceb6d7bf51c3a569c7ba922a10",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COL-HOZEH",
+          "target": "COL-HOZÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kol-ho'-ze (kol-chozeh, \"all seeing\"; Septuagint omits): A man whose son Shallum rebuilt the fountain gate of Jerusalem in the days of Nehemiah (",
+          "target": "kol-ho'-ze (kol-chozeh, « qui voit tout » ; omission dans la Septante) : Homme dont le fils Shallum rebâtit la porte de la Source à Jérusalem au temps de Néhémie (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). The Col-hozeh of ",
+          "target": "). Le Col-Hozé de ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " is probably another man.",
+          "target": " est probablement un autre homme.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COLIUS",
+      "article_id": "isbe-0e4d28252432280c04cb",
+      "source_article_sha256": "ec417eb8e12dfe764275e55b30faa6779ea6a26a86446ec72fdf0e027481a268",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COLIUS",
+          "target": "COLIUS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ko'-li-us (Kolios, 1 Esdras 9:23).",
+          "target": "ko'-li-us (Kolios, 1 Esdras 9:23).",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CALITAS",
+          "target": "CALITAS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "COLLOP",
+      "article_id": "isbe-3099f55e17af0bdb5a69",
+      "source_article_sha256": "5dede351712bd4d14ad5ad6219428721cee03595b41e38e0c75e93976d0ec332",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COLLOP",
+          "target": "TRANCHE DE GRAISSE (COLLOP)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kol'-up (pimah): A slice of meat or \"fat,\" the King James Version in ",
+          "target": "kol'-up (pimah) : Tranche de viande ou de « graisse » ; dans la King James Version, en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", \"maketh collops of fat (thick folds of flesh) on his flanks,\" said of the \"wicked man.\" the American Standard Revised Version reads \"(hath) gathered fat upon his loins.\"",
+          "target": ", il « forme des bourrelets de graisse (épais replis de chair) sur ses flancs », ce qui est dit du « méchant ». L'American Standard Revised Version porte « (a) accumulé de la graisse sur ses reins ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COMING OF CHRIST",
+      "article_id": "isbe-42f53cd0ba3af1a8da25",
+      "source_article_sha256": "dba3076356667d03e8dadf6650e3f7d1469d4a371d1a290bd552b9aa89249aba",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COMING OF CHRIST",
+          "target": "VENUE DU CHRIST",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ADVENT",
+          "target": "AVÈNEMENT",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "PAROUSIA",
+          "target": "PAROUSIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COMMANDMENTS, THE TEN",
+      "article_id": "isbe-4136f85c1ba373314705",
+      "source_article_sha256": "fe47f424b24ba241c8b9531e0883197a0a11419ce69863579bbd8a5585848685",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COMMANDMENTS, THE TEN",
+          "target": "LES DIX COMMANDEMENTS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "COMMANDMENT; TEN COMMANDMENTS",
+          "target": "COMMANDEMENT ; DIX COMMANDEMENTS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COMMODIOUS",
+      "article_id": "isbe-e5484bb6619356715aeb",
+      "source_article_sha256": "223562a396af5fab3583aa93d1b4ca21752d5eae61bfc7a8d4f0e4b762487062",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COMMODIOUS",
+          "target": "COMMODE (COMMODIOUS)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ko-mo'-di-us (aneuthetos, \"not well placed\"): The word occurs only in ",
+          "target": "ko-mo'-di-us (aneuthetos, « mal situé ») : Ce mot ne figure qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ". \"As regards wintering, the place was certainly `not commodious,' but as regards shelter from some winds (including Northwest), it was a good anchorage\" (Code of Hammurabi, XXIII, 639).",
+          "target": ". « Pour ce qui est d'y passer l'hiver, l'endroit était certainement “peu commode”, mais, quant à la protection contre certains vents (notamment du nord-ouest), c'était un bon mouillage » (Code de Hammurabi, XXIII, 639).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COMPOSITION; COMPOUND",
+      "article_id": "isbe-2512da8b9eb30a84f16a",
+      "source_article_sha256": "add92f29d7774cbac10078940d4e052e0348851524dbd596b170c3a51941767e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COMPOSITION; COMPOUND",
+          "target": "COMPOSITION ; MÉLANGE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kom-po-zish'-un, kom'-pound (mathkoneth, \"measure\"); (subst.) (raqach, \"to make perfume,\" roqach, \"perfume\"): Used of the sacred anointing oil (",
+          "target": "kom-po-zish'-un, kom'-pound (mathkoneth, « mesure ») ; (subst.) (raqach, « faire du parfum », roqach, « parfum ») : Ces mots s'appliquent à l'huile d'onction sacrée (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ") and of the holy perfume (",
+          "target": ") et au parfum saint (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "), which were not to be used for any profane purpose.",
+          "target": "), qui ne devaient servir à aucun usage profane.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONCEIT",
+      "article_id": "isbe-fb7bac8d3e2e7b20dbef",
+      "source_article_sha256": "2f0cfae108072dff7b265f07e768c5137f517e6cd45f25d83c2a2e9987d9dd1c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONCEIT",
+          "target": "PRÉSOMPTION (CONCEIT)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon-set': An idiomatic rendering of a phrase, phronimoi en heautois, in ",
+          "target": "kon-set' : Traduction idiomatique d'une expression, phronimoi en heautois, en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "; meaning literally, \"wise with one's self,\" i.e. \"in one's own opinion,\" or, as in parallel Old Testament passages (",
+          "target": ", qui signifie littéralement « sages auprès de soi-même », c'est-à-dire « selon sa propre opinion », ou, comme dans des passages parallèles de l'Ancien Testament (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " the Revised Version, margin), \"in his own eyes\" (Hebrew `ayin).",
+          "target": " Revised Version, en marge), « à ses propres yeux » (hébreu `ayin).",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONCEPTION, IMMACULATE",
+      "article_id": "isbe-168ea8d2af551df6208b",
+      "source_article_sha256": "82465a406ca5cd6234a160ab8c6873f96cbfbdb4fd52cb0a085331a80b87ff38",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONCEPTION, IMMACULATE",
+          "target": "IMMACULÉE CONCEPTION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "IMMACULATE CONCEPTION",
+          "target": "IMMACULÉE CONCEPTION",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONCLUSION",
+      "article_id": "isbe-ab3a669d46b9e33d0ba5",
+      "source_article_sha256": "5b36a0419110155f29ad364145269b3f812495b31c57e38740bc0ad1cbdc5fc7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONCLUSION",
+          "target": "CONCLUSION",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon-kloo'-zhun (coph): In ",
+          "target": "kon-kloo'-zhun (coph) : En ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the King James Version, where the Revised Version (British and American) has \"the end,\" namely, a summary of the entire argument of the book.",
+          "target": " dans la King James Version, là où la Revised Version (britannique et américaine) porte « la fin », c'est-à-dire un résumé de l'ensemble de l'argumentation du livre.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONCUBINAGE",
+      "article_id": "isbe-5be958f59531195c88ed",
+      "source_article_sha256": "457fc0e0e467708cde4d2411d54c13fe5e6f9155755580b5ddc3ca7897daba17",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONCUBINAGE",
+          "target": "CONCUBINAGE",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon-ku'-bi-naj.",
+          "target": "kon-ku'-bi-naj.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "FAMILY",
+          "target": "FAMILLE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONDESCENSION, OF CHRIST",
+      "article_id": "isbe-7ebd55496af4ce935451",
+      "source_article_sha256": "9358e37d3f4147c1ac57b5a324c2d2e388bbd28c7f66e465de0bf041ac236685",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONDESCENSION, OF CHRIST",
+          "target": "CONDESCENDANCE DU CHRIST",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon-de-sen'-shun.",
+          "target": "kon-de-sen'-shun.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "KENOSIS",
+          "target": "KÉNOSE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONFISCATION",
+      "article_id": "isbe-bed8164843c0957311fd",
+      "source_article_sha256": "fe69a6e20a376fb46e427d4876b26c10322c9266a374bcd7a90c69bac5e87cc3",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONFISCATION",
+          "target": "CONFISCATION",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon-fis-ka'-shun.",
+          "target": "kon-fis-ka'-shun.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "PUNISHMENTS",
+          "target": "CHÂTIMENTS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONFLICT",
+      "article_id": "isbe-d79910c78cef73436cb0",
+      "source_article_sha256": "a1c42be989675a14d6fe1d207c44ad76b2898527f7a7cfbf172cb31566bac421",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONFLICT",
+          "target": "CONFLIT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon'-flikt (agon, \"contest,\" \"fight\"): In ",
+          "target": "kon'-flikt (agon, « lutte », « combat ») : En ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", \"having the same c. which ye saw in me,\" and ",
+          "target": ", « ayant le même combat que vous avez vu en moi », et en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " the King James Version; ",
+          "target": " dans la King James Version ; ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " (the King James Version \"contention\"); athlesis (literally, \"combat in the public games\"), in ",
+          "target": " (King James Version « contention », lutte) ; athlesis (littéralement « combat dans les jeux publics »), en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " (the King James Version \"fight\").",
+          "target": " (King James Version « fight », combat).",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "See also ",
+          "target": "Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "AGONY",
+          "target": "AGONIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONFUSION OF TONGUES",
+      "article_id": "isbe-966aa81228b57245b86b",
+      "source_article_sha256": "991660400343de5f31afa48c3ac5c1f69aa10e160d417ff2b736ea996a8456f5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONFUSION OF TONGUES",
+          "target": "CONFUSION DES LANGUES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "BABEL, TOWER OF",
+          "target": "BABEL, TOUR DE",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "TONGUES, CONFUSION OF",
+          "target": "LANGUES, CONFUSION DES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONIAH",
+      "article_id": "isbe-3cd19441de171390e98a",
+      "source_article_sha256": "4d00cdd4b6923c9fb12c5c850960ce93962c1733f4d9fc01ddd1582c70cd6fc4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONIAH",
+          "target": "CONIA",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ko-ni'-a (konyahu, \"Jah is creating\"): A form of the name Jehoiachin, found in ",
+          "target": "ko-ni'-a (konyahu, « Jah crée ») : Forme du nom de Jojakin, que l'on trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "JEHOIACHIN",
+          "target": "JOJAKIN",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONSOLATION",
+      "article_id": "isbe-245bcad4c72fd55219a7",
+      "source_article_sha256": "2a541f91d71bb6324e0b1d2a72a7a26d06a2c304d1dd1f3cf663c6cfc3ca99df",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONSOLATION",
+          "target": "CONSOLATION",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon-so-la'-shun (paraklesis): \"Consolation of Israel\" (",
+          "target": "kon-so-la'-shun (paraklesis) : « Consolation d'Israël » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), refers to the fulfillment of the promises in ",
+          "target": ") désigne l'accomplissement des promesses de ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " ff. See ",
+          "target": " et suiv. Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "COMFORT",
+          "target": "RÉCONFORT",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ". \"Son of consolation\" (",
+          "target": ". « Fils de consolation » (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " the King James Version and the American Revised Version, margin).",
+          "target": " King James Version et American Revised Version, en marge).",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "BARNABAS",
+          "target": "BARNABAS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CONSPIRACY",
+      "article_id": "isbe-dde2cbd1c8db88594b9b",
+      "source_article_sha256": "c291d85fedad199d721b304185b0698da2ac4a1e8321e7ae67f9e8cfdd28e963",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONSPIRACY",
+          "target": "CONSPIRATION",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon-spir'-a-si.",
+          "target": "kon-spir'-a-si.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CONFEDERACY",
+          "target": "CONFÉDÉRATION",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONSTELLATIONS",
+      "article_id": "isbe-82ac43bf506ccd07be3c",
+      "source_article_sha256": "788f456369771f6609ef054b5332bd2ab7167113dd516fe7bbee530cd6b9325c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONSTELLATIONS",
+          "target": "CONSTELLATIONS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon-ste-la'-shuns (kecilim, literally, \"Orions\").",
+          "target": "kon-ste-la'-shuns (kecilim, littéralement « Orions »).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ASTRONOMY, sec. II, 11",
+          "target": "ASTRONOMIE, section II, 11",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONSTRAIN",
+      "article_id": "isbe-b0656c667c739c5fa856",
+      "source_article_sha256": "cbc299736071ca0296254c661fbd254fda71c71560a7f42b993ada24b07700ea",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONSTRAIN",
+          "target": "CONTRAINDRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon-stran': Generally in the sense of pressing urgently (",
+          "target": "kon-stran' : Généralement au sens de presser instamment (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), to impel or carry away (",
+          "target": "), de pousser ou d'entraîner (",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": "); sometimes to be compelled of necessity (",
+          "target": ") ; parfois d'être obligé par nécessité (",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": "; compare ",
+          "target": " ; comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "COMPEL",
+          "target": "OBLIGER",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONVERSANT",
+      "article_id": "isbe-36cf88d889136450c706",
+      "source_article_sha256": "4700a7d7c7be146940954f91289d9979993d85df4af0fd70b9a51395ea749b60",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONVERSANT",
+          "target": "FRÉQUENTER (CONVERSANT)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon-vur'-sant (halakh, \"to go on,\" \"to walk\"): This word is translated \"conversant\" in ",
+          "target": "kon-vur'-sant (halakh, « aller », « marcher ») : Ce mot est traduit par « conversant » en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the King James Version (margin \"walked\"), and ",
+          "target": " dans la King James Version (en marge « walked », marchait), et en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " the King James Version meaning \"going along with them;\" the American Standard Revised Version \"went.\"",
+          "target": " dans la King James Version, au sens d'« aller avec eux » ; l'American Standard Revised Version porte « went », allait.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CONVULSING",
+      "article_id": "isbe-8051fdf7c72d7078398d",
+      "source_article_sha256": "2ac9c9566de380afe27b7b98f3cc4cd7dab6a79b4c91edbc45130859d1c23dd7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CONVULSING",
+          "target": "CONVULSIONS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kon-vuls'-ing (",
+          "target": "kon-vuls'-ing (",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " margin (the King James Version torn)).",
+          "target": " en marge (King James Version « torn », déchiré)).",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "UNCLEAN SPIRIT",
+          "target": "ESPRIT IMPUR",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COR",
+      "article_id": "isbe-76924ef4b4841451253d",
+      "source_article_sha256": "11ed7b762ac0cc28264ed3cc0cdd8921ac8d3e4fee1000eb3f928d08d2cd25b0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COR",
+          "target": "COR",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kor (kor): A liquid and dry measure, same as the homer, of about 90 gals. capacity (",
+          "target": "kor (kor) : Mesure de capacité pour les liquides et les matières sèches, identique au homer, d'environ 90 gallons (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "HOMER",
+          "target": "HOMER",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "WEIGHTS AND MEASURES",
+          "target": "POIDS ET MESURES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COR-ASHAN",
+      "article_id": "isbe-d023be96c3e905ed367c",
+      "source_article_sha256": "dd6cc3dcb34bb5e94b9cc696120dd6858c1381d954059707a6dcaef90e1bedab",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COR-ASHAN",
+          "target": "KOR-ASHAN",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kor-ash'-an, ko-ra'-shan (English Revised Version, the King James Version Chor-ashan; kor `ashan, ",
+          "target": "kor-ash'-an, ko-ra'-shan (English Revised Version, King James Version Chor-ashan ; kor `ashan, ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "): The original reading was probably Bor- ashan, \"well of Ashan.\"",
+          "target": ") : La leçon originale était probablement Bor-ashan, « puits d'Ashan ».",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ASHAN",
+          "target": "ASHAN",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CORDS, SMALL",
+      "article_id": "isbe-6326082b8afd6e68a5fd",
+      "source_article_sha256": "7eb52ed7091a9c19c070c80c5aa60dcc2ea1c09ff35ca9d40c6ccaf3ffb33b53",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CORDS, SMALL",
+          "target": "PETITES CORDES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kordz (schoinion, the diminutive of schoinos, \"a rush,\" hence, \"a rope of rushes\"): Translated \"small cords\" (",
+          "target": "kordz (schoinion, diminutif de schoinos, « un jonc », d'où « une corde de joncs ») : Traduit par « small cords » (petites cordes) (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " the King James Version; the Revised Version (British and American) \"cords\"). The same word is translated \"ropes\" in ",
+          "target": " King James Version ; Revised Version, britannique et américaine, « cords », cordes). Le même mot est traduit par « ropes » (cordes) en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ". See also ",
+          "target": ". Voir aussi ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " margin.",
+          "target": " en marge.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CORE",
+      "article_id": "isbe-d53772f1a4b72390b2c1",
+      "source_article_sha256": "47458c527053499f20c992589c9edf83c8343a881965200034179285ad10b601",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CORE",
+          "target": "CORE",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ko'-re (Kore): In the King James Version, ",
+          "target": "ko'-re (Kore) : Dans la King James Version, ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", used as a variant for Korah.",
+          "target": ", employé comme variante de Koré.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See KORAH, 3.",
+          "target": "Voir KORÉ, 3.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CORINTHUS",
+      "article_id": "isbe-a97698c9a988b7cc2857",
+      "source_article_sha256": "6883dd9f5d086fd6caf3fde815d0c0ecb269536d3215a5bbe73c6a93e2149674",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CORINTHUS",
+          "target": "CORINTHUS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ko-rin'-thus: Latin form for Greek Korinthos in the subscription to Ro (the King James Version).",
+          "target": "ko-rin'-thus : Forme latine du grec Korinthos dans la souscription de l'épître aux Romains (King James Version).",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CORINTH",
+          "target": "CORINTHE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CORNER GATE",
+      "article_id": "isbe-48818862455c0885ee8d",
+      "source_article_sha256": "bef112b5cbc1bb15724819e5c7096c5d5e5ffc6106f8a390dd1ccfcaf4954c8e",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CORNER GATE",
+          "target": "PORTE DE L'ANGLE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kor'-ner gat.",
+          "target": "kor'-ner gat.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "JERUSALEM",
+          "target": "JÉRUSALEM",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CORNERS OF THE EARTH",
+      "article_id": "isbe-d4fd6fb7bef62c27e043",
+      "source_article_sha256": "91b2bbd9ee4dcc2707afece69fb78f7966597903fee5286de5b73348d37c57d9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CORNERS OF THE EARTH",
+          "target": "COINS DE LA TERRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "EARTH, CORNERS OF THE",
+          "target": "TERRE, COINS DE LA",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COSAM",
+      "article_id": "isbe-fdd009d31ad74b7a45d6",
+      "source_article_sha256": "8c4c49b660bffd9eaddc05546c8a2b6927548f3be5eb1c4b2ca046d3e91865c8",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COSAM",
+          "target": "COSAM",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ko'-sam (Kosam): An ancestor of Jesus in Luke's genealogy in the 5th generation before Zerubbabel (",
+          "target": "ko'-sam (Kosam) : Ancêtre de Jésus dans la généalogie de Luc, à la cinquième génération avant Zorobabel (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COSMOGONY",
+      "article_id": "isbe-4b54c0f9ab589e4dcbb5",
+      "source_article_sha256": "fbbdeaa2dd8a41f36c782960aa9114f1efb019aaacc898176e01aa8993b509d9",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COSMOGONY",
+          "target": "COSMOGONIE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "koz-mog'-o-ni.",
+          "target": "koz-mog'-o-ni.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ANTHROPOLOGY",
+          "target": "ANTHROPOLOGIE",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "CREATION",
+          "target": "CRÉATION",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "EARTH",
+          "target": "TERRE",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "EVOLUTION",
+          "target": "ÉVOLUTION",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "WORLD",
+          "target": "MONDE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COSMOLOGY",
+      "article_id": "isbe-a7ea9edbdf588bafbf8b",
+      "source_article_sha256": "5f9303e14e6e63cb5359f0024d0878a83afc48896c56489a2041741b0145df30",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COSMOLOGY",
+          "target": "COSMOLOGIE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "koz-mol'-o-ji.",
+          "target": "koz-mol'-o-ji.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "WORLD",
+          "target": "MONDE",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "PROVIDENCE",
+          "target": "PROVIDENCE",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "COSTLINESS",
+      "article_id": "isbe-08982a453672a02c36b9",
+      "source_article_sha256": "9fce6bf29648c98a1db32e7cbee44e5e3103e4040ed0baac97a5aa86b9edfc60",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COSTLINESS",
+          "target": "LUXE (COSTLINESS)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kost'-li-nes (timiotes, \"preciousness,\" \"an abundance of costly things\"): Found only in ",
+          "target": "kost'-li-nes (timiotes, « caractère précieux », « abondance d'objets de prix ») : Ne figure qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", \"made rich by reason of her costliness.\"",
+          "target": " : « enrichis en raison de son luxe ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COUNTER-CHARM",
+      "article_id": "isbe-7d437a71d3a5ce1f1d91",
+      "source_article_sha256": "11c83c837948a57b9da7c5f516e6fed894ded61359a87c73fd2ad78ee6eaf85d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUNTER-CHARM",
+          "target": "CONTRE-CHARME",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "koun'-ter-charm.",
+          "target": "koun'-ter-charm.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "AMULET",
+          "target": "AMULETTE",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "CHARM",
+          "target": "CHARME",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COUNTRYMAN",
+      "article_id": "isbe-27f4ea9b7096bd576a9e",
+      "source_article_sha256": "fbc0a781e4f3e828a0d6e87869415c9662f1a27ceae30d657cece7827e337306",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUNTRYMAN",
+          "target": "COMPATRIOTE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kun'-tri-man (sumphuletes): \"Of the same tribe\" (",
+          "target": "kun'-tri-man (sumphuletes) : « De la même tribu » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "); also in idiomatic rendering (genos) for those of one's own race or kin (",
+          "target": ") ; également, dans une traduction idiomatique (genos), pour ceux de la même race ou parenté (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": " the King James Version, \"one's own nation\"). Compare ",
+          "target": " King James Version, « sa propre nation »). Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "; and see ",
+          "target": " ; et voir ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "COUSIN",
+          "target": "COUSIN",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "KINSMAN",
+          "target": "PARENT",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ", etc.",
+          "target": ", etc.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "COURSE OF PRIESTS AND LEVITES",
+      "article_id": "isbe-539effac684c57ff84eb",
+      "source_article_sha256": "7021257732bdf5038c0b55c6f0291ecd46f76aec417a98347672c0bf29d6b6d7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COURSE OF PRIESTS AND LEVITES",
+          "target": "CLASSES DE PRÊTRES ET DE LÉVITES",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "PRIESTS AND LEVITES",
+          "target": "PRÊTRES ET LÉVITES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COURT OF THE GENTILES",
+      "article_id": "isbe-1a14e2fc399c20077792",
+      "source_article_sha256": "ca5fc2c3bee76beb55a4ef7ea5b63c133cfffef88f8e30158b3cce967247f6f7",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COURT OF THE GENTILES",
+          "target": "PARVIS DES GENTILS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "TEMPLE (HEROD'S)",
+          "target": "TEMPLE (D'HÉRODE)",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COURT OF THE SABBATH",
+      "article_id": "isbe-edcb3e8e0dcbb802f7fa",
+      "source_article_sha256": "7f153ca936f0d5e842cb038fb5e17fc91ad90f1bacbd5130d7bab05a63ca9b76",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COURT OF THE SABBATH",
+          "target": "PORTIQUE DU SABBAT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "COVERED WAY",
+          "target": "PASSAGE COUVERT",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COUTHA",
+      "article_id": "isbe-53cf263a37b98d8e9506",
+      "source_article_sha256": "81a1d7ae154712f428dd3c31f1173c65eb11a7fb50e7a29fc21a1f94115dcb51",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COUTHA",
+          "target": "COUTHA",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kou'-tha, koo'-tha.",
+          "target": "kou'-tha, koo'-tha.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CUTHAH",
+          "target": "CUTHA",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COVENANT, ARK OF THE",
+      "article_id": "isbe-2fefb2adf17eadb07b35",
+      "source_article_sha256": "6aac1c58e6780d387bbc066a6f6060f4f277e94f049e79394c2707897b042f45",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COVENANT, ARK OF THE",
+          "target": "ALLIANCE, ARCHE DE L'",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kuv'-e-nant, kuv'-e-nant.",
+          "target": "kuv'-e-nant, kuv'-e-nant.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ARK OF THE COVENANT",
+          "target": "ARCHE DE L'ALLIANCE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COZBI",
+      "article_id": "isbe-49d3a3bcdde6a44bcb01",
+      "source_article_sha256": "3a59daaa419d44ac0d2b3f8247ed8ec2c3a316a9a0a02b2a47603bfb2ee375f5",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COZBI",
+          "target": "COZBI",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "koz'-bi (kozbi, \"deceitful\"): A Midianite woman, distinguished as the daughter of Zur, \"head of the people of a fathers' house in Midian.\" She was slain by Phinehas at Shittim in company with \"Zimri, the son of Salu, a prince of a fathers' house among the Simeonites\" (",
+          "target": "koz'-bi (kozbi, « trompeuse ») : Femme madianite, distinguée comme fille de Tsur, « chef du peuple d'une maison paternelle en Madian ». Elle fut tuée par Phinées à Sittim en compagnie de « Zimri, fils de Salu, prince d'une maison paternelle parmi les Siméonites » (",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "COZEBA",
+      "article_id": "isbe-275104ad86f20015f770",
+      "source_article_sha256": "8e05b2f5ac57fda0485c37137b379c77d2790da8783cc3a6eb290068aa6aa778",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "COZEBA",
+          "target": "COZEBA",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "ko-ze'-ba (",
+          "target": "ko-ze'-ba (",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "ACHZIB",
+          "target": "ACZIB",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CRASHING",
+      "article_id": "isbe-2cf0039861783ac267db",
+      "source_article_sha256": "ab2f9c471999dad57adbc8bbb97b342ae447ceded6b7fcd54e7bd908d6ffdd06",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRASHING",
+          "target": "FRACAS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "krash'-ing (shebher): This word, meaning \"a breach,\" figuratively \"destruction,\" is translated \"crashing\" in ",
+          "target": "krash'-ing (shebher) : Ce mot, qui signifie « brèche », et au sens figuré « destruction », est traduit par « crashing » (fracas) en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ": \"a great crashing from the hills,\" representing the doom to fall on evil-doers in Jerusalem, as the enemy advanced against the city from the north.",
+          "target": " : « un grand fracas venant des collines », image du malheur qui devait frapper les malfaiteurs de Jérusalem lorsque l'ennemi s'avançait contre la ville par le nord.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CREEK",
+      "article_id": "isbe-0453c1a61e8bf4dfcfda",
+      "source_article_sha256": "460883c1612cb1e86379da1dbd23ea749303cbdc44229fa3bda19316e84bd7e4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CREEK",
+          "target": "CRIQUE (CREEK)",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "krek, colloq. krik (kolpos (",
+          "target": "krek, familièrement krik (kolpos (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "), the Revised Version (British and American) \"bay\"): The spot has been identified as the traditional Bay of Paul about 8 miles Northwest of the town of Valetta in the island of Malta.",
+          "target": "), Revised Version (britannique et américaine) « bay », baie) : Le lieu a été identifié à la baie traditionnelle de Paul, à environ 8 milles au nord-ouest de la ville de La Valette dans l'île de Malte.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "MELITA",
+          "target": "MÉLITE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CRESCENS",
+      "article_id": "isbe-67111055b28005ac0d41",
+      "source_article_sha256": "70ef34b21983e40a27c15ba34abe508a163c28f8d749ea904d1d54dc0796956f",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRESCENS",
+          "target": "CRESCENS",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kres'-enz (Kreskes, \"increasing\"): An assistant of Paul, mentioned in ",
+          "target": "kres'-enz (Kreskes, « croissant ») : Collaborateur de Paul, mentionné en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " as having gone to Galatia. That he was one of the Seventy, and that he founded the church in Vienna in Gaul, are traditions without any trustworthy basis.",
+          "target": " comme étant parti pour la Galatie. Qu'il ait été l'un des Soixante-dix et qu'il ait fondé l'Église de Vienne en Gaule sont des traditions qui ne reposent sur aucun fondement digne de confiance.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CRESCENTS",
+      "article_id": "isbe-dcd806763f2f3b33cbfe",
+      "source_article_sha256": "1ccf9bd46f8381e3502046b7f498542241f2a644de1e18041d3ab8354a1fba99",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRESCENTS",
+          "target": "CROISSANTS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kres'-ents (saharonim): Moon-shaped necklaces (",
+          "target": "kres'-ents (saharonim) : Colliers en forme de lune (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ").f Paul, mentioned in ",
+          "target": ").f Paul, mentionné en ",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "tail",
+          "source": " as having gone to Galatia. That he was one of the Seventy, and that he founded the church in Vienna in Gaul, are traditions without any trustworthy basis.",
+          "target": " comme étant parti pour la Galatie. Qu'il ait été l'un des Soixante-dix et qu'il ait fondé l'Église de Vienne en Gaule sont des traditions qui ne reposent sur aucun fondement digne de confiance.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CRICKET",
+      "article_id": "isbe-b768d09d5eee32dbc287",
+      "source_article_sha256": "1dca0435b0085e02e86f0db3afe5d644d3aff9ec69c3f2f3cbf4183e5f690849",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRICKET",
+          "target": "GRILLON",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "krik'-et (chargol): This occurs in ",
+          "target": "krik'-et (chargol) : Ce mot se trouve en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": " (the King James Version \"beetle\"), and doubtless refers to some kind of locust or grasshopper.",
+          "target": " (King James Version « beetle », coléoptère) et désigne sans doute une sorte de sauterelle ou de criquet.",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BEETLE",
+          "target": "COLÉOPTÈRE",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "LOCUST",
+          "target": "SAUTERELLE",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "INSECTS",
+          "target": "INSECTES",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CRIPPLE",
+      "article_id": "isbe-79b4c08c393924a151cf",
+      "source_article_sha256": "f7ce082597a2ed560a71a1f548dc60bc924e3b4407f1fd37a3e48761c5560b1d",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRIPPLE",
+          "target": "INFIRME",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "krip'-'-l (cholos): Only occurs in ",
+          "target": "krip'-'-l (cholos) : Ne figure qu'en ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", denoting the congenitally lame man at Lystra. In the King James Version (1611) the word is spelled \"creeple.\" It originally meant one whose body is bent together as in the attitude of creeping. This was probably a case of infantile paralysis.",
+          "target": ", où il désigne l'homme boiteux de naissance à Lystre. Dans la King James Version (1611), le mot s'écrit « creeple ». Il désignait à l'origine une personne dont le corps est recroquevillé, comme dans l'attitude de quelqu'un qui rampe. Il s'agissait probablement d'un cas de paralysie infantile.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CRITICISM AND ARCHAEOLOGY",
+      "article_id": "isbe-6e3cff7777c95f3c8006",
+      "source_article_sha256": "e48bb5337e0f4d895934d1ae26b6661d8a285eeac08ed28a25d77edb177d430b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRITICISM AND ARCHAEOLOGY",
+          "target": "CRITIQUE ET ARCHÉOLOGIE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "ARCHAEOLOGY AND CRITICISM",
+          "target": "ARCHÉOLOGIE ET CRITIQUE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CROCODILE",
+      "article_id": "isbe-05fa439b50f08a0d44ff",
+      "source_article_sha256": "0441be4107cae46da2d82b700fab03426de6a30d7fbc27d8602da49294bd101c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CROCODILE",
+          "target": "CROCODILE",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "krok'-o-dil.",
+          "target": "krok'-o-dil.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "LEVIATHAN",
+          "target": "LÉVIATHAN",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "DRAGON",
+          "target": "DRAGON",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CROOKED SERPENT",
+      "article_id": "isbe-35e38a9f3249ab8ea224",
+      "source_article_sha256": "7a5d33df53aca3723d1cf95a29470c6e1d87723009713a60b390eee39f370ba4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CROOKED SERPENT",
+          "target": "SERPENT TORTUEUX",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "krook'-ed sur'-pent.",
+          "target": "krook'-ed sur'-pent.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ASTRONOMY",
+          "target": "ASTRONOMIE",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CROSSWAY",
+      "article_id": "isbe-dbb50c538285af580957",
+      "source_article_sha256": "4f5f37f6f5cb8826da27a6c51bda10633b6a9248ef91b66f97ba927896fdd47a",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CROSSWAY",
+          "target": "CARREFOUR",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kros'-wa (perek, literally, \"division\"): A forking or dividing of the way. Obadiah warns Edom, \"And stand thou not in the crossway, to cut off those of his that escape\" (",
+          "target": "kros'-wa (perek, littéralement « division ») : Bifurcation ou division du chemin. Abdias avertit Édom : « Ne te tiens pas au carrefour pour retrancher ceux des siens qui échappent » (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "). In Septuagint, \"a mountain pass.\"",
+          "target": "). Dans la Septante, « un col de montagne ».",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CRUCIFIXION",
+      "article_id": "isbe-94f7ea07223283a9f279",
+      "source_article_sha256": "f85d3b51272d0f5ae9eb8958da0dcfe375c14a87bfe092d024a712d363586507",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CRUCIFIXION",
+          "target": "CRUCIFIXION",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kroo-si-fik'-shun.",
+          "target": "kroo-si-fik'-shun.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "CROSS",
+          "target": "CROIX",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "PUNISHMENTS",
+          "target": "CHÂTIMENTS",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CULTURE",
+      "article_id": "isbe-ddd8beb267fa06a3a68b",
+      "source_article_sha256": "e467417a68b057472ad86c578ddfccf68322e22ff01a620769cea4abd2b3424c",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CULTURE",
+          "target": "CULTURE",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kul'-tur: Found only in 2 Esdras 8:6 the King James Version and the Revised Version (British and American), \"give .... culture to our understanding,\" i.e. to nourish it as seed in the ground.",
+          "target": "kul'-tur : Ne figure qu'en 2 Esdras 8:6 dans la King James Version et la Revised Version (britannique et américaine) : « donne… de la culture à notre intelligence », c'est-à-dire nourris-la comme une semence en terre.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CUMI",
+      "article_id": "isbe-60c73751aaa377b9934d",
+      "source_article_sha256": "9d40aad83208798e2d8c721c0ac599f04efed1a2fe034ec2798f03d1b4ba45bc",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CUMI",
+          "target": "CUMI",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "koo'-me, ku'-mi.",
+          "target": "koo'-me, ku'-mi.",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "TALITHA CUMI",
+          "target": "TALITHA CUMI",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        }
+      ]
+    },
+    {
+      "source_key": "CUN",
+      "article_id": "isbe-95c9b3f87e336d3c9873",
+      "source_article_sha256": "f2d6f54e8050d0bbabe7986573941f0c8213126f4aeec5c88dba25fda99e3fb4",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CUN",
+          "target": "CUN",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kun (kun, A, ek ton eklekton poleon, \"from the chosen cities\"): One of the cities of Hadarezer, king of Syria, spoiled by David (",
+          "target": "kun (kun, A, ek ton eklekton poleon, « des villes choisies ») : Une des villes de Hadarézer, roi de Syrie, pillées par David (",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": ", the King James Version \"Chun\"). In the parallel passage (",
+          "target": ", King James Version « Chun »). Dans le passage parallèle (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") its place is taken by ",
+          "target": "), elle est remplacée par ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "BEROTHAH",
+          "target": "BÉROTHA",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": ", which see.",
+          "target": ", voir cet article.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CUPBOARD",
+      "article_id": "isbe-025302a7b2e42ae10d3b",
+      "source_article_sha256": "e69a6bb55548c3e6d6c6d6064e05c717d20e7e71ed411410eba4f6e6403fc364",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CUPBOARD",
+          "target": "BUFFET",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kub'-erd (kulikion, 1 Macc 15:32): A kind of sideboard in or on which Simon's gold and silver vessels were displayed, and which, among other evidences of his glory, amazed the Syrian envoy Athenobius. Compare the Roman abacus, said to have been introduced into Rome from Asia.",
+          "target": "kub'-erd (kulikion, 1 Macc 15:32) : Sorte de buffet dans lequel ou sur lequel étaient exposés les vases d'or et d'argent de Simon et qui, parmi d'autres signes de sa gloire, frappa d'admiration l'envoyé syrien Athénobius. Comparer l'abacus romain, qui aurait été introduit à Rome depuis l'Asie.",
+          "action": "translate"
+        }
+      ]
+    },
+    {
+      "source_key": "CURTAIN",
+      "article_id": "isbe-a2eea3a0d9d875a4a313",
+      "source_article_sha256": "98cc575290ce58b5664b97467c8a6b3117522ae060e7939955a56420efef17fb",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CURTAIN",
+          "target": "RIDEAU",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kur'-t'-n, -ten, -tin: The word ordinarily used for curtain is yeri`ah. Thus in ",
+          "target": "kur'-t'-n, -ten, -tin : Le mot ordinairement employé pour désigner un rideau est yeri`ah. Ainsi en ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": " ff of the curtains of the tabernacle (see ",
+          "target": " et suiv., à propos des tentures du tabernacle (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "TABERNACLE",
+          "target": "TABERNACLE",
+          "action": "preserve",
+          "reason": "Historical name, pronunciation or cross-reference deliberately retained"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "); in ",
+          "target": ") ; en ",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "Figurative: In ",
+          "target": "Au sens figuré : En ",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": " (like ",
+          "target": " (comme en ",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": ", of the heavens), the word used is doq, literally, \"gauze.\"",
+          "target": ", à propos des cieux), le mot employé est doq, littéralement « gaze ».",
+          "action": "translate"
+        }
+      ]
+    }
+  ]
+}
