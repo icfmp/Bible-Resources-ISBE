@@ -1,0 +1,580 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CANON OF THE NEW TESTAMENT",
+      "article_id": "isbe-4b4c7dac361e26d51d8a",
+      "source_article_sha256": "5341f465739ca86a77995d3543b9c02fa398a581e4913e32e600149192561f26",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CANON OF THE NEW TESTAMENT",
+          "target": "CANON DU NOUVEAU TESTAMENT",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kan'-un",
+          "target": "kan'-un",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "I. TWO PRELIMINARY CONSIDERATIONS",
+          "target": "I. DEUX CONSIDÉRATIONS PRÉLIMINAIRES",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "1. Early Christians Had the Old Testament",
+          "target": "1. Les premiers chrétiens possédaient l'Ancien Testament",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "2. No Intention of Writing the New Testament",
+          "target": "2. Aucune intention d'écrire le Nouveau Testament",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "II. THREE STAGES OF THE PROCESS",
+          "target": "II. TROIS ÉTAPES DU PROCESSUS",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "1. From the Apostles to 170 AD",
+          "target": "1. Des apôtres à 170 apr. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "(1) Clement of Rome; Ignatius; Polycarp",
+          "target": "(1) Clément de Rome ; Ignace ; Polycarpe",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "(2) Forces Increasing Value of Writings",
+          "target": "(2) Facteurs accroissant la valeur des écrits",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "(a) Apologists, Justin Martyr",
+          "target": "(a) Les apologistes, Justin Martyr",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "(b) Gnostics, Marcion",
+          "target": "(b) Les gnostiques, Marcion",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "2. From 170 AD to 220 AD",
+          "target": "2. De 170 à 220 apr. J.-C.",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "(1) Irenaeus",
+          "target": "(1) Irénée",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "(2) Muratorian Fragment",
+          "target": "(2) Fragment de Muratori",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "3. 3rd and 4th Centuries",
+          "target": "3. IIIe et IVe siècles",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "(1) Origen",
+          "target": "(1) Origène",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "(2) Dionysius",
+          "target": "(2) Denys",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "text",
+          "source": "(3) Cyprian",
+          "target": "(3) Cyprien",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "text",
+          "source": "(4) Eusebins",
+          "target": "(4) Eusèbe",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "(5) Athanasius",
+          "target": "(5) Athanase",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "(6) Council of Carthage; Jerome; Augustine",
+          "target": "(6) Concile de Carthage ; Jérôme ; Augustin",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "LITERATURE",
+          "target": "BIBLIOGRAPHIE",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "I. Two Preliminary Considerations.",
+          "target": "I. Deux considérations préliminaires.",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "The canon is the collection of 27 books which the church (generally) receives as its New Testament Scriptures. The history of the canon is the history of the process by which these books were brought together and their value as sacred Scriptures officially recognized. That process was gradual, furthered by definite needs, and, though unquestionably continuous, is in its earlier stages difficult to trace. It is always well in turning to the study of it to have in mind two considerations which bear upon the earliest phases of the whole movement. These are:",
+          "target": "Le canon est la collection de 27 livres que l'Église reçoit (généralement) comme constituant les Écritures de son Nouveau Testament. L'histoire du canon est celle du processus par lequel ces livres ont été rassemblés et leur valeur d'Écritures sacrées officiellement reconnue. Ce processus a été progressif, favorisé par des besoins précis ; bien qu'incontestablement continu, il est difficile à retracer dans ses premières étapes. Lorsqu'on entreprend de l'étudier, il est toujours bon de garder à l'esprit deux considérations qui concernent les premières phases de l'ensemble du mouvement. Les voici :",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "1. Early Christians Had the Old Testament:",
+          "target": "1. Les premiers chrétiens possédaient l'Ancien Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "The early Christians had in their hands what was a Bible to them, namely, the Old Testament Scriptures. These were used to a surprising extent in Christian instruction. For a whole century after the death of Jesus this was the case. These Scriptures were read in the churches, and there could be at first no idea of placing beside them new books which could for a moment rank with them in honor and authority. It has been once and again discussed whether Christianity from the first was a \"book-religion.\" The decision of the matter depends upon what is referred to by the word \"book.\" Christianity certainly did have from the very beginning a book which it reverenced--the Old Testament--but years passed before it had even the beginnings of a book of its own. What has been called \"the wealth of living canonical material,\" namely, prophets and teachers, made written words of subordinate value. In this very teaching, however, with its oral traditions lay the beginnings of that movement which was ultimately to issue in a canon of writings.",
+          "target": "Les premiers chrétiens avaient entre les mains ce qui constituait pour eux une Bible, à savoir les Écritures de l'Ancien Testament. Celles-ci étaient utilisées dans l'enseignement chrétien à un degré surprenant. Il en fut ainsi pendant tout un siècle après la mort de Jésus. Ces Écritures étaient lues dans les Églises, et il ne pouvait être question, au début, de placer à côté d'elles de nouveaux livres qui puissent, un seul instant, les égaler en honneur et en autorité. On a discuté à plusieurs reprises de la question de savoir si le christianisme était dès l'origine une « religion du livre ». La réponse dépend de ce que l'on désigne par le mot « livre ». Le christianisme possédait certainement, dès ses tout premiers débuts, un livre qu'il révèrait, l'Ancien Testament ; mais des années passèrent avant qu'il ait ne serait-ce que les premiers éléments d'un livre qui lui fût propre. Ce que l'on a appelé « la richesse du matériel canonique vivant », à savoir les prophètes et les enseignants, reléguait les paroles écrites au second plan. Cependant, c'est dans cet enseignement même, avec ses traditions orales, que se trouvaient les débuts du mouvement qui devait finalement aboutir à un canon d'écrits.",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "2. No Intention of Writing the New Testament:",
+          "target": "2. Aucune intention d'écrire le Nouveau Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "When the actual work of writing began no one who sent forth an epistle or framed a gospel had before him the definite purpose of contributing toward the formation of what we call \"the Bible.\" All the New Testament writers looked for \"the end\" as near. Their words, therefore, were to meet definite needs in the lives of those with whom they were associated. They had no thought of creating a new sacred literature. And yet these incidental occasional writings have come to be our choicest Scripture. The circumstances and influences which brought about this result are here briefly set forth.",
+          "target": "Lorsque le travail effectif de rédaction commença, personne, parmi ceux qui envoyèrent une épître ou composèrent un évangile, n'avait pour dessein précis de contribuer à la formation de ce que nous appelons « la Bible ». Tous les auteurs du Nouveau Testament s'attendaient à ce que « la fin » soit proche. Leurs paroles visaient donc à répondre à des besoins précis dans la vie de ceux avec lesquels ils étaient en relation. Ils ne songeaient pas à créer une nouvelle littérature sacrée. Et pourtant, ces écrits occasionnels, nés des circonstances, sont devenus ce que nous avons de plus précieux dans les Écritures. Les circonstances et les influences qui ont conduit à ce résultat sont brièvement exposées ici.",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "II. Three Stages of the Process.",
+          "target": "II. Trois étapes du processus.",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "For convenience of arrangement and definiteness of impression the whole process may be marked off in three stages:",
+          "target": "Pour la commodité de l'exposé et la clarté d'ensemble, on peut diviser tout le processus en trois étapes :",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "(1) that from the time of the apostles until about 170 AD;",
+          "target": "(1) Celle qui va de l'époque des apôtres jusqu'à environ 170 apr. J.-C. ;",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "(2) that of the closing years of the 2nd century and the opening of the 3rd (170-220 AD);",
+          "target": "(2) celle des dernières années du IIe siècle et du début du IIIe (170-220 apr. J.-C.) ;",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "(3) that of the 3rd and 4th centuries. In the first we seek for the evidences of the growth in appreciation of the peculiar value of the New Testament writings; in the second we discover the clear, full recognition of a large part of these writings as sacred and authoritative; in the third the acceptance of the complete canon in the East and in the West.",
+          "target": "(3) celle des IIIe et IVe siècles. Dans la première, nous recherchons les signes d'une appréciation croissante de la valeur particulière des écrits du Nouveau Testament ; dans la deuxième, nous découvrons la reconnaissance claire et entière d'une grande partie de ces écrits comme sacrés et faisant autorité ; dans la troisième, l'acceptation du canon complet en Orient et en Occident.",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "1. From the Apostles to 170 AD:",
+          "target": "1. Des apôtres à 170 apr. J.-C. :",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "(1) Clement of Rome; Ignarius; Polycarp:",
+          "target": "(1) Clément de Rome ; Ignace ; Polycarpe :",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "The first period extending to 170 AD.--It does not lie within the scope of this article to recount the origin of the several books of the New Testament. This belongs properly to New Testament Introduction (which see). By the end of the 1st century all of the books of the New Testament were in existence. They were, as treasures of given churches, widely separated and honored as containing the word of Jesus or the teaching of the apostles. From the very first the authority of Jesus had full recognition in all the Christian world. The whole work of the apostles was in interpreting Him to the growing church. His sayings and His life were in part for the illumination of the Old Testament; wholly for the understanding of life and its issues. In every assembly of Christians from the earliest days He was taught as well as the Old Testament. In each church to which an epistle was written that epistle was likewise read. Paul asked that his letters be read in this way (",
+          "target": "La première période s'étend jusqu'à 170 apr. J.-C. — Il n'entre pas dans le cadre de cet article de retracer l'origine des divers livres du Nouveau Testament. Cela relève proprement de l'introduction au Nouveau Testament (voir ce sujet). À la fin du Ier siècle, tous les livres du Nouveau Testament existaient. Trésors d'Églises particulières, ils étaient largement dispersés et honorés parce qu'ils contenaient la parole de Jésus ou l'enseignement des apôtres. Dès le tout début, l'autorité de Jésus était pleinement reconnue dans l'ensemble du monde chrétien. Toute l'œuvre des apôtres consistait à le faire comprendre à l'Église en pleine croissance. Ses paroles et sa vie servaient en partie à éclairer l'Ancien Testament, et entièrement à comprendre la vie et ses enjeux. Dans chaque assemblée de chrétiens, dès les premiers jours, on enseignait à son sujet aussi bien que sur l'Ancien Testament. Dans chaque Église à laquelle une épître avait été écrite, celle-ci était également lue. Paul demandait que ses lettres soient ainsi lues (",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "tail",
+          "source": "). In this attentive listening to the exposition of some event in the life of Jesus or to the reading of the epistle of an apostle began the \"authorization\" of the traditions concerning Jesus and the apostolic writings. The widening of the area of the church and the departure of the apostles from earth emphasized increasingly the value of that which the writers of the New Testament left behind them. Quite early the desire to have the benefit of all possible instruction led to the interchange of Christian writings. Polycarp (110 AD ?) writes to the Philippians, \"I have received letters from you and from Ignatius. You recommend me to send on yours to Syria; I shall do so either personally or by some other means. In return I send you the letter of Ignatius as well as others which I have in my hands and for which you made request. I add them to the present one; they will serve to edify your faith and perseverance\" (Epistle to Phil, XIII). This is an illustration of what must have happened toward furthering a knowledge of the writings of the apostles. Just when and to what extent \"collections\" of our New Testament books began to be made it is impossible to say, but it is fair to infer that a collection of the Pauline epistles existed at the time Polycarp wrote to the Php and when Ignatius wrote his seven letters to the churches of Asia Minor, i.e. about 115 AD. There is good reason to think also that the four Gospels were brought together in some places as early as this. A clear distinction, however, is to be kept in mind between \"collections\" and such recognition as we imply in the word \"canonical.\" The gathering of books was one of the steps preliminary to this. Examination of the testimony to the New Testament in this early time indicates also that it is given with no intention of framing the canonicity of New Testament books. In numerous instances only \"echoes\" of the thought of the epistles appear; again quotations are incomplete; both showing that Scripture words are used as the natural expression of Christian thought. In the same way the Apostolic Fathers refer to the teachings and deeds of Jesus. They witness \"to the substance and not to the authenticity of the Gospels.\" That this all may be more evident let us note in more detail the witness of the subapostolic age.",
+          "target": "). C'est dans cette écoute attentive de l'exposé d'un événement de la vie de Jésus ou de la lecture de l'épître d'un apôtre que commença la reconnaissance de l'autorité des traditions concernant Jésus et des écrits apostoliques. L'extension géographique de l'Église et le départ des apôtres de cette terre firent ressortir toujours davantage la valeur de ce que les auteurs du Nouveau Testament avaient laissé derrière eux. Assez tôt, le désir de bénéficier de tout l'enseignement possible conduisit à l'échange d'écrits chrétiens. Polycarpe (110 apr. J.-C. ?) écrit aux Philippiens : « J'ai reçu des lettres de vous et d'Ignace. Vous me recommandez de faire parvenir la vôtre en Syrie ; je le ferai soit personnellement, soit par quelque autre moyen. En retour, je vous envoie la lettre d'Ignace ainsi que d'autres que j'ai entre les mains et que vous avez demandées. Je les joins à la présente ; elles serviront à édifier votre foi et votre persévérance » (Épître aux Philippiens, XIII). Voilà un exemple de ce qui a dû se produire pour favoriser la connaissance des écrits des apôtres. Il est impossible de dire exactement quand et dans quelle mesure on commença à constituer des « collections » de nos livres du Nouveau Testament ; mais on peut raisonnablement en déduire qu'une collection des épîtres pauliniennes existait au moment où Polycarpe écrivit aux Philippiens et où Ignace écrivit ses sept lettres aux Églises d'Asie Mineure, c'est-à-dire vers 115 apr. J.-C. Il y a également de bonnes raisons de penser que, dès cette époque, les quatre Évangiles avaient été réunis en certains lieux. Il convient cependant de garder à l'esprit une distinction nette entre des « collections » et la reconnaissance qu'implique pour nous le mot « canonique ». Le rassemblement des livres était l'une des étapes préparatoires à cette reconnaissance. L'examen des témoignages concernant le Nouveau Testament à cette époque ancienne indique aussi qu'ils sont donnés sans intention d'établir la canonicité des livres du Nouveau Testament. Dans de nombreux cas, seuls apparaissent des « échos » de la pensée des épîtres ; ailleurs, les citations sont incomplètes ; ces deux phénomènes montrent que les paroles des Écritures sont employées comme l'expression naturelle de la pensée chrétienne. De la même manière, les Pères apostoliques se réfèrent aux enseignements et aux actes de Jésus. Ils témoignent « de la substance des Évangiles et non de leur authenticité ». Pour rendre tout cela plus évident, examinons plus en détail le témoignage de l'époque subapostolique.",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "Clement of Rome, in 95 AD, wrote a letter in the name of the Christians of Rome to those in Corinth. In this letter he uses material found in Mt, Lk, giving it a free rendering (see chapters 46 and 13); he has been much influenced by the Epistle to the Hebrews (see chapters 9, 10, 17, 19, 36). He knows Romans, Corinthians, and there are found echoes of 1 Timothy, Titus, 1 Peter and Ephesians.",
+          "target": "En 95 apr. J.-C., Clément de Rome écrivit une lettre, au nom des chrétiens de Rome, à ceux de Corinthe. Dans cette lettre, il utilise des éléments qui se trouvent dans Matthieu et Luc, en les reformulant librement (voir les chapitres 46 et 13) ; il a été fortement influencé par l'Épître aux Hébreux (voir les chapitres 9, 10, 17, 19, 36). Il connaît les épîtres aux Romains et aux Corinthiens, et l'on trouve des échos de 1 Timothée, Tite, 1 Pierre et Éphésiens.",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "The Epistles of Ignatius (115 AD) have correspondences with our gospels in several places (",
+          "target": "Les épîtres d'Ignace (115 apr. J.-C.) présentent en plusieurs endroits des correspondances avec nos Évangiles (",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "tail",
+          "source": ") and incorporate language from nearly all of the Pauline epistles. The Epistle to Polycarp makes large use of Phil, and besides this cites nine of the other Pauline epistles. Ignatius quotes from Matthew, apparently from memory; also from 1 Peter and 1 John. In regard to all these three writers--Clement, Polycarp, Ignatius--it is not enough to say that they bring us reminiscences or quotations from this or that book. Their thought is tinctured all through with New Testament truth. As we move a little farther down the years we come to \"The Teaching of the Twelve Apostles\" (circa 120 AD in its present form; see ",
+          "target": ") et reprennent des expressions de presque toutes les épîtres pauliniennes. L'Épître à Polycarpe fait largement usage de l'épître aux Philippiens et cite en outre neuf des autres épîtres de Paul. Ignace cite Matthieu, apparemment de mémoire, ainsi que 1 Pierre et 1 Jean. À propos de ces trois auteurs, Clément, Polycarpe et Ignace, il ne suffit pas de dire qu'ils nous transmettent des réminiscences ou des citations de tel ou tel livre. Toute leur pensée est imprégnée de la vérité du Nouveau Testament. En avançant un peu dans le temps, nous arrivons à « L'Enseignement des douze apôtres » (vers 120 apr. J.-C. dans sa forme actuelle ; voir ",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "DIDACHE",
+          "target": "DIDACHÈ",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": "); the Epistle of Barnabas (circa 130 AD) and the Shepherd of Hermas (circa 130 AD). These exhibit the same phenomena as appear in the writings of Clement, Ignatius and Polycarp as far as references to the New Testament are concerned. Some books are quoted, and the thought of the three writings echoes again and again the teachings of the New Testament. They bear distinct witness to the value of \"the gospel\" and the doctrine of the apostles, so much so as to place these clearly above their own words. It is in the Epistle of Barnabas that we first come upon the phrase \"it is written,\" referring to a New Testament book (Matthew) (see Epis., iv.14). In this deepening sense of value was enfolded the feeling of authoritativeness, which slowly was to find expression. It is well to add that what we have so far discovered was true in widely separated parts of the Christian world as e. g. Rome and Asia Minor.",
+          "target": "), à l'Épître de Barnabé (vers 130 apr. J.-C.) et au Pasteur d'Hermas (vers 130 apr. J.-C.). En ce qui concerne les références au Nouveau Testament, ces écrits présentent les mêmes phénomènes que ceux de Clément, d'Ignace et de Polycarpe. Certains livres sont cités, et la pensée de ces trois écrits fait à maintes reprises écho aux enseignements du Nouveau Testament. Ils témoignent nettement de la valeur de « l'Évangile » et de la doctrine des apôtres, au point de les placer clairement au-dessus de leurs propres paroles. C'est dans l'Épître de Barnabé que nous rencontrons pour la première fois l'expression « il est écrit » appliquée à un livre du Nouveau Testament (Matthieu) (voir Epis., iv.14). Dans cette conscience toujours plus profonde de leur valeur se trouvait en germe le sentiment de leur autorité, qui allait lentement trouver son expression. Il convient d'ajouter que ce que nous avons découvert jusqu'ici valait dans des régions du monde chrétien très éloignées les unes des autres, par exemple Rome et l'Asie Mineure.",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "(2) Forces Increasing Value of Writings:",
+          "target": "(2) Facteurs accroissant la valeur des écrits :",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "(a) Apologists, Justin Martyr:",
+          "target": "(a) Les apologistes, Justin Martyr :",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "The literature of the period we are examining was not, however, wholly of the kind of which we have been speaking. Two forces were calling out other expressions of the singular value of the writings of the apostles, whether gospels or epistles. These were",
+          "target": "La littérature de la période que nous examinons n'était cependant pas tout entière du genre dont nous venons de parler. Deux forces suscitaient d'autres expressions de la valeur singulière des écrits des apôtres, qu'il s'agisse des Évangiles ou des épîtres. C'étaient",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "text",
+          "source": "(a) the attention of the civil government in view of the rapid growth of the Christian church and",
+          "target": "(a) l'attention des autorités civiles devant la croissance rapide de l'Église chrétienne, et",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "(b) heresy.",
+          "target": "(b) l'hérésie.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "The first brought to the defense or commendation of Christianity the Apologists, among whom were Justin Martyr, Aristides, Melito of Sardis and Theophilus of Antioch. By far the most important of these was Justin Martyr, and his work may be taken as representative. He was born about 100 AD at Shechem, and died as a martyr at Rome in 165 AD. His two Apologies and the Dialogue with Trypho are the sources for the study of his testimony. He speaks of the \"Memoirs of the Apostles called Gospels\" (Ap., i.66) which were read on Sunday interchangeably with the prophets (i.67). Here emerges that equivalence in value of these \"Gospels\" with the Old Testament Scriptures which may really mark the beginning of canonization. That these Gospels were our four Gospels as we now have them is yet a disputed question; but the evidence is weighty that they were. (See Purves, Testimony of Justin Martyr to Early Christianity, Lect V.) The fact that Tatian, his pupil, made a harmony of the Gospels, i.e. of our four Gospels, also bears upon our interpretation of Justin's \"Memoirs.\" (See Hemphill, The Diatessaron of Tatian.) The only other New Testament book which Justin mentions is the Apocalypse; but he appears to have known the Acts, six epistles of Paul, Hebrew and 1 John, and echoes of still other epistles are perceptible. When he speaks of the apostles it is after this fashion: \"By the power of God they proclaimed to every race of men that they were sent by Christ to teach to all the Word of God\" (Ap., i.39). It is debatable, however, whether this refers to more than the actual preaching of the apostles. The beginning of the formation of the canon is in the position and authority given to the Gospels.",
+          "target": "La première suscita, pour défendre ou recommander le christianisme, les apologistes, parmi lesquels Justin Martyr, Aristide, Méliton de Sardes et Théophile d'Antioche. Le plus important d'entre eux était de loin Justin Martyr, dont l'œuvre peut être tenue pour représentative. Il naquit vers 100 apr. J.-C. à Sichem et mourut martyr à Rome en 165 apr. J.-C. Ses deux Apologies et le Dialogue avec Tryphon sont les sources qui permettent d'étudier son témoignage. Il parle des « Mémoires des apôtres appelés Évangiles » (Ap., i.66), qui étaient lus le dimanche alternativement avec les prophètes (i.67). Apparaît ici cette équivalence de valeur entre ces « Évangiles » et les Écritures de l'Ancien Testament, qui pourrait véritablement marquer le commencement de la canonisation. Que ces Évangiles aient été nos quatre Évangiles tels que nous les possédons aujourd'hui reste une question débattue ; mais les indices en ce sens sont de poids. (Voir Purves, Testimony of Justin Martyr to Early Christianity, Lect V.) Le fait que Tatien, son disciple, ait composé une harmonie des Évangiles, c'est-à-dire de nos quatre Évangiles, importe également pour notre interprétation des « Mémoires » de Justin. (Voir Hemphill, The Diatessaron of Tatian.) Le seul autre livre du Nouveau Testament que Justin mentionne est l'Apocalypse ; mais il semble avoir connu les Actes, six épîtres de Paul, l'Épître aux Hébreux et 1 Jean, et des échos d'autres épîtres encore sont perceptibles. Lorsqu'il parle des apôtres, c'est en ces termes : « Par la puissance de Dieu, ils proclamèrent à toute race humaine qu'ils avaient été envoyés par le Christ pour enseigner à tous la Parole de Dieu » (Ap., i.39). Il est toutefois discutable que cela se réfère à autre chose qu'à la prédication effective des apôtres. Le commencement de la formation du canon réside dans la place et l'autorité accordées aux Évangiles.",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "(b) Gnostics, Marcion:",
+          "target": "(b) Les gnostiques, Marcion :",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "text",
+          "source": "While the Apologists were busy commending or defending Christianity, heresy in the form of Gnosticism was also compelling attention to the matter of the writings of the apostles. From the beginning Gnostic teachers claimed that Jesus had favored chosen ones of His apostles with a body of esoteric truth which had been handed down by secret tradition. This the church denied, and in the controversy that went on through years the question of what were authoritative writings became more and more pronounced. Basilides e. g., who taught in Alexandria during the reign of Hadrian (AD 117-38), had for his secret authority the secret tradition of the apostle Matthias and of Glaucias, an alleged interpreter of Peter, but he bears witness to Matthew, Luke, John, Romans, 1 Corinthians, Ephesians, and Colossians in the effort to recommend his doctrines, and, what is more, gives them the value of Scripture in order to support more securely his teachings. (See Philosophoumena of Hippolytus, VII, 17). Valentinus, tracing his authority through Theodas to Paul, makes the same general use of New Testament books, and Tertullian tells us that he appeared to use the whole New Testament as then known.",
+          "target": "Tandis que les apologistes s'employaient à recommander ou à défendre le christianisme, l'hérésie, sous la forme du gnosticisme, imposait elle aussi de prêter attention à la question des écrits des apôtres. Dès le début, les enseignants gnostiques prétendaient que Jésus avait accordé à certains de ses apôtres choisis un ensemble de vérités ésotériques qui avaient été transmises par une tradition secrète. L'Église le niait et, dans la controverse qui se poursuivit pendant des années, la question de savoir quels écrits faisaient autorité se posa avec toujours plus d'acuité. Basilide, par exemple, qui enseignait à Alexandrie sous le règne d'Hadrien (117-138 apr. J.-C.), avait pour autorité secrète la tradition secrète de l'apôtre Matthias et de Glaucias, prétendu interprète de Pierre ; mais il témoigne de Matthieu, Luc, Jean, Romains, 1 Corinthiens, Éphésiens et Colossiens dans son effort pour accréditer ses doctrines et, qui plus est, leur accorde la valeur d'Écritures afin d'étayer plus solidement ses enseignements. (Voir les Philosophoumena d'Hippolyte, VII, 17.) Valentin, qui faisait remonter son autorité à Paul par l'intermédiaire de Théodas, fait le même usage général des livres du Nouveau Testament, et Tertullien nous dit qu'il semblait utiliser tout le Nouveau Testament tel qu'il était alors connu.",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "The most noted of the Gnostics was Marcion, a native of Pontus. He went to Rome (circa 140 AD), there broke with the church and became a dangerous heretic. In support of his peculiar views, he formed a canon of his own which consisted of Luke's Gospel and ten of the Pauline epistles. He rejected the Pastoral Epistles, Hebrews, Matthew, Mark, John, the Acts, the Catholic epistles and the Apocalypse, and made a recension of both the gospel of Luke and the Pauline epistles which he accepted. His importance, for us, however, is in the fact that he gives us the first clear evidence of the canonization of the Pauline epistles. Such use of the Scriptures inevitably called forth both criticism and a clearer marking off of those books which were to be used in the churches opposed to heresy, and so \"in the struggle with Gnosticism the canon was made.\" We are thus brought to the end of the first period in which we have marked the collection of New Testament books in greater or smaller compass, the increasing valuation of them as depositions of the truth of Jesus and His apostles, and finally the movement toward the claim of their authoritativeness as over against perverted teaching. No sharp line as to a given year can be drawn between the first stage of the process and the second. Forces working in the first go on into the second, but results are accomplished in the second which give it its right to separate consideration.",
+          "target": "Le plus célèbre des gnostiques fut Marcion, originaire du Pont. Il se rendit à Rome (vers 140 apr. J.-C.), y rompit avec l'Église et devint un dangereux hérétique. Pour soutenir ses vues particulières, il forma un canon qui lui était propre et qui comprenait l'Évangile de Luc et dix des épîtres de Paul. Il rejeta les épîtres pastorales, Hébreux, Matthieu, Marc, Jean, les Actes, les épîtres catholiques et l'Apocalypse, et établit une recension tant de l'Évangile de Luc que des épîtres de Paul qu'il acceptait. Son importance pour nous réside toutefois dans le fait qu'il nous fournit le premier témoignage clair de la canonisation des épîtres pauliniennes. Un tel usage des Écritures suscita inévitablement à la fois des critiques et une délimitation plus nette des livres qui devaient être employés dans les Églises opposées à l'hérésie ; ainsi, « c'est dans la lutte contre le gnosticisme que le canon s'est constitué ». Nous sommes ainsi arrivés à la fin de la première période, où nous avons relevé la constitution de collections de livres du Nouveau Testament plus ou moins étendues, l'appréciation croissante de ces livres comme dépôts de la vérité de Jésus et de ses apôtres, et enfin le mouvement tendant à affirmer leur autorité face aux enseignements dénaturés. On ne saurait tracer une frontière nette, à une année donnée, entre la première et la deuxième étape du processus. Les forces à l'œuvre dans la première continuent à agir dans la deuxième, mais les résultats obtenus au cours de celle-ci justifient qu'elle soit examinée séparément.",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "2. From 170 AD to 220 AD:",
+          "target": "2. De 170 à 220 apr. J.-C. :",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "The period from 170 AD to 220 AD.--This is the age of a voluminous theological literature busy with the great issues of church canon and creed. It is the period of the great names of Irenaeus, Clement of Alexandria, and Tertullian, representing respectively Asia Minor, Egypt and North Africa. In passing into it we come into the clear light of Christian history. There is no longer any question as to a New Testament canon; the only difference of judgment is as to its extent. What has been slowly but surely shaping itself in the consciousness of the church now comes to clear expression.",
+          "target": "La période de 170 à 220 apr. J.-C. — C'est l'âge d'une abondante littérature théologique, occupée par les grandes questions du canon et de la confession de foi de l'Église. C'est la période des grands noms d'Irénée, de Clément d'Alexandrie et de Tertullien, qui représentent respectivement l'Asie Mineure, l'Égypte et l'Afrique du Nord. En y entrant, nous pénétrons dans la pleine lumière de l'histoire chrétienne. Il n'est plus question de savoir s'il existe un canon du Nouveau Testament ; les divergences de jugement ne concernent que son étendue. Ce qui s'était lentement mais sûrement formé dans la conscience de l'Église reçoit désormais une expression claire.",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "(1) Irenaeus.",
+          "target": "(1) Irénée.",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "That expression we may study in Irenaeus as representative of the period. He was born in Asia Minor, lived and taught in Rome and became afterward bishop of Lyons. He had, therefore, a wide acquaintance with the churches, and was peculiarly competent to speak concerning the general judgment of the Christian world. As a pupil of Polycarp, who was a disciple of John, he is connected with the apostles themselves. An earnest defender of the truth, he makes the New Testament in great part his authority, and often appeals to it. The four Gospels, the Acts, the epistles of Paul, several of the Catholic epistles and the Apocalypse are to him Scripture in the fullest sense. They are genuine and authoritative, as much so as the Old Testament ever was. He dwells upon the fact that there are four gospels, the very number being prefigured in the four winds and the four quarters of the earth. Every attempt to increase or diminish the number is heresy. Tertullian takes virtually the same position (Adv. Marc., iv. 2), while Clement of Alexandria quotes all four gospels as \"Scripture.\" By the end of the 2nd century the canon of the gospels was settled. The same is true also of the Pauline epistles. Irenaeus makes more than two hundred citations from Paul, and looks upon his epistles as Scripture (Adv. Haer., iii.12, 12). Indeed, at this time it may be said that the new canon was known under the designation \"The Gospel and the Apostles\" in contradistinction to the old as \"the Law and the Prophets.\" The title \"New Testament\" appears to have been first used by an unknown writer against Montanism (circa 193 AD). It occurs frequently after this in Origen and later writers. In considering all this testimony two facts should have emphasis:",
+          "target": "Nous pouvons étudier cette expression chez Irénée, en tant que représentant de la période. Né en Asie Mineure, il vécut et enseigna à Rome, puis devint évêque de Lyon. Il avait donc une vaste connaissance des Églises et était particulièrement qualifié pour parler du jugement général du monde chrétien. Disciple de Polycarpe, qui avait été disciple de Jean, il est relié aux apôtres eux-mêmes. Défenseur ardent de la vérité, il prend pour autorité une grande partie du Nouveau Testament et y fait souvent appel. Les quatre Évangiles, les Actes, les épîtres de Paul, plusieurs épîtres catholiques et l'Apocalypse sont pour lui des Écritures au sens le plus plein du terme. Ils sont authentiques et font autorité, tout autant que l'Ancien Testament l'a jamais fait. Il insiste sur le fait qu'il existe quatre Évangiles, ce nombre même étant préfiguré par les quatre vents et les quatre parties de la terre. Toute tentative d'en augmenter ou d'en diminuer le nombre est une hérésie. Tertullien adopte pratiquement la même position (Adv. Marc., iv. 2), tandis que Clément d'Alexandrie cite les quatre Évangiles comme « Écriture ». À la fin du IIe siècle, le canon des Évangiles était fixé. Il en était de même des épîtres pauliniennes. Irénée fait plus de deux cents citations de Paul et considère ses épîtres comme des Écritures (Adv. Haer., iii.12, 12). On peut même dire qu'à cette époque le nouveau canon était connu sous la désignation « L'Évangile et les Apôtres », par opposition à l'ancien, « la Loi et les Prophètes ». Le titre « Nouveau Testament » semble avoir été employé pour la première fois par un auteur inconnu opposé au montanisme (vers 193 apr. J.-C.). Il revient fréquemment par la suite chez Origène et les auteurs ultérieurs. En considérant l'ensemble de ce témoignage, il convient de souligner deux faits :",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "(1) its wide extent: Clement and Irenaeus represent parts of Christendom which are widely separated;",
+          "target": "(1) sa vaste portée : Clément et Irénée représentent des régions de la chrétienté très éloignées les unes des autres ;",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "text",
+          "source": "(2) the relation of these men to those who have gone before them. Their lives together with those before them spanned nearly the whole time from the apostles.",
+          "target": "(2) le lien de ces hommes avec ceux qui les ont précédés. Leurs vies, jointes à celles de leurs devanciers, couvrent presque toute la période écoulée depuis les apôtres.",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "They but voiced the judgment which silently, gradually had been selecting the \"Scripture\" which they freely and fully acknowledged and to which they made appeal.",
+          "target": "Ils ne faisaient qu'exprimer le jugement qui, silencieusement et progressivement, avait sélectionné les « Écritures » qu'ils reconnaissaient librement et pleinement et auxquelles ils faisaient appel.",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "(2) The Muratorian Fragment.",
+          "target": "(2) Le fragment de Muratori.",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "Just here we come upon the Muratorian Fragment, so called because discovered in 1740 by the librarian of Milan, Muratori. It dates from some time near the end of the 2nd century, is of vital interest in the study of the history of the canon, since it gives us a list of New Testament books and is concerned with the question of the canon itself. The document comes from Rome, and Lightfoot assigns it to Hippolytus. Its list contains the Gospels (the first line of the fragment is incomplete, beginning with Mark, but Matthew is clearly implied), the Acts, the Pauline epistles, the Apocalypse, 1 and 2 John (perhaps by implication the third) and Jude. It does not mention Hebrew, 1 and 2 Peter, James. In this list we have virtually the real position of the canon at the close of the 2nd century. Complete unanimity had not been attained in reference to all the books which are now between the covers of our New Testament. Seven books had not yet found a secure place beside the gospel and Paul in all parts of the church. The Palestinian and Syrian churches for a long time rejected the Apocalypse, while some of the Catholic epistles were in Egypt considered doubtful. The history of the final acceptance of these belongs to the third period.",
+          "target": "C'est à ce point que nous rencontrons le fragment de Muratori, ainsi appelé parce qu'il fut découvert en 1740 par Muratori, bibliothécaire à Milan. Il date d'une époque proche de la fin du IIe siècle et revêt un intérêt capital pour l'étude de l'histoire du canon, puisqu'il nous donne une liste des livres du Nouveau Testament et s'intéresse à la question du canon elle-même. Le document provient de Rome et Lightfoot l'attribue à Hippolyte. Sa liste contient les Évangiles (la première ligne du fragment est incomplète et commence avec Marc, mais Matthieu est clairement sous-entendu), les Actes, les épîtres pauliniennes, l'Apocalypse, 1 et 2 Jean (peut-être implicitement la troisième) et Jude. Elle ne mentionne pas Hébreux, 1 et 2 Pierre, ni Jacques. Cette liste nous donne pratiquement l'état réel du canon à la fin du IIe siècle. Une unanimité complète n'avait pas été atteinte concernant tous les livres aujourd'hui réunis dans notre Nouveau Testament. Sept livres n'avaient pas encore trouvé une place assurée à côté de l'Évangile et de Paul dans toutes les parties de l'Église. Les Églises palestiniennes et syriennes rejetèrent longtemps l'Apocalypse, tandis qu'en Égypte certaines des épîtres catholiques étaient considérées comme douteuses. L'histoire de leur acceptation définitive appartient à la troisième période.",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "3. 3rd and 4th Centuries:",
+          "target": "3. IIIe et IVe siècles :",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "(1) Origen:",
+          "target": "(1) Origène :",
+          "action": "translate"
+        },
+        {
+          "node": 69,
+          "part": "text",
+          "source": "The period included by the 3rd and 4th centuries--It has been said that \"the question of the canon did not make much progress in the course of the 3rd century\" (Reuss, History of the Canon of Holy Scripture, 125). We have the testimony of a few notable teachers mostly from one center, Alexandria. Their consideration of the question of the disputed book serves just here one purpose. By far the most distinguished name of the 3rd century is Origen. He was born in Alexandria about 185 AD, and before he was seventeen became an instructor in the school for catechumens. In 203 he was appointed bishop, experienced various fortunes, and died in 254. His fame rests upon his ability as an exegete, though he worked laboriously and successfully in other fields. His testimony is of high value, not simply because of his own studies, but also because of his wide knowledge of what was thought in other Christian centers in the world of his time. Space permits us only to give in summary form his conclusions, especially in regard to the books still in doubt. The Gospels, the Pauline epistles, the Acts, he accepts without question. He discusses at some length the authorship of He, believes that \"God alone knows who wrote it,\" and accepts it as Scripture. His testimony to the Apocalypse is given in the sentence, \"Therefore John the son of Zebedee says in the Revelation.\" He also gives sure witness to Jude, but wavers in regard to James, 2 Peter, 2 John, and 3 John.",
+          "target": "La période comprenant les IIIe et IVe siècles. — On a dit que « la question du canon ne fit guère de progrès au cours du IIIe siècle » (Reuss, History of the Canon of Holy Scripture, 125). Nous disposons du témoignage de quelques enseignants remarquables, pour la plupart issus d'un même centre, Alexandrie. Leur examen de la question du livre contesté répond ici à un seul objectif. Le nom de loin le plus illustre du IIIe siècle est celui d'Origène. Né à Alexandrie vers 185 apr. J.-C., il devint enseignant à l'école des catéchumènes avant l'âge de dix-sept ans. En 203, il fut nommé évêque, connut des fortunes diverses et mourut en 254. Sa renommée repose sur ses capacités d'exégète, bien qu'il ait travaillé avec acharnement et succès dans d'autres domaines. Son témoignage a une grande valeur, non seulement en raison de ses propres études, mais aussi de sa vaste connaissance de ce que l'on pensait dans d'autres centres chrétiens du monde de son temps. La place ne nous permet de donner que sous forme résumée ses conclusions, spécialement concernant les livres encore douteux. Les Évangiles, les épîtres pauliniennes et les Actes, il les accepte sans discussion. Il examine assez longuement la question de l'auteur d'Hébreux, croit que « Dieu seul sait qui l'a écrit » et le reçoit comme Écriture. Son témoignage à l'Apocalypse se trouve dans cette phrase : « C'est pourquoi Jean, fils de Zébédée, dit dans l'Apocalypse. » Il rend aussi un témoignage certain à Jude, mais hésite au sujet de Jacques, 2 Pierre, 2 Jean et 3 Jean.",
+          "action": "translate"
+        },
+        {
+          "node": 70,
+          "part": "text",
+          "source": "(2) Dionysius:",
+          "target": "(2) Denys :",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "Another noted name of this century is Dionysius of Alexandria, a pupil of Origen (died 265). His most interesting discussion is regarding the Apocalypse, which he attributes to an unknown John, but he does not dispute its inspiration. It is a singular fact that the western church accepted this book from the first, while its position in the East was variable. Conversely the Epistle to the He was more insecure in the West than in the East. In regard to the Catholic epistles Dionysius supports James, 2 John, and 3 John, but not 2 Peter or Jude.",
+          "target": "Un autre nom célèbre de ce siècle est celui de Denys d'Alexandrie, disciple d'Origène (mort en 265). Sa discussion la plus intéressante concerne l'Apocalypse, qu'il attribue à un Jean inconnu, sans toutefois contester son inspiration. C'est un fait singulier que l'Église d'Occident ait accepté ce livre dès le début, tandis que sa position en Orient fut variable. Inversement, la place de l'Épître aux Hébreux était moins assurée en Occident qu'en Orient. En ce qui concerne les épîtres catholiques, Denys soutient Jacques, 2 Jean et 3 Jean, mais non 2 Pierre ni Jude.",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "text",
+          "source": "(3) Cyprian:",
+          "target": "(3) Cyprien :",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "text",
+          "source": "In the West the name of Cyprian, bishop of Carthage (248-58 AD), was most influential. He was much engaged in controversy, but a man of great personal force. The Apocalypse he highly honored, but he was silent about the Epistle to the Hebrews. He refers to only two of the Catholic epistles, 1 Peter and 1 John.",
+          "target": "En Occident, le nom de Cyprien, évêque de Carthage (248-258 apr. J.-C.), exerçait une grande influence. Il fut très engagé dans les controverses, mais c'était un homme d'une grande force de caractère. Il tenait l'Apocalypse en haute estime, mais garda le silence au sujet de l'Épître aux Hébreux. Il ne se réfère qu'à deux des épîtres catholiques, 1 Pierre et 1 Jean.",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "text",
+          "source": "These testimonies confirm what was said above, namely, that the end of the 3rd century leaves the question of the full canon about where it was at the beginning. 1 Peter and 1 John seem to have been everywhere known and accepted. In the West the five Catholic epistles gained recognition more slowly than in the East.",
+          "target": "Ces témoignages confirment ce qui a été dit plus haut, à savoir qu'à la fin du IIIe siècle la question du canon complet en était à peu près au même point qu'au commencement. 1 Pierre et 1 Jean semblent avoir été partout connues et acceptées. En Occident, les cinq épîtres catholiques obtinrent leur reconnaissance plus lentement qu'en Orient.",
+          "action": "translate"
+        },
+        {
+          "node": 75,
+          "part": "text",
+          "source": "(4) Eusebius:",
+          "target": "(4) Eusèbe :",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "text",
+          "source": "In the early part of the 4th century Eusebius (270-340 AD), bishop of Caesarea before 315, sets before us in his Church History (III, chapters iii-xxv) his estimate of the canon in his time. He does not of course use the word canon, but he \"conducts an historical inquiry into the belief and practice of earlier generations.\" He lived through the last great persecution in the early part of the 4th century, when not only places of worship were razed to the ground, but also the sacred Scriptures were in the public market-places consigned to the flames (Historia Ecclesiastica, VIII, 2). It was, therefore, no idle question what book a loyal Christian must stand for as his Scripture. The question of the canon had an earnest, practical significance. Despite some obscurity and apparent contradictions, his classification of the New Testament books was as follows:",
+          "target": "Au début du IVe siècle, Eusèbe (270-340 apr. J.-C.), évêque de Césarée avant 315, nous présente dans son Histoire ecclésiastique (III, chapitres iii-xxv) son appréciation du canon de son époque. Bien entendu, il n'emploie pas le mot canon, mais il « mène une enquête historique sur la croyance et la pratique des générations précédentes ». Il traversa la dernière grande persécution du début du IVe siècle, lorsque non seulement les lieux de culte furent rasés, mais que les saintes Écritures furent aussi livrées aux flammes sur les places publiques (Historia Ecclesiastica, VIII, 2). La question de savoir quel livre un chrétien fidèle devait défendre comme son Écriture n'était donc pas vaine. La question du canon revêtait une importance pratique considérable. Malgré quelques obscurités et contradictions apparentes, sa classification des livres du Nouveau Testament était la suivante :",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "(1) The acknowledged books. His criteria for each of these was authenticity and apostolicity and he placed in this list the Gospels, Acts, and Paul's epistles, including He.",
+          "target": "(1) Les livres reconnus. Ses critères pour chacun d'eux étaient l'authenticité et l'apostolicité ; il rangeait dans cette liste les Évangiles, les Actes et les épîtres de Paul, y compris Hébreux.",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "(2) The disputed books, i.e. those which had obtained only partial recognition, to which he assigned Jas, Jude, 2Pe and 2 Jn. About the Apocalypse also he was not sure. In this testimony there is not much advance over that of the 3rd century. It is virtually the canon of Origen.",
+          "target": "(2) Les livres contestés, c'est-à-dire ceux qui n'avaient obtenu qu'une reconnaissance partielle ; il y rangeait Jacques, Jude, 2 Pierre et 2 Jean. Il n'était pas non plus certain au sujet de l'Apocalypse. Ce témoignage ne représente guère de progrès par rapport à celui du IIIe siècle. C'est pratiquement le canon d'Origène.",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "text",
+          "source": "All this makes evident the fact that as yet no official decision nor uniformity of usage in the church gave a completed canon. The time, however, was drawing on when various forces at work were to bring much nearer this unanimity and enlarge the list of acknowledged books. In the second half of the 4th century repeated efforts were made to put an end to uncertainty.",
+          "target": "Tout cela montre clairement qu'aucune décision officielle ni aucune uniformité des usages dans l'Église n'avait encore donné un canon achevé. Toutefois, le moment approchait où diverses forces à l'œuvre allaient rapprocher beaucoup de cette unanimité et élargir la liste des livres reconnus. Dans la deuxième moitié du IVe siècle, des efforts répétés furent entrepris pour mettre fin à l'incertitude.",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "text",
+          "source": "(5) Athanasius:",
+          "target": "(5) Athanase :",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "text",
+          "source": "Athanasius in one of his pastoral letters in connection with the publishing of the ecclesiastical calendar gives a list of the books comprising Scripture, and in the New Testament portion are included all the 27 books which we now recognize. \"These are the wells of salvation,\" he writes, \"so that he who thirsts may be satisfied with the sayings in these. Let no one add to these. Let nothing be taken away.\" Gregory of Nazianzen (died 390 AD) also published a list omitting Revelation, as did Cyril of Jerusalem (died 386), and quite at the end of the century (4th) Isidore of Pelusium speaks of the \"canon of truth, the Divine Scriptures.\" For a considerable time the Apocalypse was not accepted in the Palestinian or Syrian churches. Athanasius helped toward its acceptance in the church of Alexandria. Some differences of opinion, however, continued. The Syrian church did not accept all of the Catholic epistles until much later.",
+          "target": "Dans l'une de ses lettres pastorales, à l'occasion de la publication du calendrier ecclésiastique, Athanase donne une liste des livres qui composent les Écritures ; dans la partie consacrée au Nouveau Testament figurent les 27 livres que nous reconnaissons aujourd'hui. « Ce sont les puits du salut, écrit-il, afin que celui qui a soif puisse se rassasier des paroles qui s'y trouvent. Que personne n'y ajoute rien. Que rien n'en soit retranché. » Grégoire de Nazianze (mort en 390 apr. J.-C.) publia également une liste qui omettait l'Apocalypse, de même que Cyrille de Jérusalem (mort en 386) ; et tout à la fin du siècle (le IVe), Isidore de Péluse parle du « canon de la vérité, les divines Écritures ». Pendant un temps considérable, l'Apocalypse ne fut pas acceptée dans les Églises palestiniennes ou syriennes. Athanase contribua à la faire accepter par l'Église d'Alexandrie. Quelques divergences d'opinions subsistèrent toutefois. L'Église syrienne n'accepta toutes les épîtres catholiques que beaucoup plus tard.",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "text",
+          "source": "(6) Council of Carthage, Jerome; Augustine:",
+          "target": "(6) Concile de Carthage, Jérôme ; Augustin :",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "The Council of Carthage in 397, in connection with its decree \"that aside from the canonical Scriptures nothing is to be read in church under the name of Divine Scriptures,\" gives a list of the books of the New Testament. After this fashion there was an endeavor to secure unanimity, while at the same time differences of judgment and practice continued. The books which had varied treatment through these early centuries were He, the Apocalypse and the five minor Catholic epistles. The advance of Christianity under Constantine had much to do with the reception of the whole group of books in the East. The task which the emperor gave to Eusebius to prepare \"fifty copies of the Divine Scriptures\" established a standard which in time gave recognition to all doubtful books. In the West, Jerome and Augustine were the controlling factors in its settlement of the canon. The publication of the Vulgate (Jerome's Latin Bible, 390-405 A. D.) virtually determined the matter.",
+          "target": "Le concile de Carthage, en 397, à propos de son décret « selon lequel rien, en dehors des Écritures canoniques, ne doit être lu dans l'Église sous le nom de divines Écritures », donne une liste des livres du Nouveau Testament. De cette manière, on s'efforçait d'obtenir l'unanimité, alors même que subsistaient des divergences de jugement et de pratique. Les livres qui avaient fait l'objet de traitements divers pendant ces premiers siècles étaient Hébreux, l'Apocalypse et les cinq épîtres catholiques mineures. Le développement du christianisme sous Constantin eut beaucoup à voir avec la réception de tout cet ensemble de livres en Orient. La tâche que l'empereur confia à Eusèbe de préparer « cinquante exemplaires des divines Écritures » établit une norme qui, avec le temps, fit reconnaître tous les livres douteux. En Occident, Jérôme et Augustin furent les facteurs déterminants dans la fixation du canon. La publication de la Vulgate (Bible latine de Jérôme, 390-405 apr. J.-C.) trancha pratiquement la question.",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "text",
+          "source": "In conclusion let it be noted how much the human element was involved in the whole process of forming our New Testament. No one would wish to dispute a providential overruling of it all. Also it is well to bear in mind that all the books have not the same clear title to their places in the canon as far as the history of their attestation is concerned. Clear and full and unanimous, however, has been the judgment from the beginning upon the Gospels, the Acts, the Pauline epistles, 1 Peter and 1 John.",
+          "target": "En conclusion, notons combien l'élément humain est intervenu dans tout le processus de formation de notre Nouveau Testament. Personne ne voudrait contester que la Providence ait dirigé l'ensemble du processus. Il convient aussi de garder à l'esprit que tous les livres n'ont pas des titres aussi manifestes à occuper leur place dans le canon, pour ce qui concerne l'histoire des témoignages à leur sujet. Toutefois, dès le commencement, le jugement a été clair, entier et unanime au sujet des Évangiles, des Actes, des épîtres pauliniennes, de 1 Pierre et de 1 Jean.",
+          "action": "translate"
+        },
+        {
+          "node": 85,
+          "part": "text",
+          "source": "LITERATURE.  Reuss, History of the Canon of Holy Scriptures; E. C. Moore, The New Testament in the Christian Church; Gregory, Canon and Text of the New Testament; Introductions to New Testament of Julicher, Weiss, Reuss; Zahn, Geschichte des Neutest. Kanons; Harnack, Das New Testament um das Jahr 200; Chronologie der altchristlichen Literatur; Westcott, The Canon of the New Testament; Zahn, Forschungen zur Gesch. des neutest. Kanons.",
+          "target": "BIBLIOGRAPHIE.  Reuss, History of the Canon of Holy Scriptures ; E. C. Moore, The New Testament in the Christian Church ; Gregory, Canon and Text of the New Testament ; Introductions to New Testament de Julicher, Weiss, Reuss ; Zahn, Geschichte des Neutest. Kanons ; Harnack, Das New Testament um das Jahr 200 ; Chronologie der altchristlichen Literatur ; Westcott, The Canon of the New Testament ; Zahn, Forschungen zur Gesch. des neutest. Kanons.",
+          "action": "translate"
+        },
+        {
+          "node": 86,
+          "part": "text",
+          "source": "J. S. Riggs",
+          "target": "J. S. Riggs",
+          "action": "preserve",
+          "reason": "Historical pronunciation or author signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

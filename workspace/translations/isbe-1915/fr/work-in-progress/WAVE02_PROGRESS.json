@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "979_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "981_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 979,
-    "complete_first_drafts": 981,
-    "remaining_undrafted": 19
+    "new_complete_drafts_on_branch": 981,
+    "complete_first_drafts": 983,
+    "remaining_undrafted": 17
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 2024
+    "complete_first_drafts_across_main_and_current_branch": 2026
   },
   "source_queue": {
     "rounds_completed": [
@@ -47,17 +47,17 @@
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-008",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-009"
     ],
-    "checks": "Rounds 001–009 completed. Prior 48,159-word cohort passed incremental CI. Current 32-article cohort covers round 010 lines 48–79; exact ordered source slots, canonical manuscript and batch identities, all reconstructed manuscript bodies and protected markers verified by re-reading staged Git blobs. Incremental CI pending.",
+    "checks": "Rounds 001–009 complete. Previous 59,766-word cohort passed incremental CI. Interrupted recovery cohort: lines 80–81 complete, exact ordered slots and manuscript bodies verified against staged Git blobs; incremental CI pending. Lines 82–98 remain undrafted.",
     "partial_round": {
       "round": "round-010",
-      "completed_articles": 79,
+      "completed_articles": 81,
       "total_articles": 98,
       "completed_source_line_range": [
         1,
-        79
+        81
       ],
       "remaining_source_line_range": [
-        80,
+        82,
         98
       ],
       "source_mutable_units": 4487,
@@ -175,7 +175,9 @@
     "0268-wave02-round010-burial-bush.json",
     "0269-wave02-round010-buying-caesarea.json",
     "0270-wave02-round010-cain-calendar.json",
-    "0271-wave02-round010-calf-camel.json"
+    "0271-wave02-round010-calf-camel.json",
+    "0272-wave02-round010-canaan.json",
+    "0273-wave02-round010-canon-nt.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -957,34 +959,45 @@
       "key": "CAMEL",
       "kind": "source_witness",
       "detail": "Historical zoological explanation, terminology and disputed domestication evidence retained; no modern zoological or archaeological corrections."
+    },
+    {
+      "key": "CANAAN; CANAANITES",
+      "kind": "source_witness",
+      "detail": "Historical Egyptian chronology, archaeological interpretations and population descriptions retained as the author's statements. English source contains Caaan, fiat, counry and a malformed Pr 3:1:24 reference; contextual French readings logged, original source anchors unchanged."
+    },
+    {
+      "key": "CANON OF THE NEW TESTAMENT",
+      "kind": "source_witness",
+      "detail": "Historical claims and attribution preserved, including the assertion that Origen was appointed bishop in 203 and the account of the Muratorian fragment. Apparent anomalous references Eph 5; Ro 6; 7 retained. Eusebins and Ignarius rendered as Eusèbe and Ignace, pending witness review."
     }
   ],
-  "next_action": "Resume staged round-010 SOURCE.jsonl at line 80 (CANAAN; CANAANITES). Continue consecutive complete articles, with a 60000 editable English word ceiling unless subsequently changed. No editorial approvals or translation PR.",
-  "previous_translation_commit": "547acfda26b5073f8f100641724486dd8287c8e3",
-  "last_translation_tree": "f92a7c9aedb56f338ee4f164a7c0d378d23079ef",
+  "next_action": "Resume staged round-010 SOURCE.jsonl at line 82 (CANON OF THE OLD TESTAMENT, 11880 source words). Interrupted cohort of 19 articles is partial: 2 saved, 17 remaining. No independent editorial approvals or translation PR.",
+  "previous_translation_commit": "3833950e7ef375206a36c796578d503659092e8c",
+  "last_translation_tree": "5736a4c31ef22b557f072503f97e5fdde86373ca",
   "last_cohort_completion": {
-    "kind": "word_budget_cohort",
+    "kind": "partial_word_budget_cohort_checkpoint",
     "source_line_ranges": [
       {
         "round": "round-010",
         "range": [
-          48,
-          79
+          80,
+          81
         ]
       }
     ],
-    "new_articles": 32,
-    "source_words_whitespace_count": 59766,
+    "new_articles": 2,
+    "source_words_whitespace_count": 7818,
     "word_limit": 60000,
-    "next_article": "CANAAN; CANAANITES",
-    "next_article_words": 3464,
-    "words_if_included": 63230,
-    "source_mutable_units": 1556,
-    "source_blocks": 866,
-    "protected_keep_markers": 989,
-    "protected_structure_markers_total": 1819,
-    "validation": "Exact ordered source slots, canonical manuscript and batch identities, all 32 reconstructed manuscript bodies and protected markers verified from staged Git blobs; incremental CI pending",
-    "editorial_approvals": 0
+    "next_article": "CANON OF THE OLD TESTAMENT",
+    "next_article_words": 11880,
+    "source_mutable_units": 176,
+    "source_blocks": 131,
+    "protected_keep_markers": 45,
+    "protected_structure_markers_total": 155,
+    "validation": "Exact source slots and reconstructed manuscript bodies verified against staged Git blobs; incremental CI pending",
+    "editorial_approvals": 0,
+    "planned_articles": 19,
+    "remaining_articles": 17
   },
   "cohort_policy": {
     "source_word_limit": 60000,
