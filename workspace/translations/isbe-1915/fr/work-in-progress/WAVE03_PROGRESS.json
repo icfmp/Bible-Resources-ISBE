@@ -6,39 +6,41 @@
   "branch": "work/fr-isbe-full-translation",
   "wave03_issue": 111,
   "previous_wave_issue": 110,
-  "status": "865_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "900_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_2001_3000": {
     "total": 1000,
     "previous_pilot_drafts": 4,
-    "new_complete_drafts_on_branch": 865,
-    "complete_first_drafts": 869,
-    "remaining_undrafted": 131
+    "new_complete_drafts_on_branch": 900,
+    "complete_first_drafts": 904,
+    "remaining_undrafted": 96
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 2908
+    "complete_first_drafts_across_main_and_current_branch": 2943
   },
   "source_queue": {
     "rounds_completed": [
       "round-001",
       "round-002",
-      "round-003"
+      "round-003",
+      "round-004"
     ],
-    "original_article_templates": 700,
-    "verified_unique_article_ids": 700,
+    "original_article_templates": 900,
+    "verified_unique_article_ids": 900,
     "original_mutable_tei_units_covered": 3538,
     "round_paths": [
       "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-001",
       "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-002",
-      "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-003"
+      "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-003",
+      "workspace/translations/isbe-1915/fr/source-queue/wave-03/round-004"
     ],
-    "current_round": "round-004",
-    "requested_templates": 200,
-    "checks": "Round 003 incremental CI passed (45972881506). Round 004 partial lines 1–16 incremental CI passed (46036769517). All 165 articles in lines 1–165 rechecked against exact ordered source slots, immutable marker sequences, nonempty targets and unique identities. Full incremental CI for lines 17–165 pending.",
-    "current_round_processed_templates": 165
+    "current_round": "round-005",
+    "requested_templates": 96,
+    "checks": "Closing cohort lines 17–165 CI passed (46039925018). Round 004 lines 166–200 rechecked against exact ordered source slots, nonempty targets, unique identities and marker sequences at construction. Incremental CI for this checkpoint pending. Round 005 staging requested.",
+    "current_round_processed_templates": 0
   },
   "batch_files": [
     "0291-wave03-round001-redirects.json",
@@ -74,7 +76,11 @@
     "0321-wave03-round004-127-136.json",
     "0322-wave03-round004-137-146.json",
     "0323-wave03-round004-147-156.json",
-    "0324-wave03-round004-157-165.json"
+    "0324-wave03-round004-157-165.json",
+    "0325-wave03-round004-166-175.json",
+    "0326-wave03-round004-176-185.json",
+    "0327-wave03-round004-186-195.json",
+    "0328-wave03-round004-196-200.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -176,9 +182,19 @@
       "key": "DOCTRINE; DOGMA; DIACON; DEACONESS; DAY; DAYSPRING; CORRUPTION; DAMNATION",
       "kind": "editorial_review",
       "detail": "Historical author-specific theological arguments preserved rather than harmonized. Independent review remains required."
+    },
+    {
+      "key": "EARTHQUAKE; DYSENTERY; EASTER; EGG",
+      "kind": "editorial_review",
+      "detail": "Historical scientific, medical, calendrical and etymological assertions retained rather than modernized. Nican spelling retained in EASTER."
+    },
+    {
+      "key": "EAST, CHILDREN OF THE; EAR; ELIHU (2); EKRON; ELIAKIM; ELIEZER",
+      "kind": "source_witness_review",
+      "detail": "EAST contains visibly disordered quotation, retained rather than reconstructed; EAR has unusual /APC label; ELIHU apparent denouncement for denouement rendered in context; Da, gorvernor, Eliskim, eider translated as clear intended readings. English master unchanged."
     }
   ],
-  "previous_translation_commit": "8539e6542d6682f3f13836fad12721d81cf1d47c",
+  "previous_translation_commit": "5fdd8daf00f870d17f8c76fa9b654247d655de66",
   "cohort_policy": {
     "source_word_limit": 60000,
     "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
@@ -186,32 +202,29 @@
     "oversized_single_article": "Standalone cohort",
     "commit_policy": "One commit and incremental validation per completed cohort"
   },
-  "next_action": "Start the next 60,000-word cohort at round-004 SOURCE.jsonl line 166 (DUST). 35 staged templates remain, followed by 96 as-yet unstaged entries in lot 3; 131 total remaining undrafted.",
-  "last_translation_tree": "0daf8cca528c52089dfcee52a24e805bc21a49bb",
+  "next_action": "Resume current 60,000-word cohort with round-005 SOURCE.jsonl line 1 after staging workflow completes. All 200 round-004 entries translated; 96 remaining undrafted in lot 3.",
+  "last_translation_tree": "40d246a63304d3f8675e9d21f3bd0b6f7aa1ee60",
   "last_cohort_completion": {
-    "kind": "completed_word_limit_cohort",
+    "kind": "partial_checkpoint",
     "source_line_ranges": [
       {
         "round": "round-004",
         "range": [
-          1,
-          165
+          166,
+          200
         ]
       }
     ],
-    "new_articles": 165,
-    "articles_previously_committed_in_partial_checkpoint": 16,
-    "articles_added_in_closing_commit": 149,
-    "source_words_whitespace_count": 59869,
+    "new_articles": 35,
+    "source_words_whitespace_count": 11881,
     "word_limit": 60000,
-    "next_article_source_words": 322,
-    "source_mutable_units": 2701,
-    "translated_units": 2479,
-    "preserved_units": 222,
-    "source_blocks": 1082,
-    "protected_keep_markers": 2533,
-    "protected_structure_markers_total": 4005,
-    "validation": "All 165 unique article identities, source article hashes, ordered source slots, nonempty targets and preserve actions rechecked against staged source; marker sequences verified at construction; full incremental CI pending for closing commit.",
+    "source_mutable_units": 488,
+    "translated_units": 450,
+    "preserved_units": 38,
+    "source_blocks": 238,
+    "protected_keep_markers": 453,
+    "protected_structure_markers_total": 691,
+    "validation": "Ordered source slots, source hashes and unique identities rechecked; immutable markers checked at reconstruction; full CI pending.",
     "editorial_approvals": 0
   }
 }
