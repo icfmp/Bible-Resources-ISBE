@@ -7,15 +7,16 @@
   "source_template_blob": "247d40dceade159a45c1d5b20935b6e9c71d2b99",
   "source_queue_line": 13,
   "publication_permitted": false,
-  "completed_blocks": 65,
+  "completed_blocks": 82,
   "total_blocks": 98,
-  "last_block": 146,
-  "next_block": 147,
-  "approx_source_words": 5283,
+  "last_block": 190,
+  "next_block": 195,
+  "approx_source_words": 6770,
   "source_flags": [
     "Source dates retained as printed, including Pompey 56 BC, Shalmaneser II and dates in the intertestamental period. Apparent OCR success ions and ease translated contextually; verify against print. Missing table after block 52 not invented.",
     "Blocks 55–87: source dates, regnal numbers, disputed two-invasion theory and 2Ki 21:23/14 anchors retained. Several announced tables absent in staged article; do not reconstruct from conjecture. Apparent OCR split words rendered in context.",
-    "Blocks 104–133: unusual 2Ki 23-28 plain-text citation and 2Ki 7:1 anchor retained; source chronological claims, numbers and apparent inconsistencies preserved. OCR 'justment' rendered as adjustment in context."
+    "Blocks 104–133: unusual 2Ki 23-28 plain-text citation and 2Ki 7:1 anchor retained; source chronological claims, numbers and apparent inconsistencies preserved. OCR 'justment' rendered as adjustment in context.",
+    "Blocks 154–190: author’s proposed synchronisms, dating of Exodus, dynastic and Egyptian historical claims, chronological 215/430 alternatives retained; referenced tables are absent from this staged text and not invented."
   ],
   "blocks": [
     {
@@ -277,6 +278,74 @@
     {
       "block": 146,
       "target": "La période à considérer maintenant s’étend du schisme du royaume en remontant jusqu’à l’Exode. Les raisons de réunir dans une seule période d’une telle longueur les événements bibliques compris entre ces dates si éloignées sont évidentes, à savoir :"
+    },
+    {
+      "block": 147,
+      "target": "(1) la succession régulière des événements historiques ;"
+    },
+    {
+      "block": 148,
+      "target": "(2) la présence de chiffres globaux pour l’ensemble de la période, par exemple ⟦ISBE:KEEP:149:Jud 11:26⟧ et ⟦ISBE:KEEP:150:1Ki 6:1⟧ ; les données chronologiques du livre des Juges, qui conduisent directement aux événements de l’époque du royaume uni, par exemple le récit de Ruth, qui prépare le règne de David. Cette période se caractérise par la fréquence des chiffres généraux 80, 40 et 20, qui ne doivent pas nécessairement toujours être pris pour des chiffres exacts, mais peuvent parfois indiquer un chiffre rond ou la durée d’une génération."
+    },
+    {
+      "block": 151,
+      "target": "Pour déterminer les limites chronologiques de cette période, il faut remonter de 37 ans à partir de la fin du règne de Salomon en 933 av. J.-C., ce qui nous amène à cet événement marquant une nouvelle époque, la pose des fondations du Temple en 969 ou 970, quatrième année de son règne (⟦ISBE:KEEP:152:1Ki 6:1⟧) ; de cet événement, en ajoutant le chiffre global de 479 donné dans le même verset, nous remontons jusqu’à l’année de l’Exode, vers 1448 av. J.-C., ce qui donne à la période une durée totale d’environ 516 ans."
+    },
+    {
+      "block": 153,
+      "target": "Indices de chevauchement :"
+    },
+    {
+      "block": 154,
+      "target": "Mais l’addition des chiffres donnés pour les divers règnes et gouvernements de cette période produit un total bien supérieur à 516 ; il faut donc chercher dans le texte des indices de chevauchement qui permettront de mettre le récit en accord avec lui-même. Les règnes de Salomon (⟦ISBE:KEEP:155:1Ki 11:42⟧), de David (⟦ISBE:KEEP:156:1Ki 2:11⟧) et de Saül (⟦ISBE:KEEP:157:Ac 13:21⟧) sont donnés comme ayant duré quarante ans chacun ; ici, il peut y avoir quelque chevauchement, Salomon, par exemple, étant devenu roi avant la mort de David (⟦ISBE:KEEP:158:1Ki 1:43-48⟧). Nous sommes quelque peu surpris de ne trouver aucune indication de la durée du ministère de Samuel, alors que la place importante qu’il occupa dans la vie nationale nous inciterait à en attendre une. La raison probable en est que sa vie coïncida largement avec le règne de Saül et le gouvernement d’Éli. Une période de quarante ans est attribuée à Éli (⟦ISBE:KEEP:159:1Sa 4:18⟧) ; le total des chiffres donnés pour les juges est de 410 ans ; Josué gouverna pendant quarante ans (⟦ISBE:KEEP:160:Jud 2:8⟧) ; enfin, les pérégrinations dans le désert couvrirent une autre période de quarante ans. La somme de tous ces chiffres est de 670, bien au-delà des calculs globaux de ⟦ISBE:KEEP:161:Jud 11:26⟧⟦ISBE:FIX:161:tail⟧⟦ISBE:KEEP:162:1Ki 6:1⟧, et ⟦ISBE:KEEP:163:Ac 13:19⟧. Il ressort de ⟦ISBE:KEEP:164:Jud 10:7⟧⟦ISBE:FIX:164:tail⟧⟦ISBE:KEEP:165:8⟧⟦ISBE:FIX:165:tail⟧⟦ISBE:KEEP:166:13:1⟧ que les périodes d’oppression par les Ammonites et les Philistins furent soit contemporaines, soit très proches l’une de l’autre, et que, par conséquent, le chiffre global de 300 ans de ⟦ISBE:KEEP:167:Jud 11:26⟧ s’étend depuis l’entrée en Canaan sous Josué jusqu’à l’époque de Samson aussi bien que de Jephthé. Les gouvernements d’Ibtsan, d’Élon et d’Abdon (⟦ISBE:KEEP:168:Jud 12:8-13⟧) doivent donc être considérés comme pratiquement contemporains de Jephthé et de Samson, et le nombre de leurs années doit, au moins en partie, être laissé hors du calcul. Les chiffres de Samson et d’Éli jusqu’à Salomon sont approximativement établis : vingt pour Samson, quarante pour Éli, quarante pour Saül et quarante pour David ; leur total s’accorde avec les 300 années qui précèdent Jephthé et les quarante années de pérégrinations dans le désert pour constituer le grand total (⟦ISBE:KEEP:169:1Ki 6:1⟧) qui va de Salomon à l’Exode. Cette proportion entre les périodes antérieure et postérieure à Jephthé, ou à Samson, et à l’oppression philistine, soit environ 330 et 150 ans, s’accorde avec les généalogies de ⟦ISBE:KEEP:170:Ru 4:18-22⟧⟦ISBE:FIX:170:tail⟧⟦ISBE:KEEP:171:1Sa 14:3⟧⟦ISBE:FIX:171:tail⟧⟦ISBE:KEEP:172:22:9⟧ ; 1Ch 2; 6; 24. C’est donc dans les récits qui vont de Samson en remontant jusqu’à Josué qu’il faut chercher de quoi réduire le total excessif de 670 ans. Si l’on admet que les oppressions peuvent coïncider avec les gouvernements des juges précédents ou suivants, que la tentative avortée d’Abimélec de devenir roi (⟦ISBE:KEEP:173:Jud 9⟧) doit être comprise dans les quarante ans de Gédéon, et que des parallélismes sont possibles entre les trois juges qui suivent immédiatement Jephthé (⟦ISBE:KEEP:174:Jud 12:8-13⟧) et les deux qui le précèdent immédiatement (⟦ISBE:KEEP:175:Jud 10:1-5⟧), il est possible de mettre les indications chronologiques détaillées du livre des Juges en accord satisfaisant avec les chiffres globaux. Que la période des juges soit plus courte que le total des chiffres attribués à chacun d’eux ressort encore de la manière dont les brefs récits à la fin du livre — la migration des Danites, le péché et le châtiment de Benjamin — et le livre de Ruth rapprochent étroitement les générations anciennes des plus tardives ; comparer la généalogie de David (⟦ISBE:KEEP:176:Ru 4:18-22⟧⟦ISBE:FIX:176:tail⟧"
+    },
+    {
+      "block": 177,
+      "target": "Le tableau précédent (p. 641) indique les dates des événements selon le calcul le plus long et selon la réduction proposée en tenant compte des synchronismes possibles. Il faut se rappeler que ces chiffres ne sont pas incontestables, mais simplement provisoires et indicatifs."
+    },
+    {
+      "block": 178,
+      "target": "⟦ISBE:OPEN:179⟧VIII. De l’Exode à la naissance d’Abraham.⟦ISBE:CLOSE:179⟧"
+    },
+    {
+      "block": 180,
+      "target": "La période de la chronologie de l’Ancien Testament qui va maintenant retenir notre attention s’étend de l’Exode, vers 1448 av. J.-C., en remontant jusqu’à l’appel et à la migration d’Abraham. On peut l’appeler la période des pérégrinations patriarcales, celle de la formation ou de l’enfance de la nation, et elle présente donc le plus haut intérêt du point de vue historique et religieux. Mais il n’est pas possible d’en fixer les dates avec une précision incontestable, puisque, sauf de rares exceptions, les événements relatés dans l’Ancien Testament ne sont pas rapportés à des ères ou à des personnages déterminés des nations contemporaines, et que, de plus, la chronologie de ces nations est très débattue parmi les historiens et les archéologues, avec des écarts de plusieurs centaines d’années."
+    },
+    {
+      "block": 181,
+      "target": "Principaux points en débat :"
+    },
+    {
+      "block": 182,
+      "target": "Les principaux points à trancher ici pour résoudre les problèmes chronologiques sont la date de l’Exode, la durée du séjour d’Israël en Égypte et la date d’Hammourabi. Examinons-les dans l’ordre :"
+    },
+    {
+      "block": 183,
+      "target": "(1) Quant à l’Exode, les opinions se sont partagées entre les XVIIIe, XIXe et XXe dynasties pour situer l’oppression et l’Exode d’Israël, et il existe des arguments plausibles en faveur de chacune de ces périodes, ainsi que de sérieuses objections. Tout bien considéré, il semble préférable de retenir la XVIIIe dynastie comme époque de l’oppression et de l’Exode, Thoutmôsis III comme pharaon de l’oppression et les années suivant immédiatement sa mort comme époque de l’Exode, pour les raisons suivantes :"
+    },
+    {
+      "block": 184,
+      "target": "(a) Cela s’accorde avec le calcul chronologique qui remonte du temple de Salomon à l’Exode (⟦ISBE:KEEP:185:1Ki 6:1⟧) et satisfait pleinement aux chiffres bibliques pour la période intermédiaire, comme on l’a montré plus haut ; tandis que l’une ou l’autre des périodes dynastiques ultérieures nécessiterait soit une compression artificielle, soit un rejet impitoyable des chiffres bibliques. Placer l’Exode à une date aussi tardive que celle de Ramsès III, après 1200 av. J.-C., est, à la lumière du calcul biblique, une absurdité manifeste."
+    },
+    {
+      "block": 186,
+      "target": "(b) C’est dans la XVIIIe dynastie que nous pouvons le mieux chercher le pharaon « qui n’avait pas connu Joseph », car c’est le chef de cette dynastie, Ahmôsis Ier, qui vainquit et chassa les Hyksos, laissant en héritage à ses successeurs une haine profonde des Asiatiques."
+    },
+    {
+      "block": 187,
+      "target": "(c) Thoutmôsis III fut un grand bâtisseur, et les lourdes tâches des Hébreux s’inscriraient bien dans son règne. Il fut aussi le champion d’Amon, le dieu de Thèbes, dont il avait été prêtre ; la signification religieuse de l’Exode et la lutte qui le précéda étaient donc tout à fait naturelles à son époque."
+    },
+    {
+      "block": 188,
+      "target": "(d) Une inscription de Mérenptah, fils de Ramsès II, indique qu’Israël se trouvait en Palestine de son temps ; il ne pouvait donc être le pharaon de l’Exode, ni son père l’oppresseur."
+    },
+    {
+      "block": 189,
+      "target": "(e) L’objection selon laquelle les pharaons des XIXe et XXe dynasties envahirent la Palestine et y revendiquèrent la souveraineté est de peu de conséquence, puisque ces invasions ne concernaient généralement que la plaine côtière, et que toute ville ou région pouvait obtenir l’immunité et maintenir son statu quo en payant un tribut. Au cours des siècles suivants, de nombreuses invasions étrangères traversèrent Israël sans porter atteinte à son intégrité nationale. Quant à l’objection selon laquelle les villes de Ramsès et de Pithom indiquent l’époque de Ramsès II, il est tout à fait probable qu’elles aient été construites longtemps avant son époque et simplement restaurées par lui. Pour ces raisons, la date la plus ancienne est attribuée à l’Exode."
+    },
+    {
+      "block": 190,
+      "target": "(2) La question de savoir si le séjour en Égypte dura 430 ou 215 ans dépend de l’interprétation du chiffre global de 430, ou de 400 en chiffres ronds, qui revient fréquemment dans la Bible pour indiquer la durée de la période des pérégrinations des Hébreux parmi les nations et de leur oppression par celles-ci (⟦ISBE:KEEP:191:Ge 15:13⟧⟦ISBE:FIX:191:tail⟧⟦ISBE:KEEP:192:Ex 12:40⟧⟦ISBE:FIX:192:tail⟧⟦ISBE:KEEP:193:Ac 7:6⟧⟦ISBE:FIX:193:tail⟧⟦ISBE:KEEP:194:Ga 3:17⟧). Ces passages ont été, et peuvent légitimement être, interprétés comme indiquant la durée du séjour proprement dit en Égypte ou le temps écoulé depuis l’entrée d’Abraham en Canaan jusqu’à l’Exode. Les découvertes archéologiques modernes et les conclusions logiques qu’on en tire, notre meilleure connaissance de l’histoire et de la situation de l’Égypte contemporaine, le raccourcissement de la période des Hyksos, notamment chez Meyer, Mahler et Breasted, et l’adoption d’une date plus tardive pour Hammourabi semblent tous favoriser la durée plus courte du séjour, soit 215 ans. Les 215 années restantes couvrent la période qui remonte de la descente de Jacob en Égypte jusqu’à la migration d’Abraham. La période la plus courte est adoptée ici pour les raisons déjà données ; mais, en ajoutant 215 ans, on peut faire concorder les dates à partir de la mort de Joseph en remontant dans le temps avec la théorie de la période la plus longue."
     }
   ]
 }
