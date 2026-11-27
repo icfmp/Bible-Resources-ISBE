@@ -1,22 +1,23 @@
 {
   "schema_version": 1,
-  "status": "partial_article_draft_not_for_build",
+  "status": "all_markdown_blocks_translated_pending_canonical_patch",
   "source_key": "CHRONOLOGY OF THE OLD TESTAMENT",
   "article_id": "isbe-5b32af13f2983587d394",
   "source_article_sha256": "aaf5bf9f5477b58e3c541bd847dfedd57d937abbea524e70fce5657d44910d29",
   "source_template_blob": "247d40dceade159a45c1d5b20935b6e9c71d2b99",
   "source_queue_line": 13,
   "publication_permitted": false,
-  "completed_blocks": 82,
+  "completed_blocks": 98,
   "total_blocks": 98,
-  "last_block": 190,
-  "next_block": 195,
-  "approx_source_words": 6770,
+  "last_block": 222,
+  "next_block": null,
+  "approx_source_words": 8649,
   "source_flags": [
     "Source dates retained as printed, including Pompey 56 BC, Shalmaneser II and dates in the intertestamental period. Apparent OCR success ions and ease translated contextually; verify against print. Missing table after block 52 not invented.",
     "Blocks 55–87: source dates, regnal numbers, disputed two-invasion theory and 2Ki 21:23/14 anchors retained. Several announced tables absent in staged article; do not reconstruct from conjecture. Apparent OCR split words rendered in context.",
     "Blocks 104–133: unusual 2Ki 23-28 plain-text citation and 2Ki 7:1 anchor retained; source chronological claims, numbers and apparent inconsistencies preserved. OCR 'justment' rendered as adjustment in context.",
-    "Blocks 154–190: author’s proposed synchronisms, dating of Exodus, dynastic and Egyptian historical claims, chronological 215/430 alternatives retained; referenced tables are absent from this staged text and not invented."
+    "Blocks 154–190: author’s proposed synchronisms, dating of Exodus, dynastic and Egyptian historical claims, chronological 215/430 alternatives retained; referenced tables are absent from this staged text and not invented.",
+    "Blocks 195–222: historical identification of Amraphel and Hammurabi, anthropological and geological claims preserved as author's positions. Unusual date '22:97-2254' retained exactly; apparent missing tables and bibliographic spellings retained pending print review. OCR split words rendered in context."
   ],
   "blocks": [
     {
@@ -346,6 +347,70 @@
     {
       "block": 190,
       "target": "(2) La question de savoir si le séjour en Égypte dura 430 ou 215 ans dépend de l’interprétation du chiffre global de 430, ou de 400 en chiffres ronds, qui revient fréquemment dans la Bible pour indiquer la durée de la période des pérégrinations des Hébreux parmi les nations et de leur oppression par celles-ci (⟦ISBE:KEEP:191:Ge 15:13⟧⟦ISBE:FIX:191:tail⟧⟦ISBE:KEEP:192:Ex 12:40⟧⟦ISBE:FIX:192:tail⟧⟦ISBE:KEEP:193:Ac 7:6⟧⟦ISBE:FIX:193:tail⟧⟦ISBE:KEEP:194:Ga 3:17⟧). Ces passages ont été, et peuvent légitimement être, interprétés comme indiquant la durée du séjour proprement dit en Égypte ou le temps écoulé depuis l’entrée d’Abraham en Canaan jusqu’à l’Exode. Les découvertes archéologiques modernes et les conclusions logiques qu’on en tire, notre meilleure connaissance de l’histoire et de la situation de l’Égypte contemporaine, le raccourcissement de la période des Hyksos, notamment chez Meyer, Mahler et Breasted, et l’adoption d’une date plus tardive pour Hammourabi semblent tous favoriser la durée plus courte du séjour, soit 215 ans. Les 215 années restantes couvrent la période qui remonte de la descente de Jacob en Égypte jusqu’à la migration d’Abraham. La période la plus courte est adoptée ici pour les raisons déjà données ; mais, en ajoutant 215 ans, on peut faire concorder les dates à partir de la mort de Joseph en remontant dans le temps avec la théorie de la période la plus longue."
+    },
+    {
+      "block": 195,
+      "target": "(3) En admettant l’opinion presque universelle et solidement fondée selon laquelle l’Amraphel de ⟦ISBE:KEEP:196:Ge 14⟧ est le célèbre Hammourabi de la première dynastie babylonienne, nous disposerions d’une aide pour déterminer la date de son contemporain biblique Abraham, si les opinions des savants sur l’époque d’Hammourabi n’étaient pas si divergentes. Goodspeed (Hist Babylonian and Assyrian.) place son règne en 22:97-2254 av. J.-C. ; Hommel (art. « Babylonia », HDB) fixe la date probable à 1772-1717, divergence étonnante de 500 ans, qui donne une idée de la prodigalité avec laquelle les chronologistes ont coutume de disposer des âges passés de l’humanité. Dans ce cas, la différence tient à la manière de situer la deuxième dynastie babylonienne : Goodspeed fait succéder ses quelque 360 années et plus à la dynastie d’Hammourabi et additionne les années des deux ; Hommel, au contraire, considère la deuxième dynastie, ou dynastie du Sud, comme contemporaine de la première, ou dynastie du Nord. Mais il est plus probable que la vérité se situe entre ces extrêmes, puisque la deuxième dynastie doit avoir joui d’une certaine indépendance et avoir régné seule pendant un temps pour mériter d’être considérée comme une dynastie. Ce calcul modéré est maintenant communément adopté : Breasted situe Hammourabi en 1900 av. J.-C., Davis (dans DB) vers 1975, et Pinches (dans Murray's Illus. B. Dict.) à une date postérieure à 2000 av. J.-C. Il s’accorde avec les chiffres bibliques, comme le montre le tableau suivant, et ne diffère pas sensiblement du calcul d’Ussher, fondé sur ces chiffres. On peut donc situer l’époque d’Hammourabi et d’Abraham vers 1900 av. J.-C., ou 2100 si l’on estime à 430 ans le séjour en Égypte. La première date est plus raisonnable. Les lettres de Tell el-Amarna, qui conservent la correspondance des XIVe et XVe siècles entre les pharaons de la XVIIIe dynastie et la Palestine et Babylone, contribuent à confirmer le calcul biblique en faisant connaître les souverains contemporains des empires du Nil et de l’Euphrate. Il est possible qu’une connaissance accrue de l’Empire hittite et de ses relations avec l’Égypte, la Palestine et la Babylonie apporte dans un proche avenir une confirmation supplémentaire. Les conclusions précédentes peuvent être résumées dans le tableau suivant :"
+    },
+    {
+      "block": 197,
+      "target": "⟦ISBE:OPEN:198⟧IX. D’Abraham à la Création.⟦ISBE:CLOSE:198⟧"
+    },
+    {
+      "block": 199,
+      "target": "Il reste à examiner une autre grande période de la chronologie de l’Ancien Testament : de l’époque d’Abraham en remontant jusqu’à la création du monde, au sujet de laquelle, par la nature même des choses, il ne peut y avoir de certitude absolue et pour laquelle il n’y a ni raison ni nécessité d’exiger une précision rigoureuse. Le système, ou la succession, des chiffres dans les premiers chapitres de la Genèse (⟦ISBE:KEEP:200:Ge 5⟧ et ⟦ISBE:KEEP:201:Ge 11:10-26⟧) a donné naissance à plusieurs théories, dans les efforts faits pour expliquer ces chiffres."
+    },
+    {
+      "block": 202,
+      "target": "(1) L’interprétation littérale, dont le défenseur le plus connu fut l’archevêque Ussher (mort en 1656), et dont la chronologie littérale fut introduite dans la marge de la version du roi Jacques après sa mort. Cette théorie prend les chiffres des naissances et des décès tels quels et, en additionnant les intervalles entre les naissances des divers patriarches, ainsi que l’âge d’Adam à la naissance de Seth, montre que 1 656 ans se sont écoulés de la Création au Déluge et 290 ans du Déluge à la naissance d’Abraham, selon le texte massorétique. Mais il doit être évident d’emblée que, même en disposant les chiffres de la manière la plus large et en adoptant l’estimation géologique et anthropologique la plus prudente, ce calcul ne donne pas une durée suffisante pour satisfaire aux faits connus concernant l’âge de la terre, la vie de l’homme sur la terre et les dates historiques établies. Même le système prudent du professeur Breasted (Ancient Egypt) place la première date certaine de l’histoire égyptienne, à savoir l’introduction du calendrier sothiaque, dès 4241 av. J.-C., soit plus de deux siècles avant le commencement du monde selon Ussher. De plus, il existait alors une base astronomique de calcul du temps, ce qui suppose une époque de culture antérieure. Les premiers interprètes avaient compris cette difficulté, comme l’indiquent les variantes du texte samaritain et de la Septante, cette dernière augmentant d’environ 1 500 ans la durée totale de la période et insérant un nom nouveau dans la liste généalogique de ⟦ISBE:KEEP:203:Ge 11⟧. Une remarque intéressante sur la méthode littérale est qu’elle fait vivre Noé jusqu’à ce qu’Abraham ait soixante-dix ans et prolonge la vie de Sem jusque dans celle de Jacob."
+    },
+    {
+      "block": 204,
+      "target": "(2) Une deuxième théorie est la théorie dynastique : le chiffre élevé de la durée de vie d’un patriarche indiquerait l’ère durant laquelle sa maison ou sa dynastie prédomina, suivie du chiffre élevé de la dynastie suivante ; par exemple, les 930 ans d’Adam auraient été suivis des 912 de Seth, et ainsi de suite jusqu’à ce que la période s’étende sur des milliers d’années. Mais cette conception soulève des objections évidentes : elle n’explique pas pourquoi chaque dynastie successive prend invariablement naissance si près du début de la précédente, et elle ne tient pas compte du dessein manifeste de l’auteur inspiré de relater la descendance du genre humain par familles et non par ères ou empires."
+    },
+    {
+      "block": 205,
+      "target": "(3) D’autres ont conjecturé que les unités de temps auraient été différentes aux âges anciens de l’humanité ; qu’à l’origine, l’unité de temps était le cycle lunaire, selon lequel les 969 cycles lunaires de la vie de Mathusalem devraient en réalité être ramenés à un peu plus de 80 ans des époques plus récentes ; et qu’au temps d’Abraham, une année mesurée d’un équinoxe à l’autre avait remplacé la mesure lunaire du temps. Il est possible que les variantes de la Septante se soient fondées sur cette idée, puisqu’elle a porté à au moins 162 ans l’âge auquel chaque père engendrait un fils dans les générations antérieures au Déluge. Mais même cet expédient ne ferait pas disparaître toutes les difficultés d’ordre physique ; nous n’avons d’ailleurs pas la moindre indication des moments où ces changements radicaux d’unités de temps auraient eu lieu. Au contraire, la diminution du nombre des années de vie de l’homme semble s’être faite par un processus assez graduel, et non par des ruptures brusques et considérables."
+    },
+    {
+      "block": 206,
+      "target": "(4) D’autres ont pensé résoudre les difficultés en suggérant l’omission de maillons dans la chaîne de filiation, conformément à l’usage hébreu d’omettre d’une liste généalogique les noms sans importance pour celle-ci. L’omission par Matthieu de certains noms dans sa généalogie de Jésus-Christ, afin de préserver son arrangement symétrique en groupes de quatorze (⟦ISBE:KEEP:207:Mt 1:8⟧), en fournit un exemple pertinent. À l’appui de cela, on pourrait faire valoir que la Septante insère effectivement un nom entre Arpacschad et Schélach (⟦ISBE:KEEP:208:Ge 11:12⟧). On peut affirmer avec assurance que, quelle que soit la théorie des généalogies antérieures à Abraham que l’on adopte, il est tout à fait raisonnable de supposer qu’un ou plusieurs noms ont pu être omis dans la lignée."
+    },
+    {
+      "block": 209,
+      "target": "Les dates résultant de l’interprétation littérale et exacte des listes généalogiques de ⟦ISBE:KEEP:210:Ge 5⟧ et de ⟦ISBE:KEEP:211:Ge 11⟧ peuvent être présentées dans le tableau suivant :"
+    },
+    {
+      "block": 212,
+      "target": "Si l’on ajoute les 130 ans de Kaïnan, que la Septante insère entre Schélach et Arpacschad, la date de la création d’Adam est reculée à 4031 av. J.-C. Les données de ce tableau sont des plus intéressantes et suggestives. Noé, Sem, Arpacschad, Schélach, Héber et Péleg étaient contemporains d’Abraham. Sem, Schélach et Héber vivaient encore après la naissance de Jacob. Adam, Hénoc, Mathusalem et Lémec étaient contemporains ; et la longue vie de Mathusalem prit fin l’année du Déluge."
+    },
+    {
+      "block": 213,
+      "target": "Une interprétation proposée :"
+    },
+    {
+      "block": 214,
+      "target": "Ces listes généalogiques des premiers chapitres de la Genèse ne semblent donc pas avoir été données comme un système chronologique exact et exhaustif ; il est plus probable qu’elles aient été écrites pour présenter un exposé général et condensé, ou une simple esquisse, de l’origine, des premières expériences et de l’apostasie du genre humain, sans intention de consigner tous les maillons possibles de la chaîne de filiation ni tous les événements des premiers temps de l’humanité. De nombreux indices, ou du moins certaines indications, suggèrent que telle est l’interprétation raisonnable et voulue par Dieu ; quelques-uns ont été mentionnés : les différences entre les données et les totaux du texte massorétique, de la Septante et du texte samaritain ; l’omission fréquente d’une ou de plusieurs générations dans les généalogies hébraïques, le descendant de troisième génération ou d’une génération ultérieure étant véritablement considéré comme un fils ; l’âge du monde ; l’ancienneté relative de l’homme ; et les dates plus reculées révélées par l’archéologie. Il convient de remarquer en outre que l’auteur inspiré donne dix générations d’Adam au Déluge et dix également du Déluge à Abraham, comme si, par l’emploi du nombre décimal, ou du nombre représentatif de l’humanité, il voulait nous indiquer qu’il s’agit de chiffres complets dans leur portée générale et non de chiffres complets jusque dans le moindre détail, et qu’il dispose sous une forme symbolique le récit de la filiation de l’homme."
+    },
+    {
+      "block": 215,
+      "target": "Voir ⟦ISBE:OPEN:216⟧PATRIARCHES ANTÉDILUVIENS⟦ISBE:CLOSE:216⟧⟦ISBE:FIX:216:tail⟧"
+    },
+    {
+      "block": 217,
+      "target": "Mais, si l’âge de l’humanité peut être supérieur à la somme mécanique et exacte des chiffres de la Genèse, nous ne devons pas nous laisser abuser au point de croire qu’il est aussi grand que voudraient nous le faire penser certains anthropologues et géologues, prodigues de leurs chiffres. Les chiffres de la Genèse sont bien plus proches des faits que ces mornes étendues et ces déserts de temps. La formation des vallées du Nil et de l’Euphrate, qui fournirent à l’homme historique son premier foyer, est assez récente et pourrait ne pas être antérieure à 7000 av. J.-C. ; le récit du Déluge rapporte un grand cataclysme qui frappa l’homme historique au cours de ces millénaires ; nous possédons des témoignages de la présence de l’homme intelligent dans ces centres fertiles et récemment formés, sans traces de son origine et de son développement dans d’autres foyers ni de sa migration à partir de ceux-ci. L’archéologie et l’histoire ancienne nous font apparaître l’homme civilisé avec une certaine soudaineté, solidement établi dans des patries de formation récente. D’où sont venus ces peuples dont les grandes œuvres et les pensées se trouvent près du commencement d’une ère si clairement délimitée par l’histoire et la géographie ? S’ils sont venus d’ailleurs et se sont développés au terme d’un long processus, pourquoi n’ont-ils laissé aucune piste de leurs déplacements ni aucune trace de cette évolution ? Encore au IIIe millénaire av. J.-C., la Mésopotamie était peu peuplée, et la Palestine le demeurait dans la première moitié du IIe millénaire. On peut donc légitimement conclure que la vie de l’homme intelligent sur terre ne remonte pas beaucoup au-delà du total des chiffres bibliques (voir ⟦ISBE:OPEN:218⟧ANTÉDILUVIENS⟦ISBE:CLOSE:218⟧⟦ISBE:FIX:218:tail⟧⟦ISBE:OPEN:219⟧DÉLUGE DE NOÉ⟦ISBE:CLOSE:219⟧). En même temps, il est loin d’être nécessaire d’imposer une interprétation littérale et exacte à ces chiffres, qui ont été donnés plutôt pour retracer les lignées, conserver les liens de parenté, montrer le développement selon le dessein divin et établir les responsabilités que pour marquer des années particulières."
+    },
+    {
+      "block": 220,
+      "target": "BIBLIOGRAPHIE."
+    },
+    {
+      "block": 221,
+      "target": "Ussher, Chronologia Sacra ; G. Smith, Assyrian Eponym Canon ; Maspero, The Dawn of Civilization ; The Struggle of the Nations ; The Passing of the Empires ; Goodspeed, A History of the Babylonians and Assyrians ; Breasted, Ancient Egypt ; History of Egypt, Mesopotamia and Israel dans Hist of World ; Hommel, Ancient Hebrew Tradition ; L. W. King, Chronology of the Babylonian Kings ; Beecher, Dated Events of Old Testament ; Auchinloss, Chronology of the Holy Bible ; divers commentaires ; Driver, Book of Genesis ; Skinner, Genesis ; Moore, Commentary on Judges ; G. A. Smith, « Isaiah » dans Expositor's Bible, etc. Revues : James Orr, « Assyrian and Hebrew Chronology » dans Presbyterian Review, 1889 ; « Israel and the Exodus » dans Expositor, 1897 ; J. D. Davis, « Chronology of the Divided Kingdom » dans Presbyterian and Reformed Review, 1891. Dictionnaires bibliques : J. D. Davis dans Dict. of the Bible, Westminster Press ; Hommel, articles « Assyria » et « Babylonia » dans HDB. Présente également un intérêt : Franke Parker, Chronology, 1858."
+    },
+    {
+      "block": 222,
+      "target": "Edward Mack"
     }
   ]
 }
