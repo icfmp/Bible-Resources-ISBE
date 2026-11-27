@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave03_issue": 111,
   "previous_wave_issue": 110,
-  "status": "912_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "913_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_2001_3000": {
     "total": 1000,
     "previous_pilot_drafts": 4,
-    "new_complete_drafts_on_branch": 912,
-    "complete_first_drafts": 916,
-    "remaining_undrafted": 84
+    "new_complete_drafts_on_branch": 913,
+    "complete_first_drafts": 917,
+    "remaining_undrafted": 83
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 2955
+    "complete_first_drafts_across_main_and_current_branch": 2956
   },
   "source_queue": {
     "rounds_completed": [
@@ -40,8 +40,8 @@
     ],
     "current_round": "round-005",
     "requested_templates": 96,
-    "checks": "Round 004 final 35 drafts incremental CI and final 96-template staging succeeded (46041892344 and 46041892374). All 996 staged article IDs across five manifests are unique. Round 005 lines 1–12: exact source hashes and ordered slots rechecked; all 12 stored manuscript block IDs and protected marker sequences independently compared with source; incremental CI pending.",
-    "current_round_processed_templates": 12
+    "checks": "Round 004 final 35 drafts incremental CI and final 96-template staging succeeded (46041892344 and 46041892374). All 996 staged article IDs across five manifests are unique. Round 005 lines 1–12: exact source hashes and ordered slots rechecked; all 12 stored manuscript block IDs and protected marker sequences independently compared with source; incremental CI pending. Closing commit of preceding cohort passed CI (46047138209). Line 13 source JSONL, Markdown source, ordered slots and marker sequences checked; canonical CI pending.",
+    "current_round_processed_templates": 13
   },
   "batch_files": [
     "0291-wave03-round001-redirects.json",
@@ -89,7 +89,8 @@
     "0333-wave03-round005-009.json",
     "0334-wave03-round005-010.json",
     "0335-wave03-round005-011.json",
-    "0336-wave03-round005-012.json"
+    "0336-wave03-round005-012.json",
+    "0337-wave03-round005-013.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -226,9 +227,14 @@
       "key": "CHRONOLOGY OF THE NEW TESTAMENT",
       "kind": "source_witness_review",
       "detail": "Original chronological proposals and numerical inconsistencies (e.g. 751/5, 735/21), unusual inscription transliterations and James's death date retained. 'Nican' rendered as Nisan in the context of repeated month references. The second Summary of Dates heading is followed immediately by the bibliography in the staged source; no summary invented."
+    },
+    {
+      "key": "CHRONOLOGY OF THE OLD TESTAMENT",
+      "kind": "source_witness_review",
+      "detail": "Source dates retained as printed, including Pompey 56 BC, Shalmaneser II and dates in the intertestamental period. Apparent OCR success ions and ease translated contextually; verify against print. Missing table after block 52 not invented. Blocks 55–87: source dates, regnal numbers, disputed two-invasion theory and 2Ki 21:23/14 anchors retained. Several announced tables absent in staged article; do not reconstruct from conjecture. Apparent OCR split words rendered in context. Blocks 104–133: unusual 2Ki 23-28 plain-text citation and 2Ki 7:1 anchor retained; source chronological claims, numbers and apparent inconsistencies preserved. OCR 'justment' rendered as adjustment in context. Blocks 154–190: author’s proposed synchronisms, dating of Exodus, dynastic and Egyptian historical claims, chronological 215/430 alternatives retained; referenced tables are absent from this staged text and not invented. Blocks 195–222: historical identification of Amraphel and Hammurabi, anthropological and geological claims preserved as author's positions. Unusual date '22:97-2254' retained exactly; apparent missing tables and bibliographic spellings retained pending print review. OCR split words rendered in context."
     }
   ],
-  "previous_translation_commit": "d0f30f788bcff44a155f50e6598f00901dd0dae4",
+  "previous_translation_commit": "417498ce7b7286a26659590a9e41a3a2ee2d9502",
   "cohort_policy": {
     "source_word_limit": 60000,
     "word_count": "Whitespace-delimited tokens in editable English source slots, including headings and signatures, excluding immutable anchors",
@@ -236,7 +242,7 @@
     "oversized_single_article": "Standalone cohort",
     "commit_policy": "One commit and incremental validation per completed cohort"
   },
-  "next_action": "Start next 60,000-word cohort at round-005 SOURCE.jsonl line 13 (CHRONOLOGY OF THE OLD TESTAMENT, 8,705 words). 84 undrafted articles remain, all staged. Preserve order and complete articles.",
+  "next_action": "Continue the partial 60,000-word cohort at round-005 SOURCE.jsonl line 14 (CHURCH). 8,705 words completed; 83 undrafted articles remain in wave 03. Preserve source order and complete articles.",
   "last_translation_tree": "da5b0af1187b93df97b4ea906c5038376f12be13",
   "last_cohort_completion": {
     "kind": "completed_word_limit_cohort",
@@ -269,6 +275,29 @@
     "protected_keep_markers": 1588,
     "protected_structure_markers_total": 2590,
     "validation": "Round 004 partial checkpoint CI passed. Round 005 all 12 source hashes and ordered source slots rechecked; all 12 stored manuscript block IDs, end IDs and immutable marker sequences rechecked. Full incremental CI pending for closing commit.",
+    "editorial_approvals": 0
+  },
+  "last_partial_cohort": {
+    "kind": "partial_checkpoint_not_completed_cohort",
+    "source_line_ranges": [
+      {
+        "round": "round-005",
+        "range": [
+          13,
+          13
+        ]
+      }
+    ],
+    "new_articles": 1,
+    "source_words_whitespace_count": 8705,
+    "word_limit": 60000,
+    "source_mutable_units": 182,
+    "translated_units": 180,
+    "preserved_units": 2,
+    "source_blocks": 98,
+    "protected_keep_markers": 102,
+    "protected_structure_markers_total": 172,
+    "validation": "Ordered source JSONL slots matched staged Markdown template; target markers and slots checked. Canonical automated TEI validation pending.",
     "editorial_approvals": 0
   }
 }
