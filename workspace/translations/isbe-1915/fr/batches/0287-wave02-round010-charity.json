@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CHARITY",
+      "article_id": "isbe-44f3fcdd41c21d6ccbf4",
+      "source_article_sha256": "1567c191a45e309c64bcf8a39ccd993aca3f4d2ce5f23df13cdbe6bf72bff8ae",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHARITY",
+          "target": "CHARITÉ",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "char'-i-ti (agape):",
+          "target": "char'-i-ti (agape) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "1. A New Word",
+          "target": "1. Un mot nouveau",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "2. A New Ideal",
+          "target": "2. Un idéal nouveau",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "3. An Apostolic Term",
+          "target": "3. Un terme apostolique",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "4. Latin Equivalents",
+          "target": "4. Équivalents latins",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "5. English Translation",
+          "target": "5. Traduction anglaise",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "6. Inward Motive",
+          "target": "6. Motif intérieur",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "7. Character",
+          "target": "7. Caractère",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "8. Ultimate Ideal  9. Almsgiving",
+          "target": "8. Idéal suprême  9. Aumône",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "10. Tolerance",
+          "target": "10. Tolérance",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "In the King James Version in 26 places from ",
+          "target": "Dans la King James Version, en 26 endroits à partir de ",
+          "action": "translate"
+        },
+        {
+          "node": 13,
+          "part": "tail",
+          "source": " onward. The same Greek word, which appears in the New Testament 115 times, is elsewhere translated by \"love.\"",
+          "target": ". Le même mot grec, qui apparaît 115 fois dans le Nouveau Testament, est traduit ailleurs par « love » (amour).",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "1. A New Word:",
+          "target": "1. Un mot nouveau :",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "The substantive agape is mainly, if not exclusively, a Biblical and ecclesiastical word (see Deissmann, Bible Studies, 198 ff), not found in profane writings, although the verb agapan, from which it is derived, is used in classical Greek in the sense of \"love, founded in admiration, veneration, esteem, like the Latin diligere\" (Grimm-Thayer), rather than natural emotion (Latin, amare).",
+          "target": "Le substantif agape est principalement, sinon exclusivement, un mot biblique et ecclésiastique (voir Deissmann, Bible Studies, 198 et suiv.), qui ne se trouve pas dans les écrits profanes, bien que le verbe agapan dont il dérive soit employé dans le grec classique au sens d'« amour fondé sur l'admiration, la vénération, l'estime, comme le latin diligere » (Grimm-Thayer), plutôt que d'émotion naturelle (latin amare).",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "2. A New Ideal:",
+          "target": "2. Un idéal nouveau :",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "It is a significant evidence of the sense of a new ideal and principle of life that permeated the Christian consciousness of the earliest communities, that they should have made current a new word to express it, and that they should derive that word, not from the current or philosophical language of Greek morality, but from the Septuagint.",
+          "target": "Il est révélateur de la conscience d'un idéal nouveau et d'un principe de vie nouveau qui pénétraient la conscience chrétienne des premières communautés qu'elles aient mis en circulation un mot nouveau pour l'exprimer, et qu'elles aient tiré ce mot non du langage courant ou philosophique de la morale grecque, mais de la Septante.",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "3. An Apostolic Term:",
+          "target": "3. Un terme apostolique :",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "text",
+          "source": "In the New Testament the word is apostolic, and appears first and predominantly in the Pauline writings. It is found only twice in the Synoptics (",
+          "target": "Dans le Nouveau Testament, le mot est apostolique et apparaît d'abord et principalement dans les écrits pauliniens. Il ne se trouve que deux fois dans les Synoptiques (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "), and although it is in both places put in the mouth of the Saviour, it can easily be understood how the language of a later time may have been used by the narrator, when it is considered that these gospels were compiled and reduced to writing many years after the spread of the Pauline epistles. The word is not found in James, Mark or Acts, but it appears in Paul 75 times, in John 30 times, in Peter 4 times, in Jude twice and in Hebrews twice. Jesus Christ gave the thing and the spirit in the church, and the apostles (probably Paul) invented the term to express it.",
+          "target": "), et bien qu'il soit dans les deux cas mis dans la bouche du Sauveur, on comprend aisément comment le narrateur a pu employer le langage d'une époque ultérieure, lorsqu'on considère que ces Évangiles furent compilés et mis par écrit bien des années après la diffusion des épîtres pauliniennes. Le mot ne se trouve ni dans Jacques, ni dans Marc, ni dans les Actes ; mais il apparaît 75 fois chez Paul, 30 fois chez Jean, 4 fois chez Pierre, deux fois chez Jude et deux fois dans Hébreux. Jésus-Christ a donné la réalité et l'esprit dans l'Église, et les apôtres (probablement Paul) ont inventé le terme pour l'exprimer.",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "4. Latin Equivalents:",
+          "target": "4. Équivalents latins :",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "text",
+          "source": "When Jerome came to translate the Greek Testament into Latin, he found in that language no word to represent agape. Amor was too gross, and he fell back on dilectio and caritas, words which, however, in their original meanings were too weak and colorless to represent agape adequately. No principle seems to have guided him in the choice of the one word or the other in particular places.",
+          "target": "Lorsque Jérôme entreprit de traduire le Testament grec en latin, il ne trouva dans cette langue aucun mot pour représenter agape. Amor était trop grossier et il se rabattit sur dilectio et caritas, mots qui, cependant, dans leurs sens originels, étaient trop faibles et trop peu expressifs pour rendre adéquatement agape. Aucun principe ne semble l'avoir guidé dans le choix de l'un ou l'autre mot dans les passages particuliers.",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "text",
+          "source": "5. English Translation:",
+          "target": "5. Traduction anglaise :",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "Caritas in English became \"charity,\" and was taken over by the English translators from the Vulg, though not with any regularity, nor as far as can be judged, according to any definite principle, except that it is used of agape only in man, never as it denotes a quality or action of God, which is always translated by \"love.\" When agape is translated by \"charity\" it means either",
+          "target": "Caritas devint en anglais « charity » et fut repris de la Vulgate par les traducteurs anglais, mais sans régularité ni, pour autant qu'on puisse en juger, selon un principe défini, sauf qu'il est employé pour agape seulement chez l'homme, jamais lorsqu'il désigne une qualité ou une action de Dieu, cas où il est toujours traduit par « love ». Lorsque agape est traduit par « charity », il signifie soit",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "(1) a disposition in man which may qualify his own character (",
+          "target": "(1) une disposition chez l'homme qui peut caractériser sa propre personnalité (",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": ") and be ready to go forth to God (",
+          "target": ") et être prête à se tourner vers Dieu (",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": ") or to men; or",
+          "target": ") ou vers les hommes ; soit",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "(2) an active and actual relation with other men, generally within the church (",
+          "target": "(2) une relation active et effective avec les autres hommes, généralement au sein de l'Église (",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "tail",
+          "source": "), but also absolutely and universally (",
+          "target": "), mais aussi de manière absolue et universelle (",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": "). In the earlier epistles it stands first and unique as the supreme principle of the Christian life (",
+          "target": "). Dans les premières épîtres, il occupe la première place, seul comme principe suprême de la vie chrétienne (",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "tail",
+          "source": "), but in the later writings, it is enumerated as one among the Christian virtues (",
+          "target": "), mais dans les écrits ultérieurs il est énuméré parmi les vertus chrétiennes (",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "6. Inward Motive:",
+          "target": "6. Motif intérieur :",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "In Paul's psalm of love (",
+          "target": "Dans le psaume de l'amour de Paul (",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "tail",
+          "source": ") it is set forth as an innermost principle contrasted with prophecy and knowledge, faith and works, as the motive that determines the quality of the whole inner life, and gives value to all its activities. If a man should have all gifts of miracles and intellect, and perform all the works of goodness and devotion, \"and have not love, it profiteth nothing,\" for they would be purely external and legal, and lacking in the quality of moral choice and personal relation which give life its value (",
+          "target": "), il est présenté comme un principe du plus profond de l'être, mis en contraste avec la prophétie et la connaissance, la foi et les œuvres, comme le motif qui détermine la qualité de toute la vie intérieure et donne leur valeur à toutes ses activités. Si un homme possédait tous les dons des miracles et de l'intelligence et accomplissait toutes les œuvres de bonté et de dévouement, « mais n'avait pas l'amour, cela ne lui servirait à rien », car ces œuvres seraient purement extérieures et légalistes, dépourvues de la qualité du choix moral et de la relation personnelle qui donnent à la vie sa valeur (",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "tail",
+          "source": "). Love itself defines men's relation to men as generous, tolerant and forgiving.",
+          "target": "). L'amour lui-même définit les relations des hommes entre eux comme généreuses, tolérantes et disposées au pardon.",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "7. Character:",
+          "target": "7. Caractère :",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "\"Love suffereth long, and is kind; love envieth not\" (",
+          "target": "« L'amour est patient et bienveillant ; l'amour n'est pas envieux » (",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "tail",
+          "source": "). It determines and defines a man's own character and personality. It is not boastful and arrogant, but dignified, pure, holy, courageous and serene. Evil cannot provoke it nor wrong delight it. It bears cheerfully all adversity and follows its course in confident hope (",
+          "target": "). Il détermine et définit le caractère et la personnalité propres de l'homme. Il n'est ni vantard ni arrogant, mais digne, pur, saint, courageux et serein. Le mal ne peut l'irriter, ni l'injustice le réjouir. Il supporte joyeusement toute adversité et poursuit sa route dans une espérance confiante (",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "tail",
+          "source": "). It is final virtue, the ultimate ideal of life. Many of life's activities cease or change, but \"love never faileth.\"",
+          "target": "). Il est la vertu ultime, l'idéal suprême de la vie. Beaucoup d'activités de la vie cessent ou changent, mais « l'amour ne périt jamais ».",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "text",
+          "source": "8. Ultimate Ideal:",
+          "target": "8. Idéal suprême :",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "To it all other graces and virtues are subordinated. \"Now abideth faith, hope, love, these three; and the greatest of these is love\" (",
+          "target": "Toutes les autres grâces et vertus lui sont subordonnées. « Maintenant demeurent la foi, l'espérance, l'amour, ces trois choses ; et la plus grande d'entre elles est l'amour » (",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "tail",
+          "source": "). In one passage only in the New Testament (",
+          "target": "). Dans un seul passage du Nouveau Testament (",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "tail",
+          "source": ") agape seems to have a meaning that comes near to the later, ecclesiastical meaning of charity as almsgiving.",
+          "target": "), agape semble avoir un sens qui se rapproche du sens ecclésiastique ultérieur de la charité comme aumône.",
+          "action": "translate"
+        },
+        {
+          "node": 57,
+          "part": "text",
+          "source": "9. Almsgiving:",
+          "target": "9. Aumône :",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "text",
+          "source": "With the growing legalism of the church and the prevalence of monastic ideals of morality, caritas came to mean the very opposite of Paul's agape--just \"the giving of goods to feed the poor,\" which \"without love profiteth nothing.\" At present, the word means either liberality to the poor, or tolerance in judging the actions of others, both qualities of love, but very inadequate to express its totality.",
+          "target": "Avec le légalisme croissant de l'Église et la prédominance des idéaux monastiques de la morale, caritas en vint à signifier le contraire même de l'agape de Paul — simplement « le don de biens pour nourrir les pauvres », qui « sans amour ne sert à rien ». À présent, le mot signifie soit la générosité envers les pauvres, soit la tolérance dans le jugement des actions d'autrui, toutes deux qualités de l'amour, mais fort insuffisantes pour en exprimer la totalité.",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "10. Tolerance:",
+          "target": "10. Tolérance :",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "text",
+          "source": "The Revisers have therefore accurately dropped the word and substituted \"love\" for it in all passages. It is interesting to note that in Welsh the reverse process has occurred: cariad (from Latin caritas) was used throughout to translate agape, with the result that, in both religious and ordinary speech, the word has established itself so firmly as almost to oust the native word \"serch.\"",
+          "target": "Les réviseurs ont donc à juste titre abandonné le mot et lui ont substitué « love » (amour) dans tous les passages. Il est intéressant de noter qu'en gallois le processus inverse s'est produit : cariad (du latin caritas) fut employé partout pour traduire agape, si bien que, dans le langage religieux comme dans le langage courant, le mot s'est établi si solidement qu'il a presque supplanté le mot indigène « serch ».",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "text",
+          "source": "T. Rees",
+          "target": "T. Rees",
+          "action": "preserve",
+          "reason": "Historical name, cross-reference or signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

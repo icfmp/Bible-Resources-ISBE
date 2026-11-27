@@ -6,20 +6,20 @@
   "branch": "work/fr-isbe-full-translation",
   "wave02_issue": 110,
   "first_wave_issue": 109,
-  "status": "981_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
+  "status": "998_new_complete_source_locked_first_drafts_pending_independent_editorial_review",
   "publication_permitted": false,
   "editorially_accepted": 0,
   "translation_pr_permitted": false,
   "source_1001_2000": {
     "total": 1000,
     "previous_pilot_drafts": 2,
-    "new_complete_drafts_on_branch": 981,
-    "complete_first_drafts": 983,
-    "remaining_undrafted": 17
+    "new_complete_drafts_on_branch": 998,
+    "complete_first_drafts": 1000,
+    "remaining_undrafted": 0
   },
   "corpus": {
     "total_original_entries": 9380,
-    "complete_first_drafts_across_main_and_current_branch": 2026
+    "complete_first_drafts_across_main_and_current_branch": 2043
   },
   "source_queue": {
     "rounds_completed": [
@@ -31,11 +31,12 @@
       "round-006",
       "round-007",
       "round-008",
-      "round-009"
+      "round-009",
+      "round-010"
     ],
-    "original_article_templates": 900,
-    "verified_unique_article_ids": 900,
-    "original_mutable_tei_units_covered": 5684,
+    "original_article_templates": 998,
+    "verified_unique_article_ids": 998,
+    "original_mutable_tei_units_covered": 10171,
     "round_paths": [
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-001",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-002",
@@ -45,21 +46,19 @@
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-006",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-007",
       "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-008",
-      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-009"
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-009",
+      "workspace/translations/isbe-1915/fr/source-queue/wave-02/round-010"
     ],
-    "checks": "Rounds 001–009 complete. Previous 59,766-word cohort passed incremental CI. Interrupted recovery cohort: lines 80–81 complete, exact ordered slots and manuscript bodies verified against staged Git blobs; incremental CI pending. Lines 82–98 remain undrafted.",
-    "partial_round": {
+    "checks": "Rounds 001–010 complete; final 17 articles checked against staged Git blobs for exact ordered source slots, nonempty targets, reconstructed manuscript bodies and immutable marker sequences. Previous partial checkpoint CI passed. Final incremental CI pending.",
+    "completed_final_round": {
       "round": "round-010",
-      "completed_articles": 81,
+      "completed_articles": 98,
       "total_articles": 98,
       "completed_source_line_range": [
         1,
-        81
-      ],
-      "remaining_source_line_range": [
-        82,
         98
       ],
+      "remaining_source_line_range": [],
       "source_mutable_units": 4487,
       "source_blocks": 2723,
       "protected_keep_markers": 2457,
@@ -177,7 +176,24 @@
     "0270-wave02-round010-cain-calendar.json",
     "0271-wave02-round010-calf-camel.json",
     "0272-wave02-round010-canaan.json",
-    "0273-wave02-round010-canon-nt.json"
+    "0273-wave02-round010-canon-nt.json",
+    "0274-wave02-round010-canon-ot.json",
+    "0275-wave02-round010-capernaum.json",
+    "0276-wave02-round010-captain.json",
+    "0277-wave02-round010-captivity.json",
+    "0278-wave02-round010-carchemish.json",
+    "0279-wave02-round010-care.json",
+    "0280-wave02-round010-carmel.json",
+    "0281-wave02-round010-catechist.json",
+    "0282-wave02-round010-cattle.json",
+    "0283-wave02-round010-cedar.json",
+    "0284-wave02-round010-chaldea.json",
+    "0285-wave02-round010-chance.json",
+    "0286-wave02-round010-chariot.json",
+    "0287-wave02-round010-charity.json",
+    "0288-wave02-round010-charm.json",
+    "0289-wave02-round010-chastening.json",
+    "0290-wave02-round010-chedorlaomer.json"
   ],
   "source_witness_and_display_flags": [
     {
@@ -969,35 +985,118 @@
       "key": "CANON OF THE NEW TESTAMENT",
       "kind": "source_witness",
       "detail": "Historical claims and attribution preserved, including the assertion that Origen was appointed bishop in 203 and the account of the Muratorian fragment. Apparent anomalous references Eph 5; Ro 6; 7 retained. Eusebins and Ignarius rendered as Eusèbe and Ignace, pending witness review."
+    },
+    {
+      "key": "CANON OF THE OLD TESTAMENT",
+      "kind": "source_witness",
+      "detail": "Historical confessional polemic, canon formation and Jamnia hypotheses retained. Check conflicting Sirach conclusions, Athanasius dates, repeated Gemara and corrupt Trent quotation 'all their facts' (literal French reading)."
+    },
+    {
+      "key": "CAPERNAUM",
+      "kind": "source_witness",
+      "detail": "Historical site identification and Arculf date retained."
+    },
+    {
+      "key": "CAPTAIN",
+      "kind": "source_witness",
+      "detail": "Source states 13 Hebrew terms but enumerates 12; historical English version distinctions retained."
+    },
+    {
+      "key": "CAPTIVITY",
+      "kind": "source_witness",
+      "detail": "Historical chronology and competing hypotheses concerning Daniel, Second Isaiah and deportations retained; no modern harmonization."
+    },
+    {
+      "key": "CARCHEMISH",
+      "kind": "source_witness",
+      "detail": "Conflicting historical dates and royal numbering, including Tiglath-pileser IV, retained."
+    },
+    {
+      "key": "CARE; CAREFULNESS; CAREFUL",
+      "kind": "source_witness",
+      "detail": "Source spelling memrinao retained; review English version distinctions."
+    },
+    {
+      "key": "CARMEL",
+      "kind": "source_witness",
+      "detail": "Corrupt 'great trim' read contextually as great trial; ca11ed read as called; verify printed witness."
+    },
+    {
+      "key": "CATECHIST; CATECHUMEN",
+      "kind": "source_witness",
+      "detail": "Historical claims about Jesus as catechumen and dating of Apostolic Constitutions retained."
+    },
+    {
+      "key": "CATTLE",
+      "kind": "source_witness",
+      "detail": "Damaged forms Bos primigeniusú, kienos and ashiaroth retained; historical zoological taxonomy not modernized."
+    },
+    {
+      "key": "CEDAR",
+      "kind": "source_witness",
+      "detail": "Juniperis phoenicea and historical botanical identifications retained; embedded heading position preserved."
+    },
+    {
+      "key": "CHALDEA; CHALDEANS",
+      "kind": "source_witness",
+      "detail": "Corrupt name Nebuchadpolassar's rezzar retained explicitly rather than guessed; check printed witness."
+    },
+    {
+      "key": "CHANCE",
+      "kind": "source_witness",
+      "detail": "Incomplete source 'Note, it was no Israelite, but who said this' and 'stands or' interpreted contextually; verify witness."
+    },
+    {
+      "key": "CHARIOT",
+      "kind": "source_witness",
+      "detail": "Historical counts and proposed readings Mucri/Kue retained as the author's discussion."
+    },
+    {
+      "key": "CHARITY",
+      "kind": "source_witness",
+      "detail": "Historical counts, source-critical conjectures and confessional judgments retained."
+    },
+    {
+      "key": "CHARM",
+      "kind": "source_witness",
+      "detail": "Historical attributions of magical practices retained as the author's description, not endorsement."
+    },
+    {
+      "key": "CHASTENING; CHASTISEMENT",
+      "kind": "source_witness",
+      "detail": "Author's distinctions concerning punishment, chastisement and justification retained."
+    },
+    {
+      "key": "CHEDORLAOMER",
+      "kind": "source_witness",
+      "detail": "Damaged ancient texts, uncertain identifications and unusual names retained; verify witness."
     }
   ],
-  "next_action": "Resume staged round-010 SOURCE.jsonl at line 82 (CANON OF THE OLD TESTAMENT, 11880 source words). Interrupted cohort of 19 articles is partial: 2 saved, 17 remaining. No independent editorial approvals or translation PR.",
-  "previous_translation_commit": "3833950e7ef375206a36c796578d503659092e8c",
-  "last_translation_tree": "5736a4c31ef22b557f072503f97e5fdde86373ca",
+  "next_action": "Wave 02 first drafts complete (1000/1000). Prepare next 1000-entry source queue under the next translation issue, retaining independent editorial review and publication gates.",
+  "previous_translation_commit": "4d0d8d227b9b3c8c02180fd71c043789f5c16891",
+  "last_translation_tree": "eb69c49b80d0072516ca30d55ff00a7a1146320f",
   "last_cohort_completion": {
-    "kind": "partial_word_budget_cohort_checkpoint",
+    "kind": "final_word_budget_cohort_recovery",
     "source_line_ranges": [
       {
         "round": "round-010",
         "range": [
-          80,
-          81
+          82,
+          98
         ]
       }
     ],
-    "new_articles": 2,
-    "source_words_whitespace_count": 7818,
+    "new_articles": 17,
+    "source_words_whitespace_count": 35375,
     "word_limit": 60000,
-    "next_article": "CANON OF THE OLD TESTAMENT",
-    "next_article_words": 11880,
-    "source_mutable_units": 176,
-    "source_blocks": 131,
-    "protected_keep_markers": 45,
-    "protected_structure_markers_total": 155,
-    "validation": "Exact source slots and reconstructed manuscript bodies verified against staged Git blobs; incremental CI pending",
+    "source_mutable_units": 913,
+    "source_blocks": 516,
+    "protected_keep_markers": 553,
+    "protected_structure_markers_total": 844,
+    "validation": "Exact ordered source slots, nonempty targets, reconstructed manuscript bodies and marker sequences verified against Git blobs; incremental CI pending",
     "editorial_approvals": 0,
     "planned_articles": 19,
-    "remaining_articles": 17
+    "remaining_articles": 0
   },
   "cohort_policy": {
     "source_word_limit": 60000,
@@ -1005,5 +1104,18 @@
     "selection": "Consecutive complete articles from staged queues; stop before the next article exceeds the limit, no skipping or splitting",
     "oversized_single_article": "Standalone cohort",
     "commit_policy": "One commit and incremental validation per completed cohort"
+  },
+  "completed_recovery_cohort": {
+    "articles": 19,
+    "words": 43193,
+    "units": 1089,
+    "blocks": 647,
+    "markers": 999,
+    "keep": 598,
+    "source_line_range": [
+      80,
+      98
+    ],
+    "partial_commit": "4d0d8d227b9b3c8c02180fd71c043789f5c16891"
   }
 }

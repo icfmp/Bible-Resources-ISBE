@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CAPTAIN",
+      "article_id": "isbe-313e91336a7c60edae7b",
+      "source_article_sha256": "b404023e40277b8f649a3ae0f4cc9e54b8d461dc77dda7ce013572b760f0919b",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CAPTAIN",
+          "target": "CAPITAINE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kap'-tin: In the King James Version there are no fewer than 13 Hebrew words, and 4 different Greek words, which are rendered by this one English word. In the Revised Version (British and American) some of these are rendered by other English words, and so we find for \"captain\": \"marshal\" (",
+          "target": "kap'-tin : Dans la King James Version, pas moins de treize mots hébreux et quatre mots grecs différents sont rendus par ce seul mot anglais. Dans la Revised Version (britannique et américaine), certains sont rendus par d'autres mots anglais, de sorte que nous trouvons à la place de « captain » (capitaine) : « marshal » (maréchal) (",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": "), \"prince\" (",
+          "target": "), « prince » (",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "tail",
+          "source": "), \"governor\" (",
+          "target": "), « governor » (gouverneur) (",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": "), while in the case of one of these Hebrew words a different construction is found altogether (",
+          "target": "), tandis que, dans le cas de l'un de ces mots hébreux, on trouve une construction tout à fait différente (",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "1. In the Old Testament:",
+          "target": "1. Dans l'Ancien Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "Of Hebrew words in the Old Testament rendered by \"captain\"",
+          "target": "Parmi les mots hébreux de l'Ancien Testament rendus par « capitaine »,",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "(1) the most frequent is sar, which denotes \"a military commander,\" whether of thousands or hundreds or fifties (",
+          "target": "(1) le plus fréquent est sar, qui désigne « un commandant militaire », qu'il commande des milliers, des centaines ou des cinquantaines (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": " and many other places). Sar is the chief officer of any department, civil and religious, as well as military--captain of the guard the King James Version and the Revised Version (British and American), chief of the executioners the Revised Version, margin (",
+          "target": " et en beaucoup d'autres endroits). Sar désigne le chef de n'importe quel service, civil ou religieux aussi bien que militaire : capitaine de la garde selon la King James Version et la Revised Version (britannique et américaine), chef des exécuteurs selon la marge de la Revised Version (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": "); chief butler (",
+          "target": ") ; chef des échansons (",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "tail",
+          "source": "); chief baker (",
+          "target": ") ; chef des panetiers (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": "); chief of a district (",
+          "target": ") ; chef d'un district (",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "tail",
+          "source": "); chiefs of tribes (Naphtali; Zebulun, ",
+          "target": ") ; chefs de tribus (Nephthali ; Zabulon, ",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": "); chiefs over gangs of slaves (",
+          "target": ") ; chefs d'équipes d'esclaves (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": "); chiefs of the priests and the Levites (",
+          "target": ") ; chefs des sacrificateurs et des Lévites (",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "text",
+          "source": "(2) rabh, later Hebrew for chief of the executioners or captain of the guard, a title always given to Nebuzar-adan (",
+          "target": "(2) rabh, mot de l'hébreu tardif pour chef des exécuteurs ou capitaine de la garde, titre toujours donné à Nebuzaradan (",
+          "action": "translate"
+        },
+        {
+          "node": 24,
+          "part": "tail",
+          "source": " ff) and to Arioch (",
+          "target": " et suiv.) et à Arjoc (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "tail",
+          "source": "). Compare also Rab-mag, chief of the magicians (",
+          "target": "). Comparer également Rab-Mag, chef des magiciens (",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "tail",
+          "source": "), and Ashpenaz, chief of the eunuchs (",
+          "target": "), et Aschpenaz, chef des eunuques (",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "(3) ro'sh, \"head\" over a host (Israel in the wilderness, ",
+          "target": "(3) ro'sh, « tête », chef d'une armée (Israël au désert, ",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "tail",
+          "source": "), over tribes (",
+          "target": "), de tribus (",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "tail",
+          "source": ", where the Revised Version (British and American) renders \"heads\"), over thousands (",
+          "target": ", où la Revised Version (britannique et américaine) rend le mot par « chefs »), de milliers (",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": "). Abijah, king of Judah, before joining battle against Jeroboam, claimed \"God himself is with us for our captain\" the King James Version, \"with us at our head\" the Revised Version (British and American) (",
+          "target": "). Abija, roi de Juda, avant d'engager le combat contre Jéroboam, affirma : « Dieu lui-même est avec nous pour être notre capitaine », selon la King James Version, « avec nous, à notre tête », selon la Revised Version (britannique et américaine) (",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "(4) shalish, originally the third man in the chariot, who, when the chief occupant was the king, or commander-in-chief, was of the rank of captain (",
+          "target": "(4) shalish, à l'origine le troisième homme dans le char qui, lorsque l'occupant principal était le roi ou le commandant en chef, avait le rang de capitaine (",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "tail",
+          "source": "), the term \"third man\" being generalized to mean \"a captain\" in ",
+          "target": "), le terme « troisième homme » étant généralisé pour signifier « un capitaine » en ",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": ", where \"chief of his captains\" combines (1) and (4).",
+          "target": ", où « chef de ses capitaines » combine (1) et (4).",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "(5) naghidh, leader by Divine appointment: of Saul (",
+          "target": "(5) naghidh, chef désigné par Dieu : à propos de Saül (",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "tail",
+          "source": ", \"captain,\" the King James Version, \"prince\" the Revised Version (British and American) ",
+          "target": ", « capitaine », selon la King James Version, « prince », selon la Revised Version (britannique et américaine) ",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": "); of David (",
+          "target": ") ; de David (",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": "); of Hezekiah (",
+          "target": ") ; d'Ézéchias (",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "tail",
+          "source": "); with a charge in connection with the temple (",
+          "target": ") ; à propos d'une charge en rapport avec le temple (",
+          "action": "translate"
+        },
+        {
+          "node": 43,
+          "part": "tail",
+          "source": "). It is the word used of Messiah \"the prince\" (",
+          "target": "). C'est le mot employé pour le Messie, « le prince » (",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": "), who is also Prince of the Covenant (",
+          "target": "), qui est également le Prince de l'alliance (",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "(6) nasi', rendered \"captain\" in the King James Version ",
+          "target": "(6) nasi', rendu par « capitaine » dans la King James Version en ",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": " only, there in the Revised Version (British and American) and in other places, both the King James Version and the Revised Version (British and American), rendered \"prince.\" In ",
+          "target": " seulement ; là, dans la Revised Version (britannique et américaine), et en d'autres endroits, dans la King James Version comme dans la Revised Version (britannique et américaine), il est rendu par « prince ». En ",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "tail",
+          "source": " \"chief of the princes\" combines (3) and (6).",
+          "target": ", « chef des princes » combine (3) et (6).",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "(7) pechah, is found almost entirely in a foreign title denoting \"governor,\" and belongs to the later history of Israel (",
+          "target": "(7) pechah se rencontre presque exclusivement dans un titre étranger désignant un « gouverneur », et appartient à l'histoire tardive d'Israël (",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "tail",
+          "source": "), rendered \"captain\" in exclusively foreign associations (",
+          "target": ") ; il est rendu par « capitaine » dans des contextes exclusivement étrangers (",
+          "action": "translate"
+        },
+        {
+          "node": 58,
+          "part": "tail",
+          "source": " f).",
+          "target": " et suiv.).",
+          "action": "translate"
+        },
+        {
+          "node": 59,
+          "part": "text",
+          "source": "(8) qatsin (from root of qadi, Arabic for \"judge\"), denotes \"dictator,\" almost \"usurper,\" and is found in \"rulers of Sodom\" the King James Version and the Revised Version (British and American), \"judges of Sodom\" the Revised Version, margin (",
+          "target": "(8) qatsin (de la racine de qadi, mot arabe signifiant « juge ») désigne un « dictateur », presque un « usurpateur », et se trouve dans « dirigeants de Sodome », selon la King James Version et la Revised Version (britannique et américaine), « juges de Sodome », selon la marge de la Revised Version (",
+          "action": "translate"
+        },
+        {
+          "node": 60,
+          "part": "tail",
+          "source": "), used of Jephthah in sense of \"captain\" the King James Version, \"chief\" the Revised Version (British and American) (",
+          "target": ") ; employé à propos de Jephthé au sens de « capitaine », selon la King James Version, de « chef », selon la Revised Version (britannique et américaine) (",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "tail",
+          "source": "), found combined with (3), \"head and captain\" (King James Version, \"head and chief\" the Revised Version (British and American) ",
+          "target": "), on le trouve combiné avec (3) : « tête et capitaine » (King James Version), « tête et chef » (Revised Version, britannique et américaine) (",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "tail",
+          "source": "). In ",
+          "target": "). En ",
+          "action": "translate"
+        },
+        {
+          "node": 63,
+          "part": "tail",
+          "source": " it denotes commanders of troops, the King James Version \"captains of the men of war,\" the Revised Version (British and American) \"chiefs of the men of war.\"",
+          "target": ", il désigne des commandants de troupes, « capitaines des hommes de guerre » selon la King James Version, « chefs des hommes de guerre » selon la Revised Version (britannique et américaine).",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "(9) kar, in ",
+          "target": "(9) kar, en ",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "tail",
+          "source": " \"to set captains\" the King James Version, is translated \"to set battering rams\" the Revised Version (British and American).",
+          "target": ", « établir des capitaines » selon la King James Version, est traduit par « mettre en place des béliers » selon la Revised Version (britannique et américaine).",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "(10) ba`al, only once in \"captain of the ward\" (",
+          "target": "(10) ba`al, une seule fois dans « capitaine de la garde » (",
+          "action": "translate"
+        },
+        {
+          "node": 68,
+          "part": "text",
+          "source": "(11) Tiphcar, a dignitary belonging to an oriental court, in the King James Version rendered \"captain,\" in the Revised Version (British and American) \"marshal\" (",
+          "target": "(11) Tiphcar, dignitaire appartenant à une cour orientale, rendu dans la King James Version par « capitaine », dans la Revised Version (britannique et américaine) par « maréchal » (",
+          "action": "translate"
+        },
+        {
+          "node": 71,
+          "part": "text",
+          "source": "(12) shalliT, in ",
+          "target": "(12) shalliT, en ",
+          "action": "translate"
+        },
+        {
+          "node": 72,
+          "part": "tail",
+          "source": " of Arioch, the king's captain; in ",
+          "target": ", à propos d'Arjoc, le capitaine du roi ; en ",
+          "action": "translate"
+        },
+        {
+          "node": 73,
+          "part": "tail",
+          "source": " \"having power over,\" and in ",
+          "target": ", « ayant pouvoir sur », et en ",
+          "action": "translate"
+        },
+        {
+          "node": 74,
+          "part": "tail",
+          "source": " used of \"mighty men\" (the Revised Version (British and American) \"rulers\").",
+          "target": ", employé à propos des « hommes puissants » (« dirigeants », selon la Revised Version, britannique et américaine).",
+          "action": "translate"
+        },
+        {
+          "node": 76,
+          "part": "text",
+          "source": "2. In the New Testament:",
+          "target": "2. Dans le Nouveau Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 77,
+          "part": "text",
+          "source": "Of Greek words rendered by \"captain\" in New Testament there are the following:",
+          "target": "Parmi les mots grecs rendus par « capitaine » dans le Nouveau Testament figurent les suivants :",
+          "action": "translate"
+        },
+        {
+          "node": 78,
+          "part": "text",
+          "source": "(1) archegos, rendered \"captain\" in ",
+          "target": "(1) archegos, rendu par « capitaine » en ",
+          "action": "translate"
+        },
+        {
+          "node": 79,
+          "part": "tail",
+          "source": " the King James Version but relegated to the margin in the Revised Version (British and American), where \"author\" (of their salvation) is preferred, this being the rendering of  ",
+          "target": " dans la King James Version, mais relégué en marge dans la Revised Version (britannique et américaine), qui préfère « auteur » (de leur salut), ce qui est la traduction de ",
+          "action": "translate"
+        },
+        {
+          "node": 80,
+          "part": "tail",
+          "source": " the King James Version and the Revised Version (British and American), \"author\" (and finisher of our faith), \"captain\" being still retained in the Revised Version, margin. Compare ",
+          "target": " dans la King James Version et la Revised Version (britannique et américaine), « auteur » (et consommateur de notre foi), « capitaine » étant toujours maintenu en marge de la Revised Version. Comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 81,
+          "part": "tail",
+          "source": " and ",
+          "target": " et ",
+          "action": "translate"
+        },
+        {
+          "node": 82,
+          "part": "tail",
+          "source": ", where the same Greek word is rendered \"Prince,\" the Revised Version, margin of the former passage giving \"Author.\" In the Risen and Ascended Christ the various conceptions thus expressed are found to blend.",
+          "target": ", où le même mot grec est rendu par « Prince », la marge de la Revised Version du premier passage donnant « Auteur ». Dans le Christ ressuscité et monté au ciel, les diverses notions ainsi exprimées se rejoignent.",
+          "action": "translate"
+        },
+        {
+          "node": 83,
+          "part": "text",
+          "source": "(2) chiliarchos, the Latin tribunus militum of which there were six to a legion, commanding the six cohorts of which it was composed. In its lit. acceptation it would be \"commander of a thousand,\" and it is so used in ",
+          "target": "(2) chiliarchos, le tribunus militum latin, dont il y avait six par légion, commandant les six cohortes dont elle était composée. Dans son acception littérale, ce serait « commandant de mille hommes », et c'est ainsi qu'il est employé en ",
+          "action": "translate"
+        },
+        {
+          "node": 84,
+          "part": "tail",
+          "source": " where it designates the commander of the Roman garrison in Jerusalem, consisting of a cohort, and is rendered \"chief captain\" (",
+          "target": ", où il désigne le commandant de la garnison romaine de Jérusalem, composée d'une cohorte, et est rendu par « capitaine en chef » (",
+          "action": "translate"
+        },
+        {
+          "node": 88,
+          "part": "tail",
+          "source": "). It is used more vaguely in the sense of \"military officer\" in ",
+          "target": "). Il est employé plus vaguement au sens d'« officier militaire » en ",
+          "action": "translate"
+        },
+        {
+          "node": 92,
+          "part": "text",
+          "source": "(3) strategos, used only by Luke in the New Testament, and almost exclusively of",
+          "target": "(3) strategos, employé seulement par Luc dans le Nouveau Testament, et presque exclusivement à propos",
+          "action": "translate"
+        },
+        {
+          "node": 93,
+          "part": "text",
+          "source": "(a) officials in charge of the Temple (",
+          "target": "(a) des fonctionnaires chargés du Temple (",
+          "action": "translate"
+        },
+        {
+          "node": 98,
+          "part": "tail",
+          "source": "). The captain of the Temple had the superintendence of the Levites and priests who were on guard in and around the Temple, and under him were strategoi, who were also captains of the Temple police, although they took their instruction from him as their head. He was not only a priest, but second in dignity only to the high priest himself;",
+          "target": "). Le capitaine du Temple avait la surveillance des Lévites et des sacrificateurs qui montaient la garde dans le Temple et autour de celui-ci ; sous ses ordres se trouvaient des strategoi, qui étaient également des capitaines de la police du Temple, bien qu'ils reçussent leurs instructions de lui en tant que chef. Non seulement il était sacrificateur, mais il n'était inférieur en dignité qu'au souverain sacrificateur lui-même ;",
+          "action": "translate"
+        },
+        {
+          "node": 99,
+          "part": "text",
+          "source": "(b) the exception to Luke's general usage is where the word is used of the chief authorities in civil affairs at Philippi; where \"the magistrates,\" as the word is rendered (",
+          "target": "(b) l'exception à l'usage général de Luc se trouve là où le mot est employé à propos des autorités suprêmes dans les affaires civiles à Philippes ; les « magistrats », comme le mot est rendu (",
+          "action": "translate"
+        },
+        {
+          "node": 100,
+          "part": "tail",
+          "source": " f), called themselves \"praetors\" (strategoi). In the case of Paul and Silas they placed themselves in peril of removal from their office by ordering them to be beaten, being Romans and uncondemned.",
+          "target": " et suiv.), s'appelaient eux-mêmes « préteurs » (strategoi). Dans le cas de Paul et de Silas, ils risquèrent d'être destitués de leur charge en ordonnant de les battre, alors que ceux-ci étaient Romains et n'avaient pas été condamnés.",
+          "action": "translate"
+        },
+        {
+          "node": 101,
+          "part": "text",
+          "source": "(4) stratopedarches, the captain of the guard to whom Julius of the Augustan band (according to the Textus Receptus of the New Testament, ",
+          "target": "(4) stratopedarches, le capitaine de la garde auquel Julius, de la cohorte Auguste (selon le Textus Receptus du Nouveau Testament, ",
+          "action": "translate"
+        },
+        {
+          "node": 102,
+          "part": "tail",
+          "source": ") delivered Paul and his fellow-prisoners. The word has disappeared from the Revised Version (British and American), but the passage in which it occurs has attestation which satisfies Blass, Sir William Ramsay, and other scholars. It was supposed that this was the captain of the Praetorian guard, but Mommsen and Ramsay believe him to be the princeps peregrinorum castrorum.",
+          "target": "), remit Paul et ses compagnons de captivité. Le mot a disparu de la Revised Version (britannique et américaine), mais le passage dans lequel il se trouve bénéficie d'une attestation qui satisfait Blass, Sir William Ramsay et d'autres savants. On a supposé qu'il s'agissait du capitaine de la garde prétorienne, mais Mommsen et Ramsay croient qu'il s'agissait du princeps peregrinorum castrorum.",
+          "action": "translate"
+        },
+        {
+          "node": 103,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 104,
+          "part": "text",
+          "source": "AUGUSTAN BAND",
+          "target": "COHORTE AUGUSTE",
+          "action": "translate"
+        },
+        {
+          "node": 105,
+          "part": "text",
+          "source": "ARMY, ROMAN",
+          "target": "ARMÉE ROMAINE",
+          "action": "translate"
+        },
+        {
+          "node": 106,
+          "part": "text",
+          "source": "T. Nicol.",
+          "target": "T. Nicol.",
+          "action": "preserve",
+          "reason": "Historical name, cross-reference or signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

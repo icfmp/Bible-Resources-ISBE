@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CEDAR",
+      "article_id": "isbe-43aafb893521df3a8f41",
+      "source_article_sha256": "7e8a23879aad046dc12b2aa2247c5ae940c0e4cfbb3bb9120b7448af7b15b063",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CEDAR",
+          "target": "CÈDRE",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "se'-dar, se'-der ('erez, from Hebrew root meaning \"to be firm\"; kedros): The 'erez was in almost all the Old Testament references the true cedar, Cedrus libani, but the name may have been applied in a loose way to allied trees, such as junipers and pines. In ",
+          "target": "se'-dar, se'-der ('erez, d'une racine hébraïque signifiant « être ferme » ; kedros) : Dans presque toutes les mentions de l'Ancien Testament, le 'erez était le véritable cèdre, Cedrus libani, mais le nom peut avoir été appliqué de manière assez large à des arbres apparentés, comme les genévriers et les pins. En ",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "tail",
+          "source": "--\"as cedar-trees beside the waters\"--the reference must, as is most probable, be purely poetical (see ",
+          "target": " — « comme des cèdres auprès des eaux » —, l'allusion doit, comme c'est le plus probable, être purement poétique (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "ALOES",
+          "target": "ALOÈS",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "tail",
+          "source": ") or the 'arazim must signify some other kind of tree which flourishes beside water.",
+          "target": "), ou les 'arazim doivent désigner une autre espèce d'arbre qui prospère au bord de l'eau.",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "1. Cedar for Ritual Cleansing:",
+          "target": "1. Le cèdre dans la purification rituelle :",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "Cedar is twice mentioned as a substance for ritual cleansing. In ",
+          "target": "Le cèdre est mentionné deux fois comme substance destinée à la purification rituelle. En ",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "tail",
+          "source": " the cleansed leper was sprinkled with the blood of a \"clean bird\" into which had been put \"cedar- wood, and scarlet, and hyssop.\" In ",
+          "target": ", le lépreux purifié était aspergé du sang d'un « oiseau pur » dans lequel on avait mis « du bois de cèdre, de l'écarlate et de l'hysope ». En ",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "tail",
+          "source": " \"cedar-wood, and hyssop, and scarlet\" were to be cast into the holocaust of the red heifer. (For the symbolical meaning see ",
+          "target": ", « du bois de cèdre, de l'hysope et de l'écarlate » devaient être jetés dans l'holocauste de la vache rousse. (Pour le sens symbolique, voir ",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "CLEAN",
+          "target": "PUR",
+          "action": "translate"
+        },
+        {
+          "node": 9,
+          "part": "tail",
+          "source": ".) Here it is very generally considered that the cedar could not have been the wood of Cedrus libani, which so far as we know never grew in the wilderness, but that of some species of juniper--according to Post, Juniperis phoenicea, which may still be found in the wilderness of Edom.",
+          "target": ".) On considère très généralement qu'il ne pouvait s'agir ici de bois de Cedrus libani, qui, pour autant que nous le sachions, n'a jamais poussé dans le désert, mais de celui d'une espèce de genévrier — selon Post, Juniperis phoenicea, que l'on peut encore trouver dans le désert d'Édom.",
+          "action": "translate"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "2. Cedar Trees in the Old Testament:",
+          "target": "2. Les cèdres dans l'Ancien Testament :",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "Cedar trees are everywhere mentioned with admiration in the Old Testament. Solomon made the cedar the first of trees (",
+          "target": "Les cèdres sont partout mentionnés avec admiration dans l'Ancien Testament. Salomon plaça le cèdre au premier rang des arbres (",
+          "action": "translate"
+        },
+        {
+          "node": 12,
+          "part": "tail",
+          "source": "). They are the \"glory of Lebanon\" (",
+          "target": "). Ils sont la « gloire du Liban » (",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "tail",
+          "source": "). The most boastful threat of Sennacherib was that he would cut down the tall cedars of Lebanon (",
+          "target": "). La menace la plus vantarde de Sanchérib fut qu'il abattrait les grands cèdres du Liban (",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "tail",
+          "source": "). They were strong, as is implied in--  \"The voice of Yahweh is powerful; .... The voice of Yahweh breaketh the cedars; Yea, Yahweh breaketh in pieces the cedars of Lebanon\" (",
+          "target": "). Ils étaient robustes, comme le laisse entendre ce passage : « La voix de Yahweh est puissante ; [...] la voix de Yahweh brise les cèdres ; oui, Yahweh met en pièces les cèdres du Liban » (",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "tail",
+          "source": ").  The cedars are tall--\"whose height was like the height of the cedars\"--(",
+          "target": "). Les cèdres sont hauts — « dont la hauteur était comme la hauteur des cèdres » — (",
+          "action": "translate"
+        },
+        {
+          "node": 19,
+          "part": "tail",
+          "source": "); majestic (",
+          "target": "), majestueux (",
+          "action": "translate"
+        },
+        {
+          "node": 20,
+          "part": "tail",
+          "source": "), and excellent (",
+          "target": ") et excellents (",
+          "action": "translate"
+        },
+        {
+          "node": 21,
+          "part": "tail",
+          "source": "). The Assyrian power is compared to--\"a cedar in Lebanon with fair branches, and with a forest-like shade, an high stature; and its top was among the thick boughs .... its stature was exalted above all the trees of the field; and its boughs were multiplied, and its branches became long\" (",
+          "target": "). La puissance assyrienne est comparée à « un cèdre du Liban, aux belles branches, à l'ombre semblable à celle d'une forêt, d'une haute stature ; et sa cime était parmi les branches épaisses [...] sa stature s'élevait au-dessus de tous les arbres des champs ; ses rameaux se multiplièrent et ses branches s'allongèrent » (",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": "). They are in particular God's trees--  \"The trees of Yahweh are filled with moisture, The cedars of Lebanon, which he hath planted\" (",
+          "target": "). Ce sont tout particulièrement les arbres de Dieu : « Les arbres de Yahweh sont remplis de sève, les cèdres du Liban qu'il a plantés » (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": ").  Doubtless as a reminiscence of this the Syrians today call the cedar `ars er rubb, \"the cedar of the Lord.\" The growth of the cedar is typical of that of the righteous man (",
+          "target": "). Sans doute en souvenir de cela, les Syriens appellent aujourd'hui le cèdre `ars er rubb, « le cèdre du Seigneur ». La croissance du cèdre est une image de celle du juste (",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "That cedars were once very abundant in the Lebanon is evident (",
+          "target": "Que les cèdres aient autrefois été très abondants au Liban est évident (",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "tail",
+          "source": "). What they contributed to the glory and beauty of that district may be seen in ",
+          "target": "). On peut voir ce qu'ils apportaient à la gloire et à la beauté de cette région en ",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "tail",
+          "source": ":  \"Open thy doors, O Lebanon, that the fire may devour thy cedars. Wail, O fir-tree, for the cedar is fallen, because the glorious (Revised Version margin) ones are destroyed: Wail, O ye oaks of Bashan, for the strong forest is come down.\"  3. Cedar Timber:",
+          "target": " : « Ouvre tes portes, ô Liban, afin que le feu dévore tes cèdres. Gémis, ô cyprès, car le cèdre est tombé, parce que les arbres glorieux (marge de la Revised Version) ont été détruits ; gémissez, ô chênes de Basan, car la forêt puissante est abattue. »  3. Le bois de cèdre :",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "The wood of the cedar has always been highly prized--much more so than the sycamore (",
+          "target": "Le bois de cèdre a toujours été très prisé, bien davantage que le sycomore (",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "tail",
+          "source": "). David had a house of cedar built for him by Hiram, king of Tyre (",
+          "target": "). David se fit construire une maison de cèdre par Hiram, roi de Tyr (",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "tail",
+          "source": "), and he prepared \"cedar-trees without number\" for the temple which his son was to build (",
+          "target": "), et il prépara des « cèdres sans nombre » pour le temple que devait bâtir son fils (",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "tail",
+          "source": "). Cedar timber was very much used in the construction of Solomon's temple and palace, the trees being cut in the Lebanon by Sidonians by orders of the king of Tyre--\"Hiram gave Solomon timber of cedar and timber of fir according to all his desire\" (",
+          "target": "). Le bois de cèdre fut très largement employé dans la construction du temple et du palais de Salomon ; les arbres étaient abattus au Liban par des Sidoniens sur les ordres du roi de Tyr : « Hiram donna à Salomon du bois de cèdre et du bois de cyprès selon tout son désir » (",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "tail",
+          "source": "). One of Solomon's most important buildings was known as \"the house of the forest of Lebanon\" (",
+          "target": "). L'un des bâtiments les plus importants de Salomon était connu sous le nom de « maison de la forêt du Liban » (",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "tail",
+          "source": "), on account of the source of its materials. While cedar was well adapted for beams (",
+          "target": "), en raison de la provenance de ses matériaux. Si le cèdre convenait bien aux poutres (",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "tail",
+          "source": "), boards (",
+          "target": "), aux planches (",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "tail",
+          "source": "), pillars (",
+          "target": "), aux colonnes (",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "tail",
+          "source": ") and ceilings (",
+          "target": ") et aux plafonds (",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "tail",
+          "source": "), it was suited as well for carved work, such as idols (",
+          "target": "), il convenait aussi aux ouvrages sculptés, tels que les idoles (",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "tail",
+          "source": "). It was also used for ships' masts (",
+          "target": "). On l'employait également pour les mâts des navires (",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "4. Cedars in Modern Syria:",
+          "target": "4. Les cèdres dans la Syrie moderne :",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "The Cedrus libani still survives in the mountains of Syria and flourishes in much greater numbers in the Taurus mountains. \"There are groves of cedars above el-Ma`acir, Baruk, `Ain Zehaltah, Hadith, Besherri, and Sir\" (Post, Flora, 751). Of these the grove at Besherri is of world-wide renown. It consists of a group of about 400 trees, among them some magnificent old patriarchs, which lies on the bare slopes of the Lebanon some 6,000 ft. above the sea. Doubtless they are survivors of a forest which here once covered the mountain slopes for miles. The half a dozen highest specimens reach a height of between 70 and 80 ft., and have trunks of a circumference of 40 ft. or more. It is impossible to estimate with any certainty their age, but they may be as much as 800, or even 1,000, years old. Though magnificent, these are by no means the largest of their kind. Some of the cedars of Amanus are quite 100 ft. high and the Himalayan cedar, Cedrus deodara, a variety of Cedrus libani, reaches a height of 150 ft. The impressiveness of the cedar lies, however, not so much in its height and massive trunk, as in the wonderful lateral spread of its branches, which often exceeds its height. The branches grow out horizontally in successive tiers, each horizontal plane presenting, when looked at from above, the appearance of a green sward. The leaves are about an inch long, arranged in clusters; at first they are bright green, but they change with age to a deeper tint with a glaucous hue; the foliage is evergreen, the successive annual growths of leaves each lasting two years. The cones, 4 to 6 inches long, are oval or oblong-ovate, with a depression at times at the apex; they require two years to reach maturity and then, unlike other conifers, they remain attached to the tree, dropping out their scales bearing the seeds.",
+          "target": "Le Cedrus libani subsiste encore dans les montagnes de Syrie et prospère en bien plus grand nombre dans les montagnes du Taurus. « Il existe des bosquets de cèdres au-dessus d'el-Ma`acir, Baruk, `Ain Zehaltah, Hadith, Besherri et Sir » (Post, Flora, 751). Parmi ceux-ci, le bosquet de Besherri jouit d'une renommée mondiale. Il se compose d'un groupe d'environ 400 arbres, parmi lesquels de magnifiques vieux patriarches, qui se trouve sur les pentes dénudées du Liban, à quelque 6 000 pieds au-dessus de la mer. Ce sont sans doute les survivants d'une forêt qui couvrait autrefois les versants de la montagne sur des milles. La demi-douzaine de spécimens les plus élevés atteignent entre 70 et 80 pieds de hauteur et possèdent des troncs de 40 pieds de circonférence ou davantage. Il est impossible d'estimer leur âge avec certitude, mais ils peuvent avoir jusqu'à 800, voire 1 000 ans. Si magnifiques qu'ils soient, ils ne sont nullement les plus grands de leur espèce. Certains cèdres de l'Amanus atteignent bien 100 pieds de haut, et le cèdre de l'Himalaya, Cedrus deodara, variété du Cedrus libani, atteint une hauteur de 150 pieds. L'aspect imposant du cèdre tient cependant moins à sa hauteur et à son tronc massif qu'au merveilleux déploiement latéral de ses branches, qui dépasse souvent sa hauteur. Les branches poussent horizontalement en étages successifs, chaque plan horizontal présentant, vu d'en haut, l'aspect d'un tapis de verdure. Les feuilles, d'environ un pouce de long, sont disposées en bouquets ; elles sont d'abord d'un vert vif, mais prennent en vieillissant une teinte plus foncée aux reflets glauques ; le feuillage est persistant, les pousses annuelles successives de feuilles durant chacune deux ans. Les cônes, longs de quatre à six pouces, sont ovales ou oblongs-ovales, avec parfois une dépression au sommet ; ils demandent deux ans pour arriver à maturité et alors, contrairement à ceux d'autres conifères, restent attachés à l'arbre en laissant tomber leurs écailles portant les graines.",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "The wood of the cedar, specially grown under the conditions of its natural habitat, is hard, close grained, and takes a high polish. It is full of resin (",
+          "target": "Le bois du cèdre, surtout lorsqu'il a poussé dans les conditions de son habitat naturel, est dur, à grain serré, et prend un beau poli. Il est plein de résine (",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "tail",
+          "source": ") which preserves it from rot and from worms. Cedar oil, a kind of turpentine extracted from the wood, was used in ancient times as a preservative for parchments and garments.",
+          "target": "), qui le préserve de la pourriture et des vers. L'huile de cèdre, sorte de térébenthine extraite du bois, était utilisée dans l'Antiquité pour la conservation des parchemins et des vêtements.",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "E. W. G. Masterman",
+          "target": "E. W. G. Masterman",
+          "action": "preserve",
+          "reason": "Historical name, cross-reference or signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}

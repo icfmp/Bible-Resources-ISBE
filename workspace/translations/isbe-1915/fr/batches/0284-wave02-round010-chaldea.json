@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "source_work": "ISBE 1915 — corrected historical English master",
+  "source_sha256": "5df8a6d1311e3f5a83a6d961c6e09c27e042b0c68b4a9da54cb98821cb878d2c",
+  "language": "fr",
+  "status": "unreviewed_drafts",
+  "publication_permitted": false,
+  "articles": [
+    {
+      "source_key": "CHALDEA; CHALDEANS",
+      "article_id": "isbe-700c6627248d08e7e88a",
+      "source_article_sha256": "9d90a36186695bafb1883f90e78efa4056800d8fe3cd04509555a4e2c3b692e0",
+      "editorial_status": "complete_unreviewed_draft",
+      "units": [
+        {
+          "node": 1,
+          "part": "text",
+          "source": "CHALDEA; CHALDEANS",
+          "target": "CHALDÉE ; CHALDÉENS",
+          "action": "translate"
+        },
+        {
+          "node": 2,
+          "part": "text",
+          "source": "kal-de'-a, kal-de'-anz (kasdim, 'erets kasdim; Chaldaia, Chaldaioi):",
+          "target": "kal-de'-a, kal-de'-anz (kasdim, 'erets kasdim ; Chaldaia, Chaldaioi) :",
+          "action": "translate"
+        },
+        {
+          "node": 3,
+          "part": "text",
+          "source": "1. Geographical Position",
+          "target": "1. Situation géographique",
+          "action": "translate"
+        },
+        {
+          "node": 4,
+          "part": "text",
+          "source": "Seats of the Chaldeans",
+          "target": "Lieux d'établissement des Chaldéens",
+          "action": "translate"
+        },
+        {
+          "node": 5,
+          "part": "text",
+          "source": "2. Originally Sumero-Akkadian",
+          "target": "2. À l'origine suméro-akkadienne",
+          "action": "translate"
+        },
+        {
+          "node": 6,
+          "part": "text",
+          "source": "3. History of the Chaldean Tribes",
+          "target": "3. Histoire des tribus chaldéennes",
+          "action": "translate"
+        },
+        {
+          "node": 7,
+          "part": "text",
+          "source": "4. Merodach-baladan and Sargon of Assyria",
+          "target": "4. Merodac-Baladan et Sargon d'Assyrie",
+          "action": "translate"
+        },
+        {
+          "node": 8,
+          "part": "text",
+          "source": "5. Suzubu",
+          "target": "5. Suzubu",
+          "action": "preserve",
+          "reason": "Historical name, cross-reference or signature deliberately retained"
+        },
+        {
+          "node": 9,
+          "part": "text",
+          "source": "6. Musezib-Marduk",
+          "target": "6. Musezib-Marduk",
+          "action": "preserve",
+          "reason": "Historical name, cross-reference or signature deliberately retained"
+        },
+        {
+          "node": 10,
+          "part": "text",
+          "source": "7. Merodach-baladan's Son",
+          "target": "7. Le fils de Merodac-Baladan",
+          "action": "translate"
+        },
+        {
+          "node": 11,
+          "part": "text",
+          "source": "8. Na'id-Marduk",
+          "target": "8. Na'id-Marduk",
+          "action": "preserve",
+          "reason": "Historical name, cross-reference or signature deliberately retained"
+        },
+        {
+          "node": 12,
+          "part": "text",
+          "source": "9. Palia",
+          "target": "9. Palia",
+          "action": "preserve",
+          "reason": "Historical name, cross-reference or signature deliberately retained"
+        },
+        {
+          "node": 13,
+          "part": "text",
+          "source": "10. Nabu-bel-sumati and Others",
+          "target": "10. Nabu-bel-sumati et autres",
+          "action": "translate"
+        },
+        {
+          "node": 14,
+          "part": "text",
+          "source": "His Tragic End",
+          "target": "Sa fin tragique",
+          "action": "translate"
+        },
+        {
+          "node": 15,
+          "part": "text",
+          "source": "11. The Chaldeans Forge Ahead",
+          "target": "11. Les Chaldéens progressent",
+          "action": "translate"
+        },
+        {
+          "node": 16,
+          "part": "text",
+          "source": "12. Nabopolassar's Revolt against Assyria",
+          "target": "12. Révolte de Nabopolassar contre l'Assyrie",
+          "action": "translate"
+        },
+        {
+          "node": 17,
+          "part": "text",
+          "source": "13. The Chaldeans as Learned Men",
+          "target": "13. Les Chaldéens comme hommes de savoir",
+          "action": "translate"
+        },
+        {
+          "node": 18,
+          "part": "text",
+          "source": "\"Kasdim,\" \"land of Kasdim\" or \"the Chaldeans,\" is the usual designation, in the Old Testament, for the land and the people (",
+          "target": "« Kasdim », « pays de Kasdim » ou « les Chaldéens » est la désignation habituelle dans l'Ancien Testament du pays et du peuple (",
+          "action": "translate"
+        },
+        {
+          "node": 22,
+          "part": "tail",
+          "source": "). The corresponding Greek form with l for s follows the Assyr-Bab Kaldu, mat Kaldi, \"Chaldean, land of the Chaldeans.\" Kasdim is possibly connected with the name of Kesed (Kesedh), nephew of Abraham (",
+          "target": "). La forme grecque correspondante, avec l à la place de s, suit l'assyro-babylonien Kaldu, mat Kaldi, « Chaldéen, pays des Chaldéens ». Kasdim est peut-être apparenté au nom de Késed (Kesedh), neveu d'Abraham (",
+          "action": "translate"
+        },
+        {
+          "node": 23,
+          "part": "tail",
+          "source": "), and may be derived from the Assyr-Bab root kasadu, \"to capture,\" suggesting that the Chaldeans were originally tribes of nomadic plunderers (compare ",
+          "target": "), et peut dériver de la racine assyro-babylonienne kasadu, « capturer », ce qui suggère que les Chaldéens étaient à l'origine des tribus de pillards nomades (comparer ",
+          "action": "translate"
+        },
+        {
+          "node": 25,
+          "part": "text",
+          "source": "1. Geographical Position:",
+          "target": "1. Situation géographique :",
+          "action": "translate"
+        },
+        {
+          "node": 26,
+          "part": "text",
+          "source": "Seats of the Chaldeans:",
+          "target": "Lieux d'établissement des Chaldéens :",
+          "action": "translate"
+        },
+        {
+          "node": 27,
+          "part": "text",
+          "source": "In its widest acceptation, Chaldea is the name of the whole of Babylonia, owing to the fact that the Chaldeans had given more than one king to the country. In the strict sense, however, their domain was the tract at the Northwest end of the Persian Gulf, which was often called by the Assyro-Babylonians mat Tamtim, \"the Land of the Sea,\" a province of unknown extent. When these tribes migrated into Babylonia is uncertain, as is also their original home; but as they are closely related to the Arameans, it is possible that their first settlements lay in the neighborhood of the Aramean states bordering on the Holy Land. Tiglath-pileser IV (742 BC) speaks of the ra'asani or chiefs of the Kaldu, and the mention of numerous Aramean tribes in Babylonia itself shows that their example of settling there soon found imitators, as did the Anglo-Saxons when they invaded Britain. Among the Chaldean tribes in Babylonia may be mentioned Bit Amukkani, whose capital was Sapia; Bit Yakin which furnished the dynasty to which Merodach-baladan II belonged; and probably also Bit Dakkuri, as all three lay near the Persian Gulf. Sargon of Assyria excludes Bit-Amukkani and Bit-Dakkuri, and speaks of \"the whole of the land of Chaldea, as much as there is; the land of Bit-Yakini, on the shore of the Salt River (the Persian Gulf), to the border of Tilmun\" (the island of Bahrein and the adjacent mainland) (Pavement Inscr., IV, ll. 82, 83, 85, 86). It was probably the influence of theBabylonians among whom they settled which changed these nomads into city-dwellers. Sennacherib refers to 75 (var. 89) strong cities and fortresses of Chaldea, and 420 (var. 800) smaller towns which were around them; and there were also Chaldeans (and Arameans) in Erech, Nippur (Calneh), Kis, Hursag-kalama, Cuthah, and probably Babylon.",
+          "target": "Dans son acception la plus large, Chaldée est le nom de toute la Babylonie, du fait que les Chaldéens avaient donné plus d'un roi au pays. Au sens strict, cependant, leur domaine était la région située à l'extrémité nord-ouest du golfe Persique, souvent appelée par les Assyro-Babyloniens mat Tamtim, « le pays de la mer », province d'étendue inconnue. On ne sait quand ces tribus émigrèrent en Babylonie, ni d'où elles étaient originaires ; mais comme elles sont étroitement apparentées aux Araméens, il est possible que leurs premiers établissements se soient trouvés au voisinage des États araméens limitrophes de la Terre sainte. Tiglath-Piléser IV (742 av. J.-C.) parle des ra'asani, ou chefs des Kaldu, et la mention de nombreuses tribus araméennes en Babylonie même montre que leur exemple d'établissement dans ce pays trouva bientôt des imitateurs, comme ce fut le cas des Anglo-Saxons lorsqu'ils envahirent la Grande-Bretagne. Parmi les tribus chaldéennes de Babylonie, on peut mentionner Bit-Amukkani, dont la capitale était Sapia ; Bit-Yakin, qui fournit la dynastie à laquelle appartenait Merodac-Baladan II ; et probablement aussi Bit-Dakkuri, car toutes trois se trouvaient près du golfe Persique. Sargon d'Assyrie exclut Bit-Amukkani et Bit-Dakkuri et parle de « tout le pays de Chaldée, dans toute son étendue ; le pays de Bit-Yakini, au bord du fleuve salé (le golfe Persique), jusqu'à la frontière de Tilmun » (l'île de Bahreïn et le continent adjacent) (Pavement Inscr., IV, ll. 82, 83, 85, 86). Ce fut probablement l'influence des Babyloniens au milieu desquels ils s'établirent qui transforma ces nomades en citadins. Sanchérib mentionne 75 (variante : 89) villes fortes et forteresses de Chaldée, ainsi que 420 (variante : 800) petites villes qui les entouraient ; il y avait également des Chaldéens (et des Araméens) à Érec, Nippur (Calné), Kis, Hursag-kalama, Cutha et probablement Babylone.",
+          "action": "translate"
+        },
+        {
+          "node": 28,
+          "part": "text",
+          "source": "2. Originally Sumero-Akkadian:",
+          "target": "2. À l'origine suméro-akkadienne :",
+          "action": "translate"
+        },
+        {
+          "node": 29,
+          "part": "text",
+          "source": "The \"land of the sea\" (mat Tamtim)is mentioned in the chronicle of the early Babylonian kings (rev. 14) as being governed by Ea-gamil, contemporary of Samsu-Titana (circa 1900 BC), but at that period it was apparently one of the original Sumero-Akkadian states of Babylonia. It is doubtful whether, at that early date, the Chaldeans had entered Babylonia and founded settlements there, though the record mentions Arameans somewhat later on.",
+          "target": "Le « pays de la mer » (mat Tamtim) est mentionné dans la chronique des premiers rois babyloniens (verso, 14) comme étant gouverné par Ea-gamil, contemporain de Samsu-Titana (vers 1900 av. J.-C.), mais à cette époque il était apparemment l'un des États suméro-akkadiens originels de Babylonie. Il est douteux qu'à cette époque reculée les Chaldéens aient pénétré en Babylonie et y aient fondé des établissements, bien que le document mentionne des Araméens un peu plus tard.",
+          "action": "translate"
+        },
+        {
+          "node": 30,
+          "part": "text",
+          "source": "3. History of the Chaldean Tribes:",
+          "target": "3. Histoire des tribus chaldéennes :",
+          "action": "translate"
+        },
+        {
+          "node": 31,
+          "part": "text",
+          "source": "One of the earliest references to the Chaldeans is that of Shalmaneser II of Assyria, who, on invading Babylonia in the eponymy of Belbunaya (851 BC), captured the city Baqani, which belonged to Adini of the Chaldean tribe of Dakuri. After plundering and destroying the place, Shalmaneser attacked Enzudi, the capital, whereupon Adini submitted and paid tribute. On this occasion Yakini of \"the Land of the Sea,\" also paid tribute, as did Musallim-Marduk, son of Amukkani (the Bit-Amukkani mentioned above). The next Assyrian ruler to mention the country is Adadnirari III (810 BC), who speaks of all the kings of the Chaldeans, which evidently refers to the various states into which the Chaldean tribes were divided. Later on, Sargon of Assyria, in his 12th year, decided to break the power of Merodach-baladan, who had made himself master of Babylon. To effect this, he first defeated the Gambulians, who were the Chaldean king's supporters, and the Elamites, his allies over the border. The Chaldean, however, did not await the Assyrian king's attack, but escaped to Yatburu in Elam, leaving considerable spoil behind him.",
+          "target": "L'une des premières mentions des Chaldéens est celle de Salmanasar II d'Assyrie, qui, envahissant la Babylonie sous l'éponymat de Belbunaya (851 av. J.-C.), prit la ville de Baqani, qui appartenait à Adini, de la tribu chaldéenne de Dakuri. Après avoir pillé et détruit le lieu, Salmanasar attaqua Enzudi, la capitale, sur quoi Adini se soumit et paya tribut. À cette occasion, Yakini du « pays de la mer » paya lui aussi tribut, de même que Musallim-Marduk, fils d'Amukkani (le Bit-Amukkani mentionné plus haut). Le souverain assyrien suivant à mentionner le pays est Adadnirari III (810 av. J.-C.), qui parle de tous les rois des Chaldéens, ce qui désigne manifestement les divers États entre lesquels les tribus chaldéennes étaient divisées. Plus tard, Sargon d'Assyrie, dans la douzième année de son règne, décida de briser la puissance de Merodac-Baladan, qui s'était rendu maître de Babylone. Pour y parvenir, il vainquit d'abord les Gambuliens, partisans du roi chaldéen, et les Élamites, ses alliés de l'autre côté de la frontière. Le Chaldéen, cependant, n'attendit pas l'attaque du roi assyrien, mais s'échappa vers Yatburu, en Élam, laissant derrière lui un butin considérable.",
+          "action": "translate"
+        },
+        {
+          "node": 32,
+          "part": "text",
+          "source": "4. Merodach-baladan and Sargon of Assyria:",
+          "target": "4. Merodac-Baladan et Sargon d'Assyrie :",
+          "action": "translate"
+        },
+        {
+          "node": 33,
+          "part": "text",
+          "source": "Though extensive operations were carried out, and much booty taken, the end of the campaign seems only to have come two years later, when Dur-Yakin was destroyed by fire and reduced to ruins. In the \"Annals of Hall XIV\" Sargon claims to have taken Merodach-baladan prisoner, but this seems doubtful. Merodach-baladan fled, but returned and mounted the throne again on Sargon's death in 705 BC. Six months later Sennacherib, in his turn, attacked him, and he again sought safety in flight.",
+          "target": "Bien que de vastes opérations aient été menées et qu'un abondant butin ait été pris, la fin de la campagne ne semble être survenue que deux ans plus tard, lorsque Dur-Yakin fut détruite par le feu et réduite en ruines. Dans les « Annales de la salle XIV », Sargon prétend avoir fait Merodac-Baladan prisonnier, mais cela paraît douteux. Merodac-Baladan s'enfuit, mais revint et remonta sur le trône à la mort de Sargon en 705 av. J.-C. Six mois plus tard, Sanchérib l'attaqua à son tour, et il chercha de nouveau son salut dans la fuite.",
+          "action": "translate"
+        },
+        {
+          "node": 34,
+          "part": "text",
+          "source": "5. Suzubu:",
+          "target": "5. Suzubu :",
+          "action": "translate"
+        },
+        {
+          "node": 35,
+          "part": "text",
+          "source": "A Chaldean chief named Suzubu, however, now came forward, and proclaimed himself king of Babylon, but being defeated, he likewise fled. Later on, Sennacherib attacked the Chaldeans at Nagitu and other settlements in Elamite-territory which Merodach-baladan and his followers had founded.",
+          "target": "Un chef chaldéen nommé Suzubu se présenta cependant alors et se proclama roi de Babylone ; mais, ayant été vaincu, il s'enfuit lui aussi. Plus tard, Sanchérib attaqua les Chaldéens à Nagitu et dans d'autres établissements en territoire élamite que Merodac-Baladan et ses partisans avaient fondés.",
+          "action": "translate"
+        },
+        {
+          "node": 36,
+          "part": "text",
+          "source": "6. Musezib-Marduk:",
+          "target": "6. Musezib-Marduk :",
+          "action": "translate"
+        },
+        {
+          "node": 37,
+          "part": "text",
+          "source": "After the death of Merodach-baladan, yet another Chaldean, whom Sennacherib calls likewise Suzubu, but whose full name was Musezib-Marduk, mounted the Babylonian throne. This ruler applied for help against Sennacherib of Assyria to Umman-menanu, the king of Elam, who, taking the bribe which was offered, supported him with an armed force, and a battle was fought at Chalule on the Tigris, in which Sennacherib claims the victory--probably rightly. Musezib-Marduk reigned 4 years, and was taken prisoner by his whilom ally, Umman-menanu, who sent him to Assyria.",
+          "target": "Après la mort de Merodac-Baladan, un autre Chaldéen encore, que Sanchérib appelle également Suzubu, mais dont le nom complet était Musezib-Marduk, monta sur le trône de Babylone. Ce souverain demanda de l'aide contre Sanchérib d'Assyrie à Umman-menanu, roi d'Élam, qui, acceptant le présent qui lui était offert pour l'acheter, lui fournit une force armée ; une bataille fut livrée à Chalule, sur le Tigre, dont Sanchérib revendique la victoire — probablement à juste titre. Musezib-Marduk régna quatre ans et fut fait prisonnier par son ancien allié Umman-menanu, qui l'envoya en Assyrie.",
+          "action": "translate"
+        },
+        {
+          "node": 38,
+          "part": "text",
+          "source": "7. Merodach-baladan's Son:",
+          "target": "7. Le fils de Merodac-Baladan :",
+          "action": "translate"
+        },
+        {
+          "node": 39,
+          "part": "text",
+          "source": "In the reign of Esarhaddon, Nabu-zer-napistilisir, one of the sons of Merodach-baladan, gathered an army at Larsa, but was defeated by the Assyrians, and fled to Elam. The king of that country, however, wishing to be on friendly terms with Esarhaddon, captured him and put him to death.",
+          "target": "Sous le règne d'Ésar-Haddon, Nabu-zer-napistilisir, l'un des fils de Merodac-Baladan, rassembla une armée à Larsa, mais fut vaincu par les Assyriens et s'enfuit en Élam. Toutefois, le roi de ce pays, désireux d'entretenir des relations amicales avec Ésar-Haddon, le captura et le mit à mort.",
+          "action": "translate"
+        },
+        {
+          "node": 40,
+          "part": "text",
+          "source": "8. Na'id-Marduk:",
+          "target": "8. Na'id-Marduk :",
+          "action": "translate"
+        },
+        {
+          "node": 41,
+          "part": "text",
+          "source": "This prince had a brother named Na'id-Marduk, who, not feeling himself safe in the country which had acted treacherously toward his house, fled, and made submission to Esarhaddon, who received him favorably, and restored to him the dominion of the \"Land of the Sea.\" This moderation secured the fidelity of the Chaldeans, and when the Elamite Urtaku sent inviting them to revolt against their suzerain, they answered to the effect that Na'id-Marduk was their lord, and they were the servants of the king of Assyria. This took place probably about 650 BC, in the reign of Esarhaddon's son Assur-bani-apli (see ",
+          "target": "Ce prince avait un frère nommé Na'id-Marduk qui, ne se sentant pas en sûreté dans le pays qui avait agi avec perfidie envers sa maison, s'enfuit et se soumit à Ésar-Haddon, lequel le reçut favorablement et lui restitua la domination sur le « pays de la mer ». Cette modération assura la fidélité des Chaldéens, et lorsque l'Élamite Urtaku les fit inviter à se révolter contre leur suzerain, ils répondirent en substance que Na'id-Marduk était leur seigneur et qu'ils étaient les serviteurs du roi d'Assyrie. Cela se produisit probablement vers 650 av. J.-C., sous le règne d'Assur-bani-apli, fils d'Ésar-Haddon (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 42,
+          "part": "text",
+          "source": "OSNAPPAR",
+          "target": "OSNAPPAR",
+          "action": "preserve",
+          "reason": "Historical name, cross-reference or signature deliberately retained"
+        },
+        {
+          "node": 43,
+          "part": "text",
+          "source": "9. Palia:",
+          "target": "9. Palia :",
+          "action": "translate"
+        },
+        {
+          "node": 44,
+          "part": "text",
+          "source": "Hostility to Assyria, however, continued to exist in the tribe, Palia, grandson of Merodach-baladan, being one of the prisoners taken by Assur-bani-apli's troops in their operations against the Gambulians (a Babylonian, and perhaps a Chaldean tribe) later on. It was only during the struggle of Samas-sumukin (Saosduchimos), king of Babylon, Assur-banl-apli's brother, however, that they took sides against Assyria as a nationality. This change was due to the invitation of the Babylonian king--who may have been regarded, rather than Assur-bani-apli, as their overlord.",
+          "target": "L'hostilité envers l'Assyrie continua cependant d'exister dans la tribu : Palia, petit-fils de Merodac-Baladan, fut l'un des prisonniers faits plus tard par les troupes d'Assur-bani-apli dans leurs opérations contre les Gambuliens (tribu babylonienne, et peut-être chaldéenne). Ce ne fut toutefois que pendant la lutte de Samas-sumukin (Saosduchimos), roi de Babylone et frère d'Assur-banl-apli, qu'ils prirent, en tant que peuple, parti contre l'Assyrie. Ce changement était dû à l'invitation du roi babylonien, qui pouvait être considéré, plutôt qu'Assur-bani-apli, comme leur suzerain.",
+          "action": "translate"
+        },
+        {
+          "node": 45,
+          "part": "text",
+          "source": "10. Nabu-bel-sumati:",
+          "target": "10. Nabu-bel-sumati :",
+          "action": "translate"
+        },
+        {
+          "node": 46,
+          "part": "text",
+          "source": "The chief of the Chaldeans was at that time another grandson of Merodach-baladan, Nabu-bel-sumati, who seized the Assyrians in his domain, and placed them in bonds. The Chaldeans suffered, with the rest, in the great defeat of the Babylonian and allied forces, when Babylon and the chief cities of the land fell. Mannu-ki-Babili of the Dakkurians, Ea-sum-ikisa of Bit-Amukkani, with other Chaldean states, were punished for their complicity in Samas-sum-ukin's revolt, while Nabu-bel-sumati fled and found refuge at the court of Indabigas, king of Elam. Assur-bani-apli at once demanded his surrender, but civil war in Elam broke out, in which Indabigas was slain, and Ummanaldas mounted the throne.",
+          "target": "Le chef des Chaldéens était à cette époque un autre petit-fils de Merodac-Baladan, Nabu-bel-sumati, qui s'empara des Assyriens présents sur son domaine et les mit aux fers. Les Chaldéens souffrirent, comme les autres, de la grande défaite des forces babyloniennes et alliées, lorsque Babylone et les principales villes du pays tombèrent. Mannu-ki-Babili des Dakkuriens, Ea-sum-ikisa de Bit-Amukkani, ainsi que d'autres États chaldéens, furent punis de leur complicité dans la révolte de Samas-sum-ukin, tandis que Nabu-bel-sumati s'enfuit et trouva refuge à la cour d'Indabigas, roi d'Élam. Assur-bani-apli exigea aussitôt qu'il lui soit livré, mais une guerre civile éclata en Élam, au cours de laquelle Indabigas fut tué et Ummanaldas monta sur le trône.",
+          "action": "translate"
+        },
+        {
+          "node": 47,
+          "part": "text",
+          "source": "His Tragic End:",
+          "target": "Sa fin tragique :",
+          "action": "translate"
+        },
+        {
+          "node": 48,
+          "part": "text",
+          "source": "This demand was now renewed, and Nabu-bel-sumati, fearing that he would be surrendered, decided to end his life. He therefore directed his armor-bearer to dispatch him, and each ran the other through with his sword. The prince's corpse, with the head of his armor-bearer, were then sent, with some of the Chaldean fugitives, to Assyria, and presented to the king. Thus ended, for a time, Chaldean ambition in Babylonia and in the domain of eastern politics.",
+          "target": "Cette demande fut alors renouvelée, et Nabu-bel-sumati, craignant d'être livré, décida de mettre fin à ses jours. Il ordonna donc à son porteur d'armes de lui donner la mort, et chacun transperça l'autre de son épée. Le corps du prince, ainsi que la tête de son porteur d'armes, furent ensuite envoyés en Assyrie avec quelques-uns des fugitifs chaldéens et présentés au roi. Ainsi prit fin, pour un temps, l'ambition chaldéenne en Babylonie et dans le domaine de la politique orientale.",
+          "action": "translate"
+        },
+        {
+          "node": 49,
+          "part": "text",
+          "source": "11. The Chaldeans Forge Ahead:",
+          "target": "11. Les Chaldéens progressent :",
+          "action": "translate"
+        },
+        {
+          "node": 50,
+          "part": "text",
+          "source": "With the death of Assur-bani-apli, which took place about 626 BC, the power of Assyria fell, his successors being probably far less capable men than he. This gave occasion for many plots against the Assyrian empire, and the Chaldeans probably took part in the general movement. In the time of Saracus (Sin-sarra-iskun of Assyria, circa 620 BC) Busalossor would seem to have been appointed general of the forces in Babylonia in consequence of an apprehended invasion of barbarians from the sea (the Persian Gulf) (Eusebius, Chronicon, book i).",
+          "target": "Avec la mort d'Assur-bani-apli, qui eut lieu vers 626 av. J.-C., la puissance de l'Assyrie déclina, ses successeurs étant probablement des hommes beaucoup moins capables que lui. Cela donna lieu à de nombreux complots contre l'empire assyrien, et les Chaldéens participèrent probablement au mouvement général. Au temps de Saracus (Sin-sarra-iskun d'Assyrie, vers 620 av. J.-C.), Busalossor semble avoir été nommé général des forces en Babylonie en raison d'une invasion redoutée de barbares venus de la mer (le golfe Persique) (Eusèbe, Chronicon, livre i).",
+          "action": "translate"
+        },
+        {
+          "node": 51,
+          "part": "text",
+          "source": "12. Nabopolassar's Revolt against Assyria:",
+          "target": "12. Révolte de Nabopolassar contre l'Assyrie :",
+          "action": "translate"
+        },
+        {
+          "node": 52,
+          "part": "text",
+          "source": "The new general, however, revolted against the Assyrians, and made himself master of Babylonia. As, in other cases, the Assyrians seem to have been exceedingly faithful to their king, it has been thought possible that this general, who was none other than Nabopolassar, the father of Nebuchadpolassar's rezzar, was not really an Assyrian, but a Babylonian, and probably a Chaldean. This theory; if correct, would explain how Babylonia, in its fullest sense, obtained the name of Chaldea, and was no longer known as the land of Shinar (",
+          "target": "Cependant, le nouveau général se révolta contre les Assyriens et se rendit maître de la Babylonie. Comme, dans d'autres cas, les Assyriens semblent avoir été extrêmement fidèles à leur roi, on a pensé qu'il était possible que ce général, qui n'était autre que Nabopolassar, père de Nebuchadpolassar's rezzar, n'ait pas été en réalité un Assyrien, mais un Babylonien et probablement un Chaldéen. Cette théorie, si elle est exacte, expliquerait comment la Babylonie, dans toute son étendue, reçut le nom de Chaldée et ne fut plus connue comme le pays de Schinear (",
+          "action": "translate"
+        },
+        {
+          "node": 53,
+          "part": "tail",
+          "source": "). The reputation of Merodach-baladan, the contemporary of Hezekiah, may have been partly responsible for the change of name.",
+          "target": "). La réputation de Merodac-Baladan, contemporain d'Ézéchias, peut avoir été en partie responsable de ce changement de nom.",
+          "action": "translate"
+        },
+        {
+          "node": 54,
+          "part": "text",
+          "source": "13. The Chaldeans as Learned Men:",
+          "target": "13. Les Chaldéens comme hommes de savoir :",
+          "action": "translate"
+        },
+        {
+          "node": 55,
+          "part": "text",
+          "source": "It was not in the restricted sense, but as a synonym of Babylonian, that the name Chaldean obtained the signification of \"wise man.\" That the Chaldeans in the restricted and correct sense were more learned than, or even as learned as, the Babylonians in general, is unlikely. Moreover, the native inscriptions give no indication that this was the case. The Babylonians in general, on the other hand, were enthusiastic students from very early times. From their inscriptions, it is certain that among their centers of learning may be classed Sippar and Larsa, the chief seats of sun-worship; Nippur, identified with the Calneh of ",
+          "target": "Ce n'est pas au sens restreint, mais comme synonyme de Babylonien, que le nom de Chaldéen a acquis la signification d'« homme sage ». Il est peu probable que les Chaldéens au sens restreint et exact aient été plus savants que les Babyloniens en général, ou même aussi savants qu'eux. En outre, les inscriptions indigènes ne donnent aucune indication que tel ait été le cas. Les Babyloniens en général, en revanche, furent des étudiants passionnés dès les temps les plus anciens. D'après leurs inscriptions, il est certain que l'on peut compter parmi leurs centres de savoir Sippar et Larsa, principaux sièges du culte solaire ; Nippur, identifié au Calné de ",
+          "action": "translate"
+        },
+        {
+          "node": 56,
+          "part": "tail",
+          "source": "; Babylon, the capital; Borsippa in the neighborhood of Babylon; Ur of the Chaldees; and Erech. There is, also, every probability that this list could be extended, and will be extended, when we know more; for wherever an important temple existed, there was to be found also a priestly school. \"The learning of the Chaldeans\" (",
+          "target": " ; Babylone, la capitale ; Borsippa, au voisinage de Babylone ; Ur des Chaldéens ; et Érec. Il est également tout à fait probable que cette liste pourrait être étendue et le sera lorsque nous en saurons davantage ; car partout où existait un temple important, on trouvait également une école sacerdotale. « Le savoir des Chaldéens » (",
+          "action": "translate"
+        },
+        {
+          "node": 61,
+          "part": "tail",
+          "source": ") comprised the old languages of Babylonia (the two dialects of Sumerian, with a certain knowledge of Kassite, which seems to have been allied to the Hittite; and other languages of the immediate neighborhood); some knowledge of astronomy and astrology; mathematics, which their sexagesimal system of numeration seems to have facilitated; and a certain amount of natural history. To this must be added a store of mythological learning, including legends of the Creation, the Flood (closely resembling in all its main points the account in the Bible), and apparently also the Temptation and the Fall. They had likewise a good knowledge of agriculture, and were no mean architects, as the many celebrated buildings of Babylonia show--compare not only the descriptions of the Temple of Belus (see ",
+          "target": ") comprenait les anciennes langues de Babylonie (les deux dialectes du sumérien, avec une certaine connaissance du kassite, qui semble avoir été apparenté au hittite, et d'autres langues du voisinage immédiat) ; quelques connaissances en astronomie et en astrologie ; les mathématiques, que leur système sexagésimal de numération semble avoir facilitées ; et certaines connaissances en histoire naturelle. À cela il faut ajouter un fonds de connaissances mythologiques, comprenant des légendes de la Création, du Déluge (ressemblant étroitement dans tous ses points principaux au récit de la Bible), et apparemment aussi de la Tentation et de la Chute. Ils avaient également une bonne connaissance de l'agriculture et étaient des architectes de mérite, comme le montrent les nombreux édifices célèbres de Babylonie : comparer non seulement les descriptions du temple de Bélus (voir ",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "text",
+          "source": "BABEL, TOWER OF",
+          "target": "BABEL, TOUR DE",
+          "action": "translate"
+        },
+        {
+          "node": 62,
+          "part": "tail",
+          "source": ") and the Hanging Gardens, but also the remains of Gudea's great palace at Lagas (Tel-loh), where that ruler, who lived about 2500 BC, is twice represented as an architect, with plan and with rule and measure. (These statues are now in the Louvre.) That their architecture never attained the elegance which characterized that of the West, is probably due to the absence of stone, necessitating the employment of brick as a substitute (",
+          "target": ") et des jardins suspendus, mais aussi les vestiges du grand palais de Gudéa à Lagash (Tel-loh), où ce souverain, qui vécut vers 2500 av. J.-C., est représenté deux fois comme architecte, avec un plan et avec une règle et une mesure. (Ces statues sont aujourd'hui au Louvre.) Que leur architecture n'ait jamais atteint l'élégance qui caractérisait celle de l'Occident est probablement dû à l'absence de pierre, qui rendait nécessaire l'emploi de la brique à sa place (",
+          "action": "translate"
+        },
+        {
+          "node": 64,
+          "part": "text",
+          "source": "See ",
+          "target": "Voir ",
+          "action": "translate"
+        },
+        {
+          "node": 65,
+          "part": "text",
+          "source": "BABYLONIA",
+          "target": "BABYLONIE",
+          "action": "translate"
+        },
+        {
+          "node": 66,
+          "part": "text",
+          "source": "SHINAR",
+          "target": "SCHINEAR",
+          "action": "translate"
+        },
+        {
+          "node": 67,
+          "part": "text",
+          "source": "T. G. Pinches",
+          "target": "T. G. Pinches",
+          "action": "preserve",
+          "reason": "Historical name, cross-reference or signature deliberately retained"
+        }
+      ]
+    }
+  ]
+}
